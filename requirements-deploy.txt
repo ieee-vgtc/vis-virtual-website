@@ -1,0 +1,8 @@
+flask
+frozen-flask
+Flask-Markdown
+tqdm
+PyYAML
+boto3
+python-magic
+python-frontmatter

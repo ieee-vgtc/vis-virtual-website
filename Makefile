@@ -43,3 +43,6 @@ deploy: freeze
 	git checkout @{-1}
 	@echo "Deployed to gh-pages 🚀"
 
+build-deploy:
+	freeze
+	cd build && ../scripts/sync_with_s3_boto.py master virtual.ieeevis.org
