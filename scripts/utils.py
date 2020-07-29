@@ -38,7 +38,7 @@ def diff_local_remote_buckets(local, remote):
     same = [k for (k, v) in local.iteritems()
             if remote.get(k, {}).get("ETag", "")[1:-1] == v.get('ETag')]
     diff = [k for (k, v) in local.iteritems()
-            if (k in remote and remote.get(k, {}).get("ETag", "")[1:-1] <> v.get('ETag'))]
+            if (k in remote and remote.get(k, {}).get("ETag", "")[1:-1] != v.get('ETag'))]
     return { "to_insert": here_but_not_there,
              "to_delete": there_but_not_here,
              "same": same,
