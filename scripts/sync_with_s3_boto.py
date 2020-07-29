@@ -22,7 +22,7 @@ def local_info():
     local_files_to_check = find_files()
     for f in local_files_to_check:
         h = hashlib.md5()
-        h.update(open(f).read())
+        h.update(open(f, 'rb').read())
         result[f[2:]] = {"ETag": h.hexdigest()}
     return result
 
@@ -40,17 +40,18 @@ def delete_objects(objs):
 def put_objects(objs):
     for obj in objs:
         mime_type = my_guess_mimetype(obj)
-        f = open(obj)
+        f = open(obj, 'rb')
         print("bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type)))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type,
                           Metadata={ "git_sha": branch_sha })
 
 def run_cmd_get_lines(*cmd):
-    return subprocess.check_output(list(cmd)).split('\n')
+    # return subprocess.check_output(list(cmd)).split('\n')
+    return subprocess.run(list(cmd), check=True, stdout=subprocess.PIPE, universal_newlines=True).stdout.split('\n')
 
 def check_if_git_is_clean():
-    l = filter(lambda s: s.startswith('* '), run_cmd_get_lines('git', 'branch'))
+    l = list(filter(lambda s: s.startswith('* '), run_cmd_get_lines('git', 'branch')))
     if len(l) != 1:
         raise Exception("Expected *some* branch to be selected, got %s instead." % l)
 
@@ -60,12 +61,12 @@ def check_if_git_is_clean():
         raise Exception("Need git to be in the correct branch.\nExpected to be in branch '%s', but it seems we're in branch '%s' instead." %
                         (git_branch_name, branch))
     
-    l = filter(lambda s: s != '', run_cmd_get_lines('git', 'status', '--porcelain'))
+    l = list(filter(lambda s: s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
     if len(l) != 0:
         raise Exception("Expected git working tree to be clean, but it appears not to be.")
     
     # grab the appropriate remote
-    l = filter(lambda s: 'fetch' in s, run_cmd_get_lines('git', 'remote', '-v'))
+    l = list(filter(lambda s: 'fetch' in s, run_cmd_get_lines('git', 'remote', '-v')))
     if len(l) != 1:
         raise Exception("Found more than one remote: %s" % l)
 
@@ -74,13 +75,13 @@ def check_if_git_is_clean():
     print("Will use remote %s" % git_remote)
     remote_ref = 'refs/heads/%s' % branch
 
-    l = filter(lambda s: remote_ref in s,
-               run_cmd_get_lines('git', 'ls-remote', git_remote))
+    l = list(filter(lambda s: remote_ref in s,
+               run_cmd_get_lines('git', 'ls-remote', git_remote)))
     if len(l) != 1:
         raise Exception("Expected exactly one remote ref, got %s instead" % str(l))
 
     remote_sha = l[0].split()[0]
-    l = filter(lambda s: s.startswith('*'), run_cmd_get_lines('git', 'branch', '-v'))
+    l = list(filter(lambda s: s.startswith('*'), run_cmd_get_lines('git', 'branch', '-v')))
     if len(l) != 1:
         raise Exception("More than one active branch?! %s" % l)
     local_branch_sha = l[0].split()[2]
