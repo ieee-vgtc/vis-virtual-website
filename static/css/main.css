@@ -1,3 +1,4 @@
+
 body a {
   color: #2294e0;
 }
@@ -9,16 +10,17 @@ body a:hover {
 
 h2,
 h3 {
-  font-family: "Lato";
+  font-family: "Zilla Slab SemiBold";
+  font-weight: bold;
 }
 
 label:text-muted,
 .nav-link {
-  font-family: "Lato";
+  font-family: "Fira Sans";
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: rgba(236, 241, 246, 1);
 }
 
@@ -27,7 +29,7 @@ body {
 }
 
 .jumbotron {
-  font-family: "Lato", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: rgba(236, 241, 246, 1);
 }
 
@@ -45,11 +47,11 @@ body {
 }
 
 .header {
-  font: "Montserrat";
+  font: "Zilla Slab";
 }
 
 .pp-card {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
   box-shadow: 0 0 14px 0 rgba(204, 204, 204, 1);
   margin-bottom: 1em;
   display: block;
@@ -58,7 +60,7 @@ body {
 
 .pp-card-header {
   border: 4px solid #eee;
-  font-family: "Exo";
+  font-family: "Zilla Slab";
   height: 340px;
   padding-top: 10px;
   padding-left: 15px;
@@ -96,15 +98,15 @@ body .nav-pills .nav-link.active {
 }
 
 .card {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .card-header {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .card-header .card-title {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .cards.myCard {
@@ -141,7 +143,7 @@ h3.card-subtitle.text-muted {
 .main-title {
   font-weight: 700;
   color: #2294e0;
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .myAccordion {
@@ -206,6 +208,11 @@ h3.card-subtitle.text-muted {
   transform: translateX(-200%);
 }
 
+#main-nav {
+  /* background-color: #b9aba1; */
+  background-image: url('/static/css/hex-pattern.png');
+}
+
 div.anchor {
   display: block;
   position: relative;
@@ -230,7 +237,7 @@ tr.fc-list-item {
 }
 
 .details {
-  font-family: "Lato", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 #abstractExample.collapse:not(.show) {
