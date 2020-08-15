@@ -44,4 +44,7 @@ deploy: freeze
 	@echo "Deployed to gh-pages 🚀"
 
 build-deploy: freeze
-	cd build && ../scripts/sync_with_s3_boto.py master virtual.ieeevis.org
+	cd build && python3 ../scripts/sync_with_s3_boto.py master virtual-staging.ieeevis.org
+
+build-deploy-production: freeze
+	cd build && python3 ../scripts/sync_with_s3_boto.py production virtual.ieeevis.org

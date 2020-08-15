@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-import magic
 import mimetypes
 import subprocess
+
+import magic
 
 ##############################################################################
 # utterly shocking that it's 2016 and no one has integrated mimetypes and

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
-import boto3
-
+import hashlib
+import json
+import os
+import re
 import subprocess
 import sys
-import json
-import hashlib
-import re
-import os
+
+import boto3
 
 from utils import *
 
