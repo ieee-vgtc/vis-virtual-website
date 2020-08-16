@@ -5,8 +5,6 @@ import requests
 
 from ics.icalendar import Calendar
 
-# import ics
-
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="MiniConf Calendar Command Line")
