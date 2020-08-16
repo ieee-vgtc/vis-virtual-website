@@ -1,15 +1,15 @@
 ## Author: Alper Sarikaya
-## Last modified: 2020-07-28
-## This script should be run on every commit to an active branch on this repository.
-## This action will build the entire site from scratch and deploy to the staging S3 bucket.
+## Last modified: 2020-08-15
+## This script should be run on every commit to the production branch on this repository.
+## This action will build the entire site from scratch and deploy to the production S3 bucket (virtual.ieeevis.org).
 
-name: build and deploy
+name: build and deploy production
 
 on:
   push:
-    # build and deploy whenever someone pushes to master
+    # build and deploy whenever someone from web completes a PR to update production from master
     branches: 
-      - master
+      - production
 
 jobs:
   build:
@@ -41,6 +41,6 @@ jobs:
       env:
         IEEEVIS_AWS_USER: default
       run: |
-        make build-deploy
+        make build-deploy-production
       
     
