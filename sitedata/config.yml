@@ -5,7 +5,7 @@ citation_date: May 2020
 proceedings_title: Proceedings of the IEEE VIS 2020 Conference
 analytics: UA-
 logo:
-  image: static/images/vis2020_logo_live.svg
+  image: static/images/vis2020_logo_virtual.svg
   width: 250px
   height: auto
 # uncomment the following line to show the site title next to the logo image
@@ -33,7 +33,5 @@ auth0_domain : miniconf.auth0.com
 
 calendar:
   colors: #  Colors for the different event hashtags:
-    ---: '#bed972'
-    qa: '#4FCAEB'
-    talk: '#ccc'
+    ---: '#edf2f7'
   sunday_saturday: false  #  Include Sunday and Saturday
