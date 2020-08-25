@@ -1,5 +1,5 @@
 name: VIS 2020
-tagline: IEEE VIS 2020  <br> the premier forum for advances in visualization and visual analytics
+tagline: VIS | VAST • INFOVIS • SCIVIS
 date: 25-30 October 2020 Virtual Conference
 citation_date: May 2020
 proceedings_title: Proceedings of the IEEE VIS 2020 Conference
@@ -13,7 +13,7 @@ logo:
 page_title:
   prefix: 'VIS 2020'
   separator: ': '
-background_image: static/images/great-salt-lake.jpg
+background_image: static/images/salt-lake-city-tint.jpg
 organization: VIS 2020 Organization Committee
 
 # Remove or change to your chat server.

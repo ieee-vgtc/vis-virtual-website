@@ -30,13 +30,7 @@ code {
   color: var(--accent-color);
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Zilla Slab SemiBold";
-  font-weight: bold;
-  color: var(--text-heading-color);
-}
+
 
 .text-muted {
   color: var(--text-muted-color);
@@ -79,9 +73,28 @@ body {
   text-decoration: none;
 }
 
-.jumbotron {
+h2.jumbotron-h {
+  font-family: "Zilla Slab SemiBold", sans-serif;
+  font-size: 2.5em ;
+  color: var(--text-inv-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: lighten; 
+}
+
+h3.jumbotron-date {
   font-family: "Fira Sans", sans-serif;
-  background-color: var(--main-bg-color);
+  font-size: 1.5em;
+  color: var(--text-inv-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: lighten; 
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Zilla Slab SemiBold";
+  font-weight: bold;
+  color: var(--text-heading-color);
 }
 
 .btn .active, 
