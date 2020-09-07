@@ -274,6 +274,8 @@ def generator():
         yield "speaker", {"speaker": str(speaker["UID"])}
     for workshop in site_data["workshops"]:
         yield "workshop", {"workshop": str(workshop["UID"])}
+    for session in site_data["sessions"]:
+        yield "session", {"session": str(session['UID'])}
 
     for key in site_data:
         yield "serve", {"path": key}
