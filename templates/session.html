@@ -1,0 +1,39 @@
+{% set page_title = session.title %}
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h1>{{ session.title }}</h1>
+        {% if session.chair %}
+        <h2 class="text-muted">Session chair: {{ session.chair }}</h2>
+        {% elif session.organizers %}
+        <h2 class="text-muted">{{ session.organizers | join(", ") }}</h2>
+        {% endif %}
+        <h3 class="text-muted">{{ session.startTime }} &ndash; {{ session.endTime }}</h3>        
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <p>{{ session.abstract }}</p>
+    </div>
+</div>
+<div class="row my-4">
+    <div class="col-lg-8">
+        YouTube embed here
+    </div>
+    <div class="col-lg-4">
+        Discord embed here?
+    </div>
+</div>
+
+{% if session.content %}
+{% for content in session.content %}
+
+// do something here; like list all containing papers?
+
+{% endfor %}
+{% endif %}
+
+{% endblock %}
