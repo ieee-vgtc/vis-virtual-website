@@ -1,43 +1,132 @@
+
+:root {
+  --main-bg-color: #edf2f7;
+  --main-border-color: #e2e8f0; 
+  /* --shadow-color: rgb(204, 204, 204); */
+  --accent-color: #c42026;
+  --text-color: #000;
+  --text-dark-color: #4a5568;
+  --text-heading-color: #7f6c5e;
+  --text-muted-color: #b9aba1;
+  --text-inv-color: #eee;
+  --text-accent-color: #7f6c5e;
+  --icon-color: #6c757d;
+  --btn-color: #fff;
+  --btn-inv-color: #4a5568;
+
+
+}
+
 body a {
-  color: #2294e0;
+  color: var(--text-accent-color);
 }
 
 body a:hover {
-  color: #2294e0;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
-h2,
-h3 {
-  font-family: "Lato";
+code {
+  color: var(--accent-color);
 }
+
+
+
+.text-muted {
+  color: var(--text-muted-color);
+}
+
 
 label:text-muted,
-.nav-link {
-  font-family: "Lato";
+.nav-link.text-muted,
+.nav-link{
+  font-family: "Fira Sans";
+  color: var(--btn-inv-color) !important;
+  background-color: var(--main-bg-color) !important;
 }
 
+.nav-link.active.text-muted,
+.nav-link.active {
+  color: var(--btn-color) !important;
+  background-color: var(--btn-inv-color) !important;
+}
+
+.nav-link.text-muted:hover {
+  /* color: var(--btn-color) !important; */
+  /* color: var(--btn-inv-color) !important; */
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+.nav-link.active.text-muted:hover {
+  /* background-color: var(--main-bg-color) !important;
+  color: var(--btn-inv-color) !important; */
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+
 body {
-  font-family: "Lato", sans-serif;
-  background-color: rgba(236, 241, 246, 1);
+  font-family: "Fira Sans", sans-serif;
+  background-color:  var(--main-bg-color);  /* rgba(236, 241, 246, 1); */
 }
 
 .container a:hover {
   text-decoration: none;
 }
 
-.jumbotron {
-  font-family: "Lato", sans-serif;
-  background-color: rgba(236, 241, 246, 1);
+h2.jumbotron-h {
+  font-family: "Zilla Slab SemiBold", sans-serif;
+  font-size: 2.5em ;
+  color: var(--text-inv-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: lighten; 
+}
+
+h3.jumbotron-date {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5em;
+  color: var(--text-inv-color);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: lighten; 
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Zilla Slab SemiBold";
+  font-weight: bold;
+  color: var(--text-heading-color);
+}
+
+.btn .active, 
+.btn.btn-outline-secondary.active {
+  background-color: var(--btn-inv-color) !important;
 }
 
 .btn-group {
-  background-color: white;
+  background-color: var(--btn-color);
 }
 
 .btn {
-  background-color: white;
+  background-color: var(--btn-color);
 }
+
+.btn:hover {
+  background-color: var(--btn-inv-color);
+}
+
+
+.gdpr-btn:hover {
+  color: var(--btn-color) !important;
+  background-color: var(--accent-color) !important;
+}
+
+.gdpr-btn {
+  color: var(--btn-inv-color) !important;
+  border: var(--main-border-color) !important;
+  background-color: var(--btn-color) !important;
+}
+
+
 
 #main-nav {
   padding-top: 10px;
@@ -45,20 +134,20 @@ body {
 }
 
 .header {
-  font: "Montserrat";
+  font: "Zilla Slab";
 }
 
 .pp-card {
-  font-family: "Exo";
-  box-shadow: 0 0 14px 0 rgba(204, 204, 204, 1);
+  font-family: "Zilla Slab";
+  box-shadow: 0 0 14px 0 var(--main-border-color);
   margin-bottom: 1em;
   display: block;
   overflow: hidden;
 }
 
 .pp-card-header {
-  border: 4px solid #eee;
-  font-family: "Exo";
+  border: 4px solid var(--main-border-color);
+  font-family: "Zilla Slab";
   height: 340px;
   padding-top: 10px;
   padding-left: 15px;
@@ -67,7 +156,7 @@ body {
 
 .pp-mode-list .pp-card-header {
   height: 175px;
-  border: 1px solid #eee;
+  border: 1px solid var(--main-border-color);
 }
 
 .pp-card-footer {
@@ -87,24 +176,23 @@ body {
   object-fit: scale-down;
 }
 
-body .nav-pills .nav-link.active {
-  background-color: #bed972;
-}
+
+
 
 .container {
   margin-top: 10px;
 }
 
 .card {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .card-header {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .card-header .card-title {
-  font-family: "Exo";
+  font-family: "Zilla Slab";
 }
 
 .cards.myCard {
@@ -131,17 +219,19 @@ h2.card-title {
 h3.card-subtitle.text-muted {
   margin-top: 10px;
   font-size: 20px;
+  color: var(--text-muted-color);
 }
 
 .card-subtitle.text-muted {
   text-align: center;
   font-size: 13px;
+  color: var(--text-muted-color);
 }
 
 .main-title {
   font-weight: 700;
-  color: #2294e0;
-  font-family: "Exo";
+  color: var(--text-heading-color);
+  font-family: "Zilla Slab";
 }
 
 .myAccordion {
@@ -206,6 +296,11 @@ h3.card-subtitle.text-muted {
   transform: translateX(-200%);
 }
 
+#main-nav {
+  /* background-color: #b9aba1; */
+  background-image: url('/static/css/hex-pattern.png');
+}
+
 div.anchor {
   display: block;
   position: relative;
@@ -222,7 +317,7 @@ div.anchor {
   background: #fff;
   padding: 10px;
   border: 4px solid #eee;
-  box-shadow: rgb(204, 204, 204) 2px 2px 14px 0;
+  box-shadow: var(--main-border-color) 2px 2px 14px 0;
 }
 
 tr.fc-list-item {
@@ -230,7 +325,7 @@ tr.fc-list-item {
 }
 
 .details {
-  font-family: "Lato", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 #abstractExample.collapse:not(.show) {
@@ -260,7 +355,7 @@ body .carousel-control-prev {
 
 .icon_video,
 .icon_cal {
-  fill: #6c757d;
+  fill: var(--icon-color);
 }
 
 .icon_video:hover,
@@ -278,7 +373,7 @@ body .carousel-control-prev {
 
 .checkbox-paper.selected {
   opacity: 1;
-  color: green;
+  color: var(--accent-color);
 }
 
 @supports (-webkit-text-stroke: 1px gray) {
@@ -290,6 +385,17 @@ body .carousel-control-prev {
 
   .checkbox-paper.selected {
     opacity: 1;
-    -webkit-text-fill-color: green;
+    -webkit-text-fill-color: var(--accent-color);
   }
+}
+
+#calendar {
+  font-family: "Fira Sans Condensed Light";
+}
+
+/* specific event colours are set in config.yml */
+.tui-full-calendar-time-schedule-content, 
+.tui-full-calendar-time-schedule-content-time {
+  border-color: var(--main-border-color) !important;
+  background-color: var(--main-bg-color);
 }

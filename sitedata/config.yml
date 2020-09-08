@@ -1,20 +1,20 @@
-name: MiniConf
-tagline: MINICONF <br> CONFERENCE <br> MANAGEMENT
-date: May 2020
+name: VIS 2020
+tagline: VIS | VAST • INFOVIS • SCIVIS
+date: 25-30 October 2020 Virtual Conference
 citation_date: May 2020
-proceedings_title: Proceedings of the First MiniCon Conference
+proceedings_title: Proceedings of the IEEE VIS 2020 Conference
 analytics: UA-
 logo:
-  image: static/images/MiniConf.png
-  width: 180px
+  image: static/images/vis2020_logo_virtual.svg
+  width: 250px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'MiniConf 2020'
+  prefix: 'VIS 2020'
   separator: ': '
-background_image: static/images/main.jpg
-organization: MiniConf Organization Committee
+background_image: static/images/salt-lake-city-tint.jpg
+organization: VIS 2020 Organization Committee
 
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone
@@ -33,7 +33,5 @@ auth0_domain : miniconf.auth0.com
 
 calendar:
   colors: #  Colors for the different event hashtags:
-    ---: '#bed972'
-    qa: '#4FCAEB'
-    talk: '#ccc'
+    ---: '#edf2f7'
   sunday_saturday: false  #  Include Sunday and Saturday
