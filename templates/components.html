@@ -33,6 +33,18 @@
 </div>
 {%- endmacro %}
 
+{% macro sessiongroup(sessions) -%}
+{% for session in sessions %}
+<div class="row p-4">
+  <div class="col-md-12">
+    <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
+    <h4>{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
+    <p>Type: {{ session.type }}</p>
+  </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
 {% macro speakergroup(speakers) -%}
 {% for speaker in speakers %}
 <div class="row p-4">
