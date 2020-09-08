@@ -2,9 +2,8 @@ import argparse
 import json
 
 import requests
-from ics.icalendar import Calendar
 
-# import ics
+from ics.icalendar import Calendar
 
 
 def parse_arguments():

@@ -7,8 +7,16 @@
 {% endblock %}
 
 {% block tabs %}
-{{ components.tabs([("calendar", "Calendar", "active"),
-        ("day", "Example Day", "")]) }}
+{{ components.tabs([
+    ("calendar", "Calendar", "active"),
+    ("Saturday", "Saturday", ""),
+    ("Sunday", "Sunday", ""),
+    ("Monday", "Monday", ""),
+    ("Tuesday", "Tuesday", ""),
+    ("Wednesday", "Wednesday", ""),
+    ("Thursday", "Thursday", ""),
+    ("Friday", "Friday", "")
+  ]) }}
 {% endblock %}
 
 {% block content %}
@@ -39,6 +47,22 @@
 
   <!-- Day Tab -->
 
+  {% for day in days %}
+  <div
+    class="tab-pane fade"
+    id="tab-{{ day }}"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div id="day">
+      {{ components.section("Sessions") }}
+      <div class="sessions">
+        {{ components.sessiongroup(days[day].sessions) }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
   <div
     class="tab-pane fade"
     id="tab-day"
@@ -46,6 +70,12 @@
     aria-labelledby="nav-profile-tab"
   >
     <div id="day">
+
+      {{ components.section("Sessions") }}
+      <div class="sessions">
+        {{ components.sessiongroup(day.sessions) }}
+      </div>
+
       <!-- Speakers -->
       {{ components.section("Speakers") }}
       <div class="speakers">

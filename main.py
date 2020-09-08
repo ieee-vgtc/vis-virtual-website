@@ -1,6 +1,7 @@
 # pylint: disable=global-statement,redefined-outer-name
 import argparse
 import csv
+import dateutil.parser
 import glob
 import json
 import os
@@ -12,6 +13,7 @@ from flaskext.markdown import Markdown
 
 site_data = {}
 by_uid = {}
+by_day = {}
 
 
 def main(site_data_path):
@@ -28,10 +30,19 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops"]:
+    for typ in ["papers", "speakers", "workshops", "sessions"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
+
+    # organize sessions by day, just in case!
+    for session in site_data['sessions']:
+        this_date = dateutil.parser.parse(session['StartFixed'])
+        day = this_date.strftime("%A")
+        if day not in by_day:
+            by_day[day] = []
+
+        by_day[day].append(session)
 
     print("Data Successfully Loaded")
     return extra_files
@@ -97,7 +108,17 @@ def schedule():
         "highlighted": [
             format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
         ],
+        "sessions": [
+            format_session(p) for p in site_data["sessions"]
+        ]
     }
+
+    data['days'] = {}
+    for day in by_day:
+        data['days'][day] = {
+            "sessions": [format_session(p) for p in by_day[day]]
+        }
+
     return render_template("schedule.html", **data)
 
 
@@ -114,8 +135,10 @@ def extract_list_field(v, key):
     value = v.get(key, "")
     if isinstance(value, list):
         return value
-    else:
+    if value.find("|") != -1:
         return value.split("|")
+    else:
+        return value.split(",")
 
 
 def format_paper(v):
@@ -153,6 +176,25 @@ def format_workshop(v):
         "abstract": v["abstract"],
     }
 
+def format_session(v):
+    list_keys = ['Organizers']
+    list_fields = {}
+    for key in list_keys:
+        list_fields[key] = extract_list_field(v, key)
+
+    return {
+        "id": v["UID"],
+        "title": v["Title"],
+        "type": v["Type"],
+        "abstract": v["Abstract"],
+        "organizers": list_fields["Organizers"],
+        "chair": v["Chair"],
+        "startTime": v["StartFixed"],
+        "endTime": v["EndFixed"],
+        "youtube": v["YouTube"],
+        "discord": v["Discord"],
+    }
+
 
 # ITEM PAGES
 
@@ -182,6 +224,14 @@ def workshop(workshop):
     data = _data()
     data["workshop"] = format_workshop(v)
     return render_template("workshop.html", **data)
+
+@app.route("/session_<session>.html")
+def session(session):
+    uid = session
+    v = by_uid["sessions"][uid]
+    data = _data()
+    data["session"] = format_session(v)
+    return render_template("session.html", **data)
 
 
 @app.route("/chat.html")
@@ -224,6 +274,8 @@ def generator():
         yield "speaker", {"speaker": str(speaker["UID"])}
     for workshop in site_data["workshops"]:
         yield "workshop", {"workshop": str(workshop["UID"])}
+    for session in site_data["sessions"]:
+        yield "session", {"session": str(session['UID'])}
 
     for key in site_data:
         yield "serve", {"path": key}
