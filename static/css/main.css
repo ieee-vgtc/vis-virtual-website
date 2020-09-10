@@ -367,9 +367,6 @@ body .carousel-control-prev {
   fill: #000;
 }
 
-.ppcard.pp-mode-compact {
-  background-color: var(--text-muted-color);
-}
 
 .checkbox-paper {
   opacity: 0.2;
