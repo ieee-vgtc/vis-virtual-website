@@ -36,6 +36,9 @@ code {
   color: var(--text-muted-color);
 }
 
+.text-muted:hover{
+  color: var(--accent-color) !important;
+}
 
 label:text-muted,
 .nav-link.text-muted,
@@ -50,6 +53,7 @@ label:text-muted,
   color: var(--btn-color) !important;
   background-color: var(--btn-inv-color) !important;
 }
+
 
 .nav-link.text-muted:hover {
   /* color: var(--btn-color) !important; */
@@ -363,6 +367,10 @@ body .carousel-control-prev {
   fill: #000;
 }
 
+.ppcard.pp-mode-compact {
+  background-color: var(--text-muted-color);
+}
+
 .checkbox-paper {
   opacity: 0.2;
   color: gray;
@@ -371,26 +379,24 @@ body .carousel-control-prev {
   cursor: pointer;
 }
 
-.checkbox-paper.selected {
-  opacity: 1;
-  color: var(--accent-color);
-}
 
 @supports (-webkit-text-stroke: 1px gray) {
   .checkbox-paper {
     opacity: 0.2;
-    -webkit-text-stroke: 1px gray;
+    -webkit-text-stroke: 1px var(--accent-color);
     -webkit-text-fill-color: white;
   }
 
   .checkbox-paper.selected {
     opacity: 1;
     -webkit-text-fill-color: var(--accent-color);
+    ;
   }
 }
 
 #calendar {
   font-family: "Fira Sans Condensed Light";
+  font-size: 1.5em;
 }
 
 /* specific event colours are set in config.yml */
@@ -398,4 +404,8 @@ body .carousel-control-prev {
 .tui-full-calendar-time-schedule-content-time {
   border-color: var(--main-border-color) !important;
   background-color: var(--main-bg-color);
+}
+
+.tui-full-calendar-time-date-schedule-block:hover  {
+  color: var(--accent-color);
 }
