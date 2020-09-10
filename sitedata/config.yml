@@ -1,5 +1,5 @@
 name: VIS 2020
-tagline: VIS | VAST • INFOVIS • SCIVIS
+tagline: VAST • INFOVIS • SCIVIS
 date: 25-30 October 2020 Virtual Conference
 citation_date: May 2020
 proceedings_title: Proceedings of the IEEE VIS 2020 Conference
@@ -13,7 +13,7 @@ logo:
 page_title:
   prefix: 'VIS 2020'
   separator: ': '
-background_image: static/images/salt-lake-city-tint.jpg
+background_image: static/images/salt-lake.jpg
 organization: VIS 2020 Organization Committee
 
 # Remove or change to your chat server.
@@ -33,5 +33,6 @@ auth0_domain : miniconf.auth0.com
 
 calendar:
   colors: #  Colors for the different event hashtags:
-    ---: '#edf2f7'
+  ---: '#edf2f7'
+  qa: '#7f6c5e'
   sunday_saturday: false  #  Include Sunday and Saturday
