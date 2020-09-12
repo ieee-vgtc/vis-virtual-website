@@ -12,7 +12,7 @@
     font-weight: 900;
     font-display: swap;
     src: local("Fira Sans SemiBold"), local("Fira-Sans-SemiBold"),
-    url('FiraSans-SemiBold') format("truetype");
+    url('FiraSans-SemiBold.ttf') format("truetype");
   }
   @font-face {
     font-family: "Fira Sans Condensed Light";
@@ -20,5 +20,5 @@
     font-weight: 300;
     font-display: swap;
     src: local("Fira Sans Condensed Light"), local("Fira-Sans-Condensed-Light"),
-    url('FiraSansCondensed-Light') format("truetype");
+    url('FiraSansCondensed-Light.ttf') format("truetype");
   }

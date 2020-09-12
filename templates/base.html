@@ -11,6 +11,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon" />
+
     <!-- External CSS --> <!-- moved here to avoid normalize.css overrrides -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
 
@@ -72,11 +74,6 @@
       href="static/css/Fira.css"
       rel="stylesheet"
     />
-
-    
-    <!-- uhhh okay; consider hiding if the user is logged in -->
-    <script id="gr-ai-bot" src="https://visieee.gravitasai.com/assets/widget.js" data-ai="b3bd5808-6d1b-46f4-9ed1-8f8926f6a52f"></script>
-
 
     <title>{{config.page_title.prefix}}{% if page_title %}{{config.page_title.separator}}{{page_title}}{% endif %}</title>
     {% endblock %}
@@ -172,7 +169,7 @@
     <footer class="footer bg-light p-4">
       <div class="container">
         <p class="float-right"><a href="#">Back to Top</a></p>
-        <p class="text-center">© 2020 {{config.organization}}</p>
+        <p class="text-center">© 2020, {{config.organization}}</p>
       </div>
     </footer>
 
