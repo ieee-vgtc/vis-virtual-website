@@ -10,6 +10,7 @@
 [X] styling of session titles
 [X] organization of sessions per-day by timeslot
 [X] adding specific-day calendars on each page
+[ ] calendar: add color legend (session type to color mapping)
 [ ] calendar: add tooltips for displaying full event name on calendar event hover
 [ ] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
 [ ] session listing: parse and format dates based on current timezone through javascript
