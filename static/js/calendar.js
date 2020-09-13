@@ -65,6 +65,7 @@ function make_cal(name) {
                 scheduleView: ['time'],
                 usageStatistics: false,
                 week: {
+                    startDayOfWeek: 6, // IEEE VIS starts on Saturday
                     workweek: !config.calendar["sunday_saturday"],
                     hourStart: min_hours,
                     hourEnd: max_hours
@@ -104,7 +105,7 @@ function make_cal(name) {
                 'clickSchedule': function (e) {
                     const s = e.schedule
                     if (s.location.length > 0) {
-                        window.open(s.location, '_blanket');
+                        window.open(s.location, '_blank');
                     }
                 },
             })
@@ -119,23 +120,23 @@ function make_cal(name) {
                     cals.push({
                         id: k,
                         name: k,
+                        color: getTextColorByBackgroundColor(v),
                         bgColor: v,
                     })
                 })
 
                 calendar.setCalendars(cals);
-
             }
-
 
             const week_dates = enumerateDaysBetweenDates(
               calendar.getDateRangeStart().toDate(),
-              calendar.getDateRangeEnd().toDate())
+              calendar.getDateRangeEnd().toDate()
+            );
 
-            const c_sm = d3.select('#calendar_small')
-            let i = 0
+            // const c_sm = d3.select('#calendar_small')
+            let i = 1;
             for (const day of week_dates) {
-                c_sm.append('div').attr('id', 'cal__' + i);
+                // c_sm.append('div').attr('id', 'cal__' + i);
                 const cal = new Calendar('#cal__' + i, {
                     defaultView: 'day',
                     isReadOnly: true,
@@ -144,6 +145,12 @@ function make_cal(name) {
                     scheduleView: ['time'],
                     usageStatistics: false,
 
+                    week: {
+                        startDayOfWeek: 6, // IEEE VIS starts on Saturday
+                        workweek: !config.calendar["sunday_saturday"],
+                        hourStart: min_hours,
+                        hourEnd: max_hours
+                    },
                     timezones: [{
                         timezoneOffset: -moment.tz.zone(timezoneName)
                           .utcOffset(moment(min_date)),
@@ -158,7 +165,7 @@ function make_cal(name) {
                     'clickSchedule': function (e) {
                         const s = e.schedule
                         if (s.location.length > 0) {
-                            window.open(s.location, '_blanket');
+                            window.open(s.location, '_blank');
                         }
                     },
                 })
@@ -172,6 +179,7 @@ function make_cal(name) {
                         cals.push({
                             id: k,
                             name: k,
+                            color: getTextColorByBackgroundColor(v),
                             bgColor: v,
                         })
                     })
@@ -203,4 +211,13 @@ function make_cal(name) {
 
     })
 
+}
+
+function getTextColorByBackgroundColor(hexColor) {
+    hexColor = hexColor.replace("#", "");
+    let r = parseInt(hexColor.substr(0, 2), 16);
+    let g = parseInt(hexColor.substr(2, 2), 16);
+    let b = parseInt(hexColor.substr(4, 2), 16);
+    let yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+    return yiq >= 128 ? '#000000' : '#ffffff';
 }

@@ -402,10 +402,13 @@ body .carousel-control-prev {
 .tui-full-calendar-time-schedule-content, 
 .tui-full-calendar-time-schedule-content-time {
   border-color: var(--main-border-color) !important;
-  background-color: var(--main-bg-color);
   font-weight: 400;
 }
 
 .tui-full-calendar-time-date-schedule-block:hover  {
   color: var(--accent-color);
+}
+
+.session-listing {
+  border-left: 5px solid transparent;
 }

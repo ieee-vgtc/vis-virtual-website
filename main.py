@@ -1,10 +1,11 @@
 # pylint: disable=global-statement,redefined-outer-name
 import argparse
 import csv
-import dateutil.parser
 import glob
 import json
 import os
+
+import dateutil.parser
 
 import yaml
 from flask import Flask, jsonify, redirect, render_template, send_from_directory
@@ -14,6 +15,7 @@ from flaskext.markdown import Markdown
 site_data = {}
 by_uid = {}
 by_day = {}
+by_time = {}
 
 
 def main(site_data_path):
@@ -35,17 +37,68 @@ def main(site_data_path):
         for p in site_data[typ]:
             by_uid[typ][p["UID"]] = p
 
-    # organize sessions by day, just in case!
+    # organize sessions by day (calendar)
     for session in site_data['sessions']:
         this_date = dateutil.parser.parse(session['StartFixed'])
         day = this_date.strftime("%A")
         if day not in by_day:
             by_day[day] = []
 
-        by_day[day].append(session)
+        by_day[day].append(format_session(session))
+
+    # organize sessions by timeslot (linking simultaneous sessions together)
+    for day, day_sessions in by_day.items():
+        time_sessions = {}
+        for session in day_sessions:
+            timeslot = session['startTime'] + "|" + session['endTime']
+            if timeslot not in time_sessions:
+                this_date = dateutil.parser.parse(session['startTime'])
+                time_sessions[timeslot] = {
+                    "sessions": [],
+                    "date": this_date.strftime("%A, %d %b %Y"),
+                    "startTime": session['startTime'],
+                    "endTime": session['endTime'],
+                }
+
+            time_sessions[timeslot]['sessions'].append(session)
+            
+        by_time[day] = time_sessions
 
     print("Data Successfully Loaded")
     return extra_files
+
+# main() should be called before this function
+def generateDayCalendars():
+    if len(by_day) == 0:
+        raise Exception("call main() before this function")
+
+    all_events = []
+    for day in by_day:
+        day_events = []
+        for session in by_day[day]:
+            session_event = {
+                "title": session['title'],
+                "start": session['startTime'],
+                "end": session['endTime'],
+                # "location": session['youtube'],
+                "location": "/session_" + session['id'] + ".html",
+                "link": "http://virtual.ieeevis.org/session_" + session['id'] + ".html",
+                "category": "time",
+                "calendarId": session['type'],
+            }
+            day_events.append(session_event)
+
+        calendar_fname = "calendar_" + day + ".json"
+        # full_calendar_fname = os.path.join(site_data_path, calendar_fname)
+        # with open(full_calendar_fname, 'w', encoding='utf-8') as f:
+        #     json.dump(day_events, f, ensure_ascii=False, indent=2)
+
+        site_data[calendar_fname] = day_events
+        all_events.extend(day_events)
+
+    # overwrite static main_calendar json with all assembled events
+    site_data['main_calendar'] = all_events
+
 
 
 # ------------- SERVER CODE -------------------->
@@ -116,7 +169,7 @@ def schedule():
     data['days'] = {}
     for day in by_day:
         data['days'][day] = {
-            "sessions": [format_session(p) for p in by_day[day]]
+            "timeslots": by_time[day]
         }
 
     return render_template("schedule.html", **data)
@@ -310,6 +363,8 @@ if __name__ == "__main__":
 
     site_data_path = args.path
     extra_files = main(site_data_path)
+
+    generateDayCalendars()
 
     if args.build:
         freezer.freeze()

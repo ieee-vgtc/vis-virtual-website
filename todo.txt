@@ -1,0 +1,34 @@
+## Styling
+[X] font in calendar
+[X] hover button style (needs border?)
+[X] spacing between adjacent buttons
+[X] searchbox background 
+[X] comma in footer
+[X] remove registration chatbot
+
+## Schedule
+[X] styling of session titles
+[X] organization of sessions per-day by timeslot
+[X] adding specific-day calendars on each page
+[ ] calendar: add tooltips for displaying full event name on calendar event hover
+[ ] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
+[ ] session listing: parse and format dates based on current timezone through javascript
+[ ] day listing: better support non-US timezones when a single day's events straddle multiple days
+[ ] dev: store timezone in cookie (?)
+
+## Session pages
+[ ] add youtube integration
+[ ] add discord integration
+[ ] add auth0 integration
+
+## Papers / Workshops listing
+[ ] Format items nicely (without cards?)
+
+## Content
+[ ] Remove "chat" item
+[ ] Parse paper metadata/figures/embedding visualization
+[ ] Add FAQ entries
+
+## Dev tasks
+[X] remove python lint task (not useful)
+[ ] .. and revive?
