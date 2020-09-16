@@ -12,6 +12,18 @@ function setQueryStringParameter(name, value) {
     window.history.replaceState({}, "", decodeURIComponent(`${window.location.pathname}?${params}`));
 }
 
+function getLocalTime(t){
+  // TODO those variables should be in some config files, not hardcoded here
+  var default_timezone="America/Denver"
+  var print_date_format = "LLL"
+
+  var sel = document.getElementById('tzOptions')
+  current_tz = sel.options[sel.selectedIndex].value
+
+  let otime = moment.tz(t,default_timezone)
+  let newtime = otime.clone().tz(current_tz)
+  return newtime.format(print_date_format)
+}
 
 const initTypeAhead = (list, css_sel, name, callback) => {
     const bh = new Bloodhound({

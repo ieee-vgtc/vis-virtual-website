@@ -11,7 +11,7 @@
 [X] organization of sessions per-day by timeslot
 [X] adding specific-day calendars on each page
 [ ] calendar: add color legend (session type to color mapping)
-[ ] calendar: add tooltips for displaying full event name on calendar event hover
+[ ] calendar: add tooltips for displaying full event name on calendar event hover (steve: the calendar library allows to show nice tooltips if we enable "useDetailPopup: true" but only on click (not on hover), should we make a clone and edit the library ?? )
 [ ] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
 [ ] session listing: parse and format dates based on current timezone through javascript
 [ ] day listing: better support non-US timezones when a single day's events straddle multiple days
