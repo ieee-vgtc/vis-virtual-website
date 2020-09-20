@@ -195,12 +195,33 @@ function make_cal(name) {
           // console.log(day.format(), "--- day");
         }
 
+        function render(all_cals) {
+          all_cals.forEach(c => c.render(true));
+
+          // bind tooltip to all calendar events
+          $('.tui-full-calendar-time-schedule').tooltip({
+            title: function() {
+              let scheduleId = this.getAttribute("data-schedule-id");
+              let calendarId = this.getAttribute("data-calendar-id");
+              let foundEvent;
+              all_cals.some(cal => {
+                foundEvent = cal.getSchedule(scheduleId, calendarId);
+                return !!foundEvent;
+              });
+
+              if (foundEvent) {
+                return foundEvent.title;
+              }
+            },
+          });
+        }
+
         // force render:
-        all_cals.forEach(c => c.render(true));
+        render(all_cals);
 
         // ***  PROMISE FULFILLED *** //
         resolve({
-          render: () => all_cals.forEach(c => c.render(true))
+          render: () => render(all_cals),
         });
 
       })

@@ -77,6 +77,7 @@ def generateDayCalendars():
         day_events = []
         for session in by_day[day]:
             session_event = {
+                "id": session['id'],
                 "title": session['title'],
                 "start": session['startTime'],
                 "end": session['endTime'],
