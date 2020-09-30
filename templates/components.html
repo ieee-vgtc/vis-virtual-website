@@ -37,14 +37,16 @@
 {% for timeslot in sessions_by_time %}
 <div class="row pt-5">
   <div class="col-md-12">
-    <h1><!--{{ sessions_by_time[timeslot].date }}: --><script>document.write(getLocalTime("{{ sessions_by_time[timeslot].startTime }}"))</script> &ndash; <script>document.write(getLocalTime("{{ sessions_by_time[timeslot].endTime }}"))</script></h1>
+    <h1 id="d_{{ sessions_by_time[timeslot].sessions[0].id }}"></h1>
+    <script type="text/javascript">formatDate("d_{{sessions_by_time[timeslot].sessions[0].id}}","{{ sessions_by_time[timeslot].sessions[0].startTime }}")</script>
   </div>
 </div>
 {% for session in sessions_by_time[timeslot].sessions %}
 <div class="row py-3">
 <div class="col-md-12 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
     <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
-    <h4><script>document.write(getLocalTime("{{ session.startTime }}"))</script> &ndash; <script>document.write(getLocalTime("{{ session.endTime }}"))</script></h4>
+    <h4 id="dt_{{session.id}}"></h4>
+    <script type="text/javascript">formatDateTime("dt_{{session.id}}","{{ session.startTime }}","{{ session.endTime }}")</script>
     <p>Type: {{ session.type }}</p>
   </div>
 </div>

@@ -12,17 +12,33 @@ function setQueryStringParameter(name, value) {
     window.history.replaceState({}, "", decodeURIComponent(`${window.location.pathname}?${params}`));
 }
 
-function getLocalTime(t){
-  // TODO those variables should be in some config files, not hardcoded here
-  var default_timezone="America/Denver"
-  var print_date_format = "LLL"
+function formatDate(id,dat){
+  var hid = $("#"+id)
 
-  var sel = document.getElementById('tzOptions')
-  current_tz = sel.options[sel.selectedIndex].value
+  const current_tz = getUrlParameter('tz') || moment.tz.guess();
 
-  let otime = moment.tz(t,default_timezone)
-  let newtime = otime.clone().tz(current_tz)
-  return newtime.format(print_date_format)
+  console.log(dat)
+  let atime = moment(dat).clone().tz(current_tz)
+
+  hid.html("<span>"+atime.format("MMMM, Do MMM YYYY")+":</span>")
+
+}
+
+function formatDateTime(id,start,end){
+  var hid = $("#"+id)
+
+  const current_tz = getUrlParameter('tz') || moment.tz.guess();
+
+  let starttime = moment(start).clone().tz(current_tz)
+  let endtime = moment(end).clone().tz(current_tz)
+
+  //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
+                                             // seems like not considering the timezone
+  if(starttime.format("D") == endtime.format("D"))
+    hid.html("<span>"+starttime.format("hh:mm A")+"</span>&ndash;<span>"+endtime.format("hh:mm A")+"</span>")
+  else
+    hid.html("<span>"+starttime.format("MMM Do hh:mm A")+"</span>&ndash;<span>"+endtime.format("MMM Do hh:mm A")+"</span>")
+  
 }
 
 const initTypeAhead = (list, css_sel, name, callback) => {
