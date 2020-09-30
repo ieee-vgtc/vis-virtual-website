@@ -17,7 +17,6 @@ function formatDate(id,dat){
 
   const current_tz = getUrlParameter('tz') || moment.tz.guess();
 
-  console.log(dat)
   let atime = moment(dat).clone().tz(current_tz)
 
   hid.html("<span>"+atime.format("MMMM, Do MMM YYYY")+":</span>")
