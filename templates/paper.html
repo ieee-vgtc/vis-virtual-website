@@ -1,0 +1,28 @@
+{% set page_title = paper.title %}
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h1>{{ paper.title }}</h1>
+        <h2 class="py-2">{{ paper.authors | join(", ") }}</h2>
+        <h3 class="py-2">DOI: TBD</h3>
+        <h4 class="py-2">Presentation time: {{ paper.time_stamp }} (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
+    </div>
+</div>
+<div class="row my-3">
+    <div class="col-md-8">
+        <p>Paper image (TBD)</p>
+        <p class="image-caption">The caption for the exemplar image will go here</p>
+    </div>
+</div>
+<div class="row my-3">
+    <div class="col-md-8">
+        <h5>Keywords</h5>
+        <p>{{ paper.keywords | join(", ") }}</p>
+        <h5>Abstract</h5>
+        <p>{{ paper.abstract }}</p>
+    </div>
+</div>
+
+{% endblock %}

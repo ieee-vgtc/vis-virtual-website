@@ -16,7 +16,6 @@ site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-by_session = {}
 
 
 def main(site_data_path):
@@ -37,22 +36,23 @@ def main(site_data_path):
         by_uid[typ] = {}
         
         if typ is "session_list":
-            for id, p in site_data[typ].items():
-                by_uid[typ][id] = p
+            by_uid['events'] = {}
+            by_uid['sessions'] = {}
 
-                # also iterate through each session within each session
+            for session_id, p in site_data[typ].items():
+                by_uid['events'][session_id] = p
+
+                # also iterate through each session within each event
                 for timeslot in p['sessions']:
-                    by_uid[typ][timeslot['session_id']] = timeslot
-
                     # also put some parent info back into this item
                     fq_timeslot = timeslot.copy()
                     fq_timeslot.update({
                         "event": p["event"],
                         "event_type": p["event_type"],
-                        "parent_id": id,
+                        "parent_id": session_id,
                     })
 
-                    by_session[timeslot['session_id']] = fq_timeslot
+                    by_uid['sessions'][timeslot['session_id']] = fq_timeslot
 
 
         elif typ is "paper_list":
@@ -64,7 +64,7 @@ def main(site_data_path):
                 by_uid[typ][p["UID"]] = p
 
     # organize sessions by day (calendar)
-    for session in by_session.values():
+    for session in by_uid['sessions'].values():
         this_date = dateutil.parser.parse(session['time_start'])
         day = this_date.strftime("%A")
         if day not in by_day:
@@ -240,24 +240,21 @@ def extract_list_field(v, key):
 
 
 def format_paper(v):
-    list_keys = ["authors", "keywords", "session"]
+    list_keys = ["authors", "keywords"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
     return {
-        "id": v["UID"],
-        "forum": v["UID"],
-        "content": {
-            "title": v["title"],
-            "authors": list_fields["authors"],
-            "keywords": list_fields["keywords"],
-            "abstract": v["abstract"],
-            "TLDR": v["abstract"],
-            "recs": [],
-            "session": list_fields["session"],
-            "pdf_url": v.get("pdf_url", ""),
-        },
+        "id": v["uid"],
+        "title": v["title"],
+        "authors": list_fields["authors"],
+        "keywords": list_fields["keywords"],
+        "abstract": v["abstract"],
+        "time_stamp": v["time_stamp"],
+        "session_id": v["session_id"],
+        "session_title": by_uid["sessions"][v["session_id"]]['title'],
+        "pdf_url": v.get("pdf_url", ""),
     }
 
 ## new format for paper_list.json
@@ -343,14 +340,13 @@ def format_by_session_list(v):
 
 # ITEM PAGES
 
-# ALPER TODO: there should be a single poster page; redirect to iPosters
-@app.route("/poster_<poster>.html")
-def poster(poster):
-    uid = poster
-    v = by_uid["paper"][uid]
+@app.route("/paper_<paper>.html")
+def paper(paper):
+    uid = paper
+    v = by_uid["paper_list"][uid]
     data = _data()
     data["paper"] = format_paper(v)
-    return render_template("poster.html", **data)
+    return render_template("paper.html", **data)
 
 # ALPER TODO: get keynote info
 @app.route("/speaker_<speaker>.html")
@@ -373,10 +369,27 @@ def workshop(workshop):
 @app.route("/session_<session>.html")
 def session(session):
     uid = session
-    v = by_uid["session_list"][uid]
+    v = by_uid["sessions"][uid]
     data = _data()
-    data["session"] = format_session(v)
+    data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
+
+## TODO: event landing page 
+## (no livestream links here, just links out to each session and maybe has more descriptive metadata)
+@app.route('/event_<event>.html')
+def event(event):
+    uid = event
+    v = by_uid['session_list'][uid]
+    data = _data()
+    data["event"] = format_session(v)
+    return render_template("event.html", **data)
+
+
+# ALPER TODO: there should be a single poster page; redirect to iPosters
+@app.route("/posters.html")
+def posters():
+    data = _data()
+    return render_template("posters.html", **data)
 
 
 @app.route("/chat.html")
@@ -387,13 +400,13 @@ def chat():
 
 # FRONT END SERVING
 
-
-@app.route("/papers.json")
-def paper_json():
-    json = []
-    for v in site_data["papers"]:
-        json.append(format_paper(v))
-    return jsonify(json)
+## ALPER TODO: not sure what uses this (papers.html?), but we don't need it right now
+# @app.route("/papers.json")
+# def paper_json():
+#     json = []
+#     for v in site_data["papers"]:
+#         json.append(format_paper(v))
+#     return jsonify(json)
 
 
 @app.route("/static/<path:path>")
@@ -413,14 +426,14 @@ def serve(path):
 @freezer.register_generator
 def generator():
 
-    for paper in site_data["papers"]:
-        yield "poster", {"poster": str(paper["UID"])}
+    for paper in site_data["paper_list"].values():
+        yield "paper", {"paper": str(paper["uid"])}
     for speaker in site_data["speakers"]:
         yield "speaker", {"speaker": str(speaker["UID"])}
     for workshop in site_data["workshops"]:
         yield "workshop", {"workshop": str(workshop["UID"])}
-    for session in site_data["sessions"]:
-        yield "session", {"session": str(session['UID'])}
+    for session in by_uid["sessions"].keys():
+        yield "session", {"session": str(session)}
 
     for key in site_data:
         yield "serve", {"path": key}

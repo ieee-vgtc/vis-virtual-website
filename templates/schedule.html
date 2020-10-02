@@ -8,7 +8,7 @@
 
 {% block tabs %}
     {{ components.tabs([
-    ("calendar", "Calendar", "cal-nav active"),
+    ("calendar", "Overview", "cal-nav active"),
     ("Sunday", "Sunday", "cal-nav"),
     ("Monday", "Monday", "cal-nav"),
     ("Tuesday", "Tuesday", "cal-nav"),
@@ -61,7 +61,11 @@
                 <div id="cal__{{ loop.index }}" class="d-none d-sm-block"></div>
 
                 <div id="day">
-                    {{ components.section("Sessions") }}
+                    <div class="row mt-5">
+                      <div class="col-md-12">
+                        <h1>Full list of sessions on {{ day }}</h1>
+                      </div>
+                    </div>
                     <div class="sessions">
                         {{ components.sessiongroup(days[day].timeslots, config["calendar"]["colors"] ) }}
                     </div>

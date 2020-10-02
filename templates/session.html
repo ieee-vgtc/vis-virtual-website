@@ -1,37 +1,57 @@
-{% set page_title = session.title %}
+{% set page_title = session.fullTitle %}
 {% extends "base.html" %}
 {% block content %}
 
 <div class="row mt-5">
     <div class="col-md-12">
-        <h1>{{ session.title }}</h1>
+        <h1>{{ session.fullTitle }}</h1>
         {% if session.chair %}
-        <h2 class="text-muted">Session chair: {{ session.chair }}</h2>
+        <h2 class="text-muted">Session chair: {{ session.chair | join(", ") }}</h2>
         {% elif session.organizers %}
-        <h2 class="text-muted">{{ session.organizers | join(", ") }}</h2>
+        <h2 class="text-muted">Organizers: {{ session.organizers | join(", ") }}</h2>
         {% endif %}
         <h3 class="text-muted">{{ session.startTime }} &ndash; {{ session.endTime }}</h3>        
     </div>
 </div>
 
+{% if session.abstract %}
 <div class="row">
     <div class="col-md-8">
         <p>{{ session.abstract }}</p>
     </div>
 </div>
-<div class="row my-4">
+{% endif %}
+<div class="row my-5">
     <div class="col-lg-8">
-        YouTube embed here
+        <iframe width="640" height="480" src="https://www.youtube.com/embed/HfPCdJapIXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="col-lg-4">
         Discord embed here?
     </div>
 </div>
 
-{% if session.content %}
-{% for content in session.content %}
+ALPER TODO: put IEEE VIS-stylized hr here
 
-// do something here; like list all containing papers?
+{% if session.timeSlots %}
+<div class="row my-4">
+    <div class="col-md-12">
+        <h2>In this session:</h2>
+    </div>
+</div>
+{% for timeslot in session.timeSlots %}
+
+<div class="row mb-3">
+    <div class="col-md-8">
+        {% if timeslot.uid %}
+        <h3><a href="/paper_{{ timeslot.uid}}.html">{{ timeslot.title }}</a></h3>
+        {% else %}
+        <h3>{{ timeslot.title }}</h3>
+        {% endif %}
+        <h4>Presenter: {{ timeslot.contributors | join(", ") }}</h4>
+        <h5>{{timeslot.type}}</h4>
+        <h5 class="text-muted">{{ session.startTime }} &ndash; {{ session.endTime }}</h5>
+    </div>
+</div>
 
 {% endfor %}
 {% endif %}

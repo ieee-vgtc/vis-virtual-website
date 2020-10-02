@@ -10,17 +10,33 @@
 [X] styling of session titles
 [X] organization of sessions per-day by timeslot
 [X] adding specific-day calendars on each page
-[ ] calendar: add color legend (session type to color mapping)
-[ ] calendar: add tooltips for displaying full event name on calendar event hover
-[ ] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
+[x] calendar: add color legend (session type to color mapping)
+[x] calendar: add tooltips for displaying full event name on calendar event hover
+[x] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
 [ ] session listing: parse and format dates based on current timezone through javascript
 [ ] day listing: better support non-US timezones when a single day's events straddle multiple days
 [ ] dev: store timezone in cookie (?)
 
+# json dump notes
+[ ] visap missing session ID
+[ ] vizsec missing session ID
+[ ] vis supporters missing session ID
+[ ]
+
+## Session pages
+[ ] Add <hr> styling to match ieeevis.org styling
+
+## Papers page
+[ ] Fix indexing of all papers
+[ ] Customize navigation of papers
+[ ] Update paper vis
+
+## Paper pages
+[ ] Correctly style images/captions
+
 ## Session pages
 [ ] add youtube integration
 [ ] add discord integration
-[ ] add auth0 integration
 
 ## Papers / Workshops listing
 [ ] Format items nicely (without cards?)
@@ -33,3 +49,5 @@
 ## Dev tasks
 [X] remove python lint task (not useful)
 [ ] .. and revive?
+[ ] add auth0 integration
+[ ] hook up CDN links
