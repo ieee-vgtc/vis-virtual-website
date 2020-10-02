@@ -13,15 +13,18 @@
 [x] calendar: add color legend (session type to color mapping)
 [x] calendar: add tooltips for displaying full event name on calendar event hover
 [x] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
-[ ] session listing: parse and format dates based on current timezone through javascript
-[ ] day listing: better support non-US timezones when a single day's events straddle multiple days
-[ ] dev: store timezone in cookie (?)
+[x] session listing: parse and format dates based on current timezone through javascript
+[x] day listing: better support non-US timezones when a single day's events straddle multiple days
+[ ] dev: store timezone in cookie (see "date parsing" below)
 
 # json dump notes
 [ ] visap missing session ID
 [ ] vizsec missing session ID
 [ ] vis supporters missing session ID
 [ ]
+
+# date parsing
+[ ] Save (calendar.js) and read (base.html) timezone from cookie, if possible
 
 ## Session pages
 [ ] Add <hr> styling to match ieeevis.org styling

@@ -37,7 +37,7 @@
 {% for timeslot in sessions_by_time %}
 <div class="row pt-5">
   <div class="col-md-12">
-    <h1>{{ sessions_by_time[timeslot].date }}: {{ sessions_by_time[timeslot].startTime }} &ndash; {{ sessions_by_time[timeslot].endTime }}</h1>
+    <h1 class="format-date-span-full">{{ sessions_by_time[timeslot].startTime }} &ndash; {{ sessions_by_time[timeslot].endTime }}</h1>
   </div>
 </div>
 {% for session in sessions_by_time[timeslot].sessions %}
@@ -47,8 +47,9 @@
     {% if not session.redundantTitle %}
     <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
     {% endif %}
-    <h4>{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
+    <h4 class="format-date-span">{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
     <p>Type: {{ session.type }}</p>
+    <p>TODO: list paper titles/presenters</p>
   </div>
 </div>
 {% endfor %}

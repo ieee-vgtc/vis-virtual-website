@@ -188,6 +188,63 @@
             $(window).scrollTop(position);
           }
         });
+
+        // TODO: also read from cookie if we can
+        function getTimezone() {
+          return (window.getUrlParameter && getUrlParameter('tz')) || moment.tz.guess();
+        }
+
+        // find all parseable dates and localize them
+        function formatDate(element){
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz)
+          element.html(atime.format("MMMM, Do MM YYYY"))
+        }
+
+        function formatDateTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz)
+          element.html(atime.format("MMMM, Do MM YYYY @ HH:mm"))
+        }
+
+        function formatTimeSpan(element, includeDate){
+          const current_tz = getTimezone();
+          let parts = element.text().split(" – ");
+          let start = parts[0];
+          let end = parts[1];
+
+          let starttime = moment(start).clone().tz(current_tz)
+          let endtime = moment(end).clone().tz(current_tz)
+
+          //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
+                                                    // seems like not considering the timezone
+          if(starttime.format("D") == endtime.format("D")) {
+            if (includeDate)
+              element.html(starttime.format("MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm"));
+            else
+              element.html(starttime.format("HH:mm")+" &ndash; "+endtime.format("HH:mm"));
+          }
+          else {
+            element.html(starttime.format("MMM Do @ HH:mm")+" &ndash; "+endtime.format("MMM Do @ HH:mm"))
+          }
+        }
+
+        $(".format-just-date").each((_i, element) => {
+          formatDate($(element));
+        });
+
+        $(".format-date").each((_i, element) => {
+          formatDateTime($(element));
+        });
+
+        $(".format-date-span").each((_i, element) => {
+          formatTimeSpan($(element));
+        });
+
+        $(".format-date-span-full").each((_i, element) => {
+          formatTimeSpan($(element), true);
+        });
+
       });
     </script>
     <script src="static/js/lazy_load.js"></script>

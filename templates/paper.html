@@ -7,7 +7,7 @@
         <h1>{{ paper.title }}</h1>
         <h2 class="py-2">{{ paper.authors | join(", ") }}</h2>
         <h3 class="py-2">DOI: TBD</h3>
-        <h4 class="py-2">Presentation time: {{ paper.time_stamp }} (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
+        <h4 class="py-2">Presentation time: <span class="format-date">{{ paper.time_stamp }}</span> (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
     </div>
 </div>
 <div class="row my-3">
