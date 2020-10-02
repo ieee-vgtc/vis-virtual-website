@@ -9,7 +9,6 @@
 {% block tabs %}
     {{ components.tabs([
     ("calendar", "Calendar", "cal-nav active"),
-    ("Saturday", "Saturday", "cal-nav"),
     ("Sunday", "Sunday", "cal-nav"),
     ("Monday", "Monday", "cal-nav"),
     ("Tuesday", "Tuesday", "cal-nav"),
@@ -21,10 +20,13 @@
 
 {% block content %}
 
-    <div class="form-group col mt-5">
-        <label for="tzOptions">Timezone:</label>
-        <select id="tzOptions" class="selectpicker" data-live-search="true">
-        </select>
+    <div class="row mt-5">
+      <div class="form-group col-md-6">
+          <label for="tzOptions">Timezone:</label>
+          <select id="tzOptions" class="selectpicker" data-live-search="true">
+          </select>
+      </div>
+      <div class="col-md-6 d-flex flex-wrap" id="color-legend"></div>
     </div>
 
     <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">

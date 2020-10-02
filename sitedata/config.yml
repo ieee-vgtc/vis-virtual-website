@@ -33,11 +33,18 @@ auth0_domain : miniconf.auth0.com
 
 calendar:
   colors: #  Colors for the different event hashtags:
+    ## from https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
     ---: '#edf2f7'
     workshop: '#f4a261'
     tutorial: '#e9c46a'
+    panel: '#e9c46a'
+    live: '#e9c46a'
     associated: '#e76f51'
+    visap: '#e76f51'
     application: '#8338ec'
-    conference: '#264653'
+    vis: '#264653'
+    memorial: '#264653'
+    keynote: '#264653'
     paper: '#2a9d8f'
+    papers: '#2a9d8f'
   sunday_saturday: true  #  Include Sunday and Saturday

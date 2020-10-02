@@ -16,6 +16,7 @@ site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
+by_session = {}
 
 
 def main(site_data_path):
@@ -32,19 +33,44 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["papers", "speakers", "workshops", "sessions"]:
+    for typ in ["paper_list", "speakers", "workshops", "session_list"]:
         by_uid[typ] = {}
-        for p in site_data[typ]:
-            by_uid[typ][p["UID"]] = p
+        
+        if typ is "session_list":
+            for id, p in site_data[typ].items():
+                by_uid[typ][id] = p
+
+                # also iterate through each session within each session
+                for timeslot in p['sessions']:
+                    by_uid[typ][timeslot['session_id']] = timeslot
+
+                    # also put some parent info back into this item
+                    fq_timeslot = timeslot.copy()
+                    fq_timeslot.update({
+                        "event": p["event"],
+                        "event_type": p["event_type"],
+                        "parent_id": id,
+                    })
+
+                    by_session[timeslot['session_id']] = fq_timeslot
+
+
+        elif typ is "paper_list":
+            for id, p in site_data[typ].items():
+                by_uid[typ][id] = p
+
+        else:
+            for p in site_data[typ]:
+                by_uid[typ][p["UID"]] = p
 
     # organize sessions by day (calendar)
-    for session in site_data['sessions']:
-        this_date = dateutil.parser.parse(session['StartFixed'])
+    for session in by_session.values():
+        this_date = dateutil.parser.parse(session['time_start'])
         day = this_date.strftime("%A")
         if day not in by_day:
             by_day[day] = []
 
-        by_day[day].append(format_session(session))
+        by_day[day].append(format_by_session_list(session))
 
     # organize sessions by timeslot (linking simultaneous sessions together)
     for day, day_sessions in by_day.items():
@@ -61,8 +87,10 @@ def main(site_data_path):
                 }
 
             time_sessions[timeslot]['sessions'].append(session)
-            
+
         by_time[day] = time_sessions
+
+    ## TODO: add paper information to session information
 
     print("Data Successfully Loaded")
     return extra_files
@@ -78,7 +106,7 @@ def generateDayCalendars():
         for session in by_day[day]:
             session_event = {
                 "id": session['id'],
-                "title": session['title'],
+                "title": session['fullTitle'],
                 "start": session['startTime'],
                 "end": session['endTime'],
                 # "location": session['youtube'],
@@ -96,6 +124,31 @@ def generateDayCalendars():
 
         site_data[calendar_fname] = day_events
         all_events.extend(day_events)
+
+        # for the purposes of simplifying the main schedule, group by start/end times; merge times together; make location the appropriate tab
+        # aggregated_events = []
+        # timeslots = set(map(lambda event: event['start'] + "|" + event['end'], day_events))
+        # for timeslot in timeslots:
+        #     timeslot_events = []
+        #     for event in day_events:
+        #         timeslot_string = event['start']+ "|" + event['end']
+        #         if timeslot_string == timeslot:
+        #             timeslot_events.append(event)
+
+        #     agg_event = {
+        #         "id": timeslot,
+        #         "title": ", ".join(map(lambda event: event['title'], timeslot_events)),
+        #         "start": session['startTime'],
+        #         "end": session['endTime'],
+        #         # "location": session['youtube'],
+        #         "location": "#tab-" + day,
+        #         "link": "http://virtual.ieeevis.org/schedule.html#tab-" + day + ".html",
+        #         "category": "time",
+        #         "calendarId": "",
+        #     }
+        #     aggregated_events.append(agg_event)
+        
+        # all_events.extend(aggregated_events)
 
     # overwrite static main_calendar json with all assembled events
     site_data['main_calendar'] = all_events
@@ -157,15 +210,6 @@ def paper_vis():
 @app.route("/calendar.html")
 def schedule():
     data = _data()
-    data["day"] = {
-        "speakers": site_data["speakers"],
-        "highlighted": [
-            format_paper(by_uid["papers"][h["UID"]]) for h in site_data["highlighted"]
-        ],
-        "sessions": [
-            format_session(p) for p in site_data["sessions"]
-        ]
-    }
 
     data['days'] = {}
     for day in by_day:
@@ -175,7 +219,7 @@ def schedule():
 
     return render_template("schedule.html", **data)
 
-
+# ALPER TODO: we should just special-case particular sessions and render them under this route
 @app.route("/workshops.html")
 def workshops():
     data = _data()
@@ -216,6 +260,19 @@ def format_paper(v):
         },
     }
 
+## new format for paper_list.json
+def format_paper_list(v):
+    return {
+        "id": v['uid'],
+        "forum": v['uid'].split('-')[1],
+        "content": {
+            "title": v["title"],
+            "authors": v["authors"],
+            "session": v["session_id"],
+            "time_stamp": v["time_stamp"],
+        }
+    }
+
 
 def format_workshop(v):
     list_keys = ["authors"]
@@ -249,19 +306,53 @@ def format_session(v):
         "discord": v["Discord"],
     }
 
+# new format for session_list.json
+def format_session_list(v): 
+    return {
+        "id": v["session_id"],
+        "title": v["title"],
+        "type": v["session_id"][0], # first character designates type
+        "startTime": v["time_start"],
+        "endTime": v["time_end"],
+        "timeSlots": v["time_slots"],
+    }
+
+def format_by_session_list(v):
+    fullTitle = v["event"]
+    redundantTitle = True
+    if v["event"].lower() != v["title"].lower():
+        fullTitle += ": " + v["title"]
+        redundantTitle = False
+
+    return {
+        "id": v["session_id"],
+        "title": v["title"],
+        "type": v['event_type'].split(' ')[0].lower(), # get first word, which should be good enough...
+        "chair": v["chair"],
+        "organizers": v["organizers"],
+        "startTime": v["time_start"],
+        "endTime": v["time_end"],
+        "timeSlots": v["time_slots"],
+        "event": v["event"],
+        "event_type": v["event_type"],
+        "parent_id": v["parent_id"],
+        "fullTitle": fullTitle,
+        "redundantTitle": redundantTitle,
+    }
+
 
 # ITEM PAGES
 
-
+# ALPER TODO: there should be a single poster page; redirect to iPosters
 @app.route("/poster_<poster>.html")
 def poster(poster):
     uid = poster
-    v = by_uid["papers"][uid]
+    v = by_uid["paper"][uid]
     data = _data()
     data["paper"] = format_paper(v)
     return render_template("poster.html", **data)
 
-
+# ALPER TODO: get keynote info
 @app.route("/speaker_<speaker>.html")
 def speaker(speaker):
     uid = speaker
@@ -270,7 +361,7 @@ def speaker(speaker):
     data["speaker"] = v
     return render_template("speaker.html", **data)
 
-
+# ALPER TODO: populate the workshop list from session_list
 @app.route("/workshop_<workshop>.html")
 def workshop(workshop):
     uid = workshop
@@ -282,7 +373,7 @@ def workshop(workshop):
 @app.route("/session_<session>.html")
 def session(session):
     uid = session
-    v = by_uid["sessions"][uid]
+    v = by_uid["session_list"][uid]
     data = _data()
     data["session"] = format_session(v)
     return render_template("session.html", **data)

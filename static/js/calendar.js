@@ -67,7 +67,7 @@ function make_cal(name) {
           scheduleView: ['time'],
           usageStatistics: false,
           week: {
-            startDayOfWeek: 6, // IEEE VIS starts on Saturday
+            startDayOfWeek: 7, // IEEE VIS starts on Saturday
             workweek: !config.calendar["sunday_saturday"],
             hourStart: min_hours,
             hourEnd: max_hours
@@ -130,10 +130,12 @@ function make_cal(name) {
           calendar.setCalendars(cals);
         }
 
-        const week_dates = enumerateDaysBetweenDates(
+        let week_dates = enumerateDaysBetweenDates(
           calendar.getDateRangeStart().toDate(),
           calendar.getDateRangeEnd().toDate()
         );
+        // drop the last day (conference is 6 days)
+        week_dates = week_dates.slice(0, 6);
 
         // const c_sm = d3.select('#calendar_small')
         let i = 1;
@@ -224,6 +226,41 @@ function make_cal(name) {
           render: () => render(all_cals),
         });
 
+        // finally, render a color legend
+        const itemMapping = {
+          vis: "Conference",
+          paper: "Papers",
+          associated: "Associated Events",
+          workshop: "Workshop",
+          application: "Application Spotlights",
+          panel: "Tutorial / Panel",
+        };
+
+        // filter to top-level things
+        let legendColors = [];
+        for (const eventType in itemMapping) {
+          const legendColor = {
+            key: itemMapping[eventType],
+            value: config.calendar.colors[eventType],
+          }
+          legendColors.push(legendColor);
+        }
+
+        const legendItems = d3.select('#color-legend').selectAll('.legend-item')
+          .data(legendColors)
+          .enter().append('div')
+            .attr('class', 'legend-item px-2 d-flex align-items-baseline')
+            .attr('id', d => 'legend-item-' + d.key);
+
+        legendItems.append('div')
+          .style('width', '12px')
+          .style('height', '12px')
+          .style('background-color', d => d.value)
+          .style('margin-right', '7px');
+
+        legendItems.append('p')
+          .style('text-transform', 'capitalize')
+          .text(d => d.key);
       })
 
     })

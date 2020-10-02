@@ -43,7 +43,10 @@
 {% for session in sessions_by_time[timeslot].sessions %}
 <div class="row py-3">
 <div class="col-md-12 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
+    <h2><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
+    {% if not session.redundantTitle %}
     <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
+    {% endif %}
     <h4>{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
     <p>Type: {{ session.type }}</p>
   </div>
