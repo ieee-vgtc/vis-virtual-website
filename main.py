@@ -162,6 +162,7 @@ app.config.from_object(__name__)
 freezer = Freezer(app)
 markdown = Markdown(app)
 
+
 # MAIN PAGES
 
 
@@ -176,6 +177,11 @@ def index():
     return redirect("/index.html")
 
 
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(site_data_path, "favicon.ico")
+
+
 # TOP LEVEL PAGES
 
 
@@ -187,11 +193,11 @@ def home():
     return render_template("index.html", **data)
 
 
-@app.route("/about.html")
+@app.route("/help.html")
 def about():
     data = _data()
     data["FAQ"] = site_data["faq"]["FAQ"]
-    return render_template("about.html", **data)
+    return render_template("help.html", **data)
 
 
 @app.route("/papers.html")
