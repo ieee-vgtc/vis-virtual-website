@@ -17,6 +17,12 @@
 [x] day listing: better support non-US timezones when a single day's events straddle multiple days
 [ ] dev: store timezone in cookie (see "date parsing" below)
 
+# Merge with Mini-Conf 1.5
+[x] Update favicon
+[x] Delete data we're not using
+[x] Remove fonts we're not using (base.html header)
+Note: Straight up rejected all calendar.js changes; afaik there are no functional changes, just moving to async
+
 # json dump notes
 [ ] visap missing session ID
 [ ] vizsec missing session ID

@@ -11,7 +11,7 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'VIS 2020'
+  prefix: 'VIS 2020 Virtual'
   separator: ': '
 background_image: static/images/salt-lake.jpg
 organization: VIS 2020 Organization Committee
