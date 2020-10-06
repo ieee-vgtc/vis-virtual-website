@@ -198,13 +198,13 @@
         function formatDate(element){
           const current_tz = getTimezone();
           let atime = moment(element.text()).clone().tz(current_tz)
-          element.html(atime.format("MMMM, Do MM YYYY"))
+          element.html(atime.format("MMMM Do, YYYY"))
         }
 
         function formatDateTime(element) {
           const current_tz = getTimezone();
           let atime = moment(element.text()).clone().tz(current_tz)
-          element.html(atime.format("MMMM, Do MM YYYY @ HH:mm"))
+          element.html(atime.format("MMMM Do, YYYY @ HH:mm"))
         }
 
         function formatTimeSpan(element, includeDate){
