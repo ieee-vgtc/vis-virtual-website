@@ -43,13 +43,18 @@
 {% for session in sessions_by_time[timeslot].sessions %}
 <div class="row py-3">
 <div class="col-md-12 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
+    <span class="session-type" style="color: {{ config_calendar_colors[session.type] }}">{{ session.type }}</span>
     <h2><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
     {% if not session.redundantTitle %}
     <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
     {% endif %}
     <h4 class="format-date-span">{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
-    <p>Type: {{ session.type }}</p>
-    <p>TODO: list paper titles/presenters</p>
+    {% if session.chair %}
+    <h5>Chair: {{ session.chair | join(", ") }}</h5>
+    {% elif session.organizers %}
+    <h5>Organizers: {{ session.organizers | join(", ") }}</h5>
+    {% endif %}
+    <p>{{ session.timeSlots | length }} presentations in this session, <a href="session_{{session.id}}.html">see more &raquo;</a></p>
   </div>
 </div>
 {% endfor %}

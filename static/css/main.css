@@ -1,7 +1,7 @@
 
 :root {
   --main-bg-color: #edf2f7;
-  --main-border-color: #e2e8f0; 
+  --main-border-color: #e2e8f0;
   /* --shadow-color: rgb(204, 204, 204); */
   --accent-color: #c42026;
   --text-color: #000;
@@ -91,7 +91,7 @@ h2.jumbotron-h {
   font-size: 2.5em ;
   color: var(--text-inv-color);
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: lighten; 
+  background-blend-mode: lighten;
 }
 
 h3.jumbotron-date {
@@ -99,7 +99,7 @@ h3.jumbotron-date {
   font-size: 1.5em;
   color: var(--text-inv-color);
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: lighten; 
+  background-blend-mode: lighten;
 }
 
 h1,
@@ -110,7 +110,7 @@ h3 {
   color: var(--text-heading-color);
 }
 
-.btn .active, 
+.btn .active,
 .btn.btn-outline-secondary.active {
   background-color: var(--btn-inv-color) !important;
 }
@@ -162,7 +162,7 @@ h3 {
 .pp-card-header {
   background-color: #fff;
   border: 4px solid var(--main-border-color);
-  
+
   font-family: "Zilla Slab";
   height: 340px;
   padding-top: 10px;
@@ -399,7 +399,7 @@ body .carousel-control-prev {
 }
 
 /* specific event colours are set in config.yml */
-.tui-full-calendar-time-schedule-content, 
+.tui-full-calendar-time-schedule-content,
 .tui-full-calendar-time-schedule-content-time {
   border-color: var(--main-border-color) !important;
   font-weight: 400;
@@ -411,4 +411,37 @@ body .carousel-control-prev {
 
 .session-listing {
   border-left: 5px solid transparent;
+}
+
+.session-type {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding-bottom: 0.5rem;
+}
+
+hr {
+  border-bottom: 2px;
+  border-style: dashed;
+  border-color: var(--accent-color);
+  border-top-width: 0;
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+hr::after {
+  border: 2px solid var(--accent-color);
+  position: absolute;
+  border-radius: 9999px;
+  content: "";
+  right: -14px;
+  top: -4px;
+  width: 6px;
+  height: 6px;
+  box-sizing: content-box;
 }

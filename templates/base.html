@@ -16,7 +16,7 @@
     <!-- External CSS --> <!-- moved here to avoid normalize.css overrrides -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
 
-        
+
 
     <link rel="stylesheet" href="static/css/lazy_load.css" />
     <link rel="stylesheet" href="static/css/typeahead.css" />
@@ -229,6 +229,12 @@
           }
         }
 
+        function formatTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz);
+          element.html(atime.format("HH:mm"));
+        }
+
         $(".format-just-date").each((_i, element) => {
           formatDate($(element));
         });
@@ -243,6 +249,10 @@
 
         $(".format-date-span-full").each((_i, element) => {
           formatTimeSpan($(element), true);
+        });
+
+        $(".format-time").each((_i, element) => {
+          formatTime($(element));
         });
 
       });
