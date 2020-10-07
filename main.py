@@ -95,6 +95,7 @@ def main(site_data_path):
     print("Data Successfully Loaded")
     return extra_files
 
+
 # main() should be called before this function
 def generateDayCalendars():
     if len(by_day) == 0:
@@ -154,7 +155,6 @@ def generateDayCalendars():
     site_data['main_calendar'] = all_events
 
 
-
 # ------------- SERVER CODE -------------------->
 
 app = Flask(__name__)
@@ -203,7 +203,7 @@ def about():
 @app.route("/papers.html")
 def papers():
     data = _data()
-    data["papers"] = site_data["papers"]
+    # data["papers"] = site_data["papers"]
     return render_template("papers.html", **data)
 
 
@@ -224,6 +224,7 @@ def schedule():
         }
 
     return render_template("schedule.html", **data)
+
 
 # ALPER TODO: we should just special-case particular sessions and render them under this route
 @app.route("/workshops.html")
@@ -260,21 +261,26 @@ def format_paper(v):
         "time_stamp": v["time_stamp"],
         "session_id": v["session_id"],
         "session_title": by_uid["sessions"][v["session_id"]]['title'],
+
+        # for papers.html:
+        "sessions": [by_uid["sessions"][v["session_id"]]['title']],
+        "UID": v["uid"],
         "pdf_url": v.get("pdf_url", ""),
     }
 
+
 ## new format for paper_list.json
-def format_paper_list(v):
-    return {
-        "id": v['uid'],
-        "forum": v['uid'].split('-')[1],
-        "content": {
-            "title": v["title"],
-            "authors": v["authors"],
-            "session": v["session_id"],
-            "time_stamp": v["time_stamp"],
-        }
-    }
+# def format_paper_list(v):
+#     return {
+#         "id": v['uid'],
+#         "forum": v['uid'].split('-')[1],
+#         "content": {
+#             "title": v["title"],
+#             "authors": v["authors"],
+#             "session": v["session_id"],
+#             "time_stamp": v["time_stamp"],
+#         }
+#     }
 
 
 def format_workshop(v):
@@ -289,6 +295,7 @@ def format_workshop(v):
         "organizers": list_fields["authors"],
         "abstract": v["abstract"],
     }
+
 
 def format_session(v):
     list_keys = ['Organizers']
@@ -309,16 +316,18 @@ def format_session(v):
         "discord": v["Discord"],
     }
 
+
 # new format for session_list.json
 def format_session_list(v):
     return {
         "id": v["session_id"],
         "title": v["title"],
-        "type": v["session_id"][0], # first character designates type
+        "type": v["session_id"][0],  # first character designates type
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
     }
+
 
 def format_by_session_list(v):
     fullTitle = v["event"]
@@ -330,7 +339,7 @@ def format_by_session_list(v):
     return {
         "id": v["session_id"],
         "title": v["title"],
-        "type": v['event_type'].split(' ')[0].lower(), # get first word, which should be good enough...
+        "type": v['event_type'].split(' ')[0].lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
         "startTime": v["time_start"],
@@ -354,6 +363,7 @@ def paper(paper):
     data["paper"] = format_paper(v)
     return render_template("paper.html", **data)
 
+
 # ALPER TODO: get keynote info
 @app.route("/speaker_<speaker>.html")
 def speaker(speaker):
@@ -362,6 +372,7 @@ def speaker(speaker):
     data = _data()
     data["speaker"] = v
     return render_template("speaker.html", **data)
+
 
 # ALPER TODO: populate the workshop list from session_list
 @app.route("/workshop_<workshop>.html")
@@ -372,6 +383,7 @@ def workshop(workshop):
     data["workshop"] = format_workshop(v)
     return render_template("workshop.html", **data)
 
+
 @app.route("/session_<session>.html")
 def session(session):
     uid = session
@@ -379,6 +391,7 @@ def session(session):
     data = _data()
     data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
+
 
 ## TODO: event landing page
 ## (no livestream links here, just links out to each session and maybe has more descriptive metadata)
@@ -407,12 +420,12 @@ def chat():
 # FRONT END SERVING
 
 ## ALPER TODO: not sure what uses this (papers.html?), but we don't need it right now
-# @app.route("/papers.json")
-# def paper_json():
-#     json = []
-#     for v in site_data["papers"]:
-#         json.append(format_paper(v))
-#     return jsonify(json)
+@app.route("/papers.json")
+def paper_json():
+    json = []
+    for v in site_data["paper_list"].items():
+        json.append(format_paper(v[1]))
+    return jsonify(json)
 
 
 @app.route("/static/<path:path>")
@@ -431,7 +444,6 @@ def serve(path):
 
 @freezer.register_generator
 def generator():
-
     for paper in site_data["paper_list"].values():
         yield "paper", {"paper": str(paper["uid"])}
     for speaker in site_data["speakers"]:

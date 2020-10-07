@@ -29,6 +29,8 @@ const updateCards = (papers) => {
   ]).then(
     ([visitedPapers, bookmarks]) => {
 
+
+
       papers.forEach((paper) => {
         paper.UID = paper.UID;
         paper.read = visitedPapers[paper.UID] || false;
@@ -234,7 +236,7 @@ const card_detail = (paper, show) => {
         <p class="card-text"><span class="font-weight-bold">Keywords:</span>
             ${paper.keywords.map(keyword).join(", ")}
         </p>
-        <p class="card-text"> ${paper.TLDR}</p>
+        <p class="card-text"> ${paper.abstract}</p>
         </div>
     </div>
 `;
