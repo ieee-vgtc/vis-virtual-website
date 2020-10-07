@@ -2,8 +2,8 @@
 {% set page_title = "Schedule" %}
 {% extends "base.html" %}
 {% block head %}
-    {{ super() }}
-    {% include 'cal_head.html' %}
+{{ super() }}
+{% include 'schedule_head.html' %}
 {% endblock %}
 
 {% block tabs %}
@@ -40,13 +40,6 @@
 
             <!-- full cal for browser-->
             <div id="calendar" class="d-none d-sm-block"></div>
-
-            <!-- small cal for smart phones -->
-            <!-- <div id="calendar_small" class="d-sm-none"></div> -->
-
-            {#    <script type="text/javascript">#}
-            {#      make_cal("serve_main_calendar.json");#}
-            {#    </script>#}
         </div>
 
         <!-- Day Tab -->

@@ -6,12 +6,12 @@ Example intro text.
 
 You need to authenticate with our website to access the session listings, download content, and see organized listing of live events.  To register, please visit [http://ieeevis.org/](http://ieeevis.org/year/2020/info/registration/conference-registration).
 
-You should receive an e-mail with an auto-generated password to the e-mail you used to register for the conference.  If you didn't receive the e-mail, please check your spam folder.  The e-mails are sent from the auth0.com domain.  If you are still having trouble, please ask in #support in Discord or e-mail tech@ieeevis.org.
+You should receive an e-mail with an auto-generated password to the e-mail you used to register for the conference.  If you didn't receive the e-mail, please check your spam folder.  The e-mails are sent from the auth0.com domain.  If you are still having trouble, please ask in #support in Discord or e-mail web@ieeevis.org.
 
 
 ### Help
 
-Feel free to visit our Help page above.  If you are still having issues, feel free to ask in #support in Discord or e-mail tech@ieeevis.org.
+Feel free to visit our Help page above.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
 
 
 ### Acknowledgements
