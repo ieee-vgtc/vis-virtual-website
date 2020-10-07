@@ -34,8 +34,8 @@ def main(site_data_path):
 
     for typ in ["paper_list", "speakers", "workshops", "session_list"]:
         by_uid[typ] = {}
-        
-        if typ is "session_list":
+
+        if typ == "session_list":
             by_uid['events'] = {}
             by_uid['sessions'] = {}
 
@@ -55,7 +55,7 @@ def main(site_data_path):
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
 
 
-        elif typ is "paper_list":
+        elif typ == "paper_list":
             for id, p in site_data[typ].items():
                 by_uid[typ][id] = p
 
@@ -147,7 +147,7 @@ def generateDayCalendars():
         #         "calendarId": "",
         #     }
         #     aggregated_events.append(agg_event)
-        
+
         # all_events.extend(aggregated_events)
 
     # overwrite static main_calendar json with all assembled events
@@ -310,7 +310,7 @@ def format_session(v):
     }
 
 # new format for session_list.json
-def format_session_list(v): 
+def format_session_list(v):
     return {
         "id": v["session_id"],
         "title": v["title"],
@@ -380,7 +380,7 @@ def session(session):
     data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
 
-## TODO: event landing page 
+## TODO: event landing page
 ## (no livestream links here, just links out to each session and maybe has more descriptive metadata)
 @app.route('/event_<event>.html')
 def event(event):

@@ -10,6 +10,8 @@
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon" />
+
     <!-- External Javascript libs_ext  -->
     <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
 
@@ -73,7 +75,7 @@
       href="static/css/Fira.css"
       rel="stylesheet"
     />
-    
+
     <link rel="stylesheet" href="static/css/main.css"/>
 <!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
     <link rel="stylesheet" href="static/css/fa_solid.css"/>
@@ -94,7 +96,7 @@
 ('papers.html', 'Papers'),
 ('workshops.html', 'Workshops'),
 ('chat.html', 'Chat'),
-('help.html', 'Help'),    
+('help.html', 'Help'),
 ('http://www.ieeevis.org', 'Main Site'),
 ] -%}
 
@@ -237,6 +239,12 @@
       }
     }
 
+    function formatTime(element) {
+      const current_tz = getTimezone();
+      let atime = moment(element.text()).clone().tz(current_tz);
+      element.html(atime.format("HH:mm"));
+    }
+
     $(".format-just-date").each((_i, element) => {
       formatDate($(element));
     });
@@ -251,6 +259,10 @@
 
     $(".format-date-span-full").each((_i, element) => {
       formatTimeSpan($(element), true);
+    });
+
+    $(".format-time").each((_i, element) => {
+      formatTime($(element));
     });
 
   });
