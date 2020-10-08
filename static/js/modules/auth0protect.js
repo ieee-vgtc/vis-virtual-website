@@ -1,30 +1,79 @@
 window.onload = async () => {
+  document.body.style.display = "none";
+  $(".secret").hide();
   const auth0 = await createAuth0Client({
     domain: auth0_domain,
     client_id: auth0_client_id,
+    cacheLocation: "localstorage",
   });
-  try {
-    await auth0.getTokenSilently();
-  } catch (error) {
-    if (error.error !== "login_required") {
-      throw error;
-    }
-    if (window.location.href.includes("index.html")) {
-      await auth0.loginWithRedirect({
-        redirect_uri: window.location.href,
-      });
-    } else {
-      window.location.href = "index.html";
-    }
-  }
 
-  // NEW - check for the code and state parameters
+  console.log(auth0, "--- auth0");
+  const isAuthenticated = await auth0.isAuthenticated();
   const query = window.location.search;
-  if (query.includes("code=") && query.includes("state=")) {
+
+  const updateUI = async () => {
+    const is_auth = await auth0.isAuthenticated();
+    if (is_auth) {
+      document.body.style.display = null;
+      const user = await auth0.getUser();
+      $(".loginBtn").hide();
+      $(".logoutBtn").show();
+      $(".secret").show();
+      $(".user_name").text(user.name);
+    } else {
+      $(".loginBtn").show();
+      $(".logoutBtn").hide();
+      $(".secret").hide();
+      $(".user_name").text("");
+    }
+  };
+
+  if (isAuthenticated) {
+    console.log(" auth--- ");
+    document.body.style.display = null;
+    await updateUI();
+  } else if (query.includes("code=") && query.includes("state=")) {
+    // NEW - check for the code and state parameters
     // Process the login state
-    await auth0.handleRedirectCallback();
+    auth0
+      .handleRedirectCallback()
+      .then((cb) => {
+        // console.log(cb, "--- cb");
+        window.history.replaceState({}, document.title, "/");
+        updateUI();
+      })
+      .catch((e) => {
+        console.log(e, "--- e");
+      });
 
     // Use replaceState to redirect the user away and remove the querystring parameters
-    window.history.replaceState({}, document.title, "/");
+  } else if (
+    window.location.href.includes("index.html") &&
+    !window.location.hash.includes("index.html")
+  ) {
+    // await updateUI();
+    document.body.style.display = null;
+    // const els = document.getElementsByClassName("loginBtn");
+    //
+    // [].forEach.call(els, function (el) {
+    //   el.addEventListener("click", async () => {
+    //     await auth0.loginWithRedirect({
+    //       redirect_uri: window.location.href,
+    //     });
+    //   });
+    // });
+  } else {
+    window.location.href = "index.html";
   }
+
+  $(".loginBtn").click(async function () {
+    await auth0.loginWithRedirect({
+      redirect_uri: window.location.href,
+    });
+  });
+  $(".logoutBtn").click(async function () {
+    await auth0.logout({
+      redirect_uri: window.location.href,
+    });
+  });
 };

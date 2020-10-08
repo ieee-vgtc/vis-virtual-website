@@ -67,7 +67,7 @@
         {% endfor %}
 
         <script type="text/javascript">
-          window.onload = () => {
+          $(document).ready(function () {
             const tabPanes = $(".tab-pane");
             // Render cals:
             make_cal("serve_main_calendar.json")
@@ -86,7 +86,7 @@
               })
 
             lazyLoader();
-          }
+          })
         </script>
     </div>
 {% endblock %}

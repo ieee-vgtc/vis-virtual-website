@@ -3,94 +3,99 @@
 <html lang="en">
 <head>
     {% block head %}
-    <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-    <link rel="shortcut icon" href="/static/images/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/static/images/favicon.png"
+              type="image/x-icon"/>
 
-    <!-- External Javascript libs_ext  -->
-    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
-            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
-            crossorigin="anonymous"></script>
+        {% if config.use_auth0 %}
+            <script>
+              const auth0_domain = "{{config.auth0_domain}}";
+              const auth0_client_id = "{{config.auth0_client_id}}";
+            </script>
+            <script src="https://cdn.auth0.com/js/auth0-spa-js/1.12/auth0-spa-js.production.js"></script>
+            <script src="static/js/modules/auth0protect.js"></script>
+        {% endif %}
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
+        <!-- External Javascript libs_ext  -->
+        <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
 
-    <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-    ></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
-            crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
-            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
-            crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
-            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
-            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+                integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+                crossorigin="anonymous"></script>
 
 
-    <!-- Library libs_ext -->
-    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+        <script
+                src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"
+        ></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+                integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+                crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+                integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+                crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+                integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+                crossorigin="anonymous"></script>
 
 
-    <!--    Internal Libs -->
-    <script src="static/js/data/api.js"></script>
+        <!-- Library libs_ext -->
+        <script src="static/js/libs_ext/typeahead.bundle.js"></script>
 
-    {% if config.use_auth0 %}
-    <script>
-      var auth0_domain = "{{config.auth0_domain}}";
-      var auth0_client_id = "{{config.auth0_client_id}}";
-    </script>
-    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.7/auth0-spa-js.production.js"></script>
-    <script src="static/js/modules/auth0protect.js"></script>
-    {% endif %}
 
-    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <!--    Internal Libs -->
+        <script src="static/js/data/api.js"></script>
 
-    <!-- External CSS -->
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
-          crossorigin="anonymous">
 
-    <!-- External Fonts (no google for china) -->
-    <link
-      href="static/css/Zilla.css"
-      rel="stylesheet"
-    />
-    <link
-      href="static/css/Fira.css"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="static/css/main.css"/>
-<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
-    <link rel="stylesheet" href="static/css/fa_solid.css"/>
-    <link rel="stylesheet" href="static/css/lazy_load.css"/>
-    <link rel="stylesheet" href="static/css/typeahead.css"/>
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
 
-    <title>{{config.page_title.prefix}}{% if page_title
-        %}{{config.page_title.separator}}{{page_title}}{% endif %}</title>
+        <!-- External CSS -->
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+              integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+              crossorigin="anonymous">
+
+        <!-- External Fonts (no google for china) -->
+        <link
+                href="static/css/Zilla.css"
+                rel="stylesheet"
+        />
+        <link
+                href="static/css/Fira.css"
+                rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="static/css/main.css"/>
+        <!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+        <link rel="stylesheet" href="static/css/fa_solid.css"/>
+        <link rel="stylesheet" href="static/css/lazy_load.css"/>
+        <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+        <title>{{ config.page_title.prefix }}{% if page_title %}
+            {{ config.page_title.separator }}{{ page_title }}{% endif %}</title>
     {% endblock %}
 </head>
 
-<body>
+<body style="display: none;">
 <!-- NAV -->
 {% block header %}
-{% set navigation_bar = [
+    {% set navigation_bar = [
 ('index.html', 'Home'),
 ('calendar.html', 'Schedule'),
 ('papers.html', 'Papers'),
@@ -100,174 +105,181 @@
 ('http://www.ieeevis.org', 'Main Site'),
 ] -%}
 
-<nav
-        class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
-        id="main-nav"
->
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img
-                    class="logo" src="{{config.logo.image}}"
-                    height={{config.logo.height | default("auto") | tojson}}
-            width={{config.logo.width | default("auto") | tojson}}
-            />
-        </a>
-        {% if config.site_title %}
-        <a class="navbar-brand" href="index.html">{{config.site_title}}</a>
-        {% endif %}
-        <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-                class="collapse navbar-collapse text-right flex-grow-1"
-                id="navbarNav"
-        >
-            <ul class="navbar-nav ml-auto">
-                {% for href, id in navigation_bar %}
-                <li class="nav-item {% if id == active_page %}active{% endif %}">
-                    <a class="nav-link" href="{{href}}">{{id}}</a>
-                </li>
-                {% endfor %}
-            </ul>
+    <nav
+            class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+            id="main-nav"
+    >
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img
+                        class="logo" src="{{ config.logo.image }}"
+                        height={{ config.logo.height | default("auto") | tojson }}
+                                width={{ config.logo.width | default("auto") | tojson }}
+                />
+            </a>
+            {% if config.site_title %}
+                <a class="navbar-brand"
+                   href="index.html">{{ config.site_title }}</a>
+            {% endif %}
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                    class="collapse navbar-collapse text-right flex-grow-1"
+                    id="navbarNav"
+            >
+                <ul class="navbar-nav ml-auto">
+                    {% for href, id in navigation_bar %}
+                        <li class="nav-item {% if id == active_page %}active{% endif %}">
+                            <a class="nav-link" href="{{ href }}">{{ id }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 {% endblock %}
 
 {% block body %}
-<!-- User Overrides -->
-{% block top %} {% endblock %}
+    <!-- User Overrides -->
+    {% block top %} {% endblock %}
 
-<div class="container">
-    <!-- Tabs -->
-    <div class="tabs">
-        {% block tabs %} {% endblock %}
+    <div class="container">
+        <!-- Tabs -->
+        <div class="tabs">
+            {% block tabs %} {% endblock %}
+        </div>
+        <!-- Content -->
+        <div class="content">
+            {% block content %} {% endblock %}
+        </div>
     </div>
-    <!-- Content -->
-    <div class="content">
-        {% block content %} {% endblock %}
-    </div>
-</div>
 {% endblock %}
 {% block footer %}
 
-<!-- Google Analytics -->
-<script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id={{config.analytics}}"
-></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+    <!-- Google Analytics -->
+    <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id={{ config.analytics }}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag("js", new Date());
-  gtag("config", "{{config.analytics}}");
-</script>
-
-<!-- Footer -->
-<footer class="footer bg-light p-4">
-  <div class="container">
-    <p class="float-right"><a href="#">Back to Top</a></p>
-    <p class="text-center">© 2020, {{config.organization}}</p>
-  </div>
-</footer>
-
-<!-- Code for hash tags -->
-<script type="text/javascript">
-  $(document).ready(function () {
-    if (location.hash !== "") {
-      $('a[href="' + location.hash + '"]').tab("show");
-    }
-
-    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
-      var hash = $(e.target).attr("href");
-      if (hash.substr(0, 1) == "#") {
-        var position = $(window).scrollTop();
-        location.replace("#" + hash.substr(1));
-        $(window).scrollTop(position);
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    });
 
-    // TODO: also read from cookie if we can
-    function getTimezone() {
-      return (window.getUrlParameter && getUrlParameter('tz')) || moment.tz.guess();
-    }
+      gtag("js", new Date());
+      gtag("config", "{{config.analytics}}");
+    </script>
 
-    // find all parseable dates and localize them
-    function formatDate(element){
-      const current_tz = getTimezone();
-      let atime = moment(element.text()).clone().tz(current_tz)
-      element.html(atime.format("MMMM, Do MM YYYY"))
-    }
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+        <div class="container">
+            <p class="float-right"><a href="#">Back to Top</a></p>
+            <p class="text-center">© 2020, {{ config.organization }}</p>
+        </div>
+    </footer>
 
-    function formatDateTime(element) {
-      const current_tz = getTimezone();
-      let atime = moment(element.text()).clone().tz(current_tz)
-      element.html(atime.format("MMMM, Do MM YYYY @ HH:mm"))
-    }
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
 
-    function formatTimeSpan(element, includeDate){
-      const current_tz = getTimezone();
-      let parts = element.text().split(" – ");
-      let start = parts[0];
-      let end = parts[1];
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
 
-      let starttime = moment(start).clone().tz(current_tz)
-      let endtime = moment(end).clone().tz(current_tz)
+        // TODO: also read from cookie if we can
+        function getTimezone() {
+          return (window.getUrlParameter && getUrlParameter(
+            'tz')) || moment.tz.guess();
+        }
 
-      //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
-                                                // seems like not considering the timezone
-      if(starttime.format("D") == endtime.format("D")) {
-        if (includeDate)
-          element.html(starttime.format("MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm"));
-        else
-          element.html(starttime.format("HH:mm")+" &ndash; "+endtime.format("HH:mm"));
-      }
-      else {
-        element.html(starttime.format("MMM Do @ HH:mm")+" &ndash; "+endtime.format("MMM Do @ HH:mm"))
-      }
-    }
+        // find all parseable dates and localize them
+        function formatDate(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz)
+          element.html(atime.format("MMMM, Do MM YYYY"))
+        }
 
-    function formatTime(element) {
-      const current_tz = getTimezone();
-      let atime = moment(element.text()).clone().tz(current_tz);
-      element.html(atime.format("HH:mm"));
-    }
+        function formatDateTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz)
+          element.html(atime.format("MMMM, Do MM YYYY @ HH:mm"))
+        }
 
-    $(".format-just-date").each((_i, element) => {
-      formatDate($(element));
-    });
+        function formatTimeSpan(element, includeDate) {
+          const current_tz = getTimezone();
+          let parts = element.text().split(" – ");
+          let start = parts[0];
+          let end = parts[1];
 
-    $(".format-date").each((_i, element) => {
-      formatDateTime($(element));
-    });
+          let starttime = moment(start).clone().tz(current_tz)
+          let endtime = moment(end).clone().tz(current_tz)
 
-    $(".format-date-span").each((_i, element) => {
-      formatTimeSpan($(element));
-    });
+          //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
+          // seems like not considering the timezone
+          if (starttime.format("D") == endtime.format("D")) {
+            if (includeDate)
+              element.html(starttime.format(
+                "MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
+                "HH:mm"));
+            else
+              element.html(
+                starttime.format("HH:mm") + " &ndash; " + endtime.format(
+                "HH:mm"));
+          } else {
+            element.html(
+              starttime.format("MMM Do @ HH:mm") + " &ndash; " + endtime.format(
+              "MMM Do @ HH:mm"))
+          }
+        }
 
-    $(".format-date-span-full").each((_i, element) => {
-      formatTimeSpan($(element), true);
-    });
+        function formatTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz);
+          element.html(atime.format("HH:mm"));
+        }
 
-    $(".format-time").each((_i, element) => {
-      formatTime($(element));
-    });
+        $(".format-just-date").each((_i, element) => {
+          formatDate($(element));
+        });
 
-  });
-</script>
-<script src="static/js/lazy_load.js"></script>
+        $(".format-date").each((_i, element) => {
+          formatDateTime($(element));
+        });
+
+        $(".format-date-span").each((_i, element) => {
+          formatTimeSpan($(element));
+        });
+
+        $(".format-date-span-full").each((_i, element) => {
+          formatTimeSpan($(element), true);
+        });
+
+        $(".format-time").each((_i, element) => {
+          formatTime($(element));
+        });
+
+      });
+    </script>
+    {#<script src="static/js/lazy_load.js"></script>#}
 {% endblock %}
 </body>
 </html>
