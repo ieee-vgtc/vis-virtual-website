@@ -7,7 +7,6 @@ window.onload = async () => {
     cacheLocation: "localstorage",
   });
 
-  console.log(auth0, "--- auth0");
   const isAuthenticated = await auth0.isAuthenticated();
   const query = window.location.search;
 
@@ -29,7 +28,6 @@ window.onload = async () => {
   };
 
   if (isAuthenticated) {
-    console.log(" auth--- ");
     document.body.style.display = null;
     await updateUI();
   } else if (query.includes("code=") && query.includes("state=")) {
@@ -43,7 +41,8 @@ window.onload = async () => {
         updateUI();
       })
       .catch((e) => {
-        console.log(e, "--- e");
+        // eslint-disable-next-line no-console
+        console.log(e, "--- error");
       });
 
     // Use replaceState to redirect the user away and remove the querystring parameters
