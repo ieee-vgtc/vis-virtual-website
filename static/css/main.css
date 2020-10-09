@@ -413,7 +413,7 @@ body .carousel-control-prev {
 
 .checkbox-bookmark.selected {
   opacity: 1;
-  color: #bed972;
+  color: var(--accent-color);
 }
 
 .session-type {

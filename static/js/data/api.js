@@ -67,7 +67,8 @@ class API {
    * @return {string}
    */
   static thumbnailPath(paper) {
-    return `https://iclr.github.io/iclr-images/small/${paper.UID}.jpg`;
+    // https://ieeevis.b-cdn.net/paper_images/{{ paper.id }}.png
+    return `https://ieeevis.b-cdn.net/paper_images/${paper.id}.png`;
   }
 
   /**
@@ -76,7 +77,7 @@ class API {
    * @return {string}
    */
   static posterLink(paper) {
-    return `poster_${paper.UID}.html`;
+    return `paper_${paper.id}.html`;
   }
 
   /**
