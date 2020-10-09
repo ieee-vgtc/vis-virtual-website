@@ -196,6 +196,7 @@ def home():
 @app.route("/help.html")
 def about():
     data = _data()
+    data["discord"] = open("discord_guide.md").read()
     data["FAQ"] = site_data["faq"]["FAQ"]
     return render_template("help.html", **data)
 
