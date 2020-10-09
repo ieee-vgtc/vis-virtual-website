@@ -3,7 +3,7 @@ function make_cal(name) {
     // ...promise fulfilled after cal is rendered.
 
     // TODO: set value in cookie if we can; read in base.html
-    const current_tz = getUrlParameter('tz') || moment.tz.guess();
+    const current_tz = getUrlParameter('tz') || window.localStorage.getItem("tz") || moment.tz.guess();
     const tzNames = [...moment.tz.names()];
 
     const setupTZSelector = () => {
@@ -17,7 +17,11 @@ function make_cal(name) {
         .on('changed.bs.select',
           function (e, clickedIndex, isSelected, previousValue) {
             new_tz = tzNames[clickedIndex]
+
             // TODO: set value in cookie if we can
+             const localStorage = window.localStorage;
+             localStorage.setItem("tz", new_tz);
+
             window.open(window.location.pathname + '?tz=' + new_tz, '_self');
           })
     }

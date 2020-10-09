@@ -11,7 +11,7 @@ You should receive an e-mail with an auto-generated password to the e-mail you u
 
 ### Help
 
-Feel free to visit our Help page above.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
+Feel free to visit [our Help page above](/help.html), where we have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
 
 
 ### Acknowledgements
