@@ -169,9 +169,16 @@
                 "chair": [
                     "Michael Sedlmair"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Anastasia Bezerianos",
+                    "Kyle Hall",
+                    "Samuel Huron",
+                    "Matthew Kay",
+                    "Miriah Meyer",
+                    "Michael Sedlmair"
+                ],
                 "time_start": "2020-10-25T14:00:00Z",
-                "time_end": "2020-10-25T15:20:00Z",
+                "time_end": "2020-10-25T15:30:00Z",
                 "time_slots": [
                     {
                         "type": "Live Zoom",
@@ -186,10 +193,10 @@
                         "type": "Live Zoom",
                         "title": "MISSING",
                         "contributors": [
-                            "MISSING"
+                            "John Burn-Murdoch"
                         ],
                         "time_start": "2020-10-25T14:10:00Z",
-                        "time_end": "2020-10-25T14:40:00Z"
+                        "time_end": "2020-10-25T14:50:00Z"
                     },
                     {
                         "type": "Recorded Talk",
@@ -197,8 +204,8 @@
                         "contributors": [
                             "Tatiana Losev"
                         ],
-                        "time_start": "2020-10-25T14:40:00Z",
-                        "time_end": "2020-10-25T15:00:00Z"
+                        "time_start": "2020-10-25T14:50:00Z",
+                        "time_end": "2020-10-25T15:10:00Z"
                     },
                     {
                         "type": "Live Presentation",
@@ -206,8 +213,8 @@
                         "contributors": [
                             "Priscilla Balestrucci"
                         ],
-                        "time_start": "2020-10-25T15:00:00Z",
-                        "time_end": "2020-10-25T15:20:00Z"
+                        "time_start": "2020-10-25T15:10:00Z",
+                        "time_end": "2020-10-25T15:30:00Z"
                     }
                 ]
             },
@@ -217,7 +224,14 @@
                 "chair": [
                     "Matthew Kay"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Anastasia Bezerianos",
+                    "Kyle Hall",
+                    "Samuel Huron",
+                    "Matthew Kay",
+                    "Miriah Meyer",
+                    "Michael Sedlmair"
+                ],
                 "time_start": "2020-10-25T16:00:00Z",
                 "time_end": "2020-10-25T16:30:00Z",
                 "time_slots": [
@@ -249,7 +263,7 @@
                         "time_end": "2020-10-25T17:00:00Z"
                     },
                     {
-                        "type": null,
+                        "type": "Zoom Breakout",
                         "title": "Zoom Breakout Session",
                         "contributors": [
                             "All"
@@ -265,7 +279,14 @@
                 "chair": [
                     "Miriah Meyer"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Anastasia Bezerianos",
+                    "Kyle Hall",
+                    "Samuel Huron",
+                    "Matthew Kay",
+                    "Miriah Meyer",
+                    "Michael Sedlmair"
+                ],
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T19:20:00Z",
                 "time_slots": [
@@ -284,7 +305,11 @@
                         "type": "Live Panel",
                         "title": "Panel: Vis Evaluation Moving into the Next Decade",
                         "contributors": [
-                            "MISSING"
+                            "Florian Alt",
+                            "Michael Correll",
+                            "Petra Isenberg",
+                            "Tamara Munzner",
+                            "Aditeya Pandey"
                         ],
                         "time_start": "2020-10-25T18:30:00Z",
                         "time_end": "2020-10-25T19:20:00Z"
@@ -297,7 +322,14 @@
                 "chair": [
                     "Kyle Hall"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Anastasia Bezerianos",
+                    "Kyle Hall",
+                    "Samuel Huron",
+                    "Matthew Kay",
+                    "Miriah Meyer",
+                    "Michael Sedlmair"
+                ],
                 "time_start": "2020-10-25T20:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "time_slots": [
@@ -346,51 +378,368 @@
         "event_type": "Associated Event",
         "sessions": [
             {
-                "title": "MISSING",
+                "title": "Session 1",
                 "session_id": "a-vis4dh-1",
                 "chair": [
                     "MISSING"
                 ],
                 "organizers": [
-                    "MISSING"
+                    "Catherine Derose",
+                    "Uta Hinrichs",
+                    "Mennatallah El-Assady"
                 ],
                 "time_start": "2020-10-25T14:00:00Z",
-                "time_end": "2020-10-25T21:30:00Z",
+                "time_end": "2020-10-25T15:30:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Live Presentation",
+                        "title": "Opening",
                         "contributors": [
                             "MISSING"
                         ],
                         "time_start": "2020-10-25T14:00:00Z",
-                        "time_end": "2020-10-25T15:30:00Z"
+                        "time_end": "2020-10-25T14:10:00Z"
                     },
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "MISSING",
+                        "title": "Keynote: From the Flaneur to the Fold: Imbuing Data Visualization with Philosophy",
                         "contributors": [
-                            "MISSING"
+                            "Marian D\u00f6rk"
+                        ],
+                        "time_start": "2020-10-25T14:10:00Z",
+                        "time_end": "2020-10-25T15:00:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Provocations I: Ground Truths for the Humanities",
+                        "contributors": [
+                            "Yvette Oortwijn",
+                            "Hein van den Berg",
+                            "Arianna Betti"
+                        ],
+                        "time_start": "2020-10-25T15:00:00Z",
+                        "time_end": "2020-10-25T15:10:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Provocations I: The Necessity of Re in Re-Thinking, Re-Defining, Re-Imagining Data",
+                        "contributors": [
+                            "Chris Weaver"
+                        ],
+                        "time_start": "2020-10-25T15:10:00Z",
+                        "time_end": "2020-10-25T15:20:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Provocations I: Data as material versus data as reason",
+                        "contributors": [
+                            "Paul Heinicker"
+                        ],
+                        "time_start": "2020-10-25T15:20:00Z",
+                        "time_end": "2020-10-25T15:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Session 2",
+                "session_id": "a-vis4dh-2",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [
+                    "Catherine Derose",
+                    "Uta Hinrichs",
+                    "Mennatallah El-Assady"
+                ],
+                "time_start": "2020-10-25T16:00:00Z",
+                "time_end": "2020-10-25T17:30:00Z",
+                "time_slots": [
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers I: Externalizing Transformations of Historical Documents: Opportunities for Provenance-Driven Visualization",
+                        "contributors": [
+                            "Tomas Vancisin",
+                            "Mary Orr",
+                            "Uta Hinrichs"
                         ],
                         "time_start": "2020-10-25T16:00:00Z",
-                        "time_end": "2020-10-25T17:30:00Z"
+                        "time_end": "2020-10-25T16:15:00Z"
                     },
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Recorded Talk",
+                        "title": "Papers I: Supporting Expert Close Analysis of Historical Scientific Writings: A Case Study for Near-by Reading",
+                        "contributors": [
+                            "Andrew McNutt",
+                            "Agatha Kim",
+                            "Sergio Elahi",
+                            "Kazutaka Takahashi"
+                        ],
+                        "time_start": "2020-10-25T16:15:00Z",
+                        "time_end": "2020-10-25T16:30:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers I: ViS-\u00c1-ViS : Detecting Similar Patterns in Annotated Literary Text",
+                        "contributors": [
+                            "Moshe Schorr",
+                            "Oren Mishali",
+                            "Benny Kimelfeld",
+                            "Ophir M\u00fcnz-Manor"
+                        ],
+                        "time_start": "2020-10-25T16:30:00Z",
+                        "time_end": "2020-10-25T16:45:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers I: Literal Encoding: Text is a first-class data encoding",
+                        "contributors": [
+                            "Richard Brath"
+                        ],
+                        "time_start": "2020-10-25T16:45:00Z",
+                        "time_end": "2020-10-25T17:00:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks I: Speculative Narratives and Networks Studio",
                         "contributors": [
                             "MISSING"
+                        ],
+                        "time_start": "2020-10-25T17:00:00Z",
+                        "time_end": "2020-10-25T17:04:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks I: Modeling the Cosmos - Digital Research Environment for the Computational History of Astronomy",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T17:04:00Z",
+                        "time_end": "2020-10-25T17:08:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks I: DensityDesign Lab",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T17:08:00Z",
+                        "time_end": "2020-10-25T17:12:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks I: Project Cornelia",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T17:12:00Z",
+                        "time_end": "2020-10-25T17:16:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks I: UCLAB",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T17:16:00Z",
+                        "time_end": "2020-10-25T17:20:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks I: VisUsal",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T17:20:00Z",
+                        "time_end": "2020-10-25T17:24:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Discussion",
+                        "contributors": [
+                            "All"
+                        ],
+                        "time_start": "2020-10-25T17:24:00Z",
+                        "time_end": "2020-10-25T17:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Session 3",
+                "session_id": "a-vis4dh-3",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [
+                    "Catherine Derose",
+                    "Uta Hinrichs",
+                    "Mennatallah El-Assady"
+                ],
+                "time_start": "2020-10-25T18:00:00Z",
+                "time_end": "2020-10-25T19:30:00Z",
+                "time_slots": [
+                    {
+                        "type": "MISSING",
+                        "title": "Capstone: Data Feminism",
+                        "contributors": [
+                            "Lauren Klein and Catherine D\u2019Ignazio"
                         ],
                         "time_start": "2020-10-25T18:00:00Z",
-                        "time_end": "2020-10-25T19:30:00Z"
+                        "time_end": "2020-10-25T19:00:00Z"
                     },
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "MISSING",
+                        "title": "Provocations II: Making Sense of the Sea of Dashboards",
+                        "contributors": [
+                            "Michael Correll and Heather Froehlich"
+                        ],
+                        "time_start": "2020-10-25T19:00:00Z",
+                        "time_end": "2020-10-25T19:10:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Provocations II: Using Visual Analytics for Preservation and Documentation of Marginalised Perspectives",
+                        "contributors": [
+                            "Audrey Reinert and David Ebert"
+                        ],
+                        "time_start": "2020-10-25T19:10:00Z",
+                        "time_end": "2020-10-25T19:20:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Provocations II: Data is never raw",
+                        "contributors": [
+                            "Micah Vandegrift",
+                            "Ashley Evans Bandy and Scott Bailey"
+                        ],
+                        "time_start": "2020-10-25T19:20:00Z",
+                        "time_end": "2020-10-25T19:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Session 4",
+                "session_id": "a-vis4dh-4",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [
+                    "Catherine Derose",
+                    "Uta Hinrichs",
+                    "Mennatallah El-Assady"
+                ],
+                "time_start": "2020-10-25T20:00:00Z",
+                "time_end": "2020-10-25T21:30:00Z",
+                "time_slots": [
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers II: Bio-inspired Structure Identification in Language Embeddings",
+                        "contributors": [
+                            "Hongwei (Henry) Zhou",
+                            "Oskar Elek",
+                            "Pranav Anand",
+                            "Angus G. Forbes"
+                        ],
+                        "time_start": "2020-10-25T20:00:00Z",
+                        "time_end": "2020-10-25T20:15:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers II: Augmenting Sheet Music with Rhythmic Fingerprints",
+                        "contributors": [
+                            "Daniel F\u00fcrst",
+                            "Matthias Miller",
+                            "Daniel Keim",
+                            "Alexandra Bonnici",
+                            "Hanna Sch\u00e4fer",
+                            "Mennatallah El-Assady"
+                        ],
+                        "time_start": "2020-10-25T20:15:00Z",
+                        "time_end": "2020-10-25T20:30:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers II: Pilaster: A Collection of Citation Metadata Extracted From Publications on Visualization for the Digital Humanities",
+                        "contributors": [
+                            "Alejandro Benito-Santos",
+                            "Roberto Ther\u00f3n"
+                        ],
+                        "time_start": "2020-10-25T20:30:00Z",
+                        "time_end": "2020-10-25T20:45:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Papers II: Visualizing a Large Spatiotemporal Collection of Historic Photography with a Generous Interface",
+                        "contributors": [
+                            "Taylor Arnold",
+                            "Nathaniel Ayers",
+                            "Justin Madron",
+                            "Robert Nelson",
+                            "Lauren Tilton"
+                        ],
+                        "time_start": "2020-10-25T20:45:00Z",
+                        "time_end": "2020-10-25T21:00:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks II: Sussex Humanities Lab",
                         "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-25T20:00:00Z",
+                        "time_start": "2020-10-25T21:00:00Z",
+                        "time_end": "2020-10-25T21:04:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks II: British Library Digital Scholarship Department",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T21:04:00Z",
+                        "time_end": "2020-10-25T21:08:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks II: Wired! Lab for Digital Art History & Visual Culture",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T21:08:00Z",
+                        "time_end": "2020-10-25T21:12:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks II: Distant Viewing Lab",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T21:12:00Z",
+                        "time_end": "2020-10-25T21:16:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks II: The Electronic Literature Lab",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T21:16:00Z",
+                        "time_end": "2020-10-25T21:20:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Lab Talks II: Data Experience Lab",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T21:20:00Z",
+                        "time_end": "2020-10-25T21:24:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Closing",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-25T21:24:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
                 ]
@@ -501,14 +850,14 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Session 1",
-                "session_id": "w-mlui-1",
+                "title": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
+                "session_id": "w-mlui",
                 "chair": [
                     "John Wenskovitch"
                 ],
                 "organizers": [],
                 "time_start": "2020-10-25T14:00:00Z",
-                "time_end": "2020-10-25T15:30:00Z",
+                "time_end": "2020-10-25T17:30:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -545,19 +894,7 @@
                         ],
                         "time_start": "2020-10-25T15:05:00Z",
                         "time_end": "2020-10-25T15:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Session 2",
-                "session_id": "w-mlui-2",
-                "chair": [
-                    "MISSING"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-25T16:00:00Z",
-                "time_end": "2020-10-25T17:30:00Z",
-                "time_slots": [
+                    },
                     {
                         "type": "Live Presentation",
                         "title": "Welcome Back",
@@ -648,15 +985,19 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Teaching Visualization Guidelines",
-                "session_id": "w-guides-1",
+                "title": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
+                "session_id": "w-guides",
                 "chair": [
                     "Alfie Abdul-Rahman",
                     "Alexandra Diehl"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Benjamin Bach",
+                    "Alfie Abdul-Rahman",
+                    "Alexandra Diehl"
+                ],
                 "time_start": "2020-10-25T14:00:00Z",
-                "time_end": "2020-10-25T15:30:00Z",
+                "time_end": "2020-10-25T17:30:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -669,80 +1010,12 @@
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "Presentation - Short Bio Panelists",
+                        "title": "Keynote 1",
                         "contributors": [
-                            "Alexandra Diehl"
+                            "Silvia Miksch"
                         ],
                         "time_start": "2020-10-25T14:05:00Z",
-                        "time_end": "2020-10-25T14:10:00Z"
-                    },
-                    {
-                        "type": "Live Panel",
-                        "title": "Panel 1: Teaching Visualization Guidelines",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-25T14:10:00Z",
-                        "time_end": "2020-10-25T14:55:00Z"
-                    },
-                    {
-                        "type": "Live Presentation",
-                        "title": "MISSING",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-25T14:55:00Z",
-                        "time_end": "2020-10-25T15:20:00Z"
-                    },
-                    {
-                        "type": "Live Q&A",
-                        "title": "Questions",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-25T15:20:00Z",
-                        "time_end": "2020-10-25T15:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Visualization Response in a Time of Pandemic",
-                "session_id": "w-guides-2",
-                "chair": [
-                    "Benjamin Bach",
-                    "Alfie Abdul-Rahman",
-                    "Alexandra Diehl"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-25T16:00:00Z",
-                "time_end": "2020-10-25T17:30:00Z",
-                "time_slots": [
-                    {
-                        "type": "Live Presentation",
-                        "title": "Presentation - Short Bio Panelists",
-                        "contributors": [
-                            "Benjamin Bach"
-                        ],
-                        "time_start": "2020-10-25T16:00:00Z",
-                        "time_end": "2020-10-25T16:05:00Z"
-                    },
-                    {
-                        "type": "Live Panel",
-                        "title": "Panel 1: Visualization Response in a Time of Pandemic",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-25T16:05:00Z",
-                        "time_end": "2020-10-25T16:50:00Z"
-                    },
-                    {
-                        "type": "Live Presentation",
-                        "title": "Keynote 2",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-25T16:50:00Z",
-                        "time_end": "2020-10-25T17:15:00Z"
+                        "time_end": "2020-10-25T14:30:00Z"
                     },
                     {
                         "type": "Live Q&A",
@@ -750,12 +1023,74 @@
                         "contributors": [
                             "Alfie Abdul-Rahman"
                         ],
-                        "time_start": "2020-10-25T17:15:00Z",
+                        "time_start": "2020-10-25T14:30:00Z",
+                        "time_end": "2020-10-25T14:40:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Presentation - Short Bio Panelists",
+                        "contributors": [
+                            "Alexandra Diehl"
+                        ],
+                        "time_start": "2020-10-25T14:40:00Z",
+                        "time_end": "2020-10-25T14:45:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Panel 1: Teaching Visualization Guidelines",
+                        "contributors": [
+                            "Sheelagh Carpendale",
+                            "Arzu Coltekin",
+                            "Robert S. Laramee",
+                            "Lace Padilla",
+                            "Jonathan Roberts"
+                        ],
+                        "time_start": "2020-10-25T14:45:00Z",
+                        "time_end": "2020-10-25T15:30:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Keynote 2",
+                        "contributors": [
+                            "Eser Kandogan"
+                        ],
+                        "time_start": "2020-10-25T16:00:00Z",
+                        "time_end": "2020-10-25T16:25:00Z"
+                    },
+                    {
+                        "type": "Live Q&A",
+                        "title": "Questions",
+                        "contributors": [
+                            "Alfie Abdul-Rahman"
+                        ],
+                        "time_start": "2020-10-25T16:25:00Z",
+                        "time_end": "2020-10-25T16:35:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Presentation - Short Bio Panelists",
+                        "contributors": [
+                            "Benjamin Bach"
+                        ],
+                        "time_start": "2020-10-25T16:35:00Z",
+                        "time_end": "2020-10-25T16:40:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Panel 2: Visualization Response in a Time of Pandemic",
+                        "contributors": [
+                            "Sara Fabriknat",
+                            "Alexander Lex",
+                            "Amanda Makulec",
+                            "Cagatay Turkay",
+                            "Tatiana von Landesberger"
+                        ],
+                        "time_start": "2020-10-25T16:40:00Z",
                         "time_end": "2020-10-25T17:25:00Z"
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "Final Wrap Up",
+                        "title": "Final Wrap up",
                         "contributors": [
                             "Alexandra Diehl"
                         ],
@@ -780,7 +1115,13 @@
                     "Michael Migliore",
                     "Ken Moreland"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "John M. Patchett",
+                    "Ethan V. Stam",
+                    "Dan Lipsa",
+                    "Michael Migliore",
+                    "Ken Moreland"
+                ],
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "time_slots": [
@@ -832,12 +1173,22 @@
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "Advanced Rendering Techniques",
+                        "title": "Advanced Rendering Techniques Section 1",
                         "contributors": [
                             "Dan Lipsa",
                             "Michael Migliore"
                         ],
                         "time_start": "2020-10-25T16:45:00Z",
+                        "time_end": "2020-10-25T17:05:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Advanced Rendering Techniques Section 2",
+                        "contributors": [
+                            "Dan Lipsa",
+                            "Michael Migliore"
+                        ],
+                        "time_start": "2020-10-25T17:05:00Z",
                         "time_end": "2020-10-25T17:25:00Z"
                     },
                     {
@@ -931,21 +1282,33 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "TREX Session 1",
-                "session_id": "w-trex-1",
+                "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
+                "session_id": "w-trex",
                 "chair": [
                     "Mahsan Nourani",
                     "Emily Wall"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Eric Ragan",
+                    "Mahsan Nourani",
+                    "Emily Wall",
+                    "John Goodall",
+                    "Aritra Dasgupta",
+                    "Kristin Cook"
+                ],
                 "time_start": "2020-10-25T18:00:00Z",
-                "time_end": "2020-10-25T19:30:00Z",
+                "time_end": "2020-10-25T21:30:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
                         "title": "Welcome",
                         "contributors": [
-                            "TREX Chairs"
+                            "Eric Ragan",
+                            "Mahsan Nourani",
+                            "Emily Wall",
+                            "John Goodall",
+                            "Aritra Dasgupta",
+                            "Kristin Cook"
                         ],
                         "time_start": "2020-10-25T18:00:00Z",
                         "time_end": "2020-10-25T18:10:00Z"
@@ -960,7 +1323,7 @@
                         "time_end": "2020-10-25T18:35:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded?",
                         "title": "Measure Utility, Gain Trust: Practical Advice for XAI Researchers",
                         "contributors": [
                             "Dustin Arendt"
@@ -990,24 +1353,16 @@
                         "type": "Live Panel",
                         "title": "Discussion",
                         "contributors": [
-                            "TREX Chairs"
+                            "Eric Ragan",
+                            "Mahsan Nourani",
+                            "Emily Wall",
+                            "John Goodall",
+                            "Aritra Dasgupta",
+                            "Kristin Cook"
                         ],
                         "time_start": "2020-10-25T19:19:00Z",
                         "time_end": "2020-10-25T19:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "TREX Session 2",
-                "session_id": "w-trex-2",
-                "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-25T20:00:00Z",
-                "time_end": "2020-10-25T21:30:00Z",
-                "time_slots": [
+                    },
                     {
                         "type": "Live Presentation",
                         "title": "Welcome Back",
@@ -1027,7 +1382,7 @@
                         "time_end": "2020-10-25T20:30:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded?",
                         "title": "Beyond Trust Building - Calibrating Trust in Visual Analytics ",
                         "contributors": [
                             "Wenkai Han"
@@ -1036,7 +1391,7 @@
                         "time_end": "2020-10-25T20:42:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded?",
                         "title": "Towards Trust-Augmented Visual Analytics for Data-Driven Energy Modeling",
                         "contributors": [
                             "Aritra Dasgupta"
@@ -1057,7 +1412,12 @@
                         "type": "Live Panel",
                         "title": "Discussion",
                         "contributors": [
-                            "TREX Chairs"
+                            "Eric Ragan",
+                            "Mahsan Nourani",
+                            "Emily Wall",
+                            "John Goodall",
+                            "Aritra Dasgupta",
+                            "Kristin Cook"
                         ],
                         "time_start": "2020-10-25T21:06:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
@@ -1078,7 +1438,11 @@
                     "Francesca Samsel",
                     "Karen Schloss"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Danielle Szafir",
+                    "Francesca Samsel",
+                    "Karen Schloss"
+                ],
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "time_slots": [
@@ -1086,7 +1450,7 @@
                         "type": "Recorded Talk",
                         "title": "Session Introduction",
                         "contributors": [
-                            "MISSING"
+                            "Francesca Samsel"
                         ],
                         "time_start": "2020-10-25T18:00:00Z",
                         "time_end": "2020-10-25T18:10:00Z"
@@ -1185,14 +1549,19 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Session 1",
-                "session_id": "w-comm-1",
+                "title": "VisComm: Workshop on Visualization for Communication",
+                "session_id": "w-comm",
                 "chair": [
                     "Ben Watson"
                 ],
-                "organizers": [],
-                "time_start": "2020-10-25T17:50:00Z",
-                "time_end": "2020-10-25T19:20:00Z",
+                "organizers": [
+                    "Alvitta Ottley",
+                    "Adriana Arcia",
+                    "Ben Watson",
+                    "Robert Kosara"
+                ],
+                "time_start": "2020-10-25T18:00:00Z",
+                "time_end": "2020-10-25T21:30:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -1200,8 +1569,8 @@
                         "contributors": [
                             "Alvitta Ottley"
                         ],
-                        "time_start": "2020-10-25T17:50:00Z",
-                        "time_end": "2020-10-25T18:00:00Z"
+                        "time_start": "2020-10-25T18:00:00Z",
+                        "time_end": "2020-10-25T18:10:00Z"
                     },
                     {
                         "type": "Recorded Talk",
@@ -1209,8 +1578,8 @@
                         "contributors": [
                             "Zhang, Yixuan"
                         ],
-                        "time_start": "2020-10-25T18:00:00Z",
-                        "time_end": "2020-10-25T18:12:00Z",
+                        "time_start": "2020-10-25T18:10:00Z",
+                        "time_end": "2020-10-25T18:22:00Z",
                         "uid": "w-comm-1015"
                     },
                     {
@@ -1219,8 +1588,8 @@
                         "contributors": [
                             "Liu, Star"
                         ],
-                        "time_start": "2020-10-25T18:12:00Z",
-                        "time_end": "2020-10-25T18:22:00Z",
+                        "time_start": "2020-10-25T18:22:00Z",
+                        "time_end": "2020-10-25T18:32:00Z",
                         "uid": "w-comm-1013"
                     },
                     {
@@ -1229,8 +1598,8 @@
                         "contributors": [
                             "Coelho, Darius"
                         ],
-                        "time_start": "2020-10-25T18:22:00Z",
-                        "time_end": "2020-10-25T18:34:00Z",
+                        "time_start": "2020-10-25T18:32:00Z",
+                        "time_end": "2020-10-25T18:44:00Z",
                         "uid": "w-comm-1011"
                     },
                     {
@@ -1239,8 +1608,8 @@
                         "contributors": [
                             "Benda, Natalie"
                         ],
-                        "time_start": "2020-10-25T18:34:00Z",
-                        "time_end": "2020-10-25T18:46:00Z",
+                        "time_start": "2020-10-25T18:44:00Z",
+                        "time_end": "2020-10-25T18:56:00Z",
                         "uid": "w-comm-1009"
                     },
                     {
@@ -1249,9 +1618,9 @@
                         "contributors": [
                             "Yang, Liuhuaying"
                         ],
-                        "time_start": "2020-10-25T18:46:00Z",
-                        "time_end": "2020-10-25T18:56:00Z",
-                        "uid": "w-comm-1015"
+                        "time_start": "2020-10-25T18:56:00Z",
+                        "time_end": "2020-10-25T19:06:00Z",
+                        "uid": "w-comm-1005"
                     },
                     {
                         "type": "Recorded Talk",
@@ -1259,8 +1628,8 @@
                         "contributors": [
                             "Mosca, Ab"
                         ],
-                        "time_start": "2020-10-25T18:56:00Z",
-                        "time_end": "2020-10-25T19:08:00Z",
+                        "time_start": "2020-10-25T19:06:00Z",
+                        "time_end": "2020-10-25T19:18:00Z",
                         "uid": "w-comm-1018"
                     },
                     {
@@ -1269,29 +1638,17 @@
                         "contributors": [
                             "Adriana Arcia"
                         ],
-                        "time_start": "2020-10-25T19:08:00Z",
-                        "time_end": "2020-10-25T19:20:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Session 2",
-                "session_id": "w-comm-2",
-                "chair": [
-                    "Robert Kosara"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-25T19:45:00Z",
-                "time_end": "2020-10-25T21:15:00Z",
-                "time_slots": [
+                        "time_start": "2020-10-25T19:18:00Z",
+                        "time_end": "2020-10-25T19:30:00Z"
+                    },
                     {
                         "type": "Recorded Talk",
                         "title": "Variable Biases: A Study of Scientists\u2019 Interpretation of Plot Types Commonly Used in Scientific Communication",
                         "contributors": [
                             "Matzen, Laura"
                         ],
-                        "time_start": "2020-10-25T19:45:00Z",
-                        "time_end": "2020-10-25T19:57:00Z",
+                        "time_start": "2020-10-25T20:00:00Z",
+                        "time_end": "2020-10-25T20:12:00Z",
                         "uid": "w-comm-1017"
                     },
                     {
@@ -1300,8 +1657,8 @@
                         "contributors": [
                             "Hurtut, Thomas"
                         ],
-                        "time_start": "2020-10-25T19:57:00Z",
-                        "time_end": "2020-10-25T20:07:00Z",
+                        "time_start": "2020-10-25T20:12:00Z",
+                        "time_end": "2020-10-25T20:22:00Z",
                         "uid": "w-comm-1012"
                     },
                     {
@@ -1310,8 +1667,8 @@
                         "contributors": [
                             "Schwabish, Jonathan"
                         ],
-                        "time_start": "2020-10-25T20:07:00Z",
-                        "time_end": "2020-10-25T20:19:00Z",
+                        "time_start": "2020-10-25T20:22:00Z",
+                        "time_end": "2020-10-25T20:34:00Z",
                         "uid": "w-comm-1021"
                     },
                     {
@@ -1320,8 +1677,8 @@
                         "contributors": [
                             "Vardhan, Pratap"
                         ],
-                        "time_start": "2020-10-25T20:19:00Z",
-                        "time_end": "2020-10-25T20:29:00Z",
+                        "time_start": "2020-10-25T20:34:00Z",
+                        "time_end": "2020-10-25T20:44:00Z",
                         "uid": "w-comm-1022"
                     },
                     {
@@ -1330,8 +1687,8 @@
                         "contributors": [
                             "Livingston, Mark"
                         ],
-                        "time_start": "2020-10-25T20:29:00Z",
-                        "time_end": "2020-10-25T20:41:00Z",
+                        "time_start": "2020-10-25T20:44:00Z",
+                        "time_end": "2020-10-25T20:56:00Z",
                         "uid": "w-comm-1029"
                     },
                     {
@@ -1340,8 +1697,8 @@
                         "contributors": [
                             "Ma, Qian"
                         ],
-                        "time_start": "2020-10-25T20:41:00Z",
-                        "time_end": "2020-10-25T20:51:00Z",
+                        "time_start": "2020-10-25T20:56:00Z",
+                        "time_end": "2020-10-25T21:06:00Z",
                         "uid": "w-comm-1028"
                     },
                     {
@@ -1350,8 +1707,8 @@
                         "contributors": [
                             "Millet, Barbara"
                         ],
-                        "time_start": "2020-10-25T20:51:00Z",
-                        "time_end": "2020-10-25T21:03:00Z",
+                        "time_start": "2020-10-25T21:06:00Z",
+                        "time_end": "2020-10-25T21:18:00Z",
                         "uid": "w-comm-1023"
                     },
                     {
@@ -1360,8 +1717,8 @@
                         "contributors": [
                             "Adriana Arcia"
                         ],
-                        "time_start": "2020-10-25T21:03:00Z",
-                        "time_end": "2020-10-25T21:15:00Z"
+                        "time_start": "2020-10-25T21:18:00Z",
+                        "time_end": "2020-10-25T21:30:00Z"
                     }
                 ]
             }
@@ -1372,17 +1729,22 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Introduction, Review Template Walkthrough & Moderated Panel",
-                "session_id": "w-failfest-1",
+                "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
+                "session_id": "w-failfest",
                 "chair": [
                     "Jane Adams",
                     "Jordan Crouser",
                     "Lonni Besan\u00e7on",
                     "Paul Rosen"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Jane L. Adams",
+                    "R. Jordan Crouser",
+                    "Lonni Besan\u00e7on",
+                    "Paul Rosen"
+                ],
                 "time_start": "2020-10-25T18:00:00Z",
-                "time_end": "2020-10-25T19:30:00Z",
+                "time_end": "2020-10-25T21:30:00Z",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -1440,22 +1802,7 @@
                         ],
                         "time_start": "2020-10-25T19:20:00Z",
                         "time_end": "2020-10-25T19:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Paper Talks and Presentation on Iteration in Visualization Practice",
-                "session_id": "w-failfest-2",
-                "chair": [
-                    "Jane Adams",
-                    "Jordan Crouser",
-                    "Lonni Besan\u00e7on",
-                    "Paul Rosen"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-25T20:00:00Z",
-                "time_end": "2020-10-25T21:30:00Z",
-                "time_slots": [
+                    },
                     {
                         "type": "Recorded Presentation",
                         "title": "Expectation Versus Reality: The Failed Evaluation of a Mixed-Initiative Visualization System",
@@ -1761,33 +2108,139 @@
         "event_type": "Associated Event",
         "sessions": [
             {
-                "title": "MISSING",
+                "title": "Session 1",
                 "session_id": "a-biovischallenge-1",
                 "chair": [
                     "MISSING"
                 ],
                 "organizers": [
-                    "MISSING"
+                    "Anamaria Crisan",
+                    "Carolina Nobre"
                 ],
                 "time_start": "2020-10-26T14:00:00Z",
-                "time_end": "2020-10-26T17:30:00Z",
+                "time_end": "2020-10-26T15:30:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "MISSING",
+                        "title": "Intro",
                         "contributors": [
                             "MISSING"
                         ],
                         "time_start": "2020-10-26T14:00:00Z",
-                        "time_end": "2020-10-26T15:30:00Z"
+                        "time_end": "2020-10-26T14:05:00Z"
                     },
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "MISSING",
+                        "title": "Domain Expert Presentation: David",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T14:05:00Z",
+                        "time_end": "2020-10-26T14:30:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Domain Expert Presentation: Gytis",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T14:30:00Z",
+                        "time_end": "2020-10-26T14:55:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Domain Expert Presentation: Sidney",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T14:55:00Z",
+                        "time_end": "2020-10-26T15:25:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Extra Q&A",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T15:25:00Z",
+                        "time_end": "2020-10-26T15:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Session 2",
+                "session_id": "a-biovischallenge-1",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [
+                    "Anamaria Crisan",
+                    "Carolina Nobre"
+                ],
+                "time_start": "2020-10-26T16:00:00Z",
+                "time_end": "2020-10-26T17:30:00Z",
+                "time_slots": [
+                    {
+                        "type": "MISSING",
+                        "title": "Hilary",
                         "contributors": [
                             "MISSING"
                         ],
                         "time_start": "2020-10-26T16:00:00Z",
+                        "time_end": "2020-10-26T16:30:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Interactive Visualization of Multivariate Clinical Data in Force Graph",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T16:30:00Z",
+                        "time_end": "2020-10-26T16:35:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "VisFCAC: An Interactive Family Clinical Attribute Comparison",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T16:35:00Z",
+                        "time_end": "2020-10-26T16:40:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "An Enhanced MA Plot with R-Shiny to Ease Exploratory Analysis of Transcriptomic Data",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T16:40:00Z",
+                        "time_end": "2020-10-26T16:45:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "The Sawtooh Chart for Compact Cumulative Data Visualization",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T16:45:00Z",
+                        "time_end": "2020-10-26T16:50:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Contest Questions",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T16:50:00Z",
+                        "time_end": "2020-10-26T16:55:00Z"
+                    },
+                    {
+                        "type": "MISSING",
+                        "title": "Captsone",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-26T16:55:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
                 ]
@@ -1799,14 +2252,14 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Introduction and Papers: Cognitition and Metacognition",
-                "session_id": "w-psychology-1",
+                "title": "IEEE VIS Workshop on Visualization Psychology",
+                "session_id": "w-psychology",
                 "chair": [
                     "Danielle Szafir"
                 ],
                 "organizers": [],
                 "time_start": "2020-10-26T14:00:00Z",
-                "time_end": "2020-10-26T15:30:00Z",
+                "time_end": "2020-10-26T17:35:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -1866,19 +2319,7 @@
                         ],
                         "time_start": "2020-10-26T15:15:00Z",
                         "time_end": "2020-10-26T15:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Task-Driven Approaches and Frameworks for VisPsych",
-                "session_id": "w-psychology-2",
-                "chair": [
-                    "Lace Padilla"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-26T16:00:00Z",
-                "time_end": "2020-10-26T17:35:00Z",
-                "time_slots": [
+                    },
                     {
                         "type": "Recorded Talk",
                         "title": "Developing Effective Community Network Analysis Tools according to Visualization Psychology",
@@ -2118,33 +2559,189 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "MISSING",
+                "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
-                    "MISSING"
+                    "Samuel Huron"
                 ],
                 "organizers": [
-                    "MISSING"
+                    "Samuel Huron",
+                    "Benjamin Bach",
+                    "Uta Hinrichs",
+                    "Jonathan C. Roberts",
+                    "Mandy Keck"
                 ],
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Live Presentation",
+                        "title": "Introduction",
                         "contributors": [
-                            "MISSING"
+                            "Samuel Huron"
                         ],
                         "time_start": "2020-10-26T14:00:00Z",
-                        "time_end": "2020-10-26T15:30:00Z"
+                        "time_end": "2020-10-26T14:15:00Z"
                     },
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Live Presentation",
+                        "title": "Teaching Data Viz to Kids",
                         "contributors": [
-                            "MISSING"
+                            "Jonathan Schwabish"
+                        ],
+                        "time_start": "2020-10-26T14:15:00Z",
+                        "time_end": "2020-10-26T14:20:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "The VisTools Marketplace: An Activity to Understand the Landscape of Visualisation Tools",
+                        "contributors": [
+                            "Arran Ridley",
+                            "Sarah Sch\u00f6ttler",
+                            "Aba-Sah Dadzie",
+                            "Benjamin Bach"
+                        ],
+                        "time_start": "2020-10-26T14:20:00Z",
+                        "time_end": "2020-10-26T14:25:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Surfacing Misconceptions Through Visualization Critique",
+                        "contributors": [
+                            "Amy Rae Fox",
+                            "Taylor Jackson Scott"
+                        ],
+                        "time_start": "2020-10-26T14:25:00Z",
+                        "time_end": "2020-10-26T14:30:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "GoCo: A Gamified Activity for Winnowing Visualization Projects with Interdisciplinary - Experts",
+                        "contributors": [
+                            "Georgia Panagiotidou",
+                            "Jan Aerts",
+                            "Andrew Vande Moere"
+                        ],
+                        "time_start": "2020-10-26T14:30:00Z",
+                        "time_end": "2020-10-26T14:35:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A for First set of Papers",
+                        "contributors": [
+                            "Jonathan Schwabish",
+                            "Arran Ridley",
+                            "Sarah Sch\u00f6ttler",
+                            "Aba-Sah Dadzie",
+                            "Benjamin Bach",
+                            "Amy Rae Fox",
+                            "Taylor Jackson Scott",
+                            "Georgia Panagiotidou",
+                            "Jan Aerts",
+                            "Andrew Vande Moere"
+                        ],
+                        "time_start": "2020-10-26T14:35:00Z",
+                        "time_end": "2020-10-26T14:50:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Pandemic Pedagogy: Taking Data-Viz Learning Online",
+                        "contributors": [
+                            "Rahul Bhargava"
+                        ],
+                        "time_start": "2020-10-26T14:50:00Z",
+                        "time_end": "2020-10-26T14:55:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Data Crafting: Exploring Data Through Craft And Play",
+                        "contributors": [
+                            "Nathalie Alexandra Vladis",
+                            "Aspen K. Hopkins",
+                            "Arvind Satyanarayan"
+                        ],
+                        "time_start": "2020-10-26T14:55:00Z",
+                        "time_end": "2020-10-26T15:00:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Visualization Improvisation",
+                        "contributors": [
+                            "Swaroop Panda",
+                            "Shatarupa Thakurta Roy"
+                        ],
+                        "time_start": "2020-10-26T15:00:00Z",
+                        "time_end": "2020-10-26T15:05:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Design Sprints for Online and On-Campus Visualization Courses",
+                        "contributors": [
+                            "Johanna Beyer",
+                            "Hanspeter Pfister"
+                        ],
+                        "time_start": "2020-10-26T15:05:00Z",
+                        "time_end": "2020-10-26T15:10:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A for Second set of Papers",
+                        "contributors": [
+                            "Rahul Bhargava",
+                            "Nathalie Alexandra Vladis",
+                            "Aspen K. Hopkins",
+                            "Arvind Satyanarayan",
+                            "Swaroop Panda",
+                            "Shatarupa Thakurta Roy",
+                            "Johanna Beyer",
+                            "Hanspeter Pfister"
+                        ],
+                        "time_start": "2020-10-26T15:10:00Z",
+                        "time_end": "2020-10-26T15:25:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Introduction",
+                        "contributors": [
+                            "Benjamin Bach"
                         ],
                         "time_start": "2020-10-26T16:00:00Z",
+                        "time_end": "2020-10-26T16:05:00Z"
+                    },
+                    {
+                        "type": "Zoom Breakout",
+                        "title": "Break Out Session Work",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T16:05:00Z",
+                        "time_end": "2020-10-26T16:35:00Z"
+                    },
+                    {
+                        "type": "Live Presentations",
+                        "title": "Report and Presentation on Breakout Session",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T16:35:00Z",
+                        "time_end": "2020-10-26T17:05:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Community Building and Discussion",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T17:05:00Z",
+                        "time_end": "2020-10-26T17:20:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Conclusion and Future Announcement",
+                        "contributors": [
+                            "Mandy Keck"
+                        ],
+                        "time_start": "2020-10-26T17:20:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
                 ]
@@ -2458,7 +3055,7 @@
     },
     "a-visxai": {
         "event": "VISxAI",
-        "event_type": "Assocated Event",
+        "event_type": "Associated Event",
         "sessions": [
             {
                 "title": "MISSING",
@@ -2499,33 +3096,77 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "MISSING",
+                "title": "Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations",
                 "session_id": "w-futures",
                 "chair": [
-                    "MISSING"
+                    "Charles Perin",
+                    "Wesley Willett",
+                    "Katherine Currier",
+                    "Lora Oehlberg",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
-                    "MISSING"
+                    "Charles Perin",
+                    "Wesley Willett",
+                    "Katherine Currier",
+                    "Lora Oehlberg",
+                    "Sheelagh Carpendale"
                 ],
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Live Presentation",
+                        "title": "Opening Presentation",
                         "contributors": [
-                            "MISSING"
+                            "All Attendees"
                         ],
                         "time_start": "2020-10-26T18:00:00Z",
+                        "time_end": "2020-10-26T18:30:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Fast Forward",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T18:30:00Z",
+                        "time_end": "2020-10-26T19:00:00Z"
+                    },
+                    {
+                        "type": "Zoom Breakout",
+                        "title": "Activity 1",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T19:00:00Z",
                         "time_end": "2020-10-26T19:30:00Z"
                     },
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Live Presentations",
+                        "title": "Groups Reporting",
                         "contributors": [
-                            "MISSING"
+                            "All Attendees"
                         ],
                         "time_start": "2020-10-26T20:00:00Z",
+                        "time_end": "2020-10-26T20:30:00Z"
+                    },
+                    {
+                        "type": "Zoom Breakout",
+                        "title": "Trying Out",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T20:30:00Z",
+                        "time_end": "2020-10-26T21:00:00Z"
+                    },
+                    {
+                        "type": "Live Presentations",
+                        "title": "Group Discussion",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "time_start": "2020-10-26T21:00:00Z",
                         "time_end": "2020-10-26T21:30:00Z"
                     }
                 ]
@@ -2542,7 +3183,11 @@
                 "chair": [
                     "Daniel F. Keefe"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Daniel F. Keefe",
+                    "Francesca Samsel",
+                    "Bridger Herman"
+                ],
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
                 "time_slots": [
@@ -2659,8 +3304,8 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Session 1",
-                "session_id": "w-astrophysics-1",
+                "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
+                "session_id": "w-astrophysics",
                 "chair": [
                     "Bei Wang",
                     "Juna Kollmeier",
@@ -2672,7 +3317,7 @@
                     "Lauren Anderson"
                 ],
                 "time_start": "2020-10-26T18:00:00Z",
-                "time_end": "2020-10-26T19:30:00Z",
+                "time_end": "2020-10-26T21:30:00Z",
                 "time_slots": [
                     {
                         "type": "MISSING",
@@ -2709,25 +3354,7 @@
                         ],
                         "time_start": "2020-10-26T19:10:00Z",
                         "time_end": "2020-10-26T19:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Session 2",
-                "session_id": "w-astrophysics-2",
-                "chair": [
-                    "Bei Wang",
-                    "Juna Kollmeier",
-                    "Lauren Anderson"
-                ],
-                "organizers": [
-                    "Bei Wang",
-                    "Juna Kollmeier",
-                    "Lauren Anderson"
-                ],
-                "time_start": "2020-10-26T20:00:00Z",
-                "time_end": "2020-10-26T21:30:00Z",
-                "time_slots": [
+                    },
                     {
                         "type": "MISSING",
                         "title": "Invited Talk: Matthew J. Turk",
@@ -2774,14 +3401,18 @@
         "event_type": "Workshop",
         "sessions": [
             {
-                "title": "Session A",
-                "session_id": "w-movis-1",
+                "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
+                "session_id": "w-movis",
                 "chair": [
                     "Clio Andris"
                 ],
-                "organizers": [],
-                "time_start": "2020-10-26T17:50:00Z",
-                "time_end": "2020-10-26T19:30:00Z",
+                "organizers": [
+                    "Clio Andris",
+                    "Somayeh Dodge",
+                    "Alan MacEachren"
+                ],
+                "time_start": "2020-10-26T18:00:00Z",
+                "time_end": "2020-10-26T21:15:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -2789,24 +3420,14 @@
                         "contributors": [
                             "Jeremy White"
                         ],
-                        "time_start": "2020-10-26T17:50:00Z",
-                        "time_end": "2020-10-26T18:20:00Z"
-                    },
-                    {
-                        "type": "Live Panel",
-                        "title": "Ice Breaker - Flow Food",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-26T18:20:00Z",
+                        "time_start": "2020-10-26T18:00:00Z",
                         "time_end": "2020-10-26T18:40:00Z"
                     },
                     {
                         "type": "Live Presentation",
                         "title": "Donut Visualizations for Network-Level and Regional-Level Overview of Spatial Social Networks",
                         "contributors": [
-                            "Dipto Sarkar",
-                            "Piyush Yadav"
+                            "Dipto Sarkar"
                         ],
                         "time_start": "2020-10-26T18:40:00Z",
                         "time_end": "2020-10-26T18:50:00Z"
@@ -2815,9 +3436,7 @@
                         "type": "Recorded Talk",
                         "title": "Visualizing Movement Trajectories in an Immersive Space Time-Cube",
                         "contributors": [
-                            "Jorge Wagner",
-                            "Wolfgang Stuerzlinger",
-                            "Luciana Nedel"
+                            "Jorge Wagner"
                         ],
                         "time_start": "2020-10-26T18:50:00Z",
                         "time_end": "2020-10-26T19:00:00Z"
@@ -2835,8 +3454,7 @@
                         "type": "Live Presentation",
                         "title": "Exploring Movement Data in Notebook Environments",
                         "contributors": [
-                            "Anita Graser",
-                            "Melitta Dragaschnig"
+                            "Anita Graser"
                         ],
                         "time_start": "2020-10-26T19:10:00Z",
                         "time_end": "2020-10-26T19:20:00Z"
@@ -2845,53 +3463,57 @@
                         "type": "Live Presentation",
                         "title": "A Visualization System for High Dimensional Data Streams using Complex Event Processing",
                         "contributors": [
-                            "Arnab Chakrabarti",
-                            "Tanuj Kulshrestha",
-                            "Christoph Quix"
+                            "Arnab Chakrabarti"
                         ],
                         "time_start": "2020-10-26T19:20:00Z",
                         "time_end": "2020-10-26T19:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Session B",
-                "session_id": "w-movis-2",
-                "chair": [
-                    "Somayeh Dodge"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-26T20:00:00Z",
-                "time_end": "2020-10-26T21:30:00Z",
-                "time_slots": [
+                    },
                     {
                         "type": "Live Presentation",
-                        "title": "Live Works in Progress",
+                        "title": "Work in progress: Transferring decision boundaries onto a geographic space: agent-rules extracted from movement data using classification trees",
                         "contributors": [
-                            "MISSING"
+                            "Jugal Patel"
                         ],
                         "time_start": "2020-10-26T20:00:00Z",
+                        "time_end": "2020-10-26T20:10:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Work in progress: Framing Twitter Trajectory Visualization: A Comparison Between Hurricane Evacuation and Pandemic Lockdown",
+                        "contributors": [
+                            "Chenxiao Guo"
+                        ],
+                        "time_start": "2020-10-26T20:10:00Z",
+                        "time_end": "2020-10-26T20:20:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Work in progress: Using Animation to Visualize Spatio-Temporal Varying COVID-19 Data",
+                        "contributors": [
+                            "Hanan Samet"
+                        ],
+                        "time_start": "2020-10-26T20:20:00Z",
                         "time_end": "2020-10-26T20:30:00Z"
                     },
                     {
-                        "type": "Live Panel",
-                        "title": "Panel and Discussion",
+                        "type": "Live Presentation",
+                        "title": "Work in progress: An R Online Tutorial for Visualizing Spatial Social Networks",
                         "contributors": [
-                            "All"
+                            "Xiaofan Liang"
                         ],
                         "time_start": "2020-10-26T20:30:00Z",
-                        "time_end": "2020-10-26T21:00:00Z"
+                        "time_end": "2020-10-26T20:40:00Z"
                     },
                     {
-                        "type": "Live Presentation",
-                        "title": "Closing Remarks",
+                        "type": "Live Panel",
+                        "title": "Discussion and Closing Remarks",
                         "contributors": [
                             "Clio Andris",
                             "Somayeh Dodge",
                             "Alan MacEachren"
                         ],
-                        "time_start": "2020-10-26T21:00:00Z",
-                        "time_end": "2020-10-26T21:30:00Z"
+                        "time_start": "2020-10-26T20:40:00Z",
+                        "time_end": "2020-10-26T21:15:00Z"
                     }
                 ]
             }
@@ -2921,66 +3543,82 @@
                         "time_end": "2020-10-27T13:45:00Z"
                     },
                     {
-                        "type": "Recorded Talk",
+                        "type": "Live Intro + Recorded Talk",
                         "title": "VGTC Visualization Technical Achievement Award",
                         "contributors": [
-                            "MISSING"
+                            "Jean-Daniel Fekete"
                         ],
                         "time_start": "2020-10-27T13:45:00Z",
                         "time_end": "2020-10-27T13:52:00Z"
                     },
                     {
-                        "type": "Recorded Talk",
+                        "type": "Live Intro + Recorded Talk",
                         "title": "VGTC Visualization Career Award",
                         "contributors": [
-                            "MISSING"
+                            "Catherine Plaisant"
                         ],
                         "time_start": "2020-10-27T13:52:00Z",
                         "time_end": "2020-10-27T14:00:00Z"
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "VAST 10 Year Test of Time Award: iVisClassifier: An interactive visual analytics system for classification based on supervised dimension reduction",
+                        "title": "Introduction to Test of Time Awards",
                         "contributors": [
-                            "MISSING"
+                            "Stephen North"
                         ],
                         "time_start": "2020-10-27T14:00:00Z",
-                        "time_end": "2020-10-27T14:12:00Z"
+                        "time_end": "2020-10-27T14:10:00Z"
                     },
                     {
-                        "type": "Recorded Talk",
+                        "type": "Live Intro + Recorded Talk",
+                        "title": "VAST 10 Year Test of Time Award: iVisClassifier: An interactive visual analytics system for classification based on supervised dimension reduction",
+                        "contributors": [
+                            "Jaegul Choo",
+                            "Hanseung Lee",
+                            "Jaeyeon Kihm",
+                            "Haesun Park\u00a0"
+                        ],
+                        "time_start": "2020-10-27T14:10:00Z",
+                        "time_end": "2020-10-27T14:20:00Z"
+                    },
+                    {
+                        "type": "Live Intro + Recorded Talk",
                         "title": "InfoVis 20 Year Test of Time Award: Polaris: a system for query, analysis and visualization of multi-dimensional relational databases",
                         "contributors": [
-                            "MISSING"
+                            "Chris Stolte",
+                            "Diane Tang",
+                            "Pat Hanrahan"
                         ],
-                        "time_start": "2020-10-27T14:12:00Z",
-                        "time_end": "2020-10-27T14:24:00Z"
+                        "time_start": "2020-10-27T14:20:00Z",
+                        "time_end": "2020-10-27T14:30:00Z"
                     },
                     {
-                        "type": "Recorded Talk",
+                        "type": "Live Intro + Recorded Talk",
                         "title": "InfoVis 10 Year Test of Time Award: Narrative Visualization: Telling Stories with Data",
                         "contributors": [
-                            "MISSING"
+                            "Edward Segel",
+                            "Jeffrey Heer"
                         ],
-                        "time_start": "2020-10-27T14:24:00Z",
-                        "time_end": "2020-10-27T14:36:00Z"
+                        "time_start": "2020-10-27T14:30:00Z",
+                        "time_end": "2020-10-27T14:40:00Z"
                     },
                     {
-                        "type": "Recorded Talk",
+                        "type": "Live Intro + Recorded Talk",
                         "title": "SciVis 25 Year Test of Time Award: High Dimensional Brushing for Interactive Exploration of Multivariate Data",
                         "contributors": [
-                            "MISSING"
+                            "Allen R. Martin",
+                            "Matthew O. Ward"
                         ],
-                        "time_start": "2020-10-27T14:36:00Z",
-                        "time_end": "2020-10-27T14:48:00Z"
+                        "time_start": "2020-10-27T14:40:00Z",
+                        "time_end": "2020-10-27T14:50:00Z"
                     },
                     {
-                        "type": "Recorded Talk",
+                        "type": "Live Intro + Recorded Talk",
                         "title": "SciVis 15 Year Test of Time Award: The Value of Visualization",
                         "contributors": [
-                            "MISSING"
+                            "Jarke J. van Wijk"
                         ],
-                        "time_start": "2020-10-27T14:48:00Z",
+                        "time_start": "2020-10-27T14:50:00Z",
                         "time_end": "2020-10-27T15:00:00Z"
                     },
                     {
@@ -3048,16 +3686,16 @@
                 ],
                 "organizers": [],
                 "time_start": "2020-10-27T17:30:00Z",
-                "time_end": "2020-10-27T18:00:00Z",
+                "time_end": "2020-10-27T17:45:00Z",
                 "time_slots": [
                     {
                         "type": null,
-                        "title": null,
+                        "title": "MISSING WILL SHORTEN TO LESS pending approval",
                         "contributors": [
                             "MISSING"
                         ],
                         "time_start": "2020-10-27T17:30:00Z",
-                        "time_end": "2020-10-27T18:00:00Z"
+                        "time_end": "2020-10-27T17:45:00Z"
                     }
                 ]
             },
@@ -3940,23 +4578,23 @@
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "Uncertainty-Oriented Ensemble Data Visualization and Exploration using Variable Spatial Spreading",
-                        "contributors": [
-                            "Mingdong Zhang"
-                        ],
-                        "time_start": "2020-10-28T18:15:00Z",
-                        "time_end": "2020-10-28T18:30:00Z",
-                        "uid": "f-scivis-1096"
-                    },
-                    {
-                        "type": "Recorded Talk",
                         "title": "Uncertainty Visualization of 2D Morse Complex Ensembles Using Statistical Summary Maps",
                         "contributors": [
                             "Tushar Athawale"
                         ],
+                        "time_start": "2020-10-28T18:15:00Z",
+                        "time_end": "2020-10-28T18:30:00Z",
+                        "uid": "f-tvcg-2019120446"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Uncertainty-Oriented Ensemble Data Visualization and Exploration using Variable Spatial Spreading",
+                        "contributors": [
+                            "Mingdong Zhang"
+                        ],
                         "time_start": "2020-10-28T18:30:00Z",
                         "time_end": "2020-10-28T18:45:00Z",
-                        "uid": "f-tvcg-2019120446"
+                        "uid": "f-scivis-1096"
                     },
                     {
                         "type": "Recorded Talk",
@@ -4173,7 +4811,7 @@
                         ],
                         "time_start": "2020-10-29T14:30:00Z",
                         "time_end": "2020-10-29T14:45:00Z",
-                        "uid": "f-vast-2019080283"
+                        "uid": "f-tvcg-2019080283"
                     },
                     {
                         "type": "Recorded Talk",
@@ -4362,7 +5000,7 @@
                 "title": "Communities & Communication",
                 "session_id": "f-papers-communities-communication",
                 "chair": [
-                    "MISSING"
+                    "Jeremy Boy"
                 ],
                 "organizers": [],
                 "time_start": "2020-10-29T16:00:00Z",
@@ -5443,16 +6081,16 @@
                     "MISSING"
                 ],
                 "organizers": [],
-                "time_start": "2020-10-27T17:30:00Z",
+                "time_start": "2020-10-27T17:45:00Z",
                 "time_end": "2020-10-27T18:00:00Z",
                 "time_slots": [
                     {
                         "type": null,
-                        "title": null,
+                        "title": "MISSING WILL SHORTEN TO LESS pending approval",
                         "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-27T17:30:00Z",
+                        "time_start": "2020-10-27T17:45:00Z",
                         "time_end": "2020-10-27T18:00:00Z"
                     }
                 ]
@@ -6134,10 +6772,13 @@
                 "title": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
                 "session_id": "p-academia",
                 "chair": [
-                    "Renata G. Raidou",
+                    "Renata Raidou",
                     "Ingrid Hotz"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Renata Raidou",
+                    "Ingrid Hotz"
+                ],
                 "time_start": "2020-10-27T18:00:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "time_slots": [
@@ -6145,7 +6786,12 @@
                         "type": "Live Panel",
                         "title": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
                         "contributors": [
-                            "MISSING"
+                            "Silvia Miksch",
+                            "Chuck Hansen",
+                            "Jack van Wijk",
+                            "Bei Wang",
+                            "Jan Reininghaus",
+                            "Johanna Beyer "
                         ],
                         "time_start": "2020-10-27T18:00:00Z",
                         "time_end": "2020-10-27T19:30:00Z"
@@ -6258,44 +6904,205 @@
                     "MISSING"
                 ],
                 "organizers": [],
-                "time_start": "2020-10-27T19:30:00Z",
-                "time_end": "2020-10-27T20:30:00Z",
+                "time_start": "2020-10-27T20:00:00Z",
+                "time_end": "2020-10-27T21:00:00Z",
                 "time_slots": [
                     {
-                        "type": "SCHEDULE_MISSING",
-                        "title": "TITLE_MISSING",
+                        "type": "Recorded Talk",
+                        "title": "Memorial A",
                         "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-27T19:30:00Z",
-                        "time_end": "2020-10-27T20:30:00Z"
+                        "time_start": "2020-10-27T20:00:00Z",
+                        "time_end": "2020-10-27T21:00:00Z"
                     }
                 ]
             }
         ]
     },
-    "visap": {
+    "a-visap": {
         "event": "VIS Arts Program",
         "event_type": "VISAP Opening",
         "sessions": [
             {
                 "title": "VISAP Opening Event",
-                "session_id": "visap-opening",
+                "session_id": "a-visap-opening",
                 "chair": [
-                    "MISSING"
+                    "Erik Brunvand",
+                    "Yoon Chung Han",
+                    "Carmen Hull",
+                    "Maria Lantin"
                 ],
-                "organizers": [],
-                "time_start": "2020-10-27T19:30:00Z",
-                "time_end": "2020-10-27T20:30:00Z",
+                "organizers": [
+                    "Erik Brunvand",
+                    "Yoon Chung Han",
+                    "Carmen Hull",
+                    "Maria Lantin"
+                ],
+                "time_start": "2020-10-27T20:00:00Z",
+                "time_end": "2020-10-27T21:15:00Z",
                 "time_slots": [
                     {
-                        "type": "SCHEDULE_MISSING",
-                        "title": "SCHEDULE_MISSING",
+                        "type": "Live Presentation",
+                        "title": "Introduction",
                         "contributors": [
-                            "MISSING"
+                            "Erik Brunvand",
+                            "Yoon Chung Han",
+                            "Carmen Hull",
+                            "Maria Lantin"
                         ],
-                        "time_start": "2020-10-27T19:30:00Z",
-                        "time_end": "2020-10-27T20:30:00Z"
+                        "time_start": "2020-10-27T20:00:00Z",
+                        "time_end": "2020-10-27T20:10:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "VISAP Fast Forward",
+                        "contributors": [
+                            "VISAP Artists"
+                        ],
+                        "time_start": "2020-10-27T20:10:00Z",
+                        "time_end": "2020-10-27T20:20:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Electo Electro 2020",
+                        "contributors": [
+                            "Mike Richison"
+                        ],
+                        "time_start": "2020-10-27T20:20:00Z",
+                        "time_end": "2020-10-27T20:28:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Visum: Beyond the Physical Eye",
+                        "contributors": [
+                            "Lena Mathew"
+                        ],
+                        "time_start": "2020-10-27T20:28:00Z",
+                        "time_end": "2020-10-27T20:36:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Cangjie",
+                        "contributors": [
+                            "Weidi Zhang"
+                        ],
+                        "time_start": "2020-10-27T20:36:00Z",
+                        "time_end": "2020-10-27T20:45:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A with Artists",
+                        "contributors": [
+                            "Mike Richison",
+                            "Lena Mathew",
+                            "Weidi Zhang"
+                        ],
+                        "time_start": "2020-10-27T20:45:00Z",
+                        "time_end": "2020-10-27T21:15:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "VISAP Session 1",
+                "session_id": "a-visap-1",
+                "chair": [
+                    "Yoon Chung Han"
+                ],
+                "organizers": [
+                    "Erik Brunvand",
+                    "Yoon Chung Han",
+                    "Carmen Hull",
+                    "Maria Lantin"
+                ],
+                "time_start": "2020-10-28T14:00:00Z",
+                "time_end": "2020-10-28T15:25:00Z",
+                "time_slots": [
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Keynote: Representation Matters: Mapping Gender and Sexuality on Twitter",
+                        "contributors": [
+                            "Sarah Sinwell"
+                        ],
+                        "time_start": "2020-10-28T14:00:00Z",
+                        "time_end": "2020-10-28T14:15:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "HeartBees: Visualizing Crowd Affects",
+                        "contributors": [
+                            "Chao Ying Qin",
+                            "Marios Constantinides",
+                            "Luca Maria Aiello",
+                            "Daniele Quercia"
+                        ],
+                        "time_start": "2020-10-28T14:15:00Z",
+                        "time_end": "2020-10-28T14:30:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Tsuga Convictio: Visualizing for the ecological, feminine, and embodied",
+                        "contributors": [
+                            "Cathryn A Ploehn",
+                            "Molly Wright",
+                            "Daragh Byrne"
+                        ],
+                        "time_start": "2020-10-28T14:30:00Z",
+                        "time_end": "2020-10-28T14:45:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A for Papers and Keynote",
+                        "contributors": [
+                            "Sarah Sinwell",
+                            "Chao Ying Qin",
+                            "Marios Constantinides",
+                            "Luca Maria Aiello",
+                            "Daniele Quercia",
+                            "Cathryn A Ploehn",
+                            "Molly Wright",
+                            "Daragh Byrne"
+                        ],
+                        "time_start": "2020-10-28T14:45:00Z",
+                        "time_end": "2020-10-28T15:00:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Invited Artist Talk: Hannah Wolf",
+                        "contributors": [
+                            "Hannah Wolf"
+                        ],
+                        "time_start": "2020-10-28T15:00:00Z",
+                        "time_end": "2020-10-28T15:05:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Invited Artist Talk: Weidi Zhang",
+                        "contributors": [
+                            "Weidi Zhang"
+                        ],
+                        "time_start": "2020-10-28T15:05:00Z",
+                        "time_end": "2020-10-28T15:10:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Invited Artist Talk: Jiabao Li",
+                        "contributors": [
+                            "Jiabao Li"
+                        ],
+                        "time_start": "2020-10-28T15:10:00Z",
+                        "time_end": "2020-10-28T15:15:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A for Artist Talks",
+                        "contributors": [
+                            "Hannah Wolf",
+                            "Weidi Zhang",
+                            "Jiabao Li"
+                        ],
+                        "time_start": "2020-10-28T15:15:00Z",
+                        "time_end": "2020-10-28T15:25:00Z"
                     }
                 ]
             }
@@ -6303,83 +7110,176 @@
     },
     "a-vizsec": {
         "event": "VizSec",
-        "event_type": "MISSING",
+        "event_type": "Associated Event",
         "sessions": [
             {
-                "title": "VizSec",
+                "title": "Opening, Keynote, Best Paper",
                 "session_id": "a-vizsec-1",
                 "chair": [
                     "MISSING"
                 ],
-                "organizers": [],
-                "time_start": "2020-10-28T14:00:00Z",
-                "time_end": "2020-10-28T19:30:00Z",
-                "time_slots": [
-                    {
-                        "type": null,
-                        "title": "MISSING SCHEDULE",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-28T14:00:00Z",
-                        "time_end": "2020-10-28T15:30:00Z"
-                    },
-                    {
-                        "type": null,
-                        "title": "MISSING SCHEDULE",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-28T16:00:00Z",
-                        "time_end": "2020-10-28T17:30:00Z"
-                    },
-                    {
-                        "type": null,
-                        "title": "MISSING SCHEDULE",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-28T18:00:00Z",
-                        "time_end": "2020-10-28T19:30:00Z"
-                    }
-                ]
-            }
-        ]
-    },
-    "a-visap-papers1": {
-        "event": "VIS Arts Program",
-        "event_type": "Paper Presentations",
-        "sessions": [
-            {
-                "title": "VISAP Session 1",
-                "session_id": "a-visap-first",
-                "chair": [
+                "organizers": [
                     "MISSING"
                 ],
-                "organizers": [],
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:30:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING SCHEDULE",
+                        "type": "Live Presentation",
+                        "title": "Opening Presentation",
                         "contributors": [
                             "MISSING"
                         ],
                         "time_start": "2020-10-28T14:00:00Z",
+                        "time_end": "2020-10-28T14:10:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Keynote by Joshua Saxe",
+                        "contributors": [
+                            "Joshua Saxe"
+                        ],
+                        "time_start": "2020-10-28T14:10:00Z",
+                        "time_end": "2020-10-28T15:00:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Best Paper MISSING TITLE",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T15:00:00Z",
                         "time_end": "2020-10-28T15:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Network Analysis and Incident Response",
+                "session_id": "a-vizsec-2",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [
+                    "MISSING"
+                ],
+                "time_start": "2020-10-28T16:00:00Z",
+                "time_end": "2020-10-28T17:25:00Z",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Full Paper 1 MISSING title",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T16:00:00Z",
+                        "time_end": "2020-10-28T16:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Full Paper 2 MISSING title",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T16:20:00Z",
+                        "time_end": "2020-10-28T16:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Sponsor Talk 1 MISSING title",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T16:40:00Z",
+                        "time_end": "2020-10-28T16:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Sponsor Talk 2 MISSING title",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T16:55:00Z",
+                        "time_end": "2020-10-28T17:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Sponsor Talk 3 MISSING title",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T17:10:00Z",
+                        "time_end": "2020-10-28T17:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Papers and Closing",
+                "session_id": "a-vizsec-3",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [
+                    "MISSING"
+                ],
+                "time_start": "2020-10-28T18:00:00Z",
+                "time_end": "2020-10-28T19:10:00Z",
+                "time_slots": [
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Position Paper MISSING TITLE",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T18:00:00Z",
+                        "time_end": "2020-10-28T18:20:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Short Paper 1 MISSING TITLE",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T18:20:00Z",
+                        "time_end": "2020-10-28T18:35:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Short Paper 2 MISSING TITLE",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T18:35:00Z",
+                        "time_end": "2020-10-28T18:50:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Poster Booster Session and Best Poster",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T18:50:00Z",
+                        "time_end": "2020-10-28T19:00:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Closing",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-28T19:00:00Z",
+                        "time_end": "2020-10-28T19:10:00Z"
                     }
                 ]
             }
         ]
     },
-    "a-supporters": {
+    "vis-supporters": {
         "event": "VIS Supporters",
         "event_type": "Keynote",
         "sessions": [
             {
                 "title": "Industrial Keynote #1",
-                "session_id": "a-support-1",
+                "session_id": "vis-supporters-1",
                 "chair": [
                     "MISSING"
                 ],
@@ -6400,7 +7300,7 @@
             },
             {
                 "title": "Industrial Keynote #2",
-                "session_id": "a-support-2",
+                "session_id": "vis-supporters-2",
                 "chair": [
                     "MISSING"
                 ],
@@ -6421,7 +7321,7 @@
             },
             {
                 "title": "Industrial Keynote #3",
-                "session_id": "a-support-3",
+                "session_id": "vis-supporters-3",
                 "chair": [
                     "MISSING"
                 ],
@@ -6437,48 +7337,6 @@
                         ],
                         "time_start": "2020-10-30T15:45:00Z",
                         "time_end": "2020-10-30T16:00:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "VIS Capstone",
-                "session_id": "vis-closing",
-                "chair": [
-                    "MISSING"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-30T18:00:00Z",
-                "time_end": "2020-10-30T19:00:00Z",
-                "time_slots": [
-                    {
-                        "type": null,
-                        "title": "VIS Capstone",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-30T18:00:00Z",
-                        "time_end": "2020-10-30T19:00:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "VIS Closing",
-                "session_id": "vis-closing",
-                "chair": [
-                    "MISSING"
-                ],
-                "organizers": [],
-                "time_start": "2020-10-30T19:00:00Z",
-                "time_end": "2020-10-30T19:30:00Z",
-                "time_slots": [
-                    {
-                        "type": null,
-                        "title": "VIS Closing",
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "time_start": "2020-10-30T19:00:00Z",
-                        "time_end": "2020-10-30T19:30:00Z"
                     }
                 ]
             }
@@ -6626,7 +7484,7 @@
                         "type": "Recorded Talk",
                         "title": "Towards Placental Surface Vasculature Exploration in Virtual Reality",
                         "contributors": [
-                            "MISSING"
+                            "Johannes Novotny"
                         ],
                         "time_start": "2020-10-29T17:15:00Z",
                         "time_end": "2020-10-29T17:30:00Z",
@@ -6638,53 +7496,209 @@
     },
     "a-sciviscontest": {
         "event": "SciVis Contest",
-        "event_type": "MISSING",
+        "event_type": "Associated Event",
         "sessions": [
             {
                 "title": "SciVis Contest",
                 "session_id": "a-sciviscontest",
                 "chair": [
-                    "MISSING"
+                    "Thomas Theussl"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Thomas Theussl",
+                    "Madhu Srinivasan",
+                    "Silvio Rizzi"
+                ],
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:30:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Live Presentation",
+                        "title": "Opening Presentation",
                         "contributors": [
-                            "MISSING"
+                            "Thomas Theussl"
                         ],
                         "time_start": "2020-10-28T18:00:00Z",
+                        "time_end": "2020-10-28T18:02:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Red Sea Eddies and their Ensemble Representation",
+                        "contributors": [
+                            "Ibrahim Hoteit"
+                        ],
+                        "time_start": "2020-10-28T18:02:00Z",
+                        "time_end": "2020-10-28T18:15:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Lagrangian Q-criterion and Transport of Salt and Temperature",
+                        "contributors": [
+                            "Steve Wolligandt"
+                        ],
+                        "time_start": "2020-10-28T18:15:00Z",
+                        "time_end": "2020-10-28T18:25:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Interactive Visual Analysis of Oceanographic Simulation Ensemble Data",
+                        "contributors": [
+                            "Hennes Rave"
+                        ],
+                        "time_start": "2020-10-28T18:25:00Z",
+                        "time_end": "2020-10-28T18:35:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Red Sea Eddies Visualization for the Web",
+                        "contributors": [
+                            "Hiep Vo"
+                        ],
+                        "time_start": "2020-10-28T18:35:00Z",
+                        "time_end": "2020-10-28T18:45:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Eddy-based visual analysis system for transport in the Red Sea",
+                        "contributors": [
+                            "Xiaoyang Han"
+                        ],
+                        "time_start": "2020-10-28T18:45:00Z",
+                        "time_end": "2020-10-28T18:55:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "The Use of 3D Optical Flow, Feature-Tracking and Token-Tracking Petri Nets to Analyze and Visualize Multiple Scales of Ocean Eddies",
+                        "contributors": [
+                            "Sedat Ozer"
+                        ],
+                        "time_start": "2020-10-28T18:55:00Z",
+                        "time_end": "2020-10-28T19:05:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Tracing Eddy Transport in the Red Sea and Gulf of Aden",
+                        "contributors": [
+                            "Anke Friederici"
+                        ],
+                        "time_start": "2020-10-28T19:05:00Z",
+                        "time_end": "2020-10-28T19:15:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "SciVis Contest 2021 Announcement",
+                        "contributors": [
+                            "Alexei Razoumov"
+                        ],
+                        "time_start": "2020-10-28T19:15:00Z",
+                        "time_end": "2020-10-28T19:25:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Statistical Rendering for Visualization of Red Sea Eddy Simulation Data",
+                        "contributors": [
+                            "Tushar Athawale"
+                        ],
+                        "time_start": "2020-10-28T19:25:00Z",
+                        "time_end": "2020-10-28T19:28:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Closing Presentation",
+                        "contributors": [
+                            "Thomas Theussl"
+                        ],
+                        "time_start": "2020-10-28T19:28:00Z",
                         "time_end": "2020-10-28T19:30:00Z"
                     }
                 ]
             }
         ]
     },
-    "a-visap-papers2": {
+    "a-visap-papers": {
         "event": "VIS Arts Program",
         "event_type": "Paper Presentations",
         "sessions": [
             {
                 "title": "VISAP Session 2",
-                "session_id": "a-visap-second",
+                "session_id": "a-visap-2",
                 "chair": [
-                    "MISSING"
+                    "Erik Brunvand"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Erik Brunvand",
+                    "Yoon Chung Han",
+                    "Carmen Hull",
+                    "Maria Lantin"
+                ],
                 "time_start": "2020-10-29T14:00:00Z",
-                "time_end": "2020-10-29T15:30:00Z",
+                "time_end": "2020-10-29T15:20:00Z",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING SCHEDULE",
+                        "type": "Recorded Talk",
+                        "title": "Printmaking, Puzzles, and Studio Closets: Using Artistic Metaphors to Reimagine the User Interface for Designing Immersive Visualizations",
                         "contributors": [
-                            "MISSING"
+                            "Bridger Herman"
                         ],
                         "time_start": "2020-10-29T14:00:00Z",
-                        "time_end": "2020-10-29T15:30:00Z"
+                        "time_end": "2020-10-29T14:15:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Tied in Knots. A Case Study on Anthropographic Data Visualization About Sexual Harassment in the Academy",
+                        "contributors": [
+                            "Tommaso Elli"
+                        ],
+                        "time_start": "2020-10-29T14:15:00Z",
+                        "time_end": "2020-10-29T14:30:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Leander: Navigating musical possibility space through color data sonification H44",
+                        "contributors": [
+                            "Lawton Hall"
+                        ],
+                        "time_start": "2020-10-29T14:30:00Z",
+                        "time_end": "2020-10-29T14:45:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A for Papers and Pictorials",
+                        "contributors": [
+                            "Bridger Herman",
+                            "Tommaso Elli",
+                            "Lawton Hall"
+                        ],
+                        "time_start": "2020-10-29T14:45:00Z",
+                        "time_end": "2020-10-29T15:00:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Invited Artist Talk: Rebecca Xu",
+                        "contributors": [
+                            "Rebecca Xu"
+                        ],
+                        "time_start": "2020-10-29T15:00:00Z",
+                        "time_end": "2020-10-29T15:05:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Invited Artist Talk: Ha Na Lee",
+                        "contributors": [
+                            "Ha Na Lee"
+                        ],
+                        "time_start": "2020-10-29T15:05:00Z",
+                        "time_end": "2020-10-29T15:10:00Z"
+                    },
+                    {
+                        "type": "Live Panel",
+                        "title": "Q&A for Artist Talks",
+                        "contributors": [
+                            "Rebecca Xu",
+                            "Ha Na Lee"
+                        ],
+                        "time_start": "2020-10-29T15:10:00Z",
+                        "time_end": "2020-10-29T15:20:00Z"
                     }
                 ]
             }
@@ -6698,17 +7712,24 @@
                 "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                 "session_id": "p-vishealth",
                 "chair": [
-                    "MISSING"
+                    "Arvind Satyanarayan",
+                    "Carlos Scheidegger"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Arvind Satyanarayan",
+                    "Carlos Scheidegger"
+                ],
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "time_slots": [
                     {
                         "type": "Live Panel",
-                        "title": null,
+                        "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                         "contributors": [
-                            "MISSING"
+                            "Michael Correll",
+                            "Jessica Hullman",
+                            "Nils Gehlenborg",
+                            "Ana Crisan"
                         ],
                         "time_start": "2020-10-29T18:00:00Z",
                         "time_end": "2020-10-29T19:30:00Z"
@@ -6777,7 +7798,7 @@
     },
     "x-revise": {
         "event": "VIS",
-        "event_type": "Live Discussion",
+        "event_type": "VIS",
         "sessions": [
             {
                 "title": "Restructuring IEEE VIS for the Future",
@@ -6786,8 +7807,8 @@
                     "MISSING"
                 ],
                 "organizers": [],
-                "time_start": "2020-10-29T19:30:00Z",
-                "time_end": "2020-10-29T20:30:00Z",
+                "time_start": "2020-10-29T20:00:00Z",
+                "time_end": "2020-10-29T21:00:00Z",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -6795,8 +7816,8 @@
                         "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-29T19:30:00Z",
-                        "time_end": "2020-10-29T19:40:00Z"
+                        "time_start": "2020-10-29T20:00:00Z",
+                        "time_end": "2020-10-29T20:10:00Z"
                     },
                     {
                         "type": "Live Panel",
@@ -6804,8 +7825,8 @@
                         "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-29T19:40:00Z",
-                        "time_end": "2020-10-29T20:30:00Z"
+                        "time_start": "2020-10-29T20:10:00Z",
+                        "time_end": "2020-10-29T21:00:00Z"
                     }
                 ]
             }
@@ -6813,7 +7834,7 @@
     },
     "x-viskickoff": {
         "event": "VIS",
-        "event_type": "MISSING",
+        "event_type": "VIS",
         "sessions": [
             {
                 "title": "VIS 2021 Kick-off Meeting",
@@ -6822,8 +7843,8 @@
                     "MISSING"
                 ],
                 "organizers": [],
-                "time_start": "2020-10-29T20:30:00Z",
-                "time_end": "2020-10-29T21:30:00Z",
+                "time_start": "2020-10-29T21:15:00Z",
+                "time_end": "2020-10-29T22:15:00Z",
                 "time_slots": [
                     {
                         "type": null,
@@ -6831,8 +7852,8 @@
                         "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-29T20:30:00Z",
-                        "time_end": "2020-10-29T21:30:00Z"
+                        "time_start": "2020-10-29T21:15:00Z",
+                        "time_end": "2020-10-29T22:15:00Z"
                     }
                 ]
             }
@@ -6915,17 +7936,28 @@
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
-                    "MISSING"
+                    "Leilani Battle",
+                    "Michelle Borkin",
+                    "Lane Harrison ",
+                    "Michael Correll "
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Leilani Battle",
+                    "Michelle Borkin",
+                    "Michael Correll",
+                    "Lane Harrison"
+                ],
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "time_slots": [
                     {
                         "type": null,
-                        "title": null,
+                        "title": "Visualization for Social Good",
                         "contributors": [
-                            "MISSING"
+                            "Catherine D'Ignazio",
+                            "Ronald Metoyer",
+                            "Michelle Borkin",
+                            "Evan Peck"
                         ],
                         "time_start": "2020-10-30T16:00:00Z",
                         "time_end": "2020-10-30T17:30:00Z"
@@ -6942,9 +7974,13 @@
                 "title": "Challenges in the Visualization of Bioelectric Fields for Cardiac and Neural Research",
                 "session_id": "l-bio",
                 "chair": [
-                    "Bei Wang"
+                    "Wilson Good"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Rob MacLeod",
+                    "Bei Wang",
+                    "Wilson Good"
+                ],
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "time_slots": [
@@ -6955,34 +7991,84 @@
                             "Rob MacLeod"
                         ],
                         "time_start": "2020-10-30T16:00:00Z",
-                        "time_end": "2020-10-30T16:40:00Z"
+                        "time_end": "2020-10-30T16:30:00Z"
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "Presentation 2",
+                        "title": "Guiding Deep Brain Stimulation Research with Bioelectric Field Visualizations",
                         "contributors": [
                             "Andrew Janson"
                         ],
-                        "time_start": "2020-10-30T16:40:00Z",
-                        "time_end": "2020-10-30T16:55:00Z"
+                        "time_start": "2020-10-30T16:30:00Z",
+                        "time_end": "2020-10-30T16:45:00Z"
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "Presentation 3",
+                        "title": "Visualization Challenges in Simulations of Noninvasic Brain Stimulation",
                         "contributors": [
                             "Sumientra Rampersad"
                         ],
-                        "time_start": "2020-10-30T16:55:00Z",
-                        "time_end": "2020-10-30T17:15:00Z"
+                        "time_start": "2020-10-30T16:45:00Z",
+                        "time_end": "2020-10-30T17:00:00Z"
                     },
                     {
                         "type": "Live Panel",
                         "title": "Q&A Session",
                         "contributors": [
+                            "Rob MacLeod",
+                            "Andrew Janson",
+                            "Sumientra Rampersad"
+                        ],
+                        "time_start": "2020-10-30T17:00:00Z",
+                        "time_end": "2020-10-30T17:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "vis-closing": {
+        "event": "VIS Closing",
+        "event_type": "MISSING",
+        "sessions": [
+            {
+                "title": "VIS Capstone",
+                "session_id": "vis-closing",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [],
+                "time_start": "2020-10-30T18:00:00Z",
+                "time_end": "2020-10-30T19:00:00Z",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "VIS Capstone",
+                        "contributors": [
                             "MISSING"
                         ],
-                        "time_start": "2020-10-30T17:15:00Z",
-                        "time_end": "2020-10-30T17:30:00Z"
+                        "time_start": "2020-10-30T18:00:00Z",
+                        "time_end": "2020-10-30T19:00:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "VIS Closing",
+                "session_id": "vis-closing",
+                "chair": [
+                    "MISSING"
+                ],
+                "organizers": [],
+                "time_start": "2020-10-30T19:00:00Z",
+                "time_end": "2020-10-30T19:30:00Z",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "VIS Closing",
+                        "contributors": [
+                            "MISSING"
+                        ],
+                        "time_start": "2020-10-30T19:00:00Z",
+                        "time_end": "2020-10-30T19:30:00Z"
                     }
                 ]
             }

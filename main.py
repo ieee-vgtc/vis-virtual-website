@@ -1,5 +1,6 @@
 # pylint: disable=global-statement,redefined-outer-name
 import argparse
+import collections
 import csv
 import glob
 import json
@@ -88,7 +89,7 @@ def main(site_data_path):
 
             time_sessions[timeslot]['sessions'].append(session)
 
-        by_time[day] = time_sessions
+        by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
 
     ## TODO: add paper information to session information
 
@@ -122,6 +123,9 @@ def generateDayCalendars():
         # full_calendar_fname = os.path.join(site_data_path, calendar_fname)
         # with open(full_calendar_fname, 'w', encoding='utf-8') as f:
         #     json.dump(day_events, f, ensure_ascii=False, indent=2)
+
+        # try ordering by title; maybe this'll make things line up in the calendar?
+        day_events = sorted(day_events, key=lambda event: event['title'])
 
         site_data[calendar_fname] = day_events
         all_events.extend(day_events)

@@ -112,16 +112,18 @@
     },
     "w-comm-1015": {
         "authors": [
-            "Liuhuaying Yang",
-            "Hui Cheng Ang",
-            "Shuyang Wang"
+            "Yixuan Zhang",
+            "Yifan Sun",
+            "Sumit Barua",
+            "Enrico Bertini",
+            "Andrea G Parker"
         ],
-        "title": "Customized visualizations for audience-oriented communication in COVID-19 tracking story",
-        "session_id": "w-comm-1",
-        "abstract": "This visual case study was conducted by zaobao.sg, the digital platform of the Chinese dailies in Singapore. In early February, to inform and communicate with local audiences about the COVID-19 situation in Singapore, we built an interactive webpage titled \u201cDynamic tracking of COVID-19 in Singapore\u201d, to visualize the daily situation reports released by the Ministry of Health. As the situation evolved, we kept updating the data every day until June 2nd, when Singapore ended its Circuit Breaker measures. The aid of the visualisation is to help better picture the relationship between cases within a cluster, how these clusters are inter-related and activities-based, and how cases are disseminated to various hospitals.",
+        "title": "Mapping the Landscape of COVID-19 Crisis Visualizations",
+        "session_id": "w-comm",
+        "abstract": "A great number of visualizations have been created to communicate the constantly changing crisis of the COVID-19 pandemic. With the prevalence of these crisis visualizations, there is a critical need to organize and understand what and how visualizations have been produced and disseminated to the public, as information consumption can impact peoples' attitudes, responses to crisis and risk, behaviors, and thus ultimately the trajectory of the pandemic. We curated a list of 668 visualizations that communicate information about the pandemic. We performed a content analysis of these visualizations and derived six categories of intended messages in communication about the pandemic, including informing about severity; forecasting trends and influences; explaining the course of the disease; mirroring impact of the crisis; and communicating risk, vulnerability, and equity. We also identify issues and opportunities arising from COVID-19 crisis visualizations.",
         "keywords": [],
         "uid": "w-comm-1015",
-        "time_stamp": "2020-10-25T18:46:00Z"
+        "time_stamp": "2020-10-25T18:10:00Z"
     },
     "w-comm-1013": {
         "authors": [
@@ -131,11 +133,11 @@
             "Principal Yubin Park"
         ],
         "title": "COVID-19 Health Equity Dashboard - Addressing Vulnerable Populations",
-        "session_id": "w-comm-1",
+        "session_id": "w-comm",
         "abstract": "We present a case study of the COVID-19 Health Equity Dashboard, an open-source web-based interactive data visualization, that provides timely, localized, and actionable data of the ongoing COVID-19 pandemic. The dashboard features interactive maps and charts alongside population vulnerability characteristics, allowing for benchmarking county-level outcomes and disparities against the state and nation. While the dashboard faces several public health communication challenges, we continue to investigate and support data dissemination for public health officials' decision making.",
         "keywords": [],
         "uid": "w-comm-1013",
-        "time_stamp": "2020-10-25T18:12:00Z"
+        "time_stamp": "2020-10-25T18:22:00Z"
     },
     "w-comm-1011": {
         "authors": [
@@ -145,11 +147,11 @@
             "Klaus Mueller"
         ],
         "title": "Eating with a Conscience: Toward a Visual and Contextual Nutrition Facts Label",
-        "session_id": "w-comm-1",
+        "session_id": "w-comm",
         "abstract": "The large variety of food products available in today\u2019s market is making it increasingly difficult for the diet-conscious consumer to select the appropriate foods to maintain a balanced diet. To assist consumers, we design a visual nutrition facts label that provides the viewer with a quick overview of a food\u2019s nutritional content while presenting them with contextual information that compares it with similar foods. Our core design is based on the bullet graph as it is capable of displaying the level of a nutrient in a food product along with the range of nutrient levels in other similar foods thus providing a context. In our work, we create multiple design variations of our visual nutrition labels based on the bullet graph and test which design is the most preferable and effective.",
         "keywords": [],
         "uid": "w-comm-1011",
-        "time_stamp": "2020-10-25T18:22:00Z"
+        "time_stamp": "2020-10-25T18:32:00Z"
     },
     "w-comm-1009": {
         "authors": [
@@ -159,11 +161,24 @@
             "Jessica Ancker"
         ],
         "title": "Making Numbers Meaningful \u2013 improving how we communicate numbers to patients and the public",
-        "session_id": "w-comm-1",
+        "session_id": "w-comm",
         "abstract": "Numbers are a crucial piece of visual communication of health-related information. There are currently multiple resources for communicating health-related information in plain language, but an equivalent resource for numeric information is lacking. We are creating a web-based resource for providing guidance on how to visually communicate numbers related to health. Our resource was developed through a large systematic literature review under the advisement of a national expert panel on health numeracy. User testing is currently under way. This resource may be utilized by various end users including: health writers, health application developers, public health professionals, and journalists.",
         "keywords": [],
         "uid": "w-comm-1009",
-        "time_stamp": "2020-10-25T18:34:00Z"
+        "time_stamp": "2020-10-25T18:44:00Z"
+    },
+    "w-comm-1005": {
+        "authors": [
+            "Liuhuaying Yang",
+            "Hui Cheng Ang",
+            "Shuyang Wang"
+        ],
+        "title": "Customized visualizations for audience-oriented communication in COVID-19 tracking story",
+        "session_id": "w-comm",
+        "abstract": "This visual case study was conducted by zaobao.sg, the digital platform of the Chinese dailies in Singapore. In early February, to inform and communicate with local audiences about the COVID-19 situation in Singapore, we built an interactive webpage titled \u201cDynamic tracking of COVID-19 in Singapore\u201d, to visualize the daily situation reports released by the Ministry of Health. As the situation evolved, we kept updating the data every day until June 2nd, when Singapore ended its Circuit Breaker measures. The aid of the visualisation is to help better picture the relationship between cases within a cluster, how these clusters are inter-related and activities-based, and how cases are disseminated to various hospitals.",
+        "keywords": [],
+        "uid": "w-comm-1005",
+        "time_stamp": "2020-10-25T18:56:00Z"
     },
     "w-comm-1018": {
         "authors": [
@@ -172,11 +187,11 @@
             "Remco Chang"
         ],
         "title": "Does Interaction Improve Bayesian Reasoning with Visualization?",
-        "session_id": "w-comm-1",
+        "session_id": "w-comm",
         "abstract": "Interaction enables users to effectively navigate large amounts of data, supports cognitive processing, and increases methods of data representation. However, beyond popular beliefs, there have been few attempts to empirically demonstrate whether adding interaction to a static visualization improves its function. In this paper, we address this gap. We use a classic Bayesian reasoning task as a test bed for evaluating whether allowing users to interact with a static visualization can improve their reasoning. Through a crowdsourced study, we show that adding interaction to a static Bayesian reasoning visualization does not necessarily improve users\u2019 accuracy on a Bayesian reasoning task, and in some cases can significantly detract from it. Moreover, we demonstrate that changes in performance are modulated by the design of the underlying visualization, and users\u2019 spatial ability. Our work suggests that interaction is not as unambiguously good as we often believe.",
         "keywords": [],
         "uid": "w-comm-1018",
-        "time_stamp": "2020-10-25T18:56:00Z"
+        "time_stamp": "2020-10-25T19:06:00Z"
     },
     "w-comm-1017": {
         "authors": [
@@ -186,11 +201,11 @@
             "Dr. Deborah Cronin"
         ],
         "title": "Variable Biases: A Study of Scientists\u2019 Interpretation of Plot Types Commonly Used in Scientific Communication",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "In scientific communication, there are visualization conventions that are widely used to convey uncertainty, such as representing the variability of a dataset with error bars. Yet prior research indicates that scientists frequently misinterpret error bars. In this study, we compared bar charts with error bars to four alternative visualizations: dot, box, violin, and density plots. Our goal was to determine whether these other plot types would produce fewer biases in interpretation relative to bar plots. Scientists who have experience generating and interpreting statistical graphs used plots to assess whether the difference between two datasets was statistically significant. Our results replicated the patterns of biases that have been observed in prior studies of error bar interpretation. However, we found that our participants still had the best overall performance for bar plots with error bars, because they were most familiar with this type of plot.",
         "keywords": [],
         "uid": "w-comm-1017",
-        "time_stamp": "2020-10-25T19:45:00Z"
+        "time_stamp": "2020-10-25T20:00:00Z"
     },
     "w-comm-1012": {
         "authors": [
@@ -200,11 +215,11 @@
             "Thomas Hurtut"
         ],
         "title": "How do taxes, benefits and public spending evolve for a taxpayer during their lifetime?",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "We present a visual case study conducted by the Research Chair in Taxation and Public Finance from Sherbrooke University, visually designed and developed in collaboration with Polytechnique Montreal. How do taxes, benefits and public spending evolve for a taxpayer during their lifetime? This project explores a narrative format to make a possible answer accessible to a general audience. We showed in a previous study that three different average life stories, depending on the life events that can affect an household (studies, changes in the size and composition of the household etc.), are reasonable ways to give representative and accessible answers to the title question. Based on these three life stories, we investigated a data-driven visual story based on three parallel visualizations combined to a scrollytelling interaction.",
         "keywords": [],
         "uid": "w-comm-1012",
-        "time_stamp": "2020-10-25T19:57:00Z"
+        "time_stamp": "2020-10-25T20:12:00Z"
     },
     "w-comm-1021": {
         "authors": [
@@ -212,22 +227,22 @@
             "Alice Feng"
         ],
         "title": "Applying Racial Equity Awareness in Data Visualization",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "A data visualization style guide does for graphs what the Chicago Manual of Style does for English grammar: it defines the components of a graph and their proper, consistent use. At the Urban Institute, a nonprofit research institution based in Washington, DC, our data visualization style guide defines these styles for our research and communications staff. In the process of revising and expanding the style guide, we are taking a more diverse, equitable, and inclusive (DEI) perspective to our research, data, and visualizations. To date, our approach has been to create a set of recommendations and issues to consider, rather than a set of rules that researchers must follow. In this paper, we discuss eight techniques that data visualization producers should consider when creating visuals with this DEI approach. As with our existing style guide, we consider this a first step in our thought process of creating graphs and producing content through a DEI lens.",
         "keywords": [],
         "uid": "w-comm-1021",
-        "time_stamp": "2020-10-25T20:07:00Z"
+        "time_stamp": "2020-10-25T20:22:00Z"
     },
     "w-comm-1022": {
         "authors": [
             "Pratap Vardhan"
         ],
         "title": "Tile Narrative: Scrollytelling with Grid Maps",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "This visual case study was built to study the effectiveness of scrollytelling in tandem with tile grid maps. Specifically, we built this interactive based on Google\u2019s Community Mobility data measuring people\u2019s movement before and during the COVID-19 pandemic. We designed a dynamic and interactive format to display auto-generated narratives synchronized with the context of the grid map. We believe the use of narratives in grid map context will be a useful storytelling format. This paper describes the design decisions that went into building this interactive format.",
         "keywords": [],
         "uid": "w-comm-1022",
-        "time_stamp": "2020-10-25T20:19:00Z"
+        "time_stamp": "2020-10-25T20:34:00Z"
     },
     "w-comm-1029": {
         "authors": [
@@ -235,11 +250,11 @@
             "Derek Brock"
         ],
         "title": "Position: Visual Sentences: Definitions and Applications",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "Visual forms of communication are ubiquitous in media, educational texts, government reports, and scientific publications. Two challenges immediately come to mind and drive the research agenda we have been following. We need to know that these graphs are provably understandable. We also need to know that the personnel have the skills to understand the information being presented when it is presented well. In this paper, we assert that the right way to achieve both goals relies on perceiving what are the visual equivalents of sentences from graphs.",
         "keywords": [],
         "uid": "w-comm-1029",
-        "time_stamp": "2020-10-25T20:29:00Z"
+        "time_stamp": "2020-10-25T20:44:00Z"
     },
     "w-comm-1028": {
         "authors": [
@@ -247,11 +262,11 @@
             "Barbara Millet"
         ],
         "title": "Analyzing Dorian Twitter data to understand how hurricane risk communication changes as threats unfold",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "This research explores diffusion of forecast messages on social media for Hurricane Dorian (2019) to understand how hurricane risk information is created, disseminated, and discussed in many-to-many communication modes. We collected streams of posts from professional Twitter accounts, conducted a descriptive statistical analysis of manually-coded tweets to identify hurricane risk message types, performed a network analysis to audit engagement among different types of accounts, and calculated sentiment scores to examine message opinions. The results showed that professional accounts are more likely to post original content than share, among which most of the organizational accounts post in regular intervals with a fixed message format and a neutral opinion while professional individual accounts post with no observable temporal regulation, variable forms, and sentiments. However, the forecaster accounts are less engaged than the mediator accounts.",
         "keywords": [],
         "uid": "w-comm-1028",
-        "time_stamp": "2020-10-25T20:41:00Z"
+        "time_stamp": "2020-10-25T20:56:00Z"
     },
     "w-comm-1023": {
         "authors": [
@@ -263,11 +278,11 @@
             "Kenneth Broad"
         ],
         "title": "Beautiful Visualizations Slain by Ugly Facts: Redesigning the National Hurricane Center\u2019s \u2018Cone of Uncertainty\u2019 Map",
-        "session_id": "w-comm-2",
+        "session_id": "w-comm",
         "abstract": "The Track Forecast Cone, commonly known as the \u201ccone of uncertainty\u201d, is the most popular hurricane and tropical storm forecast product that the National Hurricane Center produces. However, it is often misinterpreted by non-experts. In this study we first explored the most common misconceptions about the cone and produced two alternative redesigns that we expected to be more attractive to and easier to understand by non-expert readers. Our results were mixed, but reveal promising paths for future efforts.",
         "keywords": [],
         "uid": "w-comm-1023",
-        "time_stamp": "2020-10-25T20:51:00Z"
+        "time_stamp": "2020-10-25T21:06:00Z"
     },
     "a-vastchallenge-1012": {
         "authors": [
@@ -310,7 +325,7 @@
             "Wenwen Dou"
         ],
         "title": "Using Resource-Rational Analysis to Understand Cognitive Biases in Interactive Data Visualizations",
-        "session_id": "w-psychology-1",
+        "session_id": "w-psychology",
         "abstract": null,
         "keywords": [],
         "uid": "w-psychology-4345",
@@ -322,7 +337,7 @@
             "Darren J. Edwards"
         ],
         "title": "The Development of Visualization Psychology Analysis Tools to Account for Trust",
-        "session_id": "w-psychology-1",
+        "session_id": "w-psychology",
         "abstract": null,
         "keywords": [],
         "uid": "w-psychology-7955",
@@ -334,11 +349,85 @@
             "Alvitta Ottley"
         ],
         "title": "Did You Get The Gist Of It? Understanding How Visualization Impacts Decision-Making",
-        "session_id": "w-psychology-1",
+        "session_id": "w-psychology",
         "abstract": null,
         "keywords": [],
         "uid": "w-psychology-2505",
         "time_stamp": "2020-10-26T15:05:00Z"
+    },
+    "w-psychology-2243": {
+        "authors": [
+            "Darren J. Edwards",
+            "Min Chen"
+        ],
+        "title": "Developing Effective Community Network Analysis Tools according to Visualization Psychology",
+        "session_id": "w-psychology",
+        "abstract": null,
+        "keywords": [],
+        "uid": "w-psychology-2243",
+        "time_stamp": "2020-10-26T16:00:00Z"
+    },
+    "w-psychology-9740": {
+        "authors": [
+            "Kuno Kurzhals",
+            "Michael Burch",
+            "Daniel Weiskopf"
+        ],
+        "title": "What We See and What We Get from Visualization: Eye Tracking Beyond Gaze Distributions and Scanpaths",
+        "session_id": "w-psychology",
+        "abstract": null,
+        "keywords": [],
+        "uid": "w-psychology-9740",
+        "time_stamp": "2020-10-26T16:10:00Z"
+    },
+    "w-psychology-9153": {
+        "authors": [
+            "Laura Matzen",
+            "Kristin Divis",
+            "Deborah Cronin",
+            "Michael Haass"
+        ],
+        "title": "Task Matters",
+        "session_id": "w-psychology",
+        "abstract": null,
+        "keywords": [],
+        "uid": "w-psychology-9153",
+        "time_stamp": "2020-10-26T16:20:00Z"
+    },
+    "w-psychology-8679": {
+        "authors": [
+            "Amy Rae Fox"
+        ],
+        "title": "A Psychology of Visualization or (External) Representation?",
+        "session_id": "w-psychology",
+        "abstract": null,
+        "keywords": [],
+        "uid": "w-psychology-8679",
+        "time_stamp": "2020-10-26T16:45:00Z"
+    },
+    "w-psychology-9923": {
+        "authors": [
+            "Min Chen",
+            "Alfie Abdul-Rahman",
+            "David H. Laidlaw"
+        ],
+        "title": "The Huge Variable Space in Empirical Studies for Visualization - A Challenge as well as an opportunity for Visualization Psychology",
+        "session_id": "w-psychology",
+        "abstract": null,
+        "keywords": [],
+        "uid": "w-psychology-9923",
+        "time_stamp": "2020-10-26T16:55:00Z"
+    },
+    "w-psychology-4831": {
+        "authors": [
+            "Paul Parsons"
+        ],
+        "title": "How do Visualization Designers Think? Design Cognition as a Core Aspect of Visualization Psychology",
+        "session_id": "w-psychology",
+        "abstract": null,
+        "keywords": [],
+        "uid": "w-psychology-4831",
+        "time_stamp": "2020-10-26T17:05:00Z"
     },
     "a-vastchallenge-1030": {
         "authors": [
@@ -385,80 +474,6 @@
         "abstract": null,
         "keywords": [],
         "uid": "a-vastchallenge-1024",
-        "time_stamp": "2020-10-26T17:05:00Z"
-    },
-    "w-psychology-2243": {
-        "authors": [
-            "Darren J. Edwards",
-            "Min Chen"
-        ],
-        "title": "Developing Effective Community Network Analysis Tools according to Visualization Psychology",
-        "session_id": "w-psychology-2",
-        "abstract": null,
-        "keywords": [],
-        "uid": "w-psychology-2243",
-        "time_stamp": "2020-10-26T16:00:00Z"
-    },
-    "w-psychology-9740": {
-        "authors": [
-            "Kuno Kurzhals",
-            "Michael Burch",
-            "Daniel Weiskopf"
-        ],
-        "title": "What We See and What We Get from Visualization: Eye Tracking Beyond Gaze Distributions and Scanpaths",
-        "session_id": "w-psychology-2",
-        "abstract": null,
-        "keywords": [],
-        "uid": "w-psychology-9740",
-        "time_stamp": "2020-10-26T16:10:00Z"
-    },
-    "w-psychology-9153": {
-        "authors": [
-            "Laura Matzen",
-            "Kristin Divis",
-            "Deborah Cronin",
-            "Michael Haass"
-        ],
-        "title": "Task Matters",
-        "session_id": "w-psychology-2",
-        "abstract": null,
-        "keywords": [],
-        "uid": "w-psychology-9153",
-        "time_stamp": "2020-10-26T16:20:00Z"
-    },
-    "w-psychology-8679": {
-        "authors": [
-            "Amy Rae Fox"
-        ],
-        "title": "A Psychology of Visualization or (External) Representation?",
-        "session_id": "w-psychology-2",
-        "abstract": null,
-        "keywords": [],
-        "uid": "w-psychology-8679",
-        "time_stamp": "2020-10-26T16:45:00Z"
-    },
-    "w-psychology-9923": {
-        "authors": [
-            "Min Chen",
-            "Alfie Abdul-Rahman",
-            "David H. Laidlaw"
-        ],
-        "title": "The Huge Variable Space in Empirical Studies for Visualization - A Challenge as well as an opportunity for Visualization Psychology",
-        "session_id": "w-psychology-2",
-        "abstract": null,
-        "keywords": [],
-        "uid": "w-psychology-9923",
-        "time_stamp": "2020-10-26T16:55:00Z"
-    },
-    "w-psychology-4831": {
-        "authors": [
-            "Paul Parsons"
-        ],
-        "title": "How do Visualization Designers Think? Design Cognition as a Core Aspect of Visualization Psychology",
-        "session_id": "w-psychology-2",
-        "abstract": null,
-        "keywords": [],
-        "uid": "w-psychology-4831",
         "time_stamp": "2020-10-26T17:05:00Z"
     },
     "a-vastchallenge-1037": {
@@ -665,8 +680,12 @@
         ],
         "title": "Dataless Sharing of Interactive Visualization",
         "session_id": "f-papers-create-share-vis",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Interactive visualization has become a powerful insight-revealing medium. However, the close dependency of interactive visualization on its data inhibits its shareability. Users have to choose between the two extremes of (i) sharing non-interactive dataless formats such as images and videos, or (ii) giving access to their data and software to others with no control over how the data will be used. In this work, we fill the gap between the two extremes and present a new system, called Loom. Loom captures interactive visualizations as standalone dataless objects. Users can interact with Loom objects as if they still have the original software and data that created those visualizations. Yet, Loom objects are completely independent and can therefore be shared online without requiring the data or the visualization software. Loom objects are efficient to store and use, and provide privacy preserving mechanisms. We demonstrate Loom's efficacy with examples of scientific visualization using Paraview, information visualization using Tableau, and journalistic visualization from New York Times.",
+        "keywords": [
+            "shareable visualizations",
+            "visualization recordings",
+            "user interaction"
+        ],
         "uid": "f-tvcg-2019020058",
         "time_stamp": "2020-10-27T19:15:00Z"
     },
@@ -975,8 +994,12 @@
         ],
         "title": "ConfusionFlow: A model-agnostic visualization for temporal analysis of classifier confusion",
         "session_id": "f-papers-ml-vuln",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Classifiers are among the most widely used supervised machine learning algorithms. Many classification models exist, and choosing the right one for a given task is difficult. During model selection and debugging, data scientists need to assess classifiers\u2019 performances, evaluate their learning behavior over time, and compare different models. Typically, this analysis is based on single-number performance measures such as accuracy. A more detailed evaluation of classifiers is possible by inspecting class errors. The confusion matrix is an established way for visualizing these class errors, but it was not designed with temporal or comparative analysis in mind. More generally, established performance analysis systems do not allow a combined temporal and comparative analysis of class-level information. To address this issue, we propose ConfusionFlow, an interactive, comparative visualization tool that combines the benefits of class confusion matrices with the visualization of performance characteristics over time. ConfusionFlow is model-agnostic and can be used to compare performances for different model types, model architectures, and/or training and test datasets. We demonstrate the usefulness of ConfusionFlow in a case study on instance selection strategies in active learning. We further assess the scalability of ConfusionFlow and present a use case in the context of neural network pruning.",
+        "keywords": [
+            "Classification",
+            "performance analysis",
+            "time series visualization"
+        ],
         "uid": "f-tvcg-2019090333",
         "time_stamp": "2020-10-27T18:45:00Z"
     },
@@ -1035,8 +1058,11 @@
         ],
         "title": "Topological Analysis of Magnetic Reconnection in Kinetic Plasma Simulations",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Magnetic reconnection is a ubiquitous plasma process in which oppositely directed magnetic field lines break and rejoin, resulting in a change of the magnetic field topology. Reconnection generates magnetic islands: regions enclosed by magnetic field lines and separated by reconnection points. Proper identification of these features is important to understand particle acceleration and overall behavior of plasma. We present a contour-tree based visualization for robust and objective identification of islands and reconnection points in two-dimensional (2D) magnetic reconnection simulations. The application of this visualization to a simple simulation has revealed a physical phenomenon previously not reported, resulting in a more comprehensive understanding of magnetic reconnection.",
+        "keywords": [
+            "Human-centered computing-Visualization-Visu-alization  techniques-Treemaps",
+            "Human-centered  computing-Visualization-Visualization design and evaluation methods"
+        ],
         "uid": "s-short-1042",
         "time_stamp": "2020-10-27T18:00:00Z"
     },
@@ -1052,8 +1078,11 @@
         ],
         "title": "A Virtual Frame Buffer Abstraction for Parallel Rendering of Large Tiled Display Walls",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present dw2, a flexible and easy-to-use software infrastructure for interactive rendering of large tiled display walls. Our library represents the tiled display wall as a single virtual screen through a display \u201cservice\u201d, which renderers connect to and send image tiles to be displayed, either from an on-site or remote cluster. The display service can be easily configured to support a range of typical network and display hardware configurations; the client library provides a straightforward interface for easy integration into existing renderers. We evaluate the performance of our display wall service in different configurations using a CPU and GPU ray tracer, in both on-site and remote rendering scenarios using multiple display walls.",
+        "keywords": [
+            "Tiled Display Walls",
+            "Distributed Display Frameworks"
+        ],
         "uid": "s-short-1051",
         "time_stamp": "2020-10-27T18:10:00Z"
     },
@@ -1064,8 +1093,13 @@
         ],
         "title": "Uncertain Transport in Unsteady Flows",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We study uncertainty in the dynamics of time-dependent flows by identifying barriers and enhancers to stochastic transport. This topological segmentation is closely related to the theory of Lagrangian coherent structures and is based on a recently introduced quantity, the diffusion barrier strength (DBS). The DBS is defined similar to the finite-time Lyapunov exponent (FTLE), but incorporates diffusion during flow integration. Height ridges of the DBS indicate stochastic transport barriers and enhancers, i.e. material surfaces that are minimally or maximally diffusive. To apply these concepts to real-world data, we represent uncertainty in a flow by a stochastic differential equation that consists of a deterministic and a stochastic component modeled by a Gaussian. With this formulation we identify barriers and enhancers to stochastic transport, without performing expensive Monte Carlo simulation and with a computational complexity comparable to FTLE. In addition, we propose a complementary visualization to convey the absolute scale of uncertainties in the Lagrangian frame of reference. This enables us to study uncertainty in real-world datasets, for example due to small deviations, data reduction, or estimated from multiple ensemble runs.",
+        "keywords": [
+            "Uncertain flow visualization",
+            "stochastic particle tracing",
+            "diffusion barrier strength",
+            "Lagrangian coherent structures"
+        ],
         "uid": "s-short-1052",
         "time_stamp": "2020-10-27T18:20:00Z"
     },
@@ -1075,8 +1109,11 @@
         ],
         "title": "High-quality real-time raycasting and raytracing of streamtubes with sparse voxel octrees",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Voxel-based rendering and signed distance function (SDF) raycasting have\nbeen active areas of graphics research recently because they simplify high-quality graphical effects like ambient occlusion and shadowing as compared to rasterization. Much work has centered around converting triangle meshes to sparse voxel octrees (SVOs) and developing memory efficient storage schemes but little exploration of the implications to scientific visualization has taken place. In this work we explore techniques for high-performance rendering of tubes, such as streamtubes used for visualizing vector fields and fiber tracts from diffusion tensor MRI. We first present our method for generating a voxelization of the tubes, and then describe several methods for rendering:\nraytracing a SVO storing straight tube segments in the leaves, and hybrid raytracing/raycasting a SVO storing curved tube segments. We discuss the tradeoffs inherent in these different representations and compare the rendering techniques and results. Compared to standard graphics pipeline approaches, like using the geometry shader, we achieve joining, capping, and smooth circular cross-sections with minimal additional effort.",
+        "keywords": [
+            "Human-centered computing-Visualization-Visu-alization application domains-Scientific visualization",
+            ""
+        ],
         "uid": "s-short-1105",
         "time_stamp": "2020-10-27T18:30:00Z"
     },
@@ -1088,8 +1125,11 @@
         ],
         "title": "GPU-based Raycasting of Hermite Spline Tubes",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Visualizing curve and trajectory data is a common task in many scientific fields including medicine and physics. Tubes are an effective visualization primitive for this sort of data, but they require highly specialized renderers to achieve high image quality at frame rates sufficient for interactive visualization. We present a rendering algorithm for Hermite spline tubes, i.e. tubes that result from Hermite splines interpolating the data, with support for varying-radii circular tube cross sections. Our approach employs raycasting and works directly on this continuous representation without the need for surface tessellation, made possible by an efficient ray-tube intersection routine suitable for execution on modern GPUs.",
+        "keywords": [
+            "Computing methodologies-Computer graphics-Rendering",
+            "Human-centered computing-Visualization-Visualization Application domains-Scientific visualization"
+        ],
         "uid": "s-short-1125",
         "time_stamp": "2020-10-27T18:40:00Z"
     },
@@ -1100,8 +1140,12 @@
         ],
         "title": "Implicit Ray Casting of the Parallel Vectors Operator",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Feature extraction is an essential aspect of scientific data analysis, as it allows for a data reduction onto relevant structures. The extraction of such features from scalar and vector fields, however, can be computationally expensive and numerically challenging. In this paper, we concentrate on 3D line features in vector fields that are defined by the parallel vectors operator. Common examples are vortex corelines and hyperbolic trajectories, i.e., lines around which particles are rotating, or from which particles are repelled and attracted locally the strongest. In our work, we use a GPU volume rendering framework to calculate the lines on-the-fly via a parallel vectors implementation in the volume rendering kernels. We achieve real-time performance for the feature curve extraction, which enables interactive filtering and parameter adjustment.",
+        "keywords": [
+            "Scientific visualization",
+            "vortex extraction",
+            "parallel vectors"
+        ],
         "uid": "s-short-1142",
         "time_stamp": "2020-10-27T18:50:00Z"
     },
@@ -1113,8 +1157,16 @@
         ],
         "title": "GPU Parallel Computation of Morse-Smale Complexes",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "The Morse-Smale complex is a well studied topological structure that represents the gradient flow behavior of a scalar function. It supports multi-scale topological analysis and visualization of large scientific data. Its computation poses significant algorithmic challenges when considering large scale data and increased feature complexity. Several parallel algorithms have been proposed towards the fast computation of the 3D Morse-Smale complex. The non-trivial structure of the saddle-saddle connections are not amenable to parallel computation. This paper describes a fine grained parallel method for computing the Morse-Smale complex that is implemented on a GPU. The saddle-saddle reachability is first determined via a transformation into a sequence of vector operations followed by the path traversal, which is achieved via a sequence of matrix operations. Computational experiments show that the method achieves up to 7x speedup over current shared memory implementations.",
+        "keywords": [
+            "Human-centered computing",
+            "Visualization",
+            "Visualization techniques",
+            "Computing methodologies",
+            "Parallel computing methodologies",
+            "Parallel algorithms",
+            "Shared memory algorithms"
+        ],
         "uid": "s-short-1172",
         "time_stamp": "2020-10-27T19:00:00Z"
     },
@@ -1128,8 +1180,13 @@
         ],
         "title": "Relationship-aware Multivariate Sampling Strategy for Scientific Simulation Data",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "With the increasing computational power of current supercomputers, the size of data produced by scientific simulations is rapidly growing. To reduce the storage footprint and facilitate scalable post-hoc analyses of such scientific data sets, various data reduction/summarization methods have been proposed over the years. Different flavors of sampling algorithms exist to sample the high-resolution scientific data, while preserving important data properties required for subsequent analyses. However, most of these sampling algorithms are designed for univariate data and cater to post-hoc analyses of single variables. In this work, we propose a multivariate sampling strategy which preserves the original variable relationships and enables different multivariate analyses directly on the sampled data. Our proposed strategy utilizes principal component analysis to capture the variance of multivariate data and can be built on top of any existing state-of-the-art sampling algorithms for single variables. In addition, we also propose variants of different data partitioning schemes (regular and irregular) to efficiently model the local multivariate relationships. Using two real-world multivariate data sets, we demonstrate the efficacy of our proposed multivariate sampling strategy with respect to its data reduction capabilities as well as the ease of performing efficient post-hoc multivariate analyses.",
+        "keywords": [
+            "Multivariate",
+            "Data Reduction",
+            "Sampling",
+            "High-dimensional"
+        ],
         "uid": "s-short-1176",
         "time_stamp": "2020-10-27T19:10:00Z"
     },
@@ -1143,8 +1200,13 @@
         ],
         "title": "PRAGMA: Interactively Constructing Functional Brain Parcellations",
         "session_id": "s-papers-vis-scicomp",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "A prominent goal of neuroimaging studies is mapping the human brain, in order to identify and delineate functionally-meaningful regions and elucidate their roles in cognitive behaviors. These brain regions are typically represented by atlases that capture general trends over large populations. Despite being indispensable to neuroimaging experts, population-level atlases do not capture individual differences in functional organization. In this work, we present an interactive visualization method, PRAGMA, that allows domain experts to derive scan-specific parcellations from established atlases. PRAGMA features a user-driven, hierarchical clustering scheme for defining temporally correlated parcels in varying granularity. The visualization design supports the user in making decisions on how to perform clustering, namely when to expand, collapse, or merge parcels. This is accomplished through a set of linked and coordinated views for understanding the user\u2019s current hierarchy, assessing intra-cluster variation, and relating parcellations to an established atlas. We assess the effectiveness of PRAGMA through a user study with four neuroimaging domain experts, where our results show that PRAGMA shows the potential to enable exploration of individualized and state-specific brain parcellations and to offer interesting insights into functional brain networks.",
+        "keywords": [
+            "Human-centered modeling",
+            "neuroimage analysis",
+            "functional parcellation",
+            "brain mapping"
+        ],
         "uid": "s-short-1166",
         "time_stamp": "2020-10-27T19:20:00Z"
     },
@@ -1156,8 +1218,12 @@
         ],
         "title": "TransVis: Integrated Distant and Close Reading of Othello Translations",
         "session_id": "f-papers-sense-text",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Studying variation among time-evolved translations is a valuable research area for cultural heritage. Understanding how and why translations vary reveals cultural, ideological, and even political influences on literature as well as author relations. In this paper, we introduce a novel integrated visual application to support distant and close reading of a collection of Othello translations. We present a new interactive application that provides an alignment overview of all the translations and their correspondences in parallel with smooth zooming and panning capability to integrate distant and close reading within the same view. We provide a range of filtering and selection options to customize the alignment overview as well as focus on specific subsets. Selection and filtering are responsive to expert user preferences and update the analytical text metrics interactively. Also, we introduce a customized view for close reading which preserves the history of selections and the alignment overview state and enables backtracing and re-examining them. Finally, we present a new Term-Level Comparisons view (TLC) to compare and convey relative term weighting in the context of an alignment. Our visual design is guided by, used and evaluated by a domain expert specialist in German translations of Shakespeare.",
+        "keywords": [
+            "Text visualization",
+            "Othello",
+            "Parallel Translations"
+        ],
         "uid": "f-tvcg-2019080291",
         "time_stamp": "2020-10-28T14:00:00Z"
     },
@@ -1217,8 +1283,15 @@
         ],
         "title": "A Virtual Reality Memory Palace Variant Aids Knowledge Retrieval from Scholarly Articles",
         "session_id": "f-papers-sense-text",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present exploratory research of virtual reality techniques and mnemonic devices to assist in retrieving knowledge from scholarly articles. We used abstracts of scientific publications to represent scientific knowledge in scholarly articles; participants were asked to read, remember, and retrieve knowledge from a set of abstracts. We conducted an experiment to compare participants\u2019 recall and recognition performance in three different conditions: a control condition without a pre-specified strategy to test baseline individual memory ability, a condition using an image-based variant of a mnemonic called a \u201cmemory palace,\u201d and a condition using a virtual reality-based variant of a memory palace. Our analyses show that using a virtual reality-based memory palace variant greatly increased the amount of knowledge retrieved and retained over the baseline, and it shows a moderate improvement over the other image-based memory palace variant. Anecdotal feedback from participants suggested that personalizing a memory palace variant would be appreciated. Our results support the value of virtual reality for some high-level cognitive tasks and help improve future applications of",
+        "keywords": [
+            "Virtual Reality",
+            "Mnemonic Devices",
+            "Natural Language Documents",
+            "Human Memory",
+            "Spatialization",
+            "Spatial Memory"
+        ],
         "uid": "f-tvcg-2019080278",
         "time_stamp": "2020-10-28T14:45:00Z"
     },
@@ -1231,8 +1304,14 @@
         ],
         "title": "ArchiText: Interactive Hierarchical Topic Modeling",
         "session_id": "f-papers-sense-text",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Human-in-the-loop topic modeling allows users to explore and steer the process to produce better quality topics that align with their needs. When integrated into visual analytic systems, many existing automated topic modeling algorithms are given interactive parameters to allow users to tune or adjust them. However, this has limitations when the algorithms cannot be easily adapted to changes, and it is difficult to realize interactivity closely supported by underlying algorithms. Instead, we emphasize the concept of tight integration, which advocates for the need to co-develop interactive algorithms and interactive visual analytic systems in parallel to allow flexibility and scalability. In this paper, we describe design goals for efficiently and effectively executing the concept of tight integration among computation, visualization, and interaction for hierarchical topic modeling of text data. We propose computational base operations for interactive tasks to achieve the design goals. To instantiate our concept, we present ArchiText, a prototype system for interactive hierarchical topic modeling, which offers fast, flexible, and algorithmically valid analysis via tight integration. Utilizing interactive hierarchical topic modeling, our technique lets users generate, explore, and flexibly steer hierarchical topics to discover more informed topics and their document memberships.",
+        "keywords": [
+            "Text analytics",
+            "Topic modeling",
+            "Nonnegative matrix factorization",
+            "Hierarchical topics",
+            "Visual analytics"
+        ],
         "uid": "f-tvcg-2019030092",
         "time_stamp": "2020-10-28T15:00:00Z"
     },
@@ -1265,8 +1344,12 @@
         ],
         "title": "OoDAnalyzer: Interactive Analysis of Out-of-Distribution Samples",
         "session_id": "f-papers-sense-explain",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "One major cause of performance degradation in predictive models is that the test samples are not well covered by the training data. Such not well-represented samples are called OoD samples. In this paper, we propose OoDAnalyzer, a visual analysis approach for interactively identifying OoD samples and explaining them in context. Our approach integrates an ensemble OoD detection method and a grid-based visualization. The detection method is improved from deep ensembles by combining more features with algorithms in the same family. To better analyze and understand the OoD samples in context, we have developed a novel kNN-based grid layout algorithm motivated by Hall\u2019s theorem. The algorithm approximates the optimal layout and has O(kN^2) time complexity, faster than the grid layout algorithm with overall best performance but O(N^3) time complexity. Quantitative evaluation and case studies were performed on several datasets to demonstrate the effectiveness and usefulness of OoDAnalyzer.",
+        "keywords": [
+            "Out-of-Distribution detection",
+            "grid layout",
+            "interactive visualization"
+        ],
         "uid": "f-tvcg-2019080258",
         "time_stamp": "2020-10-28T14:00:00Z"
     },
@@ -1334,8 +1417,12 @@
         ],
         "title": "Visual Analysis of Class Separations with Locally Linear Segments",
         "session_id": "f-papers-sense-explain",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "High-dimensional labeled data widely exists in many real-world applications such as classification and clustering. One main task in analyzing such datasets is to explore class separations and class boundaries derived from machine learning models. Dimension reduction techniques are commonly applied to support analysts in exploring the underlying decision boundary structures by depicting a low-dimensional representation of the data distributions from multiple classes. However, such projection-based analyses are limited due to their lack of ability to show separations in complex non-linear decision boundary structures and can suffer from heavy distortion and low interpretability. To overcome these issues of separability and interpretability,} we propose a visual analysis approach that utilizes the power of explainability from linear projections to support analysts when exploring non-linear separation structures. Our approach is to extract a set of locally linear segments that approximate the original non-linear separations. Unlike traditional projection-based analysis where the data instances are mapped to a single scatterplot, our approach supports the exploration of complex class separations through multiple local projection results. We conduct case studies on two labeled datasets to demonstrate the effectiveness of our approach.",
+        "keywords": [
+            "Visual analysis",
+            "Dimension reduction",
+            "Class separation"
+        ],
         "uid": "f-tvcg-2019080262",
         "time_stamp": "2020-10-28T15:00:00Z"
     },
@@ -1369,8 +1456,13 @@
         ],
         "title": "SpotSDC: Revealing the Silent Data Corruption Propagation in High-performance Computing Systems",
         "session_id": "f-papers-software-vis",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "The trend of rapid technology scaling is expected to make the hardware of high-performance computing (HPC) systems more susceptible to computational errors due to random bit flips. Some bit flips may cause a program to crash or have a minimal effect on the output, but others may lead to silent data corruption (SDC), i.e., undetected yet significant output errors. Classical fault injection analysis methods employ uniform sampling of random bit flips during program execution to derive a statistical resiliency profile. However, summarizing such fault injection results with sufficient detail is difficult, and understanding the behavior of the fault-corrupted program is still a challenge. In this work, we introduce SpotSDC, a visualization system to facilitate the analysis of a program's resilience to SDC. SpotSDC provides multiple perspectives at various levels of detail of the impact on the output relative to where in the source code the flipped bit occurs, which bit is flipped, and when during the execution it happens. SpotSDC also enables users to study the code protection and provide new insights to understand the behavior of a fault-injected program. Based on lessons learned, we demonstrate how what we found can improve the fault injection campaign method.",
+        "keywords": [
+            "Fault Injection Sampling",
+            "Error Propagation",
+            "Information Visualization",
+            "Silent Data Corruption"
+        ],
         "uid": "f-tvcg-2019090312",
         "time_stamp": "2020-10-28T14:00:00Z"
     },
@@ -1381,8 +1473,13 @@
         ],
         "title": "Vis-a-Vis: Visual Exploration of Visualization Source Code Evolution",
         "session_id": "f-papers-software-vis",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Developing an algorithm for a visualization prototype often involves the direct comparison of different development stages and design decisions, and even minor modifications may dramatically affect the results. While existing development tools provide visualizations for gaining general insight into performance and structural aspects of the source code, they neglect the central importance of result images unique to graphical algorithms. In this paper, we present a novel approach that enables visualization programmers to simultaneously explore the evolution of their algorithm during the development phase together with its corresponding visual outcomes by providing an automatically updating meta visualization. Our interactive system allows for the direct comparison of all development states on both the visual and the source code level, by providing easy to use navigation and comparison tools. The on-the-fly construction of difference images, source code differences, and a visual representation of the source code structure further enhance the user's insight into the states' interconnected changes over time. Our solution is accessible via a web-based interface that provides GPU-accelerated live execution of C++ and GLSL code, as well as supporting a domain-specific programming language for scientific visualization.",
+        "keywords": [
+            "Visualization System and Toolkit Design",
+            "User Interfaces",
+            "Integrating Spatial and Non-Spatial Data Visualization",
+            "Software Visualization"
+        ],
         "uid": "f-tvcg-2019010020",
         "time_stamp": "2020-10-28T14:15:00Z"
     },
@@ -1399,8 +1496,14 @@
         ],
         "title": "Visualizing Hierarchical Performance Profiles of Parallel Codes using CallFlow",
         "session_id": "f-papers-software-vis",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Calling context trees (CCTs) couple performance metrics with call paths, helping understand the execution and performance of parallel programs. To identify performance bottlenecks, programmers and performance analysts visually explore CCTs to form and validate hypotheses regarding degraded performance. However, due to the complexity of parallel programs, existing visual representations do not scale to applications running on a large number of processors. We present CALLFLOW , an interactive visual analysis tool that provides a high-level overview of CCTs together with semantic refinement operations to progressively explore the CCTs. Using a flow-based metaphor, we visualize a CCT by treating execution time as a resource spent during a call chain, and demonstrate the effectiveness of our design with case studies on large-scale, production simulation codes.",
+        "keywords": [
+            "Performance analysis",
+            "software visualization",
+            "visual analytics",
+            "hierarchical data",
+            "coordinated and multiple views"
+        ],
         "uid": "f-tvcg-2019010024",
         "time_stamp": "2020-10-28T14:30:00Z"
     },
@@ -1488,8 +1591,14 @@
         ],
         "title": "A Review of Geospatial Content in IEEE Visualization Publications",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Geospatial analysis is crucial for addressing many of the world\u2019s most pressing challenges. Given this, there is immense value in improving and expanding the visualization techniques used to communicate geospatial data. In this work, we explore this important intersection \u2013 between geospatial analytics and visualization \u2013 by examining a set of recent IEEE VIS Conference papers (a selection from 2017-2019) to assess the inclusion of geospatial data and geospatial analyses within these papers. After removing the papers with no geospatial data, we organize the remaining literature into geospatial data domain categories and provide insight into how these categories relate to VIS Conference paper types. We also contextualize our results by investigating the use of geospatial terms in IEEE Visualization publications over the last 30 years. Our work provides an understanding of the quantity and role of geospatial subject matter in recent IEEE VIS publications and supplies a foundation for future meta-analytical work around geospatial analytics and geovisualization that may shed light on opportunities for innovation.",
+        "keywords": [
+            "geovisualization",
+            "cartography",
+            "mapping",
+            "geospatial analytics",
+            "spatial temporal"
+        ],
         "uid": "s-short-1015",
         "time_stamp": "2020-10-28T14:00:00Z"
     },
@@ -1503,8 +1612,10 @@
         ],
         "title": "COVIs: Supporting Temporal Visual Analysis of Covid-19 Events Usable in Data-Driven Journalism",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Figure 1: COVis\u2019s coordinated multiple view environment: (A) Control Panel: allows the user to change the graphs scale (linear / log), metric (absolute / per million cohabitants), and dimensions (cases / deaths). (B) Line charts: present four different line charts that are coordinated to support exploration of multiple narratives. Respectively, the charts display the relation between: (B1) time x cases/deaths, (B2) time x tests, (B3) total cases/deaths x last week cases/deaths, and (B4) time x cases/deaths projection length. (C) Events Panel: displays information and source references concerning main events occurred in certain time periods. (D) Events Time Chart: chart presenting the policy changes of a country over time. (E) Country Cards: show information concerning the analysed group of countries, allowing the exclusion and inclusion of different countries into the analysis.",
+        "keywords": [
+            "COVID-19-VisualAnalytics-DataVisualization- Prediction Model-Events-Time-oriented Analysis"
+        ],
         "uid": "s-short-1017",
         "time_stamp": "2020-10-28T14:10:00Z"
     },
@@ -1519,8 +1630,11 @@
         ],
         "title": "TradAO: A Visual Analytics System for Trading Algorithm Optimization",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "With the wide applications of algorithmic trading, it has become critical for traders to build a winning trading algorithm to beat the market. However, due to the lack of efficient tools, traders mainly rely on their memory to manually compare the algorithm instances of a trading algorithm and further select the best trading algorithm instance for the real trading deployment. We work closely with industry practitioners to discover and consolidate user requirements and develop an interactive visual analytics system for trading algorithm optimization. Structured expert interviews are conducted to evaluate TradAO and a representative case study is documented for illustrating the system effectiveness. To the best of our knowledge, previous financial data visual analyses have mainly aimed to assist investment managers in investment portfolio analysis but have neglected the need of traders in developing trading algorithms for portfolio execution. TradAO is the first visual analytics system that assists users in comprehensively exploring the performances of a trading algorithm with different parameter settings.",
+        "keywords": [
+            "Index Terms: Human-centered computing-Visualization-Visualization design and evaluation methods",
+            ""
+        ],
         "uid": "s-short-1062",
         "time_stamp": "2020-10-28T14:20:00Z"
     },
@@ -1533,8 +1647,12 @@
         ],
         "title": "A Study of Opacity Ranges for Transparent Overlays in 3D Landscapes",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "When visualizing data in a realistically rendered 3D virtual environment, it is often important to represent not only the 3D scene but also overlaid information about additional, abstract data. These overlays must be usefully visible, i.e. be readable enough to convey the information they represent, but remain unobtrusive to avoid cluttering the view. We take a step toward establishing guidelines for designing such overlays by studying the relationship between three different patterns (filled, striped and dotted patterns), two pattern densities, the presence or not of a solid outline, two types of background (blank and with trees), and the opacity of the overlay. For each combination of factors, participants set the faintest and the strongest acceptable opacity values. Results from this first study suggest that i) ranges of acceptable opacities are around 20-70%, that ii) ranges can be extended by 5% by using an outline, and that iii) ranges shift based on features like pattern and density.",
+        "keywords": [
+            "Overlays",
+            "Opacity",
+            "Visualization"
+        ],
         "uid": "s-short-1136",
         "time_stamp": "2020-10-28T14:30:00Z"
     },
@@ -1546,8 +1664,12 @@
         ],
         "title": "Co-visualization of air temperature and urban data for visual exploration",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Urban climate data remain complex to analyze regarding their spatial distribution. The co-visualization of simulated air temperature into urban models could help experts to analyze horizontal and vertical spatial distributions. We design a co-visualization framework enabling simulated air temperature data exploration, based on the graphic representation of three types of geometric proxies, and their co-visualization with a 3D urban model with various possible rendering styles. Through this framework, we aim at allowing meteorological researchers to visually analyze and interpret the relationships between simulated air temperature data and urban morphology.",
+        "keywords": [
+            "Geospatial Data",
+            "Visual Representation Design",
+            "ClimateVis"
+        ],
         "uid": "s-short-1137",
         "time_stamp": "2020-10-28T14:40:00Z"
     },
@@ -1562,8 +1684,10 @@
         ],
         "title": "A Visual Analytics Approach to Scheduling Customized Shuttle Buses via Perceiving Passengers\u2019 Travel Demands'",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Shuttle buses have been a popular means to move commuters sharing similar origins and destinations during periods of high travel demand. However, planning and deploying reasonable, customized service bus systems becomes challenging when the commute demand is rather dynamic. It is difficult, if not impossible to form a reliable, unbiased estimation of user needs in such a case using traditional modeling methods. We propose a visual analytics approach to facili- tating assessment of actual, varying travel demands and planning of night customized shuttle systems. A preliminary case study verifies the efficacy of our approach.",
+        "keywords": [
+            "Human-centered computing-Visualization- Visualization design and evaluation methods"
+        ],
         "uid": "s-short-1140",
         "time_stamp": "2020-10-28T14:50:00Z"
     },
@@ -1575,8 +1699,13 @@
         ],
         "title": "Designing for Ambiguity: Visual Analytics in Avalanche Forecasting",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Ambiguity, an information state where multiple interpretations are plausible, is a common challenge in visual analytics (VA) systems. We discuss lessons learned from a case study designing VA tools for Canadian avalanche forecasters. Avalanche forecasting is a complex and collaborative risk-based decision-making and analysis domain, demanding experience and knowledge-based interpretation of human reported and uncertain data. Differences in reporting practices, organizational contexts, and the particularities of individual reports result in a variety of potential interpretations that have to be negotiated as part of the forecaster's sensemaking processes. We describe our preliminary research using glyphs to support sensemaking under ambiguity. Ambiguity is not unique to public avalanche forecasting. There are many other domains where the way data are measured and reported vary in ways not accounted explicitly in the data, and require analysts to negotiate multiple potential meanings. We argue that ambiguity is under-served by visualization research and would benefit from more explicit VA support.",
+        "keywords": [
+            "Uncertainty Visualization",
+            "Collaboration",
+            "Data Analysis, Reasoning, Problem Solving, and Decision Making",
+            "Application Motivated Visualization"
+        ],
         "uid": "s-short-1162",
         "time_stamp": "2020-10-28T15:00:00Z"
     },
@@ -1591,8 +1720,16 @@
         ],
         "title": "A Visual Analytics Based Decision Making Environment for COVID-19 Modeling and Visualization",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Public health officials dealing with pandemics like COVID-19 have to evaluate and prepare response plans. This planning phase requires not only looking into the spatiotemporal dynamics and impact of the pandemic using simulation models, but they also need to plan and ensure the availability of resources under different spread scenarios. To this end, we have developed a visual analytics environment that enables public health officials to model, simulate, and explore the spread of COVID-19 by supplying county-level information such as population, demographics, and hospital beds. This environment facilitates users to explore spatiotemporal model simulation data relevant to COVID-19 through a geospatial map with linked statistical views, apply different decision measures at different points in time, and understand their potential impact. Users can drill-down to county-level details such as the number of sicknesses, deaths, needs for hospitalization, and variations in these statistics over time. We demonstrate the usefulness of this environment through a use case study and also provide feedback from domain experts. We also provide details about future extensions and potential applications of this work.",
+        "keywords": [
+            "Epidemic Modeling, Risk Analysis, Public Health, Biology, Machine Learning, Statistics, Modelling, and Simulation Applications",
+            "Coordinated and Multiple Views",
+            "Data Analysis, Reasoning, Problem Solving, and Decision Making",
+            "Mixed Initiative Human-Machine Analysis",
+            "Application Motivated Visualization",
+            "Data Models",
+            "Temporal Data"
+        ],
         "uid": "s-short-1230",
         "time_stamp": "2020-10-28T15:10:00Z"
     },
@@ -1604,8 +1741,12 @@
         ],
         "title": "Mapping the Global South: Equal-Area Projections for Choropleth Maps",
         "session_id": "s-papers-geo-fin-health",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Choropleth maps are among the most common visualization techniques used to present geographical data. These maps require an equal-area projection but there are no clear criteria to select one. We collaborated with social scientists researching on the Global South, interested in using choropleth maps, to investigate their design choices according to their research tasks. We conducted a survey with 20 researchers where we asked them to design world choropleth maps. The results suggest that the design choices of projection, map center, scale, and color scheme, were influenced by the personal research goals and the tasks. The map projection was considered the most important choice and the Equal Earth projection was the most common projection used. Our study takes the first step on investigating projection choices for world choropleth maps in applied visualization research.",
+        "keywords": [
+            "Choropleth maps",
+            "equal-area projections",
+            "social sciences."
+        ],
         "uid": "s-short-1236",
         "time_stamp": "2020-10-28T15:20:00Z"
     },
@@ -1661,8 +1802,14 @@
         ],
         "title": "Conceptual Model of Visual Analytics for Hands-on Cybersecurity Training",
         "session_id": "f-papers-support-experts",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Hands-on training is an effective way to practice theoretical cybersecurity concepts and increase participants\u2019 skills. In this paper, we discuss the application of visual analytics principles to the design, execution, and evaluation of training sessions. We propose a conceptual model employing visual analytics that supports the sensemaking activities of users involved in various phases of the training life cycle. The model emerged from our long-term experience in designing and organizing diverse hands-on cybersecurity training sessions. It provides a classification of visualizations and can be used as a framework for developing novel visualization tools supporting phases of the training life-cycle. We demonstrate the model application on examples covering two types of cybersecurity training programs.",
+        "keywords": [
+            "Multimodal interaction",
+            "Natural language interfaces",
+            "Speech interaction",
+            "Pen and touch interaction",
+            "Unit visualizations"
+        ],
         "uid": "f-tvcg-2019070231",
         "time_stamp": "2020-10-28T16:30:00Z"
     },
@@ -1801,8 +1948,15 @@
         ],
         "title": "MineTime Insight: Visualizing Meeting Habits to Promote Informed Scheduling Decisions",
         "session_id": "f-papers-time",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Corporate meetings are a crucial part of business activities. While numerous academic papers investigated how to make the scheduling process of meetings faster or even automatic, little work has been done yet to facilitate the retrospective reasoning about how time is spent on meetings. Traditional calendar applications do not allow users to extract actionable statistics although it has been shown that reflection-oriented design can increase the users' understanding of their habits and can thereby encourage a shift towards better practices. In this paper, we present MineTime Insight, a tool made of multiple coordinated views for the exploration of personal calendar data, with the overarching goal of improving short and long-term scheduling decisions. Despite being focused on the working environment, our work builds upon recent results in the field of Personal Visual Analytics, as it targets users not necessarily expert in visualization and data analysis. We demonstrate the potential of MineTime Insight, when applied to the agenda of an executive manager. Finally, we discuss the results of an informal user study and a field study. Our results suggest that our visual representations are perceived as easy to understand and helpful towards a change in the scheduling habits.",
+        "keywords": [
+            "Data visualization",
+            "Scheduling, Tools",
+            "Visual analytics",
+            "Productivity",
+            "Cognition",
+            "Data analysis"
+        ],
         "uid": "f-tvcg-2018110393",
         "time_stamp": "2020-10-28T16:45:00Z"
     },
@@ -1836,8 +1990,13 @@
         ],
         "title": "SplitStreams: A Visual Metaphor for Evolving Hierarchies",
         "session_id": "f-papers-time",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "The visualization of hierarchically structured data over time is an ongoing challenge and several approaches exist trying to solve it. Techniques such as animated or juxtaposed tree visualizations are not capable of providing a good overview of the time series and lack expressiveness in conveying changes over time. Nested streamgraphs provide a better understanding of the data evolution, but lack the clear outline of hierarchical structures at a given timestep. Furthermore, these approaches are often limited to static hierarchies or exclude complex hierarchical changes in the data, limiting their use cases. We propose a novel visual metaphor capable of providing a static overview of all hierarchical changes over time, as well as clearly outlining the hierarchical structure at each individual time step. Our method allows for smooth transitions between tree maps and nested streamgraphs, enabling the exploration of the trade-off between dynamic behavior and hierarchical structure. As our technique handles topological changes of all types, it is suitable for a wide range of applications. We demonstrate the utility of our method on several use cases, evaluate it with a user study, and provide its full source code.",
+        "keywords": [
+            "Information Visualization",
+            "Trees",
+            "Data Structures and Data Types",
+            "Visualization Techniques and Methodologies"
+        ],
         "uid": "f-tvcg-2019100378",
         "time_stamp": "2020-10-28T17:15:00Z"
     },
@@ -1852,8 +2011,15 @@
         ],
         "title": "HyperLabels: Browsing of Dense and Hierarchical Molecular 3D Models",
         "session_id": "f-papers-mol-cell-vessel",
-        "abstract": null,
-        "keywords": [],
+        "abstract": " We present a method for the browsing of hierarchical 3D models in which we combine the typical navigation of hierarchical structures in a 2D environment---using clicks on nodes, links, or icons---with a 3D spatial data visualization. Our approach is motivated by large molecular models, for which the traditional single-scale navigational metaphors are not suitable. Multi-scale phenomena, e.g., in astronomy or geography, are complex to navigate due to their large data spaces and multi-level organization. Models from structural biology are in addition also densely crowded in space and scale. Cutaways are needed to show individual model subparts. The camera has to support exploration on the level of a whole virus, as well as on the level of a small molecule. We address these challenges by employing HyperLabels: active labels that---in addition to their annotational role---also support user interaction. Clicks on HyperLabels select the next structure to be explored. Then, we adjust the visualization to showcase the inner composition of the selected subpart and enable further exploration. Finally, we use a breadcrumbs panel for orientation and as a mechanism to traverse upwards in the model hierarchy. We demonstrate our concept of hierarchical 3D model browsing using two exemplary models from meso-scale biology.",
+        "keywords": [
+            "Scientific visualization",
+            "navigation",
+            "3D molecular data",
+            "multi-scale data",
+            "hierarchical data",
+            "HyperLabels"
+        ],
         "uid": "f-tvcg-2019100368",
         "time_stamp": "2020-10-28T16:00:00Z"
     },
@@ -1913,8 +2079,14 @@
         ],
         "title": "CMed: Crowd Analytics for Medical Imaging Data",
         "session_id": "f-papers-mol-cell-vessel",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present a visual analytics framework, CMed, for exploring medical image data annotations acquired from crowdsourcing. CMed can be used to visualize, classify, and filter crowdsourced clinical data based on a number of different metrics such as detection rate, logged events, and clustering of the annotations. CMed provides several interactive linked visualization components to analyze the crowd annotation results for a particular video and the associated workers. Additionally, all results of an individual worker can be inspected using multiple linked views in our CMed framework. We allow a crowdsourcing application analyst to observe patterns and gather insights into the crowdsourced medical data, helping him/her design future crowdsourcing applications for optimal output from the workers. We demonstrate the efficacy of our framework with two medical crowdsourcing studies: polyp detection in virtual colonoscopy videos and lung nodule detection in CT thin-slab maximum intensity projection videos. We also provide experts' feedback to show the effectiveness of our framework. Lastly, we share the lessons we learned from our framework with suggestions for integrating our framework into a clinical workflow.",
+        "keywords": [
+            "Crowdsourcing",
+            "medical imaging",
+            "virtual colonoscopy",
+            "lung nodules",
+            "visual analytics"
+        ],
         "uid": "f-tvcg-2018120457",
         "time_stamp": "2020-10-28T16:45:00Z"
     },
@@ -1926,8 +2098,12 @@
         ],
         "title": "Void Space Surfaces to Convey Depth in Vessel Visualizations",
         "session_id": "f-papers-mol-cell-vessel",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "To enhance depth perception and thus data comprehension, additional depth cues are often used in 3D visualizations of complex vascular structures. There is a variety of different approaches described in theliterature, ranging from chromadepth color coding over depth of field to glyph-based encodings. Unfortunately, the majority of existing approaches suffers from the same problem: As these cues are directly applied to the geometry's surface, the display of additional information on the vessel wall, such as other modalities or derived attributes, is impaired. To overcome this limitation we propose Void Space Surfaces which utilizes empty space in between vessel branches to communicate depth and their relative positioning. This allows us to enhance the depth perception of vascular structures without interfering with the spatial data and potentially superimposed parameter information. With this paper, we introduce Void Space Surfaces, describe their technical realization, and show their application to various vessel trees. Moreover, we report the outcome of two user studies which we have conducted in order to evaluate the perceptual impact of Void Space Surfaces compared to existing vessel visualization techniques and discuss expert feedback.",
+        "keywords": [
+            "Depth Perception",
+            "Void Space Surface",
+            "Chromadepth"
+        ],
         "uid": "f-tvcg-2018080304",
         "time_stamp": "2020-10-28T17:00:00Z"
     },
@@ -1939,8 +2115,14 @@
         ],
         "title": "Accelerating Force-Directed Graph Drawing with RT Cores",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Graph drawing with spring embedders employs a V \u00d7 V computation phase over the graph\u2019s vertex set to compute repulsive forces. Here, the efficacy of forces diminishes with distance: a vertex can effectively only influence other vertices in a certain radius around its position. Therefore, the algorithm lends itself to an implementation using search data structures to reduce the runtime complexity. NVIDIA RT cores implement hierarchical tree traversal in hardware. We show how to map the problem of finding graph layouts with force-directed methods to a ray tracing problem that can subsequently be implemented with dedicated ray tracing hardware. With that, we observe speedups of 4\u00d7 to 13\u00d7 over a CUDA software implementation.",
+        "keywords": [
+            "\"Spatial Data Structures\"",
+            "\"Acceleration Data Structures\"",
+            "\"Search Data Structures\"\n\"Info-Vis\"",
+            "\"Graph Drawing\"\n\"Graph Drawing\"",
+            "\"Ray Tracing Hardware\""
+        ],
         "uid": "s-short-1027",
         "time_stamp": "2020-10-28T16:00:00Z"
     },
@@ -1953,8 +2135,11 @@
         ],
         "title": "Fast and Flexible Overlap Detection for Chart Labeling with Occupancy Bitmaps",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Legible labels should not overlap with other marks in a chart. The state-of-the-art labeling algorithm detects overlaps using a set of points to approximate each mark's shape. This approach is inefficient for large marks or many marks as it requires too many points to detect overlaps. In response, we present a novel label placement algorithm, which leverages occupancy bitmaps to accelerate overlap detection. To create an occupancy bitmap, we rasterize all marks onto a bitmap based on the area they occupy in the chart.\nIt supports rasterizations of marks with any shape. With the bitmap, we can efficiently place labels without overlapping existing marks, regardless of the number and geometric complexity of the marks. Our algorithm offers significant performance improvements over the state-of-the-art approach while placing a similar number of labels.",
+        "keywords": [
+            "Human-centered computing-Visualization-Visualization techniques",
+            "Human-centered computing-Visualization-Information Visualization"
+        ],
         "uid": "s-short-1028",
         "time_stamp": "2020-10-28T16:10:00Z"
     },
@@ -1965,8 +2150,13 @@
         ],
         "title": "FAVR - Accelerating Direct Volume Rendering for Virtual Reality Systems",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "In recent years, virtual reality (VR) has become readily available using robust and affordable head-mounted display (HMD) systems. Several VR-based scientific visualization solutions were proposed recently, but direct volume rendering (DVR) was  considered only in a handful of VR-applications. We attribute this to the high computational demand of DVR and the limited rendering budget available for VR systems. For a heavily fragment-bound method such as DVR, it is challenging to achieve the very high update rates essential for VR. We propose an acceleration technique designed to take advantage of the specific characteristics of HMD systems. We utilize an adaptive rendering approach based on the lens distortion of HMDs and the visual perception of the human eye. Our implementation reduces the rendering cost of DVR while providing an experience indistinguishable to standard rendering techniques.",
+        "keywords": [
+            "Volume Rendering",
+            "Application Motivated Visualization",
+            "Algorithms",
+            "Scalar Field Data"
+        ],
         "uid": "s-short-1108",
         "time_stamp": "2020-10-28T16:20:00Z"
     },
@@ -1978,8 +2168,12 @@
         ],
         "title": "DRUIDJS \u2014 A JavaScript Library for Dimensionality Reduction",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Dimensionality reduction (DR) is a widely used technique for visualization. Nowadays, many of these visualizations are developed for the web, most commonly using JavaScript as the underlying programming language. So far, only  few DR methods have a JavaScript implementation though, necessitating developers to write wrappers around implementations in other languages. In addition, those DR methods that exist in JavaScript libraries, such as PCA, t-SNE and UMAP, do not offer consistent programming interfaces, hampering the quick integration of different methods. Toward a coherent and comprehensive DR programming framework, we developed an open source JavaScript library named DruidJS. Our library contains implementations of ten different DR algorithms, as well as the required linear algebra techniques, tools, and utilities.",
+        "keywords": [
+            "Software and its engineering-Software notations and tools-Software libraries and repositories",
+            "Human-centered computing-Visualization-Visualization systems and\ntools-Visualization toolkits",
+            ""
+        ],
         "uid": "s-short-1132",
         "time_stamp": "2020-10-28T16:30:00Z"
     },
@@ -1991,8 +2185,11 @@
         ],
         "title": "Trrack: A Library for Provenance Tracking in Web-Based Visualizations",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Provenance tracking is widely acknowledged as an important feature of visualization systems. By tracking provenance data, visualization designers can provide a wide variety of functionality, ranging from action recovery (undo/redo), reproducibility, collaboration and sharing, to logging in support of quantitative and longitudinal evaluation. However, there is currently no widely used library that can provide that functionality. As a consequence, visualization designers either develop ad-hoc solutions that are rarely comprehensive, or don't track provenance at all. In this paper, we introduce a web-based software library \u2013 Trrack \u2013 that is designed for easy integration in existing or future visualization systems. Trrack supports a wide range of use cases, from simple action recovery, to capturing intent and reasoning, and can be used to share states with collaborators and store provenance on a server. Trrack also includes an optional provenance visualization component that supports annotation of states and aggregation of events.",
+        "keywords": [
+            "Software Architecture, Toolkit/Library, Language",
+            "Software Prototype"
+        ],
         "uid": "s-short-1156",
         "time_stamp": "2020-10-28T16:40:00Z"
     },
@@ -2006,8 +2203,10 @@
         ],
         "title": "Just TYPEical: Visualizing Common Function Type Signatures in R",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Data-driven approaches to programming language design are uncommon. Despite the availability of large code repositories, distilling semantically-rich information from programs remains difficult. Important dimensions, like run-time type data, are inscrutable without the appropriate tools. We contribute a task abstraction and interactive visualization, TYPEical, for programming language designers who are exploring and analyzing type information from execution traces. Our approach aids user understanding of function type signatures across many executions. Insights derived from our visualization are aimed at informing language design decisions \u2014 specifically of a new gradual type system being developed for the R programming language. A copy of this paper, along with all the supplemental material, is available at osf.io/mc6zt",
+        "keywords": [
+            "Human-centered computing-Visualization"
+        ],
         "uid": "s-short-1212",
         "time_stamp": "2020-10-28T16:50:00Z"
     },
@@ -2022,8 +2221,14 @@
         ],
         "title": "Loch Prospector: Metadata Visualization for Lakes of Open Data",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Data lakes are an emerging storage paradigm that promotes data availability over integration.  A prime example are repositories of Open Data which show great promise for transparent data science. Due to the lack of proper integration, Data Lakes may not have a common consistent schema and traditional data management techniques fall short with these repositories. Much recent research has tried to address the new challenges associated with these data lakes. Researchers in this area are mainly interested in the structural properties of the data for developing new algorithms, yet typical Open Data portals offer limited functionality in that respect and instead focus on data semantics. \n\nWe propose Loch Prospector, a visualization to assist data management researchers in exploring and understanding the most crucial structural aspects of Open Data \u2014 in particular, metadata attributes \u2014 and the associated task abstraction for their work. Our visualization enables researchers to navigate the contents of data lakes effectively and easily accomplish what were previously laborious tasks. A copy of this paper with all supplemental material is available at osf.io/zkxv9",
+        "keywords": [
+            "Computing: Software, Networks, Security, Performance Engr., Distr. Systems, Databases",
+            "Coordinated and Multiple Views",
+            "Data Analysis, Reasoning, Problem Solving, and Decision Making",
+            "Application Motivated Visualization",
+            "High-dimensional Data"
+        ],
         "uid": "s-short-1224",
         "time_stamp": "2020-10-28T17:00:00Z"
     },
@@ -2033,8 +2238,15 @@
         ],
         "title": "Encodable: Configurable Grammar for Visualization Components",
         "session_id": "s-papers-sys-lib-alg",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "There are so many libraries of visualization components nowadays with their APIs often different from one another. Could these components be more similar, both in terms of the APIs and common functionalities? For someone who is developing a new visualization component, how should the API look like? This work drew inspiration from visualization grammar, decoupled the grammar from its rendering engine and adapted it into a configurable grammar for individual components called Encodable. Encodable helps component authors define grammar for their components, and parse encoding specifications from users into utility functions for the implementation. This paper explains the grammar design and demonstrates how to build components with it.",
+        "keywords": [
+            "Information visualization",
+            "systems",
+            "toolkits",
+            "API design",
+            "reusable visualization",
+            "visualization component"
+        ],
         "uid": "s-short-1133",
         "time_stamp": "2020-10-28T17:10:00Z"
     },
@@ -2211,8 +2423,15 @@
         ],
         "title": "Analyzing Dynamic Hypergraphs with Parallel Aggregated Ordered Hypergraph Visualization",
         "session_id": "f-papers-dyn-graphs",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Parallel Aggregated Ordered Hypergraph (PAOH) is a novel technique to visualize dynamic hypergraphs. Hypergraphs are a generalization of graphs where edges can connect several vertices. Hypergraphs can be used to model networks of business partners or co-authorship networks with multiple authors per article. A dynamic hypergraph evolves over discrete time slots. PAOH represents vertices as parallel horizontal bars and hyperedges as vertical lines, using dots to depict the connections to one or more vertices. We describe a prototype implementation of Parallel Aggregated Ordered Hypergraph, report on a usability study with 9 participants analyzing publication data, and summarize the improvements made. Two case studies and several examples are provided. We believe that PAOH is the first technique to provide a highly readable representation of dynamic hypergraphs. It is easy to learn and well suited for medium size dynamic hypergraphs (50-500 vertices) such as those commonly generated by digital humanities projects\u2014our driving application domain.",
+        "keywords": [
+            "dynamic graph",
+            "interaction",
+            "case study",
+            "dynamic hypergraph",
+            "digital humanities",
+            "usability"
+        ],
         "uid": "f-tvcg-2018110386",
         "time_stamp": "2020-10-28T19:00:00Z"
     },
@@ -2351,8 +2570,13 @@
         ],
         "title": "Analyzing the Noise Robustness of Deep Neural Networks",
         "session_id": "f-papers-neural-net",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Adversarial examples, generated by adding small but intentionally imperceptible perturbations to normal examples, can mislead deep neural networks (DNNs) to make incorrect predictions. Although much work has been done on both adversarial attack and defense, a fine-grained understanding of adversarial examples is still lacking. To address this issue, we present a visual analysis method to explain why adversarial examples are misclassified. The key is to compare and analyze the datapaths of both the adversarial and normal examples. A datapath is a group of critical neurons along with their connections. We formulate the datapath extraction as a subset selection problem and solve it by constructing and training a neural network. A multi-level visualization consisting of a network-level visualization of data flows, a layer-level visualization of feature maps, and a neuron-level visualization of learned features, has been designed to help investigate how datapaths of adversarial and normal examples diverge and merge in the prediction process. A quantitative evaluation and a case study were conducted to demonstrate the promise of our method to explain the misclassification of adversarial examples.",
+        "keywords": [
+            " Robustness",
+            "deep neural networks",
+            "adversarial examples",
+            "explainable machine learning"
+        ],
         "uid": "f-tvcg-2019100374",
         "time_stamp": "2020-10-28T19:15:00Z"
     },
@@ -2376,7 +2600,7 @@
         "uid": "f-scivis-1130",
         "time_stamp": "2020-10-28T18:00:00Z"
     },
-    "f-scivis-1096": {
+    "f-tvcg-2019120446": {
         "authors": [
             "Mingdong Zhang",
             "Li Chen",
@@ -2384,7 +2608,7 @@
             "Xiaoru Yuan",
             "Jun-hai Yong"
         ],
-        "title": "Uncertainty-Oriented Ensemble Data Visualization and Exploration using Variable Spatial Spreading",
+        "title": "Uncertainty Visualization of 2D Morse Complex Ensembles Using Statistical Summary Maps",
         "session_id": "f-papers-uncertainty",
         "abstract": "As an important method of handling potential uncertainties in numerical simulations, ensemble simulation has been widely applied in many disciplines. Visualization is a promising and powerful ensemble simulation analysis method. However, conventional visualization methods mainly aim at data simplification and highlighting of important information on the basis of domain expertise instead of providing a flexible data exploration and intervention mechanism. Trial-and-error procedures have to be repeatedly conducted by such approaches. To resolve this issue, we propose a new perspective of ensemble data analysis using the attribute variable dimension as the primary analysis dimension. Particularly, we propose a variable uncertainty calculation method based on variable spatial spreading. On the basis of this method, we design an interactive ensemble analysis framework that provides flexible interactive exploration of the ensemble data. Particularly, the proposed spreading curve view, the region stability heat map view, and the temporal analysis view, together with the commonly used 2D map view, jointly support uncertainty distribution perception, region selection, and temporal analysis, as well as other analysis requirements.  We verify our approach by analyzing a real-world ensemble simulation dataset. Feedback from domain experts demonstrates the efficacy of our framework.",
         "keywords": [
@@ -2393,23 +2617,27 @@
             "spatial spreading",
             "temporal analysis"
         ],
-        "uid": "f-scivis-1096",
+        "uid": "f-tvcg-2019120446",
         "time_stamp": "2020-10-28T18:15:00Z"
     },
-    "f-tvcg-2019120446": {
+    "f-scivis-1096": {
         "authors": [
-            "Tushar M. Athawale",
+            "Tushar Athawale",
             "Dan Maljovec",
             "Lin Yan",
             "Chris R. Johnson",
             "Valerio Pascucci",
             "Bei Wang"
         ],
-        "title": "Uncertainty Visualization of 2D Morse Complex Ensembles Using Statistical Summary Maps",
+        "title": "Uncertainty-Oriented Ensemble Data Visualization and Exploration using Variable Spatial Spreading",
         "session_id": "f-papers-uncertainty",
-        "abstract": null,
-        "keywords": [],
-        "uid": "f-tvcg-2019120446",
+        "abstract": "Morse complexes are gradient-based topological descriptors with close connections to Morse theory. They are widely applicable in scientific visualization as they serve as important abstractions for gaining insights into the topology of scalar fields. Data uncertainty inherent to scalar fields due to randomness in their acquisition and processing, however, limits our understanding of Morse complexes as structural abstractions. We, therefore, explore uncertainty visualization of an ensemble of 2D Morse complexes that arises from scalar fields coupled with data uncertainty. We propose statistical summary maps as new entities for quantifying structural variations and visualizing positional uncertainties of Morse complexes in ensembles. Specifically, we introduce three types of statistical summary maps \u2013 the probabilistic map, the significance map, and the survival map \u2013 to characterize the uncertain behaviors of gradient flows. We demonstrate the utility of our proposed approach using wind, flow, and ocean eddy simulation datasets.",
+        "keywords": [
+            "Morse complexes",
+            "uncertainty visualization",
+            "topological data analysis"
+        ],
+        "uid": "f-scivis-1096",
         "time_stamp": "2020-10-28T18:30:00Z"
     },
     "f-scivis-1045": {
@@ -2459,8 +2687,14 @@
         ],
         "title": "ProReveal: Progressive Visual Analytics with Safeguards",
         "session_id": "f-papers-uncertainty",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present a new visual exploration concept\u2014Progressive Visual Analytics with Safeguards\u2014that helps people manage the uncertainty arising from progressive data exploration. Despite its potential benefits, intermediate knowledge from progressive analytics can be incorrect due to various machine and human factors, such as a sampling bias or misinterpretation of uncertainty. To alleviate this problem, we introduce PVA-Guards, safeguards people can leave on uncertain intermediate knowledge that needs to be verified, and derive seven PVA-Guards based on previous visualization task taxonomies. PVA-Guards provide a means of ensuring the correctness of the conclusion and understanding the reason when intermediate knowledge becomes invalid. We also present ProReveal, a proof-of-concept system designed and developed to integrate the seven safeguards into progressive data exploration. Finally, we report a user study with 14 participants, which show people voluntarily employed PVA-Guards to safeguard their findings and ProReveal\u2019s PVA-Guard view provides an overview of uncertain intermediate knowledge. We believe our new concept can also offer better consistency in progressive data exploration, alleviating people\u2019s heterogeneous interpretation of uncertainty.",
+        "keywords": [
+            "Progressive visual analytics",
+            "intermediate knowledge representation",
+            "hypothesis testing",
+            "scalability",
+            "uncertainty"
+        ],
         "uid": "f-tvcg-20192962404",
         "time_stamp": "2020-10-28T19:15:00Z"
     },
@@ -2835,7 +3069,7 @@
         "uid": "f-info-1243",
         "time_stamp": "2020-10-29T14:15:00Z"
     },
-    "f-vast-2019080283": {
+    "f-tvcg-2019080283": {
         "authors": [
             "Peter W. S. Butcher",
             "Nigel W. John",
@@ -2843,9 +3077,13 @@
         ],
         "title": "VRIA: A Web-based Framework for Creating Immersive Analytics Experiences",
         "session_id": "f-papers-immersion",
-        "abstract": null,
-        "keywords": [],
-        "uid": "f-vast-2019080283",
+        "abstract": "We present VRIA, a Web-based framework for creating Immersive Analytics (IA) experiences in Virtual Reality. VRIA is built upon WebVR, A-Frame, React and D3.js, and offers a visualization creation workflow which enables users, of different levels of expertise, to rapidly develop Immersive Analytics experiences for the Web. The use of these open-standards Web-based technologies allows us to implement VR experiences in a browser and offers strong synergies with popular visualization libraries, through the HTML Document Object Model (DOM). This makes VRIA ubiquitous and platform-independent. Moreover, by using WebVR's progressive enhancement, the experiences VRIA creates are accessible on a plethora of devices. We elaborate on our motivation for focusing on open-standards Web technologies, present the VRIA creation workflow and detail the underlying mechanics of our framework. We also report on techniques and optimizations necessary for implementing Immersive Analytics experiences on the Web, discuss scalability implications of our framework, and present a series of use case applications to demonstrate the various features of VRIA. Finally, we discuss current limitations of our framework, the lessons learned from its development, and outline further extensions.",
+        "keywords": [
+            "Immersive Analytics",
+            "Virtual Reality",
+            "Web technologies"
+        ],
+        "uid": "f-tvcg-2019080283",
         "time_stamp": "2020-10-29T14:30:00Z"
     },
     "f-vast-1251": {
@@ -2952,8 +3190,15 @@
         ],
         "title": "Constructing Spaces and Times for Tactical Analysis in Football",
         "session_id": "f-papers-event-seq",
-        "abstract": null,
-        "keywords": [],
+        "abstract": " A possible objective in analyzing trajectories of multiple simultaneously moving objects, such as football players during a game, is to extract and understand the general patterns of coordinated movement in different classes of situations as they develop. For achieving this objective, we propose an approach that includes a combination of query techniques for flexible selection of episodes of situation development, a method for dynamic aggregation of data from selected groups of episodes, and a data structure for representing the aggregates that enables their exploration and use in further analysis. The aggregation, which is meant to abstract general movement patterns, involves construction of new time-homomorphic reference systems owing to iterative application of aggregation operators to a sequence of data selections. As similar patterns may occur at different spatial locations, we also propose constructing new spatial reference systems for aligning and matching movements irrespective of their absolute locations. The approach was tested in application to tracking data from two Bundesliga games of the 2018/2019 season. It enabled detection of interesting and meaningful general patterns of team behaviors in three classes of situations defined by football experts. The experts found the approach and the underlying concepts worth implementing in tools for football analysts.",
+        "keywords": [
+            "Visual analytics",
+            "movement data",
+            "coordinated movement",
+            "sport analytics",
+            "football",
+            "soccer"
+        ],
         "uid": "f-tvcg-2019060193",
         "time_stamp": "2020-10-29T14:15:00Z"
     },
@@ -3051,8 +3296,11 @@
         ],
         "title": "Characterizing Automated Data Insights",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Many researchers have explored tools that aim to recommend data insights to users. These tools automatically communicate a rich diversity of data insights and offer such insights for many different purposes. However, there is a lack of structured understanding concerning what researchers of these tools mean by \u201cinsight\u201d and what tasks in the analysis workflow these tools aim to support. We conducted a systematic review of existing systems that seek to recommend data insights. Grounded in the review, we propose 12 types of automated insights and four purposes of automating insights. We further discuss the design opportunities emerged from our analysis.",
+        "keywords": [
+            "Human-centered computing-Visualization-Visualization theory",
+            "concepts and paradigms"
+        ],
         "uid": "s-short-1009",
         "time_stamp": "2020-10-29T14:00:00Z"
     },
@@ -3065,8 +3313,11 @@
         ],
         "title": "Design Judgment in Data Visualization Practice",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Data visualization is becoming an increasingly popular field of design practice. Although many studies have highlighted the knowledge required for effective data visualization design, their focus has largely been on formal knowledge and logical decision-making processes that can be abstracted and codified. Less attention has been paid to the more situated and personal ways of knowing that are prevalent in all design activity. In this study, we conducted semi-structured interviews with data visualization practitioners during which they were asked to describe the practical and situated aspects of their design processes. Using a philosophical framework of design judgment from Nelson and Stolterman [22], we analyzed the transcripts to describe the volume and complex layering of design judgments that are used by data visualization practitioners as they describe and interrogate their work. We identify aspects of data visualization practice that require further investigation beyond notions of rational, model- or principle-directed decision-making processes.",
+        "keywords": [
+            "Index Terms: Human-centered computing-Visualization",
+            ""
+        ],
         "uid": "s-short-1024",
         "time_stamp": "2020-10-29T14:10:00Z"
     },
@@ -3078,8 +3329,11 @@
         ],
         "title": "What are Data Insights to Professional Visualization Users?",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "While many visualization researchers have attempted to define data insights, little is known about how visualization users perceive them. We interviewed 23 professional users of end-user visualization platforms (e.g., Tableau and Power BI) about their experiences with data insights. We report on seven characteristics of data insights based on interviewees\u2019 descriptions. Grounded in these characteristics, we propose practical implications for creating tools that aim to automatically communicate data insights to users.",
+        "keywords": [
+            "Human-centered computing-Visualization-Visualization theory",
+            "concepts and paradigms"
+        ],
         "uid": "s-short-1116",
         "time_stamp": "2020-10-29T14:20:00Z"
     },
@@ -3091,8 +3345,14 @@
         ],
         "title": "A Didactic Methodology for Crafting Information Visualizations",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Finding or creating the right information visualization solution that meets design goals can be a very challenging task, not only for students but also for visualization experts. \nIn this paper, we introduce a didactic methodology for designing interactive visualizations through hands-on activities. Our approach can assist students and anyone interested in crafting, ranking, and improving new visualization solutions. The suggested approach follows divergent and convergent thinking that motivates designing several low-fidelity prototypes, discussing pros and cons of each in groups, and improving the final solution by incorporating visual and perceptual principles. The methodology is described with teaching course examples for undergraduate and graduate students. We also list observations made when applying the methodology online and offline along with gathered student feedback.",
+        "keywords": [
+            "Didactic Methodology",
+            "Creativity Method",
+            "Construction Kit",
+            "Visual Encodings",
+            "Gestalt Principles"
+        ],
         "uid": "s-short-1131",
         "time_stamp": "2020-10-29T14:30:00Z"
     },
@@ -3105,8 +3365,12 @@
         ],
         "title": "CrowdTrace: Visualizing Provenance in Distributed Sensemaking",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Capturing analytic provenance is important for refining sensemaking analysis. However, understanding this provenance can be difficult. First, making sense of the reasoning in intermediate steps is time-consuming. Especially in distributed sensemaking, the provenance is less cohesive because each analyst only sees a small portion of the data without an understanding of the overall collaboration workflow. Second, analysis errors from one step can propagate to later steps. Furthermore, in exploratory sensemaking, it is difficult to define what an error is since there are no correct answers to reference. In this paper, we explore provenance analysis for distributed sensemaking in the context of crowdsourcing, where distributed analysis contributions are captured in microtasks. We propose crowd auditing as a way to help individual analysts visualize and trace provenance to debug distributed sensemaking. To evaluate this concept, we implemented a crowd auditing tool, CrowdTrace. Our user study-based evaluation demonstrates that CrowdTrace offers an effective mechanism to audit and refine multi-step crowd sensemaking.",
+        "keywords": [
+            "Crowdsourcing",
+            "sensemaking",
+            "crowd auditing"
+        ],
         "uid": "s-short-1138",
         "time_stamp": "2020-10-29T14:40:00Z"
     },
@@ -3118,8 +3382,10 @@
         ],
         "title": "Let's Gamble: How a Poor Visualization Can Elicit Risky Behavior",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Data visualizations are standard tools for assessing and communicating risks. However, it is not always clear which designs are optimal or how encoding choices might influence risk perception and decision-making. In this paper, we report the findings of a large-scale gambling game that immersed participants in an environment where their actions impacted their bonuses. Participants chose to either enter a lottery or receive guaranteed monetary gains based on five visualization designs. By measuring risk perception and observing decision-making, we present suggestive evidence that people were more likely to gamble when presented area proportioned triangle and circle designs. Using our results, we model risk perception and discuss how our findings can improve visualization selection.",
+        "keywords": [
+            "Human-center computing - Visualization - Decision Theory - Risk Behavior - Evaluation methods"
+        ],
         "uid": "s-short-1189",
         "time_stamp": "2020-10-29T14:50:00Z"
     },
@@ -3133,8 +3399,11 @@
         ],
         "title": "Exploring How Personality Models Information Visualization Preferences",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Recent research on information visualization has shown how individual differences act as a mediator on how users interact with visualization systems. We focus our exploratory study on whether personality has an effect on user preferences regarding idioms used for hierarchy, evolution over time, and comparison contexts. Specifically, we leverage all personality variables from the Five-Factor Model and the three dimensions from Locus of Control (LoC) with correlation and clustering approaches. The correlation-based method suggested that Neuroticism, Openness to Experience, Agreeableness, several facets from each trait, and the External dimensions from LoC mediate how much individuals prefer certain idioms. In addition, our results from the cluster-based analysis showed that Neuroticism, Extraversion, Conscientiousness, and all dimensions from LoC have an effect on preferences for idioms in hierarchy and evolution contexts. Our results support the incorporation of in-depth personality synergies with InfoVis into the design pipeline of visualization systems.",
+        "keywords": [
+            "Human-centeredcomputing-Humancomputerin- teraction (HCI)-HCI design and evaluation methods-User studies",
+            "Human-centered computing-Visualization-Visualization design and evaluation methods"
+        ],
         "uid": "s-short-1204",
         "time_stamp": "2020-10-29T15:00:00Z"
     },
@@ -3146,8 +3415,11 @@
         ],
         "title": "Why Shouldn\u2019t All Charts Be Scatter Plots? Beyond Precision-Driven Visualizations",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "A central tenet of information visualization research and practice is the notion of visual variable effectiveness, or the perceptual precision at which values are decoded given visual channels of encoding. Formative work from Cleveland \\& McGill has shown  that position along a common axis is the most effective visual variable for comparing individual values. One natural conclusion is that any chart that is not a dot plot or scatterplot is deficient and should be avoided. In this paper we refute a caricature of this \"scatterplots only\" argument as a way to call for new perspectives on how information visualization is researched, taught, and evaluated.",
+        "keywords": [
+            "Human-centered  computing-Visualization-Visualization theory",
+            "concepts and paradigm"
+        ],
         "uid": "s-short-1229",
         "time_stamp": "2020-10-29T15:10:00Z"
     },
@@ -3158,8 +3430,11 @@
         ],
         "title": "Data Visualization Practitioners\u2019 Perspectives on Chartjunk",
         "session_id": "s-papers-theory-cog-sense",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Chartjunk is a popular yet contentious topic. In recent years it has seen increasing research interest, with studies investigating phenomena such as memorability, engagement, preference, and performance. These studies have shown that extreme minimalism is not always best, and that visual embellishments can be useful depending on the context. While more knowledge is being developed regarding the effects of embellishments on users, less attention has been given to the perspectives of practitioners regarding how they design with embellishments. We conducted semi-structured interviews with 20 data visualization practitioners, investigating how they understand chartjunk and the factors that influence how and when they make use of embellishments. Our analysis uncovers a broad and pluralistic understanding of chartjunk among practitioners, and foregrounds a variety of personal and situated factors that influence the use of chartjunk beyond mere context. We highlight the personal nature of design practice, and discuss the need for more practice-led visualization research to better understand the ways in which concepts like chartjunk are interpreted and used by practitioners.",
+        "keywords": [
+            "Index Terms: Human-centered computing-Visualization",
+            ""
+        ],
         "uid": "s-short-1231",
         "time_stamp": "2020-10-29T15:20:00Z"
     },
@@ -3218,8 +3493,12 @@
         ],
         "title": "UrbanMotion: Visual Analysis of Metropolitan-Scale Sparse Trajectories",
         "session_id": "f-papers-urban-space",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Visualizing massive scale human movement in cities plays an important role in solving many of the problems that modern cities face (e.g., traffic optimization, business site configuration). In this work, we study a big mobile location dataset that covers millions of city residents, but is temporally sparse on the trajectory of individual user. Mapping sparse trajectories to illustrate population movement poses several challenges from both analysis and visualization perspectives. In the literature, there are a few techniques designed for sparse trajectory visualization; yet they do not consider trajectories collected from mobile apps that possess long-tailed sparsity with record intervals as long as hours. This work introduces UrbanMotion, a visual analytics system that extends the original wind map design by supporting map-matched local movements, multi-directional population flows, and population distributions. Effective methods are proposed to extract and aggregate population movements from dense parts of the trajectories leveraging their long-tailed sparsity. Both characteristic and anomalous patterns are discovered and visualized. We conducted three case studies, one comparative experiment, and collected expert feedback in the application domains of commuting analysis, event detection, and business site configuration. The study result demonstrates the significance and effectiveness of our system in helping to complete key analytics tasks for urban users.",
+        "keywords": [
+            "Movement visualization",
+            "sparse trajectory",
+            "wind map"
+        ],
         "uid": "f-tvcg-2019080284",
         "time_stamp": "2020-10-29T16:30:00Z"
     },
@@ -3255,8 +3534,14 @@
         ],
         "title": "Visual Cause Analytics for Traffic Congestion",
         "session_id": "f-papers-urban-space",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Urban traffic congestion has become an important issue not only affecting our daily lives, but also limiting economic development. The primary cause of urban traffic congestion is that the number of vehicles is higher than the permissible limit of the road. Previous studies have focused on dispersing traffic volume by detecting urban traffic congestion zones and predicting future trends. However, to solve the fundamental problem, it is necessary to discover the cause of traffic congestion. Nevertheless, it is difficult to find a research which presents an approach to identify the causes of traffic congestion. In this paper, we propose a technique to analyze the cause of traffic congestion based on the traffic flow theory. We extract vehicle flows from traffic data, such as GPS trajectory and Vehicle Detector data. We detect vehicle flow changes utilizing the entropy from the information theory. Then, we build cumulative vehicle count curves (N-curve) that can quantify the flow of the vehicles in the traffic congestion area. The N-curves are classified into four different traffic congestion patterns by a convolutional neural network. Analyzing the causes and influence of traffic congestion is difficult and requires considerable experience and knowledge. Therefore, we present a visual analytics system that can efficiently perform a series of processes to analyze the cause and influence of traffic congestion. Through case studies, we have evaluated that our system can classify the causes of traffic congestion and can be used efficiently in road planning.",
+        "keywords": [
+            "Causes of traffic congestion",
+            "Traffic flow theory",
+            "Information entropy",
+            "Convolutional neural network",
+            "Visual analytics"
+        ],
         "uid": "f-tvcg-20192940580",
         "time_stamp": "2020-10-29T17:00:00Z"
     },
@@ -3273,8 +3558,13 @@
         ],
         "title": "CrimAnalyzer: Understanding Crime Patterns in S\u00e3o Paulo",
         "session_id": "f-papers-urban-space",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "S\u00e3o Paulo is the largest city in South America, with crime rates that reflect its size. The number and type of crimes vary considerably around the city, assuming different patterns depending on urban and social characteristics of each particular location. Previous works have mostly focused on the analysis of crimes with the intent of uncovering patterns associated to social factors, seasonality, and urban routine activities. Therefore, those studies and tools are more global in the sense that they are not designed to investigate specific regions of the city such as particular neighborhoods, avenues, or public areas. Tools able to explore specific locations of the city are essential for domain experts to accomplish their analysis in a bottom-up fashion revealing how urban features related to mobility, passersby behavior, and presence of public infrastructures (e.g., terminals of public transportation and schools) can influence the quantity and type of crimes. In this paper, we present CrimAnalyzer, a visual analytic tool that allows users to study the behavior of crimes in specific regions of a city. The system allows users to identify local hotspots and the pattern of crimes associated to them, while still showing how hotspots and corresponding crime patterns change over time. CrimAnalyzer has been developed from the needs of a team of experts in criminology and deals with three major challenges: i) flexibility to explore local regions and understand their crime patterns, ii) identification of spatial crime hotspots that might not be the most prevalent ones in terms of the number of crimes but that are important enough to be investigated, and iii) understand the dynamic of crime patterns over time. The effectiveness and usefulness of the proposed system are demonstrated by qualitative and quantitative comparisons as well as by case studies run by domain experts involving real data. The experiments show the capability of CrimAnalyzer in identifying crime-related phenomena.",
+        "keywords": [
+            "Crime Data",
+            "Spatio-Temporal Data",
+            "Visual Analytics",
+            "Non-Negative Matrix Factorization"
+        ],
         "uid": "f-tvcg-2018110405",
         "time_stamp": "2020-10-29T17:15:00Z"
     },
@@ -3457,8 +3747,14 @@
         ],
         "title": "Tilt Map: Interactive Transitions Between Choropleth Map, Prism Map and Bar Chart in Immersive Environments",
         "session_id": "f-papers-geospatial",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We introduce Tilt Map, a novel interaction technique for intuitively transitioning between 2D and 3D map visualisations in immersive environments. Our focus is visualising data associated with areal features on maps, for example, population density by state. Tilt Map transitions from 2D choropleth maps to 3D prism maps to 2D bar charts to overcome the limitations of each. Our paper includes two user studies. The first study compares subjects\u2019 task performance interpreting population density data using 2D choropleth maps and 3D prism maps in virtual reality (VR). We observed greater task accuracy with prism maps, but faster response times with choropleth maps. The complementarity of these views inspired our hybrid Tilt Map design. Our second study compares Tilt Map to: a side-by-side arrangement of the various views; and interactive toggling between views. The results indicate benefits for Tilt Map in user preference; and accuracy (versus side-by-side) and time (versus toggle).",
+        "keywords": [
+            "Immersive analytics",
+            "Mixed/augmented reality",
+            "Virtual reality",
+            "Geographic visualization",
+            "Interaction techniques"
+        ],
         "uid": "f-tvcg-2020010025",
         "time_stamp": "2020-10-29T16:45:00Z"
     },
@@ -3472,8 +3768,13 @@
         ],
         "title": "Phoenixmap: An Abstract Approach to Visualize 2D Spatial Distributions",
         "session_id": "f-papers-geospatial",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "The multidimensional nature of spatial data poses a challenge for visualization. In this paper, we introduce Phoenixmap, a simple abstract visualization method to address the issue of visualizing multiple spatial distributions at once. The Phoenixmap approach starts by identifying the enclosed outline of the point collection, then assigns different widths to outline segments according to the segments\u2019 corresponding inside regions. Thus, one 2D distribution is represented as an outline with varied thicknesses. Phoenixmap is capable of overlaying multiple outlines and comparing them across categories of objects in a 2D space. We chose heatmap as a benchmark spatial visualization method and conducted user studies to compare performances among Phoenixmap, heatmap, and dot distribution map. Based on the analysis and participant feedback, we demonstrate that Phoenixmap1) allows users to perceive and compare spatial distribution data efficiently; 2) frees up graphics space with a concise form that can provide broad visualization design possibilities like overlapping; and 3) provides a good quantitative perceptual estimating capability given the proper legends. Finally, we discuss several possible applications of Phoenixmapand present one visualization of multiple species of birds\u2019 active regions in a nature preserve.",
+        "keywords": [
+            "Data Visualization",
+            "Visualization",
+            "Algorithms",
+            "Geospatial Analysis"
+        ],
         "uid": "f-tvcg-2019030083",
         "time_stamp": "2020-10-29T17:00:00Z"
     },
@@ -3503,8 +3804,14 @@
         ],
         "title": "Interweaving Multimodal Interaction with Flexible Unit Visualizations for Data Exploration",
         "session_id": "f-papers-intelligent-sys",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Multimodal interfaces that combine direct manipulation and natural language have shown great promise for data visualization. Such multimodal interfaces allow people to stay in the flow of their visual exploration by leveraging the strengths of one modality to complement the weaknesses of others. In this work, we introduce an approach that interweaves multimodal interaction combining direct manipulation and natural language with flexible unit visualizations. We employ the proposed approach in a proof-of-concept system, DataBreeze. Coupling pen, touch, and speech-based multimodal interaction with flexible unit visualizations, DataBreeze allows people to create and interact with both systematically bound (e.g., scatterplots, unit column charts) and manually customized views, enabling a novel visual data exploration experience.  We describe our design process along with DataBreeze\u2019s interface and interactions, delineating specific aspects of the design that empower the synergistic use of multiple modalities. We also present a preliminary user study with DataBreeze, highlighting the data exploration patterns that participants employed. Finally, reflecting on our design process and preliminary user study, we discuss future research directions.",
+        "keywords": [
+            "Multimodal interaction",
+            "Natural language interfaces",
+            "Speech interaction",
+            "Pen and touch interaction",
+            "Unit visualizations"
+        ],
         "uid": "f-tvcg-2019080302",
         "time_stamp": "2020-10-29T16:00:00Z"
     },
@@ -3552,8 +3859,13 @@
         ],
         "title": "Interactive Steering of Hierarchical Clustering",
         "session_id": "f-papers-intelligent-sys",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present an interactive steering method to visually supervise constrained hierarchical clustering by utilizing both public knowledge (e.g., Wikipedia) and private knowledge from users. The novelty of our approach includes 1) automatically constructing constraints for hierarchical clustering using knowledge (knowledge-driven) and intrinsic data distribution (data-driven), and 2) enabling the interactive steering of clustering through a visual interface (user-driven). Our method first maps each data item to the most relevant items in a knowledge base. An initial constraint tree is then extracted using the ant colony optimization algorithm. The algorithm balances the tree width and depth and covers the data items with high confidence. Given the constraint tree, the data items are hierarchically clustered using evolutionary Bayesian rose tree. To clearly convey the hierarchical clustering results, an uncertainty-aware tree visualization has been developed to enable users to quickly locate the most uncertain sub-hierarchies and interactively improve them. The quantitative evaluation and case study demonstrate that the proposed approach facilitates the building of customized clustering trees in an efficient and effective manner.",
+        "keywords": [
+            "Hierarchical clustering",
+            "constrained clustering",
+            "exploratory data analysis",
+            "tree visualization"
+        ],
         "uid": "f-tvcg-2019090341",
         "time_stamp": "2020-10-29T16:45:00Z"
     },
@@ -3568,8 +3880,14 @@
         ],
         "title": "The Making of Continuous Colormaps",
         "session_id": "f-papers-intelligent-sys",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Continuous colormaps are integral parts of many visualization techniques, such as heat-maps, surface plots, and flow visualization. Despite that the critiques of rainbow colormaps have been around and well-acknowledged for three decades, rainbow colormaps are still widely used today. One reason behind the resilience of rainbow colormaps is the lack of tools for users to create a continuous colormap that encodes semantics specific to the application concerned. In this paper, we present a web-based software system, CCC-Tool (short for Charting Continuous Colormaps) under the URL https://ccctool.com, for creating, editing, and analyzing such application-specific colormaps. We introduce the notion of \u201ccolormap specification (CMS)\u201d that maintains the essential semantics required for defining a color mapping scheme. We provide users with a set of advanced utilities for constructing CMS\u2019s with various levels of complexity, examining their quality attributes using different plots, and exporting them to external application software. We present two case studies, demonstrating that the CCC-Tool can help domain scientists as well as visualization experts in designing semantically-rich colormaps.",
+        "keywords": [
+            "CCC-Tool",
+            "charting continuous colormaps",
+            "colormap specification",
+            "perceptual uniformity",
+            "colormap analysis"
+        ],
         "uid": "f-tvcg-2019010013",
         "time_stamp": "2020-10-29T17:00:00Z"
     },
@@ -3599,8 +3917,13 @@
         ],
         "title": "Sentifiers: Interpreting Vague Intent Modifiers in Visual Analysis using Word Co-occurrence and Sentiment Analysis",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Natural language interaction with data visualization tools often involves the use of vague subjective modifiers in utterances such as \u201cshow me the sectors that are performing\u201d and \u201cwhere is a good neighborhood to buy a house?.\u201d Interpreting these modifiers is often difficult for these tools because their meanings lack clear semantics and are in part defined by context and personal user preferences. This paper presents a system called Sentifiers that makes a first step in better understanding these vague predicates. The algorithm employs word co-occurrence and sentiment analysis to determine which data attributes and filters ranges to associate with the vague predicates. The provenance results from the algorithm are exposed to the user as interactive text that can be repaired and refined. We conduct a qualitative evaluation of the Sentifiers that indicates the usefulness of the interface as well as opportunities for better supporting subjective utterances in visual analysis tasks through natural language.",
+        "keywords": [
+            "vague and subjective modifiers",
+            "natural language interaction",
+            "sentiment analysis",
+            "visual analysis."
+        ],
         "uid": "s-short-1003",
         "time_stamp": "2020-10-29T16:00:00Z"
     },
@@ -3611,8 +3934,12 @@
         ],
         "title": "Data Visualization for Transgender Voice Training",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Social and political factors structure how data are collected, analyzed, and visually presented. Visualization researchers are increasingly discussing these issues, and calling for feminist approaches that allow not only for the interrogation of unspoken assumptions and power imbalances in how visualizations are designed and deployed, but also for the creation of new systems by and for marginalized groups. This paper describes the motivation, ideation, and prototyping of a novel visualization tool to support voice training for transgender people. We centered our design around user needs and lived experiences, in order to support self-determination of gender expression. In so doing, we make novel inroads into how to visualize speech data, and open possibilities for future work in the design of visualizations that prioritize user agency within social and political contexts.",
+        "keywords": [
+            "Human-centered  computing-Visualization-Visualization systems and tools",
+            "Social and professional topics-Gender",
+            "Applied computing-Sound and music computing"
+        ],
         "uid": "s-short-1020",
         "time_stamp": "2020-10-29T16:10:00Z"
     },
@@ -3623,8 +3950,16 @@
         ],
         "title": "GlassViz: Visualizing Automatically-Extracted Entry Points for Exploring Scientific Corpora in Problem-Driven Visualization Research",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "In this paper, we report the development of a model and a proof-of-concept visual text analytics (VTA) tool to enhance document discovery in a problem-driven visualization research (PDVR) context. The proposed model captures the cognitive model followed by\ndomain and visualization experts by analyzing the interdisciplinary communication channel as represented by keywords found in two disjoint collections of research papers. High distributional inter-collection similarities are employed to build informative keyword associations that serve as entry points to drive the exploration of a large document corpus. Our approach is demonstrated in the context of research on visualization for the digital humanities.",
+        "keywords": [
+            "visual text analytics",
+            "literature-based discovery",
+            "visualization of scientific corpora",
+            "distributional similarity",
+            "sensemaking",
+            "methodology transfer",
+            "digital humanities"
+        ],
         "uid": "s-short-1041",
         "time_stamp": "2020-10-29T16:20:00Z"
     },
@@ -3635,8 +3970,13 @@
         ],
         "title": "Knowing what to look for: A Fact-Evidence Reasoning Framework for Decoding Communicative Visualization",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Despite the widespread use of communicative charts as a medium for scientific communication, we lack a systematic understanding of how well the charts fulfill the goals of effective visual communication. Existing research mostly focuses on the means, i.e. the encoding principles, and not the end, i.e. the key takeaway of a chart. To address this gap, we start from the first principles and aim to answer the fundamental question: how can we describe the message of a scientific chart? We contribute a fact-evidence reasoning framework (FaEvR) by augmenting the conventional visualization pipeline with the stages of gathering and associating evidence for decoding the facts presented in a chart. We apply the resulting classification scheme of fact and evidence on a collection of 500 charts collected from publications in multiple science domains. We demonstrate the practical applications of FaEvR in calibrating task complexity and detecting barriers towards chart interpretability.",
+        "keywords": [
+            "visual communication",
+            "decoding",
+            "human cognition",
+            "scientific charts"
+        ],
         "uid": "s-short-1070",
         "time_stamp": "2020-10-29T16:30:00Z"
     },
@@ -3650,8 +3990,13 @@
         ],
         "title": "MeetCues: Supporting Online Meetings Experience",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "The remote work ecosystem is transforming patterns of communication between teams and individuals located at distance. Particularly, the absence of certain subtle cues in current communication tools may hinder an online's meeting outcome by negatively impacting attendees' overall experience and, often, make them feeling disconnected. The problem here might be due to the fact that current tools fall short in capturing it. To partly address this, we developed an online platform-MeetCues-with the aim of supporting online communication during meetings. MeetCues is a companion platform for a commercial communication tool with interactive and visual UI features that support back-channels of communications. It allows attendees to be more engaged during a meeting, and reflect in real-time or post-meeting. We evaluated our platform in a diverse set of five, real-world corporate meetings, and we found that, not only people were more engaged and aware during their meetings, but they also felt more connected. These findings suggest promise in the design of new communications tools, and reinforce the role of InfoVis in augmenting and enriching online meetings.",
+        "keywords": [
+            "Visualization for Meetings",
+            "Engagement",
+            "Awareness",
+            "Reflection"
+        ],
         "uid": "s-short-1165",
         "time_stamp": "2020-10-29T16:40:00Z"
     },
@@ -3666,8 +4011,12 @@
         ],
         "title": "DebateVis: Visualizing Political Debates for Non-Expert Users",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Political debates provide an important opportunity for voters to observe candidate behavior, learn about issues, and make voting decisions. However, debates are generally broadcast late at night and last more than ninety minutes, so watching debates live can be inconvenient, if not impossible, for many potential viewers. Even voters who do watch debates may find themselves overwhelmed by a deluge of information in a substantive, issue-driven debate. Media outlets produce short summaries of debates, but these are not always effective as a method of deeply comprehending the policies candidates propose or the debate techniques they employ. In this paper we contribute reflections and results of an 18-month design study through an interdisciplinary collaboration with journalism and political science researchers. We characterize task and data abstractions for visualizing political debate transcripts for the casual user, and present a novel tool (DebateVis) to help non-expert users explore and analyze debate transcripts.",
+        "keywords": [
+            "Human-centered  computing",
+            "Visualization",
+            "Visualization design and evaluation methods"
+        ],
         "uid": "s-short-1169",
         "time_stamp": "2020-10-29T16:50:00Z"
     },
@@ -3679,8 +4028,10 @@
         ],
         "title": "ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims",
         "session_id": "s-papers-text-comm",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Verifying a factual claim made by public figures, aka fact-checking, is a common task of the journalists in the newsrooms. One critical challenge that fact-checkers face is- they have to swift through a large amount of text to find claims that are check-worthy. While\nthere exist some computational methods for automating the factchecking process, little research has been done on how a system should combine such techniques with visualizations to assist factcheckers. ClaimViz is a visual analytic system that integrates natural language processing and machine learning methods with interactive\nvisualizations to facilitate the fact-checking process. The design of ClaimViz is based on analyzing the requirements of real factcheckers and our case studies demonstrate how the system can help users to effectively spot and verify claims.",
+        "keywords": [
+            "Human-centered computing-Visualization-Visualization design and evaluation methods"
+        ],
         "uid": "s-short-1181",
         "time_stamp": "2020-10-29T17:00:00Z"
     },
@@ -3863,8 +4214,14 @@
         ],
         "title": "Geometry-Driven Detection, Tracking and Visual Analysis of Viscous and Gravitational Fingers",
         "session_id": "f-papers-topo-scalar-field",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Viscous and gravitational flow instabilities cause a displacement front to break up into finger-like fluids. The detection and evolutionary analysis of these fingering instabilities are critical in multiple scientific disciplines such as fluid mechanics and hydrogeology. However, previous detection methods of the viscous and gravitational fingers are based on density thresholding, which provides limited geometric information of the fingers. The geometric structures of fingers and their evolution are important yet little studied in the literature. In this work, we explore the geometric detection and evolution of the fingers in detail to elucidate the dynamics of the instability. We propose a ridge voxel detection method to guide the extraction of finger cores from three-dimensional (3D) scalar fields. After skeletonizing finger cores into skeletons, we design a spanning tree based approach to capture how fingers branch spatially from the finger skeletons. Finally, we devise a novel geometric-glyph augmented tracking graph to study how the fingers and their branches grow, merge, and split over time. Feedback from earth scientists demonstrates the usefulness of our approach to performing spatio-temporal geometric analyses of fingers.",
+        "keywords": [
+            "Viscous and gravitational fingering",
+            "topological and geometric data analysis",
+            "ridge detection",
+            "spatio-temporal visualization",
+            "tracking graph"
+        ],
         "uid": "f-tvcg-2020040124",
         "time_stamp": "2020-10-29T19:00:00Z"
     },
@@ -4244,8 +4601,12 @@
         ],
         "title": "Volumetric Isosurface Rendering with Deep Learning-Based Super-Resolution",
         "session_id": "f-papers-deep-learn-spatial",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Rendering an accurate image of an isosurface in a volumetric field typically requires large numbers of data samples. Reducing this number lies at the core of research in volume rendering. With the advent of deep learning networks, a number of architectures have been proposed recently to infer missing samples in multi-dimensional fields, for applications such as image super-resolution. In this paper, we investigate the use of such architectures for learning the upscaling of a low-resolution sampling of an isosurface to a higher resolution, with reconstruction of spatial detail and shading. We introduce a fully convolutional neural network, to learn a latent representation generating smooth, edge-aware depth and normal fields as well as ambient occlusions from a low-resolution depth and normal field. By adding a frame-to-frame motion loss into the learning stage, upscaling can consider temporal variations and achieves improved frame-to-frame coherence. We assess the quality of inferred results and compare it to bi-linear and -cubic upscaling. We do this for isosurfaces which were never seen during training, and investigate the improvements when the network can train on the same or similar isosurfaces. We discuss remote visualization and foveated rendering as potential applications.",
+        "keywords": [
+            " Volume visualization",
+            "Machine Learning",
+            "Raytracing"
+        ],
         "uid": "f-tvcg-2019080255",
         "time_stamp": "2020-10-29T19:15:00Z"
     },
@@ -4435,8 +4796,15 @@
         ],
         "title": "Characterizing the Quality of Insight by Interactions: A Case Study",
         "session_id": "f-papers-cog-emotion",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Understanding the quality of insight has become increasingly important with the trend of allowing users to post comments during visual exploration, yet approaches for qualifying insight are rare. This paper presents a case study to investigate the possibility of characterizing the quality of insight via the interactions performed. To do this, we devised the interaction of a visualization tool-MediSyn-for insight generation. MediSyn supports five types of interactions: selecting, connecting, elaborating, exploring, and sharing. We evaluated MediSyn with 14 participants by allowing them to freely explore the data and generate insights. We then extracted seven interaction patterns from their interaction logs and correlated the patterns to four aspects of insight quality. The results show the possibility of qualifying insights via interactions. Among other findings, exploration actions can lead to unexpected insights; the drill-down pattern tends to increase the domain values of insights. A qualitative analysis shows that using domain knowledge to guide exploration can positively affect the domain value of derived insights. We discuss the study's implications, lessons learned, and future research opportunities.",
+        "keywords": [
+            "Insight",
+            "interaction",
+            "interaction pattern",
+            "entity",
+            "visualization",
+            "insight-based evaluation"
+        ],
         "uid": "f-tvcg-20202977634",
         "time_stamp": "2020-10-30T14:45:00Z"
     },
@@ -4473,8 +4841,13 @@
         ],
         "title": "EmotionCues: Emotion-Oriented Visual Summarization of Classroom Videos",
         "session_id": "f-papers-cog-emotion",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Analyzing students\u2019 emotions from classroom videos can help both teachers and parents quickly know the engagement of students in class. The availability of high-definition cameras creates opportunities to record class scenes. However, watching videos is time-consuming, and it is challenging to gain a quick overview of the emotion distribution and find abnormal emotions. In this paper, we propose EmotionCues, a visual analytics system to easily analyze classroom videos from the perspective of emotion summary and detailed analysis, which integrates emotion recognition algorithms with visualizations. It consists of three coordinated views: a summary view depicting the overall emotions and their dynamic evolution, a character view presenting the detailed emotion status of an individual, and a video view enhancing the video analysis with further details. Considering the possible inaccuracy of emotion recognition, we also explore several factors affecting the emotion analysis, such as face size and occlusion. They provide hints for inferring the possible inaccuracy and the corresponding reasons. Two use cases and interviews with end users and domain experts are conducted to show that the proposed system could be useful and effective for analyzing emotions in the classroom videos.",
+        "keywords": [
+            "Emotion",
+            "classroom videos",
+            "visual summarization",
+            "visual analytics"
+        ],
         "uid": "f-tvcg-2019090334",
         "time_stamp": "2020-10-30T15:15:00Z"
     },
@@ -4669,7 +5042,8 @@
             "Simone Scheithauer",
             "Michael Marschollek",
             "Vanessa Eichel",
-            "Nico T. Mutters"
+            "Nico T. Mutters",
+            "Tatiana von Landesberger"
         ],
         "title": "In Search of Patient Zero: Visual Analytics of Pathogen Transmission Pathways in Hospitals",
         "session_id": "f-papers-health-disease",
@@ -4699,8 +5073,18 @@
         ],
         "title": "DPVis: Visual Analytics with Hidden Markov Models for Disease Progression Pathways",
         "session_id": "f-papers-health-disease",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Clinical researchers use disease progression models to understand patient status and characterize progression patterns from longitudinal health records. One approach for disease progression modeling is to describe patient status using a small number of states that represent distinctive distributions over a set of observed measures. Hidden Markov models (HMMs) and its variants are a class of models that both discover these states and make inferences of health states for patients. Despite the advantages of using the algorithms for discovering interesting patterns, it still remains challenging for medical experts to interpret model outputs, understand complex modeling parameters, and clinically make sense of the patterns. To tackle these problems, we conducted a design study with clinical scientists, statisticians, and visualization experts, with the goal to investigate disease progression pathways of chronic diseases, namely type 1 diabetes (T1D), Huntington's disease, Parkinson's disease, and chronic obstructive pulmonary disease (COPD). As a result, we introduce DPVis which seamlessly integrates model parameters and outcomes of HMMs into interpretable and interactive visualizations. In this study, we demonstrate that DPVis is successful in evaluating disease progression models, visually summarizing disease states, interactively exploring disease progression patterns, and building, analyzing, and comparing clinically relevant patient subgroups.",
+        "keywords": [
+            "Visual Analytics",
+            "Design Study",
+            "Disease Progression",
+            "Hidden Markov Model",
+            "State Space Model",
+            "Diabetes",
+            "Huntingtons",
+            "Parkinsons",
+            "Interpretability"
+        ],
         "uid": "f-tvcg-2019070243",
         "time_stamp": "2020-10-30T15:00:00Z"
     },
@@ -4735,8 +5119,10 @@
         ],
         "title": "Visually Analyzing and Steering Zero Shot Learning",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We propose a visual analytics system to help a user analyze and steer zero-shot learning models. Zero-shot learning has emerged as a viable scenario for categorizing data that consists of no labeled examples, and thus a promising approach to minimize data annotation from humans. However, it is challenging to understand where zero-shot learning fails, the cause of such failures, and how a user can modify the model to prevent such failures. Our visualization system is designed to help users diagnose and understand mispredictions in such models, so that they may gain insight on the behavior of a model when applied to data associated with categories not seen during training. Through usage scenarios, we highlight how our system can help a user improve performance in zero-shot learning.",
+        "keywords": [
+            "Zero-shot learning-Visualization-Visual Analytics-Model Steering"
+        ],
         "uid": "s-short-1106",
         "time_stamp": "2020-10-30T14:00:00Z"
     },
@@ -4747,8 +5133,12 @@
         ],
         "title": "DRIL: Descriptive Rules by Interactive Learning",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Analyzing data is increasingly a part of jobs across industry, science and government, but data stakeholders are not necessarily experts in analytics. The human-in-the-loop (HIL) approach includes semantic interaction tools, which leverage machine learning behind the scenes to assist users with their tasks without engaging them directly with algorithms.  One widely applicable model for how humans understand data is descriptive rules, which can characterize important attributes and simultaneously their crucial values or ranges. In this paper, we introduce an approach to help with data understanding via interactively and automatically generated rules. Our approach makes discerning the behavior of groups of interesting data efficient and simple by bridging the gap between machine learning methods for rule learning and the user experience of sensemaking through visual exploration. We have evaluated our approach with machine learning experiments to confirm an existing rule learning algorithm performs well in this interactive context even with a small amount of user input, and created a prototype system, DRIL (Descriptive Rules by Interactive Learning), to demonstrate its capability through a case study.",
+        "keywords": [
+            "human-in-the-loop",
+            "data characterization",
+            "rule learning"
+        ],
         "uid": "s-short-1147",
         "time_stamp": "2020-10-30T14:10:00Z"
     },
@@ -4760,8 +5150,11 @@
         ],
         "title": "Vortex Boundary Identification using Convolutional Neural Network",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Feature extraction is an integral component of scientific visualization, and specifically in situations in which features are difficult to formalize, deep learning has great potential to aid in data analysis. In this paper, we develop a deep neural network that is capable of finding vortex boundaries. \nFor training data generation, we employ a parametric flow model that generates thousands of vector field patches with known ground truth. \nCompared to previous methods, our approach does not require the manual setting of a threshold in order to generate the training data or to extract the vortices.\nAfter supervised learning, we apply the method to numerical fluid flow simulations, demonstrating its applicability in practice. Our results show that the vortices extracted using the proposed method can capture more accurate behavior of the vortices in the flow.",
+        "keywords": [
+            "Vortex boundary",
+            "convolutional neural network."
+        ],
         "uid": "s-short-1152",
         "time_stamp": "2020-10-30T14:20:00Z"
     },
@@ -4772,7 +5165,7 @@
         ],
         "title": "How Does Visualization Help People Learn Deep Learning? Evaluating GAN Lab with Observational Study and Log Analysis",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
+        "abstract": "While a rapidly growing number of people want to learn artificial intelligence (AI) and deep learning, the increasing complexity of such models poses significant learning barriers. Recently, interactive visualizations, such as TensorFlow Playground and GAN Lab, have demonstrated success in lowering these barriers. However, there has been little work in evaluating these tools with human subjects. This paper presents two studies on evaluating GAN Lab, an interactive tool designed to help people learn how Generated Adversarial Networks (GANs) work. First, through an observational study, we investigate how the tool is used and what users learn from their usage. Second, we conduct a log analysis of the deployed tool to investigate how its visitors engage with GAN Lab. Based on the studies and our experience in developing and successfully deploying the tool, we provide design considerations and discuss further evaluation challenges for interactive educational tools for deep learning.",
         "keywords": [],
         "uid": "s-short-1167",
         "time_stamp": "2020-10-30T14:30:00Z"
@@ -4789,8 +5182,11 @@
         ],
         "title": "Bluff: Interactively Deciphering Adversarial Attacks on Deep Neural Networks",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Deep neural networks (DNNs) are now commonly used in many domains. However, they  are  vulnerable  to adversarial attacks: carefully-crafted perturbations on data inputs that can fool a model into making incorrect predictions. Despite significant research on developing DNN attack and defense techniques, people still lack an understanding of how such attacks penetrate a model\u2019s internals. We present Bluff, an interactive system for visualizing, characterizing, and deciphering adversarial attacks on vision-based neural networks. Bluff allows people to flexibly visualize and compare the activation pathways for benign and attacked images, revealing mechanisms that adversarial attacks employ to inflict harm on a model. Bluff is open-sourced and runs in modern web browsers.",
+        "keywords": [
+            "Human-centered computing",
+            "Visual Analytics"
+        ],
         "uid": "s-short-1200",
         "time_stamp": "2020-10-30T14:40:00Z"
     },
@@ -4800,8 +5196,10 @@
         ],
         "title": "Visually Analyzing Contextualized Embeddings",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "In this paper we introduce a method for visually analyzing contextualized embeddings produced by deep neural network-based language models. Our approach is inspired by linguistic probes for natural language processing, where tasks are designed to probe language models for linguistic structure, such as parts-of-speech and named entities. These approaches are largely confirmatory, however, only enabling a user to test for information known a priori. In this work, we eschew supervised probing tasks, and advocate for unsupervised probes, coupled with visual exploration techniques, to assess what is learned by language models. Specifically, we cluster contextualized embeddings produced from a large text corpus, and introduce a visualization design based on this clustering and textual structure - cluster co-occurrences, cluster spans, and cluster-word membership - to help elicit the functionality of, and relationship between, individual clusters. User feedback highlights the benefits of our design in discovering different types of linguistic structures.",
+        "keywords": [
+            "Machine Learning\nVisual Analytics\nNatural Language Processing"
+        ],
         "uid": "s-short-1205",
         "time_stamp": "2020-10-30T14:50:00Z"
     },
@@ -4816,8 +5214,14 @@
         ],
         "title": "Explainable Spatial Clustering: Leveraging Spatial Data in Radiation Oncology",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Advances in data collection in radiation therapy have led to an abundance of opportunities for applying data mining and machine learning techniques to promote new data-driven insights. In light of these advances, supporting collaboration between machine learning experts and clinicians is important for facilitating better development and adoption of these models. Although many medical use-cases rely on spatial data, where understanding and visualizing the underlying structure of the data is important, little is known about the interpretability of spatial clustering results by clinical audiences. In this work, we reflect on the design of visualizations for explaining novel approaches to clustering complex anatomical data from head and neck cancer patients. These visualizations were developed, through participatory design, for clinical audiences during a multi-year collaboration with radiation oncologists and statisticians. We distill this collaboration into a set of lessons learned for creating visual and explainable spatial clustering for clinical users.",
+        "keywords": [
+            "Data Clustering and Aggregation",
+            "Life Sciences",
+            "Collaboration",
+            "Mixed Initiative Human-Machine Analysis",
+            "Guidelines"
+        ],
         "uid": "s-short-1207",
         "time_stamp": "2020-10-30T15:00:00Z"
     },
@@ -4830,8 +5234,12 @@
         ],
         "title": "ProtoViewer: Visual Interpretation and Diagnostics of DNNs via Prototype Factorization",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "In recent years deep neural networks (DNNs) are increasingly used in a variety of application domains for their state-of-the-art performance in many challenging machine learning tasks. However their lack of interpretability could cause trustability and fairness issues and also makes model diagnostics a difficult task. In this paper we present a novel visual analytics framework to interpret and diagnose DNNs. Our approach utilizes ProtoFac to factorize the latent representations in DNNs into weighted combinations of prototypes, which are exemplar cases (e.g.representative image patches) from the original data. The visual interface uses the factorized prototypes to summarize and explain the model behaviour as well as support comparisons across subsets of data such that the users can form a hypothesis about the model\u2019s failure on certain subsets. The method is model-agnostic and provides global explanation of the model behaviour. Furthermore, the system selects prototypes and weights that faithfully represents the model under analysis by mimicking its latent representation and predictions. Example usage scenarios on two DNN architectures and two datasets illustrates the effectiveness and general applicability of the proposed approach.",
+        "keywords": [
+            "Machine Learning Techniques",
+            "Machine Learning, Statistics, Modeling, and Simulation Applications",
+            "Data Analysis, Reasoning, Problem Solving, and Decision Making"
+        ],
         "uid": "s-short-1226",
         "time_stamp": "2020-10-30T15:10:00Z"
     },
@@ -4843,8 +5251,10 @@
         ],
         "title": "InstanceFlow: Visualizing the Evolution of Classifier Confusion on the Instance Level",
         "session_id": "s-papers-vis-ml",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Classification is one of the most important supervised machine learning tasks. During the training of a classification model, the training instances are fed to the model multiple times (during multiple epochs) in order to iteratively increase the classification performance. The increasing complexity of models has led to a growing demand for model interpretability through visualizations. Existing approaches mostly focus on the visual analysis of the final model performance after training and are often limited to aggregate performance measures. In this paper we introduce InstanceFlow, a novel dual-view visualization tool that allows users to analyze the learning behavior of classifiers over time on the instance-level. A Sankey diagram visualizes the flow of instances throughout epochs, with on-demand detailed glyphs and traces for individual instances. A tabular view allows users to locate interesting instances by ranking and filtering. In this way, InstanceFlow bridges the gap between classlevel and instance-level performance evaluation while enabling users to perform a full temporal analysis of the training process.",
+        "keywords": [
+            "Classification.\nPerformance analysis.\nTime series visualization."
+        ],
         "uid": "s-short-1227",
         "time_stamp": "2020-10-30T15:20:00Z"
     },
@@ -4898,8 +5308,15 @@
         ],
         "title": "Visualization of Blockchain Data: A Systematic Review",
         "session_id": "f-papers-finance-blockchain",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present a systematic review of visual analytics tools used for the analysis of blockchains-related data. The blockchain concept has recently received considerable attention and spurred applications in a variety of domains. We systematically and quantitatively assessed 76 analytics tools that have been proposed in research as well as online by professionals and blockchain enthusiasts. Our classification of these tools distinguishes (1) target blockchains, (2) blockchain data, (3) target audiences, (4) task domains, and (5) visualization types. Furthermore, we look at which aspects of blockchain data have already been explored and point out areas that deserve more investigation in the future.",
+        "keywords": [
+            "Blockchain",
+            "Bitcoin",
+            "Ethereum",
+            "Information Visualization",
+            "Visual Analytics",
+            "State-of-the-Art Survey"
+        ],
         "uid": "f-tvcg-20192963018",
         "time_stamp": "2020-10-30T16:30:00Z"
     },
@@ -4937,8 +5354,12 @@
         ],
         "title": "AgentVis: Visual Analysis of Agent Behavior with Hierarchical Glyphs",
         "session_id": "f-papers-finance-blockchain",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Glyphs representing complex behavior provide a useful and common means of visualizing multivariate data. However, due to their complex shape, overlapping and occlusion of glyphs is a common and prominent limitation. This limits the number of discreet data tuples that can be displayed in a given image. Using a real-world application, glyphs are used to depict agent behavior in a call center. However, many call centers feature thousands of agents. A standard approach representing thousands of agents with glyphs does not scale. To accommodate the visualization incorporating thousands of glyphs we develop clustering of overlapping glyphs into a single parent glyph. This hierarchical glyph represents the mean value of all child agent glyphs, removing overlap and reducing visual clutter. Multi-variate clustering techniques are explored and developed in collaboration with domain experts in the call center industry. We implement dynamic control of glyph clusters according to zoom level and customized distance metrics, to utilize image space with reduced overplotting and cluttering. We demonstrate our technique with examples and a usage scenario using real-world call-center data to visualize thousands of call center agents, revealing insight into their behavior and reporting feedback from expert call-center analysts.",
+        "keywords": [
+            "glyph",
+            "clustering",
+            "multivariate visualization"
+        ],
         "uid": "f-tvcg-2019090336",
         "time_stamp": "2020-10-30T17:00:00Z"
     },
@@ -5035,8 +5456,14 @@
         ],
         "title": "t-viSNE: Interactive Assessment and Interpretation of t-SNE Projections",
         "session_id": "f-papers-multidim-data",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "t-Distributed Stochastic Neighbor Embedding (t-SNE) for the visualization of multidimensional data has proven to be a popular approach, with successful applications in a wide range of domains. Despite their usefulness, t-SNE projections canbe hard to interpret or even misleading, which hurts the trustworthiness of the results. Understanding the details of t-SNE itself and the reasons behind specific patterns in its output may be a daunting task, especially for non-experts in dimensionality reduction. In this work, we present t-viSNE, an interactive tool for the visual exploration of t-SNE projections that enables analysts to inspect different aspects of their accuracy and meaning, such as the effects of hyper-parameters, distance and neighborhood preservation, densities and costs of specific neighborhoods, and the correlations between dimensions and visual patterns. We propose a coherent, accessible, and well-integrated collection of different views for the visualization of t-SNE projections. The applicability and usability of t-viSNE are demonstrated through hypothetical usage scenarios with real data sets. Finally, we present the results of a user study where the tool\u2019s effectiveness was evaluated. By bringing to light information that would normally be lost after running t-SNE, we hope to support analysts in using t-SNE and making its results better understandable.",
+        "keywords": [
+            "Interpretable t-SNE",
+            "dimensionality reduction",
+            "high-dimensional data",
+            "explainable machine learning",
+            "visualization"
+        ],
         "uid": "f-tvcg-2019070227",
         "time_stamp": "2020-10-30T17:00:00Z"
     },
@@ -5067,8 +5494,14 @@
         ],
         "title": "Why Visualize? Untangling a Large Network of Arguments",
         "session_id": "f-papers-theory",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Visualization has been deemed a useful technique by researchers and practitioners, alike, leaving a trail of arguments behind that reason why visualization works. In addition, examples of misleading usages of visualizations in information communication have occasionally been pointed out. Thus, to contribute to the fundamental understanding of our discipline, we require a comprehensive collection of arguments on \u201cwhy visualize?\u201d (or \u201cwhy not?\u201d), untangling the rationale behind positive and negative viewpoints. In this paper, we report a theoretical study to understand the underlying reasons of various arguments; their relationships (e.g., built-on, and conflict); and their respective dependencies on tasks, users, and data. We curated an argumentative network based on a collection of arguments from various fields, including information visualization, cognitive science, psychology, statistics, philosophy, and others. Our work proposes several categorizations for the arguments, and makes their relations explicit. We contribute the first comprehensive and systematic theoretical study of the arguments on visualization. Thereby, we provide a roadmap towards building a foundation for visualization theory and empirical research as well as for practical application in the critique and design of visualizations. In addition, we provide our argumentation network and argument collection online at https://whyvis.dbvis.de, supported by an interactive visualization.",
+        "keywords": [
+            "Visualization",
+            "Theory",
+            "Argument Network",
+            "Cognition",
+            "Design"
+        ],
         "uid": "f-tvcg-2019030100",
         "time_stamp": "2020-10-30T16:00:00Z"
     },
@@ -5206,8 +5639,12 @@
         ],
         "title": "A Comparison of Rendering Techniques for 3D Line Sets with Transparency",
         "session_id": "f-papers-volvis",
-        "abstract": null,
-        "keywords": [],
+        "abstract": " This paper presents a comprehensive study of rendering techniques for 3D line sets with transparency. The rendering of transparent lines is widely used for visualizing trajectories of tracer particles in flow fields. Transparency is then used to fade out lines deemed unimportant, based on, for instance, geometric properties or attributes defined along with them. Accurate blending of transparent lines requires rendering the lines in back-to-front or front-to-back order, yet enforcing this order for space-filling 3D line sets with extremely high-depth complexity becomes challenging. In this paper, we study CPU and GPU rendering techniques for transparent 3D line sets. We compare accurate and approximate techniques using optimized implementations and several benchmark data sets. We discuss the effects of data size and transparency on quality, performance, and memory consumption. Based on our study, we propose two improvements to per-pixel fragment lists and multi-layer alpha blending. The first improves the rendering speed via an improved GPU sorting operation, and the second improves rendering quality via transparency-based bucketing.",
+        "keywords": [
+            " Scientific visualization",
+            "line rendering",
+            "order-independent transparency"
+        ],
         "uid": "f-tvcg-2019080294",
         "time_stamp": "2020-10-30T16:15:00Z"
     },
@@ -5219,8 +5656,12 @@
         ],
         "title": "A Discrete Probabilistic Approach to Dense Flow Visualization",
         "session_id": "f-papers-volvis",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Dense \ufb02ow visualization is a popular visualization paradigm. Traditionally, the various models and methods in this area use a continuous formulation, resting upon the solid foundation of functional analysis. In this work, we examine a discrete formulation of dense \ufb02ow visualization. From probability theory, we derive a similarity matrix that measures the similarity between different points in the \ufb02ow domain, leading to the discovery of a whole new class of visualization models. Using this matrix, we propose a novel visualization approach consisting of the computation of spectral embeddings, i.e., characteristic domain maps, de\ufb01ned by particle mixture probabilities. These embeddings are scalar \ufb01elds that give insight into the mixing processes of the \ufb02ow on different scales. The approach of spectral embeddings is already well studied in image segmentation, and we see that spectral embeddings are connected to Fourier expansions and frequencies. We showcase the utility of our method using different 2D and 3D \ufb02ows. ",
+        "keywords": [
+            "Flow visualization",
+            "volume visualization",
+            "spectral methods"
+        ],
         "uid": "f-tvcg-2019090310",
         "time_stamp": "2020-10-30T16:30:00Z"
     },

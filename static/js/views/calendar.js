@@ -110,7 +110,7 @@ function make_cal(name) {
             time: function (schedule) {
               return '<strong>' + moment(schedule.start.getTime())
                 .tz(timezoneName)
-                .format('hh:mm') + '</strong> ' + schedule.title;
+                .format('HH:mm') + '</strong> ' + schedule.title;
             },
             milestone: function (schedule) {
               return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '"> M: ' + schedule.title + '</span>';
