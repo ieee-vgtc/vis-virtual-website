@@ -151,6 +151,12 @@ h3 {
   font: "Zilla Slab";
 }
 
+#tzNote p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+
+
 .pp-card {
   font-family: "Zilla Slab";
   box-shadow: 0 0 14px 0 var(--main-border-color);

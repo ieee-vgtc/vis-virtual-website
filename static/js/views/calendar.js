@@ -16,14 +16,28 @@ function make_cal(name) {
         .selectpicker('val', current_tz)
         .on('changed.bs.select',
           function (e, clickedIndex, isSelected, previousValue) {
-            new_tz = tzNames[clickedIndex]
+            new_tz = tzNames[clickedIndex];
 
-            // TODO: set value in cookie if we can
              const localStorage = window.localStorage;
              localStorage.setItem("tz", new_tz);
 
             window.open(window.location.pathname + '?tz=' + new_tz, '_self');
           })
+
+      $("#saveTz").on('click', function(_) {
+        const new_tz = $(".selectpicker").val();
+
+        const localStorage = window.localStorage;
+        localStorage.setItem("tz", new_tz);
+
+        window.open(window.location.pathname + '?tz=' + new_tz, '_self');
+      });
+
+      $("#resetTz").on('click', function(_) {
+        const localStorage = window.localStorage;
+        localStorage.removeItem("tz");
+        window.open(window.location.pathname, '_self');
+      });
     }
 
     setupTZSelector();

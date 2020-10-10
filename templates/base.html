@@ -179,6 +179,9 @@
   <div class="container">
     <p class="float-right"><a href="#">Back to Top</a></p>
     <p class="text-center">© 2020, {{config.organization}}</p>
+    <p class="tz-info text-center">
+      All times in <strong>GMT<span id="tzCurrent">-0600</span></strong>.  Change your timezone on <a href="/calendar.html">the schedule page</a>.
+    </p>
   </div>
 </footer>
 
@@ -198,6 +201,9 @@
       }
     });
 
+    const current_tz = getTimezone();
+    $("#tzCurrent").html(moment().tz(current_tz).format("Z"));
+
     function getTimezone() {
       const urlTz = window.getUrlParameter && getUrlParameter('tz');
       if (urlTz) return urlTz;
@@ -212,13 +218,13 @@
     function formatDate(element){
       const current_tz = getTimezone();
       let atime = moment(element.text()).clone().tz(current_tz)
-      element.html(atime.format("MMMM, Do MM YYYY"))
+      element.html(atime.format("dddd, MMMM Do, YYYY"))
     }
 
     function formatDateTime(element) {
       const current_tz = getTimezone();
       let atime = moment(element.text()).clone().tz(current_tz)
-      element.html(atime.format("MMMM, Do MM YYYY @ HH:mm ZZ"))
+      element.html(atime.format("dddd, MMMM Do, YYYY @ HH:mm"))
     }
 
     function formatTimeSpan(element, includeDate){
@@ -234,19 +240,19 @@
                                                 // seems like not considering the timezone
       if(starttime.format("D") == endtime.format("D")) {
         if (includeDate)
-          element.html(starttime.format("MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm ZZ"));
+          element.html(starttime.format("MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm"));
         else
-          element.html(starttime.format("HH:mm")+" &ndash; "+endtime.format("HH:mm ZZ"));
+          element.html(starttime.format("HH:mm")+" &ndash; "+endtime.format("HH:mm"));
       }
       else {
-        element.html(starttime.format("MMM Do @ HH:mm")+" &ndash; "+endtime.format("MMM Do @ HH:mm ZZ"))
+        element.html(starttime.format("MMM Do @ HH:mm")+" &ndash; "+endtime.format("MMM Do @ HH:mm"))
       }
     }
 
     function formatTime(element) {
       const current_tz = getTimezone();
       let atime = moment(element.text()).clone().tz(current_tz);
-      element.html(atime.format("HH:mm ZZ"));
+      element.html(atime.format("HH:mm"));
     }
 
     $(".format-just-date").each((_i, element) => {
@@ -271,7 +277,7 @@
 
   });
 </script>
-<script src="static/js/lazy_load.js"></script>
+<!-- <script src="static/js/lazy_load.js"></script> -->
 {% endblock %}
 </body>
 </html>

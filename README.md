@@ -11,7 +11,9 @@ You should receive an e-mail with an auto-generated password to the e-mail you u
 
 ### Help
 
-Feel free to visit [our Help page above](/help.html), where we have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
+All times are converted to your auto-detected timezone (as reported by your browser). If you wish to view times in a different time zone, please select a timezone in the dropdown on [the Schedule page](/calendar.html).  Each page reports the currently-displayed timezone in the footer in relation to GMT.
+
+Feel free to visit [our Help page above](/help.html), where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
 
 
 ### Acknowledgements

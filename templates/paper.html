@@ -7,13 +7,14 @@
         <h1>{{ paper.title }}</h1>
         <h2 class="py-2">{{ paper.authors | join(", ") }}</h2>
         <h3 class="py-2">DOI: TBD</h3>
-        <h4 class="py-2">Presentation time: <span class="format-date">{{ paper.time_stamp }}</span> (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
+        <h4 class="pb-2">Paper PDF: <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">{{ paper.id }}.pdf</a></h4>
+        <h4 class="pb-2">Presentation: <span class="format-date">{{ paper.time_stamp }}</span> (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
     </div>
 </div>
 <div class="row my-3">
     <div class="col-md-8">
         <figure class="figure">
-            <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/paper_images/{{ paper.id }}.png" alt="Exemplar figure" aria-describedby="figure-caption">
+            <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/vis_2020/paper_images/{{ paper.id }}.png" alt="Exemplar figure" aria-describedby="figure-caption">
             <figcaption class="figure-caption" id="figure-caption">The caption for the exemplar image will go here</figcaption>
         </figure>
     </div>

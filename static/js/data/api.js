@@ -68,7 +68,7 @@ class API {
    */
   static thumbnailPath(paper) {
     // https://ieeevis.b-cdn.net/paper_images/{{ paper.id }}.png
-    return `https://ieeevis.b-cdn.net/paper_images/${paper.id}.png`;
+    return `https://ieeevis.b-cdn.net/vis_2020/paper_images/${paper.id}.png`;
   }
 
   /**
