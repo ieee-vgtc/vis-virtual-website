@@ -4,8 +4,13 @@
 
 <div class="row mt-5">
     <div class="col-md-12">
+        {% if paper.award == "best" %}
+        <h4 class="award"><i class="fas fa-award"></i> Best Paper Award</h4>
+        {% elif paper.award == "honorable" %}
+        <h4 class="award"><i class="fas fa-medal"></i> Honorable Mention</h4>
+        {% endif %}
         <h1>{{ paper.title }}</h1>
-        <h2 class="py-2">{{ paper.authors | join(", ") }}</h2>
+        <h2 class="pb-2 mt-3">{{ paper.authors | join(", ") }}</h2>
         <h3 class="py-2">DOI: TBD</h3>
         <h4 class="pb-2">Paper PDF: <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">{{ paper.id }}.pdf</a></h4>
         <h4 class="pb-2">Presentation: <span class="format-date">{{ paper.time_stamp }}</span> (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
@@ -14,8 +19,12 @@
 <div class="row my-3">
     <div class="col-md-8">
         <figure class="figure">
+            {% if paper.has_image %}
             <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/vis_2020/paper_images/{{ paper.id }}.png" alt="Exemplar figure" aria-describedby="figure-caption">
-            <figcaption class="figure-caption" id="figure-caption">The caption for the exemplar image will go here</figcaption>
+            {% else %}
+            <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/vis_2020/paper_images/blank.png" alt="Exemplar figure, but none was provided by the authors" aria-describedby="figure-caption">
+            {% endif %}
+            <!-- <figcaption class="figure-caption" id="figure-caption">The caption for the exemplar image will go here</figcaption> -->
         </figure>
     </div>
 </div>

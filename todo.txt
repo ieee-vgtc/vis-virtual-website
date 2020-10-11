@@ -2,7 +2,7 @@
 [X] font in calendar
 [X] hover button style (needs border?)
 [X] spacing between adjacent buttons
-[X] searchbox background 
+[X] searchbox background
 [X] comma in footer
 [X] remove registration chatbot
 
@@ -24,34 +24,39 @@
 Note: Straight up rejected all calendar.js changes; afaik there are no functional changes, just moving to async
 
 # json dump notes
-[ ] visap missing session ID
-[ ] vizsec missing session ID
-[ ] vis supporters missing session ID
+[ ] viscomm papers missing uid's?
 [ ]
 
 # date parsing
-[ ] Save (calendar.js) and read (base.html) timezone from cookie, if possible
+[x] Save (calendar.js) and read (base.html) timezone from cookie, if possible
+[x] Add note to footer with link to change
 
 ## Session pages
-[ ] Add <hr> styling to match ieeevis.org styling
+[x] Add <hr> styling to match ieeevis.org styling
+[ ] Add icons for paper PDFs and awards
 
 ## Papers page
-[ ] Fix indexing of all papers
+[x] Fix indexing of all papers
 [ ] Customize navigation of papers
 [ ] Update paper vis
 
 ## Paper pages
 [ ] Correctly style images/captions
+[ ] Add icons for paper PDFs, DOI, awards
+[x] Remove image captions (not available yet)
+[ ] Re-instate image captions?
+[x] Add image placeholder (has_image is false)
 
 ## Session pages
 [ ] add youtube integration
-[ ] add discord integration
+[x] add discord integration
+[ ] Update Discord channel link (channel id / category)
 
 ## Papers / Workshops listing
 [ ] Format items nicely (without cards?)
 
 ## Content
-[ ] Remove "chat" item
+[x] Remove "chat" item
 [ ] Parse paper metadata/figures/embedding visualization
 [ ] Add FAQ entries
 
@@ -59,4 +64,4 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [X] remove python lint task (not useful)
 [ ] .. and revive?
 [ ] add auth0 integration
-[ ] hook up CDN links
+[x] hook up CDN links

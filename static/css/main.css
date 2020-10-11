@@ -454,3 +454,21 @@ hr::after {
   height: 6px;
   box-sizing: content-box;
 }
+
+/* session page styling */
+
+.discord-description {
+  color: var(--icon-color);
+  font-size: 0.85rem;
+}
+
+/* paper page styling */
+
+.award {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--accent-color);
+  outline: 2px solid var(--accent-color);
+  outline-offset: 6px;
+}

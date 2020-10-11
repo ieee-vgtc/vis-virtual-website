@@ -57,8 +57,8 @@ def main(site_data_path):
 
 
         elif typ == "paper_list":
-            for id, p in site_data[typ].items():
-                by_uid[typ][id] = p
+            for paper_id, p in site_data[typ].items():
+                by_uid[typ][paper_id] = p
 
         else:
             for p in site_data[typ]:
@@ -266,6 +266,8 @@ def format_paper(v):
         "time_stamp": v["time_stamp"],
         "session_id": v["session_id"],
         "session_title": by_uid["sessions"][v["session_id"]]['title'],
+        "award": v["paper_award"],
+        "has_image": v["has_image"],
 
         # for papers.html:
         "sessions": [by_uid["sessions"][v["session_id"]]['title']],
