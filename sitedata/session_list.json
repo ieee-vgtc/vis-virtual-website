@@ -44,7 +44,11 @@
                         "time_end": "2020-10-25T15:30:00Z",
                         "uid": "a-ldav-1026"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "In Situ",
@@ -89,7 +93,11 @@
                         "time_end": "2020-10-25T17:30:00Z",
                         "uid": "a-ldav-1013"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Rendering and Displays",
@@ -134,7 +142,11 @@
                         "time_end": "2020-10-25T19:30:00Z",
                         "uid": "a-ldav-1019"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Panel and Closing",
@@ -171,7 +183,11 @@
                         "time_start": "2020-10-25T21:20:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -234,7 +250,11 @@
                         "time_end": "2020-10-25T15:30:00Z",
                         "uid": "a-beliv-3678"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Evaluation Methods & Extensions",
@@ -292,7 +312,11 @@
                         "time_start": "2020-10-25T17:00:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Provocations",
@@ -336,7 +360,11 @@
                         "time_end": "2020-10-25T19:20:00Z",
                         "uid": "a-beliv-1854"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Design Methods & Extensions",
@@ -394,7 +422,11 @@
                         "time_start": "2020-10-25T21:00:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -463,7 +495,11 @@
                         "time_start": "2020-10-25T15:20:00Z",
                         "time_end": "2020-10-25T15:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Session 2",
@@ -590,7 +626,11 @@
                         "time_start": "2020-10-25T17:24:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Session 3",
@@ -646,7 +686,11 @@
                         "time_start": "2020-10-25T19:20:00Z",
                         "time_end": "2020-10-25T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Session 4",
@@ -778,7 +822,11 @@
                         "time_start": "2020-10-25T21:24:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -879,7 +927,11 @@
                         "time_start": "2020-10-25T17:03:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -978,7 +1030,11 @@
                         "time_start": "2020-10-25T17:20:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1016,7 +1072,11 @@
                         "time_start": "2020-10-25T16:00:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1137,7 +1197,11 @@
                         "time_start": "2020-10-25T17:25:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1240,7 +1304,11 @@
                         "time_start": "2020-10-25T17:25:00Z",
                         "time_end": "2020-10-25T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1316,7 +1384,11 @@
                         "time_start": "2020-10-25T21:00:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1468,7 +1540,11 @@
                         "time_start": "2020-10-25T21:06:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1586,7 +1662,11 @@
                         "time_start": "2020-10-25T21:05:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1766,7 +1846,11 @@
                         "time_start": "2020-10-25T21:18:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1890,7 +1974,11 @@
                         "time_start": "2020-10-25T21:15:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -1979,7 +2067,11 @@
                         "time_start": "2020-10-26T16:00:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -2054,7 +2146,11 @@
                         "time_start": "2020-10-26T15:15:00Z",
                         "time_end": "2020-10-26T15:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Session 2",
@@ -2127,7 +2223,11 @@
                         "time_start": "2020-10-26T17:20:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Session 3",
@@ -2168,7 +2268,11 @@
                         "time_end": "2020-10-26T19:30:00Z",
                         "uid": "a-vastchallenge-1037"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Session 4",
@@ -2198,7 +2302,11 @@
                         "time_start": "2020-10-26T20:05:00Z",
                         "time_end": "2020-10-26T20:50:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -2327,7 +2435,11 @@
                         "time_start": "2020-10-26T16:55:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -2495,7 +2607,11 @@
                         "time_start": "2020-10-26T17:30:00Z",
                         "time_end": "2020-10-26T17:35:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -2637,7 +2753,11 @@
                         "time_start": "2020-10-26T17:10:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -2831,7 +2951,11 @@
                         "time_start": "2020-10-26T17:20:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3014,7 +3138,11 @@
                         "time_start": "2020-10-26T17:20:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3068,7 +3196,11 @@
                         "time_start": "2020-10-26T17:05:00Z",
                         "time_end": "2020-10-26T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Invited Talk and Panel",
@@ -3100,7 +3232,11 @@
                         "time_start": "2020-10-26T18:25:00Z",
                         "time_end": "2020-10-26T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Invited Talks and Closing",
@@ -3148,7 +3284,11 @@
                         "time_start": "2020-10-26T21:25:00Z",
                         "time_end": "2020-10-26T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3186,7 +3326,11 @@
                         "time_start": "2020-10-26T20:00:00Z",
                         "time_end": "2020-10-26T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3268,7 +3412,11 @@
                         "time_start": "2020-10-26T21:00:00Z",
                         "time_end": "2020-10-26T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3394,7 +3542,11 @@
                         "time_start": "2020-10-26T20:40:00Z",
                         "time_end": "2020-10-26T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3493,7 +3645,11 @@
                         "time_start": "2020-10-26T21:00:00Z",
                         "time_end": "2020-10-26T21:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3627,7 +3783,11 @@
                         "time_start": "2020-10-26T20:40:00Z",
                         "time_end": "2020-10-26T21:15:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3782,7 +3942,11 @@
                         "time_start": "2020-10-27T16:00:00Z",
                         "time_end": "2020-10-27T17:00:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -3869,7 +4033,11 @@
                         "time_end": "2020-10-27T19:30:00Z",
                         "uid": "f-tvcg-2019020058"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Libraries, Toolkits & Systems",
@@ -3941,7 +4109,11 @@
                         "time_end": "2020-10-27T19:30:00Z",
                         "uid": "f-info-1015"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Perception & Color",
@@ -4013,7 +4185,11 @@
                         "time_end": "2020-10-27T19:30:00Z",
                         "uid": "f-info-1225"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Vulnerabilities in Machine Learning",
@@ -4085,7 +4261,11 @@
                         "time_end": "2020-10-27T19:30:00Z",
                         "uid": "f-vast-1087"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Making Sense of Text",
@@ -4158,7 +4338,11 @@
                         "time_end": "2020-10-28T15:30:00Z",
                         "uid": "f-vast-1187"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Sense & Explainabilities",
@@ -4230,7 +4414,11 @@
                         "time_end": "2020-10-28T15:30:00Z",
                         "uid": "f-vast-1041"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Software Visualization",
@@ -4302,7 +4490,11 @@
                         "time_end": "2020-10-28T15:30:00Z",
                         "uid": "f-vast-1203"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Supporting Experts",
@@ -4375,7 +4567,11 @@
                         "time_end": "2020-10-28T17:30:00Z",
                         "uid": "f-tvcg-2019070231"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Time",
@@ -4447,7 +4643,11 @@
                         "time_end": "2020-10-28T17:30:00Z",
                         "uid": "f-tvcg-2019100378"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Molecules, Cells, & Vessels",
@@ -4509,7 +4709,11 @@
                         "time_end": "2020-10-28T17:15:00Z",
                         "uid": "f-tvcg-2018080304"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Dynamic Graphs & Hypergraphs",
@@ -4581,7 +4785,11 @@
                         "time_end": "2020-10-28T19:30:00Z",
                         "uid": "f-vast-1032"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Neural Networks",
@@ -4653,7 +4861,11 @@
                         "time_end": "2020-10-28T19:30:00Z",
                         "uid": "f-tvcg-2019100374"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Uncertainty",
@@ -4725,7 +4937,11 @@
                         "time_end": "2020-10-28T19:30:00Z",
                         "uid": "f-tvcg-20192962404"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Planets & Space",
@@ -4797,7 +5013,11 @@
                         "time_end": "2020-10-29T15:30:00Z",
                         "uid": "f-scivis-1208"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Guidelines & Design Spaces",
@@ -4869,7 +5089,11 @@
                         "time_end": "2020-10-29T15:30:00Z",
                         "uid": "f-vast-1197"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Immersion",
@@ -4942,7 +5166,11 @@
                         "time_end": "2020-10-29T15:30:00Z",
                         "uid": "f-info-1169"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Event Sequences",
@@ -5014,7 +5242,11 @@
                         "time_end": "2020-10-29T15:30:00Z",
                         "uid": "f-info-1377"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Urban Spaces",
@@ -5093,7 +5325,11 @@
                         "time_end": "2020-10-29T17:30:00Z",
                         "uid": "f-tvcg-2018110405"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Communities & Communication",
@@ -5165,7 +5401,11 @@
                         "time_end": "2020-10-29T17:30:00Z",
                         "uid": "f-info-1288"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Geospatial Data",
@@ -5237,7 +5477,11 @@
                         "time_end": "2020-10-29T17:30:00Z",
                         "uid": "f-info-1352"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Intelligent Systems",
@@ -5309,7 +5553,11 @@
                         "time_end": "2020-10-29T17:30:00Z",
                         "uid": "f-vast-1070"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Topology & Scalar Fields",
@@ -5381,7 +5629,11 @@
                         "time_end": "2020-10-29T19:30:00Z",
                         "uid": "f-scivis-1141"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Graphs",
@@ -5454,7 +5706,11 @@
                         "time_end": "2020-10-29T19:30:00Z",
                         "uid": "f-info-1207"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Automate & Recommend",
@@ -5527,7 +5783,11 @@
                         "time_end": "2020-10-29T19:30:00Z",
                         "uid": "f-vast-1247"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Deep Learning for Spatial Data",
@@ -5600,7 +5860,11 @@
                         "time_end": "2020-10-29T19:30:00Z",
                         "uid": "f-tvcg-2019080255"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Decision Making & Reasoning",
@@ -5672,7 +5936,11 @@
                         "time_end": "2020-10-30T15:30:00Z",
                         "uid": "f-info-1306"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Cognition & Emotion",
@@ -5744,7 +6012,11 @@
                         "time_end": "2020-10-30T15:30:00Z",
                         "uid": "f-tvcg-2019090334"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Sampling",
@@ -5807,7 +6079,11 @@
                         "time_end": "2020-10-30T15:15:00Z",
                         "uid": "f-vast-1204"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Health & Disease",
@@ -5880,7 +6156,11 @@
                         "time_end": "2020-10-30T15:30:00Z",
                         "uid": "f-scivis-1175"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Finance & Blockchain",
@@ -5943,7 +6223,11 @@
                         "time_end": "2020-10-30T17:15:00Z",
                         "uid": "f-tvcg-2019090336"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Multidimensional Data",
@@ -6015,7 +6299,11 @@
                         "time_end": "2020-10-30T17:30:00Z",
                         "uid": "f-scivis-1140"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Theory",
@@ -6087,7 +6375,11 @@
                         "time_end": "2020-10-30T17:30:00Z",
                         "uid": "f-info-1208"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Volume Visualization",
@@ -6161,7 +6453,11 @@
                         "time_end": "2020-10-30T17:30:00Z",
                         "uid": "f-scivis-1038"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -6279,7 +6575,11 @@
                         "time_end": "2020-10-27T19:30:00Z",
                         "uid": "s-short-1166"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Geospatial, Finance, and Health",
@@ -6382,7 +6682,11 @@
                         "time_end": "2020-10-28T15:30:00Z",
                         "uid": "s-short-1236"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Systems, Libraries, and Algorithms",
@@ -6475,7 +6779,11 @@
                         "time_end": "2020-10-28T17:20:00Z",
                         "uid": "s-short-1133"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Interaction and Animation",
@@ -6557,7 +6865,11 @@
                         "time_end": "2020-10-28T19:10:00Z",
                         "uid": "s-short-1235"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Theory, Cognition, and Sensemaking",
@@ -6659,7 +6971,11 @@
                         "time_end": "2020-10-29T15:30:00Z",
                         "uid": "s-short-1231"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Text and Communication",
@@ -6742,7 +7058,11 @@
                         "time_end": "2020-10-29T17:10:00Z",
                         "uid": "s-short-1181"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Visualizing Machine Learning",
@@ -6845,7 +7165,11 @@
                         "time_end": "2020-10-30T15:30:00Z",
                         "uid": "s-short-1227"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -6881,7 +7205,11 @@
                         "time_start": "2020-10-27T18:00:00Z",
                         "time_end": "2020-10-27T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -6974,7 +7302,11 @@
                         "time_start": "2020-10-27T19:17:00Z",
                         "time_end": "2020-10-27T19:40:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7030,7 +7362,11 @@
                         "time_start": "2020-10-27T20:38:00Z",
                         "time_end": "2020-10-27T20:53:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7115,7 +7451,11 @@
                         "time_start": "2020-10-27T20:45:00Z",
                         "time_end": "2020-10-27T21:15:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "VISAP Session 1",
@@ -7220,7 +7560,11 @@
                         "time_start": "2020-10-28T15:15:00Z",
                         "time_end": "2020-10-28T15:25:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7250,7 +7594,11 @@
                         "time_start": "2020-10-27T19:40:00Z",
                         "time_end": "2020-10-27T20:40:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7308,7 +7656,11 @@
                         "time_start": "2020-10-28T15:05:00Z",
                         "time_end": "2020-10-28T15:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Network Analysis and Incident Response, Practitioner talks",
@@ -7380,7 +7732,11 @@
                         "time_start": "2020-10-28T17:10:00Z",
                         "time_end": "2020-10-28T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Short Papers, Posters and Closing",
@@ -7441,7 +7797,11 @@
                         "time_start": "2020-10-28T19:00:00Z",
                         "time_end": "2020-10-28T19:10:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7468,7 +7828,11 @@
                         "time_start": "2020-10-28T15:45:00Z",
                         "time_end": "2020-10-28T16:00:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Industrial Keynote #2",
@@ -7489,7 +7853,11 @@
                         "time_start": "2020-10-29T15:45:00Z",
                         "time_end": "2020-10-29T16:00:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Industrial Keynote #3",
@@ -7510,7 +7878,11 @@
                         "time_start": "2020-10-30T15:45:00Z",
                         "time_end": "2020-10-30T16:00:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7589,7 +7961,11 @@
                         "time_end": "2020-10-28T17:30:00Z",
                         "uid": "f-cga-6"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             },
             {
                 "title": "Toward Better Visual Analysis",
@@ -7662,7 +8038,11 @@
                         "time_end": "2020-10-29T17:30:00Z",
                         "uid": "f-cga-12"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7783,7 +8163,11 @@
                         "time_start": "2020-10-28T19:28:00Z",
                         "time_end": "2020-10-28T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7812,7 +8196,11 @@
                         "time_start": "2020-10-28T19:40:00Z",
                         "time_end": "2020-10-28T20:40:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7904,7 +8292,11 @@
                         "time_start": "2020-10-29T15:10:00Z",
                         "time_end": "2020-10-29T15:20:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7938,7 +8330,11 @@
                         "time_start": "2020-10-29T18:00:00Z",
                         "time_end": "2020-10-29T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -7996,7 +8392,11 @@
                         "time_start": "2020-10-29T18:30:00Z",
                         "time_end": "2020-10-29T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8023,7 +8423,11 @@
                         "time_start": "2020-10-29T19:40:00Z",
                         "time_end": "2020-10-29T20:40:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8059,7 +8463,11 @@
                         "time_start": "2020-10-29T20:10:00Z",
                         "time_end": "2020-10-29T21:00:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8086,7 +8494,11 @@
                         "time_start": "2020-10-29T21:15:00Z",
                         "time_end": "2020-10-29T22:15:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8155,7 +8567,11 @@
                         "time_start": "2020-10-30T14:48:00Z",
                         "time_end": "2020-10-30T15:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8193,7 +8609,11 @@
                         "time_start": "2020-10-30T16:00:00Z",
                         "time_end": "2020-10-30T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8253,7 +8673,11 @@
                         "time_start": "2020-10-30T17:00:00Z",
                         "time_end": "2020-10-30T17:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     },
@@ -8289,7 +8713,11 @@
                         "time_start": "2020-10-30T19:00:00Z",
                         "time_end": "2020-10-30T19:30:00Z"
                     }
-                ]
+                ],
+                "discord_category": "",
+                "discord_channel": "general",
+                "discord_channel_id": 756701302649651230,
+                "youtube_url": "https://youtu.be/m-2eoQGoxFo"
             }
         ]
     }

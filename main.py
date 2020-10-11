@@ -268,6 +268,7 @@ def format_paper(v):
         "session_title": by_uid["sessions"][v["session_id"]]['title'],
         "award": v["paper_award"],
         "has_image": v["has_image"],
+        "image_caption": v["image_caption"],
 
         # for papers.html:
         "sessions": [by_uid["sessions"][v["session_id"]]['title']],
@@ -319,8 +320,6 @@ def format_session(v):
         "chair": v["Chair"],
         "startTime": v["StartFixed"],
         "endTime": v["EndFixed"],
-        "youtube": v["YouTube"],
-        "discord": v["Discord"],
     }
 
 
@@ -357,6 +356,11 @@ def format_by_session_list(v):
         "parent_id": v["parent_id"],
         "fullTitle": fullTitle,
         "redundantTitle": redundantTitle,
+        "discord_category": v["discord_category"],
+        "discord_channel": v["discord_channel"],
+        "discord_channel_id": v["discord_channel_id"],
+        "youtube_url": v["youtube_url"],
+        "youtube_id": v["youtube_url"].split("/")[-1],
     }
 
 
@@ -426,7 +430,6 @@ def chat():
 
 # FRONT END SERVING
 
-## ALPER TODO: not sure what uses this (papers.html?), but we don't need it right now
 @app.route("/papers.json")
 def paper_json():
     json = []

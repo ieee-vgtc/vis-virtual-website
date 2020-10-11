@@ -457,9 +457,13 @@ hr::after {
 
 /* session page styling */
 
-.discord-description {
+.integration-description {
   color: var(--icon-color);
   font-size: 0.85rem;
+}
+
+.integration-description emph {
+  color: var(--accent-color);
 }
 
 /* paper page styling */

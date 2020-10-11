@@ -67,7 +67,9 @@ class API {
    * @return {string}
    */
   static thumbnailPath(paper) {
-    // https://ieeevis.b-cdn.net/paper_images/{{ paper.id }}.png
+    if (!paper.has_image)
+      return "https://ieeevis.b-cdn.net/vis_2020/paper_images/blank.png";
+
     return `https://ieeevis.b-cdn.net/vis_2020/paper_images/${paper.id}.png`;
   }
 
