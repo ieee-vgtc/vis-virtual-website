@@ -286,6 +286,20 @@ def format_paper(v):
         "pdf_url": v.get("pdf_url", ""),
     }
 
+def format_paper_list(v):
+    list_keys = ["authors"]
+    list_fields = {}
+    for key in list_keys:
+        list_fields[key] = extract_list_field(v, key)
+
+    return {
+        "id": v["uid"],
+        "title": v["title"],
+        "authors": list_fields["authors"],
+        "award": v["paper_award"],
+        ## eventually, FF/DOI?
+    }
+
 
 ## new format for paper_list.json
 # def format_paper_list(v):
@@ -417,8 +431,6 @@ def session(session):
     return render_template("session.html", **data)
 
 
-## TODO: event landing page
-## (no livestream links here, just links out to each session and maybe has more descriptive metadata)
 @app.route('/event_<event>.html')
 def event(event):
     uid = event
@@ -435,6 +447,23 @@ def posters():
     return render_template("posters.html", **data)
 
 
+@app.route("/paperlist.html")
+def allpapers():
+    data = _data()
+    data["papers"] = {
+        'full': [],
+        'short': [],
+    }
+    for uid, v in site_data["paper_list"].items():
+        if uid[0] == "f":
+            data['papers']['full'].append(format_paper_list(v))
+        if uid[0] == "s":
+            data['papers']['short'].append(format_paper_list(v))
+
+    return render_template("paperlist.html", **data)
+
+
+# ALPER TODO: remove
 @app.route("/chat.html")
 def chat():
     data = _data()

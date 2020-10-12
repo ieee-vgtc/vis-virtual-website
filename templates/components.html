@@ -63,7 +63,7 @@ workshopgroup
     {% if not skip_event_title %}
     <h2><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
     {% endif %}
-    {% if not session.redundantTitle %}
+    {% if skip_event_title or not session.redundantTitle %}
     <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
     {% endif %}
     <h4 class="{% if full_date %}format-date-span-full{% else %}format-date-span{% endif %}">{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
