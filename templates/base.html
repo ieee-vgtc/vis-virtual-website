@@ -94,7 +94,7 @@
 ('index.html', 'Home'),
 ('calendar.html', 'Schedule'),
 ('papers.html', 'Papers'),
-('workshops.html', 'Workshops'),
+('events.html', 'All events'),
 ('help.html', 'Help'),
 ('http://www.ieeevis.org', 'Main Site'),
 ] -%}
@@ -240,12 +240,12 @@
                                                 // seems like not considering the timezone
       if(starttime.format("D") == endtime.format("D")) {
         if (includeDate)
-          element.html(starttime.format("MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm"));
+          element.html(starttime.format("dddd, MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm"));
         else
           element.html(starttime.format("HH:mm")+" &ndash; "+endtime.format("HH:mm"));
       }
       else {
-        element.html(starttime.format("MMM Do @ HH:mm")+" &ndash; "+endtime.format("MMM Do @ HH:mm"))
+        element.html(starttime.format("dddd, MMM Do @ HH:mm")+" &ndash; "+endtime.format("dddd, MMM Do @ HH:mm"))
       }
     }
 

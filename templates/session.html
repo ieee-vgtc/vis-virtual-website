@@ -21,15 +21,18 @@
     </div>
 </div>
 {% endif %}
-<div class="row my-5">
-    <div class="col-lg-6">
+
+<div class="row mt-5">
+    <div class="col-lg-10">
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        <iframe width="520" height="293" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p class="integration-description pt-2">Direct link to YouTube stream: <a href="{{ session.youtube_url }}">{{ session.youtube_url }}</a></p>
     </div>
-    <div class="col-lg-6">
-        <iframe src="https://titanembeds.com/embed/741879515013316629?theme=DiscordDark&defaultChannel={{ session.discord_channel_id }}" width="640" height="480" frameborder="0"></iframe>
+</div>
+<div class="row my-3">
+    <div class="col-lg-10">
+        <iframe src="https://titanembeds.com/embed/741879515013316629?theme=DiscordDark&defaultChannel={{ session.discord_channel_id }}" width="920" height="518" frameborder="0"></iframe>
         <p class="integration-description pt-2">You can also join this channel in your native Discord application by <a href="https://discord.gg/dxy2Uxp" target="_blank">connecting to the server</a> and joining the <emph>#{{ session.discord_channel }}</emph> channel.  <a href="/help.html#tab-discord" target="_blank">Help &raquo;</a></p>
     </div>
 </div>
@@ -39,7 +42,8 @@
 {% if session.timeSlots %}
 <div class="row my-4">
     <div class="col-md-12">
-        <h2>In this session:</h2>
+        <h2>Presentations in this session:</h2>
+        <p>You may want to also jump to the parent event to see related presentations: <a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></p>
     </div>
 </div>
 {% for timeslot in session.timeSlots %}

@@ -51,6 +51,8 @@ def main(site_data_path):
                         "event": p["event"],
                         "event_type": p["event_type"],
                         "parent_id": session_id,
+                        "event_description": p["event_description"],
+                        "event_url": p["event_url"],
                     })
 
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
@@ -230,6 +232,14 @@ def schedule():
 
     return render_template("schedule.html", **data)
 
+@app.route("/events.html")
+def events():
+    data = _data()
+    all_events = [format_session_as_event(event_item, event_uid) for event_uid, event_item in by_uid['events'].items()]
+    data['events'] = sorted(all_events, key=lambda e: e['abbr_type'])
+    data['colors'] = data['config']['calendar']['colors']
+    return render_template("events.html", **data)
+
 
 # ALPER TODO: we should just special-case particular sessions and render them under this route
 @app.route("/workshops.html")
@@ -305,21 +315,22 @@ def format_workshop(v):
     }
 
 
-def format_session(v):
+def format_session_as_event(v, uid):
     list_keys = ['Organizers']
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
     return {
-        "id": v["UID"],
-        "title": v["Title"],
-        "type": v["Type"],
-        "abstract": v["Abstract"],
-        "organizers": list_fields["Organizers"],
-        "chair": v["Chair"],
-        "startTime": v["StartFixed"],
-        "endTime": v["EndFixed"],
+        "id": uid,
+        "title": v["event"],
+        "type": v["event_type"],
+        "abbr_type": v["event_type"].split(" ")[0].lower(),
+        "abstract": v["event_description"],
+        "url": v["event_url"],
+        "startTime": v["sessions"][0]["time_start"],
+        "endTime": v["sessions"][-1]["time_end"],
+        "sessions": [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]],
     }
 
 
@@ -351,9 +362,11 @@ def format_by_session_list(v):
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
-        "event": v["event"],
-        "event_type": v["event_type"],
-        "parent_id": v["parent_id"],
+        "event": v["event"], # backloaded from parent event
+        "event_type": v["event_type"], # backloaded from parent event
+        "parent_id": v["parent_id"], # backloaded from parent event
+        "event_description": v["event_description"], # backloaded from parent event
+        "event_url": v["event_url"], # backloaded from parent event
         "fullTitle": fullTitle,
         "redundantTitle": redundantTitle,
         "discord_category": v["discord_category"],
@@ -409,9 +422,9 @@ def session(session):
 @app.route('/event_<event>.html')
 def event(event):
     uid = event
-    v = by_uid['session_list'][uid]
+    v = by_uid['events'][uid]
     data = _data()
-    data["event"] = format_session(v)
+    data["event"] = format_session_as_event(v, uid)
     return render_template("event.html", **data)
 
 
@@ -462,6 +475,8 @@ def generator():
         yield "workshop", {"workshop": str(workshop["UID"])}
     for session in by_uid["sessions"].keys():
         yield "session", {"session": str(session)}
+    for event in by_uid["events"].keys():
+        yield "event", {"event": str(event)}
 
     for key in site_data:
         yield "serve", {"path": key}

@@ -1,0 +1,32 @@
+{% set page_title = event.title %}
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h1>{{ event.title }}</h1>
+        {% if event.url %}
+        <h2 class="text-muted">Website: <a href="{{ event.url }}">{{ event.url }}</a></h2>
+        {% endif %}
+        {% if event.organizers %}
+        <h2 class="text-muted">Organizers: {{ event.organizers | join(", ") }}</h2>
+        {% endif %}
+        <h3 class="text-muted format-date-span-full">{{ event.startTime }} &ndash; {{ event.endTime }}</h3>
+    </div>
+</div>
+
+{% if session.abstract %}
+<div class="row">
+    <div class="col-md-8">
+        <p>{{ session.abstract }}</p>
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+
+{{ components.session_listing(event.sessions, config["calendar"]["colors"], True, True) }}
+
+
+{% endblock %}

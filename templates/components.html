@@ -51,15 +51,22 @@ workshopgroup
     <h1 class="format-date-span-full">{{ sessions_by_time[timeslot].startTime }} &ndash; {{ sessions_by_time[timeslot].endTime }}</h1>
   </div>
 </div>
-{% for session in sessions_by_time[timeslot].sessions %}
+{{ session_listing(sessions_by_time[timeslot].sessions, config_calendar_colors, False, False) }}
+{% endfor %}
+{%- endmacro %}
+
+{% macro session_listing(sessions, config_calendar_colors, full_date, skip_event_title) -%}
+{% for session in sessions %}
 <div class="row py-3">
 <div class="col-md-12 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
     <span class="session-type" style="color: {{ config_calendar_colors[session.type] }}">{{ session.type }}</span>
+    {% if not skip_event_title %}
     <h2><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
+    {% endif %}
     {% if not session.redundantTitle %}
     <h3><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
     {% endif %}
-    <h4 class="format-date-span">{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
+    <h4 class="{% if full_date %}format-date-span-full{% else %}format-date-span{% endif %}">{{ session.startTime }} &ndash; {{ session.endTime }}</h4>
     {% if session.chair %}
     <h5>Chair: {{ session.chair | join(", ") }}</h5>
     {% elif session.organizers %}
@@ -68,7 +75,6 @@ workshopgroup
     <p>{{ session.timeSlots | length }} presentations in this session, <a href="session_{{session.id}}.html">see more &raquo;</a></p>
   </div>
 </div>
-{% endfor %}
 {% endfor %}
 {%- endmacro %}
 

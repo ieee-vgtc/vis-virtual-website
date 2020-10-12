@@ -22,9 +22,9 @@
             {% if paper.has_image %}
             <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/vis_2020/paper_images/{{ paper.id }}.png" alt="Exemplar figure" aria-describedby="figure-caption">
             {% else %}
-            <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/vis_2020/paper_images/blank.png" alt="Exemplar figure, but none was provided by the authors" aria-describedby="figure-caption">
+            <img class="figure-img img-fluid" src="https://ieeevis.b-cdn.net/vis_2020/paper_images/blank.png" alt="Exemplar figure, but none was provided by the authors">
             {% endif %}
-            <!-- <figcaption class="figure-caption" id="figure-caption">The caption for the exemplar image will go here</figcaption> -->
+            <figcaption class="figure-caption" id="figure-caption">{{ paper.image_caption }}</figcaption>
         </figure>
     </div>
 </div>
