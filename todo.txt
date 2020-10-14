@@ -15,13 +15,18 @@
 [x] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
 [x] session listing: parse and format dates based on current timezone through javascript
 [x] day listing: better support non-US timezones when a single day's events straddle multiple days
-[ ] dev: store timezone in cookie (see "date parsing" below)
+[x] dev: store timezone in cookie (see "date parsing" below)
+[ ] Stretch supporters event across all events (W/Th/F)
+[ ] Add more details to "VIS Opening"
 
 # Merge with Mini-Conf 1.5
 [x] Update favicon
 [x] Delete data we're not using
 [x] Remove fonts we're not using (base.html header)
 Note: Straight up rejected all calendar.js changes; afaik there are no functional changes, just moving to async
+
+# Supporters
+[ ] Add supporters to footer of website (on the right on the homepage)
 
 # json dump notes
 [ ] viscomm papers missing uid's?
@@ -33,6 +38,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 
 ## Session pages
 [x] Add <hr> styling to match ieeevis.org styling
+[ ] Add zoom links
 [ ] Add icons for paper PDFs and awards
 
 ## Papers page
@@ -46,11 +52,14 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [x] Remove image captions (not available yet)
 [ ] Re-instate image captions?
 [x] Add image placeholder (has_image is false)
+[ ] Add image VIS placeholder
+[ ] Calendar links from pages
 
 ## Session pages
 [ ] add youtube integration
 [x] add discord integration
 [ ] Update Discord channel link (channel id / category)
+[ ] Calendar links from pages
 
 ## Papers / Workshops listing
 [ ] Format items nicely (without cards?)
