@@ -52,7 +52,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [x] Remove image captions (not available yet)
 [ ] Re-instate image captions?
 [x] Add image placeholder (has_image is false)
-[ ] Add image VIS placeholder
+[ ] Add image VIS placeholder (generic VIS placeholder)
 [ ] Calendar links from pages
 
 ## Session pages
@@ -64,13 +64,22 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 ## Papers / Workshops listing
 [ ] Format items nicely (without cards?)
 
+## Award page
+[ ] Create static page
+
+## Keynote/capstone speakers
+[ ] Create static page
+[ ] Bio / abstract / title
+
 ## Content
 [x] Remove "chat" item
 [ ] Parse paper metadata/figures/embedding visualization
 [ ] Add FAQ entries
+[ ] ... add pointer to conferene chairs from FAQ
 
 ## Dev tasks
 [X] remove python lint task (not useful)
 [ ] .. and revive?
 [ ] add auth0 integration
+[ ] ... only restrict auth to paper/session pages
 [x] hook up CDN links

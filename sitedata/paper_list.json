@@ -243,7 +243,7 @@
         "time_stamp": "2020-10-25T18:00:00Z",
         "has_image": true,
         "paper_award": "",
-        "image_caption": "Interactive visualization of an isosurface of a ~1TB dataset entirely in the web browser. The full data is a float64 10240\u00c3\u20147680\u00c3\u20141536 grid computed by a DNS simulation. The isosurface is interactively computed and visualized entirely in the browser using our GPU isosurface computation algorithm for block-compressed data, after applying advanced precision and resolution trade-offs. The surface consists of 137.5M triangles and is computed in 526ms on an RTX 2070 using WebGPU in Chrome and rendered at 30FPS at 1280\u00c3\u2014720. The original surface, shown in the right split image, consists of 4.3B triangles and was computed with VTK's Flying Edges filter on a quad-socket Xeon server in 78s using 1.3TB of memory."
+        "image_caption": "Interactive visualization of an isosurface of a ~1TB dataset entirely in the web browser. The full data is a float64 10240x7680x1536 grid computed by a DNS simulation. The isosurface is interactively computed and visualized entirely in the browser using our GPU isosurface computation algorithm for block-compressed data, after applying advanced precision and resolution trade-offs. The surface consists of 137.5M triangles and is computed in 526ms on an RTX 2070 using WebGPU in Chrome and rendered at 30FPS at 1280x720. The original surface, shown in the right split image, consists of 4.3B triangles and was computed with VTK's Flying Edges filter on a quad-socket Xeon server in 78s using 1.3TB of memory."
     },
     "a-ldav-1024": {
         "authors": [
@@ -726,23 +726,6 @@
         "paper_award": "",
         "image_caption": "Visualizing a Large Spatiotemporal Collection of Historic Photography with a Generous Interface"
     },
-    "a-vds-1001": {
-        "authors": [
-            "Eren Cakmak",
-            "Dominik J\u00e4ckle",
-            "Tobias Schreck",
-            "Daniel Keim"
-        ],
-        "title": "dg2pix: Pixel-Based Visual Analysis of Dynamic Graphs",
-        "session_id": "a-vds",
-        "abstract": null,
-        "keywords": [],
-        "uid": "a-vds-1001",
-        "time_stamp": "2020-10-26T14:00:00Z",
-        "has_image": true,
-        "paper_award": "",
-        "image_caption": "dg2pix provides a scalable overview of a dynamic graph, supports the exploration of long sequences of high dimensional graph data, and enables the identification and comparison of similar temporal states. The approach consists of three main adjustable steps (1) temporal aggregations, (2) graph embeddings, and (3) the visual mapping to the pixel-based visualization. The main idea is to visually analyze the latent space to identify temporal changes in the dynamic graph. We show the applicability of the technique to synthetic and real-world datasets, demonstrating that temporal patterns in dynamic graphs can be identified and interpreted over time."
-    },
     "a-vds-1002": {
         "authors": [
             "Anamaria Crisan",
@@ -751,28 +734,28 @@
         ],
         "title": "Passing the Data Baton: A Retrospective Analysis on Data Science Work and Workers",
         "session_id": "a-vds",
-        "abstract": null,
+        "abstract": "Data science is a rapidly growing discipline and organizations increasingly depend on data science work. Yet the ambiguity around data science, what it is, and who data scientists are can make it difficult for visualization researchers to identify impactful research trajectories. We have conducted a retrospective analysis of data science work and workers as described within the data visualization, human computer interaction, and data science literature. From this analysis we synthesis a comprehensive model that describes data science work and breakdown to data scientists into nine distinct roles. We summarise and reflect on the role that visualization has throughout data science work and the varied needs of data scientists themselves for tooling support. Our findings are intended to arm visualization researchers with a more concrete framing of data science with the hope that it will help them surface innovative opportunities for impacting data science work.",
         "keywords": [],
         "uid": "a-vds-1002",
-        "time_stamp": "2020-10-26T14:05:00Z",
+        "time_stamp": "2020-10-26T14:45:00Z",
         "has_image": true,
         "paper_award": "",
         "image_caption": "Our model of data science work synthesized from an extensive and systematic literature review. We summarize data science work processes as constituting four higher order and fourteen lower order processes. Red boarders around the lower order processes highlight where we found explicit evidence in the literature for data visualization as a core component of the work being carried out, these processes were profiling, interpretation, monitoring, and dissemination. We also identified two emergent processes, collaboration and pedagogy, that we believe are of growing importance but not consistently acknowledged to be a part of data science work."
     },
-    "a-vds-1005": {
+    "a-vds-1010": {
         "authors": [
-            "Jules Allegre",
-            "Romain Vuillemot"
+            "Subhajit Das",
+            "Alex Endert"
         ],
-        "title": "Visualizing and Analyzing Disputed Areas in Soccer",
+        "title": "LEGION: Visually compare modeling techniques for regression",
         "session_id": "a-vds",
-        "abstract": null,
+        "abstract": "People construct machine learning (ML) models for various use cases such as in healthcare, financial modeling, etc. In doing so, they aim to improve a models' performance by adopting various strategies, such as changing input data, tuning model hyperparameters, performing feature engineering etc. However, how would users know which of these model construction strategies to adopt for their problem? This paper aims to solve the problem of how to construct models and how to select a modeling strategy by allowing users to compare incoherencies between multiple regression models (constructed by two different modeling strategies) and then learn not only about the model but also about their data. We present LEGION, a visual analytic tool that helps users to compare and select regression models constructed either by tuning their hyperparameters or by feature engineering methods. We also present two use cases on real world datasets validating the utility and effectiveness of our tool.",
         "keywords": [],
-        "uid": "a-vds-1005",
-        "time_stamp": "2020-10-26T14:10:00Z",
+        "uid": "a-vds-1010",
+        "time_stamp": "2020-10-26T15:00:00Z",
         "has_image": true,
         "paper_award": "",
-        "image_caption": "Visualizing and Analyzing Disputed Areas in Soccer"
+        "image_caption": "LEGION multi regression modeler, displaying the stacked horizontal bar view as the main view component that helps users to compare regression modeling techniques."
     },
     "a-vds-1006": {
         "authors": [
@@ -785,28 +768,30 @@
         ],
         "title": "VIMA: Modeling and Visualization of High Dimensional Machine Sensor Data Leveraging Multiple Sources of Domain Knowledge",
         "session_id": "a-vds",
-        "abstract": null,
+        "abstract": "The highly integrated design of the electrified power train creates new challenges in the holistic testing of high-quality standards. Test technicians face the challenge that tests for such new technologies are just about to be developed. Thus, they cannot rely on their gut feeling, but require automated support, which is not yet available. We present VIMA, a system that processes high dimensional machine-sensor data to support test technicians with their analyses of produced parts and to interactively create labels. We demonstrate the usefulness of VIMA in a qualitative user study with four test technicians. The results indicate that VIMA helps to identify abnormal parts, that were not detected by the established testing procedures. Additionally, we use the labels, generated interactively through VIMA, to deploy a model running on a test station in a real manufacturing environment; the model outperforms the current testing procedure in detecting increased backlashes of electrical engines.",
         "keywords": [],
         "uid": "a-vds-1006",
-        "time_stamp": "2020-10-26T14:15:00Z",
+        "time_stamp": "2020-10-26T15:15:00Z",
         "has_image": true,
         "paper_award": "",
-        "image_caption": "The process of building machine learning models in a real-time manufacturing environment. Machine-sensor data is sent\nto our VA application VIMA (Virtual interactive manufacturing assistant), where it supports multiple test technicians\nin their analysis of produced parts. VIMA further enables the labeling of parts, which are fed into a machine learning model. The\nmodel classifies the status of a produced part based on the machine-sensor data into not ok (NOK) and OK. In the case of a NOK\npart, it is sent to a specific reworking station for a detailed in-depth analysis. OK parts are transferred to the next station.\n"
+        "image_caption": "The process of building machine learning models in a real-time manufacturing environment. Machine-sensor data is sent"
     },
-    "a-vds-1010": {
+    "a-vds-1001": {
         "authors": [
-            "Subhajit Das",
-            "Alex Endert"
+            "Eren Cakmak",
+            "Dominik J\u00e4ckle",
+            "Tobias Schreck",
+            "Daniel Keim"
         ],
-        "title": "LEGION: Visually compare modeling techniques for regression",
+        "title": "dg2pix: Pixel-Based Visual Analysis of Dynamic Graphs",
         "session_id": "a-vds",
-        "abstract": null,
+        "abstract": "Presenting long sequences of dynamic graphs remains challenging due to the underlying large-scale and high-dimensional data. We propose dg2pix, a novel pixel-based visualization technique, to visually explore temporal and structural properties in long sequences of large-scale graphs. The approach consists of three main steps: (1) the multiscale modeling of the temporal dimension; (2) unsupervised graph embeddings to learn low-dimensional representations of the dynamic graph data; and (3) an interactive pixel-based visualization to explore the evolving data at different temporal aggregation scales simultaneously. dg2pix provides a scalable overview of a dynamic graph, supports the exploration of long sequences of high-dimensional graph data, and enables the identification and comparison of similar temporal states. We show the applicability of the technique to synthetic and real-world datasets, demonstrating that temporal patterns in dynamic graphs can be easily identified and interpreted over time. Our dg2pix contributes a suitable intermediate representation between node-link diagrams at the high detail end, and matrix representations on the low detail end.",
         "keywords": [],
-        "uid": "a-vds-1010",
-        "time_stamp": "2020-10-26T14:20:00Z",
+        "uid": "a-vds-1001",
+        "time_stamp": "2020-10-26T16:45:00Z",
         "has_image": true,
         "paper_award": "",
-        "image_caption": "LEGION multi regression modeler, displaying the stacked horizontal bar view as the main view component that helps users to compare regression modeling techniques."
+        "image_caption": "dg2pix provides a scalable overview of a dynamic graph, supports the exploration of long sequences of high dimensional graph data, and enables the identification and comparison of similar temporal states. The approach consists of three main adjustable steps (1) temporal aggregations, (2) graph embeddings, and (3) the visual mapping to the pixel-based visualization. The main idea is to visually analyze the latent space to identify temporal changes in the dynamic graph. We show the applicability of the technique to synthetic and real-world datasets, demonstrating that temporal patterns in dynamic graphs can be identified and interpreted over time."
     },
     "a-vds-1011": {
         "authors": [
@@ -816,52 +801,76 @@
         ],
         "title": "ContiMap: Continuous Heatmap for Large Time Series Data",
         "session_id": "a-vds",
-        "abstract": null,
+        "abstract": "Limited human cognitive load, limited computing resources, and finite display resolutions are the major obstacles for developing interactive visualization systems in large-scale data analysis. Recent technological innovation has significantly improved computing power, such as faster CPUs and GPUs, as well as display resources, including ultra-high-resolution displays and video walls. However, large and complex data is still ahead in the run as we are generating huge amounts of data daily. Our strategy to bridge these gaps is to present the right amount of information through the use of compelling graphics. This paper proposes an approximation algorithm and a web prototype for representing a high-level abstraction of time series based on heatmap designs. Our approach aims to handle a significant amount of time series data arising from various application domains, such as cybersecurity, sensor network, and gene expression analysis.",
         "keywords": [],
         "uid": "a-vds-1011",
-        "time_stamp": "2020-10-26T14:25:00Z",
+        "time_stamp": "2020-10-26T17:00:00Z",
         "has_image": true,
         "paper_award": "",
         "image_caption": "Conventional heatmap (left) vs. ContiMap (right) for Alibaba cluster dataset. The x-axis is the time sequence, and the y-axis shows the machines. The color scale ranges from dark green to red for low to high CPU utilization percentages correspondingly, and the white areas depict missing data. ContiMap is faster to render and gives a better overview of the data."
     },
+    "a-vds-1005": {
+        "authors": [
+            "Jules Allegre",
+            "Romain Vuillemot"
+        ],
+        "title": "Visualizing and Analyzing Disputed Areas in Soccer",
+        "session_id": "a-vds",
+        "abstract": "Space ownership models assign 2D areas to individuals, based on their ability to reach locations according to their direction and speed. In this paper, we investigate the case where two or more individuals can reach a given location simultaneously. We refer to those locations as disputed areas, as there is tension and uncertainty on ownership, which is an important spatial analysis tool, e. g., in sports where players share a space with adversaries. We present the process to calculate those disputed areas from existing space ownership models, and introduce several visualizations and analysis of those areas using sport tracking data from Liverpool 2019\u2019s goals. Those areas have been particularly insightful to understand assists, the ultimate pass that is critical for a team to score. We also report on feedback from experts both on the relevance of those areas as well as their visual design.",
+        "keywords": [],
+        "uid": "a-vds-1005",
+        "time_stamp": "2020-10-26T17:15:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "Visualizing and Analyzing Disputed Areas in Soccer"
+    },
     "a-vastchallenge-1012": {
         "authors": [
-            "Steve Gomez"
+            "Shichao Jia",
+            "Zeyu Li",
+            "Jiawan Zhang"
         ],
-        "title": "Mini-Challenge 2 introduction - Object Detection and Visual Analytics",
+        "title": "Uncovering the Missing Links with Interactive Object Detection - Tianjin University - Mini-Challenge 2 Award: Strong Visual Design to Support Classification and Task-Focused Filtering",
         "session_id": "a-vastchallenge-1",
         "abstract": null,
         "keywords": [],
         "uid": "a-vastchallenge-1012",
-        "time_stamp": "2020-10-26T14:10:00Z",
+        "time_stamp": "2020-10-26T14:25:00Z",
         "has_image": false,
         "paper_award": "",
         "image_caption": ""
     },
     "a-vastchallenge-1016": {
         "authors": [
-            "Shichao Jia"
+            "Jinbin Huang",
+            "Aditi Mishra",
+            "Anjana Arunkumar",
+            "Chris Bryan"
         ],
-        "title": "Uncovering the Missing Links with Interactive Object Detection - Tianjin University - Mini-Challenge 2 Award: Strong Visual Design to Support Classification and Task-Focused Filtering",
+        "title": "TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification - Arizona State University - Mini-Challenge 2 Honorable Mention: Effective Use of Visual Encodings for Correcting Classification Errors",
         "session_id": "a-vastchallenge-1",
         "abstract": null,
         "keywords": [],
         "uid": "a-vastchallenge-1016",
-        "time_stamp": "2020-10-26T14:25:00Z",
+        "time_stamp": "2020-10-26T14:45:00Z",
         "has_image": false,
         "paper_award": "",
         "image_caption": ""
     },
     "a-vastchallenge-1042": {
         "authors": [
-            "Jinbin Huang"
+            "Huyen N. Nguyen",
+            "Jake Gonzalez",
+            "Jian Guo",
+            "Ngan V.T. Nguyen",
+            "Tommy Dang"
         ],
-        "title": "TotemFinder: A Visual Analytics Approach for Image-based Key Players Identification - Arizona State University - Mini-Challenge 2 Honorable Mention: Effective Use of Visual Encodings for Correcting Classification Errors",
+        "title": "VisMCA: An Interactive Visual Analytics System for Misclassification Correction and Analysis - Texas Tech - Mini-Challenge 2 Honorable Mention: Detailed Analysis of Patterns of Misclassification",
         "session_id": "a-vastchallenge-1",
         "abstract": null,
         "keywords": [],
         "uid": "a-vastchallenge-1042",
-        "time_stamp": "2020-10-26T14:45:00Z",
+        "time_stamp": "2020-10-26T15:00:00Z",
         "has_image": false,
         "paper_award": "",
         "image_caption": ""
@@ -1009,7 +1018,7 @@
         "authors": [
             "Natkamon Tovanich",
             "Alexis Pister",
-            "Gaelle Richer",
+            "Ga\u00eblle Richer",
             "Paola Valdivia"
         ],
         "title": "GraphletMatchMaker: Visual Analytics Approaches to Graph Matching in Cybersecurity Communities - Mini-Challenge 1 Award: Outstanding Comprehensive Mini-Challenge 1 Solution",
@@ -1024,7 +1033,11 @@
     },
     "a-vastchallenge-1034": {
         "authors": [
-            "Luyu Cheng"
+            "Luyu Cheng",
+            "Bairui Su",
+            "Yumeng Xue",
+            "Xiaoyu Liu",
+            "Yunhai Wang"
         ],
         "title": "CA2: Cyber Attacks Analytics - Shandong University - Mini-Challenge 1 Honorable Mention: Streamlined Analysis Process",
         "session_id": "a-vastchallenge-2",
@@ -1038,7 +1051,12 @@
     },
     "a-vastchallenge-1001": {
         "authors": [
-            "David Englert"
+            "David Englert",
+            "Pablo Martinez Blasco",
+            "Eren Cakmak",
+            "Udo Schlegel",
+            "Juri Buchm\u00fcller",
+            "Daniel A. Keim"
         ],
         "title": "Somewraps - Something with Graphs: Visual Analytics of Network Data - University of Konstanz - Mini-Challenge 1 Honorable Mention: Custom Tool Supporting Visual Comparison",
         "session_id": "a-vastchallenge-2",
@@ -1052,7 +1070,9 @@
     },
     "a-vastchallenge-1024": {
         "authors": [
-            "Falco Schulz"
+            "Steven Harenberg",
+            "Matthew Galati",
+            "Falko Schulz"
         ],
         "title": "Visual Network Analytics for Cyber Security - SAS Institute - Mini-Challenge 1 Honorable Mention: Clear Articulation of Analytical Process",
         "session_id": "a-vastchallenge-2",
@@ -1066,8 +1086,17 @@
     },
     "a-vastchallenge-1037": {
         "authors": [
+            "Prince Owusu Attah",
             "Lu Ding",
-            "Jieqiong Zhao"
+            "Xiaolei Guo",
+            "Tianyi Zhang",
+            "Weiyue Deng",
+            "Xuan Thao Nguyen",
+            "Yunran Ju",
+            "Jieqiong Zhao",
+            "Chen Guo",
+            "Zhengyu Cherly Qian",
+            "Yinghie Victor Chen"
         ],
         "title": "ConstellationBuilder: High Level Situation Awareness and Team Assembly for Cyber Security Events - Purdue University - Mini-Challenge 3 Award: Effective Transformation of Task Decomposition into Conceptual Design",
         "session_id": "a-vastchallenge-3",
@@ -3147,9 +3176,16 @@
             "Helwig Hauser"
         ],
         "title": "Personalized Sketch-Based Brushing in Scatterplots",
-        "session_id": "cga-vis-masses",
-        "abstract": null,
-        "keywords": [],
+        "session_id": "cga-papers-vis-masses",
+        "abstract": "Brushing is at the heart of most modern visual analytics solutions and effective and efficient brushing is crucial for successful interactive data exploration and analysis. As the user plays a central role in brushing, several data-driven brushing tools have been designed that are based on predicting the user's brushing goal. All of these general brushing models learn the users' average brushing preference, which is not optimal for every single user. In this paper, we propose an innovative framework that offers the user opportunities to improve the brushing technique while using it. We realized this framework with a CNN-based brushing technique and the result shows that with additional data from a particular user, the model can be refined (better performance in terms of accuracy), eventually converging to a personalized model based on a moderate amount of retraining.",
+        "keywords": [
+            "Data models",
+            "Visual analytics",
+            "Adaptation models",
+            "Data visualization",
+            "Analytical models",
+            "Deep learning"
+        ],
         "uid": "f-cga-1",
         "time_stamp": "2020-10-28T16:00:00Z",
         "has_image": true,
@@ -3164,9 +3200,17 @@
             "Lars Linsen"
         ],
         "title": "Aggregated Ensemble Views for Deep Water Asteroid Impact Simulations",
-        "session_id": "cga-vis-masses",
-        "abstract": null,
-        "keywords": [],
+        "session_id": "cga-papers-vis-masses",
+        "abstract": "Simulation ensembles such as the ones simulating deep water asteroid impacts have many facets. Their analysis in terms of detecting spatiotemporal patterns, comparing multiple runs, and analyzing the influence of simulation parameters requires aggregation at multiple levels. We propose respective visual encodings embedded in an interactive visual analysis tool.",
+        "keywords": [
+            "Analytical models",
+            "Visualization",
+            "Solar system",
+            "Data models",
+            "Computational modeling",
+            "Encoding",
+            "Isosurfaces"
+        ],
         "uid": "f-cga-2",
         "time_stamp": "2020-10-28T16:15:00Z",
         "has_image": true,
@@ -3184,9 +3228,15 @@
             "Wei Chen"
         ],
         "title": "Illustrating Changes in Time-Series Data With Data Video",
-        "session_id": "cga-vis-masses",
-        "abstract": null,
-        "keywords": [],
+        "session_id": "cga-papers-vis-masses",
+        "abstract": "Understanding the changes of time-series is a common task in many application domains. Converting time-series data into videos helps an audience with little or no background knowledge gain insights and deep impressions. It essentially integrates data visualizations and animations to present the evolution of data expressively. However, it remains challenging to create this kind of data video. First, it is difficult to efficiently detect important changes and include them in the video sequence. Existing methods require much manual effort to explore the data and find changes. Second, how these changes are emphasized in the videos is also worth studying. A video without emphasis will hinder an audience from noticing those important changes. This article presents an approach that extracts and visualizes important changes of a time-series. Users can explore and modify these changes, and apply visual effects on them. Case studies and user feedback demonstrate the effectiveness and usability of our approach.",
+        "keywords": [
+            "Videos",
+            "Data visualization",
+            "Video sequences",
+            "Visual effects",
+            "Animation"
+        ],
         "uid": "f-cga-3",
         "time_stamp": "2020-10-28T16:30:00Z",
         "has_image": true,
@@ -3200,9 +3250,14 @@
             "Konrad Sch\u00f6nborn"
         ],
         "title": "Nano for the Public: An Exploranation Perspective",
-        "session_id": "cga-vis-masses",
-        "abstract": null,
-        "keywords": [],
+        "session_id": "cga-papers-vis-masses",
+        "abstract": "Public understanding of contemporary scientific issues is critical for the future of society. Public spaces, such as science centers, can impact the communication of science by providing active knowledge-building experiences of scientific phenomena. In contributing to this vision, we have previously developed an interactive visualization as part of a public exhibition about nano. We reflect on how the immersive design and features of the exhibit contribute as a tool for science communication in light of the emerging paradigm of exploranation, and offer some forward-looking perspectives about what this notion has to offer the domain.",
+        "keywords": [
+            "Data visualization",
+            "Information and communication technology",
+            "Communication technology",
+            "Knowledge engineering"
+        ],
         "uid": "f-cga-4",
         "time_stamp": "2020-10-28T16:45:00Z",
         "has_image": true,
@@ -3220,9 +3275,15 @@
             "Wesley Willett"
         ],
         "title": "PixelClipper: Supporting Public Engagement and Conversation About Visualizations",
-        "session_id": "cga-vis-masses",
-        "abstract": null,
-        "keywords": [],
+        "session_id": "cga-papers-vis-masses",
+        "abstract": "In this article, we present PixelClipper, a tool built for facilitating data engagement events. PixelClipper supports conversations around visualizations in public settings through annotation and commenting capabilities. It is recognized that understanding data is important for an informed society. However, even when visualizations are available on the web, open data is not yet reaching all audiences. Public facilitated events centered around data visualizations may help bridge this gap. PixelClipper is designed to promote discussion and engagement with visualizations in public settings. It allows viewers to quickly and expressively extract visual clippings from visualizations and add comments to them. Ambient and facilitator displays attract attention by showing clippings. They function as entry points to the full visualizations while supporting deeper conversations about the visualizations and data. We describe the design goals of PixelClipper, share our experiences from deploying it, and discuss its future potential in supporting data visualization engagement events.",
+        "keywords": [
+            "Software tools",
+            "Computer applications",
+            "Data visualization",
+            "Public infrastructure",
+            "Education"
+        ],
         "uid": "f-cga-5",
         "time_stamp": "2020-10-28T17:00:00Z",
         "has_image": true,
@@ -3235,9 +3296,16 @@
             "Roberto Ther\u00f3n S\u00e1nchez"
         ],
         "title": "A Data-Driven Introduction to Authors, Readings, and Techniques in Visualization for the Digital Humanities",
-        "session_id": "cga-vis-masses",
-        "abstract": null,
-        "keywords": [],
+        "session_id": "cga-papers-vis-masses",
+        "abstract": "The newly rediscovered frontier between data visualization and the digital humanities has proven to be an exciting field of experimentation for scholars from both disciplines. This fruitful collaboration is attracting researchers from other areas of science who may be willing to create visual analysis tools that promote humanities research in its many forms. However, as the collaboration grows in complexity, it may become intimidating for these scholars to get engaged in the discipline. To facilitate this task, we have built an introduction to visualization for the digital humanities that sits on a data-driven stance adopted by the authors. In order to construct a dataset representative of the discipline, we analyze citations from a core corpus on 300 publications in visualization for the humanities obtained from recent editions of the InfoVis Vis4DH workshop, the ADHO Digital Humanities Conference, and the specialized digital humanities journal Digital Humanities Quarterly. From here, we extract referenced works and analyze more than 1900 publications in search of citation patterns, prominent authors in the field, and other interesting insights. Finally, following the path set by other researchers in the visualization and Human-Computer Interaction (HCI) communities, we analyze paper keywords to identify significant themes and research opportunities in the field.",
+        "keywords": [
+            "Visualization",
+            "Data visualization",
+            "DH-HEMTs",
+            "Task analysis",
+            "Collaboration",
+            "Databases"
+        ],
         "uid": "f-cga-6",
         "time_stamp": "2020-10-28T17:15:00Z",
         "has_image": true,
@@ -3870,7 +3938,7 @@
         "time_stamp": "2020-10-29T14:45:00Z",
         "has_image": true,
         "paper_award": "",
-        "image_caption": "From the 3D grid of temperature data (left) to geometric proxies (middle), stylized and co-visualized with urban data (right)."
+        "image_caption": "Faithful representation of Earth's atmosphere with our atmospheric model. The atmospheric composition can be changed to simulate exoplanetary atmospheres or, in this case, be based on measured data to represent atmospheres accurately. From left to right, comparing the bottom row with the top row, we can see Earth's atmosphere with 6x more dust particles, 20x higher polarizability, 0.5x higher air\u2019s refractive index for wavelengths of 680 nm, and 2x denser."
     },
     "f-scivis-1170": {
         "authors": [
@@ -5273,8 +5341,16 @@
         ],
         "title": "Evaluating the Readability of Force Directed Graph Layouts: A Deep Learning Approach",
         "session_id": "cga-papers-toward-better-va",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Existing graph layout algorithms are usually not able to optimize all the aesthetic properties desired in a graph layout. To evaluate how well the desired visual features are reflected in a graph layout, many readability metrics have been proposed in the past decades. However, the calculation of these readability metrics often requires access to the node and edge coordinates and is usually computationally inefficient, especially for dense graphs. Importantly, when the node and edge coordinates are not accessible, it becomes impossible to evaluate the graph layouts quantitatively. In this paper, we present a novel deep learning-based approach to evaluate the readability of graph layouts by directly using graph images. A convolutional neural network architecture is proposed and trained on a benchmark dataset of graph images, which is composed of synthetically generated graphs and graphs created by sampling from real large networks. Multiple representative readability metrics (including edge crossing, node spread, and group overlap) are considered in the proposed approach. We quantitatively compare our approach to traditional methods and qualitatively evaluate our approach by showing usage scenarios and visualizing convolutional layers. This paper is a first step towards using deep learning based methods to quantitatively evaluate images from the visualization field.",
+        "keywords": [
+            "Convolutional Neural Nets",
+            "Data Visualisation",
+            "Directed Graphs",
+            "Image Processing",
+            "Learning Artificial Intelligence",
+            "Force Directed Graph Layouts",
+            "Deep Learning Approach"
+        ],
         "uid": "f-cga-7",
         "time_stamp": "2020-10-29T16:00:00Z",
         "has_image": true,
@@ -5292,8 +5368,15 @@
         ],
         "title": "Flow Field Reduction Via Reconstructing Vector Data From 3-D Streamlines Using Deep Learning",
         "session_id": "cga-papers-toward-better-va",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present a new approach for streamline-based flow field representation and reduction. Our method can work in the in situ visualization setting by tracing streamlines from each time step of the simulation and storing compressed streamlines for post hoc analysis where users can afford longer reconstruction time for higher reconstruction quality using decompressed streamlines. At the heart of our approach is a deep learning method for vector field reconstruction that takes the streamlines traced from the original vector fields as input and applies a two-stage process to reconstruct high-quality vector fields. To demonstrate the effectiveness of our approach, we show qualitative and quantitative results with several data sets and compare our method against the de facto method of gradient vector flow in terms of speed and quality tradeoff.",
+        "keywords": [
+            "Image reconstruction",
+            "Deep learning",
+            "Image coding",
+            "Streaming media",
+            "Data visualization",
+            "Analytical models"
+        ],
         "uid": "f-cga-8",
         "time_stamp": "2020-10-29T16:15:00Z",
         "has_image": true,
@@ -5308,8 +5391,14 @@
         ],
         "title": "Analytic Provenance in Practice: The Role of Provenance in Real-World Visualization and Data Analysis Environments",
         "session_id": "cga-papers-toward-better-va",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Practical data analysis scenarios involve more than just the interpretation of data through visual and algorithmic analysis. Many real-world analysis environments involve multiple types of experts and analysts working together to solve problems and make decisions, adding organizational and social requirements to the mix. We aim to provide new knowledge about the role of provenance for practical problems in a variety of analysis scenarios central to national security. We present the findings from interviews with data analysts from domains, such as intelligence analysis, cyber-security, and geospatial intelligence. In addition to covering multiple analysis domains, our study also considers practical workplace implications related to organizational roles and the level of analyst experience. The results demonstrate how different needs for provenance depend on different roles in the analysis effort (e.g., data analyst, task managers, data analyst trainers, and quality control analysts). By considering the core challenges reported along with an analysis of existing provenance-support techniques through existing research and systems, we contribute new insights about needs and opportunities for improvements to provenance-support methods.",
+        "keywords": [
+            "Data analysis",
+            "Task analysis",
+            "Data visualization",
+            "History",
+            "Visual analytics"
+        ],
         "uid": "f-cga-9",
         "time_stamp": "2020-10-29T16:30:00Z",
         "has_image": true,
@@ -5329,8 +5418,15 @@
         ],
         "title": "A Provenance Task Abstraction Framework",
         "session_id": "cga-papers-toward-better-va",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Visual analytics tools integrate provenance recording to externalize analytic processes or user insights. Provenance can be captured on varying levels of detail, and in turn activities can be characterized from different granularities. However, current approaches do not support inferring activities that can only be characterized across multiple levels of provenance. We propose a task abstraction framework that consists of a three stage approach, composed of 1) initializing a provenance task hierarchy, 2) parsing the provenance hierarchy by using an abstraction mapping mechanism, and 3) leveraging the task hierarchy in an analytical tool. Furthermore, we identify implications to accommodate iterative refinement, context, variability, and uncertainty during all stages of the framework. We describe a use case which exemplifies our abstraction framework, demonstrating how context can influence the provenance hierarchy to support analysis. The article concludes with an agenda, raising and discussing challenges that need to be considered for successfully implementing such a framework.",
+        "keywords": [
+            "Task analysis",
+            "Data visualization",
+            "Visualization",
+            "Cognition",
+            "Analytical models",
+            "History"
+        ],
         "uid": "f-cga-10",
         "time_stamp": "2020-10-29T16:45:00Z",
         "has_image": false,
@@ -5345,8 +5441,14 @@
         ],
         "title": "Capturing and Visualizing Provenance From Data Wrangling",
         "session_id": "cga-papers-toward-better-va",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Data quality management and assessment play a vital role for ensuring the trust in the data and its fitness-of-use for subsequent analysis. The transformation history of a data wrangling system is often insufficient for determining the usability of a dataset, lacking information how changes affected the dataset. Capturing workflow provenance along the wrangling process and combining it with descriptive information as data provenance can enable users to comprehend how these changes affected the dataset, and if they benefited data quality. We present DQProv Explorer, a system that captures and visualizes provenance from data wrangling operations. It features three visualization components: allowing the user to explore the provenance graph of operations and the data stream, the development of quality over time for a sequence of wrangling operations applied to the dataset, and the distribution of issues across the entirety of the dataset to determine error patterns.",
+        "keywords": [
+            "Data integrity",
+            "Measurement",
+            "Data visualization",
+            "History",
+            "Data models"
+        ],
         "uid": "f-cga-11",
         "time_stamp": "2020-10-29T17:00:00Z",
         "has_image": true,
@@ -5364,8 +5466,15 @@
         ],
         "title": "Towards Placental Surface Vasculature Exploration in Virtual Reality",
         "session_id": "cga-papers-toward-better-va",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "We present a case study evaluating the potential for interactively identifying placental surface blood vessels using magnetic resonance imaging (MRI) scans in virtual reality (VR) environments. We visualized the MRI data using direct volume rendering in a high-fidelity CAVE-like VR system, allowing medical professionals to identify relevant placental vessels directly from volume visualizations in the VR system, without prior vessel segmentation. Participants were able to trace most of the observable vascular structure, and consistently identified blood vessels down to diameters of 1 mm, an important requirement in diagnosing vascular diseases. Qualitative feedback from our participants suggests that our VR visualization is easy to understand and allows intuitive data exploration, but complex user interactions remained a challenge. Using these observations, we discuss implications and requirements for spatial tracing user interaction methods in VR environments. We believe that VR MRI visualizations are the next step towards effective surgery planning for prenatal diseases.",
+        "keywords": [
+            "Magnetic resonance imaging",
+            "Biomedical imaging",
+            "Data visualization",
+            "Rendering (computer graphics)",
+            "Virtual reality",
+            "Three-dimensional displays"
+        ],
         "uid": "f-cga-12",
         "time_stamp": "2020-10-29T17:15:00Z",
         "has_image": true,
