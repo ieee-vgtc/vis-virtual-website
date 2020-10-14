@@ -19,8 +19,28 @@ const MODE = {
   detail: "detail"
 }
 
+// import from base.html
+
+function getTimezone() {
+  const urlTz = window.getUrlParameter && getUrlParameter('tz');
+  if (urlTz) return urlTz;
+
+  const storageTz = window.localStorage.getItem("tz")
+  if (storageTz) return storageTz;
+
+  return moment.tz.guess();
+}
+
+const currentTZ = getTimezone();
+
+function formatTime(text) {
+  let atime = moment(text).clone().tz(currentTZ);
+  return atime.format("dd, MMM D, HH:mm");
+}
+
 
 let render_mode = MODE.compact;
+let currentTippy = null;
 
 const updateCards = (papers) => {
   Promise.all([
@@ -82,7 +102,8 @@ const updateCards = (papers) => {
 
 
       lazyLoader();
-
+      if (currentTippy) currentTippy.forEach(t => t.destroy());
+      currentTippy = tippy(".has_tippy", {trigger: "mouseenter focus"}); //, {trigger: "mouseenter focus"}
 
     }
   )
@@ -97,6 +118,7 @@ function shuffleArray(array) {
     array[j] = temp;
   }
 }
+
 
 const render = () => {
   const f_test = [];
@@ -114,14 +136,19 @@ const render = () => {
       let i = 0;
       let pass_test = true;
       while (i < f_test.length && pass_test) {
-        if (f_test[i][0] === "titles") {
+        const testName = f_test[i][0];
+        const testValue = f_test[i][1];
+        const testValueSmall = testValue.toLowerCase();
+        if (testName === "titles") {
           pass_test &=
-            d.title.toLowerCase().indexOf(f_test[i][1].toLowerCase()) >
+            d.title.toLowerCase().indexOf(testValueSmall) >
             -1;
-        } else if (f_test[i][0] === "session") {
-          pass_test &= d["sessions"].indexOf(f_test[i][1]) > -1;
+        } else if (testName === "sessions" || testName === "keywords" || testName === "authors") {
+          pass_test &= d[testName]
+            .map(s => s.toLowerCase().indexOf(testValueSmall) > -1)
+            .reduce((o, n) => o || n, false);
         } else {
-          pass_test &= d[f_test[i][0]].indexOf(f_test[i][1]) > -1;
+          pass_test &= d[testName].toLowerCase().indexOf(testValueSmall) > -1;
         }
         i++;
       }
@@ -130,6 +157,7 @@ const render = () => {
     // console.log(fList, "--- fList");
     updateCards(fList);
   }
+
 };
 
 const updateFilterSelectionBtn = (value) => {
@@ -155,7 +183,7 @@ const updateSession = () => {
  * START here and load JSON.
  */
 const start = () => {
-  const urlFilter = getUrlParameter("filter") || "keywords";
+  const urlFilter = getUrlParameter("filter") || "titles";
   setQueryStringParameter("filter", urlFilter);
   updateFilterSelectionBtn(urlFilter);
 
@@ -210,7 +238,6 @@ d3.selectAll(".render_option input").on("click", function () {
 
   render();
 });
-
 
 
 const sortFunctions = {
@@ -327,24 +354,35 @@ const card_html = (paper) =>
   `
         <div class="pp-card pp-mode-${render_mode} ">
             <div class="pp-card-header" style="">
-            <div class="checkbox-paper fas ${paper.read ? "selected" : ""}" 
-            style="display: block;position: absolute; bottom:${render_mode === MODE.detail ? 375 : 35}px;left: 35px;">&#xf00c;</div>
-            <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}" 
-            style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-            
-<!--                ✓-->
-                <a href="${API.posterLink(paper)}"
-                target="_blank"
-                   class="text-muted">
-                   <h5 class="card-title" align="center"> ${
-    paper.title
-  } </h5></a>
-                <h6 class="card-subtitle text-muted" align="center">
-                        ${paper.authors.join(", ")}
-                </h6>
-                ${card_image(paper, render_mode !== MODE.mini)}
-                
+              <div class="checkbox-paper fas ${paper.read ? "selected" : ""}" 
+              style="display: block;position: absolute; bottom:${render_mode === MODE.detail ? 375 : 35}px;left: 35px;">&#xf00c;</div>
+              <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}" 
+              style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
+              <a href="${API.posterLink(paper)}"
+              target="_blank"
+                 class="text-muted">
+                 <h5 class="card-title" > ${paper.title} </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" style="text-align: left;">
+                      ${paper.authors.map(
+    s => `<a href="papers.html?filter=authors&search=${s}">${s}</a>`)
+    .join(", ")}
+              </h6>              
+
+              <div class="card-subtitle text-muted mt-2" style="text-align: left;">
+                     <a class="has_tippy" href ="session_${paper.session_id}.html" target="_blank" data-tippy-content="go to session ${paper.session_title}">${formatTime(
+    paper.time_stamp)}</a> -- ${paper.sessions.map(
+    s => `<a class="has_tippy" href="papers.html?filter=sessions&search=${s}" data-tippy-content="filter all papers in session:">${s}</a>`)
+    .join(",")}
+              </div>
+              
+              ${card_image(paper, render_mode !== MODE.mini)}
             </div>
                
                 ${card_detail(paper, render_mode === MODE.detail)}
         </div>`;
+
+
+// <div class="card-subtitle text-muted mt-2" style="text-align: left;">
+//        Time: ${formatTime(paper.time_stamp)}
+// </div>
