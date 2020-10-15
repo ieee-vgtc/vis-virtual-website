@@ -14,6 +14,14 @@ window.onload = async () => {
     const is_auth = await auth0.isAuthenticated();
     if (is_auth) {
       document.body.style.display = null;
+
+      // if we have a redirect request, grab it and push the user over to that page they wanted to see
+      var queryParams = new URLSearchParams(query);
+      var redirectUri = queryParams.get("return");
+      if (redirectUri)
+        window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
+
+      // unused atm, hook up later; this won't get executed since we change location above
       const user = await auth0.getUser();
       $(".loginBtn").hide();
       $(".logoutBtn").show();
@@ -47,22 +55,17 @@ window.onload = async () => {
 
     // Use replaceState to redirect the user away and remove the querystring parameters
   } else if (
-    window.location.href.includes("index.html") &&
-    !window.location.hash.includes("index.html")
+    window.location.href.includes("redirect.html") &&
+    !window.location.hash.includes("redirect.html")
   ) {
-    // await updateUI();
-    document.body.style.display = null;
-    // const els = document.getElementsByClassName("loginBtn");
-    //
-    // [].forEach.call(els, function (el) {
-    //   el.addEventListener("click", async () => {
-    //     await auth0.loginWithRedirect({
-    //       redirect_uri: window.location.href,
-    //     });
-    //   });
-    // });
+    // we should only trigger login requests if we have a page to return to
+    if (query.includes("return=")) {
+      await auth0.loginWithRedirect({
+        redirect_uri: window.location.href,
+      });
+    }
   } else {
-    window.location.href = "index.html";
+    window.location.href = "redirect.html?return=" + window.location.pathname.slice(1);
   }
 
   $(".loginBtn").click(async function () {
