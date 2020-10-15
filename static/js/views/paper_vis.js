@@ -80,6 +80,7 @@ function brush_ended() {
   let parts = null;
   let count = 0;
   all_sel.forEach((paper) => {
+
     if (summaryBy === "keywords") {
       paper.keywords.forEach((kw) => {
         count = words_abstract.get(kw) || 0;
@@ -87,14 +88,23 @@ function brush_ended() {
         words_abstract.set(kw, count);
       });
     } else {
+      const wordvec = new Set();
       parts = paper.abstract.split(/[.]?\s+/);
       parts.forEach((p) => {
         if (p.length < 3) return;
+        // wordvec.add(p.toLowerCase());
         p = p.toLowerCase();
         count = words_abstract.get(p) || 0;
         count += 1;
         words_abstract.set(p, count);
       });
+      // console.log(wordvec, "--- wordvec");
+      // for (let p of wordvec) {
+      //   console.log(p, "--- p");
+      //   count = words_abstract.get(p) || 0;
+      //   count += 1;
+      //   words_abstract.set(p, count);
+      // }
     }
   });
   stopwords.forEach((sw) => words_abstract.delete(sw));
@@ -456,4 +466,7 @@ will
 just
 don
 should
-now`.split("\n");
+now
+visual
+visualization
+`.split("\n");
