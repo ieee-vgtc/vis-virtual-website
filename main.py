@@ -335,7 +335,7 @@ def format_session_as_event(v, uid):
 
     return {
         "id": uid,
-        "title": v["event"],
+        "title": v["long_name"],
         "type": v["event_type"],
         "abbr_type": v["event_type"].split(" ")[0].lower(),
         "abstract": v["event_description"],
@@ -423,6 +423,27 @@ def workshop(workshop):
     data["workshop"] = format_workshop(v)
     return render_template("workshop.html", **data)
 
+@app.route('/session_vis-keynote.html')
+def keynote():
+    uid = "vis-keynote"
+    v = by_uid["sessions"][uid]
+    data = _data()
+    data["requires_auth"] = True
+    data["session"] = format_by_session_list(v)
+    data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
+    print(data)
+    return render_template("keynote_or_capstone.html", **data)
+
+@app.route('/session_vis-capstone.html')
+def capstone():
+    uid = "vis-capstone"
+    v = by_uid["sessions"][uid]
+    data = _data()
+    data["requires_auth"] = True
+    data["session"] = format_by_session_list(v)
+    # TODO: Picture of Sheelagh
+    data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
+    return render_template("keynote_or_capstone.html", **data)
 
 @app.route("/session_<session>.html")
 def session(session):
@@ -432,7 +453,6 @@ def session(session):
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
-
 
 @app.route('/event_<event>.html')
 def event(event):

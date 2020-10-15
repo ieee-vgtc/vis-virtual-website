@@ -1108,95 +1108,6 @@
         "paper_award": "",
         "image_caption": ""
     },
-    "f-vast-1307": {
-        "authors": [
-            "Liang Gou",
-            "Lincan Zou",
-            "Nanxiang Li",
-            "Michael Hofmann",
-            "Shekar Arvind Kumar",
-            "Axel Wendt",
-            "Liu Ren"
-        ],
-        "title": "VATLD: A Visual Analytics System to Assess, Understand and Improve Traffic Light Detection",
-        "session_id": "vis-opening",
-        "abstract": "Traffic light detection is crucial for environment perception and decision-making in autonomous driving. State-of-the-art detectors are built upon deep Convolutional Neural Networks (CNN) and have exhibited promising performance. However, one looming concern with CNN based detectors is how to thoroughly evaluate the performance of accuracy and robustness before they can be deployed to autonomous vehicles. In this work, we propose a visual analytics system, VATLD, equipped with a disentangled representation learning and semantic adversarial learning, to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The disentangled representation learning extracts data semantics to augment human cognition with human-friendly visual summarization, and the semantic adversarial learning efficiently exposes the interpretable robustness risks and enables minimal human interaction for actionable insights. We also demonstrate the effectiveness of various performance improvement strategies derived from actionable insights with our visual analytics system, VATLD, and illustrate the practical implications for safety-critical applications in autonomous driving.",
-        "keywords": [
-            "Traffic light detection",
-            "representation learning",
-            "semantic adversarial learning",
-            "model diagnosing",
-            "autonomous driving"
-        ],
-        "uid": "f-vast-1307",
-        "time_stamp": "2020-10-27T15:00:00Z",
-        "has_image": true,
-        "paper_award": "best",
-        "image_caption": "A visual analytics system, VATLD, is presented to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The VATLD user interface: (a) Summary and navigation of key performance statistics; (b) Visual landscapes of traffic lights (upper) and performance scores (lower) over the first two PCA components of semantic dimensions; (c) A live view to detect a traffic light from either real data or adversarial; (d) Ranked latent dimensions with information of semantics, performance and gradients."
-    },
-    "f-info-1187": {
-        "authors": [
-            "Alex Kale",
-            "Matthew Kay",
-            "Jessica Hullman"
-        ],
-        "title": "Visual Reasoning Strategies for Effect Size Judgments and Decisions",
-        "session_id": "vis-opening",
-        "abstract": "Uncertainty visualizations often emphasize point estimates to support magnitude estimates or decisions through visual comparison. However, when design choices emphasize means, users may overlook uncertainty information and misinterpret visual distance as a proxy for effect size. We present findings from a mixed design experiment on Mechanical Turk which tests eight uncertainty visualization designs: 95% containment intervals, hypothetical outcome plots, densities, and quantile dotplots, each with and without means added. We find that adding means to uncertainty visualizations has small biasing effects on both magnitude estimation and decision-making, consistent with discounting uncertainty. We also see that visualization designs that support the least biased effect size estimation do not support the best decision-making, suggesting that a chart user's sense of effect size may not necessarily be identical when they use the same information for different tasks. In a qualitative analysis of users' strategy descriptions, we find that many users switch strategies and do not employ an optimal strategy when one exists. Uncertainty visualizations which are optimally designed in theory may not be the most effective in practice because of the ways that users satisfice with heuristics, suggesting opportunities to better understand visualization effectiveness by modeling sets of potential strategies.",
-        "keywords": [
-            "Uncertainty visualization",
-            "graphical perception",
-            "data cognition"
-        ],
-        "uid": "f-info-1187",
-        "time_stamp": "2020-10-27T15:15:00Z",
-        "has_image": true,
-        "paper_award": "best",
-        "image_caption": "Visualization designs evaluated in our experiment."
-    },
-    "f-scivis-1144": {
-        "authors": [
-            "Peter Rautek",
-            "Matej Mlejnek",
-            "Johanna Beyer",
-            "Jakob Troidl",
-            "Hanspeter Pfister",
-            "Thomas Theussl",
-            "Markus Hadwiger"
-        ],
-        "title": "Objective Observer-Relative Flow Visualization in Curved Spaces for Unsteady 2D Geophysical Flows",
-        "session_id": "vis-opening",
-        "abstract": "Computing and visualizing features in fluid flow often depends on the observer, or reference frame, relative to which the input velocity field is given. A desired property of feature detectors is therefore that they are objective, meaning independent of the input reference frame. However, the standard definition of objectivity is only given for Euclidean domains, and cannot be applied in curved spaces. We build on methods from mathematical physics and Riemannian geometry to generalize objectivity to curved spaces, using the powerful notion of symmetry groups as the basis for defining objectivity. From this, we develop a general mathematical framework for computing objective observer fields for curved surfaces, relative to which other computed measures become objective. An important property of our framework is that it works intrinsically in 2D, instead of in the 3D ambient space. This enables a direct generalization of the 2D computation of observer fields via optimization from flat domains to curved domains, without having to perform optimization in 3D. We specifically develop the case of unsteady 2D geophysical flows given on spheres, such as the Earth. Observer fields on curved surfaces enable objective feature computation as well as the visualization of the time evolution of scalar and vector fields, such that the automatically computed reference frames follow moving structures like vortices in a way that makes them appear to be steady.",
-        "keywords": [
-            "Flow visualization",
-            "observer fields",
-            "frames of reference",
-            "objectivity",
-            "symmetry groups",
-            "intrinsic covariant derivatives"
-        ],
-        "uid": "f-scivis-1144",
-        "time_stamp": "2020-10-27T15:30:00Z",
-        "has_image": true,
-        "paper_award": "best",
-        "image_caption": "We illustrate the automatic computation of observer motion relative to the time evolution of features in flow fields, such as the time-dependent global wind data set shown here, with hurricane Isabel (2003) as the feature in the center. Feature-relative visualization is enabled by an observer field that is automatically computed via global optimization, minimizing the observed time derivative to make the observed field as steady as possible. Relative to the observer field, the hurricane appears to be static, with the Earth moving inversely underneath. This enables the direct analysis of the time evolution of features in place."
-    },
-    "s-short-1109": {
-        "authors": [
-            "Marwin Schindler",
-            "Hsiang-Yun Wu",
-            "Renata Georgia Raidou"
-        ],
-        "title": "The Anatomical Edutainer",
-        "session_id": "vis-opening",
-        "abstract": null,
-        "keywords": [],
-        "uid": "s-short-1109",
-        "time_stamp": "2020-10-27T15:45:00Z",
-        "has_image": true,
-        "paper_award": "best",
-        "image_caption": "Examples generated with the Anatomical Edutainer. (a) Printable 2D physicalizations of the human torso and head. In each representation, individual anatomical structures are matched to individual hues, which can be isolated (b) with the use of colored filters. (c) Foldable 3D physicalizations of the human pelvis, torso and head. Similarly to the 2D case, distinct hues are assigned to individual anatomical structures, which can be isolated with the use of colored lights (or colored filters, as in (b))."
-    },
     "f-info-1091": {
         "authors": [
             "Tan Tang",
@@ -1940,6 +1851,95 @@
         "has_image": true,
         "paper_award": "honorable",
         "image_caption": "PRAGMA is an interactive tool for constructing scan-specific brain parcellations from mainstream atlases. Its interface incorporates five complementary visuals: (A) abstract view of the hierarchical clustering of the brain through a node-link diagram, (B1) similarity of fMRI signal time-courses represented with a line plot with a shaded confidence interval, (B2) homogeneity glyphs within nodes, (C1) functional connectivity depicted as a chord diagram and (C2) anatomical location of parcels viewed on an orthographic template."
+    },
+    "f-vast-1307": {
+        "authors": [
+            "Liang Gou",
+            "Lincan Zou",
+            "Nanxiang Li",
+            "Michael Hofmann",
+            "Shekar Arvind Kumar",
+            "Axel Wendt",
+            "Liu Ren"
+        ],
+        "title": "VATLD: A Visual Analytics System to Assess, Understand and Improve Traffic Light Detection",
+        "session_id": "vis-opening-3",
+        "abstract": "Traffic light detection is crucial for environment perception and decision-making in autonomous driving. State-of-the-art detectors are built upon deep Convolutional Neural Networks (CNN) and have exhibited promising performance. However, one looming concern with CNN based detectors is how to thoroughly evaluate the performance of accuracy and robustness before they can be deployed to autonomous vehicles. In this work, we propose a visual analytics system, VATLD, equipped with a disentangled representation learning and semantic adversarial learning, to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The disentangled representation learning extracts data semantics to augment human cognition with human-friendly visual summarization, and the semantic adversarial learning efficiently exposes the interpretable robustness risks and enables minimal human interaction for actionable insights. We also demonstrate the effectiveness of various performance improvement strategies derived from actionable insights with our visual analytics system, VATLD, and illustrate the practical implications for safety-critical applications in autonomous driving.",
+        "keywords": [
+            "Traffic light detection",
+            "representation learning",
+            "semantic adversarial learning",
+            "model diagnosing",
+            "autonomous driving"
+        ],
+        "uid": "f-vast-1307",
+        "time_stamp": "2020-10-27T15:00:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "A visual analytics system, VATLD, is presented to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The VATLD user interface: (a) Summary and navigation of key performance statistics; (b) Visual landscapes of traffic lights (upper) and performance scores (lower) over the first two PCA components of semantic dimensions; (c) A live view to detect a traffic light from either real data or adversarial; (d) Ranked latent dimensions with information of semantics, performance and gradients."
+    },
+    "f-info-1187": {
+        "authors": [
+            "Alex Kale",
+            "Matthew Kay",
+            "Jessica Hullman"
+        ],
+        "title": "Visual Reasoning Strategies for Effect Size Judgments and Decisions",
+        "session_id": "vis-opening-3",
+        "abstract": "Uncertainty visualizations often emphasize point estimates to support magnitude estimates or decisions through visual comparison. However, when design choices emphasize means, users may overlook uncertainty information and misinterpret visual distance as a proxy for effect size. We present findings from a mixed design experiment on Mechanical Turk which tests eight uncertainty visualization designs: 95% containment intervals, hypothetical outcome plots, densities, and quantile dotplots, each with and without means added. We find that adding means to uncertainty visualizations has small biasing effects on both magnitude estimation and decision-making, consistent with discounting uncertainty. We also see that visualization designs that support the least biased effect size estimation do not support the best decision-making, suggesting that a chart user's sense of effect size may not necessarily be identical when they use the same information for different tasks. In a qualitative analysis of users' strategy descriptions, we find that many users switch strategies and do not employ an optimal strategy when one exists. Uncertainty visualizations which are optimally designed in theory may not be the most effective in practice because of the ways that users satisfice with heuristics, suggesting opportunities to better understand visualization effectiveness by modeling sets of potential strategies.",
+        "keywords": [
+            "Uncertainty visualization",
+            "graphical perception",
+            "data cognition"
+        ],
+        "uid": "f-info-1187",
+        "time_stamp": "2020-10-27T15:15:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "Visualization designs evaluated in our experiment."
+    },
+    "f-scivis-1144": {
+        "authors": [
+            "Peter Rautek",
+            "Matej Mlejnek",
+            "Johanna Beyer",
+            "Jakob Troidl",
+            "Hanspeter Pfister",
+            "Thomas Theussl",
+            "Markus Hadwiger"
+        ],
+        "title": "Objective Observer-Relative Flow Visualization in Curved Spaces for Unsteady 2D Geophysical Flows",
+        "session_id": "vis-opening-3",
+        "abstract": "Computing and visualizing features in fluid flow often depends on the observer, or reference frame, relative to which the input velocity field is given. A desired property of feature detectors is therefore that they are objective, meaning independent of the input reference frame. However, the standard definition of objectivity is only given for Euclidean domains, and cannot be applied in curved spaces. We build on methods from mathematical physics and Riemannian geometry to generalize objectivity to curved spaces, using the powerful notion of symmetry groups as the basis for defining objectivity. From this, we develop a general mathematical framework for computing objective observer fields for curved surfaces, relative to which other computed measures become objective. An important property of our framework is that it works intrinsically in 2D, instead of in the 3D ambient space. This enables a direct generalization of the 2D computation of observer fields via optimization from flat domains to curved domains, without having to perform optimization in 3D. We specifically develop the case of unsteady 2D geophysical flows given on spheres, such as the Earth. Observer fields on curved surfaces enable objective feature computation as well as the visualization of the time evolution of scalar and vector fields, such that the automatically computed reference frames follow moving structures like vortices in a way that makes them appear to be steady.",
+        "keywords": [
+            "Flow visualization",
+            "observer fields",
+            "frames of reference",
+            "objectivity",
+            "symmetry groups",
+            "intrinsic covariant derivatives"
+        ],
+        "uid": "f-scivis-1144",
+        "time_stamp": "2020-10-27T15:30:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "We illustrate the automatic computation of observer motion relative to the time evolution of features in flow fields, such as the time-dependent global wind data set shown here, with hurricane Isabel (2003) as the feature in the center. Feature-relative visualization is enabled by an observer field that is automatically computed via global optimization, minimizing the observed time derivative to make the observed field as steady as possible. Relative to the observer field, the hurricane appears to be static, with the Earth moving inversely underneath. This enables the direct analysis of the time evolution of features in place."
+    },
+    "s-short-1109": {
+        "authors": [
+            "Marwin Schindler",
+            "Hsiang-Yun Wu",
+            "Renata Georgia Raidou"
+        ],
+        "title": "The Anatomical Edutainer",
+        "session_id": "vis-opening-3",
+        "abstract": null,
+        "keywords": [],
+        "uid": "s-short-1109",
+        "time_stamp": "2020-10-27T15:45:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "Examples generated with the Anatomical Edutainer. (a) Printable 2D physicalizations of the human torso and head. In each representation, individual anatomical structures are matched to individual hues, which can be isolated (b) with the use of colored filters. (c) Foldable 3D physicalizations of the human pelvis, torso and head. Similarly to the 2D case, distinct hues are assigned to individual anatomical structures, which can be isolated with the use of colored lights (or colored filters, as in (b))."
     },
     "f-tvcg-2019080291": {
         "authors": [
