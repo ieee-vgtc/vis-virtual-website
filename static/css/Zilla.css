@@ -4,7 +4,7 @@
   font-weight: 400;
   font-display: swap;
   src: local("Zilla Slab"), local("Zilla-Slab"),
-  url('ZillaSlab-Regular.ttf') format("truetype");
+    url("ZillaSlab-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Zilla Slab SemiBold";
@@ -12,7 +12,5 @@
   font-weight: 900;
   font-display: swap;
   src: local("Zilla Slab SemiBold"), local("Zilla-Slab-SemiBold"),
-  url('ZillaSlab-SemiBold.ttf') format("truetype");
+    url("ZillaSlab-SemiBold.ttf") format("truetype");
 }
-
-

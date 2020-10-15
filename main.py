@@ -7,7 +7,6 @@ import json
 import os
 
 import dateutil.parser
-
 import yaml
 from flask import Flask, jsonify, redirect, render_template, send_from_directory
 from flask_frozen import Freezer
@@ -37,14 +36,14 @@ def main(site_data_path):
         by_uid[typ] = {}
 
         if typ == "session_list":
-            by_uid['events'] = {}
-            by_uid['sessions'] = {}
+            by_uid["events"] = {}
+            by_uid["sessions"] = {}
 
             for session_id, p in site_data[typ].items():
-                by_uid['events'][session_id] = p
+                by_uid["events"][session_id] = p
 
                 # also iterate through each session within each event
-                for timeslot in p['sessions']:
+                for timeslot in p["sessions"]:
                     # also put some parent info back into this item
                     fq_timeslot = timeslot.copy()
                     fq_timeslot.update({
@@ -57,6 +56,7 @@ def main(site_data_path):
 
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
 
+                    by_uid["sessions"][timeslot["session_id"]] = fq_timeslot
 
         elif typ == "paper_list":
             for paper_id, p in site_data[typ].items():
@@ -67,8 +67,8 @@ def main(site_data_path):
                 by_uid[typ][p["UID"]] = p
 
     # organize sessions by day (calendar)
-    for session in by_uid['sessions'].values():
-        this_date = dateutil.parser.parse(session['time_start'])
+    for session in by_uid["sessions"].values():
+        this_date = dateutil.parser.parse(session["time_start"])
         day = this_date.strftime("%A")
         if day not in by_day:
             by_day[day] = []
@@ -79,17 +79,17 @@ def main(site_data_path):
     for day, day_sessions in by_day.items():
         time_sessions = {}
         for session in day_sessions:
-            timeslot = session['startTime'] + "|" + session['endTime']
+            timeslot = session["startTime"] + "|" + session["endTime"]
             if timeslot not in time_sessions:
-                this_date = dateutil.parser.parse(session['startTime'])
+                this_date = dateutil.parser.parse(session["startTime"])
                 time_sessions[timeslot] = {
                     "sessions": [],
                     "date": this_date.strftime("%A, %d %b %Y"),
-                    "startTime": session['startTime'],
-                    "endTime": session['endTime'],
+                    "startTime": session["startTime"],
+                    "endTime": session["endTime"],
                 }
 
-            time_sessions[timeslot]['sessions'].append(session)
+            time_sessions[timeslot]["sessions"].append(session)
 
         by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
 
@@ -109,15 +109,15 @@ def generateDayCalendars():
         day_events = []
         for session in by_day[day]:
             session_event = {
-                "id": session['id'],
-                "title": session['fullTitle'],
-                "start": session['startTime'],
-                "end": session['endTime'],
+                "id": session["id"],
+                "title": session["fullTitle"],
+                "start": session["startTime"],
+                "end": session["endTime"],
                 # "location": session['youtube'],
-                "location": "/session_" + session['id'] + ".html",
-                "link": "http://virtual.ieeevis.org/session_" + session['id'] + ".html",
+                "location": "/session_" + session["id"] + ".html",
+                "link": "http://virtual.ieeevis.org/session_" + session["id"] + ".html",
                 "category": "time",
-                "calendarId": session['type'],
+                "calendarId": session["type"],
             }
             day_events.append(session_event)
 
@@ -158,7 +158,7 @@ def generateDayCalendars():
         # all_events.extend(aggregated_events)
 
     # overwrite static main_calendar json with all assembled events
-    site_data['main_calendar'] = all_events
+    site_data["main_calendar"] = all_events
 
 
 # ------------- SERVER CODE -------------------->
@@ -224,11 +224,9 @@ def paper_vis():
 def schedule():
     data = _data()
 
-    data['days'] = {}
+    data["days"] = {}
     for day in by_day:
-        data['days'][day] = {
-            "timeslots": by_time[day]
-        }
+        data["days"][day] = {"timeslots": by_time[day]}
 
     return render_template("schedule.html", **data)
 
@@ -281,7 +279,7 @@ def format_paper(v):
         "image_caption": v["image_caption"],
 
         # for papers.html:
-        "sessions": [by_uid["sessions"][v["session_id"]]['title']],
+        "sessions": [by_uid["sessions"][v["session_id"]]["title"]],
         "UID": v["uid"],
         "pdf_url": v.get("pdf_url", ""),
     }
@@ -370,7 +368,9 @@ def format_by_session_list(v):
     return {
         "id": v["session_id"],
         "title": v["title"],
-        "type": v['event_type'].split(' ')[0].lower(),  # get first word, which should be good enough...
+        "type": v["event_type"]
+        .split(" ")[0]
+        .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
         "startTime": v["time_start"],
@@ -392,6 +392,7 @@ def format_by_session_list(v):
 
 
 # ITEM PAGES
+
 
 @app.route("/paper_<paper>.html")
 def paper(paper):
@@ -471,6 +472,12 @@ def allpapers():
 def chat():
     data = _data()
     return render_template("chat.html", **data)
+
+@app.route("/redirect.html")
+def redirect_page():
+    data = _data()
+    data["requires_auth"] = True
+    return render_template("redirect.html", **data)
 
 
 # FRONT END SERVING
