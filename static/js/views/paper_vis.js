@@ -11,7 +11,7 @@ const filters = {
   title: null,
 };
 
-const summaryBy = "keywords"; // or: "abstract"
+const summaryBy = "abstract"//"keywords"; // or: "abstract"
 
 let currentTippy = null;
 let brush = null;
@@ -241,15 +241,24 @@ const render = () => {
     let i = 0;
     let pass_test = true;
     while (i < f_test.length && pass_test) {
-      if (f_test[i][0] === "titles") {
-        pass_test &= d.title === f_test[i][1];
+      const testName = f_test[i][0];
+      const testValue = f_test[i][1];
+      const testValueSmall = testValue.toLowerCase();
+      if (testName === "titles") {
+        pass_test &=
+          d.title.toLowerCase().indexOf(testValueSmall) >
+          -1;
+      } else if (testName === "sessions" || testName === "keywords" || testName === "authors") {
+        pass_test &= d[testName]
+          .map(s => s.toLowerCase().indexOf(testValueSmall) > -1)
+          .reduce((o, n) => o || n, false);
       } else {
-        pass_test &= d[f_test[i][0]].indexOf(f_test[i][1]) > -1;
+        pass_test &= d[testName].toLowerCase().indexOf(testValueSmall) > -1;
       }
       i++;
     }
     return pass_test;
-  };
+  }
 
   if (f_test.length === 0) test = (d) => false;
 
@@ -275,6 +284,7 @@ const start = () => {
       const projMap = new Map();
       proj.forEach((p) => projMap.set(p.id, p.pos));
 
+      papers = papers.filter(d => !!d.abstract)
       papers.forEach((p) => {
         p.pos = projMap.get(p.UID);
       });
@@ -284,9 +294,8 @@ const start = () => {
       calcAllKeys(all_papers, allKeys);
       setTypeAhead("authors", allKeys, filters, render);
 
-      xS.domain(d3.extent(proj.map((p) => p.pos[0])));
-      yS.domain(d3.extent(proj.map((p) => p.pos[1])));
-
+      xS.domain(d3.extent(papers.map((p) => p.pos[0])));
+      yS.domain(d3.extent(papers.map((p) => p.pos[1])));
       updateVis();
     })
     .catch((e) => console.error(e));
