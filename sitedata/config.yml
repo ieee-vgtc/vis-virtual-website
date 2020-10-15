@@ -41,6 +41,7 @@ calendar:
     meetup: '#e9c46a'
     live: '#e9c46a'
     associated: '#e76f51'
+    symposium: '#e76f51'
     visap: '#e76f51'
     application: '#8338ec'
     vis: '#264653'

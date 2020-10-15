@@ -250,7 +250,7 @@ function make_cal(name) {
         const itemMapping = {
           vis: "Conference",
           paper: "Papers",
-          associated: "Associated Events",
+          associated: "Associated Events / Symposium",
           workshop: "Workshop",
           application: "Application Spotlights",
           panel: "Tutorial / Panel",

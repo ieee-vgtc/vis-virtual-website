@@ -18,6 +18,8 @@
 [x] dev: store timezone in cookie (see "date parsing" below)
 [ ] Stretch supporters event across all events (W/Th/F)
 [ ] Add more details to "VIS Opening"
+[ ] Add "keynote" tab with Keynote information
+[ ] Suggestion: remove text from unreadable events (too squished)
 
 # Merge with Mini-Conf 1.5
 [x] Update favicon
@@ -54,6 +56,10 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [x] Add image placeholder (has_image is false)
 [ ] Add image VIS placeholder (generic VIS placeholder)
 [ ] Calendar links from pages
+[ ] Breadcrumb for event > session > paper (top of page)
+
+## Poster page
+[ ] Add external link from header (ask poster chairs for link)
 
 ## Session pages
 [ ] add youtube integration
@@ -61,8 +67,8 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [ ] Update Discord channel link (channel id / category)
 [ ] Calendar links from pages
 
-## Papers / Workshops listing
-[ ] Format items nicely (without cards?)
+## Event list
+[ ] Add quick-links to jump to different event types
 
 ## Award page
 [ ] Create static page
@@ -82,4 +88,5 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [ ] .. and revive?
 [ ] add auth0 integration
 [ ] ... only restrict auth to paper/session pages
+[ ] ... auth test user: oc_guest@datav.is / Vis2020!
 [x] hook up CDN links

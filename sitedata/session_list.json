@@ -1,8 +1,9 @@
 {
     "a-ldav": {
         "event": "LDAV",
-        "event_type": "Associated Event",
-        "event_description": "",
+        "long_name": "IEEE Symposium on Large Data Analysis and Visualization",
+        "event_type": "Symposium",
+        "event_description": "Modern large-scale scientific simulations, sensor networks, and experiments are generating enormous datasets, with some projects approaching the multiple exabyte range in the near term. Managing and analyzing large datasets in order to transform it into insight is critical for a variety of disciplines including climate science, nuclear physics, security, materials design, transportation, and urban planning. The tools and approaches needed to mine, analyze, and visualize data at extreme scales can be fully realized only if there are end-to-end solutions, which demands collective, interdisciplinary efforts.\n\nThe 10th IEEE Large Scale Data Analysis and Visualization (LDAV) symposium, to be held in conjunction with IEEE VIS 2020, is specifically targeting methodological innovation, algorithmic foundations, and possible end-to-end solutions. The LDAV symposium will bring together domain scientists, data analysts, visualization researchers, and users to foster common ground for solving both near- and long-term problems. Paper submissions are solicited for a long and short paper tracks. Topic emphasis is on algorithms, languages, systems, and/or hardware solutions that support the collection, analysis, manipulation, or visualization of large-scale data.",
         "event_url": "https://ldav.org/",
         "sessions": [
             {
@@ -203,7 +204,8 @@
     },
     "a-beliv": {
         "event": "BELIV",
-        "event_type": "Associated Event",
+        "long_name": "BELIV: Evaluation and Beyond - Methodological Approaches for Visualization",
+        "event_type": "Workshop",
         "event_description": "",
         "event_url": "https://beliv-workshop.github.io/",
         "sessions": [
@@ -452,8 +454,9 @@
     },
     "a-vis4dh": {
         "event": "VIS4DH",
-        "event_type": "Associated Event",
-        "event_description": "",
+        "long_name": "VIS4DH: Workshop on Visualization for the Digital Humanities",
+        "event_type": "Workshop",
+        "event_description": "For 4 years now, the VIS4DH workshop has brought together researchers and practitioners from the fields of visualization and the humanities to discuss new research directions at the intersection of visualization and (digital) humanities research. The general aim is to foster productive collaborations that mutually advances all fields involved. Papers and invited talks from previous years can be found here.\n\nRe-Thinking\nRe-Defining\nRe-Imagining Data\n\nThis year, we invite a dialogue on the topic and terminology around \u201cdata\u201d, a contested term within and between a range of disciplines. There are varying perspectives on the meaning and use of data that impact how we engage and debate it. \u201cData\u201d seems core to visualization! Or is it? We invite both theoretical and applied works at the intersection of visualization and (digital) humanities around these and other questions related to the workshop theme.",
         "event_url": "http://www.vis4dh.org/",
         "sessions": [
             {
@@ -832,7 +835,7 @@
                         "type": "Live Presentation",
                         "title": "Lab Talks II: Distant Viewing Lab",
                         "contributors": [
-                            "AWAITING CONTRIBUTOR CONFIRMATION - WILL HAVE BY MONDAY"
+                            "Lauren Tilton"
                         ],
                         "time_start": "2020-10-25T21:12:00Z",
                         "time_end": "2020-10-25T21:16:00Z"
@@ -841,7 +844,7 @@
                         "type": "Live Presentation",
                         "title": "Lab Talks II: The Electronic Literature Lab",
                         "contributors": [
-                            "AWAITING CONTRIBUTOR CONFIRMATION - WILL HAVE BY MONDAY"
+                            "Dene Grigar"
                         ],
                         "time_start": "2020-10-25T21:16:00Z",
                         "time_end": "2020-10-25T21:20:00Z"
@@ -870,6 +873,7 @@
     },
     "t-analysisdesign": {
         "event": "Visualization Analysis and Design",
+        "long_name": "Visualization Analysis and Design",
         "event_type": "Tutorial",
         "event_description": "This introductory tutorial will provide a broad foundation for thinking systematically about visualization systems, built around the idea that becoming familiar with analyzing existing systems is a good springboard for designing new ones. The major data types of concern in visual analytics, information visualization, and scientific visualization will all be covered: tables, networks, and sampled spatial data. This tutorial is focused on data and task abstractions, and the design choices for visual encoding and interaction; it will not cover algorithms. No background in computer science or visualization is assumed.",
         "event_url": "",
@@ -979,6 +983,7 @@
     },
     "w-mlui": {
         "event": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
+        "long_name": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
         "event_type": "Workshop",
         "event_description": "The high-level goal of this workshop is to bring together researchers from across the VIS community to share their knowledge and build collaborations at the intersection of the Machine Learning and Visualization fields, with a focus on learning from user interaction. Our hope in this workshop is to pull expertise from across all fields of VIS in order to generate open discussion about how we currently learn from user interaction and where we can go with future research.\n\nTo achieve this goal, we propose a workshop that incorporates paper presentations, keynotes, and free-form discussion. Our goal is to allow for the presentation of cutting-edge research, while also providing participants and speakers with time to exchange ideas and to discuss new research directions.",
         "event_url": "https://learningfromusersworkshop.github.io/",
@@ -1086,6 +1091,7 @@
     },
     "t-colorbasics": {
         "event": "Color Basics for Creating Visualizations",
+        "long_name": "Color Basics for Creating Visualizations",
         "event_type": "Tutorial",
         "event_description": "We provide an overview of the basics of color theory and demonstrate how to apply the concepts to visualization. Our tutorial is intended for a broad audience of individuals interested in understanding the mysteries of color. Our journey includes the introduction to the concepts of color models and harmony, a review of color vision principles, the defining of color gamut, spaces and systems, and demonstrating online and mobile apps for performing color analyses of digital media. Freely available commercial and research tools for your continued use in color selection and color deficiency assessments are highlighted. The tutorial includes concepts from art and design such as extending the fundamentals of the Bauhaus into data visualization as well as overviews of color perception and appearance principals for vision. Emerging trends in automated color selection and deep learning colorization are also highlighted.",
         "event_url": "",
@@ -1132,6 +1138,7 @@
     },
     "w-guides": {
         "event": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
+        "long_name": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
         "event_type": "Workshop",
         "event_description": "Our VisGuides 2020 Workshop proposal focuses on the analysis, design, reflection, and discussion of applicable frameworks to mastering guidelines in visualization by the broader visualization community, embedded in a larger research agenda of visualization theory and practices.\n\nThis workshop follows-up the ideas from the IEEE VIS 2016 and 2018 Workshop on Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization (C4PGV) (http://c4pgv.swansea.ac.uk, https://c4pgv.dbvis.de/).\n\nThe workshop wants to deliver concrete ideas and meta-guidelines about how the visualization community can contribute to the collection, storage, formulation, and dissemination of guidelines - within and beyond the visualization community. To make this possible, we aim at:\n\nDiscussing work-in-progress and current activities around visualization guidelines.\nCollect a comprehensive list of common and less common guidelines.\nBased on this collection, exercise, create, and discuss a possible framework, or template, or methodology to capture guidelines.\nDiscuss a research agenda on how to address open questions around guidelines and how on-going research - in any field of visualization - can contribute to sustainable management and discussion of guidelines.",
         "event_url": "https://nms.kcl.ac.uk/c4pgv/",
@@ -1261,6 +1268,7 @@
     },
     "t-paraview": {
         "event": "ParaView Tutorial",
+        "long_name": "ParaView Tutorial",
         "event_type": "Tutorial",
         "event_description": "ParaView is a flexible, extensible, open source, visualization tool that can operate both serially and in distributed memory parallel modes. It can be used to visualize and analyze both large and small data, both interactively and in batch. In this tutorial, we will expose the pipeline based design of the tool and show attendees how they can get meaningful visualizations from their data. We will cover frequently used ParaView workflows, including data wrangling, common filters for transforming data for visualization, choosing representations, exploring the rendering capabilities, and manipulating color maps. Attendees will leave the tutorial confident in their ability to run ParaView and find solutions to their problems.",
         "event_url": "",
@@ -1372,6 +1380,7 @@
     },
     "t-empiricaltransparent": {
         "event": "How to Make Your Empirical Research Transparent",
+        "long_name": "How to Make Your Empirical Research Transparent",
         "event_type": "Tutorial",
         "event_description": "Two fundamental tenets of scientific research are that it can be scrutinized and built-upon. Both require that the collected data, supporting materials, and decision timing be shared, so others can examine, reuse, and extend them. This tutorial will teach how you can share the artifacts of your own research. You will learn about the benefits gained by making different components or stages of research transparent, including decision timing, data collection procedures, raw data, and analysis & code. And for each, there will be tips and tricks as well as a walkthrough on how to share your work using the Open Science Framework. Bringing your laptop is highly encouraged.\n\nWe will also discuss what to do (and what you do not need to do) when reviewing a paper with open materials. You will hopefully walk away with an improved ability to make your own research more empirically replicable and computationally reproducible. These skills can enable you to have a greater impact on the field by facilitating reuse and further development of your ideas by both other researchers and those who wish to apply your work.",
         "event_url": "",
@@ -1456,6 +1465,7 @@
     },
     "w-trex": {
         "event": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
+        "long_name": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
         "event_type": "Workshop",
         "event_description": "Visual analytics (VA) systems combine computational support and human cognitive and perceptual skills to explore and analyze data. Many of these systems have been incorporating machine learning (ML) models and algorithms to introduce some level of automation to the analytical process. However, within this relationship, there are a number of aspects that can impact the effectiveness of the human-machine teaming, including: 1) People\u2019s domain and system expertise; 2) Human biases, including cognitive and perceptual biases; 3) Trust in ML models and visual representation of data.\n\nExpertise, bias, and trust are intrinsically intertwined. Additionally, visual analytics systems are used in different fields and by people from various backgrounds, with different levels of domain expertise and experience with machine learning and visual analytics tools. This variety of experience and domain expertise among human users has opened the door for new research directions and challenges in the fields of visual analytics and machine learning. Designers who fail to consider the aforementioned diversities might introduce problems to the analysis effectiveness and user experience. Furthermore, experience and domain expertise might affect user trust in visual analytics tools; although, how and why they affect trust is still an open question. Trust will eventually affect how much the users would rely on and use the tool. While users will take advantage of their prior experiences to make better decisions with the assistance of analytic support, they might carry many cognitive biases that can negatively influence their decision-making or analysis process. Recent research shows trust in and reliance on the visual analytics systems/tools as well as user strategies and biases can be directly influenced by domain and system expertise (or lack of expertise). The goal of this workshop is to bring together researchers and practitioners from different disciplines to discuss and discover challenges in ML supported visual analytics tools and set the stage for future research directions and collaborations regarding these issues by proposing design guidelines, empirical findings, and VA techniques.",
         "event_url": "https://trexvis.github.io/Workshop2020/index.html",
@@ -1500,7 +1510,7 @@
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "MISSING",
+                        "title": "The Psychology of Trust",
                         "contributors": [
                             "Steve Franconeri"
                         ],
@@ -1508,32 +1518,33 @@
                         "time_end": "2020-10-25T18:35:00Z"
                     },
                     {
-                        "type": "Recorded?",
+                        "type": "Live Presentation",
                         "title": "Measure Utility, Gain Trust: Practical Advice for XAI Researchers",
                         "contributors": [
                             "Dustin Arendt"
                         ],
                         "time_start": "2020-10-25T18:35:00Z",
-                        "time_end": "2020-10-25T18:47:00Z",
+                        "time_end": "2020-10-25T18:46:00Z",
                         "uid": "w-trex-7380"
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "MISSING",
+                        "title": "Beyond Trust Building - Calibrating Trust in Visual Analytics ",
                         "contributors": [
-                            "Austin Wright"
+                            "Wenkai Han"
                         ],
-                        "time_start": "2020-10-25T18:47:00Z",
-                        "time_end": "2020-10-25T18:59:00Z"
+                        "time_start": "2020-10-25T18:46:00Z",
+                        "time_end": "2020-10-25T18:57:00Z",
+                        "uid": "w-trex-6084"
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "MISSING",
+                        "title": "Towards Visual Analytics for AI Transparency and Trust in Healthcare",
                         "contributors": [
                             "Bum Chul Kwon (\u201cBC\u201d)"
                         ],
-                        "time_start": "2020-10-25T18:59:00Z",
-                        "time_end": "2020-10-25T19:19:00Z"
+                        "time_start": "2020-10-25T18:57:00Z",
+                        "time_end": "2020-10-25T19:17:00Z"
                     },
                     {
                         "type": "Live Panel",
@@ -1546,7 +1557,7 @@
                             "Aritra Dasgupta",
                             "Kristin Cook"
                         ],
-                        "time_start": "2020-10-25T19:19:00Z",
+                        "time_start": "2020-10-25T19:17:00Z",
                         "time_end": "2020-10-25T19:30:00Z"
                     },
                     {
@@ -1560,7 +1571,7 @@
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "MISSING",
+                        "title": "Intelligibility Throughout the Machine Learning Life Cycle",
                         "contributors": [
                             "Jenn Wortman Vaughan"
                         ],
@@ -1568,33 +1579,32 @@
                         "time_end": "2020-10-25T20:30:00Z"
                     },
                     {
-                        "type": "Recorded?",
-                        "title": "Beyond Trust Building - Calibrating Trust in Visual Analytics ",
-                        "contributors": [
-                            "Wenkai Han"
-                        ],
-                        "time_start": "2020-10-25T20:30:00Z",
-                        "time_end": "2020-10-25T20:42:00Z",
-                        "uid": "w-trex-6084"
-                    },
-                    {
-                        "type": "Recorded?",
+                        "type": "Live Presentation",
                         "title": "Towards Trust-Augmented Visual Analytics for Data-Driven Energy Modeling",
                         "contributors": [
                             "Aritra Dasgupta"
                         ],
-                        "time_start": "2020-10-25T20:42:00Z",
-                        "time_end": "2020-10-25T20:54:00Z",
+                        "time_start": "2020-10-25T20:30:00Z",
+                        "time_end": "2020-10-25T20:41:00Z",
                         "uid": "w-trex-1260"
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "MISSING",
+                        "title": "A Comparative Analysis of Industry Human-AI Interaction Guidelines",
                         "contributors": [
-                            "Endert et al. (Adam Coscia)"
+                            "Austin Wright"
                         ],
-                        "time_start": "2020-10-25T20:54:00Z",
-                        "time_end": "2020-10-25T21:06:00Z"
+                        "time_start": "2020-10-25T20:41:00Z",
+                        "time_end": "2020-10-25T20:52:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
+                        "title": "Toward a Bias-Aware Future for Mixed-Initiative Visual Analytics",
+                        "contributors": [
+                            "Adam Coscia"
+                        ],
+                        "time_start": "2020-10-25T20:52:00Z",
+                        "time_end": "2020-10-25T21:03:00Z"
                     },
                     {
                         "type": "Live Panel",
@@ -1607,7 +1617,7 @@
                             "Aritra Dasgupta",
                             "Kristin Cook"
                         ],
-                        "time_start": "2020-10-25T21:06:00Z",
+                        "time_start": "2020-10-25T21:03:00Z",
                         "time_end": "2020-10-25T21:30:00Z"
                     }
                 ]
@@ -1616,6 +1626,7 @@
     },
     "t-theorycolortools": {
         "event": "Theory and Application of Visualization Color Tools and Strategies",
+        "long_name": "Theory and Application of Visualization Color Tools and Strategies",
         "event_type": "Tutorial",
         "event_description": "In this tutorial, we will discuss the theory and usage of color encoding design for visualization, including state-of-the-art strategies and tools. Several new color palette and colormap construction tools such as Colorgorical, Color Crafter, ColorMoves, CCCtool have recently been released. This tutorial is designed to help participants understand their features, strengths and constraints in order to enable the selection of the tool that best aligns with their needs. We will first discuss principles, decisions, and mechanisms for designing effective color encodings and then explore these tools in hands-on sessions, creating color palettes and colormaps, and testing them on data. We will close with a discussion of how future tools may aid in open challenges for using color in visualization.",
         "event_url": "",
@@ -1742,6 +1753,7 @@
     },
     "w-comm": {
         "event": "VisComm: Workshop on Visualization for Communication",
+        "long_name": "VisComm: Workshop on Visualization for Communication",
         "event_type": "Workshop",
         "event_description": "Our proposed half-day workshop will bring together communicative visualization practitioners with researchers from several fields to address the questions raised by the rapidly growing communicative uses of visualization (e.g. in-news graphics, information graphics). These questions span issues of audience, application, evaluation, understanding and practice. To encourage participation from communities that do not typically attend IEEE Visualization and write academic papers, we will not only accept short papers but also visual case studies, and recruit program committee members from those communities. We have organized this workshop before with great success: at VIS 2018 with around 70 participants and nine papers and posters, and at VIS 2019 with around 60 participants (the room was over capacity, with people turned away) and 13 papers and posters.",
         "event_url": "https://viscomm.io/",
@@ -1933,6 +1945,7 @@
     },
     "w-failfest": {
         "event": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
+        "long_name": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
         "event_type": "Workshop",
         "event_description": "Failure is a crucial part of the scientific process, but it is rarely given the same respect as success. FailFest, a half day workshop at IEEE VIS 2020, is a chance for the visualization community to share personal research failures and celebrate the important knowledge gained through these experiences. The workshop will cumulate strategies for building a VIS community that acknowledges failure and embraces its scientific value.",
         "event_url": "https://failfest.github.io/",
@@ -2065,8 +2078,9 @@
     },
     "a-vds": {
         "event": "VDS",
-        "event_type": "Associated Event",
-        "event_description": "",
+        "long_name": "Visualization in Data Science",
+        "event_type": "Symposium",
+        "event_description": "Transformations in many fields are enabled by rapid advances in our ability to acquire and generate data. The bottleneck to discovery is now our ability to analyze and make sense of heterogeneous, noisy, streaming, and often massive datasets. Extracting knowledge or insights from this abundance of data lies at the heart of 21st century discovery, which can be used to inform decisions, coordinate activities, optimize processes, improve products and services, as well as enhance productivity and innovation across a wide range of business and scientific problems.\n\nData science is the practice of deriving insights from data, enabled by statistical modeling, computational methods, interactive visual analysis, and domain-driven problem solving. Data science draws from methodology developed in such fields as applied mathematics, statistics, machine learning, data management, visualization, and HCI. It drives discoveries in business, economy, biology, medicine, environmental science, the physical sciences, the humanities and social sciences, and beyond.\n\nVisualization is an integral part of data science, and essential to enable sophisticated analysis of data. After four highly successful events, the sixth Symposium on Visualization in Data Science (VDS) will again be held at IEEE VIS 2020 in Salt Lake City, Utah. VDS will bring together domain scientists and methods researchers (including visualization, usability and HCI, data management, statistics, machine learning, and software engineering) to discuss common interests, talk about practical issues, and identify open research problems in visualization in data science.",
         "event_url": "http://www.visualdatascience.org/2020/index.html",
         "sessions": [
             {
@@ -2090,12 +2104,12 @@
                 "time_slots": [
                     {
                         "type": "Live Presentation",
-                        "title": "Keynote: Finale Doshi-Velez",
+                        "title": "Keynote: Interpretability and Human Validation of Machine Learning",
                         "contributors": [
                             "Finale Doshi-Velez"
                         ],
                         "time_start": "2020-10-26T14:00:00Z",
-                        "time_end": "2020-10-26T14:05:00Z"
+                        "time_end": "2020-10-26T14:45:00Z"
                     },
                     {
                         "type": "Recorded Talk",
@@ -2103,8 +2117,8 @@
                         "contributors": [
                             "Anamaria Crisan"
                         ],
-                        "time_start": "2020-10-26T14:10:00Z",
-                        "time_end": "2020-10-26T14:15:00Z",
+                        "time_start": "2020-10-26T14:45:00Z",
+                        "time_end": "2020-10-26T15:00:00Z",
                         "uid": "a-vds-1002"
                     },
                     {
@@ -2113,8 +2127,8 @@
                         "contributors": [
                             "Subhajit Das"
                         ],
-                        "time_start": "2020-10-26T14:15:00Z",
-                        "time_end": "2020-10-26T14:20:00Z",
+                        "time_start": "2020-10-26T15:00:00Z",
+                        "time_end": "2020-10-26T15:15:00Z",
                         "uid": "a-vds-1010"
                     },
                     {
@@ -2123,8 +2137,8 @@
                         "contributors": [
                             "Joscha Eirich"
                         ],
-                        "time_start": "2020-10-26T14:20:00Z",
-                        "time_end": "2020-10-26T14:25:00Z",
+                        "time_start": "2020-10-26T15:15:00Z",
+                        "time_end": "2020-10-26T15:30:00Z",
                         "uid": "a-vds-1006"
                     },
                     {
@@ -2172,8 +2186,9 @@
     },
     "a-vastchallenge": {
         "event": "VAST Challenge",
+        "long_name": "IEEE Visual Analytics Science and Technology (VAST) Challenge",
         "event_type": "Associated Event",
-        "event_description": "",
+        "event_description": "The goal of the annual IEEE Visual Analytics Science and Technology (VAST) Challenge is to advance the field of visual analytics through competition. The VAST Challenge is designed to help researchers understand how their software would be used in a variety of analytic tasks and encourage innovation in data transformations and interactive visualizations. VAST Challenge problems provide researchers with realistic tasks and data sets for evaluating their software.\n\nResearchers and software providers often use VAST Challange data sets as benchmarks to demonstrate and test the capabilities of their systems. The ground truth embedded in the data sets helps researchers evaluate and strengthen the utility of their visual analytic techniques\n\nVAST Challenges are open to participation by individuals and teams in industry, government, and academia. We encourage your submissions and look forward to seeing your innovative approaches to solving these challenges using visual analytics.",
         "event_url": "https://vast-challenge.github.io/2020/",
         "sessions": [
             {
@@ -2420,9 +2435,10 @@
         ]
     },
     "a-biovischallenge": {
-        "event": "BioVis Challenge",
-        "event_type": "Associated Event",
-        "event_description": "",
+        "event": "BioVis Challenges",
+        "long_name": "BioVis Challenges",
+        "event_type": "Workshop",
+        "event_description": "The rapidly expanding field of biology creates enormous challenges for data visualization techniques that enable researchers to gain insight from their large and highly complex data sets. The BioVis Interest Group organizes this interdisciplinary workshop at IEEE VIS, covering aspects of visualization in biology. This workshop brings together researchers from the visualization, bioinformatics, and biology communities with the purpose of educating, inspiring, and engaging visualization researchers in problems in biological data visualization.",
         "event_url": "http://biovis.net/2020/biovisChallenges_vis/",
         "sessions": [
             {
@@ -2437,8 +2453,8 @@
                 ],
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "biovis challenge",
-                "discord_channel": "general",
+                "discord_category": "biovis challenges",
+                "discord_channel": "biovis-challenge",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
                 "zoom_meeting": "",
@@ -2559,6 +2575,7 @@
     },
     "w-psychology": {
         "event": "IEEE VIS Workshop on Visualization Psychology",
+        "long_name": "IEEE VIS Workshop on Visualization Psychology",
         "event_type": "Workshop",
         "event_description": "Before 2010, each VIS conference typically featured 0-2 papers on empirical studies. The VisWeek 2010 in Salt Lake City became a turning point, and since then more and more empirical study papers have been presented at VIS. Between 2016 and 2019, there were some 60 empirical study papers in VIS/TVCG tracks. Many young talents who are knowledgeable in both VIS and psychology emerged in the VIS community, while many colleagues in psychology are authoring and co-authoring such papers and attending VIS conferences. It is therefore timely to ask: Is there a need for \u201cVisualization Psychology\u201d as a new interdisciplinary subject? Led by young researchers in both VIS and psychology, this proposed workshop will complement BELIV and VISxVISION by (i) identifying a broad range of visualization phenomena that cannot be adequately explained by existing theories and experiments in VIS and psychology; (ii) Exploring the research questions beyond the scope of visual perception and reaching out to more research findings in psychology in many areas of cognition; and (iii) Enabling visualization and visual analytics to become a rich playground for making fundamental discoveries in psychology and cognitive science in general.",
         "event_url": "https://sites.google.com/view/vispsych/",
@@ -2735,6 +2752,7 @@
     },
     "t-scivishoudini": {
         "event": "Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science",
+        "long_name": "Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science",
         "event_type": "Tutorial",
         "event_description": "Cinematic scientific visualization makes three dimensional scientific phenomena approachable for mass audiences by using the artistic language of film including elements like camera choreography, lighting design, comprehensive scenic environments, and more. Cinematic scientific visualizations are an engaging way for domain experts to communicate niche information with the public, to refute widely held misconceptions, and to inspire the scientists of the future. Science films that feature these visualizations are screened at science centers to millions of viewers over the span of 10+ years and bridge different languages and cultures. They are shared widely on social media, featured regularly in television programs, and contribute to the success of public lectures.\n\nIf you are a domain expert looking to share your data more widely, or a visualization designer who has focused on more analytical tools, what better way is there to get started with a Hollywood style than by using Hollywood tools? This tutorial will introduce participants to Houdini, a visual effects software package that can generate cinematic-quality data visualizations with ease and efficiency. It is used and appreciated by most major animation and visual effects film studios for its procedural architecture, its modular design, and out-of-the-box rendering algorithms, all important features for ease-of-use in the field of data visualization. Houdini is a general-purpose image-making software that differs from most traditional scientific visualization tools in that it is optimized for look development and design functionality.\n\nIn this tutorial, participants will learn how to use Houdini to create a production-quality visualization from start to finish. They will translate a tornado cloud simulation into a Houdini-friendly format using Python, then ingest it into Houdini, transform it, add an environment, a camera, and a light source which mimics a sunset. Participants will be able to experiment with their own data transfer functions, camera movement, and lighting design. Several pre-made Houdini sample scenes will be explored to show how to create derivative data, how to turn 2D images into 3D height fields, and how to manipulate polygons, point clouds, and volumes.",
         "event_url": "",
@@ -2885,6 +2903,7 @@
     },
     "w-activities": {
         "event": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
+        "long_name": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
         "event_type": "Workshop",
         "event_description": "This workshop focuses on data-visualization activities, especially methods and challenges for teaching and engaging with data visualization concepts, knowledge, and practices. For example, sketching aids designers to consider alternative ideas; manipulating tokens help students conceptualize quantities for data visualization; user interviews and discussions help developers understand requirements. Workshops, classes, or collaborations with domain experts, often include hands-on data visualization activities that involve analog or digital tools and materials and more or less well defined protocols. Recent years have seen the emergence of such data visualization activities in different contexts, including education, visualization design, activism, self-reflection, and interdisciplinary collaboration. However, the broad range of contexts and target audiences that Data-Vis activities have been applied to makes it difficult to collect and identify commonalities and build knowledge in a systematic way. Thus, the goals of this workshop are i) start building an understanding and to synthesize protocols and materials used to lead data vis activities, ii) to bring together researchers, practitioners, and educators from within and outside of the visualization community, iii) brainstorm, design, experience, and try novel activities, and to iv) discuss issues around goals, methods, audiences, materials, and evaluation for teaching data visualization.",
         "event_url": "https://visactivities.github.io/",
@@ -3087,6 +3106,7 @@
     },
     "t-ttk": {
         "event": "Topological Data Analysis Made Easy with the Topology ToolKit, What is New?",
+        "long_name": "Topological Data Analysis Made Easy with the Topology ToolKit, What is New?",
         "event_type": "Tutorial",
         "event_description": "This tutorial presents topological methods for the analysis and visualization of scientific data from a user\u2019s perspective, with the Topology ToolKit (TTK), an open-source library for topological data analysis. Topological methods have gained considerably in popularity and maturity over the last twenty years and success stories of established methods have been documented in a wide range of applications (combustion, chemistry, astrophysics, material sciences, etc.) with both acquired and simulated data, in both post-hoc and in-situ contexts. This tutorial aims to fill a gap by providing a beginner\u2019s introduction to topological methods for practitioners, researchers, students, and lecturers. In particular, instead of focusing on theoretical aspects and algorithmic details, this tutorial focuses on how topological methods can be useful in practice for concrete data analysis tasks such as segmentation, feature extraction or tracking. The tutorial describes in detail how to achieve these tasks with TTK. In comparison to the last two iterations of this tutorial, this iteration emphasizes the features of TTK which now appear to be the most popular, as well as the latest additions to the library. First, we provide a general introduction to topological methods and their application in data analysis, and a brief overview of TTK\u2019s main entry point for end users, namely ParaView, will be presented. Second, we will proceed to a hands-on session demoing the main features of TTK as well as its most recent additions. Third, we will present advanced usages of TTK, including the usage of TTK with Python, the development of a new module for TTK as well as the integration of TTK into a pre-existing system. Presenters of this tutorial include experts in topological methods, core authors of TTK as well as active users, coming from academia and industry. A large part of the tutorial will be dedicated to hands-on exercises and a rich material package will be provided to the participants. This tutorial mostly targets students, practitioners and researchers who are not necessarily experts in topological methods but who are interested in using them in their daily tasks. We also target researchers already familiar to topological methods and who are interested in using or contributing to TTK. We kindly ask potential attendees to optionally pre-register at the following address, in order for us to reach out to them ahead of the tutorial with information updates (for instance, last minute updates, instructions for the download of the tutorial material package, etc.): https://forms.gle/CvrY3oWZB9hWSQJb9 Tutorial web page (including all material, TTK pre-installs in virtual machines, code, data, demos, video tutorials, slides, etc): https://topology-tool-kit.github.io/ieeeVisTutorial.html",
         "event_url": "https://topology-tool-kit.github.io/ieeeVisTutorial.html",
@@ -3278,8 +3298,9 @@
     },
     "a-visinpractice": {
         "event": "VisInPractice",
+        "long_name": "VisInPractice",
         "event_type": "Associated Event",
-        "event_description": "",
+        "event_description": "VisInPractice provides an opportunity for practitioners and researchers to share experiences, insights, and ideas in applying visualization and visual analytics to real use cases.",
         "event_url": "https://visinpractice.github.io/",
         "sessions": [
             {
@@ -3432,8 +3453,9 @@
     },
     "a-visxai": {
         "event": "VISxAI",
-        "event_type": "Associated Event",
-        "event_description": "",
+        "long_name": "3rd Workshop on Visualization for AI Explainability",
+        "event_type": "Symposium",
+        "event_description": " The role of visualization in artificial intelligence (AI) gained significant attention in recent years. With the growing complexity of AI models, the critical need for understanding their inner-workings has increased. Visualization is potentially a powerful technique to fill such a critical need. The goal of this workshop is to initiate a call for \"explainables\" / \"explorables\" that explain how AI techniques work using visualization. We believe the VIS community can leverage their expertise in creating visual narratives to bring new insight into the often obfuscated complexity of AI systems. ",
         "event_url": "https://visxai.io/",
         "sessions": [
             {
@@ -3550,6 +3572,7 @@
     },
     "w-futures": {
         "event": "Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations",
+        "long_name": "Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations",
         "event_type": "Workshop",
         "event_description": "The goal of this workshop is to initiate the creation of one or several cards decks through a series of hands-on activities, that will serve as a tool for generating visualization design fictions. Although methods exist to ideate visualization designs, they are not tailored to design fictions. And although some methods exist for generating design fictions, they are not tailored to visualization. We believe that creating a design fiction method for envisioning tomorrow\u2019s visualizations is essential for the research community to think about speculative design. There is also considerable pedagogical value in such a cards game, and these could result in a fun and creative in-class activity for teaching visualization design.",
         "event_url": "https://visfutures.github.io/",
@@ -3640,6 +3663,7 @@
     },
     "t-artifactvr": {
         "event": "Artifact Based Rendering: VR Visualization by Hand",
+        "long_name": "Artifact Based Rendering: VR Visualization by Hand",
         "event_type": "Tutorial",
         "event_description": "Artifact-Based Rendering (ABR) is a new approach to designing immersive data-driven visualizations entirely from physical materials. Introduced in last year\u2019s technical program, the theory behind ABR is that harnessing the richness of nature and traditional artistic materials can help us create more effective data-driven visualizations by expanding the visual language available to us in digital space. Participants will arrive to see tables with clay, paints, drawing materials and more. The tutorial consists of four sections: 1. introducing ABR concepts and tools, 2. active physical crafting and then digitizing artifacts, and 3. attaching the artifacts to example datasets, and 4. a VR/slideshow presentation of the visualizations created and reflections on the experience and future potential.",
         "event_url": "",
@@ -3774,6 +3798,7 @@
     },
     "w-astrophysics": {
         "event": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
+        "long_name": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
         "event_type": "Workshop",
         "event_description": "We propose a workshop during VIS 2020 titled \u201cVisualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth\u201d. The workshop aims to bring together researchers in astronomy and visualization in addressing emerging directions in visualization for large and complex astronomical datasets. It will facilitate close interactions among the attendees with the aim of accelerating the convergence between astronomy and visualization research, specifically in the development of practical visualization techniques and tools for large astronomical data. The workshop aims to have research talks in astronomy and visualization, including talks with planetaria content. It also aims to have moderated discussions and hands-on sessions to discuss potential solutions to mini-challenges involving well-curated astronomy data.",
         "event_url": "http://www.sci.utah.edu/~beiwang/visastro2020/",
@@ -3881,6 +3906,7 @@
     },
     "w-movis": {
         "event": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
+        "long_name": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
         "event_type": "Workshop",
         "event_description": "This workshop will bring Geographic Information Scientists to the VIS community and stimulate new insights by providing a forum that connects diverse methods and ideas. The goal of this workshop is to interactively share advances in the visualization of network, flow and movement data for knowledge discovery, exploratory spatial data analysis (ESDA) and decision-making.",
         "event_url": "http://move.geog.ucsb.edu/movis2020/",
@@ -4023,6 +4049,7 @@
     },
     "vis-opening": {
         "event": "VIS",
+        "long_name": "VIS",
         "event_type": "VIS Opening",
         "event_description": "",
         "event_url": "",
@@ -4218,6 +4245,7 @@
     },
     "f-papers": {
         "event": "VIS Full Papers",
+        "long_name": "VIS Full Papers",
         "event_type": "Paper Presentations",
         "event_description": "",
         "event_url": "",
@@ -6797,6 +6825,7 @@
     },
     "s-papers": {
         "event": "VIS Short Papers",
+        "long_name": "VIS Short Papers",
         "event_type": "Paper Presentations",
         "event_description": "",
         "event_url": "",
@@ -7525,6 +7554,7 @@
     },
     "p-academia": {
         "event": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
+        "long_name": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
         "event_type": "Panel",
         "event_description": "The question \"(Why) should I stay in academia\" emerges often in the minds of researchers and in discussions in our community. In general, junior researchers might be more affected, but this is a choice that all levels of academic seniority face. Our panel targets an open discussion on the active choice of \u201cstaying or leaving\u201d and its reasons, on the positives and negatives of both possible paths (academia vs. industry), and on how we, as a community, can foster a healthier environment to support and equip our members---whether they decide to stay in academia, or not. Our choice of panelists (Silvia Miksch, Johanna Beyer, Chuck Hansen, Jan Reininghaus, Bei Wang and Jack van Wijk) pays attention to the inclusion of researchers from different academic ages and with different paths, to reflect different career and life challenges. We have ensured gender balance among our panelists, as female researchers often face different (and additional) challenges, and we have included a panelist from industry, to represent both sides of the coin. We anticipate that our panel will engage a large group of researchers at different career stages in a lively discussion to shape our community.",
         "event_url": "http://www.renataraidou.com/panel-ieee-vis-2020",
@@ -7572,6 +7602,7 @@
     },
     "l-cosmo": {
         "event": "Opportunities and Challenges in Cosmology Visualization",
+        "long_name": "Opportunities and Challenges in Cosmology Visualization",
         "event_type": "Application Spotlight",
         "event_description": "Cosmologists use massive computer simulations to verify that models of the formation of the universe match observational data from telescopes. The massive data from these simulations create a number of opportunities for visualization, such as: 1) The Epoch of Reionization, which starts when stars first appeared after the big bang and radiation from these stars started ionizing hydrogen. This problem is similar to volume rendering but different enough that current volume rendering APIs cannot be used directly. How do we change graphics APIs to solve the reionization problem? 2) The data generated by these simulations is so large that only a few timesteps can be saved by the simulations. In post-hoc visualization, a significant amount of data wrangling is required to convert data from simulation format to something that visualization tools understand, requiring several iterations until the results are useful to the science team. Creating customizable workflows to achieve automatic visualization is an interesting research/application problem. In addition, how do we create pipelines for insitu visualization given the restrictions on memory and resources of simulation codes? 3) Validation is important in the field of cosmology, and some cosmologists compare Lagrangian cosmology simulations to Eulerian ones. How do we compare visualizations from these two different topologies? Can we assume that a point cloud volume rendering is equivalent to a grid based volume rendering?",
         "event_url": "https://sites.google.com/view/viscomsospotlight/",
@@ -7678,6 +7709,7 @@
     },
     "x-memorial": {
         "event": "VIS Memorials",
+        "long_name": "VIS Memorials",
         "event_type": "Memorial",
         "event_description": "",
         "event_url": "",
@@ -7742,6 +7774,7 @@
     },
     "a-visap": {
         "event": "VIS Arts Program",
+        "long_name": "VIS Arts Program",
         "event_type": "VIS Arts Program",
         "event_description": "",
         "event_url": "https://visap.net/",
@@ -8038,8 +8071,9 @@
     },
     "m-lies": {
         "event": "VisLies!",
+        "long_name": "VisLies!",
         "event_type": "Meetup",
-        "event_description": "",
+        "event_description": "VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community.  Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.",
         "event_url": "",
         "sessions": [
             {
@@ -8076,6 +8110,7 @@
     },
     "a-vizsec": {
         "event": "VizSec",
+        "long_name": "VizSec",
         "event_type": "Associated Event",
         "event_description": "",
         "event_url": "https://vizsec.org/vizsec2020/",
@@ -8286,13 +8321,14 @@
         ]
     },
     "vis-supporters": {
-        "event": "VIS Supporters",
+        "event": "Industrial Keynotes",
+        "long_name": "Industrial Keynotes",
         "event_type": "Keynote",
         "event_description": "",
         "event_url": "",
         "sessions": [
             {
-                "title": "Industrial Keynote #1",
+                "title": "Tableau",
                 "session_id": "vis-supporters-1",
                 "chair": [
                     "Valerio Pascucci",
@@ -8301,16 +8337,16 @@
                 "organizers": [],
                 "time_start": "2020-10-28T15:45:00Z",
                 "time_end": "2020-10-28T16:00:00Z",
-                "discord_category": "vis supporters",
-                "discord_channel": "industrial-keynote-1",
+                "discord_category": "industrial keynotes",
+                "discord_channel": "tableau",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Recorded Talk",
+                        "title": "Tableau",
                         "contributors": [
                             "MISSING"
                         ],
@@ -8320,7 +8356,7 @@
                 ]
             },
             {
-                "title": "Industrial Keynote #2",
+                "title": "Intel",
                 "session_id": "vis-supporters-2",
                 "chair": [
                     "Valerio Pascucci",
@@ -8329,16 +8365,16 @@
                 "organizers": [],
                 "time_start": "2020-10-29T15:45:00Z",
                 "time_end": "2020-10-29T16:00:00Z",
-                "discord_category": "vis supporters",
-                "discord_channel": "industrial-keynote-2",
+                "discord_category": "industrial keynotes",
+                "discord_channel": "intel",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": "MISSING",
+                        "type": "Recorded Talk",
+                        "title": "Intel",
                         "contributors": [
                             "MISSING"
                         ],
@@ -8379,6 +8415,7 @@
     },
     "cga-papers": {
         "event": "CG&A Full Papers",
+        "long_name": "CG&A Full Papers",
         "event_type": "Paper Presentations",
         "event_description": "",
         "event_url": "",
@@ -8544,8 +8581,9 @@
     },
     "a-sciviscontest": {
         "event": "SciVis Contest",
+        "long_name": "SciVis Contest",
         "event_type": "Associated Event",
-        "event_description": "",
+        "event_description": "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty",
         "event_url": "https://kaust-vislab.github.io/SciVis2020/",
         "sessions": [
             {
@@ -8673,8 +8711,9 @@
     },
     "m-publish": {
         "event": "Publish or Publicize",
+        "long_name": "Publish or Publicize",
         "event_type": "Meetup",
-        "event_description": "",
+        "event_description": "Publishing your paper is all good and well, but how does the rest of the world learn about it? What ways do you have to get even academic researchers to learn about your research if they happened to miss your conference talk? There\u2019s a healthy (if small) visualization community on Twitter, but blogging hasn\u2019t been so hot lately, and we haven\u2019t really established much of a foothold on YouTube. Let\u2019s chat about what tools we have to publicize visualization research, from old-school blogging to social media, podcasts to vlogs, and beyond (anybody want to start a vis TikTok?).",
         "event_url": "",
         "sessions": [
             {
@@ -8710,6 +8749,7 @@
     },
     "p-vishealth": {
         "event": "The Role of Vis and Data Researchers During a Public Health Crisis",
+        "long_name": "The Role of Vis and Data Researchers During a Public Health Crisis",
         "event_type": "Panel",
         "event_description": "We in the field like to think of visualization and data analysis as an unconditional good: a tool that enables clarity, communicates truth, and facilitates understanding. It stands to reason, then, that in a public health crisis such as the one we are going through, visualization and data researchers should be a part of the solution. But can we, and should we? What are the risks? Does the self-image of the field hold up with the current existing sociopolitical context?\n\nIn this panel, we will bring top researchers in visualization and data management to discuss how\u2014and whether\u2014visualization and data researchers can build effective solutions for urgent public health problems.",
         "event_url": "",
@@ -8755,6 +8795,7 @@
     },
     "l-med": {
         "event": "Recent Challenges in Medical Visualization",
+        "long_name": "Recent Challenges in Medical Visualization",
         "event_type": "Application Spotlight",
         "event_description": "Medical is a popular application in visualization. In this area, there are decades of development. In addition, the medical application highly contributes to the visualization research. Medicine itself is a developing area, where novel imaging, diagnosis, and treatment techniques are constantly developed and improved. Due to the increasing data complexity in this field, novel challenges arise when considering medical visualization. Still, by now fewer and fewer medical visualization contributions appear in proceedings of VIS related conferences. In this application spotlight, we aim to summarize and discuss recent challenges and proposed solutions in the area of medical visualization. These challenges include uncertainty visualization, multi-modal visualization, teaching of medical students, challenges in publishing medical visualization papers, surgery assistance, and legal regulations that need to be considered when proposing novel visualization techniques to the medical market.\n\nWe plan to structure our application spotlight as follows. First, we intend to invite selected speakers, that are working in the field of medical visualization to obtain their opinion on recent challenges in this field. Subsequently, we aim to feature a lively discussion with the audience of our spotlight to identify additional problems. Furthermore, we aim to highlight recent problems in publishing papers in the application area of medical. This discussion will be the main part of the application spotlight and will be carefully tracked. Based on the proposed event, we aim to provide a list of current challenges in medical visualization that will be publicly available. We hope that this list of challenges provides a deeper understanding to the VIS community as to why developments in medical visualizations are in high demand and how our community can benefit from and contribute to them.",
         "event_url": "",
@@ -8821,8 +8862,9 @@
     },
     "m-comm": {
         "event": "VisComm Meetup",
+        "long_name": "VisComm Meetup",
         "event_type": "Meetup",
-        "event_description": "",
+        "event_description": "This informal gathering is an opportunity to network with others interested in using visualization for communication. Come to find a collaborator, discuss best practices, share resources, or just have some social time! Be ready to introduce yourself and say a sentence or two about what you hope to get out of meetup.",
         "event_url": "",
         "sessions": [
             {
@@ -8855,7 +8897,8 @@
         ]
     },
     "x-revise": {
-        "event": "VIS",
+        "event": "Restructuring VIS for the Future",
+        "long_name": "Restructuring VIS for the Future",
         "event_type": "VIS",
         "event_description": "",
         "event_url": "",
@@ -8877,7 +8920,7 @@
                 ],
                 "time_start": "2020-10-29T20:00:00Z",
                 "time_end": "2020-10-29T21:00:00Z",
-                "discord_category": "vis",
+                "discord_category": "restructuring vis for the future",
                 "discord_channel": "revise",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
@@ -8919,7 +8962,8 @@
         ]
     },
     "x-viskickoff": {
-        "event": "VIS",
+        "event": "VIS 2021 Kick-off Meeting",
+        "long_name": "VIS 2021 Kick-off Meeting",
         "event_type": "VIS",
         "event_description": "",
         "event_url": "",
@@ -8935,8 +8979,8 @@
                 ],
                 "time_start": "2020-10-29T21:15:00Z",
                 "time_end": "2020-10-29T22:15:00Z",
-                "discord_category": "vis",
-                "discord_channel": "vis-2021-kick-off-meeting",
+                "discord_category": "vis 2021 kick-off meeting",
+                "discord_channel": "general",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
                 "zoom_meeting": "",
@@ -8957,6 +9001,7 @@
     },
     "l-industrial": {
         "event": "The Role of Visualization in Industrial Production",
+        "long_name": "The Role of Visualization in Industrial Production",
         "event_type": "Application Spotlight",
         "event_description": "Industrial production is a manifold and complex process holding several substeps from product concept over prototyping to manufacturing and quality management. Here, visualization approaches can be applied in nearly each step in order to increase the quality of decision making processes. In this context, each step of the process contributes unique requirements for visualizations to be applicable. This holds several problems: first, there is no standardization for visualizations in industrial production. Second, companies and visualization researchers can follow different aims which can make it hard to build a functional collaboration and third, there is no mechanism that keeps track of already invested or unsolved problems in visualization in industrial production. In this application spotlight we aim to shed a light on the application of industrial production when concerning visualization tasks. We aim to bring together different actors in visualization of industrial production, such as visualization researchers, research institutes and company fellows. We aim to structure our application spotlight along the industrial production pipeline and highlight the challenges when considering visualization approaches. Furthermore, the spotlight aims to discuss the open problems and solved tasked on the boundary between visualization research and industrial production. Here, the goal is to generate an overview over the role of visualization in industrial production, generate access for visualization researchers to this unique application and build a first step in creating a taxonomy of visualizations in industrial production.",
         "event_url": "",
@@ -9034,6 +9079,7 @@
     },
     "p-socialgood": {
         "event": "Visualization for Social Good",
+        "long_name": "Visualization for Social Good",
         "event_type": "Panel",
         "event_description": "After reflection on the Visualization for Social Good tutorial at IEEE VIS 2019, we noticed a perception that work using the power of visualization to further the public good was under-studied or otherwise not part of the main VIS conference. At the same time, there is a growing \u201ctechlash\u201d that highlights the potential of data science (and data visualization) as tools for reinforcing structures of inequality and injustice. We envision this panel to function as a way of airing these competing viewpoints and providing guidance on how the visualization community should use their power and responsibilities in the world. As such, we have centered our panelists\u2019 statements around response to a single question: What role (if any) should data visualization play in effecting positive change in the world?",
         "event_url": "",
@@ -9083,6 +9129,7 @@
     },
     "l-bio": {
         "event": "Challenges in the Visualization of Bioelectric Fields for Cardiac and Neural Research",
+        "long_name": "Challenges in the Visualization of Bioelectric Fields for Cardiac and Neural Research",
         "event_type": "Application Spotlight",
         "event_description": "The visualization of bioelectric fields has been an ongoing challenge to cardiac and neural researchers. Bioelectrical field data are heterogeneous and their interpretation often requires simultaneous interrogation of anatomical information with measured or simulated scalar, vector, and tensor fields. They may be volumetric or constrained to (obscuring) surfaces; and are usually time-dependent. To fully understand the spatiotemporal dynamics of the pathology under study, it is often necessary to integrate diverse formation across multiple scales, and to quantify and visualize the uncertainty associated with the data. Unfortunately, few visualization approaches are catered to the needs, conventions, and language of the applications, leading to a lack of widespread standards and use. Addressing these visualization challenges has potentially far-reaching benefits to both the understanding and diagnosis of a number of diseases.\n\nThe 90-minute session will be split between a single 30-minute plenary talk given by Dr. Rob S. MacLeod with experience in cardiac and neural analysis and visualization to outline the challenges facing the field. The plenary talk will be followed by three 15-minute talks from specialists from across the country who will outline their specific applications and visualization challenges.",
         "event_url": "http://www.sci.utah.edu/~beiwang/visspotlight2020/index.html",
@@ -9151,6 +9198,7 @@
     },
     "vis-closing": {
         "event": "VIS",
+        "long_name": "VIS",
         "event_type": "VIS Closing",
         "event_description": "",
         "event_url": "",

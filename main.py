@@ -398,6 +398,7 @@ def paper(paper):
     uid = paper
     v = by_uid["paper_list"][uid]
     data = _data()
+    data["requires_auth"] = True
     data["paper"] = format_paper(v)
     return render_template("paper.html", **data)
 
@@ -427,6 +428,7 @@ def session(session):
     uid = session
     v = by_uid["sessions"][uid]
     data = _data()
+    data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
 
@@ -444,6 +446,7 @@ def event(event):
 @app.route("/posters.html")
 def posters():
     data = _data()
+    data["requires_auth"] = True
     return render_template("posters.html", **data)
 
 

@@ -325,7 +325,7 @@
         "keywords": [],
         "uid": "w-trex-7380",
         "time_stamp": "2020-10-25T18:35:00Z",
-        "has_image": true,
+        "has_image": false,
         "paper_award": "",
         "image_caption": "We contribute a practical advice for researchers in the XAI field who seek to understand the \u201cgoodness\u201d of machine learning explanations. We recommend researchers focus on the utility of explanations instead of trust. We outline five broad use cases where explanations are useful and, for each, we describe pseudo-experiments that rely on objective empirical measurements and falsifiable hypotheses. We believe that this experimental rigor is necessary to contribute to scientific knowledge in the field of XAI."
     },
@@ -339,8 +339,8 @@
         "abstract": null,
         "keywords": [],
         "uid": "w-trex-6084",
-        "time_stamp": "2020-10-25T20:30:00Z",
-        "has_image": true,
+        "time_stamp": "2020-10-25T18:46:00Z",
+        "has_image": false,
         "paper_award": "",
         "image_caption": "The trust continuum with respect to trust building and calibration. Trust building focuses on improving trust through the levels of distrust, undistrust, untrust and trust. Trust calibration emphasizes avoiding misplaced trust levels such as mistrust and misdistrust to achieve justified trust levels. Limit of forgivability and cooperation threshold denote the point beyond which distrust and trust can be achieved, respectively."
     },
@@ -358,7 +358,7 @@
         "abstract": null,
         "keywords": [],
         "uid": "w-trex-1260",
-        "time_stamp": "2020-10-25T20:42:00Z",
+        "time_stamp": "2020-10-25T20:30:00Z",
         "has_image": false,
         "paper_award": "",
         "image_caption": "Illustrating the roles of the different stakeholders for energy modeling with respect to a data-driven predictive analysis pipeline. A trust gap exists on both sides, where energy modelers need transparent analytical methods for model accessibility and calibration, and building and grid operators need tools that can both explain model predictions and help them make better real-time decisions."
