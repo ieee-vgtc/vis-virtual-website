@@ -12,7 +12,12 @@
         <h1>{{ paper.title }}</h1>
         <h2 class="pb-2 mt-3">{{ paper.authors | join(", ") }}</h2>
         <h3 class="py-2">DOI: TBD</h3>
+        {% if paper.external_paper_link %}
+        <!-- TODO: Icon not working? -->
+        <h4 class="pb-2">Paper PDF: <a href="{{ paper.external_paper_link }}">{{ paper.id }}.pdf</a><i class="fas fa-external-link-alt"></i></h4>
+        {% else %}
         <h4 class="pb-2">Paper PDF: <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">{{ paper.id }}.pdf</a></h4>
+        {% endif %}
         <h4 class="pb-2">Presentation: <span class="format-date">{{ paper.time_stamp }}</span> (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
     </div>
 </div>

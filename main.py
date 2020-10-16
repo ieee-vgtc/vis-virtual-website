@@ -282,7 +282,7 @@ def format_paper(v):
         # for papers.html:
         "sessions": [by_uid["sessions"][v["session_id"]]["title"]],
         "UID": v["uid"],
-        "pdf_url": v.get("pdf_url", ""),
+        "external_paper_link": v["external_paper_link"]
     }
 
 def format_paper_list(v):
