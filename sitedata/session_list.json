@@ -16,6 +16,7 @@
                     "Julien Tierny",
                     "Hongfeng Yu"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T15:30:00Z",
                 "discord_category": "ldav",
@@ -68,6 +69,7 @@
                     "Julien Tierny",
                     "Hongfeng Yu"
                 ],
+                "display_start": "2020-10-25T16:00:00Z",
                 "time_start": "2020-10-25T16:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "ldav",
@@ -122,6 +124,7 @@
                     "Julien Tierny",
                     "Hongfeng Yu"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T19:30:00Z",
                 "discord_category": "ldav",
@@ -176,6 +179,7 @@
                     "Julien Tierny",
                     "Hongfeng Yu"
                 ],
+                "display_start": "2020-10-25T20:00:00Z",
                 "time_start": "2020-10-25T20:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "ldav",
@@ -234,6 +238,7 @@
                     "Miriah Meyer",
                     "Michael Sedlmair"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T15:30:00Z",
                 "discord_category": "beliv",
@@ -301,6 +306,7 @@
                     "Miriah Meyer",
                     "Michael Sedlmair"
                 ],
+                "display_start": "2020-10-25T16:00:00Z",
                 "time_start": "2020-10-25T16:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "beliv",
@@ -369,6 +375,7 @@
                     "Miriah Meyer",
                     "Michael Sedlmair"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T19:20:00Z",
                 "discord_category": "beliv",
@@ -421,6 +428,7 @@
                     "Miriah Meyer",
                     "Michael Sedlmair"
                 ],
+                "display_start": "2020-10-25T20:00:00Z",
                 "time_start": "2020-10-25T20:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "beliv",
@@ -497,6 +505,7 @@
                     "Uta Hinrichs",
                     "Mennatallah El-Assady"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T15:30:00Z",
                 "discord_category": "vis4dh",
@@ -573,6 +582,7 @@
                     "Uta Hinrichs",
                     "Mennatallah El-Assady"
                 ],
+                "display_start": "2020-10-25T16:00:00Z",
                 "time_start": "2020-10-25T16:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "vis4dh",
@@ -719,6 +729,7 @@
                     "Uta Hinrichs",
                     "Mennatallah El-Assady"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T19:30:00Z",
                 "discord_category": "vis4dh",
@@ -787,6 +798,7 @@
                     "Uta Hinrichs",
                     "Mennatallah El-Assady"
                 ],
+                "display_start": "2020-10-25T20:00:00Z",
                 "time_start": "2020-10-25T20:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "vis4dh",
@@ -943,6 +955,7 @@
                 "organizers": [
                     "Tamara Munzner"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "visualization analysis and design",
@@ -1060,6 +1073,7 @@
                     "John Wenskovitch"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "mlui 2020 machine learning from user interaction for visualization and analytics",
@@ -1113,7 +1127,7 @@
                         "type": "Live Presentation",
                         "title": "Welcome Back",
                         "contributors": [
-                            "John Wenskovitch"
+                            "Michelle Dowling"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-25T16:00:00Z",
@@ -1121,7 +1135,7 @@
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "Keynote 2 MISSING TITLE",
+                        "title": "Using Models and Predictions to Help Humans and Computers Click",
                         "contributors": [
                             "Alvitta Ottley"
                         ],
@@ -1179,6 +1193,7 @@
                 "organizers": [
                     "Theresa-Marie Rhyne"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "color basics for creating visualizations",
@@ -1231,6 +1246,7 @@
                     "Alfie Abdul-Rahman",
                     "Alexandra Diehl"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "visguides 3rd workshop on the creation curation critique and conditioning of principles and guideli",
@@ -1376,6 +1392,7 @@
                     "Michael Migliore",
                     "Ken Moreland"
                 ],
+                "display_start": "2020-10-25T14:00:00Z",
                 "time_start": "2020-10-25T14:00:00Z",
                 "time_end": "2020-10-25T17:30:00Z",
                 "discord_category": "paraview tutorial",
@@ -1490,6 +1507,7 @@
                     "Steve Haroz",
                     "Xiaoying Pu"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "how to make your empirical research transparent",
@@ -1585,6 +1603,7 @@
                     "Aritra Dasgupta",
                     "Kristin Cook"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "trex workshop on trust and expertise in visual analytics",
@@ -1756,6 +1775,7 @@
                     "Francesca Samsel",
                     "Karen Schloss"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "theory and application of visualization color tools and strategies",
@@ -1892,6 +1912,7 @@
                     "Ben Watson",
                     "Robert Kosara"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "viscomm workshop on visualization for communication",
@@ -2103,6 +2124,7 @@
                     "Lonni Besan\u00e7on",
                     "Paul Rosen"
                 ],
+                "display_start": "2020-10-25T18:00:00Z",
                 "time_start": "2020-10-25T18:00:00Z",
                 "time_end": "2020-10-25T21:30:00Z",
                 "discord_category": "fail fest a workshop celebrating the scientific value of failure",
@@ -2240,6 +2262,7 @@
                     "Adam Perer",
                     "Hendrick Strobelt"
                 ],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "vds",
@@ -2353,6 +2376,7 @@
                     "Jordan Crouser"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T15:30:00Z",
                 "discord_category": "vast challenge",
@@ -2434,6 +2458,7 @@
                     "Curtis Larimer"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T16:00:00Z",
                 "time_start": "2020-10-26T16:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "vast challenge",
@@ -2519,6 +2544,7 @@
                     "Jordan Crouser"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T19:30:00Z",
                 "discord_category": "vast challenge",
@@ -2573,6 +2599,7 @@
                     "Jordan Crouser"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T20:00:00Z",
                 "time_start": "2020-10-26T20:00:00Z",
                 "time_end": "2020-10-26T20:50:00Z",
                 "discord_category": "vast challenge",
@@ -2623,6 +2650,7 @@
                     "Anamaria Crisan",
                     "Carolina Nobre"
                 ],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "biovis challenges",
@@ -2771,6 +2799,7 @@
                     "Danielle Szafir"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:35:00Z",
                 "discord_category": "ieee vis workshop on visualization psychology",
@@ -2967,6 +2996,7 @@
                     "AJ Christensen",
                     "Kalina Borkiewicz"
                 ],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "scientific visualization in houdini how to use visual effects software for a cinematic presentation",
@@ -3132,6 +3162,7 @@
                     "Jonathan C. Roberts",
                     "Mandy Keck"
                 ],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "visactivities workshop on data vis activities to facilitate learning reflecting discussing and desi",
@@ -3357,6 +3388,7 @@
                     "Julien Tierny",
                     "Jules Vidal"
                 ],
+                "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "topological data analysis made easy with the topology toolkit what is new",
@@ -3554,6 +3586,7 @@
                     "Sean McKenna"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T16:00:00Z",
                 "time_start": "2020-10-26T16:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
                 "discord_category": "visinpractice",
@@ -3612,6 +3645,7 @@
                     "Leo Zhicheng Liu"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T19:30:00Z",
                 "discord_category": "visinpractice",
@@ -3652,6 +3686,7 @@
                     "Matt Larsen"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-26T20:00:00Z",
                 "time_start": "2020-10-26T20:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
                 "discord_category": "visinpractice",
@@ -3721,6 +3756,7 @@
                 "organizers": [
                     "VISxAI Organizers"
                 ],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:05:00Z",
                 "discord_category": "visxai",
@@ -3858,6 +3894,7 @@
                     "Lora Oehlberg",
                     "Sheelagh Carpendale"
                 ],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
                 "discord_category": "vis futures design fiction methods for envisioning tomorrows visualizations",
@@ -3949,6 +3986,7 @@
                     "Francesca Samsel",
                     "Bridger Herman"
                 ],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
                 "discord_category": "artifact based rendering vr visualization by hand",
@@ -4096,6 +4134,7 @@
                     "Juna Kollmeier",
                     "Lauren Anderson"
                 ],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
                 "discord_category": "visualization in astrophysics developing new methods discovering our universe educating the earth",
@@ -4210,6 +4249,7 @@
                     "Somayeh Dodge",
                     "Alan MacEachren"
                 ],
+                "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:15:00Z",
                 "discord_category": "movis information visualization of geospatial networks flows and movement",
@@ -4361,6 +4401,7 @@
                     "Rita Borgo"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-27T17:30:00Z",
                 "time_start": "2020-10-27T17:30:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -4455,6 +4496,7 @@
                     "Dominik Moritz"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-27T18:00:00Z",
                 "time_start": "2020-10-27T18:00:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -4539,6 +4581,7 @@
                     "Lyn Bartram"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-27T18:00:00Z",
                 "time_start": "2020-10-27T18:00:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -4623,6 +4666,7 @@
                     "Polo Chau"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-27T18:00:00Z",
                 "time_start": "2020-10-27T18:00:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -4707,6 +4751,7 @@
                     "Florian Heimrl"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T14:00:00Z",
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -4792,6 +4837,7 @@
                     "Nadia Boukhelifa"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T14:00:00Z",
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -4876,6 +4922,7 @@
                     "Michael Behrisch"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T14:00:00Z",
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -4960,6 +5007,7 @@
                     "Matthew Berger"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T16:00:00Z",
                 "time_start": "2020-10-28T16:00:00Z",
                 "time_end": "2020-10-28T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -5045,6 +5093,7 @@
                     "J\u00fcrgen Bernard"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T16:00:00Z",
                 "time_start": "2020-10-28T16:00:00Z",
                 "time_end": "2020-10-28T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -5129,6 +5178,7 @@
                     "Michael Krone"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T16:00:00Z",
                 "time_start": "2020-10-28T16:00:00Z",
                 "time_end": "2020-10-28T17:15:00Z",
                 "discord_category": "vis full papers",
@@ -5202,6 +5252,7 @@
                     "Jian Zhao"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T18:00:00Z",
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -5286,6 +5337,7 @@
                     "Fernando Paulovich"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T18:00:00Z",
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -5370,6 +5422,7 @@
                     "Lars Linsen"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T18:00:00Z",
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -5454,6 +5507,7 @@
                     "Patric Ljung"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -5538,6 +5592,7 @@
                     "Cody Dunne"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -5622,6 +5677,7 @@
                     "Manuela Waldner"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -5707,6 +5763,7 @@
                     "Siming Chen"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -5791,6 +5848,7 @@
                     "Gennady Andrienko"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -5882,6 +5940,7 @@
                     "Jeremy Boy"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -5966,6 +6025,7 @@
                     "Aidan Slingsby"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -6050,6 +6110,7 @@
                     "Paolo Buono"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -6134,6 +6195,7 @@
                     "Hamish Carr"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -6218,6 +6280,7 @@
                     "Joseph Cottam"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -6303,6 +6366,7 @@
                     "Kanit Wongsuphasawat"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -6388,6 +6452,7 @@
                     "Hanqi Guo"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "discord_category": "vis full papers",
@@ -6473,6 +6538,7 @@
                     "Jordan Crouser"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T14:00:00Z",
                 "time_start": "2020-10-30T14:00:00Z",
                 "time_end": "2020-10-30T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -6557,6 +6623,7 @@
                     "Evanthia Dimara"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T14:00:00Z",
                 "time_start": "2020-10-30T14:00:00Z",
                 "time_end": "2020-10-30T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -6641,6 +6708,7 @@
                     "Katerina Vrotsou"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T14:00:00Z",
                 "time_start": "2020-10-30T14:00:00Z",
                 "time_end": "2020-10-30T15:15:00Z",
                 "discord_category": "vis full papers",
@@ -6715,6 +6783,7 @@
                     "David Gotz"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T14:00:00Z",
                 "time_start": "2020-10-30T14:00:00Z",
                 "time_end": "2020-10-30T15:30:00Z",
                 "discord_category": "vis full papers",
@@ -6800,6 +6869,7 @@
                     "J\u00f6rn Kohlhammer"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:15:00Z",
                 "discord_category": "vis full papers",
@@ -6874,6 +6944,7 @@
                     "Paul Rosen"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -6958,6 +7029,7 @@
                     "Tamara Munzner"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -7042,6 +7114,7 @@
                     "Hank Childs"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "discord_category": "vis full papers",
@@ -7137,6 +7210,7 @@
                     "Christina Gillman"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-27T17:45:00Z",
                 "time_start": "2020-10-27T17:45:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "discord_category": "vis short papers",
@@ -7266,6 +7340,7 @@
                     "Bahador Saket"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T14:00:00Z",
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:30:00Z",
                 "discord_category": "vis short papers",
@@ -7384,6 +7459,7 @@
                     "Alper Sarikaya"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T16:00:00Z",
                 "time_start": "2020-10-28T16:00:00Z",
                 "time_end": "2020-10-28T17:20:00Z",
                 "discord_category": "vis short papers",
@@ -7491,6 +7567,7 @@
                     "Emily Wall"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T18:00:00Z",
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:10:00Z",
                 "discord_category": "vis short papers",
@@ -7586,6 +7663,7 @@
                     "Cindy Xiong"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
                 "discord_category": "vis short papers",
@@ -7703,6 +7781,7 @@
                     "Mennatallah El-Assady"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:10:00Z",
                 "discord_category": "vis short papers",
@@ -7799,6 +7878,7 @@
                     "Josua Krause"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T14:00:00Z",
                 "time_start": "2020-10-30T14:00:00Z",
                 "time_end": "2020-10-30T15:30:00Z",
                 "discord_category": "vis short papers",
@@ -7933,6 +8013,7 @@
                     "Dan Archambault",
                     "Micha Behrisch"
                 ],
+                "display_start": "2020-10-27T18:00:00Z",
                 "time_start": "2020-10-27T18:00:00Z",
                 "time_end": "2020-10-27T19:30:00Z",
                 "discord_category": "why should i stay in academia bridging generations of researchers in visualization",
@@ -7983,6 +8064,7 @@
                     "Silvio Rizzi",
                     "Jim Ahrens"
                 ],
+                "display_start": "2020-10-27T18:00:00Z",
                 "time_start": "2020-10-27T18:00:00Z",
                 "time_end": "2020-10-27T19:42:00Z",
                 "discord_category": "opportunities and challenges in cosmology visualization",
@@ -8092,6 +8174,7 @@
                 "organizers": [
                     "Chris R. Johnson"
                 ],
+                "display_start": "2020-10-27T20:00:00Z",
                 "time_start": "2020-10-27T20:00:00Z",
                 "time_end": "2020-10-27T20:53:00Z",
                 "discord_category": "vis memorials",
@@ -8167,6 +8250,7 @@
                     "Carmen Hull",
                     "Maria Lantin"
                 ],
+                "display_start": "2020-10-27T20:00:00Z",
                 "time_start": "2020-10-27T20:00:00Z",
                 "time_end": "2020-10-27T21:15:00Z",
                 "discord_category": "vis arts program",
@@ -8255,6 +8339,7 @@
                     "Carmen Hull",
                     "Maria Lantin"
                 ],
+                "display_start": "2020-10-28T14:00:00Z",
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:25:00Z",
                 "discord_category": "vis arts program",
@@ -8374,6 +8459,7 @@
                     "Carmen Hull",
                     "Maria Lantin"
                 ],
+                "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:20:00Z",
                 "discord_category": "vis arts program",
@@ -8480,6 +8566,7 @@
                     "Kenneth Moreland",
                     "Bernice Rogowitz"
                 ],
+                "display_start": "2020-10-27T19:40:00Z",
                 "time_start": "2020-10-27T19:40:00Z",
                 "time_end": "2020-10-27T20:40:00Z",
                 "discord_category": "vislies",
@@ -8521,8 +8608,9 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
+                "display_start": "2020-10-27T13:20:00Z",
                 "time_start": "2020-10-27T13:30:00Z",
-                "time_end": "2020-10-27T13:48:00Z",
+                "time_end": "2020-10-27T13:45:00Z",
                 "discord_category": "vis",
                 "discord_channel": "opening",
                 "discord_channel_id": 756701302649651230,
@@ -8550,16 +8638,6 @@
                         "abstract": null,
                         "time_start": "2020-10-27T13:43:00Z",
                         "time_end": "2020-10-27T13:45:00Z"
-                    },
-                    {
-                        "type": "Live Presentation",
-                        "title": "VGTC Overview",
-                        "contributors": [
-                            "Jim Ahrens"
-                        ],
-                        "abstract": null,
-                        "time_start": "2020-10-27T13:45:00Z",
-                        "time_end": "2020-10-27T13:48:00Z"
                     }
                 ]
             },
@@ -8574,7 +8652,8 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
-                "time_start": "2020-10-27T13:48:00Z",
+                "display_start": "2020-10-27T13:45:00Z",
+                "time_start": "2020-10-27T13:45:00Z",
                 "time_end": "2020-10-27T15:00:00Z",
                 "discord_category": "vis",
                 "discord_channel": "opening",
@@ -8583,6 +8662,16 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "time_slots": [
+                    {
+                        "type": "Live Presentation",
+                        "title": "VGTC Overview",
+                        "contributors": [
+                            "Jim Ahrens"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T13:45:00Z",
+                        "time_end": "2020-10-27T13:48:00Z"
+                    },
                     {
                         "type": "Live Presentation",
                         "title": "VGTC Awards Overview and Process",
@@ -8691,8 +8780,9 @@
                 "organizers": [
                     "MISSING"
                 ],
+                "display_start": "2020-10-27T15:00:00Z",
                 "time_start": "2020-10-27T15:00:00Z",
-                "time_end": "2020-10-27T15:50:00Z",
+                "time_end": "2020-10-27T15:55:00Z",
                 "discord_category": "vis",
                 "discord_channel": "opening",
                 "discord_channel_id": 756701302649651230,
@@ -8741,7 +8831,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2020-10-27T15:45:00Z",
-                        "time_end": "2020-10-27T15:50:00Z",
+                        "time_end": "2020-10-27T15:55:00Z",
                         "uid": "s-short-1109"
                     }
                 ]
@@ -8757,6 +8847,7 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
+                "display_start": "2020-10-27T16:00:00Z",
                 "time_start": "2020-10-27T16:00:00Z",
                 "time_end": "2020-10-27T17:00:00Z",
                 "discord_category": "vis",
@@ -8798,6 +8889,7 @@
                     "Chris Bryan",
                     "J\u00f6rn Kohlhammer"
                 ],
+                "display_start": "2020-10-28T14:00:00Z",
                 "time_start": "2020-10-28T14:00:00Z",
                 "time_end": "2020-10-28T15:30:00Z",
                 "discord_category": "vizsec",
@@ -8860,6 +8952,7 @@
                     "Chris Bryan",
                     "J\u00f6rn Kohlhammer"
                 ],
+                "display_start": "2020-10-28T16:00:00Z",
                 "time_start": "2020-10-28T16:00:00Z",
                 "time_end": "2020-10-28T17:30:00Z",
                 "discord_category": "vizsec",
@@ -8944,6 +9037,7 @@
                     "Chris Bryan",
                     "J\u00f6rn Kohlhammer"
                 ],
+                "display_start": "2020-10-28T18:00:00Z",
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:10:00Z",
                 "discord_category": "vizsec",
@@ -9022,6 +9116,7 @@
                     "Mike Kirby"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T15:35:00Z",
                 "time_start": "2020-10-28T15:45:00Z",
                 "time_end": "2020-10-28T16:00:00Z",
                 "discord_category": "industrial keynotes",
@@ -9051,6 +9146,7 @@
                     "Mike Kirby"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T15:35:00Z",
                 "time_start": "2020-10-29T15:45:00Z",
                 "time_end": "2020-10-29T16:00:00Z",
                 "discord_category": "industrial keynotes",
@@ -9080,6 +9176,7 @@
                     "Mike Kirby"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T15:35:00Z",
                 "time_start": "2020-10-30T15:45:00Z",
                 "time_end": "2020-10-30T16:00:00Z",
                 "discord_category": "vis supporters",
@@ -9117,6 +9214,7 @@
                     "Ingrid Hotz"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-28T16:00:00Z",
                 "time_start": "2020-10-28T16:00:00Z",
                 "time_end": "2020-10-28T17:30:00Z",
                 "discord_category": "cga full papers",
@@ -9201,6 +9299,7 @@
                     "Melanie Tory"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
                 "discord_category": "cga full papers",
@@ -9299,6 +9398,7 @@
                     "Madhu Srinivasan",
                     "Silvio Rizzi"
                 ],
+                "display_start": "2020-10-28T18:00:00Z",
                 "time_start": "2020-10-28T18:00:00Z",
                 "time_end": "2020-10-28T19:30:00Z",
                 "discord_category": "scivis contest",
@@ -9438,6 +9538,7 @@
                 "organizers": [
                     "Robert Kosara"
                 ],
+                "display_start": "2020-10-28T19:40:00Z",
                 "time_start": "2020-10-28T19:40:00Z",
                 "time_end": "2020-10-28T20:40:00Z",
                 "discord_category": "publish or publicize",
@@ -9482,6 +9583,7 @@
                     "Dan Archambault",
                     "Micha Behrisch"
                 ],
+                "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "discord_category": "the role of vis and data researchers during a public health crisis",
@@ -9524,6 +9626,7 @@
                     "Thomas Wischgoll"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
                 "discord_category": "recent challenges in medical visualization",
@@ -9593,6 +9696,7 @@
                     "Adriana Arcia"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-29T19:40:00Z",
                 "time_start": "2020-10-29T19:40:00Z",
                 "time_end": "2020-10-29T20:40:00Z",
                 "discord_category": "viscomm meetup",
@@ -9638,6 +9742,7 @@
                 "organizers": [
                     "Christoph Garth"
                 ],
+                "display_start": "2020-10-29T20:00:00Z",
                 "time_start": "2020-10-29T20:00:00Z",
                 "time_end": "2020-10-29T21:00:00Z",
                 "discord_category": "restructuring vis for the future",
@@ -9699,6 +9804,7 @@
                 "organizers": [
                     "MISSING"
                 ],
+                "display_start": "2020-10-29T21:15:00Z",
                 "time_start": "2020-10-29T21:15:00Z",
                 "time_end": "2020-10-29T22:15:00Z",
                 "discord_category": "vis 2021 kick-off meeting",
@@ -9738,6 +9844,7 @@
                     "Gerik Scheuermann"
                 ],
                 "organizers": [],
+                "display_start": "2020-10-30T14:00:00Z",
                 "time_start": "2020-10-30T14:00:00Z",
                 "time_end": "2020-10-30T15:30:00Z",
                 "discord_category": "the role of visualization in industrial production",
@@ -9830,6 +9937,7 @@
                     "Dan Archambault",
                     "Micha Behrisch"
                 ],
+                "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "discord_category": "visualization for social good",
@@ -9874,6 +9982,7 @@
                     "Bei Wang",
                     "Wilson Good"
                 ],
+                "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
                 "time_end": "2020-10-30T17:30:00Z",
                 "discord_category": "challenges in the visualization of bioelectric fields for cardiac and neural research",
@@ -9947,6 +10056,7 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
+                "display_start": "2020-10-30T18:00:00Z",
                 "time_start": "2020-10-30T18:00:00Z",
                 "time_end": "2020-10-30T19:00:00Z",
                 "discord_category": "vis",
@@ -9979,6 +10089,7 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
+                "display_start": "2020-10-30T19:00:00Z",
                 "time_start": "2020-10-30T19:00:00Z",
                 "time_end": "2020-10-30T19:30:00Z",
                 "discord_category": "vis",

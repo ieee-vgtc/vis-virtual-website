@@ -108,6 +108,7 @@ function make_cal(name) {
               return '<span class="calendar-week-dayname-name">' + dayname.label + '</span>';
             },
             time: function (schedule) {
+                // TODO: How to get the realStart here to show in the text?
               return '<strong>' + moment(schedule.start.getTime())
                 .tz(timezoneName)
                 .format('HH:mm') + '</strong> ' + schedule.title;

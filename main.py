@@ -111,7 +111,8 @@ def generateDayCalendars():
             session_event = {
                 "id": session["id"],
                 "title": session["fullTitle"],
-                "start": session["startTime"],
+                "start": session["calendarDisplayStartTime"],
+                "realStart": session["startTime"],
                 "end": session["endTime"],
                 # "location": session['youtube'],
                 "location": "/session_" + session["id"] + ".html",
@@ -373,6 +374,7 @@ def format_by_session_list(v):
         .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
+        "calendarDisplayStartTime": v["display_start"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
@@ -431,7 +433,6 @@ def keynote():
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
-    print(data)
     return render_template("keynote_or_capstone.html", **data)
 
 @app.route('/session_vis-capstone.html')
