@@ -46,7 +46,6 @@ function make_cal(name) {
     const enumerateDaysBetweenDates = function (startDate, endDate) {
       const dates = [];
 
-      // console.log(startDate, endDate, "--- startDate, endDate");
 
       const currDate = moment(startDate);
       const lastDate = moment(endDate);
@@ -64,6 +63,8 @@ function make_cal(name) {
 
     $.get('serve_config.json').then(config => {
       $.get(name).then(events => {
+
+        events.forEach(e=> e.raw = e);
 
         const all_cals = [];
         const timezoneName = current_tz;
@@ -109,7 +110,7 @@ function make_cal(name) {
             },
             time: function (schedule) {
                 // TODO: How to get the realStart here to show in the text?
-              return '<strong>' + moment(schedule.start.getTime())
+              return '<strong>' + moment(schedule.raw.realStart)
                 .tz(timezoneName)
                 .format('HH:mm') + '</strong> ' + schedule.title;
             },
@@ -215,7 +216,7 @@ function make_cal(name) {
 
           i++;
 
-          // console.log(day.format(), "--- day");
+
         }
 
         function render(all_cals) {
