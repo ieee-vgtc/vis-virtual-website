@@ -15,14 +15,6 @@
     </div>
 </div>
 
-{% if session.abstract %}
-<div class="row">
-    <div class="col-md-8">
-        <p>{{ session.abstract }}</p>
-    </div>
-</div>
-{% endif %}
-
 <div class="row mt-5">
     <div class="col-lg-10">
         <!-- ensure 16x9 aspect ratio;
@@ -40,29 +32,14 @@
 
 <hr>
 
-{% if session.timeSlots %}
-<div class="row my-4">
-    <div class="col-md-12">
-        <h2>Presentations in this session:</h2>
-        <p>You may want to also jump to the parent event to see related presentations: <a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></p>
-    </div>
-</div>
-{% for timeslot in session.timeSlots %}
-
-<div class="row mb-3">
+{% if session.timeSlots[0].abstract %}
+<div class="row">
     <div class="col-md-8">
-        {% if timeslot.uid %}
-        <h3><a href="/paper_{{ timeslot.uid}}.html">{{ timeslot.title }}</a></h3>
-        {% else %}
-        <h3>{{ timeslot.title }}</h3>
-        {% endif %}
-        <h4>Presenter: {{ timeslot.contributors | join(", ") }}</h4>
-        <h5>{{timeslot.type}}</h4>
-        <h5 class="text-muted format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</h5>
+        <img src="{{ session.speaker_picture }}"/>
+        <p>{{ session.timeSlots[0].abstract }}</p>
     </div>
 </div>
-
-{% endfor %}
 {% endif %}
 
 {% endblock %}
+

@@ -111,7 +111,8 @@ def generateDayCalendars():
             session_event = {
                 "id": session["id"],
                 "title": session["fullTitle"],
-                "start": session["startTime"],
+                "start": session["calendarDisplayStartTime"],
+                "realStart": session["startTime"],
                 "end": session["endTime"],
                 # "location": session['youtube'],
                 "location": "/session_" + session["id"] + ".html",
@@ -281,7 +282,7 @@ def format_paper(v):
         # for papers.html:
         "sessions": [by_uid["sessions"][v["session_id"]]["title"]],
         "UID": v["uid"],
-        "pdf_url": v.get("pdf_url", ""),
+        "external_paper_link": v["external_paper_link"]
     }
 
 def format_paper_list(v):
@@ -335,7 +336,7 @@ def format_session_as_event(v, uid):
 
     return {
         "id": uid,
-        "title": v["event"],
+        "title": v["long_name"],
         "type": v["event_type"],
         "abbr_type": v["event_type"].split(" ")[0].lower(),
         "abstract": v["event_description"],
@@ -373,6 +374,7 @@ def format_by_session_list(v):
         .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
+        "calendarDisplayStartTime": v["display_start"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
@@ -423,6 +425,26 @@ def workshop(workshop):
     data["workshop"] = format_workshop(v)
     return render_template("workshop.html", **data)
 
+@app.route('/session_vis-keynote.html')
+def keynote():
+    uid = "vis-keynote"
+    v = by_uid["sessions"][uid]
+    data = _data()
+    data["requires_auth"] = True
+    data["session"] = format_by_session_list(v)
+    data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
+    return render_template("keynote_or_capstone.html", **data)
+
+@app.route('/session_vis-capstone.html')
+def capstone():
+    uid = "vis-capstone"
+    v = by_uid["sessions"][uid]
+    data = _data()
+    data["requires_auth"] = True
+    data["session"] = format_by_session_list(v)
+    # TODO: Picture of Sheelagh
+    data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
+    return render_template("keynote_or_capstone.html", **data)
 
 @app.route("/session_<session>.html")
 def session(session):
@@ -432,7 +454,6 @@ def session(session):
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
-
 
 @app.route('/event_<event>.html')
 def event(event):
