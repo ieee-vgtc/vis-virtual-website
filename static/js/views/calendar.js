@@ -3,7 +3,8 @@ function make_cal(name) {
     // ...promise fulfilled after cal is rendered.
 
     // TODO: set value in cookie if we can; read in base.html
-    const current_tz = getUrlParameter('tz') || window.localStorage.getItem("tz") || moment.tz.guess();
+    const current_tz = getUrlParameter('tz') || window.localStorage.getItem(
+      "tz") || moment.tz.guess();
     const tzNames = [...moment.tz.names()];
 
     const setupTZSelector = () => {
@@ -18,13 +19,13 @@ function make_cal(name) {
           function (e, clickedIndex, isSelected, previousValue) {
             new_tz = tzNames[clickedIndex];
 
-             const localStorage = window.localStorage;
-             localStorage.setItem("tz", new_tz);
+            const localStorage = window.localStorage;
+            localStorage.setItem("tz", new_tz);
 
             window.open(window.location.pathname + '?tz=' + new_tz, '_self');
           })
 
-      $("#saveTz").on('click', function(_) {
+      $("#saveTz").on('click', function (_) {
         const new_tz = $(".selectpicker").val();
 
         const localStorage = window.localStorage;
@@ -33,7 +34,7 @@ function make_cal(name) {
         window.open(window.location.pathname + '?tz=' + new_tz, '_self');
       });
 
-      $("#resetTz").on('click', function(_) {
+      $("#resetTz").on('click', function (_) {
         const localStorage = window.localStorage;
         localStorage.removeItem("tz");
         window.open(window.location.pathname, '_self');
@@ -64,7 +65,7 @@ function make_cal(name) {
     $.get('serve_config.json').then(config => {
       $.get(name).then(events => {
 
-        events.forEach(e=> e.raw = e);
+        events.forEach(e => e.raw = e);
 
         const all_cals = [];
         const timezoneName = current_tz;
@@ -78,6 +79,8 @@ function make_cal(name) {
           min_hours = 0;
           max_hours = 24;
         }
+
+        let renderAllTexts = false;
         // console.log(min_hours, max_hours);
         const Calendar = tui.Calendar;
         const calendar = new Calendar('#calendar', {
@@ -109,10 +112,11 @@ function make_cal(name) {
               return '<span class="calendar-week-dayname-name">' + dayname.label + '</span>';
             },
             time: function (schedule) {
-                // TODO: How to get the realStart here to show in the text?
-              return '<strong>' + moment(schedule.raw.realStart)
+              // TODO: How to get the realStart here to show in the text?
+              return (schedule.calendarId === 'vis' || schedule.calendarId === 'memorial' || renderAllTexts) ? '<strong>' + moment(
+                schedule.raw.realStart)
                 .tz(timezoneName)
-                .format('HH:mm') + '</strong> ' + schedule.title;
+                .format('HH:mm') + '</strong> ' + schedule.title : '';
             },
             milestone: function (schedule) {
               return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '"> M: ' + schedule.title + '</span>';
@@ -220,11 +224,18 @@ function make_cal(name) {
         }
 
         function render(all_cals) {
-          all_cals.forEach(c => c.render(true));
+          all_cals.forEach(c => {
+            if (c === calendar){
+              renderAllTexts = false
+            }else{
+              renderAllTexts = true
+            }
+            c.render(true)
+          });
 
           // bind tooltip to all calendar events
           $('.tui-full-calendar-time-schedule').tooltip({
-            title: function() {
+            title: function () {
               let scheduleId = this.getAttribute("data-schedule-id");
               let calendarId = this.getAttribute("data-calendar-id");
               let foundEvent;
@@ -271,8 +282,8 @@ function make_cal(name) {
         const legendItems = d3.select('#color-legend').selectAll('.legend-item')
           .data(legendColors)
           .enter().append('div')
-            .attr('class', 'legend-item px-2 d-flex align-items-baseline')
-            .attr('id', d => 'legend-item-' + d.key);
+          .attr('class', 'legend-item px-2 d-flex align-items-baseline')
+          .attr('id', d => 'legend-item-' + d.key);
 
         legendItems.append('div')
           .style('width', '12px')
