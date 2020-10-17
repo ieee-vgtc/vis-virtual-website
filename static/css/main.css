@@ -8,7 +8,7 @@
   --text-heading-color: #7f6c5e;
   --text-muted-color: #b9aba1;
   --text-inv-color: #eee;
-  --text-accent-color: #7f6c5e;
+  --text-accent-color: #997b66; /* lighten from original VIS2020 style for readability */
   --icon-color: #6c757d;
   --btn-color: #fff;
   --btn-inv-color: #4a5568;
@@ -20,7 +20,7 @@ body a {
 
 body a:hover {
   color: var(--accent-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 code {
@@ -77,9 +77,9 @@ body {
   background-color: var(--main-bg-color); /* rgba(236, 241, 246, 1); */
 }
 
-.container a:hover {
+/* .container a:hover {
   text-decoration: none;
-}
+} */
 
 h2.jumbotron-h {
   font-family: "Zilla Slab SemiBold", sans-serif;
@@ -97,9 +97,9 @@ h3.jumbotron-date {
   background-blend-mode: lighten;
 }
 
-h1,
-h2,
-h3 {
+h1
+/* ,h2,h3 */
+{
   font-family: "Zilla Slab SemiBold";
   font-weight: bold;
   color: var(--text-heading-color);
@@ -400,9 +400,6 @@ body .carousel-control-prev {
   color: var(--accent-color);
 }
 
-.session-listing {
-  border-left: 5px solid transparent;
-}
 .checkbox-paper.selected {
   opacity: 1;
   color: #6c757d;
@@ -411,13 +408,6 @@ body .carousel-control-prev {
 .checkbox-bookmark.selected {
   opacity: 1;
   color: var(--accent-color);
-}
-
-.session-type {
-  display: block;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  padding-bottom: 0.5rem;
 }
 
 hr {
@@ -446,27 +436,7 @@ hr::after {
   box-sizing: content-box;
 }
 
-/* session page styling */
-
-.integration-description {
-  color: var(--icon-color);
-  font-size: 0.85rem;
-}
-
-.integration-description emph {
-  color: var(--accent-color);
-}
-
-/* paper page styling */
-
-.award {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: var(--accent-color);
-  outline: 2px solid var(--accent-color);
-  outline-offset: 6px;
-}
+/* all_events styling */
 
 .event-card {
   font-size: 16pt;
@@ -480,4 +450,96 @@ hr::after {
 }
 .event-card .event-url{
   font-size: 12pt;
+}
+
+/* combined styling (schedule listing, event, session, paper) */
+
+/* h1 */
+.session-list-event,
+.session-title,
+.paper-title,
+.session-list-title
+{
+  font-family: "Zilla Slab SemiBold";
+  font-weight: bold;
+}
+
+/* h2 */
+.session-list-session,
+.session-chair,
+.paper-authors
+{
+  font-family: "Fira Sans";
+}
+
+/* h3 */
+.session-list-date,
+.session-date,
+.paper-link,
+.paper-presentation
+{
+  /* placeholder; add styles here */
+  text-decoration: none;
+}
+
+/* h4 */
+.session-list-presenter
+{
+  /* placeholder; add styles here */
+  text-decoration: none;
+}
+
+/* h5 and other non-paragraph text */
+.session-list-info,
+.session-info,
+.session-list-type
+{
+  /* placeholder; add styles here */
+  text-decoration: none;
+}
+
+/* session lists */
+
+.session-listing {
+  border-left: 5px solid transparent;
+}
+
+.session-type {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding-bottom: 0.5rem;
+}
+
+.session-list-title .fas {
+  font-size: 0.8em;
+}
+
+/* session page styling */
+
+.session-chair .fas,
+.session-date .fas
+{
+  font-size: 0.75em;
+  vertical-align: baseline;
+}
+
+.integration-description {
+  color: var(--icon-color);
+  font-size: 0.85rem;
+}
+
+.integration-description emph {
+  color: var(--accent-color);
+}
+
+/* paper page styling */
+
+.paper-award {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--accent-color);
+  outline: 2px solid var(--accent-color);
+  outline-offset: 6px;
 }

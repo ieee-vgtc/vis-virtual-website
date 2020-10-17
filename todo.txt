@@ -16,10 +16,10 @@
 [x] session listing: parse and format dates based on current timezone through javascript
 [x] day listing: better support non-US timezones when a single day's events straddle multiple days
 [x] dev: store timezone in cookie (see "date parsing" below)
-[ ] Stretch supporters event across all events (W/Th/F)
-[ ] Add more details to "VIS Opening"
+[x] Stretch supporters event across all events (W/Th/F)
+[x] Add more details to "VIS Opening"
 [ ] Add "keynote" tab with Keynote information
-[ ] Suggestion: remove text from unreadable events (too squished)
+[x] Suggestion: remove text from unreadable events (too squished)
 
 # Merge with Mini-Conf 1.5
 [x] Update favicon
@@ -31,8 +31,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [ ] Add supporters to footer of website (on the right on the homepage)
 
 # json dump notes
-[ ] viscomm papers missing uid's?
-[ ]
+[ ] papers missing awards (no paper is marked as "best" or "honorable")
 
 # date parsing
 [x] Save (calendar.js) and read (base.html) timezone from cookie, if possible
@@ -45,18 +44,18 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 
 ## Papers page
 [x] Fix indexing of all papers
-[ ] Customize navigation of papers
-[ ] Update paper vis
+[x] Customize navigation of papers
+[x] Update paper vis
 
 ## Paper pages
-[ ] Correctly style images/captions
-[ ] Add icons for paper PDFs, DOI, awards
+[x] Correctly style images/captions
+[x] Add icons for paper PDFs, DOI, awards
 [x] Remove image captions (not available yet)
-[ ] Re-instate image captions?
+[x] Re-instate image captions?
 [x] Add image placeholder (has_image is false)
 [ ] Add image VIS placeholder (generic VIS placeholder)
-[ ] Calendar links from pages
-[ ] Breadcrumb for event > session > paper (top of page)
+[x] Calendar links from pages
+[x] Breadcrumb for event > session > paper (top of page)
 
 ## Poster page
 [ ] Add external link from header (ask poster chairs for link)
@@ -68,7 +67,8 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [ ] Calendar links from pages
 
 ## Event list
-[ ] Add quick-links to jump to different event types
+[x] Add quick-links to jump to different event types
+[ ] Add explanations of the different types and organize like-ones together?
 
 ## Award page
 [ ] Create static page
@@ -79,14 +79,14 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 
 ## Content
 [x] Remove "chat" item
-[ ] Parse paper metadata/figures/embedding visualization
+[x] Parse paper metadata/figures/embedding visualization
 [ ] Add FAQ entries
 [ ] ... add pointer to conferene chairs from FAQ
 
 ## Dev tasks
 [X] remove python lint task (not useful)
 [ ] .. and revive?
-[ ] add auth0 integration
-[ ] ... only restrict auth to paper/session pages
-[ ] ... auth test user: oc_guest@datav.is / Vis2020!
+[x] add auth0 integration
+[x] ... only restrict auth to paper/session pages
+[x] ... auth test user: oc_guest@datav.is / Vis2020!
 [x] hook up CDN links

@@ -282,7 +282,15 @@
 
     $(".format-date-span-short").each((_i,element) =>{
       formatTimeSpan($(element), true);
-    })
+    });
+
+    $(".format-date-span-full").each((_i, element) => {
+      formatTimeSpan($(element), true);
+    });
+
+    $(".format-time").each((_i, element) => {
+      formatTime($(element));
+    });
 
     function gtag() {
       dataLayer.push(arguments);
