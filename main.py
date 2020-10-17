@@ -231,11 +231,13 @@ def schedule():
 
     return render_template("schedule.html", **data)
 
+
 @app.route("/events.html")
 def events():
     data = _data()
     all_events = [format_session_as_event(event_item, event_uid) for event_uid, event_item in by_uid['events'].items()]
     data['events'] = sorted(all_events, key=lambda e: e['abbr_type'])
+    data['event_types'] = sorted(list(set([(e['type'], e["abbr_type"]) for e in all_events])), key=lambda x: x[0])
     data['colors'] = data['config']['calendar']['colors']
     return render_template("events.html", **data)
 
@@ -284,6 +286,7 @@ def format_paper(v):
         "UID": v["uid"],
         "external_paper_link": v["external_paper_link"]
     }
+
 
 def format_paper_list(v):
     list_keys = ["authors"]
@@ -370,19 +373,19 @@ def format_by_session_list(v):
         "id": v["session_id"],
         "title": v["title"],
         "type": v["event_type"]
-        .split(" ")[0]
-        .lower(),  # get first word, which should be good enough...
+            .split(" ")[0]
+            .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
         "calendarDisplayStartTime": v["display_start"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
-        "event": v["event"], # backloaded from parent event
-        "event_type": v["event_type"], # backloaded from parent event
-        "parent_id": v["parent_id"], # backloaded from parent event
-        "event_description": v["event_description"], # backloaded from parent event
-        "event_url": v["event_url"], # backloaded from parent event
+        "event": v["event"],  # backloaded from parent event
+        "event_type": v["event_type"],  # backloaded from parent event
+        "parent_id": v["parent_id"],  # backloaded from parent event
+        "event_description": v["event_description"],  # backloaded from parent event
+        "event_url": v["event_url"],  # backloaded from parent event
         "fullTitle": fullTitle,
         "redundantTitle": redundantTitle,
         "discord_category": v["discord_category"],
@@ -425,6 +428,7 @@ def workshop(workshop):
     data["workshop"] = format_workshop(v)
     return render_template("workshop.html", **data)
 
+
 @app.route('/session_vis-keynote.html')
 def keynote():
     uid = "vis-keynote"
@@ -434,6 +438,7 @@ def keynote():
     data["session"] = format_by_session_list(v)
     data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
     return render_template("keynote_or_capstone.html", **data)
+
 
 @app.route('/session_vis-capstone.html')
 def capstone():
@@ -446,6 +451,7 @@ def capstone():
     data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
     return render_template("keynote_or_capstone.html", **data)
 
+
 @app.route("/session_<session>.html")
 def session(session):
     uid = session
@@ -454,6 +460,7 @@ def session(session):
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     return render_template("session.html", **data)
+
 
 @app.route('/event_<event>.html')
 def event(event):
@@ -493,6 +500,7 @@ def allpapers():
 def chat():
     data = _data()
     return render_template("chat.html", **data)
+
 
 @app.route("/redirect.html")
 def redirect_page():

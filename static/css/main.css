@@ -467,3 +467,17 @@ hr::after {
   outline: 2px solid var(--accent-color);
   outline-offset: 6px;
 }
+
+.event-card {
+  font-size: 16pt;
+}
+
+.event-card .event-title{
+  font-weight: bold;
+}
+.event-card .event-time{
+  font-size: 12pt;
+}
+.event-card .event-url{
+  font-size: 12pt;
+}

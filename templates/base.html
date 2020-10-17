@@ -240,6 +240,7 @@
     function formatTimeSpan(element, includeDate){
       const current_tz = getTimezone();
       let parts = element.text().split(" – ");
+      console.log(parts,"--- parts");
       let start = parts[0];
       let end = parts[1];
 
@@ -276,6 +277,10 @@
     $(".format-date-span").each((_i, element) => {
       formatTimeSpan($(element));
     });
+
+    $(".format-date-span-short").each((_i,element) =>{
+      formatTimeSpan($(element), true);
+    })
 
     function gtag() {
       dataLayer.push(arguments);

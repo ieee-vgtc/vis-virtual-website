@@ -302,7 +302,7 @@ const start = () => {
       all_papers = papers;
 
       calcAllKeys(all_papers, allKeys);
-      setTypeAhead("authors", allKeys, filters, render);
+      setTypeAhead("titles", allKeys, filters, render);
 
       xS.domain(d3.extent(papers.map((p) => p.pos[0])));
       yS.domain(d3.extent(papers.map((p) => p.pos[1])));
