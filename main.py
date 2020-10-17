@@ -11,6 +11,8 @@ import yaml
 from flask import Flask, jsonify, redirect, render_template, send_from_directory
 from flask_frozen import Freezer
 from flaskext.markdown import Markdown
+from flask_minify import minify
+
 
 site_data = {}
 by_uid = {}
@@ -589,6 +591,7 @@ if __name__ == "__main__":
     generateDayCalendars()
 
     if args.build:
+        minify(app=app, html=True, js=False, cssless=True)
         freezer.freeze()
     else:
         debug_val = False
