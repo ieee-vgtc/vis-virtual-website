@@ -47,7 +47,7 @@
                         "time_end": "2020-10-25T15:00:00Z"
                     },
                     {
-                        "type": "Recorced Talk",
+                        "type": "Recorded Talk",
                         "title": "Best Paper: Foveated Encoding for Large High-Resolution Displays",
                         "contributors": [
                             "Florian Frie\u00df"
@@ -668,7 +668,7 @@
                         "type": "Live Presentation",
                         "title": "Lab Talks I: DensityDesign Lab",
                         "contributors": [
-                            "AWAITING CONTRIBUTOR CONFIRMATION - WILL HAVE BY MONDAY"
+                            "Michele Mauri"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-25T17:08:00Z",
@@ -869,7 +869,7 @@
                         "type": "Live Presentation",
                         "title": "Lab Talks II: Sussex Humanities Lab",
                         "contributors": [
-                            "Ben Jackson - substituted by Tim Hitchcock"
+                            "Tim Hitchcock"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-25T21:00:00Z",
@@ -3743,7 +3743,7 @@
     "a-visxai": {
         "event": "VISxAI",
         "long_name": "3rd Workshop on Visualization for AI Explainability",
-        "event_type": "Symposium",
+        "event_type": "Workshop",
         "event_description": " The role of visualization in artificial intelligence (AI) gained significant attention in recent years. With the growing complexity of AI models, the critical need for understanding their inner-workings has increased. Visualization is potentially a powerful technique to fill such a critical need. The goal of this workshop is to initiate a call for \"explainables\" / \"explorables\" that explain how AI techniques work using visualization. We believe the VIS community can leverage their expertise in creating visual narratives to bring new insight into the often obfuscated complexity of AI systems. ",
         "event_url": "https://visxai.io/",
         "sessions": [
@@ -8593,7 +8593,7 @@
     "vis-opening": {
         "event": "VIS",
         "long_name": "VIS",
-        "event_type": "VIS Opening",
+        "event_type": "VIS",
         "event_description": "",
         "event_url": "",
         "sessions": [
@@ -8775,10 +8775,12 @@
                 "title": "Opening: Best Papers",
                 "session_id": "vis-opening-3",
                 "chair": [
-                    "MISSING"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
-                    "MISSING"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "display_start": "2020-10-27T15:00:00Z",
                 "time_start": "2020-10-27T15:00:00Z",
@@ -8835,9 +8837,18 @@
                         "uid": "s-short-1109"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    "vis-keynote": {
+        "event": "Keynote",
+        "long_name": "Keynote",
+        "event_type": "Keynote",
+        "event_description": "For the first time in the history of the VIS conference, we will have a Nobel prize awardee as the keynote speaker: Mario Capecchi co-winner of the 2007 Nobel Prize in Physiology or Medicine.\n\nMario Capecchi, a renowned geneticist at the University of Utah, is a Distinguished Professor of Human Genetics with a unique life story of overcoming incredible odds when he nearly died as a child in the streets of Italy after his mother was arrested and put in a concentration camp by the Nazis during World War II.\n\nWith an uplifting message that is mainly directed towards the junior members of our community, Mario Capecchi will stress the importance of collaboration in scientific investigation and how strong collaborative research helped him in his professional journey towards the Nobel prize.",
+        "event_url": "",
+        "sessions": [
             {
-                "title": "Opening: Keynote by Mario Capecchi",
+                "title": "Keynote by Mario Capecchi",
                 "session_id": "vis-keynote",
                 "chair": [
                     "Valerio Pascucci",
@@ -8850,8 +8861,8 @@
                 "display_start": "2020-10-27T16:00:00Z",
                 "time_start": "2020-10-27T16:00:00Z",
                 "time_end": "2020-10-27T17:00:00Z",
-                "discord_category": "vis",
-                "discord_channel": "opening",
+                "discord_category": "keynote",
+                "discord_channel": "general",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
                 "zoom_meeting": "",
@@ -8874,7 +8885,7 @@
     "a-vizsec": {
         "event": "VizSec",
         "long_name": "IEEE Symposium on Visualization for Cyber Security",
-        "event_type": "Associated Event",
+        "event_type": "Symposium",
         "event_description": "VizSec brings together researchers and practitioners in information visualization and security to address the specific needs of the cyber security community through new and insightful visualization techniques.",
         "event_url": "https://vizsec.org/vizsec2020/",
         "sessions": [
@@ -9104,7 +9115,7 @@
     "vis-supporters": {
         "event": "Industrial Keynotes",
         "long_name": "Industrial Keynotes",
-        "event_type": "Keynote",
+        "event_type": "Industrial Keynotes",
         "event_description": "",
         "event_url": "",
         "sessions": [
@@ -9115,7 +9126,9 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Brian Summa"
+                ],
                 "display_start": "2020-10-28T15:35:00Z",
                 "time_start": "2020-10-28T15:45:00Z",
                 "time_end": "2020-10-28T16:00:00Z",
@@ -9130,7 +9143,7 @@
                         "type": "Recorded Talk",
                         "title": "Tableau",
                         "contributors": [
-                            "MISSING"
+                            "Maureen Stone"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-28T15:45:00Z",
@@ -9145,7 +9158,9 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Brian Summa"
+                ],
                 "display_start": "2020-10-29T15:35:00Z",
                 "time_start": "2020-10-29T15:45:00Z",
                 "time_end": "2020-10-29T16:00:00Z",
@@ -9160,41 +9175,11 @@
                         "type": "Recorded Talk",
                         "title": "Intel",
                         "contributors": [
-                            "MISSING"
+                            "Jim Jeffers"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-29T15:45:00Z",
                         "time_end": "2020-10-29T16:00:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Industrial Keynote #3",
-                "session_id": "vis-supporters-3",
-                "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
-                ],
-                "organizers": [],
-                "display_start": "2020-10-30T15:35:00Z",
-                "time_start": "2020-10-30T15:45:00Z",
-                "time_end": "2020-10-30T16:00:00Z",
-                "discord_category": "vis supporters",
-                "discord_channel": "industrial-keynote-3",
-                "discord_channel_id": 756701302649651230,
-                "youtube_url": "https://youtu.be/m-2eoQGoxFo",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "time_slots": [
-                    {
-                        "type": null,
-                        "title": null,
-                        "contributors": [
-                            "MISSING"
-                        ],
-                        "abstract": null,
-                        "time_start": "2020-10-30T15:45:00Z",
-                        "time_end": "2020-10-30T16:00:00Z"
                     }
                 ]
             }
@@ -9799,10 +9784,10 @@
                 "title": "VIS 2021 Kick-off Meeting",
                 "session_id": "x-viskickoff",
                 "chair": [
-                    "MISSING"
+                    "Brian Summa"
                 ],
                 "organizers": [
-                    "MISSING"
+                    "Brian Summa"
                 ],
                 "display_start": "2020-10-29T21:15:00Z",
                 "time_start": "2020-10-29T21:15:00Z",
@@ -9818,7 +9803,7 @@
                         "type": "Live Panel",
                         "title": "VIS 2021 Kick-off Meeting",
                         "contributors": [
-                            "MISSING"
+                            "Brian Summa"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-29T21:15:00Z",
@@ -10038,10 +10023,10 @@
             }
         ]
     },
-    "vis-closing": {
-        "event": "VIS",
-        "long_name": "VIS",
-        "event_type": "VIS Closing",
+    "vis-capstone": {
+        "event": "Capstone",
+        "long_name": "Capstone",
+        "event_type": "Capstone",
         "event_description": "",
         "event_url": "",
         "sessions": [
@@ -10059,8 +10044,8 @@
                 "display_start": "2020-10-30T18:00:00Z",
                 "time_start": "2020-10-30T18:00:00Z",
                 "time_end": "2020-10-30T19:00:00Z",
-                "discord_category": "vis",
-                "discord_channel": "capstone",
+                "discord_category": "capstone",
+                "discord_channel": "general",
                 "discord_channel_id": 756701302649651230,
                 "youtube_url": "https://youtu.be/m-2eoQGoxFo",
                 "zoom_meeting": "",
@@ -10077,7 +10062,16 @@
                         "time_end": "2020-10-30T19:00:00Z"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    "vis-closing": {
+        "event": "VIS",
+        "long_name": "VIS",
+        "event_type": "VIS",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
             {
                 "title": "Closing",
                 "session_id": "vis-closing-1",
