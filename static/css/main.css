@@ -454,6 +454,12 @@ hr::after {
 
 /* combined styling (schedule listing, event, session, paper) */
 
+.nav-breadcrumb ol.breadcrumb {
+  padding: 0.75rem 0;
+  background-color: transparent;
+  font-size: 0.85rem;
+}
+
 /* h1 */
 .session-list-event,
 .session-title,
@@ -464,7 +470,7 @@ hr::after {
   font-weight: bold;
 }
 
-/* h2 */
+/* h3 */
 .session-list-session,
 .session-chair,
 .paper-authors
@@ -472,7 +478,7 @@ hr::after {
   font-family: "Fira Sans";
 }
 
-/* h3 */
+/* h5 */
 .session-list-date,
 .session-date,
 .paper-link,
@@ -482,14 +488,14 @@ hr::after {
   text-decoration: none;
 }
 
-/* h4 */
+/* h5 */
 .session-list-presenter
 {
   /* placeholder; add styles here */
   text-decoration: none;
 }
 
-/* h5 and other non-paragraph text */
+/* info/non-paragraph text */
 .session-list-info,
 .session-info,
 .session-list-type
