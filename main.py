@@ -591,7 +591,7 @@ if __name__ == "__main__":
     generateDayCalendars()
 
     if args.build:
-        minify(app=app, html=True, js=True, cssless=True)
+        minify(app=app, html=True, js=False, cssless=True)
         freezer.freeze()
     else:
         debug_val = False
