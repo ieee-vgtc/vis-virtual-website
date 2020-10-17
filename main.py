@@ -270,6 +270,9 @@ def format_paper(v):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
+    paper_session = by_uid["sessions"][v["session_id"]]
+    paper_event = by_uid["events"][paper_session["parent_id"]]
+
     return {
         "id": v["uid"],
         "title": v["title"],
@@ -278,15 +281,18 @@ def format_paper(v):
         "abstract": v["abstract"],
         "time_stamp": v["time_stamp"],
         "session_id": v["session_id"],
-        "session_title": by_uid["sessions"][v["session_id"]]['title'],
+        "session_title": paper_session["title"],
+        "event_id": paper_session["parent_id"],
+        "event_title": paper_event["event"],
         "award": v["paper_award"],
         "has_image": v["has_image"],
         "image_caption": v["image_caption"],
+        "external_paper_link": v["external_paper_link"],
+
 
         # for papers.html:
-        "sessions": [by_uid["sessions"][v["session_id"]]["title"]],
+        "sessions": [paper_session["title"]],
         "UID": v["uid"],
-        "external_paper_link": v["external_paper_link"]
     }
 
 
@@ -480,7 +486,7 @@ def posters():
     data["requires_auth"] = True
     return render_template("posters.html", **data)
 
-
+## Internal only; used to generate markdown-like list for main website paper list
 @app.route("/paperlist.html")
 def allpapers():
     data = _data()

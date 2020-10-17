@@ -2,23 +2,46 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="row mt-5">
+<div class="row mt-3">
     <div class="col-md-12">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/event_{{ paper.event_id }}.html">{{ paper.event_title }}</a></li>
+                <li class="breadcrumb-item"><a href="/session_{{ paper.session_id }}.html">{{ paper.session_title }}</a></li>
+                <li class="breadcrumb-item active text-truncate" aria-current="page">{{ paper.title }}</li>
+            </ol>
+        </nav>
+
         {% if paper.award == "best" %}
-        <h4 class="award"><i class="fas fa-award"></i> Best Paper Award</h4>
+        <h4 class="paper-award"><span class="fas">&#xf559;</span> Best Paper Award</h4>
         {% elif paper.award == "honorable" %}
-        <h4 class="award"><i class="fas fa-medal"></i> Honorable Mention</h4>
+        <h4 class="paper-award"><span class="fas">&#xf5a2;</span> Honorable Mention</h4>
         {% endif %}
-        <h1>{{ paper.title }}</h1>
-        <h2 class="pb-2 mt-3">{{ paper.authors | join(", ") }}</h2>
-        <h3 class="py-2">DOI: TBD</h3>
+        <h1 class="paper-title">{{ paper.title }}</h1>
+        <h3 class="paper-authors pb-2 mt-3">{{ paper.authors | join(", ") }}</h3>
+        <!-- <h3 class="py-2">DOI: TBD</h3> -->
         {% if paper.external_paper_link %}
         <!-- TODO: Icon not working? -->
-        <h4 class="pb-2">Paper PDF: <a href="{{ paper.external_paper_link }}">{{ paper.id }}.pdf</a><i class="fas fa-external-link-alt"></i></h4>
+        <h5 class="paper-link pb-2">
+            <span class="fas mr-1">&#xf15c;</span>
+            <a href="{{ paper.external_paper_link }}">
+                External link
+                <span class="fas" style="font-size:0.65em;">&#xf35d;</span>
+            </a>
+        </h5>
         {% else %}
-        <h4 class="pb-2">Paper PDF: <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">{{ paper.id }}.pdf</a></h4>
+        <h5 class="paper-link pb-2">
+            <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">
+                <span class="fas mr-1">&#xf15c;</span>
+                PDF link to paper
+            </a>
+        </h5>
         {% endif %}
-        <h4 class="pb-2">Presentation: <span class="format-date">{{ paper.time_stamp }}</span> (part of the <a href="/session_{{paper.session_id}}.html">&ldquo;{{ paper.session_title }}&rdquo; session</a>)</h4>
+        <h5 class="paper-presentation pb-2">
+            <span class="fas">&#xf108;</span>
+            Presentation: <span class="format-date">{{ paper.time_stamp }}</span>
+            (<a href="/session_{{ paper.session_id }}.html">session</a>)
+        </h5>
     </div>
 </div>
 <div class="row my-3">
