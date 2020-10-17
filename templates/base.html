@@ -97,16 +97,17 @@
 <!-- NAV -->
 {% block header %}
     {% set navigation_bar = [
-('index.html', 'Home'),
-('calendar.html', 'Schedule'),
-('speakers.html', 'Speakers'),
-('papers.html', 'Papers'),
-('https://vis2020-ieee.ipostersessions.com/Default.aspx?s=vis2020_gallery', 'Posters <span class="fas" style="font-size:small;">&#xf35d;</span>'),
-('events.html', 'All events'),
-('help.html', 'Help'),
-('http://www.ieeevis.org', 'Main Site <span class="fas" style="font-size:small;">&#xf35d;</span>'),
-] -%}
 
+('calendar.html', 'Schedule', false),
+('speakers.html', 'Speakers', false),
+('papers.html', 'Awards', false),
+('papers.html', 'Papers', false),
+('https://vis2020-ieee.ipostersessions.com/Default.aspx?s=vis2020_gallery', 'Posters', true),
+('events.html', 'All Events', false),
+('help.html', 'Help', false),
+('http://www.ieeevis.org', 'Register', true),
+] -%}
+{#('index.html', 'Home'),#}
 {#    ('session_vis-keynote.html', 'Keynote'),#}
 {#('session_vis-capstone.html', 'Capstone'),#}
 
@@ -142,9 +143,9 @@
                     id="navbarNav"
             >
                 <ul class="navbar-nav ml-auto">
-                    {% for href, id in navigation_bar %}
+                    {% for href, id, external in navigation_bar %}
                         <li class="nav-item {% if id == active_page %}active{% endif %}">
-                            <a class="nav-link" href="{{ href }}">{{ id|safe }}</a>
+                            <a class="nav-link" href="{{ href }}" {% if external %}target="_blank"{% endif %}>{{ id|safe }}{{ '<span class="fas" style="font-size:small;"> &#xf35d;</span>'|safe if external else "" }}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -175,16 +176,16 @@
         async
         src="https://www.googletagmanager.com/gtag/js?id={{config.analytics}}"
 ></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag("js", new Date());
-  gtag("config", "{{config.analytics}}");
-</script>
+{#<script>#}
+{#  window.dataLayer = window.dataLayer || [];#}
+{##}
+{#  function gtag() {#}
+{#    dataLayer.push(arguments);#}
+{#  }#}
+{##}
+{#  gtag("js", new Date());#}
+{#  gtag("config", "{{config.analytics}}");#}
+{#</script>#}
 
 <!-- Footer -->
 <footer class="footer bg-light p-4">
