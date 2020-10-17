@@ -65,17 +65,17 @@ window.onload = async () => {
       });
     }
   } else {
-    window.location.href = "redirect.html?return=" + window.location.pathname.slice(1);
+    window.location.href = `redirect.html?return=${window.location.pathname.slice(1)}`;
   }
 
-  $(".loginBtn").click(async function () {
-    await auth0.loginWithRedirect({
-      redirect_uri: window.location.href,
-    });
-  });
-  $(".logoutBtn").click(async function () {
-    await auth0.logout({
-      redirect_uri: window.location.href,
-    });
-  });
+  // $(".loginBtn").click(async function () {
+  //   await auth0.loginWithRedirect({
+  //     redirect_uri: `redirect.html?return=${window.location.href}`,
+  //   });
+  // });
+  // $(".logoutBtn").click(async function () {
+  //   await auth0.logout({
+  //     redirect_uri: window.location.href,
+  //   });
+  // });
 };

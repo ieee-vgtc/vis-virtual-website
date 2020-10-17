@@ -2,49 +2,98 @@
 {% extends "base.html" %}
 
 {% block top %}
-<style>
-  .back {
-    background: url("{{config.background_image}}") no-repeat center;
-    background-size: cover;
-  }
-  .back h2 {
-    font-family: "Zilla Slab", sans-serif;
-    font-weight: 900;
-  }
-  /* body {
-    font-family: "Fira Sans", sans-serif;
-  } */
-</style>
+    <style>
+        .back {
+            background: url("{{config.background_image}}") no-repeat center;
+            background-size: cover;
+        }
 
-<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
-  <div class="row header p-6 m-5">
-    <div class="p-1 mx-auto text-center text-white col-md-6 col-sm-9">
-      <h2 class="jumbotron-h">
-        {{config.tagline|safe}}
-      </h2>
-      <h3 class="p-5 jumbotron-date">
-        {{config.date|safe}}
-      </h2>
+        .back h2 {
+            font-family: "Zilla Slab", sans-serif;
+            font-weight: 900;
+        }
+
+        /* body {
+          font-family: "Fira Sans", sans-serif;
+        } */
+    </style>
+
+    <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+        <div class="row header p-6 m-5">
+            <div class="p-1 mx-auto text-center text-white col-md-6 col-sm-9">
+                <h2 class="jumbotron-h">
+                    {{ config.tagline|safe }}
+                </h2>
+                <h3 class="p-5 jumbotron-date">
+                    {{ config.date|safe }}
+                </h3>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 {% endblock %}
 
 {% block content %}
-    <h1>Welcome to Vis 2020 Virtual<span class="secret">, <span class="user_name"></span> </span>!</h1>
+    <h1>Welcome to Vis 2020 Virtual<span class="secret">, <span
+            class="user_name"></span> </span>!</h1>
 
-    <button class="loginBtn btn btn-outline-secondary"> Login here </button>
-    <button class="logoutBtn btn btn-outline-secondary" style="display: none;"> Logout </button>
+    <button class="loginBtn btn btn-outline-secondary"> Login here</button>
+    <button class="logoutBtn btn btn-outline-secondary" style="display: none;">
+        Logout
+    </button>
 
 
-<div class="row">
-  <div class="col-md-8">
-    {{ readme | markdown }}
-  </div>
-</div>
+    <div class="row">
+        <div class="col-md-8">
+            {{ readme | markdown }}
+        </div>
+    </div>
 
-<!-- Organizers -->
-{#
+    <script>
+      const updateUI = async () => {
+        const auth0_domain = "{{config.auth0_domain}}";
+        const auth0_client_id = "{{config.auth0_client_id}}";
+        const auth0 = await createAuth0Client({
+          domain: auth0_domain,
+          client_id: auth0_client_id,
+          cacheLocation: "localstorage",
+        });
+        const is_auth = await auth0.isAuthenticated();
+        console.log(is_auth, "--- is_auth");
+        if (is_auth) {
+          document.body.style.display = null;
+
+          {#// if we have a redirect request, grab it and push the user over to that page they wanted to see#}
+          {#var queryParams = new URLSearchParams(query);#}
+          {#var redirectUri = queryParams.get("return");#}
+          {#if (redirectUri)#}
+          {#  window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)#}
+
+          // unused atm, hook up later; this won't get executed since we change location above
+          const user = await auth0.getUser();
+          $(".loginBtn").hide();
+          $(".logoutBtn").show();
+          $(".secret").show();
+          $(".user_name").text(user.name);
+        } else {
+          $(".loginBtn").show();
+          $(".logoutBtn").hide();
+          $(".secret").hide();
+          $(".user_name").text("");
+        }
+
+        $(".loginBtn").click(async function () {
+          window.location.href = `redirect.html?return=${window.location.pathname.slice(1)}`;
+        });
+        $(".logoutBtn").click(async function () {
+          await auth0.logout({
+            redirect_uri: window.location.href,
+          });
+        });
+      };
+      updateUI();
+    </script>
+    <!-- Organizers -->
+    {#
   {{ components.section("Organizers") }}
   {{ components.organizergroup(committee) }}
 #}

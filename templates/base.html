@@ -17,12 +17,13 @@
                 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
                 crossorigin="anonymous"></script>
 
+        <script src="https://cdn.auth0.com/js/auth0-spa-js/1.12/auth0-spa-js.production.js"></script>
+
         {% if config.use_auth0 and requires_auth %}
             <script>
               const auth0_domain = "{{config.auth0_domain}}";
               const auth0_client_id = "{{config.auth0_client_id}}";
             </script>
-            <script src="https://cdn.auth0.com/js/auth0-spa-js/1.12/auth0-spa-js.production.js"></script>
             <script src="static/js/modules/auth0protect.js"></script>
         {% endif %}
 
