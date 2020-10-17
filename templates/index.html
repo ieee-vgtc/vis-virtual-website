@@ -46,6 +46,10 @@
         <div class="col-md-8">
             {{ readme | markdown }}
         </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          {{ components.supporter_sidebar(supporters) }}
+        </div>
     </div>
 
     <script>
@@ -92,10 +96,5 @@
       };
       updateUI();
     </script>
-    <!-- Organizers -->
-    {#
-  {{ components.section("Organizers") }}
-  {{ components.organizergroup(committee) }}
-#}
 
 {% endblock %}
