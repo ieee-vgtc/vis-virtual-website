@@ -35,4 +35,12 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  function resetTimezone() {
+    const localStorage = window.localStorage;
+    localStorage.removeItem("tz");
+    location.href = "/calendar.html"
+  }
+</script>
 {% endblock %}

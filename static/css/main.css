@@ -436,6 +436,14 @@ hr::after {
   box-sizing: content-box;
 }
 
+/* faq page styling */
+
+#tab-faq .card-header,
+#tab-faq .card-body
+{
+  font-family: "Fira Sans";
+}
+
 /* all_events styling */
 
 .event-card {

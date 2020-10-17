@@ -28,7 +28,8 @@
 Note: Straight up rejected all calendar.js changes; afaik there are no functional changes, just moving to async
 
 # Supporters
-[ ] Add supporters to footer of website (on the right on the homepage)
+[x] Add supporters to homepage sidebar (on the right on the homepage)
+[ ] Add supporters to footer of website (for every page?)
 
 # json dump notes
 [ ] papers missing awards (no paper is marked as "best" or "honorable")
@@ -58,13 +59,13 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [x] Breadcrumb for event > session > paper (top of page)
 
 ## Poster page
-[ ] Add external link from header (ask poster chairs for link)
+[x] Add external link from header (ask poster chairs for link)
 
 ## Session pages
-[ ] add youtube integration
+[x] add youtube integration
 [x] add discord integration
-[ ] Update Discord channel link (channel id / category)
-[ ] Calendar links from pages
+[x] Update Discord channel link (channel id / category)
+[x] Calendar links from pages
 
 ## Event list
 [x] Add quick-links to jump to different event types
@@ -80,7 +81,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 ## Content
 [x] Remove "chat" item
 [x] Parse paper metadata/figures/embedding visualization
-[ ] Add FAQ entries
+[x] Add FAQ entries
 [ ] ... add pointer to conferene chairs from FAQ
 
 ## Dev tasks
