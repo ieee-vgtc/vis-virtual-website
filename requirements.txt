@@ -1,5 +1,6 @@
 flask
 frozen-flask
 Flask-Markdown
+Flask-Minify
 tqdm
 PyYAML

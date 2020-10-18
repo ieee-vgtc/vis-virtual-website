@@ -1,0 +1,46 @@
+{% set active_page = "Help" %}
+{% set page_title = "Help" %}
+{% extends "base.html" %}
+
+{% block tabs %}
+{{ components.tabs([
+  ("faq", "FAQ", "active"),
+  ("discord", "Discord Help", ""),
+]) }}
+{% endblock %}
+
+{% block content %}
+<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+  <!-- FAQ -->
+  <div
+    class="tab-pane active"
+    id="tab-faq"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    {{ components.section("Frequently Asked Questions") }}
+    {{ components.faqgroup(FAQ) }}
+  </div>
+
+  <div
+    class="tab-pane"
+    id="tab-discord"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    <div class="row">
+      <div class="col-md-8">
+        {{ discord | markdown }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function resetTimezone() {
+    const localStorage = window.localStorage;
+    localStorage.removeItem("tz");
+    location.href = "/calendar.html"
+  }
+</script>
+{% endblock %}

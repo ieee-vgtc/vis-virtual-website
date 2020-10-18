@@ -3,63 +3,93 @@
 {% extends "base.html" %}
 {% block head %}
 {{ super() }}
-{% include 'cal_head.html' %}
+{% include 'schedule_head.html' %}
 {% endblock %}
 
 {% block tabs %}
-{{ components.tabs([("calendar", "Calendar", "active"),
-        ("day", "Example Day", "")]) }}
+    {{ components.tabs([
+    ("calendar", "Overview", "cal-nav active"),
+    ("Sunday", "Sunday", "cal-nav"),
+    ("Monday", "Monday", "cal-nav"),
+    ("Tuesday", "Tuesday", "cal-nav"),
+    ("Wednesday", "Wednesday", "cal-nav"),
+    ("Thursday", "Thursday", "cal-nav"),
+    ("Friday", "Friday", "cal-nav")
+  ]) }}
 {% endblock %}
 
 {% block content %}
-<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-  <!-- Calender tab -->
-  <div
-    class="tab-pane active"
-    id="tab-calendar"
-    role="tabpanel"
-    aria-labelledby="nav-profile-tab"
-  >
-    <div class="form-group col">
-      <label for="tzOptions">Timezone:</label>
-      <select id="tzOptions" class="selectpicker" data-live-search="true">
-      </select>
+
+    <div class="row mt-5">
+      <div class="form-group col-md-6">
+          <label for="tzOptions">Timezone:</label>
+          <select id="tzOptions" class="selectpicker" data-live-search="true"></select>
+          <button type="button" id="saveTz" class="btn btn-light">
+            <span class="fas mr-1">&#xf0c7;</span>
+            Set
+          </button>
+      </div>
+      <div class="col-md-6 d-flex flex-wrap" id="color-legend"></div>
     </div>
 
-    <!-- full cal for browser-->
-    <div id="calendar" class="d-none d-sm-block"></div>
+    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+        <!-- Calender tab -->
+        <div
+                class="tab-pane active"
+                id="tab-calendar"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+        >
 
-    <!-- small cal for smart phones-->
-    <div id="calendar_small" class="d-sm-none"></div>
+            <!-- full cal for browser-->
+            <div id="calendar" class="d-none d-sm-block"></div>
+        </div>
 
-    <script type="text/javascript">
-      make_cal("serve_main_calendar.json");
-    </script>
-  </div>
+        <!-- Day Tab -->
 
-  <!-- Day Tab -->
+        {% for day in days %}
+            <div
+                    class="tab-pane fade"
+                    id="tab-{{ day }}"
+                    role="tabpanel"
+                    aria-labelledby="nav-profile-tab"
+            >
+                <div id="cal__{{ loop.index }}" class="d-none d-sm-block"></div>
+                <hr>
+                <div id="day">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h1>Full list of sessions on {{ day }}</h1>
+                      </div>
+                    </div>
+                    <div class="sessions">
+                        {{ components.sessiongroup(days[day].timeslots, config["calendar"]["colors"] ) }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
 
-  <div
-    class="tab-pane fade"
-    id="tab-day"
-    role="tabpanel"
-    aria-labelledby="nav-profile-tab"
-  >
-    <div id="day">
-      <!-- Speakers -->
-      {{ components.section("Speakers") }}
-      <div class="speakers">
-        {{ components.speakergroup(day.speakers) }}
-      </div>
-      {{ components.section("Highlighted Papers") }}
-      <div class="papers">
-        {{ components.highlightgroup(day.highlighted, 1) }}
-      </div>
+        <script type="text/javascript">
+          $(document).ready(function () {
+            const tabPanes = $(".tab-pane");
+            // Render cals:
+            make_cal("serve_main_calendar.json")
+              .then(({render}) => {
+                // re-render cal
+                tabPanes.css('display', 'block')
+                render();
+                tabPanes.css('display', '')
+
+                // re-render cal on resize
+                $(window).on('resize', _.debounce(() => {
+                  tabPanes.css('display', 'block');
+                  render();
+                  tabPanes.css('display', '');
+                }, 500));
+              })
+
+            lazyLoader();
+          })
+        </script>
     </div>
-
-    <script type="text/javascript">
-      lazyLoader();
-    </script>
-  </div>
-</div>
 {% endblock %}

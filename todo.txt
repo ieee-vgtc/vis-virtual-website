@@ -1,0 +1,93 @@
+## Styling
+[X] font in calendar
+[X] hover button style (needs border?)
+[X] spacing between adjacent buttons
+[X] searchbox background
+[X] comma in footer
+[X] remove registration chatbot
+
+## Schedule
+[X] styling of session titles
+[X] organization of sessions per-day by timeslot
+[X] adding specific-day calendars on each page
+[x] calendar: add color legend (session type to color mapping)
+[x] calendar: add tooltips for displaying full event name on calendar event hover
+[x] calendar: calendars on other tabs are not aligning events correctly (does work on hard-reload)
+[x] session listing: parse and format dates based on current timezone through javascript
+[x] day listing: better support non-US timezones when a single day's events straddle multiple days
+[x] dev: store timezone in cookie (see "date parsing" below)
+[x] Stretch supporters event across all events (W/Th/F)
+[x] Add more details to "VIS Opening"
+[ ] Add "keynote" tab with Keynote information
+[x] Suggestion: remove text from unreadable events (too squished)
+
+# Merge with Mini-Conf 1.5
+[x] Update favicon
+[x] Delete data we're not using
+[x] Remove fonts we're not using (base.html header)
+Note: Straight up rejected all calendar.js changes; afaik there are no functional changes, just moving to async
+
+# Supporters
+[x] Add supporters to homepage sidebar (on the right on the homepage)
+[ ] Add supporters to footer of website (for every page?)
+
+# json dump notes
+[ ] papers missing awards (no paper is marked as "best" or "honorable")
+
+# date parsing
+[x] Save (calendar.js) and read (base.html) timezone from cookie, if possible
+[x] Add note to footer with link to change
+
+## Session pages
+[x] Add <hr> styling to match ieeevis.org styling
+[ ] Add zoom links
+[ ] Add icons for paper PDFs and awards
+
+## Papers page
+[x] Fix indexing of all papers
+[x] Customize navigation of papers
+[x] Update paper vis
+
+## Paper pages
+[x] Correctly style images/captions
+[x] Add icons for paper PDFs, DOI, awards
+[x] Remove image captions (not available yet)
+[x] Re-instate image captions?
+[x] Add image placeholder (has_image is false)
+[ ] Add image VIS placeholder (generic VIS placeholder)
+[x] Calendar links from pages
+[x] Breadcrumb for event > session > paper (top of page)
+
+## Poster page
+[x] Add external link from header (ask poster chairs for link)
+
+## Session pages
+[x] add youtube integration
+[x] add discord integration
+[x] Update Discord channel link (channel id / category)
+[x] Calendar links from pages
+
+## Event list
+[x] Add quick-links to jump to different event types
+[ ] Add explanations of the different types and organize like-ones together?
+
+## Award page
+[ ] Create static page
+
+## Keynote/capstone speakers
+[ ] Create static page
+[ ] Bio / abstract / title
+
+## Content
+[x] Remove "chat" item
+[x] Parse paper metadata/figures/embedding visualization
+[x] Add FAQ entries
+[ ] ... add pointer to conferene chairs from FAQ
+
+## Dev tasks
+[X] remove python lint task (not useful)
+[ ] .. and revive?
+[x] add auth0 integration
+[x] ... only restrict auth to paper/session pages
+[x] ... auth test user: oc_guest@datav.is / Vis2020!
+[x] hook up CDN links

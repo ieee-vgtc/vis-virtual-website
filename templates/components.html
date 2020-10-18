@@ -1,3 +1,14 @@
+{# Components:
+tabs -- Navigation tabs
+section, subsection -- bootstrap sections
+speakergroup
+organizergroup
+faqgroup
+highlightgroup
+workshopgroup
+
+#}
+
 {% macro tabs(tab_group) -%}
 <ul class="nav nav-pills justify-content-center">
   {% for tab in tab_group %}
@@ -26,11 +37,71 @@
 {%- endmacro %}
 
 {% macro subsection(name) -%}
-<div class="row p-3">
+<div class="row p-3 mt-3">
   <div class="col-12 bd-content">
     <h3>{{name}}</h3>
   </div>
 </div>
+{%- endmacro %}
+
+{% macro sessiongroup(sessions_by_time, config_calendar_colors) -%}
+{% for timeslot in sessions_by_time %}
+<div class="row pt-5">
+  <div class="col-md-12">
+    <h1 class="format-date-span-full">{{ sessions_by_time[timeslot].startTime }} &ndash; {{ sessions_by_time[timeslot].endTime }}</h1>
+  </div>
+</div>
+{{ session_listing(sessions_by_time[timeslot].sessions, config_calendar_colors, False, False) }}
+{% endfor %}
+{%- endmacro %}
+
+{% macro session_listing(sessions, config_calendar_colors, full_date, skip_event_title) -%}
+{% for session in sessions %}
+<div class="row py-3">
+<div class="col-md-8 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
+    <span class="session-type" style="color: {{ config_calendar_colors[session.type] }}">{{ session.type }}</span>
+    {% if not skip_event_title %}
+    <h2 class="session-list-event"><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
+    {% endif %}
+    {% if skip_event_title or not session.redundantTitle %}
+    <h3 class="session-list-session"><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
+    {% endif %}
+    <h4 class="session-list-date mt-3">
+      <span class="fas mr-1">&#xf017;</span>
+      <span class="{% if full_date %}format-date-span-full{% else %}format-date-span{% endif %}">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+    </h4>
+    {% if session.chair %}
+    <h5 class="session-list-presenter">
+      <span class="fas mr-1">&#xf007;</span>
+      Chair: {{ session.chair | join(", ") }}
+    </h5>
+    {% elif session.organizers %}
+    <h5 class="session-list-presenter">
+      <span class="fas mr-1">&#xf0c0;</span>
+      Organizers: {{ session.organizers | join(", ") }}
+    </h5>
+    {% endif %}
+    <p class="session-list-info">
+      <span class="fas mr-1">&#xf05a;</span>
+      {{ session.timeSlots | length }} presentations in this session.
+      <a href="session_{{session.id}}.html">See more &raquo;</a>
+    </p>
+  </div>
+</div>
+{% endfor %}
+{%- endmacro %}
+
+{% macro supporter_sidebar(supporter_list) -%}
+<sidebar class="supporters">
+<h5>IEEE VIS is made possible by our supporters.</h5>
+{% for level in supporter_list %}
+<h5 class="mt-4">{{ level.category }}</h5>
+{% for supporter in level.supporters %}
+<a href="{{ supporter.url }}">
+  <img class="p-3" src="https://ieeevis.b-cdn.net/vis_2020/sponsors/{{ supporter.image }}" width="{% if level.image_size %}{{ level.image_size }}{% else %}125{% endif %}" alt="{{ supporter.name }}"></a>
+{% endfor %}
+{% endfor %}
+</sidebar>
 {%- endmacro %}
 
 {% macro speakergroup(speakers) -%}
@@ -105,7 +176,7 @@
 {% set rowloop = loop.index %}
 {% for qa in section.QA %}
 <div class="row">
-  <div class="col-12" id="accordionExample">
+  <div class="col-md-8" id="accordionExample">
     <div class="card m-2">
       <div class="card-header">
         <a
@@ -126,7 +197,7 @@
         data-parent="#accordionExample"
       >
         <div class="card-body">
-          {{qa.Answer}}
+          {{ qa.Answer | markdown }}
         </div>
       </div>
     </div>
@@ -151,20 +222,20 @@
         <div class="col-md-4 col-xs-6 fluid">
           <div class="pp-card">
             <div class="pp-card-header">
-              <a href="poster_{{openreview.id}}.html" class="text-muted">
+              <a href="poster_{{openreview.UID}}.html" class="text-muted">
                 <h5 class="card-title" align="center">
-                  {{openreview.content.title}}
+                  {{openreview.title}}
                 </h5>
               </a>
               <h6 class="card-subtitle text-muted" align="center">
-                {% for a in openreview.content.authors %}
+                {% for a in openreview.authors %}
                 {{a}},
                 {% endfor %}
               </h6>
               <center>
                 <img
                   class="cards_img lazy-load-img"
-                  data-src="https://iclr.github.io/iclr-images/{{openreview.id}}.png"
+                  data-src="https://iclr.github.io/iclr-images/{{openreview.UID}}.png"
                   width="80%"
                 />
               </center>
