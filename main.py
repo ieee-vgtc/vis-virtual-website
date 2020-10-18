@@ -30,7 +30,7 @@ def main(site_data_path):
         if typ == "json":
             site_data[name] = json.load(open(f))
         elif typ in {"csv", "tsv"}:
-            site_data[name] = list(csv.DictReader(open(f)))
+            site_data[name] = list(csv.DictReader(open(f, encoding='utf-8-sig')))
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
@@ -425,6 +425,16 @@ def speaker(speaker):
     data = _data()
     data["speaker"] = v
     return render_template("speaker.html", **data)
+
+# ALPER TODO: get keynote info
+@app.route("/awards.html")
+def awards():
+    data = _data()
+    data["awards_honor"] = site_data["awards_honor"]
+    data["awards_tot"] = site_data["awards_tot"]
+    data["awards_academy"] = site_data["awards_academy"]
+    data["awards_papers"] = site_data["awards_papers"]
+    return render_template("awards.html", **data)
 
 
 # ALPER TODO: populate the workshop list from session_list

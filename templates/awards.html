@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+{% set page_title = "Awards at IEEE VIS 2020" %}
+{% set active_page = "Awards" %}
+
+{% block content %}
+    <h3> Career Awards </h3>
+    <div class="row">
+        {% for award in awards_honor %}
+            <div class="col-md-6 p-1">
+                <div class="award-card pp-card p-2"
+                     style="border-left: 5pt solid gold;
+                         background-color: #fff;"
+                        {#                 data-session-type="{{ event.type }}"#}
+                >
+                    <span class="session-type"
+                          style="color: goldenrod;">TVCG Award</span>
+                    <div class="award-title text-center">
+                        {{ award.award }}
+                    </div>
+                    <div class="award-name text-center p-3">
+                        {{ award.name }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{#    {'Award': 'IEEE VAST Test of Time Award 2020', 'award_1': '10 Year ',#}
+{#    'award_2': 'Test of Time Award ', 'extra_1': 'Presented for the', 'extra_2':#}
+{#    'IEEE VAST 2010 Paper\n', 'paper': 'iVisClassifier: an Interactive Visual#}
+{#    Analytics System for Classification Based on Supervised Dimension#}
+{#    Reduction', 'authors': 'Jaegul Choo, Hanseung Lee, Jaeyeon Kihm and Haesun#}
+{#    Park'}#}
+
+    <h3> Test of Time Awards </h3>
+    <div class="row">
+        {% for award in awards_tot %}
+{#            {{ award }}#}
+            <div class="col-md-6 p-1">
+                <div class="award-card pp-card p-2"
+                     style="border-left: 5pt solid goldenrod;
+                                     background-color: #fff;"
+                >
+                                <span class="session-type"
+                                      style="color: goldenrod;">Test of Time Award ({{ award.award_1 }})</span>
+                    <div class="award-title text-center">
+                         {{ award.award_2 }} - {{ award.extra_2 }}
+                    </div>
+{#                    <div class="text-center"> {{ award.extra_1 }} {{ award.extra_2 }}</div>#}
+                    <div class="award-paper text-center py-3">
+                        {{ award.paper }}
+                    </div>
+                    <div class="award-authors text-center text-muted py-1" >
+                        {{ award.authors }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h3> Best Papers Awards </h3>
+    <div class="row">
+        {% for award in awards_papers %}
+{#            {{ award }}#}
+            {% set color = 'silver' if "Honorable" in award.award_1 else "gold" %}
+            <div class="col-sm-6 col-md-4 p-1">
+                <div class="award-card pp-card p-2"
+                     style="border-left: 5pt solid {{ color}};
+                                     background-color: #fff;"
+                >
+                                <span class="session-type"
+                                      style="color: {{ color }};">Paper Award</span>
+                    <div class="award-title text-center">
+                        {{ award.award_1 }}
+{#                         {{ award.award_2 }} - {{ award.extra_2 }}#}
+                    </div>
+{#                    <div class="text-center"> {{ award.extra_1 }} {{ award.extra_2 }}</div>#}
+                    <div class="award-paper text-center p-3">
+                        {{ award.paper }}
+                    </div>
+                    <div class="award-authors text-center text-muted p-1" >
+                        {{ award.authors }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h3> Academy Inductees </h3>
+    <div class="row">
+        {% for award in awards_academy %}
+{#            {{ award }}#}
+            <div class="col-sm-6 col-md-3 p-1">
+                <div class="award-card pp-card p-2"
+                     style="border-left: 5pt solid darkgoldenrod;
+                         background-color: #fff;"
+                        {#                 data-session-type="{{ event.type }}"#}
+                >
+                    <span class="session-type"
+                          style="color: darkgoldenrod;">VIS Academy</span>
+                    <div class="award-title text-center">
+                        {{ award.award }}
+                    </div>
+                    <div class="award-name text-center p-3">
+                        {{ award.name }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    {#    {% for award in awards_papers %}#}
+    {#        <div class="row">{{ award }}</div>#}
+    {#    {% endfor %}#}
+
+    {#    <div class="row">#}
+    {#        <button class="event-faceting btn m-1 p-2 pp-card session-listing"#}
+    {#                id="start-item"#}
+    {#                style="border-color: #666;#}
+    {#                        transition-duration: 300ms;"#}
+    {#                data-bg-color="#666"#}
+    {#                data-key="all"#}
+    {#        >all#}
+    {#        </button>#}
+    {#        {% for et in event_types %}#}
+    {#            <button class="event-faceting btn m-1 p-2 pp-card session-listing"#}
+    {#                    style="border-color: {{ colors[et[1]] }};#}
+    {#                            transition-duration: 300ms;"#}
+    {#                    data-bg-color="{{ colors[et[1]] }}"#}
+    {#                    data-key="{{ et[0] }}"#}
+    {#            >{{ et[0] }}</button>#}
+    {#        {% endfor %}#}
+    {#    </div>#}
+
+    {#    <script>#}
+    {#      let currentItem = null;#}
+    {#      d3.select("#start-item").each(function () {#}
+    {#        currentItem = this;#}
+    {#        const t = d3.select(this);#}
+    {#        t.style("background-color", t.attr('data-bg-color'))#}
+    {#          .style('color', "#fff");#}
+    {#      });#}
+    {#      d3.selectAll(".event-faceting")#}
+    {#        .on("mouseover", function () {#}
+    {#          const t = d3.select(this);#}
+    {#          if (this === currentItem) return;#}
+    {#          t.style("background-color", t.attr('data-bg-color'))#}
+    {#        })#}
+    {#        .on("mouseout", function () {#}
+    {#          const t = d3.select(this);#}
+    {#          if (this === currentItem) return;#}
+    {#          t.style("background-color", null)#}
+    {#        })#}
+    {#        .on("click", function () {#}
+    {#          const that = this;#}
+    {#          currentItem = that;#}
+    {#          d3.selectAll(".event-faceting")#}
+    {#            .style("background-color", function () {#}
+    {#              return (this === that) ? d3.select(this)#}
+    {#                .attr('data-bg-color') : null#}
+    {#            })#}
+    {#            .style("color", function () {#}
+    {#              return (this === that) ? "#fff" : null#}
+    {#            })#}
+    {##}
+    {#          const key = d3.select(this).attr("data-key");#}
+    {#          d3.selectAll(".event-card")#}
+    {#            .style('display', function () {#}
+    {#              if (key === 'all') return null;#}
+    {#              const myKey = d3.select(this).attr('data-session-type');#}
+    {#              return (myKey === key) ? null : 'none';#}
+    {#            })#}
+    {##}
+    {#        })#}
+    {##}
+    {#    </script>#}
+    {##}
+    {#    <div class="row mt-5">#}
+    {#        {% for event in events %}#}
+    {#            <div class="event-card pp-card col-md-5 m-2 py-2 session-listing"#}
+    {#                 style="border-color: {{ colors[event.abbr_type] }};#}
+    {#                         background-color: #fff;"#}
+    {#                 data-session-type="{{ event.type }}"#}
+    {##}
+    {#            >#}
+    {#                <span class="session-type"#}
+    {#                      style="color: {{ colors[event.abbr_type] }}">{{ event.type }}</span>#}
+    {#                <div class="event-title">#}
+    {#                    <a href="event_{{ event.id }}.html">{{ event.title }}</a>#}
+    {#                </div>#}
+    {#                {% if event.url %}#}
+    {#                    <div class="event-url">More info: <a#}
+    {#                            href="{{ event.url }}">{{ event.url }}</a></div>#}
+    {#                {% endif %}#}
+    {#                <div class="event-time text-muted format-date-span-short">#}
+    {#                    {{ event.startTime }} – {{ event.endTime }}</div>#}
+    {#                </div>#}
+    {#            </div>#}
+    {#        {% endfor %}#}
+    {#    </div>#}
+
+
+{% endblock %}

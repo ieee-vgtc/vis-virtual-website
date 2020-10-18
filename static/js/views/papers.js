@@ -283,7 +283,7 @@ const keyword = (kw) => `<a href="papers.html?filter=keywords&search=${kw}"
                        class="text-secondary text-decoration-none">${kw.toLowerCase()}</a>`;
 
 const card_image = (paper, show) => {
-  if (show)
+  if (show && paper.has_image)
     return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(
       paper)}" width="80%"/></center>`;
   return "";

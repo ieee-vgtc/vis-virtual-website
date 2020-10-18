@@ -100,7 +100,7 @@
 
 ('calendar.html', 'Schedule', false),
 ('speakers.html', 'Speakers', false),
-('papers.html', 'Awards', false),
+('awards.html', 'Awards', false),
 ('papers.html', 'Papers', false),
 ('https://vis2020-ieee.ipostersessions.com/Default.aspx?s=vis2020_gallery', 'Posters', true),
 ('events.html', 'All Events', false),
@@ -296,9 +296,9 @@
     function gtag() {
       dataLayer.push(arguments);
     }
-
-    gtag("js", new Date());
-    gtag("config", "{{config.analytics}}");
+    {##}
+    {#gtag("js", new Date());#}
+    {#gtag("config", "{{config.analytics}}");#}
   });
 </script>
 <!-- <script src="static/js/lazy_load.js"></script> -->

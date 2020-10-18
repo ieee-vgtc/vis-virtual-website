@@ -557,3 +557,25 @@ hr::after {
   outline: 2px solid var(--accent-color);
   outline-offset: 6px;
 }
+
+
+/* awards styling */
+
+.award-card {
+  font-size: 12pt;
+}
+
+.award-card .award-title{
+  /*font-size: 16pt;*/
+  font-weight: bold;
+}
+.award-card .award-name{
+  font-weight: bold;
+  font-size: 16pt;
+}
+.award-card .award-paper{
+  font-size: 16pt;
+}
+.award-card .award-authors{
+  /*font-weight: bold;*/
+}
