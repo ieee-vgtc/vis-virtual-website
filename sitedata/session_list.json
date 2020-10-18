@@ -3881,11 +3881,7 @@
                 "title": "Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations",
                 "session_id": "w-futures",
                 "chair": [
-                    "Charles Perin",
-                    "Wesley Willett",
-                    "Katherine Currier",
-                    "Lora Oehlberg",
-                    "Sheelagh Carpendale"
+                    "Charles Perin"
                 ],
                 "organizers": [
                     "Charles Perin",
@@ -3912,7 +3908,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2020-10-26T18:00:00Z",
-                        "time_end": "2020-10-26T18:30:00Z"
+                        "time_end": "2020-10-26T18:15:00Z"
                     },
                     {
                         "type": "Live Presentation",
@@ -3921,17 +3917,17 @@
                             "All Attendees"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-26T18:30:00Z",
-                        "time_end": "2020-10-26T19:00:00Z"
+                        "time_start": "2020-10-26T18:15:00Z",
+                        "time_end": "2020-10-26T18:45:00Z"
                     },
                     {
                         "type": "Zoom Breakout",
-                        "title": "Activity 1",
+                        "title": "Identification of Factors",
                         "contributors": [
                             "All Attendees"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-26T19:00:00Z",
+                        "time_start": "2020-10-26T18:45:00Z",
                         "time_end": "2020-10-26T19:30:00Z"
                     },
                     {
@@ -3942,7 +3938,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2020-10-26T20:00:00Z",
-                        "time_end": "2020-10-26T20:30:00Z"
+                        "time_end": "2020-10-26T20:20:00Z"
                     },
                     {
                         "type": "Zoom Breakout",
@@ -3951,7 +3947,7 @@
                             "All Attendees"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-26T20:30:00Z",
+                        "time_start": "2020-10-26T20:20:00Z",
                         "time_end": "2020-10-26T21:00:00Z"
                     },
                     {
@@ -8870,7 +8866,7 @@
                 "time_slots": [
                     {
                         "type": "Live Presentation",
-                        "title": "The Making of A Scientist",
+                        "title": "The Making of a Scientist",
                         "contributors": [
                             "Mario Capecchi"
                         ],
