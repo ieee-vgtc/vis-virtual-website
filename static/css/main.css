@@ -174,6 +174,8 @@ h1
   padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
+
+  overflow: hidden;
 }
 
 .pp-mode-mini .pp-card-header {
@@ -205,7 +207,8 @@ h1
 .card,
 .card-header,
 .card-title {
-  font-family: "Zilla Slab";
+  font-family: "Zilla Slab SemiBold";
+  color: var(--text-dark-color);
 }
 
 .cards .myCard {
@@ -221,30 +224,32 @@ h1
 
 .card-title {
   margin-top: 10px;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
-h2.card-title {
-  margin-top: 10px;
-  font-size: 30px;
-}
-
-h3.card-subtitle.text-muted {
+h5.card-title {
   margin-top: 10px;
   font-size: 20px;
-  color: var(--text-muted-color);
+  /* font-size: 30px; */
 }
 
-.card-subtitle.text-muted {
+h6.card-subtitle.text-muted { /* paper author list */
+  font-family: Fira Sans, sans-serif;
+  font-size: 15px;
+}
+
+.card-subtitle.text-muted { /* paper time */
+  font-family: Fira Sans, sans-serif;
+  font-size: 15px;
   text-align: center;
-  font-size: 13px;
-  color: var(--text-muted-color);
+  color: var(--text-muted-color)
 }
+
 
 .main-title {
   font-weight: 700;
   color: var(--text-heading-color);
-  font-family: "Zilla Slab";
+  font-family: "Zilla Slab SemiBold";
 }
 
 .myAccordion {
