@@ -44,10 +44,18 @@ code {
   margin: 0 2px;
 }
 
+.nav-item {
+  font-family: "Zilla Slab", serif;
+}
+
+.cal-nav {
+  font-family: "Fira Sans", sans-serif;
+}
+
 label:text-muted,
 .nav-link.text-muted,
 .nav-link {
-  font-family: "Fira Sans";
+  font-family: "Zilla Slab", serif;
   color: var(--btn-inv-color) !important;
   background-color: var(--main-bg-color) !important;
 }
@@ -151,11 +159,15 @@ h1
 
 
 .pp-card {
-  font-family: "Zilla Slab";
+  font-family: "Fira Sans", sans-serif;
   box-shadow: 0 0 14px 0 var(--main-border-color);
   margin-bottom: 1em;
   display: block;
   overflow: hidden;
+}
+
+h3 {
+  font-family: "Zilla Slab SemiBold", serif;
 }
 
 .pp-card-no-bottom {
