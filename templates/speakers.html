@@ -25,11 +25,12 @@
                         <div class="col-md-9 py-2 py-md-0">
                             <h3>{{ speaker.name }}</h3>
                             <h4> {{ speaker.title }}</h4>
+                             <a class="event-time text-muted format-date"
+                                href="session_{{ speaker.session_id }}.html">{{ speaker.time_start }}</a>
                             <p>{{ speaker.abstract }}</p>
                             <h4> About</h4>
                             <p>{{ speaker.bio }}</p>
-                             <a class="event-time text-muted format-date"
-                                href="session_{{ speaker.session_id }}.html">{{ speaker.time_start }}</a>
+
                         </div>
 
                     </div>
