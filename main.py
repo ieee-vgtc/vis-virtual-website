@@ -426,7 +426,6 @@ def speaker(speaker):
     data["speaker"] = v
     return render_template("speaker.html", **data)
 
-# ALPER TODO: get keynote info
 @app.route("/awards.html")
 def awards():
     data = _data()
@@ -436,6 +435,12 @@ def awards():
     data["awards_papers"] = site_data["awards_papers"]
     return render_template("awards.html", **data)
 
+
+@app.route("/speakers.html")
+def speakers():
+    data = _data()
+    data["speakers"]= site_data["speakers"]
+    return render_template("speakers.html", **data)
 
 # ALPER TODO: populate the workshop list from session_list
 @app.route("/workshop_<workshop>.html")
