@@ -85,8 +85,9 @@
                     <a href="event_{{ event.id }}.html">{{ event.title }}</a>
                 </div>
                 {% if event.url %}
-                    <div class="event-url">More info: <a
-                            href="{{ event.url }}">{{ event.url }}</a></div>
+                    <div class="event-url"><a href="{{ event.url }}">
+                            <span class="fas mr-1">&#xf05a;</span> 
+                            {{ event.url }}</a></div>
                 {% endif %}
                 <div class="event-time format-date-span-short">
                     {{ event.startTime }} – {{ event.endTime }}</div>
