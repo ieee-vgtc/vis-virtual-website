@@ -57,6 +57,10 @@ class API {
     return API.getStore(storeID).set(paperID, read);
   }
 
+  static async markGet(storeID, paperID) {
+    return API.getStore(storeID).get(paperID);
+  }
+
   /*
    * Resource paths
    */

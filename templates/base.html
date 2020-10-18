@@ -54,12 +54,17 @@
                 integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
                 crossorigin="anonymous"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+
+
 
         <!-- Library libs_ext -->
         <script src="static/js/libs_ext/typeahead.bundle.js"></script>
 
 
         <!--    Internal Libs -->
+        <script src="static/js/data/persistor.js"></script>
         <script src="static/js/data/api.js"></script>
 
 
@@ -107,9 +112,9 @@
 ('help.html', 'Help', false),
 ('http://www.ieeevis.org', 'Register', true),
 ] -%}
-{#('index.html', 'Home'),#}
-{#    ('session_vis-keynote.html', 'Keynote'),#}
-{#('session_vis-capstone.html', 'Capstone'),#}
+    {#('index.html', 'Home'),#}
+    {#    ('session_vis-keynote.html', 'Keynote'),#}
+    {#('session_vis-capstone.html', 'Capstone'),#}
 
     <nav
             class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
@@ -145,7 +150,9 @@
                 <ul class="navbar-nav ml-auto">
                     {% for href, id, external in navigation_bar %}
                         <li class="nav-item {% if id == active_page %}active{% endif %}">
-                            <a class="nav-link" href="{{ href }}" {% if external %}target="_blank"{% endif %}>{{ id|safe }}{{ '<span class="fas" style="font-size:small;"> &#xf35d;</span>'|safe if external else "" }}</a>
+                            <a class="nav-link" href="{{ href }}"
+                               {% if external %}target="_blank"{% endif %}>
+                                {{ id|safe }}{{ '<span class="fas" style="font-size:small;"> &#xf35d;</span>'|safe if external else "" }}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -171,137 +178,145 @@
 {% endblock %}
 {% block footer %}
 
-<!-- Google Analytics -->
-<script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id={{config.analytics}}"
-></script>
-{#<script>#}
-{#  window.dataLayer = window.dataLayer || [];#}
-{##}
-{#  function gtag() {#}
-{#    dataLayer.push(arguments);#}
-{#  }#}
-{##}
-{#  gtag("js", new Date());#}
-{#  gtag("config", "{{config.analytics}}");#}
-{#</script>#}
-
-<!-- Footer -->
-<footer class="footer bg-light p-4">
-  <div class="container">
-    <p class="float-right"><a href="#">Back to Top</a></p>
-    <p class="text-center">© 2020, {{config.organization}}</p>
-    <p class="tz-info text-center">
-      All times in <strong>GMT<span id="tzCurrent">-0600</span></strong>.  Change your timezone on <a href="/calendar.html">the schedule page</a>.
-    </p>
-  </div>
-</footer>
-
-<!-- Code for hash tags -->
-<script type="text/javascript">
-  $(document).ready(function () {
-    if (location.hash !== "") {
-      $('a[href="' + location.hash + '"]').tab("show");
-    }
-
-    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
-      var hash = $(e.target).attr("href");
-      if (hash.substr(0, 1) == "#") {
-        var position = $(window).scrollTop();
-        location.replace("#" + hash.substr(1));
-        $(window).scrollTop(position);
-      }
-    });
-
-    const current_tz = getTimezone();
-    $("#tzCurrent").html(moment().tz(current_tz).format("Z"));
-
-    function getTimezone() {
-      const urlTz = window.getUrlParameter && getUrlParameter('tz');
-      if (urlTz) return urlTz;
-
-      const storageTz = window.localStorage.getItem("tz")
-      if (storageTz) return storageTz;
-
-      return moment.tz.guess();
-    }
-
-    // find all parseable dates and localize them
-    function formatDate(element){
-      const current_tz = getTimezone();
-      let atime = moment(element.text()).clone().tz(current_tz)
-      element.html(atime.format("dddd, MMMM Do, YYYY"))
-    }
-
-    function formatDateTime(element) {
-      const current_tz = getTimezone();
-      let atime = moment(element.text()).clone().tz(current_tz)
-      element.html(atime.format("dddd, MMMM Do, YYYY @ HH:mm"))
-    }
-
-    function formatTimeSpan(element, includeDate){
-      const current_tz = getTimezone();
-      let parts = element.text().split(" – ");
-      console.log(parts,"--- parts");
-      let start = parts[0];
-      let end = parts[1];
-
-      let starttime = moment(start).clone().tz(current_tz)
-      let endtime = moment(end).clone().tz(current_tz)
-
-      //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
-                                                // seems like not considering the timezone
-      if(starttime.format("D") == endtime.format("D")) {
-        if (includeDate)
-          element.html(starttime.format("dddd, MMM Do, YYYY @ HH:mm")+" &ndash; "+endtime.format("HH:mm"));
-        else
-          element.html(starttime.format("HH:mm")+" &ndash; "+endtime.format("HH:mm"));
-      }
-      else {
-        element.html(starttime.format("dddd, MMM Do @ HH:mm")+" &ndash; "+endtime.format("dddd, MMM Do @ HH:mm"))
-      }
-    }
-
-    function formatTime(element) {
-      const current_tz = getTimezone();
-      let atime = moment(element.text()).clone().tz(current_tz);
-      element.html(atime.format("HH:mm"));
-    }
-
-    $(".format-just-date").each((_i, element) => {
-      formatDate($(element));
-    });
-
-    $(".format-date").each((_i, element) => {
-      formatDateTime($(element));
-    });
-
-    $(".format-date-span").each((_i, element) => {
-      formatTimeSpan($(element));
-    });
-
-    $(".format-date-span-short").each((_i,element) =>{
-      formatTimeSpan($(element), true);
-    });
-
-    $(".format-date-span-full").each((_i, element) => {
-      formatTimeSpan($(element), true);
-    });
-
-    $(".format-time").each((_i, element) => {
-      formatTime($(element));
-    });
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    <!-- Google Analytics -->
+    <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id={{ config.analytics }}"
+    ></script>
+    {#<script>#}
+    {#  window.dataLayer = window.dataLayer || [];#}
     {##}
-    {#gtag("js", new Date());#}
-    {#gtag("config", "{{config.analytics}}");#}
-  });
-</script>
-<!-- <script src="static/js/lazy_load.js"></script> -->
+    {#  function gtag() {#}
+    {#    dataLayer.push(arguments);#}
+    {#  }#}
+    {##}
+    {#  gtag("js", new Date());#}
+    {#  gtag("config", "{{config.analytics}}");#}
+    {#</script>#}
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+        <div class="container">
+            <p class="float-right"><a href="#">Back to Top</a></p>
+            <p class="text-center">© 2020, {{ config.organization }}</p>
+            <p class="tz-info text-center">
+                All times in <strong>GMT<span
+                    id="tzCurrent">-0600</span></strong>. Change your timezone
+                on <a href="/calendar.html">the schedule page</a>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+
+        const current_tz = getTimezone();
+        $("#tzCurrent").html(moment().tz(current_tz).format("Z"));
+
+        function getTimezone() {
+          const urlTz = window.getUrlParameter && getUrlParameter('tz');
+          if (urlTz) return urlTz;
+
+          const storageTz = window.localStorage.getItem("tz")
+          if (storageTz) return storageTz;
+
+          return moment.tz.guess();
+        }
+
+        // find all parseable dates and localize them
+        function formatDate(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz)
+          element.html(atime.format("dddd, MMMM Do, YYYY"))
+        }
+
+        function formatDateTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz)
+          element.html(atime.format("dddd, MMMM Do, YYYY @ HH:mm"))
+        }
+
+        function formatTimeSpan(element, includeDate) {
+          const current_tz = getTimezone();
+          let parts = element.text().split(" – ");
+          console.log(parts, "--- parts");
+          let start = parts[0];
+          let end = parts[1];
+
+          let starttime = moment(start).clone().tz(current_tz)
+          let endtime = moment(end).clone().tz(current_tz)
+
+          //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
+          // seems like not considering the timezone
+          if (starttime.format("D") == endtime.format("D")) {
+            if (includeDate)
+              element.html(starttime.format(
+                "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
+                "HH:mm"));
+            else
+              element.html(
+                starttime.format("HH:mm") + " &ndash; " + endtime.format(
+                "HH:mm"));
+          } else {
+            element.html(starttime.format(
+              "dddd, MMM Do @ HH:mm") + " &ndash; " + endtime.format(
+              "dddd, MMM Do @ HH:mm"))
+          }
+        }
+
+        function formatTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment(element.text()).clone().tz(current_tz);
+          element.html(atime.format("HH:mm"));
+        }
+
+        $(".format-just-date").each((_i, element) => {
+          formatDate($(element));
+        });
+
+        $(".format-date").each((_i, element) => {
+          formatDateTime($(element));
+        });
+
+        $(".format-date-span").each((_i, element) => {
+          formatTimeSpan($(element));
+        });
+
+        $(".format-date-span-short").each((_i, element) => {
+          formatTimeSpan($(element), true);
+        });
+
+        $(".format-date-span-full").each((_i, element) => {
+          formatTimeSpan($(element), true);
+        });
+
+        $(".format-time").each((_i, element) => {
+          formatTime($(element));
+        });
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+
+        {##}
+        {#gtag("js", new Date());#}
+        {#gtag("config", "{{config.analytics}}");#}
+      });
+    </script>
+    <!-- <script src="static/js/lazy_load.js"></script> -->
 {% endblock %}
 </body>
 </html>
