@@ -112,19 +112,19 @@ h3.jumbotron-date {
 }
 
 h1 {
-  font-family: "Zilla Slab SemiBold";
+  font-family: "Zilla Slab SemiBold", serif;
   font-size: 2.25 rem;
   color: var(--text-heading-color);
 }
 
 h2{
-  font-family: "Zilla Slab SemiBold";
+  font-family: "Zilla Slab SemiBold", serif;
   font-size: 1.875 rem;
   color: var(--text-heading-color);
 }
 
 h3 {
-  font-family: "Fira Sans SemiBold";
+  font-family: "Fira Sans SemiBold", sans-serif;
   font-size: 1.5 rem;
   color: var(--text-heading-color);
 }
@@ -186,7 +186,7 @@ h3 {
 }
 
 .pp-card-no-bottom {
-  font-family: "Zilla Slab";
+  font-family: "Zilla Slab", serif;
   box-shadow: 0 0 14px 0 var(--main-border-color);
   margin-bottom: 0;
   display: block;
@@ -196,7 +196,7 @@ h3 {
   background-color: #fff;
   border: 4px solid var(--main-border-color);
 
-  font-family: "Zilla Slab";
+  font-family: "Zilla Slab", serif;
   height: 340px;
   padding-top: 10px;
   padding-left: 15px;
@@ -234,7 +234,7 @@ h3 {
 .card,
 .card-header,
 .card-title {
-  font-family: "Zilla Slab SemiBold";
+  font-family: "Zilla Slab SemiBold", serif;
   color: var(--text-dark-color);
 }
 
@@ -276,7 +276,7 @@ h6.card-subtitle.text-muted { /* paper author list */
 .main-title {
   font-weight: 700;
   color: var(--text-heading-color);
-  font-family: "Zilla Slab SemiBold";
+  font-family: "Zilla Slab SemiBold", serif;
 }
 
 .myAccordion {
@@ -426,7 +426,7 @@ body .carousel-control-prev {
 }
 
 #calendar {
-  font-family: "Fira Sans Condensed Light";
+  font-family: "Fira Sans Condensed Light", sans-serif;
 }
 
 /* specific event colours are set in config.yml */
@@ -481,7 +481,7 @@ hr::after {
 #tab-faq .card-header,
 #tab-faq .card-body
 {
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
 }
 
 /* all_events styling */
@@ -492,19 +492,19 @@ hr::after {
 }
 
 .event-card .event-title{
-  font-family: Zilla Slab SemiBold, serif;
+  font-family: "Zilla Slab SemiBold", serif;
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
 }
 .event-card .event-time {
-  font-family: Fira Sans, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 0.8 rem;
   letter-spacing: .01em;
   color: var(--text-dark-color);
 }
 
 .event-card .event-url{
-  font-family: Fira Sans, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 0.8 rem;
   letter-spacing: .01em;
   color: var(--text-gray-color);
@@ -526,7 +526,7 @@ hr::after {
 .paper-title,
 .session-list-title
 {
-  font-family: "Zilla Slab SemiBold";
+  font-family: "Zilla Slab SemiBold", serif;
   color: var(--text-heading-color);
 }
 
@@ -535,7 +535,7 @@ hr::after {
 .session-chair,
 .paper-authors
 {
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
   color: var(--text-dark-color);
   font-size: 1.875 rem;
 }
@@ -548,7 +548,7 @@ hr::after {
 .speaker-name
 {
   /* placeholder; add styles here */
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
   color: var(--text-dark-color);
   text-decoration: none;
 }
@@ -574,7 +574,7 @@ hr::after {
 .session-list-type
 {
   /* placeholder; add styles here */
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
   color: var(--text-dark-color);
   text-decoration: none;
 }
