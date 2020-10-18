@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Fira Sans SemiBold";
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   font-display: swap;
   src: local("Fira Sans SemiBold"), local("Fira-Sans-SemiBold"),
     url("FiraSans-SemiBold.ttf") format("truetype");
