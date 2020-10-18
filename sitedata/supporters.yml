@@ -2,22 +2,22 @@
   image_size: 200
   supporters:
    - name: "Intel"
-     image: /assets/supporters/intel_2020.png
+     image: intel_2020.png
      url: "https://intel.com"
 
    - name: "Tableau"
-     image: /assets/supporters/tableau.png
+     image: tableau.png
      url: "https://www.tableau.com/"
 
 - category: Bronze
   supporters:
 
    - name: "Kitware, Inc"
-     image: /assets/supporters/kitware.png
+     image: kitware.png
      url: "https://www.kitware.com/"
 
    - name: "Microsoft"
-     image: /assets/supporters/microsoft.png
+     image: microsoft.png
      url: "https://www.microsoft.com/research"
 
 
@@ -25,46 +25,46 @@
 - category: Pearl
   supporters:
    - name: "Harvard Medical School, Department of Biomedical Informatics"
-     image: /assets/supporters/DBMI.png
+     image: DBMI.png
      url: "http://dbmi.hms.harvard.edu/"
 
    - name: "SCI"
-     image: /assets/supporters/sci.png
+     image: sci.png
      url: "https://www.sci.utah.edu/"
 
 
 - category: Diversity/Inclusivity Scholarships
   supporters:
    - name: "Data Intensive Science"
-     image: /assets/supporters/data_intensive_science.jpg
+     image: data_intensive_science.jpg
      url: "https://dataintensivescience.org/"
 
    - name: "Data Machines Corp"
-     image: /assets/supporters/datamachines.png
+     image: datamachines.png
      url: "http://www.datamachines.io/"
 
    - name: "Sophos"
-     image: /assets/supporters/sophos.png
+     image: sophos.png
      url: "https://www.sophos.com/"
 
    - name: "TwoSix Labs"
-     image: /assets/supporters/TwoSix_Labs.png
+     image: TwoSix_Labs.png
      url: "https://www.twosixlabs.com/"
 
    - name: "Uncharted Software"
-     image: /assets/supporters/uncharted.png
+     image: uncharted.png
      url: "https://uncharted.software/"
 
-   - name: "Uncharted Software"
-     image: /assets/supporters/visus.png
-     url: "https://visus.org/"
+#   - name: "Uncharted Software"
+#     image: visus.png
+#     url: "https://visus.org/"
 
 - category: Technology
   supporters:
    - name: "Gravitas AI"
-     image: /assets/supporters/Gravitas_AI.png
+     image: Gravitas_AI.png
      url: "https://gravitas.ai/"
 
    - name: "SuperMiniStream"
-     image: /assets/supporters/superministream.png
+     image: superministream.png
      url: "https://www.superministream.com/"

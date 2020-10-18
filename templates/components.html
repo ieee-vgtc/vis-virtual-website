@@ -98,7 +98,7 @@ workshopgroup
 <h5 class="mt-4">{{ level.category }}</h5>
 {% for supporter in level.supporters %}
 <a href="{{ supporter.url }}">
-  <img class="p-3" src="http://ieeevis.org/year/2020{{ supporter.image }}" width="{% if level.image_size %}{{ level.image_size }}{% else %}125{% endif %}" alt="{{ supporter.name }}"></a>
+  <img class="p-3" src="https://ieeevis.b-cdn.net/vis_2020/sponsors/{{ supporter.image }}" width="{% if level.image_size %}{{ level.image_size }}{% else %}125{% endif %}" alt="{{ supporter.name }}"></a>
 {% endfor %}
 {% endfor %}
 </sidebar>
