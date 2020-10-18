@@ -1,6 +1,6 @@
 [
     {
-        "UID": 1,
+        "UID": "1",
         "image": "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg",
         "title": "The Making of a Scientist",
         "abstract": "For the first time in the history of the VIS conference, we will have a Nobel prize awardee as the keynote speaker: Mario Capecchi co-winner of the 2007 Nobel Prize in Physiology or Medicine.\n\nMario Capecchi, a renowned geneticist at the University of Utah, is a Distinguished Professor of Human Genetics with a unique life story of overcoming incredible odds when he nearly died as a child in the streets of Italy after his mother was arrested and put in a concentration camp by the Nazis during World War II.\n\nWith an uplifting message that is mainly directed towards the junior members of our community, Mario Capecchi will stress the importance of collaboration in scientific investigation and how strong collaborative research helped him in his professional journey towards the Nobel prize.",
@@ -11,7 +11,7 @@
         "session_id": "vis-keynote"
     },
     {
-        "UID": 2,
+        "UID": "2",
         "image": "https://www.cs.sfu.ca/~sheelagh/img/sheelagh_profile.jpg",
         "name": "Sheelagh Carpendale",
         "title": "Capstone by Sheelagh Carpendale",
