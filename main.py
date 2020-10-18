@@ -400,7 +400,8 @@ def format_by_session_list(v):
         "discord_channel": v["discord_channel"],
         "discord_channel_id": v["discord_channel_id"],
         "youtube_url": v["youtube_url"],
-        "youtube_id": v["youtube_url"].split("/")[-1],
+        "youtube_id": v["youtube_url"].split("/")[-1] if v["youtube_url"] else None,
+        "zoom_meeting": v["zoom_meeting"]
     }
 
 
