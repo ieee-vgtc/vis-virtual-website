@@ -32,14 +32,23 @@
 
 <hr>
 
-{% if session.timeSlots[0].abstract %}
 <div class="row">
-    <div class="col-md-8">
-        <img src="{{ session.speaker_picture }}"/>
-        <p>{{ session.timeSlots[0].abstract }}</p>
+    <div class="col-md-3">
+        <img class="img-fluid mx-auto d-block"
+             src="{{ session.speaker.image }}"
+             alt=""
+             style="max-height: 250px;"
+        >
     </div>
+    <div class="col-md-9 py-2 py-md-0">
+        <h3>{{ session.speaker.name }}</h3>
+        <h4> {{ session.speaker.title }}</h4>
+        <p>{{ session.speaker.abstract }}</p>
+        <h4> About</h4>
+        <p>{{ session.speaker.bio }}</p>
+    </div>
+
 </div>
-{% endif %}
 
 {% endblock %}
 

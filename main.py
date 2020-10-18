@@ -460,7 +460,7 @@ def keynote():
     data = _data()
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
-    data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
+    data["session"]["speaker"] = site_data["speakers"][0]
     return render_template("keynote_or_capstone.html", **data)
 
 
@@ -471,8 +471,7 @@ def capstone():
     data = _data()
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
-    # TODO: Picture of Sheelagh
-    data["session"]["speaker_picture"] = "http://ieeevis.org/year/2020/assets/carousel/mariocapecchi.jpg"
+    data["session"]["speaker"] = site_data["speakers"][1]
     return render_template("keynote_or_capstone.html", **data)
 
 
