@@ -5,6 +5,7 @@
   --accent-color: #c42026;
   --text-color: #000;
   --text-dark-color: #4a5568;
+  --text-gray-color: #a0aec0;
   --text-heading-color: #7f6c5e;
   --text-muted-color: #b9aba1;
   --text-inv-color: #eee;
@@ -454,18 +455,29 @@ hr::after {
 /* all_events styling */
 
 .event-card {
-  font-size: 16pt;
+  font-size: 1 rem;
   height: 100%;
 }
 
 .event-card .event-title{
-  font-weight: bold;
+  font-family: Zilla Slab SemiBold, serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
 }
-.event-card .event-time{
-  font-size: 12pt;
+.event-card .event-time {
+  font-family: Fira Sans, sans-serif;
+  font-size: 0.8 rem;
+  letter-spacing: .01em;
+  color: var(--text-dark-color);
 }
+
 .event-card .event-url{
-  font-size: 12pt;
+  font-family: Fira Sans, sans-serif;
+  font-size: 0.8 rem;
+  letter-spacing: .01em;
+  color: var(--text-gray-color);
+  margin-bottom: 0.25rem;
+ 
 }
 
 /* combined styling (schedule listing, event, session, paper) */
@@ -526,13 +538,20 @@ hr::after {
   border-left: 5px solid transparent;
 }
 
+.event-faceting {
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  font-family: "Fira Sans SemiBold", sans-serif;
+}
+
 .session-type {
   display: block;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   font-size: 1rem;
   padding-bottom: 0.5rem;
-  font-weight: 700;
   font-family: "Fira Sans SemiBold", sans-serif;
 }
 
@@ -617,5 +636,4 @@ hr::after {
   font-family: Fira Sans, sans-serif;
   font-size: 0.8 rem;
   letter-spacing: .01em;
-  font-weight: bold;
 }

@@ -14,7 +14,7 @@
         </button>
         {% for et in event_types %}
             <button class="event-faceting btn m-1 p-2 pp-card session-listing"
-                    style="border-color: {{ colors[et[1]] }};
+                    style="color: {{ colors[et[1]] }}; border-color: {{ colors[et[1]] }};
                             transition-duration: 300ms;"
                     data-bg-color="{{ colors[et[1]] }}"
                     data-key="{{ et[0] }}"
@@ -85,7 +85,7 @@
                     <div class="event-url">More info: <a
                             href="{{ event.url }}">{{ event.url }}</a></div>
                 {% endif %}
-                <div class="event-time text-muted format-date-span-short">
+                <div class="event-time format-date-span-short">
                     {{ event.startTime }} – {{ event.endTime }}</div>
                 {#                </div>#}
             </div>
