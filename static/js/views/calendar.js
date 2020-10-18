@@ -292,7 +292,6 @@ function make_cal(name) {
           .style('margin-right', '7px');
 
         legendItems.append('p')
-          // .style('text-transform', 'uppercase')
           .text(d => d.key);
       })
 

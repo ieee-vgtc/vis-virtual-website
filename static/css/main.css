@@ -520,10 +520,6 @@ hr::after {
   font-size: 0.85rem;
 }
 
-.legend-item {
-  text-transform: uppercase;
-}
-
 /* h1 */
 .session-list-event,
 .session-title,
@@ -589,7 +585,8 @@ hr::after {
   border-left: 5px solid transparent;
 }
 
-.event-faceting {
+.event-faceting,
+.legend-item {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   font-size: 1rem;
