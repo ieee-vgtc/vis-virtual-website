@@ -6,9 +6,11 @@
     <h3> Career Awards </h3>
     <div class="row">
         {% for award in awards_honor %}
-            <div class="col-md-6 p-1">
-                <div class="award-card pp-card p-2"
-                     style="border-left: 5pt solid gold;
+            <div class="col-md-6 p-3 award-card-wrapper">
+                <div class="award-card pp-card-no-bottom p-2"
+                     style="
+                     border-top: 12pt solid gold;
+                     border-bottom: 5pt solid gold;
                          background-color: #fff;"
                         {#                 data-session-type="{{ event.type }}"#}
                 >
@@ -35,9 +37,11 @@
     <div class="row">
         {% for award in awards_tot %}
 {#            {{ award }}#}
-            <div class="col-md-6 p-1">
-                <div class="award-card pp-card p-2"
-                     style="border-left: 5pt solid goldenrod;
+            <div class="col-md-6 p-3">
+                <div class="award-card pp-card-no-bottom p-2"
+                     style="
+                     border-top: 12pt solid goldenrod;
+                     border-bottom: 5pt solid goldenrod;
                                      background-color: #fff;"
                 >
                                 <span class="session-type"
@@ -63,8 +67,10 @@
 {#            {{ award }}#}
             {% set color = 'silver' if "Honorable" in award.award_1 else "gold" %}
             <div class="col-sm-6 col-md-4 p-1">
-                <div class="award-card pp-card p-2"
-                     style="border-left: 5pt solid {{ color}};
+                <div class="award-card pp-card-no-bottom  p-2"
+                     style="
+                             border-top: 5pt solid {{ color}};
+                             border-bottom: 1pt solid {{ color}};
                                      background-color: #fff;"
                 >
                                 <span class="session-type"
@@ -90,8 +96,10 @@
         {% for award in awards_academy %}
 {#            {{ award }}#}
             <div class="col-sm-6 col-md-3 p-1">
-                <div class="award-card pp-card p-2"
-                     style="border-left: 5pt solid darkgoldenrod;
+                <div class="award-card pp-card-no-bottom p-2"
+                     style="
+                     border-top: 5pt solid darkgoldenrod;
+                     border-bottom: 1pt solid darkgoldenrod;
                          background-color: #fff;"
                         {#                 data-session-type="{{ event.type }}"#}
                 >

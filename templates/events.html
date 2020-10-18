@@ -54,7 +54,7 @@
             })
 
           const key = d3.select(this).attr("data-key");
-          d3.selectAll(".event-card")
+          d3.selectAll(".event-card-wrapper")
             .style('display', function () {
               if (key === 'all') return null;
               const myKey = d3.select(this).attr('data-session-type');
@@ -67,9 +67,12 @@
 
     <div class="row mt-5">
         {% for event in events %}
-            <div class="event-card pp-card col-md-5 m-2 py-2 session-listing"
+            <div class="col-md-6 p-2 event-card-wrapper"
+            data-session-type="{{ event.type }}"
+            >
+            <div class="event-card pp-card p-2 session-listing"
                  style="border-color: {{ colors[event.abbr_type] }};
-                         background-color: #fff;"
+                         background-color: #fff; margin-bottom: 0;"
                  data-session-type="{{ event.type }}"
 
             >
@@ -85,6 +88,7 @@
                 <div class="event-time text-muted format-date-span-short">
                     {{ event.startTime }} – {{ event.endTime }}</div>
                 {#                </div>#}
+            </div>
             </div>
         {% endfor %}
     </div>

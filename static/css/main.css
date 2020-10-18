@@ -157,6 +157,13 @@ h1
   overflow: hidden;
 }
 
+.pp-card-no-bottom {
+  font-family: "Zilla Slab";
+  box-shadow: 0 0 14px 0 var(--main-border-color);
+  margin-bottom: 0;
+  display: block;
+  overflow: hidden;
+}
 .pp-card-header {
   background-color: #fff;
   border: 4px solid var(--main-border-color);
@@ -448,6 +455,7 @@ hr::after {
 
 .event-card {
   font-size: 16pt;
+  height: 100%;
 }
 
 .event-card .event-title{
@@ -561,9 +569,29 @@ hr::after {
 
 /* awards styling */
 
+/*.award-card-wrapper{*/
+/*  z-index: 100;*/
+/*}*/
 .award-card {
   font-size: 12pt;
+  height: 100%;
+  position: relative;
+  z-index: 0;
 }
+
+.award-card > * {
+  z-index: 5;
+}
+.award-card:before {
+    content: "\f091";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: "Font Awesome 5 Free";
+    left: calc(50% - 25px);
+    position:absolute;
+    top: calc(50% - 25px);
+    font-size: 50px;
+    color: #f0f0f0;
+    z-index: -1;
+ }
 
 .award-card .award-title{
   /*font-size: 16pt;*/
