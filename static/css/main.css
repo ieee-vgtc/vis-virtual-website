@@ -15,6 +15,10 @@
   --btn-inv-color: #4a5568;
 }
 
+body {
+  color: var(--text-dark-color);
+}
+
 body a {
   color: var(--text-accent-color);
 }
@@ -56,6 +60,7 @@ label:text-muted,
 .nav-link.text-muted,
 .nav-link {
   font-family: "Zilla Slab", serif;
+  font-size: 1.125 rem;
   color: var(--btn-inv-color) !important;
   background-color: var(--main-bg-color) !important;
 }
@@ -106,11 +111,21 @@ h3.jumbotron-date {
   background-blend-mode: lighten;
 }
 
-h1
-/* ,h2,h3 */
-{
+h1 {
   font-family: "Zilla Slab SemiBold";
-  font-weight: bold;
+  font-size: 2.25 rem;
+  color: var(--text-heading-color);
+}
+
+h2{
+  font-family: "Zilla Slab SemiBold";
+  font-size: 1.875 rem;
+  color: var(--text-heading-color);
+}
+
+h3 {
+  font-family: "Fira Sans SemiBold";
+  font-size: 1.5 rem;
   color: var(--text-heading-color);
 }
 
@@ -512,7 +527,7 @@ hr::after {
 .session-list-title
 {
   font-family: "Zilla Slab SemiBold";
-  font-weight: bold;
+  color: var(--text-heading-color);
 }
 
 /* h3 */
@@ -521,16 +536,29 @@ hr::after {
 .paper-authors
 {
   font-family: "Fira Sans";
+  color: var(--text-dark-color);
+  font-size: 1.875 rem;
 }
 
 /* h5 */
 .session-list-date,
 .session-date,
 .paper-link,
-.paper-presentation
+.paper-presentation,
+.speaker-name
 {
   /* placeholder; add styles here */
+  font-family: "Fira Sans";
+  color: var(--text-dark-color);
   text-decoration: none;
+}
+
+/* h5 */
+.paper-details-heading,
+.speaker-title,
+.speaker-details-heading {
+  font-family: "Zilla Slab SemiBold", serif;
+  color: var(--text-heading-color);
 }
 
 /* h5 */
@@ -546,6 +574,8 @@ hr::after {
 .session-list-type
 {
   /* placeholder; add styles here */
+  font-family: "Fira Sans";
+  color: var(--text-dark-color);
   text-decoration: none;
 }
 
