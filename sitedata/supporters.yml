@@ -55,15 +55,19 @@
      image: uncharted.png
      url: "https://uncharted.software/"
 
-#   - name: "Uncharted Software"
-#     image: visus.png
-#     url: "https://visus.org/"
+   - name: "ViSUS"
+     image: visus.png
+     url: "https://visus.org/"
 
 - category: Technology
   supporters:
    - name: "Gravitas AI"
      image: Gravitas_AI.png
      url: "https://gravitas.ai/"
+
+   - name: "IBM/MIT"
+     image: ibm-mit.png
+     url: "https://mitibmwatsonailab.mit.edu/"
 
    - name: "SuperMiniStream"
      image: superministream.png
