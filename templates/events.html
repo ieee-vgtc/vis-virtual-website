@@ -28,18 +28,20 @@
         currentItem = this;
         const t = d3.select(this);
         t.style("background-color", t.attr('data-bg-color'))
-          .style('color', "#fff");
+          .style('color', '#fff');
       });
       d3.selectAll(".event-faceting")
         .on("mouseover", function () {
           const t = d3.select(this);
           if (this === currentItem) return;
           t.style("background-color", t.attr('data-bg-color'))
+          t.style("color", t.attr('#fff'))
         })
         .on("mouseout", function () {
           const t = d3.select(this);
           if (this === currentItem) return;
           t.style("background-color", null)
+          t.style("color", t.attr('data-bg-color'))
         })
         .on("click", function () {
           const that = this;
@@ -50,7 +52,8 @@
                 .attr('data-bg-color') : null
             })
             .style("color", function () {
-              return (this === that) ? "#fff" : null
+              return (this === that) ? "#fff" : d3.select(this)
+                .attr('data-bg-color')
             })
 
           const key = d3.select(this).attr("data-key");
