@@ -25,6 +25,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -78,6 +80,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -133,6 +137,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -188,6 +194,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -247,6 +255,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Zoom",
@@ -315,6 +325,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -384,6 +396,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -437,6 +451,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -514,6 +530,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -591,6 +609,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -738,6 +758,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -807,6 +829,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -964,6 +988,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -1082,6 +1108,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -1202,6 +1230,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -1255,6 +1285,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -1401,6 +1433,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -1516,6 +1550,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -1612,6 +1648,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -1784,6 +1822,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -1921,6 +1961,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -2133,6 +2175,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -2271,6 +2315,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -2385,6 +2431,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -2467,6 +2515,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -2553,6 +2603,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -2608,6 +2660,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -2659,6 +2713,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -2808,6 +2864,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -3005,6 +3063,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -3171,6 +3231,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -3397,6 +3459,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -3595,6 +3659,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -3654,6 +3720,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -3695,6 +3763,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -3765,6 +3835,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -3899,6 +3971,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -3991,6 +4065,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4139,6 +4215,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -4254,6 +4332,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -4406,6 +4486,8 @@
                 "youtube_url": "https://youtu.be/ZaJLPQSk-lA",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrdcx4xcPCUAFPLCqKjvjn0p",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4501,6 +4583,8 @@
                 "youtube_url": "https://youtu.be/nJnE7mxbA2k",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrct9PRizs-7aQWvgrIdvVLQ",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4586,6 +4670,8 @@
                 "youtube_url": "https://youtu.be/B8Kum6RehbE",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4671,6 +4757,8 @@
                 "youtube_url": "https://youtu.be/BtxxhKdO6Ms",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4756,6 +4844,8 @@
                 "youtube_url": "https://youtu.be/TKXfu7k_ylQ",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrd1EH-tHYrmyrdjweBold-E",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4842,6 +4932,8 @@
                 "youtube_url": "https://youtu.be/TuLFY3Y7yHU",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -4927,6 +5019,8 @@
                 "youtube_url": "https://youtu.be/h1isZznN1oI",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5012,6 +5106,8 @@
                 "youtube_url": "https://youtu.be/Pz32r3DdjjQ",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5098,6 +5194,8 @@
                 "youtube_url": "https://youtu.be/mIadBtuBq1w",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5183,6 +5281,8 @@
                 "youtube_url": "https://youtu.be/GVfO0F-4T7g",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcbKoAbChWKVPFR6jh3DW0G",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5257,6 +5357,8 @@
                 "youtube_url": "https://youtu.be/D20CJC1MAO8",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcLEXJNWgd4Xg-K4aHPH2U0",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5342,6 +5444,8 @@
                 "youtube_url": "https://youtu.be/M-pUfWMjXhQ",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojreWyMVMMW7tMs9JwdXBG9RL",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5427,6 +5531,8 @@
                 "youtube_url": "https://youtu.be/hJq6IDmJXs0",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5512,6 +5618,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5597,6 +5705,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcGWHw3VRbKx_scVOwY1cSI",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5682,6 +5792,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfr1J7kVelPD_Qhw4SfonOj",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5768,6 +5880,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrf2G9h2SsanxkJq2lBFr1-x",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5853,6 +5967,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5945,6 +6061,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrf8VVJhHIrA58By5qRKQZsb",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6030,6 +6148,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfas2UD91qC_dLcLeoUeFPh",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6115,6 +6235,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrc3A0BC8c-klNx-shu3oM8z",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6200,6 +6322,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6285,6 +6409,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrd_kNqo4l6r61jfKq2wRENZ",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6371,6 +6497,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrc0pcWRJPYBbIujRVr4y4TR",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6457,6 +6585,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrdI5LIf3D6hMDjDzLjJU5Ht",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6543,6 +6673,8 @@
                 "youtube_url": "https://youtu.be/YWhjyAu0hZs",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrd4CGDueJvT-6Zmo7k8eRIX",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6628,6 +6760,8 @@
                 "youtube_url": "https://youtu.be/KHoBVvConGk",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcwpVBk1am6RcV8a62raPoI",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6713,6 +6847,8 @@
                 "youtube_url": "https://youtu.be/N46isApUQsY",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6788,6 +6924,8 @@
                 "youtube_url": "https://youtu.be/tB6-lkVz_R8",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojreqiUZelu5Cj5DCW2ISnepn",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6874,6 +7012,8 @@
                 "youtube_url": "https://youtu.be/scTPYya5Rek",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcoKbbmJ3pa3Olgn25gfk-1",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6949,6 +7089,8 @@
                 "youtube_url": "https://youtu.be/sSU11LA30qE",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfc-CFGp4FKZivxadXcISkn",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7034,6 +7176,8 @@
                 "youtube_url": "https://youtu.be/5cWWPBE_DTQ",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7119,6 +7263,8 @@
                 "youtube_url": "https://youtu.be/s6CZzP6zT7s",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7215,6 +7361,8 @@
                 "youtube_url": "https://youtu.be/yxHYxo2rT8c",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": null,
@@ -7345,6 +7493,8 @@
                 "youtube_url": "https://youtu.be/Z70iLcKkNo0",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrdb-N8j4bujNsO7NkoARDre",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7464,6 +7614,8 @@
                 "youtube_url": "https://youtu.be/bi6FfsWV_9k",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7572,6 +7724,8 @@
                 "youtube_url": "https://youtu.be/L32stm1dpmk",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrf_a7iRwQ0h-ALci7Fc1Z1F",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7668,6 +7822,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7786,6 +7942,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7883,6 +8041,8 @@
                 "youtube_url": "https://youtu.be/1GJWd-xXfAk",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8018,6 +8178,8 @@
                 "youtube_url": "https://youtu.be/ddK9GlcqC4g",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "https://youtu.be/4Ci7KoLzFZ4",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -8069,6 +8231,8 @@
                 "youtube_url": "https://youtu.be/WD2y4nlEheI",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Intro",
@@ -8179,6 +8343,8 @@
                 "youtube_url": "https://youtu.be/rsCKHe1v_So",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -8255,6 +8421,8 @@
                 "youtube_url": "https://youtu.be/9-PVxbMBJ8Q",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -8344,6 +8512,8 @@
                 "youtube_url": "https://youtu.be/fKgBw987jTc",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8464,6 +8634,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8571,6 +8743,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "https://us02web.zoom.us/j/84103208111?pwd=UE85UHhXWTV2NzEzYXJSdlNWS2ZPQT09",
                 "zoom_password": "OyY3uEBT",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -8613,6 +8787,8 @@
                 "youtube_url": "https://youtu.be/FBaioHLtHAE",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -8657,6 +8833,8 @@
                 "youtube_url": "https://youtu.be/FBaioHLtHAE",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -8787,6 +8965,8 @@
                 "youtube_url": "https://youtu.be/FBaioHLtHAE",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8863,6 +9043,8 @@
                 "youtube_url": "https://youtu.be/FBaioHLtHAE",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -8905,6 +9087,8 @@
                 "youtube_url": "https://youtu.be/sbJzQvOD62E",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -8968,6 +9152,8 @@
                 "youtube_url": "https://youtu.be/F3zXF36nclw",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9053,6 +9239,8 @@
                 "youtube_url": "https://youtu.be/zTy8cwDjiJU",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9134,6 +9322,8 @@
                 "youtube_url": "https://youtu.be/Mc6v7_--wao",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9166,6 +9356,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9204,6 +9396,8 @@
                 "youtube_url": "https://youtu.be/DyQHu05X4w8",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9289,6 +9483,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9388,6 +9584,8 @@
                 "youtube_url": "https://youtu.be/1o0nzZYfjn8",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -9528,6 +9726,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "https://us02web.zoom.us/j/84525407680?pwd=RzhIUUxuRUhxYnY1UmlvWVBCY3Yvdz09",
                 "zoom_password": "6K3JLpKK",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -9573,6 +9773,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -9606,7 +9808,11 @@
                     "Noeska Smit",
                     "Thomas Wischgoll"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Christina Gillmann",
+                    "Noeska Smit",
+                    "Thomas Wischgoll"
+                ],
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
@@ -9616,6 +9822,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -9631,13 +9839,23 @@
                     },
                     {
                         "type": "Live Presentation",
+                        "title": "MISSING",
+                        "contributors": [
+                            "Anna Vilanova"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-29T18:10:00Z",
+                        "time_end": "2020-10-29T18:20:00Z"
+                    },
+                    {
+                        "type": "Live Presentation",
                         "title": "Invited Talk: Recent Developments in VR",
                         "contributors": [
                             "Bernhard Preim"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-29T18:10:00Z",
-                        "time_end": "2020-10-29T18:20:00Z"
+                        "time_start": "2020-10-29T18:20:00Z",
+                        "time_end": "2020-10-29T18:30:00Z"
                     },
                     {
                         "type": "Live Presentation",
@@ -9646,17 +9864,17 @@
                             "Eduard Gr\u00f6ller"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-29T18:20:00Z",
-                        "time_end": "2020-10-29T18:30:00Z"
+                        "time_start": "2020-10-29T18:30:00Z",
+                        "time_end": "2020-10-29T18:40:00Z"
                     },
                     {
-                        "type": "Live Presentation",
-                        "title": "MISSING",
+                        "type": "Live Panel",
+                        "title": "Open Discussion",
                         "contributors": [
-                            "Anna Vilanova"
+                            "All speakers"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-29T18:30:00Z",
+                        "time_start": "2020-10-29T18:40:00Z",
                         "time_end": "2020-10-29T19:30:00Z"
                     }
                 ]
@@ -9686,6 +9904,8 @@
                 "youtube_url": null,
                 "zoom_meeting": null,
                 "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -9732,6 +9952,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -9794,6 +10016,8 @@
                 "youtube_url": null,
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Panel",
@@ -9830,10 +10054,12 @@
                 "time_end": "2020-10-30T15:30:00Z",
                 "discord_category": "the role of visualization in industrial production",
                 "discord_channel": "general",
-                "discord_channel_id": "767141458620186694",
+                "discord_channel_id": "767753497243549768",
                 "youtube_url": "https://youtu.be/ZN3Vjr_G8h8",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -9927,6 +10153,8 @@
                 "youtube_url": "https://youtu.be/RkNFBxDH6L0",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "https://youtu.be/IZOGwFg6ch4",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": null,
@@ -9972,6 +10200,8 @@
                 "youtube_url": "https://youtu.be/9JdFmgg2t44",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -10046,6 +10276,8 @@
                 "youtube_url": "https://youtu.be/XQhBHnPIsRk",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -10088,6 +10320,8 @@
                 "youtube_url": "https://youtu.be/XQhBHnPIsRk",
                 "zoom_meeting": "",
                 "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
