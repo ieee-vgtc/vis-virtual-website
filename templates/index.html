@@ -90,7 +90,7 @@
         });
         $(".logoutBtn").click(async function () {
           await auth0.logout({
-            redirect_uri: window.location.href,
+            returnTo: window.location.href,
           });
         });
       };
