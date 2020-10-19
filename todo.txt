@@ -18,8 +18,9 @@
 [x] dev: store timezone in cookie (see "date parsing" below)
 [x] Stretch supporters event across all events (W/Th/F)
 [x] Add more details to "VIS Opening"
-[ ] Add "keynote" tab with Keynote information
+[-] Add "keynote" tab with Keynote information
 [x] Suggestion: remove text from unreadable events (too squished)
+[x] Add full-conference ICS link
 
 # Merge with Mini-Conf 1.5
 [x] Update favicon
@@ -40,7 +41,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 
 ## Session pages
 [x] Add <hr> styling to match ieeevis.org styling
-[ ] Add zoom links
+[x] Add zoom links
 [ ] Add icons for paper PDFs and awards
 
 ## Papers page
@@ -72,11 +73,14 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [ ] Add explanations of the different types and organize like-ones together?
 
 ## Award page
-[ ] Create static page
+[x] Create static page
+
+## Event page
+[x] Add event-specific ICS links
 
 ## Keynote/capstone speakers
-[ ] Create static page
-[ ] Bio / abstract / title
+[x] Create static page
+[x] Bio / abstract / title
 
 ## Content
 [x] Remove "chat" item
