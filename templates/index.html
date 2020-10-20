@@ -33,21 +33,26 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Welcome to Vis 2020 Virtual<span class="secret">, <span
-            class="user_name"></span> </span>!</h1>
-
-    <button class="loginBtn btn btn-outline-secondary"> Login here</button>
-    <button class="logoutBtn btn btn-outline-secondary" style="display: none;">
-        Logout
-    </button>
-
-
     <div class="row">
         <div class="col-md-8">
             {{ readme | markdown }}
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-3">
+          <div class="login-window mb-5 alert alert-info">
+            <h5>
+              <span class="login-message">You are logged in as</span>
+              <span class="secret">
+                <span class="user_name"></span>
+              </span>
+            </h5>
+
+            <button class="loginBtn btn btn-outline-secondary"> Login here</button>
+            <button class="logoutBtn btn btn-outline-secondary" style="display: none;">
+                Logout
+            </button>
+          </div>
+
           {{ components.supporter_sidebar(supporters) }}
         </div>
     </div>
@@ -78,19 +83,21 @@
           $(".logoutBtn").show();
           $(".secret").show();
           $(".user_name").text(user.name);
+          $(".login-message").text("You are logged in as");
         } else {
           $(".loginBtn").show();
           $(".logoutBtn").hide();
           $(".secret").hide();
           $(".user_name").text("");
+          $(".login-message").text("You are currently not authenticated.");
         }
 
         $(".loginBtn").click(async function () {
-          window.location.href = `redirect.html?return=${window.location.pathname.slice(1)}`;
+          window.location.href = `redirect.html?return=index.html`;
         });
         $(".logoutBtn").click(async function () {
           await auth0.logout({
-            redirect_uri: window.location.href,
+            returnTo: window.location.href,
           });
         });
       };

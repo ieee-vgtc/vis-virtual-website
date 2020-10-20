@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="row mt-3">
-    <div class="col-md-12">
+    <div class="col-md-8">
         <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
@@ -27,15 +27,23 @@
             <span class="fas mr-1">&#xf017;</span>
             <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
         </h3>
-        <h5 class="session-info mt-3">
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 session-links">
+        <h5 class="session-info my-4">
             <a href="#list">
                 Jump to event listing
                 <span class="fas mr-2">&#xf358;</span></a>
-            /
+        </h5>
+        <h5 class="session-info my-4">
+            <a href="#ff">
+                Jump to Fast Forwards
+                <span class="fas mr-2">&#xf87c;</span></a>
+        </h5>
+        <h5 class="session-info my-4">
             <a href="https://ieeevis.b-cdn.net/vis_2020/ics/{{ session.id }}.ics">
                 <span class="fas mr-2">&#xf073;</span>
-                Add to Calendar</a>
-        </h5>
+                Add to Calendar</a></h5>
     </div>
 </div>
 
@@ -53,7 +61,7 @@
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
         <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">Direct link to YouTube stream: <a href="{{ session.youtube_url }}">{{ session.youtube_url }}</a></p>
+        <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}">{{ session.youtube_url }}</a></p>
     </div>
 </div>
 {% endif %}
@@ -74,6 +82,17 @@
         {% else %}
         You can join this session via <a href="{{ session.zoom_meeting }}">Zoom</a> for hands-on activities.
         {% endif %}
+    </div>
+</div>
+{% endif %}
+
+{% if not session.youtube_id and not session.zoom_meeting %}
+<div class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        <div class="alert alert-warning" role="alert">
+            A livestream video has not yet been scheduled for this session yet. <br><br>
+            When it is, the video stream will replace this message (at least 3 days before the session takes place live).
+          </div>
     </div>
 </div>
 {% endif %}
@@ -115,6 +134,17 @@
     </div>
 </div>
 {% endfor %}
+{% endif %}
+
+{% if session.ff_playlist %}
+<hr>
+<div class="row my-4">
+    <div class="col-lg-10">
+        <h2 class="my-3"><a name="ff">Fast forwards in this session</a></h2>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}">{{ session.ff_playlist }}</a></p>
+    </div>
+</div>
 {% endif %}
 
 <div class="row my-5">

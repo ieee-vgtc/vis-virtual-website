@@ -1760,7 +1760,7 @@
         "paper_award": "",
         "image_caption": "Retrospective visual analysis is prone to a variety of selection bias effects, especially for high-dimensional data where only a subset of dimensions is visualized at any given time. Dynamic reweighting (DR) is a novel computational approach to selection bias mitigation that helps users craft bias-corrected visualizations. This paper describes the DR workflow, introduces key DR visualization designs, and presents statistical methods that support the DR process. Use cases from the medical domain, as well as findings from domain expert user interviews, are also reported.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/pqoQZZ07HOo"
     },
     "f-tvcg-2019090333": {
         "authors": [
@@ -1786,7 +1786,7 @@
         "paper_award": "",
         "image_caption": "ConfusionFlow is an interactive visualization for the performance analysis of classification models. It introduces a novel, temporal adaptation of the confusion matrix, which lets model developers compare the learning behavior of multiple classifiers over time.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.3012063",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/D7twPlxGqrE"
     },
     "f-vast-1060": {
         "authors": [
@@ -1813,7 +1813,7 @@
         "paper_award": "",
         "image_caption": "It is challenging to follow the evolution of complex correlations in time-series data. To solve this problem, we first detect the accuracy drops of the prediction model as significant changes. The patterns in the time segments between two changes can be considered consistent. Related data records can, therefore, be integrated for analysis.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/KqB3Gy1eHvQ"
     },
     "f-vast-1087": {
         "authors": [
@@ -1841,7 +1841,7 @@
         "paper_award": "",
         "image_caption": "DriftVis: A visual analytics system for detecting, explaining, and correcting for concept drift: (a) The stream-level visualization consists of a line chart for drift degree (A), a feature selection list (B), and a streaming scatterplot (C) to visualize the drift and data distribution change over time (e.g., density increases in G, H, and I); (b) The prediction-level visualization consists of a base learner view (D), a samples of interest view (E), and a performance view (F) to explore the impact of drift adaptation on the model\u2019s accuracy.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/449t1pfeKq0"
     },
     "s-short-1042": {
         "authors": [
@@ -1864,7 +1864,7 @@
         "paper_award": "",
         "image_caption": "Magnetic reconnection is a ubiquitous plasma process in which oppositely directed magnetic field lines break and rejoin, resulting in a change of the magnetic field topology. Reconnection generates magnetic islands: regions enclosed by magnetic field lines and separated by reconnection points. Proper identification of these features is important to understand particle acceleration and overall behavior of plasma. We present a contour-tree based visualization for robust and objective identification of islands and reconnection points in two-dimensional (2D) magnetic reconnection simulations. ",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/LymDhtmP4WU"
     },
     "s-short-1051": {
         "authors": [
@@ -1889,7 +1889,7 @@
         "paper_award": "",
         "image_caption": "We present a flexible and easy-to-use software infrastructure for interactive rendering of large tiled display walls either from on-site or from a remote cluster. The display service can easily be configured to support a range of typical network and display hardware configurations; the client library provides a straightforward interface for easy integration into CPU and GPU renderers. We also demonstrate this framework for use in deploying low-cost alternatives for display walls.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/2quFrVwscS4"
     },
     "s-short-1052": {
         "authors": [
@@ -1911,7 +1911,7 @@
         "paper_award": "",
         "image_caption": "Uncertain Transport in Unsteady Flows",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/ohcIMFRds-Q"
     },
     "s-short-1105": {
         "authors": [
@@ -1930,7 +1930,7 @@
         "paper_award": "",
         "image_caption": "Neuronal fibers of the middle cerebellar peduncle rendered by raytracing streamtubes stored in a sparse voxel octree.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/LSF-4opcsK8"
     },
     "s-short-1125": {
         "authors": [
@@ -1951,7 +1951,7 @@
         "paper_award": "",
         "image_caption": "Various datasets and test configurations rendered as Hermite Spline Tubes using our algorithm. The size of the datasets in the top row range from 3530 Hermite segments (left) to 787327 (right) - all datasets render at interactive framerates on a modern, consumer-grade GPU. The bottom row shows handcrafted test configurations that showcase different capabilities of our tube model, namely varying radius, sharp corners between smooth curves, and bifurcations.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/EHOV-n56t24"
     },
     "s-short-1142": {
         "authors": [
@@ -1972,7 +1972,7 @@
         "paper_award": "",
         "image_caption": "Implicit visualization of parallel vectors solutions on the GPU.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/cg3VtkCG2Rg"
     },
     "s-short-1172": {
         "authors": [
@@ -1998,7 +1998,7 @@
         "paper_award": "",
         "image_caption": "A Morse-Smale complex is a topological descriptor that captures the gradient flow of a scalar function. The best known approaches for its computation incur large runtimes for bigger datasets. We address this gap by introducing the first, completely GPU parallel pipeline, which achieves speedups of up to 7x with our individual algorithms attaining speedups of up to 129x and 4.5x.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/kra6YaObkZM"
     },
     "s-short-1176": {
         "authors": [
@@ -2023,7 +2023,7 @@
         "paper_award": "",
         "image_caption": "A relationship-aware multivariate sampling strategy for scientific simulation data using principal component analysis.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/i6ozt0uTw9E"
     },
     "s-short-1166": {
         "authors": [
@@ -2048,7 +2048,7 @@
         "paper_award": "honorable",
         "image_caption": "PRAGMA is an interactive tool for constructing scan-specific brain parcellations from mainstream atlases. Its interface incorporates five complementary visuals: (A) abstract view of the hierarchical clustering of the brain through a node-link diagram, (B1) similarity of fMRI signal time-courses represented with a line plot with a shaded confidence interval, (B2) homogeneity glyphs within nodes, (C1) functional connectivity depicted as a chord diagram and (C2) anatomical location of parcels viewed on an orthographic template.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/vBRBa5t1LfM"
     },
     "f-vast-1307": {
         "authors": [
@@ -2073,7 +2073,7 @@
         "uid": "f-vast-1307",
         "time_stamp": "2020-10-27T15:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "A visual analytics system, VATLD, is presented to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The VATLD user interface: (a) Summary and navigation of key performance statistics; (b) Visual landscapes of traffic lights (upper) and performance scores (lower) over the first two PCA components of semantic dimensions; (c) A live view to detect a traffic light from either real data or adversarial; (d) Ranked latent dimensions with information of semantics, performance and gradients.",
         "external_paper_link": "",
         "ff_link": ""
@@ -2095,7 +2095,7 @@
         "uid": "f-info-1187",
         "time_stamp": "2020-10-27T15:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "Visualization designs evaluated in our experiment.",
         "external_paper_link": "",
         "ff_link": ""
@@ -2124,7 +2124,7 @@
         "uid": "f-scivis-1144",
         "time_stamp": "2020-10-27T15:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "We illustrate the automatic computation of observer motion relative to the time evolution of features in flow fields, such as the time-dependent global wind data set shown here, with hurricane Isabel (2003) as the feature in the center. Feature-relative visualization is enabled by an observer field that is automatically computed via global optimization, minimizing the observed time derivative to make the observed field as steady as possible. Relative to the observer field, the hurricane appears to be static, with the Earth moving inversely underneath. This enables the direct analysis of the time evolution of features in place.",
         "external_paper_link": "",
         "ff_link": ""
@@ -2142,7 +2142,7 @@
         "uid": "s-short-1109",
         "time_stamp": "2020-10-27T15:45:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "Examples generated with the Anatomical Edutainer. (a) Printable 2D physicalizations of the human torso and head. In each representation, individual anatomical structures are matched to individual hues, which can be isolated (b) with the use of colored filters. (c) Foldable 3D physicalizations of the human pelvis, torso and head. Similarly to the 2D case, distinct hues are assigned to individual anatomical structures, which can be isolated with the use of colored lights (or colored filters, as in (b)).",
         "external_paper_link": "",
         "ff_link": ""
@@ -2466,7 +2466,7 @@
         "paper_award": "",
         "image_caption": "SpotSDC helps researchers study silent data corruption, such as erroneous bit flips, and how these errors propagate through a program\u2019s computation. As illustrated in (a), we show a hierarchical overview of a bit flip\u2019s impact on different program regions of the conjugate gradient benchmark and highlight the most vulnerable region. Users can selectively choose a set of fault injection experiments, compare these experiments\u2019 fault injection input error vs output error in (b) and use (c) to monitor the propagation of errors during execution of a program.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.2994954",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/5G7ep89Vq0w"
     },
     "f-tvcg-2019010020": {
         "authors": [
@@ -2488,7 +2488,7 @@
         "paper_award": "",
         "image_caption": "System for the development and exploration of visualization algorithms.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2963651",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/idYBcVjuIdc"
     },
     "f-tvcg-2019010024": {
         "authors": [
@@ -2517,7 +2517,7 @@
         "paper_award": "",
         "image_caption": "CallFlow is an interactive visual analysis tool that provides a high-level overview of CCTs together with semantic refinement operations to progressively explore the CCTs.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2953746",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/tTU7a774xa4"
     },
     "f-vast-1117": {
         "authors": [
@@ -2548,7 +2548,7 @@
         "paper_award": "",
         "image_caption": "We present Githru, an interactive visual analytics system that enables developers to effectively understand the context of development history through the interactive exploration of Git metadata. We design an interactive visual encoding idiom to represent a large Git graph in a scalable manner while preserving the topological structures in the Git graph. Githru provides an interactive summary view to help users gain an overview of the development history and a comparison view in which users can compare different clusters of commits.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/ugugT4gEtYM"
     },
     "f-vast-1214": {
         "authors": [
@@ -2572,7 +2572,7 @@
         "paper_award": "",
         "image_caption": "Unexpected behavior in multi-robot systems is often caused by asymmetries in the robots\u2019 worldviews\u2013 i.e., each robot\u2019s internal representation of its own state and of the other robots\u2019 presumed states. MOSAIC Viewer is a visual analytics tool that helps operators (i) make sense of the robots' schedules and (ii) detect and conduct a root cause analysis of the robots\u2019 desynchronized worldviews, designed to be used with the MOSAIC multi-agent distributed scheduling framework. We find that visualization and interaction make detection and analysis of desynchronizations considerably faster and easier compared with current approaches.\n",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/3RMPpkL0JoE"
     },
     "f-vast-1203": {
         "authors": [
@@ -2599,7 +2599,7 @@
         "paper_award": "",
         "image_caption": "Program developers spend significant time on optimizing and tuning applications. In this iterative process, they modify the program and analyze the resulting binary code. But working with binary code to understand what compiler optimizations were applied and how it can be improved can be challenging. We present our visual analytics system - Compilation Navigator (CcNav) - designed to identify and assess compiler optimizations in binary code. Come see our talk to find out more.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/Y3yjiyfNf48"
     },
     "s-short-1015": {
         "authors": [
@@ -2934,7 +2934,7 @@
         "paper_award": "",
         "image_caption": "Visualization researchers, criminal investigators",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/xMcE5toAoxY"
     },
     "f-scivis-1080": {
         "authors": [
@@ -2964,7 +2964,7 @@
         "paper_award": "",
         "image_caption": "The visual interface of ChemVA, a tool for interactive visual exploration of large ensembles of chemical compounds and their properties. ChemVA consists of several linked views, showing the dimensionality reduction outcomes in the hexagonal views and the comparison of projections in our newly proposed Difference view. These are accompanied with the Table view with additional molecular properties and the 3D view illustrating the spatial organization and alignment of selected compounds.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/vKMRGer-pAY"
     },
     "f-scivis-1119": {
         "authors": [
@@ -3013,7 +3013,7 @@
         "paper_award": "",
         "image_caption": "Classification scheme of visualizations and analytical hypotheses inferred from a unified training life cycle. For each category, we describe the motivation, relevant data, constraints, and design decisions. Existing visualizations are introduced if they exist. This conceptual model can serve as a framework providing basic guidelines for the development of analytical visualizations for various fields of cybersecurity training.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.2977336",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/rKh5uyT_3oc"
     },
     "f-vast-1254": {
         "authors": [
@@ -3091,7 +3091,7 @@
         "paper_award": "",
         "image_caption": "We present our multi-window web platform MultiSegVA to easily segment biologging time series on multiple scales. We contribute tailored visual-interactive features for multi-scale time series segmentation, a new visual query language, and a  domain-oriented set of techniques that are consumed by the VQL.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/Zqqlgv7ZaV0"
     },
     "f-tvcg-2018110393": {
         "authors": [
@@ -3117,7 +3117,7 @@
         "paper_award": "",
         "image_caption": "MineTime Insight: A calendar app extension to promote informed meeting scheduling decisions.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2941208",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/BBpJhXULndY"
     },
     "f-info-1348": {
         "authors": [
@@ -3167,7 +3167,7 @@
         "paper_award": "",
         "image_caption": "A visualization to display the evolution of tree data structures over time. We highlight both the hierarchy at each point in time, as well as the changes from one timestep to the next.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.2973564",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/ma8PEPW12o8"
     },
     "f-tvcg-2019100368": {
         "authors": [
@@ -3323,7 +3323,7 @@
         "paper_award": "",
         "image_caption": "Drawing a Twitter feed graph (68K vertices, 101K edges) with a force-directed algorithm using RT cores. The images show the results after N = 1 (left), N = 100 (second from left), N = 2,000 (second from right), and N = 12,000 (right) iterations. We can generate these layouts in 0.003, 0.43, 7.35, and 39.3 seconds, and outperform a typical CUDA software implementation by 10.2\u00d7, 7.44\u00d7, 9.6\u00d7, and 10.9\u00d7, respectively.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/HiPVx2NgmR4"
     },
     "s-short-1028": {
         "authors": [
@@ -3345,7 +3345,7 @@
         "paper_award": "",
         "image_caption": "Label placement generated by Bitmap-Based labeling algorithm with occupancy bitmap. (Left) A map of United States\u2019 airports with a direct flight to Seattle-Tacoma Airport. (Top-Right) A connected Scatter plot showing the shifting relationship between the price of gas and the average number of miles driven in a year (modified from https://vega.github.io/vega/examples/connected-scatter-plot/). (Bottom-Right) A zoom-in image of the Top-Right visualization with occupied pixels marked in the Occupancy Bitmap.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/ecfcnqToq9E"
     },
     "s-short-1108": {
         "authors": [
@@ -3367,7 +3367,7 @@
         "paper_award": "",
         "image_caption": "FAVR Processing Pipeline",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/Eu1P-vyWz_4"
     },
     "s-short-1132": {
         "authors": [
@@ -3389,7 +3389,7 @@
         "paper_award": "",
         "image_caption": "DruidJS \u2014 A JavaScript Library for Dimensionality Reduction.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/_4PGGgtUPM4"
     },
     "s-short-1156": {
         "authors": [
@@ -3410,7 +3410,7 @@
         "paper_award": "",
         "image_caption": "Four example applications using Trrack, our provenance-tracking library and TrrackVis, the associated provenance visualization library for different purposes, ranging from action recovery to logging for user studies. TrrackVis, shown on the right, utilizes custom icons, annotations, and grouping of nodes.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/PpGhL85SEDM"
     },
     "s-short-1212": {
         "authors": [
@@ -3432,7 +3432,7 @@
         "paper_award": "",
         "image_caption": "Our type flow visualization shows the type signatures of functions in R. Function names are listed at the top followed by the first two argument types.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/9RVGvFIeRgY"
     },
     "s-short-1224": {
         "authors": [
@@ -3459,7 +3459,7 @@
         "paper_award": "",
         "image_caption": "Loch Prospector: Metadata Visualization for Lakes of Open Data",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/BL0J-ZVQskY"
     },
     "s-short-1133": {
         "authors": [
@@ -3482,7 +3482,7 @@
         "paper_award": "honorable",
         "image_caption": "There are so many libraries of visualization components nowadays with their APIs often different from one another. Could these components be more similar, both in terms of the APIs and common functionalities? For someone who is developing a new visualization component, how should the API look like? This work drew inspiration from visualization grammar, decoupled the grammar from its rendering engine and adapted it into a configurable grammar for individual components called Encodable. Encodable helps component authors define grammar for their components, and parse encoding specifications from users into utility functions for the implementation.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/Q7wQSR_pYcA"
     },
     "f-cga-1": {
         "authors": [
@@ -3991,7 +3991,7 @@
         "paper_award": "",
         "image_caption": "The image in the leftmost column depicts an input ensemble of 2D Morse complexes. The uncertainty in gradient flows, and hence the Morse complexes, across the input ensemble is then quantified and visualized using our proposed statistical summary maps, i.e., the probabilistic map, significance map, and survival map. ",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.3022359",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/V5XkB72A4C0"
     },
     "f-scivis-1096": {
         "authors": [
@@ -4089,7 +4089,7 @@
         "paper_award": "",
         "image_caption": "ProReveal allows people to leave a safeguard, which we call PVA-Guard, on the intermediate knowledge found during progressive data exploration, giving the ability to manage the uncertainty of the knowledge.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2962404",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/ytuyYujDSOg"
     },
     "s-short-1016": {
         "authors": [
@@ -4855,7 +4855,7 @@
         "paper_award": "",
         "image_caption": "We conducted a review of tools that aim to automatically provide data insights to users.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/-I3omJJM9hQ"
     },
     "s-short-1024": {
         "authors": [
@@ -4877,7 +4877,7 @@
         "paper_award": "",
         "image_caption": "We present an investigation into design judgment in datavis practice. Our findings show how different types of judgments influence design decision making. Our findings also show that judgments occur in complex and layered ways while designers move through their process. We discuss implications for future research and pedagogy.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/buhJd5BAsfg"
     },
     "s-short-1116": {
         "authors": [
@@ -4898,7 +4898,7 @@
         "paper_award": "",
         "image_caption": "What is insight? We interviewed 23 professional visualizations to learn about their perceptions of data insights.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/c2-clCLop8A"
     },
     "s-short-1131": {
         "authors": [
@@ -4922,7 +4922,7 @@
         "paper_award": "",
         "image_caption": "Our proposed didactic methodology for designing interactive visualizations includes several teaching activities that educate students during the conceptual phase of the design process. We follow divergent and convergent strategies with support from worksheets and stickers that motivates designing several low-fidelity prototypes, discussing pros and cons of each in groups, and improving the final solution by incorporating visual and perceptual principles. Our approach can assist students and anyone interested in crafting, ranking, and improving new visualization solutions.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/WPFM8MuWCpw"
     },
     "s-short-1138": {
         "authors": [
@@ -4945,7 +4945,7 @@
         "paper_award": "",
         "image_caption": "The auditing interface of the CrowdTrace system, annotated to show correspondences to the Sensemaking Loop theory by Pirolli and Card (2005).\n (A) Global context is always on the top of the interface. The (B) layout of the crowd analysis represents the analysis provenance\n structured by the sensemaking loop. The Trace buttons allows users to (C) trace the information flow. Users can also (D) search\n for keywords in the crowd analysis; all the occurrences will be highlighted and the corresponding documents will be expanded.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/zzk7g1--OXs"
     },
     "s-short-1189": {
         "authors": [
@@ -4965,7 +4965,7 @@
         "paper_award": "",
         "image_caption": "Lottery Sheet to Evaluate Decision-Making",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/Xm1Imb6id_M"
     },
     "s-short-1204": {
         "authors": [
@@ -4988,7 +4988,7 @@
         "paper_award": "",
         "image_caption": "The three different information visualization contexts that we address in our study: (A) the hierarchy context which is studied with the treemap, circular packing, sunburst, and Sankey diagram idioms; (B) the evolution over time context, where we apply line charts with and without points, and an area chart; and (C) the comparison context, which includes the radar chart, word cloud, horizontal and vertical bar charts, and pie chart idioms.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/0WA4AFBrYL0"
     },
     "s-short-1229": {
         "authors": [
@@ -5009,7 +5009,7 @@
         "paper_award": "",
         "image_caption": "A scatterplot version of Minard's map of the invasion of Russia",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/W0k6mbONrSc"
     },
     "s-short-1231": {
         "authors": [
@@ -5029,7 +5029,7 @@
         "paper_award": "",
         "image_caption": "We conducted semi-structured interviews with 20 datavis practitioners to investigate how they understand chartjunk and the factors that influence how they use it in their design work. Our findings suggest a number of themes about each topic. We highlight the personal and situated nature of how practitioners understand and make use of concepts, and argue for more practice-led research within vis.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/3LTjlsVAgpw"
     },
     "a-arts-1037": {
         "authors": [
@@ -5114,7 +5114,7 @@
         "paper_award": "",
         "image_caption": "We propose BNVA, a visual analytics system designed for the performance analysis and incremental planning of bus routes based on a pareto-optimal route generation model. Our approach comprises three stages, namely, the in-depth analysis of complex bus route networks, the interactive generation of improved route candidates, and the effective evaluation of alternative bus routes. BNVA also features a route matrix view for passenger flow analysis and a conflict resolution strategy for progressive route decision-making. The system is evaluated with two usage scenarios based on a real-world dataset and receives positive feedback from experts.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/DEAfK8F2dQE"
     },
     "f-vast-1274": {
         "authors": [
@@ -5166,7 +5166,7 @@
         "paper_award": "",
         "image_caption": "UrbanMotion user interface: (a) movement visualization showing five major regions in Beijing during commute time; (b) time/date selection panel, the morning (7AM-10AM) of July 12th is selected; (c) algorithm configuration menu for flow generation; (d) visualization control panel.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.2992200",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/LuuRogVU04M"
     },
     "f-vast-1045": {
         "authors": [
@@ -5219,7 +5219,7 @@
         "paper_award": "",
         "image_caption": "Our visual cause analytics system for traffic congestion. (a) Dashboard shows the input data control. (b) Parallel coordinates plot provides\na visual summary of the spatiotemporal traffic congestion entropy. (c) Scatter plot shows the entropy and the average vehicle speed plots for the\ngrid filtering. (d) The grid map shows candidate areas where congestion is expected to occur. (e) The glyphs represent the inflows and outflows of\nvehicles at the intersection. (f) The N-curve is provided for the congestion type in the brushed area within (e). (g) The calendar chart shows the\nhistory of the same congestion pattern as the N-curve in (f).",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2940580",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/Qh93wKtzGs0"
     },
     "f-tvcg-2018110405": {
         "authors": [
@@ -5247,7 +5247,7 @@
         "paper_award": "",
         "image_caption": "CrimAnalyzer system: the spatial and temporal interactive views enable the exploration of local regions while revealing their criminal patterns over time.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2947515",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/GLcyAZDNeRg"
     },
     "f-info-1210": {
         "authors": [
@@ -5722,7 +5722,7 @@
         "paper_award": "",
         "image_caption": "Our paper describes the motivation, ideation, and prototyping of a novel visualization tool to support voice training for transgender people. We centered our design around user needs and lived experiences, in order to support self-determination of gender expression.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/EXSf2iXHPDo"
     },
     "s-short-1041": {
         "authors": [
@@ -5747,7 +5747,7 @@
         "paper_award": "",
         "image_caption": "GlassViz interface showing entry points to a corpus of visualization research papers along with related documents and keywords: (a) Quality neighborhoods representing entry points as connected keyword groups. (b) List of documents (showing only the first nine) sorted by number of keyword tokens matching those in selection s.1. (c) Keyword tokens for each document in view b. (d.1) Ranked list of tokens appearing in view c informing of the composition of topics in the entry point selected in s.1. (d.2) State of view d.1 when the selection in view \u201da\u201d is changed to s.2",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/v7WP4FjpCZ4"
     },
     "s-short-1070": {
         "authors": [
@@ -5769,7 +5769,7 @@
         "paper_award": "",
         "image_caption": "Our proposed fact-evidence reasoning framework (FaEvR) augments the conventional visualization pipeline by explicitly\n characterizing the scientific visual communication in terms of decoding facts and associated evidence",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/agtOS1kIz6w"
     },
     "s-short-1165": {
         "authors": [
@@ -5794,7 +5794,7 @@
         "paper_award": "",
         "image_caption": "MeetCues is a companion platform for commercial communication tools that allows attendees to engage more during a meeting, and reflect in real-time or post-meeting.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/AcAz_Jbo-Wk"
     },
     "s-short-1169": {
         "authors": [
@@ -5819,7 +5819,7 @@
         "paper_award": "",
         "image_caption": "Transcript of the tenth debate of the 2020 U.S. Democratic primary election cycle, viewed with DebateVis. The interactions graph (1) summarizes speaker behavior throughout the debate, including topics discussed and interactions with other speakers. The user can consult the annotated transcript (2) to read the full context of any statement in the debate. Rapid navigation through the transcript is possible by clicking on marks for the audience interactions, speaker interactions, and topic mentions automatically identified and visualized in the timeline (3). All three visualizations are connected through brushing and linking.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/C3DhxSID4J0"
     },
     "s-short-1181": {
         "authors": [
@@ -5839,7 +5839,7 @@
         "paper_award": "",
         "image_caption": "ClaimViz interface supports faceted exploration of a debate transcript based on discussion topics (A), speakers (B) and claims\u2019 check-worthiness (E). The Minimap at the middle (D) visualizes how the potentially check-worthy sentences are distributed across different topics and claim types (e.g. numerical) and allows the user to quickly locate a check-worthy claim made by a speaker in the transcript view (F). The user can bookmark any potential claims for performing the verification task (C).",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/iZdakZN9U2M"
     },
     "f-cga-7": {
         "authors": [
@@ -6099,7 +6099,7 @@
         "paper_award": "",
         "image_caption": "A suggestive interface for untangling mathematical knots",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/D0ltvMJteoE"
     },
     "f-tvcg-2020040124": {
         "authors": [
@@ -6125,7 +6125,7 @@
         "paper_award": "",
         "image_caption": "Geometry-Driven Visual Analysis of Viscous and Gravitational Fingering",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.3017568",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/kNyRz3wBNqA"
     },
     "f-scivis-1141": {
         "authors": [
@@ -6153,7 +6153,7 @@
         "paper_award": "",
         "image_caption": "We propose an efficient and flexible data layout for scalar field data",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/4V6r8RUlrX4"
     },
     "f-info-1044": {
         "authors": [
@@ -7241,7 +7241,7 @@
         "paper_award": "",
         "image_caption": "Our visual interface for diagnosing and steering the procedure of zero-shot learning. A scatterplot overview (A) enables the user to select categories for more detailed inspection. The main view (B-C) encodes category predictions with respect to attributes -- human-interpretable properties that describe categories. For a given category and attribute, the user can inspect details (D) on category mispredictions made by the model. Based on these views, the user can modify attribute importance (E) to steer the model and mitigate errors when applied to data associated with categories not seen during training.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/JvmXrmx7ltk"
     },
     "s-short-1147": {
         "authors": [
@@ -7262,7 +7262,7 @@
         "paper_award": "",
         "image_caption": "DRIL presents a technique using interactive machine learning to support a user in rapidly learning rules that describe data.  By rapidly characterizing selected data in terms of what distinguishes them from the rest, DRIL facilitates rapid sensemaking that extends beyond the 'key features' of linear modeling, to provide an efficient overview of not only what features are important but what value ranges matter.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/88f-JssKCSw"
     },
     "s-short-1152": {
         "authors": [
@@ -7283,7 +7283,7 @@
         "paper_award": "",
         "image_caption": "The pipeline of our deep learning technique for vortex boundary extraction.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/8nYe4-QiL_8"
     },
     "s-short-1167": {
         "authors": [
@@ -7300,7 +7300,7 @@
         "paper_award": "",
         "image_caption": "Evaluation studies of GAN Lab",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/SC04qeh1nWc"
     },
     "s-short-1200": {
         "authors": [
@@ -7325,7 +7325,7 @@
         "paper_award": "",
         "image_caption": "We present Bluff, an interactive system for visualizing, characterizing, and deciphering adversarial attacks on vision-based neural networks. Bluff allows people to flexibly visualize and compare the activation pathways for benign and attacked images, revealing mechanisms that adversarial attacks employ to inflict harm on a model.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/z3L-9rRoqSA"
     },
     "s-short-1205": {
         "authors": [
@@ -7343,7 +7343,7 @@
         "paper_award": "",
         "image_caption": "Our interface allows the exploration of contextualized embeddings produced by language models. Our design shows (A) co-occurrences of phrases via their assigned clusters, (B) per-cluster span lengths and (C) how much context a given cluster captures. One may also inspect example sentences in detail (D), here highlighting terms that describe building structures.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/H9E7IeivX-Y"
     },
     "s-short-1207": {
         "authors": [
@@ -7370,7 +7370,7 @@
         "paper_award": "",
         "image_caption": "Interpretable clustering of lymph node cancer data",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/UM8-_MN3a2Y"
     },
     "s-short-1226": {
         "authors": [
@@ -7393,7 +7393,7 @@
         "paper_award": "",
         "image_caption": "Protoviewer: Visual interpretation and diagnostics of deep neural networks via factorized prototypes.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/X1KsSXGrvsM"
     },
     "s-short-1227": {
         "authors": [
@@ -7413,7 +7413,7 @@
         "paper_award": "",
         "image_caption": "InstanceFlow visualizes the evolution of a classifier\u2019s predictions throughout the training process on an instance level. The FlowView (A) shows all instances and their corresponding class association as rectangular glyphs. A Sankey diagram shows the fractions of instances moving between classes. Additionally, the traces of single instances can be highlighted. The Tabular View (B) of the instance predictions over time along with custom performance scores (C) allows finding, ranking, and grouping instances.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/3Kd6poY-Bpo"
     },
     "f-vast-1039": {
         "authors": [
@@ -7720,7 +7720,7 @@
         "paper_award": "",
         "image_caption": "Many arguments describe the potential benefits of visualization. We explicate the network of dependencies between these arguments. At first sight the argument network may look overwhelming, but our additional categorizations facilitate navigation. The network can provide a foundation for future theoretic and empiric research, as well as be a useful tool in the design of new visualizations.\nCheckout https://whyvis.dbvis.de !",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2019.2940026",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/nSnhcKYaYLI"
     },
     "f-info-1098": {
         "authors": [
@@ -7898,7 +7898,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.2975795",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/8NHIqpMJwCw"
     },
     "f-tvcg-2019090310": {
         "authors": [
@@ -7920,7 +7920,7 @@
         "paper_award": "",
         "image_caption": "The first four eigenvectors of the Laplacian of the mixture probability matrix H represented as 2D arrays are shown in the top row. The eigenvectors are ordered from left to right by the corresponding eigenvalue. In the bottom row, a visualization of different flows using direct volume rendering of the flow graph embeddings is shown.",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2020.3006995",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/ykMrP-EDtGo"
     },
     "f-scivis-1059": {
         "authors": [
@@ -7949,7 +7949,7 @@
         "paper_award": "",
         "image_caption": "The Exajet contains an AMR simulation of air flow around the left side of a plane, and consists of 656M cells (across four refinement levels) plus 63.2M triangles. For rendering we mirror the data set via instancing, resulting in effectively 1.31B instanced cells and 126M instanced triangles. This visualization\u2014rendered with our method\u2014shows flow vorticity and velocity, with an implicitly ray-traced iso-surface of the vorticity (color-mapped by velocity), plus volume ray tracing of the vorticity field. At a resolution of 2500\u00d7625, and running on a workstation with two RTX 8000 GPUs, this configuration renders in roughly 252 milliseconds.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/WdieKs0m-gY"
     },
     "f-scivis-1132": {
         "authors": [
@@ -7972,7 +7972,7 @@
         "paper_award": "",
         "image_caption": "We introduce a direct volume rendering approach that can render encrypted images directly from encrypted datasets. The rendering is performed by operations in the encrypted number space which are dual to operations in the plaintext space. Therefore, the rendering system does not need to decrypt the data. This homomorphic volume rendering approach makes it possible to use untrusted servers for rendering without compromising privacy.",
         "external_paper_link": "",
-        "ff_link": ""
+        "ff_link": "https://youtu.be/v0eO7uXGzG4"
     },
     "f-scivis-1038": {
         "authors": [

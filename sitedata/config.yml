@@ -13,7 +13,7 @@ logo:
 page_title:
   prefix: 'VIS 2020 Virtual'
   separator: ': '
-background_image: static/images/salt-lake.jpg
+background_image: https://ieeevis.b-cdn.net/vis_2020/salt-lake.jpg
 organization: VIS 2020 Organization Committee
 
 # Remove or change to your chat server.

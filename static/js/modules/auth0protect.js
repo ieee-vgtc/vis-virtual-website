@@ -27,11 +27,13 @@ window.onload = async () => {
       $(".logoutBtn").show();
       $(".secret").show();
       $(".user_name").text(user.name);
+      $(".login-message").text("You are logged in as");
     } else {
       $(".loginBtn").show();
       $(".logoutBtn").hide();
       $(".secret").hide();
       $(".user_name").text("");
+      $(".login-message").text("You are currently not authenticated.");
     }
   };
 

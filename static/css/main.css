@@ -509,7 +509,7 @@ hr::after {
   letter-spacing: .01em;
   color: var(--text-gray-color);
   margin-bottom: 0.25rem;
- 
+
 }
 
 /* combined styling (schedule listing, event, session, paper) */
@@ -614,6 +614,10 @@ hr::after {
 {
   font-size: 0.75em;
   vertical-align: baseline;
+}
+
+.session-links {
+  padding-top: 3rem;
 }
 
 .integration-description {
