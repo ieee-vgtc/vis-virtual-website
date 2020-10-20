@@ -2073,7 +2073,7 @@
         "uid": "f-vast-1307",
         "time_stamp": "2020-10-27T15:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "A visual analytics system, VATLD, is presented to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The VATLD user interface: (a) Summary and navigation of key performance statistics; (b) Visual landscapes of traffic lights (upper) and performance scores (lower) over the first two PCA components of semantic dimensions; (c) A live view to detect a traffic light from either real data or adversarial; (d) Ranked latent dimensions with information of semantics, performance and gradients.",
         "external_paper_link": "",
         "ff_link": ""
@@ -2095,7 +2095,7 @@
         "uid": "f-info-1187",
         "time_stamp": "2020-10-27T15:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "Visualization designs evaluated in our experiment.",
         "external_paper_link": "",
         "ff_link": ""
@@ -2124,7 +2124,7 @@
         "uid": "f-scivis-1144",
         "time_stamp": "2020-10-27T15:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "We illustrate the automatic computation of observer motion relative to the time evolution of features in flow fields, such as the time-dependent global wind data set shown here, with hurricane Isabel (2003) as the feature in the center. Feature-relative visualization is enabled by an observer field that is automatically computed via global optimization, minimizing the observed time derivative to make the observed field as steady as possible. Relative to the observer field, the hurricane appears to be static, with the Earth moving inversely underneath. This enables the direct analysis of the time evolution of features in place.",
         "external_paper_link": "",
         "ff_link": ""
@@ -2142,7 +2142,7 @@
         "uid": "s-short-1109",
         "time_stamp": "2020-10-27T15:45:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "Examples generated with the Anatomical Edutainer. (a) Printable 2D physicalizations of the human torso and head. In each representation, individual anatomical structures are matched to individual hues, which can be isolated (b) with the use of colored filters. (c) Foldable 3D physicalizations of the human pelvis, torso and head. Similarly to the 2D case, distinct hues are assigned to individual anatomical structures, which can be isolated with the use of colored lights (or colored filters, as in (b)).",
         "external_paper_link": "",
         "ff_link": ""
