@@ -512,8 +512,8 @@
                 "title": "Session 1",
                 "session_id": "a-vis4dh-1",
                 "chair": [
-                    "Catherine DeRose",
                     "Florian Windhager",
+                    "Catherine DeRose",
                     "Eric Alexander"
                 ],
                 "organizers": [
@@ -739,8 +739,8 @@
                 "title": "Session 3",
                 "session_id": "a-vis4dh-3",
                 "chair": [
-                    "Catherine DeRose",
-                    "Houda Lamqaddam"
+                    "Houda Lamqaddam",
+                    "Catherine DeRose"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -809,9 +809,9 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Menna El-Assady",
                     "Chris Weaver",
-                    "Eric Alexander"
+                    "Eric Alexander",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -1094,8 +1094,8 @@
                 "title": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
                 "session_id": "w-mlui",
                 "chair": [
-                    "Michelle Dowling",
-                    "John Wenskovitch"
+                    "John Wenskovitch",
+                    "Michelle Dowling"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-25T14:00:00Z",
@@ -1411,11 +1411,11 @@
                 "title": "ParaView Tutorial",
                 "session_id": "t-paraview",
                 "chair": [
+                    "Ethan V. Stam",
+                    "John M. Patchett",
                     "Michael Migliore",
                     "Dan Lipsa",
-                    "John M. Patchett",
-                    "Ken Moreland",
-                    "Ethan V. Stam"
+                    "Ken Moreland"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1534,8 +1534,8 @@
                 "title": "How to Make Your Empirical Research Transparent",
                 "session_id": "t-empiricaltransparent",
                 "chair": [
-                    "Steve Haroz",
-                    "Xiaoying Pu"
+                    "Xiaoying Pu",
+                    "Steve Haroz"
                 ],
                 "organizers": [
                     "Steve Haroz",
@@ -1628,8 +1628,8 @@
                 "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
                 "session_id": "w-trex",
                 "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
+                    "Emily Wall",
+                    "Mahsan Nourani"
                 ],
                 "organizers": [
                     "Eric Ragan",
@@ -1804,11 +1804,11 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Stephanie Zeller",
-                    "Karen Schloss",
-                    "Pascal Nardini",
                     "Danielle Szafir",
-                    "Francesca Samsel"
+                    "Stephanie Zeller",
+                    "Francesca Samsel",
+                    "Karen Schloss",
+                    "Pascal Nardini"
                 ],
                 "organizers": [
                     "Danielle Szafir",
@@ -1946,8 +1946,8 @@
                 "title": "VisComm: Workshop on Visualization for Communication",
                 "session_id": "w-comm",
                 "chair": [
-                    "Robert Kosara",
-                    "Ben Watson"
+                    "Ben Watson",
+                    "Robert Kosara"
                 ],
                 "organizers": [
                     "Alvitta Ottley",
@@ -2158,9 +2158,9 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
+                    "Jane Adams",
                     "Paul Rosen",
                     "Jordan Crouser",
-                    "Jane Adams",
                     "Lonni Besan\u00e7on"
                 ],
                 "organizers": [
@@ -2303,10 +2303,10 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
-                    "Hendrik Strobelt",
-                    "Liang Gou",
                     "Alvitta Ottley",
-                    "Adam Perer"
+                    "Adam Perer",
+                    "Hendrik Strobelt",
+                    "Liang Gou"
                 ],
                 "organizers": [
                     "Adam Perer",
@@ -2425,8 +2425,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Jordan Crouser",
-                    "Steve Gomez"
+                    "Steve Gomez",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2598,8 +2598,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Kristen Liggett",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Kristen Liggett"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -2860,10 +2860,10 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
-                    "Darren Edwards",
                     "Danielle Szafir",
-                    "Rita Borgo",
-                    "Lace Padilla"
+                    "Darren Edwards",
+                    "Lace Padilla",
+                    "Rita Borgo"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -3058,8 +3058,8 @@
                 "title": "Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science",
                 "session_id": "t-scivishoudini",
                 "chair": [
-                    "AJ Christensen",
-                    "Kalina Borkiewicz"
+                    "Kalina Borkiewicz",
+                    "AJ Christensen"
                 ],
                 "organizers": [
                     "AJ Christensen",
@@ -3224,9 +3224,9 @@
                 "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
-                    "Benjamin Bach",
+                    "Samuel Huron",
                     "Jonathan Roberts",
-                    "Samuel Huron"
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3721,8 +3721,8 @@
                 "title": "Invited Talk and Panel",
                 "session_id": "a-visinpractice-3",
                 "chair": [
-                    "Leo Zhicheng Liu",
-                    "Matthew Brehmer"
+                    "Matthew Brehmer",
+                    "Leo Zhicheng Liu"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -3837,10 +3837,9 @@
                 "session_id": "a-visxai",
                 "chair": [
                     "Menna El-Assady",
-                    "VISxAI Organizers",
-                    "Hendrik Strobelt",
                     "Polo Chau",
-                    "Adam Perer"
+                    "Adam Perer",
+                    "Hendrik Strobelt"
                 ],
                 "organizers": [
                     "VISxAI Organizers"
@@ -4217,9 +4216,9 @@
                 "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
                 "session_id": "w-astrophysics",
                 "chair": [
-                    "Bei Wang",
                     "Juna Kollmeier",
-                    "Lauren Anderson"
+                    "Lauren Anderson",
+                    "Bei Wang"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -4336,8 +4335,8 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
-                    "Alan MacEachren",
                     "Somayeh Dodge",
+                    "Alan MacEachren",
                     "Clio Andris"
                 ],
                 "organizers": [
@@ -8181,8 +8180,8 @@
                 "title": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
                 "session_id": "p-academia",
                 "chair": [
-                    "Renata Raidou",
-                    "Ingrid Hotz"
+                    "Ingrid Hotz",
+                    "Renata Raidou"
                 ],
                 "organizers": [
                     "Renata Raidou",
@@ -8233,10 +8232,10 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
-                    "Jim Ahrens",
                     "Silvio Rizzi",
                     "Pascal Grosset",
-                    "Jesus Pulido"
+                    "Jesus Pulido",
+                    "Jim Ahrens"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8424,9 +8423,9 @@
                 "session_id": "a-visap-opening",
                 "chair": [
                     "Erik Brunvand",
+                    "Carmen Hull",
                     "Yoon Chung Han",
-                    "Maria Lantin",
-                    "Carmen Hull"
+                    "Maria Lantin"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8793,8 +8792,8 @@
                 "title": "Opening",
                 "session_id": "vis-opening-1",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8839,11 +8838,11 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
-                    "Catherine Plaisant",
                     "Terry Woo",
                     "Mike Kirby",
+                    "Giuseppe Santucci",
                     "Valerio Pascucci",
-                    "Giuseppe Santucci"
+                    "Catherine Plaisant"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8974,8 +8973,8 @@
                 "title": "Opening: Best Papers",
                 "session_id": "vis-opening-3",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9052,8 +9051,8 @@
                 "title": "Keynote by Mario Capecchi",
                 "session_id": "vis-keynote",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9250,9 +9249,9 @@
                 "title": "Short Papers, Posters and Closing",
                 "session_id": "a-vizsec-3",
                 "chair": [
-                    "Chris Bryan",
+                    "J\u00f6rn Kohlhammer",
                     "Sean McKenna",
-                    "J\u00f6rn Kohlhammer"
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9336,8 +9335,8 @@
                 "title": "Tableau",
                 "session_id": "vis-supporters-1",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Brian Summa"
@@ -9370,8 +9369,8 @@
                 "title": "Intel",
                 "session_id": "vis-supporters-2",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Brian Summa"
@@ -9783,8 +9782,8 @@
                 "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                 "session_id": "p-vishealth",
                 "chair": [
-                    "Arvind Satyanarayan",
-                    "Carlos Scheidegger"
+                    "Carlos Scheidegger",
+                    "Arvind Satyanarayan"
                 ],
                 "organizers": [
                     "Arvind Satyanarayan",
@@ -9833,8 +9832,8 @@
                 "title": "Recent Challenges in Medical Visualization",
                 "session_id": "l-med",
                 "chair": [
-                    "Christina Gillmann",
                     "Noeska Smit",
+                    "Christina Gillmann",
                     "Thomas Wischgoll"
                 ],
                 "organizers": [
@@ -9961,13 +9960,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Min Chen",
-                    "Alexander Lex",
+                    "Alex Endert",
+                    "Petra Isenberg",
+                    "Shixia Liu",
                     "Christoph Garth",
                     "Anders Ynnerman",
-                    "Shixia Liu",
-                    "Alex Endert",
-                    "Petra Isenberg"
+                    "Min Chen",
+                    "Alexander Lex"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10083,9 +10082,9 @@
                 "title": "The Role of Visualization in Industrial Production",
                 "session_id": "l-industrial",
                 "chair": [
+                    "Petra Gospodnetic",
                     "Christina Gillmann",
-                    "Gerik Scheuermann",
-                    "Petra Gospodnetic"
+                    "Gerik Scheuermann"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10299,8 +10298,8 @@
                 "title": "Capstone by Sheelagh Carpendale",
                 "session_id": "vis-capstone",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -10343,8 +10342,8 @@
                 "title": "Closing",
                 "session_id": "vis-closing-1",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
