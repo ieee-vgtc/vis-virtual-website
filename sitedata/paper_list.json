@@ -320,7 +320,7 @@
         "authors": [
             "Michael Correll"
         ],
-        "title": "Panel: Thoughts on Design Studies",
+        "title": "Fireside Chat: Thoughts on Design Studies",
         "session_id": "a-beliv-3",
         "abstract": "We often point to the relative increase in the amount and sophistication of evaluations of visualization systems versus the earliest days of the field as evidence that we are maturing as a field. I am not so convinced. In particular, I feel that evaluations of visualizations, as they are ordinarily performed in the field or asked for by reviewers, fail to tell us very much that is useful or transferable about visualization systems, regardless of the statistical rigor or ecological validity of the evaluation. Through a series of thought experiments, I show how our current conceptions of visualization evaluations can be incomplete, capricious, or useless for the goal of furthering the field, more in line with the \"heroic age\" of medical science than the rigorous evidence-based field we might aspire to be. I conclude by suggesting that our models for designing evaluations, and our priorities as a field, should be revisited.",
         "keywords": [],
@@ -334,14 +334,18 @@
     },
     "a-beliv-1854": {
         "authors": [
-            "Aditeya Pandey"
+            "Florian Alt",
+            "Petra Isenberg",
+            "Tamara Munzner",
+            "Aditeya Pandey",
+            "Danielle Szafir"
         ],
         "title": "Panel: Vis Evaluation Moving into the Next Decade",
         "session_id": "a-beliv-3",
-        "abstract": "The effectiveness of a visualization technique is dependent on how well it supports the tasks or goals of an end-user. To measure the effectiveness of a visualization technique, researchers often use a comparative study design. In a comparative study, two or more visualization techniques are compared over a set of tasks and commonly measure human performance in terms of task accuracy and completion time. Despite the critical role of tasks in comparative studies, the current lack of guidance in existing literature on best practices for task selection and communication of research results in evaluation studies is problematic. In this work, we systematically identify and curate the task-based challenges of comparative studies by reviewing existing visualization literature on the topic. Furthermore, for each of the presented challenges we discuss the potential threats to validity for a comparative study. The challenges discussed in this paper are further backed by evidence identified in a detailed survey of comparative tree visualization studies. Finally, we recommend best practices from personal experience and the surveyed tree visualization studies to provide guidelines for other researchers to mitigate the challenges. The survey data and a free copy of the paper is available at https://osf.io/g3btk/",
+        "abstract": "The panelists will discuss how evaluation will evolve in the coming years, both in response to the on-going COVID-19 pandemic and beyond, as we come out the other side of the current crisis.",
         "keywords": [],
         "uid": "a-beliv-1854",
-        "time_stamp": "2020-10-25T18:30:00Z",
+        "time_stamp": "2020-10-25T18:40:00Z",
         "has_image": false,
         "paper_award": "",
         "image_caption": "",
