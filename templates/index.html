@@ -93,7 +93,7 @@
         }
 
         $(".loginBtn").click(async function () {
-          window.location.href = `redirect.html?return=${window.location.pathname.slice(1)}`;
+          window.location.href = `redirect.html?return=index.html`;
         });
         $(".logoutBtn").click(async function () {
           await auth0.logout({
