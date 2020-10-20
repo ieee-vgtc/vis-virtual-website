@@ -1,6 +1,7 @@
 ## Welcome to VIS 2020 Virtual!
-
+<div class="embed-responsive embed-responsive-16by9">
 <iframe class="my-3" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TRVB7399ynY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Authentication
 
@@ -8,9 +9,8 @@ You need to authenticate with our website to access the session listings, downlo
 
 You should receive an e-mail with an auto-generated password to the e-mail you used to register for the conference.  If you didn't receive the e-mail, please check your spam folder.  The e-mails are sent from the auth0.com domain.  If you are still having trouble, please ask in #support in Discord or e-mail web@ieeevis.org.
 
-**NOTE: Before Monday, October 19th, no e-mails for authentication have been sent yet.**
+**NOTE: Before Wednesday, October 21st, no e-mails for authentication have been sent yet.**
 
-**This page is available only to OC members for feedback; check your e-mail for credentials.**
 
 ### Help
 
