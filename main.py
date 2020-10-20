@@ -288,7 +288,8 @@ def format_paper(v):
         "has_image": v["has_image"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
-
+        "youtube_ff_url": v["ff_link"],
+        "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
 
         # for papers.html:
         "sessions": [paper_session["title"]],
@@ -401,6 +402,8 @@ def format_by_session_list(v):
         "discord_channel_id": v["discord_channel_id"],
         "youtube_url": v["youtube_url"],
         "youtube_id": v["youtube_url"].split("/")[-1] if v["youtube_url"] else None,
+        "ff_playlist": v["ff_playlist"],
+        "ff_playlist_id": v["ff_playlist"].split("=")[-1] if v["ff_playlist"] else None,
         "zoom_meeting": v["zoom_meeting"]
     }
 
