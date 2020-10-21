@@ -1,4 +1,4 @@
-## Welcome to VIS 2020 Virtual!
+## Welcome to IEEE VIS 2020 Virtual!
 <div class="embed-responsive embed-responsive-16by9 mb-4">
 <iframe class="" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TRVB7399ynY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
