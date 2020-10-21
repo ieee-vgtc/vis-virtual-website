@@ -46,15 +46,16 @@
                 <h5 class="paper-link pb-2">
                     <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">
                         <span class="fas mr-1">&#xf15c;</span>
-                        PDF link to paper
+                        Download paper PDF
                     </a>
                 </h5>
             {% endif %}
             <h5 class="paper-presentation pb-2">
-                <span class="fas">&#xf108;</span>
-                Presentation: <span
-                    class="format-date">{{ paper.time_stamp }}</span>
-                (<a href="/session_{{ paper.session_id }}.html">session</a>)
+                
+                <a href="/session_{{ paper.session_id }}.html">
+                    <span class="fas mr-1">&#xf108;</span> 
+                    View presentation:</a> 
+                <span class="format-date">{{ paper.time_stamp }}</span>
             </h5>
         </div>
     </div>
