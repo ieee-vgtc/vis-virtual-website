@@ -750,8 +750,8 @@
                 "title": "Session 3",
                 "session_id": "a-vis4dh-3",
                 "chair": [
-                    "Houda Lamqaddam",
-                    "Catherine DeRose"
+                    "Catherine DeRose",
+                    "Houda Lamqaddam"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -820,8 +820,8 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Chris Weaver",
                     "Menna El-Assady",
+                    "Chris Weaver",
                     "Eric Alexander"
                 ],
                 "organizers": [
@@ -1105,8 +1105,8 @@
                 "title": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
                 "session_id": "w-mlui",
                 "chair": [
-                    "Michelle Dowling",
-                    "John Wenskovitch"
+                    "John Wenskovitch",
+                    "Michelle Dowling"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-25T14:00:00Z",
@@ -1278,9 +1278,9 @@
                 "title": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
                 "session_id": "w-guides",
                 "chair": [
+                    "Benjamin Bach",
                     "Alexandra Diehl",
-                    "Alfie Abdul-Rahman",
-                    "Benjamin Bach"
+                    "Alfie Abdul-Rahman"
                 ],
                 "organizers": [
                     "Benjamin Bach",
@@ -1423,10 +1423,10 @@
                 "session_id": "t-paraview",
                 "chair": [
                     "Michael Migliore",
-                    "Ken Moreland",
-                    "Dan Lipsa",
                     "Ethan V. Stam",
-                    "John M. Patchett"
+                    "Dan Lipsa",
+                    "John M. Patchett",
+                    "Ken Moreland"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1639,8 +1639,8 @@
                 "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
                 "session_id": "w-trex",
                 "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
+                    "Emily Wall",
+                    "Mahsan Nourani"
                 ],
                 "organizers": [
                     "Eric Ragan",
@@ -1679,11 +1679,11 @@
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "The Psychology of Trust",
+                        "title": "Your Totalitarian Brain",
                         "contributors": [
-                            "Steve Franconeri"
+                            "Steven Franconeri"
                         ],
-                        "abstract": "Trust is a complex construct, and it can be tough to differentiate from other constructs like accuracy, clarity, or transparency. I'll provide a concise review of key cognitive underpinnings of the feeling of trust between a person and a group, or a person and automated system, all with an eye for translating this understanding toward trustworthy designs for the communication of analytic recommendations.",
+                        "abstract": "While a computer's state can be quickly rewritten, brains are relatively inflexible in the short term. As a totalitarian regime bends facts to fit ideology, the brain's inflexible structure can force evidence to bend to fit existing theories, across individuals and groups (Greenwald, 1980). I'll illustrate how this relatively fixed architecture contributes to perceptual and cognitive biases that affect how we process, remember, and reason with visualized data.",
                         "time_start": "2020-10-25T18:10:00Z",
                         "time_end": "2020-10-25T18:35:00Z"
                     },
@@ -1815,10 +1815,10 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Pascal Nardini",
+                    "Danielle Szafir",
                     "Francesca Samsel",
                     "Karen Schloss",
-                    "Danielle Szafir",
+                    "Pascal Nardini",
                     "Stephanie Zeller"
                 ],
                 "organizers": [
@@ -2169,10 +2169,10 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
-                    "Lonni Besan\u00e7on",
-                    "Jane Adams",
                     "Paul Rosen",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Lonni Besan\u00e7on",
+                    "Jane Adams"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2326,10 +2326,10 @@
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vds",
+                "discord_channel": "general",
+                "discord_channel_id": "768305294396096573",
+                "youtube_url": "https://youtu.be/q4TRSJk_ynQ",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -2436,17 +2436,17 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Steve Gomez",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Steve Gomez"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T15:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vast challenge",
+                "discord_channel": "session-1",
+                "discord_channel_id": "768305302822715393",
+                "youtube_url": "https://youtu.be/loPwVaxYSDk",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -2527,10 +2527,10 @@
                 "display_start": "2020-10-26T16:00:00Z",
                 "time_start": "2020-10-26T16:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vast challenge",
+                "discord_channel": "session-2",
+                "discord_channel_id": "768305354017734686",
+                "youtube_url": "https://youtu.be/WkYWspDNpf0",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -2609,17 +2609,17 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Kristen Liggett",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Kristen Liggett"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vast challenge",
+                "discord_channel": "session-3",
+                "discord_channel_id": "768305373622698094",
+                "youtube_url": "https://youtu.be/ORyJa4eM6tU",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -2673,10 +2673,10 @@
                 "display_start": "2020-10-26T20:00:00Z",
                 "time_start": "2020-10-26T20:00:00Z",
                 "time_end": "2020-10-26T20:50:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vast challenge",
+                "discord_channel": "session-4",
+                "discord_channel_id": "768305415099252790",
+                "youtube_url": "https://youtu.be/u5FZzkcEwaA",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -2726,10 +2726,10 @@
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "biovis challenges",
+                "discord_channel": "biovis-challenge",
+                "discord_channel_id": "768305310300504094",
+                "youtube_url": "https://youtu.be/5CDu1d5AfdE",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -2871,19 +2871,19 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
-                    "Danielle Szafir",
-                    "Rita Borgo",
                     "Lace Padilla",
+                    "Rita Borgo",
+                    "Danielle Szafir",
                     "Darren Edwards"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:35:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "ieee vis workshop on visualization psychology",
+                "discord_channel": "general",
+                "discord_channel_id": "768305318031261706",
+                "youtube_url": "https://youtu.be/GLiFg3M70Mk",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3079,10 +3079,10 @@
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "scientific visualization in houdini how to use visual effects software for a cinematic presentation",
+                "discord_channel": "general",
+                "discord_channel_id": "768305325467631637",
+                "youtube_url": "https://youtu.be/J0_D5ykF9V4",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3249,12 +3249,12 @@
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
-                "zoom_meeting": null,
-                "zoom_password": null,
+                "discord_category": "visactivities workshop on data vis activities to facilitate learning reflecting discussing and desi",
+                "discord_channel": "general",
+                "discord_channel_id": "768305333222375495",
+                "youtube_url": "https://youtu.be/sYLTUEjsGzU",
+                "zoom_meeting": "https://us02web.zoom.us/j/86917193702?pwd=VlZWV1hscXI2Vk1SellLZFNQNDM2dz09",
+                "zoom_password": "BAZhaP0m",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -3477,10 +3477,10 @@
                 "display_start": "2020-10-26T14:00:00Z",
                 "time_start": "2020-10-26T14:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "topological data analysis made easy with the topology toolkit what is new",
+                "discord_channel": "general",
+                "discord_channel_id": "768305340068397106",
+                "youtube_url": "https://youtu.be/l5CjWChCVbM",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3673,14 +3673,19 @@
                 "chair": [
                     "Sean McKenna"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Matthew Brehmer",
+                    "Matt Larsen",
+                    "Zicheng (Leo) Liu",
+                    "Sean McKenna"
+                ],
                 "display_start": "2020-10-26T16:00:00Z",
                 "time_start": "2020-10-26T16:00:00Z",
                 "time_end": "2020-10-26T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "visinpractice",
+                "discord_channel": "invited-talks-1",
+                "discord_channel_id": "768305346883485736",
+                "youtube_url": "https://youtu.be/UqXqO4zx34s",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3735,14 +3740,19 @@
                     "Matthew Brehmer",
                     "Leo Zhicheng Liu"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Matthew Brehmer",
+                    "Matt Larsen",
+                    "Zicheng (Leo) Liu",
+                    "Sean McKenna"
+                ],
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "visinpractice",
+                "discord_channel": "invited-talk-and-panel",
+                "discord_channel_id": "768305367430987796",
+                "youtube_url": "https://youtu.be/ir1TMscZXHY",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3776,17 +3786,22 @@
                 "title": "Invited Talks and Closing",
                 "session_id": "a-visinpractice-4",
                 "chair": [
-                    "Leo Zhicheng Liu",
-                    "Matt Larsen"
+                    "Matt Larsen",
+                    "Leo Zhicheng Liu"
                 ],
-                "organizers": [],
+                "organizers": [
+                    "Matthew Brehmer",
+                    "Matt Larsen",
+                    "Zicheng (Leo) Liu",
+                    "Sean McKenna"
+                ],
                 "display_start": "2020-10-26T20:00:00Z",
                 "time_start": "2020-10-26T20:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "visinpractice",
+                "discord_channel": "invited-talks-and-closing",
+                "discord_channel_id": "768305407848349736",
+                "youtube_url": "https://youtu.be/QeNPPxZD0H4",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3847,9 +3862,9 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Polo Chau",
-                    "Hendrik Strobelt",
                     "Menna El-Assady",
+                    "Hendrik Strobelt",
+                    "Polo Chau",
                     "Adam Perer"
                 ],
                 "organizers": [
@@ -3858,10 +3873,10 @@
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:05:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "visxai",
+                "discord_channel": "general",
+                "discord_channel_id": "768305360263708672",
+                "youtube_url": "https://youtu.be/wEo9skwDfts",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -3995,12 +4010,12 @@
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
-                "zoom_meeting": null,
-                "zoom_password": null,
+                "discord_category": "vis futures design fiction methods for envisioning tomorrows visualizations",
+                "discord_channel": "general",
+                "discord_channel_id": "768305380614340620",
+                "youtube_url": "https://youtu.be/OySBMto-S8c",
+                "zoom_meeting": "https://us02web.zoom.us/j/88277243739?pwd=dDNjR2FpNDVzR1ZncWVoTEhHSUE2Zz09",
+                "zoom_password": "S72zUOhd",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -4089,12 +4104,12 @@
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
-                "zoom_meeting": null,
-                "zoom_password": null,
+                "discord_category": "artifact based rendering vr visualization by hand",
+                "discord_channel": "general",
+                "discord_channel_id": "768305387413438525",
+                "youtube_url": "https://youtu.be/QD-KRw9Jelo",
+                "zoom_meeting": "https://us02web.zoom.us/j/85949978959?pwd=UEhqSUxXdk1QeHQ5Tlh6R3pQc2o2QT09",
+                "zoom_password": "LYxHVuNb",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -4228,8 +4243,8 @@
                 "session_id": "w-astrophysics",
                 "chair": [
                     "Bei Wang",
-                    "Lauren Anderson",
-                    "Juna Kollmeier"
+                    "Juna Kollmeier",
+                    "Lauren Anderson"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -4239,10 +4254,10 @@
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "visualization in astrophysics developing new methods discovering our universe educating the earth",
+                "discord_channel": "general",
+                "discord_channel_id": "768305394464194602",
+                "youtube_url": "https://youtu.be/nB36qPnfoGc",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -4358,10 +4373,10 @@
                 "display_start": "2020-10-26T18:00:00Z",
                 "time_start": "2020-10-26T18:00:00Z",
                 "time_end": "2020-10-26T21:15:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "movis information visualization of geospatial networks flows and movement",
+                "discord_channel": "general",
+                "discord_channel_id": "768305401804226642",
+                "youtube_url": "https://youtu.be/SDM_Xb2YBvk",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -4790,7 +4805,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrevyzMP-tQCr9Hqn78D7yLs",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5227,7 +5242,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcA6dnjMRKdD1FWNQainDmj",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -5564,7 +5579,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrftSD7APNpta0ZGwSG2xyxW",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6000,7 +6015,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojre3-c_hOIsMY1DpKRgiSvzs",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -6355,7 +6370,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcHVv1JzEkaf4_xbxTU2h5U",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7296,7 +7311,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojreiqI4tcG5gWd8WhnspzYYi",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -7394,7 +7409,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrcjSXAchEUr-mKluf3Hxz-P",
                 "time_slots": [
                     {
                         "type": null,
@@ -8074,7 +8089,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojreO3ZPdUAzC1iK46Zv2Rv3S",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8191,8 +8206,8 @@
                 "title": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
                 "session_id": "p-academia",
                 "chair": [
-                    "Renata Raidou",
-                    "Ingrid Hotz"
+                    "Ingrid Hotz",
+                    "Renata Raidou"
                 ],
                 "organizers": [
                     "Renata Raidou",
@@ -8243,9 +8258,9 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
+                    "Pascal Grosset",
                     "Jesus Pulido",
                     "Silvio Rizzi",
-                    "Pascal Grosset",
                     "Jim Ahrens"
                 ],
                 "organizers": [
@@ -8434,9 +8449,9 @@
                 "session_id": "a-visap-opening",
                 "chair": [
                     "Erik Brunvand",
+                    "Carmen Hull",
                     "Yoon Chung Han",
-                    "Maria Lantin",
-                    "Carmen Hull"
+                    "Maria Lantin"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8803,8 +8818,8 @@
                 "title": "Opening",
                 "session_id": "vis-opening-1",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8849,11 +8864,11 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
-                    "Terry Woo",
-                    "Mike Kirby",
-                    "Catherine Plaisant",
+                    "Valerio Pascucci",
                     "Giuseppe Santucci",
-                    "Valerio Pascucci"
+                    "Catherine Plaisant",
+                    "Terry Woo",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8984,8 +8999,8 @@
                 "title": "Opening: Best Papers",
                 "session_id": "vis-opening-3",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9062,8 +9077,8 @@
                 "title": "Keynote by Mario Capecchi",
                 "session_id": "vis-keynote",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9106,8 +9121,8 @@
                 "title": "Opening, Keynote, Best Paper",
                 "session_id": "a-vizsec-1",
                 "chair": [
-                    "Marco Angelini",
-                    "J\u00f6rn Kohlhammer"
+                    "J\u00f6rn Kohlhammer",
+                    "Marco Angelini"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9260,8 +9275,8 @@
                 "title": "Short Papers, Posters and Closing",
                 "session_id": "a-vizsec-3",
                 "chair": [
-                    "J\u00f6rn Kohlhammer",
                     "Sean McKenna",
+                    "J\u00f6rn Kohlhammer",
                     "Chris Bryan"
                 ],
                 "organizers": [
@@ -9346,8 +9361,8 @@
                 "title": "Tableau",
                 "session_id": "vis-supporters-1",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Brian Summa"
@@ -9380,8 +9395,8 @@
                 "title": "Intel",
                 "session_id": "vis-supporters-2",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Brian Summa"
@@ -9436,7 +9451,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrclVUrIPaS045_I1rOkf1Y5",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9523,7 +9538,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrdirV9UQb46BRVONU2Fws26",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9793,8 +9808,8 @@
                 "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                 "session_id": "p-vishealth",
                 "chair": [
-                    "Arvind Satyanarayan",
-                    "Carlos Scheidegger"
+                    "Carlos Scheidegger",
+                    "Arvind Satyanarayan"
                 ],
                 "organizers": [
                     "Arvind Satyanarayan",
@@ -9843,9 +9858,9 @@
                 "title": "Recent Challenges in Medical Visualization",
                 "session_id": "l-med",
                 "chair": [
+                    "Thomas Wischgoll",
                     "Noeska Smit",
-                    "Christina Gillmann",
-                    "Thomas Wischgoll"
+                    "Christina Gillmann"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -9971,13 +9986,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Min Chen",
+                    "Shixia Liu",
+                    "Christoph Garth",
                     "Anders Ynnerman",
                     "Alex Endert",
-                    "Petra Isenberg",
                     "Alexander Lex",
-                    "Christoph Garth",
-                    "Shixia Liu"
+                    "Min Chen",
+                    "Petra Isenberg"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10179,10 +10194,10 @@
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
+                    "Leilani Battle",
                     "Michelle Borkin",
-                    "Lane Harrison ",
                     "Michael Correll ",
-                    "Leilani Battle"
+                    "Lane Harrison "
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -10309,8 +10324,8 @@
                 "title": "Capstone by Sheelagh Carpendale",
                 "session_id": "vis-capstone",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -10353,8 +10368,8 @@
                 "title": "Closing",
                 "session_id": "vis-closing-1",
                 "chair": [
-                    "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
