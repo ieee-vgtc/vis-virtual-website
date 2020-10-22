@@ -75,14 +75,18 @@ function make_cal(name) {
 
         const min_date = d3.min(
           events.map(e => moment(e.start).tz(ref_tz).format()));
-        var min_hours = d3.min(
-          events.map(e => moment(e.start).tz(ref_tz).hours()));
-        var max_hours = d3.max(
-          events.map(e => moment(e.end).tz(ref_tz).hours()));
-        if (min_hours < 0 || max_hours > 24) {
-          min_hours = 0;
-          max_hours = 24;
-        }
+
+        // var min_hours = d3.min(
+        //   events.map(e => moment(e.start).tz(ref_tz).hours()));
+        // var max_hours = d3.max(
+        //   events.map(e => moment(e.end).tz(ref_tz).hours()));
+        // if (min_hours < 0 || max_hours > 24) {
+        //   min_hours = 0;
+        //   max_hours = 24;
+        // }
+
+        const min_hours = 7+6;
+        const max_hours = 16+6;
 
         const middleDay = moment(min_date).add(3, 'days');
 
@@ -185,8 +189,9 @@ function make_cal(name) {
         }
 
         let week_dates = enumerateDaysBetweenDates(
-          calendar.getDateRangeStart().toDate(),
-          calendar.getDateRangeEnd().toDate()
+          // calendar.getDateRangeStart().toDate(),
+          // calendar.getDateRangeEnd().toDate()
+          "2020-10-25", "2020-10-30"
         );
         // drop the last day (conference is 6 days)
         week_dates = week_dates.slice(0, 6);
