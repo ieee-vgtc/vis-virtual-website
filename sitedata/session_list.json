@@ -460,8 +460,8 @@
                 "discord_channel": "design-methods-extensions",
                 "discord_channel_id": "767932304294674472",
                 "youtube_url": "https://youtu.be/pwl9U0Dp9us",
-                "zoom_meeting": "https://us02web.zoom.us/j/85976980717?pwd=ekx6MTI5Q2NKM0lUdWpna2pmTExXUT09",
-                "zoom_password": "VKJSIWOz",
+                "zoom_meeting": "",
+                "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -602,8 +602,8 @@
                 "title": "Session 2",
                 "session_id": "a-vis4dh-2",
                 "chair": [
-                    "Stefania Forlini",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Stefania Forlini"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -820,9 +820,9 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Menna El-Assady",
+                    "Eric Alexander",
                     "Chris Weaver",
-                    "Eric Alexander"
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -1105,8 +1105,8 @@
                 "title": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
                 "session_id": "w-mlui",
                 "chair": [
-                    "John Wenskovitch",
-                    "Michelle Dowling"
+                    "Michelle Dowling",
+                    "John Wenskovitch"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-25T14:00:00Z",
@@ -1422,11 +1422,11 @@
                 "title": "ParaView Tutorial",
                 "session_id": "t-paraview",
                 "chair": [
+                    "Ken Moreland",
                     "Michael Migliore",
-                    "Ethan V. Stam",
-                    "Dan Lipsa",
                     "John M. Patchett",
-                    "Ken Moreland"
+                    "Dan Lipsa",
+                    "Ethan V. Stam"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1639,8 +1639,8 @@
                 "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
                 "session_id": "w-trex",
                 "chair": [
-                    "Emily Wall",
-                    "Mahsan Nourani"
+                    "Mahsan Nourani",
+                    "Emily Wall"
                 ],
                 "organizers": [
                     "Eric Ragan",
@@ -1815,10 +1815,10 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Danielle Szafir",
-                    "Francesca Samsel",
                     "Karen Schloss",
+                    "Francesca Samsel",
                     "Pascal Nardini",
+                    "Danielle Szafir",
                     "Stephanie Zeller"
                 ],
                 "organizers": [
@@ -1957,8 +1957,8 @@
                 "title": "VisComm: Workshop on Visualization for Communication",
                 "session_id": "w-comm",
                 "chair": [
-                    "Robert Kosara",
-                    "Ben Watson"
+                    "Ben Watson",
+                    "Robert Kosara"
                 ],
                 "organizers": [
                     "Alvitta Ottley",
@@ -2169,10 +2169,10 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
+                    "Jane Adams",
                     "Paul Rosen",
                     "Jordan Crouser",
-                    "Lonni Besan\u00e7on",
-                    "Jane Adams"
+                    "Lonni Besan\u00e7on"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2290,9 +2290,6 @@
                         "type": "Live Zoom",
                         "title": "Next Steps and Closing Remarks",
                         "contributors": [
-                            "Jane Adams",
-                            "Jordan Crouser",
-                            "Lonni Besan\u00e7on",
                             "Paul Rosen"
                         ],
                         "abstract": null,
@@ -2314,10 +2311,10 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
-                    "Liang Gou",
                     "Hendrik Strobelt",
-                    "Alvitta Ottley",
-                    "Adam Perer"
+                    "Adam Perer",
+                    "Liang Gou",
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Adam Perer",
@@ -2436,8 +2433,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Jordan Crouser",
-                    "Steve Gomez"
+                    "Steve Gomez",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2609,8 +2606,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Jordan Crouser",
-                    "Kristen Liggett"
+                    "Kristen Liggett",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -2871,10 +2868,10 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
-                    "Lace Padilla",
-                    "Rita Borgo",
                     "Danielle Szafir",
-                    "Darren Edwards"
+                    "Darren Edwards",
+                    "Rita Borgo",
+                    "Lace Padilla"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -3236,8 +3233,8 @@
                 "session_id": "w-activities",
                 "chair": [
                     "Samuel Huron",
-                    "Jonathan Roberts",
-                    "Benjamin Bach"
+                    "Benjamin Bach",
+                    "Jonathan Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3737,8 +3734,8 @@
                 "title": "Invited Talk and Panel",
                 "session_id": "a-visinpractice-3",
                 "chair": [
-                    "Matthew Brehmer",
-                    "Leo Zhicheng Liu"
+                    "Leo Zhicheng Liu",
+                    "Matthew Brehmer"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3786,8 +3783,8 @@
                 "title": "Invited Talks and Closing",
                 "session_id": "a-visinpractice-4",
                 "chair": [
-                    "Matt Larsen",
-                    "Leo Zhicheng Liu"
+                    "Leo Zhicheng Liu",
+                    "Matt Larsen"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3862,10 +3859,10 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Menna El-Assady",
-                    "Hendrik Strobelt",
                     "Polo Chau",
-                    "Adam Perer"
+                    "Hendrik Strobelt",
+                    "Adam Perer",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI Organizers"
@@ -3963,7 +3960,7 @@
                         "time_end": "2020-10-26T20:50:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded Talk",
                         "title": "Active Learning: A visual tour",
                         "contributors": [
                             "Zeel B Patel"
@@ -4243,8 +4240,8 @@
                 "session_id": "w-astrophysics",
                 "chair": [
                     "Bei Wang",
-                    "Juna Kollmeier",
-                    "Lauren Anderson"
+                    "Lauren Anderson",
+                    "Juna Kollmeier"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -4361,9 +4358,9 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
-                    "Clio Andris",
                     "Somayeh Dodge",
-                    "Alan MacEachren"
+                    "Alan MacEachren",
+                    "Clio Andris"
                 ],
                 "organizers": [
                     "Clio Andris",
@@ -5659,10 +5656,10 @@
                 "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "planets-space",
+                "discord_channel_id": "768678984921251870",
+                "youtube_url": "https://youtu.be/0oV9JINvYyE",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -5746,10 +5743,10 @@
                 "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "guidelines-design-spaces",
+                "discord_channel_id": "768678993787617290",
+                "youtube_url": "https://youtu.be/LebtfJxfGGk",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -5833,10 +5830,10 @@
                 "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "immersion",
+                "discord_channel_id": "768679000754094130",
+                "youtube_url": "https://youtu.be/eR4LLSwLEBs",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -5921,10 +5918,10 @@
                 "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "event-sequences",
+                "discord_channel_id": "768679007218171934",
+                "youtube_url": "https://youtu.be/fsZDqbRX-7Q",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6008,10 +6005,10 @@
                 "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "urban-spaces",
+                "discord_channel_id": "768679039618908221",
+                "youtube_url": "https://youtu.be/P0DR4uMkDww",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6102,10 +6099,10 @@
                 "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "communities-communication",
+                "discord_channel_id": "768679047516389406",
+                "youtube_url": "https://youtu.be/tp_STZZA148",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6189,10 +6186,10 @@
                 "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "geospatial-data",
+                "discord_channel_id": "768679054832041994",
+                "youtube_url": "https://youtu.be/WwnVRMEYG5I",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6276,10 +6273,10 @@
                 "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "intelligent-systems",
+                "discord_channel_id": "768679061756444672",
+                "youtube_url": "https://youtu.be/ffqeJAAc6ro",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6363,10 +6360,10 @@
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "topology-scalar-fields",
+                "discord_channel_id": "768679092186120213",
+                "youtube_url": "https://youtu.be/gSQglICXNd0",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6450,10 +6447,10 @@
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "graphs",
+                "discord_channel_id": "768679099169374228",
+                "youtube_url": "https://youtu.be/-AWtEaiLQHM",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6538,10 +6535,10 @@
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "automate-recommend",
+                "discord_channel_id": "768679106543878194",
+                "youtube_url": "https://youtu.be/eDdWp1Lo9jY",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -6626,10 +6623,10 @@
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis full papers",
+                "discord_channel": "deep-learning-for-spatial-data",
+                "discord_channel_id": "768679113577725983",
+                "youtube_url": "https://youtu.be/suPUjN59rkc",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -7863,10 +7860,10 @@
                 "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis short papers",
+                "discord_channel": "theory-cognition-and-sensemaking",
+                "discord_channel_id": "768679015111196682",
+                "youtube_url": "https://youtu.be/yrvRz_rT4JI",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -7983,10 +7980,10 @@
                 "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:10:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis short papers",
+                "discord_channel": "text-and-communication",
+                "discord_channel_id": "768679069025566720",
+                "youtube_url": "https://youtu.be/7QHpbEd_z7I",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -8206,8 +8203,8 @@
                 "title": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
                 "session_id": "p-academia",
                 "chair": [
-                    "Ingrid Hotz",
-                    "Renata Raidou"
+                    "Renata Raidou",
+                    "Ingrid Hotz"
                 ],
                 "organizers": [
                     "Renata Raidou",
@@ -8258,10 +8255,10 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
-                    "Pascal Grosset",
-                    "Jesus Pulido",
+                    "Jim Ahrens",
                     "Silvio Rizzi",
-                    "Jim Ahrens"
+                    "Pascal Grosset",
+                    "Jesus Pulido"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8448,9 +8445,9 @@
                 "title": "VISAP Opening Event",
                 "session_id": "a-visap-opening",
                 "chair": [
-                    "Erik Brunvand",
-                    "Carmen Hull",
                     "Yoon Chung Han",
+                    "Carmen Hull",
+                    "Erik Brunvand",
                     "Maria Lantin"
                 ],
                 "organizers": [
@@ -8560,7 +8557,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfNKPi1LOafSyNyBMTyE9Ya",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8675,14 +8672,14 @@
                 "display_start": "2020-10-29T14:00:00Z",
                 "time_start": "2020-10-29T14:00:00Z",
                 "time_end": "2020-10-29T15:20:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis arts program",
+                "discord_channel": "visap-session-2",
+                "discord_channel_id": "768679025216323618",
+                "youtube_url": "https://youtu.be/4z3aj046X1s",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfNKPi1LOafSyNyBMTyE9Ya",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -8838,7 +8835,7 @@
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded Talk",
                         "title": "VIS Welcome",
                         "contributors": [
                             "Valerio Pascucci",
@@ -8849,7 +8846,7 @@
                         "time_end": "2020-10-27T13:43:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Live Presentation, Slides by Tech",
                         "title": "VEC Intro",
                         "contributors": [
                             "Lisa Avila"
@@ -8864,11 +8861,11 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Giuseppe Santucci",
-                    "Catherine Plaisant",
                     "Terry Woo",
-                    "Mike Kirby"
+                    "Valerio Pascucci",
+                    "Catherine Plaisant",
+                    "Mike Kirby",
+                    "Giuseppe Santucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8876,7 +8873,7 @@
                 ],
                 "display_start": "2020-10-27T13:45:00Z",
                 "time_start": "2020-10-27T13:45:00Z",
-                "time_end": "2020-10-27T15:00:00Z",
+                "time_end": "2020-10-27T15:05:00Z",
                 "discord_category": "vis",
                 "discord_channel": "opening",
                 "discord_channel_id": "767121153688600589",
@@ -8887,7 +8884,7 @@
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": "Live Presentation",
+                        "type": "Live Presentation, Slides by Tech",
                         "title": "VGTC Overview",
                         "contributors": [
                             "Jim Ahrens"
@@ -8897,7 +8894,7 @@
                         "time_end": "2020-10-27T13:48:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Live Presentation, Slides by Tech",
                         "title": "VGTC Awards Overview and Process",
                         "contributors": [
                             "Chuck Hansen"
@@ -8927,14 +8924,24 @@
                         "time_end": "2020-10-27T14:15:00Z"
                     },
                     {
+                        "type": "Live Presentation, Slides by Tech",
+                        "title": "VGTC Academy",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T14:15:00Z",
+                        "time_end": "2020-10-27T14:20:00Z"
+                    },
+                    {
                         "type": "Recorded Talk",
                         "title": "Introduction to Test of Time Awards",
                         "contributors": [
                             "Stephen North"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:15:00Z",
-                        "time_end": "2020-10-27T14:20:00Z"
+                        "time_start": "2020-10-27T14:20:00Z",
+                        "time_end": "2020-10-27T14:25:00Z"
                     },
                     {
                         "type": "Live Intro + Recorded Talk",
@@ -8946,11 +8953,21 @@
                             "Haesun Park\u00a0"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:20:00Z",
-                        "time_end": "2020-10-27T14:28:00Z"
+                        "time_start": "2020-10-27T14:25:00Z",
+                        "time_end": "2020-10-27T14:32:00Z"
                     },
                     {
-                        "type": "Live Intro + Recorded Talk",
+                        "type": "Recorded Talk",
+                        "title": "InfoVis 20 Year Test of Time Award Introduction",
+                        "contributors": [
+                            "Catherine Plaisant"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T14:32:00Z",
+                        "time_end": "2020-10-27T14:34:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
                         "title": "InfoVis 20 Year Test of Time Award: Polaris: a system for query, analysis and visualization of multi-dimensional relational databases",
                         "contributors": [
                             "Chris Stolte",
@@ -8958,19 +8975,29 @@
                             "Pat Hanrahan"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:28:00Z",
-                        "time_end": "2020-10-27T14:36:00Z"
+                        "time_start": "2020-10-27T14:34:00Z",
+                        "time_end": "2020-10-27T14:41:00Z"
                     },
                     {
-                        "type": "Live Intro + Recorded Talk",
+                        "type": "Recorded Talk",
+                        "title": "InfoVis 10 Year Test of Time Award Introduction",
+                        "contributors": [
+                            "Catherine Plaisant"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T14:41:00Z",
+                        "time_end": "2020-10-27T14:43:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
                         "title": "InfoVis 10 Year Test of Time Award: Narrative Visualization: Telling Stories with Data",
                         "contributors": [
                             "Edward Segel",
                             "Jeffrey Heer"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:36:00Z",
-                        "time_end": "2020-10-27T14:44:00Z"
+                        "time_start": "2020-10-27T14:43:00Z",
+                        "time_end": "2020-10-27T14:49:00Z"
                     },
                     {
                         "type": "Live Intro + Recorded Talk",
@@ -8980,8 +9007,8 @@
                             "Matthew O. Ward"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:44:00Z",
-                        "time_end": "2020-10-27T14:52:00Z"
+                        "time_start": "2020-10-27T14:49:00Z",
+                        "time_end": "2020-10-27T14:57:00Z"
                     },
                     {
                         "type": "Live Intro + Recorded Talk",
@@ -8990,8 +9017,8 @@
                             "Jarke J. van Wijk"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:52:00Z",
-                        "time_end": "2020-10-27T15:00:00Z"
+                        "time_start": "2020-10-27T14:57:00Z",
+                        "time_end": "2020-10-27T15:05:00Z"
                     }
                 ]
             },
@@ -9006,9 +9033,9 @@
                     "Valerio Pascucci",
                     "Mike Kirby"
                 ],
-                "display_start": "2020-10-27T15:00:00Z",
-                "time_start": "2020-10-27T15:00:00Z",
-                "time_end": "2020-10-27T15:55:00Z",
+                "display_start": "2020-10-27T15:06:00Z",
+                "time_start": "2020-10-27T15:06:00Z",
+                "time_end": "2020-10-27T16:00:00Z",
                 "discord_category": "vis",
                 "discord_channel": "opening",
                 "discord_channel_id": "767121153688600589",
@@ -9025,8 +9052,8 @@
                             "Liang Gou"
                         ],
                         "abstract": "Traffic light detection is crucial for environment perception and decision-making in autonomous driving. State-of-the-art detectors are built upon deep Convolutional Neural Networks (CNN) and have exhibited promising performance. However, one looming concern with CNN based detectors is how to thoroughly evaluate the performance of accuracy and robustness before they can be deployed to autonomous vehicles. In this work, we propose a visual analytics system, VATLD, equipped with a disentangled representation learning and semantic adversarial learning, to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The disentangled representation learning extracts data semantics to augment human cognition with human-friendly visual summarization, and the semantic adversarial learning efficiently exposes the interpretable robustness risks and enables minimal human interaction for actionable insights. We also demonstrate the effectiveness of various performance improvement strategies derived from actionable insights with our visual analytics system, VATLD, and illustrate the practical implications for safety-critical applications in autonomous driving.",
-                        "time_start": "2020-10-27T15:00:00Z",
-                        "time_end": "2020-10-27T15:15:00Z",
+                        "time_start": "2020-10-27T15:06:00Z",
+                        "time_end": "2020-10-27T15:20:00Z",
                         "uid": "f-vast-1307"
                     },
                     {
@@ -9036,8 +9063,8 @@
                             "Alex Kale"
                         ],
                         "abstract": "Uncertainty visualizations often emphasize point estimates to support magnitude estimates or decisions through visual comparison. However, when design choices emphasize means, users may overlook uncertainty information and misinterpret visual distance as a proxy for effect size. We present findings from a mixed design experiment on Mechanical Turk which tests eight uncertainty visualization designs: 95% containment intervals, hypothetical outcome plots, densities, and quantile dotplots, each with and without means added. We find that adding means to uncertainty visualizations has small biasing effects on both magnitude estimation and decision-making, consistent with discounting uncertainty. We also see that visualization designs that support the least biased effect size estimation do not support the best decision-making, suggesting that a chart user's sense of effect size may not necessarily be identical when they use the same information for different tasks. In a qualitative analysis of users' strategy descriptions, we find that many users switch strategies and do not employ an optimal strategy when one exists. Uncertainty visualizations which are optimally designed in theory may not be the most effective in practice because of the ways that users satisfice with heuristics, suggesting opportunities to better understand visualization effectiveness by modeling sets of potential strategies.",
-                        "time_start": "2020-10-27T15:15:00Z",
-                        "time_end": "2020-10-27T15:30:00Z",
+                        "time_start": "2020-10-27T15:20:00Z",
+                        "time_end": "2020-10-27T15:35:00Z",
                         "uid": "f-info-1187"
                     },
                     {
@@ -9047,8 +9074,8 @@
                             "Peter Rautek"
                         ],
                         "abstract": "Computing and visualizing features in fluid flow often depends on the observer, or reference frame, relative to which the input velocity field is given. A desired property of feature detectors is therefore that they are objective, meaning independent of the input reference frame. However, the standard definition of objectivity is only given for Euclidean domains, and cannot be applied in curved spaces. We build on methods from mathematical physics and Riemannian geometry to generalize objectivity to curved spaces, using the powerful notion of symmetry groups as the basis for defining objectivity. From this, we develop a general mathematical framework for computing objective observer fields for curved surfaces, relative to which other computed measures become objective. An important property of our framework is that it works intrinsically in 2D, instead of in the 3D ambient space. This enables a direct generalization of the 2D computation of observer fields via optimization from flat domains to curved domains, without having to perform optimization in 3D. We specifically develop the case of unsteady 2D geophysical flows given on spheres, such as the Earth. Observer fields on curved surfaces enable objective feature computation as well as the visualization of the time evolution of scalar and vector fields, such that the automatically computed reference frames follow moving structures like vortices in a way that makes them appear to be steady.",
-                        "time_start": "2020-10-27T15:30:00Z",
-                        "time_end": "2020-10-27T15:45:00Z",
+                        "time_start": "2020-10-27T15:35:00Z",
+                        "time_end": "2020-10-27T15:50:00Z",
                         "uid": "f-scivis-1144"
                     },
                     {
@@ -9058,8 +9085,8 @@
                             "Marwin Schindler"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T15:45:00Z",
-                        "time_end": "2020-10-27T15:55:00Z",
+                        "time_start": "2020-10-27T15:50:00Z",
+                        "time_end": "2020-10-27T16:00:00Z",
                         "uid": "s-short-1109"
                     }
                 ]
@@ -9139,7 +9166,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfolfRl38D7dlVqN2qieFUU",
                 "time_slots": [
                     {
                         "type": "Live Presentation",
@@ -9187,8 +9214,8 @@
                 "title": "Network Analysis and Incident Response, Practitioner talks",
                 "session_id": "a-vizsec-2",
                 "chair": [
-                    "Lane Harrison",
-                    "Steven Gomez"
+                    "Steven Gomez",
+                    "Lane Harrison"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9205,7 +9232,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfolfRl38D7dlVqN2qieFUU",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9275,9 +9302,9 @@
                 "title": "Short Papers, Posters and Closing",
                 "session_id": "a-vizsec-3",
                 "chair": [
+                    "Chris Bryan",
                     "Sean McKenna",
-                    "J\u00f6rn Kohlhammer",
-                    "Chris Bryan"
+                    "J\u00f6rn Kohlhammer"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9294,7 +9321,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
-                "ff_playlist": "",
+                "ff_playlist": "https://www.youtube.com/playlist?list=PLjHCTOW5ojrfolfRl38D7dlVqN2qieFUU",
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
@@ -9404,10 +9431,10 @@
                 "display_start": "2020-10-29T15:35:00Z",
                 "time_start": "2020-10-29T15:45:00Z",
                 "time_end": "2020-10-29T16:00:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "industrial keynotes",
+                "discord_channel": "intel",
+                "discord_channel_id": "768679032153440277",
+                "youtube_url": "https://youtu.be/KdFvnLW0je4",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -9531,10 +9558,10 @@
                 "display_start": "2020-10-29T16:00:00Z",
                 "time_start": "2020-10-29T16:00:00Z",
                 "time_end": "2020-10-29T17:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "cga full papers",
+                "discord_channel": "toward-better-visual-analysis",
+                "discord_channel_id": "768679079347748894",
+                "youtube_url": "https://youtu.be/9QlEdL-jRxI",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -9606,6 +9633,51 @@
                         "time_start": "2020-10-29T17:15:00Z",
                         "time_end": "2020-10-29T17:30:00Z",
                         "uid": "f-cga-12"
+                    }
+                ]
+            }
+        ]
+    },
+    "vis-gala": {
+        "event": "VIS",
+        "long_name": "VIS",
+        "event_type": "VIS",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Utah Natural History Museum Tour and Reception",
+                "session_id": "vis-gala",
+                "chair": [
+                    "Valerio Pascucci",
+                    "Mike Kirby"
+                ],
+                "organizers": [
+                    "Valerio Pascucci",
+                    "Mike Kirby"
+                ],
+                "display_start": "2020-10-28T17:30:00Z",
+                "time_start": "2020-10-28T17:30:00Z",
+                "time_end": "2020-10-28T18:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": "https://youtu.be/uAiiglVIJPM",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Recorded Talk",
+                        "title": "Utah Natural History Museum Tour and Reception",
+                        "contributors": [
+                            "Valerio Pascucci",
+                            "Mike Kirby"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-28T17:30:00Z",
+                        "time_end": "2020-10-28T18:00:00Z"
                     }
                 ]
             }
@@ -9821,10 +9893,10 @@
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "the role of vis and data researchers during a public health crisis",
+                "discord_channel": "general",
+                "discord_channel_id": "768679119709405214",
+                "youtube_url": "https://youtu.be/Uva2Dg7imps",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -9870,10 +9942,10 @@
                 "display_start": "2020-10-29T18:00:00Z",
                 "time_start": "2020-10-29T18:00:00Z",
                 "time_end": "2020-10-29T19:30:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "recent challenges in medical visualization",
+                "discord_channel": "general",
+                "discord_channel_id": "768679125857992705",
+                "youtube_url": "https://youtu.be/UCxsx6nGvMs",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -9893,7 +9965,7 @@
                     },
                     {
                         "type": "Live Presentation",
-                        "title": "MISSING",
+                        "title": "Visualization for AI in Health",
                         "contributors": [
                             "Anna Vilanova"
                         ],
@@ -9956,8 +10028,8 @@
                 "discord_channel": "",
                 "discord_channel_id": 0,
                 "youtube_url": null,
-                "zoom_meeting": null,
-                "zoom_password": null,
+                "zoom_meeting": "https://us02web.zoom.us/j/86037501039?pwd=MWZXQWsrSEcyMTBRL05idExXaW1VZz09",
+                "zoom_password": "IdfdP8IB",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -9986,13 +10058,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Shixia Liu",
                     "Christoph Garth",
                     "Anders Ynnerman",
-                    "Alex Endert",
-                    "Alexander Lex",
                     "Min Chen",
-                    "Petra Isenberg"
+                    "Alex Endert",
+                    "Petra Isenberg",
+                    "Shixia Liu",
+                    "Alexander Lex"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10000,10 +10072,10 @@
                 "display_start": "2020-10-29T20:00:00Z",
                 "time_start": "2020-10-29T20:00:00Z",
                 "time_end": "2020-10-29T21:00:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "restructuring vis for the future",
+                "discord_channel": "revise",
+                "discord_channel_id": "768679133689413633",
+                "youtube_url": "https://youtu.be/09eRbWAnyyY",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -10064,10 +10136,10 @@
                 "display_start": "2020-10-29T21:15:00Z",
                 "time_start": "2020-10-29T21:15:00Z",
                 "time_end": "2020-10-29T22:15:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
+                "discord_category": "vis 2021 kick-off meeting",
+                "discord_channel": "general",
+                "discord_channel_id": "768679140865736736",
+                "youtube_url": "https://youtu.be/V-jLISubQAM",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -10108,9 +10180,9 @@
                 "title": "The Role of Visualization in Industrial Production",
                 "session_id": "l-industrial",
                 "chair": [
+                    "Christina Gillmann",
                     "Gerik Scheuermann",
-                    "Petra Gospodnetic",
-                    "Christina Gillmann"
+                    "Petra Gospodnetic"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10188,16 +10260,16 @@
         "long_name": "Visualization for Social Good",
         "event_type": "Panel",
         "event_description": "After reflection on the Visualization for Social Good tutorial at IEEE VIS 2019, we noticed a perception that work using the power of visualization to further the public good was under-studied or otherwise not part of the main VIS conference. At the same time, there is a growing \u201ctechlash\u201d that highlights the potential of data science (and data visualization) as tools for reinforcing structures of inequality and injustice. We envision this panel to function as a way of airing these competing viewpoints and providing guidance on how the visualization community should use their power and responsibilities in the world. As such, we have centered our panelists\u2019 statements around response to a single question: What role (if any) should data visualization play in effecting positive change in the world?",
-        "event_url": "",
+        "event_url": "https://vis4good.github.io/",
         "sessions": [
             {
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
-                    "Leilani Battle",
+                    "Lane Harrison ",
                     "Michelle Borkin",
                     "Michael Correll ",
-                    "Lane Harrison "
+                    "Leilani Battle"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -10206,7 +10278,8 @@
                     "Lane Harrison",
                     "Josh Levine",
                     "Dan Archambault",
-                    "Micha Behrisch"
+                    "Micha Behrisch",
+                    "Evan Peck"
                 ],
                 "display_start": "2020-10-30T16:00:00Z",
                 "time_start": "2020-10-30T16:00:00Z",
