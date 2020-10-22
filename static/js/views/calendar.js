@@ -1,4 +1,7 @@
 function make_cal(name) {
+
+  const ref_tz = "GMT";
+
   return new Promise((resolve) => {
     // ...promise fulfilled after cal is rendered.
 
@@ -48,8 +51,8 @@ function make_cal(name) {
       const dates = [];
 
 
-      const currDate = moment(startDate);
-      const lastDate = moment(endDate);
+      const currDate = moment(startDate).tz(ref_tz);
+      const lastDate = moment(endDate).tz(ref_tz);
 
       dates.push(currDate.clone());
       while (currDate.add(1, 'days').diff(lastDate) < 0) {
@@ -69,7 +72,6 @@ function make_cal(name) {
 
         const all_cals = [];
         const timezoneName = current_tz;
-        const ref_tz = "GMT"
 
         const min_date = d3.min(
           events.map(e => moment(e.start).tz(ref_tz).format()));
@@ -138,12 +140,12 @@ function make_cal(name) {
                 return (diff !== 0 ? (diff > 0 ? '+' + diff : diff) + 'd ' : '') + ret + ':00'
               // }
             },
-            timgridDisplayTime: function (x) {
-              console.log(x, "--- x2");
-            },
-            timegridCurrentTime: function (x) {
-              console.log(x, "--- x3");
-            },
+            // timgridDisplayTime: function (x) {
+            //   console.log(x, "--- x2");
+            // },
+            // timegridCurrentTime: function (x) {
+            //   console.log(x, "--- x3");
+            // },
             milestone: function (schedule) {
               return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '"> M: ' + schedule.title + '</span>';
             },
@@ -188,6 +190,7 @@ function make_cal(name) {
         );
         // drop the last day (conference is 6 days)
         week_dates = week_dates.slice(0, 6);
+        console.log(week_dates.map(w=>w.toDate()),"--- week_dates.map(w=>w.toDate())");
 
         // const c_sm = d3.select('#calendar_small')
         let i = 1;
@@ -215,7 +218,7 @@ function make_cal(name) {
             }],
           })
 
-          cal.setDate(day.toDate());
+          cal.setDate(moment(day.toDate()).format("YYYY-MM-DD"));
           cal.createSchedules(events);
           cal.on({
             'clickSchedule': function (e) {
