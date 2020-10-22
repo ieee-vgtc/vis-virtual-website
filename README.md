@@ -9,7 +9,7 @@ You need to authenticate with our website to access the session listings, downlo
 
 You should receive an e-mail with an auto-generated password to the e-mail you used to register for the conference.  If you didn't receive the e-mail, please check your spam folder.  The e-mails are sent from the superministream.com domain (via Google G Suite).  If you are still having trouble, please ask in #support in Discord or e-mail web@ieeevis.org.
 
-**NOTE: We are currently working through emailing our backlog of registrants.  We anticipate this process to finish by Wednesday, October 21st.**
+**NOTE: We are currently working through emailing our backlog of registrants.  We anticipate this process to finish by Friday, October 23rd.**
 
 
 ### Help
