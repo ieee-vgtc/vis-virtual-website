@@ -523,9 +523,9 @@
                 "title": "Session 1",
                 "session_id": "a-vis4dh-1",
                 "chair": [
-                    "Catherine DeRose",
+                    "Florian Windhager",
                     "Eric Alexander",
-                    "Florian Windhager"
+                    "Catherine DeRose"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -750,8 +750,8 @@
                 "title": "Session 3",
                 "session_id": "a-vis4dh-3",
                 "chair": [
-                    "Catherine DeRose",
-                    "Houda Lamqaddam"
+                    "Houda Lamqaddam",
+                    "Catherine DeRose"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -820,8 +820,8 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Menna El-Assady",
                     "Chris Weaver",
+                    "Menna El-Assady",
                     "Eric Alexander"
                 ],
                 "organizers": [
@@ -1278,9 +1278,9 @@
                 "title": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
                 "session_id": "w-guides",
                 "chair": [
+                    "Benjamin Bach",
                     "Alfie Abdul-Rahman",
-                    "Alexandra Diehl",
-                    "Benjamin Bach"
+                    "Alexandra Diehl"
                 ],
                 "organizers": [
                     "Benjamin Bach",
@@ -1423,10 +1423,10 @@
                 "session_id": "t-paraview",
                 "chair": [
                     "John M. Patchett",
-                    "Ethan V. Stam",
+                    "Michael Migliore",
                     "Dan Lipsa",
                     "Ken Moreland",
-                    "Michael Migliore"
+                    "Ethan V. Stam"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1815,11 +1815,11 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Pascal Nardini",
                     "Danielle Szafir",
+                    "Pascal Nardini",
                     "Francesca Samsel",
-                    "Stephanie Zeller",
-                    "Karen Schloss"
+                    "Karen Schloss",
+                    "Stephanie Zeller"
                 ],
                 "organizers": [
                     "Danielle Szafir",
@@ -1957,8 +1957,8 @@
                 "title": "VisComm: Workshop on Visualization for Communication",
                 "session_id": "w-comm",
                 "chair": [
-                    "Robert Kosara",
-                    "Ben Watson"
+                    "Ben Watson",
+                    "Robert Kosara"
                 ],
                 "organizers": [
                     "Alvitta Ottley",
@@ -2169,9 +2169,9 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
-                    "Jordan Crouser",
-                    "Lonni Besan\u00e7on",
                     "Jane Adams",
+                    "Lonni Besan\u00e7on",
+                    "Jordan Crouser",
                     "Paul Rosen"
                 ],
                 "organizers": [
@@ -2311,10 +2311,10 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
-                    "Liang Gou",
-                    "Alvitta Ottley",
                     "Hendrik Strobelt",
-                    "Adam Perer"
+                    "Alvitta Ottley",
+                    "Adam Perer",
+                    "Liang Gou"
                 ],
                 "organizers": [
                     "Adam Perer",
@@ -2606,8 +2606,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Jordan Crouser",
-                    "Kristen Liggett"
+                    "Kristen Liggett",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -2870,8 +2870,8 @@
                 "chair": [
                     "Lace Padilla",
                     "Danielle Szafir",
-                    "Rita Borgo",
-                    "Darren Edwards"
+                    "Darren Edwards",
+                    "Rita Borgo"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -3066,8 +3066,8 @@
                 "title": "Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science",
                 "session_id": "t-scivishoudini",
                 "chair": [
-                    "Kalina Borkiewicz",
-                    "AJ Christensen"
+                    "AJ Christensen",
+                    "Kalina Borkiewicz"
                 ],
                 "organizers": [
                     "AJ Christensen",
@@ -3232,9 +3232,9 @@
                 "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
-                    "Benjamin Bach",
+                    "Samuel Huron",
                     "Jonathan Roberts",
-                    "Samuel Huron"
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3783,8 +3783,8 @@
                 "title": "Invited Talks and Closing",
                 "session_id": "a-visinpractice-4",
                 "chair": [
-                    "Matt Larsen",
-                    "Leo Zhicheng Liu"
+                    "Leo Zhicheng Liu",
+                    "Matt Larsen"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3859,10 +3859,10 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Menna El-Assady",
                     "Hendrik Strobelt",
-                    "Adam Perer",
-                    "Polo Chau"
+                    "Menna El-Assady",
+                    "Polo Chau",
+                    "Adam Perer"
                 ],
                 "organizers": [
                     "VISxAI Organizers"
@@ -3994,8 +3994,8 @@
                 "title": "Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations",
                 "session_id": "w-futures",
                 "chair": [
-                    "Lora Oehlberg",
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Lora Oehlberg"
                 ],
                 "organizers": [
                     "Charles Perin",
@@ -4239,8 +4239,8 @@
                 "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
                 "session_id": "w-astrophysics",
                 "chair": [
-                    "Bei Wang",
                     "Juna Kollmeier",
+                    "Bei Wang",
                     "Lauren Anderson"
                 ],
                 "organizers": [
@@ -4358,8 +4358,8 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
-                    "Clio Andris",
                     "Alan MacEachren",
+                    "Clio Andris",
                     "Somayeh Dodge"
                 ],
                 "organizers": [
@@ -8255,9 +8255,9 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
-                    "Jim Ahrens",
                     "Silvio Rizzi",
                     "Pascal Grosset",
+                    "Jim Ahrens",
                     "Jesus Pulido"
                 ],
                 "organizers": [
@@ -8447,8 +8447,8 @@
                 "chair": [
                     "Erik Brunvand",
                     "Carmen Hull",
-                    "Maria Lantin",
-                    "Yoon Chung Han"
+                    "Yoon Chung Han",
+                    "Maria Lantin"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8861,11 +8861,11 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
-                    "Catherine Plaisant",
+                    "Giuseppe Santucci",
                     "Mike Kirby",
                     "Valerio Pascucci",
-                    "Giuseppe Santucci",
-                    "Terry Woo"
+                    "Terry Woo",
+                    "Catherine Plaisant"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9206,7 +9206,8 @@
                         ],
                         "abstract": "Online services are used for all kinds of activities, like news, entertainment, publishing content or connecting with others. But information technology enables new threats to privacy by means of global mass surveillance, vast databases and fast distribution networks. Current news are full of misuses and data leakages. In most cases, users are powerless in such situations and develop an attitude of neglect for their online behaviour. On the other hand, the GDPR (General Data Protection Regulation) gives users the right to request a copy of all their personal data stored by a particular service, but the received data is hard to understand or analyze by the common internet user. This paper presents TransparencyVis - a web-based interface to support the visual and interactive exploration of data exports from different online services. With this approach, we aim at increasing the awareness of personal data stored by such online services and the effects of online behaviour. This design study provides an online accessible prototype and a best practice to unify data exports from different sources.",
                         "time_start": "2020-10-28T15:05:00Z",
-                        "time_end": "2020-10-28T15:30:00Z"
+                        "time_end": "2020-10-28T15:30:00Z",
+                        "uid": "a-vizsec-1011"
                     }
                 ]
             },
@@ -9214,8 +9215,8 @@
                 "title": "Network Analysis and Incident Response, Practitioner talks",
                 "session_id": "a-vizsec-2",
                 "chair": [
-                    "Steven Gomez",
-                    "Lane Harrison"
+                    "Lane Harrison",
+                    "Steven Gomez"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9242,7 +9243,8 @@
                         ],
                         "abstract": "Investigating cybersecurity incidents requires in-depth knowledge from the analyst. Moreover, the whole process is demanding due to the vast data volumes that need to be analyzed. While various techniques exist nowadays to help with particular tasks of the analysis, the process as a whole still requires a lot of manual activities and expert skills. We propose an approach that allows the analysis of disk snapshots more efficiently and with lower demands on expert knowledge. Following a user-centered design methodology, we implemented an analytical tool to guide analysts during security incident investigations. The viability of the solution was validated by an evaluation conducted with members of different security teams.",
                         "time_start": "2020-10-28T16:00:00Z",
-                        "time_end": "2020-10-28T16:20:00Z"
+                        "time_end": "2020-10-28T16:20:00Z",
+                        "uid": "a-vizsec-1016"
                     },
                     {
                         "type": "Recorded Talk",
@@ -9252,7 +9254,8 @@
                         ],
                         "abstract": "Risk scoring provides a simple and quantifiable metric for decision support in cyber security operations, including prioritizing how to address discovered software vulnerabilities. However, scoring systems are often opaque to operators, which makes scores difficult to interpret in the context of their own networks, each other, or in a broader threat landscape. This interpretability challenge is exacerbated by recent applications of artificial intelligence (AI) and machine learning (ML) for vulnerability assessment, where opaque machine reasoning can hinder domain experts' trust in the decision-support toolkit or the actionability of its outputs. In this paper, we address this challenge through a combination of visualizations and analytics that complement existing techniques for vulnerability assessment. We present a study toward designing more interpretable visual encodings for decision support for vulnerability assessment. In particular, we consider the problem of making datasets of known vulnerabilities more interpretable at multiple scales, inspired by focus and context principles from the information visualization design community. The first scale considers individually scored vulnerabilities by using an explainable AI (XAI) toolkit for an ML risk-scoring model and by developing new visualizations of CVSS score features. The second scale uses an embedding for vulnerability descriptions to cluster potentially similar vulnerabilities. We outline use cases for these tools and discuss opportunities for applying XAI concepts to cyber risk and vulnerability management.",
                         "time_start": "2020-10-28T16:20:00Z",
-                        "time_end": "2020-10-28T16:40:00Z"
+                        "time_end": "2020-10-28T16:40:00Z",
+                        "uid": "a-vizsec-1009"
                     },
                     {
                         "type": "Recorded Talk",
@@ -9302,8 +9305,8 @@
                 "title": "Short Papers, Posters and Closing",
                 "session_id": "a-vizsec-3",
                 "chair": [
-                    "Sean McKenna",
                     "Chris Bryan",
+                    "Sean McKenna",
                     "J\u00f6rn Kohlhammer"
                 ],
                 "organizers": [
@@ -9331,7 +9334,8 @@
                         ],
                         "abstract": "The goal is to raise awareness and encourage learning cybersecurity principles by making competitions appealing to a wider audience. In an effort to make events compelling, attractive, and watchable, the researchers will develop systems to support visualizations and make the transactions between teams in different cybersecurity competitions easy to comprehend. In informing and educating the audience on the intricacies of the competition through engaging visualizations, cybersecurity competitions will be opened up to a world beyond just participants. In doing so, we can potentially attract new talent into the field. Our team seeks to make prototype visualizations for key actions in various student cybersecurity competitions and assess spectator understanding of key principles of the competition.",
                         "time_start": "2020-10-28T18:00:00Z",
-                        "time_end": "2020-10-28T18:20:00Z"
+                        "time_end": "2020-10-28T18:20:00Z",
+                        "uid": "a-vizsec-1007"
                     },
                     {
                         "type": "Recorded Talk",
@@ -9341,7 +9345,8 @@
                         ],
                         "abstract": "The landscape of malware development is ever-changing, creating a constant catch-up contest between the defenders and the adversaries. One of the methodologies that has the potential to pose a significant threat to systems is malware evasion. This is where malware tries to determine whether it is run in a controlled environment, such as a sandbox. Similarly, a malware can also learn how an Anti-Malware System (AMS) decides whether an input program is a malware or in fact benign with the goal of bypassing it. On the other hand, the AMS tries to detect whether a malware sample is performing such evasive checks, e.g. by evaluating the results of Reverse-Turing Test (RTT). This learning process can be viewed as a \u2018battle\u2019 between the AMS and the malware, due to the malware attempting to defeat the AMS, where a successful win for the malware would be to evade detection by the AMS and, conversely, a win for the AMS would be to correctly detect the malware and its evasive actions. We propose a visualisation-based system, called Gotta Evade \u2018em All, that allows cyber-security analysts to clearly see the evasive and anti-evasive actions performed by the malware and the AMS during the battle.",
                         "time_start": "2020-10-28T18:20:00Z",
-                        "time_end": "2020-10-28T18:35:00Z"
+                        "time_end": "2020-10-28T18:35:00Z",
+                        "uid": "a-vizsec-1010"
                     },
                     {
                         "type": "Recorded Talk",
@@ -9351,7 +9356,8 @@
                         ],
                         "abstract": "Due to their success in many application areas, deep learning models have found wide adoption for many problems. However, their black-box nature makes it hard to trust their decisions and to evaluate their line of reasoning. In the field of cybersecurity, this lack of trust and understanding poses a significant challenge for the utilization of deep learning models. Thus, we present a visual analytics system that provides designers of deep learning models for the classification of domain generation algorithms with understandable interpretations of their model. We cluster the activations of the model's nodes and leverage decision trees to explain these clusters. In combination with a 2D projection, the user can explore how the model views the data at different layers. In a preliminary evaluation of our system, we show how it can be employed to better understand misclassifications, identify potential biases and reason about the role different layers in a model may play.",
                         "time_start": "2020-10-28T18:35:00Z",
-                        "time_end": "2020-10-28T18:50:00Z"
+                        "time_end": "2020-10-28T18:50:00Z",
+                        "uid": "a-vizsec-1017"
                     },
                     {
                         "type": "Live Presentation",
@@ -9880,8 +9886,8 @@
                 "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                 "session_id": "p-vishealth",
                 "chair": [
-                    "Arvind Satyanarayan",
-                    "Carlos Scheidegger"
+                    "Carlos Scheidegger",
+                    "Arvind Satyanarayan"
                 ],
                 "organizers": [
                     "Arvind Satyanarayan",
@@ -9930,9 +9936,9 @@
                 "title": "Recent Challenges in Medical Visualization",
                 "session_id": "l-med",
                 "chair": [
+                    "Christina Gillmann",
                     "Thomas Wischgoll",
-                    "Noeska Smit",
-                    "Christina Gillmann"
+                    "Noeska Smit"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10059,12 +10065,12 @@
                 "session_id": "x-revise",
                 "chair": [
                     "Petra Isenberg",
-                    "Shixia Liu",
                     "Anders Ynnerman",
                     "Min Chen",
+                    "Christoph Garth",
                     "Alexander Lex",
                     "Alex Endert",
-                    "Christoph Garth"
+                    "Shixia Liu"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10180,9 +10186,9 @@
                 "title": "The Role of Visualization in Industrial Production",
                 "session_id": "l-industrial",
                 "chair": [
-                    "Gerik Scheuermann",
+                    "Christina Gillmann",
                     "Petra Gospodnetic",
-                    "Christina Gillmann"
+                    "Gerik Scheuermann"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10267,9 +10273,9 @@
                 "session_id": "p-socialgood",
                 "chair": [
                     "Michael Correll ",
-                    "Leilani Battle",
+                    "Michelle Borkin",
                     "Lane Harrison ",
-                    "Michelle Borkin"
+                    "Leilani Battle"
                 ],
                 "organizers": [
                     "Leilani Battle",
