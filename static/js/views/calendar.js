@@ -54,13 +54,13 @@ function make_cal(name) {
       const currDate = moment(startDate).tz(ref_tz);
       const lastDate = moment(endDate).tz(ref_tz);
 
-      dates.push(currDate.clone());
+      dates.push(currDate.clone().toDate());
       while (currDate.add(1, 'days').diff(lastDate) < 0) {
         // console.log(currDate, "--- currDate");
-        dates.push(currDate.clone());
+        dates.push(currDate.clone().toDate());
       }
 
-      dates.push(lastDate);
+      dates.push(lastDate.toDate());
       return dates;
     };
 
@@ -188,15 +188,25 @@ function make_cal(name) {
           calendar.setCalendars(cals);
         }
 
-        let week_dates = enumerateDaysBetweenDates(
-          // calendar.getDateRangeStart().toDate(),
-          // calendar.getDateRangeEnd().toDate()
-          "2020-10-25", "2020-10-30"
-        );
+        // let week_dates = enumerateDaysBetweenDates(
+        //   // calendar.getDateRangeStart().toDate(),
+        //   // calendar.getDateRangeEnd().toDate()
+        //   "2020-10-25", "2020-10-30"
+        // );
+
+        let week_dates = [
+          "2020-10-25",
+          "2020-10-26",
+          "2020-10-27",
+          "2020-10-28",
+          "2020-10-29",
+          "2020-10-30"
+        ].map(d => new Date(d))
+
         // drop the last day (conference is 6 days)
         week_dates = week_dates.slice(0, 6);
-        console.log(week_dates.map(w=>w.toDate()),"--- week_dates.map(w=>w.toDate())");
-
+        // console.log(week_dates.map(w=>w.toDate()),"--- week_dates.map(w=>w.toDate())");
+        console.log(week_dates,"--- week_dates");
         // const c_sm = d3.select('#calendar_small')
         let i = 1;
         for (const day of week_dates) {
@@ -223,7 +233,7 @@ function make_cal(name) {
             }],
           })
 
-          cal.setDate(moment(day.toDate()).format("YYYY-MM-DD"));
+          cal.setDate(day);
           cal.createSchedules(events);
           cal.on({
             'clickSchedule': function (e) {
