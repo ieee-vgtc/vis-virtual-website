@@ -91,7 +91,6 @@ function make_cal(name) {
 
         let renderAllTexts = false;
         let timeDayReference = middleDay.format("YYYY-MM-DD");
-        // console.log(min_hours, max_hours);
         const Calendar = tui.Calendar;
         const calendar = new Calendar('#calendar', {
           defaultView: 'week',
@@ -126,9 +125,16 @@ function make_cal(name) {
               const cDate = timeDayReference + ` ${x.hour}:00`
               const timeRef = moment.tz(cDate, ref_tz);
               const newTime = timeRef.clone().tz(timezoneName)
-              const ret = newTime.hour();
-              const diff = newTime.date() - timeRef.date()
-              return (diff !== 0 ? (diff > 0 ? '+' + diff : diff) + 'd ' : '') + ret + ':00'
+              let ret = newTime.hour();
+              const dayDiff = newTime.date() - timeRef.date()
+
+              // if the current time is in DST and the target time is not (or vice versa), tweak hour offset
+              // NOTE: currently only supports 1 hour offsets; 2 hour offsets exist
+              const timezoneDiff = new Date().getTimezoneOffset() - newTime.toDate().getTimezoneOffset();
+              if (timezoneDiff === 60) ret -= 1;
+              if (timezoneDiff === -60) ret += 1;
+
+              return (dayDiff !== 0 ? (dayDiff > 0 ? '+' + dayDiff : dayDiff) + 'd ' : '') + ret + ':00'
             },
             milestone: function (schedule) {
               return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '"> M: ' + schedule.title + '</span>';
