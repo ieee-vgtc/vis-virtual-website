@@ -84,8 +84,8 @@ function make_cal(name) {
         // }
 
         // manually set the offsets for the calendar based on GMT
-        const min_hours = 7+6;
-        const max_hours = 16+6;
+        const min_hours = 6+6;
+        const max_hours = 17+6;
 
         const middleDay = moment(min_date).add(3, 'days');
 
