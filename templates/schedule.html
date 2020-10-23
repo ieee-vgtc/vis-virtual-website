@@ -7,7 +7,6 @@
 {% endblock %}
 
 {% block tabs %}
-<p style="color: #aaa; text-align: center;">Events are categorized into days by the conference timezone (Mountain Time, GMT-6).</p>
     {{ components.tabs([
     ("calendar", "Overview", "cal-nav active"),
     ("Sunday", "Sunday", "cal-nav"),
@@ -69,7 +68,7 @@
                 <div id="day">
                     <div class="row">
                       <div class="col-md-12">
-                        <h1>Full list of sessions on <abbr title="The conference day, as defined by Mountain Time (GMT-6)">{{ day }}</abbr></h1>
+                        <h1>Full list of sessions on <abbr title="The conference day, as defined by Mountain Time (GMT-6).  In your timezone, these events may roll into the next calendar day.">{{ day }}</abbr></h1>
                       </div>
                     </div>
                     <div class="sessions">
