@@ -2580,7 +2580,7 @@
         "paper_award": "",
         "image_caption": "Unexpected behavior in multi-robot systems is often caused by asymmetries in the robots\u2019 worldviews\u2013 i.e., each robot\u2019s internal representation of its own state and of the other robots\u2019 presumed states. MOSAIC Viewer is a visual analytics tool that helps operators (i) make sense of the robots' schedules and (ii) detect and conduct a root cause analysis of the robots\u2019 desynchronized worldviews, designed to be used with the MOSAIC multi-agent distributed scheduling framework. We find that visualization and interaction make detection and analysis of desynchronizations considerably faster and easier compared with current approaches.\n",
         "external_paper_link": "",
-        "ff_link": "https://youtu.be/3RMPpkL0JoE"
+        "ff_link": "https://youtu.be/eIQdcLde9F0"
     },
     "f-vast-1203": {
         "authors": [
@@ -4245,11 +4245,14 @@
         ],
         "title": "Visualizing information on watch faces: A survey with smartwatch users",
         "session_id": "s-papers-interact-animate",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "People increasingly wear smartwatches that can track a wide variety of data.  However, it is currently unknown which data people consume and how it is visualized.  To better ground research on smartwatch visualization, it is important to understand the current use of these representation types on smartwatches, and to identify missed visualization opportunities.  We present the findings of a survey with 237 smartwatch wearers, and assess the types of data and representations commonly displayed on watch faces. We found a predominant display of health & fitness data, with icons accompanied by text being the most frequent representation type. Combining these results with a further analysis of online searches of watch faces and the data tracked on smartwatches that are not commonly visualized, we discuss opportunities for visualization research. Supplementary material is available at https://osf.io/nwy2r/.",
+        "keywords": [
+            "Empirical Studies in Visualization",
+            "Mobile Devices"
+        ],
         "uid": "s-short-1199",
         "time_stamp": "2020-10-28T18:40:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
         "image_caption": "Smartwatch face examples (from Facer [13]) with increasing amounts of data items and representation types. From left to right: Material Volcano (BlueIceshard), Pie Charts II (Sunny Liao), Minimal Colors H (AK Watch), and Earthshade (Brad C). The graph on the right shows common pairs of data types displayed on the watch faces our 237 survey participants used. Circle colors correspond to three data categories: Health & Fitness, Weather & Planetary, and Device & Location.",
         "external_paper_link": "",
@@ -7892,7 +7895,7 @@
         "uid": "f-info-1084",
         "time_stamp": "2020-10-30T16:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Prototypes of data visceralizations in VR which seek to provide a deeper understanding of physical measurements, based on popular data representations. (a) Scorecard of results in seconds from Olympic Men's 100 m. (b) Data visceralization equivalent to experience one-to-one scale of Olympic sprint speeds. (c) Comparison diagram of tall skyscrapers (\u00a9 Saggittarius A, CC BY-SA 4.0). (d) Data visceralization equivalent to experience and compare true one-to-one scale of select skyscrapers.",
         "external_paper_link": "",
         "ff_link": "https://youtu.be/C3q5XhdanXk"
@@ -7951,7 +7954,7 @@
         "uid": "f-info-1362",
         "time_stamp": "2020-10-30T17:00:00Z",
         "has_image": false,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Overview of design space of experimental methods. We present a four component design space to guide researchers in creating visualization studies grounded in vision science research methods.",
         "external_paper_link": "",
         "ff_link": "https://youtu.be/v6bJwsHxRLY"

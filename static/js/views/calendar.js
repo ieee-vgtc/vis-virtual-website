@@ -1,11 +1,10 @@
 function make_cal(name) {
 
-  const ref_tz = "GMT";
+  const ref_tz = "UTC";
 
   return new Promise((resolve) => {
     // ...promise fulfilled after cal is rendered.
 
-    // TODO: set value in cookie if we can; read in base.html
     const current_tz = getUrlParameter('tz') || window.localStorage.getItem(
       "tz") || moment.tz.guess();
     const tzNames = [...moment.tz.names()];
@@ -54,13 +53,12 @@ function make_cal(name) {
       const currDate = moment(startDate).tz(ref_tz);
       const lastDate = moment(endDate).tz(ref_tz);
 
-      dates.push(currDate.clone());
+      dates.push(currDate.clone().toDate());
       while (currDate.add(1, 'days').diff(lastDate) < 0) {
-        // console.log(currDate, "--- currDate");
-        dates.push(currDate.clone());
+        dates.push(currDate.clone().toDate());
       }
 
-      dates.push(lastDate);
+      dates.push(lastDate.toDate());
       return dates;
     };
 
@@ -85,14 +83,14 @@ function make_cal(name) {
         //   max_hours = 24;
         // }
 
-        const min_hours = 7+6;
-        const max_hours = 16+6;
+        // manually set the offsets for the calendar based on GMT
+        const min_hours = 6+6;
+        const max_hours = 17+6;
 
         const middleDay = moment(min_date).add(3, 'days');
 
         let renderAllTexts = false;
         let timeDayReference = middleDay.format("YYYY-MM-DD");
-        // console.log(min_hours, max_hours);
         const Calendar = tui.Calendar;
         const calendar = new Calendar('#calendar', {
           defaultView: 'week',
@@ -112,11 +110,6 @@ function make_cal(name) {
             displayLabel: timezoneName,
             tooltip: timezoneName
           }],
-          // timezones: [{
-          //     getTimezoneOffset: 540,
-          //     displayLabel: 'a',
-          //     tooltip: timezoneName
-          // }],
           template: {
             monthDayname: function (dayname) {
               return '<span class="calendar-week-dayname-name">' + dayname.label + '</span>';
@@ -132,24 +125,17 @@ function make_cal(name) {
               const cDate = timeDayReference + ` ${x.hour}:00`
               const timeRef = moment.tz(cDate, ref_tz);
               const newTime = timeRef.clone().tz(timezoneName)
-              // timeRef.format()
-              const ret = newTime.hour();
-              const diff = newTime.date() - timeRef.date()
-              // console.log(middleDay.format("YYYY-MM-DD"),"--- middleDay");
-              // console.log(timeRef.format(),cDate, x.hour, ret,"--- timeRef.format(), x.hour, timeRef.hour()");
-              // return (diff!==0?newTime.format('ddd')+' ':'')+ret+':00'
-              // if (renderAllTexts) {
-              //   return (diff!==0?newTime.format('ddd')+' ':'')+ret+':00'
-              // } else {
-                return (diff !== 0 ? (diff > 0 ? '+' + diff : diff) + 'd ' : '') + ret + ':00'
-              // }
+              let ret = newTime.hour();
+              const dayDiff = newTime.date() - timeRef.date()
+
+              // if the current time is in DST and the target time is not (or vice versa), tweak hour offset
+              // NOTE: currently only supports 1 hour offsets; 2 hour offsets exist
+              const timezoneDiff = new Date().getTimezoneOffset() - newTime.toDate().getTimezoneOffset();
+              if (timezoneDiff === 60) ret -= 1;
+              if (timezoneDiff === -60) ret += 1;
+
+              return (dayDiff !== 0 ? (dayDiff > 0 ? '+' + dayDiff : dayDiff) + 'd ' : '') + ret + ':00'
             },
-            // timgridDisplayTime: function (x) {
-            //   console.log(x, "--- x2");
-            // },
-            // timegridCurrentTime: function (x) {
-            //   console.log(x, "--- x3");
-            // },
             milestone: function (schedule) {
               return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '"> M: ' + schedule.title + '</span>';
             },
@@ -188,20 +174,27 @@ function make_cal(name) {
           calendar.setCalendars(cals);
         }
 
-        let week_dates = enumerateDaysBetweenDates(
-          // calendar.getDateRangeStart().toDate(),
-          // calendar.getDateRangeEnd().toDate()
-          "2020-10-25", "2020-10-30"
-        );
+        // let week_dates = enumerateDaysBetweenDates(
+        //   // calendar.getDateRangeStart().toDate(),
+        //   // calendar.getDateRangeEnd().toDate()
+        //   "2020-10-25", "2020-10-30"
+        // );
+
+        // manually set the dates
+        let week_dates = [
+          "2020-10-25",
+          "2020-10-26",
+          "2020-10-27",
+          "2020-10-28",
+          "2020-10-29",
+          "2020-10-30"
+        ];
+
         // drop the last day (conference is 6 days)
         week_dates = week_dates.slice(0, 6);
-        console.log(week_dates.map(w=>w.toDate()),"--- week_dates.map(w=>w.toDate())");
-
-        // const c_sm = d3.select('#calendar_small')
+        console.log(week_dates,"--- week_dates");
         let i = 1;
         for (const day of week_dates) {
-          // continue;
-          // c_sm.append('div').attr('id', 'cal__' + i);
           const cal = new Calendar('#cal__' + i, {
             defaultView: 'day',
             isReadOnly: true,
@@ -211,7 +204,7 @@ function make_cal(name) {
             usageStatistics: false,
 
             week: {
-              startDayOfWeek: 7, // IEEE VIS starts on Saturday
+              startDayOfWeek: 7, // IEEE VIS starts on Sunday
               workweek: !config.calendar["sunday_saturday"],
               hourStart: min_hours,
               hourEnd: max_hours
@@ -223,8 +216,9 @@ function make_cal(name) {
             }],
           })
 
-          cal.setDate(moment(day.toDate()).format("YYYY-MM-DD"));
-          cal.createSchedules(events);
+          cal.setDate(day); // give TUI a string; it'll parse and pick the day for the locale
+          const daysEvents = events.filter(e => e.start.split("T")[0] === day);
+          cal.createSchedules(daysEvents);
           cal.on({
             'clickSchedule': function (e) {
               const s = e.schedule
@@ -234,7 +228,6 @@ function make_cal(name) {
             },
           })
 
-          all_cals.push(cal);
           const cols = config.calendar.colors;
           if (cols) {
             const cals = [];
@@ -249,12 +242,10 @@ function make_cal(name) {
             })
 
             cal.setCalendars(cals);
-
           }
 
+          all_cals.push(cal);
           i++;
-
-
         }
 
         function render(all_cals) {
@@ -263,8 +254,6 @@ function make_cal(name) {
               timeDayReference = middleDay.format("YYYY-MM-DD");
               renderAllTexts = false
             } else {
-              // console.log(c.getDate(),"--- c.getDate()");
-              // timeDayReference = moment(c.getDate()).format("YYYY-MM-DD");
               renderAllTexts = true
             }
             c.render(true)
