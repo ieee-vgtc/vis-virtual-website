@@ -26,6 +26,10 @@
         <h3 class="session-date">
             <span class="fas mr-1">&#xf017;</span>
             <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
         </h3>
     </div>
     <div class="col-md-1"></div>
@@ -130,6 +134,10 @@
         <h5 class="session-list-time">
             <span class="fas mr-1">&#xf017;</span>
             <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
         </h5>
     </div>
 </div>
@@ -152,5 +160,7 @@
         <p>You may want to also jump to the parent event to see related presentations: <a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></p>
     </div>
 </div>
+
+<script src="static/js/views/timezone.js"></script>
 
 {% endblock %}

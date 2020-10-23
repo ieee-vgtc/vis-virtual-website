@@ -27,6 +27,10 @@
                             <h3 class="speaker-title"><a href="session_{{ speaker.session_id }}.html">{{ speaker.title }}</a></h4>
                              <a class="event-time text-muted format-date"
                                 href="session_{{ speaker.session_id }}.html">{{ speaker.time_start }}</a>
+                                <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                                    <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                                    <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                                </span>
                             <p>{{ speaker.abstract }}</p>
                             <h4 class="speaker-details-heading"> About</h4>
                             <p>{{ speaker.bio }}</p>
@@ -52,4 +56,5 @@
           {#allCards.style("order", ()=> Math.random()*10)#}
         })
     </script>
+    <script src="static/js/views/timezone.js"></script>
 {% endblock %}

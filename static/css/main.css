@@ -689,3 +689,63 @@ hr::after {
   font-size: 0.8 rem;
   letter-spacing: .01em;
 }
+
+/* tooltip used in calendar */
+.tooltip {
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* tooltip for timezone */
+.timezone {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.9rem;
+  border-bottom: 1px dotted var(--text-gray-color);
+}
+
+.tztooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tztooltip .tztooltiptext{
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--btn-inv-color);
+  color: var(--text-inv-color);
+  text-align: center;
+  padding: 5px 2px;
+  border-radius: 6px;
+
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.8rem;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tztooltip .tztooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tztooltip:hover {
+  cursor:help;
+}
+
+.tztooltip:hover .tztooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
