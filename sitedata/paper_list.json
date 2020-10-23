@@ -1868,7 +1868,7 @@
         ],
         "uid": "s-short-1042",
         "time_stamp": "2020-10-27T18:00:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
         "image_caption": "Magnetic reconnection is a ubiquitous plasma process in which oppositely directed magnetic field lines break and rejoin, resulting in a change of the magnetic field topology. Reconnection generates magnetic islands: regions enclosed by magnetic field lines and separated by reconnection points. Proper identification of these features is important to understand particle acceleration and overall behavior of plasma. We present a contour-tree based visualization for robust and objective identification of islands and reconnection points in two-dimensional (2D) magnetic reconnection simulations. ",
         "external_paper_link": "",
