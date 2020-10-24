@@ -291,10 +291,12 @@ const start = () => {
     .then(([papers, proj]) => {
       // all_proj = proj;
 
+      console.log(papers,proj,"--- papers,proj");
+
       const projMap = new Map();
       proj.forEach((p) => projMap.set(p.id, p.pos));
 
-      papers = papers.filter(d => !!d.abstract)
+      papers = papers.filter(d => !!d.abstract && projMap.get(d.UID));
       papers.forEach((p) => {
         p.pos = projMap.get(p.UID);
       });

@@ -323,8 +323,8 @@
                 "discord_channel": "evaluation-methods-extensions",
                 "discord_channel_id": "767932230210813952",
                 "youtube_url": "https://youtu.be/fZE-G3J9yvw",
-                "zoom_meeting": "",
-                "zoom_password": "",
+                "zoom_meeting": "https://us02web.zoom.us/j/85317890243?pwd=WlJBc2VXMkk4OXEwK00vNkpsSDgxZz09",
+                "zoom_password": "fnthKizR",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -459,8 +459,8 @@
                 "discord_channel": "design-methods-extensions",
                 "discord_channel_id": "767932304294674472",
                 "youtube_url": "https://youtu.be/pwl9U0Dp9us",
-                "zoom_meeting": "",
-                "zoom_password": "",
+                "zoom_meeting": "https://us02web.zoom.us/j/85976980717?pwd=ekx6MTI5Q2NKM0lUdWpna2pmTExXUT09",
+                "zoom_password": "VKJSIWOz",
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
@@ -522,8 +522,8 @@
                 "title": "Session 1",
                 "session_id": "a-vis4dh-1",
                 "chair": [
-                    "Eric Alexander",
                     "Florian Windhager",
+                    "Eric Alexander",
                     "Catherine DeRose"
                 ],
                 "organizers": [
@@ -554,7 +554,7 @@
                         "time_end": "2020-10-25T14:10:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded Talk",
                         "title": "Keynote: From the Flaneur to the Fold: Imbuing Data Visualization with Philosophy",
                         "contributors": [
                             "Marian D\u00f6rk"
@@ -749,8 +749,8 @@
                 "title": "Session 3",
                 "session_id": "a-vis4dh-3",
                 "chair": [
-                    "Houda Lamqaddam",
-                    "Catherine DeRose"
+                    "Catherine DeRose",
+                    "Houda Lamqaddam"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -819,9 +819,9 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
+                    "Menna El-Assady",
                     "Eric Alexander",
-                    "Chris Weaver",
-                    "Menna El-Assady"
+                    "Chris Weaver"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -1277,9 +1277,9 @@
                 "title": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
                 "session_id": "w-guides",
                 "chair": [
-                    "Alfie Abdul-Rahman",
                     "Benjamin Bach",
-                    "Alexandra Diehl"
+                    "Alexandra Diehl",
+                    "Alfie Abdul-Rahman"
                 ],
                 "organizers": [
                     "Benjamin Bach",
@@ -1421,11 +1421,11 @@
                 "title": "ParaView Tutorial",
                 "session_id": "t-paraview",
                 "chair": [
-                    "Ken Moreland",
-                    "Michael Migliore",
-                    "Ethan V. Stam",
+                    "Dan Lipsa",
                     "John M. Patchett",
-                    "Dan Lipsa"
+                    "Ethan V. Stam",
+                    "Michael Migliore",
+                    "Ken Moreland"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1544,8 +1544,8 @@
                 "title": "How to Make Your Empirical Research Transparent",
                 "session_id": "t-empiricaltransparent",
                 "chair": [
-                    "Steve Haroz",
-                    "Xiaoying Pu"
+                    "Xiaoying Pu",
+                    "Steve Haroz"
                 ],
                 "organizers": [
                     "Steve Haroz",
@@ -1814,10 +1814,10 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Pascal Nardini",
-                    "Danielle Szafir",
                     "Karen Schloss",
                     "Francesca Samsel",
+                    "Danielle Szafir",
+                    "Pascal Nardini",
                     "Stephanie Zeller"
                 ],
                 "organizers": [
@@ -2168,10 +2168,10 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
-                    "Jane Adams",
-                    "Paul Rosen",
+                    "Jordan Crouser",
                     "Lonni Besan\u00e7on",
-                    "Jordan Crouser"
+                    "Jane Adams",
+                    "Paul Rosen"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2205,7 +2205,7 @@
                         "time_end": "2020-10-25T18:10:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded Talk",
                         "title": "Workshop Organizer Lightning Talks",
                         "contributors": [
                             "Jane Adams",
@@ -2312,8 +2312,8 @@
                 "chair": [
                     "Alvitta Ottley",
                     "Adam Perer",
-                    "Liang Gou",
-                    "Hendrik Strobelt"
+                    "Hendrik Strobelt",
+                    "Liang Gou"
                 ],
                 "organizers": [
                     "Adam Perer",
@@ -2432,8 +2432,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Steve Gomez",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Steve Gomez"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2605,8 +2605,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Kristen Liggett",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Kristen Liggett"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -2867,10 +2867,10 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
-                    "Lace Padilla",
                     "Darren Edwards",
-                    "Rita Borgo",
-                    "Danielle Szafir"
+                    "Lace Padilla",
+                    "Danielle Szafir",
+                    "Rita Borgo"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -3231,9 +3231,9 @@
                 "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
+                    "Samuel Huron",
                     "Benjamin Bach",
-                    "Jonathan Roberts",
-                    "Samuel Huron"
+                    "Jonathan Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3782,8 +3782,8 @@
                 "title": "Invited Talks and Closing",
                 "session_id": "a-visinpractice-4",
                 "chair": [
-                    "Matt Larsen",
-                    "Leo Zhicheng Liu"
+                    "Leo Zhicheng Liu",
+                    "Matt Larsen"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3858,9 +3858,9 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Hendrik Strobelt",
                     "Adam Perer",
                     "Polo Chau",
+                    "Hendrik Strobelt",
                     "Menna El-Assady"
                 ],
                 "organizers": [
@@ -3993,8 +3993,8 @@
                 "title": "Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations",
                 "session_id": "w-futures",
                 "chair": [
-                    "Lora Oehlberg",
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Lora Oehlberg"
                 ],
                 "organizers": [
                     "Charles Perin",
@@ -4046,23 +4046,23 @@
                         "time_end": "2020-10-26T19:30:00Z"
                     },
                     {
-                        "type": "Live Presentations",
-                        "title": "Groups Reporting",
-                        "contributors": [
-                            "All Attendees"
-                        ],
-                        "abstract": null,
-                        "time_start": "2020-10-26T20:00:00Z",
-                        "time_end": "2020-10-26T20:20:00Z"
-                    },
-                    {
                         "type": "Zoom Breakout",
                         "title": "Trying Out",
                         "contributors": [
                             "All Attendees"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-26T20:20:00Z",
+                        "time_start": "2020-10-26T20:00:00Z",
+                        "time_end": "2020-10-26T20:40:00Z"
+                    },
+                    {
+                        "type": "Live Presentations",
+                        "title": "Groups Reporting",
+                        "contributors": [
+                            "All Attendees"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-26T20:40:00Z",
                         "time_end": "2020-10-26T21:00:00Z"
                     },
                     {
@@ -4238,9 +4238,9 @@
                 "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
                 "session_id": "w-astrophysics",
                 "chair": [
-                    "Lauren Anderson",
+                    "Bei Wang",
                     "Juna Kollmeier",
-                    "Bei Wang"
+                    "Lauren Anderson"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -8254,10 +8254,10 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
-                    "Jim Ahrens",
-                    "Silvio Rizzi",
                     "Jesus Pulido",
-                    "Pascal Grosset"
+                    "Pascal Grosset",
+                    "Silvio Rizzi",
+                    "Jim Ahrens"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8444,10 +8444,10 @@
                 "title": "VISAP Opening Event",
                 "session_id": "a-visap-opening",
                 "chair": [
-                    "Yoon Chung Han",
-                    "Carmen Hull",
                     "Erik Brunvand",
-                    "Maria Lantin"
+                    "Carmen Hull",
+                    "Maria Lantin",
+                    "Yoon Chung Han"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8805,7 +8805,7 @@
     },
     "vis-opening": {
         "event": "VIS",
-        "long_name": "VIS",
+        "long_name": "VIS Opening",
         "event_type": "VIS",
         "event_description": "",
         "event_url": "",
@@ -8845,7 +8845,7 @@
                         "time_end": "2020-10-27T13:43:00Z"
                     },
                     {
-                        "type": "Live Presentation, Slides by Tech",
+                        "type": "Recorded Talk",
                         "title": "VEC Intro",
                         "contributors": [
                             "Lisa Avila"
@@ -8862,9 +8862,9 @@
                 "chair": [
                     "Giuseppe Santucci",
                     "Mike Kirby",
-                    "Catherine Plaisant",
+                    "Valerio Pascucci",
                     "Terry Woo",
-                    "Valerio Pascucci"
+                    "Catherine Plaisant"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8943,7 +8943,17 @@
                         "time_end": "2020-10-27T14:25:00Z"
                     },
                     {
-                        "type": "Live Intro + Recorded Talk",
+                        "type": "Recorded Talk",
+                        "title": "VAST 10 Year Test of Time Award: iVisClassifier Introduction",
+                        "contributors": [
+                            "Giuseppe Santucci"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T14:25:00Z",
+                        "time_end": "2020-10-27T14:28:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
                         "title": "VAST 10 Year Test of Time Award: iVisClassifier: An interactive visual analytics system for classification based on supervised dimension reduction",
                         "contributors": [
                             "Jaegul Choo",
@@ -8952,7 +8962,7 @@
                             "Haesun Park\u00a0"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:25:00Z",
+                        "time_start": "2020-10-27T14:28:00Z",
                         "time_end": "2020-10-27T14:32:00Z"
                     },
                     {
@@ -8999,24 +9009,44 @@
                         "time_end": "2020-10-27T14:49:00Z"
                     },
                     {
-                        "type": "Live Intro + Recorded Talk",
+                        "type": "Recorded Talk",
+                        "title": "SciVis 25 Year Test of Time Award Introduction",
+                        "contributors": [
+                            "Terry Woo"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T14:49:00Z",
+                        "time_end": "2020-10-27T14:52:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
                         "title": "SciVis 25 Year Test of Time Award: High Dimensional Brushing for Interactive Exploration of Multivariate Data",
                         "contributors": [
                             "Allen R. Martin",
                             "Matthew O. Ward"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:49:00Z",
+                        "time_start": "2020-10-27T14:52:00Z",
                         "time_end": "2020-10-27T14:57:00Z"
                     },
                     {
-                        "type": "Live Intro + Recorded Talk",
+                        "type": "Recorded Talk",
+                        "title": "SciVis 15 Year Test of Time Award Introduction",
+                        "contributors": [
+                            "Terry Woo"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-27T14:57:00Z",
+                        "time_end": "2020-10-27T14:59:00Z"
+                    },
+                    {
+                        "type": "Recorded Talk",
                         "title": "SciVis 15 Year Test of Time Award: The Value of Visualization",
                         "contributors": [
                             "Jarke J. van Wijk"
                         ],
                         "abstract": null,
-                        "time_start": "2020-10-27T14:57:00Z",
+                        "time_start": "2020-10-27T14:59:00Z",
                         "time_end": "2020-10-27T15:05:00Z"
                     }
                 ]
@@ -9094,7 +9124,7 @@
     },
     "vis-keynote": {
         "event": "Keynote",
-        "long_name": "Keynote",
+        "long_name": "VIS Keynote",
         "event_type": "Keynote",
         "event_description": "For the first time in the history of the VIS conference, we will have a Nobel prize awardee as the keynote speaker: Mario Capecchi co-winner of the 2007 Nobel Prize in Physiology or Medicine.\n\nMario Capecchi, a renowned geneticist at the University of Utah, is a Distinguished Professor of Human Genetics with a unique life story of overcoming incredible odds when he nearly died as a child in the streets of Italy after his mother was arrested and put in a concentration camp by the Nazis during World War II.\n\nWith an uplifting message that is mainly directed towards the junior members of our community, Mario Capecchi will stress the importance of collaboration in scientific investigation and how strong collaborative research helped him in his professional journey towards the Nobel prize.",
         "event_url": "",
@@ -9645,7 +9675,7 @@
     },
     "vis-gala": {
         "event": "VIS",
-        "long_name": "VIS",
+        "long_name": "Utah Natural History Museum Tour and Reception",
         "event_type": "VIS",
         "event_description": "",
         "event_url": "",
@@ -9827,6 +9857,48 @@
                         "abstract": null,
                         "time_start": "2020-10-28T19:28:00Z",
                         "time_end": "2020-10-28T19:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "x-posters": {
+        "event": "VIS",
+        "long_name": "Poster Session",
+        "event_type": "VIS",
+        "event_description": "",
+        "event_url": "https://vis2020-ieee.ipostersessions.com/Default.aspx?s=vis2020_gallery",
+        "sessions": [
+            {
+                "title": "Poster Session",
+                "session_id": "x-posters",
+                "chair": [
+                    "Posters Chairs"
+                ],
+                "organizers": [
+                    "Posters Chairs"
+                ],
+                "display_start": "2020-10-28T19:30:00Z",
+                "time_start": "2020-10-28T19:30:00Z",
+                "time_end": "2020-10-28T20:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Discord Only",
+                        "title": "Poster Session",
+                        "contributors": [
+                            "Posters Chairs"
+                        ],
+                        "abstract": null,
+                        "time_start": "2020-10-28T19:30:00Z",
+                        "time_end": "2020-10-28T20:30:00Z"
                     }
                 ]
             }
@@ -10068,13 +10140,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Petra Isenberg",
-                    "Min Chen",
-                    "Alexander Lex",
-                    "Shixia Liu",
-                    "Anders Ynnerman",
                     "Alex Endert",
-                    "Christoph Garth"
+                    "Alexander Lex",
+                    "Christoph Garth",
+                    "Anders Ynnerman",
+                    "Min Chen",
+                    "Shixia Liu",
+                    "Petra Isenberg"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10190,9 +10262,9 @@
                 "title": "The Role of Visualization in Industrial Production",
                 "session_id": "l-industrial",
                 "chair": [
+                    "Petra Gospodnetic",
                     "Christina Gillmann",
-                    "Gerik Scheuermann",
-                    "Petra Gospodnetic"
+                    "Gerik Scheuermann"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10276,10 +10348,10 @@
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
-                    "Leilani Battle",
                     "Michelle Borkin",
-                    "Lane Harrison ",
-                    "Michael Correll "
+                    "Michael Correll ",
+                    "Leilani Battle",
+                    "Lane Harrison "
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -10398,7 +10470,7 @@
     },
     "vis-capstone": {
         "event": "Capstone",
-        "long_name": "Capstone",
+        "long_name": "VIS Capstone",
         "event_type": "Capstone",
         "event_description": "",
         "event_url": "",
@@ -10442,7 +10514,7 @@
     },
     "vis-closing": {
         "event": "VIS",
-        "long_name": "VIS",
+        "long_name": "VIS Closing",
         "event_type": "VIS",
         "event_description": "",
         "event_url": "",
