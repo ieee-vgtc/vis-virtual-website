@@ -730,12 +730,16 @@
         "title": "Extending Recommendations for Creative Visualization-Opportunities Workshops",
         "session_id": "a-beliv-4",
         "abstract": "Participatory design is an approach in human-computer interaction to involve all relevant stakeholders coequally in the design process. A recent participatory method for visualization design is the creative visualization-opportunities (CVO) workshop, which is used to efficiently develop visualization design requirements in the early stages of applied visualization work. In this paper we report on our experiences of running four CVO workshops in different domains with diverse participants to explore new methods and variations of workshop variables. Through reflection on our experiences we propose two contributions that extend existing guidance for planning, executing, and analyzing CVO workshops: a set of 12 pragmatic recommendations that extend and complement existing ones; and a recommended method for analyzing workshop results, called user stories. Additionally, we report on the outcomes of our successful workshops to provide evidence for the efficiacy of CVO workshops.",
-        "keywords": [],
+        "keywords": [
+            " Participatory design",
+            "visualization workshops",
+            "qualitative analysis"
+        ],
         "uid": "a-beliv-6130",
         "time_stamp": "2020-10-25T20:40:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
-        "image_caption": "We would like to do a live presentation.",
+        "image_caption": "",
         "external_paper_link": "",
         "ff_link": ""
     },
@@ -1864,7 +1868,7 @@
         ],
         "uid": "s-short-1042",
         "time_stamp": "2020-10-27T18:00:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
         "image_caption": "Magnetic reconnection is a ubiquitous plasma process in which oppositely directed magnetic field lines break and rejoin, resulting in a change of the magnetic field topology. Reconnection generates magnetic islands: regions enclosed by magnetic field lines and separated by reconnection points. Proper identification of these features is important to understand particle acceleration and overall behavior of plasma. We present a contour-tree based visualization for robust and objective identification of islands and reconnection points in two-dimensional (2D) magnetic reconnection simulations. ",
         "external_paper_link": "",
@@ -2075,7 +2079,7 @@
             "autonomous driving"
         ],
         "uid": "f-vast-1307",
-        "time_stamp": "2020-10-27T15:00:00Z",
+        "time_stamp": "2020-10-27T15:06:00Z",
         "has_image": true,
         "paper_award": "best",
         "image_caption": "A visual analytics system, VATLD, is presented to assess, understand, and improve the accuracy and robustness of traffic light detectors in autonomous driving applications. The VATLD user interface: (a) Summary and navigation of key performance statistics; (b) Visual landscapes of traffic lights (upper) and performance scores (lower) over the first two PCA components of semantic dimensions; (c) A live view to detect a traffic light from either real data or adversarial; (d) Ranked latent dimensions with information of semantics, performance and gradients.",
@@ -2097,7 +2101,7 @@
             "data cognition"
         ],
         "uid": "f-info-1187",
-        "time_stamp": "2020-10-27T15:15:00Z",
+        "time_stamp": "2020-10-27T15:20:00Z",
         "has_image": true,
         "paper_award": "best",
         "image_caption": "Visualization designs evaluated in our experiment.",
@@ -2126,7 +2130,7 @@
             "intrinsic covariant derivatives"
         ],
         "uid": "f-scivis-1144",
-        "time_stamp": "2020-10-27T15:30:00Z",
+        "time_stamp": "2020-10-27T15:35:00Z",
         "has_image": true,
         "paper_award": "best",
         "image_caption": "We illustrate the automatic computation of observer motion relative to the time evolution of features in flow fields, such as the time-dependent global wind data set shown here, with hurricane Isabel (2003) as the feature in the center. Feature-relative visualization is enabled by an observer field that is automatically computed via global optimization, minimizing the observed time derivative to make the observed field as steady as possible. Relative to the observer field, the hurricane appears to be static, with the Earth moving inversely underneath. This enables the direct analysis of the time evolution of features in place.",
@@ -2144,7 +2148,7 @@
         "abstract": null,
         "keywords": [],
         "uid": "s-short-1109",
-        "time_stamp": "2020-10-27T15:45:00Z",
+        "time_stamp": "2020-10-27T15:50:00Z",
         "has_image": true,
         "paper_award": "best",
         "image_caption": "Examples generated with the Anatomical Edutainer. (a) Printable 2D physicalizations of the human torso and head. In each representation, individual anatomical structures are matched to individual hues, which can be isolated (b) with the use of colored filters. (c) Foldable 3D physicalizations of the human pelvis, torso and head. Similarly to the 2D case, distinct hues are assigned to individual anatomical structures, which can be isolated with the use of colored lights (or colored filters, as in (b)).",
@@ -2576,7 +2580,7 @@
         "paper_award": "",
         "image_caption": "Unexpected behavior in multi-robot systems is often caused by asymmetries in the robots\u2019 worldviews\u2013 i.e., each robot\u2019s internal representation of its own state and of the other robots\u2019 presumed states. MOSAIC Viewer is a visual analytics tool that helps operators (i) make sense of the robots' schedules and (ii) detect and conduct a root cause analysis of the robots\u2019 desynchronized worldviews, designed to be used with the MOSAIC multi-agent distributed scheduling framework. We find that visualization and interaction make detection and analysis of desynchronizations considerably faster and easier compared with current approaches.\n",
         "external_paper_link": "",
-        "ff_link": "https://youtu.be/3RMPpkL0JoE"
+        "ff_link": "https://youtu.be/eIQdcLde9F0"
     },
     "f-vast-1203": {
         "authors": [
@@ -2825,6 +2829,25 @@
         "image_caption": "We present our short paper titled \u201cMapping the Global South: Equal-Area Projections for Choropleth Maps\u201d investigating the design choices of domain experts for choropleth maps. We conducted a survey with 20 social science researchers asking them to design world choropleth maps according to their research goals. Our results suggest that the design choices of map projection, center, scale, and color scheme, were influenced by their personal research goals and the tasks. The projection was considered the most important choice and the Equal Earth projection was the most common projection used.",
         "external_paper_link": "",
         "ff_link": "https://youtu.be/uZK8qY_TxxA"
+    },
+    "a-vizsec-1011": {
+        "authors": [
+            "Marija Schufrin",
+            "Steven Lamarr Reynolds",
+            "Arjan Kuijper",
+            "J\u00f6rn Kohlhammer"
+        ],
+        "title": "A Visualization Interface to Improve the Transparency of Collected Personal Data on the Internet",
+        "session_id": "a-vizsec-1",
+        "abstract": "Online services are used for all kinds of activities, like news, entertainment, publishing content or connecting with others. But information technology enables new threats to privacy by means of global mass surveillance, vast databases and fast distribution networks. Current news are full of misuses and data leakages. In most cases, users are powerless in such situations and develop an attitude of neglect for their online behaviour. On the other hand, the GDPR (General Data Protection Regulation) gives users the right to request a copy of all their personal data stored by a particular service, but the received data is hard to understand or analyze by the common internet user. This paper presents TransparencyVis - a web-based interface to support the visual and interactive exploration of data exports from different online services. With this approach, we aim at increasing the awareness of personal data stored by such online services and the effects of online behaviour. This design study provides an online accessible prototype and a best practice to unify data exports from different sources.",
+        "keywords": [],
+        "uid": "a-vizsec-1011",
+        "time_stamp": "2020-10-28T15:05:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": "https://youtu.be/GCrbktdEcBo"
     },
     "a-arts-1022": {
         "authors": [
@@ -3642,6 +3665,44 @@
         "external_paper_link": "https://doi.org/10.1109/MCG.2020.2973945",
         "ff_link": "https://youtu.be/lBSD1N9ODQg"
     },
+    "a-vizsec-1016": {
+        "authors": [
+            "Michal Beran",
+            "Franti\u0161ek Hrdina",
+            "Daniel Kou\u0159il",
+            "Radek O\u0161lej\u0161ek",
+            "Kristina Zakopcanova"
+        ],
+        "title": "Exploratory Analysis of File System Metadata for Rapid Investigation of Security Incidents",
+        "session_id": "a-vizsec-2",
+        "abstract": "Investigating cybersecurity incidents requires in-depth knowledge from the analyst. Moreover, the whole process is demanding due to the vast data volumes that need to be analyzed. While various techniques exist nowadays to help with particular tasks of the analysis, the process as a whole still requires a lot of manual activities and expert skills. We propose an approach that allows the analysis of disk snapshots more efficiently and with lower demands on expert knowledge. Following a user-centered design methodology, we implemented an analytical tool to guide analysts during security incident investigations. The viability of the solution was validated by an evaluation conducted with members of different security teams.",
+        "keywords": [],
+        "uid": "a-vizsec-1016",
+        "time_stamp": "2020-10-28T16:00:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": "https://youtu.be/zDbCn0e7shw"
+    },
+    "a-vizsec-1009": {
+        "authors": [
+            "Kenneth Alperin",
+            "Dr. Allan Wollaber",
+            "Dr. Steven R Gomez"
+        ],
+        "title": "Improving Interpretability for Cyber Vulnerability Assessment Using Focus and Context Visualizations",
+        "session_id": "a-vizsec-2",
+        "abstract": "Risk scoring provides a simple and quantifiable metric for decision support in cyber security operations, including prioritizing how to address discovered software vulnerabilities. However, scoring systems are often opaque to operators, which makes scores difficult to interpret in the context of their own networks, each other, or in a broader threat landscape. This interpretability challenge is exacerbated by recent applications of artificial intelligence (AI) and machine learning (ML) for vulnerability assessment, where opaque machine reasoning can hinder domain experts' trust in the decision-support toolkit or the actionability of its outputs. In this paper, we address this challenge through a combination of visualizations and analytics that complement existing techniques for vulnerability assessment. We present a study toward designing more interpretable visual encodings for decision support for vulnerability assessment. In particular, we consider the problem of making datasets of known vulnerabilities more interpretable at multiple scales, inspired by focus and context principles from the information visualization design community. The first scale considers individually scored vulnerabilities by using an explainable AI (XAI) toolkit for an ML risk-scoring model and by developing new visualizations of CVSS score features. The second scale uses an embedding for vulnerability descriptions to cluster potentially similar vulnerabilities. We outline use cases for these tools and discuss opportunities for applying XAI concepts to cyber risk and vulnerability management.",
+        "keywords": [],
+        "uid": "a-vizsec-1009",
+        "time_stamp": "2020-10-28T16:20:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": "https://youtu.be/8ivWjGAXrkE"
+    },
     "f-vast-1216": {
         "authors": [
             "Hiroaki Natsukawa",
@@ -4184,11 +4245,14 @@
         ],
         "title": "Visualizing information on watch faces: A survey with smartwatch users",
         "session_id": "s-papers-interact-animate",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "People increasingly wear smartwatches that can track a wide variety of data.  However, it is currently unknown which data people consume and how it is visualized.  To better ground research on smartwatch visualization, it is important to understand the current use of these representation types on smartwatches, and to identify missed visualization opportunities.  We present the findings of a survey with 237 smartwatch wearers, and assess the types of data and representations commonly displayed on watch faces. We found a predominant display of health & fitness data, with icons accompanied by text being the most frequent representation type. Combining these results with a further analysis of online searches of watch faces and the data tracked on smartwatches that are not commonly visualized, we discuss opportunities for visualization research. Supplementary material is available at https://osf.io/nwy2r/.",
+        "keywords": [
+            "Empirical Studies in Visualization",
+            "Mobile Devices"
+        ],
         "uid": "s-short-1199",
         "time_stamp": "2020-10-28T18:40:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
         "image_caption": "Smartwatch face examples (from Facer [13]) with increasing amounts of data items and representation types. From left to right: Material Volcano (BlueIceshard), Pie Charts II (Sunny Liao), Minimal Colors H (AK Watch), and Earthshade (Brad C). The graph on the right shows common pairs of data types displayed on the watch faces our 237 survey participants used. Circle colors correspond to three data categories: Health & Fitness, Weather & Planetary, and Device & Location.",
         "external_paper_link": "",
@@ -4230,6 +4294,67 @@
         "image_caption": "Sample gaze-driven intervention for magazine style narrative visualizations in the form of visual links meant to support mapping of the datapoints in the visualization that are referred to in the specific sentence the user is reading, as captured by an eye tracker.",
         "external_paper_link": "",
         "ff_link": "https://youtu.be/vKFBZ8IfxCw"
+    },
+    "a-vizsec-1007": {
+        "authors": [
+            "Chao Peng",
+            "David Schwartz",
+            "Professor Daryl Johnson Johnson",
+            "Bill Stackpole",
+            "Chad Weeden",
+            "Jacob Marcovecchio",
+            "Drake Richards",
+            "Chris Fogle",
+            "Christopher Brown",
+            "Victoria Walrond"
+        ],
+        "title": "Visualization for Spectators in Cybersecurity Competitions",
+        "session_id": "a-vizsec-3",
+        "abstract": "The goal is to raise awareness and encourage learning cybersecurity principles by making competitions appealing to a wider audience. In an effort to make events compelling, attractive, and watchable, the researchers will develop systems to support visualizations and make the transactions between teams in different cybersecurity competitions easy to comprehend. In informing and educating the audience on the intricacies of the competition through engaging visualizations, cybersecurity competitions will be opened up to a world beyond just participants. In doing so, we can potentially attract new talent into the field. Our team seeks to make prototype visualizations for key actions in various student cybersecurity competitions and assess spectator understanding of key principles of the competition.",
+        "keywords": [],
+        "uid": "a-vizsec-1007",
+        "time_stamp": "2020-10-28T18:00:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": "https://youtu.be/VfNjhVQG24c"
+    },
+    "a-vizsec-1010": {
+        "authors": [
+            "Emily J Chaffey",
+            "Dr Daniele Sgandurra"
+        ],
+        "title": "Malware vs Anti-Malware Battle - Gotta Evade 'em All",
+        "session_id": "a-vizsec-3",
+        "abstract": "The landscape of malware development is ever-changing, creating a constant catch-up contest between the defenders and the adversaries. One of the methodologies that has the potential to pose a significant threat to systems is malware evasion. This is where malware tries to determine whether it is run in a controlled environment, such as a sandbox. Similarly, a malware can also learn how an Anti-Malware System (AMS) decides whether an input program is a malware or in fact benign with the goal of bypassing it. On the other hand, the AMS tries to detect whether a malware sample is performing such evasive checks, e.g. by evaluating the results of Reverse-Turing Test (RTT). This learning process can be viewed as a \u2018battle\u2019 between the AMS and the malware, due to the malware attempting to defeat the AMS, where a successful win for the malware would be to evade detection by the AMS and, conversely, a win for the AMS would be to correctly detect the malware and its evasive actions. We propose a visualisation-based system, called Gotta Evade \u2018em All, that allows cyber-security analysts to clearly see the evasive and anti-evasive actions performed by the malware and the AMS during the battle.",
+        "keywords": [],
+        "uid": "a-vizsec-1010",
+        "time_stamp": "2020-10-28T18:20:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": "https://youtu.be/KaxJBrRrbH8"
+    },
+    "a-vizsec-1017": {
+        "authors": [
+            "Franziska Becker",
+            "Arthur Drichel",
+            "Christoph M\u00fcller",
+            "Thomas Ertl"
+        ],
+        "title": "Interpretable Visualizations of Deep Neural Networks for Domain Generation Algorithm Detection",
+        "session_id": "a-vizsec-3",
+        "abstract": "Due to their success in many application areas, deep learning models have found wide adoption for many problems. However, their black-box nature makes it hard to trust their decisions and to evaluate their line of reasoning. In the field of cybersecurity, this lack of trust and understanding poses a significant challenge for the utilization of deep learning models. Thus, we present a visual analytics system that provides designers of deep learning models for the classification of domain generation algorithms with understandable interpretations of their model. We cluster the activations of the model's nodes and leverage decision trees to explain these clusters. In combination with a 2D projection, the user can explore how the model views the data at different layers. In a preliminary evaluation of our system, we show how it can be employed to better understand misclassifications, identify potential biases and reason about the role different layers in a model may play.",
+        "keywords": [],
+        "uid": "a-vizsec-1017",
+        "time_stamp": "2020-10-28T18:35:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": "https://youtu.be/MiEOvB_RPDQ"
     },
     "f-vast-1130": {
         "authors": [
@@ -4675,7 +4800,7 @@
         "paper_award": "",
         "image_caption": "Conditions tested in our user study: a) Room-sized interface (or Rm ). b) Room-sized interface with an overview (or RmO ). c) Zooming interface (or Zm): users zoom in and out with a \u201cpinch\u201d gesture. d) Zooming interface with an overview (or ZmO).",
         "external_paper_link": "",
-        "ff_link": "https://youtu.be/kL9_Ylmqc0g"
+        "ff_link": "https://youtu.be/LnC0YWbz7SI"
     },
     "f-vast-1010": {
         "authors": [
@@ -7770,7 +7895,7 @@
         "uid": "f-info-1084",
         "time_stamp": "2020-10-30T16:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Prototypes of data visceralizations in VR which seek to provide a deeper understanding of physical measurements, based on popular data representations. (a) Scorecard of results in seconds from Olympic Men's 100 m. (b) Data visceralization equivalent to experience one-to-one scale of Olympic sprint speeds. (c) Comparison diagram of tall skyscrapers (\u00a9 Saggittarius A, CC BY-SA 4.0). (d) Data visceralization equivalent to experience and compare true one-to-one scale of select skyscrapers.",
         "external_paper_link": "",
         "ff_link": "https://youtu.be/C3q5XhdanXk"
@@ -7829,7 +7954,7 @@
         "uid": "f-info-1362",
         "time_stamp": "2020-10-30T17:00:00Z",
         "has_image": false,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Overview of design space of experimental methods. We present a four component design space to guide researchers in creating visualization studies grounded in vision science research methods.",
         "external_paper_link": "",
         "ff_link": "https://youtu.be/v6bJwsHxRLY"

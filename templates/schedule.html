@@ -28,6 +28,10 @@
             <span class="fas mr-1">&#xf0c7;</span>
             Set
           </button>
+          <button type="button" id="resetTz" class="btn btn-light">
+            <span class="fas mr-1">&#xf0e2;</span>
+            Reset
+          </button>
       </div>
       <div class="col-md-6 d-flex flex-wrap" id="color-legend"></div>
     </div>
@@ -68,7 +72,7 @@
                 <div id="day">
                     <div class="row">
                       <div class="col-md-12">
-                        <h1>Full list of sessions on {{ day }}</h1>
+                        <h1>Full list of sessions on <abbr title="The conference day, as defined by Mountain Time (GMT-6).  In your timezone, these events may roll into the next calendar day.">{{ day }}</abbr></h1>
                       </div>
                     </div>
                     <div class="sessions">

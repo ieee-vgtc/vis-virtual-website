@@ -1,8 +1,10 @@
 function make_cal(name) {
+
+  const ref_tz = "UTC";
+
   return new Promise((resolve) => {
     // ...promise fulfilled after cal is rendered.
 
-    // TODO: set value in cookie if we can; read in base.html
     const current_tz = getUrlParameter('tz') || window.localStorage.getItem(
       "tz") || moment.tz.guess();
     const tzNames = [...moment.tz.names()];
@@ -48,16 +50,15 @@ function make_cal(name) {
       const dates = [];
 
 
-      const currDate = moment(startDate);
-      const lastDate = moment(endDate);
+      const currDate = moment(startDate).tz(ref_tz);
+      const lastDate = moment(endDate).tz(ref_tz);
 
-      dates.push(currDate.clone());
+      dates.push(currDate.clone().toDate());
       while (currDate.add(1, 'days').diff(lastDate) < 0) {
-        // console.log(currDate, "--- currDate");
-        dates.push(currDate.clone());
+        dates.push(currDate.clone().toDate());
       }
 
-      dates.push(lastDate);
+      dates.push(lastDate.toDate());
       return dates;
     };
 
@@ -70,18 +71,26 @@ function make_cal(name) {
         const all_cals = [];
         const timezoneName = current_tz;
 
-        const min_date = d3.min(events.map(e => e.start));
-        var min_hours = d3.min(
-          events.map(e => moment(e.start).tz(timezoneName).hours())) - 1;
-        var max_hours = d3.max(
-          events.map(e => moment(e.end).tz(timezoneName).hours())) + 1;
-        if (min_hours < 0 || max_hours > 24) {
-          min_hours = 0;
-          max_hours = 24;
-        }
+        const min_date = d3.min(
+          events.map(e => moment(e.start).tz(ref_tz).format()));
+
+        // var min_hours = d3.min(
+        //   events.map(e => moment(e.start).tz(ref_tz).hours()));
+        // var max_hours = d3.max(
+        //   events.map(e => moment(e.end).tz(ref_tz).hours()));
+        // if (min_hours < 0 || max_hours > 24) {
+        //   min_hours = 0;
+        //   max_hours = 24;
+        // }
+
+        // manually set the offsets for the calendar based on GMT
+        const min_hours = 6+6;
+        const max_hours = 17+6;
+
+        const middleDay = moment(min_date).add(3, 'days');
 
         let renderAllTexts = false;
-        // console.log(min_hours, max_hours);
+        let timeDayReference = middleDay.format("YYYY-MM-DD");
         const Calendar = tui.Calendar;
         const calendar = new Calendar('#calendar', {
           defaultView: 'week',
@@ -97,26 +106,35 @@ function make_cal(name) {
             hourEnd: max_hours
           },
           timezones: [{
-            timezoneOffset: -moment.tz.zone(timezoneName)
-              .utcOffset(moment(min_date)),
+            timezoneOffset: 0, //all dates in GMT
             displayLabel: timezoneName,
             tooltip: timezoneName
           }],
-          // timezones: [{
-          //     getTimezoneOffset: 540,
-          //     displayLabel: 'a',
-          //     tooltip: timezoneName
-          // }],
           template: {
             monthDayname: function (dayname) {
               return '<span class="calendar-week-dayname-name">' + dayname.label + '</span>';
             },
             time: function (schedule) {
               return (schedule.calendarId === 'vis' || schedule.calendarId === 'memorial' ||
-                  schedule.calendarId == "keynote" || schedule.calendarId == "capstone" || renderAllTexts) ? '<strong>' + moment(
+                schedule.calendarId == "keynote" || schedule.calendarId == "capstone" || renderAllTexts) ? '<strong>' + moment(
                 schedule.raw.realStart)
                 .tz(timezoneName)
                 .format('HH:mm') + '</strong> ' + schedule.title : '';
+            },
+            timegridDisplayPrimaryTime: function (x) {
+              const cDate = timeDayReference + ` ${x.hour}:00`
+              const timeRef = moment.tz(cDate, ref_tz);
+              const newTime = timeRef.clone().tz(timezoneName)
+              let ret = newTime.hour();
+              const dayDiff = newTime.date() - timeRef.date()
+
+              // if the current time is in DST and the target time is not (or vice versa), tweak hour offset
+              // NOTE: currently only supports 1 hour offsets; 2 hour offsets exist
+              const timezoneDiff = new Date().getTimezoneOffset() - newTime.toDate().getTimezoneOffset();
+              if (timezoneDiff === 60) ret -= 1;
+              if (timezoneDiff === -60) ret += 1;
+
+              return (dayDiff !== 0 ? (dayDiff > 0 ? '+' + dayDiff : dayDiff) + 'd ' : '') + ret + ':00'
             },
             milestone: function (schedule) {
               return '<span class="calendar-font-icon ic-milestone-b"></span> <span style="background-color: ' + schedule.bgColor + '"> M: ' + schedule.title + '</span>';
@@ -156,17 +174,27 @@ function make_cal(name) {
           calendar.setCalendars(cals);
         }
 
-        let week_dates = enumerateDaysBetweenDates(
-          calendar.getDateRangeStart().toDate(),
-          calendar.getDateRangeEnd().toDate()
-        );
+        // let week_dates = enumerateDaysBetweenDates(
+        //   // calendar.getDateRangeStart().toDate(),
+        //   // calendar.getDateRangeEnd().toDate()
+        //   "2020-10-25", "2020-10-30"
+        // );
+
+        // manually set the dates
+        let week_dates = [
+          "2020-10-25",
+          "2020-10-26",
+          "2020-10-27",
+          "2020-10-28",
+          "2020-10-29",
+          "2020-10-30"
+        ];
+
         // drop the last day (conference is 6 days)
         week_dates = week_dates.slice(0, 6);
-
-        // const c_sm = d3.select('#calendar_small')
+        console.log(week_dates,"--- week_dates");
         let i = 1;
         for (const day of week_dates) {
-          // c_sm.append('div').attr('id', 'cal__' + i);
           const cal = new Calendar('#cal__' + i, {
             defaultView: 'day',
             isReadOnly: true,
@@ -176,21 +204,21 @@ function make_cal(name) {
             usageStatistics: false,
 
             week: {
-              startDayOfWeek: 6, // IEEE VIS starts on Saturday
+              startDayOfWeek: 7, // IEEE VIS starts on Sunday
               workweek: !config.calendar["sunday_saturday"],
               hourStart: min_hours,
               hourEnd: max_hours
             },
             timezones: [{
-              timezoneOffset: -moment.tz.zone(timezoneName)
-                .utcOffset(moment(min_date)),
+              timezoneOffset: 0, // GMT is ref
               displayLabel: timezoneName,
               tooltip: timezoneName
             }],
           })
 
-          cal.setDate(day.toDate());
-          cal.createSchedules(events);
+          cal.setDate(day); // give TUI a string; it'll parse and pick the day for the locale
+          const daysEvents = events.filter(e => e.start.split("T")[0] === day);
+          cal.createSchedules(daysEvents);
           cal.on({
             'clickSchedule': function (e) {
               const s = e.schedule
@@ -200,7 +228,6 @@ function make_cal(name) {
             },
           })
 
-          all_cals.push(cal);
           const cols = config.calendar.colors;
           if (cols) {
             const cals = [];
@@ -215,19 +242,18 @@ function make_cal(name) {
             })
 
             cal.setCalendars(cals);
-
           }
 
+          all_cals.push(cal);
           i++;
-
-
         }
 
         function render(all_cals) {
           all_cals.forEach(c => {
-            if (c === calendar){
+            if (c === calendar) {
+              timeDayReference = middleDay.format("YYYY-MM-DD");
               renderAllTexts = false
-            }else{
+            } else {
               renderAllTexts = true
             }
             c.render(true)

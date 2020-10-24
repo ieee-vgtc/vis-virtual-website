@@ -43,6 +43,10 @@ FAQ:
 
   - Section: Content issues
     QA:
+      - Question: I registered to get downloadable content?  How do I get that .zip?
+        Answer: |-
+          If you registered to get downloadable content, then you will receive a separate e-mail providing you a link to download that content.  This e-mail will be separate from the e-mail with your virtual site authentication details.  We don't offer this link on this website due to the different tiers of registration.
+
       - Question: I am one of the authors of a paper.  How do I update the image/caption/abstract associated with the paper?
         Answer: |-
           Please make your request in #support on Discord.  We will make an effort based on our ability to respond to your request.
