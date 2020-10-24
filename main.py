@@ -477,6 +477,16 @@ def capstone():
     data["session"]["speaker"] = site_data["speakers"][1]
     return render_template("keynote_or_capstone.html", **data)
 
+@app.route("/session_x-posters.html")
+def poster_session():
+    uid = "x-posters"
+    v = by_uid["sessions"][uid]
+    data = _data()
+    data["requires_auth"] = True
+    data["session"] = format_by_session_list(v)
+    data["event"] = format_session_as_event(by_uid['events'][uid], uid)
+    return render_template("poster_session.html", **data)
+
 
 @app.route("/session_<session>.html")
 def session(session):
