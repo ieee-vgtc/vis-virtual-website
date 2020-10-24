@@ -695,6 +695,11 @@ hr::after {
   font-family: "Fira Sans", sans-serif;
 }
 
+/* tooltip for schedule days */
+.note{
+  border-bottom: 2px dotted;
+}
+
 /* tooltip for timezone */
 .timezone {
   font-family: "Fira Sans", sans-serif;
@@ -709,7 +714,7 @@ hr::after {
 
 .tztooltip .tztooltiptext{
   visibility: hidden;
-  width: 120px;
+  width: 150px;
   background-color: var(--btn-inv-color);
   color: var(--text-inv-color);
   text-align: center;
@@ -723,7 +728,7 @@ hr::after {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -75px;
 
   opacity: 0;
   transition: opacity 0.3s;
