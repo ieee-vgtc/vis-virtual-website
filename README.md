@@ -3,13 +3,17 @@
 <iframe class="" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TRVB7399ynY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+### Social Media
+
+Please feel free to use social media to talk about IEEE VIS 2020, but
+do not share links to copyrighted material or zoom links.
+Enjoy  <span style="font-size:16pt;">#ieeevis2020</span>  
+
 ### Authentication
 
 You need to authenticate with our website to access the session listings, download content, and see organized listing of live events.  To register, please visit [http://ieeevis.org/](http://ieeevis.org/year/2020/info/registration/conference-registration).
 
 You should receive an e-mail with an auto-generated password to the e-mail you used to register for the conference.  If you didn't receive the e-mail, please check your spam folder.  The e-mails are sent from the superministream.com domain (via Google G Suite).  If you are still having trouble, please ask in #support in Discord or e-mail web@ieeevis.org.
-
-**NOTE: We are currently working through emailing our backlog of registrants.  We anticipate this process to finish by Friday, October 23rd.**
 
 
 ### Help
