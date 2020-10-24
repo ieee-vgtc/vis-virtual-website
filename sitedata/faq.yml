@@ -21,7 +21,9 @@ FAQ:
         Answer: |-
           Please head over to our [main site's registration page and sign up using Tina](http://ieeevis.org/year/2020/info/registration/conference-registration).  After registring, our authentication system should send you an e-mail with an auto-generated password to access protected pages on this website.
 
-          This e-mail will come from the ieeevis.org domain.  If you have not received an e-mail within an hour of registering, please join #support on Discord or e-mail [web@ieeevis.org](mailto:web@ieeevis.org).
+          If you register using the Cvent system (e.g., paid registration), we get manual daily dumps of registration information daily.  Please also sign up via Tina (for free) to get quicker access to authenticated content.
+
+          This e-mail will come from the superministream.com domain (via Google G-Suite).  If you have not received an e-mail within an hour of registering with Tina, please join #support on Discord or e-mail [web@ieeevis.org](mailto:web@ieeevis.org).
 
       - Question: How long will content be available on this virtual website?
         Answer: |-
@@ -46,6 +48,12 @@ FAQ:
       - Question: I registered to get downloadable content?  How do I get that .zip?
         Answer: |-
           If you registered to get downloadable content, then you will receive a separate e-mail providing you a link to download that content.  This e-mail will be separate from the e-mail with your virtual site authentication details.  We don't offer this link on this website due to the different tiers of registration.
+
+      - Question: Why can't I play live-stream videos embedded on session pages?
+        Answer: |-
+          Honestly, ask YouTube.  YouTube does not allow accounts (e.g. IEEE VIS) to embed live-streams until we reach 1,000 subscribers and 10,000 video hours watched.  The message "Playback on other websites has been disabled by the video owner" is not a reflection of an option that we can control for live-streamed videos, unfortunately.
+
+          At the conclusion of each session's live-stream, we will attempt to update videos to be embeddable &mdash; though note that this is a manual process so this may not be done instantenously.  Please use the link in the description just under the video to access the video natively on YouTube.
 
       - Question: I am one of the authors of a paper.  How do I update the image/caption/abstract associated with the paper?
         Answer: |-
