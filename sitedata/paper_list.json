@@ -2145,8 +2145,11 @@
         ],
         "title": "The Anatomical Edutainer",
         "session_id": "vis-opening-3",
-        "abstract": null,
-        "keywords": [],
+        "abstract": "Physical visualizations (i.e., data representations by means of physical objects) have been used for many centuries in medical and anatomical education. Recently, 3D printing techniques started also to emerge. Still, other medical physicalizations that rely on affordable and easy-to-find materials are limited, while smart strategies that take advantage of the optical properties of our physical world have not been thoroughly investigated. We propose the Anatomical Edutainer, a workflow to guide the easy, accessible, and affordable generation of physicalizations for tangible, interactive anatomical edutainment. The Anatomical Edutainer supports 2D printable and 3D foldable physicalizations that change their visual properties (i.e., hues of the visible spectrum) under colored lenses or colored lights, to reveal distinct anatomical structures through user interaction",
+        "keywords": [
+            "Scientific Visualization",
+            "Life and medical sciences"
+        ],
         "uid": "s-short-1109",
         "time_stamp": "2020-10-27T15:50:00Z",
         "has_image": true,
