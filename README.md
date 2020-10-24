@@ -7,7 +7,7 @@
 
 Please feel free to use social media to talk about IEEE VIS 2020, but
 do not share links to copyrighted material or zoom links.
-Enjoy  <span style="font-size:16pt;">#ieeevis2020</span>  
+Enjoy the 2020 edition of  <span style="font-size:16pt;">#ieeevis</span>  
 
 ### Authentication
 
