@@ -17,8 +17,39 @@ $(document).ready(function () {
         const element = $(e);
         const timestamp = element.text();
 
-        let output = moment(timestamp).fromNow();
-        element.text(output);
+        let timer = () => {
+            if (timestamp.indexOf("–") === -1) {
+                element.text(moment(timestamp).tz(current_timezone).fromNow());
+                return;
+            }
+
+            let parts = timestamp.split(" – ");
+            let start = moment(parts[0]).tz(current_timezone);
+            let end = moment(parts[1]).tz(current_timezone);
+
+            const isLive = moment().tz(current_timezone).isBetween(start, end);
+            const timeString = moment(start).tz(current_timezone).fromNow();
+            if (isLive) {
+                element.text(`Live! Started ${timeString}`);
+                element.addClass("bg-success text-white p-1");
+            }
+            else {
+                element.removeClass("bg-success text-white p-1");
+                const isBefore = moment().tz(current_timezone).isBefore(moment(start).tz(current_timezone));
+                if (isBefore)
+                    element.text(`Starting ${timeString}`);
+                else {
+                    let finishedStrinng = moment(end).tz(current_timezone).fromNow();
+                    element.text(`Finished ${finishedStrinng}`)
+                }
+            }
+
+            setTimeout(() => {
+                timer();
+            }, 30 * 1000);
+        };
+        timer();
+
     });
 
     $(".current-time").each((_, e) => {
