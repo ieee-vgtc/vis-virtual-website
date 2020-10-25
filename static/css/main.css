@@ -533,6 +533,7 @@ hr::after {
 /* h3 */
 .session-list-session,
 .session-chair,
+.session-url,
 .paper-authors
 {
   font-family: "Fira Sans", sans-serif;
