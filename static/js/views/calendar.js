@@ -121,6 +121,11 @@ function make_cal(name) {
                 .tz(timezoneName)
                 .format('HH:mm') + '</strong> ' + schedule.title : '';
             },
+            timegridCurrentTime: function(x) {
+              return moment(new Date(x.hourmarker))
+                .tz(timezoneName)
+                .format("HH:mm");
+            },
             timegridDisplayPrimaryTime: function (x) {
               const cDate = timeDayReference + ` ${x.hour}:00`
               const timeRef = moment.tz(cDate, ref_tz);
