@@ -26,8 +26,8 @@ $(document).ready(function () {
 
         // update every 30s
         let timer = () => {
-            const curTime = moment().format("dddd, MMM Do @ HH:mm");
-            element.text(`Current time: ${curTime}`);
+            const curTime = moment().tz(current_timezone).format("dddd, MMM Do @ HH:mm");
+            element.text(`Your current time: ${curTime}`);
             setTimeout(() => {
                 timer();
             }, 30 * 1000);
