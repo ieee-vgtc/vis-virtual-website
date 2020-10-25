@@ -6,8 +6,10 @@
 ### Social Media
 
 Please feel free to use social media to talk about IEEE VIS 2020, but
-do not share links to copyrighted material or zoom links.
+do not share links to copyrighted material or Zoom links.
 Enjoy the 2020 edition of <strong>#ieeevis</strong>.
+
+The YouTube chat is synchronized with the Discord chat for all live-streams of sessions.  Please note that any message posted to a session's Discord channel will also be publicly viewable on YouTube.  If you wish to restrict this for an individual message, please prefix with a hyphen: '-'.
 
 ### Authentication
 

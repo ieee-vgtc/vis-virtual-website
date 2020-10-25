@@ -218,9 +218,13 @@ const start = () => {
 d3.selectAll(".filter_option input").on("click", function () {
   const me = d3.select(this);
 
+  const currentFilter = $('.typeahead_all').eq(1).val();
   const filter_mode = me.property("value");
+
+  filters[filter_mode] = currentFilter;
+
   setQueryStringParameter("filter", filter_mode);
-  setQueryStringParameter("search", "");
+  setQueryStringParameter("search", currentFilter);
   updateFilterSelectionBtn(filter_mode);
 
   setTypeAhead(filter_mode, allKeys, filters, render);
@@ -242,7 +246,15 @@ d3.selectAll(".render_option input").on("click", function () {
 
 const sortFunctions = {
   "random": (a, b) => null,
-  "bookmarked": (a, b) => -(a.bookmarked ? 1 : 0) + (b.bookmarked ? 1 : 0),
+  "bookmarked": (a, b) => {
+    if (a.bookmarked) {
+      if (b.bookmarked) // try to sort by time of presentation ascending
+        return new Date(a.time_stamp) - new Date(b.time_stamp);
+      return -1
+    }
+    else if (b.bookmarked) return 1;
+    return 0;
+  },
   "visited": (a, b) => -(a.read ? 1 : 0) + (b.read ? 1 : 0),
   "visited_not": (a, b) => (a.read ? 1 : 0) - (b.read ? 1 : 0),
   "todo": (a, b) => -((a.read ? 0 : 1) + (a.bookmarked ? 2 : 0)) + ((b.read ? 0 : 1) + (b.bookmarked ? 2 : 0))
@@ -291,7 +303,7 @@ const card_image = (paper, show) => {
 
 const card_detail = (paper, show) => {
   if (show)
-    return ` 
+    return `
      <div class="pp-card-header" style="overflow-y: auto;">
      <div style="width:100%; ">
         <p class="card-text"><span class="font-weight-bold">Keywords:</span>
@@ -354,9 +366,9 @@ const card_html = (paper) =>
   `
         <div class="pp-card pp-mode-${render_mode} ">
             <div class="pp-card-header" style="">
-              <div class="checkbox-paper fas ${paper.read ? "selected" : ""}" 
+              <div class="checkbox-paper fas ${paper.read ? "selected" : ""}"
               style="display: block;position: absolute; bottom:${render_mode === MODE.detail ? 375 : 35}px;left: 35px;">&#xf00c;</div>
-              <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}" 
+              <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
               <a href="${API.posterLink(paper)}"
               target="_blank"
@@ -367,7 +379,7 @@ const card_html = (paper) =>
                       ${paper.authors.map(
     s => `<a href="papers.html?filter=authors&search=${s}">${s}</a>`)
     .join(", ")}
-              </h6>              
+              </h6>
 
               <div class="card-subtitle text-muted mt-2" style="text-align: left;">
                      <a class="has_tippy" href ="session_${paper.session_id}.html" target="_blank" data-tippy-content="go to session ${paper.session_title}">${formatTime(
@@ -375,10 +387,10 @@ const card_html = (paper) =>
     s => `<a class="has_tippy" href="papers.html?filter=sessions&search=${s}" data-tippy-content="filter all papers in session:">${s}</a>`)
     .join(",")}
               </div>
-              
+
               ${card_image(paper, render_mode !== MODE.mini)}
             </div>
-               
+
                 ${card_detail(paper, render_mode === MODE.detail)}
         </div>`;
 
