@@ -12,6 +12,13 @@
         </nav>
 
         <h1 class="session-title">{{ session.fullTitle }}</h1>
+        {% if session.event_url %}
+        <h3 class="session-url">
+            <a href="{{ session.event_url }}" target="_blank">
+                <span class="fas mr-1">&#xf57c;</span>
+                {{ session.event_url }}</a>
+        </h3>
+        {% endif %}
         {% if session.chair %}
         <h3 class="session-chair">
             <span class="fas mr-1">&#xf007;</span>

@@ -533,7 +533,10 @@ hr::after {
 /* h3 */
 .session-list-session,
 .session-chair,
-.paper-authors
+.session-url,
+.paper-authors,
+.event-organizers,
+.event-url
 {
   font-family: "Fira Sans", sans-serif;
   color: var(--text-dark-color);
@@ -543,6 +546,7 @@ hr::after {
 /* h5 */
 .session-list-date,
 .session-date,
+.event-date,
 .paper-link,
 .paper-presentation,
 .speaker-name
