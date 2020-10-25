@@ -10,3 +10,28 @@ function getTimezone() {
 
     return moment.tz.guess();
 }
+
+// compute relative time
+$(document).ready(function () {
+    $(".relative-time").each((_, e) => {
+        const element = $(e);
+        const timestamp = element.text();
+
+        let output = moment(timestamp).fromNow();
+        element.text(output);
+    });
+
+    $(".current-time").each((_, e) => {
+        const element = $(e);
+
+        // update every 30s
+        let timer = () => {
+            const curTime = moment().format("dddd, MMM Do @ HH:mm");
+            element.text(`Current time: ${curTime}`);
+            setTimeout(() => {
+                timer();
+            }, 30 * 1000);
+        };
+        timer();
+    });
+});

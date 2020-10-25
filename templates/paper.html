@@ -51,14 +51,19 @@
                 </h5>
             {% endif %}
             <h5 class="paper-presentation pb-2">
-                
+
                 <a href="/session_{{ paper.session_id }}.html">
-                    <span class="fas mr-1">&#xf108;</span> 
-                    View presentation:</a> 
-                <span class="format-date">{{ paper.time_stamp }}</span> 
+                    <span class="fas mr-1">&#xf108;</span>
+                    View presentation:</a>
+                <span class="format-date">{{ paper.time_stamp }}</span>
                 <span alt="Change timezone on schedule page" class="timezone tztooltip">
                     <strong>GMT<span class="selectedTimezone">-0600</span></strong>
                     <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                </span>
+                <br>
+                <span style="margin-left: 2rem; font-size: 1rem;" class="timezone tztooltip">
+                    <span class="relative-time">{{ paper.time_stamp }}</span>
+                    <span class="current-time tztooltiptext"></span>
                 </span>
             </h5>
         </div>
