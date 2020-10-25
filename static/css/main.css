@@ -620,6 +620,10 @@ hr::after {
   padding-top: 3rem;
 }
 
+.alert-link {
+  text-decoration: underline;
+}
+
 .integration-description {
   color: var(--icon-color);
   font-size: 0.85rem;

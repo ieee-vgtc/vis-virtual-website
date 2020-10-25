@@ -39,11 +39,13 @@
                 Jump to event listing
                 <span class="fas mr-2">&#xf358;</span></a>
         </h5>
+        {% if session.ff_playlist %}
         <h5 class="session-info my-4">
             <a href="#ff">
                 Jump to Fast Forwards
                 <span class="fas mr-2">&#xf87c;</span></a>
         </h5>
+        {% endif %}
         <h5 class="session-info my-4">
             <a href="https://ieeevis.b-cdn.net/vis_2020/ics/{{ session.id }}.ics">
                 <span class="fas mr-2">&#xf073;</span>
@@ -65,7 +67,7 @@
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
         <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}">{{ session.youtube_url }}</a></p>
+        <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p>
     </div>
 </div>
 {% endif %}
@@ -79,13 +81,15 @@
 {% endif %}
 
 {% if session.zoom_meeting %}
-<div class="row my-3">
+<div class="row mt-5 mb-3">
     <div class="col-lg-10">
-        {% if session.timeSlots[0].type == "Zoom Only" %}
-        This session takes place on <a href="{{ session.zoom_meeting }}">Zoom</a> only.
-        {% else %}
-        You can join this session via <a href="{{ session.zoom_meeting }}">Zoom</a> for hands-on activities.
-        {% endif %}
+        <div class="alert alert-primary">
+            {% if session.timeSlots[0].type == "Zoom Only" %}
+            This session takes place <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">on Zoom only</a>.
+            {% else %}
+            You can join this session <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">via Zoom for hands-on activities</a>.
+            {% endif %}
+        </div>
     </div>
 </div>
 {% endif %}
@@ -150,7 +154,7 @@
     <div class="col-lg-10">
         <h2 class="my-3"><a name="ff">Fast forwards in this session</a></h2>
         <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}">{{ session.ff_playlist }}</a></p>
+        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}" target="_blank">{{ session.ff_playlist }}</a></p>
     </div>
 </div>
 {% endif %}
