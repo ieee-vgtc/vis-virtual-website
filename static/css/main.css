@@ -734,7 +734,7 @@ hr::after {
 
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  top: 150%;
   left: 50%;
   margin-left: -75px;
 
@@ -745,12 +745,12 @@ hr::after {
 .tztooltip .tztooltiptext::after {
   content: "";
   position: absolute;
-  top: 100%;
+  top: -10px;
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  border-color: transparent transparent #555 transparent;
 }
 
 .tztooltip:hover {
