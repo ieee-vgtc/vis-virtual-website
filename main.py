@@ -19,7 +19,6 @@ by_uid = {}
 by_day = {}
 by_time = {}
 
-
 def main(site_data_path):
     global site_data, extra_files
     extra_files = ["README.md"]
@@ -485,6 +484,9 @@ def poster_session():
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     data["event"] = format_session_as_event(by_uid['events'][uid], uid)
+    if uid in site_data["event_ff_playlists"]:
+        data["event"]["ff_playlist"] = site_data["event_ff_playlists"][uid]
+        data["event"]["ff_playlist_id"] = site_data["event_ff_playlists"][uid].split("=")[-1]
     return render_template("poster_session.html", **data)
 
 
@@ -504,6 +506,9 @@ def event(event):
     v = by_uid['events'][uid]
     data = _data()
     data["event"] = format_session_as_event(v, uid)
+    if uid in site_data["event_ff_playlists"]:
+        data["event"]["ff_playlist"] = site_data["event_ff_playlists"][uid]
+        data["event"]["ff_playlist_id"] = site_data["event_ff_playlists"][uid].split("=")[-1]
     return render_template("event.html", **data)
 
 
