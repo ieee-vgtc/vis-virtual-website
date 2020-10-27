@@ -33,7 +33,6 @@
             <h3 class="paper-authors pb-2 mt-3">{{ paper.authors | join(", ") }}</h3>
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
             {% if paper.external_paper_link %}
-                <!-- TODO: Icon not working? -->
                 <h5 class="paper-link pb-2">
                     <span class="fas mr-1">&#xf15c;</span>
                     <a href="{{ paper.external_paper_link }}">
