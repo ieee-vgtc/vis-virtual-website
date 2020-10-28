@@ -523,8 +523,8 @@
                 "session_id": "a-vis4dh-1",
                 "chair": [
                     "Catherine DeRose",
-                    "Eric Alexander",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Eric Alexander"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -601,8 +601,8 @@
                 "title": "Session 2",
                 "session_id": "a-vis4dh-2",
                 "chair": [
-                    "Florian Windhager",
-                    "Stefania Forlini"
+                    "Stefania Forlini",
+                    "Florian Windhager"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -819,9 +819,9 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Eric Alexander",
                     "Menna El-Assady",
-                    "Chris Weaver"
+                    "Chris Weaver",
+                    "Eric Alexander"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -1277,9 +1277,9 @@
                 "title": "VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization",
                 "session_id": "w-guides",
                 "chair": [
+                    "Alfie Abdul-Rahman",
                     "Benjamin Bach",
-                    "Alexandra Diehl",
-                    "Alfie Abdul-Rahman"
+                    "Alexandra Diehl"
                 ],
                 "organizers": [
                     "Benjamin Bach",
@@ -1422,8 +1422,8 @@
                 "session_id": "t-paraview",
                 "chair": [
                     "Ken Moreland",
-                    "Ethan V. Stam",
                     "Michael Migliore",
+                    "Ethan V. Stam",
                     "Dan Lipsa",
                     "John M. Patchett"
                 ],
@@ -1544,8 +1544,8 @@
                 "title": "How to Make Your Empirical Research Transparent",
                 "session_id": "t-empiricaltransparent",
                 "chair": [
-                    "Xiaoying Pu",
-                    "Steve Haroz"
+                    "Steve Haroz",
+                    "Xiaoying Pu"
                 ],
                 "organizers": [
                     "Steve Haroz",
@@ -1638,8 +1638,8 @@
                 "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
                 "session_id": "w-trex",
                 "chair": [
-                    "Emily Wall",
-                    "Mahsan Nourani"
+                    "Mahsan Nourani",
+                    "Emily Wall"
                 ],
                 "organizers": [
                     "Eric Ragan",
@@ -1814,10 +1814,10 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Pascal Nardini",
                     "Karen Schloss",
-                    "Francesca Samsel",
                     "Stephanie Zeller",
+                    "Pascal Nardini",
+                    "Francesca Samsel",
                     "Danielle Szafir"
                 ],
                 "organizers": [
@@ -1956,8 +1956,8 @@
                 "title": "VisComm: Workshop on Visualization for Communication",
                 "session_id": "w-comm",
                 "chair": [
-                    "Robert Kosara",
-                    "Ben Watson"
+                    "Ben Watson",
+                    "Robert Kosara"
                 ],
                 "organizers": [
                     "Alvitta Ottley",
@@ -2168,9 +2168,9 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
-                    "Jordan Crouser",
                     "Jane Adams",
                     "Paul Rosen",
+                    "Jordan Crouser",
                     "Lonni Besan\u00e7on"
                 ],
                 "organizers": [
@@ -2310,9 +2310,9 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
+                    "Alvitta Ottley",
                     "Liang Gou",
                     "Hendrik Strobelt",
-                    "Alvitta Ottley",
                     "Adam Perer"
                 ],
                 "organizers": [
@@ -2432,8 +2432,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Jordan Crouser",
-                    "Steve Gomez"
+                    "Steve Gomez",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2605,8 +2605,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Jordan Crouser",
-                    "Kristen Liggett"
+                    "Kristen Liggett",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -2867,9 +2867,9 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
+                    "Rita Borgo",
                     "Lace Padilla",
                     "Darren Edwards",
-                    "Rita Borgo",
                     "Danielle Szafir"
                 ],
                 "organizers": [],
@@ -3231,9 +3231,9 @@
                 "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
+                    "Jonathan Roberts",
                     "Samuel Huron",
-                    "Benjamin Bach",
-                    "Jonathan Roberts"
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3733,8 +3733,8 @@
                 "title": "Invited Talk and Panel",
                 "session_id": "a-visinpractice-3",
                 "chair": [
-                    "Leo Zhicheng Liu",
-                    "Matthew Brehmer"
+                    "Matthew Brehmer",
+                    "Leo Zhicheng Liu"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3858,9 +3858,9 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Hendrik Strobelt",
                     "Polo Chau",
                     "Menna El-Assady",
+                    "Hendrik Strobelt",
                     "Adam Perer"
                 ],
                 "organizers": [
@@ -4238,9 +4238,9 @@
                 "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
                 "session_id": "w-astrophysics",
                 "chair": [
-                    "Juna Kollmeier",
                     "Bei Wang",
-                    "Lauren Anderson"
+                    "Lauren Anderson",
+                    "Juna Kollmeier"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -4357,9 +4357,9 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
-                    "Somayeh Dodge",
                     "Alan MacEachren",
-                    "Clio Andris"
+                    "Clio Andris",
+                    "Somayeh Dodge"
                 ],
                 "organizers": [
                     "Clio Andris",
@@ -8254,10 +8254,10 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
-                    "Jim Ahrens",
                     "Pascal Grosset",
                     "Silvio Rizzi",
-                    "Jesus Pulido"
+                    "Jesus Pulido",
+                    "Jim Ahrens"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8444,10 +8444,10 @@
                 "title": "VISAP Opening Event",
                 "session_id": "a-visap-opening",
                 "chair": [
-                    "Maria Lantin",
+                    "Yoon Chung Han",
                     "Erik Brunvand",
                     "Carmen Hull",
-                    "Yoon Chung Han"
+                    "Maria Lantin"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8774,8 +8774,8 @@
                 "title": "VisLies!",
                 "session_id": "m-lies",
                 "chair": [
-                    "Ken Moreland",
-                    "Bernice Rogowitz"
+                    "Bernice Rogowitz",
+                    "Ken Moreland"
                 ],
                 "organizers": [
                     "Ken Moreland",
@@ -8865,10 +8865,10 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
+                    "Catherine Plaisant",
                     "Terry Yoo",
                     "Giuseppe Santucci",
                     "Mike Kirby",
-                    "Catherine Plaisant",
                     "Valerio Pascucci"
                 ],
                 "organizers": [
@@ -9339,9 +9339,9 @@
                 "title": "Short Papers, Posters and Closing",
                 "session_id": "a-vizsec-3",
                 "chair": [
+                    "Chris Bryan",
                     "J\u00f6rn Kohlhammer",
-                    "Sean McKenna",
-                    "Chris Bryan"
+                    "Sean McKenna"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -10014,9 +10014,9 @@
                 "title": "Recent Challenges in Medical Visualization",
                 "session_id": "l-med",
                 "chair": [
-                    "Noeska Smit",
                     "Christina Gillmann",
-                    "Thomas Wischgoll"
+                    "Thomas Wischgoll",
+                    "Noeska Smit"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10147,9 +10147,9 @@
                 "title": "VIS JobFair Meetup",
                 "session_id": "m-jobfair",
                 "chair": [
-                    "Jaegul Choo",
+                    "Hsiang-Yun Wu",
                     "Karen Schloss",
-                    "Hsiang-Yun Wu"
+                    "Jaegul Choo"
                 ],
                 "organizers": [
                     "Hsiang-Yun Wu",
@@ -10195,13 +10195,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Anders Ynnerman",
-                    "Alexander Lex",
                     "Min Chen",
-                    "Christoph Garth",
-                    "Shixia Liu",
                     "Petra Isenberg",
-                    "Alex Endert"
+                    "Shixia Liu",
+                    "Alexander Lex",
+                    "Alex Endert",
+                    "Christoph Garth",
+                    "Anders Ynnerman"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10360,8 +10360,8 @@
                 "session_id": "l-industrial",
                 "chair": [
                     "Christina Gillmann",
-                    "Gerik Scheuermann",
-                    "Petra Gospodnetic"
+                    "Petra Gospodnetic",
+                    "Gerik Scheuermann"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10446,9 +10446,9 @@
                 "session_id": "p-socialgood",
                 "chair": [
                     "Michael Correll ",
-                    "Michelle Borkin",
+                    "Leilani Battle",
                     "Lane Harrison ",
-                    "Leilani Battle"
+                    "Michelle Borkin"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -10569,7 +10569,7 @@
         "event": "Capstone",
         "long_name": "VIS Capstone",
         "event_type": "Capstone",
-        "event_description": "",
+        "event_description": "In this talk I touch on a few moments in my research history that have changed my way of thinking and gradually leading me to become passionate about \u2013 data visualization for empowerment and inclusion. I have chosen moments that are memorable to me because they have changed the way I think. I will step through my process of discovering the importance of thinking about how to make visualizations more empowering, more engaging, and more expressive, and how may lead to developing visualizations that work better for us as externalizations. I will relate these points to discussions and data feudalism and the importance of us staying connected to our data heritage.",
         "event_url": "",
         "sessions": [
             {
@@ -10597,11 +10597,11 @@
                 "time_slots": [
                     {
                         "type": "Recorded Talk",
-                        "title": "Capstone by Sheelagh Carpendale",
+                        "title": "Data VIS for Empowerment and Inclusion",
                         "contributors": [
                             "Sheelagh Carpendale"
                         ],
-                        "abstract": null,
+                        "abstract": "In this talk I touch on a few moments in my research history that have changed my way of thinking and gradually leading me to become passionate about \u2013 data visualization for empowerment and inclusion. I have chosen moments that are memorable to me because they have changed the way I think. I will step through my process of discovering the importance of thinking about how to make visualizations more empowering, more engaging, and more expressive, and how may lead to developing visualizations that work better for us as externalizations. I will relate these points to discussions and data feudalism and the importance of us staying connected to our data heritage.",
                         "time_start": "2020-10-30T18:00:00Z",
                         "time_end": "2020-10-30T19:00:00Z"
                     }
