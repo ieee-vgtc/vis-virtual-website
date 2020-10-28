@@ -8774,7 +8774,8 @@
                 "title": "VisLies!",
                 "session_id": "m-lies",
                 "chair": [
-                    "Ken Moreland"
+                    "Ken Moreland",
+                    "Bernice Rogowitz"
                 ],
                 "organizers": [
                     "Kenneth Moreland",
@@ -8796,7 +8797,8 @@
                         "type": "Zoom Only",
                         "title": "VisLies!",
                         "contributors": [
-                            "Ken Moreland"
+                            "Ken Moreland",
+                            "Bernice Rogowitz"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-27T19:40:00Z",
