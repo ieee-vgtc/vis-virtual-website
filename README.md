@@ -17,6 +17,20 @@ You need to authenticate with our website to access the session listings, downlo
 
 You should receive an e-mail with an auto-generated password to the e-mail you used to register for the conference.  If you didn't receive the e-mail, please check your spam folder.  The e-mails are sent from the superministream.com domain (via Amazon SES).  If you are still having trouble, please ask in #support in Discord or e-mail web@ieeevis.org.
 
+### Job Posting Site and Job Fair Meetup
+
+#### Job Posting Site
+New this year, we have a VIS job posting site! To check out job postings, visit [https://sites.google.com/view/vis-2020-job-postings/home](https://sites.google.com/view/vis-2020-job-postings/home).
+
+If you have a job listing you would like to post, please fill out this brief form: [https://sites.google.com/view/vis-2020-job-postings/submit-job-posting](https://sites.google.com/view/vis-2020-job-postings/submit-job-posting).
+
+#### Job Fair Meetup
+This year's job fair meetup will be on Thurs. 10/29, 1:40pm (MT) through Congregate.Live. To sign up for the job fair meetup, visit: [https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup](https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup)
+
+To those who register, we will send a link to the Congregate.Live session by 11am (MT) on Thurs. 10/29. If you submitted a job posting and indicated you will attend the meetup, there is no need to sign up again.
+
+Questions? Please [email community@ieeevis.org](mailto:community@ieeevis.org).
+
 
 ### Help
 
