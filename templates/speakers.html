@@ -9,7 +9,6 @@
                 <div class="pp-card p-2"
                      style="
                              border-left: 5pt solid rgb(38, 70, 83);
-                             {#border-bottom: 5pt solid rgb(38, 70, 83);#}
                              background-color: #fff;"
                 >
              <span class="session-type"
@@ -25,14 +24,19 @@
                         <div class="col-md-9 py-2 py-md-0">
                             <h4 class="speaker-name">{{ speaker.name }}</h3>
                             <h3 class="speaker-title"><a href="session_{{ speaker.session_id }}.html">{{ speaker.title }}</a></h4>
-                             <a class="event-time text-muted format-date"
-                                href="session_{{ speaker.session_id }}.html">{{ speaker.time_start }}</a>
+                            <p>
+                                <a class="event-time text-muted format-date"
+                                    href="session_{{ speaker.session_id }}.html">{{ speaker.time_start }}</a>
                                 <span alt="Change timezone on schedule page" class="timezone tztooltip">
                                     <strong>GMT<span class="selectedTimezone">-0600</span></strong>
                                     <span class="tztooltiptext">Change your timezone on the schedule page</span>
                                 </span>
+                            </p>
+                            {% if speaker.abstract %}
+                            <h4 class="speaker-details-heading">Abstract</h4>
                             <p>{{ speaker.abstract }}</p>
-                            <h4 class="speaker-details-heading"> About</h4>
+                            {% endif %}
+                            <h4 class="speaker-details-heading">About</h4>
                             <p>{{ speaker.bio }}</p>
 
                         </div>
