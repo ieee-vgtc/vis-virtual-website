@@ -40,6 +40,33 @@ for the period you want.
 **Figure 2:**Muting a category to hide all unread messages in the
 category's channels.
 
+### Quick Navigation Tips
+
+You can use Ctrl+k (Windows) and Cmd+K (Mac) to open the quick switcher. Then
+type the channel you want to jump to.
+
+#### Discord Windows Shortcuts
+
+- Finding a channel, user, voice channel: Ctrl+k
+- Navigating between channels: alt+PGUP/PGDOWN
+- Navigating between unread channels: alt+SHIFT+PGUP/PGDOWN
+- Navigating between unread channels with mentions: ctrl+alt+shift+PGUP/PGDOWN
+- Mark channel as read: Esc
+- Show pins in channel: Ctrl+p
+
+More shortcuts can be found [here](https://support.discord.com/hc/en-us/articles/225977308--Windows-Discord-Hotkeys).
+
+#### Discord Mac Shortcuts
+
+- Finding a channel, user, voice channel: Cmd+k
+- Navigating between channels: alt+PGUP/PGDOWN
+- Navigating between unread channels: alt+SHIFT+PGUP/PGDOWN
+- Navigating between unread channels with mentions: cmd+alt+shift+PGUP/PGDOWN
+- Mark channel as read: Esc
+- Show pins in channel: cmd+p
+
+More shortcuts can be found [here](https://support.discord.com/hc/en-us/articles/225878307--macOS-Discord-Hotkeys?sort_by=votes).
+
 ## Text Chat
 
 Text chat works just like slack, type a message in the input for the
@@ -98,4 +125,5 @@ channel's messages. You can access these at anytime by clicking the pin
 icon in the upper right, circled below.
 
 <img src="https://ieeevis.b-cdn.net/vis_2020/discord/pinned_messages.png" class="img-fluid">
+
 
