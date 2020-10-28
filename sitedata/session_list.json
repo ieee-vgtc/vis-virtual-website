@@ -523,8 +523,8 @@
                 "session_id": "a-vis4dh-1",
                 "chair": [
                     "Eric Alexander",
-                    "Catherine DeRose",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Catherine DeRose"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -819,8 +819,8 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Chris Weaver",
                     "Eric Alexander",
+                    "Chris Weaver",
                     "Menna El-Assady"
                 ],
                 "organizers": [
@@ -1422,9 +1422,9 @@
                 "session_id": "t-paraview",
                 "chair": [
                     "Michael Migliore",
+                    "John M. Patchett",
                     "Dan Lipsa",
                     "Ethan V. Stam",
-                    "John M. Patchett",
                     "Ken Moreland"
                 ],
                 "organizers": [
@@ -1814,11 +1814,11 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Karen Schloss",
                     "Danielle Szafir",
-                    "Stephanie Zeller",
                     "Pascal Nardini",
-                    "Francesca Samsel"
+                    "Karen Schloss",
+                    "Francesca Samsel",
+                    "Stephanie Zeller"
                 ],
                 "organizers": [
                     "Danielle Szafir",
@@ -2168,10 +2168,10 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
-                    "Jane Adams",
-                    "Lonni Besan\u00e7on",
+                    "Paul Rosen",
                     "Jordan Crouser",
-                    "Paul Rosen"
+                    "Lonni Besan\u00e7on",
+                    "Jane Adams"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2310,8 +2310,8 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
-                    "Liang Gou",
                     "Alvitta Ottley",
+                    "Liang Gou",
                     "Adam Perer",
                     "Hendrik Strobelt"
                 ],
@@ -2432,8 +2432,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Steve Gomez",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Steve Gomez"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2605,8 +2605,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Jordan Crouser",
-                    "Kristen Liggett"
+                    "Kristen Liggett",
+                    "Jordan Crouser"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -2867,10 +2867,10 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
-                    "Lace Padilla",
+                    "Darren Edwards",
                     "Danielle Szafir",
                     "Rita Borgo",
-                    "Darren Edwards"
+                    "Lace Padilla"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -3065,8 +3065,8 @@
                 "title": "Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science",
                 "session_id": "t-scivishoudini",
                 "chair": [
-                    "AJ Christensen",
-                    "Kalina Borkiewicz"
+                    "Kalina Borkiewicz",
+                    "AJ Christensen"
                 ],
                 "organizers": [
                     "AJ Christensen",
@@ -3231,9 +3231,9 @@
                 "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
-                    "Samuel Huron",
                     "Benjamin Bach",
-                    "Jonathan Roberts"
+                    "Jonathan Roberts",
+                    "Samuel Huron"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3733,8 +3733,8 @@
                 "title": "Invited Talk and Panel",
                 "session_id": "a-visinpractice-3",
                 "chair": [
-                    "Leo Zhicheng Liu",
-                    "Matthew Brehmer"
+                    "Matthew Brehmer",
+                    "Leo Zhicheng Liu"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3782,8 +3782,8 @@
                 "title": "Invited Talks and Closing",
                 "session_id": "a-visinpractice-4",
                 "chair": [
-                    "Leo Zhicheng Liu",
-                    "Matt Larsen"
+                    "Matt Larsen",
+                    "Leo Zhicheng Liu"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -4238,9 +4238,9 @@
                 "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
                 "session_id": "w-astrophysics",
                 "chair": [
+                    "Juna Kollmeier",
                     "Bei Wang",
-                    "Lauren Anderson",
-                    "Juna Kollmeier"
+                    "Lauren Anderson"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -4357,9 +4357,9 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
+                    "Somayeh Dodge",
                     "Alan MacEachren",
-                    "Clio Andris",
-                    "Somayeh Dodge"
+                    "Clio Andris"
                 ],
                 "organizers": [
                     "Clio Andris",
@@ -5438,7 +5438,7 @@
                     },
                     {
                         "type": "Recorded Talk",
-                        "title": "Staged Animation Strategies for Online DynamicNetworks",
+                        "title": "Staged Animation Strategies for Online Dynamic Networks",
                         "contributors": [
                             "Tarik Crnovrsanin"
                         ],
@@ -8254,10 +8254,10 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
-                    "Jim Ahrens",
-                    "Silvio Rizzi",
+                    "Pascal Grosset",
                     "Jesus Pulido",
-                    "Pascal Grosset"
+                    "Silvio Rizzi",
+                    "Jim Ahrens"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8271,7 +8271,7 @@
                 "discord_category": "opportunities and challenges in cosmology visualization",
                 "discord_channel": "general",
                 "discord_channel_id": "767121150530027554",
-                "youtube_url": "https://youtu.be/WD2y4nlEheI",
+                "youtube_url": "https://youtu.be/f31c1mXjbjY",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -8445,9 +8445,9 @@
                 "session_id": "a-visap-opening",
                 "chair": [
                     "Maria Lantin",
-                    "Yoon Chung Han",
+                    "Carmen Hull",
                     "Erik Brunvand",
-                    "Carmen Hull"
+                    "Yoon Chung Han"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8817,8 +8817,8 @@
                 "title": "Opening",
                 "session_id": "vis-opening-1",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8863,11 +8863,11 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
-                    "Mike Kirby",
-                    "Terry Woo",
-                    "Catherine Plaisant",
                     "Giuseppe Santucci",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Terry Yoo",
+                    "Catherine Plaisant",
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -8886,7 +8886,7 @@
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": "Live Presentation, Slides by Tech",
+                        "type": "Recorded Talk",
                         "title": "VGTC Overview",
                         "contributors": [
                             "Jim Ahrens"
@@ -9015,7 +9015,7 @@
                         "type": "Recorded Talk",
                         "title": "SciVis 25 Year Test of Time Award Introduction",
                         "contributors": [
-                            "Terry Woo"
+                            "Terry Yoo"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-27T14:49:00Z",
@@ -9036,7 +9036,7 @@
                         "type": "Recorded Talk",
                         "title": "SciVis 15 Year Test of Time Award Introduction",
                         "contributors": [
-                            "Terry Woo"
+                            "Terry Yoo"
                         ],
                         "abstract": null,
                         "time_start": "2020-10-27T14:57:00Z",
@@ -9058,8 +9058,8 @@
                 "title": "Opening: Best Papers",
                 "session_id": "vis-opening-3",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9136,8 +9136,8 @@
                 "title": "Keynote by Mario Capecchi",
                 "session_id": "vis-keynote",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9180,8 +9180,8 @@
                 "title": "Opening, Keynote, Best Paper",
                 "session_id": "a-vizsec-1",
                 "chair": [
-                    "J\u00f6rn Kohlhammer",
-                    "Marco Angelini"
+                    "Marco Angelini",
+                    "J\u00f6rn Kohlhammer"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9337,9 +9337,9 @@
                 "title": "Short Papers, Posters and Closing",
                 "session_id": "a-vizsec-3",
                 "chair": [
-                    "Chris Bryan",
+                    "Sean McKenna",
                     "J\u00f6rn Kohlhammer",
-                    "Sean McKenna"
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9426,8 +9426,8 @@
                 "title": "Tableau",
                 "session_id": "vis-supporters-1",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Brian Summa"
@@ -9460,8 +9460,8 @@
                 "title": "Intel",
                 "session_id": "vis-supporters-2",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Brian Summa"
@@ -9687,8 +9687,8 @@
                 "title": "Utah Natural History Museum Tour and Reception",
                 "session_id": "vis-gala",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9960,8 +9960,8 @@
                 "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                 "session_id": "p-vishealth",
                 "chair": [
-                    "Carlos Scheidegger",
-                    "Arvind Satyanarayan"
+                    "Arvind Satyanarayan",
+                    "Carlos Scheidegger"
                 ],
                 "organizers": [
                     "Arvind Satyanarayan",
@@ -10010,9 +10010,9 @@
                 "title": "Recent Challenges in Medical Visualization",
                 "session_id": "l-med",
                 "chair": [
-                    "Christina Gillmann",
                     "Thomas Wischgoll",
-                    "Noeska Smit"
+                    "Noeska Smit",
+                    "Christina Gillmann"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10144,12 +10144,12 @@
                 "session_id": "x-revise",
                 "chair": [
                     "Alex Endert",
-                    "Christoph Garth",
-                    "Alexander Lex",
-                    "Shixia Liu",
-                    "Petra Isenberg",
+                    "Min Chen",
                     "Anders Ynnerman",
-                    "Min Chen"
+                    "Christoph Garth",
+                    "Petra Isenberg",
+                    "Alexander Lex",
+                    "Shixia Liu"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10254,6 +10254,48 @@
             }
         ]
     },
+    "m-velo": {
+        "event": "Le tour de VIS 2020 - MeetUp in Watopia",
+        "long_name": "Le tour de VIS 2020 - MeetUp in Watopia",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "https://www.gicentre.net/velo-club-de-vis",
+        "sessions": [
+            {
+                "title": "Le tour de VIS 2020 - MeetUp in Watopia",
+                "session_id": "m-velo",
+                "chair": [
+                    "Jason Dykes"
+                ],
+                "organizers": [
+                    "Jason Dykes"
+                ],
+                "display_start": "2020-10-29T21:00:00Z",
+                "time_start": "2020-10-29T21:00:00Z",
+                "time_end": "2020-10-29T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Discord Only",
+                        "title": "Le tour de VIS 2020 - MeetUp in Watopia",
+                        "contributors": [
+                            "Jason Dykes"
+                        ],
+                        "abstract": "After an exciting test ride, Dan and Jason would like to invite you to join them in the wilds of Watopia for a Zwift group ride during IEEE VIS.\n\nYou'll need a trainer, Zwift, and a Zoom connection but we've set it up so that we all stay together during the ride whatever individual workout we decide to try. We recommend this light training ride - ready for longer ride at the weekend, but go with whatever you like - Zwift will keep us together!",
+                        "time_start": "2020-10-29T21:00:00Z",
+                        "time_end": "2020-10-29T22:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "l-industrial": {
         "event": "The Role of Visualization in Industrial Production",
         "long_name": "The Role of Visualization in Industrial Production",
@@ -10265,9 +10307,9 @@
                 "title": "The Role of Visualization in Industrial Production",
                 "session_id": "l-industrial",
                 "chair": [
-                    "Christina Gillmann",
                     "Petra Gospodnetic",
-                    "Gerik Scheuermann"
+                    "Gerik Scheuermann",
+                    "Christina Gillmann"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10351,10 +10393,10 @@
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
-                    "Michael Correll ",
+                    "Lane Harrison ",
                     "Michelle Borkin",
-                    "Leilani Battle",
-                    "Lane Harrison "
+                    "Michael Correll ",
+                    "Leilani Battle"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -10482,8 +10524,8 @@
                 "title": "Capstone by Sheelagh Carpendale",
                 "session_id": "vis-capstone",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -10526,8 +10568,8 @@
                 "title": "Closing",
                 "session_id": "vis-closing-1",
                 "chair": [
-                    "Valerio Pascucci",
-                    "Mike Kirby"
+                    "Mike Kirby",
+                    "Valerio Pascucci"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
