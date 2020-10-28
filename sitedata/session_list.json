@@ -601,8 +601,8 @@
                 "title": "Session 2",
                 "session_id": "a-vis4dh-2",
                 "chair": [
-                    "Stefania Forlini",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Stefania Forlini"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -749,8 +749,8 @@
                 "title": "Session 3",
                 "session_id": "a-vis4dh-3",
                 "chair": [
-                    "Catherine DeRose",
-                    "Houda Lamqaddam"
+                    "Houda Lamqaddam",
+                    "Catherine DeRose"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -819,9 +819,9 @@
                 "title": "Session 4",
                 "session_id": "a-vis4dh-4",
                 "chair": [
-                    "Eric Alexander",
                     "Menna El-Assady",
-                    "Chris Weaver"
+                    "Chris Weaver",
+                    "Eric Alexander"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -1421,11 +1421,11 @@
                 "title": "ParaView Tutorial",
                 "session_id": "t-paraview",
                 "chair": [
-                    "Ken Moreland",
-                    "Michael Migliore",
                     "John M. Patchett",
-                    "Ethan V. Stam",
-                    "Dan Lipsa"
+                    "Dan Lipsa",
+                    "Michael Migliore",
+                    "Ken Moreland",
+                    "Ethan V. Stam"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1638,8 +1638,8 @@
                 "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
                 "session_id": "w-trex",
                 "chair": [
-                    "Emily Wall",
-                    "Mahsan Nourani"
+                    "Mahsan Nourani",
+                    "Emily Wall"
                 ],
                 "organizers": [
                     "Eric Ragan",
@@ -1814,11 +1814,11 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Francesca Samsel",
-                    "Pascal Nardini",
-                    "Danielle Szafir",
                     "Karen Schloss",
-                    "Stephanie Zeller"
+                    "Stephanie Zeller",
+                    "Danielle Szafir",
+                    "Francesca Samsel",
+                    "Pascal Nardini"
                 ],
                 "organizers": [
                     "Danielle Szafir",
@@ -1956,8 +1956,8 @@
                 "title": "VisComm: Workshop on Visualization for Communication",
                 "session_id": "w-comm",
                 "chair": [
-                    "Ben Watson",
-                    "Robert Kosara"
+                    "Robert Kosara",
+                    "Ben Watson"
                 ],
                 "organizers": [
                     "Alvitta Ottley",
@@ -2169,9 +2169,9 @@
                 "session_id": "w-failfest",
                 "chair": [
                     "Lonni Besan\u00e7on",
-                    "Jordan Crouser",
+                    "Paul Rosen",
                     "Jane Adams",
-                    "Paul Rosen"
+                    "Jordan Crouser"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2310,10 +2310,10 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
-                    "Alvitta Ottley",
-                    "Adam Perer",
                     "Hendrik Strobelt",
-                    "Liang Gou"
+                    "Adam Perer",
+                    "Liang Gou",
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Adam Perer",
@@ -2432,8 +2432,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Steve Gomez",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Steve Gomez"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2867,10 +2867,10 @@
                 "title": "IEEE VIS Workshop on Visualization Psychology",
                 "session_id": "w-psychology",
                 "chair": [
+                    "Danielle Szafir",
                     "Darren Edwards",
                     "Rita Borgo",
-                    "Lace Padilla",
-                    "Danielle Szafir"
+                    "Lace Padilla"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -3065,8 +3065,8 @@
                 "title": "Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science",
                 "session_id": "t-scivishoudini",
                 "chair": [
-                    "Kalina Borkiewicz",
-                    "AJ Christensen"
+                    "AJ Christensen",
+                    "Kalina Borkiewicz"
                 ],
                 "organizers": [
                     "AJ Christensen",
@@ -3782,8 +3782,8 @@
                 "title": "Invited Talks and Closing",
                 "session_id": "a-visinpractice-4",
                 "chair": [
-                    "Leo Zhicheng Liu",
-                    "Matt Larsen"
+                    "Matt Larsen",
+                    "Leo Zhicheng Liu"
                 ],
                 "organizers": [
                     "Matthew Brehmer",
@@ -3858,9 +3858,9 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Adam Perer",
-                    "Hendrik Strobelt",
                     "Menna El-Assady",
+                    "Hendrik Strobelt",
+                    "Adam Perer",
                     "Polo Chau"
                 ],
                 "organizers": [
@@ -4238,9 +4238,9 @@
                 "title": "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth",
                 "session_id": "w-astrophysics",
                 "chair": [
-                    "Juna Kollmeier",
                     "Bei Wang",
-                    "Lauren Anderson"
+                    "Lauren Anderson",
+                    "Juna Kollmeier"
                 ],
                 "organizers": [
                     "Bei Wang",
@@ -4357,9 +4357,9 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
-                    "Somayeh Dodge",
+                    "Clio Andris",
                     "Alan MacEachren",
-                    "Clio Andris"
+                    "Somayeh Dodge"
                 ],
                 "organizers": [
                     "Clio Andris",
@@ -4875,7 +4875,7 @@
                 "title": "Making Sense of Text",
                 "session_id": "f-papers-sense-text",
                 "chair": [
-                    "Florian Heimrl"
+                    "Florian Heimerl"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-28T14:00:00Z",
@@ -8202,8 +8202,8 @@
                 "title": "Why Should I Stay in Academia? Bridging Generations of Researchers in Visualization",
                 "session_id": "p-academia",
                 "chair": [
-                    "Ingrid Hotz",
-                    "Renata Raidou"
+                    "Renata Raidou",
+                    "Ingrid Hotz"
                 ],
                 "organizers": [
                     "Renata Raidou",
@@ -8254,10 +8254,10 @@
                 "title": "Opportunities and Challenges in Cosmology Visualization",
                 "session_id": "l-cosmo",
                 "chair": [
+                    "Pascal Grosset",
                     "Silvio Rizzi",
                     "Jesus Pulido",
-                    "Jim Ahrens",
-                    "Pascal Grosset"
+                    "Jim Ahrens"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8444,10 +8444,10 @@
                 "title": "VISAP Opening Event",
                 "session_id": "a-visap-opening",
                 "chair": [
-                    "Carmen Hull",
-                    "Yoon Chung Han",
                     "Erik Brunvand",
-                    "Maria Lantin"
+                    "Maria Lantin",
+                    "Yoon Chung Han",
+                    "Carmen Hull"
                 ],
                 "organizers": [
                     "Erik Brunvand",
@@ -8865,11 +8865,11 @@
                 "title": "Opening: Awards",
                 "session_id": "vis-opening-2",
                 "chair": [
-                    "Giuseppe Santucci",
-                    "Mike Kirby",
+                    "Catherine Plaisant",
                     "Valerio Pascucci",
+                    "Giuseppe Santucci",
                     "Terry Yoo",
-                    "Catherine Plaisant"
+                    "Mike Kirby"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9182,8 +9182,8 @@
                 "title": "Opening, Keynote, Best Paper",
                 "session_id": "a-vizsec-1",
                 "chair": [
-                    "Marco Angelini",
-                    "J\u00f6rn Kohlhammer"
+                    "J\u00f6rn Kohlhammer",
+                    "Marco Angelini"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9340,8 +9340,8 @@
                 "session_id": "a-vizsec-3",
                 "chair": [
                     "J\u00f6rn Kohlhammer",
-                    "Sean McKenna",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Sean McKenna"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9777,7 +9777,8 @@
                         "type": "Recorded Talk",
                         "title": "Lagrangian Q-criterion and Transport of Salt and Temperature",
                         "contributors": [
-                            "Steve Wolligandt"
+                            "Steve Wolligandt",
+                            "Janos Zimmermann"
                         ],
                         "abstract": "We analyze the IEEE SciVis contest 2020 data set. To detect eddies in the Red Sea, we use a Lagrangian Q criterion. Based on this, we confirm two eddies in the Red Sea that are consistent on the first three ensemble members, and only one eddy consistent over the first six ensemble members. To analyze the transport of salt and temperature, we propose a two-step visualization. First, we color code temperature/salinity as 2D time-dependent scalar fields. Second, we integrate particles with color coding the change of temperature/salinity along their paths. Based on this we can distinguish regions dominated by transport from regions where other effects are relevant. ",
                         "time_start": "2020-10-28T18:15:00Z",
@@ -9787,7 +9788,7 @@
                         "type": "Recorded Talk",
                         "title": "Interactive Visual Analysis of Oceanographic Simulation Ensemble Data",
                         "contributors": [
-                            "Hennes Rave"
+                            "Johannes Fincke"
                         ],
                         "abstract": "The analysis of multi-run oceanographic simulation data raises vari- ous issues ranging from visualizing multi-field spatio-temporal data to properly identifying and depicting vortices. In this paper, we present an interactive tool that enables us to overcome these chal- lenges by employing multiple coordinated views",
                         "time_start": "2020-10-28T18:25:00Z",
@@ -9817,7 +9818,7 @@
                         "type": "Recorded Talk",
                         "title": "The Use of 3D Optical Flow, Feature-Tracking and Token-Tracking Petri Nets to Analyze and Visualize Multiple Scales of Ocean Eddies",
                         "contributors": [
-                            "Sedat Ozer"
+                            "Karen Bemis"
                         ],
                         "abstract": "Understanding and predicting ocean dynamics correctly remains a challenge even with today's advancements in various computational fields. One persistent limitation concerns the availability of tech- niques and tools for viewing and analyzing ocean simulation data. Visualizing the coherent structures, such as mesoscale eddies, is non-trivial; comparing the spatial and temporal distributions of such features across locations, time, and simulation (or observational) datasets is even more challenging. This study addresses the chal- lenge of visualizing ocean dynamics for the Red Sea - Persian Gulf region using the multiple ensembles, that is multiple independent simulations, of the Sci-Vis 2020 contest dataset. In this collabora- tive work, we introduce tools and algorithms to extract mesoscale ocean eddies and analyse their behaviour. We demonstrate the use of various computer vision techniques, including optical flow, gradient direction analysis, feature tracking and activity detection to extract and visualize eddies as well as transport patterns from the raw sim- ulation data, to analyze changes over time, and to characterize the differences between ensembles. ",
                         "time_start": "2020-10-28T18:55:00Z",
@@ -9827,7 +9828,8 @@
                         "type": "Recorded Talk",
                         "title": "Tracing Eddy Transport in the Red Sea and Gulf of Aden",
                         "contributors": [
-                            "Anke Friederici"
+                            "Anke Friederici",
+                            "Wito Engelke"
                         ],
                         "abstract": "Mesoscale eddies play an important role in understanding oceanic transport, e.g., of heat, pollution and biomass, which is of special interest in the Red Sea. Thereby, the analysis of transport structures relies on large-scale ensemble simulations of ocean flows, leaving the domain scientist with a vast amount of data to be explored. Such an ensemble data set, together with four analysis tasks, is the basis for the SciVis Contest 2020. In this submission, we present our solutions to approach these tasks. When designing our methods, the main goal was to rely on a simple concept and parameters that can easily be communicated to the domain scientist. With this in mind, we decided to implement direct methods as well as an geometric approach searching for 'almost-closed streamlines' using a winding angle criterion. The resulting streamlines are then clustered over space and time, resulting in stacks of three-dimensional volumes representing the eddies. Due to the explicit geometric extraction of eddies, quantitative measures can be computed. These include a multitude of statistical measures, e.g. size, average temperature, and salinity. Using linked, coordinated views with statistical repre- sentations and three-dimensional visualizations our system supports spatio-temporal exploration and filtering of the data. Our method has been implemented in the open-source framework Inviwo [1]. Additionally, a video demonstrating the capabilities of the method is submitted as supplementary material.",
                         "time_start": "2020-10-28T19:05:00Z",
@@ -9837,7 +9839,7 @@
                         "type": "Recorded Talk",
                         "title": "Statistical Rendering for Visualization of Red Sea Eddy Simulation Data",
                         "contributors": [
-                            "Tushar Athawale"
+                            "Tushar M. Athawale"
                         ],
                         "abstract": "Analyzing the effects of ocean eddies is important in oceanology for gaining insights into the transport of energy and biogeochemical particles. We present an application of statistical visualization tech- niques for the analysis of the Red Sea eddy simulation ensemble. Specifically, we demonstrate the applications of statistical volume rendering and statistical summary maps to velocity magnitude fields derived from the ensemble for the study of eddy positions. In statis- tical volume rendering, we model per-voxel data uncertainty using noise densities and study the propagation of uncertainty into the volume rendering pipeline. In the statistical summary maps, we char- acterize the uncertainty of gradient flow destinations to understand the structural variations of Morse complexes across the ensemble. We demonstrate the utility of our statistical visualization techniques for the analysis of eddy positions and their spatial uncertainty. ",
                         "time_start": "2020-10-28T19:15:00Z",
@@ -9962,8 +9964,8 @@
                 "title": "The Role of Vis and Data Researchers During a Public Health Crisis",
                 "session_id": "p-vishealth",
                 "chair": [
-                    "Carlos Scheidegger",
-                    "Arvind Satyanarayan"
+                    "Arvind Satyanarayan",
+                    "Carlos Scheidegger"
                 ],
                 "organizers": [
                     "Arvind Satyanarayan",
@@ -10006,15 +10008,15 @@
         "long_name": "Recent Challenges in Medical Visualization",
         "event_type": "Application Spotlight",
         "event_description": "Medical is a popular application in visualization. In this area, there are decades of development. In addition, the medical application highly contributes to the visualization research. Medicine itself is a developing area, where novel imaging, diagnosis, and treatment techniques are constantly developed and improved. Due to the increasing data complexity in this field, novel challenges arise when considering medical visualization. Still, by now fewer and fewer medical visualization contributions appear in proceedings of VIS related conferences. In this application spotlight, we aim to summarize and discuss recent challenges and proposed solutions in the area of medical visualization. These challenges include uncertainty visualization, multi-modal visualization, teaching of medical students, challenges in publishing medical visualization papers, surgery assistance, and legal regulations that need to be considered when proposing novel visualization techniques to the medical market.\n\nWe plan to structure our application spotlight as follows. First, we intend to invite selected speakers, that are working in the field of medical visualization to obtain their opinion on recent challenges in this field. Subsequently, we aim to feature a lively discussion with the audience of our spotlight to identify additional problems. Furthermore, we aim to highlight recent problems in publishing papers in the application area of medical. This discussion will be the main part of the application spotlight and will be carefully tracked. Based on the proposed event, we aim to provide a list of current challenges in medical visualization that will be publicly available. We hope that this list of challenges provides a deeper understanding to the VIS community as to why developments in medical visualizations are in high demand and how our community can benefit from and contribute to them.",
-        "event_url": "",
+        "event_url": "https://www.computer.org/digital-library/magazines/cg/call-for-papers-special-issue-on-the-role-of-visualization-in-the-manufacturing-industry",
         "sessions": [
             {
                 "title": "Recent Challenges in Medical Visualization",
                 "session_id": "l-med",
                 "chair": [
+                    "Noeska Smit",
                     "Christina Gillmann",
-                    "Thomas Wischgoll",
-                    "Noeska Smit"
+                    "Thomas Wischgoll"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10145,13 +10147,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Alexander Lex",
+                    "Anders Ynnerman",
                     "Petra Isenberg",
                     "Alex Endert",
-                    "Christoph Garth",
                     "Min Chen",
-                    "Anders Ynnerman",
-                    "Shixia Liu"
+                    "Shixia Liu",
+                    "Christoph Garth",
+                    "Alexander Lex"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10256,6 +10258,48 @@
             }
         ]
     },
+    "m-velo": {
+        "event": "Le tour de VIS 2020 - MeetUp in Watopia",
+        "long_name": "Le tour de VIS 2020 - MeetUp in Watopia",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "https://www.gicentre.net/velo-club-de-vis",
+        "sessions": [
+            {
+                "title": "Le tour de VIS 2020 - MeetUp in Watopia",
+                "session_id": "m-velo",
+                "chair": [
+                    "Jason Dykes"
+                ],
+                "organizers": [
+                    "Jason Dykes"
+                ],
+                "display_start": "2020-10-29T21:00:00Z",
+                "time_start": "2020-10-29T21:00:00Z",
+                "time_end": "2020-10-29T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Discord Only",
+                        "title": "Le tour de VIS 2020 - MeetUp in Watopia",
+                        "contributors": [
+                            "Jason Dykes"
+                        ],
+                        "abstract": "After an exciting test ride, Dan and Jason would like to invite you to join them in the wilds of Watopia for a Zwift group ride during IEEE VIS.\n\nYou'll need a trainer, Zwift, and a Zoom connection but we've set it up so that we all stay together during the ride whatever individual workout we decide to try. We recommend this light training ride - ready for longer ride at the weekend, but go with whatever you like - Zwift will keep us together!",
+                        "time_start": "2020-10-29T21:00:00Z",
+                        "time_end": "2020-10-29T22:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "l-industrial": {
         "event": "The Role of Visualization in Industrial Production",
         "long_name": "The Role of Visualization in Industrial Production",
@@ -10267,9 +10311,9 @@
                 "title": "The Role of Visualization in Industrial Production",
                 "session_id": "l-industrial",
                 "chair": [
-                    "Christina Gillmann",
                     "Petra Gospodnetic",
-                    "Gerik Scheuermann"
+                    "Gerik Scheuermann",
+                    "Christina Gillmann"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-30T14:00:00Z",
@@ -10353,10 +10397,10 @@
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
-                    "Michael Correll ",
-                    "Lane Harrison ",
                     "Michelle Borkin",
-                    "Leilani Battle"
+                    "Michael Correll ",
+                    "Leilani Battle",
+                    "Lane Harrison "
                 ],
                 "organizers": [
                     "Leilani Battle",
