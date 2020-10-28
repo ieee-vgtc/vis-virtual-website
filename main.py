@@ -442,7 +442,7 @@ def awards():
 @app.route("/speakers.html")
 def speakers():
     data = _data()
-    data["speakers"]= site_data["speakers"]
+    data["speakers"] = site_data["speakers"]
     return render_template("speakers.html", **data)
 
 # ALPER TODO: populate the workshop list from session_list
