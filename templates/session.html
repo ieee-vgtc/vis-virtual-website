@@ -109,10 +109,18 @@
 {% if not session.youtube_id and not session.zoom_meeting %}
 <div class="row mt-5 mb-3">
     <div class="col-lg-10">
+        {% if session.id == "m-jobfair" %}
+        <div class="alert alert-warning" role="alert">
+            <p class="pt-2">This year's job fair meetup will be on Thurs. 10/29, 1:40pm (MT) through Congregate.Live. To sign up for the job fair meetup, visit: <a class="alert-link" href="https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup">https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup</a>.</p>
+            <p>To those who register, we will send a link to the Congregate.Live session by 11am (MT) on Thurs. 10/29. If you submitted a job posting and indicated you will attend the meetup, there is no need to sign up again.</p>
+            <p>Questions about the job fair? Please email <a class="alert-link" href="mailto:community@ieeevis.org">community@ieeevis.org</a>.</p>
+        </div>
+        {% else %}
         <div class="alert alert-warning" role="alert">
             A livestream video has not yet been scheduled for this session yet. <br><br>
             When it is, the video stream will replace this message (at least 3 days before the session takes place live).
-          </div>
+        </div>
+        {% endif %}
     </div>
 </div>
 {% endif %}
