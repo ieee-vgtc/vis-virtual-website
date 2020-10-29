@@ -522,8 +522,8 @@
                 "title": "Session 1",
                 "session_id": "a-vis4dh-1",
                 "chair": [
-                    "Catherine DeRose",
                     "Florian Windhager",
+                    "Catherine DeRose",
                     "Eric Alexander"
                 ],
                 "organizers": [
@@ -601,8 +601,8 @@
                 "title": "Session 2",
                 "session_id": "a-vis4dh-2",
                 "chair": [
-                    "Stefania Forlini",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Stefania Forlini"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -820,8 +820,8 @@
                 "session_id": "a-vis4dh-4",
                 "chair": [
                     "Menna El-Assady",
-                    "Chris Weaver",
-                    "Eric Alexander"
+                    "Eric Alexander",
+                    "Chris Weaver"
                 ],
                 "organizers": [
                     "Catherine Derose",
@@ -1104,8 +1104,8 @@
                 "title": "MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics",
                 "session_id": "w-mlui",
                 "chair": [
-                    "Michelle Dowling",
-                    "John Wenskovitch"
+                    "John Wenskovitch",
+                    "Michelle Dowling"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-25T14:00:00Z",
@@ -1278,8 +1278,8 @@
                 "session_id": "w-guides",
                 "chair": [
                     "Alfie Abdul-Rahman",
-                    "Benjamin Bach",
-                    "Alexandra Diehl"
+                    "Alexandra Diehl",
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Benjamin Bach",
@@ -1421,11 +1421,11 @@
                 "title": "ParaView Tutorial",
                 "session_id": "t-paraview",
                 "chair": [
-                    "Ken Moreland",
                     "Michael Migliore",
-                    "Ethan V. Stam",
+                    "Ken Moreland",
+                    "John M. Patchett",
                     "Dan Lipsa",
-                    "John M. Patchett"
+                    "Ethan V. Stam"
                 ],
                 "organizers": [
                     "John M. Patchett",
@@ -1544,8 +1544,8 @@
                 "title": "How to Make Your Empirical Research Transparent",
                 "session_id": "t-empiricaltransparent",
                 "chair": [
-                    "Steve Haroz",
-                    "Xiaoying Pu"
+                    "Xiaoying Pu",
+                    "Steve Haroz"
                 ],
                 "organizers": [
                     "Steve Haroz",
@@ -1638,8 +1638,8 @@
                 "title": "TREX: Workshop on TRust and EXpertise in Visual Analytics",
                 "session_id": "w-trex",
                 "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
+                    "Emily Wall",
+                    "Mahsan Nourani"
                 ],
                 "organizers": [
                     "Eric Ragan",
@@ -1814,11 +1814,11 @@
                 "title": "Theory and Application of Visualization Color Tools and Strategies",
                 "session_id": "t-theorycolortools",
                 "chair": [
-                    "Karen Schloss",
                     "Stephanie Zeller",
                     "Pascal Nardini",
+                    "Danielle Szafir",
                     "Francesca Samsel",
-                    "Danielle Szafir"
+                    "Karen Schloss"
                 ],
                 "organizers": [
                     "Danielle Szafir",
@@ -1956,8 +1956,8 @@
                 "title": "VisComm: Workshop on Visualization for Communication",
                 "session_id": "w-comm",
                 "chair": [
-                    "Ben Watson",
-                    "Robert Kosara"
+                    "Robert Kosara",
+                    "Ben Watson"
                 ],
                 "organizers": [
                     "Alvitta Ottley",
@@ -2168,9 +2168,9 @@
                 "title": "Fail Fest: A Workshop Celebrating the Scientific Value of Failure",
                 "session_id": "w-failfest",
                 "chair": [
+                    "Jordan Crouser",
                     "Jane Adams",
                     "Paul Rosen",
-                    "Jordan Crouser",
                     "Lonni Besan\u00e7on"
                 ],
                 "organizers": [
@@ -2310,9 +2310,9 @@
                 "title": "VDS",
                 "session_id": "a-vds",
                 "chair": [
+                    "Hendrik Strobelt",
                     "Alvitta Ottley",
                     "Liang Gou",
-                    "Hendrik Strobelt",
                     "Adam Perer"
                 ],
                 "organizers": [
@@ -2432,8 +2432,8 @@
                 "title": "Session 1",
                 "session_id": "a-vastchallenge-1",
                 "chair": [
-                    "Steve Gomez",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Steve Gomez"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T14:00:00Z",
@@ -2605,8 +2605,8 @@
                 "title": "Session 3",
                 "session_id": "a-vastchallenge-3",
                 "chair": [
-                    "Kristen Liggett",
-                    "Jordan Crouser"
+                    "Jordan Crouser",
+                    "Kristen Liggett"
                 ],
                 "organizers": [],
                 "display_start": "2020-10-26T18:00:00Z",
@@ -3231,9 +3231,9 @@
                 "title": "VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing",
                 "session_id": "w-activities",
                 "chair": [
+                    "Benjamin Bach",
                     "Jonathan Roberts",
-                    "Samuel Huron",
-                    "Benjamin Bach"
+                    "Samuel Huron"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3858,10 +3858,10 @@
                 "title": "VISxAI",
                 "session_id": "a-visxai",
                 "chair": [
-                    "Polo Chau",
                     "Menna El-Assady",
                     "Hendrik Strobelt",
-                    "Adam Perer"
+                    "Adam Perer",
+                    "Polo Chau"
                 ],
                 "organizers": [
                     "VISxAI Organizers"
@@ -4357,8 +4357,8 @@
                 "title": "MoVIS: Information Visualization of Geospatial Networks, Flows and Movement",
                 "session_id": "w-movis",
                 "chair": [
-                    "Alan MacEachren",
                     "Clio Andris",
+                    "Alan MacEachren",
                     "Somayeh Dodge"
                 ],
                 "organizers": [
@@ -8255,9 +8255,9 @@
                 "session_id": "l-cosmo",
                 "chair": [
                     "Pascal Grosset",
+                    "Jim Ahrens",
                     "Silvio Rizzi",
-                    "Jesus Pulido",
-                    "Jim Ahrens"
+                    "Jesus Pulido"
                 ],
                 "organizers": [
                     "Jesus Pulido",
@@ -8444,9 +8444,9 @@
                 "title": "VISAP Opening Event",
                 "session_id": "a-visap-opening",
                 "chair": [
-                    "Yoon Chung Han",
                     "Erik Brunvand",
                     "Carmen Hull",
+                    "Yoon Chung Han",
                     "Maria Lantin"
                 ],
                 "organizers": [
@@ -8866,10 +8866,10 @@
                 "session_id": "vis-opening-2",
                 "chair": [
                     "Catherine Plaisant",
-                    "Terry Yoo",
                     "Giuseppe Santucci",
                     "Mike Kirby",
-                    "Valerio Pascucci"
+                    "Valerio Pascucci",
+                    "Terry Yoo"
                 ],
                 "organizers": [
                     "Valerio Pascucci",
@@ -9182,8 +9182,8 @@
                 "title": "Opening, Keynote, Best Paper",
                 "session_id": "a-vizsec-1",
                 "chair": [
-                    "J\u00f6rn Kohlhammer",
-                    "Marco Angelini"
+                    "Marco Angelini",
+                    "J\u00f6rn Kohlhammer"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9249,8 +9249,8 @@
                 "title": "Network Analysis and Incident Response, Practitioner talks",
                 "session_id": "a-vizsec-2",
                 "chair": [
-                    "Steven Gomez",
-                    "Lane Harrison"
+                    "Lane Harrison",
+                    "Steven Gomez"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -9340,8 +9340,8 @@
                 "session_id": "a-vizsec-3",
                 "chair": [
                     "Chris Bryan",
-                    "J\u00f6rn Kohlhammer",
-                    "Sean McKenna"
+                    "Sean McKenna",
+                    "J\u00f6rn Kohlhammer"
                 ],
                 "organizers": [
                     "Marco Angelini",
@@ -10147,9 +10147,9 @@
                 "title": "VIS JobFair Meetup",
                 "session_id": "m-jobfair",
                 "chair": [
+                    "Jaegul Choo",
                     "Hsiang-Yun Wu",
-                    "Karen Schloss",
-                    "Jaegul Choo"
+                    "Karen Schloss"
                 ],
                 "organizers": [
                     "Hsiang-Yun Wu",
@@ -10195,13 +10195,13 @@
                 "title": "reVISe",
                 "session_id": "x-revise",
                 "chair": [
-                    "Min Chen",
-                    "Petra Isenberg",
                     "Shixia Liu",
+                    "Min Chen",
                     "Alexander Lex",
-                    "Alex Endert",
                     "Christoph Garth",
-                    "Anders Ynnerman"
+                    "Anders Ynnerman",
+                    "Alex Endert",
+                    "Petra Isenberg"
                 ],
                 "organizers": [
                     "Christoph Garth"
@@ -10329,13 +10329,13 @@
                 "discord_channel": "",
                 "discord_channel_id": 0,
                 "youtube_url": null,
-                "zoom_meeting": null,
-                "zoom_password": null,
+                "zoom_meeting": "https://us02web.zoom.us/j/85748247904?pwd=akJzRjJYdXJSTC9rcmpvbENrczBxZz09",
+                "zoom_password": 490255,
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": "Discord Only",
+                        "type": "Zoom Only",
                         "title": "Le tour de VIS 2020 - MeetUp in Watopia",
                         "contributors": [
                             "Jason Dykes"
@@ -10445,9 +10445,9 @@
                 "title": "Visualization for Social Good",
                 "session_id": "p-socialgood",
                 "chair": [
+                    "Lane Harrison ",
                     "Michael Correll ",
                     "Leilani Battle",
-                    "Lane Harrison ",
                     "Michelle Borkin"
                 ],
                 "organizers": [
@@ -10651,7 +10651,7 @@
                         "time_end": "2020-10-30T19:15:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded Talk",
                         "title": "VEC Update",
                         "contributors": [
                             "Lisa Avila"
@@ -10661,7 +10661,7 @@
                         "time_end": "2020-10-30T19:20:00Z"
                     },
                     {
-                        "type": "Live Presentation",
+                        "type": "Recorded Talk",
                         "title": "EuroVis 2021 Welcome",
                         "contributors": [
                             "Renato Pajarola",
