@@ -4366,7 +4366,7 @@
             "Rebecca Nowak",
             "Robert Barnes",
             "Thomas H\u00f6llt",
-            "Eduard Gr\u00f6ller,"
+            "Eduard Gr\u00f6ller"
         ],
         "title": "InCorr: Interactive Data-Driven Correlation Panels for Digital Outcrop Analysis",
         "session_id": "f-papers-planets-space",
@@ -6592,7 +6592,7 @@
         "paper_award": "",
         "image_caption": "Our Process: (1) Extract and analyze textual content from visualization workbook specifications. Investigate appropriate content-based recommendation models with varying input features and implement initial prototypes to facilitate discussions with collaborators; (2) Crowdsourced study: Sample visualization triplets in a semi-automated process, collect human judgements about the semantic text similarity, and run the same experiment with different NLP models; (3) Compare agreement between human judgements and model predictions to assess model appropriateness. Implement LDA-based similarity measure in proof-of-concept recommendation pipeline.",
         "external_paper_link": "",
-        "ff_link": "https://youtu.be/0OPV-b-JGLk"
+        "ff_link": "https://youtu.be/wp4CWYFAbZw"
     },
     "f-scivis-1033": {
         "authors": [
