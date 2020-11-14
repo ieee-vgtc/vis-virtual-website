@@ -23,12 +23,14 @@
         <p class="integration-description pt-2">Direct link to YouTube stream: <a href="{{ session.youtube_url }}">{{ session.youtube_url }}</a></p>
     </div>
 </div>
+{% if session.discord_channel_FAKE %}
 <div class="row my-3">
     <div class="col-lg-10">
         <iframe src="https://titanembeds.com/embed/741879515013316629?theme=DiscordDark&defaultchannel={{ session.discord_channel_id }}" width="920" height="518" frameborder="0"></iframe>
         <p class="integration-description pt-2">You can also join this channel in your native Discord application by <a href="https://discord.gg/dxy2Uxp" target="_blank">connecting to the server</a> and joining the <emph>#{{ session.discord_channel }}</emph> channel.  <a href="/help.html#tab-discord" target="_blank">Help &raquo;</a></p>
     </div>
 </div>
+{% endif %}
 
 <hr>
 

@@ -1,3 +1,9 @@
+## Note about disabling auth:
+- Removed template links to PDF resources on CDN (paper.html: changed if statement to paper.id_FAKE)
+- Removed Discord embed (session.html/keynote.html: changed if statement to session.discord_channel_FAKE)
+- Set config.use_auth0 to FALSE in config.yml
+
+
 ## Styling
 [X] font in calendar
 [X] hover button style (needs border?)
@@ -33,7 +39,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [ ] Add supporters to footer of website (for every page?)
 
 # json dump notes
-[ ] papers missing awards (no paper is marked as "best" or "honorable")
+[x] papers missing awards (no paper is marked as "best" or "honorable")
 
 # date parsing
 [x] Save (calendar.js) and read (base.html) timezone from cookie, if possible
@@ -86,7 +92,7 @@ Note: Straight up rejected all calendar.js changes; afaik there are no functiona
 [x] Remove "chat" item
 [x] Parse paper metadata/figures/embedding visualization
 [x] Add FAQ entries
-[ ] ... add pointer to conferene chairs from FAQ
+[ ] ... add pointer to conference chairs from FAQ
 
 ## Dev tasks
 [X] remove python lint task (not useful)

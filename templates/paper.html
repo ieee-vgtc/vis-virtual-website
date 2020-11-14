@@ -41,7 +41,8 @@
                               style="font-size:0.65em;">&#xf35d;</span>
                     </a>
                 </h5>
-            {% else %}
+            {% endif %}
+            {% if paper.id_FAKE %}
                 <h5 class="paper-link pb-2">
                     <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">
                         <span class="fas mr-1">&#xf15c;</span>
