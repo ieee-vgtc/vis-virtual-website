@@ -39,6 +39,7 @@
         </div>
         <div class="col-md-1"></div>
         <div class="col-md-4">
+          {% if config.use_auth0 %}
           <div class="login-window mb-5 alert alert-info">
             <h5>
               <span class="login-message">You are logged in as</span>
@@ -52,11 +53,13 @@
                 Logout
             </button>
           </div>
+          {% endif %}
 
           {{ components.supporter_sidebar(supporters) }}
         </div>
     </div>
 
+    {% if config.use_auth0 %}
     <script>
       const updateUI = async () => {
         const auth0_domain = "{{config.auth0_domain}}";
@@ -70,12 +73,6 @@
         console.log(is_auth, "--- is_auth");
         if (is_auth) {
           document.body.style.display = null;
-
-          {#// if we have a redirect request, grab it and push the user over to that page they wanted to see#}
-          {#var queryParams = new URLSearchParams(query);#}
-          {#var redirectUri = queryParams.get("return");#}
-          {#if (redirectUri)#}
-          {#  window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)#}
 
           // unused atm, hook up later; this won't get executed since we change location above
           const user = await auth0.getUser();
@@ -103,5 +100,6 @@
       };
       updateUI();
     </script>
+    {% endif %}
 
 {% endblock %}

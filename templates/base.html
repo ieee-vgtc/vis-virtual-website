@@ -105,14 +105,14 @@
         <meta name="image" property="og:image" content="https://ieeevis.b-cdn.net/vis_2020/vis_preview.jpg">
         <meta name="description" property="og:description" content="VIS 2020 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.">
         <meta name="title" property="og:title" content="Virtual IEEE VIS 2020 -- Conference on Visualization.">
-         <meta property="og:type" content="website"> 
+         <meta property="og:type" content="website">
 
         <title>{{ config.page_title.prefix }}{% if page_title %}
             {{ config.page_title.separator }}{{ page_title }}{% endif %}</title>
     {% endblock %}
 </head>
 
-<body style="{% if requires_auth %}display: none;{% endif %}">
+<body style="{% if config.use_auth0 and requires_auth %}display: none;{% endif %}">
 <!-- NAV -->
 {% block header %}
     {% set navigation_bar = [

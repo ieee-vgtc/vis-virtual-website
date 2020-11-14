@@ -27,9 +27,10 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 #user: miniconf@miniconf.com
 #pass: mIniconf1_
 
-use_auth0: true
-auth0_client_id : 0eqqhd3NUylo228O8vZagvYkuOSdUWGp
-auth0_domain : ieeevis.us.auth0.com
+## DISABLE AUTH outside of conference time
+use_auth0: false
+#auth0_client_id : 0eqqhd3NUylo228O8vZagvYkuOSdUWGp
+#auth0_domain : ieeevis.us.auth0.com
 
 calendar:
   colors: #  Colors for the different event hashtags:
