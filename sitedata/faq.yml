@@ -3,7 +3,7 @@ FAQ:
     QA:
       - Question: What is IEEE VIS?
         Answer: |-
-          IEEE VIS is an annual premier forum for advances in theory, methods, and applications of visualization and visual analytics. For more information about the conference and to register for free, please [visit the main website](http://ieeevis.org).
+          IEEE VIS is an annual premier forum for advances in theory, methods, and applications of visualization and visual analytics. For more information about the conference and to register for free, please [visit the main website](http://ieeevis.org/year/2020/welcome).
 
       - Question: How does the website know my timezone?
         Answer: |-
@@ -11,13 +11,13 @@ FAQ:
 
           If you need to, you can request the website "forget" your saved timezone.  Click <a href="javascript:resetTimezone()">this link</a>.
 
-      - Question: Why do I need to authenticate to see sessions or papers?
+      - Question: (obsolete) Why do I need to authenticate to see sessions or papers?
         Answer: |-
           To abide by IEEE regulations, we limit access to presentations and associated materials to conference attendees only.  Hopefully you know that conference registration is FREE; please [head over to our registration page and sign up using Tina](http://ieeevis.org/year/2020/info/registration/conference-registration).
 
           After registring, our authentication system should send you an e-mail with an auto-generated password to access protected pages on this website.
 
-      - Question: Where do I get a username + password to access secure content?
+      - Question: (obsolete) Where do I get a username + password to access secure content?
         Answer: |-
           Please head over to our [main site's registration page and sign up using Tina](http://ieeevis.org/year/2020/info/registration/conference-registration).  After registring, our authentication system should send you an e-mail with an auto-generated password to access protected pages on this website.
 
