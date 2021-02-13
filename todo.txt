@@ -3,6 +3,8 @@
 - Removed Discord embed (session.html/keynote.html: changed if statement to session.discord_channel_FAKE)
 - Set config.use_auth0 to FALSE in config.yml
 
+- Removed Zoom info with the following regex: "zoom_meeting":(.)*\n(.*)"zoom_password":(.*)\n(\s)*
+
 
 ## Styling
 [X] font in calendar
