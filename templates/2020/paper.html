@@ -1,0 +1,133 @@
+{% set page_title = paper.title %}
+{% extends "base.html" %}
+{% block content %}
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a
+                            href="/event_{{ paper.event_id }}.html">{{ paper.event_title }}</a>
+                    </li>
+                    <li class="breadcrumb-item"><a
+                            href="/session_{{ paper.session_id }}.html">{{ paper.session_title }}</a>
+                    </li>
+                    <li class="breadcrumb-item active text-truncate"
+                        aria-current="page">{{ paper.title }}</li>
+                </ol>
+            </nav>
+
+            {% if paper.award == "best" %}
+                <h4 class="paper-award"><span class="fas">&#xf559;</span> Best
+                    Paper Award</h4>
+            {% elif paper.award == "honorable" %}
+                <h4 class="paper-award"><span class="fas">&#xf5a2;</span>
+                    Honorable Mention</h4>
+            {% endif %}
+            <h1 class="paper-title">{{ paper.title }}</h1>
+            <div class="checkbox-bookmark fas"
+                 style="font-size: 24pt;position: absolute; top:10px; right:20px;"
+                 data-tippy-content="(un-)bookmark this paper"
+            >
+                &#xf02e;
+            </div>
+            <h3 class="paper-authors pb-2 mt-3">{{ paper.authors | join(", ") }}</h3>
+            <!-- <h3 class="py-2">DOI: TBD</h3> -->
+            {% if paper.external_paper_link %}
+                <h5 class="paper-link pb-2">
+                    <a href="{{ paper.external_paper_link }}">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        External link (DOI)
+                        <span class="fas"
+                              style="font-size:0.65em;">&#xf35d;</span>
+                    </a>
+                </h5>
+            {% endif %}
+            {% if paper.id_FAKE %}
+                <h5 class="paper-link pb-2">
+                    <a href="https://ieeevis.b-cdn.net/vis_2020/pdfs/{{ paper.id }}.pdf">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        Download paper PDF
+                    </a>
+                </h5>
+            {% endif %}
+            <h5 class="paper-presentation pb-2">
+
+                <a href="/session_{{ paper.session_id }}.html">
+                    <span class="fas mr-1">&#xf108;</span>
+                    View presentation:</a>
+                <span class="format-date">{{ paper.time_stamp }}</span>
+                <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                    <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                    <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                </span>
+                <br>
+                <span style="margin-left: 2rem; font-size: 1rem;" class="timezone tztooltip">
+                    <span class="relative-time">{{ paper.time_stamp }}</span>
+                    <span class="current-time tztooltiptext"></span>
+                </span>
+            </h5>
+        </div>
+    </div>
+    <div class="row my-3">
+        <div class="col-md-8">
+            <figure class="figure">
+                {% if paper.has_image %}
+                    <img class="figure-img img-fluid"
+                         src="https://ieeevis.b-cdn.net/vis_2020/paper_images/{{ paper.id }}.png"
+                         alt="Exemplar figure"
+                         aria-describedby="figure-caption">
+                {% else %}
+                    <img class="figure-img img-fluid"
+                         src="https://ieeevis.b-cdn.net/vis_2020/paper_images/blank.png"
+                         alt="Exemplar figure, but none was provided by the authors">
+                {% endif %}
+                <figcaption class="figure-caption"
+                            id="figure-caption">{{ paper.image_caption }}</figcaption>
+            </figure>
+        </div>
+    </div>
+    {% if paper.youtube_ff_id %}
+    <div class="row my-3">
+        <div class="col-md-8">
+            <h5 class="paper-details-heading">Fast forward</h5>
+            <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.youtube_ff_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="integration-description pt-2">Direct link to video on YouTube: <a href="{{ paper.youtube_ff_url }}">{{ paper.youtube_ff_url }}</a></p>
+        </div>
+    </div>
+    {% endif %}
+    <div class="row my-3">
+        <div class="col-md-8">
+            <h5 class="paper-details-heading">Keywords</h5>
+            <p>{{ paper.keywords | join(", ") }}</p>
+            <h5 class="paper-details-heading">Abstract</h5>
+            <p>{{ paper.abstract }}</p>
+        </div>
+    </div>
+
+    <script lang="js">
+      const paperID = "{{ paper.id }}"
+      $(document).ready(() => {
+        tippy('[data-tippy-content]');
+
+        const allBookmarks =
+          d3.selectAll('.checkbox-bookmark')
+            .on("click", function () {
+              const newValue = !d3.select(this).classed('selected');
+              API.markSet(API.storeIDs.bookmarked, paperID, newValue);
+              d3.select(this).classed('selected', newValue);
+            })
+        API.markGet(API.storeIDs.bookmarked, paperID).then(is_bookmarked => {
+          is_bookmarked = !!is_bookmarked;
+          allBookmarks.classed('selected', is_bookmarked);
+        })
+        API.markSet(API.storeIDs.visited, paperID, true);
+
+
+      })
+
+    </script>
+
+    <script src="static/js/views/timezone.js"></script>
+
+
+{% endblock %}
