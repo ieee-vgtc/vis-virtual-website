@@ -6,6 +6,21 @@
 - Removed Zoom info with the following regex: "zoom_meeting":(.)*\n(.*)"zoom_password":(.*)\n(\s)*
 
 
+
+## Year Update
+[ ] Fix "things broken" to be able to deploy to production
+[ ] Ensure that "CURRENT_YEAR" in main.py is 2020 before deploying to production (to "hide" 2021)
+[ ] Ensure that supporters are separate year-to-year
+[ ] Use a new calendar widget?  (or roll our own with D3)
+
+### Things broken:
+[ ] Calendar widget
+[ ] Help pages
+[ ] README.md pages should be year-based
+[ ] Redirects should use a static dictionary list from 2020 pages to the new permanent links, not move to the current year (except for index.html)
+
+
+
 ## Styling
 [X] font in calendar
 [X] hover button style (needs border?)
