@@ -1,15 +1,18 @@
 :root {
+  --vis2021-purple: rgb(111, 33, 132);
+  --vis2021-green: rgb(106, 168, 104);
+  --vis2021-yellow: rgb(251, 195, 27);
   --main-bg-color: #edf2f7;
   --main-border-color: #e2e8f0;
   /* --shadow-color: rgb(204, 204, 204); */
-  --accent-color: #c42026;
+  --accent-color: var(--vis2021-purple);
   --text-color: #000;
   --text-dark-color: #4a5568;
   --text-gray-color: #a0aec0;
-  --text-heading-color: #7f6c5e;
-  --text-muted-color: #b9aba1;
+  --text-heading-color: var(--vis2021-green);
+  --text-muted-color: var(--vis2021-green); /* TODO lighten 2 steps */
   --text-inv-color: #eee;
-  --text-accent-color: #997b66; /* lighten from original VIS2020 style for readability */
+  --text-accent-color: var(--vis2021-green); /* TODO lighten from original VIS2020 style for readability */
   --icon-color: #6c757d;
   --btn-color: #fff;
   --btn-inv-color: #4a5568;
