@@ -498,6 +498,7 @@ hr::after {
   font-family: "Zilla Slab SemiBold", serif;
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
+  color: var(--text-dark-color);
 }
 .event-card .event-time {
   font-family: "Fira Sans", sans-serif;
