@@ -219,6 +219,15 @@ h3 {
   bottom: 3px;
 }
 
+.card-footer {
+  position:sticky;
+  bottom: 0px;
+  height:15px;
+  background-color: white;
+  width:100%;
+  border:none;
+}
+
 .pp-mode-mini .pp-card-header .card-title {
   font-size: 17px;
 }
@@ -226,8 +235,9 @@ h3 {
 .cards_img {
   margin-top: 20px;
   border-radius: 2px;
-  max-height: 130px;
-  object-fit: scale-down;
+  width: 100%;
+  /* max-height: 130px; */
+  object-fit: contain;
 }
 
 .container {
