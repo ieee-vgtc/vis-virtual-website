@@ -27,7 +27,8 @@ body a {
 }
 
 body a:hover {
-  color: var(--accent-color);
+  color: var(--text-accent-color);
+  text-decoration-color: var(--text-accent-color);
   text-decoration: underline;
 }
 
@@ -40,7 +41,7 @@ code {
 }
 
 .text-muted:hover {
-  color: var(--accent-color) !important;
+  color: var(--text-accent-color) !important;
 }
 
 .navbar-nav li {
@@ -272,6 +273,16 @@ h5.card-title {
   margin-top: 10px;
   font-size: 20px;
   /* font-size: 30px; */
+}
+
+h5.card-title:hover {
+  color: var(--text-accent-color);
+  text-decoration: none;
+}
+
+a.award-paper:hover {
+  color: var(--text-accent-color);
+  text-decoration: none;
 }
 
 h6.card-subtitle.text-muted { /* paper author list */
