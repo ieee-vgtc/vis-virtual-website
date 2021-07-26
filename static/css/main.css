@@ -9,8 +9,8 @@
   --text-color: #000;
   --text-dark-color: #4a5568;
   --text-gray-color: #a0aec0;
-  --text-heading-color: var(--vis2021-green);
-  --text-muted-color: var(--vis2021-green); /* TODO lighten 2 steps */
+  --text-heading-color: var(--vis2021-purple);
+  --text-muted-color: var(--vis2021-purple); /* TODO lighten 2 steps */
   --text-inv-color: #eee;
   --text-accent-color: var(--vis2021-green); /* TODO lighten from original VIS2020 style for readability */
   --icon-color: #6c757d;
