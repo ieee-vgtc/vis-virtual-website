@@ -14,7 +14,7 @@
 [ ] Use a new calendar widget?  (or roll our own with D3)
 
 ### Things broken:
-[ ] Calendar widget
+[X] Calendar widget
 [ ] Help pages
 [ ] README.md pages should be year-based
 [ ] Redirects should use a static dictionary list from 2020 pages to the new permanent links, not move to the current year (except for index.html)
