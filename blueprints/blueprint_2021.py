@@ -127,7 +127,7 @@ def home():
 @year_blueprint.route("/year/{}/help.html".format(year))
 def about():
     data = _data()
-    data["discord"] = open("year/{}/discord_guide.md".format(year)).read()
+    data["discord"] = open("sitedata/{}/discord_guide.md".format(year)).read()
     data["FAQ"] = site_data["faq"]["FAQ"]
     return render_template("help.html", **data)
 
