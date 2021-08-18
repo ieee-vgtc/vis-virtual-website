@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% set page_title = "Speakers at IEEE VIS 2020" %}
+{% set active_page = "Speakers" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            {% for speaker in speakers %}
+                <div class="pp-card p-2"
+                     style="
+                             border-left: 5pt solid rgb(38, 70, 83);
+                             background-color: #fff;"
+                >
+             <span class="session-type"
+                   style="color: rgb(38, 70, 83);">Speaker</span>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-fluid mx-auto d-block"
+                                 src="{{ speaker.image }}"
+                                 alt=""
+                                 style="max-height: 250px;"
+                            >
+                        </div>
+                        <div class="col-md-9 py-2 py-md-0">
+                            <h4 class="speaker-name">{{ speaker.name }}</h3>
+                            <h3 class="speaker-title"><a href="session_{{ speaker.session_id }}.html">{{ speaker.title }}</a></h4>
+                            <p>
+                                <a class="event-time text-muted format-date"
+                                    href="session_{{ speaker.session_id }}.html">{{ speaker.time_start }}</a>
+                                <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                                    <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                                    <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                                </span>
+                            </p>
+                            {% if speaker.abstract %}
+                            <h4 class="speaker-details-heading">Abstract</h4>
+                            <p>{{ speaker.abstract }}</p>
+                            {% endif %}
+                            <h4 class="speaker-details-heading">About</h4>
+                            <p>{{ speaker.bio }}</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            {% endfor %}
+
+        </div>
+
+
+    </div>
+    <script lang="js">
+        $( document ).ready(function() {
+          const allCards = d3.selectAll(".pp-card");
+          const ac_new = allCards.sort(()=> Math.random()*4-2)
+          ac_new.order();
+          {#console.log(allCards,"--- allCards");#}
+          {#allCards.style("order", ()=> Math.random()*10)#}
+        })
+    </script>
+    <script src="static/js/views/timezone.js"></script>
+{% endblock %}

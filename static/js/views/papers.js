@@ -366,8 +366,6 @@ const card_html = (paper) =>
   `
         <div class="pp-card pp-mode-${render_mode} ">
             <div class="pp-card-header" style="">
-              <div class="checkbox-paper fas ${paper.read ? "selected" : ""}"
-              style="display: block;position: absolute; bottom:${render_mode === MODE.detail ? 375 : 35}px;left: 35px;">&#xf00c;</div>
               <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
               <a href="${API.posterLink(paper)}"
@@ -388,8 +386,10 @@ const card_html = (paper) =>
     .join(",")}
               </div>
 
-              ${card_image(paper, render_mode !== MODE.mini)}
+              <div>${card_image(paper, render_mode !== MODE.mini)}</div>
+              <div class="card-footer">&nbsp</div>
             </div>
+            
 
                 ${card_detail(paper, render_mode === MODE.detail)}
         </div>`;

@@ -1,15 +1,18 @@
 :root {
+  --vis2021-purple: rgb(111, 33, 132);
+  --vis2021-green: rgb(106, 168, 104);
+  --vis2021-yellow: rgb(251, 195, 27);
   --main-bg-color: #edf2f7;
   --main-border-color: #e2e8f0;
   /* --shadow-color: rgb(204, 204, 204); */
-  --accent-color: #c42026;
+  --accent-color: var(--vis2021-purple);
   --text-color: #000;
   --text-dark-color: #4a5568;
   --text-gray-color: #a0aec0;
-  --text-heading-color: #7f6c5e;
-  --text-muted-color: #b9aba1;
+  --text-heading-color: var(--vis2021-purple);
+  --text-muted-color: var(--vis2021-purple); /* TODO lighten 2 steps */
   --text-inv-color: #eee;
-  --text-accent-color: #997b66; /* lighten from original VIS2020 style for readability */
+  --text-accent-color: var(--vis2021-green); /* TODO lighten from original VIS2020 style for readability */
   --icon-color: #6c757d;
   --btn-color: #fff;
   --btn-inv-color: #4a5568;
@@ -24,7 +27,8 @@ body a {
 }
 
 body a:hover {
-  color: var(--accent-color);
+  color: var(--text-accent-color);
+  text-decoration-color: var(--text-accent-color);
   text-decoration: underline;
 }
 
@@ -37,7 +41,7 @@ code {
 }
 
 .text-muted:hover {
-  color: var(--accent-color) !important;
+  color: var(--text-accent-color) !important;
 }
 
 .navbar-nav li {
@@ -202,7 +206,7 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
 
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .pp-mode-mini .pp-card-header {
@@ -216,6 +220,15 @@ h3 {
   bottom: 3px;
 }
 
+.card-footer {
+  position:sticky;
+  bottom: 0px;
+  height:15px;
+  background-color: white;
+  width:100%;
+  border:none;
+}
+
 .pp-mode-mini .pp-card-header .card-title {
   font-size: 17px;
 }
@@ -223,8 +236,10 @@ h3 {
 .cards_img {
   margin-top: 20px;
   border-radius: 2px;
-  max-height: 130px;
-  object-fit: scale-down;
+  width: 100%;
+  height: 150px;
+  /* max-height: 130px; */
+  object-fit: cover;
 }
 
 .container {
@@ -258,6 +273,16 @@ h5.card-title {
   margin-top: 10px;
   font-size: 20px;
   /* font-size: 30px; */
+}
+
+h5.card-title:hover {
+  color: var(--text-accent-color);
+  text-decoration: none;
+}
+
+a.award-paper:hover {
+  color: var(--text-accent-color);
+  text-decoration: none;
 }
 
 h6.card-subtitle.text-muted { /* paper author list */
@@ -495,6 +520,7 @@ hr::after {
   font-family: "Zilla Slab SemiBold", serif;
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
+  color: var(--text-dark-color);
 }
 .event-card .event-time {
   font-family: "Fira Sans", sans-serif;
