@@ -19,7 +19,7 @@ site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = '2020'
+CURRENT_YEAR = '2021'
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
@@ -217,33 +217,33 @@ def home():
 
 @app.route("/help.html")
 def about():
-    return redirect("/year/{}/help.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/help.html".format(FROZEN_YEAR))
 
 
 @app.route("/papers.html")
 def papers():
-    return redirect("/year/{}/papers.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/papers.html".format(FROZEN_YEAR))
 
 
 @app.route("/paper_vis.html")
 def paper_vis():
-    return redirect("/year/{}/paper_vis.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/paper_vis.html".format(FROZEN_YEAR))
 
 
 @app.route("/calendar.html")
 def schedule():
-    return redirect("/year/{}/calendar.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/calendar.html".format(FROZEN_YEAR))
 
 
 @app.route("/events.html")
 def events():
-    return redirect("/year/{}/events.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/events.html".format(FROZEN_YEAR))
 
 
 # ALPER TODO: we should just special-case particular sessions and render them under this route
 @app.route("/workshops.html")
 def workshops():
-    return redirect("/year/{}/workshops.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/workshops.html".format(FROZEN_YEAR))
 
 
 # ITEM PAGES
@@ -261,12 +261,12 @@ def speaker(speaker):
 
 @app.route("/awards.html")
 def awards():
-    return redirect("/year/{}/awards.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/awards.html".format(FROZEN_YEAR))
 
 
 @app.route("/speakers.html")
 def speakers():
-    return redirect("/year/{}/speakers.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/speakers.html".format(FROZEN_YEAR))
 
 # ALPER TODO: populate the workshop list from session_list
 @app.route("/workshop_<workshop>.html")
@@ -276,16 +276,16 @@ def workshop(workshop):
 
 @app.route('/session_vis-keynote.html')
 def keynote():
-    return redirect("/year/{}/session_vis-keynote.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/session_vis-keynote.html".format(FROZEN_YEAR))
 
 
 @app.route('/session_vis-capstone.html')
 def capstone():
-    return redirect("/year/{}/session_vis-keynote.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/session_vis-keynote.html".format(FROZEN_YEAR))
 
 @app.route("/session_x-posters.html")
 def poster_session():
-    return redirect("/year/{}/session_x-posters.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/session_x-posters.html".format(FROZEN_YEAR))
 
 
 @app.route("/session_<session>.html")
@@ -301,40 +301,40 @@ def event(event):
 # ALPER TODO: there should be a single poster page; redirect to iPosters
 @app.route("/posters.html")
 def posters():
-    return redirect("/year/{}/posters.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/posters.html".format(FROZEN_YEAR))
 
 ## Internal only; used to generate markdown-like list for main website paper list
 @app.route("/paperlist.html")
 def allpapers():
-    return redirect("/year/{}/paperlist.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/paperlist.html".format(FROZEN_YEAR))
 
 
 # ALPER TODO: remove
 @app.route("/chat.html")
 def chat():
-    return redirect("/year/{}/chat.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/chat.html".format(FROZEN_YEAR))
 
 
 @app.route("/redirect.html")
 def redirect_page():
-    return redirect("/year/{}/redirect.html".format(CURRENT_YEAR))
+    return redirect("/year/{}/redirect.html".format(FROZEN_YEAR))
 
 
 # FRONT END SERVING
 
 @app.route("/papers.json")
 def paper_json():
-    return redirect("/year/{}/papers.json".format(CURRENT_YEAR))
+    return redirect("/year/{}/papers.json".format(FROZEN_YEAR))
 
 
 @app.route("/static/<path:path>")
 def send_static(path):
-    return redirect("/year/{}/static/{}.html".format(CURRENT_YEAR, path))
+    return redirect("/year/{}/static/{}.html".format(FROZEN_YEAR, path))
 
 
 @app.route("/serve_<path>.json")
 def serve(path):
-    return redirect("/year/{}/serve_{}.html".format(CURRENT_YEAR, path))
+    return redirect("/year/{}/serve_{}.html".format(FROZEN_YEAR, path))
 
 
 # --------------- DRIVER CODE -------------------------->
