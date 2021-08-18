@@ -1,20 +1,20 @@
-name: VIS 2020
+name: VIS 2021
 tagline: VAST • INFOVIS • SCIVIS
-date: 25-30 October 2020 Virtual Conference
-citation_date: May 2020
-proceedings_title: Proceedings of the IEEE VIS 2020 Conference
+date: 24-29 October 2021 Virtual Conference
+citation_date: May 2021
+proceedings_title: Proceedings of the IEEE VIS 2021 Conference
 analytics: UA-
 logo:
-  image: static/images/vis2020_logo_virtual.svg
+  image: static/images/vis_logo_virtual.svg
   width: 250px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'IEEE VIS 2020 Virtual'
+  prefix: 'IEEE VIS 2021 Virtual'
   separator: ': '
-background_image: https://ieeevis.b-cdn.net/vis_2020/salt-lake.jpg
-organization: VIS 2020 Organization Committee
+background_image: static/images/background.png
+organization: VIS 2021 Organization Committee
 
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone

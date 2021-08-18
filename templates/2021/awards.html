@@ -48,7 +48,7 @@
                          {{ award.award_2 }} - {{ award.extra_2 }}
                     </div>
                     <div class="award-paper text-center py-3">
-                        <a href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>
+                        <a class="award-paper" href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>
                     </div>
                     <div class="award-authors text-center text-muted py-1" >
                         {{ award.authors }}
@@ -76,7 +76,7 @@
                     </div>
                     <div class="award-paper text-center p-3">
                         {% if award.DOI %}
-                        <a href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>
+                        <a class="award-paper" href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>
                         {% else %}
                         {{ award.paper }}
                         {% endif %}

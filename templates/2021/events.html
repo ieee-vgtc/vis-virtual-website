@@ -82,7 +82,7 @@
                 <span class="session-type"
                       style="color: {{ colors[event.abbr_type] }}">{{ event.type }}</span>
                 <div class="event-title">
-                    <a href="event_{{ event.id }}.html">{{ event.title }}</a>
+                    <a class="event-title" href="event_{{ event.id }}.html">{{ event.title }}</a>
                 </div>
                 {% if event.url %}
                     <div class="event-url"><a href="{{ event.url }}">
