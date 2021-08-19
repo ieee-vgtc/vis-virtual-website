@@ -181,12 +181,15 @@ def main():
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
 freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-app.register_blueprint(blueprint_2020)
-app.register_blueprint(blueprint_2021)
+# blueprints = [blueprint_2020, blueprint_2021]
+blueprints = [blueprint_2021]
+for blueprint in blueprints:
+    app.register_blueprint(blueprint) 
 
 # MAIN PAGES
 
@@ -281,7 +284,7 @@ def keynote():
 
 @app.route('/session_vis-capstone.html')
 def capstone():
-    return redirect("/year/{}/session_vis-keynote.html".format(FROZEN_YEAR))
+    return redirect("/year/{}/session_vis-capstone.html".format(FROZEN_YEAR))
 
 @app.route("/session_x-posters.html")
 def poster_session():
@@ -337,26 +340,31 @@ def serve(path):
     return redirect("/year/{}/serve_{}.html".format(FROZEN_YEAR, path))
 
 
-# --------------- DRIVER CODE -------------------------->
-# Code to turn it all static
-
+# # --------------- DRIVER CODE -------------------------->
+# # Code to turn it all static
 
 @freezer.register_generator
 def generator():
-    for paper in site_data["paper_list"].values():
-        yield "paper", {"paper": str(paper["uid"])}
-    for speaker in site_data["speakers"]:
-        yield "speaker", {"speaker": str(speaker["UID"])}
-    for workshop in site_data["workshops"]:
-        yield "workshop", {"workshop": str(workshop["UID"])}
-    for session in by_uid["sessions"].keys():
-        yield "session", {"session": str(session)}
-    for event in by_uid["events"].keys():
-        yield "event", {"event": str(event)}
+    for blueprint in blueprints:
+        site_data = blueprint.site_data
+        by_uid = blueprint.by_uid
+        year = blueprint.year
+        for paper in site_data["paper_list"].values():
+            yield "/year/{}/paper_{}.html".format(year, str(paper["uid"]))
+        for speaker in site_data["speakers"]:
+            yield "/year/{}/speaker_{}.html".format(year, str(speaker["UID"]))
+        for workshop in site_data["workshops"]:
+            yield "/year/{}/workshop_{}.html".format(year, str(workshop["UID"]))
+        for session in by_uid["sessions"].keys():
+            yield "/year/{}/session_{}.html".format(year, str(session))
+        for event in by_uid["events"].keys():
+            yield "/year/{}/event_{}.html".format(year, str(event))
 
-    for key in site_data:
-        yield "serve", {"path": key}
+        for key in site_data:
+            print("adding key to site_data, ", key)
+            yield "/year/{}/serve_{}.html".format(year, str(key))
 
+print("Data Successfully Loaded")
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="MiniConf Portal Command Line")

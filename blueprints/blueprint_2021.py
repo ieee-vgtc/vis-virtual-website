@@ -11,14 +11,14 @@ import yaml
 
 year=2021
 year_blueprint = Blueprint("vis{}".format(year), __name__,
-                        template_folder="templates/{}".format(year))
+                    template_folder="templates/{}".format(year))
 
 site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
 def main(site_data_path):
-    global site_data, extra_files
+    # global site_data, extra_files
     extra_files = ["README.md"]
     # Load all for your sitedata one time.
     for f in glob.glob(site_data_path + "/*"):
@@ -95,6 +95,13 @@ def main(site_data_path):
     ## TODO: add paper information to session information
 
     print("Data Successfully Loaded")
+    year_blueprint.site_data = site_data
+    year_blueprint.by_uid = by_uid
+    year_blueprint.year = year
+
+    print("Data Successfully Loaded")
+
+
     return extra_files
 
 def _data():
@@ -103,9 +110,9 @@ def _data():
     return data
 
 
-@year_blueprint.route("/year/{}".format(year))
-def index():
-    return redirect("/year/{}/index.html".format(year))
+# @year_blueprint.route("/year/{}".format(year))
+# def index():
+#     return redirect("/year/{}/index.html".format(year))
 
 
 @year_blueprint.route("/favicon.png")
