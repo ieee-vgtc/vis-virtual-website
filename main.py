@@ -361,8 +361,7 @@ def generator():
             yield "/year/{}/event_{}.html".format(year, str(event))
 
         for key in site_data:
-            print("adding key to site_data, ", key)
-            yield "/year/{}/serve_{}.html".format(year, str(key))
+            yield "/year/{}/serve_{}.json".format(year, str(key))
 
 print("Data Successfully Loaded")
 

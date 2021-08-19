@@ -8,16 +8,15 @@
 
 
 ## Year Update
-[X] Fix "things broken" to be able to deploy to production
-[X] Ensure that "CURRENT_YEAR" in main.py is 2020 before deploying to production (to "hide" 2021)
+[ ] Fix "things broken" for deployed site and freezer problems
 [ ] Ensure that supporters are separate year-to-year
 [ ] Use a new calendar widget?  (or roll our own with D3)
 
 ### Things broken:
-[X] Calendar widget
-[X] Help pages
-[X] README.md pages should be year-based
-[X] Redirects should use a static dictionary list from 2020 pages to the new permanent links, not move to the current year (except for index.html)
+[ ] Calendar widget
+[ ] Redirects aren't happening on the frozen site
+[ ] Frozen pages seem to be missing CSS
+[ ] Freeze build process 
 
 
 
