@@ -115,8 +115,7 @@ def _data():
 
 # @year_blueprint.route("/year/{}".format(year))
 # def index():
-#     return redirect("/year/{}/index.html".format(year))
-
+#     return render_template('year_redirect.html', site_path='index.html', site_year=2021)
 
 @year_blueprint.route("/favicon.png")
 def favicon():

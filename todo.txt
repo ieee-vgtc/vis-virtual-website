@@ -15,9 +15,10 @@
 
 ### Things broken:
 [ ] Calendar widget
-[ ] Redirects aren't happening on the frozen site
-[ ] Frozen pages seem to be missing CSS
-[ ] Freeze build process 
+[ ] Year root URLs don't seem to redirect to index.html  (i.e. https://virtual-staging.ieeevis.org/year/2021/)
+[X] Redirects aren't happening on the frozen site
+[X] Frozen pages seem to be missing CSS
+[X] Freeze build process 
 
 
 
