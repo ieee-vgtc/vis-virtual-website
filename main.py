@@ -181,164 +181,15 @@ def main():
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
+# app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
 freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-# blueprints = [blueprint_2020, blueprint_2021]
-blueprints = [blueprint_2021]
+blueprints = [blueprint_2020, blueprint_2021]
+# blueprints = [blueprint_2021]
 for blueprint in blueprints:
     app.register_blueprint(blueprint) 
-
-# MAIN PAGES
-
-
-def _data():
-    data = {}
-    data["config"] = site_data["config"]
-    return data
-
-
-@app.route("/")
-def index():
-    return redirect("/index.html")
-
-
-@app.route("/favicon.png")
-def favicon():
-    return redirect("/year/{}/favicon.png".format(CURRENT_YEAR))
-
-
-# TOP LEVEL PAGES
-
-
-@app.route("/index.html")
-def home():
-    return redirect("/year/{}/index.html".format(CURRENT_YEAR))
-
-
-@app.route("/help.html")
-def about():
-    return redirect("/year/{}/help.html".format(FROZEN_YEAR))
-
-
-@app.route("/papers.html")
-def papers():
-    return redirect("/year/{}/papers.html".format(FROZEN_YEAR))
-
-
-@app.route("/paper_vis.html")
-def paper_vis():
-    return redirect("/year/{}/paper_vis.html".format(FROZEN_YEAR))
-
-
-@app.route("/calendar.html")
-def schedule():
-    return redirect("/year/{}/calendar.html".format(FROZEN_YEAR))
-
-
-@app.route("/events.html")
-def events():
-    return redirect("/year/{}/events.html".format(FROZEN_YEAR))
-
-
-# ALPER TODO: we should just special-case particular sessions and render them under this route
-@app.route("/workshops.html")
-def workshops():
-    return redirect("/year/{}/workshops.html".format(FROZEN_YEAR))
-
-
-# ITEM PAGES
-
-
-@app.route("/paper_<paper>.html")
-def paper(paper):
-    return redirect("/year/{}/paper_{}.html".format(FROZEN_YEAR, paper))
-
-
-# ALPER TODO: get keynote info
-@app.route("/speaker_<speaker>.html")
-def speaker(speaker):
-    return redirect("/year/{}/speaker_{}.html".format(FROZEN_YEAR, speaker))
-
-@app.route("/awards.html")
-def awards():
-    return redirect("/year/{}/awards.html".format(FROZEN_YEAR))
-
-
-@app.route("/speakers.html")
-def speakers():
-    return redirect("/year/{}/speakers.html".format(FROZEN_YEAR))
-
-# ALPER TODO: populate the workshop list from session_list
-@app.route("/workshop_<workshop>.html")
-def workshop(workshop):
-    return redirect("/year/{}/workshop_{}.html".format(FROZEN_YEAR, workshop))
-
-
-@app.route('/session_vis-keynote.html')
-def keynote():
-    return redirect("/year/{}/session_vis-keynote.html".format(FROZEN_YEAR))
-
-
-@app.route('/session_vis-capstone.html')
-def capstone():
-    return redirect("/year/{}/session_vis-capstone.html".format(FROZEN_YEAR))
-
-@app.route("/session_x-posters.html")
-def poster_session():
-    return redirect("/year/{}/session_x-posters.html".format(FROZEN_YEAR))
-
-
-@app.route("/session_<session>.html")
-def session(session):
-    return redirect("/year/{}/session_{}.html".format(FROZEN_YEAR, session))
-
-
-@app.route('/event_<event>.html')
-def event(event):
-    return redirect("/year/{}/event_{}.html".format(FROZEN_YEAR, event))
-
-
-# ALPER TODO: there should be a single poster page; redirect to iPosters
-@app.route("/posters.html")
-def posters():
-    return redirect("/year/{}/posters.html".format(FROZEN_YEAR))
-
-## Internal only; used to generate markdown-like list for main website paper list
-@app.route("/paperlist.html")
-def allpapers():
-    return redirect("/year/{}/paperlist.html".format(FROZEN_YEAR))
-
-
-# ALPER TODO: remove
-@app.route("/chat.html")
-def chat():
-    return redirect("/year/{}/chat.html".format(FROZEN_YEAR))
-
-
-@app.route("/redirect.html")
-def redirect_page():
-    return redirect("/year/{}/redirect.html".format(FROZEN_YEAR))
-
-
-# FRONT END SERVING
-
-@app.route("/papers.json")
-def paper_json():
-    return redirect("/year/{}/papers.json".format(FROZEN_YEAR))
-
-
-@app.route("/static/<path:path>")
-def send_static(path):
-    return redirect("/year/{}/static/{}.html".format(FROZEN_YEAR, path))
-
-
-@app.route("/serve_<path>.json")
-def serve(path):
-    return redirect("/year/{}/serve_{}.html".format(FROZEN_YEAR, path))
-
 
 # # --------------- DRIVER CODE -------------------------->
 # # Code to turn it all static
@@ -362,6 +213,158 @@ def generator():
 
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))
+
+# Utility method for handling redirects in the frozen site
+
+def meta_redirect_html(site_year, site_path):
+    return render_template('year_redirect.html', site_path=site_path, site_year=site_year)
+    # return render_template('year_redirect.html', { 'site_path': site_path, 'site_year': site_year})
+
+# MAIN PAGES
+
+
+@app.route("/")
+def index():
+    return meta_redirect_html(CURRENT_YEAR, 'index.html')
+
+
+@app.route("/favicon.png")
+def favicon():
+    return meta_redirect_html(CURRENT_YEAR, "favicon.png")
+
+
+# TOP LEVEL PAGES
+
+
+@app.route("/index.html")
+def home():
+    return meta_redirect_html(CURRENT_YEAR, 'index.html')
+    # data = {}
+    # data['site_path'] = 'index.html'
+    # data['site_year'] = CURRENT_YEAR
+    # return render_template('year_redirect.html', **data)
+
+@app.route("/help.html")
+def about():
+    return meta_redirect_html(FROZEN_YEAR, "help.html")
+
+
+@app.route("/papers.html")
+def papers():
+    return meta_redirect_html(FROZEN_YEAR, "papers.html")
+
+
+@app.route("/paper_vis.html")
+def paper_vis():
+    return meta_redirect_html(FROZEN_YEAR, "paper_vis.html")
+
+
+@app.route("/calendar.html")
+def schedule():
+    return meta_redirect_html(FROZEN_YEAR, "calendar.html")
+
+
+@app.route("/events.html")
+def events():
+    return meta_redirect_html(FROZEN_YEAR, "events.html")
+
+
+# ALPER TODO: we should just special-case particular sessions and render them under this route
+@app.route("/workshops.html")
+def workshops():
+    return meta_redirect_html(FROZEN_YEAR, "workshops.html")
+
+
+# ITEM PAGES
+
+
+@app.route("/paper_<paper>.html")
+def paper(paper):
+    return meta_redirect_html(FROZEN_YEAR, "paper_{}.html".format(paper))
+
+
+# ALPER TODO: get keynote info
+@app.route("/speaker_<speaker>.html")
+def speaker(speaker):
+    return meta_redirect_html(FROZEN_YEAR, "speaker_{}.html".format(speaker))
+
+@app.route("/awards.html")
+def awards():
+    return meta_redirect_html(FROZEN_YEAR, "awards.html")
+
+
+@app.route("/speakers.html")
+def speakers():
+    return meta_redirect_html(FROZEN_YEAR, "speakers.html")
+
+# ALPER TODO: populate the workshop list from session_list
+@app.route("/workshop_<workshop>.html")
+def workshop(workshop):
+    return meta_redirect_html(FROZEN_YEAR, "workshop_{}.html".format(workshop))
+
+
+@app.route('/session_vis-keynote.html')
+def keynote():
+    return meta_redirect_html(FROZEN_YEAR, "session_vis-keynote.html")
+
+
+@app.route('/session_vis-capstone.html')
+def capstone():
+    return meta_redirect_html(FROZEN_YEAR, "session_vis-capstone.html")
+
+@app.route("/session_x-posters.html")
+def poster_session():
+    return meta_redirect_html(FROZEN_YEAR, "session_x-posters.html")
+
+
+@app.route("/session_<session>.html")
+def session(session):
+    return meta_redirect_html(FROZEN_YEAR, "session_{}.html".format(session))
+
+
+@app.route('/event_<event>.html')
+def event(event):
+    return meta_redirect_html(FROZEN_YEAR, "event_{}.html".format(event))
+
+
+# ALPER TODO: there should be a single poster page; redirect to iPosters
+@app.route("/posters.html")
+def posters():
+    return meta_redirect_html(FROZEN_YEAR, "posters.html")
+
+## Internal only; used to generate markdown-like list for main website paper list
+@app.route("/paperlist.html")
+def allpapers():
+    return meta_redirect_html(FROZEN_YEAR, "paperlist.html")
+
+
+# ALPER TODO: remove
+@app.route("/chat.html")
+def chat():
+    return meta_redirect_html(FROZEN_YEAR, "chat.html")
+
+
+@app.route("/redirect.html")
+def redirect_page():
+    return meta_redirect_html(FROZEN_YEAR, "redirect.html")
+
+
+# FRONT END SERVING
+
+# @app.route("/papers.json")
+# def paper_json():
+#     return meta_redirect_html(FROZEN_YEAR, "papers.json")
+
+
+@app.route("/static/<path:path>")
+def send_static(path):
+    return meta_redirect_html(FROZEN_YEAR, "static/{}.html".format(path))
+
+
+@app.route("/serve_<path>.json")
+def serve(path):
+    return meta_redirect_html(FROZEN_YEAR, "serve_{}.html".format(path))
+
 
 print("Data Successfully Loaded")
 

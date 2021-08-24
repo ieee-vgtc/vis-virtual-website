@@ -455,7 +455,12 @@ def allpapers():
 @year_blueprint.route("/year/{}/chat.html".format(year))
 def chat():
     data = _data()
-    return render_template("chat.html", **data)
+    return render_template("{}/chat.html".format(year), **data)
+
+@year_blueprint.route("/year/{}/redirect.html".format(year))
+def redirect():
+    data = _data()
+    return render_template("{}/redirect.html".format(year), **data)
 
 
 # FRONT END SERVING

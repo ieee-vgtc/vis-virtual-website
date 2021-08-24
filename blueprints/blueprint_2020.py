@@ -93,9 +93,11 @@ def main(site_data_path):
         by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
 
     ## TODO: add paper information to session information
+    year_blueprint.site_data = site_data
+    year_blueprint.by_uid = by_uid
+    year_blueprint.year = year
 
     print("Data Successfully Loaded")
-    year_blueprint.site_data = site_data
     return extra_files
 
 def _data():
@@ -449,8 +451,12 @@ def allpapers():
 @year_blueprint.route("/year/{}/chat.html".format(year))
 def chat():
     data = _data()
-    return render_template("chat.html", **data)
+    return render_template("{}/chat.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/redirect.html".format(year))
+def redirect():
+    data = _data()
+    return render_template("{}/redirect.html".format(year), **data)
 
 # FRONT END SERVING
 @year_blueprint.route("/year/{}/papers.json".format(year))
