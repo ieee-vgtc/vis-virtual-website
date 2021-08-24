@@ -1,4 +1,4 @@
-{% import 'components.html' as components %}
+{% import '2020/components.html' as components %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <link rel="shortcut icon" href="/static/images/favicon.png"
+        <link rel="shortcut icon" href="/static/2020/images/favicon.png"
               type="image/x-icon"/>
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
@@ -24,7 +24,7 @@
               const auth0_domain = "{{config.auth0_domain}}";
               const auth0_client_id = "{{config.auth0_client_id}}";
             </script>
-            <script src="static/js/modules/auth0protect.js"></script>
+            <script src="/static/2020/js/modules/auth0protect.js"></script>
         {% endif %}
 
         <!-- External Javascript libs_ext  -->
@@ -60,12 +60,12 @@
 
 
         <!-- Library libs_ext -->
-        <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+        <script src="/static/2020/js/libs_ext/typeahead.bundle.js"></script>
 
 
         <!--    Internal Libs -->
-        <script src="static/js/data/persistor.js"></script>
-        <script src="static/js/data/api.js"></script>
+        <script src="/static/2020/js/data/persistor.js"></script>
+        <script src="/static/2020/js/data/api.js"></script>
 
 
 
@@ -79,19 +79,19 @@
 
         <!-- External Fonts (no google for china) -->
         <link
-                href="static/css/Zilla.css"
+                href="/static/2020/css/Zilla.css"
                 rel="stylesheet"
         />
         <link
-                href="static/css/Fira.css"
+                href="/static/2020/css/Fira.css"
                 rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="static/css/main.css"/>
-        <!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
-        <link rel="stylesheet" href="static/css/fa_solid.css"/>
-        <link rel="stylesheet" href="static/css/lazy_load.css"/>
-        <link rel="stylesheet" href="static/css/typeahead.css"/>
+        <link rel="stylesheet" href="/static/2020/css/main.css"/>
+        <!--    <link rel="stylesheet" href="/static/2020/css/fa_regular.css"/>-->
+        <link rel="stylesheet" href="/static/2020/css/fa_solid.css"/>
+        <link rel="stylesheet" href="/static/2020/css/lazy_load.css"/>
+        <link rel="stylesheet" href="/static/2020/css/typeahead.css"/>
 
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@ieeevis"/>
@@ -330,7 +330,7 @@
         {#gtag("config", "{{config.analytics}}");#}
       });
     </script>
-    <!-- <script src="static/js/lazy_load.js"></script> -->
+    <!-- <script src="/static/2020/js/lazy_load.js"></script> -->
 {% endblock %}
 </body>
 </html>

@@ -181,7 +181,8 @@ def main():
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-# app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
+app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
+# app.config['FREEZER_STATIC_IGNORE'] = ['static/*']
 freezer = Freezer(app)
 markdown = Markdown(app)
 
@@ -215,7 +216,6 @@ def generator():
             yield "/year/{}/serve_{}.json".format(year, str(key))
 
 # Utility method for handling redirects in the frozen site
-
 def meta_redirect_html(site_year, site_path):
     return render_template('year_redirect.html', site_path=site_path, site_year=site_year)
     # return render_template('year_redirect.html', { 'site_path': site_path, 'site_year': site_year})

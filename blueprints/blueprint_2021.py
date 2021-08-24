@@ -10,8 +10,11 @@ import dateutil.parser
 import yaml
 
 year=2021
-year_blueprint = Blueprint("vis{}".format(year), __name__,
-                    template_folder="templates/{}".format(year))
+year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
+# year_blueprint = Blueprint("vis{}".format(year), __name__,
+#                         template_folder="templates/{}".format(year),
+#                         static_folder="static",
+#                         static_url_path="/year/{}/static".format(year))
 
 site_data = {}
 by_uid = {}
@@ -128,7 +131,7 @@ def home():
     data = _data()
     data["readme"] = open("sitedata/{}/README.md".format(year)).read()
     data["supporters"] = site_data["supporters"]
-    return render_template("index.html", **data)
+    return render_template("{}/index.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/help.html".format(year))
@@ -136,20 +139,20 @@ def about():
     data = _data()
     data["discord"] = open("sitedata/{}/discord_guide.md".format(year)).read()
     data["FAQ"] = site_data["faq"]["FAQ"]
-    return render_template("help.html", **data)
+    return render_template("{}/help.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/papers.html".format(year))
 def papers():
     data = _data()
     # data["papers"] = site_data["papers"]
-    return render_template("papers.html", **data)
+    return render_template("{}/papers.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/paper_vis.html".format(year))
 def paper_vis():
     data = _data()
-    return render_template("papers_vis.html", **data)
+    return render_template("{}/papers_vis.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/calendar.html".format(year))
@@ -160,7 +163,7 @@ def schedule():
     for day in by_day:
         data["days"][day] = {"timeslots": by_time[day]}
 
-    return render_template("schedule.html", **data)
+    return render_template("{}/schedule.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/events.html".format(year))
@@ -170,7 +173,7 @@ def events():
     data['events'] = sorted(all_events, key=lambda e: e['abbr_type'])
     data['event_types'] = sorted(list(set([(e['type'], e["abbr_type"]) for e in all_events])), key=lambda x: x[0])
     data['colors'] = data['config']['calendar']['colors']
-    return render_template("events.html", **data)
+    return render_template("{}/events.html".format(year), **data)
 
 
 # ALPER TODO: we should just special-case particular sessions and render them under this route
@@ -180,7 +183,7 @@ def workshops():
     data["workshops"] = [
         format_workshop(workshop) for workshop in site_data["workshops"]
     ]
-    return render_template("workshops.html", **data)
+    return render_template("{}/workshops.html".format(year), **data)
 
 
 def extract_list_field(v, key):
@@ -332,7 +335,7 @@ def paper(paper):
     data = _data()
     data["requires_auth"] = True
     data["paper"] = format_paper(v)
-    return render_template("paper.html", **data)
+    return render_template("{}/paper.html".format(year), **data)
 
 
 # ALPER TODO: get keynote info
@@ -342,7 +345,7 @@ def speaker(speaker):
     v = by_uid["speakers"][uid]
     data = _data()
     data["speaker"] = v
-    return render_template("speaker.html", **data)
+    return render_template("{}/speaker.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/awards.html".format(year))
 def awards():
@@ -351,14 +354,14 @@ def awards():
     data["awards_tot"] = site_data["awards_tot"]
     data["awards_academy"] = site_data["awards_academy"]
     data["awards_papers"] = site_data["awards_papers"]
-    return render_template("awards.html", **data)
+    return render_template("{}/awards.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/speakers.html".format(year))
 def speakers():
     data = _data()
     data["speakers"] = site_data["speakers"]
-    return render_template("speakers.html", **data)
+    return render_template("{}/speakers.html".format(year), **data)
 
 # ALPER TODO: populate the workshop list from session_list
 @year_blueprint.route("/year/{}/workshop_<workshop>.html".format(year))
@@ -367,7 +370,7 @@ def workshop(workshop):
     v = by_uid["workshops"][uid]
     data = _data()
     data["workshop"] = format_workshop(v)
-    return render_template("workshop.html", **data)
+    return render_template("{}/workshop.html".format(year), **data)
 
 
 @year_blueprint.route('/year/{}/session_vis-keynote.html'.format(year))
@@ -378,7 +381,7 @@ def keynote():
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     data["session"]["speaker"] = site_data["speakers"][0]
-    return render_template("keynote_or_capstone.html", **data)
+    return render_template("{}/keynote_or_capstone.html".format(year), **data)
 
 
 @year_blueprint.route('/year/{}/session_vis-capstone.html'.format(year))
@@ -389,7 +392,7 @@ def capstone():
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
     data["session"]["speaker"] = site_data["speakers"][1]
-    return render_template("keynote_or_capstone.html", **data)
+    return render_template("{}/keynote_or_capstone.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/session_x-posters.html".format(year))
 def poster_session():
@@ -402,7 +405,7 @@ def poster_session():
     if uid in site_data["event_ff_playlists"]:
         data["event"]["ff_playlist"] = site_data["event_ff_playlists"][uid]
         data["event"]["ff_playlist_id"] = site_data["event_ff_playlists"][uid].split("=")[-1]
-    return render_template("poster_session.html", **data)
+    return render_template("{}/poster_session.html".format(year), **data)
 
 
 @year_blueprint.route("/year/{}/session_<session>.html".format(year))
@@ -412,7 +415,7 @@ def session(session):
     data = _data()
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
-    return render_template("session.html", **data)
+    return render_template("{}/session.html".format(year), **data)
 
 
 @year_blueprint.route('/year/{}/event_<event>.html'.format(year))
@@ -424,7 +427,7 @@ def event(event):
     if uid in site_data["event_ff_playlists"]:
         data["event"]["ff_playlist"] = site_data["event_ff_playlists"][uid]
         data["event"]["ff_playlist_id"] = site_data["event_ff_playlists"][uid].split("=")[-1]
-    return render_template("event.html", **data)
+    return render_template("{}/event.html".format(year), **data)
 
 
 # ALPER TODO: there should be a single poster page; redirect to iPosters
@@ -432,7 +435,7 @@ def event(event):
 def posters():
     data = _data()
     data["requires_auth"] = True
-    return render_template("posters.html", **data)
+    return render_template("{}/posters.html".format(year), **data)
 
 ## Internal only; used to generate markdown-like list for main website paper list
 @year_blueprint.route("/year/{}/paperlist.html".format(year))
@@ -448,7 +451,7 @@ def allpapers():
         if uid[0] == "s":
             data['papers']['short'].append(format_paper_list(v))
 
-    return render_template("paperlist.html", **data)
+    return render_template("{}/paperlist.html".format(year), **data)
 
 
 # ALPER TODO: remove
@@ -474,7 +477,7 @@ def paper_json():
 
 @year_blueprint.route("/year/{}/static/<path:path>".format(year))
 def send_static(path):
-    return send_from_directory("static", path)
+    return send_from_directory("static/{}".format(year), path)
 
 
 @year_blueprint.route("/year/{}/serve_<path>.json".format(year))

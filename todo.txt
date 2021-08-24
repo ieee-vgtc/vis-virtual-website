@@ -11,6 +11,7 @@
 [ ] Fix "things broken" for deployed site and freezer problems
 [ ] Ensure that supporters are separate year-to-year
 [ ] Use a new calendar widget?  (or roll our own with D3)
+[ ] Add in generator script for future years that change out paths
 
 ### Things broken:
 [ ] Calendar widget
