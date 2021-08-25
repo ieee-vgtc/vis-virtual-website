@@ -17,6 +17,7 @@
 [ ] Calendar widget
 [ ] Year root URLs don't seem to redirect to index.html  (i.e. https://virtual-staging.ieeevis.org/year/2021/)
 [X] Redirects aren't happening on the frozen site
+[ ] Data-driven redirects don't appear to be frozen
 [X] Frozen pages seem to be missing CSS
 [X] Freeze build process 
 
