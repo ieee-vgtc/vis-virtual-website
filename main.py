@@ -365,6 +365,12 @@ def send_static(path):
 def serve(path):
     return meta_redirect_html(FROZEN_YEAR, "serve_{}.html".format(path))
 
+# Streaming single page app
+
+@app.route("/streaming.html")
+def streaming():
+    return meta_redirect_html(CURRENT_YEAR, 'streaming')
+
 
 print("Data Successfully Loaded")
 

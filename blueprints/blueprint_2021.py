@@ -483,5 +483,12 @@ def send_static(path):
 def serve(path):
     return jsonify(site_data[path])
 
+# Streaming single page app
+
+@year_blueprint.route("/year/{}/streaming.html".format(year))
+def streaming():
+    return render_template("{}/streaming.html".format(year))
+
+
 site_data_path = "sitedata/{}".format(year)
 extra_files = main(site_data_path)

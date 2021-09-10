@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="/static/2021/streaming/styles.css" rel="stylesheet" />
+<body>
+
+<div id="header">
+    <h1 id="track-title"></h1>
+</div>
+
+<div id="wrapper">
+    <div id="content">
+        <div id="youtube-outer">
+            <header>Video: <span id="video-name"></span></header>
+            <div id="ytplayer"></div>
+        </div>
+        <div id="gathertown-outer">
+            <header>Gathertown</header>
+            <div id="gathertown"></div>
+        </div>
+    </div>
+    <div id="sidepanel">
+        <header id="panel-header">
+            <ul>
+                <li><a id="discord-tab-link" class="active">Chat</a></li>
+                <li><a id="slido-tab-link">Q&A</a></li>
+            </ul>
+        </header>
+        <div class="panel-tab-contents">
+            <div id="slido-wrap" class="">
+                <iframe id="slido-frame" height="100%" width="100%" frameBorder="0" style="min-height: 400px;" title="Slido"></iframe>
+            </div>
+            <div id="discord-wrap" class="active"></div>
+        </div>
+    </div>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+<script src="/static/2021/streaming/bundle.js"></script>
+</body>
+</html>
