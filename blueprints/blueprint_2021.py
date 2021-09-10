@@ -485,7 +485,7 @@ def serve(path):
 
 # Streaming single page app
 
-@year_blueprint.route("/year/{}/streaming".format(year))
+@year_blueprint.route("/year/{}/streaming.html".format(year))
 def streaming():
     return render_template("{}/streaming.html".format(year))
 

@@ -367,7 +367,7 @@ def serve(path):
 
 # Streaming single page app
 
-@app.route("/streaming")
+@app.route("/streaming.html")
 def streaming():
     return meta_redirect_html(CURRENT_YEAR, 'streaming')
 
