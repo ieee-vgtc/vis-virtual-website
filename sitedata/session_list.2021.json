@@ -1,0 +1,4118 @@
+{
+    "v-full": {
+        "event": "VIS Full Papers",
+        "long_name": "VIS Full Papers",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Best Papers",
+                "session_id": "v-full-full1",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-26T18:45:00Z",
+                "time_end": "2021-10-26T20:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Simultaneous Matrix Orderings for Graph Collections",
+                        "contributors": [
+                            "Nathan van Beusekom",
+                            "Wouter Meulemans",
+                            "Bettina Speckmann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T18:45:00Z",
+                        "time_end": "2021-10-26T19:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines",
+                        "contributors": [
+                            "Joscha Eirich",
+                            "Jakob Bonart",
+                            "Dominik J\u00e4ckle",
+                            "Michael Sedlmair",
+                            "Ute Schmid",
+                            "Kai Fischbach",
+                            "Tobias Schreck",
+                            "J\u00fcrgen Bernard"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T19:00:00Z",
+                        "time_end": "2021-10-26T19:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization",
+                        "contributors": [
+                            "Wesley Willett",
+                            "Bon Adriel Aseniero",
+                            "Sheelagh Carpendale",
+                            "Pierre Dragicevic",
+                            "Yvonne Jansen",
+                            "Lora Oehlberg",
+                            "Petra Isenberg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T19:15:00Z",
+                        "time_end": "2021-10-26T19:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Feature Curves and Surfaces of 3D Asymmetric Tensor Fields",
+                        "contributors": [
+                            "Shih-Hsuan Hung",
+                            "Yue Zhang",
+                            "Harry Yeh",
+                            "Eugene Zhang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T19:30:00Z",
+                        "time_end": "2021-10-26T19:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen",
+                        "contributors": [
+                            "Tal Boger",
+                            "Steven Most",
+                            "Steven Franconeri"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T19:45:00Z",
+                        "time_end": "2021-10-26T20:00:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Interaction",
+                "session_id": "v-full-full19",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Task-Based Effectiveness of Interactive Contiguous Area Cartograms",
+                        "contributors": [
+                            "Ian Duncan",
+                            "Shi Tingsheng",
+                            "Simon Perrault",
+                            "Michael Gastner"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Nebula: A Coordinating Grammar of Graphics",
+                        "contributors": [
+                            "Ran Chen",
+                            "Xinhuan Shu",
+                            "Jiahui Chen",
+                            "Di Weng",
+                            "Junxiu Tang",
+                            "Siwei Fu",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:15:00Z",
+                        "time_end": "2021-10-27T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Rotate or Wrap? Interactive Visualisations of Cyclical Data on Cylindrical or Toroidal Topologies",
+                        "contributors": [
+                            "Kun-Ting Chen",
+                            "Tim Dwyer",
+                            "Benjamin Bach",
+                            "Kim Marriott"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:30:00Z",
+                        "time_end": "2021-10-27T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "DIEL: Interactive Visualization Beyond the Here and Now",
+                        "contributors": [
+                            "Yifan Wu",
+                            "Remco Chang",
+                            "Joseph Hellerstein",
+                            "Arvind Satyanarayan",
+                            "Eugene Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:45:00Z",
+                        "time_end": "2021-10-27T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections",
+                        "contributors": [
+                            "Michael Oppermann",
+                            "Tamara Munzner"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:00:00Z",
+                        "time_end": "2021-10-27T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Interactive Dimensionality Reduction for Comparative Analysis",
+                        "contributors": [
+                            "Takanori Fujiwara",
+                            "Xinhai Wei",
+                            "Jian Zhao",
+                            "Kwan-Liu Ma"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:15:00Z",
+                        "time_end": "2021-10-27T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Explainable AI and Machine Learning",
+                "session_id": "v-full-full20",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "AffectiveTDA: Using Topological Data Analysis for Improved Explainability in Affective Computing",
+                        "contributors": [
+                            "Hamza Elhamdadi",
+                            "Shaun Canavan",
+                            "Paul Rosen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Human-in-the-loop Extraction of Interpretable Concepts in Deep Learning Models",
+                        "contributors": [
+                            "Zhenge Zhao",
+                            "Panpan Xu",
+                            "Carlos Scheidegger",
+                            "Liu Ren"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:15:00Z",
+                        "time_end": "2021-10-27T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Towards Visual Explainable Active Learning for Zero-Shot Classification",
+                        "contributors": [
+                            "Shichao Jia",
+                            "zeyu li",
+                            "Nuo Chen",
+                            "Jiawan Zhang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:30:00Z",
+                        "time_end": "2021-10-27T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "M^2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis",
+                        "contributors": [
+                            "Xingbo Wang",
+                            "Jianben He",
+                            "Zhihua Jin",
+                            "Muqiao Yang",
+                            "Yong Wang",
+                            "Huamin Qu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:45:00Z",
+                        "time_end": "2021-10-27T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "NeuroCartography: Scalable Automatic Visual Summarization of Concepts in Deep Neural Networks",
+                        "contributors": [
+                            "Haekyu Park",
+                            "Nilaksh Das",
+                            "Rahul Duggal",
+                            "Austin Wright",
+                            "Omar Shaikh",
+                            "Fred Hohman",
+                            "Duen Horng Chau"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:00:00Z",
+                        "time_end": "2021-10-27T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visual Analytics for RNN-Based Deep Reinforcement Learning",
+                        "contributors": [
+                            "Junpeng Wang",
+                            "Wei Zhang",
+                            "Hao Yang",
+                            "Chin-Chia Yeh",
+                            "Liang Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:15:00Z",
+                        "time_end": "2021-10-27T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Graphical Perception and Coloring",
+                "session_id": "v-full-full18",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Context Matters: A Theory of Semantic Discriminability for Perceptual Encoding Systems",
+                        "contributors": [
+                            "Kushin Mukherjee",
+                            "Brian Yin",
+                            "Brianne Sherman",
+                            "Laurent Lessard",
+                            "Karen Schloss"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Conceptual Metaphor and Graphical Convention Influence the Interpretation of Line Graphs",
+                        "contributors": [
+                            "Greg Woodin",
+                            "Bodo Winter",
+                            "Lace Padilla"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:15:00Z",
+                        "time_end": "2021-10-27T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Rethinking the Ranks of Visual Channels",
+                        "contributors": [
+                            "Caitlyn McColeman",
+                            "Fumeng Yang",
+                            "Timothy F. Brady",
+                            "Steven Franconeri"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:30:00Z",
+                        "time_end": "2021-10-27T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Affective Congruence in Visualization Design: Influences on Reading Categorical Maps",
+                        "contributors": [
+                            "Cary Anderson",
+                            "Anthony Robinson"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:45:00Z",
+                        "time_end": "2021-10-27T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Modeling Just Noticeable Differences in Charts",
+                        "contributors": [
+                            "Min Lu",
+                            "Joel Lanir",
+                            "Chufeng Wang",
+                            "Yucong Yao",
+                            "Wen Zhang",
+                            "Oliver Deussen",
+                            "Hui Huang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:00:00Z",
+                        "time_end": "2021-10-27T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Augmenting Parallel Coordinates Plots with Color-coded Stacked Histograms",
+                        "contributors": [
+                            "Jinwook Bok",
+                            "Bohyoung Kim",
+                            "Jinwook Seo"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:15:00Z",
+                        "time_end": "2021-10-27T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Surfaces and Volumes",
+                "session_id": "v-full-full7",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Real-Time Denoising of Volumetric Path Tracing for Direct Volume Rendering",
+                        "contributors": [
+                            "Jose Iglesias-Guitian",
+                            "Prajita Mane",
+                            "Bochang Moon"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Learning Adaptive Sampling and Reconstruction for Volume Visualization",
+                        "contributors": [
+                            "Sebastian Weiss",
+                            "Mustafa Isik",
+                            "Justus Thies",
+                            "R\u00fcdiger Westermann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:15:00Z",
+                        "time_end": "2021-10-27T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "STNet: An End-to-End Generative Framework for Synthesizing Spatiotemporal Super-Resolution Volumes",
+                        "contributors": [
+                            "Jun Han",
+                            "Hao Zheng",
+                            "Danny Chen",
+                            "Chaoli Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:30:00Z",
+                        "time_end": "2021-10-27T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Interactive Exploration of Physically-Observable Objective Vortices in Unsteady 2D Flow",
+                        "contributors": [
+                            "Xingdi Zhang",
+                            "Markus Hadwiger",
+                            "Thomas Theussl",
+                            "Peter Rautek"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:45:00Z",
+                        "time_end": "2021-10-27T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "3D Virtual Pancreatography",
+                        "contributors": [
+                            "Shreeraj Jadhav",
+                            "Konstantin Dmitriev",
+                            "Joseph Marino",
+                            "Matthew Barish",
+                            "Arie Kaufman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:00:00Z",
+                        "time_end": "2021-10-27T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visual Analysis of Multi-Parameter Distributions across Ensembles of 3D Fields",
+                        "contributors": [
+                            "Alexander Kumpf",
+                            "Josef Stumpfegger",
+                            "Patrick H\u00e4rtl",
+                            "R\u00fcdiger Westermann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:15:00Z",
+                        "time_end": "2021-10-27T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Perspectives and Reflections",
+                "session_id": "v-full-full13",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T14:55:00Z",
+                "time_end": "2021-10-27T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Seek for Success: A Visualization Approach for Understanding the Dynamics of Academic Careers",
+                        "contributors": [
+                            "Yifang Wang",
+                            "Tai-Quan Peng",
+                            "Huihua Lu",
+                            "Haoren Wang",
+                            "Xiao Xie",
+                            "Huamin Qu",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:55:00Z",
+                        "time_end": "2021-10-27T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VitaLITy: Promoting Serendipitous Discovery of Academic Literature with Transformers & Visual Analytics",
+                        "contributors": [
+                            "Arpit Narechania",
+                            "Alireza Karduni",
+                            "Ryan Wesslen",
+                            "Emily Wall"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:10:00Z",
+                        "time_end": "2021-10-27T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VIS30K: A Collection of Figures and Tables From IEEE Visualization Conference Publications",
+                        "contributors": [
+                            "Jian Chen",
+                            "Meng Ling",
+                            "Rui Li",
+                            "Petra Isenberg",
+                            "Tobias Isenberg",
+                            "Michael Sedlmair",
+                            "Torsten M\u00f6ller",
+                            "Robert S. Laramee",
+                            "Han-Wei Shen",
+                            "Katharina W\u00fcsche",
+                            "Qiru Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:25:00Z",
+                        "time_end": "2021-10-27T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Gender in 30 Years of IEEE Visualization",
+                        "contributors": [
+                            "Natkamon Tovanich",
+                            "Pierre Dragicevic",
+                            "Petra Isenberg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:40:00Z",
+                        "time_end": "2021-10-27T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "E-ffective: A Visual Analytic System for Exploring the Emotion and Effectiveness of Inspirational Speeches",
+                        "contributors": [
+                            "Kevin Maher",
+                            "Zeyuan Huang",
+                            "Jiancheng Song",
+                            "Xiaoming Deng",
+                            "Yu-Kun Lai",
+                            "Cuixia Ma",
+                            "Hao Wang",
+                            "Yong-Jin Liu",
+                            "Hongan Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:55:00Z",
+                        "time_end": "2021-10-27T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Explanatory Journeys: Visualising to Understand and Explain Administrative Justice Paths of Redress",
+                        "contributors": [
+                            "Jonathan Roberts",
+                            "Peter Butcher",
+                            "Ann Sherlock",
+                            "Sarah Nason"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:10:00Z",
+                        "time_end": "2021-10-27T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Decision Making",
+                "session_id": "v-full-full27",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T14:55:00Z",
+                "time_end": "2021-10-27T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "The Unmet Data Visualization Needs of Decision Makers within Organizations",
+                        "contributors": [
+                            "Evanthia Dimara",
+                            "Harry Zhang",
+                            "Melanie Tory",
+                            "Steven Franconeri"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:55:00Z",
+                        "time_end": "2021-10-27T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Knowledge Rocks: Adding Knowledge Assistance to Visualization Systems",
+                        "contributors": [
+                            "Anna-Pia Lohfink",
+                            "Simon Duque Anton",
+                            "Heike Leitte",
+                            "Christoph Garth"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:10:00Z",
+                        "time_end": "2021-10-27T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Critical Reflection on Visualization Research: Where Do Decision Making Tasks Hide?",
+                        "contributors": [
+                            "Evanthia Dimara",
+                            "John Stasko"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:25:00Z",
+                        "time_end": "2021-10-27T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "From Jam Session to Concert Hall: Synchronous Communication and Collaboration Around Data in Organizations",
+                        "contributors": [
+                            "Matthew Brehmer",
+                            "Robert Kosara"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:40:00Z",
+                        "time_end": "2021-10-27T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Causal Support: Modeling Causal Inferences with Visualizations",
+                        "contributors": [
+                            "Alex Kale",
+                            "Yifan Wu",
+                            "Jessica Hullman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:55:00Z",
+                        "time_end": "2021-10-27T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Sibyl: Understanding and Addressing the Usability Challenges of Machine Learning In High-Stakes Decision Making",
+                        "contributors": [
+                            "Alexandra Zytek",
+                            "Dongyu Liu",
+                            "Rhema Vaithianathan",
+                            "Kalyan Veeramachaneni"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:10:00Z",
+                        "time_end": "2021-10-27T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Multi-View and Visual Environments",
+                "session_id": "v-full-full2",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T14:55:00Z",
+                "time_end": "2021-10-27T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Semantic Snapping for Guided Multi-View Visualization Design",
+                        "contributors": [
+                            "Yngve S. Kristiansen",
+                            "Laura Garrison",
+                            "Stefan Bruckner"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:55:00Z",
+                        "time_end": "2021-10-27T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "SightBi: Exploring Cross-View Data Relationships with Biclusters",
+                        "contributors": [
+                            "Maoyuan Sun",
+                            "Abdul Rahman Shaikh",
+                            "Hamed Alhoori",
+                            "Jian Zhao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:10:00Z",
+                        "time_end": "2021-10-27T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "matExplorer: Visual Exploration on Predicting of Ionic Conductivity for Solid-State Electrolytes",
+                        "contributors": [
+                            "Jiansu Pu",
+                            "Hui Shao",
+                            "Boyang Gao",
+                            "Zhengguo Zhu",
+                            "Yanlin Zhu",
+                            "Yunbo Rao",
+                            "Yong Xiang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:25:00Z",
+                        "time_end": "2021-10-27T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "TimeTubesX: A Query-Driven Visual Exploration of Observable, Photometric, and Polarimetric Behaviors of Blazars",
+                        "contributors": [
+                            "Naoko Sawada",
+                            "Makoto Uemura",
+                            "Johanna Beyer",
+                            "Hanspeter Pfister",
+                            "Issei Fujishiro"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:40:00Z",
+                        "time_end": "2021-10-27T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Towards replacing physical testing of granular materials with a Topology-based Model",
+                        "contributors": [
+                            "Aniketh Venkat",
+                            "Attila Gyulassy",
+                            "Graham Kosiba",
+                            "Amitesh Maiti",
+                            "Henry Reinstein",
+                            "Richard Gee",
+                            "Peer-Timo Bremer",
+                            "Valerio Pascucci"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:55:00Z",
+                        "time_end": "2021-10-27T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Tracking Internal Frames of Reference for Consistent Molecular Distribution Functions",
+                        "contributors": [
+                            "Robin Sk\u00e5nberg",
+                            "Martin Falk",
+                            "Mathieu Linares",
+                            "Anders Ynnerman",
+                            "Ingrid Hotz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:10:00Z",
+                        "time_end": "2021-10-27T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Recommendation and Automation",
+                "session_id": "v-full-full5",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T16:50:00Z",
+                "time_end": "2021-10-27T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "InfoColorizer: Interactive Recommendation of Color Palettes for Infographics",
+                        "contributors": [
+                            "Lin-Ping Yuan",
+                            "Ziqi Zhou",
+                            "Jian Zhao",
+                            "Yiqiu Guo",
+                            "Fan Du",
+                            "Huamin Qu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:50:00Z",
+                        "time_end": "2021-10-27T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Mixed-Initiative Approach to Reusing Infographic Charts",
+                        "contributors": [
+                            "Weiwei Cui",
+                            "Jinpeng Wang",
+                            "He Huang",
+                            "Yun Wang",
+                            "Chin-Yew Lin",
+                            "Haidong Zhang",
+                            "Dongmei Zhang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:05:00Z",
+                        "time_end": "2021-10-27T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Kori: Interactive Synthesis of Text and Charts in Data Documents",
+                        "contributors": [
+                            "Shahid Latif",
+                            "Zheng Zhou",
+                            "Yoon Kim",
+                            "Fabian Beck",
+                            "Nam Wook Kim"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:20:00Z",
+                        "time_end": "2021-10-27T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study",
+                        "contributors": [
+                            "Doris Lee",
+                            "Vidya Setlur",
+                            "Melanie Tory",
+                            "Karrie Karahalios",
+                            "Aditya Parameswaran"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:35:00Z",
+                        "time_end": "2021-10-27T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation",
+                        "contributors": [
+                            "Haotian Li",
+                            "Yong Wang",
+                            "Songheng Zhang",
+                            "Yangqiu Song",
+                            "Huamin Qu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:50:00Z",
+                        "time_end": "2021-10-27T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VizLinter: A Linter and Fixer Framework for Data Visualization",
+                        "contributors": [
+                            "Qing Chen",
+                            "Fuling Sun",
+                            "Xinyue Xu",
+                            "Zui Chen",
+                            "Jiazhe Wang",
+                            "Nan Cao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:05:00Z",
+                        "time_end": "2021-10-27T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Immersive Environments, Personal Vis, and Dashboards",
+                "session_id": "v-full-full3",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T16:50:00Z",
+                "time_end": "2021-10-27T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Propagating Visual Designs to Numerous Plots and Dashboards",
+                        "contributors": [
+                            "Saiful Khan",
+                            "Phong Nguyen",
+                            "Alfie Abdul-Rahman",
+                            "Benjamin Bach",
+                            "Min Chen",
+                            "Euan Freeman",
+                            "Cagatay Turkay"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:50:00Z",
+                        "time_end": "2021-10-27T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Exploring the Personal Informatics Analysis Gap: \"There's a Lot of Bacon\"",
+                        "contributors": [
+                            "Jimmy Moore",
+                            "Pascal Goffin",
+                            "Jason Wiese",
+                            "Miriah Meyer"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:05:00Z",
+                        "time_end": "2021-10-27T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "What's the Situation with Situated Visualization? A Survey and Perspectives on Situatedness",
+                        "contributors": [
+                            "Nathalie Bressa",
+                            "Henrik Korsgaard",
+                            "Aur\u00e9lien Tabard",
+                            "Steven Houben",
+                            "Jo Vermeulen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:20:00Z",
+                        "time_end": "2021-10-27T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations",
+                        "contributors": [
+                            "Xiangtong Chu",
+                            "Xiao Xie",
+                            "Shuainan Ye",
+                            "Haolin Lu",
+                            "Hongguang Xiao",
+                            "Zeqing Yuan",
+                            "Zhutian Chen",
+                            "Hui Zhang",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:35:00Z",
+                        "time_end": "2021-10-27T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Touch and Beyond: Comparing Physical and Virtual Reality Visualizations",
+                        "contributors": [
+                            "Kurtis Danyluk",
+                            "Teoman Ulusoy",
+                            "Wei Wei",
+                            "Wesley Willett"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:50:00Z",
+                        "time_end": "2021-10-27T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "An Automated Approach to Reasoning About Task-Oriented Visualization Insights in Responsive Visualization",
+                        "contributors": [
+                            "Hyeok Kim",
+                            "Ryan Rossi",
+                            "Abhraneel Sarma",
+                            "Dominik Moritz",
+                            "Jessica Hullman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:05:00Z",
+                        "time_end": "2021-10-27T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Multi-Dimensional Data",
+                "session_id": "v-full-full14",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T16:50:00Z",
+                "time_end": "2021-10-27T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Imma Sort by Two or More Attributes With Interpretable Monotonic Multi-Attribute Sorting",
+                        "contributors": [
+                            "Yan Lyu",
+                            "Fan Gao",
+                            "I-Shuen Wu",
+                            "Brian Lim"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:50:00Z",
+                        "time_end": "2021-10-27T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Integrated Dual Analysis of Quantitative and Qualitative High-Dimensional Data",
+                        "contributors": [
+                            "Juliane M\u00fcller",
+                            "Laura Garrison",
+                            "Philipp Ulbrich",
+                            "Stefanie Schreiber",
+                            "Stefan Bruckner",
+                            "Helwig Hauser",
+                            "Steffen Oeltze-Jafra"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:05:00Z",
+                        "time_end": "2021-10-27T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Revisiting Dimensionality Reduction Approaches for Visual Cluster Analysis: An Empirical Study",
+                        "contributors": [
+                            "Jiazhi Xia",
+                            "Yuchen Zhang",
+                            "Jie Song",
+                            "Yang Chen",
+                            "Yunhai Wang",
+                            "Shixia Liu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:20:00Z",
+                        "time_end": "2021-10-27T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling",
+                        "contributors": [
+                            "Laura Garrison",
+                            "Juliane M\u00fcller",
+                            "Stefanie Schreiber",
+                            "Steffen Oeltze-Jafra",
+                            "Helwig Hauser",
+                            "Stefan Bruckner"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:35:00Z",
+                        "time_end": "2021-10-27T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Attribute-based Explanations of Non-Linear Embeddings of High-Dimensional Data",
+                        "contributors": [
+                            "Jan-Tobias Sohns",
+                            "Michaela Schmitt",
+                            "Fabian Jirasek",
+                            "Hans Hasse",
+                            "Heike Leitte"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:50:00Z",
+                        "time_end": "2021-10-27T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Measuring and Explaining the Inter-Cluster Reliability of Multidimensional Projections",
+                        "contributors": [
+                            "Hyeon Jeon",
+                            "Hyung-Kwon Ko",
+                            "Jaemin Jo",
+                            "Youngtaek Kim",
+                            "Jinwook Seo"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:05:00Z",
+                        "time_end": "2021-10-27T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Sports, Commerce, and Social Media",
+                "session_id": "v-full-full21",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Augmenting Sports Videos with VisCommentator",
+                        "contributors": [
+                            "Zhutian Chen",
+                            "Shuainan Ye",
+                            "Xiangtong Chu",
+                            "Haijun Xia",
+                            "Hui Zhang",
+                            "Huamin Qu",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "TacticFlow: Visual Analytics of Ever-Changing Tactics in Racket Sports",
+                        "contributors": [
+                            "Jiang Wu",
+                            "Dongyu Liu",
+                            "Ziyang Guo",
+                            "Qingyang Xu",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:15:00Z",
+                        "time_end": "2021-10-28T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VideoModerator: A Risk-aware Framework for Multimodal Video Moderation in E-Commerce",
+                        "contributors": [
+                            "Tan Tang",
+                            "Yanhong Wu",
+                            "Lingyun Yu",
+                            "Yuhong Li",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:30:00Z",
+                        "time_end": "2021-10-28T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Visualization Approach for Monitoring Order Processing in E-Commerce Warehouse",
+                        "contributors": [
+                            "Junxiu Tang",
+                            "Yuhua Zhou",
+                            "Tan Tang",
+                            "Di Weng",
+                            "Boyang Xie",
+                            "Lingyun Yu",
+                            "Huaqiang Zhang",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:45:00Z",
+                        "time_end": "2021-10-28T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "MiningVis: Visual Analytics of the Bitcoin Mining Economy",
+                        "contributors": [
+                            "Natkamon Tovanich",
+                            "Nicolas Souli\u00e9",
+                            "Nicolas Heulot",
+                            "Petra Isenberg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:00:00Z",
+                        "time_end": "2021-10-28T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Real-Time Visual Analysis of High-Volume Social Media Posts",
+                        "contributors": [
+                            "Johannes Knittel",
+                            "Steffen Koch",
+                            "Tan Tang",
+                            "Wei Chen",
+                            "Yingcai Wu",
+                            "Shixia Liu",
+                            "Thomas Ertl"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:15:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Studies and Evaluation Methodology",
+                "session_id": "v-full-full17",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "CoUX: Collaborative Visual Analysis of Think-Aloud Usability Test Videos for Digital Interfaces",
+                        "contributors": [
+                            "Ehsan Jahangirzadeh Soure",
+                            "Emily Kuang",
+                            "Mingming Fan",
+                            "Jian Zhao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Professional Differences: A Comparative Study of Visualization Task Performance and Spatial Ability Across Disciplines",
+                        "contributors": [
+                            "Kyle Hall",
+                            "Anthony Kouroupis",
+                            "Anastasia Bezerianos",
+                            "Danielle Albers Szafir",
+                            "Christopher Collins"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:15:00Z",
+                        "time_end": "2021-10-28T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Rainbow Dash: Intuitiveness, Interpretability and Memorability of the Rainbow Color Scheme in Visualization",
+                        "contributors": [
+                            "Izabela Golebiowska",
+                            "Arzu \u00c7\u00f6ltekin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:30:00Z",
+                        "time_end": "2021-10-28T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Understanding Data Visualization Design Practice",
+                        "contributors": [
+                            "Paul Parsons"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:45:00Z",
+                        "time_end": "2021-10-28T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Learning Objectives, Insights, and Assessments: How Specification Formats Impact Design",
+                        "contributors": [
+                            "Elsie Lee",
+                            "Shiqing He",
+                            "Eytan Adar"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:00:00Z",
+                        "time_end": "2021-10-28T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Untidy Data: The Unreasonable Effectiveness of Tables",
+                        "contributors": [
+                            "Lyn Bartram",
+                            "Michael Correll",
+                            "Melanie Tory"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:15:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Accessible Visualization and Natural Language",
+                "session_id": "v-full-full26",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content",
+                        "contributors": [
+                            "Alan Lundgard",
+                            "Arvind Satyanarayan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Towards Understanding Sensory Substitution for Accessible Visualization: An Interview Study",
+                        "contributors": [
+                            "Pramod Chundury",
+                            "Biswaksen Patnaik",
+                            "Yasmin Reyazuddin",
+                            "Christine Tang",
+                            "Jonathan Lazar",
+                            "Niklas Elmqvist"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:15:00Z",
+                        "time_end": "2021-10-28T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Communicating Visualizations without Visuals: Investigation of Visualization Alternative Text for People with Visual Impairments",
+                        "contributors": [
+                            "Crescentia Jung",
+                            "Shubham Mehta",
+                            "Atharva Kulkarni",
+                            "Yuhang Zhao",
+                            "Yea-Seul Kim"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:30:00Z",
+                        "time_end": "2021-10-28T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Natural Language to Visualization by Neural Machine Translation",
+                        "contributors": [
+                            "Yuyu Luo",
+                            "Nan Tang",
+                            "Guoliang Li",
+                            "Jiawei Tang",
+                            "Chengliang Chai",
+                            "Xuedi Qin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:45:00Z",
+                        "time_end": "2021-10-28T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "GenNI: Human-AI Collaboration for Data-Backed Text Generation",
+                        "contributors": [
+                            "Hendrik Strobelt",
+                            "Jambay Kinley",
+                            "Robert Kr\u00fcger",
+                            "Johanna Beyer",
+                            "Hanspeter Pfister",
+                            "Alexander Rush"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:00:00Z",
+                        "time_end": "2021-10-28T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Words of Estimative Correlation: Studying Verbalizations of Scatterplots",
+                        "contributors": [
+                            "Rafael Henkin",
+                            "Cagatay Turkay"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:15:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Flow, Topology, and Fields",
+                "session_id": "v-full-full8",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "FTK: A Simplicial Spacetime Meshing Framework for Robust and Scalable Feature Tracking",
+                        "contributors": [
+                            "Hanqi Guo",
+                            "David Lenz",
+                            "Jiayi Xu",
+                            "Xin Liang",
+                            "Wenbin He",
+                            "Iulian Grindeanu",
+                            "Han-Wei Shen",
+                            "Tom Peterka",
+                            "Todd Munson",
+                            "Ian Foster"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Progressive Approach to Scalar Field Topology",
+                        "contributors": [
+                            "Jules Vidal",
+                            "Pierre Guillou",
+                            "Julien Tierny"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:15:00Z",
+                        "time_end": "2021-10-28T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Unordered Task-Parallel Augmented Merge Tree Construction",
+                        "contributors": [
+                            "Kilian Werner",
+                            "Christoph Garth"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:30:00Z",
+                        "time_end": "2021-10-28T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Wasserstein Distances, Geodesics and Barycenters of Merge Trees",
+                        "contributors": [
+                            "Mathieu Pont",
+                            "Jules Vidal",
+                            "Julie Delon",
+                            "Julien Tierny"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:45:00Z",
+                        "time_end": "2021-10-28T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Optimization and Augmentation for Data Parallel Contour Trees",
+                        "contributors": [
+                            "Hamish Carr",
+                            "Oliver R\u00fcbel",
+                            "Gunther Weber",
+                            "James Ahrens"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:00:00Z",
+                        "time_end": "2021-10-28T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering",
+                        "contributors": [
+                            "Yu Qin",
+                            "Brittany Terese Fasy",
+                            "Carola Wenk",
+                            "Brian Summa"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:15:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Grammar and Learning",
+                "session_id": "v-full-full4",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T14:55:00Z",
+                "time_end": "2021-10-28T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence",
+                        "contributors": [
+                            "Jian Zhao",
+                            "Mingming Fan",
+                            "Mi Feng"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:55:00Z",
+                        "time_end": "2021-10-28T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Net2Vis - A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations",
+                        "contributors": [
+                            "Alex B\u00e4uerle",
+                            "Christian van Onzenoodt",
+                            "Timo Ropinski"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:10:00Z",
+                        "time_end": "2021-10-28T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Gosling: A Grammar-based Toolkit for Scalable and Interactive Genomics Data Visualization",
+                        "contributors": [
+                            "Sehi L'Yi",
+                            "Qianwen Wang",
+                            "Fritz Lekschas",
+                            "Nils Gehlenborg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:25:00Z",
+                        "time_end": "2021-10-28T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "THALIS: Human-Machine Analysis of Longitudinal Symptoms in Cancer Therapy",
+                        "contributors": [
+                            "Carla Floricel",
+                            "Md Nafiul Nipu",
+                            "Mikayla Biggs",
+                            "Andrew Wentzel",
+                            "Guadalupe Canahuate",
+                            "Lisanne van Dijk",
+                            "Abdallah Mohamed",
+                            "Clifton David Fuller",
+                            "G. Elisabeta Marai"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:40:00Z",
+                        "time_end": "2021-10-28T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "MultiVision: Designing Analytical Dashboards with Deep Learning Based Recommendation",
+                        "contributors": [
+                            "Aoyu Wu",
+                            "Yun Wang",
+                            "Mengyu Zhou",
+                            "Xinyi He",
+                            "Haidong Zhang",
+                            "Huamin Qu",
+                            "Dongmei Zhang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:55:00Z",
+                        "time_end": "2021-10-28T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Interactive Graph Construction for Graph-Based Semi-Supervised Learning",
+                        "contributors": [
+                            "Changjian Chen",
+                            "Zhaowei Wang",
+                            "Jing Wu",
+                            "Xiting Wang",
+                            "Lan-Zhe Guo",
+                            "Yu-Feng Li",
+                            "Shixia Liu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:10:00Z",
+                        "time_end": "2021-10-28T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Autonomous Driving, Urban, and Spatiotemporal Data",
+                "session_id": "v-full-full25",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T14:55:00Z",
+                "time_end": "2021-10-28T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Geo-Context Aware Study of Vision-Based Autonomous Driving Models and Spatial Video Data",
+                        "contributors": [
+                            "Suphanut Jamonnak",
+                            "Ye Zhao",
+                            "Xinyi Huang",
+                            "Md Amiruzzaman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:55:00Z",
+                        "time_end": "2021-10-28T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visual Evaluation for Autonomous Driving",
+                        "contributors": [
+                            "Yijie Hou",
+                            "Chengshun Wang",
+                            "Junhong Wang",
+                            "Xiangyang Xue",
+                            "Xiaolong Zhang",
+                            "Jun Zhu",
+                            "Dongliang Wang",
+                            "Siming Chen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:10:00Z",
+                        "time_end": "2021-10-28T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Where Can We Help? A Visual Analytics Approach to Diagnosing and Improving Semantic Segmentation of Movable Objects",
+                        "contributors": [
+                            "Wenbin He",
+                            "Lincan Zou",
+                            "Shekar Arvind Kumar",
+                            "Liang Gou",
+                            "Liu Ren"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:25:00Z",
+                        "time_end": "2021-10-28T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Compass: Towards Better Causal Analysis of Urban Time Series",
+                        "contributors": [
+                            "Zikun Deng",
+                            "Di Weng",
+                            "Xiao Xie",
+                            "Jie Bao",
+                            "Yu Zheng",
+                            "Mingliang Xu",
+                            "Wei Chen",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:40:00Z",
+                        "time_end": "2021-10-28T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visual Cascade Analytics of Large-scale Spatiotemporal Data",
+                        "contributors": [
+                            "Zikun Deng",
+                            "Di Weng",
+                            "Yuxuan Liang",
+                            "Jie Bao",
+                            "Yu Zheng",
+                            "Tobias Schreck",
+                            "Mingliang Xu",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:55:00Z",
+                        "time_end": "2021-10-28T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "DDLVis: Real-time Visual Query of Spatiotemporal Data Distribution via Density Dictionary Learning",
+                        "contributors": [
+                            "Chenhui Li",
+                            "George Baciu",
+                            "Yunzhe WANG",
+                            "Junjie Chen",
+                            "Changbo Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:10:00Z",
+                        "time_end": "2021-10-28T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Scalability and Rendering",
+                "session_id": "v-full-full15",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T14:55:00Z",
+                "time_end": "2021-10-28T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Interactive Focus+Context Rendering for Hexahedral Mesh Inspection",
+                        "contributors": [
+                            "Christoph Neuhauser",
+                            "Junpeng Wang",
+                            "R\u00fcdiger Westermann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:55:00Z",
+                        "time_end": "2021-10-28T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Differentiable Direct Volume Rendering",
+                        "contributors": [
+                            "Sebastian Weiss",
+                            "R\u00fcdiger Westermann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:10:00Z",
+                        "time_end": "2021-10-28T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Accelerating Unstructured Mesh Point Location with RT Cores",
+                        "contributors": [
+                            "Nate Morrical",
+                            "Ingo Wald",
+                            "Will Usher",
+                            "Valerio Pascucci"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:25:00Z",
+                        "time_end": "2021-10-28T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Probabilistic Occlusion Culling using Confidence Maps for High-Quality Rendering of Large Particle Data",
+                        "contributors": [
+                            "Mohamed Ibrahim",
+                            "Peter Rautek",
+                            "Guido Reina",
+                            "Marco Agus",
+                            "Markus Hadwiger"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:40:00Z",
+                        "time_end": "2021-10-28T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Memory Efficient Encoding for Ray Tracing Large Unstructured Data",
+                        "contributors": [
+                            "Ingo Wald",
+                            "Nate Morrical",
+                            "Stefan Zellmann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:55:00Z",
+                        "time_end": "2021-10-28T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Pyramid-based Scatterplots Sampling for Progressive and Streaming Data Visualization",
+                        "contributors": [
+                            "Xin Chen",
+                            "Jian Zhang",
+                            "Chi-Wing Fu",
+                            "Jean-Daniel Fekete",
+                            "Yunhai Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:10:00Z",
+                        "time_end": "2021-10-28T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Time Series and Events",
+                "session_id": "v-full-full22",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T16:50:00Z",
+                "time_end": "2021-10-28T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "KD-Box: Line-segment-based KD-tree for Interactive Exploration of Large-scale Time-Series Data",
+                        "contributors": [
+                            "Yue Zhao",
+                            "Jian Zhang",
+                            "Chi-Wing Fu",
+                            "Mingliang Xu",
+                            "Dominik Moritz",
+                            "Yunhai Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:50:00Z",
+                        "time_end": "2021-10-28T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Sequen-C: A Multilevel Overview of Temporal Event Sequences",
+                        "contributors": [
+                            "Jessica Magallanes",
+                            "Tony Stone",
+                            "Paul Morris",
+                            "Suzanne Mason",
+                            "Steven Wood",
+                            "Maria-Cruz Villa-Uriol"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:05:00Z",
+                        "time_end": "2021-10-28T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "EVis: Visually Analyzing Environmentally Driven Events",
+                        "contributors": [
+                            "Tinghao Feng",
+                            "Jing Yang",
+                            "Martha-Cary Eppes",
+                            "Zhaocong Yang",
+                            "Faye Moser"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:20:00Z",
+                        "time_end": "2021-10-28T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Interactive Visual Exploration of Longitudinal Historical Career Mobility Data",
+                        "contributors": [
+                            "Yifang Wang",
+                            "Hongye Liang",
+                            "Xinhuan Shu",
+                            "Jiachen Wang",
+                            "Ke Xu",
+                            "Zikun Deng",
+                            "Cameron Campbell",
+                            "Bijia Chen",
+                            "Yingcai Wu",
+                            "Huamin Qu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:35:00Z",
+                        "time_end": "2021-10-28T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "HisVA: a Visual Analytics System for Learning History",
+                        "contributors": [
+                            "Dongyun Han",
+                            "Gorakh Parsad",
+                            "Hwiyeon Kim",
+                            "Jaekyom Shim",
+                            "Oh-Sang Kwon",
+                            "Kyung Son",
+                            "Jooyoung Lee",
+                            "Isaac Cho",
+                            "Sungahn Ko"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:50:00Z",
+                        "time_end": "2021-10-28T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "SSR-TVD: Spatial Super-Resolution for Time-Varying Data Analysis and Visualization",
+                        "contributors": [
+                            "Jun Han",
+                            "Chaoli Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T18:05:00Z",
+                        "time_end": "2021-10-28T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Mitigating Bias",
+                "session_id": "v-full-full24",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T16:50:00Z",
+                "time_end": "2021-10-28T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Left, Right, and Gender: Exploring Interaction Traces to Mitigate Human Biases",
+                        "contributors": [
+                            "Emily Wall",
+                            "Arpit Narechania",
+                            "Adam Coscia",
+                            "Jamal Paden",
+                            "Alex Endert"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:50:00Z",
+                        "time_end": "2021-10-28T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VisQA: X-raying Vision and Language Reasoning in Transformers",
+                        "contributors": [
+                            "Theo Jaunet",
+                            "Corentin Kervadec",
+                            "Romain Vuillemot",
+                            "Grigory Antipov",
+                            "Moez Baccouche",
+                            "Christian Wolf"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:05:00Z",
+                        "time_end": "2021-10-28T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "The Weighted Average Illusion: Biases in Perceived Mean Position in Scatterplots",
+                        "contributors": [
+                            "Matt-Ian Hong",
+                            "Jessica Witt",
+                            "Danielle Albers Szafir"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:20:00Z",
+                        "time_end": "2021-10-28T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Impact of Cognitive Biases on Progressive Visualization",
+                        "contributors": [
+                            "Marianne Procopio",
+                            "Ab Mosca",
+                            "Carlos Scheidegger",
+                            "Eugene Wu",
+                            "Remco Chang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:35:00Z",
+                        "time_end": "2021-10-28T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Improving Visualization Interpretation Using Counterfactuals",
+                        "contributors": [
+                            "Smiti Kaul",
+                            "David Borland",
+                            "Nan Cao",
+                            "David Gotz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:50:00Z",
+                        "time_end": "2021-10-28T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis",
+                        "contributors": [
+                            "Arpit Narechania",
+                            "Adam Coscia",
+                            "Emily Wall",
+                            "Alex Endert"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T18:05:00Z",
+                        "time_end": "2021-10-28T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Graphs and Trees",
+                "session_id": "v-full-full9",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T16:50:00Z",
+                "time_end": "2021-10-28T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Multi-level Area Balancing of Clustered Graphs",
+                        "contributors": [
+                            "Hsiang-Yun Wu",
+                            "Martin N\u00f6llenburg",
+                            "Ivan Viola"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:50:00Z",
+                        "time_end": "2021-10-28T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Understanding Missing Links in Bipartite Networks with MissBiN",
+                        "contributors": [
+                            "Jian Zhao",
+                            "Maoyuan Sun",
+                            "Francine Chen",
+                            "Patrick Chiu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:05:00Z",
+                        "time_end": "2021-10-28T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A State-of-the-Art Survey of Tasks for Tree Design and Evaluation with a Curated Task Dataset",
+                        "contributors": [
+                            "Aditeya Pandey",
+                            "Uzma Syeda",
+                            "Chaitya Shah",
+                            "John Gomez",
+                            "Michelle Borkin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:20:00Z",
+                        "time_end": "2021-10-28T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach",
+                        "contributors": [
+                            "Markus Wallinger",
+                            "Daniel Archambault",
+                            "David Auber",
+                            "Martin N\u00f6llenburg",
+                            "Jaakko Peltonen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:35:00Z",
+                        "time_end": "2021-10-28T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "STRATISFIMAL LAYOUT: A Modular Optimization Model for Laying Out Layered Node-link Network Visualizations",
+                        "contributors": [
+                            "Sara Di Bartolomeo",
+                            "Mirek Riedewald",
+                            "Wolfgang Gatterbauer",
+                            "Cody Dunne"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:50:00Z",
+                        "time_end": "2021-10-28T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Interactive Visual Pattern Search on Graph Data via Graph Representation Learning",
+                        "contributors": [
+                            "Huan Song",
+                            "Zeng Dai",
+                            "Panpan Xu",
+                            "Liu Ren"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T18:05:00Z",
+                        "time_end": "2021-10-28T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Data-Driven Communication and Storytelling",
+                "session_id": "v-full-full23",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "A Design Space for Applying the Freytag's Pyramid Structure to Data Stories",
+                        "contributors": [
+                            "Leni Yang",
+                            "Xian XU",
+                            "Xingyu Lan",
+                            "Ziyan Liu",
+                            "Shunan Guo",
+                            "Yang Shi",
+                            "Huamin Qu",
+                            "Nan Cao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design",
+                        "contributors": [
+                            "Xingyu Lan",
+                            "Yang Shi",
+                            "Yanqiu Wu",
+                            "Xiaohan Jiao",
+                            "Nan Cao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:15:00Z",
+                        "time_end": "2021-10-29T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Interactive Data Comics",
+                        "contributors": [
+                            "Zezhong Wang",
+                            "Hugo Romat",
+                            "Fanny Chevalier",
+                            "Nathalie Henry Riche",
+                            "Dave Murray-Rust",
+                            "Benjamin Bach"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:30:00Z",
+                        "time_end": "2021-10-29T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Declutter and Focus: Empirically Evaluating Design Guidelines for Effective Data Communication",
+                        "contributors": [
+                            "Kiran Ajani",
+                            "Elsie Lee",
+                            "Cindy Xiong",
+                            "Cole Knaflic",
+                            "William Kemper",
+                            "Steven Franconeri"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:45:00Z",
+                        "time_end": "2021-10-29T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Showing Data about People: A Design Space of Anthropographics",
+                        "contributors": [
+                            "Luiz Morais",
+                            "Yvonne Jansen",
+                            "Nazareno Andrade",
+                            "Pierre Dragicevic"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:00:00Z",
+                        "time_end": "2021-10-29T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visual Arrangements of Bar Charts Influence Comparisons in Viewer Takeaways",
+                        "contributors": [
+                            "Cindy Xiong",
+                            "Vidya Setlur",
+                            "Benjamin Bach",
+                            "Kylie Lin",
+                            "Eunyee Koh",
+                            "Steven Franconeri"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:15:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Glyphs and Sets",
+                "session_id": "v-full-full11",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Generative Design Inspiration for Glyphs with Diatoms",
+                        "contributors": [
+                            "Matthew Brehmer",
+                            "Robert Kosara",
+                            "Carmen Hull"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "GlyphCreator: Towards Automatic Generation of Example-based Circular Glyphs",
+                        "contributors": [
+                            "Lu Ying",
+                            "Tan Tang",
+                            "Yuzhe Luo",
+                            "Lvkesheng Shen",
+                            "Xiao Xie",
+                            "Lingyun Yu",
+                            "Yingcai Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:15:00Z",
+                        "time_end": "2021-10-29T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Shape-driven Coordinate Ordering for Star Glyph Sets via Reinforcement Learning",
+                        "contributors": [
+                            "Ruizhen Hu",
+                            "Bin Chen",
+                            "Juzhan Xu",
+                            "Oliver van Kaick",
+                            "Oliver Deussen",
+                            "Hui Huang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:30:00Z",
+                        "time_end": "2021-10-29T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "F2-Bubbles: Faithful Bubble Set Construction and Flexible Editing",
+                        "contributors": [
+                            "Yunhai Wang",
+                            "Da Cheng",
+                            "Zhirui Wang",
+                            "Jian Zhang",
+                            "Liang Zhou",
+                            "Gaoqi He",
+                            "Oliver Deussen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:45:00Z",
+                        "time_end": "2021-10-29T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "spEuler: Semantics-preserving Euler Diagrams",
+                        "contributors": [
+                            "Rebecca Kehlbeck",
+                            "Jochen G\u00f6rtler",
+                            "Yunhai Wang",
+                            "Oliver Deussen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:00:00Z",
+                        "time_end": "2021-10-29T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visualization of 3D Stress Tensor Fields Using Superquadric Glyphs on Displacement Streamlines",
+                        "contributors": [
+                            "Mohak Patel",
+                            "David Laidlaw"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:15:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Uncertainty",
+                "session_id": "v-full-full12",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Network Hypothetical Outcome Plots for Visualizing Uncertainty in Probabilistic Network Data",
+                        "contributors": [
+                            "Dongping Zhang",
+                            "Eytan Adar",
+                            "Jessica Hullman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T13:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Implicit Error, Uncertainty and Confidence in Visualization: an Archaeological Case Study",
+                        "contributors": [
+                            "Georgia Panagiotidou",
+                            "Ralf Vandam",
+                            "Jeroen Poblome",
+                            "Andrew Moere"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:15:00Z",
+                        "time_end": "2021-10-29T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Examining Effort in 1D Uncertainty Communication Using Individual Differences in Working Memory and NASA-TLX",
+                        "contributors": [
+                            "Spencer Castro",
+                            "Helia Hosseinpour",
+                            "P. Samuel Quinan",
+                            "Lace Padilla"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:30:00Z",
+                        "time_end": "2021-10-29T13:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Can Visualization Alleviate Dichotomous Thinking? Effects of Visual Representations on the Cliff Effect",
+                        "contributors": [
+                            "Jouni Helske",
+                            "Satu Helske",
+                            "Matthew Cooper",
+                            "Anders Ynnerman",
+                            "Lonni Besan\u00e7on"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:45:00Z",
+                        "time_end": "2021-10-29T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Effect of Uncertainty Visualizations on Myopic Loss Aversion and Equity Premium Puzzle in Retirement Investment Decisions",
+                        "contributors": [
+                            "Ryan Wesslen",
+                            "Alireza Karduni",
+                            "Doug Markant",
+                            "Wenwen Dou"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:00:00Z",
+                        "time_end": "2021-10-29T14:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visualization Equilibrium",
+                        "contributors": [
+                            "Paula Kayongo",
+                            "Glenn Sun",
+                            "Jason Hartline",
+                            "Jessica Hullman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:15:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Model Evaluation",
+                "session_id": "v-full-full10",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T14:55:00Z",
+                "time_end": "2021-10-29T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Inspecting the Running Process of Horizontal Federated Learning via Visual Analytics",
+                        "contributors": [
+                            "Quan Li",
+                            "Xiguang Wei",
+                            "Huanbin Lin",
+                            "Yang Liu",
+                            "Tianjian Chen",
+                            "Xiaojuan Ma"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:55:00Z",
+                        "time_end": "2021-10-29T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "An Evaluation-Focused Framework for Visualization Recommendation Algorithms",
+                        "contributors": [
+                            "Zehua Zeng",
+                            "Phoebe Moh",
+                            "Fan Du",
+                            "Jane Hoffswell",
+                            "Tak Yeon Lee",
+                            "Sana Malik",
+                            "Eunyee Koh",
+                            "Leilani Battle"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:10:00Z",
+                        "time_end": "2021-10-29T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visual Analysis of Hyperproperties for Understanding Model Checking Results",
+                        "contributors": [
+                            "Tom Horak",
+                            "Norine Coenen",
+                            "Niklas Metzger",
+                            "Christopher Hahn",
+                            "Tamara Flemisch",
+                            "Juli\u00e1n M\u00e9ndez",
+                            "Dennis Dimov",
+                            "Bernd Finkbeiner",
+                            "Raimund Dachselt"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:25:00Z",
+                        "time_end": "2021-10-29T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "FairRankVis: A Visual Analytics Framework for Exploring Algorithmic Fairness in Graph Mining Models",
+                        "contributors": [
+                            "Tiankai Xie",
+                            "Yuxin Ma",
+                            "Jian Kang",
+                            "Hanghang Tong",
+                            "Ross Maciejewski"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:40:00Z",
+                        "time_end": "2021-10-29T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "embComp: Visual Interactive Comparison of Vector Embeddings",
+                        "contributors": [
+                            "Florian Heimerl",
+                            "Christoph Kralj",
+                            "Torsten M\u00f6ller",
+                            "Michael Gleicher"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:55:00Z",
+                        "time_end": "2021-10-29T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models",
+                        "contributors": [
+                            "Furui Cheng",
+                            "Dongyu Liu",
+                            "Fan Du",
+                            "Yanna Lin",
+                            "Alexandra Zytek",
+                            "Haomin Li",
+                            "Huamin Qu",
+                            "Kalyan Veeramachaneni"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T16:10:00Z",
+                        "time_end": "2021-10-29T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Efficient Representation and Layout",
+                "session_id": "v-full-full16",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T14:55:00Z",
+                "time_end": "2021-10-29T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Rapid Labels: Point-Feature Labeling on GPU",
+                        "contributors": [
+                            "V\u00e1clav Pavlovec",
+                            "Ladislav \u010cmol\u00edk"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:55:00Z",
+                        "time_end": "2021-10-29T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Scalable Scalable Vector Graphics: Automatic Translation of Interactive SVGs to a Multithread VDOM for Fast Rendering",
+                        "contributors": [
+                            "Michail Schwab",
+                            "David Saffo",
+                            "Nicholas Bond",
+                            "Shash Sinha",
+                            "Cody Dunne",
+                            "Jeff Huang",
+                            "James Tompkin",
+                            "Michelle Borkin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:10:00Z",
+                        "time_end": "2021-10-29T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Probabilistic Data-Driven Sampling via Multi-Criteria Importance Analysis",
+                        "contributors": [
+                            "Ayan Biswas",
+                            "Soumya Dutta",
+                            "Earl Lawrence",
+                            "John Patchett",
+                            "Jon Calhoun",
+                            "James Ahrens"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:25:00Z",
+                        "time_end": "2021-10-29T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "An Efficient Dual-Hierarchy tSNE Minimization",
+                        "contributors": [
+                            "Mark van de Ruit",
+                            "Markus Billeter",
+                            "Elmar Eisemann"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:40:00Z",
+                        "time_end": "2021-10-29T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Joint t-SNE for Comparable Projections of Multiple High-Dimensional Datasets",
+                        "contributors": [
+                            "Yinqiao Wang",
+                            "Lu Chen",
+                            "Jaemin Jo",
+                            "Yunhai Wang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:55:00Z",
+                        "time_end": "2021-10-29T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Automatic Polygon Layout for Primal-Dual Visualization of Hypergraphs",
+                        "contributors": [
+                            "Botong Qu",
+                            "Eugene Zhang",
+                            "Yue Zhang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T16:10:00Z",
+                        "time_end": "2021-10-29T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Biological and Medical Visualization",
+                "session_id": "v-full-full6",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T14:55:00Z",
+                "time_end": "2021-10-29T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "COVID-view: Diagnosis of COVID-19 using Chest CT",
+                        "contributors": [
+                            "Shreeraj Jadhav",
+                            "Gaofeng Deng",
+                            "Marlene Zawin",
+                            "Arie Kaufman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:55:00Z",
+                        "time_end": "2021-10-29T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "LoopGrafter: Visual Support for the Grafting Workflow of Protein Loops",
+                        "contributors": [
+                            "Filip Op\u00e1len\u00fd",
+                            "Pavol Ulbrich",
+                            "Joan Planas-Iglesias",
+                            "Jan By\u0161ka",
+                            "Gaspar Pinto",
+                            "David Bedn\u00e1\u0159",
+                            "Katar\u00edna Furmanov\u00e1",
+                            "Barbora Kozlikova"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:10:00Z",
+                        "time_end": "2021-10-29T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "ThreadStates: State-based Visual Analysis of Disease Progression",
+                        "contributors": [
+                            "Qianwen Wang",
+                            "Tali Mazor",
+                            "Theresa Harbig",
+                            "Ethan Cerami",
+                            "Nils Gehlenborg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:25:00Z",
+                        "time_end": "2021-10-29T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Loon: Using Exemplars to Visualize Large Scale Microscopy Data",
+                        "contributors": [
+                            "Devin Lange",
+                            "Eddie Polanco",
+                            "Robert Judson-Torres",
+                            "Thomas Zangle",
+                            "Alexander Lex"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:40:00Z",
+                        "time_end": "2021-10-29T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Scope2Screen: Focus+Context Techniques for Pathology Tumor Assessment in Multivariate Image Data",
+                        "contributors": [
+                            "Jared Jessup",
+                            "Robert Kr\u00fcger",
+                            "Simon Warchol",
+                            "John Hoffer",
+                            "Jeremy Muhlich",
+                            "Cecily C. Ritch",
+                            "Giorgio Gaglia",
+                            "Shannon Coy",
+                            "Yu-An Chen",
+                            "Jia-Ren Lin",
+                            "Sandro Santagata",
+                            "Peter Sorger",
+                            "Hanspeter Pfister"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:55:00Z",
+                        "time_end": "2021-10-29T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Multiscale Unfolding: Illustratively Visualizing the Whole Genome at a Glance",
+                        "contributors": [
+                            "Sarkis Halladjian",
+                            "David Kouril",
+                            "Haichao Miao",
+                            "Eduard Gr\u00f6ller",
+                            "Ivan Viola",
+                            "Tobias Isenberg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T16:10:00Z",
+                        "time_end": "2021-10-29T16:25:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-short": {
+        "event": "VIS Short Papers",
+        "long_name": "VIS Short Papers",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Social Sciences, Software Tools, Journalism, and Storytelling",
+                "session_id": "v-short-short5",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "GeoSneakPique: Visual autocompletion for geospatial queries",
+                        "contributors": [
+                            "Vidya Setlur",
+                            "Sarah Battersby",
+                            "Tracy Kam Hung Wong"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T13:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Atlas: Grammar-based Procedural Generation of Data Visualizations",
+                        "contributors": [
+                            "Zhicheng Liu",
+                            "Chen Chen",
+                            "Francisco Morales",
+                            "Yishan Zhao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:10:00Z",
+                        "time_end": "2021-10-27T13:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "On The Potential of Zines as a Medium for Visualization",
+                        "contributors": [
+                            "Andrew M McNutt"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:20:00Z",
+                        "time_end": "2021-10-27T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Narrative Sensemaking: Strategies for Narrative Maps Construction",
+                        "contributors": [
+                            "Brian Felipe Keith Norambuena",
+                            "Tanushree Mitra",
+                            "Chris North"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:30:00Z",
+                        "time_end": "2021-10-27T13:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Text Visualization and Close Reading for Journalism with Storifier",
+                        "contributors": [
+                            "Nicole Sultanum",
+                            "Anastasia Bezerianos",
+                            "Fanny Chevalier"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:40:00Z",
+                        "time_end": "2021-10-27T13:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Conceptualizing Visual Analytic Interventions for Content Moderation",
+                        "contributors": [
+                            "Sahaj Vaidya",
+                            "Jie Cai",
+                            "Soumyadeep Basu",
+                            "Azadeh Naderi",
+                            "Donghee Yvette Wohn",
+                            "Aritra Dasgupta"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:50:00Z",
+                        "time_end": "2021-10-27T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "How Learners Sketch Data Stories",
+                        "contributors": [
+                            "Rahul Bhargava",
+                            "Dee Williams",
+                            "Catherine D\u2019Ignazio"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:00:00Z",
+                        "time_end": "2021-10-27T14:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Gemini\u00b2: Generating Keyframe-Oriented Animated Transitions Between Statistical Graphics",
+                        "contributors": [
+                            "Younghoon Kim",
+                            "Jeffrey Heer"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:10:00Z",
+                        "time_end": "2021-10-27T14:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "AI+VIS",
+                "session_id": "v-short-short1",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T14:55:00Z",
+                "time_end": "2021-10-27T16:15:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "CloudFindr: A Deep Learning Cloud Artifact Masker for Satellite DEM Data",
+                        "contributors": [
+                            "Kalina Borkiewicz",
+                            "Viraj Shah",
+                            "J.P. Naiman",
+                            "Chuanyue Shen",
+                            "Stuart Levy",
+                            "Jeffrey D Carpenter"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:55:00Z",
+                        "time_end": "2021-10-27T15:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "An Exploration And Validation of Visual Factors in Understanding Classification Rule Sets",
+                        "contributors": [
+                            "Jun Yuan",
+                            "Oded Nov",
+                            "Enrico Bertini"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:05:00Z",
+                        "time_end": "2021-10-27T15:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Fast & Accurate Gaussian Kernel Density Estimation",
+                        "contributors": [
+                            "Jeffrey Heer"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:15:00Z",
+                        "time_end": "2021-10-27T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "\"Why did my AI agent lose?\": Visual Analytics for Scaling Up AAR/AI",
+                        "contributors": [
+                            "Delyar Tabatabai",
+                            "Anita Ruangrotsakun",
+                            "Jed Irvine",
+                            "Jonathan Dodge",
+                            "Zeyad Shureih",
+                            "Kin-Ho Lam",
+                            "Margaret Burnett",
+                            "Alan Paul Fern",
+                            "Minsuk Kahng"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:25:00Z",
+                        "time_end": "2021-10-27T15:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "VAINE: Visualization and AI for Natural Experiments",
+                        "contributors": [
+                            "Grace Guo",
+                            "Maria Glenski",
+                            "Zhuanyi Huang",
+                            "Emily Saldanha",
+                            "Alex Endert",
+                            "Svitlana Volkova",
+                            "Dustin L Arendt"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:35:00Z",
+                        "time_end": "2021-10-27T15:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Semantic Explanation of Interactive Dimensionality Reduction",
+                        "contributors": [
+                            "Yail Bian",
+                            "Chris North",
+                            "Eric Krokos",
+                            "Sarah Joseph"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:45:00Z",
+                        "time_end": "2021-10-27T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "AdViCE: Aggregated Visual Counterfactual Explanations for Machine Learning Model Validation",
+                        "contributors": [
+                            "Steffen Holter",
+                            "Oscar Alejandro Gomez",
+                            "Jun Yuan",
+                            "Enrico Bertini"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:55:00Z",
+                        "time_end": "2021-10-27T16:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Contrastive Identification of Covariate Shift in Image Data",
+                        "contributors": [
+                            "Matthew Olson",
+                            "Thuy-Vy Nguyen",
+                            "Gaurav Dixit",
+                            "Neale Ratzlaff",
+                            "Weng-Keen Wong",
+                            "Minsuk Kahng"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:05:00Z",
+                        "time_end": "2021-10-27T16:15:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Graphs, Charts, and Perception",
+                "session_id": "v-short-short2",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T14:55:00Z",
+                "time_end": "2021-10-28T16:15:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "TimeElide: Visual Analysis of Non-Contiguous Time Series Slices",
+                        "contributors": [
+                            "Michael Oppermann",
+                            "Luce Liu",
+                            "Tamara Munzner"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:55:00Z",
+                        "time_end": "2021-10-28T15:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts",
+                        "contributors": [
+                            "Vidya Setlur",
+                            "Haeyong Chung"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:05:00Z",
+                        "time_end": "2021-10-28T15:15:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Bayesian Modelling of Alluvial Diagram Complexity",
+                        "contributors": [
+                            "Anjana Arunkumar",
+                            "Shashank Ginjpalli",
+                            "Chris Bryan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:15:00Z",
+                        "time_end": "2021-10-28T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "When Red Means Good, Bad, or Canada:Exploring People\u2019s Reasoning for Choosing Color Palettes",
+                        "contributors": [
+                            "Jarryullah Ahmad",
+                            "Elaine Huynh",
+                            "Fanny Chevalier"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:25:00Z",
+                        "time_end": "2021-10-28T15:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Does the Layout Really Matter? A Study on Visual Model Accuracy Estimation",
+                        "contributors": [
+                            "Nicolas Grossmann",
+                            "J\u00fcrgen Bernard",
+                            "Michael Sedlmair",
+                            "Manuela Waldner"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:35:00Z",
+                        "time_end": "2021-10-28T15:45:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Histogram binning revisited with a focus on human perception",
+                        "contributors": [
+                            "Raphael Sahann",
+                            "Torsten M\u00f6ller",
+                            "Johanna Schmidt"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:45:00Z",
+                        "time_end": "2021-10-28T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Fixation and Creativity in Data Visualization Design: Experiences and Perspectives of Practitioners",
+                        "contributors": [
+                            "Paul Parsons",
+                            "Prakash Chandra Shukla",
+                            "Chorong Park"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:55:00Z",
+                        "time_end": "2021-10-28T16:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Towards a Survey on Static and Dynamic Hypergraph Visualizations",
+                        "contributors": [
+                            "Maximilian T. Fischer",
+                            "Alexander Frings",
+                            "Daniel Keim",
+                            "Daniel Seebacher"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:05:00Z",
+                        "time_end": "2021-10-28T16:15:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Applications",
+                "session_id": "v-short-short4",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T16:50:00Z",
+                "time_end": "2021-10-28T18:10:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "A Visual Analytics System for Water Distribution System Optimization",
+                        "contributors": [
+                            "Yiran Li",
+                            "Erin Musabandesu",
+                            "Takanori Fujiwara",
+                            "Frank J. Loge",
+                            "Kwan-Liu Ma"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:50:00Z",
+                        "time_end": "2021-10-28T17:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "CellProfiler Analyst Web (CPAW) - Exploration, analysis, and classification of biological images on the web",
+                        "contributors": [
+                            "Bella Baidak",
+                            "Yahiya Hussain",
+                            "Emma Kelminson",
+                            "Thouis Ray Jones",
+                            "Loraine Franke",
+                            "Daniel Haehn"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:00:00Z",
+                        "time_end": "2021-10-28T17:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Inspecting the Process of Bank Credit Rating via Visual Analytics",
+                        "contributors": [
+                            "Qiangqiang Liu",
+                            "Tangzhi Ye",
+                            "Zhihua Zhu",
+                            "Xiaojuan Ma",
+                            "Quan Li"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:10:00Z",
+                        "time_end": "2021-10-28T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Where and Why is My Bot Failing? A Visual Analytics Approach for Investigating Failures in Chatbot Conversation Flows",
+                        "contributors": [
+                            "Avi Yaeli",
+                            "Sergey Zeltyn"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:20:00Z",
+                        "time_end": "2021-10-28T17:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "AiR: An Augmented Reality Application for Visualizing Air Pollution",
+                        "contributors": [
+                            "Noble Saji Mathews",
+                            "Sridhar Chimalakonda",
+                            "Suresh Jain"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:30:00Z",
+                        "time_end": "2021-10-28T17:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "ConVIScope: Visual Analytics for Exploring Patient Conversations",
+                        "contributors": [
+                            "Raymond Li",
+                            "Enamul Hoque",
+                            "Giuseppe Carenini",
+                            "Richard Lester",
+                            "Raymond Chau"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:40:00Z",
+                        "time_end": "2021-10-28T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Visually Connecting Historical Figures Through Event Knowledge Graphs",
+                        "contributors": [
+                            "Shahid Latif",
+                            "Shivam Agarwal",
+                            "Simon Gottschalk",
+                            "Carina Chrosch",
+                            "Yanick Christian Tchenko",
+                            "Felix Feit",
+                            "Johannes Jahn",
+                            "Tobias Braun",
+                            "Elena Demidova",
+                            "Fabian Beck"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T17:50:00Z",
+                        "time_end": "2021-10-28T18:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Understanding the Effects of Visualizing Missing Values on Visual Data Exploration",
+                        "contributors": [
+                            "Hayeong Song",
+                            "Yu Fu",
+                            "Bahador Saket",
+                            "John Stasko"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T18:00:00Z",
+                        "time_end": "2021-10-28T18:10:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Mathematics, Topology, and Rendering",
+                "session_id": "v-short-short3",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Time-Varying Fuzzy Contour Trees",
+                        "contributors": [
+                            "Anna-Pia Lohfink",
+                            "Frederike Gartzky",
+                            "Florian Wetzels",
+                            "Luisa Vollmer",
+                            "Christoph Garth"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T13:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Ray-traced Shell Traversal of Tetrahedral Meshes for Direct Volume Visualization",
+                        "contributors": [
+                            "Alper \u015eah\u0131stan",
+                            "Serkan Demirci",
+                            "Nate Morrical",
+                            "Stefan Zellmann",
+                            "Aytek Aman",
+                            "Ingo Wald",
+                            "Ugur Gudukbay"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:10:00Z",
+                        "time_end": "2021-10-29T13:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Segmentation driven Peeling for Visual Analysis of Electronic Transitions",
+                        "contributors": [
+                            "Mohit Sharma",
+                            "Talha Bin Masood",
+                            "Signe Sidwall Thygesen",
+                            "Mathieu Linares",
+                            "Ingrid Hotz",
+                            "Vijay Natarajan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:20:00Z",
+                        "time_end": "2021-10-29T13:30:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Exact Analytical Parallel Vectors",
+                        "contributors": [
+                            "Hanqi Guo",
+                            "Tom Peterka"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:30:00Z",
+                        "time_end": "2021-10-29T13:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Uncertainty Visualization of the Marching Squares and Marching Cubes Topology Cases",
+                        "contributors": [
+                            "Tushar M. Athawale",
+                            "Sudhanshu Sane",
+                            "Chris R. Johnson"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:40:00Z",
+                        "time_end": "2021-10-29T13:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Intercept Graph: An Interactive Radial Visualization for Comparison of State Changes",
+                        "contributors": [
+                            "Shaolun Ruan",
+                            "Yong Wang",
+                            "Qiang Guan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:50:00Z",
+                        "time_end": "2021-10-29T14:00:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Automatic Y-axis Rescaling in Dynamic Visualizations",
+                        "contributors": [
+                            "Jacob Fisher",
+                            "Remco Chang",
+                            "Eugene Wu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:00:00Z",
+                        "time_end": "2021-10-29T14:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "A Mixed-Initiative Visual Analytics Approach for Qualitative Causal Modeling",
+                        "contributors": [
+                            "Fahd Husain",
+                            "Pascale Proulx",
+                            "Meng-Wei Chang",
+                            "Rosa Romero-G\u00f3mez",
+                            "Holland Marie Vasquez"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:10:00Z",
+                        "time_end": "2021-10-29T14:20:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-panels": {
+        "event": "VIS Panels",
+        "long_name": "VIS Panels",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Wait...when did we sign up to be economists?",
+                "session_id": "v-panels-panel4",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Wait...when did we sign up to be economists?",
+                        "contributors": [
+                            "Derya Akbaba",
+                            "Kiran Gadhave",
+                            "Salph Savage",
+                            "Danielle Albers Szafir",
+                            "Alexander Lex",
+                            "Steve Haroz",
+                            "Khairi Reda"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "What is the Role of VIS in Combating COVID-19?",
+                "session_id": "v-panels-panel2",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T14:55:00Z",
+                "time_end": "2021-10-27T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "What is the Role of VIS in Combating COVID-19?",
+                        "contributors": [
+                            "Min Chen",
+                            "David Ebert",
+                            "Lace Padilla",
+                            "Yixuan Zhang",
+                            "Alfie Abdul-Rahman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:55:00Z",
+                        "time_end": "2021-10-27T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Our History and Future Innovation",
+                "session_id": "v-panels-panel6",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Our History and Future Innovation",
+                        "contributors": [
+                            "Ben Shneiderman",
+                            "Tamara Munzner",
+                            "Jarke van Wijk",
+                            "Jock Mackinlay",
+                            "Jessica Hullman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Towards Accessible Data Representations",
+                "session_id": "v-panels-panel3",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T14:55:00Z",
+                "time_end": "2021-10-28T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Towards Accessible Data Representations",
+                        "contributors": [
+                            "Arvind Satyanarayan",
+                            "Danielle Albers Szafir",
+                            "Crystal Lee",
+                            "Alan Lundgard",
+                            "Keke Wu",
+                            "Cindy Bennett",
+                            "Zoe Gross",
+                            "Rua Williams",
+                            "Ariel Schwartz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:55:00Z",
+                        "time_end": "2021-10-28T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+                "session_id": "v-panels-panel5",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+                        "contributors": [
+                            "Alark Joshi",
+                            "Katy Borner",
+                            "Robert S. Laramee",
+                            "Lane Harrison",
+                            "Elif E. Firat",
+                            "Bum Chul Kwon"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Navigating Interdisciplinary Careers in Visualization",
+                "session_id": "v-panels-panel1",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T14:55:00Z",
+                "time_end": "2021-10-29T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Navigating Interdisciplinary Careers in Visualization",
+                        "contributors": [
+                            "Morgan L. Turner",
+                            "Ruth West",
+                            "Adrien Segal",
+                            "Sheelagh Carpendale",
+                            "Daniel Keefe"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:55:00Z",
+                        "time_end": "2021-10-29T16:25:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "a-vizsec": {
+        "event": "VizSec",
+        "long_name": "VizSec",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "VizSec",
+                "session_id": "a-vizsec-vizsec",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T13:00:00Z",
+                "time_end": "2021-10-27T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "VizSec",
+                        "contributors": [
+                            "Marco Angelini",
+                            "Rosa Romero-G\u00f3mez",
+                            "Chris Bryan",
+                            "Lyndsey R. Franklin",
+                            "Awalin Sopan",
+                            "Steven Gomez",
+                            "Sanchari Das",
+                            "No\u00eblle Rakotondravony",
+                            "Alex Ulmer"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T13:00:00Z",
+                        "time_end": "2021-10-27T14:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-cga": {
+        "event": "VIS CG&A Presentations",
+        "long_name": "VIS CG&A Presentations",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Data Physicalization",
+                "session_id": "v-cga-cga1",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T14:55:00Z",
+                "time_end": "2021-10-27T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "What we talk about when we talk about data physicality",
+                        "contributors": [
+                            "Dietmar Offenhuber"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T14:55:00Z",
+                        "time_end": "2021-10-27T15:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Data Badges: Making an Academic Profile through a DIY wearable physicalisation",
+                        "contributors": [
+                            "Georgia Panagiotidou",
+                            "Sinem G\u00f6r\u00fcc\u00fc",
+                            "Andrew Vande Moere"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:10:00Z",
+                        "time_end": "2021-10-27T15:25:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Move&Find: The value of kinesthetic experience in a casual data representation",
+                        "contributors": [
+                            "J\u00f6rn Hurtienne",
+                            "Franzisca Maas",
+                            "Astrid Carolus",
+                            "Daniel Reinhardt",
+                            "Cordula Baur",
+                            "Carolin Wienrich"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:25:00Z",
+                        "time_end": "2021-10-27T15:40:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Slave Voyages:reflections on data sculptures",
+                        "contributors": [
+                            "Doris Kosminsky",
+                            "Douglas Thomaz de Oliveira"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:40:00Z",
+                        "time_end": "2021-10-27T15:55:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Narrative Physicalisation: Supporting Interactive Engagement with Personal Data",
+                        "contributors": [
+                            "Maria Karyda",
+                            "Danielle Wilde",
+                            "Mette Gislev Kj\u00e6rsgaard"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:55:00Z",
+                        "time_end": "2021-10-27T16:10:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Data Clothing and BigBarChart: designing physical data reports on indoor pollutants for individuals and communities",
+                        "contributors": [
+                            "Laura J. Perovich",
+                            "Phoebe Cai",
+                            "Amber Guo",
+                            "Kristin Zimmerman",
+                            "Katherine Paseman",
+                            "Dayanna Espinoza Silva",
+                            "Julia G. Brody"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:10:00Z",
+                        "time_end": "2021-10-27T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Visualizing big issues: Culture, Climate Change, and Communities",
+                "session_id": "v-cga-cga2",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T16:50:00Z",
+                "time_end": "2021-10-27T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Dynamic 3D Visualization of Climate Model Development and Results",
+                        "contributors": [
+                            "Jeremy Walton",
+                            "Samantha Adams",
+                            "Wolfgang Hayek",
+                            "Piotr Florek",
+                            "Harold Dyson"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:50:00Z",
+                        "time_end": "2021-10-27T17:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Mapping the Hazard: Visual Analysis of Flood Impact on Urban Mobility",
+                        "contributors": [
+                            "Kuang-Ting Huang"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:05:00Z",
+                        "time_end": "2021-10-27T17:20:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Exploring the Design Space of Sankey Diagrams for the Food-Energy-Water Nexus",
+                        "contributors": [
+                            "Brandon Mathis",
+                            "Yuxin Ma",
+                            "Michelle Mancenido",
+                            "Ross Maciejewski"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:20:00Z",
+                        "time_end": "2021-10-27T17:35:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "QuteVis: Visually Studying Transportation Patterns Using Multi-Sketch Query of Joint Traffic Situations",
+                        "contributors": [
+                            "Shamal AL-Dohuki",
+                            "Ye Zhao",
+                            "Farah Kamw",
+                            "Jing Yang",
+                            "Xinyue Ye",
+                            "Wei Chen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:35:00Z",
+                        "time_end": "2021-10-27T17:50:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "Many Views Are Not Enough: Designing for Synoptic Insights in Cultural Collections",
+                        "contributors": [
+                            "Florian Windhager",
+                            "Saminu Salisu",
+                            "Roger A. Leite",
+                            "Velitchko Filipov",
+                            "Silvia Miksch",
+                            "G\u00fcnther Schreder",
+                            "Eva Mayr"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T17:50:00Z",
+                        "time_end": "2021-10-27T18:05:00Z"
+                    },
+                    {
+                        "type": null,
+                        "title": "CLEVis: A Semantic Driven Visual Analytics System for Community Level Events",
+                        "contributors": [
+                            "Chao Ma",
+                            "Ye Zhao",
+                            "Andrew Curtis",
+                            "Farah Kamw",
+                            "Shamal AL-Dohuki",
+                            "Jing Yang",
+                            "Suphanut Jamonnak",
+                            "Ismael Ali"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:05:00Z",
+                        "time_end": "2021-10-27T18:20:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "a-visap": {
+        "event": "VIS Arts Program",
+        "long_name": "VIS Arts Program",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "VISAP Session 1",
+                "session_id": "a-visap-visap1",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T16:50:00Z",
+                "time_end": "2021-10-27T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "VISAP Session 1",
+                        "contributors": [
+                            "Yoon Chung Han",
+                            "Charles Perin",
+                            "Rebecca Ruige Xu",
+                            "Bon Adriel Aseniero",
+                            "Angus Forbes",
+                            "Jeremy Boy",
+                            "Till Nagel",
+                            "Maria Lantin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:50:00Z",
+                        "time_end": "2021-10-27T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "VISAP Session 2",
+                "session_id": "a-visap-visap2",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T16:50:00Z",
+                "time_end": "2021-10-28T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "VISAP Session 2",
+                        "contributors": [
+                            "Yoon Chung Han",
+                            "Charles Perin",
+                            "Rebecca Ruige Xu",
+                            "Bon Adriel Aseniero",
+                            "Angus Forbes",
+                            "Jeremy Boy",
+                            "Till Nagel",
+                            "Maria Lantin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:50:00Z",
+                        "time_end": "2021-10-28T18:20:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-spotlights": {
+        "event": "Application Spotlights",
+        "long_name": "Application Spotlights",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "In Situ Inference: Advanced Data Science for Space Weather Modeling",
+                "session_id": "v-spotlights-app2",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T16:50:00Z",
+                "time_end": "2021-10-27T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "In Situ Inference: Advanced Data Science for Space Weather Modeling",
+                        "contributors": [
+                            "Ayan Biswas",
+                            "Divya Banesh",
+                            "Natalie Klein",
+                            "Steven Morley",
+                            "Subhashis Hazarika",
+                            "Earl Lawrence"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T16:50:00Z",
+                        "time_end": "2021-10-27T18:20:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Bridging Visualization with Radiation Oncology",
+                "session_id": "v-spotlights-app3",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Bridging Visualization with Radiation Oncology",
+                        "contributors": [
+                            "Renata G. Raidou",
+                            "Ludvig P. Muren",
+                            "Wouter van Elmpt",
+                            "Katja B\u00fchler",
+                            "Noeska Smit",
+                            "Vitali Moiseenko",
+                            "Uulke van der Heide"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Challenges for Visualization in Immersive Planetarium Domes",
+                "session_id": "v-spotlights-app4",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T14:55:00Z",
+                "time_end": "2021-10-28T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Challenges for Visualization in Immersive Planetarium Domes",
+                        "contributors": [
+                            "Anders Ynnerman",
+                            "Mark SubbaRao",
+                            "Alexander Bock"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:55:00Z",
+                        "time_end": "2021-10-28T16:25:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
+                "session_id": "v-spotlights-app1",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
+                        "contributors": [
+                            "Christina Gillmann",
+                            "Petra Gospodnetic",
+                            "Karsten Rink"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Visualization Challenges in Deep Uncertainty",
+                "session_id": "v-spotlights-app5",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T14:55:00Z",
+                "time_end": "2021-10-29T16:25:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Visualization Challenges in Deep Uncertainty",
+                        "contributors": [
+                            "Evan Savage"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T14:55:00Z",
+                        "time_end": "2021-10-29T16:25:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "a-sciviscontest": {
+        "event": "SciVis Contest",
+        "long_name": "SciVis Contest",
+        "event_type": null,
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "SciVis Contest",
+                "session_id": "a-sciviscontest-contest",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T16:50:00Z",
+                "time_end": "2021-10-28T18:20:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "SciVis Contest",
+                        "contributors": [
+                            "Thomas Theu\u00dfl",
+                            "Alex Razoumov",
+                            "Theresa-Marie Rhyne",
+                            "Hosein Shahnas",
+                            "Russell Pysklywec",
+                            "Yohai Meiron",
+                            "Weiguang Guan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T16:50:00Z",
+                        "time_end": "2021-10-28T18:20:00Z"
+                    }
+                ]
+            }
+        ]
+    }
+}
