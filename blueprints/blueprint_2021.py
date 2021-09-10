@@ -318,6 +318,7 @@ def format_by_session_list(v):
         "discord_channel_id": v["discord_channel_id"],
         "youtube_url": v["youtube_url"],
         "youtube_id": v["youtube_url"].split("/")[-1] if v["youtube_url"] else None,
+        "streaming_session_id": v["streaming_session_id"] if "streaming_session_id" in v else None,
         "ff_playlist": v["ff_playlist"],
         "ff_playlist_id": v["ff_playlist"].split("=")[-1] if v["ff_playlist"] else None,
         # "zoom_meeting": v["zoom_meeting"]
@@ -414,6 +415,8 @@ def session(session):
     data = _data()
     data["requires_auth"] = True
     data["session"] = format_by_session_list(v)
+    if "streaming_session_id" in v:
+        data["streaming_session_id"] = v["streaming_session_id"]
     return render_template("{}/session.html".format(year), **data)
 
 
