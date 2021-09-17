@@ -5,7 +5,7 @@ citation_date: May 2021
 proceedings_title: Proceedings of the IEEE VIS 2021 Conference
 analytics: UA-
 logo:
-  image: static/images/vis_logo_virtual.svg
+  image: /static/2021/images/vis_logo_virtual.svg
   width: 250px
   height: auto
 # uncomment the following line to show the site title next to the logo image
@@ -13,7 +13,7 @@ logo:
 page_title:
   prefix: 'IEEE VIS 2021 Virtual'
   separator: ': '
-background_image: static/images/background.png
+background_image: /static/2021/images/background.png
 organization: VIS 2021 Organization Committee
 
 # Remove or change to your chat server.

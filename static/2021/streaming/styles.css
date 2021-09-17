@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+/*
+#ytplayer {pointer-events: none;}*/
+
+td, th {
+    padding: 8px 12px;
+}
+thead tr {
+    background: #fcfcfc;
+}
+tr {
+    background: #f8f8f8;
+}
+tr.active {
+    background: #eee;
+}
+/*
+tr:nth-child(even) {
+    background: #eee;
+}
+tr:nth-child(odd) {
+    background: #f8f8f8;
+}*/
+
+button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#slido-frame {
+    /*margin-top: -100px;*/
+}
+
+.panel-tab-contents > * {
+    display: none;
+}
+.panel-tab-contents > div.active {
+    display: inherit;
+}
+
+header {
+    background: #ffeaea;
+    height: 40px;
+    display: block;
+    font-size: 16px;
+    font-family: Arial;
+    padding: 11px 20px;
+}
+#track-title {
+    margin: 0;
+}
+
+#panel-header {
+    padding: 0 20px;
+}
+#panel-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+#panel-header li a {
+    display: block;
+    padding: 8px 26px;
+    background: #bbb;
+    margin-right: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#panel-header li a.active {
+    cursor: default;
+    pointer-events: none;
+    background: #fff;
+    color: #333;
+}
+
+/* Match Q&A header color with Slido */
+#panel-header li:nth-child(2) a.active {
+    background: #2A56A7;
+    color: #fff;
+}

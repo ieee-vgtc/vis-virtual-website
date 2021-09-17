@@ -1,8 +1,0 @@
-
-{% for paper_type in ["full", "short"] %}
-## {% if paper_type == "full" %}Full Papers{% elif paper_type == "short" %}Short papers{% endif %}
-{% for paper in papers[paper_type] %}
-**{{ paper.title }}**<br>{% if paper.award == "best" %}*(Best Paper Award)*<br>{% elif paper.award == "honorable" %}*(Honorable Mention)*<br>{% endif %}
-Authors: {{ paper.authors | join(", ") }}
-{% endfor %}
-{% endfor %}

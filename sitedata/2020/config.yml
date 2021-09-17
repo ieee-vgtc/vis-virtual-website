@@ -5,7 +5,7 @@ citation_date: May 2020
 proceedings_title: Proceedings of the IEEE VIS 2020 Conference
 analytics: UA-
 logo:
-  image: static/images/vis2020_logo_virtual.svg
+  image: /static/2020/images/vis2020_logo_virtual.svg
   width: 250px
   height: auto
 # uncomment the following line to show the site title next to the logo image
@@ -19,7 +19,7 @@ organization: VIS 2020 Organization Committee
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone
 default_presentation_id: 38922815
-default_poster_pdf: /static/images/GLTR_poster.pdf
+default_poster_pdf: /static/2020/images/GLTR_poster.pdf
 
 
 # Configuration for auth
