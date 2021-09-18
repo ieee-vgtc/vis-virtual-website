@@ -302,7 +302,7 @@ def format_by_session_list(v):
             .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
-        "calendarDisplayStartTime": v["display_start"],
+        # "calendarDisplayStartTime": v["display_start"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
