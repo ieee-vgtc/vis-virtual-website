@@ -8,7 +8,7 @@
     .schedule {
         max-width: 1140px;
         display: grid;
-        gap: 1em;
+        gap: 0.5em;
         grid-template-rows:
             [timezones] auto
             [tracks] auto
@@ -50,6 +50,14 @@
         font-weight: 400;
     }
 
+    .day-slot {
+        padding-bottom: 0.5em;
+        width: 100%;
+        /* justify-self: center; */
+        text-align: center;
+        border-bottom: 1px dotted #333;
+    }
+
     .time-slot.converted-timezone {
         grid-column: timezones;
         text-align: right;
@@ -62,9 +70,15 @@
         text-overflow: ellipsis;
     }
 
+    .session.session-minimal {
+        padding: 0.4em;
+        /* display: none; */
+    }
+
     .session-group {
+        justify-self: center;
         display: flex;
-        gap: 0.5em;
+        gap: 0.25em;
     }
 
     .session-plenary {
@@ -98,7 +112,7 @@
     <h2 class="time-slot" style="grid-row: time-0730">7:30 AM</h2>
     <h2 class="time-slot" style="grid-row: time-0800">8:00</h2>
     <h2 class="time-slot" style="grid-row: time-0930">9:30</h2>
-    <h2 class="time-slot" style="grid-row: time-0945">9:45</h2>
+    <!-- <h2 class="time-slot" style="grid-row: time-0945">9:45</h2> -->
     <h2 class="time-slot" style="grid-row: time-1000">10:00</h2>
     <h2 class="time-slot" style="grid-row: time-1130">11:30</h2>
     <h2 class="time-slot" style="grid-row: time-1200">12:00 PM</h2>
@@ -110,7 +124,7 @@
     <h2 class="time-slot converted-timezone" style="grid-row: time-0730" data-time="0730">5:30 AM</h2>
     <h2 class="time-slot converted-timezone" style="grid-row: time-0800" data-time="0800">6:00</h2>
     <h2 class="time-slot converted-timezone" style="grid-row: time-0930" data-time="0930">7:30</h2>
-    <h2 class="time-slot converted-timezone" style="grid-row: time-0945" data-time="0945">7:45</h2>
+    <!-- <h2 class="time-slot converted-timezone" style="grid-row: time-0945" data-time="0945">7:45</h2> -->
     <h2 class="time-slot converted-timezone" style="grid-row: time-1000" data-time="1000">8:00</h2>
     <h2 class="time-slot converted-timezone" style="grid-row: time-1130" data-time="1130">9:30</h2>
     <h2 class="time-slot converted-timezone" style="grid-row: time-1200" data-time="1200">10:00</h2>
@@ -118,6 +132,100 @@
     <h2 class="time-slot converted-timezone" style="grid-row: time-1400" data-time="1400">12:00 PM</h2>
     <h2 class="time-slot converted-timezone" style="grid-row: time-1500" data-time="1500">1:00</h2>
     <h2 class="time-slot converted-timezone" style="grid-row: time-1530" data-time="1530">1:30</h2>
+
+    <!-- day 1, sunday -->
+
+    <div class="session-group" style="grid-column: day-1; grid-row: time-0800 / time-0930">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-1; grid-row: time-1000 / time-1130">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-1; grid-row: time-1200 / time-1330">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-1; grid-row: time-1400 / time-1530">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <!-- day 2, monday -->
+
+    <div class="session-group" style="grid-column: day-2; grid-row: time-0800 / time-0930">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-2; grid-row: time-1000 / time-1130">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-2; grid-row: time-1200 / time-1330">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-2; grid-row: time-1400 / time-1530">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <!-- day 3, tuesday -->
 
     <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-0745 / time-0800;">VIS Welcome</div>
     <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-0800 / time-0845;">VGTC Awards</div>
@@ -131,55 +239,104 @@
 
     <div class="session session-exhibit" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-1400 / time-1530;">VISAP Opening Event</div>
 
+    <!-- day 4, wednesday -->
+
     <div class="session-group" style="grid-column: day-4; grid-row: time-0800 / time-0930">
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
     </div>
 
-    <div class="session-group" style="grid-column: day-1; grid-row: time-0800 / time-0930">
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
+    <div class="session-group" style="grid-column: day-4; grid-row: time-1000 / time-1130">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
     </div>
 
-    <div class="session-group" style="grid-column: day-2; grid-row: time-0800 / time-0930">
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
+    <div class="session-group" style="grid-column: day-4; grid-row: time-1200 / time-1330">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
     </div>
+
+    <div class="session-group" style="grid-column: day-4; grid-row: time-1400 / time-1530">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <!-- day 5, thursday -->
 
     <div class="session-group" style="grid-column: day-5; grid-row: time-0800 / time-0930">
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
     </div>
 
-    <div class="session-group" style="grid-column: day-6; grid-row: time-0800 / time-0930">
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
-        <div class="session session-papers"></div>
+    <div class="session-group" style="grid-column: day-5; grid-row: time-1000 / time-1130">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
     </div>
+
+    <div class="session-group" style="grid-column: day-5; grid-row: time-1200 / time-1330">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session-group" style="grid-column: day-5; grid-row: time-1400 / time-1530">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <!-- day 6, friday -->
+
+    <div class="session-group" style="grid-column: day-6; grid-row: time-0800 / time-0930">
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+        <div class="session session-minimal session-papers"></div>
+    </div>
+
+    <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-6; grid-row: time-1200 / time-1300;">VIS Capstone</div>
+    <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-6; grid-row: time-1300 / time-1330;">VIS Closing</div>
 </div>
 
 
