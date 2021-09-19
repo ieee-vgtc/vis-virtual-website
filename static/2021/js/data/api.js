@@ -72,9 +72,9 @@ class API {
    */
   static thumbnailPath(paper) {
     if (!paper.has_image)
-      return "https://ieeevis.b-cdn.net/vis_2020/paper_images_small/blank.jpg";
+      return "https://ieeevis.b-cdn.net/vis_2021/paper_images_small/blank.png";
 
-    return `https://ieeevis.b-cdn.net/vis_2020/paper_images_small/${paper.id}.jpg`;
+    return `https://ieeevis.b-cdn.net/vis_2021/paper_images_small/${paper.id}.png`;
   }
 
   /**
