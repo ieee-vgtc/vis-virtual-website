@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
 }
-/*
-#ytplayer {pointer-events: none;}*/
+h1, h2, h3, h4 {
+    font-family: "Zilla Slab SemiBold", serif;
+    color: rgb(111, 33, 132);
+}
 
 td, th {
     padding: 8px 12px;
@@ -34,64 +36,39 @@ button {
     justify-content: space-between;
 }
 
+#slido-wrap {
+    overflow: hidden;
+}
 #slido-frame {
-    /*margin-top: -100px;*/
-}
-
-.panel-tab-contents > * {
-    display: none;
-}
-.panel-tab-contents > div.active {
-    display: inherit;
+    margin-top: -100px;
 }
 
 header {
-    background: #ffeaea;
+    /*background: #ffeaea;*/
     height: 40px;
     display: block;
     font-size: 16px;
     font-family: Arial;
-    padding: 11px 20px;
+    padding: 11px 0;
 }
 #track-title {
     margin: 0;
 }
 
-#panel-header {
-    padding: 0 20px;
-}
-#panel-header ul {
+h3 {
     margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
+}
+iframe {
+    border: 0;
+}
+#sidepanel * {
+    transition: height ease 300ms;
 }
 
-#panel-header li a {
-    display: block;
-    padding: 8px 26px;
-    background: #bbb;
-    margin-right: 8px;
-    margin-top: 5px;
-    font-size: 16px;
-    font-family: Arial;
-    border: 1px solid #ccc;
-    border-bottom: none;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    cursor: pointer;
-    color: #fff;
-}
-
-#panel-header li a.active {
-    cursor: default;
-    pointer-events: none;
-    background: #fff;
-    color: #333;
-}
-
-/* Match Q&A header color with Slido */
-#panel-header li:nth-child(2) a.active {
-    background: #2A56A7;
-    color: #fff;
+@font-face{
+    font-family:"Zilla Slab SemiBold";
+    font-style:normal;
+    font-weight:700;
+    font-display:swap;
+    src:local("Zilla Slab SemiBold"),local("Zilla-Slab-SemiBold"),url("ZillaSlab-SemiBold.ttf") format("truetype");
 }

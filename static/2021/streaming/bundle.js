@@ -1,9 +1,7 @@
 (() => {
   // ieeevisdb.ts
   var IeeeVisDb = class {
-    constructor(SESSION_ID, onData) {
-      this.SESSION_ID = SESSION_ID;
-      this.onData = onData;
+    constructor() {
       this.initFirebase();
     }
     initFirebase() {
@@ -19,14 +17,23 @@
       });
       firebase.analytics();
     }
-    loadData() {
-      this.sessionRef = firebase.database().ref("sessions/" + this.SESSION_ID);
+    loadRoom(roomId2, onRoomUpdated) {
+      this.roomRef = firebase.database().ref("rooms/" + roomId2);
+      this.roomRef.on("value", (snapshot) => {
+        onRoomUpdated(snapshot.val());
+      });
+    }
+    loadSession(sessionId, onSessionUpdated) {
+      this.sessionRef = firebase.database().ref("sessions/" + sessionId);
       this.sessionRef.on("value", (snapshot) => {
-        this.onData(snapshot.val());
+        onSessionUpdated(snapshot.val());
       });
     }
     set(path, value) {
-      this.sessionRef.child(path).set(value);
+      this.sessionRef?.child(path).set(value);
+    }
+    setRoom(path, value) {
+      this.roomRef?.child(path).set(value);
     }
   };
 
@@ -93,13 +100,13 @@
     }
     onPlayerStateChange(state) {
       if (state.data === PlayerState.UNSTARTED) {
-        this.player.seekTo(this.getCurrentStartTimeS(), true);
+        this.player.seekTo(this.getCurrentStartTimeS() || 0, true);
       }
       if (state.data === PlayerState.PLAYING || state.data === PlayerState.BUFFERING) {
-        const startTime = this.getCurrentStartTimeS();
+        const startTime = this.getCurrentStartTimeS() || 0;
         const currentTime = this.player.getCurrentTime();
         if (Math.abs(startTime - currentTime) > 5) {
-          this.player.seekTo(this.getCurrentStartTimeS(), true);
+          this.player.seekTo(startTime, true);
           console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime());
         }
       }
@@ -130,11 +137,11 @@
       this.player.playVideo();
     }
     getCurrentStartTimeS() {
-      if (this.getCurrentVideo().type === "prerecorded" || !this.youtubePlayerReady) {
+      if (!this.getCurrentVideo().live || !this.youtubePlayerReady) {
         const timeMs = new Date().getTime();
-        const videoStartTimestampMs = this.getCurrentVideoStatus()?.videoStartTimestamp;
+        const videoStartTimestampMs = this.getCurrentVideoStatus()?.videoStartTimestamp || 0;
         return Math.round((timeMs - videoStartTimestampMs) / 1e3);
-      } else if (this.getCurrentVideo().type === "live") {
+      } else if (this.getCurrentVideo().live) {
         return this.player.getDuration();
       }
     }
@@ -142,33 +149,50 @@
 
   // main.ts
   var _IeeeVisStream = class {
-    constructor() {
+    constructor(ROOM_ID) {
+      this.ROOM_ID = ROOM_ID;
       this.width = window.innerWidth;
       this.height = window.innerHeight;
-      this.CHAT_WIDTH_PERCENT = 40;
+      this.PANEL_WIDTH_PERCENT = 40;
       this.CHAT_PADDING_LEFT_PX = 20;
-      this.currentPanelTab = "discord";
-      this.db = new IeeeVisDb(_IeeeVisStream.SESSION_ID, this.onData.bind(this));
-      this.player = new IeeeVisVideoPlayer(_IeeeVisStream.PLAYER_ELEMENT_ID, this.getCurrentVideo.bind(this), this.getCurrentVideoId.bind(this), () => this.data?.currentStatus);
-      this.db.loadData();
+      this.HORIZONTAL_PADDING = 30;
+      this.currentPanelFocus = "none";
+      this.db = new IeeeVisDb();
+      this.player = new IeeeVisVideoPlayer(_IeeeVisStream.PLAYER_ELEMENT_ID, this.getCurrentStage.bind(this), this.getCurrentVideoId.bind(this), () => this.currentSession?.currentStatus);
+      this.db.loadRoom(ROOM_ID, (room) => this.onRoomUpdated(room));
       this.loadGathertown();
-      this.initPanelTabs();
       this.resize();
       window.addEventListener("resize", this.resize.bind(this));
+      this.checkPanelFocus();
     }
     onYouTubeIframeAPIReady() {
       this.player.onYouTubeIframeAPIReady();
     }
     loadChat() {
-      const discordUrl = `https://titanembeds.com/embed/851543399982170163?defaultchannel=${this.data.discord}`;
-      const rocketUrl = `https://chat.wushernet.com/channel/${this.data.rocketchat}?layout=embedded`;
-      const url = location.hash.indexOf("discord") === -1 ? rocketUrl : discordUrl;
-      const html = `<iframe src="${url}" id="discord-iframe" frameborder="0"></iframe>`;
-      document.getElementById("discord-wrap").innerHTML += html;
+      document.getElementById("discord-wrap").innerHTML = `
+            <iframe
+                id="discord-iframe"
+                src="https://ieeevis-e.widgetbot.co/channels/884159773287805038/${this.currentSession.discord}"
+            ></iframe>`;
     }
     loadSlido() {
       const frame = document.getElementById("slido-frame");
-      frame.setAttribute("src", `https://app.sli.do/event/${this.data.slido}`);
+      frame.setAttribute("src", `https://app.sli.do/event/${this.currentSession.slido}`);
+    }
+    checkPanelFocus() {
+      window.setInterval(() => {
+        const lastFocus = this.currentPanelFocus;
+        if (document.activeElement == document.getElementById("discord-iframe")) {
+          this.currentPanelFocus = "chat";
+        } else if (document.activeElement == document.getElementById("slido-frame")) {
+          this.currentPanelFocus = "qa";
+        } else {
+          this.currentPanelFocus = "none";
+        }
+        if (lastFocus != this.currentPanelFocus) {
+          this.resize();
+        }
+      }, 200);
     }
     loadGathertown() {
       const html = `<iframe title="gather town"
@@ -178,70 +202,75 @@
       const gatherWrap = document.getElementById(_IeeeVisStream.GATHERTOWN_WRAPPER_ID);
       gatherWrap.innerHTML = html;
     }
-    onData(session) {
-      const initializing = this.data === null || this.data === void 0;
+    onRoomUpdated(room) {
+      this.room = room;
+      this.db.loadSession(room.currentSession, (session) => this.onSessionUpdated(room.currentSession, session));
+    }
+    onSessionUpdated(id, session) {
+      if (this.room?.currentSession != id) {
+        return;
+      }
+      const lastSession = this.currentSession ? {...this.currentSession} : void 0;
       const lastYtId = this.getCurrentVideoId();
-      this.data = session;
-      document.getElementById("track-title").innerText = this.data.name;
-      document.getElementById("video-name").innerText = this.getCurrentVideo()?.title;
+      this.currentSession = session;
+      document.getElementById("video-name").innerText = this.getCurrentStage()?.title || "";
       if (this.getCurrentVideoId() != lastYtId) {
         this.player.updateVideo();
       }
-      if (initializing) {
+      if (this.currentSession.discord != lastSession?.discord) {
         this.loadChat();
+      }
+      if (this.currentSession.slido != lastSession?.slido) {
         this.loadSlido();
       }
       this.resize();
     }
-    getCurrentVideo() {
-      return this.data?.videos[this.data?.currentStatus?.videoIndex];
+    getCurrentStage() {
+      return this.currentSession?.stages[this.currentSession?.currentStatus?.videoIndex];
     }
     getCurrentVideoId() {
-      return this.getCurrentVideo()?.youtubeId;
-    }
-    initPanelTabs() {
-      const getToggle = (tabName) => () => {
-        console.log(tabName);
-        this.currentPanelTab = tabName;
-        this.updatePanelTabs();
-      };
-      document.getElementById("discord-tab-link").onclick = getToggle("discord");
-      document.getElementById("slido-tab-link").onclick = getToggle("slido");
-    }
-    updatePanelTabs() {
-      document.getElementById("discord-tab-link").className = "";
-      document.getElementById("slido-tab-link").className = "";
-      document.getElementById(`${this.currentPanelTab}-tab-link`).className = "active";
-      document.getElementById("discord-wrap").className = "";
-      document.getElementById("slido-wrap").className = "";
-      document.getElementById(`${this.currentPanelTab}-wrap`).className = "active";
+      return this.getCurrentStage()?.youtubeId;
     }
     resize() {
       this.width = window.innerWidth;
-      this.height = window.innerHeight - 65;
-      const state = this.getCurrentVideo()?.state;
-      const gathertownHeightPercent = state === "SOCIALIZING" ? 65 : 35;
-      const playerWidth = this.width * (100 - this.CHAT_WIDTH_PERCENT) / 100;
-      const playerHeight = (this.height - _IeeeVisStream.HEADERS_HEIGHT * 2) * (100 - gathertownHeightPercent) / 100;
-      this.player.setSize(playerWidth, playerHeight);
-      const gatherFrame = document.getElementById("gathertown-iframe");
-      const gatherWidth = this.width * (100 - this.CHAT_WIDTH_PERCENT) / 100;
-      const gatherHeight = (this.height - _IeeeVisStream.HEADERS_HEIGHT * 2) * gathertownHeightPercent / 100;
-      gatherFrame.setAttribute("width", `${gatherWidth}`);
-      gatherFrame.setAttribute("height", `${gatherHeight}`);
+      this.height = window.innerHeight - 15;
+      const state = this.getCurrentStage()?.state;
+      if (state === "SOCIALIZING") {
+        document.getElementById("youtube-outer").style.display = "none";
+        document.getElementById("gathertown-outer").style.display = "block";
+      } else {
+        document.getElementById("youtube-outer").style.display = "block";
+        document.getElementById("gathertown-outer").style.display = "none";
+      }
+      const contentWidth = this.width * (100 - this.PANEL_WIDTH_PERCENT) / 100 - this.HORIZONTAL_PADDING;
+      const mainContentHeight = this.height - _IeeeVisStream.HEADERS_HEIGHT;
       const contentWrap = document.getElementById(_IeeeVisStream.CONTENT_WRAPPER_ID);
-      contentWrap.style.width = `${gatherWidth}px`;
-      this.currentPanelTab = state === "QA" ? "slido" : "discord";
-      this.updatePanelTabs();
+      contentWrap.style.width = `${contentWidth}px`;
+      this.player.setSize(contentWidth, mainContentHeight);
+      const gatherFrame = document.getElementById("gathertown-iframe");
+      gatherFrame.setAttribute("width", `${contentWidth}`);
+      gatherFrame.setAttribute("height", `${mainContentHeight}`);
+      const panelWidth = this.width * this.PANEL_WIDTH_PERCENT / 100 - this.CHAT_PADDING_LEFT_PX;
+      const panelHeight = this.height - _IeeeVisStream.HEADERS_HEIGHT * 2;
+      let qaHeightPercent = state === "QA" ? 60 : 40;
+      if (this.currentPanelFocus === "qa") {
+        qaHeightPercent = 66;
+      } else if (this.currentPanelFocus === "chat") {
+        qaHeightPercent = 33;
+      }
+      document.getElementById("sidepanel").style.width = `${panelWidth}px`;
       const slidoFrame = document.getElementById("slido-frame");
+      const slidoHeight = qaHeightPercent / 100 * panelHeight + 100;
       if (slidoFrame) {
-        slidoFrame.setAttribute("width", `${this.width * this.CHAT_WIDTH_PERCENT / 100 - this.CHAT_PADDING_LEFT_PX}`);
-        slidoFrame.setAttribute("height", `${this.height - _IeeeVisStream.HEADERS_HEIGHT}`);
+        slidoFrame.setAttribute("width", `${panelWidth}`);
+        slidoFrame.style.height = `${slidoHeight}px`;
+        document.getElementById("slido-wrap").style.height = `${slidoHeight - 100}px`;
       }
       const discordFrame = document.getElementById("discord-iframe");
       if (discordFrame) {
-        discordFrame.setAttribute("width", `${this.width * this.CHAT_WIDTH_PERCENT / 100 - this.CHAT_PADDING_LEFT_PX}`);
-        discordFrame.setAttribute("height", `${this.height - _IeeeVisStream.HEADERS_HEIGHT}`);
+        discordFrame.setAttribute("width", `${panelWidth}`);
+        discordFrame.style.height = `${(100 - qaHeightPercent) / 100 * panelHeight}px`;
+        document.getElementById("discord-wrap").style.height = `${(100 - qaHeightPercent) / 100 * panelHeight}px`;
       }
     }
   };
@@ -249,11 +278,16 @@
   IeeeVisStream.PLAYER_ELEMENT_ID = "ytplayer";
   IeeeVisStream.CONTENT_WRAPPER_ID = "content";
   IeeeVisStream.GATHERTOWN_WRAPPER_ID = "gathertown";
-  IeeeVisStream.SESSION_ID = location.search.substr(location.search.indexOf("session=") + "session=".length);
   IeeeVisStream.HEADERS_HEIGHT = 40;
-  var stream = new IeeeVisStream();
-  onYouTubeIframeAPIReady = () => {
-    stream.onYouTubeIframeAPIReady();
-  };
+  var roomId = location.search.indexOf("room=") === -1 ? "" : location.search.substr(location.search.indexOf("room=") + "room=".length);
+  if (roomId) {
+    const stream = new IeeeVisStream(roomId);
+    document.getElementById("wrapper").style.display = "flex";
+    onYouTubeIframeAPIReady = () => {
+      stream.onYouTubeIframeAPIReady();
+    };
+  } else {
+    document.getElementById("param-error").style.display = "block";
+  }
 })();
 //# sourceMappingURL=bundle.js.map

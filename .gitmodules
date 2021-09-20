@@ -1,0 +1,3 @@
+[submodule "ieeevisstreaming"]
+	path = ieeevisstreaming
+	url = git@github.com:michaschwab/ieeevisstreaming.git

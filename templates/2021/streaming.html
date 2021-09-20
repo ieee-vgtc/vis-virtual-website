@@ -3,35 +3,43 @@
 <link href="/static/2021/streaming/styles.css" rel="stylesheet" />
 <body>
 
-<div id="header">
-    <h1 id="track-title"></h1>
-</div>
-
-<div id="wrapper">
+<div id="wrapper" style="display: none">
     <div id="content">
-        <div id="youtube-outer">
-            <header>Video: <span id="video-name"></span></header>
-            <div id="ytplayer"></div>
+        <div id="main-content">
+            <div id="youtube-outer">
+                <header>
+                    <h3>Video: <span id="video-name"></span></h3>
+                </header>
+                <div id="ytplayer"></div>
+            </div>
+            <div id="gathertown-outer">
+                <header>Gathertown</header>
+                <div id="gathertown"></div>
+            </div>
+            <div id="image-outer">
+
+            </div>
         </div>
-        <div id="gathertown-outer">
-            <header>Gathertown</header>
-            <div id="gathertown"></div>
-        </div>
+        <!--<div id="secondary-content">
+
+
+        </div>-->
     </div>
     <div id="sidepanel">
-        <header id="panel-header">
-            <ul>
-                <li><a id="discord-tab-link" class="active">Chat</a></li>
-                <li><a id="slido-tab-link">Q&A</a></li>
-            </ul>
+        <header>
+            <h3>Questions & Answers</h3>
         </header>
-        <div class="panel-tab-contents">
-            <div id="slido-wrap" class="">
-                <iframe id="slido-frame" height="100%" width="100%" frameBorder="0" style="min-height: 400px;" title="Slido"></iframe>
-            </div>
-            <div id="discord-wrap" class="active"></div>
+        <div id="slido-wrap" class="">
+            <iframe id="slido-frame" height="100%" width="100%" frameBorder="0" title="Slido"></iframe>
         </div>
+        <header>
+            <h3>Chat</h3>
+        </header>
+        <div id="discord-wrap"></div>
     </div>
+</div>
+<div id="param-error" style="display: none">
+    You are missing a room URL parameter. The URL should be [host]?room=room1, for example.
 </div>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -41,6 +49,7 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 
 <script src="/static/2021/streaming/bundle.js"></script>
 </body>

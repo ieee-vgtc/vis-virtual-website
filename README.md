@@ -16,7 +16,8 @@ Feel free to visit [our Help page above](/help.html) for answers to common quest
 
 See the `Makefile` for build scripts.  Generally, to run it locally, use `make run`.
 
-For **streaming**, we have a simple shell script that copies assets from the separate [ieeevisstreaming](https://github.com/michaschwab/ieeevisstreaming) repo.  You'll need to pull that down, then run the script `scripts/copy_streaming_assets.sh`.  See the script opening comments for typical usage.
+For **streaming**, we have a simple shell script that copies assets from the separate [ieeevisstreaming](https://github.com/michaschwab/ieeevisstreaming) repo, which is included in a submodule.  If you want to update the streaming assets, please first update that repository, then update the submodule with `git submodule update --init --recursive
+`.  Then run the script `scripts/copy_streaming_assets.sh`, which will copy in files from that submodule and rename things/fix links.  See the script opening comments for typical usage.
 
 ### Acknowledgements
 
