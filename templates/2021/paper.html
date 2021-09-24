@@ -6,10 +6,10 @@
             <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a
-                            href="/event_{{ paper.event_id }}.html">{{ paper.event_title }}</a>
+                            href="event_{{ paper.event_id }}.html">{{ paper.event_title }}</a>
                     </li>
                     <li class="breadcrumb-item"><a
-                            href="/session_{{ paper.session_id }}.html">{{ paper.session_title }}</a>
+                            href="session_{{ paper.session_id }}.html">{{ paper.session_title }}</a>
                     </li>
                     <li class="breadcrumb-item active text-truncate"
                         aria-current="page">{{ paper.title }}</li>
@@ -52,7 +52,7 @@
             {% endif %}
             <h5 class="paper-presentation pb-2">
 
-                <a href="/session_{{ paper.session_id }}.html">
+                <a href="session_{{ paper.session_id }}.html">
                     <span class="fas mr-1">&#xf108;</span>
                     View presentation:</a>
                 <span class="format-date">{{ paper.time_stamp }}</span>
@@ -73,12 +73,12 @@
             <figure class="figure">
                 {% if paper.has_image %}
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2020/paper_images/{{ paper.id }}.png"
-                         alt="Exemplar figure"
+                         src="https://ieeevis.b-cdn.net/vis_2021/paper_images/{{ paper.id }}.png"
+                         alt="Exemplar figure, described by caption below"
                          aria-describedby="figure-caption">
                 {% else %}
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2020/paper_images/blank.png"
+                         src="https://ieeevis.b-cdn.net/vis_2021/paper_images/blank.png"
                          alt="Exemplar figure, but none was provided by the authors">
                 {% endif %}
                 <figcaption class="figure-caption"

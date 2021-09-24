@@ -302,7 +302,7 @@ def format_by_session_list(v):
             .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
-        "calendarDisplayStartTime": v["display_start"],
+        # "calendarDisplayStartTime": v["display_start"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
@@ -372,8 +372,8 @@ def workshop(workshop):
     data["workshop"] = format_workshop(v)
     return render_template("{}/workshop.html".format(year), **data)
 
-
-@year_blueprint.route('/year/{}/session_vis-keynote.html'.format(year))
+# TODO: re-enable once keynote event available
+# @year_blueprint.route('/year/{}/session_vis-keynote.html'.format(year))
 def keynote():
     uid = "vis-keynote"
     v = by_uid["sessions"][uid]
@@ -383,8 +383,8 @@ def keynote():
     data["session"]["speaker"] = site_data["speakers"][0]
     return render_template("{}/keynote_or_capstone.html".format(year), **data)
 
-
-@year_blueprint.route('/year/{}/session_vis-capstone.html'.format(year))
+# TODO: re-enable once capstone event available
+# @year_blueprint.route('/year/{}/session_vis-capstone.html'.format(year))
 def capstone():
     uid = "vis-capstone"
     v = by_uid["sessions"][uid]
@@ -394,7 +394,8 @@ def capstone():
     data["session"]["speaker"] = site_data["speakers"][1]
     return render_template("{}/keynote_or_capstone.html".format(year), **data)
 
-@year_blueprint.route("/year/{}/session_x-posters.html".format(year))
+# TODO: re-enable once posters event available
+# @year_blueprint.route("/year/{}/session_x-posters.html".format(year))
 def poster_session():
     uid = "x-posters"
     v = by_uid["sessions"][uid]

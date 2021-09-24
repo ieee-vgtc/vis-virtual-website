@@ -1,0 +1,107 @@
+
+.schedule {
+    max-width: 1140px;
+    display: grid;
+    gap: 0.5em;
+    grid-template-rows:
+        [timezones] auto
+        [tracks] auto
+        [time-0730] 0.5fr
+        [time-0745] 0.5fr
+        [time-0800] 1.5fr
+        [time-0845] 1.5fr
+        [time-0930] 0.5fr
+        [time-0945] 0.5fr
+        [time-1000] 3fr
+        [time-1130] 1fr
+        [time-1200] 2fr
+        [time-1300] 0.5fr
+        [time-1315] 0.5fr
+        [time-1330] 1fr
+        [time-1400] 2fr
+        [time-1500] 1fr
+        [time-1530] 1fr;
+
+    grid-template-columns:
+        [times] 5em
+        [day-1-start] 1fr
+        [day-1-end day-2-start] 1fr
+        [day-2-end day-3-start] 1fr
+        [day-3-end day-4-start] 1fr
+        [day-4-end day-5-start] 1fr
+        [day-5-end day-6-start] 1fr
+        [day-6-end timezones] 5em
+        [timezones-end];
+}
+
+.tz {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85em;
+    padding-bottom: 2em;
+}
+
+.tz-title {
+    font-weight: 700;
+}
+
+.tz-right {
+    /* text-align: right; */
+    align-items: flex-end;
+    align-content: stretch;
+}
+
+.tz-right .dropdown.bootstrap-select {
+    width: 300px !important; /* sigh */
+}
+
+.day-slot, .time-slot, .day-slot h2 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.day-slot {
+    padding-bottom: 0.5em;
+    width: 100%;
+    /* justify-self: center; */
+    text-align: center;
+    border-bottom: 1px dotted var(--vis2021-purple);
+}
+
+.time-slot:not(.converted-timezone) {
+    grid-column: timezones;
+    text-align: right;
+}
+
+.session {
+    padding: 0.5em;
+    font-size: 0.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.session.session-minimal {
+    padding: 0.4em;
+    /* display: none; */
+}
+
+.session-group {
+    justify-self: center;
+    display: flex;
+    gap: 0.25em;
+}
+
+.session-plenary {
+    background-color: blueviolet;
+    color: rgb(255, 252, 242);
+}
+
+.session-exhibit {
+    background-color: orangered;
+    color: rgb(255, 252, 242);
+}
+
+.session-papers {
+    background-color: paleturquoise;
+}
