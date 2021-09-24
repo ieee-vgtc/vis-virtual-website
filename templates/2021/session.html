@@ -87,8 +87,9 @@
     <div class="col-lg-10">
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        <iframe width="920" height="518" src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">TEST MODAL:</p>
+        <iframe class='streaming' width="920" height="518" src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a id='test-modal-leave-fullscreen'>X</a>
+        <p class="integration-description pt-2"><a id='test-modal-fullscreen'>TEST MODAL:</a></p>
     </div>
 </div>
 {% if session.discord_channel_FAKE %}
@@ -194,5 +195,18 @@
 </div>
 
 <script src="/static/2021/js/views/timezone.js"></script>
+
+{% endblock %}
+
+{% block footer %}
+
+    {{ super() }}
+<script>
+
+$(document).ready(function() {
+    $('#test-modal-fullscreen').click((x) => { alert("whats up"); $('iframe.streaming').addClass("streaming-fullscreen")})
+    $('#test-modal-leave-fullscreen').click((x) => { $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen")})
+})
+</script>
 
 {% endblock %}
