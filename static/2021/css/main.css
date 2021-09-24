@@ -795,7 +795,8 @@ hr::after {
   top: 0;
   left: 0;
   overflow:hidden; 
-  z-index:20;
+  z-index:2000;
+  background-color: var(--main-bg-color);
 }
 
 #test-modal-leave-fullscreen {
@@ -805,4 +806,21 @@ hr::after {
   padding: 20px;
   font-size: 20px;
   z-index: 100;
+}
+
+p.streaming {
+  width: 85vw;
+  text-align: right;
+  position: relative;
+  /*margin-left: -50vw;*/
+}
+
+iframe.streaming {
+  width: 85vw;
+  min-height: 85vh;
+  position: relative;
+  left: 73%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }

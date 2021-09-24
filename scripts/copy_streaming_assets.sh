@@ -20,6 +20,7 @@ echo "Copying assets from ieeevisstreaming into static/$1/streaming/"
 mkdir -p "static/$1/streaming"
 cp "ieeevisstreaming/bundle.js" "static/$1/streaming/bundle.js"
 cp "ieeevisstreaming/styles.css" "static/$1/streaming/styles.css"
+cp "static/$1/css/ZillaSlab-SemiBold.ttf" "static/$1/streaming/ZillaSlab-SemiBold.ttf"
 
 echo "Copying template from ieeevisstreaming into templates/$1/streaming.html"
 cp "ieeevisstreaming/index.html" "templates/$1/streaming.html"

@@ -85,11 +85,12 @@
 {% endif %}
 <div class="row mt-5">
     <div class="col-lg-10">
+        <p class="fullscreen-link streaming"><a id='test-modal-fullscreen'>Full Screen 
+                <span class="fas fa-expand">&#xf065;</span>
+        </a></p>
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        <iframe class='streaming' width="920" height="518" src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <a id='test-modal-leave-fullscreen'>X</a>
-        <p class="integration-description pt-2"><a id='test-modal-fullscreen'>TEST MODAL:</a></p>
+        <iframe class='streaming' src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
     </div>
 </div>
 {% if session.discord_channel_FAKE %}
@@ -204,9 +205,46 @@
 <script>
 
 $(document).ready(function() {
-    $('#test-modal-fullscreen').click((x) => { alert("whats up"); $('iframe.streaming').addClass("streaming-fullscreen")})
+    $('#test-modal-fullscreen').click((x) => { makeFullScreen()})
+    // $('#test-modal-fullscreen').click((x) => { alert("whats up"); $('iframe.streaming').addClass("streaming-fullscreen")})
     $('#test-modal-leave-fullscreen').click((x) => { $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen")})
+
+    document.addEventListener('fullscreenchange', exitFullScreenHandler);
+    document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
+    document.addEventListener('mozfullscreenchange', exitFullScreenHandler);
+    document.addEventListener('MSFullscreenChange', exitFullScreenHandler);
 })
+
+
+function requestFullScreen(element) {
+    // Supports most browsers and their versions.
+    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
+
+    if (requestMethod) { // Native full screen.
+        requestMethod.call(element);
+    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
+}
+
+function makeFullScreen() {
+    $('iframe.streaming').addClass("streaming-fullscreen")
+                         .removeClass("streaming");
+    var elem = document.body;
+    requestFullScreen(elem);
+}
+
+function exitFullScreenHandler() {
+    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
+        $('iframe.streaming-fullscreen').addClass("streaming")
+                             .removeClass("streaming-fullscreen");
+        
+    }
+}
+
 </script>
 
 {% endblock %}
