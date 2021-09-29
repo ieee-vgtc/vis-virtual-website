@@ -803,24 +803,32 @@ hr::after {
   position: fixed;
   top: 0;
   right: 0;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
-  z-index: 100;
+  z-index: 10000;
 }
 
-p.streaming {
-  width: 85vw;
+.visible-floating {
+  display: inline-block;
+}
+
+.invisible-floating {
+  display: none;
+}
+
+.streaming {
+  width: 84vw;
   text-align: right;
   position: relative;
-  /*margin-left: -50vw;*/
+  left: 50%;
+  margin-left: -42vw;
+}
+
+.streaming-container {
+  margin: auto;
+  position: relative;
 }
 
 iframe.streaming {
-  width: 85vw;
   min-height: 85vh;
-  position: relative;
-  left: 73%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }

@@ -73,26 +73,25 @@
 </div>
 {% endif %}
 
-{% if session.youtube_id %}
+{% if True or session.room_id %}
 <div class="row mt-5">
-    <div class="col-lg-10">
-        <!-- ensure 16x9 aspect ratio;
-            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p>
-    </div>
-</div>
-{% endif %}
-<div class="row mt-5">
-    <div class="col-lg-10">
+    <div class="col-lg-10 streaming-container">
         <p class="fullscreen-link streaming"><a id='test-modal-fullscreen'>Full Screen 
                 <span class="fas fa-expand">&#xf065;</span>
         </a></p>
+        <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen 
+                <span class="fas fa-compress">&#xf066;</span>
+        </a>
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        <iframe class='streaming' src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+        {% if session.id == "v-full-full1" %}
+            <iframe class='streaming' src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+        {% else %}
+            <iframe class='streaming' src="streaming.html?room=room2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+        {% endif %}
     </div>
 </div>
+{% endif %}
 {% if session.discord_channel_FAKE %}
 <div class="row my-3">
     <div class="col-lg-10">
@@ -116,7 +115,7 @@
 </div>
 {% endif %}
 
-{% if not session.youtube_id and not session.zoom_meeting %}
+{% if false and (not session.youtube_id and not session.zoom_meeting) %}
 <div class="row mt-5 mb-3">
     <div class="col-lg-10">
         {% if session.id == "m-jobfair_FAKE" %}
@@ -207,7 +206,9 @@
 $(document).ready(function() {
     $('#test-modal-fullscreen').click((x) => { makeFullScreen()})
     // $('#test-modal-fullscreen').click((x) => { alert("whats up"); $('iframe.streaming').addClass("streaming-fullscreen")})
-    $('#test-modal-leave-fullscreen').click((x) => { $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen")})
+    // $('#test-modal-leave-fullscreen').click((x) => { alert("clearing full screen"); exitFullScreenHandler()})
+    // $('#test-modal-leave-fullscreen').click((x) => { alert("clearing full screen");})
+    $('#test-modal-leave-fullscreen').click((x) => { document.exitFullscreen()})
 
     document.addEventListener('fullscreenchange', exitFullScreenHandler);
     document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
@@ -233,6 +234,8 @@ function requestFullScreen(element) {
 function makeFullScreen() {
     $('iframe.streaming').addClass("streaming-fullscreen")
                          .removeClass("streaming");
+    $('#test-modal-leave-fullscreen').addClass("visible-floating")
+    $('#test-modal-leave-fullscreen').removeClass("invisible-floating")
     var elem = document.body;
     requestFullScreen(elem);
 }
@@ -241,7 +244,9 @@ function exitFullScreenHandler() {
     if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
         $('iframe.streaming-fullscreen').addClass("streaming")
                              .removeClass("streaming-fullscreen");
-        
+
+        $('#test-modal-leave-fullscreen').removeClass("visible-floating")
+        $('#test-modal-leave-fullscreen').addClass("invisible-floating")        
     }
 }
 
