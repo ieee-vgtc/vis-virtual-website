@@ -34,6 +34,21 @@
         [timezones-end];
 }
 
+/* one additional column; max 7 concurrent rooms */
+.schedule.schedule-day {
+    grid-template-columns:
+        [times] 5em
+        [room-1-start] 1fr
+        [room-1-end room-2-start] 1fr
+        [room-2-end room-3-start] 1fr
+        [room-3-end room-4-start] 1fr
+        [room-4-end room-5-start] 1fr
+        [room-5-end room-6-start] 1fr
+        [room-6-end room-7-start] 1fr
+        [room-7-end timezones] 1fr
+        [timezones-end];
+}
+
 .tz {
     display: flex;
     flex-direction: column;

@@ -450,9 +450,9 @@ body .carousel-control-prev {
   transition-duration: 100ms;
 }
 
-#calendar {
+/* #calendar {
   font-family: "Fira Sans Condensed Light", sans-serif;
-}
+} */
 
 /* specific event colours are set in config.yml */
 .tui-full-calendar-time-schedule-content,
@@ -794,7 +794,7 @@ hr::after {
   position: fixed;
   top: 0;
   left: 0;
-  overflow:hidden; 
+  overflow:hidden;
   z-index:2000;
   background-color: var(--main-bg-color);
 }
