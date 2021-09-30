@@ -104,8 +104,65 @@ def main(site_data_path):
 
     print("Data Successfully Loaded")
 
-
+    generateDayCalendars()
     return extra_files
+
+# main() should be called before this function
+def generateDayCalendars():
+    if len(by_day) == 0:
+        raise Exception("call main() before this function")
+
+    all_events = []
+    for day in by_day:
+        day_events = []
+        for session in by_day[day]:
+            session_event = {
+                "id": session["id"],
+                "title": session["fullTitle"],
+                "start": session["startTime"],
+                "end": session["endTime"],
+                "room": session["track"],
+                "day": sessionTimeToCalendarDay(session["startTime"]),
+                "timeStart": sessionTimeToCalendarTime(session["startTime"]),
+                "timeEnd": sessionTimeToCalendarTime(session["endTime"]),
+                # "location": session['youtube'],
+                "location": "session_" + session["id"] + ".html",
+                "link": "session_" + session["id"] + ".html",
+                "category": "time",
+                "eventType": session["type"],
+            }
+            day_events.append(session_event)
+
+        calendar_fname = "calendar_" + day
+
+        # try ordering by title; maybe this'll make things line up in the calendar?
+        day_events = sorted(day_events, key=lambda event: event['title'])
+
+        site_data[calendar_fname] = day_events
+        all_events.extend(day_events)
+
+    # overwrite static main_calendar json with all assembled events
+    site_data["main_calendar"] = all_events
+
+# converts a full date string to a "time string", which is simply "07:45" -> "0745" (times in conference timezone)
+def sessionTimeToCalendarTime(dateTime):
+    thetime = dateTime.split('T')[1]
+
+    # update the hour (GMT -5)
+    # assumption is that day won't change when we do this
+    split_time = thetime.split(":", 2)
+    hour = int(split_time[0]) - 5
+    minute = split_time[1]
+
+    return "time-" + str(hour).zfill(2) + str(minute).zfill(2)
+
+# converts a full date string to an indexed day for the calendar
+# (e.g., if conference starts on Sunday, then session on first day is "day-1")
+def sessionTimeToCalendarDay(dateTime):
+    start_day = 24
+    day = int(dateTime.split("T")[0].split("-")[-1])
+
+    return "day-" + str(day - start_day + 1)
 
 def _data():
     data = {}
@@ -302,7 +359,7 @@ def format_by_session_list(v):
             .lower(),  # get first word, which should be good enough...
         "chair": v["chair"],
         "organizers": v["organizers"],
-        # "calendarDisplayStartTime": v["display_start"],
+        "track": v["track"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "timeSlots": v["time_slots"],
