@@ -56,11 +56,11 @@
 
   // videoplayer.ts
   var IeeeVisVideoPlayer = class {
-    constructor(elementId, getCurrentVideo, getCurrentVideoId, getCurrentVideoStatus) {
+    constructor(elementId, getCurrentStage, getCurrentVideoId, getCurrentSessionStatus) {
       this.elementId = elementId;
-      this.getCurrentVideo = getCurrentVideo;
+      this.getCurrentStage = getCurrentStage;
       this.getCurrentVideoId = getCurrentVideoId;
-      this.getCurrentVideoStatus = getCurrentVideoStatus;
+      this.getCurrentSessionStatus = getCurrentSessionStatus;
       this.audioContext = new AudioContext();
       this.width = 400;
       this.height = 300;
@@ -73,13 +73,17 @@
       this.youtubeApiReady = true;
     }
     updateVideo() {
-      if (!this.getCurrentVideoId() || !this.youtubeApiReady) {
+      if (!this.youtubeApiReady) {
         return;
       }
       if (!this.youtubePlayerLoaded) {
         this.loadYoutubePlayer();
       } else {
-        this.changeYoutubeVideo();
+        if (!this.getCurrentVideoId() && this.player) {
+          this.player.stopVideo();
+        } else {
+          this.changeYoutubeVideo();
+        }
       }
     }
     setSize(width, height) {
@@ -113,7 +117,7 @@
         const currentTime = this.player.getCurrentTime();
         if (Math.abs(startTime - currentTime) > 5) {
           this.player.seekTo(startTime, true);
-          console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime());
+          console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime(), this.player.getDuration(), this.player);
         }
       }
     }
@@ -143,12 +147,17 @@
       this.player.playVideo();
     }
     getCurrentStartTimeS() {
-      if (!this.getCurrentVideo().live || !this.youtubePlayerReady) {
+      if (!this.getCurrentStage().live || !this.youtubePlayerReady) {
         const timeMs = new Date().getTime();
-        const videoStartTimestampMs = this.getCurrentVideoStatus()?.videoStartTimestamp || 0;
+        const videoStartTimestampMs = this.getCurrentSessionStatus()?.videoStartTimestamp || 0;
         return Math.round((timeMs - videoStartTimestampMs) / 1e3);
-      } else if (this.getCurrentVideo().live) {
-        return this.player.getDuration();
+      } else if (this.getCurrentStage().live) {
+        const videoStartTimestampMs = this.getCurrentSessionStatus()?.liveStreamStartTimestamp;
+        if (!videoStartTimestampMs) {
+          return 0;
+        }
+        const timeDiffMs = new Date().getTime() - videoStartTimestampMs;
+        return Math.round(timeDiffMs / 1e3);
       }
     }
   };
@@ -166,7 +175,6 @@
       this.db = new IeeeVisDb();
       this.player = new IeeeVisVideoPlayer(_IeeeVisStream.PLAYER_ELEMENT_ID, this.getCurrentStage.bind(this), this.getCurrentVideoId.bind(this), () => this.currentSession?.currentStatus);
       this.db.loadRoom(ROOM_ID, (room) => this.onRoomUpdated(room));
-      this.loadGathertown();
       this.loadPreviewImage();
       this.resize();
       window.addEventListener("resize", this.resize.bind(this));
@@ -202,13 +210,12 @@
         }
       }, 200);
     }
-    loadGathertown() {
-      const html = `<iframe title="gather town"
+    updateGathertown() {
+      const gatherWrap = document.getElementById(_IeeeVisStream.GATHERTOWN_WRAPPER_ID);
+      gatherWrap.innerHTML = this.getCurrentStage()?.state !== "SOCIALIZING" ? "" : `<iframe title="gather town"
                               allow="camera;microphone"
                               id="gathertown-iframe"
                               src="https://gather.town/app/aDeS7vVGW5A2wuF5/vis21-tech2"></iframe>`;
-      const gatherWrap = document.getElementById(_IeeeVisStream.GATHERTOWN_WRAPPER_ID);
-      gatherWrap.innerHTML = html;
     }
     loadPreviewImage() {
       console.log("loading preview", this.getCurrentStage()?.imageUrl);
@@ -237,6 +244,7 @@
       if (this.getCurrentStage()?.imageUrl != this.getCurrentStageOfSession(lastSession)?.imageUrl) {
         this.loadPreviewImage();
       }
+      this.updateGathertown();
       this.resize();
     }
     getCurrentStage() {
@@ -280,8 +288,10 @@
         previewImg.style.maxHeight = `${mainContentHeight}px`;
       }
       const gatherFrame = document.getElementById("gathertown-iframe");
-      gatherFrame.setAttribute("width", `${contentWidth}`);
-      gatherFrame.setAttribute("height", `${mainContentHeight}`);
+      if (gatherFrame) {
+        gatherFrame.setAttribute("width", `${contentWidth}`);
+        gatherFrame.setAttribute("height", `${mainContentHeight}`);
+      }
       const qaShown = ["WATCHING", "QA"].indexOf(state) !== -1;
       const numHeaders = qaShown ? 2 : 1;
       const panelWidth = this.width * this.PANEL_WIDTH_PERCENT / 100 - this.CHAT_PADDING_LEFT_PX;
