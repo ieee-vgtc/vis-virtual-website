@@ -1,3 +1,14 @@
+// yeah, globals are bad but it makes it easy
+
+let dayData = [
+  { text: "Sun, Oct 24", day: "Sunday" },
+  { text: "Mon, Oct 25", day: "Monday" },
+  { text: "Tue, Oct 26", day: "Tuesday" },
+  { text: "Wed, Oct 27", day: "Wednesday" },
+  { text: "Thu, Oct 28", day: "Thursday" },
+  { text: "Fri, Oct 29", day: "Friday" },
+];
+
 function finishCalendar(renderPromises) {
   updateKey();
   updateTzDropdown();
@@ -115,7 +126,6 @@ function updateFullCalendar(day) {
   // are we making the full calendar or an individual day's calendar?
   if (day != null) {
     calendar_json = `serve_calendar_${day}.json`;
-    populateRooms(calendar);
     populateTimes(calendar);
   }
   else {
@@ -126,9 +136,10 @@ function updateFullCalendar(day) {
   // return deferred promise
   return $.when($.get('serve_config.json'), $.get(calendar_json))
     .done((config, events) => {
-      if (day != null)
+      if (day != null) {
+        populateRooms(calendar, config[0].room_names);
         createDayCalendar(calendar, config[0], events[0]);
-      else
+      } else
         createFullCalendar(calendar, config[0], events[0]);
     }
   );
@@ -151,10 +162,21 @@ function createFullCalendar(calendar, config, allEvents) {
       const dayPosition = sessions[0].day + " / auto";
       const timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
 
+      const navigateToDay = (_ev, d) => {
+        const day_num = d.day.split('-')[1];
+        const day_name = dayData[day_num - 1].day;
+        $(`.nav-pills a[href="#tab-${day_name}"]`).tab('show')
+      };
+
       const timeslot = calendar.append('div')
         .style('grid-column', dayPosition)
         .style('grid-row', timePosition)
-        .classed('session-group', sessions.length !== 1);
+        .classed('session-group', sessions.length !== 1)
+        .on('click', ev => navigateToDay(ev, sessions[0]))
+        .on('keydown', (ev) => {
+          if (ev.key === " " || ev.key === "Enter")
+            navigateToDay(ev, sessions[0]);
+        });
 
       if (sessions.length === 1) {
         const session = sessions[0];
@@ -174,7 +196,6 @@ function createFullCalendar(calendar, config, allEvents) {
             .attr('data-content', d => d.title)
             .style('background-color', d => config.calendar.colors[d.eventType])
             .style('color', d => getTextColorByBackgroundColor(config.calendar.colors[d.eventType]))
-            // .text(d => d.title);
       }
     };
   };
@@ -183,6 +204,10 @@ function createFullCalendar(calendar, config, allEvents) {
 function createDayCalendar(calendar, config, dayEvents) {
   const getColor = d => config.calendar.colors[d.eventType];
   const getTextColor = d => getTextColorByBackgroundColor(getColor(d));
+
+  const navigateToSession = (_ev, d) => {
+    window.location = d.link;
+  }
 
   calendar.selectAll(".session")
     .data(dayEvents)
@@ -194,32 +219,40 @@ function createDayCalendar(calendar, config, dayEvents) {
       .style('grid-row', d => `${d.timeStart} / ${d.timeEnd}`)
       .style('background-color', getColor)
       .style('color', getTextColor)
+      .on('click', navigateToSession)
+      .on('keydown', (ev, d) => {
+        if (ev.key === " " || ev.key === "Enter")
+          navigateToSession(ev, d);
+      })
       .text(d => d.title)
 }
 
 function populateDays(calendarSelection) {
-  let dayData = [
-    "Sun, Oct 24",
-    "Mon, Oct 25",
-    "Tue, Oct 26",
-    "Wed, Oct 27",
-    "Thu, Oct 28",
-    "Fri, Oct 29",
-  ];
-
-  populateHeader(calendarSelection, dayData, true /* isDay */);
+  // NOTE: `dayData` is defined globally at top of file
+  calendarSelection.selectAll('.day-slot')
+    .data(dayData, d => d)
+    .join("div")
+      .attr("class", "day-slot")
+      .style("grid-row", "tracks / auto")
+      .style("grid-column", (_d, i) => `day-${i+1} / auto`)
+      .append('h2')
+        .append('a')
+        .on('click', (ev, d) => {
+          $(`.nav-pills a[href="#tab-${d.day}"]`).tab('show')
+        })
+        .text(d => d.text);
 }
 
-function populateRooms(calendarSelection) {
+function populateRooms(calendarSelection, roomNames) {
   // TODO: use room names
   let roomData = [
-    "Room 1",
-    "Room 2",
-    "Room 3",
-    "Room 4",
-    "Room 5",
-    "Room 6",
-    "Room 7",
+    roomNames.room1,
+    roomNames.room2,
+    roomNames.room3,
+    roomNames.room4,
+    roomNames.room5,
+    roomNames.room6,
+    roomNames.room7,
   ];
 
   populateHeader(calendarSelection, roomData);
