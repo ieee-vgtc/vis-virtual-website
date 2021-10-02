@@ -2,7 +2,7 @@
   image_size: 200
   supporters:
    - name: "Intel"
-     image: intel_2020.png
+     image: intel.png
      url: "https://intel.com"
 
    - name: "Tableau"
@@ -26,7 +26,7 @@
      url: "https://www.kitware.com/"
 
    - name: "Fraunhofer IGD"
-     image: fraunhofer.png
+     image: igd.png
      url: "http://www.igd.fraunhofer.de/"
 
 
