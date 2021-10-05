@@ -53,3 +53,15 @@ calendar:
     paper: '#2a9d8f'
     papers: '#2a9d8f'
   sunday_saturday: true  #  Include Sunday and Saturday
+
+room_names:
+  room1: 'Bourbon Street'
+  room2: 'Royal Street'
+  room3: 'Frenchmen Street'
+  room4: 'St. Charles Street'
+  room5: 'Esplanade Avenue'
+  room6: 'Magazine Street'
+  room7: 'Rampart Street'
+  room8: 'Poydras Street'
+  room9: 'Café Du Monde'
+  room10: 'The French Quarter'

@@ -206,7 +206,9 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
 
-  overflow: scroll;
+  overflow: clip;
+
+  /* overflow-y: scroll; */
 }
 
 .pp-mode-mini .pp-card-header {
