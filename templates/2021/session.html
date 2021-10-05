@@ -76,19 +76,22 @@
 {% if True or session.room_id %}
 <div class="row mt-5">
     <div class="col-lg-10 streaming-container">
-        <p class="fullscreen-link streaming"><a id='test-modal-fullscreen'>Full Screen 
-                <span class="fas fa-expand">&#xf065;</span>
-        </a></p>
-        <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen 
-                <span class="fas fa-compress">&#xf066;</span>
-        </a>
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        {% if session.id == "v-full-full1" %}
-            <iframe class='streaming' src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
-        {% else %}
-            <iframe class='streaming' src="streaming.html?room=room2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
-        {% endif %}
+        <div class="streaming">
+            <a id='test-modal-fullscreen'>Full Screen 
+                    <span class="fas fa-expand">&#xf065;</span>
+            </a>
+            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen 
+                    <span class="fas fa-compress">&#xf066;</span>
+            </a>
+
+            {% if session.id == "v-full-full1" %}
+                <iframe src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+            {% else %}
+                <iframe src="streaming.html?room=room2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+            {% endif %}
+        </div>
     </div>
 </div>
 {% endif %}
@@ -232,8 +235,7 @@ function requestFullScreen(element) {
 }
 
 function makeFullScreen() {
-    $('iframe.streaming').addClass("streaming-fullscreen")
-                         .removeClass("streaming");
+    $('.streaming > iframe').addClass("streaming-fullscreen");
     $('#test-modal-leave-fullscreen').addClass("visible-floating")
     $('#test-modal-leave-fullscreen').removeClass("invisible-floating")
     var elem = document.body;
@@ -242,8 +244,7 @@ function makeFullScreen() {
 
 function exitFullScreenHandler() {
     if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
-        $('iframe.streaming-fullscreen').addClass("streaming")
-                             .removeClass("streaming-fullscreen");
+        $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen");
 
         $('#test-modal-leave-fullscreen').removeClass("visible-floating")
         $('#test-modal-leave-fullscreen').addClass("invisible-floating")        
