@@ -822,7 +822,6 @@ hr::after {
 }
 
 #test-modal-leave-fullscreen, #test-modal-fullscreen {
-  font-size: 20px;
   opacity: 0.5;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
@@ -857,6 +856,6 @@ hr::after {
 }
 
 .streaming > iframe {
-  min-height: 85vh;
+  min-height: 80vh;
   width: 100%;
 }
