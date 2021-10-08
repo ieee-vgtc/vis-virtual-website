@@ -50,7 +50,7 @@
                   </button>
                 </div>
               </div>
-              <div class="tz tz-right" style="grid-column: day-4-end / timezone-end; grid-row: timezones;">
+              <div class="tz tz-right">
                 <span class="tz-title">Conference timezone</span>
                 <span class="tz-description">New Orleans (Chicago / United States)</span>
               </div>
@@ -78,7 +78,7 @@
         {% for day in days %}
             <div class="tab-pane fade" id="tab-{{ day }}" role="tabpanel" aria-labelledby="nav-profile-tab">
               <div class="schedule schedule-day" id="calendar-{{ day }}">
-                <div class="tz" style="grid-column: times / room-3-end; grid-row: timezones;">
+                <div class="tz" style="grid-column: times / room3-end; grid-row: timezones;">
                   <span class="tz-title">Your timezone</span>
                   <div class="">
                     <select class="tzOptions selectpicker"></select>
@@ -87,7 +87,7 @@
                     </button>
                   </div>
                 </div>
-                <div class="tz tz-right" style="grid-column: room-4-end / timezone-end; grid-row: timezones;">
+                <div class="tz tz-right">
                   <span class="tz-title">Conference timezone</span>
                   <span class="tz-description">New Orleans (Chicago / United States)</span>
                 </div>
@@ -111,9 +111,7 @@
 
         <script type="text/javascript">
 
-          let days = [
-            // "Sunday", "Monday",
-            "Tuesday", "Wednesday", "Thursday", "Friday"];
+          let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
           let renderPromises = [];
           for (const day of days)
             renderPromises.push(updateFullCalendar(day));

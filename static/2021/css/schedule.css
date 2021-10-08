@@ -7,17 +7,17 @@
         [timezones] auto
         [tracks] auto
         [time-0730] 0.5fr
-        [time-0745] 0.5fr
+        [time-0745 time-0740] 0.5fr
         [time-0800] 1.5fr
         [time-0845] 1.5fr
-        [time-0930 time-0920] 0.5fr
+        [time-0930 time-0920 time-0910 time-0925] 0.5fr
         [time-0945] 0.5fr
         [time-1000] 3fr
         [time-1130 time-1120 time-1115] 1fr
         [time-1200] 2fr
         [time-1300] 0.5fr
-        [time-1315] 0.5fr
-        [time-1330 time-1320] 1fr
+        [time-1315 time-1314] 0.5fr
+        [time-1330 time-1320 time-1317] 1fr
         [time-1400] 2fr
         [time-1500] 1fr
         [time-1530] 1fr;
@@ -38,14 +38,52 @@
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
-        [room-1-start] 1fr
-        [room-1-end room-2-start] 1fr
-        [room-2-end room-3-start] 1fr
-        [room-3-end room-4-start] 1fr
-        [room-4-end room-5-start] 1fr
-        [room-5-end room-6-start] 1fr
-        [room-6-end room-7-start] 1fr
-        [room-7-end timezones] 1fr
+        [room1-start] 1fr
+        [room1-end room2-start] 1fr
+        [room2-end room3-start] 1fr
+        [room3-end room4-start] 1fr
+        [room4-end room5-start] 1fr
+        [room5-end room6-start] 1fr
+        [room6-end room7-start] 1fr
+        [room7-end room8-start] 1fr
+        [room8-end timezones] 5em
+        [timezones-end];
+}
+
+/* customize layout per-day */
+#calendar-Tuesday {
+    grid-template-columns:
+        [times] 5em
+        [room1-start] 1fr
+        [room1-end room2-start] 1fr
+        [room2-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Thursday {
+    grid-template-columns:
+        [times] 5em
+        [room1-start] 1fr
+        [room1-end room2-start] 1fr
+        [room2-end room3-start] 1fr
+        [room3-end room4-start] 1fr
+        [room4-end room5-start] 1fr
+        [room5-end room6-start] 1fr
+        [room6-end room7-start] 1fr
+        [room7-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Friday {
+    grid-template-columns:
+        [times] 5em
+        [room1-start] 1fr
+        [room1-end room2-start] 1fr
+        [room2-end room3-start] 1fr
+        [room3-end room4-start] 1fr
+        [room4-end room5-start] 1fr
+        [room5-end room6-start] 1fr
+        [room6-end timezones] 5em
         [timezones-end];
 }
 
@@ -64,6 +102,9 @@
     /* text-align: right; */
     align-items: flex-end;
     align-content: stretch;
+    grid-column: span 3 / timezones-end;
+    grid-row: timezones;
+    align-self: end;
 }
 
 .tz-right .dropdown.bootstrap-select {

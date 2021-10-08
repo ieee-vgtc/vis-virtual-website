@@ -137,7 +137,7 @@ function updateFullCalendar(day) {
   return $.when($.get('serve_config.json'), $.get(calendar_json))
     .done((config, events) => {
       if (day != null) {
-        populateRooms(calendar, config[0].room_names);
+        populateRooms(calendar, config[0].room_names, day);
         createDayCalendar(calendar, config[0], events[0]);
       } else
         createFullCalendar(calendar, config[0], events[0]);
@@ -215,7 +215,7 @@ function createDayCalendar(calendar, config, dayEvents) {
       .attr("class", "session")
       .attr('data-toggle', 'popover')
       .attr('data-content', d => d.title)
-      .style('grid-column', d => `room-${d.room}-start / auto`)
+      .style('grid-column', d => `${d.room}-start / auto`)
       .style('grid-row', d => `${d.timeStart} / ${d.timeEnd}`)
       .style('background-color', getColor)
       .style('color', getTextColor)
@@ -243,7 +243,7 @@ function populateDays(calendarSelection) {
         .text(d => d.text);
 }
 
-function populateRooms(calendarSelection, roomNames) {
+function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names
   let roomData = [
     roomNames.room1,
@@ -253,13 +253,27 @@ function populateRooms(calendarSelection, roomNames) {
     roomNames.room5,
     roomNames.room6,
     roomNames.room7,
+    roomNames.room8,
   ];
+
+  // truncate rooms added per-day (don't add unnecessary rooms we're not using)
+  switch (day) {
+    case "Tuesday":
+      roomData = roomData.slice(0, 2);
+      break;
+    case "Thursday":
+      roomData = roomData.slice(0, 7);
+      break;
+    case "Friday":
+      roomData = roomData.slice(0, 6);
+      break;
+  }
 
   populateHeader(calendarSelection, roomData);
 }
 
 function populateHeader(calendarSelection, data, isDay) {
-  let columnPosition = (_d, i) => `${(isDay ? 'day' : 'room')}-${i+1} / auto`;
+  let columnPosition = (_d, i) => `${(isDay ? 'day-' : 'room')}${(i+1)} / auto`;
 
   calendarSelection.selectAll(".day-slot")
     .data(data, d => d)
