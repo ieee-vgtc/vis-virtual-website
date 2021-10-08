@@ -801,13 +801,37 @@ hr::after {
   background-color: var(--main-bg-color);
 }
 
+.fullscreen-link {
+  height: 0px;
+  top: 1em;
+  cursor: zoom-out;
+}
+
 #test-modal-leave-fullscreen {
   position: fixed;
   top: 0;
   right: 0;
   padding: 10px;
-  font-size: 20px;
   z-index: 10000;
+}
+
+#test-modal-fullscreen {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#test-modal-leave-fullscreen, #test-modal-fullscreen {
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  cursor: pointer;
+}
+
+
+#test-modal-leave-fullscreen:hover, #test-modal-fullscreen:hover {
+  opacity: 1.0;
 }
 
 .visible-floating {
@@ -831,6 +855,7 @@ hr::after {
   position: relative;
 }
 
-iframe.streaming {
-  min-height: 85vh;
+.streaming > iframe {
+  min-height: 80vh;
+  width: 100%;
 }
