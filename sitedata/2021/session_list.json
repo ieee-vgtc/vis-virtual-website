@@ -12,9 +12,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
+                    "Liang Gou",
                     "Junming Shao",
-                    "Alvitta Ottley",
-                    "Liang Gou"
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -137,8 +137,8 @@
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
                     "J\u00fcrgen Bernard",
-                    "Danny T.Y. Wu",
-                    "Annie T. Chen"
+                    "Annie T. Chen",
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -357,8 +357,8 @@
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
                     "J\u00fcrgen Bernard",
-                    "Danny T.Y. Wu",
-                    "Annie T. Chen"
+                    "Annie T. Chen",
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -401,8 +401,8 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-1.png",
                 "chair": [
-                    "Florian Windhager",
-                    "Houda Lamqaddamm"
+                    "Houda Lamqaddamm",
+                    "Florian Windhager"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -558,8 +558,8 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Bridget Moynihan",
                     "Mark-Jan Bludau",
+                    "Bridget Moynihan",
                     "Eric Alexander"
                 ],
                 "organizers": [
@@ -656,9 +656,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Chris Weaver",
-                    "Stefania Forlini",
                     "Houda Lamqaddamm",
+                    "Stefania Forlini",
+                    "Chris Weaver",
                     "Florian Windhager"
                 ],
                 "organizers": [
@@ -876,8 +876,8 @@
                 "track": "room5",
                 "schedule_image": "w-trex.png",
                 "chair": [
-                    "Emily Wall",
-                    "Mahsan Nourani"
+                    "Mahsan Nourani",
+                    "Emily Wall"
                 ],
                 "organizers": [
                     "Mahsan Nourani",
@@ -2022,9 +2022,9 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Bongshin Lee",
-                    "Melanie Tory",
                     "Eun Kyoung Choe",
+                    "Melanie Tory",
+                    "Bongshin Lee",
                     "Lyn Bartram",
                     "Sheelagh Carpendale"
                 ],
@@ -2417,9 +2417,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
-                    "Johanna Beyer",
+                    "Kristi Potter",
                     "Chaoli Wang",
-                    "Kristi Potter"
+                    "Johanna Beyer"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -2741,8 +2741,8 @@
                 "track": "room3",
                 "schedule_image": "a-biovischallenge.png",
                 "chair": [
-                    "Zeynep H Gumus",
-                    "Thomas H\u00f6llt"
+                    "Thomas H\u00f6llt",
+                    "Zeynep H Gumus"
                 ],
                 "organizers": [
                     "Zeynep H Gumus",
@@ -2918,9 +2918,9 @@
                 "schedule_image": "w-visxvision.png",
                 "chair": [
                     "Christie Nothelfer",
-                    "Cindy Xiong",
+                    "Madison Elliott",
                     "Danielle Szafir",
-                    "Madison Elliott"
+                    "Cindy Xiong"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3116,11 +3116,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Lane Harrison",
-                    "Michelle Borkin",
-                    "Leilani Battle",
                     "Evan Peck",
-                    "Michael Correll"
+                    "Leilani Battle",
+                    "Michael Correll",
+                    "Michelle Borkin",
+                    "Lane Harrison"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3508,11 +3508,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "Adam Perer",
                     "Fred Hohman",
                     "VISxAI orga",
+                    "Menna El-Assady",
                     "Hendrik Strobelt",
-                    "Menna El-Assady"
+                    "Adam Perer"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -3643,14 +3643,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Kajetan Enge",
                     "Wolfgang Aigner",
-                    "Michael Iber",
-                    "Alexander Rind",
                     "Robert H\u00f6ldrich",
-                    "Bruce N. Walker",
+                    "Michael Iber",
+                    "Niklas R\u00f6nnberg",
                     "Niklas Elmqvist",
-                    "Niklas R\u00f6nnberg"
+                    "Kajetan Enge",
+                    "Bruce N. Walker",
+                    "Alexander Rind"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -3787,9 +3787,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Bongshin Lee",
                     "Petra Isenberg",
-                    "Anastasia Bezerianos"
+                    "Anastasia Bezerianos",
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -3971,12 +3971,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
+                    "Catherine Plaisant",
+                    "Daniel Weiskopf",
                     "Terry Yoo",
                     "Brian Summa",
                     "Tamara Munzner",
-                    "Daniel Weiskopf",
-                    "Catherine Plaisant"
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4039,9 +4039,9 @@
                 "track": "room1",
                 "schedule_image": "v-full-full1.png",
                 "chair": [
-                    "Bongshin Lee",
+                    "Silvia Miksch",
                     "Anders Ynnerman",
-                    "Silvia Miksch"
+                    "Bongshin Lee"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -7507,8 +7507,8 @@
                 "track": "room6",
                 "schedule_image": "a-visap-visap2.png",
                 "chair": [
-                    "Charles Perin",
-                    "Yoon Chung Han"
+                    "Yoon Chung Han",
+                    "Charles Perin"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-28T17:00:00Z",
@@ -7768,8 +7768,8 @@
                 "track": "room5",
                 "schedule_image": "m-vislies.png",
                 "chair": [
-                    "Kenneth Moreland",
-                    "Bernice Rogowitz"
+                    "Bernice Rogowitz",
+                    "Kenneth Moreland"
                 ],
                 "organizers": [
                     "Kenneth Moreland",
@@ -8822,8 +8822,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8890,8 +8890,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8975,8 +8975,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9358,8 +9358,8 @@
                 "track": "room4",
                 "schedule_image": "v-cga-cga3.png",
                 "chair": [
-                    "Jian Chen",
-                    "Klaus Mueller"
+                    "Klaus Mueller",
+                    "Jian Chen"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
@@ -9456,12 +9456,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Ayan Biswas",
+                    "Earl Lawrence",
                     "Subhashis Hazarika",
                     "Steven Morley",
-                    "Divya Banesh",
-                    "Earl Lawrence",
-                    "Natalie Klein"
+                    "Natalie Klein",
+                    "Ayan Biswas",
+                    "Divya Banesh"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9505,13 +9505,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Uulke van der Heide",
-                    "Vitali Moiseenko",
-                    "Renata G. Raidou",
-                    "Noeska Smit",
+                    "Katja B\u00fchler",
                     "Wouter van Elmpt",
+                    "Uulke van der Heide",
                     "Ludvig P. Muren",
-                    "Katja B\u00fchler"
+                    "Vitali Moiseenko",
+                    "Noeska Smit",
+                    "Renata G. Raidou"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -9558,9 +9558,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Alexander Bock",
+                    "Mark SubbaRao",
                     "Anders Ynnerman",
-                    "Mark SubbaRao"
+                    "Alexander Bock"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -9598,9 +9598,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
+                    "Christina Gillmann",
                     "Karsten Rink",
-                    "Petra Gospodnetic",
-                    "Christina Gillmann"
+                    "Petra Gospodnetic"
                 ],
                 "organizers": [
                     "Christina Gillmann",

@@ -5874,9 +5874,9 @@
         "keywords": [],
         "uid": "v-siggraph-115",
         "time_stamp": "2021-10-29T15:00:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "When inserting a photo into a graphic design, our model can automatically predict appropriate regions for recoloring to the target colors, such that the resulting images still look natural with the original object semantics preserved and the resulting designs look visually more harmonious. Our model is also able to provide multiple suggestions for the user to choose from.",
         "external_paper_link": "",
         "ff_link": ""
     },
