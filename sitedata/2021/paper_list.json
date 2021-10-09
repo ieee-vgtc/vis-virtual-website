@@ -699,7 +699,7 @@
         "uid": "v-full-1346",
         "time_stamp": "2021-10-26T15:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "A collection of two matrices (top left). The state-of-the-art first computes a (weighted) union (top middle and right, blue squares have weight 2), then orders the union, and finally applies this ordering to all matrices in the collection. The union leads to a loss of information, specifically, on those parts of the matrices which are different (bottom right). We propose a collection-aware approach to compute orderings which avoids this loss of information (bottom left). Our approach can be applied to existing ordering methods; examples in this figure use the popular leaf order heuristic.",
         "external_paper_link": "",
         "ff_link": ""
@@ -722,7 +722,7 @@
         "uid": "v-full-1187",
         "time_stamp": "2021-10-26T15:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "The IRVINE system. Users have an overview over clusters in (A). They can select clusters in (A) and engines in (B). After selecting an engine in (B), the acoustic signature of the engine is displayed in (C) and respective raw acoustic measurements in (D). Detailed information about selections from (C) is shown as line chart and scatter-plot and bar chart in (F). After the analysis of an engine, the user can assign a label in (E) and provide an annotation for the label in (D).",
         "external_paper_link": "",
         "ff_link": ""
@@ -744,7 +744,7 @@
         "uid": "v-full-1160",
         "time_stamp": "2021-10-26T15:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "A conceptual illustration of a possible \"Building Vision\" visualization approach inspired by enhanced see-through vision abilities often seen in superhero comics.",
         "external_paper_link": "",
         "ff_link": ""
@@ -763,7 +763,7 @@
         "uid": "v-full-1426",
         "time_stamp": "2021-10-26T15:45:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "This paper introduces topological feature curves and surfaces for the analysis of 3D asymmetric tensor fields, such as the velocity gradient tensor of the Lorenz attractor (left).  Note all these surfaces intersect at the triple degenerate curves. Furthermore, this analysis leads to an eigenvalue space for 3D asymmetric tensor fields. To enable a holistic view of the eigenvectors and dual-eigenvectors, this paper proposes an augmented hyperstreamline following one eigenvector field as a tree stem with attached thorns and leaves to show the other eigenvectors or dual-eigenvectors (right).",
         "external_paper_link": "",
         "ff_link": ""
@@ -785,7 +785,7 @@
         "uid": "v-short-1184",
         "time_stamp": "2021-10-26T16:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "best",
         "image_caption": "We often feel like we extract patterns in data from visualizations in an instant. But, perceptual psychology literature shows that extracting such patterns can require a series of filtering operations over time, where we attend to some subsets information, and inhibit others. We demonstrate the presence of this powerful filter when viewing data visualizations; 93% of viewers can miss a conspicuous dinosaur in an inhibited set of dots within a scatterplot. Therefore, data visualizations are not instantly seen, but rather actively explored over time.\n",
         "external_paper_link": "",
         "ff_link": ""
@@ -906,7 +906,7 @@
         "uid": "v-full-1204",
         "time_stamp": "2021-10-27T14:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Visualization snippets of the same Observable notebook automatically generated with our proposed VizSnippets computational pipeline and design framework. The visual and textual content of bundles is compressed into representative snippets of different form factors which provide high information density with multiple images and carefully chosen keywords.",
         "external_paper_link": "",
         "ff_link": ""
@@ -1002,7 +1002,7 @@
         "uid": "v-full-1112",
         "time_stamp": "2021-10-27T13:45:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "In this paper, we present M2Lens, a novel explanatory visual analytics system to visualize and explain multimodal models for sentiment analysis.\nSpecifically, it facilitates multi-level and multi-faceted exploration of intra- and inter-modal interactions.\n",
         "external_paper_link": "",
         "ff_link": ""
@@ -1069,7 +1069,7 @@
         "uid": "v-full-1314",
         "time_stamp": "2021-10-27T13:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "The image shows shows the authors along with color concept association profiles for six concepts - (from top left to bottom right) peach, driving, eggplant, celery, comfort, and grape. The first column has concepts with high distribution difference, the middle column with medium distribution difference, and the third with low distribution difference. The paper can be found at https://arxiv.org/pdf/2108.03685.pdf",
         "external_paper_link": "",
         "ff_link": ""
@@ -1117,7 +1117,7 @@
         "uid": "v-full-1398",
         "time_stamp": "2021-10-27T13:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "An existing ranking of visual channels is based on how accurately participants could report the ratio between two depicted values. There is an assumption that this ranking should hold for different tasks and for different numbers of marks. However, there is surprisingly little existing work that tests this assumption, especially given that visually computing ratios is relatively unimportant in real-world visualizations, compared to seeing, remembering, and comparing trends and motifs. We asked participants to reproduce a set of values from memory after they were shown the visualization. These values could be encoded by six visual channels.\n",
         "external_paper_link": "",
         "ff_link": ""
@@ -1266,7 +1266,7 @@
         "uid": "v-full-1582",
         "time_stamp": "2021-10-27T13:45:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "We show six different observer-relative visualizations of the same unsteady 2D input flow field, with respect to six different observers (vertical axes correspond to time). Each visualization is relative to a specific physically-realizable observer, depicted via an observer world line in each inset. Different vortex structures become visible relative to different observers, with colors and opacities encoding the coherence of path lines. Our interactive framework enables smoothly choosing, interpolating, and averaging observers, leading to smoothly changing observer-relative visualizations.\n",
         "external_paper_link": "",
         "ff_link": ""
@@ -1657,7 +1657,7 @@
         "uid": "v-full-1316",
         "time_stamp": "2021-10-27T16:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Screenshot from Artemus. An explanatory visualization tool,\nin the domain of administrative justice, to enable\npeople to understand potential paths of redress.\n",
         "external_paper_link": "",
         "ff_link": ""
@@ -1755,7 +1755,7 @@
         "uid": "v-full-1417",
         "time_stamp": "2021-10-27T16:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Modeling causal inferences with visualizations: (A) Users view and may interact with data visualizations; (B) Ideally, users reason through a series of comparisons that allow them to allocate subjective probabilities to possible data generating processes; and (C) We elicit users\u2019 subjective probabilities as a Dirichlet distribution across possible causal explanations and compare these causal inferences to a computed benchmark of causal support, which we derive from Bayesian inference across possible causal models. ",
         "external_paper_link": "",
         "ff_link": ""
@@ -1811,7 +1811,7 @@
         "uid": "v-full-1293",
         "time_stamp": "2021-10-27T15:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "",
         "external_paper_link": "",
         "ff_link": ""
@@ -2445,7 +2445,7 @@
         "uid": "v-full-1103",
         "time_stamp": "2021-10-27T18:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "This figure illustrates the overall workflow of KG4Vis. We extract features from existing dataset-visualization pairs and construct a knowledge graph (KG). Then the embeddings of entities and relations in the KG are learned. Based on the embeddings, we conduct inference on a new dataset and finally recommend multiple visualizations. Also, various rules are extracted based on the embeddings and presented together with recommended visualizations to improve the interpretability of visualization recommendation.",
         "external_paper_link": "",
         "ff_link": ""
@@ -3049,7 +3049,7 @@
         "uid": "v-full-1578",
         "time_stamp": "2021-10-28T13:00:00Z",
         "has_image": false,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "",
         "external_paper_link": "",
         "ff_link": ""
@@ -3153,7 +3153,7 @@
         "uid": "v-full-1607",
         "time_stamp": "2021-10-28T14:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "This work presents an interactive system that enables the visual analysis of streaming social media data on a large scale in real-time. We propose an efficient and explainable dynamic clustering algorithm that powers a continuously updated visualization of the current thematic landscape as well as detailed visual summaries of specific topics of interest. Our parallel clustering strategy provides an adaptive stream with a digestible but diverse selection of recent posts related to relevant topics. We also integrate familiar visual metaphors that are highly interlinked for enabling both explorative and more focused monitoring tasks.",
         "external_paper_link": "",
         "ff_link": ""
@@ -3325,7 +3325,7 @@
         "uid": "v-full-1500",
         "time_stamp": "2021-10-28T13:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "What information should an alternative text include to describe visualizations, and how does that impact people\u2019s understanding of visualizations? In this work, we consolidate existing guidelines and survey current practices. To gain more insight, we interviewed 22 people with visual impairments regarding their experience with visualizations. We found that participants actively try to construct an image of visualizations in their heads and wish to carry out visualization tasks. Informed by the study, we provide a set of recommendations to compose an informative alternative text.",
         "external_paper_link": "",
         "ff_link": ""
@@ -3958,7 +3958,7 @@
         "uid": "v-short-1048",
         "time_stamp": "2021-10-28T15:10:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "An example of a line chart automatically generalized to different display sizes. The algorithm preserves the various elements of the line chart based on their semantic importances at a given display size.\n",
         "external_paper_link": "",
         "ff_link": ""
@@ -5100,7 +5100,7 @@
         "uid": "v-full-1477",
         "time_stamp": "2021-10-29T14:00:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "Venn diagrams are often used to highlight complex interactions of sets. This example fromxkcd.com shows which adjectives can be used in combination. Using our method, we can recreate the original Venn diagram. However, the diagram contains empty intersections. In these cases, Euler diagrams provide a more faithful representation of the data.",
         "external_paper_link": "",
         "ff_link": ""
@@ -5360,7 +5360,7 @@
         "uid": "v-short-1128",
         "time_stamp": "2021-10-29T13:30:00Z",
         "has_image": false,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "",
         "external_paper_link": "",
         "ff_link": ""
@@ -5512,7 +5512,7 @@
         "uid": "v-full-1199",
         "time_stamp": "2021-10-29T15:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "We propose an evaluation-focused framework for visualization recommendation algorithms. Our framework is defined by three major components: (1) a network representing the space of all possible visualization designs; (2) the method a recommendation algorithm uses to traverse the design space to enumerate candidate visualization designs; (3) an oracle used to approximate and rank the value of candidate visualizations. The image demonstrates the visualization design space and the enumeration step of a recommendation algorithm, using movies data as an example. The user's current visualization is at node n0.",
         "external_paper_link": "",
         "ff_link": ""
@@ -5604,7 +5604,7 @@
         "uid": "v-full-1284",
         "time_stamp": "2021-10-29T16:15:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "The interface of VBridge facilitates clinicians\u2019 understanding and interpretation of ML model predictions. The header menu allows clinicians to view prediction results, and to select a patient group for reference. The profile view and the timeline view show a summary of the target patient\u2019s health records. The feature view shows feature-level explanations in a hierarchical display, linked to the temporal view where healthcare time series are visualized to provide context for feature-level explanations.",
         "external_paper_link": "",
         "ff_link": ""
@@ -5798,7 +5798,7 @@
         "uid": "v-full-1271",
         "time_stamp": "2021-10-29T15:30:00Z",
         "has_image": true,
-        "paper_award": "",
+        "paper_award": "honorable",
         "image_caption": "The Loon visualization interface contains five views that show different visualizations that interact with each other.",
         "external_paper_link": "",
         "ff_link": ""

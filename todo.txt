@@ -33,6 +33,14 @@
 [x] Room names
 
 
+## FOR RELEASE
+[x] Mark papers with "honorable" or "best" under the award field in paper_list.json
+[ ] Add auth0 and enable registration import script
+[ ] Add poster index page (like papers.html) and poster pages (like paper_<id>.html)
+[x] Fix calendar weirdness
+[ ] Add "room" pages
+
+
 ## Styling
 [X] font in calendar
 [X] hover button style (needs border?)

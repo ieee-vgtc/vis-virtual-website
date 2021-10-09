@@ -619,7 +619,7 @@ hr::after {
 
 .event-faceting,
 .legend-item {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.025em;
   font-size: 1rem;
   padding-bottom: 0.5rem;

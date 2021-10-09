@@ -82,7 +82,7 @@ function updateKey() {
     associated: "Associated Events / Symposium",
     workshop: "Workshop",
     application: "Application Spotlights",
-    panel: "Tutorial / Panel",
+    panel: "Tutorial / Panel / Meetup",
   };
 
   $.get('serve_config.json').then(config => {
@@ -160,7 +160,22 @@ function createFullCalendar(calendar, config, allEvents) {
       // fill in positioning based on first session (should be grouped already)
       const sessions = dayEvents.get(timeslotKey);
       const dayPosition = sessions[0].day + " / auto";
-      const timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
+      let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
+
+      // manually skip adding these groups to clean up Sunday/Monday
+      if (dayKey === "2021-10-24" || dayKey === "2021-10-25") {
+        if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
+          continue;
+        }
+
+        // force non-full day event
+        if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
+          timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
+      }
+      if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
+        if (timeslotKey === "20:00:00Z")
+          continue;
+      }
 
       const navigateToDay = (_ev, d) => {
         const day_num = d.day.split('-')[1];
