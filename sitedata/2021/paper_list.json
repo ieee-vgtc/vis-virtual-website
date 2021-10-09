@@ -1,34 +1,11 @@
 {
-    "a-vahc-1007": {
-        "authors": [
-            "Fahd Husain",
-            "Rosa Romero-G\u00f3mez",
-            "Emily Kuang",
-            "Dario Segura",
-            "Adamo Carolli Carolli",
-            "Lai Chung Liu",
-            "Manfred Cheung",
-            "Yohann Paris"
-        ],
-        "title": "Best Paper: A Multi-scale Visual Analytics Approach for Exploring Biomedical Knowledge",
-        "session_id": "a-vahc-1",
-        "abstract": "This paper describes an ongoing multi-scale visual analytics approach for exploring and analyzing biomedical knowledge at scale. We utilize global and local views, hierarchical and flow-based graph layouts, multi-faceted search, neighborhood recommendations, and document visualizations to help researchers interactively explore, query, and analyze biological graphs against the backdrop of biomedical knowledge. The generality of our approach - insofar as it re-quires only knowledge graphs linked to documents - means it can support a range of therapeutic use cases across different domains, from disease propagation to drug discovery. Early interactions with domain experts support our approach for use cases with graphs with over 40,000 nodes and 350,000 edges.",
-        "keywords": [],
-        "uid": "a-vahc-1007",
-        "time_stamp": "2021-10-24T14:10:00Z",
-        "has_image": true,
-        "paper_award": "",
-        "image_caption": "A biomedical researcher uses the graph prototype to investigate potential drug treatments for SARS-CoV-2 using the COVID-19 biological graph that was automatically derived from literature. (A) The Global View provides an overview of the biological graph with bundled edges and nodes organized hierarchically in a biomedical ontology. The results of searching for links from several articles using DOIs are highlighted. (B) The Local View shows the highlighted results extracted as a node-link flow graph for further analysis. (C) The Drill-down Panel displays the underlying evidence extracted from scientific articles for the inhibition relationship between tocilizumab and IL6. \n",
-        "external_paper_link": "",
-        "ff_link": ""
-    },
     "a-vds-11008": {
         "authors": [
             "Subhajit Das",
             "Alex Endert"
         ],
         "title": "CACTUS: Detecting and Resolving Conflicts in Objective Functions",
-        "session_id": "a-vds-2",
+        "session_id": "a-vds",
         "abstract": "Machine learning (ML) models are constructed by expert ML practitioners using various coding languages, in which they tune and select model hyperparameters and learning algorithms for a given problem domain. In multi-objective optimization, conflicting objectives and constraints is a major area of concern. In such problems, several competing objectives are seen for which no single optimal solution is found that satisfies all desired objectives simultaneously. In the past, visual analytic (VA) systems have allowed users to interactively construct objective functions for a classifier. In this paper, we extend this line of work by prototyping a technique to visualize multi-objective objective functions either defined in a Jupyter notebook or defined using an interactive visual interface to help users to detect and resolve conflicting objectives. Visualization of the objective function enlightens potentially conflicting objectives that obstructs selecting correct solution(s) for the desired ML task or goal. We also present an enumeration of potential conflicts in objective specification in multi-objective objective functions for classifier selection. Furthermore, we demonstrate our approach in a VA system that helps users in specifying meaningful objective functions to a classifier by detecting and resolving conflicting objectives.",
         "keywords": [],
         "uid": "a-vds-11008",
@@ -50,7 +27,7 @@
             "Dustin L Arendt"
         ],
         "title": "Graph Comparison for Causal Discovery",
-        "session_id": "a-vds-2",
+        "session_id": "a-vds",
         "abstract": "Reasoning about cause and effect is one of the frontiers for modern machine learning. Many causality techniques reason over a ``causal graph'' provided as input to the problem. When a causal graph cannot be produced from human expertise, ``causal discovery'' algorithms can be used to generate one from data. Unfortunately, causal discovery algorithms vary wildly in their results due to unrealistic data and modeling assumptions, so the results still need to be manually validated and adjusted. This paper presents a graph comparison tool designed to help analysts curate causal discovery results. This tool facilitates feedback loops whereby an analyst compares proposed graphs from multiple algorithms (or ensembles) and then uses insights from the comparison to refine parameters and inputs to the algorithms. We illustrate different types of comparisons and show how the interplay of causal discovery and graph comparison improves causal discovery.",
         "keywords": [],
         "uid": "a-vds-21006",
@@ -73,7 +50,7 @@
             "Niklas Elmqvist"
         ],
         "title": "Lodestar: Supporting Independent Learning and Rapid Experimentation Through Data-Driven Analysis Recommendations",
-        "session_id": "a-vds-2",
+        "session_id": "a-vds",
         "abstract": "Keeping abreast of current trends, technologies, and best practices in visualization and data analysis is becoming increasingly difficult, especially for fledgling data scientists. In this paper, we propose Lodestar, an interactive computational notebook that allows users to quickly explore and construct new data science workflows by selecting from a list of automated analysis recommendations. We derive our recommendations from directed graphs of known analysis states, with two input sources: one manually curated from online data science tutorials, and another extracted through semi-automatic analysis of a corpus of over 6,000 Jupyter notebooks. We evaluate Lodestar in a formative study guiding our next set of improvements to the tool. The evaluation suggests that users find Lodestar useful for rapidly creating data science workflows.",
         "keywords": [],
         "uid": "a-vds-31005",
@@ -90,7 +67,7 @@
             "Vidya Setlur"
         ],
         "title": "Natto: Rapid Visual Iteration of Analytic Data Models with Intelligent Assistance",
-        "session_id": "a-vds-2",
+        "session_id": "a-vds",
         "abstract": "Data analysts need to routinely transform data into a form conducive for deeper investigation. While there exists a myriad of tools to support this task on tabular data, few tools exist to support analysts with more complex data types. In this study, we investigate how analysts process and transform large sets of XML data to create an analytic data model useful to further their analysis. We conduct a set of formative interviews with four experts that have diverse yet specialized knowledge of a common dataset. From these interviews, we derive a set of goals, tasks, and design requirements for transforming XML data into an analytic data model. We implement Natto as a proof-of-concept prototype that actualizes these design requirements into a set of visual and interaction design choices. We demonstrate the utility of the system through the presentation of analysis scenarios using real-world data. Our research contributes novel insights into the unique challenges of transforming data that is both hierarchical and internally linked. Further, it extends the knowledge of the visualization community in the areas of data preparation and wrangling.",
         "keywords": [],
         "uid": "a-vds-41007",
@@ -98,6 +75,29 @@
         "has_image": false,
         "paper_award": "",
         "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": ""
+    },
+    "a-vahc-1007": {
+        "authors": [
+            "Fahd Husain",
+            "Rosa Romero-G\u00f3mez",
+            "Emily Kuang",
+            "Dario Segura",
+            "Adamo Carolli Carolli",
+            "Lai Chung Liu",
+            "Manfred Cheung",
+            "Yohann Paris"
+        ],
+        "title": "Best Paper: A Multi-scale Visual Analytics Approach for Exploring Biomedical Knowledge",
+        "session_id": "a-vahc-1",
+        "abstract": "This paper describes an ongoing multi-scale visual analytics approach for exploring and analyzing biomedical knowledge at scale. We utilize global and local views, hierarchical and flow-based graph layouts, multi-faceted search, neighborhood recommendations, and document visualizations to help researchers interactively explore, query, and analyze biological graphs against the backdrop of biomedical knowledge. The generality of our approach - insofar as it re-quires only knowledge graphs linked to documents - means it can support a range of therapeutic use cases across different domains, from disease propagation to drug discovery. Early interactions with domain experts support our approach for use cases with graphs with over 40,000 nodes and 350,000 edges.",
+        "keywords": [],
+        "uid": "a-vahc-1007",
+        "time_stamp": "2021-10-24T14:10:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "A biomedical researcher uses the graph prototype to investigate potential drug treatments for SARS-CoV-2 using the COVID-19 biological graph that was automatically derived from literature. (A) The Global View provides an overview of the biological graph with bundled edges and nodes organized hierarchically in a biomedical ontology. The results of searching for links from several articles using DOIs are highlighted. (B) The Local View shows the highlighted results extracted as a node-link flow graph for further analysis. (C) The Drill-down Panel displays the underlying evidence extracted from scientific articles for the inhibition relationship between tocilizumab and IL6. \n",
         "external_paper_link": "",
         "ff_link": ""
     },

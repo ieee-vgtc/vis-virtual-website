@@ -300,7 +300,10 @@ def format_poster(v):
         "authors": list_fields["authors"],
         "title": v["title"],
         "discord_channel": v["discord_channel"],
-        "poster_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + ".pdf"
+        "session_title": v["event"],
+        "sessions": [v["event"]],
+        "poster_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + ".pdf",
+        "has_image": v["has_image"],
     }
 
 
@@ -552,6 +555,13 @@ def paper_json():
     json = []
     for v in site_data["paper_list"].items():
         json.append(format_paper(v[1]))
+    return jsonify(json)
+
+@year_blueprint.route("/year/{}/posters.json".format(year))
+def poster_json():
+    json = []
+    for v in site_data["poster_list"].items():
+        json.append(format_poster(v[1]))
     return jsonify(json)
 
 
