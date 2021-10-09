@@ -13,14 +13,15 @@
         [time-0930 time-0920 time-0910 time-0925] 0.5fr
         [time-0945] 0.5fr
         [time-1000] 3fr
-        [time-1130 time-1120 time-1115] 1fr
+        [time-1130 time-1120 time-1115 time-1125] 1fr
         [time-1200] 2fr
         [time-1300] 0.5fr
         [time-1315 time-1314] 0.5fr
         [time-1330 time-1320 time-1317] 1fr
         [time-1400] 2fr
         [time-1500] 1fr
-        [time-1530] 1fr;
+        [time-1530] 1fr
+        [time-1700 time-1800];
 
     grid-template-columns:
         [times] 5em
@@ -56,7 +57,10 @@
         [times] 5em
         [room1-start] 1fr
         [room1-end room2-start] 1fr
-        [room2-end timezones] 5em
+        [room2-end room3-start] 1fr
+        [room3-end room4-start] 1fr
+        [room4-end room5-start] 1fr
+        [room5-end timezones] 5em
         [timezones-end];
 }
 

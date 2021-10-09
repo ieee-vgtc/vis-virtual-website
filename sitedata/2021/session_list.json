@@ -12,8 +12,8 @@
                 "track": "room1",
                 "schedule_image": "a-vds-1.png",
                 "chair": [
-                    "Liang Gou",
-                    "Junming Shao"
+                    "Junming Shao",
+                    "Liang Gou"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -169,8 +169,8 @@
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
                     "Annie T. Chen",
-                    "Danny T.Y. Wu",
-                    "J\u00fcrgen Bernard"
+                    "J\u00fcrgen Bernard",
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -388,7 +388,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
-                    "MISSING"
+                    "Annie T. Chen",
+                    "J\u00fcrgen Bernard",
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -409,9 +411,7 @@
                     {
                         "type": "live",
                         "title": "Panel",
-                        "contributors": [
-                            "MISSING"
-                        ],
+                        "contributors": "",
                         "abstract": null,
                         "time_start": "2021-10-24T19:00:00Z",
                         "time_end": "2021-10-24T20:30:00Z"
@@ -590,9 +590,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Eric Alexander",
+                    "Bridget Moynihan",
                     "Mark-Jan Bludau",
-                    "Bridget Moynihan"
+                    "Eric Alexander"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -689,8 +689,8 @@
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
                     "Houda Lamqaddamm",
-                    "Florian Windhager",
                     "Chris Weaver",
+                    "Florian Windhager",
                     "Stefania Forlini"
                 ],
                 "organizers": [
@@ -791,8 +791,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Arjun Srinivasan",
-                    "Vidya Setlur"
+                    "Vidya Setlur",
+                    "Arjun Srinivasan"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -804,31 +804,91 @@
                 "discord_channel": "",
                 "discord_channel_id": 0,
                 "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
+                "zoom_meeting": null,
+                "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks",
+                        "title": "Keynote: Automated Data Storytelling: Scaling Data-driven Understanding and Action to Business Users",
                         "contributors": [
-                            "Vidya Setlur",
-                            "Arjun Srinivasan"
+                            "Nate Nichols"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T13:00:00Z",
+                        "time_end": "2021-10-24T14:00:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Aunt Lily Can Say Her Visualizations: Directing Analysis, Design, and Storytelling in Natural Language (A Vision)",
+                        "contributors": [
+                            "Zening Qu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T14:00:00Z",
+                        "time_end": "2021-10-24T14:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "ONYX: Towards Extending Natural Language Interfaces for Data Visualization Tools through Interactive Task Learning",
+                        "contributors": [
+                            "Marcel Ruoff"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T14:10:00Z",
+                        "time_end": "2021-10-24T14:20:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Visualising the News",
+                        "contributors": [
+                            "David Guy Brizan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T14:20:00Z",
                         "time_end": "2021-10-24T14:30:00Z"
                     },
                     {
                         "type": "live",
-                        "title": "Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks",
+                        "title": "nvBench: A Large-Scale Synthesized Dataset for Cross-Domain Natural Language to Visualization Task",
+                        "contributors": [
+                            "Yuyu Luo"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T15:00:00Z",
+                        "time_end": "2021-10-24T15:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Give Text A Chance: Advocating for Equal Consideration for Language and Visualization",
+                        "contributors": [
+                            "Marti Hearst"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T15:10:00Z",
+                        "time_end": "2021-10-24T15:20:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Group Discussions",
                         "contributors": [
                             "Vidya Setlur",
                             "Arjun Srinivasan"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-24T15:00:00Z",
+                        "time_start": "2021-10-24T15:20:00Z",
+                        "time_end": "2021-10-24T16:20:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Closing",
+                        "contributors": [
+                            "Vidya Setlur",
+                            "Arjun Srinivasan"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T16:20:00Z",
                         "time_end": "2021-10-24T16:30:00Z"
                     }
                 ]
@@ -847,7 +907,10 @@
                 "session_id": "w-trex",
                 "track": "room5",
                 "schedule_image": "w-trex.png",
-                "chair": [],
+                "chair": [
+                    "Mahsan Nourani",
+                    "Emily Wall"
+                ],
                 "organizers": [
                     "Mahsan Nourani",
                     "Eric Ragan",
@@ -866,19 +929,143 @@
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": null,
-                        "contributors": "",
+                        "type": "live",
+                        "title": "Welcome",
+                        "contributors": [
+                            "Event Chairs"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-24T13:00:00Z",
+                        "time_end": "2021-10-24T13:15:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S1-1",
+                        "contributors": [
+                            "Nadia Boukhalifa"
+                        ],
+                        "abstract": "In this paper, we demonstrate how analytic provenance can be exploited to re-construct user trust in a guided Visual Analytics (VA) system, and suggest that interaction log data analysis can be a valuable tool for on-line trust monitoring. Our approach moves away from the subjective and often a-posteriori evaluations of user trust, towards more objective measures that are not only continuously tracked and updated, but also reflect both the confidence of the user in system suggestions, and the uncertainty of the system with regards to user goals. We argue that this approach is more suitable for guided visual analytics systems such as ours, where user strategies, goals and even trust can evolve over time, in reaction to new system feedback and insights from the exploration. Through the analysis of log data from a past user study with twelve participants performing a guided visual analysis task, we found that the stability of user exploration strategies is a promising factor to study \u201ctrust\u201d. However, indirect metrics based on provenance, such as user evaluation counts and disagreement rates, are alone not sufficient to study trust reliably in guided VAs. We conclude with open challenges and opportunities for exploiting analytic provenance to support trust monitoring in guided VA systems.",
+                        "time_start": "2021-10-24T13:15:00Z",
+                        "time_end": "2021-10-24T13:25:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S1-2",
+                        "contributors": [
+                            "Anna-Pia Lohfink"
+                        ],
+                        "abstract": "We present evaluation results of our enhancements to the Security in Process System developed by Lohfink et al. to support triage analysis in operational technology networks. To ensure fast and appropriate reactions to anomalies in device readings, this system communicates anomaly detection results and device readings to incorporate human expertise and experience. It exploits periodical behavior in the data combining spiral plots with results from anomaly detection. To support decisions, increase trust, and support cooperation in the system we enhanced it to be knowledge-assisted. A central knowledge base allows sharing knowledge between users and support during analysis. It consists of an ontology describing incidents, and a data base holding collections of exemplary sensor readings with annotations and visualization parameters. Related knowledge is proposed automatically and incorporated directly in the visualization to provide assistance that is closely coupled to the application, without additional hurdles. This integration is designed aiming on additional support for correct and fast detection of anomalies in the visualized device readings. We evaluate our enhancements to the Security in Process System in terms of effectiveness, efficiency, user satisfaction, and cognitive load with a detailed user study. Comparing the original and enhanced system, we are able to draw conclusions as to how our design narrows the knowledge gap between experts and laymen. Furthermore, we present and discuss the results and impact on our future research.",
+                        "time_start": "2021-10-24T13:25:00Z",
+                        "time_end": "2021-10-24T13:35:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S1-3",
+                        "contributors": [
+                            "Wenkai Han"
+                        ],
+                        "abstract": "Decision making and trust have both become rising topics in the research community of Visual Analytics (VA).\nMany efforts have been made to understand and facilitate making decisions with VA, as well as build and calibrate trust.\nHowever, previous research largely took VA as a tool to facilitate decision making, but did not explore the possibility to dissect each analytical step in VA as decision making and discuss how decision making theories can be utilized to improve the trustworthiness of decisions in VA.\nTherefore, this paper instead proposes such alternative take on the relation between decision making and VA, inspects the processes of visually analyzing data as decision making, and discusses how to leverage decision making theories to facilitate trustworthy decision making in VA.",
+                        "time_start": "2021-10-24T13:35:00Z",
+                        "time_end": "2021-10-24T13:45:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S1-4",
+                        "contributors": [
+                            "Aritra Dasgupta"
+                        ],
+                        "abstract": "\u201cDetect the expected, discover the unexpected\u201d was the founding principle of the field of visual analytics. This mantra implies human stakeholders, like a domain expert or data analyst, could leverage visual analytics techniques to seek answers to known unknowns and discover unknown unknowns in the course of the data sensemaking process. We argue that in the era of AI-driven automation, the roles of humans and machines (e.g., a machine learning model) need to be recalibrated in terms of a team. We posit that by realizing human-machine teams as a stakeholder unit, we can better achieve the best of both worlds: automation transparency and human reasoning efficacy. However, this also increases the burden on analysts and domain experts towards performing more cognitively demanding tasks than they are used to. In this paper, we reflect on the complementary roles in a human-machine team through the lens of cognitive psychology and map them to existing and emerging research in the visual analytics community. We discuss open questions around the nature of human agency and analyze the shared responsibilities in human-machine teams.",
+                        "time_start": "2021-10-24T13:45:00Z",
+                        "time_end": "2021-10-24T13:55:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S1-5",
+                        "contributors": [
+                            "Ross Maciejewski"
+                        ],
+                        "abstract": "In this paper, we explore the intersection of knowledge and the forecasting accuracy of humans when supported by visual analytics. We have recruited 40 experts in machine learning and trained them in the use of a box office forecasting visual analytics system.\nOur goal was to explore the impact of visual analytics and knowledge in human-machine forecasting. This paper reports on how participants explore and reason with data and develop a forecast when provided with a predictive model of middling performance ($R^2 \\approx .7$). We vary the knowledge base of the participants through training, compare the forecasts to the baseline model, and discuss performance in the context of previous work on algorithmic aversion and trust.",
+                        "time_start": "2021-10-24T13:55:00Z",
+                        "time_end": "2021-10-24T14:05:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Round Table Discussion",
+                        "contributors": [
+                            "Event Chairs"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T14:05:00Z",
                         "time_end": "2021-10-24T14:30:00Z"
                     },
                     {
-                        "type": null,
-                        "title": null,
-                        "contributors": "",
+                        "type": "live",
+                        "title": "Welcome Back + Keynote Intro",
+                        "contributors": [
+                            "Event Chairs"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-24T15:00:00Z",
+                        "time_end": "2021-10-24T15:08:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Keynote",
+                        "contributors": [
+                            "Dr. Q. Vera Liao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T15:08:00Z",
+                        "time_end": "2021-10-24T15:40:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S2-1",
+                        "contributors": [
+                            "Udo Schlegel"
+                        ],
+                        "abstract": "Attributions are a common local explanation technique for deep learning models on single samples as they are easily extractable and demonstrate the relevance of input values.\nIn many cases, heatmaps visualize such attributions for samples, for instance, on images.\nHowever, heatmaps are not always the ideal visualization to explain certain model decisions for other data types.\nIn this survey, we focus on attribution visualizations for time series.\nWe collect attribution heatmap visualizations and some alternatives, discuss the advantages as well as disadvantages and give a short position towards future opportunities for attributions and explanations for time series.",
+                        "time_start": "2021-10-24T15:40:00Z",
+                        "time_end": "2021-10-24T15:50:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S2-2",
+                        "contributors": [
+                            "Jeroen Ooge"
+                        ],
+                        "abstract": "Users' trust in prediction models can be affected by many factors, including domain knowledge and experience with predictive modelling. However, it is not entirely clear to what extent and why this domain expertise impacts users' trust perceptions and evolutions. In addition, it remains challenging to accurately measure users' trust. We share our results and experiences of an exploratory case-study with a visual analytics system that incorporates a prediction model for time series. Through a mixed-methods approach involving Likert-type questionnaires and semi-structured interviews, we investigate users' trust evolutions and factors that affect their trust in the prediction model. Our results underline the multi-faceted nature of user trust, and suggest that domain expertise certainly affects trust, though it cannot fully foresee users' trust evolutions.",
+                        "time_start": "2021-10-24T15:50:00Z",
+                        "time_end": "2021-10-24T16:00:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S2-3",
+                        "contributors": [
+                            "Dirk Leffrang"
+                        ],
+                        "abstract": "Time series forecasts are ubiquitous, ranging from daily weather forecasts to projections of pandemics such as COVID-19. Communicating the uncertainty associated with such forecasts is important, because it may affect users' trust in a forecasting model and, in turn, the decisions made based on the model. Although there exists a growing body of research on visualizing uncertainty in general, the important case of visualizing prediction uncertainty in time series forecasting has not been studied yet. Against this background, we investigated how different visualizations of predictive uncertainty affect the extent to which people follow predictions of a time series forecasting model. More specifically, we conducted an online experiment on forecasting occupied hospital beds due to the COVID-19 pandemic, measuring the influence of uncertainty visualization of algorithmic predictions on participants' own predictions. In contrast to prior studies, our empirical results suggest that more salient visualizations of uncertainty lead to decreased willingness to follow algorithmic forecasts.",
+                        "time_start": "2021-10-24T16:00:00Z",
+                        "time_end": "2021-10-24T16:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Presentation S2-4",
+                        "contributors": [
+                            "Christina Gillmann"
+                        ],
+                        "abstract": "Recently, machine learning is massively on the rise in medical applications providing the ability to predict diseases, plan treatment, and monitor progress. Still, the use in a clinical context of this technology is rather rare, mostly due to the missing trust of clinicians. In this position paper, we aim to show how uncertainty is introduced in the machine learning process when applying it to the medical do-main at multiple points and how this influences the decision-making process of clinicians in machine learning approaches. Based on this knowledge, we aim to refine the guidelines for trust in visual analytics to assist clinicians in using and understanding systems that are based on machine learning.",
+                        "time_start": "2021-10-24T16:10:00Z",
+                        "time_end": "2021-10-24T16:20:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Session Q&A and Closing",
+                        "contributors": [
+                            "Event Chairs"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T16:20:00Z",
                         "time_end": "2021-10-24T16:30:00Z"
                     }
                 ]
@@ -951,8 +1138,8 @@
                 "track": "room7",
                 "schedule_image": "t-ttk.png",
                 "chair": [
-                    "Josh Levine",
-                    "Julien Tierny"
+                    "Julien Tierny",
+                    "Josh Levine"
                 ],
                 "organizers": [
                     "Christoph Garth",
@@ -1436,12 +1623,18 @@
                 "track": "room1",
                 "schedule_image": "a-vastchallenge.png",
                 "chair": [
-                    "Kris Cook",
-                    "R. Jordan Crouser"
+                    "R. Jordan Crouser",
+                    "Kris Cook"
                 ],
                 "organizers": [
                     "R. Jordan Crouser",
-                    "Kris Cook"
+                    "Kris Cook",
+                    "Kristen Liggett",
+                    "Steven Gomez",
+                    "Jereme Haack",
+                    "Curtis Larimer",
+                    "John Fallon",
+                    "Diane Staheli"
                 ],
                 "time_start": "2021-10-24T17:00:00Z",
                 "time_end": "2021-10-24T20:30:00Z",
@@ -1467,9 +1660,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC1 Award Presentation 1",
+                        "title": "RelationVis: Visual Analytics of Multifaceted Relationships between Different Entities in Text Collections (Award for Effective Design of Interactive Analytics)",
                         "contributors": [
-                            "MISSING"
+                            "Shaocong Tan"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T17:20:00Z",
@@ -1479,9 +1672,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC1 Award Presentation 2",
+                        "title": "Visual Analytics of Media Bias (Award for Effective Combination of Analytics and Visualizations",
                         "contributors": [
-                            "MISSING"
+                            "Shichao Jia"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T17:40:00Z",
@@ -1502,9 +1695,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC2 Award Presentation 1",
+                        "title": "An Interactive Visualization System for Spatio-temporal Situation Awareness with Multi-data Fusion (Award for Outstanding Comprehensive MC2 Submission)",
                         "contributors": [
-                            "MISSING"
+                            "Xingui Lai"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T18:10:00Z",
@@ -1513,9 +1706,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC2 Award Presentation 2",
+                        "title": "Awareness with Multi-data Fusion (Award for Outstanding Comprehensive MC2 Submission)",
                         "contributors": [
-                            "MISSING"
+                            "Daniel Bot"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T19:00:00Z",
@@ -1535,9 +1728,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC3 Award Presentation 1",
+                        "title": "Mining and Understanding Stories in Text Sequences with Narrative Visualization (Award for Innovative Narrative Visualization and Analysis Methodology)",
                         "contributors": [
-                            "MISSING"
+                            "Zeyu Li"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T19:30:00Z",
@@ -1547,9 +1740,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC3 Award Presentation 2",
+                        "title": "Mixed-Initiative Visual Exploration of Social Media Text and Events (Award for Strong Human-in-the-Loop Analysis Methodology)",
                         "contributors": [
-                            "MISSING"
+                            "Yuheng Zhao"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T19:50:00Z",
@@ -1558,9 +1751,9 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "MC3 HM Presentation",
+                        "title": "CloudAnnotator: Clustering and Annotating Streaming Text Data (Honorable Mention for Effective Visual Design and for Academic Outreach)",
                         "contributors": [
-                            "MISSING"
+                            "Chen Guo"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T20:10:00Z",
@@ -1595,10 +1788,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Michael Correll",
                     "Charles Perin",
                     "Paul Rosen",
-                    "Jane Adams"
+                    "Jane Adams",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -1853,9 +2046,9 @@
                 "schedule_image": "w-hdi.png",
                 "chair": [
                     "Eun Kyoung Choe",
+                    "Melanie Tory",
                     "Bongshin Lee",
                     "Lyn Bartram",
-                    "Melanie Tory",
                     "Sheelagh Carpendale"
                 ],
                 "organizers": [
@@ -2570,8 +2763,8 @@
                 "track": "room3",
                 "schedule_image": "a-biovischallenge.png",
                 "chair": [
-                    "Zeynep H Gumus",
-                    "Thomas H\u00f6llt"
+                    "Thomas H\u00f6llt",
+                    "Zeynep H Gumus"
                 ],
                 "organizers": [
                     "Zeynep H Gumus",
@@ -2746,9 +2939,9 @@
                 "schedule_image": "w-visxvision.png",
                 "chair": [
                     "Danielle Szafir",
-                    "Christie Nothelfer",
+                    "Cindy Xiong",
                     "Madison Elliott",
-                    "Cindy Xiong"
+                    "Christie Nothelfer"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -2943,7 +3136,13 @@
                 "session_id": "w-vis4good",
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
-                "chair": [],
+                "chair": [
+                    "Michael Correll",
+                    "Evan Peck",
+                    "Michelle Borkin",
+                    "Lane Harrison",
+                    "Leilani Battle"
+                ],
                 "organizers": [
                     "Leilani Battle",
                     "Michelle Borkin",
@@ -2952,31 +3151,154 @@
                     "Evan Peck"
                 ],
                 "time_start": "2021-10-25T13:00:00Z",
-                "time_end": "2021-10-25T16:30:00Z",
+                "time_end": "2021-10-25T16:25:00Z",
                 "discord_category": "",
                 "discord_channel": "",
                 "discord_channel_id": 0,
                 "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
+                "zoom_meeting": null,
+                "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": null,
-                        "contributors": "",
+                        "type": "live",
+                        "title": "Introduction and Welcome",
+                        "contributors": [
+                            "Leilani Battle"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T13:00:00Z",
-                        "time_end": "2021-10-25T14:30:00Z"
+                        "time_end": "2021-10-25T13:15:00Z"
                     },
                     {
-                        "type": null,
-                        "title": null,
-                        "contributors": "",
+                        "type": "live",
+                        "title": "Applying Racial Equity Awareness in Data Visualization",
+                        "contributors": [
+                            "Jon Schwabish",
+                            "Alice Feng"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T13:15:00Z",
+                        "time_end": "2021-10-25T14:00:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "CleanAirNowKC: Building Community Power by Improving Data Accessibility",
+                        "contributors": [
+                            "Paul Rosen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T14:00:00Z",
+                        "time_end": "2021-10-25T14:12:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Local, Interactive, and Actionable: a Pandemic Behavioral Nudge",
+                        "contributors": [
+                            "Alex Rich"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T14:12:00Z",
+                        "time_end": "2021-10-25T14:24:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Making the Invisible Visible: Risks and Benefits of Disclosing Metadata in Visualization",
+                        "contributors": [
+                            "Alyxander Burns"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T15:00:00Z",
-                        "time_end": "2021-10-25T16:30:00Z"
+                        "time_end": "2021-10-25T15:12:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Feral data visualization: A manifesto for cultivating livable worlds with visual sensemaking practices",
+                        "contributors": [
+                            "Cathryn Ploehn"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:12:00Z",
+                        "time_end": "2021-10-25T15:24:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "The importance of engaged communities for social good visualisation",
+                        "contributors": [
+                            "Neil Richards"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:24:00Z",
+                        "time_end": "2021-10-25T15:36:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Facilitating Visualization for Social Good in Academic Courses",
+                        "contributors": [
+                            "Uzma Haque Syeda"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:36:00Z",
+                        "time_end": "2021-10-25T15:41:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Visualizing Urban Accessibility: Understanding Sensemaking Processes across Multiple Stakeholders",
+                        "contributors": [
+                            "Manaswi Saha"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:41:00Z",
+                        "time_end": "2021-10-25T15:46:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Representing Systems of Need and Satisfaction",
+                        "contributors": [
+                            "Michael Hoefer"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:46:00Z",
+                        "time_end": "2021-10-25T15:51:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Local, Interactive, and Actionable: a Pandemic Behavioral Nudge",
+                        "contributors": [
+                            "Alex Rich"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:51:00Z",
+                        "time_end": "2021-10-25T15:56:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Visualizing Sexual Harassment Testimonies: Academia is Tied in Knots",
+                        "contributors": [
+                            "Tommaso Elli"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:56:00Z",
+                        "time_end": "2021-10-25T16:01:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Closing Remarks",
+                        "contributors": [
+                            "Michelle Borkin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T16:01:00Z",
+                        "time_end": "2021-10-25T16:05:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Break Out Session",
+                        "contributors": "",
+                        "abstract": null,
+                        "time_start": "2021-10-25T16:05:00Z",
+                        "time_end": "2021-10-25T16:25:00Z"
                     }
                 ]
             }
@@ -2995,8 +3317,8 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Camilla Forsell",
                     "Niklas R\u00f6nnberg",
+                    "Camilla Forsell",
                     "Matt Cooper"
                 ],
                 "organizers": [
@@ -3257,14 +3579,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
+                    "Robert H\u00f6ldrich",
                     "Bruce N. Walker",
+                    "Alexander Rind",
                     "Kajetan Enge",
                     "Wolfgang Aigner",
+                    "Niklas R\u00f6nnberg",
                     "Michael Iber",
-                    "Niklas Elmqvist",
-                    "Alexander Rind",
-                    "Robert H\u00f6ldrich",
-                    "Niklas R\u00f6nnberg"
+                    "Niklas Elmqvist"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -3282,14 +3604,14 @@
                 "discord_channel": "",
                 "discord_channel_id": 0,
                 "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
+                "zoom_meeting": null,
+                "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "Workshop on AudioVisual Analytics \u2013 Towards a Research Agenda for Integrating Sonification and Visualization",
+                        "title": "Welcome and Introduction by Organizers",
                         "contributors": [
                             "Wolfgang Aigner",
                             "Kajetan Enge",
@@ -3302,23 +3624,86 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T17:00:00Z",
+                        "time_end": "2021-10-25T17:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Introduction of Sonification for VIS community members",
+                        "contributors": [
+                            "Bruce Walker"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T17:10:00Z",
+                        "time_end": "2021-10-25T17:25:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Implementing Audio-Visual Data Representations",
+                        "contributors": [
+                            "Niklas R\u00f6nnberg"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T17:25:00Z",
+                        "time_end": "2021-10-25T17:35:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Sonification for Blind Individuals",
+                        "contributors": [
+                            "Niklas Elmqvist"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T17:35:00Z",
+                        "time_end": "2021-10-25T17:45:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Adopting Theoretical Constructs from Visualization for Sonification",
+                        "contributors": [
+                            "Kajetan Enge"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T17:45:00Z",
+                        "time_end": "2021-10-25T17:55:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Interactive Working Sessions on the topics theory, design, tools, and evaluation",
+                        "contributors": [
+                            "Organizers+Participants"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T17:55:00Z",
                         "time_end": "2021-10-25T18:30:00Z"
                     },
                     {
                         "type": "live",
-                        "title": "Workshop on AudioVisual Analytics \u2013 Towards a Research Agenda for Integrating Sonification and Visualization",
+                        "title": "Continued: working sessions on the topics theory, design process, tools, and evaluation",
                         "contributors": [
-                            "Wolfgang Aigner",
-                            "Kajetan Enge",
-                            "Michael Iber",
-                            "Alexander Rind",
-                            "Niklas Elmqvist",
-                            "Robert H\u00f6ldrich",
-                            "Niklas R\u00f6nnberg",
-                            "Bruce N. Walker"
+                            "Organizers+Participants"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:00:00Z",
+                        "time_end": "2021-10-25T19:40:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Reporting to the other groups",
+                        "contributors": [
+                            "Organizers+Participants"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T19:40:00Z",
+                        "time_end": "2021-10-25T20:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Open discussion and future collaborations",
+                        "contributors": [
+                            "Organizers+Participants"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T20:10:00Z",
                         "time_end": "2021-10-25T20:30:00Z"
                     }
                 ]
@@ -3338,9 +3723,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
+                    "Anastasia Bezerianos",
                     "Petra Isenberg",
-                    "Bongshin Lee",
-                    "Anastasia Bezerianos"
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -3418,43 +3803,33 @@
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": "recorded MISSING coming oct 8",
-                        "title": "Intro and overview of concepts",
+                        "type": "recorded",
+                        "title": "Intro and Manifolds, Coordinate Charts, Vector Fields",
                         "contributors": [
                             "Markus Hadwiger"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T17:00:00Z",
-                        "time_end": "2021-10-25T17:12:00Z"
+                        "time_end": "2021-10-25T17:40:00Z"
                     },
                     {
-                        "type": "recorded MISSING coming oct 8",
-                        "title": "Manifolds, coordinate charts, vector fields",
-                        "contributors": [
-                            "Markus Hadwiger"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-25T17:12:00Z",
-                        "time_end": "2021-10-25T17:35:00Z"
-                    },
-                    {
-                        "type": "recorded MISSING coming oct 8",
+                        "type": "recorded",
                         "title": "Tensor fields and differential forms",
                         "contributors": [
                             "Peter Rautek"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T17:35:00Z",
-                        "time_end": "2021-10-25T18:00:00Z"
+                        "time_start": "2021-10-25T17:40:00Z",
+                        "time_end": "2021-10-25T17:59:00Z"
                     },
                     {
-                        "type": "recorded MISSING coming oct 8",
+                        "type": "recorded",
                         "title": "Riemannian metrics and connections",
                         "contributors": [
                             "Thomas Theussl"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T18:00:00Z",
+                        "time_start": "2021-10-25T17:59:00Z",
                         "time_end": "2021-10-25T18:25:00Z"
                     },
                     {
@@ -3470,34 +3845,34 @@
                         "time_end": "2021-10-25T18:30:00Z"
                     },
                     {
-                        "type": "recorded MISSING coming oct 8",
+                        "type": "recorded",
                         "title": "Smooth maps between manifolds, isometries",
                         "contributors": [
                             "Markus Hadwiger"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:00:00Z",
-                        "time_end": "2021-10-25T19:25:00Z"
+                        "time_end": "2021-10-25T19:32:00Z"
                     },
                     {
-                        "type": "recorded MISSING coming oct 8",
+                        "type": "recorded",
                         "title": "Covariant derivatives and Lie derivatives",
                         "contributors": [
                             "Peter Rautek"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:25:00Z",
-                        "time_end": "2021-10-25T19:50:00Z"
+                        "time_start": "2021-10-25T19:32:00Z",
+                        "time_end": "2021-10-25T19:52:00Z"
                     },
                     {
-                        "type": "recorded MISSING coming oct 8",
+                        "type": "recorded",
                         "title": "Lie groups and Lie algebras",
                         "contributors": [
                             "Thomas Theussl"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:50:00Z",
-                        "time_end": "2021-10-25T20:15:00Z"
+                        "time_start": "2021-10-25T19:52:00Z",
+                        "time_end": "2021-10-25T20:16:00Z"
                     },
                     {
                         "type": "live",
@@ -3508,7 +3883,7 @@
                             "Thomas Theussl"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T20:15:00Z",
+                        "time_start": "2021-10-25T20:16:00Z",
                         "time_end": "2021-10-25T20:30:00Z"
                     }
                 ]
@@ -3529,11 +3904,11 @@
                 "schedule_image": "v-opening-1.png",
                 "chair": [
                     "Terry Yoo",
-                    "Catherine Plaisant",
-                    "Tamara Munzner",
-                    "Daniel Weiskopf",
                     "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Catherine Plaisant",
+                    "Luis Gustavo Nonato",
+                    "Daniel Weiskopf",
+                    "Tamara Munzner"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -3597,8 +3972,8 @@
                 "schedule_image": "v-full-full1.png",
                 "chair": [
                     "Silvia Miksch",
-                    "Bongshin Lee",
-                    "Anders Ynnerman"
+                    "Anders Ynnerman",
+                    "Bongshin Lee"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -6755,8 +7130,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7064,7 +7439,8 @@
                 "track": "room6",
                 "schedule_image": "a-visap-visap2.png",
                 "chair": [
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Yoon Chung Han"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-28T17:00:00Z",
@@ -7206,38 +7582,6 @@
                         "youtube_video_id": "zapltlNw1-w"
                     },
                     {
-                        "type": "live",
-                        "title": "Q&A for Artist Talks (10 min and remaing time)",
-                        "contributors": [
-                            "Charles Perin"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T18:17:00Z",
-                        "time_end": "2021-10-28T18:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "VISAP Session 1",
-                "session_id": "a-visap-visap1",
-                "track": "room6",
-                "schedule_image": "a-visap-visap1.png",
-                "chair": [
-                    "Yoon Chung Han"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-28T18:14:00Z",
-                "time_end": "2021-10-28T18:17:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "time_slots": [
-                    {
                         "type": "recorded",
                         "title": "Side-view States ",
                         "contributors": [
@@ -7248,6 +7592,16 @@
                         "time_end": "2021-10-28T18:17:00Z",
                         "uid": "a-visap-1063",
                         "youtube_video_id": "ry12WJ_vlfM"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Q&A for Artist Talks (10 min and remaing time)",
+                        "contributors": [
+                            "Charles Perin"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T18:17:00Z",
+                        "time_end": "2021-10-28T18:30:00Z"
                     }
                 ]
             }
@@ -7285,6 +7639,95 @@
                         "abstract": null,
                         "time_start": "2021-10-26T19:00:00Z",
                         "time_end": "2021-10-26T20:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "m-betteronline": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Better Online Presentations",
+                "session_id": "m-betteronline",
+                "track": "room3",
+                "schedule_image": "m-betteronline.png",
+                "chair": [
+                    "Robert Kosara"
+                ],
+                "organizers": [
+                    "Robert Kosara"
+                ],
+                "time_start": "2021-10-26T19:00:00Z",
+                "time_end": "2021-10-26T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "Better Online Presentations",
+                        "contributors": [
+                            "Robert Kosara"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T19:00:00Z",
+                        "time_end": "2021-10-26T22:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "m-vislies": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "VisLies!",
+                "session_id": "m-vislies",
+                "track": "room5",
+                "schedule_image": "m-vislies.png",
+                "chair": [
+                    "Kenneth Moreland",
+                    "Bernice Rogowitz"
+                ],
+                "organizers": [
+                    "Kenneth Moreland",
+                    "Bernice Rogowitz"
+                ],
+                "time_start": "2021-10-26T20:00:00Z",
+                "time_end": "2021-10-26T23:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "VisLies!",
+                        "contributors": [
+                            "Kenneth Moreland",
+                            "Bernice Rogowitz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T20:00:00Z",
+                        "time_end": "2021-10-26T23:00:00Z"
                     }
                 ]
             }
@@ -8311,8 +8754,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8379,8 +8822,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8464,8 +8907,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8847,8 +9290,8 @@
                 "track": "room4",
                 "schedule_image": "v-cga-cga3.png",
                 "chair": [
-                    "Jian Chen",
-                    "Klaus Mueller"
+                    "Klaus Mueller",
+                    "Jian Chen"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
@@ -8945,12 +9388,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Ayan Biswas",
-                    "Subhashis Hazarika",
-                    "Natalie Klein",
-                    "Earl Lawrence",
+                    "Steven Morley",
                     "Divya Banesh",
-                    "Steven Morley"
+                    "Natalie Klein",
+                    "Subhashis Hazarika",
+                    "Ayan Biswas",
+                    "Earl Lawrence"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -8994,13 +9437,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Ludvig P. Muren",
-                    "Renata G. Raidou",
-                    "Katja B\u00fchler",
-                    "Uulke van der Heide",
                     "Wouter van Elmpt",
+                    "Uulke van der Heide",
+                    "Ludvig P. Muren",
                     "Vitali Moiseenko",
-                    "Noeska Smit"
+                    "Noeska Smit",
+                    "Katja B\u00fchler",
+                    "Renata G. Raidou"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -9047,9 +9490,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Alexander Bock",
                     "Mark SubbaRao",
-                    "Anders Ynnerman"
+                    "Anders Ynnerman",
+                    "Alexander Bock"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -9087,9 +9530,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
+                    "Petra Gospodnetic",
                     "Karsten Rink",
-                    "Christina Gillmann",
-                    "Petra Gospodnetic"
+                    "Christina Gillmann"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -9109,7 +9552,49 @@
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
+                        "title": "Opening Presentation",
+                        "contributors": [
+                            "Christina Gillmann",
+                            "Petra Gospodnetic",
+                            "Karsten Rinks"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T13:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Invited Speaker ",
+                        "contributors": [
+                            "Katja Schladitz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:10:00Z",
+                        "time_end": "2021-10-29T13:25:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Invited Speaker ",
+                        "contributors": [
+                            "Tushar Atawale"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:25:00Z",
+                        "time_end": "2021-10-29T13:40:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Invited Speaker ",
+                        "contributors": [
+                            "Ibrahim Demir"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:40:00Z",
+                        "time_end": "2021-10-29T13:55:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Open Discussion",
                         "contributors": [
                             "Christina Gillmann",
                             "Petra Gospodnetic",
@@ -9119,7 +9604,7 @@
                             "Ibrahim Demir"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_start": "2021-10-29T13:55:00Z",
                         "time_end": "2021-10-29T14:30:00Z"
                     }
                 ]
@@ -9162,6 +9647,52 @@
             }
         ]
     },
+    "m-gender": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Gender Representation and Diversity at IEEE VIS",
+                "session_id": "m-gender",
+                "track": "room3",
+                "schedule_image": "m-gender.png",
+                "chair": [
+                    "Petra Isenberg",
+                    "Natkamon Tovanich"
+                ],
+                "organizers": [
+                    "Petra Isenberg",
+                    "Natkamon Tovanich"
+                ],
+                "time_start": "2021-10-27T20:00:00Z",
+                "time_end": "2021-10-27T23:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "Gender Representation and Diversity at IEEE VIS",
+                        "contributors": [
+                            "Petra Isenberg",
+                            "Natkamon Tovanich"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T20:00:00Z",
+                        "time_end": "2021-10-27T23:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "a-sciviscontest": {
         "event": "SciVis Contest",
         "long_name": "SciVis Contest",
@@ -9175,8 +9706,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Thomas Theu\u00dfl",
-                    "Alex Razoumov"
+                    "Alex Razoumov",
+                    "Thomas Theu\u00dfl"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -9422,6 +9953,52 @@
                         "abstract": null,
                         "time_start": "2021-10-28T19:00:00Z",
                         "time_end": "2021-10-28T20:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "m-climate": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities ",
+                "session_id": "m-climate",
+                "track": "room3",
+                "schedule_image": "m-climate.png",
+                "chair": [
+                    "Peetak Mitra",
+                    "Subhashis Hazarika"
+                ],
+                "organizers": [
+                    "Subhashis Hazarika",
+                    "Peetak Mitra"
+                ],
+                "time_start": "2021-10-28T19:00:00Z",
+                "time_end": "2021-10-28T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities ",
+                        "contributors": [
+                            "Subhashis Hazarika",
+                            "Peetak Mitra"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T19:00:00Z",
+                        "time_end": "2021-10-28T22:00:00Z"
                     }
                 ]
             }

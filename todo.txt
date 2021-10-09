@@ -25,11 +25,12 @@
 ## Calendar
 [x] Dynamic loading from session data
 [x] Dynamically generate single-day layout as well
-[ ] Clicking session should take one to session (if on day page) or day tab (if on schedule tab)
+[x] Clicking session should take one to session (if on day page) or day tab (if on schedule tab)
+[ ] Fix mess on sun/mon on the overview tab
 [ ] Should highlight current time / current day
 [ ] Tooltips for "session-minimized" sessions (or really, all of them): include time start-end, name
 [x] Standardize on event types
-[ ] Room names
+[x] Room names
 
 
 ## Styling

@@ -241,9 +241,18 @@
     },
     "a-vastchallenge-1010": {
         "authors": [
-            "MISSING"
+            "Shaocong Tan",
+            "Sihang Li",
+            "Shuai Chen",
+            "Jiacheng Yu",
+            "Chuanming Huang",
+            "Liang Tang",
+            "Qinghua Shang",
+            "Zixi Fu",
+            "Zhuo Zhang",
+            "Xiaoru Yuan"
         ],
-        "title": "MC1 Award Presentation 1",
+        "title": "RelationVis: Visual Analytics of Multifaceted Relationships between Different Entities in Text Collections (Award for Effective Design of Interactive Analytics)",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -257,9 +266,13 @@
     },
     "a-vastchallenge-1001": {
         "authors": [
-            "MISSING"
+            "Shichao Jia",
+            "Nuo Chen",
+            "Chen Li",
+            "Yi Zhang",
+            "Jiawan Zhang"
         ],
-        "title": "MC1 Award Presentation 2",
+        "title": "Visual Analytics of Media Bias (Award for Effective Combination of Analytics and Visualizations",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -273,9 +286,18 @@
     },
     "a-vastchallenge-1012": {
         "authors": [
-            "MISSING"
+            "Junting Gao",
+            "Siqi Shen",
+            "Xingui Lai",
+            "QingHong Wang",
+            "Jiaqi Dong",
+            "Ziyue Lin",
+            "Lei Peng",
+            "Yijie Hou",
+            "Yuheng Zhao",
+            "Siming Chen"
         ],
-        "title": "MC2 Award Presentation 1",
+        "title": "An Interactive Visualization System for Spatio-temporal Situation Awareness with Multi-data Fusion (Award for Outstanding Comprehensive MC2 Submission)",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -289,9 +311,12 @@
     },
     "a-vastchallenge-1008": {
         "authors": [
-            "MISSING"
+            "Dani\u00ebl M. Bot",
+            "Jannes Peeters",
+            "Danai Kafetzaki",
+            "Jan Aerts"
         ],
-        "title": "MC2 Award Presentation 2",
+        "title": "Awareness with Multi-data Fusion (Award for Outstanding Comprehensive MC2 Submission)",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -305,9 +330,12 @@
     },
     "a-vastchallenge-1011": {
         "authors": [
-            "MISSING"
+            "Zeyu Li",
+            "Teng Wang",
+            "RuiZhi Shi Zhaohui Li",
+            "Jiawan Zhang"
         ],
-        "title": "MC3 Award Presentation 1",
+        "title": "Mining and Understanding Stories in Text Sequences with Narrative Visualization (Award for Innovative Narrative Visualization and Analysis Methodology)",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -321,9 +349,18 @@
     },
     "a-vastchallenge-1019": {
         "authors": [
-            "MISSING"
+            "Lei Peng",
+            "Yuheng Zhao",
+            "Yijie Hou",
+            "Qinghong Wang",
+            "Siqi Shen",
+            "Xingui Lai",
+            "Junting Gao",
+            "Jiaqi Dong",
+            "Ziyue Lin",
+            "Siming Chen"
         ],
-        "title": "MC3 Award Presentation 2",
+        "title": "Mixed-Initiative Visual Exploration of Social Media Text and Events (Award for Strong Human-in-the-Loop Analysis Methodology)",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -337,9 +374,16 @@
     },
     "a-vastchallenge-1015": {
         "authors": [
-            "MISSING"
+            "Chen Guo",
+            "Zuotian Li",
+            "Pengyu Ren",
+            "Regan O'Connor",
+            "Rachael Cai Cai",
+            "Justine Xue",
+            "Zhenyu Cheryl Qian",
+            "Yingjie Victor Chen"
         ],
-        "title": "MC3 HM Presentation",
+        "title": "CloudAnnotator: Clustering and Annotating Streaming Text Data (Honorable Mention for Effective Visual Design and for Academic Outreach)",
         "session_id": "a-vastchallenge",
         "abstract": null,
         "keywords": [],
@@ -4807,7 +4851,7 @@
             "Emily Fuhrman"
         ],
         "title": "Side-view States ",
-        "session_id": "a-visap-visap1",
+        "session_id": "a-visap-visap2",
         "abstract": null,
         "keywords": [],
         "uid": "a-visap-1063",

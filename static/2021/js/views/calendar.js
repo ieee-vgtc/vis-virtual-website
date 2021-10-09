@@ -259,7 +259,7 @@ function populateRooms(calendarSelection, roomNames, day) {
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
   switch (day) {
     case "Tuesday":
-      roomData = roomData.slice(0, 2);
+      roomData = roomData.slice(0, 5);
       break;
     case "Thursday":
       roomData = roomData.slice(0, 7);
