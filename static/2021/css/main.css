@@ -44,6 +44,10 @@ code {
   color: var(--text-accent-color) !important;
 }
 
+.navbar .navbar-brand img {
+  height: 55px;
+}
+
 .navbar-nav li {
   margin: 0 3px;
 }
@@ -54,6 +58,15 @@ code {
 
 .nav-item {
   font-family: "Zilla Slab", serif;
+  text-shadow: 0 0 5px rgba(255, 255 , 255, 0.7);
+}
+
+.nav-item.active {
+  border-bottom: 2px solid var(--vis2021-green) !important;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid var(--vis2021-yellow) !important;
 }
 
 .cal-nav {
