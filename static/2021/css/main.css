@@ -244,7 +244,8 @@ h3 {
   object-fit: cover;
 }
 
-.container {
+/* navbar should not take up 25 extra pixels... */
+:not(.navbar) > .container {
   margin-top: 25px;
 }
 
@@ -506,7 +507,9 @@ hr::after {
 /* faq page styling */
 
 #tab-faq .card-header,
-#tab-faq .card-body
+#tab-faq .card-body,
+#tab-gather .card-header,
+#tab-gather .card-body
 {
   font-family: "Fira Sans", sans-serif;
 }

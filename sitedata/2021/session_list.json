@@ -136,9 +136,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
+                    "Danny T.Y. Wu",
                     "J\u00fcrgen Bernard",
-                    "Annie T. Chen",
-                    "Danny T.Y. Wu"
+                    "Annie T. Chen"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -356,9 +356,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
+                    "Danny T.Y. Wu",
                     "J\u00fcrgen Bernard",
-                    "Annie T. Chen",
-                    "Danny T.Y. Wu"
+                    "Annie T. Chen"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -558,9 +558,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Mark-Jan Bludau",
                     "Bridget Moynihan",
-                    "Eric Alexander"
+                    "Eric Alexander",
+                    "Mark-Jan Bludau"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -656,10 +656,10 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Houda Lamqaddamm",
                     "Stefania Forlini",
-                    "Chris Weaver",
-                    "Florian Windhager"
+                    "Houda Lamqaddamm",
+                    "Florian Windhager",
+                    "Chris Weaver"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -1765,10 +1765,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
+                    "Paul Rosen",
                     "Michael Correll",
                     "Jane Adams",
-                    "Charles Perin",
-                    "Paul Rosen"
+                    "Charles Perin"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2022,11 +2022,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Eun Kyoung Choe",
+                    "Sheelagh Carpendale",
                     "Melanie Tory",
                     "Bongshin Lee",
-                    "Lyn Bartram",
-                    "Sheelagh Carpendale"
+                    "Eun Kyoung Choe",
+                    "Lyn Bartram"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2160,7 +2160,13 @@
                 "session_id": "w-viscomm",
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
-                "chair": [],
+                "chair": [
+                    "Barbara Millet",
+                    "Jon Schwabish",
+                    "Alvitta Ottley",
+                    "Jonathan Schwabish",
+                    "Adriana Arcia"
+                ],
                 "organizers": [
                     "Barbara Millet",
                     "Jonathan Schwabish",
@@ -2179,19 +2185,140 @@
                 "ff_playlist": "",
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": null,
-                        "contributors": "",
+                        "type": "live",
+                        "title": "Welcom",
+                        "contributors": [
+                            "Barbara Millet"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-24T17:00:00Z",
+                        "time_end": "2021-10-24T17:05:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Building Bridges between Research and Practice: A Conversation with Jen Christiansen and Steve Franconeri followed by Q&A with attendees",
+                        "contributors": [
+                            "Jen Christiansen",
+                            "Steve Franconeri"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T17:05:00Z",
+                        "time_end": "2021-10-24T18:05:00Z"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Unfolding the Decision-Making Dynamics of News Visualization Production in China",
+                        "contributors": [
+                            "Qian Ma"
+                        ],
+                        "abstract": "News visualization is a journalistic form that centers on delivering information through data visualizations. It is arousing the interest of journalism professionals and scholars worldwide, including those in non-western societies. Limited studies have identified the challenges and opportunities of news visualization's adoption in non-western newsrooms, but the professionals' considerations and actions to deal with these challenges and seize the opportunities are unknown. This study explores the criteria for a valuable news visualization and how professionals balance the criteria and constraints to make news decisions in the newsrooms in China. A grounded analysis drawing on 15 in-depth interviews with professionals reveals the dynamics of source selection, interpretation, and presentation in news visualization production. It also shows that news visualization stories result from the debating and tradeoffs between the \"western norms\" and the organization's expectations, audiences' preferences, news commercialization, and macro environment in China.",
+                        "time_start": "2021-10-24T18:05:00Z",
+                        "time_end": "2021-10-24T18:20:00Z",
+                        "uid": "w-viscomm-1015"
+                    },
+                    {
+                        "type": "live",
+                        "title": "A Design Space for Visualization Onboarding in Data-Driven Stories",
+                        "contributors": [
+                            "Thomas Hurtut"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T18:20:00Z",
+                        "time_end": "2021-10-24T18:27:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Session Closing",
+                        "contributors": [
+                            "Barbara Millet"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T18:27:00Z",
                         "time_end": "2021-10-24T18:30:00Z"
                     },
                     {
-                        "type": null,
-                        "title": null,
-                        "contributors": "",
+                        "type": "live",
+                        "title": "Intro and Announcements",
+                        "contributors": [
+                            "Barbara Millet"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-24T19:00:00Z",
+                        "time_end": "2021-10-24T19:05:00Z"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Know Your Audience: Comprehension of Health Information Varies by Visual Format",
+                        "contributors": [
+                            "Sabrina Mangal"
+                        ],
+                        "abstract": "Patient-reported outcomes provide key information about a patient\u2019s health status and are increasingly being integrated into electronic health records as a means of engaging patients in their own care. However, there is a lack of research on how to effectively return this information in a clear and comprehensible way to a wide audience. We conducted a national survey, testing various formats of health information visualizations, and found that overall comprehension is high across all formats, particularly among line graphs, with variations based on literacy and numeracy. This study reinforces the importance of testing various formats among target populations when returning key health information to patients.",
+                        "time_start": "2021-10-24T19:05:00Z",
+                        "time_end": "2021-10-24T19:20:00Z",
+                        "uid": "w-viscomm-1008"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Paper Maps: Improving the Readability of Scientific Papers via Concept Maps",
+                        "contributors": [
+                            "Lorenzo Amabili"
+                        ],
+                        "abstract": "Given the wealth of scientific publications, perusing papers is becoming a larger and more complex burden, especially for junior researchers. In this work, we suggest a visualization-based method to mitigate this problem via the use of paper maps, i.e., concept maps for the summarization of scientific papers. We provide design principles of paper maps and discuss design considerations based on exploratory design studies. We also conducted an initial evaluation for assessing the effectiveness of paper maps in summarizing scientific papers, suggesting that paper maps can improve the readability of scientific papers.",
+                        "time_start": "2021-10-24T19:20:00Z",
+                        "time_end": "2021-10-24T19:35:00Z",
+                        "uid": "w-viscomm-1005"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Aesthetics for Communicative Visualization: A Brief Review",
+                        "contributors": [
+                            "Benjamin Watson"
+                        ],
+                        "abstract": "We present a brief and somewhat selective review of research on the applied value of aesthetics for communicative visualization. Because aesthetics research in the field of visualization is relatively new, we survey aesthetics research in closely related fields, including psychology, graphic design, and marketing. Because of space limitations, we constrain our discussion of marketing research and omit any examination of related work from human-computer interaction researchers. We conclude with implications for communicative visualization practitioners and researchers, discussing the value of aesthetics and how to achieve it, as well as the need for research on longer-term aesthetic impacts on viewers.",
+                        "time_start": "2021-10-24T19:35:00Z",
+                        "time_end": "2021-10-24T19:50:00Z",
+                        "uid": "w-viscomm-1013"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Visualizing Student Behavior and Performance in an Online Course",
+                        "contributors": [
+                            "Michael J. Parker"
+                        ],
+                        "abstract": "Online learning has been an area of tremendous growth in recent years [1], further accelerated by necessity during the coronavirus pandemic [2]. Without the feedback provided by synchronous sessions, however, instructors may lack ongoing insight into students\u2019 progress and performance in fully asynchronous online offerings. Providing greater visibility into students\u2019 online learning behavior has several potential benefits: 1) teachers who seek to provide live sessions that depend on knowledge from asynchronous resources will have a better gauge of students\u2019 preparation; 2) enhanced understanding of the relationship between student pacing and performance can help teachers and researchers characterize the impact of timely engagement with online course material; 3) providing a means of monitoring the effect of changes in course structure or incentives may guide course designers/planners in continuous improvement; and 4) visualizations that illustrate the relationship between students\u2019 course progress and performance have the promise of allowing teachers to take steps early to positively affect students\u2019 outcomes. In this visual case study, visualizations are provided for exploration of the relationship between student progress and performance in an online medicine-related course.",
+                        "time_start": "2021-10-24T19:50:00Z",
+                        "time_end": "2021-10-24T20:00:00Z",
+                        "uid": "w-viscomm-1010"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Anatomy of a Data Visualization Style Guide",
+                        "contributors": [
+                            "Maxene Graze"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T20:00:00Z",
+                        "time_end": "2021-10-24T20:07:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Visualizing Uncertainty Due to Missing Data",
+                        "contributors": [
+                            "Hanne Ida Oberman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T20:07:00Z",
+                        "time_end": "2021-10-24T20:14:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "General discussion and closing",
+                        "contributors": [
+                            "VisComm Committee",
+                            "Barbara Millet"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T20:14:00Z",
                         "time_end": "2021-10-24T20:30:00Z"
                     }
                 ]
@@ -2417,9 +2544,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
+                    "Johanna Beyer",
                     "Kristi Potter",
-                    "Chaoli Wang",
-                    "Johanna Beyer"
+                    "Chaoli Wang"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -2917,10 +3044,10 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Christie Nothelfer",
                     "Madison Elliott",
-                    "Danielle Szafir",
-                    "Cindy Xiong"
+                    "Cindy Xiong",
+                    "Christie Nothelfer",
+                    "Danielle Szafir"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3119,8 +3246,8 @@
                     "Evan Peck",
                     "Leilani Battle",
                     "Michael Correll",
-                    "Michelle Borkin",
-                    "Lane Harrison"
+                    "Lane Harrison",
+                    "Michelle Borkin"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3296,9 +3423,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Camilla Forsell",
                     "Matt Cooper",
-                    "Niklas R\u00f6nnberg"
+                    "Niklas R\u00f6nnberg",
+                    "Camilla Forsell"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -3509,10 +3636,10 @@
                 "schedule_image": "a-visxai.png",
                 "chair": [
                     "Fred Hohman",
-                    "VISxAI orga",
                     "Menna El-Assady",
-                    "Hendrik Strobelt",
-                    "Adam Perer"
+                    "VISxAI orga",
+                    "Adam Perer",
+                    "Hendrik Strobelt"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -3643,14 +3770,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Wolfgang Aigner",
-                    "Robert H\u00f6ldrich",
-                    "Michael Iber",
-                    "Niklas R\u00f6nnberg",
-                    "Niklas Elmqvist",
                     "Kajetan Enge",
+                    "Robert H\u00f6ldrich",
                     "Bruce N. Walker",
-                    "Alexander Rind"
+                    "Niklas R\u00f6nnberg",
+                    "Wolfgang Aigner",
+                    "Alexander Rind",
+                    "Niklas Elmqvist",
+                    "Michael Iber"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -3787,9 +3914,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
+                    "Bongshin Lee",
                     "Petra Isenberg",
-                    "Anastasia Bezerianos",
-                    "Bongshin Lee"
+                    "Anastasia Bezerianos"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -3971,11 +4098,11 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Catherine Plaisant",
-                    "Daniel Weiskopf",
                     "Terry Yoo",
-                    "Brian Summa",
                     "Tamara Munzner",
+                    "Brian Summa",
+                    "Daniel Weiskopf",
+                    "Catherine Plaisant",
                     "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
@@ -4040,8 +4167,8 @@
                 "schedule_image": "v-full-full1.png",
                 "chair": [
                     "Silvia Miksch",
-                    "Anders Ynnerman",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Anders Ynnerman"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -7198,8 +7325,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7507,8 +7634,8 @@
                 "track": "room6",
                 "schedule_image": "a-visap-visap2.png",
                 "chair": [
-                    "Yoon Chung Han",
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Yoon Chung Han"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-28T17:00:00Z",
@@ -9358,8 +9485,8 @@
                 "track": "room4",
                 "schedule_image": "v-cga-cga3.png",
                 "chair": [
-                    "Klaus Mueller",
-                    "Jian Chen"
+                    "Jian Chen",
+                    "Klaus Mueller"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
@@ -9456,11 +9583,11 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Earl Lawrence",
                     "Subhashis Hazarika",
                     "Steven Morley",
                     "Natalie Klein",
                     "Ayan Biswas",
+                    "Earl Lawrence",
                     "Divya Banesh"
                 ],
                 "organizers": [
@@ -9505,13 +9632,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Katja B\u00fchler",
-                    "Wouter van Elmpt",
-                    "Uulke van der Heide",
-                    "Ludvig P. Muren",
-                    "Vitali Moiseenko",
                     "Noeska Smit",
-                    "Renata G. Raidou"
+                    "Renata G. Raidou",
+                    "Vitali Moiseenko",
+                    "Wouter van Elmpt",
+                    "Katja B\u00fchler",
+                    "Uulke van der Heide",
+                    "Ludvig P. Muren"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -9558,9 +9685,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Mark SubbaRao",
                     "Anders Ynnerman",
-                    "Alexander Bock"
+                    "Alexander Bock",
+                    "Mark SubbaRao"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -9598,9 +9725,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
+                    "Petra Gospodnetic",
                     "Christina Gillmann",
-                    "Karsten Rink",
-                    "Petra Gospodnetic"
+                    "Karsten Rink"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -9774,8 +9901,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Thomas Theu\u00dfl",
-                    "Alex Razoumov"
+                    "Alex Razoumov",
+                    "Thomas Theu\u00dfl"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10085,8 +10212,8 @@
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",

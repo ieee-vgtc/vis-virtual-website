@@ -478,6 +478,95 @@
         "external_paper_link": "",
         "ff_link": ""
     },
+    "w-viscomm-1015": {
+        "authors": [
+            "Qian Ma"
+        ],
+        "title": "Unfolding the Decision-Making Dynamics of News Visualization Production in China",
+        "session_id": "w-viscomm",
+        "abstract": "News visualization is a journalistic form that centers on delivering information through data visualizations. It is arousing the interest of journalism professionals and scholars worldwide, including those in non-western societies. Limited studies have identified the challenges and opportunities of news visualization's adoption in non-western newsrooms, but the professionals' considerations and actions to deal with these challenges and seize the opportunities are unknown. This study explores the criteria for a valuable news visualization and how professionals balance the criteria and constraints to make news decisions in the newsrooms in China. A grounded analysis drawing on 15 in-depth interviews with professionals reveals the dynamics of source selection, interpretation, and presentation in news visualization production. It also shows that news visualization stories result from the debating and tradeoffs between the \"western norms\" and the organization's expectations, audiences' preferences, news commercialization, and macro environment in China.",
+        "keywords": [],
+        "uid": "w-viscomm-1015",
+        "time_stamp": "2021-10-24T18:05:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": ""
+    },
+    "w-viscomm-1008": {
+        "authors": [
+            "Sabrina Mangal",
+            "Meghan Reading",
+            "Leslie Park",
+            "Yujie Hai",
+            "Annie C Myers",
+            "Lydia S Dugdale",
+            "Parag Goyal",
+            "Lisa V. Grossman Liu"
+        ],
+        "title": "Know Your Audience: Comprehension of Health Information Varies by Visual Format",
+        "session_id": "w-viscomm",
+        "abstract": "Patient-reported outcomes provide key information about a patient\u2019s health status and are increasingly being integrated into electronic health records as a means of engaging patients in their own care. However, there is a lack of research on how to effectively return this information in a clear and comprehensible way to a wide audience. We conducted a national survey, testing various formats of health information visualizations, and found that overall comprehension is high across all formats, particularly among line graphs, with variations based on literacy and numeracy. This study reinforces the importance of testing various formats among target populations when returning key health information to patients.",
+        "keywords": [],
+        "uid": "w-viscomm-1008",
+        "time_stamp": "2021-10-24T19:05:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": ""
+    },
+    "w-viscomm-1005": {
+        "authors": [
+            "Lorenzo Amabili",
+            "Nicole Sultanum"
+        ],
+        "title": "Paper Maps: Improving the Readability of Scientific Papers via Concept Maps",
+        "session_id": "w-viscomm",
+        "abstract": "Given the wealth of scientific publications, perusing papers is becoming a larger and more complex burden, especially for junior researchers. In this work, we suggest a visualization-based method to mitigate this problem via the use of paper maps, i.e., concept maps for the summarization of scientific papers. We provide design principles of paper maps and discuss design considerations based on exploratory design studies. We also conducted an initial evaluation for assessing the effectiveness of paper maps in summarizing scientific papers, suggesting that paper maps can improve the readability of scientific papers.",
+        "keywords": [],
+        "uid": "w-viscomm-1005",
+        "time_stamp": "2021-10-24T19:20:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "The image shows the title of the work, and a paper map for this publication -- i.e. a visual representations for knowledge composed of nodes and links to summarize an academic paper. The paper map has 8 nodes, and the links compose the following stories. \"This work\"  investigates the use of \"visualization\" and is about \"Research communication\". This work also suggests \"design principles\" for creating \"paper maps\", which include \"concept maps\" and can be used for \"presenting, schematizing, summarizing\" \"scientific papers\".",
+        "external_paper_link": "",
+        "ff_link": ""
+    },
+    "w-viscomm-1013": {
+        "authors": [
+            "Maryam Riahi",
+            "Benjamin Watson"
+        ],
+        "title": "Aesthetics for Communicative Visualization: A Brief Review",
+        "session_id": "w-viscomm",
+        "abstract": "We present a brief and somewhat selective review of research on the applied value of aesthetics for communicative visualization. Because aesthetics research in the field of visualization is relatively new, we survey aesthetics research in closely related fields, including psychology, graphic design, and marketing. Because of space limitations, we constrain our discussion of marketing research and omit any examination of related work from human-computer interaction researchers. We conclude with implications for communicative visualization practitioners and researchers, discussing the value of aesthetics and how to achieve it, as well as the need for research on longer-term aesthetic impacts on viewers.",
+        "keywords": [],
+        "uid": "w-viscomm-1013",
+        "time_stamp": "2021-10-24T19:35:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": ""
+    },
+    "w-viscomm-1010": {
+        "authors": [
+            "Michael J Parker"
+        ],
+        "title": "Visualizing Student Behavior and Performance in an Online Course",
+        "session_id": "w-viscomm",
+        "abstract": "Online learning has been an area of tremendous growth in recent years [1], further accelerated by necessity during the coronavirus pandemic [2]. Without the feedback provided by synchronous sessions, however, instructors may lack ongoing insight into students\u2019 progress and performance in fully asynchronous online offerings. Providing greater visibility into students\u2019 online learning behavior has several potential benefits: 1) teachers who seek to provide live sessions that depend on knowledge from asynchronous resources will have a better gauge of students\u2019 preparation; 2) enhanced understanding of the relationship between student pacing and performance can help teachers and researchers characterize the impact of timely engagement with online course material; 3) providing a means of monitoring the effect of changes in course structure or incentives may guide course designers/planners in continuous improvement; and 4) visualizations that illustrate the relationship between students\u2019 course progress and performance have the promise of allowing teachers to take steps early to positively affect students\u2019 outcomes. In this visual case study, visualizations are provided for exploration of the relationship between student progress and performance in an online medicine-related course.",
+        "keywords": [],
+        "uid": "w-viscomm-1010",
+        "time_stamp": "2021-10-24T19:50:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "ff_link": ""
+    },
     "a-vis4dh-1016": {
         "authors": [
             "Anessa Petteruti",

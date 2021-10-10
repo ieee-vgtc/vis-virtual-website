@@ -6,6 +6,7 @@
 {{ components.tabs([
   ("faq", "FAQ", "active"),
   ("discord", "Discord Help", ""),
+  ("gather", "Gather.town Help", ""),
 ]) }}
 {% endblock %}
 
@@ -33,6 +34,16 @@
         {{ discord | markdown }}
       </div>
     </div>
+  </div>
+
+  <div
+    class="tab-pane"
+    id="tab-gather"
+    role="tabpanel"
+    aria-labelledby="nav-profile-tab"
+  >
+    {{ components.section("Gather.town Help") }}
+    {{ components.faqgroup(gather) }}
   </div>
 </div>
 
