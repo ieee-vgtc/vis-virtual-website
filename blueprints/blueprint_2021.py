@@ -195,6 +195,7 @@ def about():
     data = _data()
     data["discord"] = open("sitedata/{}/discord_guide.md".format(year)).read()
     data["FAQ"] = site_data["faq"]["FAQ"]
+    data["gather"] = site_data["faq"]["gather"]
     return render_template("{}/help.html".format(year), **data)
 
 

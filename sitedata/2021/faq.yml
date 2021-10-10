@@ -46,3 +46,10 @@ FAQ:
           Please make your request in #support on Discord.  We will make an effort based on our ability to respond to your request.
 
           We may be unable to make changes to your title, author list, or abstract as these come from official IEEE sources. If there is an error, please immediately contact your paper chair to ensure the error does not propagate to IEEE's official version.
+
+gather:
+  - Section: Example section 1
+    QA:
+    - Question: What is gather.town?
+      Answer: |-
+        Example answer
