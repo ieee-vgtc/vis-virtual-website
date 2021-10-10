@@ -109,9 +109,9 @@ body {
   background-color: var(--main-bg-color); /* rgba(236, 241, 246, 1); */
 }
 
-/* .container a:hover {
-  text-decoration: none;
-} */
+.jumbotron {
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
 
 h2.jumbotron-h {
   font-family: "Zilla Slab SemiBold", sans-serif;
