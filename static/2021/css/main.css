@@ -59,6 +59,7 @@ code {
 .nav-item {
   font-family: "Zilla Slab", serif;
   text-shadow: 0 0 5px rgba(255, 255 , 255, 0.7);
+  border-bottom: 2px solid transparent;
 }
 
 .nav-item.active {
