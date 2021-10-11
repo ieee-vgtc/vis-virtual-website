@@ -211,7 +211,7 @@ $(document).ready(function() {
     // $('#test-modal-fullscreen').click((x) => { alert("whats up"); $('iframe.streaming').addClass("streaming-fullscreen")})
     // $('#test-modal-leave-fullscreen').click((x) => { alert("clearing full screen"); exitFullScreenHandler()})
     // $('#test-modal-leave-fullscreen').click((x) => { alert("clearing full screen");})
-    $('#test-modal-leave-fullscreen').click((x) => { document.exitFullscreen()})
+    $('#test-modal-leave-fullscreen').click((x) => { exitFullScreen()})
 
     document.addEventListener('fullscreenchange', exitFullScreenHandler);
     document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
@@ -231,6 +231,20 @@ function requestFullScreen(element) {
         if (wscript !== null) {
             wscript.SendKeys("{F11}");
         }
+    }
+}
+
+function exitFullScreen() {
+    // Supports most browsers and their versions.
+    if(document.exitFullscreen) {
+        document.exitFullscreen();
+    }
+    else if(document.webkitCancelFullscreen) {
+        document.webkitCancelFullscreen();
+    }
+
+    else if(document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
     }
 }
 
