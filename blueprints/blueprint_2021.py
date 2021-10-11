@@ -34,7 +34,7 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["paper_list", "speakers", "workshops", "session_list"]:
+    for typ in ["paper_list", "speakers", "workshops", "session_list", "poster_list"]:
         by_uid[typ] = {}
 
         if typ == "session_list":
@@ -60,7 +60,7 @@ def main(site_data_path):
 
                     by_uid["sessions"][timeslot["session_id"]] = fq_timeslot
 
-        elif typ == "paper_list":
+        elif typ == "paper_list" or typ == "poster_list":
             for paper_id, p in site_data[typ].items():
                 by_uid[typ][paper_id] = p
 
@@ -195,6 +195,7 @@ def about():
     data = _data()
     data["discord"] = open("sitedata/{}/discord_guide.md".format(year)).read()
     data["FAQ"] = site_data["faq"]["FAQ"]
+    data["gather"] = site_data["faq"]["gather"]
     return render_template("{}/help.html".format(year), **data)
 
 
@@ -204,6 +205,11 @@ def papers():
     # data["papers"] = site_data["papers"]
     return render_template("{}/papers.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/posters.html".format(year))
+def posters():
+    data = _data()
+    # data["posters"] = site_data["posters"]
+    return render_template("{}/posters.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/paper_vis.html".format(year))
 def paper_vis():
@@ -282,6 +288,23 @@ def format_paper(v):
         # for papers.html:
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
+    }
+
+def format_poster(v):
+    list_keys = ["authors"]
+    list_fields = {}
+    for key in list_keys:
+        list_fields[key] = extract_list_field(v, key)
+
+    return {
+        "id": v["uid"],
+        "authors": list_fields["authors"],
+        "title": v["title"],
+        "discord_channel": v["discord_channel"],
+        "session_title": v["event"],
+        "sessions": [v["event"]],
+        "poster_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + ".pdf",
+        "has_image": v["has_image"],
     }
 
 
@@ -394,6 +417,14 @@ def paper(paper):
     data["paper"] = format_paper(v)
     return render_template("{}/paper.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/poster_<poster>.html".format(year))
+def poster(poster):
+    uid = poster
+    v = by_uid["poster_list"][uid]
+    data = _data()
+    data["requires_auth"] = True
+    data["poster"] = format_poster(v)
+    return render_template("{}/poster.html".format(year), **data)
 
 # ALPER TODO: get keynote info
 @year_blueprint.route("/year/{}/speaker_<speaker>.html".format(year))
@@ -490,13 +521,6 @@ def event(event):
     return render_template("{}/event.html".format(year), **data)
 
 
-# ALPER TODO: there should be a single poster page; redirect to iPosters
-@year_blueprint.route("/year/{}/posters.html".format(year))
-def posters():
-    data = _data()
-    data["requires_auth"] = True
-    return render_template("{}/posters.html".format(year), **data)
-
 ## Internal only; used to generate markdown-like list for main website paper list
 @year_blueprint.route("/year/{}/paperlist.html".format(year))
 def allpapers():
@@ -532,6 +556,13 @@ def paper_json():
     json = []
     for v in site_data["paper_list"].items():
         json.append(format_paper(v[1]))
+    return jsonify(json)
+
+@year_blueprint.route("/year/{}/posters.json".format(year))
+def poster_json():
+    json = []
+    for v in site_data["poster_list"].items():
+        json.append(format_poster(v[1]))
     return jsonify(json)
 
 

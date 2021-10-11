@@ -22,6 +22,13 @@ class API {
     return API.paperCache;
   }
 
+  static getPosters() {
+    if (API.posterCache == null) {
+      API.posterCache = $.get("posters.json");
+    }
+    return API.posterCache;
+  }
+
   static getPapersAndProjection() {
     return Promise.all([
       API.getPapers(),
@@ -67,23 +74,32 @@ class API {
 
   /**
    * Link to thumbnails derived from paper object
-   * @param paper
+   * @param paperOrPoster
    * @return {string}
    */
-  static thumbnailPath(paper) {
-    if (!paper.has_image)
+  static thumbnailPath(paperOrPoster) {
+    if (!paperOrPoster.has_image)
       return "https://ieeevis.b-cdn.net/vis_2021/paper_images_small/blank.png";
 
-    return `https://ieeevis.b-cdn.net/vis_2021/paper_images_small/${paper.id}.png`;
+    return `https://ieeevis.b-cdn.net/vis_2021/paper_images_small/${paperOrPoster.id}.png`;
   }
 
   /**
-   * Link to poster detail derived from paper object
+   * Link to paper detail derived from paper object
    * @param paper
    * @return {string}
    */
-  static posterLink(paper) {
+  static paperLink(paper) {
     return `paper_${paper.id}.html`;
+  }
+
+  /**
+   * Link to poster detail derived from poster object
+   * @param poster
+   * @return {string}
+   */
+   static posterLink(poster) {
+    return `poster_${poster.id}.html`;
   }
 
   /**
@@ -99,6 +115,7 @@ class API {
 
 API.configCache = null;
 API.paperCache = null;
+API.posterCache = null;
 API._storeCaches = {};
 API.storeIDs = {
   visited: "visited",

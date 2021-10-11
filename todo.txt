@@ -25,11 +25,21 @@
 ## Calendar
 [x] Dynamic loading from session data
 [x] Dynamically generate single-day layout as well
-[ ] Clicking session should take one to session (if on day page) or day tab (if on schedule tab)
+[x] Clicking session should take one to session (if on day page) or day tab (if on schedule tab)
+[x] Fix mess on sun/mon on the overview tab
 [ ] Should highlight current time / current day
 [ ] Tooltips for "session-minimized" sessions (or really, all of them): include time start-end, name
 [x] Standardize on event types
-[ ] Room names
+[x] Room names
+
+
+## FOR RELEASE
+[x] Mark papers with "honorable" or "best" under the award field in paper_list.json
+[ ] Add auth0 and enable registration import script
+[x] Add poster index page (like papers.html) and poster pages (like paper_<id>.html)
+[ ] Figure out why bookmarking is not working (bookmarked papers/posters don't "stick", all posters appear "highlighted")
+[x] Fix calendar weirdness
+[ ] Add "room" pages
 
 
 ## Styling

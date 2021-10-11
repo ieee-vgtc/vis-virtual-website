@@ -89,29 +89,28 @@
         {% endfor %}
     </div>
 
-    <h3 class="mt-5">Academy Inductees</h3>
-    <div class="row">
-        {% for award in awards_academy %}
-            <div class="col-sm-6 col-md-3 p-1">
-                <div class="award-card pp-card-no-bottom p-2"
-                     style="
-                     border-top: 5pt solid darkgoldenrod;
-                     border-bottom: 1pt solid darkgoldenrod;
-                         background-color: #fff;"
-                        {#                 data-session-type="{{ event.type }}"#}
-                >
-                    <span class="session-type"
-                          style="color: darkgoldenrod;">VIS Academy</span>
-                    <div class="award-title text-center">
-                        {{ award.award }}
-                    </div>
-                    <div class="award-name text-center p-3">
-                        {{ award.name }}
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+    {# <h3 class="mt-5">Academy Inductees</h3> #}
+    {# <div class="row"> #}
+    {#     {% for award in awards_academy %} #}
+    {#         <div class="col-sm-6 col-md-3 p-1"> #}
+    {#             <div class="award-card pp-card-no-bottom p-2"
+    {#                  style="
+    {#                  border-top: 5pt solid darkgoldenrod;
+    {#                  border-bottom: 1pt solid darkgoldenrod;
+    {#                  background-color: #fff;"
+    {#             > #}
+    {#                 <span class="session-type" #}
+    {#                       style="color: darkgoldenrod;">VIS Academy</span> #}
+    {#                 <div class="award-title text-center"> #}
+    {#                     {{ award.award }} #}
+    {#                 </div> #}
+    {#                 <div class="award-name text-center p-3"> #}
+    {#                     {{ award.name }} #}
+    {#                 </div> #}
+    {#             </div> #}
+    {#         </div> #}
+    {#     {% endfor %} #}
+    {# </div> #}
 
 
 

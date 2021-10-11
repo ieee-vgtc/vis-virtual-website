@@ -82,7 +82,7 @@ function updateKey() {
     associated: "Associated Events / Symposium",
     workshop: "Workshop",
     application: "Application Spotlights",
-    panel: "Tutorial / Panel",
+    panel: "Tutorial / Panel / Meetup",
   };
 
   $.get('serve_config.json').then(config => {
@@ -137,7 +137,7 @@ function updateFullCalendar(day) {
   return $.when($.get('serve_config.json'), $.get(calendar_json))
     .done((config, events) => {
       if (day != null) {
-        populateRooms(calendar, config[0].room_names);
+        populateRooms(calendar, config[0].room_names, day);
         createDayCalendar(calendar, config[0], events[0]);
       } else
         createFullCalendar(calendar, config[0], events[0]);
@@ -160,7 +160,22 @@ function createFullCalendar(calendar, config, allEvents) {
       // fill in positioning based on first session (should be grouped already)
       const sessions = dayEvents.get(timeslotKey);
       const dayPosition = sessions[0].day + " / auto";
-      const timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
+      let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
+
+      // manually skip adding these groups to clean up Sunday/Monday
+      if (dayKey === "2021-10-24" || dayKey === "2021-10-25") {
+        if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
+          continue;
+        }
+
+        // force non-full day event
+        if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
+          timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
+      }
+      if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
+        if (timeslotKey === "20:00:00Z")
+          continue;
+      }
 
       const navigateToDay = (_ev, d) => {
         const day_num = d.day.split('-')[1];
@@ -215,7 +230,7 @@ function createDayCalendar(calendar, config, dayEvents) {
       .attr("class", "session")
       .attr('data-toggle', 'popover')
       .attr('data-content', d => d.title)
-      .style('grid-column', d => `room-${d.room}-start / auto`)
+      .style('grid-column', d => `${d.room}-start / auto`)
       .style('grid-row', d => `${d.timeStart} / ${d.timeEnd}`)
       .style('background-color', getColor)
       .style('color', getTextColor)
@@ -243,7 +258,7 @@ function populateDays(calendarSelection) {
         .text(d => d.text);
 }
 
-function populateRooms(calendarSelection, roomNames) {
+function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names
   let roomData = [
     roomNames.room1,
@@ -253,13 +268,27 @@ function populateRooms(calendarSelection, roomNames) {
     roomNames.room5,
     roomNames.room6,
     roomNames.room7,
+    roomNames.room8,
   ];
+
+  // truncate rooms added per-day (don't add unnecessary rooms we're not using)
+  switch (day) {
+    case "Tuesday":
+      roomData = roomData.slice(0, 5);
+      break;
+    case "Thursday":
+      roomData = roomData.slice(0, 7);
+      break;
+    case "Friday":
+      roomData = roomData.slice(0, 6);
+      break;
+  }
 
   populateHeader(calendarSelection, roomData);
 }
 
 function populateHeader(calendarSelection, data, isDay) {
-  let columnPosition = (_d, i) => `${(isDay ? 'day' : 'room')}-${i+1} / auto`;
+  let columnPosition = (_d, i) => `${(isDay ? 'day-' : 'room')}${(i+1)} / auto`;
 
   calendarSelection.selectAll(".day-slot")
     .data(data, d => d)

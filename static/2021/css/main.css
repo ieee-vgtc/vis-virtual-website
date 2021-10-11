@@ -44,6 +44,10 @@ code {
   color: var(--text-accent-color) !important;
 }
 
+.navbar .navbar-brand img {
+  height: 55px;
+}
+
 .navbar-nav li {
   margin: 0 3px;
 }
@@ -54,6 +58,16 @@ code {
 
 .nav-item {
   font-family: "Zilla Slab", serif;
+  text-shadow: 0 0 5px rgba(255, 255 , 255, 0.7);
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item.active {
+  border-bottom: 2px solid var(--vis2021-green) !important;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid var(--vis2021-yellow) !important;
 }
 
 .cal-nav {
@@ -95,9 +109,9 @@ body {
   background-color: var(--main-bg-color); /* rgba(236, 241, 246, 1); */
 }
 
-/* .container a:hover {
-  text-decoration: none;
-} */
+.jumbotron {
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
 
 h2.jumbotron-h {
   font-family: "Zilla Slab SemiBold", sans-serif;
@@ -244,7 +258,8 @@ h3 {
   object-fit: cover;
 }
 
-.container {
+/* navbar should not take up 25 extra pixels... */
+:not(.navbar) > .container {
   margin-top: 25px;
 }
 
@@ -506,7 +521,9 @@ hr::after {
 /* faq page styling */
 
 #tab-faq .card-header,
-#tab-faq .card-body
+#tab-faq .card-body,
+#tab-gather .card-header,
+#tab-gather .card-body
 {
   font-family: "Fira Sans", sans-serif;
 }
@@ -619,7 +636,7 @@ hr::after {
 
 .event-faceting,
 .legend-item {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.025em;
   font-size: 1rem;
   padding-bottom: 0.5rem;

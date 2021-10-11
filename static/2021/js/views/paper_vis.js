@@ -163,7 +163,7 @@ function brush_ended() {
 }
 
 const openPaper = d => {
-  window.open(API.posterLink(d), "_blank");
+  window.open(API.paperLink(d), "_blank");
   API.markSet(API.storeIDs.visited, d.UID, true).then();
 }
 
@@ -283,7 +283,7 @@ const tooltip_template = (d) => `
         <div class="tt-title">${d.title}</div>
         <p>${d.authors.join(", ")}</p>
         <img src="${API.thumbnailPath(d)}" width=100%/>
-     </div>   
+     </div>
 `;
 
 const start = () => {
