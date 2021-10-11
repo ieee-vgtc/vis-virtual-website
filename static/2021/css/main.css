@@ -56,17 +56,17 @@ code {
   margin: 0 2px;
 }
 
-.nav-item {
+.navbar .nav-item {
   font-family: "Zilla Slab", serif;
   text-shadow: 0 0 5px rgba(255, 255 , 255, 0.7);
   border-bottom: 2px solid transparent;
 }
 
-.nav-item.active {
+.navbar .nav-item.active {
   border-bottom: 2px solid var(--vis2021-green) !important;
 }
 
-.nav-item:hover {
+.navbar .nav-item:hover {
   border-bottom: 2px solid var(--vis2021-yellow) !important;
 }
 

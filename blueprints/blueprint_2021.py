@@ -547,6 +547,7 @@ def chat():
 @year_blueprint.route("/year/{}/redirect.html".format(year))
 def redirect():
     data = _data()
+    data["requires_auth"] = True
     return render_template("{}/redirect.html".format(year), **data)
 
 
