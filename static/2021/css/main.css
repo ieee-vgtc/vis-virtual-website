@@ -44,6 +44,10 @@ code {
   color: var(--text-accent-color) !important;
 }
 
+.navbar .navbar-brand img {
+  height: 55px;
+}
+
 .navbar-nav li {
   margin: 0 3px;
 }
@@ -52,8 +56,18 @@ code {
   margin: 0 2px;
 }
 
-.nav-item {
+.navbar .nav-item {
   font-family: "Zilla Slab", serif;
+  text-shadow: 0 0 5px rgba(255, 255 , 255, 0.7);
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .nav-item.active {
+  border-bottom: 2px solid var(--vis2021-green) !important;
+}
+
+.navbar .nav-item:hover {
+  border-bottom: 2px solid var(--vis2021-yellow) !important;
 }
 
 .cal-nav {
@@ -95,9 +109,9 @@ body {
   background-color: var(--main-bg-color); /* rgba(236, 241, 246, 1); */
 }
 
-/* .container a:hover {
-  text-decoration: none;
-} */
+.jumbotron {
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
 
 h2.jumbotron-h {
   font-family: "Zilla Slab SemiBold", sans-serif;
@@ -206,7 +220,9 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
 
-  overflow: scroll;
+  overflow: clip;
+
+  /* overflow-y: scroll; */
 }
 
 .pp-mode-mini .pp-card-header {
@@ -242,7 +258,8 @@ h3 {
   object-fit: cover;
 }
 
-.container {
+/* navbar should not take up 25 extra pixels... */
+:not(.navbar) > .container {
   margin-top: 25px;
 }
 
@@ -450,9 +467,9 @@ body .carousel-control-prev {
   transition-duration: 100ms;
 }
 
-#calendar {
+/* #calendar {
   font-family: "Fira Sans Condensed Light", sans-serif;
-}
+} */
 
 /* specific event colours are set in config.yml */
 .tui-full-calendar-time-schedule-content,
@@ -504,7 +521,9 @@ hr::after {
 /* faq page styling */
 
 #tab-faq .card-header,
-#tab-faq .card-body
+#tab-faq .card-body,
+#tab-gather .card-header,
+#tab-gather .card-body
 {
   font-family: "Fira Sans", sans-serif;
 }
@@ -617,7 +636,7 @@ hr::after {
 
 .event-faceting,
 .legend-item {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.025em;
   font-size: 1rem;
   padding-bottom: 0.5rem;
@@ -794,33 +813,66 @@ hr::after {
   position: fixed;
   top: 0;
   left: 0;
-  overflow:hidden; 
+  overflow:hidden;
   z-index:2000;
   background-color: var(--main-bg-color);
+}
+
+.fullscreen-link {
+  height: 0px;
+  top: 1em;
+  cursor: zoom-out;
 }
 
 #test-modal-leave-fullscreen {
   position: fixed;
   top: 0;
   right: 0;
-  padding: 20px;
-  font-size: 20px;
-  z-index: 100;
+  padding: 10px;
+  z-index: 10000;
 }
 
-p.streaming {
-  width: 85vw;
+#test-modal-fullscreen {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#test-modal-leave-fullscreen, #test-modal-fullscreen {
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  cursor: pointer;
+}
+
+
+#test-modal-leave-fullscreen:hover, #test-modal-fullscreen:hover {
+  opacity: 1.0;
+}
+
+.visible-floating {
+  display: inline-block;
+}
+
+.invisible-floating {
+  display: none;
+}
+
+.streaming {
+  width: 84vw;
   text-align: right;
   position: relative;
-  /*margin-left: -50vw;*/
+  left: 50%;
+  margin-left: -42vw;
 }
 
-iframe.streaming {
-  width: 85vw;
-  min-height: 85vh;
+.streaming-container {
+  margin: auto;
   position: relative;
-  left: 73%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+}
+
+.streaming > iframe {
+  min-height: 80vh;
+  width: 100%;
 }

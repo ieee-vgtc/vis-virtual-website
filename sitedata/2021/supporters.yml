@@ -1,8 +1,8 @@
-- category: Platinum
+- category: Diamond
   image_size: 200
   supporters:
    - name: "Intel"
-     image: intel_2020.png
+     image: intel.png
      url: "https://intel.com"
 
    - name: "Tableau"
@@ -15,6 +15,9 @@
    - name: "Autodesk"
      image: Autodesk_Logo.png
      url: "https://www.autodesk.com/research"
+   - name: "Microsoft"
+     image: microsoft.png
+     url: "https://www.microsoft.com/research"
 
 - category: Bronze
   supporters:
@@ -22,36 +25,34 @@
      image: kitware.png
      url: "https://www.kitware.com/"
 
-   - name: "Microsoft"
-     image: microsoft.png
-     url: "https://www.microsoft.com/research"
+   - name: "Fraunhofer IGD"
+     image: igd.png
+     url: "http://www.igd.fraunhofer.de/"
 
 
 
 - category: Pearl
+  image_size: 100
   supporters:
-   - name: "Harvard Medical School, Department of Biomedical Informatics"
-     image: DBMI.png
-     url: "http://dbmi.hms.harvard.edu/"
-
    - name: "SCI"
      image: sci.png
      url: "https://www.sci.utah.edu/"
 
 
 - category: Diversity/Inclusivity Scholarships
+  image_size: 80
   supporters:
-   - name: "Data Intensive Science"
-     image: data_intensive_science.jpg
-     url: "https://dataintensivescience.org/"
+   - name: "Harvard Medical School, Department of Biomedical Informatics"
+     image: DBMI.png
+     url: "http://dbmi.hms.harvard.edu/"
 
-   - name: "Data Machines Corp"
-     image: datamachines.png
-     url: "http://www.datamachines.io/"
+   # - name: "Data Machines Corp"
+   #   image: datamachines.png
+   #   url: "http://www.datamachines.io/"
 
-   - name: "Sophos"
-     image: sophos.png
-     url: "https://www.sophos.com/"
+   # - name: "Sophos"
+   #   image: sophos.png
+   #   url: "https://www.sophos.com/"
 
    - name: "TwoSix Labs"
      image: TwoSix_Labs.png
@@ -61,20 +62,16 @@
      image: uncharted.png
      url: "https://uncharted.software/"
 
-   - name: "ViSUS"
-     image: visus.png
-     url: "https://visus.org/"
+# - category: Technology
+#   supporters:
+#    - name: "Gravitas AI"
+#      image: Gravitas_AI.png
+#      url: "https://gravitas.ai/"
 
-- category: Technology
-  supporters:
-   - name: "Gravitas AI"
-     image: Gravitas_AI.png
-     url: "https://gravitas.ai/"
+#    - name: "IBM/MIT"
+#      image: ibm-mit.png
+#      url: "https://mitibmwatsonailab.mit.edu/"
 
-   - name: "IBM/MIT"
-     image: ibm-mit.png
-     url: "https://mitibmwatsonailab.mit.edu/"
-
-   - name: "SuperMiniStream"
-     image: superministream.png
-     url: "https://www.superministream.com/"
+#    - name: "SuperMiniStream"
+#      image: superministream.png
+#      url: "https://www.superministream.com/"

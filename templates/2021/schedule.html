@@ -34,266 +34,32 @@
             <!-- full cal for browser-->
             <!-- <div id="calendar" class="d-none d-sm-block"></div> -->
 
-            <div class="schedule">
+            <div class="schedule" id="calendar">
 
               <div class="tz" style="grid-column: times / day-2-end; grid-row: timezones;">
                 <span class="tz-title">Your timezone</span>
                 <div class="">
-                  <select id="tzOptions" class="selectpicker" data-live-search="true"></select>
+                  <select class="tzOptions selectpicker"></select>
                   <!-- <button type="button" id="saveTz" class="btn btn-light">
                     <span class="fas mr-1">&#xf0c7;</span>
                     Set
                   </button> -->
-                  <button type="button" id="resetTz" class="btn btn-light">
+                  <button type="button" class="resetTz btn btn-light">
                     <span class="fas mr-1">&#xf0e2;</span>
                     <!-- Reset -->
                   </button>
                 </div>
               </div>
-              <div class="tz tz-right" style="grid-column: day-4-end / timezone-end; grid-row: timezones;">
+              <div class="tz tz-right">
                 <span class="tz-title">Conference timezone</span>
                 <span class="tz-description">New Orleans (Chicago / United States)</span>
               </div>
 
-              <div class="day-slot" style="grid-column: day-1; grid-row: tracks"><h2>Sun, Oct 24</h2></div>
-              <div class="day-slot" style="grid-column: day-2; grid-row: tracks"><h2>Mon, Oct 25</h2></div>
-              <div class="day-slot" style="grid-column: day-3; grid-row: tracks"><h2>Tue, Oct 26</h2></div>
-              <div class="day-slot" style="grid-column: day-4; grid-row: tracks"><h2>Wed, Oct 27</h2></div>
-              <div class="day-slot" style="grid-column: day-5; grid-row: tracks"><h2>Thu, Oct 28</h2></div>
-              <div class="day-slot" style="grid-column: day-6; grid-row: tracks"><h2>Fri, Oct 29</h2></div>
-
-              <h2 class="time-slot converted-timezone" style="grid-row: time-0730" data-time="0730">5:30 AM</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-0800" data-time="0800">6:00</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-0930" data-time="0930">7:30</h2>
-              <!-- <h2 class="time-slot converted-timezone" style="grid-row: time-0945" data-time="0945">7:45</h2> -->
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1000" data-time="1000">8:00</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1130" data-time="1130">9:30</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1200" data-time="1200">10:00</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1330" data-time="1330">11:30</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1400" data-time="1400">12:00 PM</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1500" data-time="1500">1:00</h2>
-              <h2 class="time-slot converted-timezone" style="grid-row: time-1530" data-time="1530">1:30</h2>
-
-              <h2 class="time-slot" style="grid-row: time-0730">07:30</h2>
-              <h2 class="time-slot" style="grid-row: time-0800">08:00</h2>
-              <h2 class="time-slot" style="grid-row: time-0930">09:30</h2>
-              <!-- <h2 class="time-slot" style="grid-row: time-0945">9:45</h2> -->
-              <h2 class="time-slot" style="grid-row: time-1000">10:00</h2>
-              <h2 class="time-slot" style="grid-row: time-1130">11:30</h2>
-              <h2 class="time-slot" style="grid-row: time-1200">12:00 PM</h2>
-              <h2 class="time-slot" style="grid-row: time-1330">13:30</h2>
-              <h2 class="time-slot" style="grid-row: time-1400">14:00</h2>
-              <h2 class="time-slot" style="grid-row: time-1500">15:00</h2>
-              <h2 class="time-slot" style="grid-row: time-1530">15:30</h2>
-
-              <!-- day 1, sunday -->
-
-              <div class="session-group" style="grid-column: day-1; grid-row: time-0800 / time-0930">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-1; grid-row: time-1000 / time-1130">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-1; grid-row: time-1200 / time-1330">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-1; grid-row: time-1400 / time-1530">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <!-- day 2, monday -->
-
-              <div class="session-group" style="grid-column: day-2; grid-row: time-0800 / time-0930">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-2; grid-row: time-1000 / time-1130">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-2; grid-row: time-1200 / time-1330">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-2; grid-row: time-1400 / time-1530">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <!-- day 3, tuesday -->
-
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-0745 / time-0800;">VIS Welcome</div>
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-0800 / time-0845;">VGTC Awards</div>
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-0845 / time-0930;">TOT Awards</div>
-
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-1000 / time-1130;">Best Paper Session</div>
-
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-1200 / time-1300;">Keynote</div>
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-1300 / time-1315;">VIS Full Papers Opening</div>
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-1315 / time-1330;">VIS Short Papers Opening</div>
-
-              <div class="session session-exhibit" id="session-vis-welcome" style="grid-column: day-3; grid-row: time-1400 / time-1530;">VISAP Opening Event</div>
-
-              <!-- day 4, wednesday -->
-
-              <div class="session-group" style="grid-column: day-4; grid-row: time-0800 / time-0930">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-4; grid-row: time-1000 / time-1130">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-4; grid-row: time-1200 / time-1330">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-4; grid-row: time-1400 / time-1530">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <!-- day 5, thursday -->
-
-              <div class="session-group" style="grid-column: day-5; grid-row: time-0800 / time-0930">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-5; grid-row: time-1000 / time-1130">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-5; grid-row: time-1200 / time-1330">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session-group" style="grid-column: day-5; grid-row: time-1400 / time-1530">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <!-- day 6, friday -->
-
-              <div class="session-group" style="grid-column: day-6; grid-row: time-0800 / time-0930">
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-                  <div class="session session-minimal session-papers"></div>
-              </div>
-
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-6; grid-row: time-1200 / time-1300;">VIS Capstone</div>
-              <div class="session session-plenary" id="session-vis-welcome" style="grid-column: day-6; grid-row: time-1300 / time-1330;">VIS Closing</div>
+              <!-- session information to be filled in by javascript / schedule json  -->
           </div>
 
           <div class="row mt-5">
-            <div class="col-md-12 d-flex flex-wrap" id="color-legend"></div>
+            <div class="col-md-12 d-flex flex-wrap justify-content-around" id="color-legend"></div>
           </div>
 
           <hr>
@@ -310,29 +76,48 @@
         <!-- Day Tab -->
 
         {% for day in days %}
-            <div
-                    class="tab-pane fade"
-                    id="tab-{{ day }}"
-                    role="tabpanel"
-                    aria-labelledby="nav-profile-tab"
-            >
-                <div id="cal__{{ loop.index }}" class="d-none d-sm-block"></div>
-                <hr>
-                <div id="day">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <h1>Full list of sessions on <span class="note tztooltip" alt="The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.">{{ day }}<span class="tztooltiptext">The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.</span></span></h1>
-                      </div>
-                    </div>
-                    <div class="sessions">
-                        {{ components.sessiongroup(days[day].timeslots, config["calendar"]["colors"] ) }}
-                    </div>
+            <div class="tab-pane fade" id="tab-{{ day }}" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="schedule schedule-day" id="calendar-{{ day }}">
+                <div class="tz" style="grid-column: times / room3-end; grid-row: timezones;">
+                  <span class="tz-title">Your timezone</span>
+                  <div class="">
+                    <select class="tzOptions selectpicker"></select>
+                    <button type="button" class="resetTz btn btn-light">
+                      <span class="fas mr-1" aria-label="Reset">&#xf0e2;</span>
+                    </button>
+                  </div>
                 </div>
+                <div class="tz tz-right">
+                  <span class="tz-title">Conference timezone</span>
+                  <span class="tz-description">New Orleans (Chicago / United States)</span>
+                </div>
+
+                <!-- rest of the calendar will be filled in -->
+
+              </div>
+              <hr>
+              <div id="day">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1>Full list of sessions on <span class="note tztooltip" alt="The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.">{{ day }}<span class="tztooltiptext">The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.</span></span></h1>
+                    </div>
+                  </div>
+                  <div class="sessions">
+                      {{ components.sessiongroup(days[day].timeslots, config["calendar"]["colors"] ) }}
+                  </div>
+              </div>
             </div>
         {% endfor %}
 
         <script type="text/javascript">
-          updateCalendar();
+
+          let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+          let renderPromises = [];
+          for (const day of days)
+            renderPromises.push(updateFullCalendar(day));
+
+          finishCalendar(renderPromises);
+
         </script>
     </div>
 {% endblock %}

@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    overflow: hidden;
+}
 h1, h2, h3, h4 {
     font-family: "Zilla Slab SemiBold", serif;
     color: rgb(111, 33, 132);
@@ -40,7 +43,7 @@ button {
     overflow: hidden;
 }
 #slido-frame {
-    margin-top: -100px;
+    margin-top: -0px; /* must match JS */
 }
 
 header {
@@ -63,6 +66,32 @@ iframe {
 }
 #sidepanel * {
     transition: height ease 300ms;
+}
+
+#main-content {
+    height: 100%;
+}
+#image-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#access-alert {
+    color: #a00;
+    font-size: 12pt;
+}
+
+#uid {
+    padding: 5px 10px;
+    font-family: "Courier New", monospace;
+    background: #ddd;
+}
+
+#live-session-alert {
+    background: #fee;
+    font-size: 12pt;
+    padding: 10px 30px;
 }
 
 @font-face{

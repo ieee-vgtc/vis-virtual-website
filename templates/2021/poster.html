@@ -1,135 +1,115 @@
-{% set page_title = paper.title %}
+{% set page_title = poster.title %}
 {% extends "2021/base.html" %}
 
 {% block head %}
 
 {{ super() }}
-<meta name="citation_title" content="{{paper.title}}"/>
-{% for author in paper.authors %}
+<meta name="citation_title" content="{{poster.title}}"/>
+{% for author in poster.authors %}
 <meta name="citation_author" content="{{author}}"/>
 {% endfor %}
 <meta name="citation_publication_date" content="{{config.citation_date}}"/>
 <meta name="citation_conference_title"
       content="{{config.tagline|striptags|title}}"/>
 <meta name="citation_inbook_title" content="{{config.proceedings_title}}"/>
-<meta name="citation_abstract" content="{{paper.abstract}}"/>
-{% for keyword in paper.keywords %}
+<meta name="citation_abstract" content="{{poster.abstract}}"/>
+{% for keyword in poster.keywords %}
 <meta name="citation_keywords" content="{{keyword}}"/>
 {% endfor %}
-<meta name="citation_pdf_url" content="{{paper.pdf_url|default('') }}"/>
+<meta name="citation_pdf_url" content="{{poster.poster_pdf|default('') }}"/>
 
 {% endblock %}
 
 {% block content %}
+    <div class="row mt-3 mb-5">
+        <div class="col-md-12">
+            <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a
+                            href="posters.html">Posters</a>
+                    </li>
+                    <li class="breadcrumb-item"><a
+                            href="posters.html?filter=sessions&search={{ poster.session_title }}">{{ poster.session_title }}</a>
+                    </li>
+                    <li class="breadcrumb-item active text-truncate"
+                        aria-current="page">{{ poster.title }}</li>
+                </ol>
+            </nav>
 
-<!-- Title -->
-<div class="pp-card m-3" style="">
-    <div class="card-header">
-        <h2 class="card-title main-title text-center" style="">
-            {{paper.title}}
-        </h2>
-        <h3 class="card-subtitle mb-2 text-muted text-center">
-            {% for author in paper.authors %}
-            <a href="papers.html?filter=authors&search={{author}}"
-               class="text-muted"
-            >{{author}}</a
-            >{{ "," if not loop.last }}
-            {% endfor %}
-        </h3>
-        <p class="card-text text-center">
-            <span class="">Keywords:</span>
-            {% for keyword in paper.keywords %}
-            <a
-                    href="papers.html?filter=keywords&search={{keyword}}"
-                    class="text-secondary text-decoration-none"
-            >{{keyword}}</a
-            >{{ "," if not loop.last }}
-            {% endfor %}
-        </p>
-        <div class="text-center p-3">
-            <a class="card-link" data-toggle="collapse" role="button"
-               href="#details">
-                Abstract
-            </a>
-            <a class="card-link" target="_blank" href="{{paper.link}}">
-                Paper
-            </a>
-            {% if paper.code_link != blank %}
-            <a href="{{paper.code_link}}" target="_blank" class="card-link">
-                Code
-            </a>
+            {% if poster.award == "best" %}
+                <h4 class="paper-award"><span class="fas">&#xf559;</span> Best Poster Award</h4>
+            {% elif poster.award == "honorable" %}
+            <h4 class="paper-award"><span class="fas">&#xf5a2;</span> Honorable Mention</h4>
             {% endif %}
-        </div>
-    </div>
-</div>
-<div id="details" class="pp-card m-3 collapse">
-    <div class="card-body">
-        <div class="card-text">
-            <div id="abstractExample">
-                <span class="font-weight-bold">Abstract:</span>
-                {{paper.abstract}}
+            <h1 class="paper-title">{{ poster.title }}</h1>
+            <div class="checkbox-bookmark fas"
+                 style="font-size: 24pt;position: absolute; top:10px; right:20px;"
+                 data-tippy-content="(un-)bookmark this poster"
+            >
+                &#xf02e;
             </div>
+            <h3 class="paper-authors pb-2 mt-3">{{ poster.authors | join(", ") }}</h3>
+            <!-- <h3 class="py-2">DOI: TBD</h3> -->
         </div>
-        <p></p>
     </div>
-</div>
 
-<h5 style="color: red;">
-    Add content for posters. This could be a video, embedded pdf, chat room ....
-</h5>
+    <!-- no abstract / keywords for posters? -->
+    {# <div class="row my-3"> #}
+    {#     <div class="col-md-8"> #}
+    {#         <h5 class="paper-details-heading">Keywords</h5> #}
+    {#         <p>{{ poster.keywords | join(", ") }}</p> #}
+    {#         <h5 class="paper-details-heading">Abstract</h5> #}
+    {#         <p>{{ poster.abstract }}</p> #}
+    {#     </div> #}
+    {# </div> #}
 
-<!-- Chat -->
-{{ components.section("Example Chat") }}
-
-<div class="col-md-12 col-xs-12 p-2">
-    <div id="gitter" class="slp">
-        <center>
-            <iframe frameborder="0"
-                    src="https://{{config.chat_server}}/channel/paper_{{paper.UID}}?layout=embedded"
-                    height="700px" width="100%"></iframe>
-        </center>
+    <div class="row" class="mt-5">
+        <div class="col-md-12">
+            <div role="main" id="pdf_view"></div>
+        </div>
     </div>
-</div>
+    <div class="row" class="pt-3">
+        <div class="col-md-8">
+            <h4>Direct link to poster PDF: <a href="{{ poster.poster_pdf }}">{{ poster.id }}.pdf</a></h4>
+            <p>It may take several seconds for the embedded poster to load above!</p>
+        </div>
+    </div>
 
-<!-- Slides Live-->
 
-{{ components.section("Example SlidesLive") }}
 
-<div class="col-md-12 col-xs-12 my-auto p-2">
-    <div id="presentation-embed" class="slp my-auto"></div>
-    <script src='https://slideslive.com/embed_presentation.js'></script>
-    <script>
-      embed = new SlidesLiveEmbed("presentation-embed", {
-        presentationId:
-          "{{paper.presentation_id | default(config.default_presentation_id)}}",
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true,
-        verticalWhenWidthLte: 500,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true,
-      });
+    <script lang="js">
+      const paperID = "{{ poster.id }}"
+      $(document).ready(() => {
+        tippy('[data-tippy-content]');
+
+        const allBookmarks =
+          d3.selectAll('.checkbox-bookmark')
+            .on("click", function () {
+              const newValue = !d3.select(this).classed('selected');
+              API.markSet(API.storeIDs.bookmarked, paperID, newValue);
+              d3.select(this).classed('selected', newValue);
+            })
+        API.markGet(API.storeIDs.bookmarked, paperID).then(is_bookmarked => {
+          is_bookmarked = !!is_bookmarked;
+          allBookmarks.classed('selected', is_bookmarked);
+        })
+        API.markSet(API.storeIDs.visited, paperID, true);
+      })
+
     </script>
-</div>
 
+    <script src="/static/2021/js/views/timezone.js"></script>
 
-<!-- Chat -->
-
-{{ components.section("Example Poster") }}
-
-<div role="main" id="pdf_view"></div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
-<script src="/static/2021/js/modules/pdfRender.js"></script>
-<script>
-  $(document).ready(() => {
-    // render first page of PDF to div
-    // PDF name can be bound to variable -- e.g. paper.content.poster_link
-    const pdfFile =
-      " {{ paper.poster_pdf | default(config.default_poster_pdf) }}";
-    initPDFViewer(pdfFile, "#pdf_view");
-  });
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
+    <script src="/static/2021/js/modules/pdfRender.js"></script>
+    <script>
+    $(document).ready(() => {
+        // render first page of PDF to div
+        // PDF name can be bound to variable -- e.g. paper.content.poster_link
+        const pdfFile = "{{ poster.poster_pdf | default(config.default_poster_pdf) }}";
+        initPDFViewer(pdfFile, "#pdf_view");
+    });
+    </script>
 
 
 {% endblock %}

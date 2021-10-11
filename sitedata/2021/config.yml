@@ -1,7 +1,7 @@
 name: VIS 2021
-tagline: VAST • INFOVIS • SCIVIS
+tagline: "IEEE VIS: Visualization & Visual Analytics"
 date: 24-29 October 2021 Virtual Conference
-citation_date: May 2021
+citation_date: October 2021
 proceedings_title: Proceedings of the IEEE VIS 2021 Conference
 analytics: UA-
 logo:
@@ -27,8 +27,6 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 #user: miniconf@miniconf.com
 #pass: mIniconf1_
 
-## DISABLE AUTH outside of conference time
-# use_auth0: false
 use_auth0: true
 auth0_client_id : 0eqqhd3NUylo228O8vZagvYkuOSdUWGp
 auth0_domain : ieeevis.us.auth0.com
@@ -54,3 +52,15 @@ calendar:
     paper: '#2a9d8f'
     papers: '#2a9d8f'
   sunday_saturday: true  #  Include Sunday and Saturday
+
+room_names:
+  room1: 'Bourbon'
+  room2: 'Royal'
+  room3: 'Frenchmen'
+  room4: 'St. Charles'
+  room5: 'Esplanade'
+  room6: 'Magazine'
+  room7: 'Rampart Street'
+  room8: 'Poydras Street'
+  room9: 'Canal'
+  room10: 'Chartres'

@@ -5,9 +5,12 @@ const calcAllKeys = function (allPapers, allKeys) {
 
   allPapers.forEach((d) => {
     d.authors.forEach((a) => collectAuthors.add(a));
-    d.keywords.forEach((a) => collectKeywords.add(a));
-    d.sessions.forEach((a) => collectSessions.add(a));
     allKeys.titles.push(d.title);
+
+    if (d.keywords)
+      d.keywords.forEach((a) => collectKeywords.add(a));
+    if (d.sessions)
+      d.sessions.forEach((a) => collectSessions.add(a));
   });
   allKeys.authors = Array.from(collectAuthors);
   allKeys.keywords = Array.from(collectKeywords);

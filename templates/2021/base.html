@@ -28,7 +28,7 @@
         {% endif %}
 
         <!-- External Javascript libs_ext  -->
-        <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3@6/dist/d3.min.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
                 integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
@@ -96,15 +96,15 @@
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@ieeevis"/>
         <meta name="twitter:title"
-              content="Virtual IEEE VIS 2020 -- Conference on Visualization."/>
+              content="Virtual IEEE VIS 2021 -- Conference on Visualization."/>
         <meta name="twitter:description"
-              content=" VIS 2020 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools."/>
+              content=" VIS 2021 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools."/>
         <meta name="twitter:image"
-              content="https://ieeevis.b-cdn.net/vis_2020/vis_preview.jpg"/>
+              content="https://ieeevis.b-cdn.net/vis_2021/vis_preview.png"/>
 
-        <meta name="image" property="og:image" content="https://ieeevis.b-cdn.net/vis_2020/vis_preview.jpg">
-        <meta name="description" property="og:description" content="VIS 2020 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.">
-        <meta name="title" property="og:title" content="Virtual IEEE VIS 2020 -- Conference on Visualization.">
+        <meta name="image" property="og:image" content="https://ieeevis.b-cdn.net/vis_2021/vis_preview.png">
+        <meta name="description" property="og:description" content="VIS 2021 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.">
+        <meta name="title" property="og:title" content="Virtual IEEE VIS 2021 -- Conference on Visualization.">
          <meta property="og:type" content="website">
 
         <title>{{ config.page_title.prefix }}{% if page_title %}
@@ -120,11 +120,11 @@
 ('calendar.html', 'Schedule', false),
 ('events.html', 'All Events', false),
 ('papers.html', 'Papers', false),
-('https://vis2020-ieee.ipostersessions.com/Default.aspx?s=vis2020_gallery', 'Posters', true),
+('posters.html', 'Posters', false),
 ('speakers.html', 'Speakers', false),
 ('awards.html', 'Awards', false),
 ('help.html', 'Help', false),
-('http://ieeevis.org/year/2020/info/registration/conference-registration', 'Register', true),
+('http://ieeevis.org/year/2021/info/registration/conference-registration', 'Register', true),
 ] -%}
     {#('index.html', 'Home'),#}
     {#    ('session_vis-keynote.html', 'Keynote'),#}
@@ -194,32 +194,30 @@
 
     <!-- Plausible Analytics  -->
     <script defer data-domain="virtual-staging.ieeevis.org" src="https://plausible.io/js/plausible.js"></script>
-    
-    <!-- Google Analytics -->
-    <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id={{ config.analytics }}"
-    ></script>
-    {#<script>#}
-    {#  window.dataLayer = window.dataLayer || [];#}
-    {##}
-    {#  function gtag() {#}
-    {#    dataLayer.push(arguments);#}
-    {#  }#}
-    {##}
-    {#  gtag("js", new Date());#}
-    {#  gtag("config", "{{config.analytics}}");#}
-    {#</script>#}
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://ieeevis.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='//cdn.matomo.cloud/ieeevis.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
 
     <!-- Footer -->
     <footer class="footer bg-light p-4">
         <div class="container">
             <p class="float-right"><a href="#">Back to Top</a></p>
-            <p class="text-center">© 2020, {{ config.organization }}</p>
+            <p class="text-center">© 2021, {{ config.organization }}</p>
             <p class="tz-info text-center">
-                All times in <strong>GMT<span
-                    id="tzCurrent">-0600</span></strong>. Change your timezone
-                on <a href="/calendar.html">the schedule page</a>.
+                All times in <strong>GMT<span id="tzCurrent">-0600</span></strong>. Change your timezone on <a href="calendar.html">the schedule page</a>.
             </p>
         </div>
     </footer>

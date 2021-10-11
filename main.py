@@ -190,7 +190,7 @@ markdown = Markdown(app)
 blueprints = [blueprint_2020, blueprint_2021]
 # blueprints = [blueprint_2021]
 for blueprint in blueprints:
-    app.register_blueprint(blueprint) 
+    app.register_blueprint(blueprint)
 
 # # --------------- DRIVER CODE -------------------------->
 # # Code to turn it all static
@@ -211,6 +211,11 @@ def generator():
             yield "/year/{}/session_{}.html".format(year, str(session))
         for event in by_uid["events"].keys():
             yield "/year/{}/event_{}.html".format(year, str(event))
+
+        # only some years have posters
+        if "poster_list" in site_data:
+            for poster in site_data["poster_list"].values():
+                yield "/year/{}/poster_{}.html".format(year, str(poster["uid"]))
 
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))

@@ -1,9 +1,15 @@
 let allPapers = [];
+let isPosters = false;
 const allKeys = {
   authors: [],
   keywords: [],
   sessions: [],
   titles: [],
+};
+const posterKeys = {
+  authors: [],
+  titles: [],
+  sessions: [],
 };
 const filters = {
   authors: null,
@@ -71,7 +77,7 @@ const updateCards = (papers) => {
         .data(papers, (d) => d.number)
         .join("div")
         .attr("class", "myCard col-xs-6 col-md-4")
-        .html(card_html);
+        .html(isPosters ? card_poster_html : card_html);
 
       all_mounted_cards.select(".card-title").on("click", function (d) {
         const iid = d.UID;
@@ -181,13 +187,20 @@ const updateSession = () => {
 
 /**
  * START here and load JSON.
+ * @param loadPosters - Set to true iff loading posters instead of papers
  */
-const start = () => {
+const start = (loadPosters) => {
+  isPosters = !!loadPosters;
+
   const urlFilter = getUrlParameter("filter") || "titles";
   setQueryStringParameter("filter", urlFilter);
   updateFilterSelectionBtn(urlFilter);
 
-  Promise.all([API.getPapers(), API.getConfig()])
+  Promise
+    .all([
+      !!loadPosters ? API.getPosters() : API.getPapers(),
+      API.getConfig()
+    ])
     .then(([papers, config]) => {
       console.log(papers, "--- papers");
 
@@ -196,9 +209,9 @@ const start = () => {
       shuffleArray(papers);
 
       allPapers = papers;
-      calcAllKeys(allPapers, allKeys);
+      calcAllKeys(allPapers, isPosters ? posterKeys : allKeys);
       console.log(allKeys, "--- allKeys");
-      setTypeAhead(urlFilter, allKeys, filters, render);
+      setTypeAhead(urlFilter, isPosters ? posterKeys : allKeys, filters, render);
       updateCards(allPapers);
 
       const urlSearch = getUrlParameter("search");
@@ -227,7 +240,7 @@ d3.selectAll(".filter_option input").on("click", function () {
   setQueryStringParameter("search", currentFilter);
   updateFilterSelectionBtn(filter_mode);
 
-  setTypeAhead(filter_mode, allKeys, filters, render);
+  setTypeAhead(filter_mode, isPosters ? posterKeys : allKeys, filters, render);
   render();
 });
 
@@ -296,8 +309,7 @@ const keyword = (kw) => `<a href="papers.html?filter=keywords&search=${kw}"
 
 const card_image = (paper, show) => {
   if (show && paper.has_image)
-    return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(
-      paper)}" width="80%"/></center>`;
+    return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(paper)}" width="80%"/></center>`;
   return "";
 };
 
@@ -368,7 +380,7 @@ const card_html = (paper) =>
             <div class="pp-card-header" style="">
               <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-              <a href="${API.posterLink(paper)}"
+              <a href="${API.paperLink(paper)}"
               target="_blank"
                  class="text-muted">
                  <h5 class="card-title" > ${paper.title} </h5>
@@ -389,9 +401,42 @@ const card_html = (paper) =>
               <div>${card_image(paper, render_mode !== MODE.mini)}</div>
               <div class="card-footer">&nbsp</div>
             </div>
-            
+
 
                 ${card_detail(paper, render_mode === MODE.detail)}
+        </div>`;
+
+// language=HTML
+const card_poster_html = (poster) =>
+  `
+        <div class="pp-card pp-mode-${render_mode} ">
+            <div class="pp-card-header" style="">
+              <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
+              style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
+              <a href="${API.posterLink(poster)}"
+              target="_blank"
+                 class="text-muted">
+                 <h5 class="card-title" > ${poster.title} </h5>
+              </a>
+              <h6 class="card-subtitle text-muted" style="text-align: left;">
+                      ${poster.authors.map(
+    s => `<a href="posters.html?filter=authors&search=${s}">${s}</a>`)
+    .join(", ")}
+              </h6>
+
+              <div class="card-subtitle text-muted mt-2" style="text-align: left;">
+                Session:
+                ${poster.sessions.map(
+    s => `<a class="has_tippy" href="posters.html?filter=sessions&search=${s}" data-tippy-content="filter all posters in session:">${s}</a>`)
+    .join(",")}
+              </div>
+
+              <div>${card_image(poster, render_mode !== MODE.mini)}</div>
+              <div class="card-footer">&nbsp</div>
+            </div>
+
+
+                ${card_detail(poster, render_mode === MODE.detail)}
         </div>`;
 
 
