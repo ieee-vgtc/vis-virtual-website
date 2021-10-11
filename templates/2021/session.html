@@ -73,7 +73,7 @@
 </div>
 {% endif %}
 
-{% if True or session.room_id %}
+{% if session.track %}
 <div class="row mt-5">
     <div class="col-lg-10 streaming-container">
         <!-- ensure 16x9 aspect ratio;
@@ -86,11 +86,7 @@
                     <span class="fas fa-compress">&#xf066;</span>
             </a>
 
-            {% if session.id == "v-full-full1" %}
-                <iframe src="streaming.html?room=room1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
-            {% else %}
-                <iframe src="streaming.html?room=room2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
-            {% endif %}
+            <iframe src="streaming.html?room={{session.track}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
         </div>
     </div>
 </div>
