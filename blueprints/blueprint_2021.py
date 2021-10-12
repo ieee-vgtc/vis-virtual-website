@@ -580,7 +580,9 @@ def serve(path):
 
 @year_blueprint.route("/year/{}/streaming.html".format(year))
 def streaming():
-    return render_template("{}/streaming.html".format(year))
+    data = _data()
+    data["requires_auth"] = True
+    return render_template("{}/streaming.html".format(year), **data)
 
 
 site_data_path = "sitedata/{}".format(year)
