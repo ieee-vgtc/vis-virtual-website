@@ -79,7 +79,7 @@ const updateCards = (papers) => {
         .attr("class", "myCard col-xs-6 col-md-4")
         .html(isPosters ? card_poster_html : card_html);
 
-      all_mounted_cards.select(".card-title").on("click", function (d) {
+      all_mounted_cards.select(".card-title").on("click", function (ev, d) {
         const iid = d.UID;
         // to avoid hierarchy issues, search for card again
         all_mounted_cards
@@ -92,14 +92,14 @@ const updateCards = (papers) => {
           });
       });
 
-      all_mounted_cards.select(".checkbox-paper").on("click", function (d) {
+      all_mounted_cards.select(".checkbox-paper").on("click", function (ev, d) {
         const new_value = !d3.select(this).classed("selected");
         d.read = new_value;
         visitedCard(d.UID, new_value);
         d3.select(this).classed("selected", new_value);
       });
 
-      all_mounted_cards.select(".checkbox-bookmark").on("click", function (d) {
+      all_mounted_cards.select(".checkbox-bookmark").on("click", function (ev, d) {
         const new_value = !d3.select(this).classed("selected");
         d.bookmarked = new_value;
         bookmarkedCard(d.UID, new_value);

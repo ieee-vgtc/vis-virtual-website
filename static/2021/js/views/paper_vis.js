@@ -141,8 +141,8 @@ function brush_ended() {
           d.title
         }</div> <div class="p_authors">${d.authors.join(", ")}</div>`
     )
-    .on("click", (d) => openPaper(d))
-    .on("mouseenter", (d) => {
+    .on("click", (ev, d) => openPaper(d))
+    .on("mouseenter", (ev, d) => {
       l_main
         .selectAll(".dot")
         .filter((dd) => dd.UID === d.UID)
@@ -151,7 +151,7 @@ function brush_ended() {
           if (this._tippy) this._tippy.show();
         });
     })
-    .on("mouseleave", (d) => {
+    .on("mouseleave", (ev, d) => {
       l_main
         .selectAll(".dot")
         .filter((dd) => dd.UID === d.UID)
@@ -220,7 +220,7 @@ const updateVis = () => {
         .classed("bookmarked", (d) => d.bookmarked)
         .classed("highlight", (d) => d.is_selected)
         .classed("non-highlight", (d) => !d.is_selected && is_filtered)
-        .on("click", function (d) {
+        .on("click", function (ev, d) {
           openPaper(d);
           d3.select(this).classed("read", true);
         });
