@@ -35,7 +35,6 @@ echo "injecting auth0 into streaming page for authentication"
 awk "
 /<\/body>/ {
     print \"{% if config.use_auth0 and requires_auth %}\"
-    print \"<-- Injected auth0 code from copy_streaming_assets.sh -->\"
     print \"<script src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'\"
 	print \"integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo='\"
 	print \"crossorigin='anonymous'></script>\"
