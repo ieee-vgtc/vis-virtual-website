@@ -1,0 +1,190 @@
+{% set page_title = session.fullTitle %}
+{% extends "2020/base.html" %}
+{% block content %}
+
+<div class="row mt-3">
+    <div class="col-md-8">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
+                <li class="breadcrumb-item active text-truncate" aria-current="page">{{ session.title }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="session-title">{{ session.fullTitle }}</h1>
+        {% if session.event_url %}
+        <h3 class="session-url">
+            <a href="{{ session.event_url }}" target="_blank">
+                <span class="fas mr-1">&#xf57c;</span>
+                {{ session.event_url }}</a>
+        </h3>
+        {% endif %}
+        {% if session.chair %}
+        <h3 class="session-chair">
+            <span class="fas mr-1">&#xf007;</span>
+            Session chair: {{ session.chair | join(", ") }}
+        </h3>
+        {% elif session.organizers %}
+        <h3 class="session-chair">
+            <span class="fas mr-1">&#xf0c0;</span>
+            Organizers: {{ session.organizers | join(", ") }}
+        </h3>
+        {% endif %}
+        <h3 class="session-date">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
+            <br>
+            <span style="margin-left: 2rem; font-size: 1rem;" class="timezone tztooltip">
+                <span class="relative-time">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                <span class="current-time tztooltiptext"></span>
+            </span>
+        </h3>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 session-links">
+        <h5 class="session-info my-4">
+            <a href="#list">
+                Jump to event listing
+                <span class="fas mr-2">&#xf358;</span></a>
+        </h5>
+        {% if session.ff_playlist %}
+        <h5 class="session-info my-4">
+            <a href="#ff">
+                Jump to Fast Forwards
+                <span class="fas mr-2">&#xf87c;</span></a>
+        </h5>
+        {% endif %}
+        <h5 class="session-info my-4">
+            <a href="https://ieeevis.b-cdn.net/vis_2020/ics/{{ session.id }}.ics">
+                <span class="fas mr-2">&#xf073;</span>
+                Add to Calendar</a></h5>
+    </div>
+</div>
+
+{% if session.abstract %}
+<div class="row">
+    <div class="col-md-8">
+        <p>{{ session.abstract }}</p>
+    </div>
+</div>
+{% endif %}
+
+{% if session.youtube_id %}
+<div class="row mt-5">
+    <div class="col-lg-10">
+        <!-- ensure 16x9 aspect ratio;
+            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p>
+    </div>
+</div>
+{% endif %}
+{% if session.discord_channel_FAKE %}
+<div class="row my-3">
+    <div class="col-lg-10">
+        <iframe src="https://titanembeds.com/embed/741879515013316629?theme=DiscordDark&defaultchannel={{ session.discord_channel_id }}" width="920" height="518" frameborder="0"></iframe>
+        <p class="integration-description pt-2">You can also join this channel in your native Discord application by <a href="https://discord.gg/dxy2Uxp" target="_blank">connecting to the server</a> and joining the <emph>{{session.discord_category}}/#{{ session.discord_channel }}</emph> channel.  <a href="/help.html#tab-discord" target="_blank">Help &raquo;</a></p>
+    </div>
+</div>
+{% endif %}
+
+{% if session.zoom_meeting_FAKE %}
+<div class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        <div class="alert alert-primary">
+            {% if session.timeSlots[0].type == "Zoom Only" %}
+            This session takes place <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">on Zoom only</a>.
+            {% else %}
+            You can join this session <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">via Zoom for hands-on activities</a>.
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if not session.youtube_id and not session.zoom_meeting %}
+<div class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        {% if session.id == "m-jobfair_FAKE" %}
+        <div class="alert alert-warning" role="alert">
+            <p class="pt-2">This year's job fair meetup will be on Thurs. 10/29, 1:40pm (MT) through Congregate.Live. To sign up for the job fair meetup, visit: <a class="alert-link" href="https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup">https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup</a>.</p>
+            <p>To those who register, we will send a link to the Congregate.Live session by 11am (MT) on Thurs. 10/29. If you submitted a job posting and indicated you will attend the meetup, there is no need to sign up again.</p>
+            <p>Questions about the job fair? Please email <a class="alert-link" href="mailto:community@ieeevis.org">community@ieeevis.org</a>.</p>
+        </div>
+        {% else %}
+        <div class="alert alert-warning" role="alert">
+            A livestream video has not yet been scheduled for this session yet. <br><br>
+            When it is, the video stream will replace this message (at least 3 days before the session takes place live).
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+{% if session.timeSlots %}
+<div class="row my-4">
+    <div class="col-md-12">
+        <h2><a name="list">Presentations in this session:</a></h2>
+    </div>
+</div>
+
+{% for timeslot in session.timeSlots %}
+<div class="row mb-4">
+    <div class="col-md-8 session-listing">
+        {% if timeslot.uid %}
+        <h3 class="session-list-title">
+            <a href="/paper_{{ timeslot.uid }}.html">
+                {{ timeslot.title }}
+                <span class="fas mr-1">&#xf0c1;</span>
+            </a>
+        </h3>
+        {% else %}
+        <h3 class="session-list-title">{{ timeslot.title }}</h3>
+        {% endif %}
+        <h4 class="session-list-presenter mt-3">
+            <span class="fas mr-1">&#xf21d;</span>
+            {{ timeslot.contributors | join(", ") }}
+        </h4>
+        <h5 class="session-list-type">
+            <span class="fas mx-1">&#xf027;</span>
+            {{ timeslot.type }}
+        </h4>
+        <h5 class="session-list-time">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
+        </h5>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if session.ff_playlist %}
+<hr>
+<div class="row my-4">
+    <div class="col-lg-10">
+        <h2 class="my-3"><a name="ff">Fast forwards in this session</a></h2>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}" target="_blank">{{ session.ff_playlist }}</a></p>
+    </div>
+</div>
+{% endif %}
+
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>You may want to also jump to the parent event to see related presentations: <a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></p>
+    </div>
+</div>
+
+<script src="/static/2020/js/views/timezone.js"></script>
+
+{% endblock %}

@@ -1,0 +1,70 @@
+{% set page_title = event.title %}
+{% extends "2021/base.html" %}
+{% block content %}
+
+
+<div class="row mt-3">
+    <div class="col-md-12">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active text-truncate" aria-current="page">{{ event.title }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="event-title">{{ event.title }}</h1>
+        {% if event.url %}
+        <h2 class="event-url text-muted">
+            <span class="fas mr-1">&#xf57c;</span>
+            <a href="{{ event.url }}" target="_blank">{{ event.url }}</a>
+        </h2>
+        {% endif %}
+        {% if event.organizers %}
+        <h2 class="event-organizers text-muted">
+            <span class="fas mr-1">&#xf0c0;</span>
+            Organizers: {{ event.organizers | join(", ") }}</h2>
+        {% endif %}
+        <h3 class="event-date text-muted">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span-full">{{ event.startTime }} &ndash; {{ event.endTime }}</span>
+        </h3>
+        <h5 class="mt-4">
+            <span class="fas mr-2">&#xf073;</span>
+            <a href="https://ieeevis.b-cdn.net/vis_2020/ics/{{ event.id }}.ics">
+            Add all of this event's sessions to your calendar</a>.
+        </h5>
+        {% if event.ff_playlist %}
+        <h5 class="session-info my-4">
+            <a href="#ff">
+                Jump to Fast Forwards
+                <span class="fas mr-2">&#xf87c;</span></a>
+        </h5>
+        {% endif %}
+    </div>
+</div>
+
+{% if event.abstract %}
+<div class="row mt-3">
+    <div class="col-md-8">
+        <p>{{ event.abstract }}</p>
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+
+{{ components.session_listing(event.sessions, config["calendar"]["colors"], True, True) }}
+
+
+{% if event.ff_playlist %}
+<hr>
+<div class="row my-4">
+    <div class="col-lg-10">
+        <h2 class="my-3"><a name="ff">Fast forwards in this event's sessions</a></h2>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ event.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ event.ff_playlist }}" target="_blank">{{ event.ff_playlist }}</a></p>
+    </div>
+</div>
+{% endif %}
+
+{% endblock %}

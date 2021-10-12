@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calendar test</title>
+</head>
+
+<svg id="calendar" width="930" height="750"></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script type="text/javascript">
+
+async function loadData() {
+    let data = await d3.json('data.json', d3.autoType);
+
+    let sessions_by_day_time = d3.group(
+        data,
+        d => d.realStart && d.realStart.split("T")[0] || d.start.split("T")[0],
+        d => d.realStart && d.realStart.split("T")[1] || d.start.split("T")[1],
+    );
+
+    const dateBounds = ['2020-10-25', '2020-10-31'];
+    const timeBounds = ['13:00:00', '23:00:00'];
+
+    renderData(sessions_by_day_time, dateBounds, timeBounds);
+}
+
+function renderData(sessions_by_day_time, dateBounds, timeBounds) {
+    let svg = d3.select('#calendar');
+
+    const dayParse = d3.timeParse("%Y-%m-%d");
+    const dayFormat = d3.timeFormat("%A, %B %-d");
+    let dayScale = d3.scaleBand()
+        .domain(Array.from(sessions_by_day_time.keys()))
+        .rangeRound([0, 800])
+        .padding(0.1);
+
+    const timeParse = d3.timeParse("%H:%M:%S");
+    const timeFormatTick = d3.timeFormat('%H:%S');
+    let timeScale = d3.scaleTime()
+        .domain(timeBounds.map(d => timeParse(d)))
+        .range([0, 600]);
+
+    let scales = svg.append('g')
+        .attr('class', 'axes');
+
+    let yAxis = scales.append('g')
+        .attr('class', 'y-axis')
+        .attr('transform', 'translate(100, 100)')
+        .call(d3.axisLeft(timeScale)
+            .tickSize(-800)
+            .tickFormat(timeFormatTick))
+        .call(g => g.selectAll(".tick:not(:last-of-type) line")
+            .attr("stroke-opacity", 0.5)
+            .attr("stroke-dasharray", "2,2"));
+
+    let xAxis = scales.append('g')
+        .attr('class', 'x-axis')
+        .attr('transform', 'translate(100, 75)')
+        .call(d3.axisTop(dayScale)
+            .tickFormat(d => dayFormat(dayParse(d))))
+        .call(g => g.selectAll(".domain, line")
+            .remove())
+        .call(g => g.selectAll('.tick text')
+            .each(function(d) {
+                let self = d3.select(this);
+                let text = self.text().split(', ');
+                self.text('');
+                self.append('tspan')
+                    .attr('x', 0)
+                    .attr('dy', '0.8em')
+                    .text(text[0]);
+                self.append('tspan')
+                    .attr('x', 0)
+                    .attr('dy', '1.2em')
+                    .text(text[1]);
+            }));
+
+
+    const dayWidth = dayScale.bandwidth();
+
+    const sessionsGroup = svg.append('g')
+        .attr('class', 'sessions')
+        .attr('transform', 'translate(100, 100)');
+
+    // iterate through all day keys
+    for (const day of sessions_by_day_time.keys()) {
+        const dayTimeslots = sessions_by_day_time.get(day);
+        const dayX = dayScale(day);
+
+        // .. through all timeslots
+        for (const timeslot of dayTimeslots.keys()) {
+            const sessions = dayTimeslots.get(timeslot);
+            const timeY = timeScale(timeParse(timeslot.split("Z")[0]));
+
+            // get the horizontal scale
+            const sessionScale = d3.scaleBand()
+                .domain(sessions.map(s => s.id))
+                .rangeRound([dayX, dayX + dayWidth])
+                .paddingInner(0.2);
+
+            // draw the sessions
+            const timeslotGroup = sessionsGroup.append('g')
+                .attr('class', 'timeslot')
+                .attr('id', `timeslot-${day}-${timeslot}`)
+
+            timeslotGroup.selectAll('.session')
+                .data(sessions, d => d.id)
+                .join('rect')
+                    .attr('class', 'session')
+                    .attr('id', d => d.id)
+                    .attr('x', d => sessionScale(d.id))
+                    .attr('y', timeY)
+                    .attr('width', sessionScale.bandwidth())
+                    .attr('height', d => timeScale(timeParse(d.end.split('T')[1].split('Z')[0])) - timeY)
+                    .style('rx', 10)
+                    .style('stroke', '#3a3a3a')
+                    .style('fill', '#f0c')
+                    .attr('title', d => d.title);
+        }
+    }
+}
+
+loadData();
+
+</script>
+
+</html>

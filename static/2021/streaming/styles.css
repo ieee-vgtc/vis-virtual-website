@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+h1, h2, h3, h4 {
+    font-family: "Zilla Slab SemiBold", serif;
+    color: rgb(111, 33, 132);
+}
+
+td, th {
+    padding: 8px 12px;
+}
+thead tr {
+    background: #fcfcfc;
+}
+tr {
+    background: #f8f8f8;
+}
+tr.active {
+    background: #eee;
+}
+/*
+tr:nth-child(even) {
+    background: #eee;
+}
+tr:nth-child(odd) {
+    background: #f8f8f8;
+}*/
+
+button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#slido-wrap {
+    overflow: hidden;
+}
+#slido-frame {
+    margin-top: -0px; /* must match JS */
+}
+
+header {
+    /*background: #ffeaea;*/
+    height: 40px;
+    display: block;
+    font-size: 16px;
+    font-family: Arial;
+    padding: 11px 0;
+}
+#track-title {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+iframe {
+    border: 0;
+}
+#sidepanel * {
+    transition: height ease 300ms;
+}
+
+#main-content {
+    height: 100%;
+}
+#image-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#access-alert {
+    color: #a00;
+    font-size: 12pt;
+}
+
+#uid {
+    padding: 5px 10px;
+    font-family: "Courier New", monospace;
+    background: #ddd;
+}
+
+#live-session-alert {
+    background: #fee;
+    font-size: 12pt;
+    padding: 10px 30px;
+}
+
+@font-face{
+    font-family:"Zilla Slab SemiBold";
+    font-style:normal;
+    font-weight:700;
+    font-display:swap;
+    src:local("Zilla Slab SemiBold"),local("Zilla-Slab-SemiBold"),url("ZillaSlab-SemiBold.ttf") format("truetype");
+}

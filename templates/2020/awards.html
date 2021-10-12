@@ -1,0 +1,118 @@
+{% extends "2020/base.html" %}
+{% set page_title = "Awards at IEEE VIS 2020" %}
+{% set active_page = "Awards" %}
+
+{% block content %}
+    <h3>VGTC Visualization Awards</h3>
+    <div class="row">
+        {% for award in awards_honor %}
+            <div class="col-md-6 p-3 award-card-wrapper">
+                <div class="award-card pp-card-no-bottom p-2"
+                     style="
+                     border-top: 12pt solid gold;
+                     border-bottom: 5pt solid gold;
+                     background-color: #fff;"
+                >
+                    <span class="session-type"
+                          style="color: goldenrod;">TVCG Visualization Award</span>
+                    <div class="award-title text-center">
+                        {{ award.award }}
+                    </div>
+                    <div class="award-name text-center p-3">
+                        {{ award.name }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{#    {'Award': 'IEEE VAST Test of Time Award 2020', 'award_1': '10 Year ',#}
+{#    'award_2': 'Test of Time Award ', 'extra_1': 'Presented for the', 'extra_2':#}
+{#    'IEEE VAST 2010 Paper\n', 'paper': 'iVisClassifier: an Interactive Visual#}
+{#    Analytics System for Classification Based on Supervised Dimension#}
+{#    Reduction', 'authors': 'Jaegul Choo, Hanseung Lee, Jaeyeon Kihm and Haesun#}
+{#    Park'}#}
+
+    <h3 class="mt-5"> Test of Time Awards </h3>
+    <div class="row">
+        {% for award in awards_tot %}
+            <div class="col-md-6 p-3">
+                <div class="award-card pp-card-no-bottom p-2"
+                     style="
+                     border-top: 12pt solid goldenrod;
+                     border-bottom: 5pt solid goldenrod;
+                                     background-color: #fff;"
+                >
+                                <span class="session-type"
+                                      style="color: goldenrod;">Test of Time Award ({{ award.award_1 }})</span>
+                    <div class="award-title text-center">
+                         {{ award.award_2 }} - {{ award.extra_2 }}
+                    </div>
+                    <div class="award-paper text-center py-3">
+                        <a class="award-paper" href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>
+                    </div>
+                    <div class="award-authors text-center text-muted py-1" >
+                        {{ award.authors }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h3 class="mt-5">Best Papers Awards</h3>
+    <div class="row">
+        {% for award in awards_papers %}
+            {% set color = 'silver' if "Honorable" in award.award_1 else "gold" %}
+            <div class="col-sm-6 col-md-4 p-1">
+                <div class="award-card pp-card-no-bottom  p-2"
+                     style="
+                             border-top: 5pt solid {{ color}};
+                             border-bottom: 1pt solid {{ color}};
+                                     background-color: #fff;"
+                >
+                                <span class="session-type"
+                                      style="color: {{ color }};">Paper Award</span>
+                    <div class="award-title text-center">
+                        {{ award.award_1 }}
+                    </div>
+                    <div class="award-paper text-center p-3">
+                        {% if award.DOI %}
+                        <a class="award-paper" href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>
+                        {% else %}
+                        {{ award.paper }}
+                        {% endif %}
+                    </div>
+                    <div class="award-authors text-center text-muted p-1" >
+                        {{ award.authors }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <h3 class="mt-5">Academy Inductees</h3>
+    <div class="row">
+        {% for award in awards_academy %}
+            <div class="col-sm-6 col-md-3 p-1">
+                <div class="award-card pp-card-no-bottom p-2"
+                     style="
+                     border-top: 5pt solid darkgoldenrod;
+                     border-bottom: 1pt solid darkgoldenrod;
+                         background-color: #fff;"
+                        {#                 data-session-type="{{ event.type }}"#}
+                >
+                    <span class="session-type"
+                          style="color: darkgoldenrod;">VIS Academy</span>
+                    <div class="award-title text-center">
+                        {{ award.award }}
+                    </div>
+                    <div class="award-name text-center p-3">
+                        {{ award.name }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+
+
+{% endblock %}

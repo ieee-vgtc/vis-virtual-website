@@ -1,0 +1,55 @@
+FAQ:
+  - Section: Attending the conference
+    QA:
+      - Question: What is IEEE VIS?
+        Answer: |-
+          IEEE VIS is an annual premier forum for advances in theory, methods, and applications of visualization and visual analytics. For more information about the conference and to register for free, please [visit the main website](http://ieeevis.org).
+
+      - Question: How does the website know my timezone?
+        Answer: |-
+          All times are converted to your auto-detected timezone (as reported by your browser). If you wish to view all times in a different time zone, please select a timezone in the dropdown on [the Schedule page](/calendar.html).  Each page reports the currently-displayed timezone in the footer of every page in relation to GMT.
+
+          If you need to, you can request the website "forget" your saved timezone.  Click <a href="javascript:resetTimezone()">this link</a>.
+
+      - Question: Why do I need to authenticate to see sessions or papers?
+        Answer: |-
+          To abide by IEEE regulations, we limit access to presentations and associated materials to conference attendees only. Please [head over to our registration page and sign up](http://ieeevis.org/year/2021/info/registration/conference-registration).
+
+          After registring, our authentication system should send you an e-mail with an auto-generated password to access protected pages on this website.
+
+      - Question: Where do I get a username + password to access secure content?
+        Answer: |-
+          Please head over to our [main site's registration page and sign up](http://ieeevis.org/year/2021/info/registration/conference-registration).  After registring, our authentication system should send you an e-mail with an auto-generated password to access protected pages on this website.
+
+          This e-mail will come from vistech@superministream.com (via amazonses.com).  If you have not received an e-mail within an hour of registering, please join #support on Discord or e-mail [web@ieeevis.org](mailto:web@ieeevis.org).
+
+      - Question: How long will content be available on this virtual website?
+        Answer: |-
+          With any registration (free or otherwise), you are welcome to access all authenticated content in the conference.  This includes direct links to pre-recorded content, paper PDFs, as well as access to live panels and Q&amp;A sessions.
+
+          Paper artifacts linked from this website (e.g., direct links to PDFs) will be removed approximately two weeks following the conference, as negotiated with IEEE.  At that time, links to paper PDFs will be removed, authentication restrictions will be lifted, and this site will remain evergreen from then on.
+
+          In the event that VIS 2021 is held virtually, the same subdomain will be used.  The web-team will implement automatic updating of existing links at that time to point to a year-specific URI.
+
+      - Question: What is the privacy policy of this virtual website?
+        Answer: |-
+          Our virtual conference website does not collect any personal information, nor does our web server track requests made from individual clients.
+
+          We use browser local storage for ensuring all dates and times are shown in your set timezone.  We also use cookies to record your viewing history of papers on the papers page.  These are entirely for your benefit and none of this data is trasmitted from your browser to us.
+
+          We use [auth0](https://auth0.com/) for authentication, [Discord](https://discord.com/) for live chat, [YouTube](https://www.youtube.com/) for viewing livestreams, and [Gather](https://gather.town/) for poster/social events. These thrid parties may handle your personal data (i.e., e-mail address) based upon their privacy policies.  If you have a data request or any questions, please e-mail [web@ieeevis.org](mailto:web@ieeevis.org).
+
+  - Section: Content issues
+    QA:
+      - Question: I am one of the authors of a paper.  How do I update the image/caption/abstract associated with the paper?
+        Answer: |-
+          Please make your request in #support on Discord.  We will make an effort based on our ability to respond to your request.
+
+          We may be unable to make changes to your title, author list, or abstract as these come from official IEEE sources. If there is an error, please immediately contact your paper chair to ensure the error does not propagate to IEEE's official version.
+
+gather:
+  - Section: Example section 1
+    QA:
+    - Question: What is gather.town?
+      Answer: |-
+        Example answer

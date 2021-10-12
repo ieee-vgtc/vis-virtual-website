@@ -1,0 +1,136 @@
+{% set page_title = session.fullTitle %}
+{% extends "2021/base.html" %}
+{% block content %}
+
+<div class="row mt-3">
+    <div class="col-md-8">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
+                <li class="breadcrumb-item active text-truncate" aria-current="page">{{ session.title }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="session-title">{{ session.fullTitle }}</h1>
+        {% if session.chair %}
+        <h3 class="session-chair">
+            <span class="fas mr-1">&#xf007;</span>
+            Session chair: {{ session.chair | join(", ") }}
+        </h3>
+        {% elif session.organizers %}
+        <h3 class="session-chair">
+            <span class="fas mr-1">&#xf0c0;</span>
+            Organizers: {{ session.organizers | join(", ") }}
+        </h3>
+        {% endif %}
+        <h3 class="session-date">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
+        </h3>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 session-links">
+        <h5 class="session-info my-4">
+            <a href="#list">
+                Jump to event listing
+                <span class="fas mr-2">&#xf358;</span></a>
+        </h5>
+        <h5 class="session-info my-4">
+            <a href="#ff">
+                Jump to Fast Forwards
+                <span class="fas mr-2">&#xf87c;</span></a>
+        </h5>
+        <h5 class="session-info my-4">
+            <a href="https://ieeevis.b-cdn.net/vis_2020/ics/{{ session.id }}.ics">
+                <span class="fas mr-2">&#xf073;</span>
+                Add to Calendar</a></h5>
+    </div>
+</div>
+
+{% if session.abstract %}
+<div class="row">
+    <div class="col-md-8">
+        <p>{{ session.abstract }}</p>
+    </div>
+</div>
+{% endif %}
+
+{% if not session.youtube_id and not session.zoom_meeting %}
+<div class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        <div class="alert alert-info" role="alert">
+            The posters can be viewed at any time on <a href="{{ event.url }}">iPosters</a>.
+            Poster authors will be available in the Discord channel linked as the "Live Session" for their poster
+            for discussion during the poster session.
+          </div>
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+{% if session.timeSlots %}
+<div class="row my-4">
+    <div class="col-md-12">
+        <h2><a name="list">Presentations in this session:</a></h2>
+    </div>
+</div>
+
+{% for timeslot in session.timeSlots %}
+<div class="row mb-4">
+    <div class="col-md-8 session-listing">
+        {% if timeslot.uid %}
+        <h3 class="session-list-title">
+            <a href="/paper_{{ timeslot.uid }}.html">
+                {{ timeslot.title }}
+                <span class="fas mr-1">&#xf0c1;</span>
+            </a>
+        </h3>
+        {% else %}
+        <h3 class="session-list-title">{{ timeslot.title }}</h3>
+        {% endif %}
+        <h4 class="session-list-presenter mt-3">
+            <span class="fas mr-1">&#xf21d;</span>
+            {{ timeslot.contributors | join(", ") }}
+        </h4>
+        <h5 class="session-list-type">
+            <span class="fas mx-1">&#xf027;</span>
+            {{ timeslot.type }}
+        </h4>
+        <h5 class="session-list-time">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
+        </h5>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if session.ff_playlist %}
+<hr>
+<div class="row my-4">
+    <div class="col-lg-10">
+        <h2 class="my-3"><a name="ff">Fast forwards in this session</a></h2>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}">{{ session.ff_playlist }}</a></p>
+    </div>
+</div>
+{% endif %}
+
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>You may want to also jump to the parent event to see related presentations: <a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></p>
+    </div>
+</div>
+
+<script src="/static/2021/js/views/timezone.js"></script>
+
+{% endblock %}

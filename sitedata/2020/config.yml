@@ -1,0 +1,55 @@
+name: VIS 2020
+tagline: VAST • INFOVIS • SCIVIS
+date: 25-30 October 2020 Virtual Conference
+citation_date: May 2020
+proceedings_title: Proceedings of the IEEE VIS 2020 Conference
+analytics: UA-
+logo:
+  image: /static/2020/images/vis2020_logo_virtual.svg
+  width: 250px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+# site_title: MiniConf
+page_title:
+  prefix: 'IEEE VIS 2020 Virtual'
+  separator: ': '
+background_image: https://ieeevis.b-cdn.net/vis_2020/salt-lake.jpg
+organization: VIS 2020 Organization Committee
+
+# Remove or change to your chat server.
+chat_server: miniconf.sloppy.zone
+default_presentation_id: 38922815
+default_poster_pdf: /static/2020/images/GLTR_poster.pdf
+
+
+# Configuration for auth
+#Test user
+#user: miniconf@miniconf.com
+#pass: mIniconf1_
+
+## DISABLE AUTH outside of conference time
+use_auth0: false
+#auth0_client_id : 0eqqhd3NUylo228O8vZagvYkuOSdUWGp
+#auth0_domain : ieeevis.us.auth0.com
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ## from https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
+    ---: '#edf2f7'
+    workshop: '#f4a261'
+    tutorial: '#e9c46a'
+    panel: '#e9c46a'
+    meetup: '#e9c46a'
+    live: '#e9c46a'
+    associated: '#e76f51'
+    symposium: '#e76f51'
+    visap: '#e76f51'
+    application: '#8338ec'
+    vis: '#264653'
+    memorial: '#264653'
+    keynote: '#264653'
+    capstone: '#264653'
+    industrial: '#264653'
+    paper: '#2a9d8f'
+    papers: '#2a9d8f'
+  sunday_saturday: true  #  Include Sunday and Saturday

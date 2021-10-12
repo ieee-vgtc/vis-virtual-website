@@ -3,6 +3,44 @@
 - Removed Discord embed (session.html/keynote.html: changed if statement to session.discord_channel_FAKE)
 - Set config.use_auth0 to FALSE in config.yml
 
+- Removed Zoom info with the following regex: "zoom_meeting":(.)*\n(.*)"zoom_password":(.*)\n(\s)*
+
+
+
+## Year Update
+[ ] Fix "things broken" for deployed site and freezer problems
+[ ] Ensure that supporters are separate year-to-year
+[x] ~~Use a new calendar widget?  (or roll our own with D3)~~ (see below "Calendar" header)
+[ ] Add in generator script for future years that change out paths
+
+### Things broken:
+[ ] Calendar widget
+[ ] Year root URLs don't seem to redirect to index.html  (i.e. https://virtual-staging.ieeevis.org/year/2021/)
+[X] Redirects aren't happening on the frozen site
+[ ] Data-driven redirects don't appear to be frozen
+[X] Frozen pages seem to be missing CSS
+[X] Freeze build process
+
+
+## Calendar
+[x] Dynamic loading from session data
+[x] Dynamically generate single-day layout as well
+[x] Clicking session should take one to session (if on day page) or day tab (if on schedule tab)
+[x] Fix mess on sun/mon on the overview tab
+[ ] Should highlight current time / current day
+[ ] Tooltips for "session-minimized" sessions (or really, all of them): include time start-end, name
+[x] Standardize on event types
+[x] Room names
+
+
+## FOR RELEASE
+[x] Mark papers with "honorable" or "best" under the award field in paper_list.json
+[ ] Add auth0 and enable registration import script
+[x] Add poster index page (like papers.html) and poster pages (like paper_<id>.html)
+[ ] Figure out why bookmarking is not working (bookmarked papers/posters don't "stick", all posters appear "highlighted")
+[x] Fix calendar weirdness
+[ ] Add "room" pages
+
 
 ## Styling
 [X] font in calendar
