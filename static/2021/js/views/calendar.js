@@ -276,11 +276,8 @@ function populateRooms(calendarSelection, roomNames, day) {
     case "Tuesday":
       roomData = roomData.slice(0, 5);
       break;
-    case "Thursday":
-      roomData = roomData.slice(0, 7);
-      break;
     case "Friday":
-      roomData = roomData.slice(0, 6);
+      roomData = roomData.slice(0, 7);
       break;
   }
 

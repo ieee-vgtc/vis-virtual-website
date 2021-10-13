@@ -12,9 +12,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
+                    "Alvitta Ottley",
                     "Liang Gou",
-                    "Junming Shao",
-                    "Alvitta Ottley"
+                    "Junming Shao"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -29,6 +29,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -136,9 +137,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
+                    "Annie T. Chen",
                     "Danny T.Y. Wu",
-                    "J\u00fcrgen Bernard",
-                    "Annie T. Chen"
+                    "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -155,6 +156,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -208,7 +210,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-2.png",
                 "chair": [
-                    "MISSING"
+                    "Annie T. Chen",
+                    "Danny T.Y. Wu",
+                    "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -225,6 +229,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -282,7 +287,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-3.png",
                 "chair": [
-                    "MISSING"
+                    "Annie T. Chen",
+                    "Danny T.Y. Wu",
+                    "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -299,6 +306,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -356,9 +364,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
+                    "Annie T. Chen",
                     "Danny T.Y. Wu",
-                    "J\u00fcrgen Bernard",
-                    "Annie T. Chen"
+                    "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -375,6 +383,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -418,6 +427,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -475,6 +485,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -558,9 +569,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Bridget Moynihan",
+                    "Mark-Jan Bludau",
                     "Eric Alexander",
-                    "Mark-Jan Bludau"
+                    "Bridget Moynihan"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -576,6 +587,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -656,10 +668,10 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Stefania Forlini",
+                    "Chris Weaver",
                     "Houda Lamqaddamm",
                     "Florian Windhager",
-                    "Chris Weaver"
+                    "Stefania Forlini"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -675,6 +687,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -759,8 +772,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Arjun Srinivasan",
-                    "Vidya Setlur"
+                    "Vidya Setlur",
+                    "Arjun Srinivasan"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -776,6 +789,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -895,6 +909,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -1068,6 +1083,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -1133,6 +1149,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -1169,7 +1186,9 @@
                     {
                         "type": "gathertown",
                         "title": "Break",
-                        "contributors": "",
+                        "contributors": [
+                            "All"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-24T13:55:00Z",
                         "time_end": "2021-10-24T14:10:00Z"
@@ -1312,6 +1331,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -1596,8 +1616,8 @@
                 "track": "room1",
                 "schedule_image": "a-vastchallenge.png",
                 "chair": [
-                    "R. Jordan Crouser",
-                    "Kris Cook"
+                    "Kris Cook",
+                    "R. Jordan Crouser"
                 ],
                 "organizers": [
                     "R. Jordan Crouser",
@@ -1619,6 +1639,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -1765,10 +1786,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Paul Rosen",
-                    "Michael Correll",
                     "Jane Adams",
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Paul Rosen",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -1788,6 +1809,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -1988,6 +2010,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": null,
@@ -2022,11 +2045,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
+                    "Eun Kyoung Choe",
                     "Sheelagh Carpendale",
                     "Melanie Tory",
-                    "Bongshin Lee",
-                    "Eun Kyoung Choe",
-                    "Lyn Bartram"
+                    "Lyn Bartram",
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2045,6 +2068,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2161,11 +2185,11 @@
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
                 "chair": [
-                    "Barbara Millet",
-                    "Jon Schwabish",
                     "Alvitta Ottley",
+                    "Adriana Arcia",
+                    "Barbara Millet",
                     "Jonathan Schwabish",
-                    "Adriana Arcia"
+                    "Jon Schwabish"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2183,6 +2207,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2214,7 +2239,8 @@
                         "abstract": "News visualization is a journalistic form that centers on delivering information through data visualizations. It is arousing the interest of journalism professionals and scholars worldwide, including those in non-western societies. Limited studies have identified the challenges and opportunities of news visualization's adoption in non-western newsrooms, but the professionals' considerations and actions to deal with these challenges and seize the opportunities are unknown. This study explores the criteria for a valuable news visualization and how professionals balance the criteria and constraints to make news decisions in the newsrooms in China. A grounded analysis drawing on 15 in-depth interviews with professionals reveals the dynamics of source selection, interpretation, and presentation in news visualization production. It also shows that news visualization stories result from the debating and tradeoffs between the \"western norms\" and the organization's expectations, audiences' preferences, news commercialization, and macro environment in China.",
                         "time_start": "2021-10-24T18:05:00Z",
                         "time_end": "2021-10-24T18:20:00Z",
-                        "uid": "w-viscomm-1015"
+                        "uid": "w-viscomm-1015",
+                        "youtube_video_id": "fJpVOZzjBsA"
                     },
                     {
                         "type": "live",
@@ -2255,7 +2281,8 @@
                         "abstract": "Patient-reported outcomes provide key information about a patient\u2019s health status and are increasingly being integrated into electronic health records as a means of engaging patients in their own care. However, there is a lack of research on how to effectively return this information in a clear and comprehensible way to a wide audience. We conducted a national survey, testing various formats of health information visualizations, and found that overall comprehension is high across all formats, particularly among line graphs, with variations based on literacy and numeracy. This study reinforces the importance of testing various formats among target populations when returning key health information to patients.",
                         "time_start": "2021-10-24T19:05:00Z",
                         "time_end": "2021-10-24T19:20:00Z",
-                        "uid": "w-viscomm-1008"
+                        "uid": "w-viscomm-1008",
+                        "youtube_video_id": "RbnN7LdssfE"
                     },
                     {
                         "type": "recorded",
@@ -2266,7 +2293,8 @@
                         "abstract": "Given the wealth of scientific publications, perusing papers is becoming a larger and more complex burden, especially for junior researchers. In this work, we suggest a visualization-based method to mitigate this problem via the use of paper maps, i.e., concept maps for the summarization of scientific papers. We provide design principles of paper maps and discuss design considerations based on exploratory design studies. We also conducted an initial evaluation for assessing the effectiveness of paper maps in summarizing scientific papers, suggesting that paper maps can improve the readability of scientific papers.",
                         "time_start": "2021-10-24T19:20:00Z",
                         "time_end": "2021-10-24T19:35:00Z",
-                        "uid": "w-viscomm-1005"
+                        "uid": "w-viscomm-1005",
+                        "youtube_video_id": "WGBnQfiqBDw"
                     },
                     {
                         "type": "recorded",
@@ -2288,7 +2316,8 @@
                         "abstract": "Online learning has been an area of tremendous growth in recent years [1], further accelerated by necessity during the coronavirus pandemic [2]. Without the feedback provided by synchronous sessions, however, instructors may lack ongoing insight into students\u2019 progress and performance in fully asynchronous online offerings. Providing greater visibility into students\u2019 online learning behavior has several potential benefits: 1) teachers who seek to provide live sessions that depend on knowledge from asynchronous resources will have a better gauge of students\u2019 preparation; 2) enhanced understanding of the relationship between student pacing and performance can help teachers and researchers characterize the impact of timely engagement with online course material; 3) providing a means of monitoring the effect of changes in course structure or incentives may guide course designers/planners in continuous improvement; and 4) visualizations that illustrate the relationship between students\u2019 course progress and performance have the promise of allowing teachers to take steps early to positively affect students\u2019 outcomes. In this visual case study, visualizations are provided for exploration of the relationship between student progress and performance in an online medicine-related course.",
                         "time_start": "2021-10-24T19:50:00Z",
                         "time_end": "2021-10-24T20:00:00Z",
-                        "uid": "w-viscomm-1010"
+                        "uid": "w-viscomm-1010",
+                        "youtube_video_id": "Klj6735Gi0U"
                     },
                     {
                         "type": "live",
@@ -2355,6 +2384,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2413,6 +2443,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -2487,6 +2518,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -2545,8 +2577,8 @@
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
                     "Johanna Beyer",
-                    "Kristi Potter",
-                    "Chaoli Wang"
+                    "Chaoli Wang",
+                    "Kristi Potter"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -2563,6 +2595,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2669,6 +2702,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2719,6 +2753,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -2770,6 +2805,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2821,6 +2857,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -2885,6 +2922,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -2994,6 +3032,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": null,
@@ -3044,10 +3083,10 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Madison Elliott",
+                    "Danielle Szafir",
                     "Cindy Xiong",
                     "Christie Nothelfer",
-                    "Danielle Szafir"
+                    "Madison Elliott"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3065,6 +3104,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -3243,11 +3283,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Evan Peck",
-                    "Leilani Battle",
+                    "Michelle Borkin",
                     "Michael Correll",
                     "Lane Harrison",
-                    "Michelle Borkin"
+                    "Leilani Battle",
+                    "Evan Peck"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3266,6 +3306,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -3423,8 +3464,8 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Matt Cooper",
                     "Niklas R\u00f6nnberg",
+                    "Matt Cooper",
                     "Camilla Forsell"
                 ],
                 "organizers": [
@@ -3442,6 +3483,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -3547,6 +3589,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -3635,9 +3678,9 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "Fred Hohman",
                     "Menna El-Assady",
                     "VISxAI orga",
+                    "Fred Hohman",
                     "Adam Perer",
                     "Hendrik Strobelt"
                 ],
@@ -3654,6 +3697,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": null,
@@ -3668,7 +3712,9 @@
                     {
                         "type": null,
                         "title": "[best submission] What Have Language Models Learned?",
-                        "contributors": "",
+                        "contributors": [
+                            "Adam Pearce"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T18:00:00Z",
                         "time_end": "2021-10-25T18:10:00Z"
@@ -3676,7 +3722,9 @@
                     {
                         "type": null,
                         "title": "[runner up] Feature Sonification",
-                        "contributors": "",
+                        "contributors": [
+                            "Amin Ghiasi"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T18:10:00Z",
                         "time_end": "2021-10-25T18:20:00Z"
@@ -3684,7 +3732,9 @@
                     {
                         "type": null,
                         "title": "Interactive Similarity Overlays",
-                        "contributors": "",
+                        "contributors": [
+                            "Ruth Fong"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T18:20:00Z",
                         "time_end": "2021-10-25T18:30:00Z"
@@ -3692,7 +3742,9 @@
                     {
                         "type": "live",
                         "title": "An Interactive Introduction to Model-Agnostic Meta-Learning",
-                        "contributors": "",
+                        "contributors": [
+                            "Thomas Goerttler"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:00:00Z",
                         "time_end": "2021-10-25T19:10:00Z"
@@ -3700,7 +3752,9 @@
                     {
                         "type": "live",
                         "title": "Demystifying the ...",
-                        "contributors": "",
+                        "contributors": [
+                            "Rebecca Kehlbeck"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:10:00Z",
                         "time_end": "2021-10-25T19:20:00Z"
@@ -3708,7 +3762,9 @@
                     {
                         "type": "live",
                         "title": "Backprop Explainer: Interactive Explanation of Backpropagation in Neural Network Training",
-                        "contributors": "",
+                        "contributors": [
+                            "Minsuk Kahng"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:20:00Z",
                         "time_end": "2021-10-25T19:30:00Z"
@@ -3716,7 +3772,9 @@
                     {
                         "type": "recorded-MISSING",
                         "title": "30-sec pitches",
-                        "contributors": "",
+                        "contributors": [
+                            "VISxAI orga"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:30:00Z",
                         "time_end": "2021-10-25T19:35:00Z"
@@ -3724,7 +3782,9 @@
                     {
                         "type": "live",
                         "title": "(Un)Fair Machine",
-                        "contributors": "",
+                        "contributors": [
+                            "Vu Luong"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:35:00Z",
                         "time_end": "2021-10-25T19:45:00Z"
@@ -3732,7 +3792,9 @@
                     {
                         "type": "live",
                         "title": "Amazon's MLU-Explain: Interactive Explanations of Core Machine Learning Concepts",
-                        "contributors": "",
+                        "contributors": [
+                            "Jared Wilber"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:45:00Z",
                         "time_end": "2021-10-25T19:55:00Z"
@@ -3740,7 +3802,9 @@
                     {
                         "type": "live",
                         "title": "Exploring Hidden Markov Model",
-                        "contributors": "",
+                        "contributors": [
+                            "Rishiraj Adhikary"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:55:00Z",
                         "time_end": "2021-10-25T20:05:00Z"
@@ -3748,7 +3812,9 @@
                     {
                         "type": "live",
                         "title": "Closing Remarks",
-                        "contributors": "",
+                        "contributors": [
+                            "VISxAI orga"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-25T20:05:00Z",
                         "time_end": "2021-10-25T20:10:00Z"
@@ -3770,14 +3836,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Kajetan Enge",
-                    "Robert H\u00f6ldrich",
-                    "Bruce N. Walker",
-                    "Niklas R\u00f6nnberg",
-                    "Wolfgang Aigner",
-                    "Alexander Rind",
                     "Niklas Elmqvist",
-                    "Michael Iber"
+                    "Michael Iber",
+                    "Kajetan Enge",
+                    "Alexander Rind",
+                    "Bruce N. Walker",
+                    "Robert H\u00f6ldrich",
+                    "Wolfgang Aigner",
+                    "Niklas R\u00f6nnberg"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -3799,6 +3865,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -3914,9 +3981,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Bongshin Lee",
+                    "Anastasia Bezerianos",
                     "Petra Isenberg",
-                    "Anastasia Bezerianos"
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -3933,6 +4000,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -3992,6 +4060,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4001,8 +4070,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T17:00:00Z",
-                        "time_end": "2021-10-25T17:40:00Z",
-                        "youtube_video_id": "_MBL_tWSODQ"
+                        "time_end": "2021-10-25T17:40:00Z"
                     },
                     {
                         "type": "recorded",
@@ -4022,8 +4090,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T17:59:00Z",
-                        "time_end": "2021-10-25T18:25:00Z",
-                        "youtube_video_id": "8wOUvWGe_Ws"
+                        "time_end": "2021-10-25T18:25:00Z"
                     },
                     {
                         "type": "live",
@@ -4045,8 +4112,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:00:00Z",
-                        "time_end": "2021-10-25T19:32:00Z",
-                        "youtube_video_id": "GJdOj72INSc"
+                        "time_end": "2021-10-25T19:32:00Z"
                     },
                     {
                         "type": "recorded",
@@ -4066,8 +4132,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:52:00Z",
-                        "time_end": "2021-10-25T20:16:00Z",
-                        "youtube_video_id": "xQ8EDA8o1V8"
+                        "time_end": "2021-10-25T20:16:00Z"
                     },
                     {
                         "type": "live",
@@ -4098,12 +4163,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Terry Yoo",
                     "Tamara Munzner",
+                    "Luis Gustavo Nonato",
                     "Brian Summa",
                     "Daniel Weiskopf",
-                    "Catherine Plaisant",
-                    "Luis Gustavo Nonato"
+                    "Terry Yoo",
+                    "Catherine Plaisant"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4116,6 +4181,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -4131,7 +4197,9 @@
                     {
                         "type": "live",
                         "title": "VGTC Awards",
-                        "contributors": "",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-26T13:00:00Z",
                         "time_end": "2021-10-26T13:45:00Z"
@@ -4181,6 +4249,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4198,7 +4267,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines",
+                        "title": "IRVINE: A Design Study on Analyzing Correlation Patterns of Electrical Engines",
                         "contributors": [
                             "Joscha Eirich",
                             "Jakob Bonart",
@@ -4283,6 +4352,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4397,10 +4467,11 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
-                        "title": "AffectiveTDA: Using Topological Data Analysis for Improved Explainability in Affective Computing",
+                        "title": "AffectiveTDA: Using Topological Data Analysis to Improve Analysis and Explainability in Affective Computing",
                         "contributors": [
                             "Hamza Elhamdadi",
                             "Shaun Canavan",
@@ -4514,6 +4585,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4626,6 +4698,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4738,6 +4811,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4863,6 +4937,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -4909,7 +4984,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "From Jam Session to Concert Hall: Synchronous Communication and Collaboration Around Data in Organizations",
+                        "title": "From Jam Session to Recital: Synchronous Communication and Collaboration Around Data in Organization",
                         "contributors": [
                             "Matthew Brehmer",
                             "Robert Kosara"
@@ -4970,6 +5045,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5002,7 +5078,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "matExplorer: Visual Exploration on Predicting of Ionic Conductivity for Solid-State Electrolytes",
+                        "title": "matExplorer: Visual Exploration on Predicting Ionic Conductivity for Solid-State Electrolytes",
                         "contributors": [
                             "Jiansu Pu",
                             "Hui Shao",
@@ -5090,6 +5166,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5212,6 +5289,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5299,7 +5377,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "An Automated Approach to Reasoning About Task-Oriented Visualization Insights in Responsive Visualization",
+                        "title": "An Automated Approach to Reasoning About Task-Oriented Insights in Responsive Visualization",
                         "contributors": [
                             "Hyeok Kim",
                             "Ryan Rossi",
@@ -5334,6 +5412,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5365,11 +5444,12 @@
                         "abstract": "The Dual Analysis framework is a powerful enabling technology for the exploration of high dimensional quantitative data by treating data dimensions as first-class objects that can be explored in tandem with data values. In this work, we extend the Dual Analysis framework through the joint treatment of quantitative (numerical) and qualitative (categorical) dimensions. Computing common measures for all dimensions allows us to visualize both quantitative and qualitative dimensions in the same view. This enables a natural joint treatment of mixed data during interactive visual exploration and analysis. Several measures of variation for nominal qualitative data can also be applied to ordinal qualitative and quantitative data. For example, instead of measuring variability from a mean or median, other measures assess inter-data variation or average variation from a mode. In this work, we demonstrate how these measures can be integrated into the Dual Analysis framework to explore and generate hypotheses about high-dimensional mixed data. A medical case study using clinical routine data of patients suffering from Cerebral Small Vessel Disease (CSVD), conducted with a senior neurologist and a medical student, shows that a joint Dual Analysis approach for quantitative and qualitative data can rapidly lead to new insights based on which new hypotheses may be generated.",
                         "time_start": "2021-10-27T17:15:00Z",
                         "time_end": "2021-10-27T17:30:00Z",
-                        "uid": "v-tvcg-9346003"
+                        "uid": "v-tvcg-9346003",
+                        "youtube_video_id": "PhZ0L84qDWE"
                     },
                     {
                         "type": "recorded",
-                        "title": "Revisiting Dimensionality Reduction Approaches for Visual Cluster Analysis: An Empirical Study",
+                        "title": "Revisiting Dimensionality Reduction Techniques for Visual Cluster Analysis: An Empirical Study",
                         "contributors": [
                             "Jiazhi Xia",
                             "Yuchen Zhang",
@@ -5403,7 +5483,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "Attribute-based Explanations of Non-Linear Embeddings of High-Dimensional Data",
+                        "title": "Attribute-based Explanation of Non-Linear Embeddings of High-Dimensional Data",
                         "contributors": [
                             "Jan-Tobias Sohns",
                             "Michaela Schmitt",
@@ -5454,6 +5534,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5578,6 +5659,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5684,6 +5766,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5799,6 +5882,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -5914,6 +5998,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6035,6 +6120,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6161,6 +6247,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6271,6 +6358,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6397,6 +6485,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6512,6 +6601,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6625,6 +6715,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6748,6 +6839,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6765,7 +6857,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "GlyphCreator: Towards Automatic Generation of Example-based Circular Glyphs",
+                        "title": "GlyphCreator: Towards Example-Based Automatic Generation of Circular Glyphs",
                         "contributors": [
                             "Lu Ying",
                             "Tan Tang",
@@ -6865,6 +6957,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -6928,7 +7021,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "Effect of Uncertainty Visualizations on Myopic Loss Aversion and Equity Premium Puzzle in Retirement Investment Decisions",
+                        "title": "Effect of Uncertainty Visualizations on Myopic Loss Aversion and the Equity Premium Puzzle in Retirement Investment Decisions",
                         "contributors": [
                             "Ryan Wesslen",
                             "Alireza Karduni",
@@ -6977,6 +7070,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -7067,7 +7161,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models",
+                        "title": "VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models",
                         "contributors": [
                             "Furui Cheng",
                             "Dongyu Liu",
@@ -7105,6 +7199,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -7219,6 +7314,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -7325,8 +7421,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7339,6 +7435,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -7353,7 +7450,9 @@
                     {
                         "type": "recorded",
                         "title": "VIS Full Papers Opening",
-                        "contributors": "",
+                        "contributors": [
+                            "Full Papers Chairs"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-26T18:00:00Z",
                         "time_end": "2021-10-26T18:15:00Z"
@@ -7361,7 +7460,9 @@
                     {
                         "type": "recorded",
                         "title": "VIS Short Papers Opening",
-                        "contributors": "",
+                        "contributors": [
+                            "Short Papers Chairs"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-26T18:15:00Z",
                         "time_end": "2021-10-26T18:30:00Z"
@@ -7398,6 +7499,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -7512,6 +7614,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -7648,6 +7751,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -7826,11 +7930,14 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": null,
                         "title": "Memorial Session",
-                        "contributors": "",
+                        "contributors": [
+                            "Missing"
+                        ],
                         "abstract": null,
                         "time_start": "2021-10-26T19:00:00Z",
                         "time_end": "2021-10-26T20:00:00Z"
@@ -7867,12 +7974,63 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "Zoom Only",
                         "title": "Better Online Presentations",
                         "contributors": [
                             "Robert Kosara"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T19:00:00Z",
+                        "time_end": "2021-10-26T22:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "m-visbuddies": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "VisBuddies Meetup in Gathertown",
+                "session_id": "m-visbuddies",
+                "track": "room4",
+                "schedule_image": "m-visbuddies.png",
+                "chair": [
+                    "Lane Harrison",
+                    "Hsiang-Yun Wu",
+                    "Karen Schloss"
+                ],
+                "organizers": [
+                    "Hsiang-Yun Wu",
+                    "Karen Schloss",
+                    "Lane Harrison"
+                ],
+                "time_start": "2021-10-26T19:00:00Z",
+                "time_end": "2021-10-26T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": true,
+                "time_slots": [
+                    {
+                        "type": "Gathertown Only",
+                        "title": "VisBuddies Meetup in Gathertown",
+                        "contributors": [
+                            "Hsiang-Yun Wu",
+                            "Karen Schloss",
+                            "Lane Harrison"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-26T19:00:00Z",
@@ -7912,6 +8070,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -7923,71 +8082,6 @@
                         "abstract": null,
                         "time_start": "2021-10-26T20:00:00Z",
                         "time_end": "2021-10-26T23:00:00Z"
-                    }
-                ]
-            }
-        ]
-    },
-    "v-satellite": {
-        "event": "VIS",
-        "long_name": "VIS",
-        "event_type": "VIS",
-        "event_description": "",
-        "event_url": "",
-        "sessions": [
-            {
-                "title": "Satellite Shoutouts 1",
-                "session_id": "v-satellite-1",
-                "track": "room8",
-                "schedule_image": "v-satellite-1.png",
-                "chair": [],
-                "organizers": [],
-                "time_start": "2021-10-27T12:40:00Z",
-                "time_end": "2021-10-27T13:00:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "time_slots": [
-                    {
-                        "type": null,
-                        "title": "Satellite Shoutouts 1",
-                        "contributors": "",
-                        "abstract": null,
-                        "time_start": "2021-10-27T12:40:00Z",
-                        "time_end": "2021-10-27T13:00:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Satellite Shoutouts 2",
-                "session_id": "v-satellite-1",
-                "track": "room7",
-                "schedule_image": "v-satellite-1.png",
-                "chair": [],
-                "organizers": [],
-                "time_start": "2021-10-28T12:40:00Z",
-                "time_end": "2021-10-28T13:00:00Z",
-                "discord_category": "",
-                "discord_channel": "",
-                "discord_channel_id": 0,
-                "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "time_slots": [
-                    {
-                        "type": null,
-                        "title": "Satellite Shoutouts 2",
-                        "contributors": "",
-                        "abstract": null,
-                        "time_start": "2021-10-28T12:40:00Z",
-                        "time_end": "2021-10-28T13:00:00Z"
                     }
                 ]
             }
@@ -8019,6 +8113,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -8154,6 +8249,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -8200,7 +8296,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "\"Why did my AI agent lose?\": Visual Analytics for Scaling Up AAR/AI",
+                        "title": "Why did my AI Agent Lose? Visual Analytics for Scaling Up After-Action Review",
                         "contributors": [
                             "Delyar Tabatabai",
                             "Anita Ruangrotsakun",
@@ -8304,6 +8400,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -8439,6 +8536,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -8589,6 +8687,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -8740,6 +8839,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8776,6 +8876,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8810,6 +8911,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8844,6 +8946,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8882,6 +8985,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8917,6 +9021,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8949,8 +9054,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8966,6 +9071,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -8999,7 +9105,7 @@
                     },
                     {
                         "type": "recorded",
-                        "title": "Best Paper: Automatic Narrative Summarization for Visualizing Cyber Security Logs and Incident Reports",
+                        "title": "Automatic Narrative Summarization for Visualizing Cyber Security Logs and Incident Reports",
                         "contributors": [
                             "Robert Gove"
                         ],
@@ -9017,8 +9123,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9034,6 +9140,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9102,8 +9209,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9119,6 +9226,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9204,7 +9312,9 @@
                 "session_id": "x-sponsor-1",
                 "track": "room8",
                 "schedule_image": "x-sponsor-1.png",
-                "chair": [],
+                "chair": [
+                    "Eli Brown"
+                ],
                 "organizers": [],
                 "time_start": "2021-10-27T14:45:00Z",
                 "time_end": "2021-10-27T15:00:00Z",
@@ -9216,6 +9326,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9232,7 +9343,9 @@
                 "session_id": "x-sponsor-2",
                 "track": "room7",
                 "schedule_image": "x-sponsor-2.png",
-                "chair": [],
+                "chair": [
+                    "Eli Brown"
+                ],
                 "organizers": [],
                 "time_start": "2021-10-28T14:45:00Z",
                 "time_end": "2021-10-28T15:00:00Z",
@@ -9244,6 +9357,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9283,6 +9397,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9351,7 +9466,8 @@
                         "abstract": "Physical engagement with data necessarily influences the reflective process. However, the role of interactivity and narration are often overlooked when designing and analyzing personal data physicalizations. We introduce Narrative Physicalizations, everyday objects modified to support nuanced self-reflection through embodied engagement with personal data. Narrative physicalizations borrow from narrative visualizations, storytelling with graphs, and engagement with mundane artifacts from data-objects. Our research uses a participatory approach to research-through-design and includes two interdependent studies. In the first, personalized data physicalizations are developed for three individuals. In the second, we conduct a parallel autobiographical exploration of what constitutes personal data when using a Fitbit. Our work expands the landscape of data physicalization by introducing narrative physicalizations. It suggests an experience-centric view on data physicalization where people engage physically with their data in playful ways, making their body an active agent during the reflective process.",
                         "time_start": "2021-10-27T16:00:00Z",
                         "time_end": "2021-10-27T16:15:00Z",
-                        "uid": "v-cga-9200790"
+                        "uid": "v-cga-9200790",
+                        "youtube_video_id": "SC8W86cL9vM"
                     },
                     {
                         "type": "recorded",
@@ -9392,6 +9508,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9499,6 +9616,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "recorded",
@@ -9509,7 +9627,8 @@
                         "abstract": "When adding a photo onto a graphic design, professional graphic designers often adjust its colors based on some target colors obtained from the brand or product to make the entire design more memorable to audiences and establish a consistent brand identity. However, adjusting the colors of a photo in the context of a graphic design is a difficult task, with two major challenges: (1) Locality: The color is often adjusted locally to preserve the semantics and atmosphere of the original image; and (2) Naturalness: The modified region needs to be carefully chosen and recolored to obtain a semantically valid and visually natural result. To address these challenges, we propose a learning-based approach to photo color adjustment for graphic designs, which maps an input photo along with the target colors to a recolored result. Our method decomposes the color adjustment process into two successive stages: modifiable region selection and target color propagation. The first stage aims to solve the core, challenging problem of which local image region(s) should be adjusted, which requires not only a common sense of colors appearing in our visual world but also understanding of subtle visual design heuristics. To this end, we capitalize on both natural photos and graphic designs to train a region selection network, which detects the most likely regions to be adjusted to the target colors. The second stage trains a recoloring network to naturally propagate the target colors in the detected regions. Through extensive experiments and a user study, we demonstrate the effectiveness of our selective region-based photo recoloring framework.",
                         "time_start": "2021-10-29T15:00:00Z",
                         "time_end": "2021-10-29T15:15:00Z",
-                        "uid": "v-siggraph-115"
+                        "uid": "v-siggraph-115",
+                        "youtube_video_id": "ULT5oEwE-iw"
                     },
                     {
                         "type": "recorded",
@@ -9520,7 +9639,8 @@
                         "abstract": "Non-photorealistic rendering (NPR) and image processing algorithms are widely assumed as a proxy for drawing. However, this assumption is not well assessed due to the difficulty in collecting and registering freehand drawings. Alternatively, tracings are easier to collect and register, but there is no quantitative evaluation of tracing as a proxy for freehand drawing. In this paper, we compare tracing, freehand drawing, and computer-generated drawing approximation (CGDA) to understand their similarities and differences. We collected a dataset of 1,498 tracings and freehand drawings by 110 participants for 100 image prompts. Our drawings are registered to the prompts and include vector-based timestamped strokes collected via stylus input. Comparing tracing and freehand drawing, we found a high degree of similarity in stroke placement and types of strokes used over time. We show that tracing can serve as a viable proxy for freehand drawing because of similar correlations between spatio-temporal stroke features and labeled stroke types. Comparing hand-drawn content and current CGDA output, we found that 60% of drawn pixels corresponded to computer-generated pixels on average. The overlap tended to be commonly drawn content, but people's artistic choices and temporal tendencies remained largely uncaptured. We present an initial analysis to inform new CGDA algorithms and drawing applications, and provide the dataset for use by the community.",
                         "time_start": "2021-10-29T15:15:00Z",
                         "time_end": "2021-10-29T15:30:00Z",
-                        "uid": "v-siggraph-332"
+                        "uid": "v-siggraph-332",
+                        "youtube_video_id": "cG7kkH0xMoQ"
                     },
                     {
                         "type": "recorded",
@@ -9531,7 +9651,8 @@
                         "abstract": "We introduce a novel transmittance model to improve the volumetric representation of 3D scenes. The model can represent opaque surfaces in the volumetric light transport framework. Volumetric representations are useful for complex scenes, and become increasingly popular for level of detail and scene reconstruction. The traditional exponential transmittance model found in volumetric light transport cannot capture correlations in visibility across volume elements. When representing opaque surfaces as volumetric density, this leads to both bloating of silhouettes and light leaking artifacts. By introducing a parametric non-exponential transmittance model, we are able to approximate these correlation effects and significantly improve the accuracy of volumetric appearance representation of opaque scenes. Our parametric transmittance model can represent a continuum between the linear transmittance that opaque surfaces exhibit and the traditional exponential transmittance encountered in participating media and unstructured geometries. This covers a large part of the spectrum of geometric structures encountered in complex scenes. In order to handle the spatially varying transmittance correlation effects, we further extend the theory of non-exponential participating media to a heterogeneous transmittance model. Our model is compact in storage and computationally efficient both for evaluation and for reverse-mode gradient computation. Applying our model to optimization algorithms yields significant improvements in volumetric scene appearance quality. We further show improvements for relevant applications, such as scene appearance prefiltering, image-based scene reconstruction using differentiable rendering, neural representations, and compare it to a conventional exponential model.",
                         "time_start": "2021-10-29T15:30:00Z",
                         "time_end": "2021-10-29T15:45:00Z",
-                        "uid": "v-siggraph-322"
+                        "uid": "v-siggraph-322",
+                        "youtube_video_id": "MMYhanISsqI"
                     },
                     {
                         "type": "recorded",
@@ -9542,7 +9663,8 @@
                         "abstract": "Generating free-viewpoint videos is critical for immersive VR/AR experience but recent neural advances still lack the editing ability to manipulate the visual perception for large dynamic scenes. To fill this gap, in this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. The core of our approach is a new layered neural representation, where each dynamic entity including the environment itself is formulated into a space-time coherent neural layered radiance representation called ST-NeRF. Such layered representation supports fully perception and realistic manipulation of the dynamic scene whilst still supporting a free viewing experience in a wide range. In our ST-NeRF, the dynamic entity/layer is represented as continuous functions, which achieves the disentanglement of location, deformation as well as the appearance of the dynamic entity in a continuous and self-supervised manner. We propose a scene parsing 4D label map tracking to disentangle the spatial information explicitly, and a continuous deform module to disentangle the temporal motion implicitly. An object-aware volume rendering scheme is further introduced for the re-assembling of all the neural layers. We adopt a novel layered loss and motion-aware ray sampling strategy to enable efficient training for a large dynamic scene with multiple performers, Our framework further enables a variety of editing functions, i.e., manipulating the scale and location, duplicating or retiming individual neural layers to create numerous visual effects while preserving high realism. Extensive experiments demonstrate the effectiveness of our approach to achieve high-quality, photo-realistic, and editable free-viewpoint video generation for dynamic scenes.",
                         "time_start": "2021-10-29T15:45:00Z",
                         "time_end": "2021-10-29T16:00:00Z",
-                        "uid": "v-siggraph-173"
+                        "uid": "v-siggraph-173",
+                        "youtube_video_id": "1lveHukXhvA"
                     },
                     {
                         "type": "recorded",
@@ -9553,7 +9675,8 @@
                         "abstract": "Manufactured parts are meticulously engineered to perform well with respect to several conflicting metrics, like weight, stress, and cost. The best achievable trade-offs reside on the Pareto front which can be discovered via performance-driven optimization. The objectives that define this Pareto front often incorporate assumptions about the context in which a part will be used, including loading conditions, environmental influences, material properties, or regions that must be preserved to interface with a surrounding assembly. Existing multi-objective optimization tools are only equipped to study one context at a time, so engineers must run independent optimizations for each context of interest. However, engineered parts frequently appear in many contexts: wind turbines must perform well in many wind speeds, and a bracket might be optimized several times with its bolt-holes fixed in different locations on each run. In this paper, we formulate a framework for variable-context multi-objective optimization. We introduce the Pareto gamut, which captures Pareto fronts over a range of contexts. We develop a global/local optimization algorithm to discover the Pareto gamut directly, rather than discovering a single fixed-context \"slice\" at a time. To validate our method, we adapt existing multi-objective optimization benchmarks to contextual scenarios. We also demonstrate the practical utility of Pareto gamut exploration for several engineering design problems.",
                         "time_start": "2021-10-29T16:00:00Z",
                         "time_end": "2021-10-29T16:15:00Z",
-                        "uid": "v-siggraph-153"
+                        "uid": "v-siggraph-153",
+                        "youtube_video_id": "T0JcEACIhKA"
                     },
                     {
                         "type": "recorded",
@@ -9564,7 +9687,8 @@
                         "abstract": "We propose NeuMIP, a neural method for representing and rendering a variety of material appearances at different scales. Classical prefiltering (mipmapping) methods work well on simple material properties such as diffuse color, but fail to generalize to normals, self-shadowing, fibers or more complex microstructures and reflectances. In this work, we generalize traditional mipmap pyramids to pyramids of neural textures, combined with a fully connected network. We also introduce neural offsets, a novel method which allows rendering materials with intricate parallax effects without any tessellation. This generalizes classical parallax mapping, but is trained without supervision by any explicit heightfield. Neural materials within our system support a 7-dimensional query, including position, incoming and outgoing direction, and the desired filter kernel size. The materials have small storage (on the order of standard mipmapping except with more texture channels), and can be integrated within common Monte-Carlo path tracing systems. We demonstrate our method on a variety of materials, resulting in complex appearance across levels of detail, with accurate parallax, self-shadowing, and other effects.",
                         "time_start": "2021-10-29T16:15:00Z",
                         "time_end": "2021-10-29T16:30:00Z",
-                        "uid": "v-siggraph-287"
+                        "uid": "v-siggraph-287",
+                        "youtube_video_id": "iVCDC44lo8A"
                     }
                 ]
             }
@@ -9583,12 +9707,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Subhashis Hazarika",
-                    "Steven Morley",
-                    "Natalie Klein",
-                    "Ayan Biswas",
                     "Earl Lawrence",
-                    "Divya Banesh"
+                    "Steven Morley",
+                    "Subhashis Hazarika",
+                    "Divya Banesh",
+                    "Natalie Klein",
+                    "Ayan Biswas"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9608,6 +9732,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -9632,12 +9757,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Noeska Smit",
+                    "Katja B\u00fchler",
                     "Renata G. Raidou",
+                    "Uulke van der Heide",
                     "Vitali Moiseenko",
                     "Wouter van Elmpt",
-                    "Katja B\u00fchler",
-                    "Uulke van der Heide",
+                    "Noeska Smit",
                     "Ludvig P. Muren"
                 ],
                 "organizers": [
@@ -9659,6 +9784,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -9685,9 +9811,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Anders Ynnerman",
                     "Alexander Bock",
-                    "Mark SubbaRao"
+                    "Mark SubbaRao",
+                    "Anders Ynnerman"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -9704,6 +9830,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -9726,8 +9853,8 @@
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
                     "Petra Gospodnetic",
-                    "Christina Gillmann",
-                    "Karsten Rink"
+                    "Karsten Rink",
+                    "Christina Gillmann"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -9744,6 +9871,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -9823,6 +9951,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -9842,6 +9971,50 @@
             }
         ]
     },
+    "m-viscomm-meetup": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "VisComm Meetup",
+                "session_id": "m-viscomm-meetup",
+                "track": "room1",
+                "schedule_image": "m-viscomm-meetup.png",
+                "chair": [
+                    "Adriana Arcia"
+                ],
+                "organizers": [
+                    "Adriana Arcia"
+                ],
+                "time_start": "2021-10-27T19:00:00Z",
+                "time_end": "2021-10-27T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "VisComm Meetup",
+                        "contributors": [
+                            "Adriana Arcia"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T19:00:00Z",
+                        "time_end": "2021-10-27T22:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "m-gender": {
         "event": "Meetups",
         "long_name": "Meetups",
@@ -9852,7 +10025,7 @@
             {
                 "title": "Gender Representation and Diversity at IEEE VIS",
                 "session_id": "m-gender",
-                "track": "room3",
+                "track": "room2",
                 "schedule_image": "m-gender.png",
                 "chair": [
                     "Petra Isenberg",
@@ -9872,6 +10045,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -9883,6 +10057,73 @@
                         "abstract": null,
                         "time_start": "2021-10-27T20:00:00Z",
                         "time_end": "2021-10-27T23:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-satellite": {
+        "event": "VIS",
+        "long_name": "VIS",
+        "event_type": "VIS",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Satellite Shoutouts 1",
+                "session_id": "v-satellite-1",
+                "track": "room8",
+                "schedule_image": "v-satellite-1.png",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T12:40:00Z",
+                "time_end": "2021-10-28T13:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Satellite Shoutouts 1",
+                        "contributors": "",
+                        "abstract": null,
+                        "time_start": "2021-10-28T12:40:00Z",
+                        "time_end": "2021-10-28T13:00:00Z"
+                    }
+                ]
+            },
+            {
+                "title": "Satellite Shoutouts 2",
+                "session_id": "v-satellite-2",
+                "track": "room7",
+                "schedule_image": "v-satellite-2.png",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-29T12:40:00Z",
+                "time_end": "2021-10-29T13:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": null,
+                        "title": "Satellite Shoutouts 2",
+                        "contributors": "",
+                        "abstract": null,
+                        "time_start": "2021-10-29T12:40:00Z",
+                        "time_end": "2021-10-29T13:00:00Z"
                     }
                 ]
             }
@@ -9901,8 +10142,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Alex Razoumov",
-                    "Thomas Theu\u00dfl"
+                    "Thomas Theu\u00dfl",
+                    "Alex Razoumov"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -9918,6 +10159,7 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
@@ -10066,9 +10308,10 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "Streamed?",
+                        "type": "live",
                         "title": "VIS 2022 Kickoff Meeting",
                         "contributors": "",
                         "abstract": null,
@@ -10103,9 +10346,10 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "Streamed?",
+                        "type": "live",
                         "title": "VIS Townhall",
                         "contributors": "",
                         "abstract": null,
@@ -10140,9 +10384,10 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "Streamed?",
+                        "type": "live",
                         "title": "Student Mentorship Session",
                         "contributors": "",
                         "abstract": null,
@@ -10166,8 +10411,8 @@
                 "track": "room3",
                 "schedule_image": "m-climate.png",
                 "chair": [
-                    "Subhashis Hazarika",
-                    "Peetak Mitra"
+                    "Peetak Mitra",
+                    "Subhashis Hazarika"
                 ],
                 "organizers": [
                     "Subhashis Hazarika",
@@ -10183,6 +10428,7 @@
                 "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "Zoom Only",
@@ -10190,6 +10436,50 @@
                         "contributors": [
                             "Subhashis Hazarika",
                             "Peetak Mitra"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T19:00:00Z",
+                        "time_end": "2021-10-28T22:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "m-jobfair": {
+        "event": "Meetups",
+        "long_name": "Meetups",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Job Fair in Gathertown",
+                "session_id": "m-jobfair",
+                "track": "room4",
+                "schedule_image": "m-jobfair.png",
+                "chair": [
+                    "Lane Harrison"
+                ],
+                "organizers": [
+                    "Lane Harrison"
+                ],
+                "time_start": "2021-10-28T19:00:00Z",
+                "time_end": "2021-10-28T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": true,
+                "time_slots": [
+                    {
+                        "type": "Gathertown Only",
+                        "title": "Job Fair in Gathertown",
+                        "contributors": [
+                            "Lane Harrison"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-28T19:00:00Z",
@@ -10207,13 +10497,13 @@
         "event_url": "",
         "sessions": [
             {
-                "title": "VIS Capstone by Fernanda Vi\u00e9gas and Martin Wattenberg",
+                "title": "Capstone by Fernanda Vi\u00e9gas and Martin Wattenberg",
                 "session_id": "x-vis-closing1",
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",
@@ -10226,10 +10516,11 @@
                 "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
+                "gathertown_event": false,
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "VIS Capstone by Fernanda Vi\u00e9gas and Martin Wattenberg",
+                        "title": "Capstone by Fernanda Vi\u00e9gas and Martin Wattenberg",
                         "contributors": [
                             "Fernanda Vi\u00e9gas",
                             "Martin Wattenberg"
