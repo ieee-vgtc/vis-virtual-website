@@ -280,6 +280,7 @@ def format_paper(v):
         "event_title": paper_event["event"],
         "award": v["paper_award"],
         "has_image": v["has_image"],
+        "has_pdf": v["has_pdf"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
         "youtube_ff_url": v["ff_link"],
