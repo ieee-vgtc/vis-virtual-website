@@ -35,7 +35,7 @@
         [timezones-end];
 }
 
-/* one additional column; max 7 concurrent rooms */
+/* one additional column; max 8 concurrent rooms */
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
@@ -64,7 +64,7 @@
         [timezones-end];
 }
 
-#calendar-Thursday {
+#calendar-Friday {
     grid-template-columns:
         [times] 5em
         [room1-start] 1fr
@@ -75,19 +75,6 @@
         [room5-end room6-start] 1fr
         [room6-end room7-start] 1fr
         [room7-end timezones] 5em
-        [timezones-end];
-}
-
-#calendar-Friday {
-    grid-template-columns:
-        [times] 5em
-        [room1-start] 1fr
-        [room1-end room2-start] 1fr
-        [room2-end room3-start] 1fr
-        [room3-end room4-start] 1fr
-        [room4-end room5-start] 1fr
-        [room5-end room6-start] 1fr
-        [room6-end timezones] 5em
         [timezones-end];
 }
 
