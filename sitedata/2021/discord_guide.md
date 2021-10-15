@@ -1,6 +1,6 @@
 # IEEE VIS 2020 Discord Guide
 
-Discord is a chat platform similar to Slack. The server contains a set
+Discord is a chat platform similar to Slack or IRC. The server contains a set
 of channels, which can be grouped into categories. These are shown in
 the UI panel to the left, as in the picture below.
 
@@ -8,24 +8,17 @@ the UI panel to the left, as in the picture below.
 **Figure 1:** Discord's User Interface. Channels are shown to the
 left, those with a \# icon (a) are text channels, those with a speaker
 icon (b) are voice chat channels. Users on the server are shown to the
-left. (c) Channels are grouped into categories by event. (d) The
+left. (c) Channels are grouped into categories. (d) The
 microphone icone is used to mute or unmute yourself, the headset icon is
 used to deafen (silence incoming voice chat) or undeafen yourself. (e)
 is the input for the chat.
 
-## Channels for Conference Sessions
+## Channels for Conference Tracks
 
-A category is created for each conference event (e.g., associated
-events, workshops, full papers, short papers), and a channel within this
-category for each session of the event. These channels are created as
-the conference takes place. Thus on Sunday, the channel list will only
-show channels for events on Sunday. On Monday, the channel list will
-contain channels for all events taking place on Sunday and Monday, and
-so on through the week. Each event also has a "general" channel which
-can be used for general chat related to the event. When the session is
-live, the Discord Channel and YouTube chats will be synchronized using a
-bot. Messages from YouTube will be prefixed with (YouTube). Similarly,
-on YouTube messages from Discord are prefixed (Discord).
+A channel is created for each conference track (named after famous
+New Orleans streets) that will be the same throughout the week. 
+While viewing a session in the virtual website, the track's channel
+will automatically be shown.
 
 ## Navigation
 
@@ -94,22 +87,6 @@ your camera.
 **Figure 5:** After clicking the voice chat channel name a second
 time, you will enter it for video chat.
 
-## Using the Poll Bot
-
-When a session is live, there will be a bot active in the channels for
-each live event. This bot can be used to create and vote on polls as a
-mode for Q&A. This can help if multiple people have the same question,
-instead of repeatedly asking it, you can ask it once on the poll and
-vote it up. The poll bot will print instructions in each channel
-associated with a live stream
-
-<img src="https://ieeevis.b-cdn.net/vis_2020/discord/poll_bot_usage.png" class="img-fluid">
-
-Figure 6: Poll bot usage instructions. Shortly after the bot
-prints "The Session is Starting" to the chat, the polling system is
-active. The poll system ends when the bot prints "The Session has Ended"
-to the chat. You can type "\$help" when the bot is active to print the
-above help information
 
 ## Conference Session Schedules
 
