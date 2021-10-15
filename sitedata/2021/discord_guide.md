@@ -113,8 +113,7 @@ above help information
 
 ## Conference Session Schedules
 
-The schedule for each session will also be printed out to the session,
-with the session schedule and a link to the YouTube live stream.
+The schedule will also be printed out at the start of each session.
 
 <img src="https://ieeevis.b-cdn.net/vis_2020/discord/example_schedule.png" class="img-fluid">
 
