@@ -42,8 +42,11 @@
     role="tabpanel"
     aria-labelledby="nav-profile-tab"
   >
-    {{ components.section("Gather.town Help") }}
-    {{ components.faqgroup(gather) }}
+    <div class="row">
+      <div class="col-md-8">
+        {{ gather | markdown }}
+      </div>
+    </div>
   </div>
 </div>
 

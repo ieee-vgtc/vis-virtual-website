@@ -194,8 +194,8 @@ def home():
 def about():
     data = _data()
     data["discord"] = open("sitedata/{}/discord_guide.md".format(year)).read()
+    data["gather"] = open("sitedata/{}/gather_guide.md".format(year)).read()
     data["FAQ"] = site_data["faq"]["FAQ"]
-    data["gather"] = site_data["faq"]["gather"]
     return render_template("{}/help.html".format(year), **data)
 
 
@@ -280,6 +280,7 @@ def format_paper(v):
         "event_title": paper_event["event"],
         "award": v["paper_award"],
         "has_image": v["has_image"],
+        "has_pdf": v["has_pdf"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
         "youtube_ff_url": v["ff_link"],

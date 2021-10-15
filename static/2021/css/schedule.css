@@ -8,7 +8,7 @@
         [tracks] auto
         [time-0730] 0.5fr
         [time-0745 time-0740] 0.5fr
-        [time-0800] 1.5fr
+        [time-0800 time-0750] 1.5fr
         [time-0845] 1.5fr
         [time-0930 time-0920 time-0910 time-0925] 0.5fr
         [time-0945] 0.5fr
@@ -35,7 +35,7 @@
         [timezones-end];
 }
 
-/* one additional column; max 7 concurrent rooms */
+/* one additional column; max 8 concurrent rooms */
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
@@ -64,7 +64,7 @@
         [timezones-end];
 }
 
-#calendar-Thursday {
+#calendar-Friday {
     grid-template-columns:
         [times] 5em
         [room1-start] 1fr
@@ -75,19 +75,6 @@
         [room5-end room6-start] 1fr
         [room6-end room7-start] 1fr
         [room7-end timezones] 5em
-        [timezones-end];
-}
-
-#calendar-Friday {
-    grid-template-columns:
-        [times] 5em
-        [room1-start] 1fr
-        [room1-end room2-start] 1fr
-        [room2-end room3-start] 1fr
-        [room3-end room4-start] 1fr
-        [room4-end room5-start] 1fr
-        [room5-end room6-start] 1fr
-        [room6-end timezones] 5em
         [timezones-end];
 }
 
