@@ -96,7 +96,7 @@ The schedule will also be printed out at the start of each session.
 
 ## Accessing Pinned Messages
 
-Both the poll bot help and conference session are pinned to the
+Conference session schedules pinned to the
 channel's messages. You can access these at anytime by clicking the pin
 icon in the upper right, circled below.
 
