@@ -2534,9 +2534,9 @@
         "keywords": [],
         "uid": "a-vizsec-7867",
         "time_stamp": "2021-10-27T16:15:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "We show here a screenshot of our Provenance-driven Automated Security Dashboard. It visualizes the content of our provenance database and static analysis database. The icycle graph helps the developer to quickly identfy the most important security issues.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""

@@ -12,9 +12,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
-                    "Alvitta Ottley",
+                    "Junming Shao",
                     "Liang Gou",
-                    "Junming Shao"
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -137,9 +137,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
+                    "J\u00fcrgen Bernard",
                     "Danny T.Y. Wu",
-                    "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Annie T. Chen"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -210,9 +210,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-2.png",
                 "chair": [
+                    "J\u00fcrgen Bernard",
                     "Danny T.Y. Wu",
-                    "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Annie T. Chen"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -287,9 +287,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-3.png",
                 "chair": [
+                    "J\u00fcrgen Bernard",
                     "Danny T.Y. Wu",
-                    "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Annie T. Chen"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -364,9 +364,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
+                    "J\u00fcrgen Bernard",
                     "Danny T.Y. Wu",
-                    "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Annie T. Chen"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -571,9 +571,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Bridget Moynihan",
+                    "Eric Alexander",
                     "Mark-Jan Bludau",
-                    "Eric Alexander"
+                    "Bridget Moynihan"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -671,9 +671,9 @@
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
                     "Houda Lamqaddamm",
-                    "Stefania Forlini",
+                    "Chris Weaver",
                     "Florian Windhager",
-                    "Chris Weaver"
+                    "Stefania Forlini"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -774,8 +774,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Vidya Setlur",
-                    "Arjun Srinivasan"
+                    "Arjun Srinivasan",
+                    "Vidya Setlur"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -1791,10 +1791,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Jane Adams",
                     "Charles Perin",
-                    "Paul Rosen",
-                    "Michael Correll"
+                    "Michael Correll",
+                    "Jane Adams",
+                    "Paul Rosen"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -1995,7 +1995,15 @@
                 "session_id": "w-mlui",
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
-                "chair": [],
+                "chair": [
+                    "Conny Walchshofer",
+                    "Eli T Brown",
+                    "Kai Xu",
+                    "Michelle Dowling",
+                    "Ab Mosca",
+                    "John Wenskovitch",
+                    "Marc Streit"
+                ],
                 "organizers": [
                     "John Wenskovitch",
                     "Michelle Dowling",
@@ -2011,15 +2019,15 @@
                 "discord_channel": "",
                 "discord_channel_id": 0,
                 "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
+                "zoom_meeting": null,
+                "zoom_password": null,
                 "ff_link": "",
                 "ff_playlist": "",
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": null,
-                        "title": null,
+                        "type": "live",
+                        "title": "Introduction",
                         "contributors": [
                             "John Wenskovitch",
                             "Michelle Dowling",
@@ -2031,11 +2039,37 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T17:00:00Z",
+                        "time_end": "2021-10-24T17:05:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Keynotes",
+                        "contributors": [
+                            "John Wenskovitch",
+                            "Michelle Dowling",
+                            "Eli T Brown",
+                            "Ab Mosca",
+                            "Conny Walchshofer",
+                            "Marc Streit",
+                            "Kai Xu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T17:05:00Z",
+                        "time_end": "2021-10-24T18:00:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Discussion - Future of the Field",
+                        "contributors": [
+                            "All"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T18:00:00Z",
                         "time_end": "2021-10-24T18:30:00Z"
                     },
                     {
-                        "type": null,
-                        "title": null,
+                        "type": "live",
+                        "title": "Welcome Back",
                         "contributors": [
                             "John Wenskovitch",
                             "Michelle Dowling",
@@ -2047,6 +2081,62 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T19:00:00Z",
+                        "time_end": "2021-10-24T19:05:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "DocTable: Table-Oriented Interactive Machine Learning for Text Corpora",
+                        "contributors": [
+                            "Yeshwanth Devabhaktuni"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T19:05:00Z",
+                        "time_end": "2021-10-24T19:20:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "SHIM: Semantic Hierarchical Clustering with Interactive Machine Learning",
+                        "contributors": [
+                            "Fang Cao"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T19:20:00Z",
+                        "time_end": "2021-10-24T19:35:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "FacetRules: Discovering and Describing Related Groups",
+                        "contributors": [
+                            "Lebna V Thomas"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T19:35:00Z",
+                        "time_end": "2021-10-24T19:50:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Discussion in Breakout Rooms",
+                        "contributors": [
+                            "All"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T19:50:00Z",
+                        "time_end": "2021-10-24T20:20:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Synthesis and Next Steps",
+                        "contributors": [
+                            "John Wenskovitch",
+                            "Michelle Dowling",
+                            "Eli T Brown",
+                            "Ab Mosca",
+                            "Conny Walchshofer",
+                            "Marc Streit",
+                            "Kai Xu"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T20:20:00Z",
                         "time_end": "2021-10-24T20:30:00Z"
                     }
                 ]
@@ -2066,11 +2156,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Bongshin Lee",
                     "Eun Kyoung Choe",
                     "Lyn Bartram",
+                    "Sheelagh Carpendale",
                     "Melanie Tory",
-                    "Sheelagh Carpendale"
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2206,11 +2296,11 @@
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
                 "chair": [
-                    "Adriana Arcia",
-                    "Alvitta Ottley",
                     "Jonathan Schwabish",
+                    "Jon Schwabish",
                     "Barbara Millet",
-                    "Jon Schwabish"
+                    "Alvitta Ottley",
+                    "Adriana Arcia"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2321,7 +2411,7 @@
                         "type": "recorded",
                         "title": "Aesthetics for Communicative Visualization: A Brief Review",
                         "contributors": [
-                            "Benjamin Watson"
+                            "Maryam Riahi"
                         ],
                         "abstract": "We present a brief and somewhat selective review of research on the applied value of aesthetics for communicative visualization. Because aesthetics research in the field of visualization is relatively new, we survey aesthetics research in closely related fields, including psychology, graphic design, and marketing. Because of space limitations, we constrain our discussion of marketing research and omit any examination of related work from human-computer interaction researchers. We conclude with implications for communicative visualization practitioners and researchers, discussing the value of aesthetics and how to achieve it, as well as the need for research on longer-term aesthetic impacts on viewers.",
                         "time_start": "2021-10-24T19:35:00Z",
@@ -2597,9 +2687,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
+                    "Chaoli Wang",
                     "Johanna Beyer",
-                    "Kristi Potter",
-                    "Chaoli Wang"
+                    "Kristi Potter"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -3099,7 +3189,7 @@
                         "time_end": "2021-10-25T13:47:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "Lightning talk : Personal data collection and \"experiential mapping\" pre- and post-pandemic",
                         "contributors": [
                             "Curt Lund"
@@ -3109,7 +3199,7 @@
                         "time_end": "2021-10-25T13:51:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "Lightning talk : A workshop to teach the fundamentals of usability testing",
                         "contributors": [
                             "Roshni Gohil"
@@ -3119,7 +3209,7 @@
                         "time_end": "2021-10-25T13:55:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "Learning Cues to Improve the Understanding of Explanatory Storytelling",
                         "contributors": [
                             "Alark Joshi"
@@ -3129,7 +3219,7 @@
                         "time_end": "2021-10-25T14:02:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "Teaching K-12 Classrooms Data Programming: A Three-Week Workshop with Online and Unplugged Activities",
                         "contributors": [
                             "Alpay Sabuncuo\u011flu",
@@ -3141,7 +3231,7 @@
                         "time_end": "2021-10-25T14:09:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "Experience of Teaching Data Visualization using Project-based Learning",
                         "contributors": [
                             "Dietrich Kammer",
@@ -3152,7 +3242,7 @@
                         "time_end": "2021-10-25T14:16:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "DataBlokken\u2019: Stimulating Critical Data Literacy of Children Through the Use of a Life-size Data Physicalisation Game",
                         "contributors": [
                             "Verhaert Paola"
@@ -3184,12 +3274,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
-                    "Georgia Panagiotidou",
-                    "Mandy Keck",
+                    "Sheelagh Carpendale",
                     "Jonathan C. Roberts",
-                    "Benjamin Bach",
+                    "Georgia Panagiotidou",
                     "Samuel Huron",
-                    "Sheelagh Carpendale"
+                    "Mandy Keck",
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3255,12 +3345,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
-                    "Georgia Panagiotidou",
-                    "Mandy Keck",
+                    "Sheelagh Carpendale",
                     "Jonathan C. Roberts",
-                    "Benjamin Bach",
+                    "Georgia Panagiotidou",
                     "Samuel Huron",
-                    "Sheelagh Carpendale"
+                    "Mandy Keck",
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3325,12 +3415,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
-                    "Georgia Panagiotidou",
-                    "Mandy Keck",
+                    "Sheelagh Carpendale",
                     "Jonathan C. Roberts",
-                    "Benjamin Bach",
+                    "Georgia Panagiotidou",
                     "Samuel Huron",
-                    "Sheelagh Carpendale"
+                    "Mandy Keck",
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3414,10 +3504,10 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Christie Nothelfer",
                     "Danielle Szafir",
                     "Madison Elliott",
-                    "Cindy Xiong"
+                    "Cindy Xiong",
+                    "Christie Nothelfer"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3614,11 +3704,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
+                    "Evan Peck",
                     "Michelle Borkin",
-                    "Michael Correll",
-                    "Lane Harrison",
                     "Leilani Battle",
-                    "Evan Peck"
+                    "Michael Correll",
+                    "Lane Harrison"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3797,9 +3887,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Niklas R\u00f6nnberg",
                     "Matt Cooper",
-                    "Camilla Forsell"
+                    "Camilla Forsell",
+                    "Niklas R\u00f6nnberg"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4011,11 +4101,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "Hendrik Strobelt",
-                    "VISxAI orga",
                     "Menna El-Assady",
-                    "Fred Hohman",
-                    "Adam Perer"
+                    "Hendrik Strobelt",
+                    "Adam Perer",
+                    "VISxAI orga",
+                    "Fred Hohman"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4169,14 +4259,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Wolfgang Aigner",
+                    "Alexander Rind",
                     "Kajetan Enge",
                     "Michael Iber",
-                    "Niklas Elmqvist",
-                    "Niklas R\u00f6nnberg",
-                    "Bruce N. Walker",
                     "Robert H\u00f6ldrich",
-                    "Alexander Rind"
+                    "Bruce N. Walker",
+                    "Niklas R\u00f6nnberg",
+                    "Niklas Elmqvist",
+                    "Wolfgang Aigner"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4314,8 +4404,8 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Petra Isenberg",
                     "Bongshin Lee",
+                    "Petra Isenberg",
                     "Anastasia Bezerianos"
                 ],
                 "organizers": [
@@ -4496,12 +4586,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato",
                     "Terry Yoo",
                     "Daniel Weiskopf",
                     "Catherine Plaisant",
-                    "Tamara Munzner"
+                    "Brian Summa",
+                    "Tamara Munzner",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -7144,8 +7234,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7626,7 +7716,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": null,
+                        "type": "live",
                         "title": "Memorial Session",
                         "contributors": [
                             "Memorial"
@@ -7696,9 +7786,9 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Lane Harrison",
+                    "Karen Schloss",
                     "Hsiang-Yun Wu",
-                    "Karen Schloss"
+                    "Lane Harrison"
                 ],
                 "organizers": [
                     "Hsiang-Yun Wu",
@@ -7746,8 +7836,8 @@
                 "track": "room5",
                 "schedule_image": "m-vislies.png",
                 "chair": [
-                    "Kenneth Moreland",
-                    "Bernice Rogowitz"
+                    "Bernice Rogowitz",
+                    "Kenneth Moreland"
                 ],
                 "organizers": [
                     "Kenneth Moreland",
@@ -8637,8 +8727,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8706,8 +8796,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8792,8 +8882,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8913,7 +9003,7 @@
                 "time_slots": [
                     {
                         "type": "recorded",
-                        "title": "Industrial Keynote: Intel",
+                        "title": "Intel",
                         "contributors": [
                             "Intel"
                         ],
@@ -8946,7 +9036,7 @@
                 "time_slots": [
                     {
                         "type": "recorded",
-                        "title": "Industrial Keynote: Tableau",
+                        "title": "Tableau",
                         "contributors": [
                             "Tableau"
                         ],
@@ -9153,8 +9243,8 @@
                 "track": "room4",
                 "schedule_image": "v-cga-cga3.png",
                 "chair": [
-                    "Klaus Mueller",
-                    "Jian Chen"
+                    "Jian Chen",
+                    "Klaus Mueller"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
@@ -9258,12 +9348,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Steven Morley",
-                    "Ayan Biswas",
-                    "Earl Lawrence",
-                    "Subhashis Hazarika",
                     "Divya Banesh",
-                    "Natalie Klein"
+                    "Earl Lawrence",
+                    "Ayan Biswas",
+                    "Natalie Klein",
+                    "Subhashis Hazarika",
+                    "Steven Morley"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9308,13 +9398,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
+                    "Noeska Smit",
+                    "Wouter van Elmpt",
+                    "Katja B\u00fchler",
                     "Ludvig P. Muren",
                     "Renata G. Raidou",
                     "Vitali Moiseenko",
-                    "Katja B\u00fchler",
-                    "Wouter van Elmpt",
-                    "Uulke van der Heide",
-                    "Noeska Smit"
+                    "Uulke van der Heide"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -9362,9 +9452,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Anders Ynnerman",
+                    "Alexander Bock",
                     "Mark SubbaRao",
-                    "Alexander Bock"
+                    "Anders Ynnerman"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -9403,8 +9493,8 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
-                    "Karsten Rink",
                     "Petra Gospodnetic",
+                    "Karsten Rink",
                     "Christina Gillmann"
                 ],
                 "organizers": [
@@ -9757,8 +9847,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Alex Razoumov",
-                    "Thomas Theu\u00dfl"
+                    "Thomas Theu\u00dfl",
+                    "Alex Razoumov"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10040,8 +10130,8 @@
                 "track": "room3",
                 "schedule_image": "m-climate.png",
                 "chair": [
-                    "Subhashis Hazarika",
-                    "Peetak Mitra"
+                    "Peetak Mitra",
+                    "Subhashis Hazarika"
                 ],
                 "organizers": [
                     "Subhashis Hazarika",
@@ -10131,8 +10221,8 @@
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",
