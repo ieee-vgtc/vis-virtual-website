@@ -648,7 +648,7 @@
         "paper_award": "",
         "image_caption": "\ufeffOur predictive scheduling framework generalizes existing ray scheduling methods to a unified method that adapts to the characteristics of underlying data by adjusting the scheduling depth of each ray. We have path traced the distributed partitions of the Lambda2 dataset of simulated vortices using the Frontera supercomputer at the Texas Advanced Computing Center. With our predictive scheduling method, we are able to achieve a throughput of 7-33 MRays/s while sending rays across 4-128 distributed compute nodes. Lambda2 contains an aggregate of 2.3 billion unique triangles in 1024 domains extracted from a 77.3GB HDF5 file.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1000": {
@@ -666,7 +666,7 @@
         "paper_award": "",
         "image_caption": "We introduce a method for the fast approximation of the saddle-extremum\npersistence diagram of a scalar field, with user-controlled guarantees on the\nbottleneck error of the approximate diagram.\nWe illustrate the utility of our approach for interactive data exploration and\ndocument visualization strategies to convey the uncertainty related to our\napproximations.\n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1003": {
@@ -688,7 +688,7 @@
         "paper_award": "",
         "image_caption": "Comparison of synchronous exchange (left) and asynchronous iexchange (right) Gantt charts show that the asynchronous method is several times faster because communication and computation are interleaved",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1009": {
@@ -710,7 +710,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1015": {
@@ -730,7 +730,7 @@
         "paper_award": "",
         "image_caption": "We present particle compression approaches with asymptotically constant memory footprint and high-quality lossy reconstruction of large particle datasets. Our method supports progressive, random-access, and error-driven decoding, while being much faster than the MPEG standard.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1007": {
@@ -750,7 +750,7 @@
         "paper_award": "",
         "image_caption": "Composited rendering of a nuclear power station using 16 processes. Each process has drawn its portion of the model using a unique color.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1019": {
@@ -770,7 +770,7 @@
         "paper_award": "",
         "image_caption": "We present an approach that reduces the resolution before the encoding and uses temporal upscaling to reconstruct the full resolution image. Our approach takes advantage of the fact that humans do not perceive the full details of moving objects by providing a perfect reconstruction for static parts of the image, while non-static parts are reconstructed with a lower quality. This strategy enables a substantial reduction of the encoding latency and the required bandwidth with barely noticeable changes in visual quality, which is crucial for collaborative analysis across display walls at different locations. ",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1021": {
@@ -790,7 +790,7 @@
         "paper_award": "",
         "image_caption": "Portable and Composable Flow Graphs for In Situ Analytics\n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-ldav-1022": {
@@ -811,7 +811,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "v-full-1346": {
@@ -5185,6 +5185,145 @@
         "image_caption": "",
         "external_paper_link": "",
         "has_pdf": false,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1005": {
+        "authors": [
+            "Tim McGraw",
+            "Michael Eddy"
+        ],
+        "title": "Hybrid rendering for interactive visualization of mantle convection",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1005",
+        "time_stamp": "2021-10-28T17:22:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1006": {
+        "authors": [
+            "Jonathan Fritsch",
+            "Simon Schneegans",
+            "Markus Flatken",
+            "Andreas Gerndt",
+            "Ana-Catalina Plesa",
+            "Christian H\u00fcttig"
+        ],
+        "title": "RayPC: Interactive Ray Tracing Meets Parallel Coordinates",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1006",
+        "time_stamp": "2021-10-28T17:30:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1007": {
+        "authors": [
+            "Lucas Temor",
+            "Peter Coppin",
+            "David Steinman"
+        ],
+        "title": "Visualization of simulated convection dynamics in Earth's mantle",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1007",
+        "time_stamp": "2021-10-28T17:38:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1008": {
+        "authors": [
+            "Sudhanshu Sane",
+            "Tushar Athawale",
+            "Chris Johnson"
+        ],
+        "title": "Investigating Multivariate, Vector, and Topological Data Analysis Techniques for Mantle Flow Pattern Visualization",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1008",
+        "time_stamp": "2021-10-28T17:46:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1010": {
+        "authors": [
+            "Marina Evers",
+            "Simon Leistikow",
+            "Adrian Derstroff",
+            "Tim Gerrits",
+            "Karim Huesmann",
+            "Jonathan Hollenbeck",
+            "Julian Seljami",
+            "Lars Linsen"
+        ],
+        "title": "Visual Analysis of Spatio-temporal Features in Multi-field Earth's Mantle Convection Simulations",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1010",
+        "time_stamp": "2021-10-28T17:54:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1011": {
+        "authors": [
+            "Tim von Hahn",
+            "Chris Mechefske"
+        ],
+        "title": "EarthGAN: Can we visualize the Earth\u2019s mantle convection using a surrogate model?",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1011",
+        "time_stamp": "2021-10-28T18:02:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
+    },
+    "a-sciviscontest-1012": {
+        "authors": [
+            "Jansen Wong",
+            "Vung Pham",
+            "Tommy Dang"
+        ],
+        "title": "Interactive Multidimensional Visual Analytics for Earth's Mantle Convection",
+        "session_id": "a-sciviscontest-contest",
+        "abstract": null,
+        "keywords": [],
+        "uid": "a-sciviscontest-1012",
+        "time_stamp": "2021-10-28T18:10:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": true,
         "ff_link": ""
     },
     "v-full-1301": {

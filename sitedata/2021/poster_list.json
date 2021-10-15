@@ -10,7 +10,8 @@
         "uid": "v-vis-posters-1003",
         "event": "VIS",
         "discord_channel": "896457986342518884",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1004": {
         "title": "Visualization to Study Bias in Image Annotations and to Support Annotation Based on Semantic Differential",
@@ -21,7 +22,8 @@
         "uid": "v-vis-posters-1004",
         "event": "VIS",
         "discord_channel": "896457986929745981",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1006": {
         "title": "Argo Scholar: Interactive Visual Exploration of Literature in Browsers",
@@ -36,7 +38,8 @@
         "uid": "v-vis-posters-1006",
         "event": "VIS",
         "discord_channel": "896457987634368533",
-        "has_image": true
+        "has_image": true,
+        "poster_award": "honorable"
     },
     "v-vis-posters-1009": {
         "title": "Towards Automatic Grading of D3.js Visualizations",
@@ -50,7 +53,8 @@
         "uid": "v-vis-posters-1009",
         "event": "VIS",
         "discord_channel": "896457988624228402",
-        "has_image": true
+        "has_image": true,
+        "poster_award": "best"
     },
     "v-vis-posters-1010": {
         "title": "A Visualization Authoring Model for Post-WIMP Interfaces",
@@ -62,7 +66,8 @@
         "uid": "v-vis-posters-1010",
         "event": "VIS",
         "discord_channel": "896457989278560348",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1011": {
         "title": "TrafficVis: Visualizing Suspicious Meta-Clusters for Human Trafficking Detection",
@@ -80,7 +85,8 @@
         "uid": "v-vis-posters-1011",
         "event": "VIS",
         "discord_channel": "896457989911883776",
-        "has_image": true
+        "has_image": true,
+        "poster_award": "honorable"
     },
     "v-vis-posters-1015": {
         "title": "Enhancing Understanding of Constitutional Law through Visual Design",
@@ -93,7 +99,8 @@
         "uid": "v-vis-posters-1015",
         "event": "VIS",
         "discord_channel": "896457990494904330",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1016": {
         "title": "Evaluating the Effect of Visualizing Dimensions Search Space on Exploratory Visual Data Analysis",
@@ -104,7 +111,8 @@
         "uid": "v-vis-posters-1016",
         "event": "VIS",
         "discord_channel": "896457991073693697",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1017": {
         "title": "Show or Tell? Visual and Verbal Representations Bias Position Recall",
@@ -115,7 +123,8 @@
         "uid": "v-vis-posters-1017",
         "event": "VIS",
         "discord_channel": "896457991723835412",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1018": {
         "title": "3D Animation of Wildfire Plumes",
@@ -125,7 +134,8 @@
         "uid": "v-vis-posters-1018",
         "event": "VIS",
         "discord_channel": "896457992508174386",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1020": {
         "title": "Visualization of Bias of Machine Learning for Content Recommendation",
@@ -137,7 +147,8 @@
         "uid": "v-vis-posters-1020",
         "event": "VIS",
         "discord_channel": "896457993082798130",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1021": {
         "title": "Dynamic Ranking of IEEE VIS Author Importance",
@@ -149,7 +160,8 @@
         "uid": "v-vis-posters-1021",
         "event": "VIS",
         "discord_channel": "896457993779044382",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1022": {
         "title": "PhosProViz: A Web-based Platform for Interactive Visual Exploration of Phosphoproteomics Network Data",
@@ -164,7 +176,8 @@
         "uid": "v-vis-posters-1022",
         "event": "VIS",
         "discord_channel": "896457994492067850",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1023": {
         "title": "Visilence: An Interactive Visualization Tool for Error Resilience Analysis",
@@ -176,7 +189,8 @@
         "uid": "v-vis-posters-1023",
         "event": "VIS",
         "discord_channel": "896457995108626543",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1024": {
         "title": "Evaluating Performance of Rendering with Containerized Visualization Tools",
@@ -191,7 +205,8 @@
         "uid": "v-vis-posters-1024",
         "event": "VIS",
         "discord_channel": "896457995695837209",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1025": {
         "title": "Designing a Base Map for Users with Low Vision",
@@ -203,7 +218,8 @@
         "uid": "v-vis-posters-1025",
         "event": "VIS",
         "discord_channel": "896457996928950282",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1026": {
         "title": "Solving Constraint Optimisation Problems in Augmented Reality",
@@ -215,7 +231,8 @@
         "uid": "v-vis-posters-1026",
         "event": "VIS",
         "discord_channel": "896457997738442772",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1030": {
         "title": "A User-Centered Survey of Immersive Analytics",
@@ -228,7 +245,8 @@
         "uid": "v-vis-posters-1030",
         "event": "VIS",
         "discord_channel": "896457998325669928",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1032": {
         "title": "Visual Analysis of Corporate Tolerance to Sales Decline by Industry",
@@ -240,7 +258,8 @@
         "uid": "v-vis-posters-1032",
         "event": "VIS",
         "discord_channel": "896457998984175666",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1034": {
         "title": "Evaluating & Updating Music Genre Bars",
@@ -251,7 +270,8 @@
         "uid": "v-vis-posters-1034",
         "event": "VIS",
         "discord_channel": "896457999676211240",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1036": {
         "title": "What are the topics in football? Extracting time-series topics from game episodes",
@@ -263,7 +283,8 @@
         "uid": "v-vis-posters-1036",
         "event": "VIS",
         "discord_channel": "896458000468959262",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1038": {
         "title": "Interactive Probing of Multivariate Time Series Prediction Models: A Case of Freight Rate Analysis",
@@ -275,7 +296,8 @@
         "uid": "v-vis-posters-1038",
         "event": "VIS",
         "discord_channel": "896458001576235049",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1039": {
         "title": "MultiAggr: A Technique for Aggregating Multivariate Networks",
@@ -289,7 +311,8 @@
         "uid": "v-vis-posters-1039",
         "event": "VIS",
         "discord_channel": "896458002402537552",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1040": {
         "title": "OPPVIS: Visualizing Online Partisan Polarization on COVID-19",
@@ -307,7 +330,8 @@
         "uid": "v-vis-posters-1040",
         "event": "VIS",
         "discord_channel": "896458003098763317",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1041": {
         "title": "A Network Visualization of Sustainable Consumption Corridors",
@@ -318,7 +342,8 @@
         "uid": "v-vis-posters-1041",
         "event": "VIS",
         "discord_channel": "896458003568549919",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1044": {
         "title": "Turing Galaxy: Visualizing Turing Award Laureates",
@@ -329,7 +354,8 @@
         "uid": "v-vis-posters-1044",
         "event": "VIS",
         "discord_channel": "896458004302557236",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1045": {
         "title": "COVID-19 Dashboard: Tracking the Regional Pandemic Trend",
@@ -344,7 +370,8 @@
         "uid": "v-vis-posters-1045",
         "event": "VIS",
         "discord_channel": "896458004843601930",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "v-vis-posters-1046": {
         "title": "Interactive Visual Exploration of Pairwise Meta-Analysis Results",
@@ -361,7 +388,8 @@
         "uid": "v-vis-posters-1046",
         "event": "VIS",
         "discord_channel": "896458005468545074",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-ldav-posters-1001": {
         "title": "Towards Large-Scale Rendering of Simulated Crops for Synthetic Ground Truth Generation on Modular Supercomputers",
@@ -376,7 +404,8 @@
         "uid": "a-ldav-posters-1001",
         "event": "LDAV",
         "discord_channel": "896458006064160858",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-ldav-posters-1003": {
         "title": "Instrumenting Multiphysics Blood Flow Simulation Codes for In Situ Visualization and Analysis",
@@ -393,7 +422,8 @@
         "uid": "a-ldav-posters-1003",
         "event": "LDAV",
         "discord_channel": "896458006777200650",
-        "has_image": false
+        "has_image": false,
+        "poster_award": ""
     },
     "a-ldav-posters-1004": {
         "title": "Writing, Running, and Analyzing Large-scale Scientific Simulations with Jupyter Notebooks",
@@ -405,7 +435,8 @@
         "uid": "a-ldav-posters-1004",
         "event": "LDAV",
         "discord_channel": "896458007368564877",
-        "has_image": false
+        "has_image": false,
+        "poster_award": ""
     },
     "a-ldav-posters-1005": {
         "title": "Parameter Analysis and Contrail Detection of Aircraft Engine Simulations",
@@ -419,7 +450,8 @@
         "uid": "a-ldav-posters-1005",
         "event": "LDAV",
         "discord_channel": "896458007905460274",
-        "has_image": false
+        "has_image": false,
+        "poster_award": ""
     },
     "a-ldav-posters-1006": {
         "title": "Lossy Compression for Visualization of Atmospheric Data",
@@ -430,7 +462,8 @@
         "uid": "a-ldav-posters-1006",
         "event": "LDAV",
         "discord_channel": "896458008522010634",
-        "has_image": false
+        "has_image": false,
+        "poster_award": ""
     },
     "a-vizsec-posters-1013": {
         "title": "Interactive, Visual Uncertainty Quantification for Encrypted Network Traffic Situation Awareness",
@@ -441,7 +474,8 @@
         "uid": "a-vizsec-posters-1013",
         "event": "VizSec",
         "discord_channel": "896458008731713538",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-vizsec-posters-1016": {
         "title": "Interactive Process Tree Analysis: Exploring the Behaviour of Processes with Visual Analytics for Security Operators",
@@ -454,7 +488,8 @@
         "uid": "a-vizsec-posters-1016",
         "event": "VizSec",
         "discord_channel": "896458009650266212",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-vizsec-posters-1017": {
         "title": "Design of Privacy Preservation System in Augmented Reality",
@@ -467,7 +502,8 @@
         "uid": "a-vizsec-posters-1017",
         "event": "VizSec",
         "discord_channel": "896458009981636669",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1005": {
         "title": "Hybrid rendering for interactive visualization of mantle convection",
@@ -478,7 +514,8 @@
         "uid": "a-sciviscontest-posters-1005",
         "event": "SciVis Contest",
         "discord_channel": "896458011541925928",
-        "has_image": false
+        "has_image": false,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1006": {
         "title": "RayPC: Interactive Ray Tracing Meets Parallel Coordinates",
@@ -493,7 +530,8 @@
         "uid": "a-sciviscontest-posters-1006",
         "event": "SciVis Contest",
         "discord_channel": "896458012154269726",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1007": {
         "title": "Visualization of simulated convection dynamics in Earth's mantle",
@@ -505,7 +543,8 @@
         "uid": "a-sciviscontest-posters-1007",
         "event": "SciVis Contest",
         "discord_channel": "896458012775047178",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1008": {
         "title": "Investigating Multivariate, Vector, and Topological Data Analysis Techniques for Mantle Flow Pattern Visualization",
@@ -517,7 +556,8 @@
         "uid": "a-sciviscontest-posters-1008",
         "event": "SciVis Contest",
         "discord_channel": "896458013039267861",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1010": {
         "title": "Visual Analysis of Spatio-temporal Features in Multi-field Earth's Mantle Convection Simulations",
@@ -534,7 +574,8 @@
         "uid": "a-sciviscontest-posters-1010",
         "event": "SciVis Contest",
         "discord_channel": "896458013852983327",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1011": {
         "title": "EarthGAN: Can we visualize the Earth\u2019s mantle convection using a surrogate model?",
@@ -545,7 +586,8 @@
         "uid": "a-sciviscontest-posters-1011",
         "event": "SciVis Contest",
         "discord_channel": "896458014574407710",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-1012": {
         "title": "Interactive Multidimensional Visual Analytics for Earth's Mantle Convection",
@@ -557,7 +599,8 @@
         "uid": "a-sciviscontest-posters-1012",
         "event": "SciVis Contest",
         "discord_channel": "896458015232913438",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-sciviscontest-posters-2022": {
         "title": "SciVis Contest 2022: Vorticity-driven Lateral Spread Ensemble Data Set",
@@ -569,7 +612,8 @@
         "uid": "a-sciviscontest-posters-2022",
         "event": "SciVis Contest",
         "discord_channel": "896458015941750784",
-        "has_image": false
+        "has_image": false,
+        "poster_award": ""
     },
     "a-vastchallenge-posters-1008": {
         "title": "Human-in-the-Loop Integration of Complex and Noisy Data (Award for Strong Support for Visual Exploration)",
@@ -582,7 +626,8 @@
         "uid": "a-vastchallenge-posters-1008",
         "event": "VAST Challenge",
         "discord_channel": "896458016977731614",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-vastchallenge-posters-1010": {
         "title": "RelationVis: Visual Analytics of Multifaceted Relationships between Different Entities in Text Collections (Award for Effective Design of Interactive Analytics)",
@@ -601,7 +646,8 @@
         "uid": "a-vastchallenge-posters-1010",
         "event": "VAST Challenge",
         "discord_channel": "896458018030510181",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-vastchallenge-posters-1012": {
         "title": "An Interactive Visualization System for Spatio-temporal Situation Awareness with Multi-data Fusion (Award for Outstanding Comprehensive MC2 Submission)",
@@ -620,7 +666,8 @@
         "uid": "a-vastchallenge-posters-1012",
         "event": "VAST Challenge",
         "discord_channel": "896508782895579207",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-vastchallenge-posters-1015": {
         "title": "CloudAnnotator: Clustering and Annotating Streaming Text Data",
@@ -637,7 +684,8 @@
         "uid": "a-vastchallenge-posters-1015",
         "event": "VAST Challenge",
         "discord_channel": "896458018613526558",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     },
     "a-vastchallenge-posters-1019": {
         "title": "Mixed-Initiative Visual Exploration of Social Media Text and Events (Award for Strong Human-in-the-Loop Analysis Methodology)",
@@ -656,6 +704,7 @@
         "uid": "a-vastchallenge-posters-1019",
         "event": "VAST Challenge",
         "discord_channel": "896458019129421896",
-        "has_image": true
+        "has_image": true,
+        "poster_award": ""
     }
 }
