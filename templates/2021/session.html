@@ -73,16 +73,39 @@
 </div>
 {% endif %}
 
-{% if session.track %}
+{% if session.zoom_meeting_FAKE %}
+<div class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        <div class="alert alert-primary">
+            {% if session.timeSlots[0].type == "Zoom Only" %}
+            <p class="mb-0">This session takes place on Zoom only; a link will become available within 15 minutes of the session start.</p>
+            <div id="zoom_link">
+                <p class="mt-2 mb-0">
+                    <span class="zoom-time d-none">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">Click here to join</a>.
+                </p>
+            </div>
+            {% else %}
+            <p class="mb-0">You can join via Zoom for hands-on activities; a link will become available within 15 minutes of session start.</p>
+            <div id="zoom_link">
+                <p class="mt-2 mb-0">
+                    <span class="zoom-time d-none">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">Click here to join</a>
+                </p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% elif session.track %}
 <div class="row mt-5">
     <div class="col-lg-10 streaming-container">
-        <!-- ensure 16x9 aspect ratio;
-            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
         <div class="streaming">
-            <a id='test-modal-fullscreen'>Full Screen 
+            <a id='test-modal-fullscreen'>Full Screen
                     <span class="fas fa-expand">&#xf065;</span>
             </a>
-            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen 
+            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen
                     <span class="fas fa-compress">&#xf066;</span>
             </a>
 
@@ -96,20 +119,6 @@
     <div class="col-lg-10">
         <iframe src="https://titanembeds.com/embed/741879515013316629?theme=DiscordDark&defaultchannel={{ session.discord_channel_id }}" width="920" height="518" frameborder="0"></iframe>
         <p class="integration-description pt-2">You can also join this channel in your native Discord application by <a href="https://discord.gg/dxy2Uxp" target="_blank">connecting to the server</a> and joining the <emph>{{session.discord_category}}/#{{ session.discord_channel }}</emph> channel.  <a href="help.html#tab-discord" target="_blank">Help &raquo;</a></p>
-    </div>
-</div>
-{% endif %}
-
-{% if session.zoom_meeting_FAKE %}
-<div class="row mt-5 mb-3">
-    <div class="col-lg-10">
-        <div class="alert alert-primary">
-            {% if session.timeSlots[0].type == "Zoom Only" %}
-            This session takes place <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">on Zoom only</a>.
-            {% else %}
-            You can join this session <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">via Zoom for hands-on activities</a>.
-            {% endif %}
-        </div>
     </div>
 </div>
 {% endif %}
@@ -257,7 +266,7 @@ function exitFullScreenHandler() {
         $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen");
 
         $('#test-modal-leave-fullscreen').removeClass("visible-floating")
-        $('#test-modal-leave-fullscreen').addClass("invisible-floating")        
+        $('#test-modal-leave-fullscreen').addClass("invisible-floating")
     }
 }
 

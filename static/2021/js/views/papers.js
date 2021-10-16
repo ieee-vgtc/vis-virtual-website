@@ -376,7 +376,7 @@ const card_time_detail = (paper, show) => {
 // language=HTML
 const card_html = (paper) =>
   `
-        <div class="pp-card pp-mode-${render_mode} ">
+        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
             <div class="pp-card-header" style="">
               <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
@@ -410,7 +410,7 @@ const card_html = (paper) =>
 // language=HTML
 const card_poster_html = (poster) =>
   `
-        <div class="pp-card pp-mode-${render_mode} ">
+        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
             <div class="pp-card-header" style="">
               <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>

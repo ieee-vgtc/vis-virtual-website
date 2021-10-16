@@ -406,7 +406,7 @@ def format_by_session_list(v):
         "streaming_session_id": v["streaming_session_id"] if "streaming_session_id" in v else None,
         "ff_playlist": v["ff_playlist"],
         "ff_playlist_id": v["ff_playlist"].split("=")[-1] if v["ff_playlist"] else None,
-        # "zoom_meeting": v["zoom_meeting"]
+        "zoom_meeting": v["zoom_meeting"],
     }
 
 
