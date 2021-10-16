@@ -202,6 +202,7 @@ h3 {
   margin-bottom: 1em;
   display: block;
   overflow: hidden;
+  width: 100%;
 }
 
 h3 {
@@ -297,9 +298,14 @@ h5.card-title {
   /* font-size: 30px; */
 }
 
-h5.card-title:hover {
+h5.card-title a:hover {
   color: var(--text-accent-color);
   text-decoration: none;
+}
+
+h5.card-title .paper-award {
+  outline: none;
+  margin-right: 4px;
 }
 
 a.award-paper:hover {

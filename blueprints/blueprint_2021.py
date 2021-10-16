@@ -301,11 +301,15 @@ def format_poster(v):
         "id": v["uid"],
         "authors": list_fields["authors"],
         "title": v["title"],
+        "award": v["poster_award"],
         "discord_channel": v["discord_channel"],
         "session_title": v["event"],
-        "sessions": [v["event"]],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + ".pdf",
         "has_image": v["has_image"],
+
+        # for posters.html
+        "sessions": [v["event"]],
+        "UID": v["uid"],
     }
 
 
