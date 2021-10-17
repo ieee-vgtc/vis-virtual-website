@@ -326,6 +326,9 @@ def poster_session():
 def session(session):
     return meta_redirect_html(FROZEN_YEAR, "session_{}.html".format(session))
 
+@app.route("/room_<room>.html")
+def room(room):
+    return meta_redirect_html(FROZEN_YEAR, "room_{}.html".format(room))
 
 @app.route('/event_<event>.html')
 def event(event):

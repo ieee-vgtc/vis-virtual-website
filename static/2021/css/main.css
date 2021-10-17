@@ -881,3 +881,7 @@ hr::after {
   min-height: 80vh;
   width: 100%;
 }
+
+.room_session_header, .room_session_descriptor, .room_session_timeslot, .room_session_future_stream, .room_session_stream {
+  display: none;
+}

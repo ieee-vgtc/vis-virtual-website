@@ -7,6 +7,7 @@ import csv
 import json
 import os
 import dateutil.parser
+from datetime import datetime
 import yaml
 
 year=2021
@@ -509,6 +510,32 @@ def session(session):
         data["streaming_session_id"] = v["streaming_session_id"]
     return render_template("{}/session.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/room_<room>.html".format(year))
+def room(room):
+    data = _data()
+    room_name = ''
+    if 'room_names' in data['config'] and room in data['config']['room_names']:
+        room_name = data['config']['room_names'][room]
+
+    all_sessions = [by_uid['sessions'][uid] for uid in by_uid['sessions']]
+    room_sessions = [s for s in all_sessions if s['track'] == room]
+    data["requires_auth"] = True
+    data["sessions"] = [format_by_session_list(v) for v in room_sessions]
+
+    data["room"] = {
+        'name': room_name,
+        'id': room
+    }
+    # We need to write a minimal data object to the js so that current session can be calculated.
+    # We copy a minimal amount of data there
+    data["sessionTimings"] = json.dumps([ 
+            {
+                'startTime': s['startTime'],
+                'endTime': s['endTime'],
+                'id': s['id']
+            }
+        for s in data["sessions"]])
+    return render_template("{}/room.html".format(year), **data)
 
 @year_blueprint.route('/year/{}/event_<event>.html'.format(year))
 def event(event):
