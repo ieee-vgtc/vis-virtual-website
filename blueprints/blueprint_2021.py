@@ -508,6 +508,16 @@ def session(session):
     data["session"] = format_by_session_list(v)
     if "streaming_session_id" in v:
         data["streaming_session_id"] = v["streaming_session_id"]
+
+    room = data['session']['track']
+    room_name = ''
+    if 'room_names' in data['config'] and room in data['config']['room_names']:
+        room_name = data['config']['room_names'][room]
+
+    data["room"] = {
+        'name': room_name,
+        'id': room
+    }
     return render_template("{}/session.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/room_<room>.html".format(year))

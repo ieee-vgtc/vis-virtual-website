@@ -30,6 +30,12 @@
             Organizers: {{ session.organizers | join(", ") }}
         </h3>
         {% endif %}
+        <h3 class="session-room">
+            <span class="fas mr-1">&#xf108;</span>
+            <a href="room_{{room.id}}.html">
+                Room: {{ room.name }}
+            </a>
+        </h3>
         <h3 class="session-date">
             <span class="fas mr-1">&#xf017;</span>
             <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
@@ -73,38 +79,18 @@
 </div>
 {% endif %}
 
-{% if session.track == 'room1' %}
-<div class="row mt-5">
-    <div class="col-lg-10 streaming-container">
-        <!-- ensure 16x9 aspect ratio;
-            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-        <div class="streaming">
-            <a id='test-modal-fullscreen'>Full Screen 
-                    <span class="fas fa-expand">&#xf065;</span>
-            </a>
-            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen 
-                    <span class="fas fa-compress">&#xf066;</span>
-            </a>
-
-            <iframe src="streaming.html?room={{session.track}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
-        </div>
-    </div>
-</div>
-{% else %}
-<div class="alert alert-warning" role="alert">
-    A livestream video has not yet been scheduled for this session yet. <br><br>
-    When it is, the video stream will replace this message (at least 3 days before the session takes place live).
+<div class="future_session_alert alert alert-warning" role="alert">
+    The livestream for this session has not begun yet. <br><br>
+    When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
 </div>
 
-{% endif %}
-{% if session.discord_channel_FAKE %}
-<div class="row my-3">
-    <div class="col-lg-10">
-        <iframe src="https://titanembeds.com/embed/741879515013316629?theme=DiscordDark&defaultchannel={{ session.discord_channel_id }}" width="920" height="518" frameborder="0"></iframe>
-        <p class="integration-description pt-2">You can also join this channel in your native Discord application by <a href="https://discord.gg/dxy2Uxp" target="_blank">connecting to the server</a> and joining the <emph>{{session.discord_category}}/#{{ session.discord_channel }}</emph> channel.  <a href="help.html#tab-discord" target="_blank">Help &raquo;</a></p>
-    </div>
+<div class="current_session_alert alert alert-info" role="alert">
+    This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to {{ room.name }} to view the session.</a>
 </div>
-{% endif %}
+
+<div class="past_session_alert alert alert-success" role="alert">
+    This session has concluded.  You can review the session using the player embedded below.
+</div>
 
 {% if session.zoom_meeting_FAKE %}
 <div class="row mt-5 mb-3">
@@ -116,25 +102,6 @@
             You can join this session <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">via Zoom for hands-on activities</a>.
             {% endif %}
         </div>
-    </div>
-</div>
-{% endif %}
-
-{% if false and (not session.youtube_id and not session.zoom_meeting) %}
-<div class="row mt-5 mb-3">
-    <div class="col-lg-10">
-        {% if session.id == "m-jobfair_FAKE" %}
-        <div class="alert alert-warning" role="alert">
-            <p class="pt-2">This year's job fair meetup will be on Thurs. 10/29, 1:40pm (MT) through Congregate.Live. To sign up for the job fair meetup, visit: <a class="alert-link" href="https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup">https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup</a>.</p>
-            <p>To those who register, we will send a link to the Congregate.Live session by 11am (MT) on Thurs. 10/29. If you submitted a job posting and indicated you will attend the meetup, there is no need to sign up again.</p>
-            <p>Questions about the job fair? Please email <a class="alert-link" href="mailto:community@ieeevis.org">community@ieeevis.org</a>.</p>
-        </div>
-        {% else %}
-        <div class="alert alert-warning" role="alert">
-            A livestream video has not yet been scheduled for this session yet. <br><br>
-            When it is, the video stream will replace this message (at least 3 days before the session takes place live).
-        </div>
-        {% endif %}
     </div>
 </div>
 {% endif %}
@@ -209,60 +176,35 @@
 <script>
 
 $(document).ready(function() {
-    $('#test-modal-fullscreen').click((x) => { makeFullScreen()})
-    $('#test-modal-leave-fullscreen').click((x) => { exitFullScreen()})
-
-    document.addEventListener('fullscreenchange', exitFullScreenHandler);
-    document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
-    document.addEventListener('mozfullscreenchange', exitFullScreenHandler);
-    document.addEventListener('MSFullscreenChange', exitFullScreenHandler);
+    setInterval(updateSessionStatus, 30 * 1000);
+    updateSessionStatus()
 })
 
+function updateSessionStatus() {
+    // We need to write the session timings into the page to calculate current/next session.
+    // See blueprint_2021.py
+    startTime = '{{session.startTime}}'
+    endTime = '{{session.endTime}}'
 
-function requestFullScreen(element) {
-    // Supports most browsers and their versions.
-    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
+    // We take a 15 minute grace period to the start of a session
+    const sessionStart = moment(startTime).tz(current_timezone).subtract(15, 'minutes');
+    const sessionEnd = moment(endTime).tz(current_timezone);
 
-    if (requestMethod) { // Native full screen.
-        requestMethod.call(element);
-    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
-        var wscript = new ActiveXObject("WScript.Shell");
-        if (wscript !== null) {
-            wscript.SendKeys("{F11}");
-        }
+    const sessionIsCurrent = moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    const sessionIsFuture = moment().tz(current_timezone).isBefore(sessionStart);
+    const sessionIsPast = moment().tz(current_timezone).isAfter(sessionStart);
+
+    const classesToHide = ['.future_session_alert', '.current_session_alert', '.past_session_alert']
+    classesToHide.forEach((c) => { $(c).hide();});
+    if (sessionIsCurrent) {
+        $('.current_session_alert').show();
+    } else if (sessionIsFuture) {
+        $('.future_session_alert').show();
+    } else {
+        $('.past_session_alert').show();
     }
 }
 
-function exitFullScreen() {
-    // Supports most browsers and their versions.
-    if(document.exitFullscreen) {
-        document.exitFullscreen();
-    }
-    else if(document.webkitCancelFullscreen) {
-        document.webkitCancelFullscreen();
-    }
-
-    else if(document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-    }
-}
-
-function makeFullScreen() {
-    $('.streaming > iframe').addClass("streaming-fullscreen");
-    $('#test-modal-leave-fullscreen').addClass("visible-floating")
-    $('#test-modal-leave-fullscreen').removeClass("invisible-floating")
-    var elem = document.body;
-    requestFullScreen(elem);
-}
-
-function exitFullScreenHandler() {
-    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
-        $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen");
-
-        $('#test-modal-leave-fullscreen').removeClass("visible-floating")
-        $('#test-modal-leave-fullscreen').addClass("invisible-floating")        
-    }
-}
 
 </script>
 

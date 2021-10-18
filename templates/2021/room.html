@@ -137,6 +137,7 @@
 <script>
 
 $(document).ready(function() {
+    setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
 
     $('#test-modal-fullscreen').click((x) => { makeFullScreen()});
@@ -184,9 +185,6 @@ function filterByCurrentSession() {
             $('.room_session_future_stream').show();
         }
     }
-    setTimeout(() => {
-            filterByCurrentSession();
-    }, 30 * 1000);
 }
 
 
