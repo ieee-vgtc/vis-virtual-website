@@ -297,9 +297,14 @@ h5.card-title {
   /* font-size: 30px; */
 }
 
-h5.card-title:hover {
+h5.card-title a:hover {
   color: var(--text-accent-color);
   text-decoration: none;
+}
+
+h5.card-title .paper-award {
+  outline: none;
+  margin-right: 4px;
 }
 
 a.award-paper:hover {

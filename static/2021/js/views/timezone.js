@@ -65,4 +65,26 @@ $(document).ready(function () {
         };
         timer();
     });
+
+    $("#zoom_link").each((_, e) => {
+        const element = $(e);
+        const timestamp = element.find(".zoom-time").text();
+
+        let parts = timestamp.split(" – ");
+        let start = moment(parts[0]).tz(current_timezone).subtract(15, "minutes");
+        let end = moment(parts[1]).tz(current_timezone);
+
+        let timer = () => {
+            const isLive = moment().tz(current_timezone).isBetween(start, end);
+            if (isLive)
+                element.css('display', "block");
+            else
+                element.css('display', "none");
+        };
+
+        setTimeout(() => {
+            timer();
+        }, 30 * 1000);
+        timer();
+    });
 });

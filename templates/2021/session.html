@@ -79,6 +79,32 @@
 </div>
 {% endif %}
 
+{% if session.zoom_meeting_FAKE %}
+<div class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        <div class="alert alert-primary">
+            {% if session.timeSlots[0].type == "Zoom Only" %}
+            <p class="mb-0">This session takes place on Zoom only; a link will become available within 15 minutes of the session start.</p>
+            <div id="zoom_link">
+                <p class="mt-2 mb-0">
+                    <span class="zoom-time d-none">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">Click here to join</a>.
+                </p>
+            </div>
+            {% else %}
+            <p class="mb-0">You can join via Zoom for hands-on activities; a link will become available within 15 minutes of session start.</p>
+            <div id="zoom_link">
+                <p class="mt-2 mb-0">
+                    <span class="zoom-time d-none">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">Click here to join</a>
+                </p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% else %}
+
 <div class="future_session_alert alert alert-warning" role="alert">
     The livestream for this session has not begun yet. <br><br>
     When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
@@ -92,18 +118,6 @@
     This session has concluded.  You can review the session using the player embedded below.
 </div>
 
-{% if session.zoom_meeting_FAKE %}
-<div class="row mt-5 mb-3">
-    <div class="col-lg-10">
-        <div class="alert alert-primary">
-            {% if session.timeSlots[0].type == "Zoom Only" %}
-            This session takes place <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">on Zoom only</a>.
-            {% else %}
-            You can join this session <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">via Zoom for hands-on activities</a>.
-            {% endif %}
-        </div>
-    </div>
-</div>
 {% endif %}
 
 <hr>
@@ -204,7 +218,6 @@ function updateSessionStatus() {
         $('.past_session_alert').show();
     }
 }
-
 
 </script>
 
