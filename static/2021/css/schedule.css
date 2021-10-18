@@ -109,6 +109,14 @@
     color: var(--text-dark-color);
 }
 
+.day-slot h2 a {
+    color: var(--text-dark-color);
+}
+
+.day-slot h2 a:hover {
+    color: var(--text-dark-color);
+}
+
 .time-slot.converted-timezone,
 .tz:not(.tz-right) {
     color: var(--vis2021-purple);
