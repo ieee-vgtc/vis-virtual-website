@@ -1,4 +1,5 @@
 {% set page_title = session.fullTitle %}
+{% set active_page = "All Events" %}
 {% extends "2021/base.html" %}
 {% block content %}
 
@@ -6,6 +7,7 @@
     <div class="col-md-8">
         <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
             <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="events.html">All events</a></li>
                 <li class="breadcrumb-item"><a href="event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
                 <li class="breadcrumb-item active text-truncate" aria-current="page">{{ session.title }}</li>
             </ol>
@@ -33,7 +35,7 @@
         <h3 class="session-room">
             <span class="fas mr-1">&#xf108;</span>
             <a href="room_{{room.id}}.html">
-                Room: {{ room.name }}
+                Live-stream room: {{ room.name }}
             </a>
         </h3>
         <h3 class="session-date">
@@ -79,7 +81,7 @@
 </div>
 {% endif %}
 
-{% if session.zoom_meeting_FAKE %}
+{% if session.zoom_meeting %}
 <div class="row mt-5 mb-3">
     <div class="col-lg-10">
         <div class="alert alert-primary">
@@ -104,28 +106,30 @@
     </div>
 </div>
 {% else %}
+<div class="row">
+    <div class="col-md-8 my-5">
+        <div class="future_session_alert alert alert-warning" role="alert">
+            The live-stream for this session has not begun yet. <br><br>
+            When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
+        </div>
 
-<div class="future_session_alert alert alert-warning" role="alert">
-    The livestream for this session has not begun yet. <br><br>
-    When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
+        <div class="current_session_alert alert alert-info" role="alert">
+            This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to the {{ room.name }} room to view the session.</a>
+        </div>
+
+        <div class="past_session_alert alert alert-success" role="alert">
+            This session has concluded.  You can review the session using the player embedded below.
+        </div>
+    </div>
 </div>
-
-<div class="current_session_alert alert alert-info" role="alert">
-    This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to {{ room.name }} to view the session.</a>
-</div>
-
-<div class="past_session_alert alert alert-success" role="alert">
-    This session has concluded.  You can review the session using the player embedded below.
-</div>
-
 {% endif %}
 
 <hr>
 
 {% if session.timeSlots %}
 <div class="row my-4">
-    <div class="col-md-12">
-        <h2><a name="list">Presentations in this session:</a></h2>
+    <div class="col-md-8">
+        <h2 class="room_session_descriptor d-block py-2"><a name="list">Presentations in this session:</a></h2>
     </div>
 </div>
 

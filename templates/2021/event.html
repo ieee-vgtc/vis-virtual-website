@@ -1,4 +1,5 @@
 {% set page_title = event.title %}
+{% set active_page = "All Events" %}
 {% extends "2021/base.html" %}
 {% block content %}
 
@@ -7,6 +8,7 @@
     <div class="col-md-12">
         <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
             <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="events.html">All events</a></li>
                 <li class="breadcrumb-item active text-truncate" aria-current="page">{{ event.title }}</li>
             </ol>
         </nav>
