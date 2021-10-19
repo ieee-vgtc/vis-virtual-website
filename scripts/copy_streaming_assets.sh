@@ -19,16 +19,20 @@ echo "Copying assets from ieeevisstreaming into static/$1/streaming/"
 
 mkdir -p "static/$1/streaming"
 cp "ieeevisstreaming/bundle.js" "static/$1/streaming/bundle.js"
+cp "ieeevisstreaming/playback-bundle.js" "static/$1/streaming/playback-bundle.js"
 cp "ieeevisstreaming/styles.css" "static/$1/streaming/styles.css"
 cp "static/$1/css/ZillaSlab-SemiBold.ttf" "static/$1/streaming/ZillaSlab-SemiBold.ttf"
 
 echo "Copying template from ieeevisstreaming into templates/$1/streaming.html"
 cp "ieeevisstreaming/index.html" "templates/$1/streaming.html"
+cp "ieeevisstreaming/playback.html" "templates/$1/playback.html"
 
 echo "changing paths in templates/$1/streaming.html"
 
 perl -pi -e "s#styles.css#/static/$1/streaming/styles.css#g" "templates/$1/streaming.html"
 perl -pi -e "s#bundle.js#/static/$1/streaming/bundle.js#g" "templates/$1/streaming.html"
+perl -pi -e "s#styles.css#/static/$1/streaming/styles.css#g" "templates/$1/playback.html"
+perl -pi -e "s#playback-bundle.js#/static/$1/streaming/playback-bundle.js#g" "templates/$1/playback.html"
 
 
 echo "injecting auth0 into streaming page for authentication"
@@ -49,6 +53,20 @@ awk "
 { print }
 " "templates/$1/streaming.html" > tempfile; mv tempfile "templates/$1/streaming.html"
 
-# sed -i -e "s#styles.css#/static/$1/streaming/styles.css#g" "templates/$1/streaming.html"
-# sed -i -e "s#bundle.js#/static/$1/streaming/bundle.js#g" "templates/$1/streaming.html"
+awk "
+/<\/body>/ {
+    print \"{% if config.use_auth0 and requires_auth %}\"
+    print \"<script src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'\"
+    print \"integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo='\"
+    print \"crossorigin='anonymous'></script>\"
+    print \"<script src='https://cdn.auth0.com/js/auth0-spa-js/1.12/auth0-spa-js.production.js'></script>\"
+    print \"<script>\"
+    print \"const auth0_domain = '{{config.auth0_domain}}';\"
+    print \"const auth0_client_id = '{{config.auth0_client_id}}';\"
+    print \"</script>\"
+    print \"<script src='/static/$1/js/modules/auth0protect.js'></script>\"
+    print \"{% endif %}\"
+}
+{ print }
+" "templates/$1/playback.html" > tempfile; mv tempfile "templates/$1/playback.html"
 

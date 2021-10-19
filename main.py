@@ -385,6 +385,10 @@ def serve(path):
 def streaming():
     return meta_redirect_html(CURRENT_YEAR, 'streaming')
 
+@app.route("/playback.html")
+def playback():
+    return meta_redirect_html(CURRENT_YEAR, 'playback')
+
 
 print("Data Successfully Loaded")
 
