@@ -67,18 +67,31 @@
     }
   };
 
+  // youtubeplayer.ts
+  var PlayerState;
+  (function(PlayerState2) {
+    PlayerState2[PlayerState2["UNSTARTED"] = -1] = "UNSTARTED";
+    PlayerState2[PlayerState2["ENDED"] = 0] = "ENDED";
+    PlayerState2[PlayerState2["PLAYING"] = 1] = "PLAYING";
+    PlayerState2[PlayerState2["PAUSED"] = 2] = "PAUSED";
+    PlayerState2[PlayerState2["BUFFERING"] = 3] = "BUFFERING";
+    PlayerState2[PlayerState2["CUED"] = 5] = "CUED";
+  })(PlayerState || (PlayerState = {}));
+
   // replayvideoplayer.ts
   var IeeeVisReplayVideoPlayer = class {
-    constructor(elementId, getCurrentVideoId, getStartEndTimes) {
+    constructor(elementId, getCurrentVideoId, getStartEndTimes, onPlayerEnded) {
       this.elementId = elementId;
       this.getCurrentVideoId = getCurrentVideoId;
       this.getStartEndTimes = getStartEndTimes;
+      this.onPlayerEnded = onPlayerEnded;
       this.audioContext = new AudioContext();
       this.width = 400;
       this.height = 300;
       this.youtubeApiReady = false;
       this.youtubePlayerLoaded = false;
       this.youtubePlayerReady = false;
+      this.atEndOfSegmentBecauseMovedBack = false;
       this.init();
     }
     onYouTubeIframeAPIReady() {
@@ -119,10 +132,44 @@
       if (this.audioContext.state === "suspended") {
         this.player.mute();
       }
-      this.player.playVideo();
       this.updateVideo();
+      setInterval(() => this.checkBounds(), 1e3);
+    }
+    checkBounds() {
+      if (!this.latestState) {
+        return;
+      }
+      if (this.atEndOfSegmentBecauseMovedBack) {
+        return;
+      }
+      const currentTime = this.player.getCurrentTime();
+      const [start, end] = this.getStartEndTimes();
+      if (currentTime >= end && [PlayerState.PLAYING, PlayerState.ENDED].indexOf(this.latestState) !== -1) {
+        console.log("at end of stage");
+        this.onPlayerEnded();
+      }
     }
     onPlayerStateChange(state) {
+      this.latestState = state.data;
+      console.log("state:", state.data);
+      this.atEndOfSegmentBecauseMovedBack = false;
+      if (state.data === PlayerState.PLAYING || state.data === PlayerState.BUFFERING) {
+        const currentTime = this.player.getCurrentTime();
+        const [start, end] = this.getStartEndTimes();
+        if (currentTime < start || currentTime > end) {
+          if (currentTime < start) {
+            this.player?.seekTo(start, true);
+          } else {
+            this.player?.seekTo(end, true);
+            this.atEndOfSegmentBecauseMovedBack = true;
+            this.player?.pauseVideo();
+          }
+          console.log("outside range. moving. current:", currentTime, ", start end:", start, end);
+        }
+      } else if (state.data === PlayerState.ENDED) {
+        console.log("at end of stage");
+        this.onPlayerEnded();
+      }
     }
     loadYoutubePlayer() {
       this.youtubePlayerLoaded = true;
@@ -170,7 +217,7 @@
       this.sessionsData = {};
       this.roomSlices = [];
       this.db = new IeeeVisDb();
-      this.player = new IeeeVisReplayVideoPlayer(_IeeeVisStreamPlayback.PLAYER_ELEMENT_ID, this.getCurrentVideoId.bind(this), this.getCurrentStartEndTime.bind(this));
+      this.player = new IeeeVisReplayVideoPlayer(_IeeeVisStreamPlayback.PLAYER_ELEMENT_ID, this.getCurrentVideoId.bind(this), this.getCurrentStartEndTime.bind(this), this.onPlayerEnded.bind(this));
       this.db.loadRoom(ROOM_ID, (room) => this.onRoomUpdated(room));
       this.resize();
       window.addEventListener("resize", this.resize.bind(this));
@@ -187,9 +234,6 @@
       }
       this.addSliceIfYouTube(slices, logs[logs.length - 1], -1);
       this.roomSlices = slices;
-      if (slices.length) {
-        this.clickStage(slices[0]);
-      }
       this.updateTable();
     }
     updateTable() {
@@ -223,6 +267,19 @@
       this.currentSlice = slice;
       this.player.updateVideo();
       this.updateTable();
+    }
+    onPlayerEnded() {
+      if (!this.currentSlice) {
+        return;
+      }
+      const index = this.roomSlices.indexOf(this.currentSlice);
+      if (index === -1) {
+        return;
+      }
+      if (index + 1 >= this.roomSlices.length) {
+        return;
+      }
+      this.clickStage(this.roomSlices[index + 1]);
     }
     getCurrentStartEndTime() {
       const startS = Math.round((this.currentSlice?.startTimeMs || 0) / 1e3);
@@ -267,10 +324,6 @@
     resize() {
       this.width = window.innerWidth;
       this.height = window.innerHeight - 15;
-      const state = "WATCHING";
-      if (!state) {
-        return;
-      }
       document.getElementById("youtube-outer").style.display = "";
       document.getElementById("image-outer").style.display = "none";
       document.getElementById("gathertown-outer").style.display = "none";
