@@ -217,6 +217,12 @@ def generator():
             for poster in site_data["poster_list"].values():
                 yield "/year/{}/poster_{}.html".format(year, str(poster["uid"]))
 
+        # only some years use rooms
+        if 'room_names' in site_data['config']:
+            room_numbers = range(1, len(site_data['config']['room_names']) + 2)
+            for room_number in room_numbers:
+                yield "/year/{}/room_room{}.html".format(year, str(room_number))
+
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))
 
