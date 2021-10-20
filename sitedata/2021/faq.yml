@@ -7,7 +7,7 @@ FAQ:
 
       - Question: How does the website know my timezone?
         Answer: |-
-          All times are converted to your auto-detected timezone (as reported by your browser). If you wish to view all times in a different time zone, please select a timezone in the dropdown on [the Schedule page](/calendar.html).  Each page reports the currently-displayed timezone in the footer of every page in relation to GMT.
+          All times are converted to your auto-detected timezone (as reported by your browser). If you wish to view all times in a different time zone, please select a timezone in the dropdown on [the Schedule page](calendar.html).  Each page reports the currently-displayed timezone in the footer of every page in relation to GMT.
 
           If you need to, you can request the website "forget" your saved timezone.  Click <a href="javascript:resetTimezone()">this link</a>.
 
