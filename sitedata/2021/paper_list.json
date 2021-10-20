@@ -93,7 +93,7 @@
             "Manfred Cheung",
             "Yohann Paris"
         ],
-        "title": "Best Paper: A Multi-scale Visual Analytics Approach for Exploring Biomedical Knowledge",
+        "title": "A Multi-scale Visual Analytics Approach for Exploring Biomedical Knowledge",
         "session_id": "a-vahc-1",
         "abstract": "This paper describes an ongoing multi-scale visual analytics approach for exploring and analyzing biomedical knowledge at scale. We utilize global and local views, hierarchical and flow-based graph layouts, multi-faceted search, neighborhood recommendations, and document visualizations to help researchers interactively explore, query, and analyze biological graphs against the backdrop of biomedical knowledge. The generality of our approach - insofar as it re-quires only knowledge graphs linked to documents - means it can support a range of therapeutic use cases across different domains, from disease propagation to drug discovery. Early interactions with domain experts support our approach for use cases with graphs with over 40,000 nodes and 350,000 edges.",
         "keywords": [],
@@ -103,7 +103,7 @@
         "paper_award": "",
         "image_caption": "A biomedical researcher uses the graph prototype to investigate potential drug treatments for SARS-CoV-2 using the COVID-19 biological graph that was automatically derived from literature. (A) The Global View provides an overview of the biological graph with bundled edges and nodes organized hierarchically in a biomedical ontology. The results of searching for links from several articles using DOIs are highlighted. (B) The Local View shows the highlighted results extracted as a node-link flow graph for further analysis. (C) The Drill-down Panel displays the underlying evidence extracted from scientific articles for the inhibition relationship between tocilizumab and IL6. \n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vahc-1003": {
@@ -122,7 +122,7 @@
         "paper_award": "",
         "image_caption": "Visual cohort analysis of patients with inflammatory bowel disease. \nThe visualization shows patients as rows filled with data selected in the menu on the left.\nPatients can be synchronized to a specific element.\nAdditional information for each element is shown in a tooltip.\n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vahc-1009": {
@@ -166,7 +166,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vahc-1010": {
@@ -187,7 +187,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vis4dh-1007": {
@@ -212,7 +212,7 @@
         "paper_award": "",
         "image_caption": "This paper examines some of the theoretical perspectives informing the adoption and\ncritique of data visualization in the digital humanities with applied examples in\ncontext. It showcases how data visualization is used within a King\u2019s Digital Lab\nproject to facilitate collaborative data exploration \u2013 to support data curation and\ncleaning and/or to guide the design process \u2013 as well as data analysis by users\nexternal to the team. Theoretical issues around bridging the gap between approaches\nadopted for small and/or large-scale datasets are addressed from functional\nperspectives with reference to evolving data modelling and software development\nlifecycle approaches and workflows.\n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vis4dh-1014": {
@@ -231,7 +231,7 @@
         "paper_award": "",
         "image_caption": "Ensemble overview over all topics using a t-SNE layout based on topic similarity. Topic models are encoded by color, uncertainty by size. 11 groups of topics have been merged to clusters. Other groups (A,B, and C) are subject to more detailed analysis.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vis4dh-1006": {
@@ -435,7 +435,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vahc-1022": {
@@ -474,7 +474,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vahc-1019": {
@@ -611,7 +611,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vis4dh-1008": {
@@ -2478,7 +2478,7 @@
         "paper_award": "",
         "image_caption": "BUCEPHALUS: a BUsiness CEntric cybersecurity Platform for proActive anaLysis Using visual analyticS.\nAuthors are: Marco Angelini, Graziano Blasilli, Silvia Bonomi, Simone Lenti\nAlessia Palleschi, Giuseppe Santucci, Emiliano De Paoli.\nFrom Sapienza University of Rome and MBDA Italia.\n\n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vizsec-8146": {
@@ -2500,7 +2500,7 @@
         "paper_award": "",
         "image_caption": "A screenshot of the proposed differential privacy policy tool. For the given levels of trust, data sensitivity, and the maximum tolerated risk, the tool proposes the minimum recommended noise. The user can explore the graph and e.g. choose a slightly smaller noise that still provides a similar level of risk.\n",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vizsec-2863": {
@@ -2519,7 +2519,7 @@
         "paper_award": "",
         "image_caption": "An alert-driven attack graph shows attacker strategies extracted from actions observed through intrusion alerts. \nEach graph shows the strategies of all attackers that obtain an objective on a particular victim. \nThe image shows an attack graph of data_manipulation over remoteware-cl, where 3 teams successfully exploit it: \nTeam 5 exploits it twice, while Teams 1 and 8 exploit it once. \nThe S-PDFA identifies three ways of exploiting the objective based on the actions that lead up to it. \nTeams 5 and 8 share a significant portion of a strategy, \nwhile Team 1 has found the shortest path to reach the objective.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vizsec-7867": {
@@ -2538,7 +2538,7 @@
         "paper_award": "",
         "image_caption": "We show here a screenshot of our Provenance-driven Automated Security Dashboard. It visualizes the content of our provenance database and static analysis database. The icycle graph helps the developer to quickly identfy the most important security issues.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "v-tvcg-9444798": {
@@ -3105,7 +3105,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1038": {
@@ -3122,7 +3122,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1045": {
@@ -3139,7 +3139,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1046": {
@@ -3157,7 +3157,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1064": {
@@ -3198,7 +3198,7 @@
         "paper_award": "",
         "image_caption": "Calendar view of daily alerts across a large organisation monitoring insider threat. Weekends are quiet, and a public holiday weekend especially so, but may be when a malicious user chooses to strike.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vizsec-9220": {
@@ -3220,7 +3220,7 @@
         "paper_award": "",
         "image_caption": "Fabian B\u00f6hm received his master's degree in Management Information Systems within the Honors Elite Program at the University of Regensburg, Germany and the Polytechnic University of Catalonia in Barcelona, Spain, in 2016. Since 2017, he is a Ph.D. candidate and research assistant at the Chair of Information Systems at the University of Regensburg. His research interests cycle around the application of Visual Analytics for cybersecurity. The core research results show the possibilities offered by Visual Analytics in crucial security domains as Cyber Threat lntelligence, ldentity and Access Management, Security Analytics, and Digital Forensics.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vizsec-4137": {
@@ -3242,7 +3242,7 @@
         "paper_award": "",
         "image_caption": "The Report Overview and Report Comparison visualizations displaying the vulnerabilities of an application. On the left, a matrix visualization is showing a single report and the distribution of vulnerabilities across relevant attributes such as severity and origin. The red saturation marks the matrix cells with the largest amount of vulnerabilities. On the right, a unit bar chart shows the differences in vulnerabilities present in two versions of an application. The red and blue colors of units correspond to the individual application versions while the grey color marks vulnerabilities that match between both versions.",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-vizsec-2128": {
@@ -3264,7 +3264,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "v-full-1578": {
@@ -5045,7 +5045,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1042": {
@@ -5065,7 +5065,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1061": {
@@ -5086,7 +5086,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1039": {
@@ -5108,7 +5108,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1037": {
@@ -5129,7 +5129,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1044": {
@@ -5167,7 +5167,7 @@
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
-        "has_pdf": false,
+        "has_pdf": true,
         "ff_link": ""
     },
     "a-visap-1063": {

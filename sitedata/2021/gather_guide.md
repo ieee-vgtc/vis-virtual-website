@@ -13,6 +13,8 @@ We acknowledge that Gather has accessibility limitations.  More information abou
 
 Student Volunteers will be on hand to provide assistance navigating the space. We suggest using the Gather **[Follow](https://support.gather.town/help/following#:~:text=To%20activate%20follow%20mode%2C%20click,to%20open%20the%20same%20module.)** feature. Student Volunteers will be available at the **Help Desk** and by request.
 
+<img src="https://ieeevis.b-cdn.net/vis_2021/help/gather/image1-1.png" class="img-fluid">
+
 If you need assistance, please contact [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org) or post the request in #support on Discord.  If you have already requested assistance via the registration system, someone will be in contact during the conference.
 
 
