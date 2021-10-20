@@ -276,6 +276,9 @@
       return this.getCurrentStageOfSession(this.currentSession);
     }
     getCurrentStageOfSession(session) {
+      if (!session || !session?.currentStatus) {
+        return;
+      }
       return session?.stages[session?.currentStatus?.videoIndex];
     }
     getCurrentVideoId() {
