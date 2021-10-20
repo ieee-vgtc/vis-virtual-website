@@ -21,13 +21,14 @@ tr {
 tr.active {
     background: #eee;
 }
-/*
-tr:nth-child(even) {
-    background: #eee;
+#playback-table {
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
 }
-tr:nth-child(odd) {
-    background: #f8f8f8;
-}*/
+#playback-table .active {
+    cursor: default;
+}
 
 button {
     margin: 20px 10px;

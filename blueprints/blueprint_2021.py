@@ -391,6 +391,7 @@ def format_by_session_list(v):
         "track": v["track"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
+        "day": dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d"),
         "timeSlots": v["time_slots"],
         "event": v["event"],  # backloaded from parent event
         "event_type": v["event_type"],  # backloaded from parent event
@@ -625,6 +626,12 @@ def streaming():
     data = _data()
     data["requires_auth"] = True
     return render_template("{}/streaming.html".format(year), **data)
+
+@year_blueprint.route("/year/{}/playback.html".format(year))
+def playback():
+    data = _data()
+    data["requires_auth"] = True
+    return render_template("{}/playback.html".format(year), **data)
 
 
 site_data_path = "sitedata/{}".format(year)

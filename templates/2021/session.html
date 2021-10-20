@@ -120,9 +120,23 @@
         <div class="past_session_alert alert alert-success" role="alert">
             This session has concluded.  You can review the session using the player embedded below.
         </div>
+
     </div>
 </div>
+
+<!-- <div class="past_session_alert"> -->
+    <div class="row mt-5">
+        <div class="col-lg-10 streaming-container">
+            <div class="streaming room_session_stream">
+                <iframe src="playback.html?room={{room.id}}&day={{session.day}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+                <!-- <iframe src="playback.html?room=room10&day=2021-10-11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe> -->
+            </div>
+        </div>
+    </div>
+
 {% endif %}
+
+
 
 <hr>
 
@@ -212,7 +226,7 @@ function updateSessionStatus() {
     const sessionIsFuture = moment().tz(current_timezone).isBefore(sessionStart);
     const sessionIsPast = moment().tz(current_timezone).isAfter(sessionStart);
 
-    const classesToHide = ['.future_session_alert', '.current_session_alert', '.past_session_alert']
+    const classesToHide = ['.future_session_alert', '.current_session_alert', '.past_session_alert', '.room_session_stream']
     classesToHide.forEach((c) => { $(c).hide();});
     if (sessionIsCurrent) {
         $('.current_session_alert').show();
@@ -220,6 +234,7 @@ function updateSessionStatus() {
         $('.future_session_alert').show();
     } else {
         $('.past_session_alert').show();
+        $('.room_session_stream').show();
     }
 }
 
