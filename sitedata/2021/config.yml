@@ -46,6 +46,7 @@ calendar:
     application: '#8338ec'
     vis: '#264653'
     memorial: '#264653'
+    supporter: '#264653'
     keynote: '#264653'
     capstone: '#264653'
     industrial: '#264653'
