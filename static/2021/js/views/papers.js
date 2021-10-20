@@ -376,15 +376,16 @@ const card_time_detail = (paper, show) => {
 // language=HTML
 const card_html = (paper) =>
   `
-        <div class="pp-card pp-mode-${render_mode} ">
+        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
             <div class="pp-card-header" style="">
               <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-              <a href="${API.paperLink(paper)}"
-              target="_blank"
-                 class="text-muted">
-                 <h5 class="card-title" > ${paper.title} </h5>
-              </a>
+              <h5 class="card-title">
+                 ${paper.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
+                 <a href="${API.paperLink(paper)}" target="_blank" class="text-muted">
+                  ${paper.title}
+                  </a>
+              </h5>
               <h6 class="card-subtitle text-muted" style="text-align: left;">
                       ${paper.authors.map(
     s => `<a href="papers.html?filter=authors&search=${s}">${s}</a>`)
@@ -409,15 +410,16 @@ const card_html = (paper) =>
 // language=HTML
 const card_poster_html = (poster) =>
   `
-        <div class="pp-card pp-mode-${render_mode} ">
+        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
             <div class="pp-card-header" style="">
               <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-              <a href="${API.posterLink(poster)}"
-              target="_blank"
-                 class="text-muted">
-                 <h5 class="card-title" > ${poster.title} </h5>
-              </a>
+              <h5 class="card-title">
+                ${poster.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
+                <a href="${API.posterLink(poster)}" target="_blank" class="text-muted">
+                  ${poster.title}
+                </a>
+              </h5>
               <h6 class="card-subtitle text-muted" style="text-align: left;">
                       ${poster.authors.map(
     s => `<a href="posters.html?filter=authors&search=${s}">${s}</a>`)

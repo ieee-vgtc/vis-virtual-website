@@ -261,14 +261,14 @@ function populateDays(calendarSelection) {
 function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names
   let roomData = [
-    roomNames.room1,
-    roomNames.room2,
-    roomNames.room3,
-    roomNames.room4,
-    roomNames.room5,
-    roomNames.room6,
-    roomNames.room7,
-    roomNames.room8,
+    {'text': roomNames.room1, 'link': 'room_room1.html'},
+    {'text': roomNames.room2, 'link': 'room_room2.html'},
+    {'text': roomNames.room3, 'link': 'room_room3.html'},
+    {'text': roomNames.room4, 'link': 'room_room4.html'},
+    {'text': roomNames.room5, 'link': 'room_room5.html'},
+    {'text': roomNames.room6, 'link': 'room_room6.html'},
+    {'text': roomNames.room7, 'link': 'room_room7.html'},
+    {'text': roomNames.room8, 'link': 'room_room8.html'}
   ];
 
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
@@ -294,7 +294,9 @@ function populateHeader(calendarSelection, data, isDay) {
       .style("grid-row", "tracks / auto")
       .style("grid-column", columnPosition)
       .append('h2')
-        .text(d => d);
+        .append('a')
+        .attr('href', (d) => d.link)
+        .text(d => d.text);
 }
 
 function populateTimes(calendarSelection) {

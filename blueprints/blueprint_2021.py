@@ -7,6 +7,7 @@ import csv
 import json
 import os
 import dateutil.parser
+from datetime import datetime
 import yaml
 
 year=2021
@@ -301,11 +302,15 @@ def format_poster(v):
         "id": v["uid"],
         "authors": list_fields["authors"],
         "title": v["title"],
+        "award": v["poster_award"],
         "discord_channel": v["discord_channel"],
         "session_title": v["event"],
-        "sessions": [v["event"]],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + ".pdf",
         "has_image": v["has_image"],
+
+        # for posters.html
+        "sessions": [v["event"]],
+        "UID": v["uid"],
     }
 
 
@@ -386,6 +391,7 @@ def format_by_session_list(v):
         "track": v["track"],
         "startTime": v["time_start"],
         "endTime": v["time_end"],
+        "day": dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d"),
         "timeSlots": v["time_slots"],
         "event": v["event"],  # backloaded from parent event
         "event_type": v["event_type"],  # backloaded from parent event
@@ -402,7 +408,7 @@ def format_by_session_list(v):
         "streaming_session_id": v["streaming_session_id"] if "streaming_session_id" in v else None,
         "ff_playlist": v["ff_playlist"],
         "ff_playlist_id": v["ff_playlist"].split("=")[-1] if v["ff_playlist"] else None,
-        # "zoom_meeting": v["zoom_meeting"]
+        "zoom_meeting": v["zoom_meeting"],
     }
 
 
@@ -507,8 +513,44 @@ def session(session):
     data["session"] = format_by_session_list(v)
     if "streaming_session_id" in v:
         data["streaming_session_id"] = v["streaming_session_id"]
+
+    room = data['session']['track']
+    room_name = ''
+    if 'room_names' in data['config'] and room in data['config']['room_names']:
+        room_name = data['config']['room_names'][room]
+
+    data["room"] = {
+        'name': room_name,
+        'id': room
+    }
     return render_template("{}/session.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/room_<room>.html".format(year))
+def room(room):
+    data = _data()
+    room_name = ''
+    if 'room_names' in data['config'] and room in data['config']['room_names']:
+        room_name = data['config']['room_names'][room]
+
+    all_sessions = [by_uid['sessions'][uid] for uid in by_uid['sessions']]
+    room_sessions = [s for s in all_sessions if s['track'] == room]
+    data["requires_auth"] = True
+    data["sessions"] = [format_by_session_list(v) for v in room_sessions]
+
+    data["room"] = {
+        'name': room_name,
+        'id': room
+    }
+    # We need to write a minimal data object to the js so that current session can be calculated.
+    # We copy a minimal amount of data there
+    data["sessionTimings"] = json.dumps([ 
+            {
+                'startTime': s['startTime'],
+                'endTime': s['endTime'],
+                'id': s['id']
+            }
+        for s in data["sessions"]])
+    return render_template("{}/room.html".format(year), **data)
 
 @year_blueprint.route('/year/{}/event_<event>.html'.format(year))
 def event(event):
@@ -584,6 +626,12 @@ def streaming():
     data = _data()
     data["requires_auth"] = True
     return render_template("{}/streaming.html".format(year), **data)
+
+@year_blueprint.route("/year/{}/playback.html".format(year))
+def playback():
+    data = _data()
+    data["requires_auth"] = True
+    return render_template("{}/playback.html".format(year), **data)
 
 
 site_data_path = "sitedata/{}".format(year)

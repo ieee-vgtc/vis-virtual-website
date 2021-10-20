@@ -16,6 +16,7 @@
         measurementId: "G-SNC8VC6RFM"
       });
       firebase.analytics();
+      this.logsRef = firebase.database().ref("logs/");
     }
     loadRoom(roomId2, onRoomUpdated) {
       this.roomRef = firebase.database().ref("rooms/" + roomId2);
@@ -29,6 +30,10 @@
         onSessionUpdated(snapshot.val());
       });
     }
+    loadAllSessions(callback) {
+      const ref = firebase.database().ref("sessions/");
+      ref.on("value", (snapshot) => callback(snapshot.val()));
+    }
     loadAdmins(callback) {
       this.adminsRef = firebase.database().ref("admins");
       this.adminsRef.on("value", (snapshot) => {
@@ -40,6 +45,25 @@
     }
     setRoom(path, value) {
       this.roomRef?.child(path).set(value);
+    }
+    log(log) {
+      const date = new Date(log.time);
+      const month = date.getUTCMonth() + 1;
+      const day = date.getUTCDate();
+      const year = date.getUTCFullYear();
+      const dayString = `${year}-${month}-${day}`;
+      const hour = date.getUTCHours();
+      const minute = date.getUTCMinutes();
+      const second = date.getUTCSeconds();
+      const milli = date.getUTCMilliseconds();
+      const timeString = `${hour}:${minute}:${second}:${milli}`;
+      this.logsRef?.child(dayString).child(log.room).child(timeString).set(log);
+    }
+    loadLogs(room, day, callback) {
+      const logsRef = firebase.database().ref(`logs/${day}/${room}`);
+      logsRef.on("value", (snapshot) => {
+        callback(snapshot.val());
+      });
     }
   };
 
@@ -107,6 +131,7 @@
         this.player.mute();
       }
       this.player.playVideo();
+      this.updateVideo();
     }
     onPlayerStateChange(state) {
       if (state.data === PlayerState.UNSTARTED) {

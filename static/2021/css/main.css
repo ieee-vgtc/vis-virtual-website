@@ -297,9 +297,14 @@ h5.card-title {
   /* font-size: 30px; */
 }
 
-h5.card-title:hover {
+h5.card-title a:hover {
   color: var(--text-accent-color);
   text-decoration: none;
+}
+
+h5.card-title .paper-award {
+  outline: none;
+  margin-right: 4px;
 }
 
 a.award-paper:hover {
@@ -880,4 +885,28 @@ hr::after {
 .streaming > iframe {
   min-height: 80vh;
   width: 100%;
+}
+
+.room_session_header,
+.room_session_descriptor,
+.room_session_timeslot,
+.room_session_future_stream,
+.room_session_stream,
+.future_session_alert,
+.current_session_alert,
+.past_session_alert {
+  display: none;
+}
+
+.room_session_descriptor
+{
+  color: var(--text-dark-color);
+  border-bottom: 2px solid;
+}
+
+.room_session_details
+{
+
+  color: var(--text-gray-color);
+  border-bottom: 2px dashed;
 }

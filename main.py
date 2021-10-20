@@ -217,6 +217,12 @@ def generator():
             for poster in site_data["poster_list"].values():
                 yield "/year/{}/poster_{}.html".format(year, str(poster["uid"]))
 
+        # only some years use rooms
+        if 'room_names' in site_data['config']:
+            room_numbers = range(1, len(site_data['config']['room_names']) + 2)
+            for room_number in room_numbers:
+                yield "/year/{}/room_room{}.html".format(year, str(room_number))
+
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))
 
@@ -326,6 +332,9 @@ def poster_session():
 def session(session):
     return meta_redirect_html(FROZEN_YEAR, "session_{}.html".format(session))
 
+@app.route("/room_<room>.html")
+def room(room):
+    return meta_redirect_html(FROZEN_YEAR, "room_{}.html".format(room))
 
 @app.route('/event_<event>.html')
 def event(event):
@@ -375,6 +384,10 @@ def serve(path):
 @app.route("/streaming.html")
 def streaming():
     return meta_redirect_html(CURRENT_YEAR, 'streaming')
+
+@app.route("/playback.html")
+def playback():
+    return meta_redirect_html(CURRENT_YEAR, 'playback')
 
 
 print("Data Successfully Loaded")

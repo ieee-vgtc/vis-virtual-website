@@ -1,0 +1,245 @@
+{% set page_title = "Conference room - " ~ room.name %}
+{% set active_page = "All Events" %}
+{% extends "2021/base.html" %}
+{% block content %}
+
+<div class="row mt-3">
+    <div class="col-md-8">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="calendar.html">Conference rooms</a></li>
+                <li class="breadcrumb-item active">{{ room.name }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="session-title">{{ room.name }}</h1>
+
+    </div>
+</div>
+
+
+<div class="row mt-5">
+    <div class="col-lg-10 streaming-container">
+        <!-- ensure 16x9 aspect ratio;
+            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
+        <div class="alert alert-warning room_session_future_stream" role="alert">
+            The livestream for the next session has not begun yet — the next session starts <span id="next-session-time font-weight-bold">(soon)</span>. <br><br>
+            When it is, the video stream will replace this message (15 minutes before the scheduled start time).
+        </div>
+        <div class="streaming room_session_stream">
+            <a id='test-modal-fullscreen'>Full Screen
+                    <span class="fas fa-expand">&#xf065;</span>
+            </a>
+            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen
+                    <span class="fas fa-compress">&#xf066;</span>
+            </a>
+
+            <iframe src="streaming.html?room={{room.id}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+{% for session in sessions %}
+    <div class='room_session_timeslot' id='room_session_timeslot_{{session.id}}'>
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <h3 class="room_session_descriptor my-3 py-2" id='room_session_descriptor_current_{{session.id}}'>Current Session</h3>
+                <h3 class="room_session_descriptor my-3 py-2" id='room_session_descriptor_next_{{session.id}}'>Next Session</h3>
+                <h2 class="session-title">
+                    <a href="session_{{ session.id }}.html">
+                        {{ session.fullTitle }}
+                    </a>
+                </h2>
+                {% if session.event_url %}
+                <h3 class="session-url">
+                    <a href="{{ session.event_url }}" target="_blank">
+                        <span class="fas mr-1">&#xf57c;</span>
+                        {{ session.event_url }}</a>
+                </h3>
+                {% endif %}
+                {% if session.chair %}
+                <h3 class="session-chair">
+                    <span class="fas mr-1">&#xf007;</span>
+                    Session chair: {{ session.chair | join(", ") }}
+                </h3>
+                {% elif session.organizers %}
+                <h3 class="session-chair">
+                    <span class="fas mr-1">&#xf0c0;</span>
+                    Organizers: {{ session.organizers | join(", ") }}
+                </h3>
+                {% endif %}
+                <h3 class="session-date">
+                    <span class="fas mr-1">&#xf017;</span>
+                    <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                        <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                        <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                    </span>
+                </h3>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        {% if session.abstract %}
+            <div class="row">
+                <div class="col-md-8">
+                    <p>{{ session.abstract }}</p>
+                </div>
+            </div>
+        {% endif %}
+
+        <div class="row">
+            <div class="col-md-8">
+                <h3 class="room_session_details my-3 py-2">&hellip; in this session&hellip;</h3>
+            </div>
+        </div>
+
+        {% for timeslot in session.timeSlots %}
+            <div class="row mb-4">
+                <div class="col-md-8 session-listing">
+                    {% if timeslot.uid %}
+                    <h3 class="session-list-title">
+                        <a href="paper_{{ timeslot.uid }}.html">
+                            {{ timeslot.title }}
+                            <span class="fas mr-1">&#xf0c1;</span>
+                        </a>
+                    </h3>
+                    {% else %}
+                    <h3 class="session-list-title">{{ timeslot.title }}</h3>
+                    {% endif %}
+                    <h4 class="session-list-presenter mt-3">
+                        <span class="fas mr-1">&#xf21d;</span>
+                        {{ timeslot.contributors | join(", ") }}
+                    </h4>
+                    <h5 class="session-list-type">
+                        <span class="fas mx-1">&#xf027;</span>
+                        {{ timeslot.type }}
+                    </h4>
+                    <h5 class="session-list-time">
+                        <span class="fas mr-1">&#xf017;</span>
+                        <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+                        <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                            <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                            <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                        </span>
+                    </h5>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+
+
+<script src="/static/2021/js/views/timezone.js"></script>
+
+{% endblock %}
+
+{% block footer %}
+
+    {{ super() }}
+<script>
+
+$(document).ready(function() {
+    setInterval(filterByCurrentSession, 30 * 1000);
+    filterByCurrentSession();
+
+    $('#test-modal-fullscreen').click((x) => { makeFullScreen()});
+    $('#test-modal-leave-fullscreen').click((x) => { exitFullScreen()});
+
+    document.addEventListener('fullscreenchange', exitFullScreenHandler);
+    document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
+    document.addEventListener('mozfullscreenchange', exitFullScreenHandler);
+    document.addEventListener('MSFullscreenChange', exitFullScreenHandler);
+})
+
+function filterByCurrentSession() {
+    // We need to write the session timings into the page to calculate current/next session.
+    // See blueprint_2021.py
+    sessionTimings = {{sessionTimings|safe}}
+    sessionIsCurrent = function(session) {
+        // We take a 15 minute grace period to the start of a session
+        const sessionStart = moment(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
+        const sessionEnd = moment(session['endTime']).tz(current_timezone);
+        return moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    }
+
+    sessionIsFuture = function(session) {
+        const sessionStart = moment(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment(session['endTime']).tz(current_timezone);
+        return moment().tz(current_timezone).isBefore(sessionStart);
+    }
+
+    let currentSession = sessionTimings.find(sessionIsCurrent);
+    const classesToHide = ['.room_session_header', '.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream', '.room_session_stream']
+    classesToHide.forEach((c) => { $(c).hide();});
+    if (currentSession) {
+        currentSessionId = currentSession.id;
+        $('#room_session_header_' + currentSessionId).show();
+        $('#room_session_descriptor_current_' + currentSessionId).show();
+        $('#room_session_timeslot_' + currentSessionId).show();
+        $('.room_session_stream').show();
+    } else {
+        const nextSession = sessionTimings.find(sessionIsFuture);
+        if (nextSession) {
+            nextSessionId = nextSession.id;
+            $('#room_session_header_' + nextSessionId).show();
+            $('#room_session_descriptor_next_' + nextSessionId).show();
+            $('#room_session_timeslot_' + nextSessionId).show();
+            $('.room_session_future_stream').show();
+
+            const nextSessionStart = moment(nextSession.startTime).tz(current_timezone);
+            $('#next-session-time').text(nextSessionStart.fromNow());
+        }
+    }
+}
+
+
+function requestFullScreen(element) {
+    // Supports most browsers and their versions.
+    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
+
+    if (requestMethod) { // Native full screen.
+        requestMethod.call(element);
+    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
+}
+
+function exitFullScreen() {
+    // Supports most browsers and their versions.
+    if(document.exitFullscreen) {
+        document.exitFullscreen();
+    }
+    else if(document.webkitCancelFullscreen) {
+        document.webkitCancelFullscreen();
+    }
+
+    else if(document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+    }
+}
+
+function makeFullScreen() {
+    $('.streaming > iframe').addClass("streaming-fullscreen");
+    $('#test-modal-leave-fullscreen').addClass("visible-floating");
+    $('#test-modal-leave-fullscreen').removeClass("invisible-floating");
+    var elem = document.body;
+    requestFullScreen(elem);
+}
+
+function exitFullScreenHandler() {
+    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
+        $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen");
+
+        $('#test-modal-leave-fullscreen').removeClass("visible-floating");
+        $('#test-modal-leave-fullscreen').addClass("invisible-floating");
+    }
+}
+
+</script>
+
+{% endblock %}
