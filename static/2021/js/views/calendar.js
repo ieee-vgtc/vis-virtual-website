@@ -168,9 +168,11 @@ function createFullCalendar(calendar, config, allEvents) {
           continue;
         }
 
-        // force non-full day event
+        // force non-full day event on Monday
         if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
           timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
+        if (dayKey === "2021-10-25" && timeslotKey === "17:00:00Z")
+          timePosition = sessions[3].timeStart + " / " + sessions[3].timeEnd;
       }
       if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
         if (timeslotKey === "20:00:00Z")

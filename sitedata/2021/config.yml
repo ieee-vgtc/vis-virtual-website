@@ -49,7 +49,7 @@ calendar:
     supporter: '#264653'
     keynote: '#264653'
     capstone: '#264653'
-    industrial: '#264653'
+    industry: '#264653'
     paper: '#2a9d8f'
     papers: '#2a9d8f'
   sunday_saturday: true  #  Include Sunday and Saturday

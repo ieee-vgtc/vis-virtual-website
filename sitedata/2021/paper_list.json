@@ -112,7 +112,7 @@
             "David Sessler",
             "J\u00f6rn Kohlhammer"
         ],
-        "title": "Towards a Comprehensive \u2026",
+        "title": "Towards a Comprehensive Cohort Visualization of Patients with Inflammatory Bowel Disease",
         "session_id": "a-vahc-2",
         "abstract": "This paper reports on a joint project with medical experts on inflammatory bowel disease (IBD). Patients suffering from IBD, e.g. Crohn\u2019s disease or ulcerative colitis, do not have a reduced life expectancy and disease progressions easily span several decades. We designed a visualization to highlight information that is vital for comparing patients and progressions, especially with respect to the treatments administered over the years. Medical experts can interactively determine the amount of information displayed and can synchronize the progressions to the beginning of certain treatments and medications. While the visualization was designed in close collaboration with IBD experts, we additionally evaluated our approach with 35 participants to ensure good usability and accessibility. The paper also highlights the future work on similarity definition and additional visual features in this on-going project.",
         "keywords": [],
@@ -1763,9 +1763,9 @@
         ],
         "uid": "v-tvcg-9337213",
         "time_stamp": "2021-10-27T15:30:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "The VIS30K dataset is a collection of 31,481 (1990-2020) images representing 31 years of figures and tables from four tracks of the IEEE Visualization Conference series. We also contribute VISImageNavigator (VIN, visimagenavigator.github.io), a web-based tool that facilitates search and exploring VIS30K by author names, paper keywords, title and abstract, and years. This figure shows a timeline view in VIN of selected images from the first 30 years (1990-2019) of the conference showing diverse and trending research work. (Best viewed electronically, zoomed in.)",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -6376,7 +6376,7 @@
             "Rynson W. H. Lau"
         ],
         "title": "Selective Region-based Photo Color Adjustment for Graphic Designs",
-        "session_id": "v-cga-cga3",
+        "session_id": "v-siggraph-siggraph1",
         "abstract": "When adding a photo onto a graphic design, professional graphic designers often adjust its colors based on some target colors obtained from the brand or product to make the entire design more memorable to audiences and establish a consistent brand identity. However, adjusting the colors of a photo in the context of a graphic design is a difficult task, with two major challenges: (1) Locality: The color is often adjusted locally to preserve the semantics and atmosphere of the original image; and (2) Naturalness: The modified region needs to be carefully chosen and recolored to obtain a semantically valid and visually natural result. To address these challenges, we propose a learning-based approach to photo color adjustment for graphic designs, which maps an input photo along with the target colors to a recolored result. Our method decomposes the color adjustment process into two successive stages: modifiable region selection and target color propagation. The first stage aims to solve the core, challenging problem of which local image region(s) should be adjusted, which requires not only a common sense of colors appearing in our visual world but also understanding of subtle visual design heuristics. To this end, we capitalize on both natural photos and graphic designs to train a region selection network, which detects the most likely regions to be adjusted to the target colors. The second stage trains a recoloring network to naturally propagate the target colors in the detected regions. Through extensive experiments and a user study, we demonstrate the effectiveness of our selective region-based photo recoloring framework.",
         "keywords": [],
         "uid": "v-siggraph-115",
@@ -6398,7 +6398,7 @@
             "Julie Dorsey"
         ],
         "title": "Tracing Versus Freehand for Evaluating Computer-Generated Drawings",
-        "session_id": "v-cga-cga3",
+        "session_id": "v-siggraph-siggraph1",
         "abstract": "Non-photorealistic rendering (NPR) and image processing algorithms are widely assumed as a proxy for drawing. However, this assumption is not well assessed due to the difficulty in collecting and registering freehand drawings. Alternatively, tracings are easier to collect and register, but there is no quantitative evaluation of tracing as a proxy for freehand drawing. In this paper, we compare tracing, freehand drawing, and computer-generated drawing approximation (CGDA) to understand their similarities and differences. We collected a dataset of 1,498 tracings and freehand drawings by 110 participants for 100 image prompts. Our drawings are registered to the prompts and include vector-based timestamped strokes collected via stylus input. Comparing tracing and freehand drawing, we found a high degree of similarity in stroke placement and types of strokes used over time. We show that tracing can serve as a viable proxy for freehand drawing because of similar correlations between spatio-temporal stroke features and labeled stroke types. Comparing hand-drawn content and current CGDA output, we found that 60% of drawn pixels corresponded to computer-generated pixels on average. The overlap tended to be commonly drawn content, but people's artistic choices and temporal tendencies remained largely uncaptured. We present an initial analysis to inform new CGDA algorithms and drawing applications, and provide the dataset for use by the community.",
         "keywords": [],
         "uid": "v-siggraph-332",
@@ -6417,7 +6417,7 @@
             "Anton Kaplanyan"
         ],
         "title": "A Non-exponential Transmittance Model for Volumetric Scene Representations",
-        "session_id": "v-cga-cga3",
+        "session_id": "v-siggraph-siggraph1",
         "abstract": "We introduce a novel transmittance model to improve the volumetric representation of 3D scenes. The model can represent opaque surfaces in the volumetric light transport framework. Volumetric representations are useful for complex scenes, and become increasingly popular for level of detail and scene reconstruction. The traditional exponential transmittance model found in volumetric light transport cannot capture correlations in visibility across volume elements. When representing opaque surfaces as volumetric density, this leads to both bloating of silhouettes and light leaking artifacts. By introducing a parametric non-exponential transmittance model, we are able to approximate these correlation effects and significantly improve the accuracy of volumetric appearance representation of opaque scenes. Our parametric transmittance model can represent a continuum between the linear transmittance that opaque surfaces exhibit and the traditional exponential transmittance encountered in participating media and unstructured geometries. This covers a large part of the spectrum of geometric structures encountered in complex scenes. In order to handle the spatially varying transmittance correlation effects, we further extend the theory of non-exponential participating media to a heterogeneous transmittance model. Our model is compact in storage and computationally efficient both for evaluation and for reverse-mode gradient computation. Applying our model to optimization algorithms yields significant improvements in volumetric scene appearance quality. We further show improvements for relevant applications, such as scene appearance prefiltering, image-based scene reconstruction using differentiable rendering, neural representations, and compare it to a conventional exponential model.",
         "keywords": [],
         "uid": "v-siggraph-322",
@@ -6442,7 +6442,7 @@
             "Jingyi Yu"
         ],
         "title": "Editable Free-viewpoint Video using a Layered Neural Representation",
-        "session_id": "v-cga-cga3",
+        "session_id": "v-siggraph-siggraph1",
         "abstract": "Generating free-viewpoint videos is critical for immersive VR/AR experience but recent neural advances still lack the editing ability to manipulate the visual perception for large dynamic scenes. To fill this gap, in this paper we propose the first approach for editable photo-realistic free-viewpoint video generation for large-scale dynamic scenes using only sparse 16 cameras. The core of our approach is a new layered neural representation, where each dynamic entity including the environment itself is formulated into a space-time coherent neural layered radiance representation called ST-NeRF. Such layered representation supports fully perception and realistic manipulation of the dynamic scene whilst still supporting a free viewing experience in a wide range. In our ST-NeRF, the dynamic entity/layer is represented as continuous functions, which achieves the disentanglement of location, deformation as well as the appearance of the dynamic entity in a continuous and self-supervised manner. We propose a scene parsing 4D label map tracking to disentangle the spatial information explicitly, and a continuous deform module to disentangle the temporal motion implicitly. An object-aware volume rendering scheme is further introduced for the re-assembling of all the neural layers. We adopt a novel layered loss and motion-aware ray sampling strategy to enable efficient training for a large dynamic scene with multiple performers, Our framework further enables a variety of editing functions, i.e., manipulating the scale and location, duplicating or retiming individual neural layers to create numerous visual effects while preserving high realism. Extensive experiments demonstrate the effectiveness of our approach to achieve high-quality, photo-realistic, and editable free-viewpoint video generation for dynamic scenes.",
         "keywords": [],
         "uid": "v-siggraph-173",
@@ -6463,7 +6463,7 @@
             "Wojciech Matusik"
         ],
         "title": "Pareto Gamuts : exploring optimal designs across varying contexts",
-        "session_id": "v-cga-cga3",
+        "session_id": "v-siggraph-siggraph1",
         "abstract": "Manufactured parts are meticulously engineered to perform well with respect to several conflicting metrics, like weight, stress, and cost. The best achievable trade-offs reside on the Pareto front which can be discovered via performance-driven optimization. The objectives that define this Pareto front often incorporate assumptions about the context in which a part will be used, including loading conditions, environmental influences, material properties, or regions that must be preserved to interface with a surrounding assembly. Existing multi-objective optimization tools are only equipped to study one context at a time, so engineers must run independent optimizations for each context of interest. However, engineered parts frequently appear in many contexts: wind turbines must perform well in many wind speeds, and a bracket might be optimized several times with its bolt-holes fixed in different locations on each run. In this paper, we formulate a framework for variable-context multi-objective optimization. We introduce the Pareto gamut, which captures Pareto fronts over a range of contexts. We develop a global/local optimization algorithm to discover the Pareto gamut directly, rather than discovering a single fixed-context \"slice\" at a time. To validate our method, we adapt existing multi-objective optimization benchmarks to contextual scenarios. We also demonstrate the practical utility of Pareto gamut exploration for several engineering design problems.",
         "keywords": [],
         "uid": "v-siggraph-153",
@@ -6484,7 +6484,7 @@
             "Ravi Ramamoorthi"
         ],
         "title": "NeuMIP: Multi-Resolution Neural Materials",
-        "session_id": "v-cga-cga3",
+        "session_id": "v-siggraph-siggraph1",
         "abstract": "We propose NeuMIP, a neural method for representing and rendering a variety of material appearances at different scales. Classical prefiltering (mipmapping) methods work well on simple material properties such as diffuse color, but fail to generalize to normals, self-shadowing, fibers or more complex microstructures and reflectances. In this work, we generalize traditional mipmap pyramids to pyramids of neural textures, combined with a fully connected network. We also introduce neural offsets, a novel method which allows rendering materials with intricate parallax effects without any tessellation. This generalizes classical parallax mapping, but is trained without supervision by any explicit heightfield. Neural materials within our system support a 7-dimensional query, including position, incoming and outgoing direction, and the desired filter kernel size. The materials have small storage (on the order of standard mipmapping except with more texture channels), and can be integrated within common Monte-Carlo path tracing systems. We demonstrate our method on a variety of materials, resulting in complex appearance across levels of detail, with accurate parallax, self-shadowing, and other effects.",
         "keywords": [],
         "uid": "v-siggraph-287",
