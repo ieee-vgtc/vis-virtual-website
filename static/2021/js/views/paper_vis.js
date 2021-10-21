@@ -89,7 +89,11 @@ function brush_ended() {
       });
     } else {
       const wordvec = new Set();
-      parts = paper.abstract.split(/[.]?\s+/);
+
+      parts = paper.title.split(/[.]?\s+/);
+      if (paper.hasOwnProperty('abstract') && !!paper.abstract) {
+        parts = [...parts, ...paper.abstract.split(/[.]?\s+/)];
+      }
       parts.forEach((p) => {
         if (p.length < 3) return;
         // wordvec.add(p.toLowerCase());
@@ -221,7 +225,8 @@ const updateVis = () => {
         .classed("highlight", (d) => d.is_selected)
         .classed("non-highlight", (d) => !d.is_selected && is_filtered)
         .on("click", function (ev, d) {
-          openPaper(d);
+          //TODO: this is D3v5 code -- maybe change
+          openPaper(ev);
           d3.select(this).classed("read", true);
         });
 
@@ -283,7 +288,7 @@ const tooltip_template = (d) => `
         <div class="tt-title">${d.title}</div>
         <p>${d.authors.join(", ")}</p>
         <img src="${API.thumbnailPath(d)}" width=100%/>
-     </div>
+    </div>
 `;
 
 const start = () => {
@@ -291,12 +296,12 @@ const start = () => {
     .then(([papers, proj]) => {
       // all_proj = proj;
 
-      console.log(papers,proj,"--- papers,proj");
+      console.log(papers, proj, "--- papers,proj");
 
       const projMap = new Map();
       proj.forEach((p) => projMap.set(p.id, p.pos));
 
-      papers = papers.filter(d => !!d.abstract && projMap.get(d.UID));
+      papers = papers.filter(d => projMap.get(d.UID));
       papers.forEach((p) => {
         p.pos = projMap.get(p.UID);
       });
