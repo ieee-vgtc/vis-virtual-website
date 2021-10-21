@@ -145,11 +145,12 @@
       const currentTime = this.player.getCurrentTime();
       const [start, end] = this.getStartEndTimes();
       if (currentTime >= end && [PlayerState.PLAYING, PlayerState.ENDED].indexOf(this.latestState) !== -1) {
-        console.log("at end of stage");
+        console.log("at end of stage (TIMING)");
         this.onPlayerEnded();
       }
     }
     onPlayerStateChange(state) {
+      const lastState = this.latestState;
       this.latestState = state.data;
       console.log("state:", state.data);
       this.atEndOfSegmentBecauseMovedBack = false;
@@ -166,8 +167,8 @@
           }
           console.log("outside range. moving. current:", currentTime, ", start end:", start, end);
         }
-      } else if (state.data === PlayerState.ENDED) {
-        console.log("at end of stage");
+      } else if (state.data === PlayerState.ENDED && lastState == PlayerState.PLAYING) {
+        console.log("at end of stage (ENDED)");
         this.onPlayerEnded();
       }
     }
@@ -198,10 +199,8 @@
     changeYoutubeVideo() {
       const [startSeconds, endSeconds] = this.getStartEndTimes();
       this.player.loadVideoById({videoId: this.getCurrentVideoId(), startSeconds, endSeconds});
+      this.player.seekTo(startSeconds, true);
       this.player.playVideo();
-    }
-    getCurrentStartTimeS() {
-      return this.getStartEndTimes()[0];
     }
   };
 
@@ -234,6 +233,9 @@
       }
       this.addSliceIfYouTube(slices, logs[logs.length - 1], -1);
       this.roomSlices = slices;
+      if (this.roomSlices.length) {
+        this.clickStage(this.roomSlices[0]);
+      }
       this.updateTable();
     }
     updateTable() {
@@ -246,7 +248,6 @@
         const stage = slice.stage;
         const active = this.currentSlice === slice;
         let duration = "";
-        const startText = !slice.log.time ? "" : new Date(slice.log.time).toISOString().substr(0, 16).replace("T", ", ");
         if (slice.duration != -1) {
           const durationMs = slice.duration;
           duration = new Date(durationMs).toISOString().substr(11, 8);

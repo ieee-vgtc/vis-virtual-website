@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-body {
+body.viewer {
     overflow: hidden;
 }
 h1, h2, h3, h4 {
@@ -19,7 +19,8 @@ tr {
     background: #f8f8f8;
 }
 tr.active {
-    background: #eee;
+    background: #d5d5d5;
+    font-weight: bold;
 }
 #playback-table {
     width: 100%;
@@ -77,10 +78,22 @@ iframe {
     justify-content: center;
     align-items: center;
 }
-
+#auth {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 40px;
+}
 #access-alert {
     color: #a00;
     font-size: 12pt;
+}
+#admin-content {
+    display: none;
+}
+#session-notes-wrap {
+    margin: 10px 0;
+    font-size: 14pt;
 }
 
 #uid {
@@ -101,4 +114,8 @@ iframe {
     font-weight:700;
     font-display:swap;
     src:local("Zilla Slab SemiBold"),local("Zilla-Slab-SemiBold"),url("ZillaSlab-SemiBold.ttf") format("truetype");
+}
+
+.slido-copy-link {
+    cursor: pointer;
 }
