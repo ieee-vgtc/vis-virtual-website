@@ -91,6 +91,7 @@
       this.youtubeApiReady = false;
       this.youtubePlayerLoaded = false;
       this.youtubePlayerReady = false;
+      this.lastVideoId = "";
       this.init();
     }
     onYouTubeIframeAPIReady() {
@@ -100,15 +101,20 @@
       if (!this.youtubeApiReady) {
         return;
       }
+      const currentVideoId = this.getCurrentVideoId();
       if (!this.youtubePlayerLoaded) {
         this.loadYoutubePlayer();
       } else {
-        if (!this.getCurrentVideoId() && this.player) {
+        if (!currentVideoId && this.player) {
           this.player.stopVideo();
+          console.log("stop video");
         } else {
-          this.changeYoutubeVideo();
+          if (this.lastVideoId !== currentVideoId) {
+            this.changeYoutubeVideo();
+          }
         }
       }
+      this.lastVideoId = currentVideoId;
     }
     setSize(width, height) {
       this.width = width;
@@ -131,17 +137,23 @@
         this.player.mute();
       }
       this.player.playVideo();
+      console.log("player ready play video");
       this.updateVideo();
     }
     onPlayerStateChange(state) {
+      if (!this.getCurrentVideoId()) {
+        return;
+      }
       if (state.data === PlayerState.UNSTARTED) {
         this.player.seekTo(this.getCurrentStartTimeS() || 0, true);
+        console.log("seek to 1");
       }
       if (state.data === PlayerState.PLAYING || state.data === PlayerState.BUFFERING) {
         const startTime = this.getCurrentStartTimeS() || 0;
         const currentTime = this.player.getCurrentTime();
         if (Math.abs(startTime - currentTime) > 5) {
           this.player.seekTo(startTime, true);
+          console.log("seek to 2");
           console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime(), this.player.getDuration(), this.player);
         }
       }
@@ -170,6 +182,7 @@
     changeYoutubeVideo() {
       this.player.loadVideoById(this.getCurrentVideoId(), this.getCurrentStartTimeS());
       this.player.playVideo();
+      console.log("playvideo");
     }
     getCurrentStartTimeS() {
       if (!this.getCurrentStage().live || !this.youtubePlayerReady) {
@@ -263,9 +276,7 @@
       const lastYtId = this.getCurrentVideoId();
       this.currentSession = session;
       document.getElementById("session-name").innerText = this.getCurrentStage()?.title || "";
-      if (this.getCurrentVideoId() != lastYtId) {
-        this.player.updateVideo();
-      }
+      this.player.updateVideo();
       if (this.getCurrentStage()?.imageUrl != this.getCurrentStageOfSession(lastSession)?.imageUrl) {
         this.loadPreviewImage();
       }

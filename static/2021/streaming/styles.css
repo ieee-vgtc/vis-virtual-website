@@ -115,3 +115,7 @@ iframe {
     font-display:swap;
     src:local("Zilla Slab SemiBold"),local("Zilla-Slab-SemiBold"),url("ZillaSlab-SemiBold.ttf") format("truetype");
 }
+
+.slido-copy-link {
+    cursor: pointer;
+}
