@@ -1,6 +1,7 @@
 
 .schedule {
     max-width: 1140px;
+    max-height: 1200px;
     display: grid;
     gap: 0.5em;
     grid-template-rows:

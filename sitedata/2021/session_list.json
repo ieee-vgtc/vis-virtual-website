@@ -13,8 +13,8 @@
                 "schedule_image": "a-vds.png",
                 "chair": [
                     "Junming Shao",
-                    "Alvitta Ottley",
-                    "Liang Gou"
+                    "Liang Gou",
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -139,9 +139,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
-                    "J\u00fcrgen Bernard",
+                    "Annie T. Chen",
                     "Danny T.Y. Wu",
-                    "Annie T. Chen"
+                    "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -369,8 +369,8 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
-                    "Jesus Caban",
-                    "Danny Wu"
+                    "Danny Wu",
+                    "Jesus Caban"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -594,9 +594,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Bridget Moynihan",
                     "Mark-Jan Bludau",
-                    "Eric Alexander"
+                    "Eric Alexander",
+                    "Bridget Moynihan"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -705,10 +705,10 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Stefania Forlini",
                     "Florian Windhager",
-                    "Houda Lamqaddamm",
-                    "Chris Weaver"
+                    "Stefania Forlini",
+                    "Chris Weaver",
+                    "Houda Lamqaddamm"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -1169,8 +1169,8 @@
                 "track": "room7",
                 "schedule_image": "t-ttk.png",
                 "chair": [
-                    "Josh Levine",
-                    "Julien Tierny"
+                    "Julien Tierny",
+                    "Josh Levine"
                 ],
                 "organizers": [
                     "Christoph Garth",
@@ -1837,10 +1837,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Michael Correll",
-                    "Paul Rosen",
                     "Jane Adams",
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Paul Rosen",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2044,12 +2044,12 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
+                    "Ab Mosca",
+                    "Conny Walchshofer",
                     "Kai Xu",
                     "Marc Streit",
-                    "Conny Walchshofer",
-                    "Michelle Dowling",
-                    "Ab Mosca",
                     "Eli T Brown",
+                    "Michelle Dowling",
                     "John Wenskovitch"
                 ],
                 "organizers": [
@@ -2210,9 +2210,9 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Melanie Tory",
                     "Bongshin Lee",
+                    "Melanie Tory",
+                    "Sheelagh Carpendale",
                     "Lyn Bartram",
                     "Eun Kyoung Choe"
                 ],
@@ -2353,10 +2353,10 @@
                 "schedule_image": "w-viscomm.png",
                 "chair": [
                     "Adriana Arcia",
+                    "Jonathan Schwabish",
                     "Barbara Millet",
                     "Jon Schwabish",
-                    "Alvitta Ottley",
-                    "Jonathan Schwabish"
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -3359,12 +3359,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Samuel Huron",
                     "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
                     "Benjamin Bach",
-                    "Mandy Keck"
+                    "Samuel Huron",
+                    "Mandy Keck",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3432,12 +3432,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Samuel Huron",
                     "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
                     "Benjamin Bach",
-                    "Mandy Keck"
+                    "Samuel Huron",
+                    "Mandy Keck",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3504,12 +3504,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Samuel Huron",
                     "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
                     "Benjamin Bach",
-                    "Mandy Keck"
+                    "Samuel Huron",
+                    "Mandy Keck",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3595,10 +3595,10 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Christie Nothelfer",
-                    "Danielle Szafir",
                     "Madison Elliott",
-                    "Cindy Xiong"
+                    "Danielle Szafir",
+                    "Cindy Xiong",
+                    "Christie Nothelfer"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3797,11 +3797,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Evan Peck",
-                    "Michelle Borkin",
-                    "Michael Correll",
                     "Lane Harrison",
-                    "Leilani Battle"
+                    "Evan Peck",
+                    "Leilani Battle",
+                    "Michael Correll",
+                    "Michelle Borkin"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3982,9 +3982,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Camilla Forsell",
+                    "Niklas R\u00f6nnberg",
                     "Matt Cooper",
-                    "Niklas R\u00f6nnberg"
+                    "Camilla Forsell"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4200,11 +4200,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "VISxAI orga",
-                    "Menna El-Assady",
-                    "Fred Hohman",
+                    "Hendrik Strobelt",
                     "Adam Perer",
-                    "Hendrik Strobelt"
+                    "VISxAI orga",
+                    "Fred Hohman",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4361,14 +4361,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Wolfgang Aigner",
                     "Bruce N. Walker",
-                    "Niklas Elmqvist",
-                    "Michael Iber",
                     "Niklas R\u00f6nnberg",
+                    "Wolfgang Aigner",
+                    "Michael Iber",
                     "Robert H\u00f6ldrich",
-                    "Alexander Rind",
-                    "Kajetan Enge"
+                    "Kajetan Enge",
+                    "Niklas Elmqvist",
+                    "Alexander Rind"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4509,8 +4509,8 @@
                 "schedule_image": "t-reviews.png",
                 "chair": [
                     "Bongshin Lee",
-                    "Anastasia Bezerianos",
-                    "Petra Isenberg"
+                    "Petra Isenberg",
+                    "Anastasia Bezerianos"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -4699,9 +4699,9 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Terry Yoo",
-                    "Catherine Plaisant",
                     "Brian Summa",
+                    "Catherine Plaisant",
+                    "Terry Yoo",
                     "Tamara Munzner",
                     "Luis Gustavo Nonato",
                     "Daniel Weiskopf"
@@ -7403,8 +7403,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7927,8 +7927,8 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Lane Harrison",
                     "Karen Schloss",
+                    "Lane Harrison",
                     "Hsiang-Yun Wu"
                 ],
                 "organizers": [
@@ -8643,7 +8643,7 @@
             }
         ]
     },
-    "v-panels": {
+    "v-panels-panel4": {
         "event": "Wait...when did we sign up to be economists?",
         "long_name": "Wait...when did we sign up to be economists?",
         "event_type": "Panel",
@@ -8690,206 +8690,6 @@
                         "time_end": "2021-10-27T14:30:00Z"
                     }
                 ]
-            },
-            {
-                "title": "What is the Role of VIS in Combating COVID-19?",
-                "session_id": "v-panels-panel2",
-                "track": "room6",
-                "schedule_image": "v-panels-panel2.png",
-                "chair": [
-                    "Alfie Abdul-Rahman"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-27T15:00:00Z",
-                "time_end": "2021-10-27T16:30:00Z",
-                "discord_category": "what is the role of vis in combating covid-19",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589545443359",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
-                "youtube_url": "https://youtu.be/v3-cr_nzjj8",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "What is the Role of VIS in Combating COVID-19?",
-                        "contributors": [
-                            "Min Chen",
-                            "David Ebert",
-                            "Lace Padilla",
-                            "Yixuan Zhang",
-                            "Alfie Abdul-Rahman"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T15:00:00Z",
-                        "time_end": "2021-10-27T16:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Our History and Future Innovation",
-                "session_id": "v-panels-panel6",
-                "track": "room6",
-                "schedule_image": "v-panels-panel6.png",
-                "chair": [
-                    "Jock Mackinlay"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-28T13:00:00Z",
-                "time_end": "2021-10-28T14:30:00Z",
-                "discord_category": "our history and future innovation",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589545443359",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
-                "youtube_url": "https://youtu.be/aFQ6MWX01GA",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Our History and Future Innovation",
-                        "contributors": [
-                            "Ben Shneiderman",
-                            "Tamara Munzner",
-                            "Jarke van Wijk",
-                            "Jock Mackinlay",
-                            "Jessica Hullman"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T13:00:00Z",
-                        "time_end": "2021-10-28T14:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Towards Accessible Data Representations",
-                "session_id": "v-panels-panel3",
-                "track": "room6",
-                "schedule_image": "v-panels-panel3.png",
-                "chair": [
-                    "Arvind Satyanarayan"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-28T15:00:00Z",
-                "time_end": "2021-10-28T16:30:00Z",
-                "discord_category": "towards accessible data representations",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589545443359",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
-                "youtube_url": "https://youtu.be/RvHF1Crpqvk",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Towards Accessible Data Representations",
-                        "contributors": [
-                            "Arvind Satyanarayan",
-                            "Danielle Albers Szafir",
-                            "Crystal Lee",
-                            "Alan Lundgard",
-                            "Keke Wu",
-                            "Cindy Bennett",
-                            "Zoe Gross",
-                            "Rua Williams",
-                            "Ariel Schwartz"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T15:00:00Z",
-                        "time_end": "2021-10-28T16:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
-                "session_id": "v-panels-panel5",
-                "track": "room6",
-                "schedule_image": "v-panels-panel5.png",
-                "chair": [
-                    "Joshi Alark"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-29T13:00:00Z",
-                "time_end": "2021-10-29T14:30:00Z",
-                "discord_category": "visualization literacy for general audiences - can we make a difference",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589545443359",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
-                "youtube_url": "https://youtu.be/Qks3OA6vtH0",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
-                        "contributors": [
-                            "Alark Joshi",
-                            "Katy Borner",
-                            "Robert S. Laramee",
-                            "Lane Harrison",
-                            "Elif E. Firat",
-                            "Bum Chul Kwon"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T13:00:00Z",
-                        "time_end": "2021-10-29T14:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Navigating Interdisciplinary Careers in Visualization",
-                "session_id": "v-panels-panel1",
-                "track": "room6",
-                "schedule_image": "v-panels-panel1.png",
-                "chair": [
-                    "Morgan Turner"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-29T15:00:00Z",
-                "time_end": "2021-10-29T16:30:00Z",
-                "discord_category": "navigating interdisciplinary careers in visualization",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589545443359",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
-                "youtube_url": "https://youtu.be/cT1PD5I4dpk",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Navigating Interdisciplinary Careers in Visualization",
-                        "contributors": [
-                            "Morgan L. Turner",
-                            "Ruth West",
-                            "Adrien Segal",
-                            "Sheelagh Carpendale",
-                            "Daniel Keefe"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T15:00:00Z",
-                        "time_end": "2021-10-29T16:30:00Z"
-                    }
-                ]
             }
         ]
     },
@@ -8906,8 +8706,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8977,8 +8777,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9066,8 +8866,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9159,9 +8959,9 @@
             }
         ]
     },
-    "x-sponsor": {
-        "event": "Industry",
-        "long_name": "Industry",
+    "x-sponsor-1": {
+        "event": "Industrial Keynote - Intel",
+        "long_name": "Industrial Keynote - Intel",
         "event_type": "Industry",
         "event_description": "",
         "event_url": "",
@@ -9177,8 +8977,8 @@
                 "organizers": [],
                 "time_start": "2021-10-27T14:45:00Z",
                 "time_end": "2021-10-27T15:00:00Z",
-                "discord_category": "industry",
-                "discord_channel": "industrial-keynote-intel",
+                "discord_category": "industrial keynote - intel",
+                "discord_channel": "general",
                 "discord_channel_id": "894792591340634173",
                 "discord_link": "https://discord.com/channels/884159773287805038/894792591340634173",
                 "slido_link": "https://app.sli.do/event/6payv5ez?section=08317286-3d66-4b6a-8170-6f1adf4563a5",
@@ -9198,163 +8998,6 @@
                         "abstract": null,
                         "time_start": "2021-10-27T14:45:00Z",
                         "time_end": "2021-10-27T15:00:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Supporter Forum",
-                "session_id": "x-sponsor-forum",
-                "track": "room8",
-                "schedule_image": "x-sponsor-forum.png",
-                "chair": [
-                    "Eli Brown"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-27T18:30:00Z",
-                "time_end": "2021-10-27T19:00:00Z",
-                "discord_category": "industry",
-                "discord_channel": "supporter-forum",
-                "discord_channel_id": "894792591340634173",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792591340634173",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=08317286-3d66-4b6a-8170-6f1adf4563a5",
-                "youtube_url": "https://youtu.be/Dd7OOafVD2w",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "recorded",
-                        "title": "Autodesk",
-                        "contributors": [
-                            "Autodesk"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T18:30:00Z",
-                        "time_end": "2021-10-27T18:35:00Z",
-                        "youtube_video_id": "x9K-AMwtD5A"
-                    },
-                    {
-                        "type": "recorded",
-                        "title": "Fraunhofer",
-                        "contributors": [
-                            "Fraunhofer"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T18:35:00Z",
-                        "time_end": "2021-10-27T18:40:00Z",
-                        "youtube_video_id": "SDNjM2m2K1Y"
-                    },
-                    {
-                        "type": "recorded",
-                        "title": "Intel",
-                        "contributors": [
-                            "Intel"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T18:40:00Z",
-                        "time_end": "2021-10-27T18:45:00Z"
-                    },
-                    {
-                        "type": "recorded",
-                        "title": "Kitware",
-                        "contributors": [
-                            "Kitware"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T18:45:00Z",
-                        "time_end": "2021-10-27T18:50:00Z",
-                        "youtube_video_id": "RIwLqMeSVzs"
-                    },
-                    {
-                        "type": "recorded",
-                        "title": "Microsoft",
-                        "contributors": [
-                            "Microsoft"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T18:50:00Z",
-                        "time_end": "2021-10-27T18:55:00Z"
-                    },
-                    {
-                        "type": "recorded",
-                        "title": "Tableau",
-                        "contributors": [
-                            "Tableau"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-27T18:55:00Z",
-                        "time_end": "2021-10-27T19:00:00Z",
-                        "youtube_video_id": "LvFDQajNat0"
-                    }
-                ]
-            },
-            {
-                "title": "Industrial Keynote: Tableau",
-                "session_id": "x-sponsor-2",
-                "track": "room7",
-                "schedule_image": "x-sponsor-2.png",
-                "chair": [
-                    "Eli Brown"
-                ],
-                "organizers": [],
-                "time_start": "2021-10-28T14:45:00Z",
-                "time_end": "2021-10-28T15:00:00Z",
-                "discord_category": "industry",
-                "discord_channel": "industrial-keynote-tableau",
-                "discord_channel_id": "894792590556274748",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792590556274748",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=9f476665-9126-4a90-a115-2e76125ac5e3",
-                "youtube_url": "https://youtu.be/tqL2O7Q_SM8",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "recorded",
-                        "title": "Tableau",
-                        "contributors": [
-                            "Tableau"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T14:45:00Z",
-                        "time_end": "2021-10-28T15:00:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Student Mentorship Session",
-                "session_id": "x-sponsor-mentorship",
-                "track": "room2",
-                "schedule_image": "x-sponsor-mentorship.png",
-                "chair": [],
-                "organizers": [],
-                "time_start": "2021-10-28T19:00:00Z",
-                "time_end": "2021-10-28T20:00:00Z",
-                "discord_category": "industry",
-                "discord_channel": "student-mentorship-session",
-                "discord_channel_id": "894792588115214336",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792588115214336",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=82d16b02-7300-459d-9a18-64cdfcd54cd9",
-                "youtube_url": null,
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "Zoom Only",
-                        "title": "Student Mentorship Session",
-                        "contributors": [
-                            "Student Mentors"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T19:00:00Z",
-                        "time_end": "2021-10-28T20:00:00Z"
                     }
                 ]
             }
@@ -9551,7 +9194,55 @@
             }
         ]
     },
-    "v-spotlights": {
+    "v-panels-panel2": {
+        "event": "What is the Role of VIS in Combating COVID-19?",
+        "long_name": "What is the Role of VIS in Combating COVID-19?",
+        "event_type": "Panel",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "What is the Role of VIS in Combating COVID-19?",
+                "session_id": "v-panels-panel2",
+                "track": "room6",
+                "schedule_image": "v-panels-panel2.png",
+                "chair": [
+                    "Alfie Abdul-Rahman"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-27T15:00:00Z",
+                "time_end": "2021-10-27T16:30:00Z",
+                "discord_category": "what is the role of vis in combating covid-19",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589545443359",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
+                "youtube_url": "https://youtu.be/v3-cr_nzjj8",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "What is the Role of VIS in Combating COVID-19?",
+                        "contributors": [
+                            "Min Chen",
+                            "David Ebert",
+                            "Lace Padilla",
+                            "Yixuan Zhang",
+                            "Alfie Abdul-Rahman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T15:00:00Z",
+                        "time_end": "2021-10-27T16:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-spotlights-app2": {
         "event": "In Situ Inference: Advanced Data Science for Space Weather Modeling",
         "long_name": "In Situ Inference: Advanced Data Science for Space Weather Modeling",
         "event_type": "Application Spotlight",
@@ -9564,12 +9255,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Steven Morley",
                     "Subhashis Hazarika",
-                    "Ayan Biswas",
-                    "Natalie Klein",
+                    "Divya Banesh",
                     "Earl Lawrence",
-                    "Divya Banesh"
+                    "Steven Morley",
+                    "Natalie Klein",
+                    "Ayan Biswas"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9609,211 +9300,33 @@
                         "time_end": "2021-10-27T18:30:00Z"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    "x-sponsor-forum": {
+        "event": "Supporter Forum",
+        "long_name": "Supporter Forum",
+        "event_type": "Industry",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
             {
-                "title": "Bridging Visualization with Radiation Oncology",
-                "session_id": "v-spotlights-app3",
-                "track": "room5",
-                "schedule_image": "v-spotlights-app3.png",
+                "title": "Supporter Forum",
+                "session_id": "x-sponsor-forum",
+                "track": "room8",
+                "schedule_image": "x-sponsor-forum.png",
                 "chair": [
-                    "Uulke van der Heide",
-                    "Katja B\u00fchler",
-                    "Ludvig P. Muren",
-                    "Wouter van Elmpt",
-                    "Vitali Moiseenko",
-                    "Noeska Smit",
-                    "Renata G. Raidou"
-                ],
-                "organizers": [
-                    "Renata G. Raidou",
-                    "Ludvig P. Muren",
-                    "Wouter van Elmpt",
-                    "Katja B\u00fchler",
-                    "Noeska Smit",
-                    "Vitali Moiseenko",
-                    "Uulke van der Heide"
-                ],
-                "time_start": "2021-10-28T13:00:00Z",
-                "time_end": "2021-10-28T14:30:00Z",
-                "discord_category": "bridging visualization with radiation oncology",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589344129114",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
-                "youtube_url": "https://youtu.be/yXP-oA5BQyM",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Bridging Visualization with Radiation Oncology",
-                        "contributors": [
-                            "Renata G. Raidou",
-                            "Katja Buehler",
-                            "Noeska Smit",
-                            "Vitali\u00a0Moiseenko",
-                            "Uulke van der Heide",
-                            "Katar\u00edna Furmanov\u00e1",
-                            "Ludvig P. Muren",
-                            "Wouter van Elmpt"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T13:00:00Z",
-                        "time_end": "2021-10-28T14:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Challenges for Visualization in Immersive Planetarium Domes",
-                "session_id": "v-spotlights-app4",
-                "track": "room5",
-                "schedule_image": "v-spotlights-app4.png",
-                "chair": [
-                    "Mark SubbaRao",
-                    "Alexander Bock",
-                    "Anders Ynnerman"
-                ],
-                "organizers": [
-                    "Anders Ynnerman",
-                    "Mark SubbaRao",
-                    "Alexander Bock"
-                ],
-                "time_start": "2021-10-28T15:00:00Z",
-                "time_end": "2021-10-28T16:30:00Z",
-                "discord_category": "challenges for visualization in immersive planetarium domes",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589344129114",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
-                "youtube_url": "https://youtu.be/OBgAxEopSuc",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Challenges for Visualization in Immersive Planetarium Domes",
-                        "contributors": [
-                            "Anders Ynnerman",
-                            "Mark SubbaRao",
-                            "Alexander Bock"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-28T15:00:00Z",
-                        "time_end": "2021-10-28T16:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
-                "session_id": "v-spotlights-app1",
-                "track": "room5",
-                "schedule_image": "v-spotlights-app1.png",
-                "chair": [
-                    "Karsten Rink",
-                    "Christina Gillmann",
-                    "Petra Gospodnetic"
-                ],
-                "organizers": [
-                    "Christina Gillmann",
-                    "Petra Gospodnetic",
-                    "Karsten Rink"
-                ],
-                "time_start": "2021-10-29T13:00:00Z",
-                "time_end": "2021-10-29T14:30:00Z",
-                "discord_category": "uncertainty-aware visual analytics in applications - towards a systematic approach",
-                "discord_channel": "general",
-                "discord_channel_id": "894792589344129114",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
-                "youtube_url": "https://youtu.be/JVscPNK3VOs",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "gathertown_event": false,
-                "time_slots": [
-                    {
-                        "type": "live",
-                        "title": "Opening Presentation",
-                        "contributors": [
-                            "Christina Gillmann",
-                            "Petra Gospodnetic",
-                            "Karsten Rinks"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T13:00:00Z",
-                        "time_end": "2021-10-29T13:10:00Z"
-                    },
-                    {
-                        "type": "live",
-                        "title": "Invited Speaker ",
-                        "contributors": [
-                            "Katja Schladitz"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T13:10:00Z",
-                        "time_end": "2021-10-29T13:25:00Z"
-                    },
-                    {
-                        "type": "live",
-                        "title": "Invited Speaker ",
-                        "contributors": [
-                            "Tushar Atawale"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T13:25:00Z",
-                        "time_end": "2021-10-29T13:40:00Z"
-                    },
-                    {
-                        "type": "live",
-                        "title": "Invited Speaker ",
-                        "contributors": [
-                            "Ibrahim Demir"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T13:40:00Z",
-                        "time_end": "2021-10-29T13:55:00Z"
-                    },
-                    {
-                        "type": "live",
-                        "title": "Open Discussion",
-                        "contributors": [
-                            "Christina Gillmann",
-                            "Petra Gospodnetic",
-                            "Karsten Rink",
-                            "Katja Schladitz",
-                            "Tushar Athawale",
-                            "Ibrahim Demir"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-29T13:55:00Z",
-                        "time_end": "2021-10-29T14:30:00Z"
-                    }
-                ]
-            },
-            {
-                "title": "Visualization Challenges in Deep Uncertainty",
-                "session_id": "v-spotlights-app5",
-                "track": "room5",
-                "schedule_image": "v-spotlights-app5.png",
-                "chair": [
-                    "Evan Savage"
+                    "Eli Brown"
                 ],
                 "organizers": [],
-                "time_start": "2021-10-29T15:00:00Z",
-                "time_end": "2021-10-29T16:30:00Z",
-                "discord_category": "visualization challenges in deep uncertainty",
+                "time_start": "2021-10-27T18:30:00Z",
+                "time_end": "2021-10-27T19:00:00Z",
+                "discord_category": "supporter forum",
                 "discord_channel": "general",
-                "discord_channel_id": "894792589344129114",
-                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
-                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
-                "youtube_url": "https://youtu.be/zqtZ0RnabWI",
+                "discord_channel_id": "894792591340634173",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792591340634173",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=08317286-3d66-4b6a-8170-6f1adf4563a5",
+                "youtube_url": "https://youtu.be/Dd7OOafVD2w",
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "ff_link": "",
@@ -9821,18 +9334,68 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
-                        "title": "Visualization Challenges in Deep Uncertainty",
+                        "type": "recorded",
+                        "title": "Autodesk",
                         "contributors": [
-                            "Steven Popper",
-                            "Kristi Potter",
-                            "Nathan Lee",
-                            "David Gold",
-                            "Robert Lempert"
+                            "Autodesk"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-29T15:00:00Z",
-                        "time_end": "2021-10-29T16:30:00Z"
+                        "time_start": "2021-10-27T18:30:00Z",
+                        "time_end": "2021-10-27T18:35:00Z",
+                        "youtube_video_id": "x9K-AMwtD5A"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Fraunhofer",
+                        "contributors": [
+                            "Fraunhofer"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:35:00Z",
+                        "time_end": "2021-10-27T18:40:00Z",
+                        "youtube_video_id": "SDNjM2m2K1Y"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Intel",
+                        "contributors": [
+                            "Intel"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:40:00Z",
+                        "time_end": "2021-10-27T18:45:00Z"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Kitware",
+                        "contributors": [
+                            "Kitware"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:45:00Z",
+                        "time_end": "2021-10-27T18:50:00Z",
+                        "youtube_video_id": "RIwLqMeSVzs"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Microsoft",
+                        "contributors": [
+                            "Microsoft"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:50:00Z",
+                        "time_end": "2021-10-27T18:55:00Z"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Tableau",
+                        "contributors": [
+                            "Tableau"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T18:55:00Z",
+                        "time_end": "2021-10-27T19:00:00Z",
+                        "youtube_video_id": "LvFDQajNat0"
                     }
                 ]
             }
@@ -9897,8 +9460,8 @@
                 "track": "room2",
                 "schedule_image": "m-gender.png",
                 "chair": [
-                    "Natkamon Tovanich",
-                    "Petra Isenberg"
+                    "Petra Isenberg",
+                    "Natkamon Tovanich"
                 ],
                 "organizers": [
                     "Petra Isenberg",
@@ -10113,6 +9676,267 @@
             }
         ]
     },
+    "v-panels-panel6": {
+        "event": "Our History and Future Innovation",
+        "long_name": "Our History and Future Innovation",
+        "event_type": "Panel",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Our History and Future Innovation",
+                "session_id": "v-panels-panel6",
+                "track": "room6",
+                "schedule_image": "v-panels-panel6.png",
+                "chair": [
+                    "Jock Mackinlay"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "our history and future innovation",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589545443359",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
+                "youtube_url": "https://youtu.be/aFQ6MWX01GA",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Our History and Future Innovation",
+                        "contributors": [
+                            "Ben Shneiderman",
+                            "Tamara Munzner",
+                            "Jarke van Wijk",
+                            "Jock Mackinlay",
+                            "Jessica Hullman"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-spotlights-app3": {
+        "event": "Bridging Visualization with Radiation Oncology",
+        "long_name": "Bridging Visualization with Radiation Oncology",
+        "event_type": "Application Spotlight",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Bridging Visualization with Radiation Oncology",
+                "session_id": "v-spotlights-app3",
+                "track": "room5",
+                "schedule_image": "v-spotlights-app3.png",
+                "chair": [
+                    "Katja B\u00fchler",
+                    "Noeska Smit",
+                    "Vitali Moiseenko",
+                    "Ludvig P. Muren",
+                    "Renata G. Raidou",
+                    "Wouter van Elmpt",
+                    "Uulke van der Heide"
+                ],
+                "organizers": [
+                    "Renata G. Raidou",
+                    "Ludvig P. Muren",
+                    "Wouter van Elmpt",
+                    "Katja B\u00fchler",
+                    "Noeska Smit",
+                    "Vitali Moiseenko",
+                    "Uulke van der Heide"
+                ],
+                "time_start": "2021-10-28T13:00:00Z",
+                "time_end": "2021-10-28T14:30:00Z",
+                "discord_category": "bridging visualization with radiation oncology",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589344129114",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
+                "youtube_url": "https://youtu.be/yXP-oA5BQyM",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Bridging Visualization with Radiation Oncology",
+                        "contributors": [
+                            "Renata G. Raidou",
+                            "Katja Buehler",
+                            "Noeska Smit",
+                            "Vitali\u00a0Moiseenko",
+                            "Uulke van der Heide",
+                            "Katar\u00edna Furmanov\u00e1",
+                            "Ludvig P. Muren",
+                            "Wouter van Elmpt"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T13:00:00Z",
+                        "time_end": "2021-10-28T14:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "x-sponsor-2": {
+        "event": "Industrial Keynote: Tableau",
+        "long_name": "Industrial Keynote: Tableau",
+        "event_type": "Industry",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Industrial Keynote: Tableau",
+                "session_id": "x-sponsor-2",
+                "track": "room7",
+                "schedule_image": "x-sponsor-2.png",
+                "chair": [
+                    "Eli Brown"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-28T14:45:00Z",
+                "time_end": "2021-10-28T15:00:00Z",
+                "discord_category": "industrial keynote tableau",
+                "discord_channel": "general",
+                "discord_channel_id": "894792590556274748",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792590556274748",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=9f476665-9126-4a90-a115-2e76125ac5e3",
+                "youtube_url": "https://youtu.be/tqL2O7Q_SM8",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "recorded",
+                        "title": "Tableau",
+                        "contributors": [
+                            "Tableau"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T14:45:00Z",
+                        "time_end": "2021-10-28T15:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-panels-panel3": {
+        "event": "Towards Accessible Data Representations",
+        "long_name": "Towards Accessible Data Representations",
+        "event_type": "Panel",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Towards Accessible Data Representations",
+                "session_id": "v-panels-panel3",
+                "track": "room6",
+                "schedule_image": "v-panels-panel3.png",
+                "chair": [
+                    "Arvind Satyanarayan"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-28T15:00:00Z",
+                "time_end": "2021-10-28T16:30:00Z",
+                "discord_category": "towards accessible data representations",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589545443359",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
+                "youtube_url": "https://youtu.be/RvHF1Crpqvk",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Towards Accessible Data Representations",
+                        "contributors": [
+                            "Arvind Satyanarayan",
+                            "Danielle Albers Szafir",
+                            "Crystal Lee",
+                            "Alan Lundgard",
+                            "Keke Wu",
+                            "Cindy Bennett",
+                            "Zoe Gross",
+                            "Rua Williams",
+                            "Ariel Schwartz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:00:00Z",
+                        "time_end": "2021-10-28T16:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-spotlights-app4": {
+        "event": "Challenges for Visualization in Immersive Planetarium Domes",
+        "long_name": "Challenges for Visualization in Immersive Planetarium Domes",
+        "event_type": "Application Spotlight",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Challenges for Visualization in Immersive Planetarium Domes",
+                "session_id": "v-spotlights-app4",
+                "track": "room5",
+                "schedule_image": "v-spotlights-app4.png",
+                "chair": [
+                    "Alexander Bock",
+                    "Mark SubbaRao",
+                    "Anders Ynnerman"
+                ],
+                "organizers": [
+                    "Anders Ynnerman",
+                    "Mark SubbaRao",
+                    "Alexander Bock"
+                ],
+                "time_start": "2021-10-28T15:00:00Z",
+                "time_end": "2021-10-28T16:30:00Z",
+                "discord_category": "challenges for visualization in immersive planetarium domes",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589344129114",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
+                "youtube_url": "https://youtu.be/OBgAxEopSuc",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Challenges for Visualization in Immersive Planetarium Domes",
+                        "contributors": [
+                            "Anders Ynnerman",
+                            "Mark SubbaRao",
+                            "Alexander Bock"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T15:00:00Z",
+                        "time_end": "2021-10-28T16:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "a-sciviscontest": {
         "event": "SciVis Contest",
         "long_name": "SciVis Contest",
@@ -10126,8 +9950,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Thomas Theu\u00dfl",
-                    "Alex Razoumov"
+                    "Alex Razoumov",
+                    "Thomas Theu\u00dfl"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10362,6 +10186,48 @@
             }
         ]
     },
+    "x-sponsor-mentorship": {
+        "event": "Student Mentorship Session",
+        "long_name": "Student Mentorship Session",
+        "event_type": "Industry",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Student Mentorship Session",
+                "session_id": "x-sponsor-mentorship",
+                "track": "room2",
+                "schedule_image": "x-sponsor-mentorship.png",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-28T19:00:00Z",
+                "time_end": "2021-10-28T20:00:00Z",
+                "discord_category": "student mentorship session",
+                "discord_channel": "general",
+                "discord_channel_id": "894792588115214336",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792588115214336",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=82d16b02-7300-459d-9a18-64cdfcd54cd9",
+                "youtube_url": null,
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "Student Mentorship Session",
+                        "contributors": [
+                            "Student Mentors"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T19:00:00Z",
+                        "time_end": "2021-10-28T20:00:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "m-climate": {
         "event": "Climate Change AI meets VIS",
         "long_name": "Climate Change AI meets VIS",
@@ -10375,8 +10241,8 @@
                 "track": "room3",
                 "schedule_image": "m-climate.png",
                 "chair": [
-                    "Peetak Mitra",
-                    "Subhashis Hazarika"
+                    "Subhashis Hazarika",
+                    "Peetak Mitra"
                 ],
                 "organizers": [
                     "Subhashis Hazarika",
@@ -10457,6 +10323,152 @@
             }
         ]
     },
+    "v-panels-panel5": {
+        "event": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+        "long_name": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+        "event_type": "Panel",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+                "session_id": "v-panels-panel5",
+                "track": "room6",
+                "schedule_image": "v-panels-panel5.png",
+                "chair": [
+                    "Joshi Alark"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "visualization literacy for general audiences - can we make a difference",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589545443359",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
+                "youtube_url": "https://youtu.be/Qks3OA6vtH0",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+                        "contributors": [
+                            "Alark Joshi",
+                            "Katy Borner",
+                            "Robert S. Laramee",
+                            "Lane Harrison",
+                            "Elif E. Firat",
+                            "Bum Chul Kwon"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-spotlights-app1": {
+        "event": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
+        "long_name": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
+        "event_type": "Application Spotlight",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Uncertainty-aware visual analytics in applications - Towards a systematic approach",
+                "session_id": "v-spotlights-app1",
+                "track": "room5",
+                "schedule_image": "v-spotlights-app1.png",
+                "chair": [
+                    "Petra Gospodnetic",
+                    "Karsten Rink",
+                    "Christina Gillmann"
+                ],
+                "organizers": [
+                    "Christina Gillmann",
+                    "Petra Gospodnetic",
+                    "Karsten Rink"
+                ],
+                "time_start": "2021-10-29T13:00:00Z",
+                "time_end": "2021-10-29T14:30:00Z",
+                "discord_category": "uncertainty-aware visual analytics in applications - towards a systematic approach",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589344129114",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
+                "youtube_url": "https://youtu.be/JVscPNK3VOs",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Opening Presentation",
+                        "contributors": [
+                            "Christina Gillmann",
+                            "Petra Gospodnetic",
+                            "Karsten Rinks"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:00:00Z",
+                        "time_end": "2021-10-29T13:10:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Invited Speaker ",
+                        "contributors": [
+                            "Katja Schladitz"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:10:00Z",
+                        "time_end": "2021-10-29T13:25:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Invited Speaker ",
+                        "contributors": [
+                            "Tushar Atawale"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:25:00Z",
+                        "time_end": "2021-10-29T13:40:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Invited Speaker ",
+                        "contributors": [
+                            "Ibrahim Demir"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:40:00Z",
+                        "time_end": "2021-10-29T13:55:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Open Discussion",
+                        "contributors": [
+                            "Christina Gillmann",
+                            "Petra Gospodnetic",
+                            "Karsten Rink",
+                            "Katja Schladitz",
+                            "Tushar Athawale",
+                            "Ibrahim Demir"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T13:55:00Z",
+                        "time_end": "2021-10-29T14:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "v-siggraph": {
         "event": "VIS SIGGRAPH Presentations",
         "long_name": "VIS SIGGRAPH Presentations",
@@ -10470,8 +10482,8 @@
                 "track": "room4",
                 "schedule_image": "v-siggraph-siggraph1.png",
                 "chair": [
-                    "Jian Chen",
-                    "Klaus Mueller"
+                    "Klaus Mueller",
+                    "Jian Chen"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
@@ -10564,6 +10576,102 @@
             }
         ]
     },
+    "v-panels-panel1": {
+        "event": "Navigating Interdisciplinary Careers in Visualization",
+        "long_name": "Navigating Interdisciplinary Careers in Visualization",
+        "event_type": "Panel",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Navigating Interdisciplinary Careers in Visualization",
+                "session_id": "v-panels-panel1",
+                "track": "room6",
+                "schedule_image": "v-panels-panel1.png",
+                "chair": [
+                    "Morgan Turner"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-29T15:00:00Z",
+                "time_end": "2021-10-29T16:30:00Z",
+                "discord_category": "navigating interdisciplinary careers in visualization",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589545443359",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=d3e3c535-c867-40a7-9b7b-73a2430d7530",
+                "youtube_url": "https://youtu.be/cT1PD5I4dpk",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Navigating Interdisciplinary Careers in Visualization",
+                        "contributors": [
+                            "Morgan L. Turner",
+                            "Ruth West",
+                            "Adrien Segal",
+                            "Sheelagh Carpendale",
+                            "Daniel Keefe"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:00:00Z",
+                        "time_end": "2021-10-29T16:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "v-spotlights-app5": {
+        "event": "Visualization Challenges in Deep Uncertainty",
+        "long_name": "Visualization Challenges in Deep Uncertainty",
+        "event_type": "Application Spotlight",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Visualization Challenges in Deep Uncertainty",
+                "session_id": "v-spotlights-app5",
+                "track": "room5",
+                "schedule_image": "v-spotlights-app5.png",
+                "chair": [
+                    "Evan Savage"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-29T15:00:00Z",
+                "time_end": "2021-10-29T16:30:00Z",
+                "discord_category": "visualization challenges in deep uncertainty",
+                "discord_channel": "general",
+                "discord_channel_id": "894792589344129114",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792589344129114",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=10f69fc2-7fbb-4101-97ac-dbcb34dbc382",
+                "youtube_url": "https://youtu.be/zqtZ0RnabWI",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "live",
+                        "title": "Visualization Challenges in Deep Uncertainty",
+                        "contributors": [
+                            "Steven Popper",
+                            "Kristi Potter",
+                            "Nathan Lee",
+                            "David Gold",
+                            "Robert Lempert"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T15:00:00Z",
+                        "time_end": "2021-10-29T16:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "x-vis-closing": {
         "event": "VIS Closing",
         "long_name": "VIS Closing",
@@ -10577,8 +10685,8 @@
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",
