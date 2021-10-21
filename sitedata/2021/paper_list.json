@@ -112,7 +112,7 @@
             "David Sessler",
             "J\u00f6rn Kohlhammer"
         ],
-        "title": "Towards a Comprehensive \u2026",
+        "title": "Towards a Comprehensive Cohort Visualization of Patients with Inflammatory Bowel Disease",
         "session_id": "a-vahc-2",
         "abstract": "This paper reports on a joint project with medical experts on inflammatory bowel disease (IBD). Patients suffering from IBD, e.g. Crohn\u2019s disease or ulcerative colitis, do not have a reduced life expectancy and disease progressions easily span several decades. We designed a visualization to highlight information that is vital for comparing patients and progressions, especially with respect to the treatments administered over the years. Medical experts can interactively determine the amount of information displayed and can synchronize the progressions to the beginning of certain treatments and medications. While the visualization was designed in close collaboration with IBD experts, we additionally evaluated our approach with 35 participants to ensure good usability and accessibility. The paper also highlights the future work on similarity definition and additional visual features in this on-going project.",
         "keywords": [],
@@ -1763,9 +1763,9 @@
         ],
         "uid": "v-tvcg-9337213",
         "time_stamp": "2021-10-27T15:30:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "The VIS30K dataset is a collection of 31,481 (1990-2020) images representing 31 years of figures and tables from four tracks of the IEEE Visualization Conference series. We also contribute VISImageNavigator (VIN, visimagenavigator.github.io), a web-based tool that facilitates search and exploring VIS30K by author names, paper keywords, title and abstract, and years. This figure shows a timeline view in VIN of selected images from the first 30 years (1990-2019) of the conference showing diverse and trending research work. (Best viewed electronically, zoomed in.)",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
