@@ -5,7 +5,6 @@
 {% block head %}
     {{ super() }}
     <script src="/static/2021/js/modules/icons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
 {% endblock %}
 
@@ -215,7 +214,6 @@
     <script src="/static/2021/js/modules/urlParams.js"></script>
     <script src="/static/2021/js/modules/typeaheadSetup.js"></script>
     <script src="/static/2021/js/modules/lazyLoad.js"></script>
-    <script src="/static/2021/js/data/persistor.js"></script>
     <script src="/static/2021/js/data/wrangle.js"></script>
     <script src="/static/2021/js/views/papers.js"></script>
     <script>
@@ -230,15 +228,5 @@
 {% block footer %}
 
     {{ super() }}
-    <div
-            class="gdpr bg-dark text-light"
-            style="padding: 10pt; position: fixed; bottom: 0; display: none;"
-    >
-        We use cookies to store which papers have been visited.
-        <div class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
-            I agree
-        </div>
-    </div>
-    <script src="/static/2021/js/modules/gdprCookies.js"></script>
 
 {% endblock %}
