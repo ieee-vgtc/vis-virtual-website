@@ -127,9 +127,7 @@
 <!-- <div class="past_session_alert"> -->
     <div class="row mt-5">
         <div class="col-lg-10 streaming-container">
-            <div class="streaming room_session_stream">
-                <iframe src="playback.html?room={{room.id}}&day={{session.day}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
-                <!-- <iframe src="playback.html?room=room10&day=2021-10-11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe> -->
+            <div class="streaming room_session_stream" id="playback-container">
             </div>
         </div>
     </div>
@@ -217,10 +215,10 @@
 
 $(document).ready(function() {
     setInterval(updateSessionStatus, 30 * 1000);
-    updateSessionStatus()
+    updateSessionStatus(true)
 })
 
-function updateSessionStatus() {
+function updateSessionStatus(onFirstLoad) {
     // We need to write the session timings into the page to calculate current/next session.
     // See blueprint_2021.py
     startTime = '{{session.startTime}}'
@@ -243,6 +241,18 @@ function updateSessionStatus() {
     } else {
         $('.past_session_alert').show();
         $('.room_session_stream').show();
+        // Can't load the iframe in the background since it could 
+        // autoplay while not being shown.
+        if (onFirstLoad) {
+            const iframe = document.createElement("iframe");
+            iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
+            iframe.frameBorder = 0;
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframe.allowfullscreen = true ;
+            iframe.scrolling = "no";
+            const playbackContainer = document.getElementById("playback-container");
+            playbackContainer.append(iframe);
+        }
     }
 }
 
