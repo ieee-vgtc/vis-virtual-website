@@ -163,7 +163,7 @@ function createFullCalendar(calendar, config, allEvents) {
       let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
 
       // manually skip adding these groups to clean up Sunday/Monday
-      if (dayKey === "2021-10-24" || dayKey === "2021-10-25") {
+      if (dayKey === "2021-10-22" || dayKey === "2021-10-23" || dayKey === "2021-10-24" || dayKey === "2021-10-25") {
         if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
           continue;
         }
