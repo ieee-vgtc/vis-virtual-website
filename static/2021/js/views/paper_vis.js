@@ -45,13 +45,13 @@ const l_bg = plot.append("g");
 const l_main = plot.append("g");
 const l_fg = plot.append("g");
 
-const brush_start = () => {
+const brush_start = (ev) => {
   // console.log(currentTippy, "--- currentTippy");
   currentTippy.forEach((t) => t.disable());
-  brushed();
+  brushed(ev);
 };
-const brushed = () => {
-  let [[x0, y0], [x1, y1]] = d3.event.selection;
+const brushed = (ev) => {
+  let [[x0, y0], [x1, y1]] = ev.selection;
   (x0 = Math.round(x0)), (y0 = Math.round(y0));
   (x1 = Math.round(x1)), (y1 = Math.round(y1));
   // console.log(x0, x1, y1, y0, "--- x0,x1,y1,y0");
@@ -70,7 +70,7 @@ const brushed = () => {
   //          extent[0][1] <= myCircle.attr("cy") && extent[1][1] >= myCircle.attr("cy")  // And Y coordinate
 };
 
-function brush_ended() {
+function brush_ended(ev) {
   currentTippy.forEach((t) => t.enable());
 
   const all_sel = [];
@@ -225,8 +225,7 @@ const updateVis = () => {
         .classed("highlight", (d) => d.is_selected)
         .classed("non-highlight", (d) => !d.is_selected && is_filtered)
         .on("click", function (ev, d) {
-          //TODO: this is D3v5 code -- maybe change
-          openPaper(ev);
+          openPaper(d);
           d3.select(this).classed("read", true);
         });
 
@@ -287,7 +286,7 @@ const tooltip_template = (d) => `
     <div>
         <div class="tt-title">${d.title}</div>
         <p>${d.authors.join(", ")}</p>
-        <img src="${API.thumbnailPath(d)}" width=100%/>
+        ${ d.has_image ? "<img src=\"" + API.thumbnailPath(d) + "\" width=100%/>" : ""}
     </div>
 `;
 
