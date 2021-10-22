@@ -31,11 +31,11 @@ FAQ:
 
       - Question: What is the privacy policy of this virtual website?
         Answer: |-
-          Our virtual conference website does not collect any personal information, nor does our web server track requests made from individual clients.
+          If consent is granted, our web server tracks requests made from individual clients in order to gather statistics about attendance of sessions and individual talks.  User tracking data is sent securely to a privately-managed Digital Ocean virtual machine using [Matomo](https://matomo.org/).
 
-          We use browser local storage for ensuring all dates and times are shown in your set timezone.  We also use cookies to record your viewing history of papers on the papers page.  These are entirely for your benefit and none of this data is trasmitted from your browser to us.
+          We use browser local storage for ensuring all dates and times are shown in your set timezone.  If consent is granted, we also use cookies to record your viewing history of papers on the papers page.
 
-          We use [auth0](https://auth0.com/) for authentication, [Discord](https://discord.com/) for live chat, [YouTube](https://www.youtube.com/) for viewing livestreams, and [Gather](https://gather.town/) for poster/social events. These thrid parties may handle your personal data (i.e., e-mail address) based upon their privacy policies.  If you have a data request or any questions, please e-mail [web@ieeevis.org](mailto:web@ieeevis.org).
+          We use [auth0](https://auth0.com/) for authentication, [Discord](https://discord.com/) for live chat, [YouTube](https://www.youtube.com/) for viewing livestreams, and [Gather](https://gather.town/) for poster/social events. These third parties may handle your personal data (i.e., e-mail address) based upon their privacy policies.  If you have a data request or any questions, please e-mail [web@ieeevis.org](mailto:web@ieeevis.org).
 
   - Section: Content issues
     QA:

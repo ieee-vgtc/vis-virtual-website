@@ -1,8 +1,7 @@
 ## Welcome to IEEE VIS 2021 Virtual!
-<!-- <div class="embed-responsive embed-responsive-16by9 mb-4">
-<iframe class="" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TRVB7399ynY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div> -->
-_[We'll have a video intro here shortly showing how to use the virtual website to attend the conference!]_
+<div class="embed-responsive embed-responsive-16by9 mb-4">
+<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/1kqiJU4eShQ?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Social Media
 

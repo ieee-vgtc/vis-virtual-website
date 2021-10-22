@@ -56,7 +56,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
 
         <!-- Library libs_ext -->
@@ -192,11 +192,15 @@
 {% block footer %}
 
 <!-- Matomo -->
-<!-- <script>
+<script>
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['requireConsent']);
+  _paq.push(['requireCookieConsent']);
   _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
+  _paq.push(['enableLinkTracking']);  
+  // _paq.push(['forgetCookieConsentGiven']);
+
   (function() {
     var u="https://virtualvisanalytics.uninhabitedman.com/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
@@ -205,7 +209,22 @@
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
- --><!-- End Matomo Code -->
+ <!-- End Matomo Code -->
+
+<div
+  class="gdpr bg-dark text-light"
+  style="padding: 10pt; position: fixed; bottom: 0; display: none;"
+>
+  We use cookies to gather statistics about the attendees of different sessions and to store which papers have been visited.
+  <div id="gdpr-btn-accept" class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
+    Accept
+  </div>
+  <div id="gdpr-btn-reject" class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
+    Reject
+  </div>
+</div>
+<script src="/static/2021/js/modules/gdprCookies.js"></script>
+
 
     <!-- Footer -->
     <footer class="footer bg-light p-4">

@@ -5,7 +5,6 @@
 {% block head %}
     {{ super() }}
     <script src="/static/2021/js/modules/icons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 
 {% endblock %}
 
@@ -13,7 +12,7 @@
     <div class="row">
         <div class="col-md-8">
             <h2>VIS Posters</h2>
-            <p>The VIS poster session will be held synchronously on <span class="format-date-span-full">2021-10-27T19:00:00Z &ndash; 2021-10-27T20:30:00Z</span>.</p>
+            <p><a href="session_x-posters.html" target="_blank">The VIS poster session will be held synchronously</a> on <span class="format-date-span-full">2021-10-27T19:00:00Z &ndash; 2021-10-27T20:30:00Z</span>.</p>
             <p>You may also comment asynchronously on each poster by commenting in the associated Discord channel, accessible at the bottom of each poster page.</p>
         </div>
     </div>
@@ -134,7 +133,6 @@
     <script src="/static/2021/js/modules/urlParams.js"></script>
     <script src="/static/2021/js/modules/typeaheadSetup.js"></script>
     <script src="/static/2021/js/modules/lazyLoad.js"></script>
-    <script src="/static/2021/js/data/persistor.js"></script>
     <script src="/static/2021/js/data/wrangle.js"></script>
     <script src="/static/2021/js/views/papers.js"></script>
     <script>
@@ -149,15 +147,5 @@
 {% block footer %}
 
     {{ super() }}
-    <div
-            class="gdpr bg-dark text-light"
-            style="padding: 10pt; position: fixed; bottom: 0; display: none;"
-    >
-        We use cookies to store which posters have been visited.
-        <div class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
-            I agree
-        </div>
-    </div>
-    <script src="/static/2021/js/modules/gdprCookies.js"></script>
 
 {% endblock %}
