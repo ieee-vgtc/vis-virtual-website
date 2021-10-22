@@ -179,6 +179,9 @@ function createFullCalendar(calendar, config, allEvents) {
         if (timeslotKey === "20:00:00Z")
           continue;
       }
+      // ignore vizsec-2 (starts at 10:05)
+      if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
+        continue;
 
       const navigateToDay = (_ev, d) => {
         const day_num = d.day.split('-')[1];
