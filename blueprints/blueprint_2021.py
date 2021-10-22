@@ -404,6 +404,8 @@ def format_by_session_list(v):
         "discord_category": v["discord_category"],
         "discord_channel": v["discord_channel"],
         "discord_channel_id": v["discord_channel_id"],
+        "discord_link": v["discord_link"],
+        "slido_link": v["slido_link"],
         "youtube_url": v["youtube_url"],
         "youtube_id": v["youtube_url"].split("/")[-1] if v["youtube_url"] else None,
         "streaming_session_id": v["streaming_session_id"] if "streaming_session_id" in v else None,
