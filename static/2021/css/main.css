@@ -208,6 +208,10 @@ h3 {
   padding: 50px;
 }
 
+.job-board-card p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.9rem;
+}
 
 h3 {
   font-family: "Zilla Slab SemiBold", serif;
