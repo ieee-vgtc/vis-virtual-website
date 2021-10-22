@@ -12,9 +12,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
-                    "Alvitta Ottley",
                     "Junming Shao",
-                    "Liang Gou"
+                    "Liang Gou",
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -431,11 +431,11 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-1.png",
                 "chair": [
-                    "Florian Windhager",
-                    "Houda Lamqaddamm"
+                    "Houda Lamqaddam",
+                    "Florian Windhager"
                 ],
                 "organizers": [
-                    "Houda Lamqaddamm",
+                    "Houda Lamqaddam",
                     "Florian Windhager"
                 ],
                 "time_start": "2021-10-24T13:00:00Z",
@@ -456,7 +456,7 @@
                         "type": "live",
                         "title": "Opening",
                         "contributors": [
-                            "Houda Lamqaddamm",
+                            "Houda Lamqaddam",
                             "Florian Windhager"
                         ],
                         "abstract": null,
@@ -467,7 +467,7 @@
                         "type": "live",
                         "title": "VIS4DH Interactive Retrospective (Where Are We Now?)",
                         "contributors": [
-                            "Houda Lamqaddamm",
+                            "Houda Lamqaddam",
                             "Florian Windhager"
                         ],
                         "abstract": null,
@@ -495,7 +495,7 @@
                     "Uta Hinrichs"
                 ],
                 "organizers": [
-                    "Houda Lamqaddamm",
+                    "Houda Lamqaddam",
                     "Florian Windhager"
                 ],
                 "time_start": "2021-10-24T15:00:00Z",
@@ -595,11 +595,11 @@
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
                     "Bridget Moynihan",
-                    "Eric Alexander",
-                    "Mark-Jan Bludau"
+                    "Mark-Jan Bludau",
+                    "Eric Alexander"
                 ],
                 "organizers": [
-                    "Houda Lamqaddamm",
+                    "Houda Lamqaddam",
                     "Florian Windhager"
                 ],
                 "time_start": "2021-10-24T17:00:00Z",
@@ -705,10 +705,10 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Florian Windhager",
                     "Chris Weaver",
                     "Houda Lamqaddamm",
-                    "Stefania Forlini"
+                    "Stefania Forlini",
+                    "Florian Windhager"
                 ],
                 "organizers": [
                     "Houda Lamqaddamm",
@@ -811,8 +811,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Vidya Setlur",
-                    "Arjun Srinivasan"
+                    "Arjun Srinivasan",
+                    "Vidya Setlur"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -931,8 +931,8 @@
                 "track": "room5",
                 "schedule_image": "w-trex.png",
                 "chair": [
-                    "Emily Wall",
-                    "Mahsan Nourani"
+                    "Mahsan Nourani",
+                    "Emily Wall"
                 ],
                 "organizers": [
                     "Mahsan Nourani",
@@ -1837,8 +1837,8 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Charles Perin",
                     "Paul Rosen",
+                    "Charles Perin",
                     "Jane Adams",
                     "Michael Correll"
                 ],
@@ -2046,13 +2046,13 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
-                    "John Wenskovitch",
                     "Michelle Dowling",
                     "Ab Mosca",
-                    "Conny Walchshofer",
                     "Kai Xu",
+                    "Eli T Brown",
                     "Marc Streit",
-                    "Eli T Brown"
+                    "Conny Walchshofer",
+                    "John Wenskovitch"
                 ],
                 "organizers": [
                     "John Wenskovitch",
@@ -2215,8 +2215,8 @@
                     "Bongshin Lee",
                     "Sheelagh Carpendale",
                     "Melanie Tory",
-                    "Eun Kyoung Choe",
-                    "Lyn Bartram"
+                    "Lyn Bartram",
+                    "Eun Kyoung Choe"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2354,10 +2354,10 @@
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
                 "chair": [
-                    "Adriana Arcia",
-                    "Jon Schwabish",
                     "Jonathan Schwabish",
+                    "Jon Schwabish",
                     "Barbara Millet",
+                    "Adriana Arcia",
                     "Alvitta Ottley"
                 ],
                 "organizers": [
@@ -2417,7 +2417,7 @@
                         "type": "live",
                         "title": "A Design Space for Visualization Onboarding in Data-Driven Stories",
                         "contributors": [
-                            "Thomas Hurtut"
+                            "Morteza Asgari"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T18:20:00Z",
@@ -2754,8 +2754,8 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
-                    "Johanna Beyer",
                     "Chaoli Wang",
+                    "Johanna Beyer",
                     "Kristi Potter"
                 ],
                 "organizers": [
@@ -3361,12 +3361,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Georgia Panagiotidou",
                     "Samuel Huron",
+                    "Mandy Keck",
+                    "Sheelagh Carpendale",
+                    "Georgia Panagiotidou",
                     "Benjamin Bach",
-                    "Mandy Keck"
+                    "Jonathan C. Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3434,12 +3434,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Georgia Panagiotidou",
                     "Samuel Huron",
+                    "Mandy Keck",
+                    "Sheelagh Carpendale",
+                    "Georgia Panagiotidou",
                     "Benjamin Bach",
-                    "Mandy Keck"
+                    "Jonathan C. Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3506,12 +3506,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Georgia Panagiotidou",
                     "Samuel Huron",
+                    "Mandy Keck",
+                    "Sheelagh Carpendale",
+                    "Georgia Panagiotidou",
                     "Benjamin Bach",
-                    "Mandy Keck"
+                    "Jonathan C. Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3598,8 +3598,8 @@
                 "schedule_image": "w-visxvision.png",
                 "chair": [
                     "Cindy Xiong",
-                    "Christie Nothelfer",
                     "Madison Elliott",
+                    "Christie Nothelfer",
                     "Danielle Szafir"
                 ],
                 "organizers": [
@@ -3799,11 +3799,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Leilani Battle",
-                    "Michelle Borkin",
-                    "Lane Harrison",
+                    "Evan Peck",
                     "Michael Correll",
-                    "Evan Peck"
+                    "Lane Harrison",
+                    "Michelle Borkin",
+                    "Leilani Battle"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3985,8 +3985,8 @@
                 "schedule_image": "t-usereval.png",
                 "chair": [
                     "Niklas R\u00f6nnberg",
-                    "Matt Cooper",
-                    "Camilla Forsell"
+                    "Camilla Forsell",
+                    "Matt Cooper"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4202,11 +4202,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "Menna El-Assady",
-                    "VISxAI orga",
                     "Adam Perer",
                     "Fred Hohman",
-                    "Hendrik Strobelt"
+                    "VISxAI orga",
+                    "Hendrik Strobelt",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4363,14 +4363,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Michael Iber",
-                    "Robert H\u00f6ldrich",
+                    "Wolfgang Aigner",
                     "Alexander Rind",
                     "Kajetan Enge",
+                    "Robert H\u00f6ldrich",
                     "Niklas R\u00f6nnberg",
-                    "Bruce N. Walker",
-                    "Wolfgang Aigner",
-                    "Niklas Elmqvist"
+                    "Niklas Elmqvist",
+                    "Michael Iber",
+                    "Bruce N. Walker"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4510,8 +4510,8 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Anastasia Bezerianos",
                     "Bongshin Lee",
+                    "Anastasia Bezerianos",
                     "Petra Isenberg"
                 ],
                 "organizers": [
@@ -4701,12 +4701,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Tamara Munzner",
-                    "Brian Summa",
-                    "Catherine Plaisant",
                     "Daniel Weiskopf",
+                    "Brian Summa",
+                    "Luis Gustavo Nonato",
                     "Terry Yoo",
-                    "Luis Gustavo Nonato"
+                    "Catherine Plaisant",
+                    "Tamara Munzner"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4774,9 +4774,9 @@
                 "track": "room1",
                 "schedule_image": "v-full-full1.png",
                 "chair": [
+                    "Bongshin Lee",
                     "Silvia Miksch",
-                    "Anders Ynnerman",
-                    "Bongshin Lee"
+                    "Anders Ynnerman"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -7721,8 +7721,8 @@
                 "track": "room6",
                 "schedule_image": "a-visap-visap2.png",
                 "chair": [
-                    "Charles Perin",
-                    "Yoon Chung Han"
+                    "Yoon Chung Han",
+                    "Charles Perin"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-28T17:00:00Z",
@@ -7929,9 +7929,9 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Hsiang-Yun Wu",
                     "Karen Schloss",
-                    "Lane Harrison"
+                    "Lane Harrison",
+                    "Hsiang-Yun Wu"
                 ],
                 "organizers": [
                     "Hsiang-Yun Wu",
@@ -8645,25 +8645,25 @@
             }
         ]
     },
-    "v-panels-panel4": {
-        "event": "Wait...when did we sign up to be economists?",
-        "long_name": "Wait...when did we sign up to be economists?",
+    "v-panels-panel5": {
+        "event": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+        "long_name": "Visualization Literacy for General Audiences - Can We Make A Difference?",
         "event_type": "Panel",
         "event_description": "",
         "event_url": "",
         "sessions": [
             {
-                "title": "Wait...when did we sign up to be economists?",
-                "session_id": "v-panels-panel4",
+                "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+                "session_id": "v-panels-panel5",
                 "track": "room6",
-                "schedule_image": "v-panels-panel4.png",
+                "schedule_image": "v-panels-panel5.png",
                 "chair": [
-                    "Kiran Gadhave"
+                    "Joshi Alark"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-27T13:00:00Z",
                 "time_end": "2021-10-27T14:30:00Z",
-                "discord_category": "waitwhen did we sign up to be economists",
+                "discord_category": "visualization literacy for general audiences - can we make a difference",
                 "discord_channel": "general",
                 "discord_channel_id": "894792589545443359",
                 "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
@@ -8677,15 +8677,14 @@
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "Wait...when did we sign up to be economists?",
+                        "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
                         "contributors": [
-                            "Derya Akbaba",
-                            "Kiran Gadhave",
-                            "Salph Savage",
-                            "Danielle Albers Szafir",
-                            "Alexander Lex",
-                            "Steve Haroz",
-                            "Khairi Reda"
+                            "Alark Joshi",
+                            "Katy Borner",
+                            "Robert S. Laramee",
+                            "Lane Harrison",
+                            "Elif E. Firat",
+                            "Bum Chul Kwon"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-27T13:00:00Z",
@@ -9257,12 +9256,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Steven Morley",
-                    "Ayan Biswas",
-                    "Subhashis Hazarika",
                     "Divya Banesh",
+                    "Subhashis Hazarika",
+                    "Earl Lawrence",
+                    "Ayan Biswas",
                     "Natalie Klein",
-                    "Earl Lawrence"
+                    "Steven Morley"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9741,13 +9740,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Renata G. Raidou",
-                    "Ludvig P. Muren",
                     "Wouter van Elmpt",
-                    "Vitali Moiseenko",
                     "Katja B\u00fchler",
                     "Uulke van der Heide",
-                    "Noeska Smit"
+                    "Noeska Smit",
+                    "Vitali Moiseenko",
+                    "Renata G. Raidou",
+                    "Ludvig P. Muren"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -9902,8 +9901,8 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Alexander Bock",
                     "Anders Ynnerman",
+                    "Alexander Bock",
                     "Mark SubbaRao"
                 ],
                 "organizers": [
@@ -9954,8 +9953,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Thomas Theu\u00dfl",
-                    "Alex Razoumov"
+                    "Alex Razoumov",
+                    "Thomas Theu\u00dfl"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10327,25 +10326,25 @@
             }
         ]
     },
-    "v-panels-panel5": {
-        "event": "Visualization Literacy for General Audiences - Can We Make A Difference?",
-        "long_name": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+    "v-panels-panel4": {
+        "event": "Wait...when did we sign up to be economists?",
+        "long_name": "Wait...when did we sign up to be economists?",
         "event_type": "Panel",
         "event_description": "",
         "event_url": "",
         "sessions": [
             {
-                "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
-                "session_id": "v-panels-panel5",
+                "title": "Wait...when did we sign up to be economists?",
+                "session_id": "v-panels-panel4",
                 "track": "room6",
-                "schedule_image": "v-panels-panel5.png",
+                "schedule_image": "v-panels-panel4.png",
                 "chair": [
-                    "Joshi Alark"
+                    "Kiran Gadhave"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T13:00:00Z",
                 "time_end": "2021-10-29T14:30:00Z",
-                "discord_category": "visualization literacy for general audiences - can we make a difference",
+                "discord_category": "waitwhen did we sign up to be economists",
                 "discord_channel": "general",
                 "discord_channel_id": "894792589545443359",
                 "discord_link": "https://discord.com/channels/884159773287805038/894792589545443359",
@@ -10359,14 +10358,15 @@
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "Visualization Literacy for General Audiences - Can We Make A Difference?",
+                        "title": "Wait...when did we sign up to be economists?",
                         "contributors": [
-                            "Alark Joshi",
-                            "Katy Borner",
-                            "Robert S. Laramee",
-                            "Lane Harrison",
-                            "Elif E. Firat",
-                            "Bum Chul Kwon"
+                            "Derya Akbaba",
+                            "Kiran Gadhave",
+                            "Salph Savage",
+                            "Danielle Albers Szafir",
+                            "Alexander Lex",
+                            "Steve Haroz",
+                            "Khairi Reda"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T13:00:00Z",
@@ -10389,9 +10389,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
+                    "Petra Gospodnetic",
                     "Christina Gillmann",
-                    "Karsten Rink",
-                    "Petra Gospodnetic"
+                    "Karsten Rink"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10486,8 +10486,8 @@
                 "track": "room4",
                 "schedule_image": "v-siggraph-siggraph1.png",
                 "chair": [
-                    "Jian Chen",
-                    "Klaus Mueller"
+                    "Klaus Mueller",
+                    "Jian Chen"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
