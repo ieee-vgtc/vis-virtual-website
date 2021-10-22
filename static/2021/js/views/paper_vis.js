@@ -45,13 +45,13 @@ const l_bg = plot.append("g");
 const l_main = plot.append("g");
 const l_fg = plot.append("g");
 
-const brush_start = () => {
+const brush_start = (ev) => {
   // console.log(currentTippy, "--- currentTippy");
   currentTippy.forEach((t) => t.disable());
-  brushed();
+  brushed(ev);
 };
-const brushed = () => {
-  let [[x0, y0], [x1, y1]] = d3.event.selection;
+const brushed = (ev) => {
+  let [[x0, y0], [x1, y1]] = ev.selection;
   (x0 = Math.round(x0)), (y0 = Math.round(y0));
   (x1 = Math.round(x1)), (y1 = Math.round(y1));
   // console.log(x0, x1, y1, y0, "--- x0,x1,y1,y0");
@@ -70,7 +70,7 @@ const brushed = () => {
   //          extent[0][1] <= myCircle.attr("cy") && extent[1][1] >= myCircle.attr("cy")  // And Y coordinate
 };
 
-function brush_ended() {
+function brush_ended(ev) {
   currentTippy.forEach((t) => t.enable());
 
   const all_sel = [];
@@ -89,7 +89,11 @@ function brush_ended() {
       });
     } else {
       const wordvec = new Set();
-      parts = paper.abstract.split(/[.]?\s+/);
+
+      parts = paper.title.split(/[.]?\s+/);
+      if (paper.hasOwnProperty('abstract') && !!paper.abstract) {
+        parts = [...parts, ...paper.abstract.split(/[.]?\s+/)];
+      }
       parts.forEach((p) => {
         if (p.length < 3) return;
         // wordvec.add(p.toLowerCase());
@@ -282,8 +286,8 @@ const tooltip_template = (d) => `
     <div>
         <div class="tt-title">${d.title}</div>
         <p>${d.authors.join(", ")}</p>
-        <img src="${API.thumbnailPath(d)}" width=100%/>
-     </div>
+        ${ d.has_image ? "<img src=\"" + API.thumbnailPath(d) + "\" width=100%/>" : ""}
+    </div>
 `;
 
 const start = () => {
@@ -291,12 +295,12 @@ const start = () => {
     .then(([papers, proj]) => {
       // all_proj = proj;
 
-      console.log(papers,proj,"--- papers,proj");
+      console.log(papers, proj, "--- papers,proj");
 
       const projMap = new Map();
       proj.forEach((p) => projMap.set(p.id, p.pos));
 
-      papers = papers.filter(d => !!d.abstract && projMap.get(d.UID));
+      papers = papers.filter(d => projMap.get(d.UID));
       papers.forEach((p) => {
         p.pos = projMap.get(p.UID);
       });
