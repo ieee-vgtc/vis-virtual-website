@@ -132,6 +132,11 @@ def generateDayCalendars():
                 "category": "time",
                 "eventType": session["type"],
             }
+
+            # skip adding demo sessions on invalid days (e.g. -1 days before conference)
+            if session_event["day"] == "day--1":
+                continue
+
             day_events.append(session_event)
 
         calendar_fname = "calendar_" + day
