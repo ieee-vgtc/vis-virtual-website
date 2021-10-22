@@ -306,6 +306,7 @@ def format_poster(v):
         "discord_channel": v["discord_channel"],
         "session_title": v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + ".pdf",
+        "summary_pdf": "https://ieeevis.b-cdn.net/vis_2021/posters/" + v["uid"] + "-summary.pdf" if v["has_summary_pdf"] else None,
         "has_image": v["has_image"],
 
         # for posters.html
@@ -543,7 +544,7 @@ def room(room):
     }
     # We need to write a minimal data object to the js so that current session can be calculated.
     # We copy a minimal amount of data there
-    data["sessionTimings"] = json.dumps([ 
+    data["sessionTimings"] = json.dumps([
             {
                 'startTime': s['startTime'],
                 'endTime': s['endTime'],

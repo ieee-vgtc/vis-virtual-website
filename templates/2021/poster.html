@@ -50,6 +50,14 @@
                 &#xf02e;
             </div>
             <h3 class="paper-authors pb-2 mt-3">{{ poster.authors | join(", ") }}</h3>
+            {% if poster.summary_pdf %}
+                <h5 class="paper-link pb-2">
+                    <a href="{{ poster.summary_pdf }}">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        Download summary PDF
+                    </a>
+                </h5>
+            {% endif %}
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
         </div>
     </div>
