@@ -204,6 +204,11 @@ h3 {
   overflow: hidden;
 }
 
+.job-board-card {
+  padding: 50px;
+}
+
+
 h3 {
   font-family: "Zilla Slab SemiBold", serif;
 }

@@ -190,6 +190,11 @@ def home():
     data["supporters"] = site_data["supporters"]
     return render_template("{}/index.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/jobs.html".format(year))
+def jobs():
+    data = _data()
+    data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
+    return render_template("{}/jobs.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/help.html".format(year))
 def about():
