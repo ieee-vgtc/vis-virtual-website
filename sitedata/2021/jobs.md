@@ -2,17 +2,13 @@
 
 We will collect job postings and display them here through out the VIS 2021 meeting. 
 
-<!--
-To submit a posting, please click "Submit Posting" in the site menu. Postings will be updated daily on this page. 
+[Submit a posting](https://docs.google.com/forms/d/e/1FAIpQLSeyCQYx13oWPTpIyPg45svE6AwAx0xopk12_m4ZO-csVE1THQ/viewform). Postings will be updated daily on this page. 
 
-For more information about the Job Fair Meetup (Thurs 10/29) please visit "Job Fair Meetup" in the site menu.
+[Job Fair Meetup](https://virtual.ieeevis.org/year/2021/event_m-jobfair.html)
 
-Questions? Contact the Community Committee (Jaegul Choo, Karen Schloss, Hsiang-Yun Wu) at community@ieeevis.org. 
--->
+Questions? Contact the Community Committee (Karen Schloss, Hsiang-Yun Wu, Lane Harrison) at community@ieeevis.org. 
 
-# Job Postings
-
-## Academic
+# Academic
 
 ### Boston University Center for Antiracist Research
 
@@ -101,7 +97,8 @@ Contact: Melanie Tory, m.tory@northeastern.edu
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: bsumma@tulane.edu  
-## Industry
+
+# Industry
 ### Kitware
 **Scientific Visualization Developer** at Kitware (USA - Multiple Locations), start date: 2021-11-01
 
@@ -126,7 +123,8 @@ Contact: bsumma@tulane.edu
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: John Westbrook; john.westbrook@kitware.com  
-## Student
+
+# Student
 ### University of Zurich (UZH)
 **Ph.D Position in Visual Analytics for Multiple Sclerosis** at University of Zurich (UZH) (Zurich, Switzerland), start date: 2021-12-01
 
