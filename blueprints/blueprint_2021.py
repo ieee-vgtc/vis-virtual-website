@@ -106,6 +106,7 @@ def main(site_data_path):
     print("Data Successfully Loaded")
 
     generateDayCalendars()
+    generateSessionTimings()
     return extra_files
 
 # main() should be called before this function
@@ -169,6 +170,19 @@ def sessionTimeToCalendarDay(dateTime):
     day = int(dateTime.split("T")[0].split("-")[-1])
 
     return "day-" + str(day - start_day + 1)
+
+
+# generates minimial json of session timings to support dynamic selection of "live" events for various pages
+def generateSessionTimings(): 
+    site_data["session_timings"] = [
+            {
+                'startTime': s['time_start'],
+                'endTime': s['time_end'],
+                'room': s['track'],
+                'title': s['title'],
+                'id': s['session_id'],
+            }
+        for s in by_uid["sessions"].values()]
 
 def _data():
     data = {}
