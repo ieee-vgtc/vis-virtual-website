@@ -259,6 +259,9 @@ def home():
 def about():
     return meta_redirect_html(FROZEN_YEAR, "help.html")
 
+@app.route("/jobs.html")
+def jobs():
+    return meta_redirect_html(FROZEN_YEAR, "jobs.html")
 
 @app.route("/papers.html")
 def papers():

@@ -18,6 +18,7 @@ function finishCalendar(renderPromises) {
   // only when everything has rendered do we update times in the calendar
   Promise.all(renderPromises).then(() => {
     updateTimezone();
+    tippy("[data-tippy-content]", {trigger: "mouseenter focus"});
   });
 }
 
@@ -163,7 +164,7 @@ function createFullCalendar(calendar, config, allEvents) {
       let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
 
       // manually skip adding these groups to clean up Sunday/Monday
-      if (dayKey === "2021-10-24" || dayKey === "2021-10-25") {
+      if (dayKey === "2021-10-22" || dayKey === "2021-10-23" || dayKey === "2021-10-24" || dayKey === "2021-10-25") {
         if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
           continue;
         }
@@ -178,6 +179,9 @@ function createFullCalendar(calendar, config, allEvents) {
         if (timeslotKey === "20:00:00Z")
           continue;
       }
+      // ignore vizsec-2 (starts at 10:05)
+      if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
+        continue;
 
       const navigateToDay = (_ev, d) => {
         const day_num = d.day.split('-')[1];
@@ -209,8 +213,6 @@ function createFullCalendar(calendar, config, allEvents) {
           .data(sessions, d => d.id)
           .join('div')
             .attr('class', 'session')
-            .attr('data-toggle', 'popover')
-            .attr('data-content', d => d.title)
             .style('background-color', d => config.calendar.colors[d.eventType])
             .style('color', d => getTextColorByBackgroundColor(config.calendar.colors[d.eventType]))
       }
@@ -230,8 +232,7 @@ function createDayCalendar(calendar, config, dayEvents) {
     .data(dayEvents)
     .join("div")
       .attr("class", "session")
-      .attr('data-toggle', 'popover')
-      .attr('data-content', d => d.title)
+      .attr('data-tippy-content', d => d.title)
       .style('grid-column', d => `${d.room}-start / auto`)
       .style('grid-row', d => `${d.timeStart} / ${d.timeEnd}`)
       .style('background-color', getColor)
@@ -303,16 +304,16 @@ function populateHeader(calendarSelection, data, isDay) {
 
 function populateTimes(calendarSelection) {
   let timeData = [
-    ["7:30 AM", "time-0730"],
-    ["8:00", "time-0800"],
-    ["9:30", "time-0930"],
-    ["10:00", "time-1000"],
-    ["11:30", "time-1130"],
-    ["12:00 PM", "time-1200"],
-    ["1:30", "time-1330"],
-    ["2:00 PM", "time-1400"],
-    ["3:00", "time-1500"],
-    ["3:30", "time-1530"],
+    ["7:30 AM CT", "time-0730"],
+    ["8:00 AM CT", "time-0800"],
+    ["9:30 AM CT", "time-0930"],
+    ["10:00 AM CT", "time-1000"],
+    ["11:30 AM CT", "time-1130"],
+    ["12:00 PM CT", "time-1200"],
+    ["1:30 PM CT", "time-1330"],
+    ["2:00 PM CT", "time-1400"],
+    ["3:00 PM CT", "time-1500"],
+    ["3:30 PM CT", "time-1530"],
   ];
 
   calendarSelection.selectAll(".time-slot:not(.converted-timezone)")

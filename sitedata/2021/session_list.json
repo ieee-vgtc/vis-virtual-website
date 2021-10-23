@@ -1,10 +1,121 @@
 {
+    "v-demo": {
+        "event": "VIS Full Papers",
+        "long_name": "VIS Full Papers",
+        "event_type": "Paper Presentations",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "Demo Session 2",
+                "session_id": "v-demo-demo2",
+                "track": "room10",
+                "schedule_image": "v-demo-demo2.png",
+                "chair": [
+                    "Alex Bock",
+                    "Will Usher",
+                    "Micha Schwab"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-22T15:00:00Z",
+                "time_end": "2021-10-22T15:15:00Z",
+                "discord_category": "vis full papers",
+                "discord_channel": "demo-session-2",
+                "discord_channel_id": "894792592959619082",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792592959619082",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=bf0cd5b1-53f8-4f7f-a38d-63d5f4d48890",
+                "youtube_url": "https://youtu.be/I45NUX3LJUw",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "recorded",
+                        "title": "General Chairing VIS 2021 New Orleans",
+                        "contributors": [
+                            "Brian Summa"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-22T15:00:00Z",
+                        "time_end": "2021-10-22T15:12:00Z",
+                        "uid": "v-full-demo-22",
+                        "youtube_video_id": "n7YS4bTdg1o"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Gather Town Preview",
+                        "contributors": [
+                            "Amy Gooch"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-22T15:12:00Z",
+                        "time_end": "2021-10-22T15:15:00Z",
+                        "uid": "v-full-1346",
+                        "youtube_video_id": "zDgCYPQpWuY"
+                    }
+                ]
+            },
+            {
+                "title": "Demo Session 3",
+                "session_id": "v-demo-demo3",
+                "track": "room10",
+                "schedule_image": "v-demo-demo3.png",
+                "chair": [
+                    "Alex Bock",
+                    "Will Usher",
+                    "Micha Schwab"
+                ],
+                "organizers": [],
+                "time_start": "2021-10-23T02:00:00Z",
+                "time_end": "2021-10-23T02:15:00Z",
+                "discord_category": "vis full papers",
+                "discord_channel": "demo-session-3",
+                "discord_channel_id": "894792592959619082",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792592959619082",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=bf0cd5b1-53f8-4f7f-a38d-63d5f4d48890",
+                "youtube_url": "https://youtu.be/CxYErleUrO8",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "recorded",
+                        "title": "General Chairing VIS 2021 New Orleans",
+                        "contributors": [
+                            "Brian Summa"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-23T02:00:00Z",
+                        "time_end": "2021-10-23T02:12:00Z",
+                        "uid": "v-full-demo-22",
+                        "youtube_video_id": "n7YS4bTdg1o"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "Gather Town Preview",
+                        "contributors": [
+                            "Amy Gooch"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-23T02:12:00Z",
+                        "time_end": "2021-10-23T02:15:00Z",
+                        "uid": "v-full-1346",
+                        "youtube_video_id": "zDgCYPQpWuY"
+                    }
+                ]
+            }
+        ]
+    },
     "a-vds": {
         "event": "VDS",
         "long_name": "VDS",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://www.visualdatascience.org/2021/index.html",
         "sessions": [
             {
                 "title": "VDS",
@@ -13,8 +124,8 @@
                 "schedule_image": "a-vds.png",
                 "chair": [
                     "Liang Gou",
-                    "Junming Shao",
-                    "Alvitta Ottley"
+                    "Alvitta Ottley",
+                    "Junming Shao"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -131,7 +242,7 @@
         "long_name": "VAHC",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://visualanalyticshealthcare.org/",
         "sessions": [
             {
                 "title": "Introduction",
@@ -139,9 +250,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
-                    "J\u00fcrgen Bernard",
+                    "Annie T. Chen",
                     "Danny T.Y. Wu",
-                    "Annie T. Chen"
+                    "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -423,7 +534,7 @@
         "long_name": "VIS4DH",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://www.vis4dh.org/",
         "sessions": [
             {
                 "title": "Opening and Keynote",
@@ -594,8 +705,8 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Mark-Jan Bludau",
                     "Bridget Moynihan",
+                    "Mark-Jan Bludau",
                     "Eric Alexander"
                 ],
                 "organizers": [
@@ -705,13 +816,13 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
+                    "Chris Weaver",
                     "Stefania Forlini",
-                    "Houda Lamqaddamm",
-                    "Florian Windhager",
-                    "Chris Weaver"
+                    "Houda Lamqaddam",
+                    "Florian Windhager"
                 ],
                 "organizers": [
-                    "Houda Lamqaddamm",
+                    "Houda Lamqaddam",
                     "Florian Windhager"
                 ],
                 "time_start": "2021-10-24T19:00:00Z",
@@ -776,7 +887,7 @@
                         "type": "live",
                         "title": "Closing and Sharing Link for Town Hall",
                         "contributors": [
-                            "Houda Lamqaddamm",
+                            "Houda Lamqaddam",
                             "Florian Windhager"
                         ],
                         "abstract": null,
@@ -787,7 +898,7 @@
                         "type": "live",
                         "title": "Town Hall (Where Are We Going?)",
                         "contributors": [
-                            "Houda Lamqaddamm",
+                            "Houda Lamqaddam",
                             "Florian Windhager"
                         ],
                         "abstract": null,
@@ -803,7 +914,7 @@
         "long_name": "Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://www.nlvizworkshop.com/",
         "sessions": [
             {
                 "title": "Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks",
@@ -811,8 +922,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Vidya Setlur",
-                    "Arjun Srinivasan"
+                    "Arjun Srinivasan",
+                    "Vidya Setlur"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -923,7 +1034,7 @@
         "long_name": "TREX: Workshop on TRust and EXpertise in Visualization",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://trexvis.github.io/Workshop2021/",
         "sessions": [
             {
                 "title": "TREX: Workshop on TRust and EXpertise in Visualization",
@@ -931,8 +1042,8 @@
                 "track": "room5",
                 "schedule_image": "w-trex.png",
                 "chair": [
-                    "Emily Wall",
-                    "Mahsan Nourani"
+                    "Mahsan Nourani",
+                    "Emily Wall"
                 ],
                 "organizers": [
                     "Mahsan Nourani",
@@ -1161,7 +1272,7 @@
         "long_name": "Topological Analysis of Ensemble Scalar Data with TTK",
         "event_type": "Tutorial",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://topology-tool-kit.github.io/ieeeVis2021Tutorial.html",
         "sessions": [
             {
                 "title": "Topological Analysis of Ensemble Scalar Data with TTK",
@@ -1169,8 +1280,8 @@
                 "track": "room7",
                 "schedule_image": "t-ttk.png",
                 "chair": [
-                    "Julien Tierny",
-                    "Josh Levine"
+                    "Josh Levine",
+                    "Julien Tierny"
                 ],
                 "organizers": [
                     "Christoph Garth",
@@ -1659,7 +1770,7 @@
         "long_name": "VAST Challenge",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://vast-challenge.github.io/2021/",
         "sessions": [
             {
                 "title": "VAST Challenge",
@@ -1829,7 +1940,7 @@
         "long_name": "alt.VIS",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://altvis.github.io/",
         "sessions": [
             {
                 "title": "alt.VIS",
@@ -1837,10 +1948,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
+                    "Michael Correll",
                     "Paul Rosen",
                     "Charles Perin",
-                    "Jane Adams",
-                    "Michael Correll"
+                    "Jane Adams"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2038,7 +2149,7 @@
         "long_name": "MLUI 2021: Machine Learning from User Interaction for Visualization and Analytics",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://learningfromusersworkshop.github.io/",
         "sessions": [
             {
                 "title": "MLUI 2021: Machine Learning from User Interaction for Visualization and Analytics",
@@ -2046,12 +2157,12 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
-                    "Ab Mosca",
-                    "Kai Xu",
-                    "Michelle Dowling",
                     "Conny Walchshofer",
-                    "John Wenskovitch",
+                    "Michelle Dowling",
+                    "Kai Xu",
+                    "Ab Mosca",
                     "Eli T Brown",
+                    "John Wenskovitch",
                     "Marc Streit"
                 ],
                 "organizers": [
@@ -2204,7 +2315,7 @@
         "long_name": "Human-Data Interaction",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://sites.google.com/view/hdi-vis2021/home",
         "sessions": [
             {
                 "title": "Human-Data Interaction",
@@ -2212,11 +2323,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Melanie Tory",
-                    "Eun Kyoung Choe",
                     "Sheelagh Carpendale",
+                    "Eun Kyoung Choe",
                     "Lyn Bartram",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Melanie Tory"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2346,7 +2457,7 @@
         "long_name": "Fourth Workshop on Visualization for Communication (VisComm)",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://viscomm.io/",
         "sessions": [
             {
                 "title": "Fourth Workshop on Visualization for Communication (VisComm)",
@@ -2354,11 +2465,11 @@
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
                 "chair": [
-                    "Barbara Millet",
-                    "Alvitta Ottley",
-                    "Jonathan Schwabish",
                     "Jon Schwabish",
-                    "Adriana Arcia"
+                    "Adriana Arcia",
+                    "Alvitta Ottley",
+                    "Barbara Millet",
+                    "Jonathan Schwabish"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2526,12 +2637,54 @@
             }
         ]
     },
+    "m-visfest": {
+        "event": "VIS",
+        "long_name": "VIS",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "",
+        "sessions": [
+            {
+                "title": "VIS Fest",
+                "session_id": "m-visfest",
+                "track": "room1",
+                "schedule_image": "m-visfest.png",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-24T20:30:00Z",
+                "time_end": "2021-10-24T21:30:00Z",
+                "discord_category": "",
+                "discord_channel": "",
+                "discord_channel_id": 0,
+                "discord_link": "https://discord.com/channels/884159773287805038/892967369197101086",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=f31e344c-1cf1-482a-8f0e-f4bf3046c844",
+                "youtube_url": null,
+                "zoom_meeting": null,
+                "zoom_password": null,
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": true,
+                "time_slots": [
+                    {
+                        "type": "Gathertown Only",
+                        "title": "VIS Fest",
+                        "contributors": [
+                            "Brian Summa"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T20:30:00Z",
+                        "time_end": "2021-10-24T21:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
     "a-ldav": {
         "event": "LDAV",
         "long_name": "LDAV",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://ldav.org/2021/",
         "sessions": [
             {
                 "title": "Keynote and Best Paper",
@@ -2755,8 +2908,8 @@
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
                     "Johanna Beyer",
-                    "Kristi Potter",
-                    "Chaoli Wang"
+                    "Chaoli Wang",
+                    "Kristi Potter"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -2856,7 +3009,7 @@
         "long_name": "VisInPractice",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://ieeevis.org/year/2021/info/visinpractice",
         "sessions": [
             {
                 "title": "Panel on Moving between Academia and Industry",
@@ -3085,7 +3238,7 @@
         "long_name": "BioVis Challenge",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://biovis.net/2021/ieeevis/",
         "sessions": [
             {
                 "title": "BioVis Challenge",
@@ -3197,7 +3350,7 @@
         "long_name": "2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing and Designing",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://visactivities.github.io/",
         "sessions": [
             {
                 "title": "Opening, Keynote and Papers",
@@ -3362,12 +3515,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
-                    "Mandy Keck",
                     "Sheelagh Carpendale",
-                    "Samuel Huron",
-                    "Benjamin Bach",
+                    "Mandy Keck",
                     "Jonathan C. Roberts",
-                    "Georgia Panagiotidou"
+                    "Benjamin Bach",
+                    "Georgia Panagiotidou",
+                    "Samuel Huron"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3435,12 +3588,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
-                    "Mandy Keck",
                     "Sheelagh Carpendale",
-                    "Samuel Huron",
-                    "Benjamin Bach",
+                    "Mandy Keck",
                     "Jonathan C. Roberts",
-                    "Georgia Panagiotidou"
+                    "Benjamin Bach",
+                    "Georgia Panagiotidou",
+                    "Samuel Huron"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3507,12 +3660,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
-                    "Mandy Keck",
                     "Sheelagh Carpendale",
-                    "Samuel Huron",
-                    "Benjamin Bach",
+                    "Mandy Keck",
                     "Jonathan C. Roberts",
-                    "Georgia Panagiotidou"
+                    "Benjamin Bach",
+                    "Georgia Panagiotidou",
+                    "Samuel Huron"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3590,7 +3743,7 @@
         "long_name": "VisXVision: Workshop on Novel Directions in Vision Science and Visualization Research",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://visxvision.com/vis-2021/",
         "sessions": [
             {
                 "title": "VisXVision: Workshop on Novel Directions in Vision Science and Visualization Research",
@@ -3598,10 +3751,10 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Madison Elliott",
-                    "Cindy Xiong",
                     "Christie Nothelfer",
-                    "Danielle Szafir"
+                    "Madison Elliott",
+                    "Danielle Szafir",
+                    "Cindy Xiong"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3792,7 +3945,7 @@
         "long_name": "Visualization for Social Good",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://vis4good.github.io/",
         "sessions": [
             {
                 "title": "Visualization for Social Good",
@@ -3800,10 +3953,10 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Michelle Borkin",
-                    "Michael Correll",
                     "Leilani Battle",
                     "Evan Peck",
+                    "Michael Correll",
+                    "Michelle Borkin",
                     "Lane Harrison"
                 ],
                 "organizers": [
@@ -3930,23 +4083,13 @@
                     },
                     {
                         "type": "live",
-                        "title": "Local, Interactive, and Actionable: a Pandemic Behavioral Nudge",
-                        "contributors": [
-                            "Alex Rich"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-25T15:51:00Z",
-                        "time_end": "2021-10-25T15:56:00Z"
-                    },
-                    {
-                        "type": "live",
                         "title": "Visualizing Sexual Harassment Testimonies: Academia is Tied in Knots",
                         "contributors": [
                             "Tommaso Elli"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:56:00Z",
-                        "time_end": "2021-10-25T16:01:00Z"
+                        "time_start": "2021-10-25T15:51:00Z",
+                        "time_end": "2021-10-25T15:56:00Z"
                     },
                     {
                         "type": "live",
@@ -3955,7 +4098,7 @@
                             "Michelle Borkin"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T16:01:00Z",
+                        "time_start": "2021-10-25T15:56:00Z",
                         "time_end": "2021-10-25T16:05:00Z"
                     },
                     {
@@ -3985,9 +4128,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Matt Cooper",
+                    "Niklas R\u00f6nnberg",
                     "Camilla Forsell",
-                    "Niklas R\u00f6nnberg"
+                    "Matt Cooper"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4195,7 +4338,7 @@
         "long_name": "VISxAI",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://visxai.io/",
         "sessions": [
             {
                 "title": "VISxAI",
@@ -4203,11 +4346,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "Hendrik Strobelt",
-                    "Menna El-Assady",
                     "VISxAI orga",
                     "Fred Hohman",
-                    "Adam Perer"
+                    "Adam Perer",
+                    "Hendrik Strobelt",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4356,7 +4499,7 @@
         "long_name": "Workshop on AudioVisual Analytics \u2013 Towards a Research Agenda for Integrating Sonification and Visualization",
         "event_type": "Workshop",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://audio-visual-analytics.github.io/",
         "sessions": [
             {
                 "title": "Workshop on AudioVisual Analytics \u2013 Towards a Research Agenda for Integrating Sonification and Visualization",
@@ -4364,14 +4507,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Niklas Elmqvist",
-                    "Alexander Rind",
-                    "Bruce N. Walker",
-                    "Michael Iber",
-                    "Robert H\u00f6ldrich",
                     "Niklas R\u00f6nnberg",
+                    "Michael Iber",
                     "Wolfgang Aigner",
-                    "Kajetan Enge"
+                    "Alexander Rind",
+                    "Niklas Elmqvist",
+                    "Kajetan Enge",
+                    "Bruce N. Walker",
+                    "Robert H\u00f6ldrich"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4503,7 +4646,7 @@
         "long_name": "IEEE VIS Full Paper Review Model and Process: Becoming a (Better) Program Committee Member",
         "event_type": "Tutorial",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://sites.google.com/view/ieeevis-pc-tutorial/",
         "sessions": [
             {
                 "title": "IEEE VIS Full Paper Review Model and Process: Becoming a (Better) Program Committee Member",
@@ -4511,9 +4654,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Anastasia Bezerianos",
                     "Petra Isenberg",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Anastasia Bezerianos"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -4615,7 +4758,8 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T17:40:00Z",
-                        "time_end": "2021-10-25T17:59:00Z"
+                        "time_end": "2021-10-25T17:59:00Z",
+                        "youtube_video_id": "Ke-695XFJ2E"
                     },
                     {
                         "type": "recorded",
@@ -4659,7 +4803,8 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T19:32:00Z",
-                        "time_end": "2021-10-25T19:52:00Z"
+                        "time_end": "2021-10-25T19:52:00Z",
+                        "youtube_video_id": "AycBYoKHiBw"
                     },
                     {
                         "type": "recorded",
@@ -4701,12 +4846,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Brian Summa",
                     "Tamara Munzner",
-                    "Terry Yoo",
+                    "Luis Gustavo Nonato",
                     "Catherine Plaisant",
+                    "Brian Summa",
                     "Daniel Weiskopf",
-                    "Luis Gustavo Nonato"
+                    "Terry Yoo"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4775,8 +4920,8 @@
                 "schedule_image": "v-full-full1.png",
                 "chair": [
                     "Silvia Miksch",
-                    "Anders Ynnerman",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Anders Ynnerman"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -5299,7 +5444,8 @@
                         "abstract": "We present the VIS30K dataset, a collection of 29,689 images that represents 30 years of figures and tables from each track of the IEEE Visualization conference series (Vis, SciVis, InfoVis, VAST). VIS30K\u2019s comprehensive coverage of the scientific literature in visualization not only reflects the progress of the field but also enables researchers to study the evolution of the state-of-the-art and to find relevant work based on graphical content. We describe the dataset and our semi-automatic collection process, which couples convolutional neural networks (CNN) with curation. Extracting figures and tables semi-automatically allows us to verify that no images are overlooked or extracted erroneously. To improve quality further, we engaged in a peer-search process for high-quality figures from early IEEE Visualization papers. With the resulting data, we also contribute VISImageNavigator (VIN,visimagenavigator.github.io), a web-based tool that facilitates searching and exploring VIS30K by author names, paper keywords, title and abstract, and years.",
                         "time_start": "2021-10-27T15:30:00Z",
                         "time_end": "2021-10-27T15:45:00Z",
-                        "uid": "v-tvcg-9337213"
+                        "uid": "v-tvcg-9337213",
+                        "youtube_video_id": "yiQvHsh41mk"
                     },
                     {
                         "type": "recorded",
@@ -5403,7 +5549,8 @@
                         "type": "recorded",
                         "title": "From Jam Session to Recital: Synchronous Communication and Collaboration Around Data in Organization",
                         "contributors": [
-                            "Matthew Brehmer"
+                            "Matthew Brehmer",
+                            "Robert Kosara"
                         ],
                         "abstract": "Prior research on communicating with visualization has focused on public presentation and asynchronous individual consumption, such as in the domain of journalism. The visualization research community knows comparatively little about synchronous and multimodal communication around data within organizations, from team meetings to executive briefings. We conducted two qualitative interview studies with individuals who prepare and deliver presentations about data to audiences in organizations. In contrast to prior work, we did not limit our interviews to those who self-identify as data analysts or data scientists. Both studies examined aspects of speaking about data with visual aids such as charts, dashboards, and tables. One study was a retrospective examination of current practices and difficulties, from which we identified three scenarios involving presentations of data. We describe these scenarios using an analogy to musical performance: small collaborative team meetings are akin to jam session, while more structured presentations can range from semi-improvisational performances among peers to formal recitals given to executives or customers. In our second study, we grounded the discussion around three design probes, each examining a different aspect of presenting data: the progressive reveal of visualization to direct attention and advance a narrative, visualization presentation controls that are hidden from the audience\u2019s view, and the coordination of a presenter\u2019s video with interactive visualization. Our distillation of interviewees\u2019 responses surfaced twelve themes, from ways of authoring presentations to creating accessible and engaging audience experiences.",
                         "time_start": "2021-10-27T15:45:00Z",
@@ -7405,8 +7552,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7445,14 +7592,26 @@
                         "youtube_video_id": "6ZMyLlU9TZ0"
                     },
                     {
-                        "type": "live",
+                        "type": "recorded",
                         "title": "VIS Short Papers Opening",
                         "contributors": [
                             "Short Paper Chairs"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-26T18:15:00Z",
-                        "time_end": "2021-10-26T18:30:00Z"
+                        "time_end": "2021-10-26T18:25:00Z",
+                        "youtube_video_id": "aY8zdyeAvXY"
+                    },
+                    {
+                        "type": "recorded",
+                        "title": "VIS Posters Opening",
+                        "contributors": [
+                            "Poster Chairs"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-26T18:25:00Z",
+                        "time_end": "2021-10-26T18:30:00Z",
+                        "youtube_video_id": "P5F8x7MOZAQ"
                     }
                 ]
             }
@@ -7463,7 +7622,7 @@
         "long_name": "VIS Arts Program",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://visap.net/",
         "sessions": [
             {
                 "title": "Opening Event",
@@ -7721,8 +7880,8 @@
                 "track": "room6",
                 "schedule_image": "a-visap-visap2.png",
                 "chair": [
-                    "Charles Perin",
-                    "Yoon Chung Han"
+                    "Yoon Chung Han",
+                    "Charles Perin"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-28T17:00:00Z",
@@ -7875,7 +8034,7 @@
         "long_name": "Better Online Presentations",
         "event_type": "Meetup",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://ieeevis.org/year/2021/info/meetups#onlinepres",
         "sessions": [
             {
                 "title": "Better Online Presentations",
@@ -7921,7 +8080,7 @@
         "long_name": "VisBuddies",
         "event_type": "Meetup",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://ieeevis.org/year/2021/info/meetups#vis-newcomers",
         "sessions": [
             {
                 "title": "VisBuddies Meetup",
@@ -7929,9 +8088,9 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Hsiang-Yun Wu",
+                    "Lane Harrison",
                     "Karen Schloss",
-                    "Lane Harrison"
+                    "Hsiang-Yun Wu"
                 ],
                 "organizers": [
                     "Hsiang-Yun Wu",
@@ -7973,7 +8132,7 @@
         "long_name": "VisLies!",
         "event_type": "Meetup",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://www.vislies.org/2021/",
         "sessions": [
             {
                 "title": "VisLies!",
@@ -8699,7 +8858,7 @@
         "long_name": "VizSec",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://vizsec.org/vizsec2021/",
         "sessions": [
             {
                 "title": "Opening, Keynote and Best Paper",
@@ -8785,7 +8944,7 @@
                     "Rosa Romero-G\u00f3mez",
                     "Chris Bryan"
                 ],
-                "time_start": "2021-10-27T15:00:00Z",
+                "time_start": "2021-10-27T15:05:00Z",
                 "time_end": "2021-10-27T16:30:00Z",
                 "discord_category": "vizsec",
                 "discord_channel": "machine-learning-and-privacy",
@@ -8806,7 +8965,7 @@
                             "Awalin Sopan"
                         ],
                         "abstract": "The metrics measured while developing machine learning models are not enough to evaluate the models\u2019 performance in the operational level, especially ML models for cyber security with ever changing new attack vectors. Usually, it is also hard to understand initially if the fundamental problem is in the model performance or if there are data issues that are causing problems in the evaluation. With this in mind, we developed a visualization system that would allow the users to quickly identify and diagnose issues with current model deployment, from model performance to data issues that prevent accurate evaluation of the model. Our application enables our security data science team to have a situational awareness of the system and quickly investigate any problems. While designing our system, we considered all the common issues we see in production. In this paper, we will describe this application, its regular usage, and some of the special example cases when it was proved valuable for introspecting our models.",
-                        "time_start": "2021-10-27T15:00:00Z",
+                        "time_start": "2021-10-27T15:05:00Z",
                         "time_end": "2021-10-27T15:20:00Z",
                         "uid": "a-vizsec-7354",
                         "youtube_video_id": "ni5gRVtdYng"
@@ -8827,7 +8986,7 @@
                         "type": "recorded",
                         "title": "Decision Support for Sharing Data Using Differential Privacy",
                         "contributors": [
-                            "Peeter Laud"
+                            "Alisa Pankova"
                         ],
                         "abstract": "Owners of data may wish to share some statistics with others, but they may be worried of privacy of the underlying data. An effective solution to this problem is to employ provable privacy techniques, such as differential privacy, to add noise to the statistics before releasing them. This protection lowers the risk of sharing sensitive data with more or less trusted data sharing partners. Unfortunately, applying differential privacy in its mathematical form requires one to fix certain numeric parameters, which involves subtle computations and expert knowledge that the data owners may lack.",
                         "time_start": "2021-10-27T15:40:00Z",
@@ -9200,7 +9359,7 @@
         "long_name": "What is the Role of VIS in Combating COVID-19?",
         "event_type": "Panel",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://thisisalfie.com/vis-combating-covid19.html",
         "sessions": [
             {
                 "title": "What is the Role of VIS in Combating COVID-19?",
@@ -9256,12 +9415,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Subhashis Hazarika",
                     "Earl Lawrence",
-                    "Steven Morley",
                     "Divya Banesh",
-                    "Ayan Biswas",
-                    "Natalie Klein"
+                    "Subhashis Hazarika",
+                    "Steven Morley",
+                    "Natalie Klein",
+                    "Ayan Biswas"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9409,7 +9568,7 @@
         "long_name": "VisComm",
         "event_type": "Meetup",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://viscomm.io/",
         "sessions": [
             {
                 "title": "VisComm Meetup",
@@ -9463,8 +9622,8 @@
                 "track": "room2",
                 "schedule_image": "m-gender.png",
                 "chair": [
-                    "Petra Isenberg",
-                    "Natkamon Tovanich"
+                    "Natkamon Tovanich",
+                    "Petra Isenberg"
                 ],
                 "organizers": [
                     "Petra Isenberg",
@@ -9538,6 +9697,50 @@
                         "abstract": null,
                         "time_start": "2021-10-27T19:00:00Z",
                         "time_end": "2021-10-27T20:30:00Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "m-evaluating": {
+        "event": "Evaluating Complex Interactive Visualizations Meetup",
+        "long_name": "Evaluating Complex Interactive Visualizations Meetup",
+        "event_type": "Meetup",
+        "event_description": "",
+        "event_url": "http://ieeevis.org/year/2021/info/meetups#vis-evaluate",
+        "sessions": [
+            {
+                "title": "Evaluating Complex Interactive Visualizations Meetup",
+                "session_id": "m-evaluating",
+                "track": "room4",
+                "schedule_image": "m-evaluating.png",
+                "chair": [],
+                "organizers": [],
+                "time_start": "2021-10-27T19:00:00Z",
+                "time_end": "2021-10-27T20:00:00Z",
+                "discord_category": "evaluating complex interactive visualizations meetup",
+                "discord_channel": "general",
+                "discord_channel_id": "892967369775939654",
+                "discord_link": "https://discord.com/channels/884159773287805038/894792588698210335",
+                "slido_link": "https://app.sli.do/event/6payv5ez?section=674eca2b-2211-47c1-8b61-f614a4a00c3b",
+                "youtube_url": null,
+                "zoom_meeting": "https://ieeevis.zoom.us/j/81945417092?pwd=ajJFV2tPekphREVXd2prRkxuTjRDUT09",
+                "zoom_password": "X9Zdntnu",
+                "ff_link": "",
+                "ff_playlist": "",
+                "gathertown_event": false,
+                "time_slots": [
+                    {
+                        "type": "Zoom Only",
+                        "title": "Evaluating Complex Interactive Visualizations Meetup",
+                        "contributors": [
+                            "Carolina Nobre",
+                            "Alexander Lex",
+                            "Lane Harrison"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-27T19:00:00Z",
+                        "time_end": "2021-10-27T20:00:00Z"
                     }
                 ]
             }
@@ -9672,7 +9875,8 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:45:00Z",
-                        "time_end": "2021-10-29T12:50:00Z"
+                        "time_end": "2021-10-29T12:50:00Z",
+                        "youtube_video_id": "T4qmIQy_jPg"
                     }
                 ]
             }
@@ -9739,13 +9943,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Noeska Smit",
-                    "Ludvig P. Muren",
-                    "Vitali Moiseenko",
-                    "Katja B\u00fchler",
-                    "Renata G. Raidou",
                     "Uulke van der Heide",
-                    "Wouter van Elmpt"
+                    "Wouter van Elmpt",
+                    "Katja B\u00fchler",
+                    "Vitali Moiseenko",
+                    "Renata G. Raidou",
+                    "Ludvig P. Muren",
+                    "Noeska Smit"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -9901,8 +10105,8 @@
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
                     "Mark SubbaRao",
-                    "Anders Ynnerman",
-                    "Alexander Bock"
+                    "Alexander Bock",
+                    "Anders Ynnerman"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -9944,7 +10148,7 @@
         "long_name": "SciVis Contest",
         "event_type": "Associated Event",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://scivis2021.netlify.app/",
         "sessions": [
             {
                 "title": "SciVis Contest",
@@ -9952,8 +10156,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Alex Razoumov",
-                    "Thomas Theu\u00dfl"
+                    "Thomas Theu\u00dfl",
+                    "Alex Razoumov"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10203,7 +10407,7 @@
         "long_name": "Student Mentorship Session",
         "event_type": "Industry",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://ieeevis.org/year/2021/info/call-participation/community#smp",
         "sessions": [
             {
                 "title": "Student Mentorship Session",
@@ -10245,7 +10449,7 @@
         "long_name": "Climate Change AI meets VIS",
         "event_type": "Meetup",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://ieeevis.org/year/2021/info/meetups#climate",
         "sessions": [
             {
                 "title": "Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities ",
@@ -10253,8 +10457,8 @@
                 "track": "room3",
                 "schedule_image": "m-climate.png",
                 "chair": [
-                    "Subhashis Hazarika",
-                    "Peetak Mitra"
+                    "Peetak Mitra",
+                    "Subhashis Hazarika"
                 ],
                 "organizers": [
                     "Subhashis Hazarika",
@@ -10294,7 +10498,7 @@
         "long_name": "Job Fair",
         "event_type": "Meetup",
         "event_description": "",
-        "event_url": "",
+        "event_url": "http://ieeevis.org/year/2021/info/meetups#vis-jobfair",
         "sessions": [
             {
                 "title": "Job Fair",
@@ -10340,7 +10544,7 @@
         "long_name": "Wait...when did we sign up to be economists?",
         "event_type": "Panel",
         "event_description": "",
-        "event_url": "",
+        "event_url": "https://fairpayvis2021.github.io/fairpayvis2021/",
         "sessions": [
             {
                 "title": "Wait...when did we sign up to be economists?",
@@ -10698,8 +10902,8 @@
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",

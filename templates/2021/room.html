@@ -26,7 +26,7 @@
             The livestream for the next session has not begun yet — the next session starts <span id="next-session-time font-weight-bold">(soon)</span>. <br><br>
             When it is, the video stream will replace this message (15 minutes before the scheduled start time).
         </div>
-        <div class="streaming room_session_stream">
+        <div class="streaming room_session_stream" id='iframe-container'>
             <a id='test-modal-fullscreen'>Full Screen
                     <span class="fas fa-expand">&#xf065;</span>
             </a>
@@ -34,7 +34,6 @@
                     <span class="fas fa-compress">&#xf066;</span>
             </a>
 
-            <iframe src="streaming.html?room={{room.id}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
         </div>
     </div>
 </div>
@@ -131,6 +130,15 @@
 {% endfor %}
 
 
+{% if sessions[0] %}
+    <div class="row my-5">
+        <div class="col-md-8">
+            <p>If there are any issues with the virtual streaming site, you can try to access the <span class="fas mx-1">&#xf086;</span><a href="{{sessions[0].discord_link}}" target="_blank">Discord</a> and <span class="fas mx-1">&#xf128;</span><a href="{{sessions[0].slido_link}}" target="_blank">Slido</a> pages for this room directly.</p>
+        </div>
+    </div>
+{% endif %}
+
+
 <script src="/static/2021/js/views/timezone.js"></script>
 
 {% endblock %}
@@ -173,13 +181,32 @@ function filterByCurrentSession() {
     let currentSession = sessionTimings.find(sessionIsCurrent);
     const classesToHide = ['.room_session_header', '.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream', '.room_session_stream']
     classesToHide.forEach((c) => { $(c).hide();});
+    let iframePlayer = document.getElementById('iframe-player');
     if (currentSession) {
         currentSessionId = currentSession.id;
         $('#room_session_header_' + currentSessionId).show();
         $('#room_session_descriptor_current_' + currentSessionId).show();
         $('#room_session_timeslot_' + currentSessionId).show();
         $('.room_session_stream').show();
+
+        // Need to render the iframe if it isn't rendered yet
+        if (!iframePlayer) {
+            iframePlayer = document.createElement("iframe");
+            iframePlayer.id = 'iframe-player';
+            iframePlayer.src = "streaming.html?room={{room.id}}";
+            iframePlayer.frameBorder = 0;
+            iframePlayer.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframePlayer.allowfullscreen = true ;
+            iframePlayer.scrolling = "no";
+            const playbackContainer = document.getElementById("iframe-container");
+            playbackContainer.append(iframePlayer);
+        }
     } else {
+        // Need to destroy the iframe if it is rendered
+        if (iframePlayer) {
+            iframePlayer.remove();
+        }
+
         const nextSession = sessionTimings.find(sessionIsFuture);
         if (nextSession) {
             nextSessionId = nextSession.id;

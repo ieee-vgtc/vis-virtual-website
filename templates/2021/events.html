@@ -70,6 +70,7 @@
 
     <div class="row mt-5">
         {% for event in events %}
+        {% if event.id != "v-demo" %}
             <div class="col-md-6 p-2 event-card-wrapper"
             data-session-type="{{ event.type }}"
             >
@@ -85,15 +86,17 @@
                     <a class="event-title" href="event_{{ event.id }}.html">{{ event.title }}</a>
                 </div>
                 {% if event.url %}
-                    <div class="event-url"><a href="{{ event.url }}">
-                            <span class="fas mr-1">&#xf05a;</span> 
-                            {{ event.url }}</a></div>
+                    <div class="session-url">
+                      <span class="fas mr-1">&#xf05a;</span>
+                      <a href="{{ event.url }}">{{ event.url }}</a>
+                    </div>
                 {% endif %}
                 <div class="event-time format-date-span-short">
                     {{ event.startTime }} – {{ event.endTime }}</div>
                 {#                </div>#}
             </div>
             </div>
+        {% endif %}
         {% endfor %}
     </div>
 
