@@ -17,6 +17,7 @@ $(document).ready(function () {
         const element = $(e);
         const timestamp = element.text();
 
+        // update every 30s
         let timer = () => {
             if (timestamp.indexOf("–") === -1) {
                 element.text(moment(timestamp).tz(current_timezone).fromNow());
@@ -63,6 +64,7 @@ $(document).ready(function () {
                 timer();
             }, 30 * 1000);
         };
+
         timer();
     });
 
@@ -74,17 +76,19 @@ $(document).ready(function () {
         let start = moment(parts[0]).tz(current_timezone).subtract(15, "minutes");
         let end = moment(parts[1]).tz(current_timezone);
 
+        // update every 30s
         let timer = () => {
             const isLive = moment().tz(current_timezone).isBetween(start, end);
             if (isLive)
                 element.css('display', "block");
             else
                 element.css('display', "none");
+
+            setTimeout(() => {
+                timer();
+            }, 30 * 1000);
         };
 
-        setTimeout(() => {
-            timer();
-        }, 30 * 1000);
         timer();
     });
 });

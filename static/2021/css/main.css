@@ -109,6 +109,36 @@ label:text-muted,
   color: var(--main-border-color) !important;
 }
 
+#livenow-nav {
+  /* padding-top: 85px; */
+  background-color: white !important;
+}
+
+.livenow-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10rem minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.livenow-room {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.livenow-room a {
+  max-width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.livenow-room a:first-child {
+  color: var(--text-gray-color);
+}
+
 body {
   font-family: "Fira Sans", sans-serif;
   background-color: var(--main-bg-color); /* rgba(236, 241, 246, 1); */

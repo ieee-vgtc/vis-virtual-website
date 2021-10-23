@@ -1,6 +1,38 @@
 {% set page_title = session.fullTitle %}
 {% set active_page = "All Events" %}
 {% extends "2021/base.html" %}
+
+{% block livenow %}
+
+ <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto" id="livenow-nav">
+     <div class="container ">
+        <div class="livenow-content">
+            <div class="livenow-brand d-flex flex-column justify-content-end">
+                <span>Live now!</span>
+                <span>Up next:</span>
+            </div>
+            <div class="livenow-room">
+                <a href="/room_asdf.html">Bourbon St.</a>
+                <a href="/session_asdf.html" title="VisInPractice: Panel on Moving between Academia and Industry">VisInPractice: Panel on Moving between Academia and Industry</a>
+                <a href="/session_asdf.html" title="VisInPractice: Panel on the Tools of the Trade">VisInPractice: Panel on the Tools of the Trade</a>
+            </div>
+            <div class="livenow-room">
+                <a href="/room_asdf.html">Royal St.</a>
+                <a href="/session_asdf.html" title="VisInPractice: Panel on Moving between Academia and Industry">VisInPractice: Panel on Moving between Academia and Industry</a>
+                <a href="/session_asdf.html" title="VisInPractice: Panel on the Tools of the Trade">VisInPractice: Panel on the Tools of the Trade</a>
+            </div>
+            <div class="livenow-room">
+                <a href="/room_asdf.html">Frenchmen St.</a>
+                <a href="/session_asdf.html" title="VisInPractice: Panel on Moving between Academia and Industry">VisInPractice: Panel on Moving between Academia and Industry</a>
+                <a href="/session_asdf.html" title="VisInPractice: Panel on the Tools of the Trade">VisInPractice: Panel on the Tools of the Trade</a>
+            </div>
+        </div>
+     </div>
+ </nav>
+
+{% endblock %}
+
+
 {% block content %}
 
 <div class="row mt-3">
