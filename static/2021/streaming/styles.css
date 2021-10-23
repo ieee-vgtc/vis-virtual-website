@@ -27,7 +27,7 @@ tr.active {
     cursor: pointer;
     font-size: 20px;
 }
-#playback-table .active {
+#playback-table .active, #playback-table th {
     cursor: default;
 }
 
@@ -118,4 +118,30 @@ iframe {
 
 .slido-copy-link {
     cursor: pointer;
+}
+
+
+/* playback specifically */
+.playback thead tr, tr {
+    background: #fff;
+}
+
+.playback th {
+    font-family: Zilla Slab SemiBold;
+    font-size: 1.25rem; /* 20px */
+    color: #4A5567; /*main text colour */
+}
+
+.playback td {
+    font-family: Fira Sans;
+    font-size: 1rem; /*16px*/
+    color: #4A5567; /*main text colour */
+}
+
+.playback td:hover {
+    color: #6CA76B; /*link colour*/
+}
+
+.playback td.active {
+    background-color: #F9C745; /*accent 2*/
 }
