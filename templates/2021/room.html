@@ -181,7 +181,7 @@ function filterByCurrentSession() {
     let sessionIsRecent = function(session) {
         const sessionStart = moment(session['startTime']).tz(current_timezone);
         const sessionEnd = moment(session['endTime']).tz(current_timezone).add(2, 'hours');
-        return moment().tz(current_timezone).isBefore(sessionStart);
+        return moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
     }
 
     let currentSession = sessionTimings.find(sessionIsCurrent);
