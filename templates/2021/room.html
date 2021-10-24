@@ -178,8 +178,16 @@ function filterByCurrentSession() {
         return moment().tz(current_timezone).isBefore(sessionStart);
     }
 
+    let sessionIsRecent = function(session) {
+        const sessionStart = moment(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment(session['endTime']).tz(current_timezone).add(2, 'hours');
+        return moment().tz(current_timezone).isBefore(sessionStart);
+    }
+
     let currentSession = sessionTimings.find(sessionIsCurrent);
-    const classesToHide = ['.room_session_header', '.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream', '.room_session_stream']
+    let recentSession = sessionTimings.find(sessionIsRecent);
+
+    const classesToHide = ['.room_session_header', '.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
     classesToHide.forEach((c) => { $(c).hide();});
     let iframePlayer = document.getElementById('iframe-player');
     if (currentSession) {
@@ -201,8 +209,9 @@ function filterByCurrentSession() {
             const playbackContainer = document.getElementById("iframe-container");
             playbackContainer.append(iframePlayer);
         }
-    } else {
+    } else if (!sessionIsRecent) {
         // Need to destroy the iframe if it is rendered
+        $(".room_session_stream").hide();
         if (iframePlayer) {
             iframePlayer.remove();
         }
