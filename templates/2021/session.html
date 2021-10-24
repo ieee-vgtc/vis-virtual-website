@@ -86,7 +86,7 @@
 {% endif %}
 
 {% if session.zoom_meeting %}
-<div class="row mt-5 mb-3">
+<div id="zoom_alert" class="row mt-5 mb-3">
     <div class="col-lg-10">
         <div class="alert alert-primary">
             {% if session.timeSlots[0].type == "Zoom Only" %}
@@ -109,9 +109,9 @@
         </div>
     </div>
 </div>
-{% else %}
+{% endif %}
 <div class="row">
-    <div class="col-md-8 my-5">
+    <div class="col-md-8 mt-5 mb-2">
         <div class="future_session_alert alert alert-warning" role="alert">
             The live-stream for this session has not begun yet. <br><br>
             When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
@@ -129,16 +129,12 @@
 </div>
 
 <!-- <div class="past_session_alert"> -->
-    <div class="row mt-5">
-        <div class="col-lg-10 streaming-container">
-            <div class="streaming room_session_stream" id="playback-container">
-            </div>
+<div class="row mt-5">
+    <div class="col-lg-10 streaming-container">
+        <div class="streaming room_session_stream" id="playback-container">
         </div>
     </div>
-
-{% endif %}
-
-
+</div>
 
 <hr>
 
@@ -243,6 +239,7 @@ function updateSessionStatus(onFirstLoad) {
     } else if (sessionIsFuture) {
         $('.future_session_alert').show();
     } else {
+        $('#zoom_alert').hide();
         $('.past_session_alert').show();
         $('.room_session_stream').show();
         // Can't load the iframe in the background since it could
