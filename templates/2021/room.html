@@ -166,9 +166,9 @@ function filterByCurrentSession() {
     // See blueprint_2021.py
     sessionTimings = {{sessionTimings|safe}}
     sessionIsCurrent = function(session) {
-        // We take a 15 minute grace period to the start of a session
+        // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
         const sessionStart = moment(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
-        const sessionEnd = moment(session['endTime']).tz(current_timezone);
+        const sessionEnd = moment(session['endTime']).tz(current_timezone).add(8, 'minutes');
         return moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
     }
 
