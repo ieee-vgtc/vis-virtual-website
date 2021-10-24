@@ -1,5 +1,9 @@
 {% set page_title = event.title %}
 {% set active_page = "All Events" %}
+
+{% set social_title = "Event: " ~ event.title %}
+{% set social_description = "See the conference event and its associated sessions and presentations inside." %}
+
 {% extends "2021/base.html" %}
 {% block content %}
 
