@@ -209,7 +209,7 @@ function filterByCurrentSession() {
             const playbackContainer = document.getElementById("iframe-container");
             playbackContainer.append(iframePlayer);
         }
-    } else if (!sessionIsRecent) {
+    } else if (!recentSession) {
         // Need to destroy the iframe if it is rendered
         $(".room_session_stream").hide();
         if (iframePlayer) {
