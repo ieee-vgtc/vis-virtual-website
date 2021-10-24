@@ -1,4 +1,4 @@
-# IEEE VIS 2020 Discord Guide
+# IEEE VIS 2021 Discord Guide
 
 Discord is a chat platform similar to Slack or IRC. The server contains a set
 of channels, which can be grouped into categories. These are shown in

@@ -23,7 +23,7 @@
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
         <div class="alert alert-warning room_session_future_stream" role="alert">
-            The livestream for the next session has not begun yet — the next session starts <span id="next-session-time font-weight-bold">(soon)</span>. <br><br>
+            The livestream for the next session has not begun yet — the next session starts <span id="next-session-time" class="font-weight-bold">(soon)</span>. <br><br>
             When it is, the video stream will replace this message (15 minutes before the scheduled start time).
         </div>
         <div class="streaming room_session_stream" id='iframe-container'>
@@ -166,9 +166,9 @@ function filterByCurrentSession() {
     // See blueprint_2021.py
     sessionTimings = {{sessionTimings|safe}}
     sessionIsCurrent = function(session) {
-        // We take a 15 minute grace period to the start of a session
+        // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
         const sessionStart = moment(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
-        const sessionEnd = moment(session['endTime']).tz(current_timezone);
+        const sessionEnd = moment(session['endTime']).tz(current_timezone).add(8, 'minutes');
         return moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
     }
 

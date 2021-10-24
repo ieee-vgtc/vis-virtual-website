@@ -13,8 +13,8 @@
                 "schedule_image": "v-demo-demo2.png",
                 "chair": [
                     "Alex Bock",
-                    "Will Usher",
-                    "Micha Schwab"
+                    "Micha Schwab",
+                    "Will Usher"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-22T15:00:00Z",
@@ -64,8 +64,8 @@
                 "schedule_image": "v-demo-demo3.png",
                 "chair": [
                     "Alex Bock",
-                    "Will Usher",
-                    "Micha Schwab"
+                    "Micha Schwab",
+                    "Will Usher"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-23T02:00:00Z",
@@ -250,8 +250,8 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
-                    "Annie T. Chen",
                     "Danny T.Y. Wu",
+                    "Annie T. Chen",
                     "J\u00fcrgen Bernard"
                 ],
                 "organizers": [
@@ -480,8 +480,8 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
-                    "Jesus Caban",
-                    "Danny Wu"
+                    "Danny Wu",
+                    "Jesus Caban"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -706,8 +706,8 @@
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
                     "Bridget Moynihan",
-                    "Mark-Jan Bludau",
-                    "Eric Alexander"
+                    "Eric Alexander",
+                    "Mark-Jan Bludau"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
@@ -817,8 +817,8 @@
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
                     "Chris Weaver",
-                    "Stefania Forlini",
                     "Houda Lamqaddam",
+                    "Stefania Forlini",
                     "Florian Windhager"
                 ],
                 "organizers": [
@@ -1042,8 +1042,8 @@
                 "track": "room5",
                 "schedule_image": "w-trex.png",
                 "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
+                    "Emily Wall",
+                    "Mahsan Nourani"
                 ],
                 "organizers": [
                     "Mahsan Nourani",
@@ -1083,7 +1083,8 @@
                         ],
                         "abstract": "In this paper, we demonstrate how analytic provenance can be exploited to re-construct user trust in a guided Visual Analytics (VA) system, and suggest that interaction log data analysis can be a valuable tool for on-line trust monitoring. Our approach moves away from the subjective and often a-posteriori evaluations of user trust, towards more objective measures that are not only continuously tracked and updated, but also reflect both the confidence of the user in system suggestions, and the uncertainty of the system with regards to user goals. We argue that this approach is more suitable for guided visual analytics systems such as ours, where user strategies, goals and even trust can evolve over time, in reaction to new system feedback and insights from the exploration. Through the analysis of log data from a past user study with twelve participants performing a guided visual analysis task, we found that the stability of user exploration strategies is a promising factor to study \u201ctrust\u201d. However, indirect metrics based on provenance, such as user evaluation counts and disagreement rates, are alone not sufficient to study trust reliably in guided VAs. We conclude with open challenges and opportunities for exploiting analytic provenance to support trust monitoring in guided VA systems.",
                         "time_start": "2021-10-24T13:15:00Z",
-                        "time_end": "2021-10-24T13:25:00Z"
+                        "time_end": "2021-10-24T13:25:00Z",
+                        "uid": "w-trex-1418"
                     },
                     {
                         "type": "live",
@@ -1093,7 +1094,8 @@
                         ],
                         "abstract": "We present evaluation results of our enhancements to the Security in Process System developed by Lohfink et al. to support triage analysis in operational technology networks. To ensure fast and appropriate reactions to anomalies in device readings, this system communicates anomaly detection results and device readings to incorporate human expertise and experience. It exploits periodical behavior in the data combining spiral plots with results from anomaly detection. To support decisions, increase trust, and support cooperation in the system we enhanced it to be knowledge-assisted. A central knowledge base allows sharing knowledge between users and support during analysis. It consists of an ontology describing incidents, and a data base holding collections of exemplary sensor readings with annotations and visualization parameters. Related knowledge is proposed automatically and incorporated directly in the visualization to provide assistance that is closely coupled to the application, without additional hurdles. This integration is designed aiming on additional support for correct and fast detection of anomalies in the visualized device readings. We evaluate our enhancements to the Security in Process System in terms of effectiveness, efficiency, user satisfaction, and cognitive load with a detailed user study. Comparing the original and enhanced system, we are able to draw conclusions as to how our design narrows the knowledge gap between experts and laymen. Furthermore, we present and discuss the results and impact on our future research.",
                         "time_start": "2021-10-24T13:25:00Z",
-                        "time_end": "2021-10-24T13:35:00Z"
+                        "time_end": "2021-10-24T13:35:00Z",
+                        "uid": "w-trex-8188"
                     },
                     {
                         "type": "live",
@@ -1103,7 +1105,8 @@
                         ],
                         "abstract": "Decision making and trust have both become rising topics in the research community of Visual Analytics (VA).\nMany efforts have been made to understand and facilitate making decisions with VA, as well as build and calibrate trust.\nHowever, previous research largely took VA as a tool to facilitate decision making, but did not explore the possibility to dissect each analytical step in VA as decision making and discuss how decision making theories can be utilized to improve the trustworthiness of decisions in VA.\nTherefore, this paper instead proposes such alternative take on the relation between decision making and VA, inspects the processes of visually analyzing data as decision making, and discusses how to leverage decision making theories to facilitate trustworthy decision making in VA.",
                         "time_start": "2021-10-24T13:35:00Z",
-                        "time_end": "2021-10-24T13:45:00Z"
+                        "time_end": "2021-10-24T13:45:00Z",
+                        "uid": "w-trex-8311"
                     },
                     {
                         "type": "live",
@@ -1113,7 +1116,8 @@
                         ],
                         "abstract": "\u201cDetect the expected, discover the unexpected\u201d was the founding principle of the field of visual analytics. This mantra implies human stakeholders, like a domain expert or data analyst, could leverage visual analytics techniques to seek answers to known unknowns and discover unknown unknowns in the course of the data sensemaking process. We argue that in the era of AI-driven automation, the roles of humans and machines (e.g., a machine learning model) need to be recalibrated in terms of a team. We posit that by realizing human-machine teams as a stakeholder unit, we can better achieve the best of both worlds: automation transparency and human reasoning efficacy. However, this also increases the burden on analysts and domain experts towards performing more cognitively demanding tasks than they are used to. In this paper, we reflect on the complementary roles in a human-machine team through the lens of cognitive psychology and map them to existing and emerging research in the visual analytics community. We discuss open questions around the nature of human agency and analyze the shared responsibilities in human-machine teams.",
                         "time_start": "2021-10-24T13:45:00Z",
-                        "time_end": "2021-10-24T13:55:00Z"
+                        "time_end": "2021-10-24T13:55:00Z",
+                        "uid": "w-trex-5186"
                     },
                     {
                         "type": "live",
@@ -1123,7 +1127,8 @@
                         ],
                         "abstract": "In this paper, we explore the intersection of knowledge and the forecasting accuracy of humans when supported by visual analytics. We have recruited 40 experts in machine learning and trained them in the use of a box office forecasting visual analytics system.\nOur goal was to explore the impact of visual analytics and knowledge in human-machine forecasting. This paper reports on how participants explore and reason with data and develop a forecast when provided with a predictive model of middling performance ($R^2 \\approx .7$). We vary the knowledge base of the participants through training, compare the forecasts to the baseline model, and discuss performance in the context of previous work on algorithmic aversion and trust.",
                         "time_start": "2021-10-24T13:55:00Z",
-                        "time_end": "2021-10-24T14:05:00Z"
+                        "time_end": "2021-10-24T14:05:00Z",
+                        "uid": "w-trex-6127"
                     },
                     {
                         "type": "live",
@@ -1163,7 +1168,8 @@
                         ],
                         "abstract": "Attributions are a common local explanation technique for deep learning models on single samples as they are easily extractable and demonstrate the relevance of input values.\nIn many cases, heatmaps visualize such attributions for samples, for instance, on images.\nHowever, heatmaps are not always the ideal visualization to explain certain model decisions for other data types.\nIn this survey, we focus on attribution visualizations for time series.\nWe collect attribution heatmap visualizations and some alternatives, discuss the advantages as well as disadvantages and give a short position towards future opportunities for attributions and explanations for time series.",
                         "time_start": "2021-10-24T15:40:00Z",
-                        "time_end": "2021-10-24T15:50:00Z"
+                        "time_end": "2021-10-24T15:50:00Z",
+                        "uid": "w-trex-1899"
                     },
                     {
                         "type": "live",
@@ -1173,7 +1179,8 @@
                         ],
                         "abstract": "Users' trust in prediction models can be affected by many factors, including domain knowledge and experience with predictive modelling. However, it is not entirely clear to what extent and why this domain expertise impacts users' trust perceptions and evolutions. In addition, it remains challenging to accurately measure users' trust. We share our results and experiences of an exploratory case-study with a visual analytics system that incorporates a prediction model for time series. Through a mixed-methods approach involving Likert-type questionnaires and semi-structured interviews, we investigate users' trust evolutions and factors that affect their trust in the prediction model. Our results underline the multi-faceted nature of user trust, and suggest that domain expertise certainly affects trust, though it cannot fully foresee users' trust evolutions.",
                         "time_start": "2021-10-24T15:50:00Z",
-                        "time_end": "2021-10-24T16:00:00Z"
+                        "time_end": "2021-10-24T16:00:00Z",
+                        "uid": "w-trex-8523"
                     },
                     {
                         "type": "live",
@@ -1183,7 +1190,8 @@
                         ],
                         "abstract": "Time series forecasts are ubiquitous, ranging from daily weather forecasts to projections of pandemics such as COVID-19. Communicating the uncertainty associated with such forecasts is important, because it may affect users' trust in a forecasting model and, in turn, the decisions made based on the model. Although there exists a growing body of research on visualizing uncertainty in general, the important case of visualizing prediction uncertainty in time series forecasting has not been studied yet. Against this background, we investigated how different visualizations of predictive uncertainty affect the extent to which people follow predictions of a time series forecasting model. More specifically, we conducted an online experiment on forecasting occupied hospital beds due to the COVID-19 pandemic, measuring the influence of uncertainty visualization of algorithmic predictions on participants' own predictions. In contrast to prior studies, our empirical results suggest that more salient visualizations of uncertainty lead to decreased willingness to follow algorithmic forecasts.",
                         "time_start": "2021-10-24T16:00:00Z",
-                        "time_end": "2021-10-24T16:10:00Z"
+                        "time_end": "2021-10-24T16:10:00Z",
+                        "uid": "w-trex-2998"
                     },
                     {
                         "type": "live",
@@ -1193,10 +1201,11 @@
                         ],
                         "abstract": "Recently, machine learning is massively on the rise in medical applications providing the ability to predict diseases, plan treatment, and monitor progress. Still, the use in a clinical context of this technology is rather rare, mostly due to the missing trust of clinicians. In this position paper, we aim to show how uncertainty is introduced in the machine learning process when applying it to the medical do-main at multiple points and how this influences the decision-making process of clinicians in machine learning approaches. Based on this knowledge, we aim to refine the guidelines for trust in visual analytics to assist clinicians in using and understanding systems that are based on machine learning.",
                         "time_start": "2021-10-24T16:10:00Z",
-                        "time_end": "2021-10-24T16:20:00Z"
+                        "time_end": "2021-10-24T16:20:00Z",
+                        "uid": "w-trex-8391"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Session Q&A and Closing",
                         "contributors": [
                             "Event Chairs"
@@ -1507,7 +1516,7 @@
                         "youtube_video_id": "ciLo00EAH-o"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1550,7 +1559,7 @@
                         "youtube_video_id": "bwA5U43L92Y"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1571,7 +1580,7 @@
                         "youtube_video_id": "CG_GCAc2WtQ"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1603,7 +1612,7 @@
                         "youtube_video_id": "td_yRx1jeJE"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1624,7 +1633,7 @@
                         "youtube_video_id": "Qbwypom_j5Q"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1656,7 +1665,7 @@
                         "youtube_video_id": "BsvMCQxDaLY"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1688,7 +1697,7 @@
                         "youtube_video_id": "CwxI0mSZ12o"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1720,7 +1729,7 @@
                         "youtube_video_id": "sVJxzHtKaDU"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1752,7 +1761,7 @@
                         "youtube_video_id": "FJXibGUJ6d0"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Tamara Munzner"
@@ -1948,10 +1957,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Michael Correll",
                     "Paul Rosen",
                     "Charles Perin",
-                    "Jane Adams"
+                    "Jane Adams",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2021,7 +2030,7 @@
                         "time_end": "2021-10-24T17:40:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Series Q&A: Alt.ercations",
                         "contributors": [
                             "Michael Correll",
@@ -2063,7 +2072,7 @@
                         "time_end": "2021-10-24T18:20:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Series Q&A: Alt.itude",
                         "contributors": [
                             "Nicholas S Spyrison",
@@ -2117,7 +2126,7 @@
                         "youtube_video_id": "y14IVuc-_Vs"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Series Q&A: Ex.alt.ations",
                         "contributors": [
                             "Gerrit Rijken",
@@ -2157,13 +2166,13 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
-                    "Conny Walchshofer",
-                    "Michelle Dowling",
-                    "Kai Xu",
-                    "Ab Mosca",
                     "Eli T Brown",
+                    "Ab Mosca",
+                    "Michelle Dowling",
                     "John Wenskovitch",
-                    "Marc Streit"
+                    "Kai Xu",
+                    "Marc Streit",
+                    "Conny Walchshofer"
                 ],
                 "organizers": [
                     "John Wenskovitch",
@@ -2323,11 +2332,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Sheelagh Carpendale",
+                    "Melanie Tory",
                     "Eun Kyoung Choe",
                     "Lyn Bartram",
-                    "Bongshin Lee",
-                    "Melanie Tory"
+                    "Sheelagh Carpendale",
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2465,11 +2474,11 @@
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
                 "chair": [
+                    "Jonathan Schwabish",
                     "Jon Schwabish",
                     "Adriana Arcia",
                     "Alvitta Ottley",
-                    "Barbara Millet",
-                    "Jonathan Schwabish"
+                    "Barbara Millet"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2493,7 +2502,7 @@
                 "time_slots": [
                     {
                         "type": "live",
-                        "title": "Welcom",
+                        "title": "Welcome",
                         "contributors": [
                             "Barbara Millet"
                         ],
@@ -2907,9 +2916,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
-                    "Johanna Beyer",
                     "Chaoli Wang",
-                    "Kristi Potter"
+                    "Kristi Potter",
+                    "Johanna Beyer"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -3515,12 +3524,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
-                    "Sheelagh Carpendale",
                     "Mandy Keck",
-                    "Jonathan C. Roberts",
-                    "Benjamin Bach",
+                    "Samuel Huron",
                     "Georgia Panagiotidou",
-                    "Samuel Huron"
+                    "Sheelagh Carpendale",
+                    "Benjamin Bach",
+                    "Jonathan C. Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3588,12 +3597,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
-                    "Sheelagh Carpendale",
                     "Mandy Keck",
-                    "Jonathan C. Roberts",
-                    "Benjamin Bach",
+                    "Samuel Huron",
                     "Georgia Panagiotidou",
-                    "Samuel Huron"
+                    "Sheelagh Carpendale",
+                    "Benjamin Bach",
+                    "Jonathan C. Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3660,12 +3669,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
-                    "Sheelagh Carpendale",
                     "Mandy Keck",
-                    "Jonathan C. Roberts",
-                    "Benjamin Bach",
+                    "Samuel Huron",
                     "Georgia Panagiotidou",
-                    "Samuel Huron"
+                    "Sheelagh Carpendale",
+                    "Benjamin Bach",
+                    "Jonathan C. Roberts"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3751,9 +3760,9 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Christie Nothelfer",
-                    "Madison Elliott",
                     "Danielle Szafir",
+                    "Madison Elliott",
+                    "Christie Nothelfer",
                     "Cindy Xiong"
                 ],
                 "organizers": [
@@ -3955,9 +3964,9 @@
                 "chair": [
                     "Leilani Battle",
                     "Evan Peck",
-                    "Michael Correll",
+                    "Lane Harrison",
                     "Michelle Borkin",
-                    "Lane Harrison"
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -4128,9 +4137,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Niklas R\u00f6nnberg",
+                    "Matt Cooper",
                     "Camilla Forsell",
-                    "Matt Cooper"
+                    "Niklas R\u00f6nnberg"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4346,11 +4355,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "VISxAI orga",
-                    "Fred Hohman",
-                    "Adam Perer",
+                    "Menna El-Assady",
                     "Hendrik Strobelt",
-                    "Menna El-Assady"
+                    "Adam Perer",
+                    "Fred Hohman",
+                    "VISxAI orga"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4507,14 +4516,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Niklas R\u00f6nnberg",
                     "Michael Iber",
-                    "Wolfgang Aigner",
                     "Alexander Rind",
-                    "Niklas Elmqvist",
-                    "Kajetan Enge",
+                    "Robert H\u00f6ldrich",
+                    "Wolfgang Aigner",
                     "Bruce N. Walker",
-                    "Robert H\u00f6ldrich"
+                    "Niklas R\u00f6nnberg",
+                    "Kajetan Enge",
+                    "Niklas Elmqvist"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4654,9 +4663,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Petra Isenberg",
+                    "Anastasia Bezerianos",
                     "Bongshin Lee",
-                    "Anastasia Bezerianos"
+                    "Petra Isenberg"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -4773,7 +4782,7 @@
                         "youtube_video_id": "cqV_nUQMTGo"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Markus Hadwiger",
@@ -4818,7 +4827,7 @@
                         "youtube_video_id": "Es-7CzX3UGY"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A",
                         "contributors": [
                             "Markus Hadwiger",
@@ -4846,12 +4855,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Tamara Munzner",
+                    "Terry Yoo",
                     "Luis Gustavo Nonato",
                     "Catherine Plaisant",
                     "Brian Summa",
-                    "Daniel Weiskopf",
-                    "Terry Yoo"
+                    "Tamara Munzner",
+                    "Daniel Weiskopf"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4919,9 +4928,9 @@
                 "track": "room1",
                 "schedule_image": "v-full-full1.png",
                 "chair": [
+                    "Anders Ynnerman",
                     "Silvia Miksch",
-                    "Bongshin Lee",
-                    "Anders Ynnerman"
+                    "Bongshin Lee"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -7726,7 +7735,7 @@
                         "youtube_video_id": "Tpv96wzm_d0"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Live Q&A",
                         "contributors": [
                             "All"
@@ -7792,7 +7801,7 @@
                         "youtube_video_id": "nJEQXvwP6gA"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Live Q&A for Keynote",
                         "contributors": [
                             "Jer Thorp"
@@ -7863,7 +7872,7 @@
                         "youtube_video_id": "mTI9CbM5dIM"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Live Q&A for Papers, Pictorials, Artist talks",
                         "contributors": [
                             "All artists"
@@ -7957,7 +7966,7 @@
                         "youtube_video_id": "eQz6AhzjP9A"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Live Q&A for Papers (15 min)",
                         "contributors": [
                             "Charles Perin"
@@ -8016,7 +8025,7 @@
                         "youtube_video_id": "ry12WJ_vlfM"
                     },
                     {
-                        "type": "live",
+                        "type": "qa",
                         "title": "Q&A for Artist Talks (10 min and remaing time)",
                         "contributors": [
                             "Charles Perin"
@@ -8088,8 +8097,8 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Lane Harrison",
                     "Karen Schloss",
+                    "Lane Harrison",
                     "Hsiang-Yun Wu"
                 ],
                 "organizers": [
@@ -8866,8 +8875,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -8937,8 +8946,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9026,8 +9035,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Rosa Romero-G\u00f3mez",
-                    "Chris Bryan"
+                    "Chris Bryan",
+                    "Rosa Romero-G\u00f3mez"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9415,12 +9424,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Earl Lawrence",
-                    "Divya Banesh",
-                    "Subhashis Hazarika",
-                    "Steven Morley",
                     "Natalie Klein",
-                    "Ayan Biswas"
+                    "Ayan Biswas",
+                    "Steven Morley",
+                    "Subhashis Hazarika",
+                    "Divya Banesh",
+                    "Earl Lawrence"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9943,13 +9952,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Uulke van der Heide",
-                    "Wouter van Elmpt",
-                    "Katja B\u00fchler",
-                    "Vitali Moiseenko",
-                    "Renata G. Raidou",
                     "Ludvig P. Muren",
-                    "Noeska Smit"
+                    "Vitali Moiseenko",
+                    "Uulke van der Heide",
+                    "Noeska Smit",
+                    "Renata G. Raidou",
+                    "Wouter van Elmpt",
+                    "Katja B\u00fchler"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -10104,9 +10113,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Mark SubbaRao",
+                    "Anders Ynnerman",
                     "Alexander Bock",
-                    "Anders Ynnerman"
+                    "Mark SubbaRao"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -10156,8 +10165,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Thomas Theu\u00dfl",
-                    "Alex Razoumov"
+                    "Alex Razoumov",
+                    "Thomas Theu\u00dfl"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10602,9 +10611,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
-                    "Petra Gospodnetic",
                     "Christina Gillmann",
-                    "Karsten Rink"
+                    "Karsten Rink",
+                    "Petra Gospodnetic"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10699,8 +10708,8 @@
                 "track": "room4",
                 "schedule_image": "v-siggraph-siggraph1.png",
                 "chair": [
-                    "Jian Chen",
-                    "Klaus Mueller"
+                    "Klaus Mueller",
+                    "Jian Chen"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",

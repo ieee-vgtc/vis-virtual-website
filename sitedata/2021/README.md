@@ -10,7 +10,7 @@ Enjoy the 2021 edition of <strong>#ieeevis</strong>.
 
 ### Help
 
-Feel free to visit [our Help page above](/help.html) for answers to common questions, where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
+Feel free to visit [our Help page above](/year/2021/help.html) for answers to common questions, where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
 
 ### Acknowledgements
 
