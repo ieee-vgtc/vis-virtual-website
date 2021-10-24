@@ -12,9 +12,9 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo2.png",
                 "chair": [
-                    "Alex Bock",
                     "Micha Schwab",
-                    "Will Usher"
+                    "Will Usher",
+                    "Alex Bock"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-22T15:00:00Z",
@@ -63,9 +63,9 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo3.png",
                 "chair": [
-                    "Alex Bock",
                     "Micha Schwab",
-                    "Will Usher"
+                    "Will Usher",
+                    "Alex Bock"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-23T02:00:00Z",
@@ -123,9 +123,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
+                    "Junming Shao",
                     "Liang Gou",
-                    "Alvitta Ottley",
-                    "Junming Shao"
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -145,7 +145,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening",
                         "contributors": [
                             "Adam Perer",
@@ -250,9 +250,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
-                    "Danny T.Y. Wu",
+                    "J\u00fcrgen Bernard",
                     "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -274,7 +274,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening Ceremony",
                         "contributors": [
                             "J\u00fcrgen Bernard",
@@ -480,8 +480,8 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
-                    "Danny Wu",
-                    "Jesus Caban"
+                    "Jesus Caban",
+                    "Danny Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -542,8 +542,8 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-1.png",
                 "chair": [
-                    "Houda Lamqaddam",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Houda Lamqaddam"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
@@ -564,7 +564,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening",
                         "contributors": [
                             "Houda Lamqaddam",
@@ -705,9 +705,9 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Bridget Moynihan",
-                    "Eric Alexander",
-                    "Mark-Jan Bludau"
+                    "Florian Windhager",
+                    "Mark-Jan Bludau",
+                    "Houda Lamqaddam"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
@@ -721,14 +721,14 @@
                 "discord_link": "https://discord.com/channels/884159773287805038/892967369775939654",
                 "slido_link": "https://app.sli.do/event/6payv5ez?section=8e2f274b-ac26-48d6-adbb-184071a7e8c1",
                 "youtube_url": "https://youtu.be/7AMsGHgW3kA",
-                "zoom_meeting": "https://ieeevis.zoom.us/j/83853919097?pwd=ODR3dm5US1dPejFYV3htbG5GRWovZz09",
-                "zoom_password": "JD6uhBm6",
+                "zoom_meeting": "",
+                "zoom_password": "",
                 "ff_link": "",
                 "ff_playlist": "",
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Lab Talks Intro",
                         "contributors": [
                             "Mark-Jan Bludau"
@@ -800,12 +800,24 @@
                     },
                     {
                         "type": "live",
-                        "title": "DH-Capstone by Romi Ron Morrison",
+                        "title": "Sharing link for town hall",
                         "contributors": [
-                            "Romi Ron Morrison"
+                            "Houda Lamqaddam",
+                            "Florian Windhager"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T17:30:00Z",
+                        "time_end": "2021-10-24T17:35:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Town Hall Town Hall (Where Are We Going?) in External Zoom",
+                        "contributors": [
+                            "Houda Lamqaddam",
+                            "Florian Windhager"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-24T17:35:00Z",
                         "time_end": "2021-10-24T18:30:00Z"
                     }
                 ]
@@ -816,17 +828,15 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Chris Weaver",
-                    "Houda Lamqaddam",
                     "Stefania Forlini",
-                    "Florian Windhager"
+                    "Chris Weaver"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
                     "Florian Windhager"
                 ],
                 "time_start": "2021-10-24T19:00:00Z",
-                "time_end": "2021-10-24T20:30:00Z",
+                "time_end": "2021-10-24T20:05:00Z",
                 "discord_category": "vis4dh",
                 "discord_channel": "papers-provocations-ii-town-hall",
                 "discord_channel_id": "892967369775939654",
@@ -884,8 +894,8 @@
                         "youtube_video_id": "LbNTKl0dnb0"
                     },
                     {
-                        "type": "live",
-                        "title": "Closing and Sharing Link for Town Hall",
+                        "type": "recorded",
+                        "title": "Closing",
                         "contributors": [
                             "Houda Lamqaddam",
                             "Florian Windhager"
@@ -893,17 +903,6 @@
                         "abstract": null,
                         "time_start": "2021-10-24T20:00:00Z",
                         "time_end": "2021-10-24T20:05:00Z"
-                    },
-                    {
-                        "type": "live",
-                        "title": "Town Hall (Where Are We Going?)",
-                        "contributors": [
-                            "Houda Lamqaddam",
-                            "Florian Windhager"
-                        ],
-                        "abstract": null,
-                        "time_start": "2021-10-24T20:05:00Z",
-                        "time_end": "2021-10-24T20:30:00Z"
                     }
                 ]
             }
@@ -922,8 +921,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Arjun Srinivasan",
-                    "Vidya Setlur"
+                    "Vidya Setlur",
+                    "Arjun Srinivasan"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -1066,7 +1065,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome",
                         "contributors": [
                             "Event Chairs"
@@ -1141,7 +1140,7 @@
                         "time_end": "2021-10-24T14:30:00Z"
                     },
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome Back + Keynote Intro",
                         "contributors": [
                             "Event Chairs"
@@ -1289,8 +1288,8 @@
                 "track": "room7",
                 "schedule_image": "t-ttk.png",
                 "chair": [
-                    "Josh Levine",
-                    "Julien Tierny"
+                    "Julien Tierny",
+                    "Josh Levine"
                 ],
                 "organizers": [
                     "Christoph Garth",
@@ -1319,7 +1318,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "General Introduction",
                         "contributors": [
                             "Julien Tierny"
@@ -1787,8 +1786,8 @@
                 "track": "room1",
                 "schedule_image": "a-vastchallenge.png",
                 "chair": [
-                    "Kris Cook",
-                    "R. Jordan Crouser"
+                    "R. Jordan Crouser",
+                    "Kris Cook"
                 ],
                 "organizers": [
                     "R. Jordan Crouser",
@@ -1815,7 +1814,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Intro and Welcome: Overview of MC1",
                         "contributors": [
                             "Kris Cook",
@@ -1957,10 +1956,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Paul Rosen",
-                    "Charles Perin",
+                    "Michael Correll",
                     "Jane Adams",
-                    "Michael Correll"
+                    "Paul Rosen",
+                    "Charles Perin"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -1985,7 +1984,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening",
                         "contributors": [
                             "Jane L. Adams",
@@ -2166,13 +2165,13 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
-                    "Eli T Brown",
-                    "Ab Mosca",
-                    "Michelle Dowling",
-                    "John Wenskovitch",
-                    "Kai Xu",
                     "Marc Streit",
-                    "Conny Walchshofer"
+                    "Kai Xu",
+                    "Conny Walchshofer",
+                    "John Wenskovitch",
+                    "Michelle Dowling",
+                    "Ab Mosca",
+                    "Eli T Brown"
                 ],
                 "organizers": [
                     "John Wenskovitch",
@@ -2198,7 +2197,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Introduction",
                         "contributors": [
                             "John Wenskovitch",
@@ -2332,11 +2331,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Melanie Tory",
-                    "Eun Kyoung Choe",
                     "Lyn Bartram",
-                    "Sheelagh Carpendale",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Eun Kyoung Choe",
+                    "Melanie Tory",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2360,7 +2359,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening",
                         "contributors": [
                             "Lyn Bartram",
@@ -2475,10 +2474,10 @@
                 "schedule_image": "w-viscomm.png",
                 "chair": [
                     "Jonathan Schwabish",
-                    "Jon Schwabish",
-                    "Adriana Arcia",
                     "Alvitta Ottley",
-                    "Barbara Millet"
+                    "Adriana Arcia",
+                    "Barbara Millet",
+                    "Jon Schwabish"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2501,7 +2500,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome",
                         "contributors": [
                             "Barbara Millet"
@@ -2723,7 +2722,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening Presentation",
                         "contributors": [
                             "Julien Tierny"
@@ -2917,8 +2916,8 @@
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
                     "Chaoli Wang",
-                    "Kristi Potter",
-                    "Johanna Beyer"
+                    "Johanna Beyer",
+                    "Kristi Potter"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -3049,7 +3048,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Panel Intro",
                         "contributors": [
                             "Zhicheng Leo Liu"
@@ -3102,7 +3101,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "recorded",
+                        "type": "opening",
                         "title": "Panel Intro",
                         "contributors": [
                             "Sean McKenna"
@@ -3156,7 +3155,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Panel Intro",
                         "contributors": [
                             "Matt Larsen"
@@ -3255,8 +3254,8 @@
                 "track": "room3",
                 "schedule_image": "a-biovischallenge.png",
                 "chair": [
-                    "Thomas H\u00f6llt",
-                    "Zeynep H Gumus"
+                    "Zeynep H Gumus",
+                    "Thomas H\u00f6llt"
                 ],
                 "organizers": [
                     "Zeynep H Gumus",
@@ -3277,7 +3276,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome by the Organizers",
                         "contributors": [
                             "Zeynep H Gumus",
@@ -3319,7 +3318,7 @@
                         "youtube_video_id": "ANqpmeBLoqQ"
                     },
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Challenge Introduction",
                         "contributors": [
                             "Noel F.C.C. De Miranda"
@@ -3393,7 +3392,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening Presentation",
                         "contributors": [
                             "Samuel Huron",
@@ -3525,11 +3524,11 @@
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
                     "Mandy Keck",
-                    "Samuel Huron",
                     "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
+                    "Samuel Huron",
                     "Sheelagh Carpendale",
-                    "Benjamin Bach",
-                    "Jonathan C. Roberts"
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3554,7 +3553,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Panel Introduction",
                         "contributors": [
                             "Samuel Huron"
@@ -3598,11 +3597,11 @@
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
                     "Mandy Keck",
-                    "Samuel Huron",
                     "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
+                    "Samuel Huron",
                     "Sheelagh Carpendale",
-                    "Benjamin Bach",
-                    "Jonathan C. Roberts"
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3627,7 +3626,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Session opening",
                         "contributors": [
                             "Samuel Huron",
@@ -3670,11 +3669,11 @@
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
                     "Mandy Keck",
-                    "Samuel Huron",
                     "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
+                    "Samuel Huron",
                     "Sheelagh Carpendale",
-                    "Benjamin Bach",
-                    "Jonathan C. Roberts"
+                    "Benjamin Bach"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3699,7 +3698,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Last session opening",
                         "contributors": [
                             "Samuel Huron",
@@ -3760,10 +3759,10 @@
                 "track": "room5",
                 "schedule_image": "w-visxvision.png",
                 "chair": [
-                    "Danielle Szafir",
-                    "Madison Elliott",
+                    "Cindy Xiong",
                     "Christie Nothelfer",
-                    "Cindy Xiong"
+                    "Madison Elliott",
+                    "Danielle Szafir"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3786,7 +3785,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening Remarks",
                         "contributors": [
                             "Madison Elliott"
@@ -3962,8 +3961,8 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Leilani Battle",
                     "Evan Peck",
+                    "Leilani Battle",
                     "Lane Harrison",
                     "Michelle Borkin",
                     "Michael Correll"
@@ -3990,7 +3989,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Introduction and Welcome",
                         "contributors": [
                             "Leilani Battle"
@@ -4137,9 +4136,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Matt Cooper",
                     "Camilla Forsell",
-                    "Niklas R\u00f6nnberg"
+                    "Niklas R\u00f6nnberg",
+                    "Matt Cooper"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4161,7 +4160,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Introduction",
                         "contributors": [
                             "Matt Cooper"
@@ -4269,7 +4268,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Introduction",
                         "contributors": [
                             "John A. Guerra-Gomez"
@@ -4355,11 +4354,11 @@
                 "track": "room3",
                 "schedule_image": "a-visxai.png",
                 "chair": [
-                    "Menna El-Assady",
-                    "Hendrik Strobelt",
                     "Adam Perer",
+                    "VISxAI orga",
+                    "Hendrik Strobelt",
                     "Fred Hohman",
-                    "VISxAI orga"
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4516,14 +4515,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Michael Iber",
-                    "Alexander Rind",
-                    "Robert H\u00f6ldrich",
-                    "Wolfgang Aigner",
-                    "Bruce N. Walker",
                     "Niklas R\u00f6nnberg",
+                    "Wolfgang Aigner",
+                    "Niklas Elmqvist",
                     "Kajetan Enge",
-                    "Niklas Elmqvist"
+                    "Robert H\u00f6ldrich",
+                    "Bruce N. Walker",
+                    "Michael Iber",
+                    "Alexander Rind"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4550,7 +4549,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome and Introduction by Organizers",
                         "contributors": [
                             "Wolfgang Aigner",
@@ -4663,9 +4662,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
+                    "Petra Isenberg",
                     "Anastasia Bezerianos",
-                    "Bongshin Lee",
-                    "Petra Isenberg"
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -4687,7 +4686,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Part 1",
                         "contributors": [
                             "Bongshin Lee",
@@ -4855,12 +4854,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
-                    "Terry Yoo",
-                    "Luis Gustavo Nonato",
                     "Catherine Plaisant",
                     "Brian Summa",
-                    "Tamara Munzner",
-                    "Daniel Weiskopf"
+                    "Luis Gustavo Nonato",
+                    "Terry Yoo",
+                    "Daniel Weiskopf",
+                    "Tamara Munzner"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -7561,8 +7560,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -8097,9 +8096,9 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Karen Schloss",
+                    "Hsiang-Yun Wu",
                     "Lane Harrison",
-                    "Hsiang-Yun Wu"
+                    "Karen Schloss"
                 ],
                 "organizers": [
                     "Hsiang-Yun Wu",
@@ -8149,8 +8148,8 @@
                 "track": "room5",
                 "schedule_image": "m-vislies.png",
                 "chair": [
-                    "Kenneth Moreland",
-                    "Bernice Rogowitz"
+                    "Bernice Rogowitz",
+                    "Kenneth Moreland"
                 ],
                 "organizers": [
                     "Kenneth Moreland",
@@ -9424,12 +9423,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Natalie Klein",
+                    "Earl Lawrence",
                     "Ayan Biswas",
                     "Steven Morley",
-                    "Subhashis Hazarika",
+                    "Natalie Klein",
                     "Divya Banesh",
-                    "Earl Lawrence"
+                    "Subhashis Hazarika"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9631,8 +9630,8 @@
                 "track": "room2",
                 "schedule_image": "m-gender.png",
                 "chair": [
-                    "Natkamon Tovanich",
-                    "Petra Isenberg"
+                    "Petra Isenberg",
+                    "Natkamon Tovanich"
                 ],
                 "organizers": [
                     "Petra Isenberg",
@@ -9952,12 +9951,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
+                    "Wouter van Elmpt",
                     "Ludvig P. Muren",
-                    "Vitali Moiseenko",
-                    "Uulke van der Heide",
                     "Noeska Smit",
                     "Renata G. Raidou",
-                    "Wouter van Elmpt",
+                    "Uulke van der Heide",
+                    "Vitali Moiseenko",
                     "Katja B\u00fchler"
                 ],
                 "organizers": [
@@ -10114,8 +10113,8 @@
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
                     "Anders Ynnerman",
-                    "Alexander Bock",
-                    "Mark SubbaRao"
+                    "Mark SubbaRao",
+                    "Alexander Bock"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -10165,8 +10164,8 @@
                 "track": "room5",
                 "schedule_image": "a-sciviscontest-contest.png",
                 "chair": [
-                    "Alex Razoumov",
-                    "Thomas Theu\u00dfl"
+                    "Thomas Theu\u00dfl",
+                    "Alex Razoumov"
                 ],
                 "organizers": [
                     "Thomas Theu\u00dfl",
@@ -10612,8 +10611,8 @@
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
                     "Christina Gillmann",
-                    "Karsten Rink",
-                    "Petra Gospodnetic"
+                    "Petra Gospodnetic",
+                    "Karsten Rink"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10708,8 +10707,8 @@
                 "track": "room4",
                 "schedule_image": "v-siggraph-siggraph1.png",
                 "chair": [
-                    "Klaus Mueller",
-                    "Jian Chen"
+                    "Jian Chen",
+                    "Klaus Mueller"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T15:00:00Z",
@@ -10911,8 +10910,8 @@
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Luis Gustavo Nonato",
-                    "Brian Summa"
+                    "Brian Summa",
+                    "Luis Gustavo Nonato"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",
