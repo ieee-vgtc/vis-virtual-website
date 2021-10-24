@@ -228,6 +228,7 @@
     getLogs(logsData) {
       const slices = [];
       const logs = Object.values(logsData);
+      logs.sort((a, b) => a.time - b.time);
       for (let i = 1; i < logs.length; i++) {
         this.addSliceIfYouTube(slices, logs[i - 1], logs[i].time - logs[i - 1].time);
       }
@@ -236,6 +237,7 @@
       if (this.roomSlices.length) {
         this.clickStage(this.roomSlices[0]);
       }
+      console.log(this.roomSlices);
       this.updateTable();
     }
     updateTable() {
