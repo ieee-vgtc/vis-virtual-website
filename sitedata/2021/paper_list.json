@@ -142,6 +142,176 @@
         "has_pdf": true,
         "ff_link": ""
     },
+    "w-trex-1418": {
+        "authors": [
+            "Nadia Boukhelifa",
+            "Evelyne Lutton",
+            "Anastasia Bezerianos"
+        ],
+        "title": "A Case Study of Using Analytic Provenance to Reconstruct User Trust in a Guided Visual Analytics System",
+        "session_id": "w-trex",
+        "abstract": "In this paper, we demonstrate how analytic provenance can be exploited to re-construct user trust in a guided Visual Analytics (VA) system, and suggest that interaction log data analysis can be a valuable tool for on-line trust monitoring. Our approach moves away from the subjective and often a-posteriori evaluations of user trust, towards more objective measures that are not only continuously tracked and updated, but also reflect both the confidence of the user in system suggestions, and the uncertainty of the system with regards to user goals. We argue that this approach is more suitable for guided visual analytics systems such as ours, where user strategies, goals and even trust can evolve over time, in reaction to new system feedback and insights from the exploration. Through the analysis of log data from a past user study with twelve participants performing a guided visual analysis task, we found that the stability of user exploration strategies is a promising factor to study \u201ctrust\u201d. However, indirect metrics based on provenance, such as user evaluation counts and disagreement rates, are alone not sufficient to study trust reliably in guided VAs. We conclude with open challenges and opportunities for exploiting analytic provenance to support trust monitoring in guided VA systems.",
+        "keywords": [],
+        "uid": "w-trex-1418",
+        "time_stamp": "2021-10-24T13:15:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/DI5zEkurlYk"
+    },
+    "w-trex-8188": {
+        "authors": [
+            "Anna-Pia Lohfink",
+            "Vera Marie Memmesheimer",
+            "Frederike Gartzky",
+            "Christoph Garth"
+        ],
+        "title": "The Enhanced Security in Process System - Evaluating Knowledge Assistance",
+        "session_id": "w-trex",
+        "abstract": "We present evaluation results of our enhancements to the Security in Process System developed by Lohfink et al. to support triage analysis in operational technology networks. To ensure fast and appropriate reactions to anomalies in device readings, this system communicates anomaly detection results and device readings to incorporate human expertise and experience. It exploits periodical behavior in the data combining spiral plots with results from anomaly detection. To support decisions, increase trust, and support cooperation in the system we enhanced it to be knowledge-assisted. A central knowledge base allows sharing knowledge between users and support during analysis. It consists of an ontology describing incidents, and a data base holding collections of exemplary sensor readings with annotations and visualization parameters. Related knowledge is proposed automatically and incorporated directly in the visualization to provide assistance that is closely coupled to the application, without additional hurdles. This integration is designed aiming on additional support for correct and fast detection of anomalies in the visualized device readings. We evaluate our enhancements to the Security in Process System in terms of effectiveness, efficiency, user satisfaction, and cognitive load with a detailed user study. Comparing the original and enhanced system, we are able to draw conclusions as to how our design narrows the knowledge gap between experts and laymen. Furthermore, we present and discuss the results and impact on our future research.",
+        "keywords": [],
+        "uid": "w-trex-8188",
+        "time_stamp": "2021-10-24T13:25:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/Z2l2-n8sURo"
+    },
+    "w-trex-8311": {
+        "authors": [
+            "Wenkai Han"
+        ],
+        "title": "Making and Trusting Decisions in Visual Analytics",
+        "session_id": "w-trex",
+        "abstract": "Decision making and trust have both become rising topics in the research community of Visual Analytics (VA).\nMany efforts have been made to understand and facilitate making decisions with VA, as well as build and calibrate trust.\nHowever, previous research largely took VA as a tool to facilitate decision making, but did not explore the possibility to dissect each analytical step in VA as decision making and discuss how decision making theories can be utilized to improve the trustworthiness of decisions in VA.\nTherefore, this paper instead proposes such alternative take on the relation between decision making and VA, inspects the processes of visually analyzing data as decision making, and discusses how to leverage decision making theories to facilitate trustworthy decision making in VA.",
+        "keywords": [],
+        "uid": "w-trex-8311",
+        "time_stamp": "2021-10-24T13:35:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/0Wpt5Rj1wl0"
+    },
+    "w-trex-5186": {
+        "authors": [
+            "John Wenskovitch",
+            "Corey Fallon",
+            "Kate Miller",
+            "Aritra Dasgupta"
+        ],
+        "title": "Beyond Visual Analytics: Human-Machine Teaming for AI-Driven Data Sensemaking",
+        "session_id": "w-trex",
+        "abstract": "\u201cDetect the expected, discover the unexpected\u201d was the founding principle of the field of visual analytics. This mantra implies human stakeholders, like a domain expert or data analyst, could leverage visual analytics techniques to seek answers to known unknowns and discover unknown unknowns in the course of the data sensemaking process. We argue that in the era of AI-driven automation, the roles of humans and machines (e.g., a machine learning model) need to be recalibrated in terms of a team. We posit that by realizing human-machine teams as a stakeholder unit, we can better achieve the best of both worlds: automation transparency and human reasoning efficacy. However, this also increases the burden on analysts and domain experts towards performing more cognitively demanding tasks than they are used to. In this paper, we reflect on the complementary roles in a human-machine team through the lens of cognitive psychology and map them to existing and emerging research in the visual analytics community. We discuss open questions around the nature of human agency and analyze the shared responsibilities in human-machine teams.",
+        "keywords": [],
+        "uid": "w-trex-5186",
+        "time_stamp": "2021-10-24T13:45:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/sPesrLfBz0A"
+    },
+    "w-trex-6127": {
+        "authors": [
+            "Yafeng Lu",
+            "Michael Steptoe",
+            "Verica Buchanan",
+            "Nancy Cooke",
+            "Ross Maciejewski"
+        ],
+        "title": "Evaluating Forecasting, Knowledge, and Visual Analytics",
+        "session_id": "w-trex",
+        "abstract": "In this paper, we explore the intersection of knowledge and the forecasting accuracy of humans when supported by visual analytics. We have recruited 40 experts in machine learning and trained them in the use of a box office forecasting visual analytics system.\nOur goal was to explore the impact of visual analytics and knowledge in human-machine forecasting. This paper reports on how participants explore and reason with data and develop a forecast when provided with a predictive model of middling performance ($R^2 \\approx .7$). We vary the knowledge base of the participants through training, compare the forecasts to the baseline model, and discuss performance in the context of previous work on algorithmic aversion and trust.",
+        "keywords": [],
+        "uid": "w-trex-6127",
+        "time_stamp": "2021-10-24T13:55:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/OWfUNDsSSrk"
+    },
+    "w-trex-1899": {
+        "authors": [
+            "Udo Schlegel",
+            "Daniel Keim"
+        ],
+        "title": "Time Series Model Attribution Visualizations as Explanations",
+        "session_id": "w-trex",
+        "abstract": "Attributions are a common local explanation technique for deep learning models on single samples as they are easily extractable and demonstrate the relevance of input values.\nIn many cases, heatmaps visualize such attributions for samples, for instance, on images.\nHowever, heatmaps are not always the ideal visualization to explain certain model decisions for other data types.\nIn this survey, we focus on attribution visualizations for time series.\nWe collect attribution heatmap visualizations and some alternatives, discuss the advantages as well as disadvantages and give a short position towards future opportunities for attributions and explanations for time series.",
+        "keywords": [],
+        "uid": "w-trex-1899",
+        "time_stamp": "2021-10-24T15:40:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/yK0zCVIVoWY"
+    },
+    "w-trex-8523": {
+        "authors": [
+            "Jeroen Ooge",
+            "Katrien Verbert"
+        ],
+        "title": "Trust in Prediction Models: a Mixed-Methods Pilot Study on the Impact of Domain Expertise",
+        "session_id": "w-trex",
+        "abstract": "Users' trust in prediction models can be affected by many factors, including domain knowledge and experience with predictive modelling. However, it is not entirely clear to what extent and why this domain expertise impacts users' trust perceptions and evolutions. In addition, it remains challenging to accurately measure users' trust. We share our results and experiences of an exploratory case-study with a visual analytics system that incorporates a prediction model for time series. Through a mixed-methods approach involving Likert-type questionnaires and semi-structured interviews, we investigate users' trust evolutions and factors that affect their trust in the prediction model. Our results underline the multi-faceted nature of user trust, and suggest that domain expertise certainly affects trust, though it cannot fully foresee users' trust evolutions.",
+        "keywords": [],
+        "uid": "w-trex-8523",
+        "time_stamp": "2021-10-24T15:50:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/UEcJPJrJ8mQ"
+    },
+    "w-trex-2998": {
+        "authors": [
+            "Dirk Leffrang",
+            "Oliver Mueller"
+        ],
+        "title": "Should I Follow this Model? The Effect of Uncertainty Visualization on the Acceptance of Time Series Forecasts",
+        "session_id": "w-trex",
+        "abstract": "Time series forecasts are ubiquitous, ranging from daily weather forecasts to projections of pandemics such as COVID-19. Communicating the uncertainty associated with such forecasts is important, because it may affect users' trust in a forecasting model and, in turn, the decisions made based on the model. Although there exists a growing body of research on visualizing uncertainty in general, the important case of visualizing prediction uncertainty in time series forecasting has not been studied yet. Against this background, we investigated how different visualizations of predictive uncertainty affect the extent to which people follow predictions of a time series forecasting model. More specifically, we conducted an online experiment on forecasting occupied hospital beds due to the COVID-19 pandemic, measuring the influence of uncertainty visualization of algorithmic predictions on participants' own predictions. In contrast to prior studies, our empirical results suggest that more salient visualizations of uncertainty lead to decreased willingness to follow algorithmic forecasts.",
+        "keywords": [],
+        "uid": "w-trex-2998",
+        "time_stamp": "2021-10-24T16:00:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": "https://youtu.be/BaKlTFM8ZSk"
+    },
+    "w-trex-8391": {
+        "authors": [
+            "Christina Gillmann",
+            "Dorothee Saur",
+            "Gerik Scheuermann"
+        ],
+        "title": "How to deal with Uncertainty in Machine Learning for Medical Applications?",
+        "session_id": "w-trex",
+        "abstract": "Recently, machine learning is massively on the rise in medical applications providing the ability to predict diseases, plan treatment, and monitor progress. Still, the use in a clinical context of this technology is rather rare, mostly due to the missing trust of clinicians. In this position paper, we aim to show how uncertainty is introduced in the machine learning process when applying it to the medical do-main at multiple points and how this influences the decision-making process of clinicians in machine learning approaches. Based on this knowledge, we aim to refine the guidelines for trust in visual analytics to assist clinicians in using and understanding systems that are based on machine learning.",
+        "keywords": [],
+        "uid": "w-trex-8391",
+        "time_stamp": "2021-10-24T16:10:00Z",
+        "has_image": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
     "a-vahc-1003": {
         "authors": [
             "Salmah Ahmad",
