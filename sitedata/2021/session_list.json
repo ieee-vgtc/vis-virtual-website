@@ -12,9 +12,9 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo2.png",
                 "chair": [
+                    "Will Usher",
                     "Alex Bock",
-                    "Micha Schwab",
-                    "Will Usher"
+                    "Micha Schwab"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-22T15:00:00Z",
@@ -61,9 +61,9 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo3.png",
                 "chair": [
+                    "Will Usher",
                     "Alex Bock",
-                    "Micha Schwab",
-                    "Will Usher"
+                    "Micha Schwab"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-23T02:00:00Z",
@@ -246,9 +246,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
-                    "Danny T.Y. Wu",
+                    "J\u00fcrgen Bernard",
                     "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -476,8 +476,8 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
-                    "Danny Wu",
-                    "Jesus Caban"
+                    "Jesus Caban",
+                    "Danny Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -702,8 +702,8 @@
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
                     "Florian Windhager",
-                    "Houda Lamqaddam",
-                    "Mark-Jan Bludau"
+                    "Mark-Jan Bludau",
+                    "Houda Lamqaddam"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
@@ -1792,8 +1792,8 @@
                 "track": "room1",
                 "schedule_image": "a-vastchallenge.png",
                 "chair": [
-                    "R. Jordan Crouser",
-                    "Kris Cook"
+                    "Kris Cook",
+                    "R. Jordan Crouser"
                 ],
                 "organizers": [
                     "R. Jordan Crouser",
@@ -1962,10 +1962,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Jane Adams",
-                    "Michael Correll",
                     "Paul Rosen",
-                    "Charles Perin"
+                    "Jane Adams",
+                    "Charles Perin",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2171,13 +2171,13 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
+                    "Ab Mosca",
                     "Kai Xu",
-                    "Conny Walchshofer",
                     "Marc Streit",
-                    "Michelle Dowling",
-                    "Eli T Brown",
                     "John Wenskovitch",
-                    "Ab Mosca"
+                    "Conny Walchshofer",
+                    "Eli T Brown",
+                    "Michelle Dowling"
                 ],
                 "organizers": [
                     "John Wenskovitch",
@@ -2337,11 +2337,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Eun Kyoung Choe",
+                    "Lyn Bartram",
                     "Sheelagh Carpendale",
-                    "Melanie Tory",
+                    "Eun Kyoung Choe",
                     "Bongshin Lee",
-                    "Lyn Bartram"
+                    "Melanie Tory"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2481,8 +2481,8 @@
                 "chair": [
                     "Alvitta Ottley",
                     "Adriana Arcia",
-                    "Jon Schwabish",
                     "Jonathan Schwabish",
+                    "Jon Schwabish",
                     "Barbara Millet"
                 ],
                 "organizers": [
@@ -2921,9 +2921,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
+                    "Chaoli Wang",
                     "Kristi Potter",
-                    "Johanna Beyer",
-                    "Chaoli Wang"
+                    "Johanna Beyer"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -3275,8 +3275,8 @@
                 "track": "room3",
                 "schedule_image": "a-biovischallenge.png",
                 "chair": [
-                    "Thomas H\u00f6llt",
-                    "Zeynep H Gumus"
+                    "Zeynep H Gumus",
+                    "Thomas H\u00f6llt"
                 ],
                 "organizers": [
                     "Zeynep H Gumus",
@@ -3544,12 +3544,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
+                    "Benjamin Bach",
                     "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Georgia Panagiotidou",
                     "Samuel Huron",
-                    "Mandy Keck",
-                    "Benjamin Bach"
+                    "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3617,12 +3617,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
+                    "Benjamin Bach",
                     "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Georgia Panagiotidou",
                     "Samuel Huron",
-                    "Mandy Keck",
-                    "Benjamin Bach"
+                    "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3689,12 +3689,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
+                    "Benjamin Bach",
                     "Sheelagh Carpendale",
-                    "Jonathan C. Roberts",
-                    "Georgia Panagiotidou",
                     "Samuel Huron",
-                    "Mandy Keck",
-                    "Benjamin Bach"
+                    "Georgia Panagiotidou",
+                    "Jonathan C. Roberts",
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3782,8 +3782,8 @@
                 "chair": [
                     "Cindy Xiong",
                     "Danielle Szafir",
-                    "Christie Nothelfer",
-                    "Madison Elliott"
+                    "Madison Elliott",
+                    "Christie Nothelfer"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3984,9 +3984,9 @@
                 "chair": [
                     "Lane Harrison",
                     "Leilani Battle",
-                    "Michael Correll",
                     "Michelle Borkin",
-                    "Evan Peck"
+                    "Evan Peck",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -4172,8 +4172,8 @@
                 "schedule_image": "t-usereval.png",
                 "chair": [
                     "Matt Cooper",
-                    "Camilla Forsell",
-                    "Niklas R\u00f6nnberg"
+                    "Niklas R\u00f6nnberg",
+                    "Camilla Forsell"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4390,10 +4390,10 @@
                 "schedule_image": "a-visxai.png",
                 "chair": [
                     "Fred Hohman",
-                    "VISxAI orga",
                     "Hendrik Strobelt",
-                    "Menna El-Assady",
-                    "Adam Perer"
+                    "Adam Perer",
+                    "VISxAI orga",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4563,14 +4563,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Bruce N. Walker",
-                    "Robert H\u00f6ldrich",
+                    "Wolfgang Aigner",
+                    "Michael Iber",
                     "Kajetan Enge",
                     "Alexander Rind",
                     "Niklas Elmqvist",
-                    "Wolfgang Aigner",
-                    "Michael Iber",
-                    "Niklas R\u00f6nnberg"
+                    "Niklas R\u00f6nnberg",
+                    "Robert H\u00f6ldrich",
+                    "Bruce N. Walker"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4710,8 +4710,8 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Bongshin Lee",
                     "Anastasia Bezerianos",
+                    "Bongshin Lee",
                     "Petra Isenberg"
                 ],
                 "organizers": [
@@ -4924,12 +4924,12 @@
                 "track": "room1",
                 "schedule_image": "v-opening-1.png",
                 "chair": [
+                    "Daniel Weiskopf",
                     "Terry Yoo",
-                    "Luis Gustavo Nonato",
-                    "Catherine Plaisant",
-                    "Brian Summa",
                     "Tamara Munzner",
-                    "Daniel Weiskopf"
+                    "Catherine Plaisant",
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4997,9 +4997,9 @@
                 "track": "room1",
                 "schedule_image": "v-full-full1.png",
                 "chair": [
-                    "Silvia Miksch",
+                    "Anders Ynnerman",
                     "Bongshin Lee",
-                    "Anders Ynnerman"
+                    "Silvia Miksch"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -7659,7 +7659,7 @@
                         "time_end": "2021-10-26T18:00:00Z"
                     },
                     {
-                        "type": "recorded",
+                        "type": "live",
                         "title": "VIS Full Papers Opening",
                         "contributors": [
                             "Full Paper chairs"
@@ -7670,7 +7670,7 @@
                         "youtube_video_id": "6ZMyLlU9TZ0"
                     },
                     {
-                        "type": "recorded",
+                        "type": "live",
                         "title": "VIS Short Papers Opening",
                         "contributors": [
                             "Short Paper Chairs"
@@ -7681,7 +7681,7 @@
                         "youtube_video_id": "aY8zdyeAvXY"
                     },
                     {
-                        "type": "recorded",
+                        "type": "live",
                         "title": "VIS Posters Opening",
                         "contributors": [
                             "Poster Chairs"
@@ -7907,7 +7907,7 @@
                         "type": "recorded",
                         "title": "Affective Palettes for Scientific Visualization: Grounding Environmental Data in the Natural World",
                         "contributors": [
-                            "Stephanie Zeller"
+                            "Francesca Samsel"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-27T17:50:00Z",
@@ -8218,8 +8218,8 @@
                 "track": "room5",
                 "schedule_image": "m-vislies.png",
                 "chair": [
-                    "Bernice Rogowitz",
-                    "Kenneth Moreland"
+                    "Kenneth Moreland",
+                    "Bernice Rogowitz"
                 ],
                 "organizers": [
                     "Kenneth Moreland",
@@ -9493,11 +9493,11 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
+                    "Earl Lawrence",
                     "Steven Morley",
                     "Ayan Biswas",
-                    "Earl Lawrence",
-                    "Natalie Klein",
                     "Subhashis Hazarika",
+                    "Natalie Klein",
                     "Divya Banesh"
                 ],
                 "organizers": [
@@ -9700,8 +9700,8 @@
                 "track": "room2",
                 "schedule_image": "m-gender.png",
                 "chair": [
-                    "Natkamon Tovanich",
-                    "Petra Isenberg"
+                    "Petra Isenberg",
+                    "Natkamon Tovanich"
                 ],
                 "organizers": [
                     "Petra Isenberg",
@@ -9862,6 +9862,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-28T12:30:00Z",
+                        "time_end": "2021-10-28T12:33:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Urbana-Champaign - Live!",
+                        "contributors": [
+                            "Urbana-Champaign"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T12:33:00Z",
                         "time_end": "2021-10-28T12:35:00Z"
                     },
                     {
@@ -9892,6 +9902,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-28T12:45:00Z",
+                        "time_end": "2021-10-28T12:48:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Norrk\u00f6ping - Live!",
+                        "contributors": [
+                            "Norrk\u00f6ping"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T12:48:00Z",
                         "time_end": "2021-10-28T12:50:00Z"
                     }
                 ]
@@ -9937,6 +9957,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:35:00Z",
+                        "time_end": "2021-10-29T12:48:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Pittsburgh - Live!",
+                        "contributors": [
+                            "Pittsburgh"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T12:38:00Z",
                         "time_end": "2021-10-29T12:40:00Z"
                     },
                     {
@@ -9947,6 +9977,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:40:00Z",
+                        "time_end": "2021-10-29T12:43:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Copenhagen - Live!",
+                        "contributors": [
+                            "Copenhagen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T12:43:00Z",
                         "time_end": "2021-10-29T12:45:00Z"
                     },
                     {
@@ -9957,7 +9997,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:45:00Z",
-                        "time_end": "2021-10-29T12:47:00Z",
+                        "time_end": "2021-10-29T12:48:00Z",
                         "youtube_video_id": "T4qmIQy_jPg"
                     },
                     {
@@ -9967,7 +10007,7 @@
                             "Melbourne"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-29T12:47:00Z",
+                        "time_start": "2021-10-29T12:48:00Z",
                         "time_end": "2021-10-29T12:50:00Z"
                     }
                 ]
@@ -10037,11 +10077,11 @@
                 "chair": [
                     "Noeska Smit",
                     "Katja B\u00fchler",
-                    "Uulke van der Heide",
                     "Vitali Moiseenko",
-                    "Ludvig P. Muren",
+                    "Uulke van der Heide",
+                    "Wouter van Elmpt",
                     "Renata G. Raidou",
-                    "Wouter van Elmpt"
+                    "Ludvig P. Muren"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -10196,9 +10236,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Mark SubbaRao",
+                    "Anders Ynnerman",
                     "Alexander Bock",
-                    "Anders Ynnerman"
+                    "Mark SubbaRao"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -10695,8 +10735,8 @@
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
                     "Christina Gillmann",
-                    "Karsten Rink",
-                    "Petra Gospodnetic"
+                    "Petra Gospodnetic",
+                    "Karsten Rink"
                 ],
                 "organizers": [
                     "Christina Gillmann",
