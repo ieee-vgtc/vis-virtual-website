@@ -8,8 +8,6 @@ We will collect job postings and display them here through out the VIS 2021 meet
 
 Questions? Contact the Community Committee (Karen Schloss, Hsiang-Yun Wu, Lane Harrison) at community@ieeevis.org. 
 
-# Academic
-
 ## Academic
 
 ### Boston University Center for Antiracist Research
