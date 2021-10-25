@@ -10,6 +10,8 @@ Questions? Contact the Community Committee (Karen Schloss, Hsiang-Yun Wu, Lane H
 
 # Academic
 
+## Academic
+
 ### Boston University Center for Antiracist Research
 
 **Data Visualization Fellow** at Boston University Center for Antiracist Research (Boston, MA, USA), start date: 2021-11-01
