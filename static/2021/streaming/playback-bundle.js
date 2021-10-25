@@ -206,15 +206,17 @@
 
   // playback.ts
   var _IeeeVisStreamPlayback = class {
-    constructor(ROOM_ID, DAY) {
+    constructor(ROOM_ID, DAY, SESSION) {
       this.ROOM_ID = ROOM_ID;
       this.DAY = DAY;
+      this.SESSION = SESSION;
       this.width = window.innerWidth;
       this.height = window.innerHeight;
       this.CHAT_PADDING_LEFT_PX = 30;
       this.PANEL_WIDTH_PERCENT = 30;
       this.sessionsData = {};
       this.roomSlices = [];
+      this.hasStartedPlaying = false;
       this.db = new IeeeVisDb();
       this.player = new IeeeVisReplayVideoPlayer(_IeeeVisStreamPlayback.PLAYER_ELEMENT_ID, this.getCurrentVideoId.bind(this), this.getCurrentStartEndTime.bind(this), this.onPlayerEnded.bind(this));
       this.db.loadRoom(ROOM_ID, (room) => this.onRoomUpdated(room));
@@ -227,14 +229,16 @@
     }
     getLogs(logsData) {
       const slices = [];
-      const logs = Object.values(logsData);
+      let logs = Object.values(logsData);
       logs.sort((a, b) => a.time - b.time);
+      logs = logs.filter((l) => !this.SESSION || l.session === this.SESSION);
       for (let i = 1; i < logs.length; i++) {
         this.addSliceIfYouTube(slices, logs[i - 1], logs[i].time - logs[i - 1].time);
       }
       this.addSliceIfYouTube(slices, logs[logs.length - 1], -1);
       this.roomSlices = slices;
-      if (this.roomSlices.length) {
+      if (this.roomSlices.length && !this.hasStartedPlaying) {
+        this.hasStartedPlaying = true;
         this.clickStage(this.roomSlices[0]);
       }
       console.log(this.roomSlices);
@@ -347,8 +351,15 @@
   var dayIndex = search.indexOf("day=");
   if (search && dayIndex) {
     const roomId = search.substr(0, dayIndex - 1);
-    const dayString = search.substr(dayIndex + "day=".length);
-    playback = new IeeeVisStreamPlayback(roomId, dayString);
+    let dayString = search.substr(dayIndex + "day=".length);
+    const sessionIndex = dayString.indexOf("session=");
+    let sessionString = "";
+    if (sessionIndex !== -1) {
+      sessionString = dayString.substr(sessionIndex + "session=".length);
+      dayString = dayString.substr(0, sessionIndex - 1);
+    }
+    console.log(roomId, dayString, sessionString);
+    playback = new IeeeVisStreamPlayback(roomId, dayString, sessionString);
     document.getElementById("wrapper").style.display = "flex";
     onYouTubeIframeAPIReady = () => {
       playback.onYouTubeIframeAPIReady();

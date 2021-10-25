@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-body.viewer {
+body.viewer, body.playback {
     overflow: hidden;
 }
 h1, h2, h3, h4 {
@@ -68,6 +68,11 @@ iframe {
 }
 #sidepanel * {
     transition: height ease 300ms;
+}
+
+.playback #sidepanel {
+    overflow-y: auto;
+    height: 100vh;
 }
 
 #main-content {

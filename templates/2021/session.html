@@ -246,11 +246,11 @@ function updateSessionStatus(onFirstLoad) {
         // autoplay while not being shown.
         if (onFirstLoad) {
             const iframe = document.createElement("iframe");
-            iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
+            // iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
+            iframe.src = "playback.html?room={{room.id}}&day={{session.day}}&session={{session.id}}";
             iframe.frameBorder = 0;
             iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
             iframe.allowfullscreen = true ;
-            iframe.scrolling = "no";
             const playbackContainer = document.getElementById("playback-container");
             playbackContainer.append(iframe);
         }
