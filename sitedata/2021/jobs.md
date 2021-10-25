@@ -8,7 +8,7 @@ We will collect job postings and display them here through out the VIS 2021 meet
 
 Questions? Contact the Community Committee (Karen Schloss, Hsiang-Yun Wu, Lane Harrison) at community@ieeevis.org. 
 
-# Academic
+## Academic
 
 ### Boston University Center for Antiracist Research
 
@@ -20,6 +20,24 @@ Questions? Contact the Community Committee (Karen Schloss, Hsiang-Yun Wu, Lane H
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: Hannah McKinney, Research Manager, hlm@bu.edu  
+### Centre Marc Bloch Berlin, CNRS
+**Postdoctoral Fellowship: Data Visualization for Computational Social Science** at Centre Marc Bloch Berlin, CNRS (Berlin & Potsdam, Germany), start date: 2022-01-01
+
+
+[https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf](https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf)
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes  
+Contact: marian.doerk@fh-potsdam.de  
+### Film University Babelsberg KONRAD WOLF
+**Professor of Data Analytics and Audiovisual Media** at Film University Babelsberg KONRAD WOLF (Potsdam, Germany), start date: 2022-10-01
+
+
+[https://jobs.b-ite.com/api/v1/assets/399c3613-bdf6-487d-a54b-8a278ebeac72.pdf](https://jobs.b-ite.com/api/v1/assets/399c3613-bdf6-487d-a54b-8a278ebeac72.pdf)
+
+Start time flexible? No  
+Attend job fair meetup? No, please contact directly  
+Contact: Prof. Dr. Lena Gieseke, l.gieseke@filmuniversitaet.de  
 ### German Aerospace Center (DLR)
 **Computer Scientist - Semi-automated methods for interacting with augmented reality in digital twins and smart cities scenarios** at German Aerospace Center (DLR) (Braunschweig, Germany), start date: 2022-01-01
 
@@ -45,6 +63,29 @@ Contact: andreas.gerndt@dlr.de
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: redak@iu.edu  
+### King Abdullah University of Science & Technology (KAUST)
+**Visualization Staff Scientist - 3D/VR** at King Abdullah University of Science & Technology (KAUST) (Saudi Arabia), start date: 2021-12-01
+
+
+[https://careers.kaust.edu.sa/job/Visualization-Core-Lab-Visualization-Staff-Scientist-3DVR/712472001/](https://careers.kaust.edu.sa/job/Visualization-Core-Lab-Visualization-Staff-Scientist-3DVR/712472001/)
+
+**Visualization Staff Scientist - HPC** at King Abdullah University of Science & Technology (KAUST) (Saudi Arabia), start date: 2021-12-01
+
+
+[https://careers.kaust.edu.sa/job/Visualization-Core-Laboratory-Visualization-Scientist/689374701/](https://careers.kaust.edu.sa/job/Visualization-Core-Laboratory-Visualization-Scientist/689374701/)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: sohaib.ghani@kaust.edu.sa  
+### King's College London
+**Postdoctoral Position** at King's College London (London, United Kingdom), start date: 2022-04-01
+
+
+[https://jobs.kcl.ac.uk/gb/en/job/033966/Research-Associate](https://jobs.kcl.ac.uk/gb/en/job/033966/Research-Associate)
+
+Start time flexible? No  
+Attend job fair meetup? No, please contact directly  
+Contact: Alfie Abdul-Rahman, alfie.abdulrahman@kcl.ac.uk  
 ### Montana State University
 **Postdoctoral Researcher** at Montana State University (Bozeman, MT, USA), start date: 2022-08-15
 
@@ -97,8 +138,16 @@ Contact: Melanie Tory, m.tory@northeastern.edu
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: bsumma@tulane.edu  
+### University of Waterloo
+**Postdoctoral Fellow** at University of Waterloo (Waterloo, ON, Canada), start date: 2022-01-01
 
-# Industry
+
+[https://www.jeffjianzhao.com/assets/files/postdoc-ads.pdf](https://www.jeffjianzhao.com/assets/files/postdoc-ads.pdf)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Jian Zhao, jianzhao@uwaterloo.ca  
+## Industry
 ### Kitware
 **Scientific Visualization Developer** at Kitware (USA - Multiple Locations), start date: 2021-11-01
 
@@ -123,8 +172,14 @@ Contact: bsumma@tulane.edu
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: John Westbrook; john.westbrook@kitware.com  
+### Stardog Union
+**Software Engineer** at Stardog Union (Remote (based in Arlington, VA)), start date: 2021-10-24
 
-# Student
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes  
+Contact: alex.bigelow@stardog.com  
+## Student
 ### University of Zurich (UZH)
 **Ph.D Position in Visual Analytics for Multiple Sclerosis** at University of Zurich (UZH) (Zurich, Switzerland), start date: 2021-12-01
 
