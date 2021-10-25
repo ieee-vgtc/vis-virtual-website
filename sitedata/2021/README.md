@@ -3,12 +3,16 @@
 <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/1kqiJU4eShQ?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+The above video is a short introduction to the conferencethat includes a welcome message, how to navigate live and static content, and tips for navigating Gather, Discord, as well as this virtual conference website.
+
 ### Social Media
 
 Please feel free to use social media to talk about [IEEE VIS 2021](http://ieeevis.org/year/2021/welcome).
 Enjoy the 2021 edition of <strong>#ieeevis</strong>.
 
 ### Help
+
+The [schedule page](calendar.html) is the entry point to live events, and a good starting point to explore available sessions.
 
 Feel free to visit [our Help page above](/year/2021/help.html) for answers to common questions, where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
 
