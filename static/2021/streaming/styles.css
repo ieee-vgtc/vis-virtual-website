@@ -70,6 +70,11 @@ iframe {
     transition: height ease 300ms;
 }
 
+#sidepanel {
+    overflow-y: auto;
+    height: 100vh;
+}
+
 #main-content {
     height: 100%;
 }

@@ -1,5 +1,12 @@
 {% set page_title = paper.title %}
 {% set active_page = "Papers" %}
+
+{% set social_title = "Paper: " ~ paper.title %}
+{% set social_description = paper.abstract %}
+{% if paper.has_image %}
+{% set social_image = "https://ieeevis.b-cdn.net/vis_2021/paper_images/" ~ paper.id ~ ".png" %}
+{% endif %}
+
 {% extends "2021/base.html" %}
 
 {% block content %}
