@@ -92,6 +92,7 @@
       this.youtubePlayerLoaded = false;
       this.youtubePlayerReady = false;
       this.lastVideoId = "";
+      this.lastCatchupChecksLedToCatchup = [];
       this.init();
     }
     onYouTubeIframeAPIReady() {
@@ -107,9 +108,8 @@
       } else {
         if (!currentVideoId && this.player) {
           this.player.stopVideo();
-          console.log("stop video");
         } else {
-          if (this.lastVideoId !== currentVideoId) {
+          if (currentVideoId && this.lastVideoId !== currentVideoId) {
             this.changeYoutubeVideo();
           }
         }
@@ -137,7 +137,6 @@
         this.player.mute();
       }
       this.player.playVideo();
-      console.log("player ready play video");
       this.updateVideo();
     }
     onPlayerStateChange(state) {
@@ -146,14 +145,16 @@
       }
       if (state.data === PlayerState.UNSTARTED) {
         this.player.seekTo(this.getCurrentStartTimeS() || 0, true);
-        console.log("seek to 1");
       }
       if (state.data === PlayerState.PLAYING || state.data === PlayerState.BUFFERING) {
         const startTime = this.getCurrentStartTimeS() || 0;
         const currentTime = this.player.getCurrentTime();
-        if (Math.abs(startTime - currentTime) > 5) {
+        const shouldCatchUp = Math.abs(startTime - currentTime) > 5;
+        this.lastCatchupChecksLedToCatchup.push(shouldCatchUp);
+        this.lastCatchupChecksLedToCatchup = this.lastCatchupChecksLedToCatchup.slice(-4);
+        const notAllLastChecksForcedCatchup = this.lastCatchupChecksLedToCatchup.indexOf(false) !== -1;
+        if (shouldCatchUp && notAllLastChecksForcedCatchup) {
           this.player.seekTo(startTime, true);
-          console.log("seek to 2");
           console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime(), this.player.getDuration(), this.player);
         }
       }
@@ -180,9 +181,12 @@
       });
     }
     changeYoutubeVideo() {
-      this.player.loadVideoById(this.getCurrentVideoId(), this.getCurrentStartTimeS());
+      const currentVideoId = this.getCurrentVideoId();
+      if (!currentVideoId) {
+        return;
+      }
+      this.player.loadVideoById(currentVideoId, this.getCurrentStartTimeS());
       this.player.playVideo();
-      console.log("playvideo");
     }
     getCurrentStartTimeS() {
       if (!this.getCurrentStage().live || !this.youtubePlayerReady) {
