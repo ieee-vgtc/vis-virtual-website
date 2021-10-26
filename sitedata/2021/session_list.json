@@ -12,9 +12,9 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo2.png",
                 "chair": [
-                    "Alex Bock",
+                    "Micha Schwab",
                     "Will Usher",
-                    "Micha Schwab"
+                    "Alex Bock"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-22T15:00:00Z",
@@ -61,9 +61,9 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo3.png",
                 "chair": [
-                    "Alex Bock",
+                    "Micha Schwab",
                     "Will Usher",
-                    "Micha Schwab"
+                    "Alex Bock"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-23T02:00:00Z",
@@ -119,9 +119,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
-                    "Junming Shao",
+                    "Alvitta Ottley",
                     "Liang Gou",
-                    "Alvitta Ottley"
+                    "Junming Shao"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -246,9 +246,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
-                    "Danny T.Y. Wu",
+                    "J\u00fcrgen Bernard",
                     "Annie T. Chen",
-                    "J\u00fcrgen Bernard"
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -702,8 +702,8 @@
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
                     "Houda Lamqaddam",
-                    "Mark-Jan Bludau",
-                    "Florian Windhager"
+                    "Florian Windhager",
+                    "Mark-Jan Bludau"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
@@ -824,8 +824,8 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-4.png",
                 "chair": [
-                    "Stefania Forlini",
-                    "Chris Weaver"
+                    "Chris Weaver",
+                    "Stefania Forlini"
                 ],
                 "organizers": [
                     "Houda Lamqaddam",
@@ -1037,8 +1037,8 @@
                 "track": "room5",
                 "schedule_image": "w-trex.png",
                 "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
+                    "Emily Wall",
+                    "Mahsan Nourani"
                 ],
                 "organizers": [
                     "Mahsan Nourani",
@@ -1962,9 +1962,9 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Michael Correll",
-                    "Paul Rosen",
                     "Jane Adams",
+                    "Paul Rosen",
+                    "Michael Correll",
                     "Charles Perin"
                 ],
                 "organizers": [
@@ -2171,13 +2171,13 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
+                    "Eli T Brown",
                     "Ab Mosca",
-                    "Conny Walchshofer",
                     "Marc Streit",
-                    "John Wenskovitch",
                     "Kai Xu",
-                    "Michelle Dowling",
-                    "Eli T Brown"
+                    "Conny Walchshofer",
+                    "John Wenskovitch",
+                    "Michelle Dowling"
                 ],
                 "organizers": [
                     "John Wenskovitch",
@@ -2337,10 +2337,10 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Eun Kyoung Choe",
-                    "Sheelagh Carpendale",
                     "Melanie Tory",
+                    "Eun Kyoung Choe",
                     "Bongshin Lee",
+                    "Sheelagh Carpendale",
                     "Lyn Bartram"
                 ],
                 "organizers": [
@@ -2480,10 +2480,10 @@
                 "schedule_image": "w-viscomm.png",
                 "chair": [
                     "Jonathan Schwabish",
-                    "Jon Schwabish",
-                    "Alvitta Ottley",
+                    "Barbara Millet",
                     "Adriana Arcia",
-                    "Barbara Millet"
+                    "Jon Schwabish",
+                    "Alvitta Ottley"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2921,9 +2921,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
-                    "Chaoli Wang",
                     "Johanna Beyer",
-                    "Kristi Potter"
+                    "Kristi Potter",
+                    "Chaoli Wang"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -3387,8 +3387,8 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-1.png",
                 "chair": [
-                    "Samuel Huron",
-                    "Mandy Keck"
+                    "Mandy Keck",
+                    "Samuel Huron"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3544,12 +3544,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
-                    "Sheelagh Carpendale",
-                    "Benjamin Bach",
-                    "Samuel Huron",
-                    "Georgia Panagiotidou",
                     "Jonathan C. Roberts",
-                    "Mandy Keck"
+                    "Georgia Panagiotidou",
+                    "Mandy Keck",
+                    "Samuel Huron",
+                    "Benjamin Bach",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3617,12 +3617,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
-                    "Mandy Keck",
-                    "Sheelagh Carpendale",
-                    "Benjamin Bach",
-                    "Samuel Huron",
+                    "Jonathan C. Roberts",
                     "Georgia Panagiotidou",
-                    "Jonathan C. Roberts"
+                    "Mandy Keck",
+                    "Samuel Huron",
+                    "Benjamin Bach",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3689,12 +3689,12 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
-                    "Mandy Keck",
-                    "Sheelagh Carpendale",
-                    "Benjamin Bach",
-                    "Samuel Huron",
+                    "Jonathan C. Roberts",
                     "Georgia Panagiotidou",
-                    "Jonathan C. Roberts"
+                    "Mandy Keck",
+                    "Samuel Huron",
+                    "Benjamin Bach",
+                    "Sheelagh Carpendale"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3781,8 +3781,8 @@
                 "schedule_image": "w-visxvision.png",
                 "chair": [
                     "Madison Elliott",
-                    "Cindy Xiong",
                     "Christie Nothelfer",
+                    "Cindy Xiong",
                     "Danielle Szafir"
                 ],
                 "organizers": [
@@ -3982,11 +3982,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Michael Correll",
                     "Leilani Battle",
-                    "Evan Peck",
+                    "Michelle Borkin",
+                    "Michael Correll",
                     "Lane Harrison",
-                    "Michelle Borkin"
+                    "Evan Peck"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -4171,9 +4171,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
-                    "Niklas R\u00f6nnberg",
+                    "Camilla Forsell",
                     "Matt Cooper",
-                    "Camilla Forsell"
+                    "Niklas R\u00f6nnberg"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4391,9 +4391,9 @@
                 "chair": [
                     "Hendrik Strobelt",
                     "VISxAI orga",
+                    "Adam Perer",
                     "Fred Hohman",
-                    "Menna El-Assady",
-                    "Adam Perer"
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
@@ -4563,14 +4563,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
+                    "Michael Iber",
+                    "Niklas R\u00f6nnberg",
+                    "Robert H\u00f6ldrich",
+                    "Wolfgang Aigner",
+                    "Alexander Rind",
                     "Niklas Elmqvist",
                     "Bruce N. Walker",
-                    "Robert H\u00f6ldrich",
-                    "Niklas R\u00f6nnberg",
-                    "Kajetan Enge",
-                    "Michael Iber",
-                    "Wolfgang Aigner",
-                    "Alexander Rind"
+                    "Kajetan Enge"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4710,9 +4710,9 @@
                 "track": "room6",
                 "schedule_image": "t-reviews.png",
                 "chair": [
-                    "Bongshin Lee",
                     "Anastasia Bezerianos",
-                    "Petra Isenberg"
+                    "Petra Isenberg",
+                    "Bongshin Lee"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -4925,11 +4925,11 @@
                 "schedule_image": "v-opening-1.png",
                 "chair": [
                     "Brian Summa",
-                    "Catherine Plaisant",
                     "Terry Yoo",
                     "Tamara Munzner",
                     "Luis Gustavo Nonato",
-                    "Daniel Weiskopf"
+                    "Daniel Weiskopf",
+                    "Catherine Plaisant"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4997,9 +4997,9 @@
                 "track": "room1",
                 "schedule_image": "v-full-full1.png",
                 "chair": [
+                    "Silvia Miksch",
                     "Anders Ynnerman",
-                    "Bongshin Lee",
-                    "Silvia Miksch"
+                    "Bongshin Lee"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -6771,13 +6771,25 @@
                 "time_slots": [
                     {
                         "type": "recorded",
+                        "title": "Interactive Visual Exploration of Longitudinal Historical Career Mobility Data",
+                        "contributors": [
+                            "Yifang Wang"
+                        ],
+                        "abstract": "The increased availability of quantitative historical datasets has provided new research opportunities for multiple disciplines in social science. In this paper, we work closely with the constructors of a new dataset, CGED-Q (China Government Employee Database-Qing), that records the career trajectories of over 340,000 government officials in the Qing bureaucracy in China from 1760 to 1912. We use these data to study career mobility from a historical perspective and understand social mobility and inequality. However, existing statistical approaches are inadequate for analyzing career mobility in this historical dataset with its fine-grained attributes and long time span, since they are mostly hypothesis-driven and require substantial effort. We propose CareerLens, an interactive visual analytics system for assisting experts in exploring, understanding, and reasoning from historical career data. With CareerLens, experts examine mobility patterns in three levels-of-detail, namely, the macro-level providing a summary of overall mobility, the meso-level extracting latent group mobility patterns, and the micro-level revealing social relationships of individuals. We demonstrate the effectiveness and usability of CareerLens through two case studies and receive encouraging feedback from follow-up interviews with domain experts",
+                        "time_start": "2021-10-28T17:00:00Z",
+                        "time_end": "2021-10-28T17:15:00Z",
+                        "uid": "v-tvcg-9382844",
+                        "youtube_video_id": "ArOIzF8zrog"
+                    },
+                    {
+                        "type": "recorded",
                         "title": "KD-Box: Line-segment-based KD-tree for Interactive Exploration of Large-scale Time-Series Data",
                         "contributors": [
                             "Yue Zhao"
                         ],
                         "abstract": "Time-series data\u2014usually presented in the form of lines\u2014plays an important role in many domains such as finance, meteorology, health, and urban informatics. Yet, little has been done to support interactive exploration of large-scale time-series data, which requires a clutter-free visual representation with low-latency interactions. In this paper, we contribute a novel line-segment-based KD-tree method to enable interactive analysis of many time series. Our method enables not only fast queries over time series in selected regions of interest but also a line splatting method for efficient computation of the density field and selection of representative lines. Further, we develop KD-Box, an interactive system that provides rich interactions, e.g., timebox, attribute filtering, and coordinated multiple views. We demonstrate the effectiveness of KD-Box in supporting efficient line query and density field computation through a quantitative comparison and show its usefulness for interactive visual analysis on several real-world datasets.",
-                        "time_start": "2021-10-28T17:00:00Z",
-                        "time_end": "2021-10-28T17:15:00Z",
+                        "time_start": "2021-10-28T17:15:00Z",
+                        "time_end": "2021-10-28T17:30:00Z",
                         "uid": "v-full-1433",
                         "youtube_video_id": "hKJ7ihBYH4Q"
                     },
@@ -6788,8 +6800,8 @@
                             "Jessica Magallanes"
                         ],
                         "abstract": "Building a visual overview of temporal event sequences with an optimal level-of-detail (i.e. simplified but informative) is an ongoing challenge - expecting the user to zoom into every important aspect of the overview can lead to missing insights. We propose a technique to build and explore a multilevel overview of event sequences, from coarse to fine vertical or horizontal level-of-detail, using hierarchical aggregation and a novel cluster data representation Align-Score-Simplify. By default, the overview shows an optimal number of sequence clusters obtained through the average silhouette width metric \u2013 then users are able to explore alternative optimal sequence clusterings. The vertical level-of-detail of the overview changes along with the number of clusters, whilst the horizontal level-of-detail refers to the level of summarization applied to each cluster representation. The proposed technique has been implemented into a visualization system called Sequence Cluster Explorer (Sequen-C) that allows multilevel and detail-on-demand exploration through three coordinated views, and the inspection of data attributes at cluster, unique sequence, and individual sequence level. We present two case studies using real-world datasets in the healthcare domain: CUREd and MIMIC-III, which demonstrate how the technique can aid users in exploring and defining a set of distinct pathways that best summarize the dataset, while also being able of identifying deviating pathways and exploring data attributes for selected patterns.",
-                        "time_start": "2021-10-28T17:15:00Z",
-                        "time_end": "2021-10-28T17:30:00Z",
+                        "time_start": "2021-10-28T17:30:00Z",
+                        "time_end": "2021-10-28T17:45:00Z",
                         "uid": "v-full-1116",
                         "youtube_video_id": "MIBxUq7eZ0M"
                     },
@@ -6800,22 +6812,10 @@
                             "Tinghao Feng"
                         ],
                         "abstract": "Earth scientists are increasingly employing time series data with multiple dimensions and high temporal resolution to study the impacts of climate and environmental changes on Earth\u2019s atmosphere, biosphere, hydrosphere, and lithosphere. However, the large number of variables and varying time scales of antecedent conditions contributing to natural phenomena hinder scientists from completing more than the most basic analyses. In this paper, we present EVis (Environmental Visualization), a new visual analytics prototype to help scientists analyze and explore recurring environmental events (e.g. rock fracture, landslides, heat waves, floods) and their relationships with high dimensional time series of continuous numeric environmental variables, such as ambient temperature and precipitation. EVis provides coordinated scatterplots, heatmaps, histograms, and RadViz for foundational analyses. These features allow users to interactively examine relationships between events and one, two, three, or more environmental variables. EVis also provides a novel visual analytics approach to allowing users to discover temporally lagging relationships related to antecedent conditions between events and multiple variables, a critical task in Earth sciences. In particular, this latter approach projects multivariate time series onto trajectories in a 2D space using RadViz, and clusters the trajectories for temporal pattern discovery. Our case studies with rock cracking data and interviews with domain experts from a range of sub-disciplines within Earth sciences illustrate the extensive applicability and usefulness of EVis.",
-                        "time_start": "2021-10-28T17:30:00Z",
-                        "time_end": "2021-10-28T17:45:00Z",
-                        "uid": "v-full-1287",
-                        "youtube_video_id": "YXJeaAoYF4M"
-                    },
-                    {
-                        "type": "recorded",
-                        "title": "Interactive Visual Exploration of Longitudinal Historical Career Mobility Data",
-                        "contributors": [
-                            "Yifang Wang"
-                        ],
-                        "abstract": "The increased availability of quantitative historical datasets has provided new research opportunities for multiple disciplines in social science. In this paper, we work closely with the constructors of a new dataset, CGED-Q (China Government Employee Database-Qing), that records the career trajectories of over 340,000 government officials in the Qing bureaucracy in China from 1760 to 1912. We use these data to study career mobility from a historical perspective and understand social mobility and inequality. However, existing statistical approaches are inadequate for analyzing career mobility in this historical dataset with its fine-grained attributes and long time span, since they are mostly hypothesis-driven and require substantial effort. We propose CareerLens, an interactive visual analytics system for assisting experts in exploring, understanding, and reasoning from historical career data. With CareerLens, experts examine mobility patterns in three levels-of-detail, namely, the macro-level providing a summary of overall mobility, the meso-level extracting latent group mobility patterns, and the micro-level revealing social relationships of individuals. We demonstrate the effectiveness and usability of CareerLens through two case studies and receive encouraging feedback from follow-up interviews with domain experts",
                         "time_start": "2021-10-28T17:45:00Z",
                         "time_end": "2021-10-28T18:00:00Z",
-                        "uid": "v-tvcg-9382844",
-                        "youtube_video_id": "ArOIzF8zrog"
+                        "uid": "v-full-1287",
+                        "youtube_video_id": "YXJeaAoYF4M"
                     },
                     {
                         "type": "recorded",
@@ -7630,8 +7630,8 @@
                 "track": "room1",
                 "schedule_image": "v-keynote-1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T17:00:00Z",
@@ -7958,8 +7958,8 @@
                 "track": "room6",
                 "schedule_image": "a-visap-visap2.png",
                 "chair": [
-                    "Yoon Chung Han",
-                    "Charles Perin"
+                    "Charles Perin",
+                    "Yoon Chung Han"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-28T17:00:00Z",
@@ -8944,8 +8944,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-1.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9015,8 +9015,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-2.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9104,8 +9104,8 @@
                 "track": "room7",
                 "schedule_image": "a-vizsec-vizsec-3.png",
                 "chair": [
-                    "Chris Bryan",
-                    "Rosa Romero-G\u00f3mez"
+                    "Rosa Romero-G\u00f3mez",
+                    "Chris Bryan"
                 ],
                 "organizers": [
                     "Rosa Romero-G\u00f3mez",
@@ -9493,11 +9493,11 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Steven Morley",
-                    "Ayan Biswas",
-                    "Divya Banesh",
                     "Earl Lawrence",
                     "Natalie Klein",
+                    "Ayan Biswas",
+                    "Divya Banesh",
+                    "Steven Morley",
                     "Subhashis Hazarika"
                 ],
                 "organizers": [
@@ -10077,13 +10077,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Wouter van Elmpt",
-                    "Renata G. Raidou",
-                    "Uulke van der Heide",
+                    "Noeska Smit",
                     "Katja B\u00fchler",
                     "Ludvig P. Muren",
-                    "Noeska Smit",
-                    "Vitali Moiseenko"
+                    "Renata G. Raidou",
+                    "Vitali Moiseenko",
+                    "Uulke van der Heide",
+                    "Wouter van Elmpt"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -10239,9 +10239,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Alexander Bock",
                     "Anders Ynnerman",
-                    "Mark SubbaRao"
+                    "Mark SubbaRao",
+                    "Alexander Bock"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -10592,8 +10592,8 @@
                 "track": "room3",
                 "schedule_image": "m-climate.png",
                 "chair": [
-                    "Subhashis Hazarika",
-                    "Peetak Mitra"
+                    "Peetak Mitra",
+                    "Subhashis Hazarika"
                 ],
                 "organizers": [
                     "Subhashis Hazarika",
@@ -10738,8 +10738,8 @@
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
                     "Petra Gospodnetic",
-                    "Christina Gillmann",
-                    "Karsten Rink"
+                    "Karsten Rink",
+                    "Christina Gillmann"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -11037,8 +11037,8 @@
                 "track": "room1",
                 "schedule_image": "x-vis-closing1.png",
                 "chair": [
-                    "Brian Summa",
-                    "Luis Gustavo Nonato"
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-29T17:00:00Z",
