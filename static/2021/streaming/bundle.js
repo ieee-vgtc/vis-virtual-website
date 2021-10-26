@@ -92,6 +92,7 @@
       this.youtubePlayerLoaded = false;
       this.youtubePlayerReady = false;
       this.lastVideoId = "";
+      this.lastCatchupChecksLedToCatchup = [];
       this.init();
     }
     onYouTubeIframeAPIReady() {
@@ -107,9 +108,8 @@
       } else {
         if (!currentVideoId && this.player) {
           this.player.stopVideo();
-          console.log("stop video");
         } else {
-          if (this.lastVideoId !== currentVideoId) {
+          if (currentVideoId && this.lastVideoId !== currentVideoId) {
             this.changeYoutubeVideo();
           }
         }
@@ -137,7 +137,6 @@
         this.player.mute();
       }
       this.player.playVideo();
-      console.log("player ready play video");
       this.updateVideo();
     }
     onPlayerStateChange(state) {
@@ -146,15 +145,23 @@
       }
       if (state.data === PlayerState.UNSTARTED) {
         this.player.seekTo(this.getCurrentStartTimeS() || 0, true);
-        console.log("seek to 1");
       }
       if (state.data === PlayerState.PLAYING || state.data === PlayerState.BUFFERING) {
         const startTime = this.getCurrentStartTimeS() || 0;
         const currentTime = this.player.getCurrentTime();
-        if (Math.abs(startTime - currentTime) > 5) {
+        const shouldCatchUp = Math.abs(startTime - currentTime) > 5;
+        this.lastCatchupChecksLedToCatchup.push(shouldCatchUp);
+        const consideredChecks = 4;
+        this.lastCatchupChecksLedToCatchup = this.lastCatchupChecksLedToCatchup.slice(-1 * consideredChecks);
+        const numChecks = this.lastCatchupChecksLedToCatchup.length;
+        const enoughChecks = numChecks >= consideredChecks;
+        const notAllLastChecksForcedCatchup = this.lastCatchupChecksLedToCatchup.indexOf(false) !== -1;
+        if (shouldCatchUp && (notAllLastChecksForcedCatchup || !enoughChecks)) {
           this.player.seekTo(startTime, true);
-          console.log("seek to 2");
           console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime(), this.player.getDuration(), this.player);
+        }
+        if (shouldCatchUp && !notAllLastChecksForcedCatchup) {
+          console.log("would normally catch up now, but skipping to prevent multi-seek.", this.lastCatchupChecksLedToCatchup, numChecks, enoughChecks);
         }
       }
     }
@@ -180,9 +187,12 @@
       });
     }
     changeYoutubeVideo() {
-      this.player.loadVideoById(this.getCurrentVideoId(), this.getCurrentStartTimeS());
+      const currentVideoId = this.getCurrentVideoId();
+      if (!currentVideoId) {
+        return;
+      }
+      this.player.loadVideoById(currentVideoId, this.getCurrentStartTimeS());
       this.player.playVideo();
-      console.log("playvideo");
     }
     getCurrentStartTimeS() {
       if (!this.getCurrentStage().live || !this.youtubePlayerReady) {
@@ -209,6 +219,7 @@
       this.PANEL_WIDTH_PERCENT = 40;
       this.CHAT_PADDING_LEFT_PX = 20;
       this.HORIZONTAL_PADDING = 30;
+      this.CAPTIONS_HEIGHT_PX = 150;
       this.currentPanelFocus = "none";
       this.db = new IeeeVisDb();
       this.player = new IeeeVisVideoPlayer(_IeeeVisStream.PLAYER_ELEMENT_ID, this.getCurrentStage.bind(this), this.getCurrentVideoId.bind(this), () => this.currentSession?.currentStatus);
@@ -281,7 +292,18 @@
         this.loadPreviewImage();
       }
       this.updateGathertown();
+      this.updateCaptions();
       this.resize();
+    }
+    updateCaptions() {
+      const captionsWrap = document.getElementById("captions-outer");
+      if (this.getCurrentStage()?.has_live_captions) {
+        captionsWrap.style.display = "";
+        const url = this.getCurrentStage().live_captions_url;
+        captionsWrap.innerHTML = `<iframe id="captions-iframe" src="${url}" height="${this.CAPTIONS_HEIGHT_PX}" width="100%"></iframe>`;
+      } else {
+        captionsWrap.style.display = "none";
+      }
     }
     getCurrentStage() {
       return this.getCurrentStageOfSession(this.currentSession);
@@ -317,9 +339,13 @@
       }
       const contentWidth = this.width * (100 - this.PANEL_WIDTH_PERCENT) / 100 - this.HORIZONTAL_PADDING;
       const mainContentHeight = this.height - _IeeeVisStream.HEADERS_HEIGHT;
+      let playerHeight = mainContentHeight;
+      if (this.getCurrentStage()?.has_live_captions && this.getCurrentStage()?.live_captions_url) {
+        playerHeight -= this.CAPTIONS_HEIGHT_PX;
+      }
       const contentWrap = document.getElementById(_IeeeVisStream.CONTENT_WRAPPER_ID);
       contentWrap.style.width = `${contentWidth}px`;
-      this.player.setSize(contentWidth, mainContentHeight);
+      this.player.setSize(contentWidth, playerHeight);
       const previewImg = document.getElementById("preview-img");
       if (previewImg) {
         document.getElementById("image-outer").style.height = `${mainContentHeight}px`;

@@ -12,8 +12,8 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo2.png",
                 "chair": [
-                    "Alex Bock",
                     "Will Usher",
+                    "Alex Bock",
                     "Micha Schwab"
                 ],
                 "organizers": [],
@@ -61,8 +61,8 @@
                 "track": "room10",
                 "schedule_image": "v-demo-demo3.png",
                 "chair": [
-                    "Alex Bock",
                     "Will Usher",
+                    "Alex Bock",
                     "Micha Schwab"
                 ],
                 "organizers": [],
@@ -119,9 +119,9 @@
                 "track": "room1",
                 "schedule_image": "a-vds.png",
                 "chair": [
+                    "Alvitta Ottley",
                     "Liang Gou",
-                    "Junming Shao",
-                    "Alvitta Ottley"
+                    "Junming Shao"
                 ],
                 "organizers": [
                     "Liang Guo"
@@ -246,9 +246,9 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-1.png",
                 "chair": [
+                    "J\u00fcrgen Bernard",
                     "Annie T. Chen",
-                    "Danny T.Y. Wu",
-                    "J\u00fcrgen Bernard"
+                    "Danny T.Y. Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -476,8 +476,8 @@
                 "track": "room2",
                 "schedule_image": "a-vahc-4.png",
                 "chair": [
-                    "Danny Wu",
-                    "Jesus Caban"
+                    "Jesus Caban",
+                    "Danny Wu"
                 ],
                 "organizers": [
                     "J\u00fcrgen Bernard",
@@ -701,8 +701,8 @@
                 "track": "room3",
                 "schedule_image": "a-vis4dh-3.png",
                 "chair": [
-                    "Mark-Jan Bludau",
                     "Florian Windhager",
+                    "Mark-Jan Bludau",
                     "Houda Lamqaddam"
                 ],
                 "organizers": [
@@ -917,8 +917,8 @@
                 "track": "room4",
                 "schedule_image": "w-nlviz.png",
                 "chair": [
-                    "Vidya Setlur",
-                    "Arjun Srinivasan"
+                    "Arjun Srinivasan",
+                    "Vidya Setlur"
                 ],
                 "organizers": [
                     "Vidya Setlur",
@@ -1037,8 +1037,8 @@
                 "track": "room5",
                 "schedule_image": "w-trex.png",
                 "chair": [
-                    "Mahsan Nourani",
-                    "Emily Wall"
+                    "Emily Wall",
+                    "Mahsan Nourani"
                 ],
                 "organizers": [
                     "Mahsan Nourani",
@@ -1638,15 +1638,14 @@
                         "time_end": "2021-10-24T16:30:00Z"
                     },
                     {
-                        "type": "recorded",
-                        "title": "Geographic Maps",
+                        "type": "live",
+                        "title": "Live Discussion - Extra Material",
                         "contributors": [
                             "Tamara Munzner"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-24T17:00:00Z",
-                        "time_end": "2021-10-24T17:30:00Z",
-                        "youtube_video_id": "rY8A4Bq5NMo"
+                        "time_end": "2021-10-24T17:30:00Z"
                     },
                     {
                         "type": "recorded",
@@ -1793,8 +1792,8 @@
                 "track": "room1",
                 "schedule_image": "a-vastchallenge.png",
                 "chair": [
-                    "R. Jordan Crouser",
-                    "Kris Cook"
+                    "Kris Cook",
+                    "R. Jordan Crouser"
                 ],
                 "organizers": [
                     "R. Jordan Crouser",
@@ -1963,10 +1962,10 @@
                 "track": "room4",
                 "schedule_image": "w-altvis.png",
                 "chair": [
-                    "Michael Correll",
-                    "Charles Perin",
                     "Paul Rosen",
-                    "Jane Adams"
+                    "Jane Adams",
+                    "Charles Perin",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Jane L. Adams",
@@ -2172,13 +2171,13 @@
                 "track": "room5",
                 "schedule_image": "w-mlui.png",
                 "chair": [
-                    "Michelle Dowling",
-                    "Eli T Brown",
+                    "Ab Mosca",
                     "Kai Xu",
                     "Marc Streit",
-                    "Conny Walchshofer",
                     "John Wenskovitch",
-                    "Ab Mosca"
+                    "Conny Walchshofer",
+                    "Eli T Brown",
+                    "Michelle Dowling"
                 ],
                 "organizers": [
                     "John Wenskovitch",
@@ -2338,11 +2337,11 @@
                 "track": "room6",
                 "schedule_image": "w-hdi.png",
                 "chair": [
-                    "Bongshin Lee",
                     "Lyn Bartram",
-                    "Melanie Tory",
                     "Sheelagh Carpendale",
-                    "Eun Kyoung Choe"
+                    "Eun Kyoung Choe",
+                    "Bongshin Lee",
+                    "Melanie Tory"
                 ],
                 "organizers": [
                     "Lyn Bartram",
@@ -2480,11 +2479,11 @@
                 "track": "room7",
                 "schedule_image": "w-viscomm.png",
                 "chair": [
-                    "Jonathan Schwabish",
-                    "Barbara Millet",
-                    "Jon Schwabish",
                     "Alvitta Ottley",
-                    "Adriana Arcia"
+                    "Adriana Arcia",
+                    "Jonathan Schwabish",
+                    "Jon Schwabish",
+                    "Barbara Millet"
                 ],
                 "organizers": [
                     "Barbara Millet",
@@ -2776,7 +2775,7 @@
                     "Chaoli Wang"
                 ],
                 "time_start": "2021-10-25T15:00:00Z",
-                "time_end": "2021-10-25T16:30:00Z",
+                "time_end": "2021-10-25T16:20:00Z",
                 "discord_category": "ldav",
                 "discord_channel": "algorithms",
                 "discord_channel_id": "892967369197101086",
@@ -2797,7 +2796,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T15:00:00Z",
-                        "time_end": "2021-10-25T16:30:00Z",
+                        "time_end": "2021-10-25T15:20:00Z",
                         "uid": "a-ldav-1000",
                         "youtube_video_id": "QrgjeZ-pJVQ"
                     },
@@ -2808,8 +2807,8 @@
                             "Tom Peterka"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:00:00Z",
-                        "time_end": "2021-10-25T16:30:00Z",
+                        "time_start": "2021-10-25T15:20:00Z",
+                        "time_end": "2021-10-25T15:40:00Z",
                         "uid": "a-ldav-1003",
                         "youtube_video_id": "SEhRBQRJneY"
                     },
@@ -2820,8 +2819,8 @@
                             "Matt Larsen"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:00:00Z",
-                        "time_end": "2021-10-25T16:30:00Z",
+                        "time_start": "2021-10-25T15:40:00Z",
+                        "time_end": "2021-10-25T16:00:00Z",
                         "uid": "a-ldav-1009",
                         "youtube_video_id": "9fz8_3rWgiM"
                     },
@@ -2832,8 +2831,8 @@
                             "Duong Hoang"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:00:00Z",
-                        "time_end": "2021-10-25T16:30:00Z",
+                        "time_start": "2021-10-25T16:00:00Z",
+                        "time_end": "2021-10-25T16:20:00Z",
                         "uid": "a-ldav-1015",
                         "youtube_video_id": "tuPUwyG_YBA"
                     }
@@ -2853,7 +2852,7 @@
                     "Chaoli Wang"
                 ],
                 "time_start": "2021-10-25T17:00:00Z",
-                "time_end": "2021-10-25T18:30:00Z",
+                "time_end": "2021-10-25T18:20:00Z",
                 "discord_category": "ldav",
                 "discord_channel": "renderdisplay",
                 "discord_channel_id": "892967369197101086",
@@ -2874,7 +2873,7 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-25T17:00:00Z",
-                        "time_end": "2021-10-25T18:30:00Z",
+                        "time_end": "2021-10-25T17:20:00Z",
                         "uid": "a-ldav-1007",
                         "youtube_video_id": "MAm8Wn2LjCA"
                     },
@@ -2885,8 +2884,8 @@
                             "Florian Frie\u00df"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T17:00:00Z",
-                        "time_end": "2021-10-25T18:30:00Z",
+                        "time_start": "2021-10-25T17:20:00Z",
+                        "time_end": "2021-10-25T17:40:00Z",
                         "uid": "a-ldav-1019",
                         "youtube_video_id": "VOChOmbSk0k"
                     },
@@ -2897,8 +2896,8 @@
                             "Sergei Shudler"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T17:00:00Z",
-                        "time_end": "2021-10-25T18:30:00Z",
+                        "time_start": "2021-10-25T17:40:00Z",
+                        "time_end": "2021-10-25T18:00:00Z",
                         "uid": "a-ldav-1021",
                         "youtube_video_id": "4fiRHoHs2dg"
                     },
@@ -2909,8 +2908,8 @@
                             "Nicole J. Marsaglia"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T17:00:00Z",
-                        "time_end": "2021-10-25T18:30:00Z",
+                        "time_start": "2021-10-25T18:00:00Z",
+                        "time_end": "2021-10-25T18:20:00Z",
                         "uid": "a-ldav-1022",
                         "youtube_video_id": "Kpg3RM6rB8w"
                     }
@@ -2922,9 +2921,9 @@
                 "track": "room1",
                 "schedule_image": "a-ldav-4.png",
                 "chair": [
-                    "Johanna Beyer",
                     "Chaoli Wang",
-                    "Kristi Potter"
+                    "Kristi Potter",
+                    "Johanna Beyer"
                 ],
                 "organizers": [
                     "Kristi Potter",
@@ -3216,6 +3215,21 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
+                        "type": "opening",
+                        "title": "Opening",
+                        "contributors": [
+                            "Mary Aviles",
+                            "Tiziana Alocci",
+                            "Piero Zagami",
+                            "Christian Miles",
+                            "Danielle Szafir"
+                        ],
+                        "abstract": "While IEEE VIS attendees are accustomed to reading and writing academic papers about data visualization, they may be less familiar with non-academic writing dedicated to the subject, writing that is intended primarily for audiences of visualization practitioners. This panel brings together the editors of four unique publications, each with a unique format and set of perspectives on visualization. The panelists include Mary Aviles (editor of Nightingale, the trade journal of the Data Visualization Society), Tiziana Alocci & Piero Zagami (co-founders of of Market Cafe Magazine), Christian Miles (editor of the Source / Target graph newsletter), and Danielle Szafir (editor of Multiple Views: Visualization Research Explained). Our discussion of publication origin stories and lessons learned will inspire VIS attendees to consider alternative publications, audiences, and formats for communicating their work.",
+                        "time_start": "2021-10-25T19:00:00Z",
+                        "time_end": "2021-10-25T19:01:00Z",
+                        "youtube_video_id": "n6dP2gc8fcA"
+                    },
+                    {
                         "type": "recorded",
                         "title": "Panel Intro",
                         "contributors": [
@@ -3226,7 +3240,7 @@
                             "Danielle Szafir"
                         ],
                         "abstract": "While IEEE VIS attendees are accustomed to reading and writing academic papers about data visualization, they may be less familiar with non-academic writing dedicated to the subject, writing that is intended primarily for audiences of visualization practitioners. This panel brings together the editors of four unique publications, each with a unique format and set of perspectives on visualization. The panelists include Mary Aviles (editor of Nightingale, the trade journal of the Data Visualization Society), Tiziana Alocci & Piero Zagami (co-founders of of Market Cafe Magazine), Christian Miles (editor of the Source / Target graph newsletter), and Danielle Szafir (editor of Multiple Views: Visualization Research Explained). Our discussion of publication origin stories and lessons learned will inspire VIS attendees to consider alternative publications, audiences, and formats for communicating their work.",
-                        "time_start": "2021-10-25T19:00:00Z",
+                        "time_start": "2021-10-25T19:01:00Z",
                         "time_end": "2021-10-25T19:10:00Z",
                         "youtube_video_id": "n6dP2gc8fcA"
                     },
@@ -3373,8 +3387,8 @@
                 "track": "room4",
                 "schedule_image": "w-visactivities-1.png",
                 "chair": [
-                    "Mandy Keck",
-                    "Samuel Huron"
+                    "Samuel Huron",
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3531,11 +3545,11 @@
                 "schedule_image": "w-visactivities-2.png",
                 "chair": [
                     "Benjamin Bach",
-                    "Mandy Keck",
-                    "Georgia Panagiotidou",
                     "Sheelagh Carpendale",
+                    "Samuel Huron",
+                    "Georgia Panagiotidou",
                     "Jonathan C. Roberts",
-                    "Samuel Huron"
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3604,11 +3618,11 @@
                 "schedule_image": "w-visactivities-3.png",
                 "chair": [
                     "Benjamin Bach",
-                    "Mandy Keck",
-                    "Georgia Panagiotidou",
                     "Sheelagh Carpendale",
+                    "Samuel Huron",
+                    "Georgia Panagiotidou",
                     "Jonathan C. Roberts",
-                    "Samuel Huron"
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3676,11 +3690,11 @@
                 "schedule_image": "w-visactivities-4.png",
                 "chair": [
                     "Benjamin Bach",
-                    "Mandy Keck",
-                    "Georgia Panagiotidou",
                     "Sheelagh Carpendale",
+                    "Samuel Huron",
+                    "Georgia Panagiotidou",
                     "Jonathan C. Roberts",
-                    "Samuel Huron"
+                    "Mandy Keck"
                 ],
                 "organizers": [
                     "Samuel Huron",
@@ -3767,9 +3781,9 @@
                 "schedule_image": "w-visxvision.png",
                 "chair": [
                     "Cindy Xiong",
+                    "Danielle Szafir",
                     "Madison Elliott",
-                    "Christie Nothelfer",
-                    "Danielle Szafir"
+                    "Christie Nothelfer"
                 ],
                 "organizers": [
                     "Cindy Xiong",
@@ -3968,11 +3982,11 @@
                 "track": "room6",
                 "schedule_image": "w-vis4good.png",
                 "chair": [
-                    "Michael Correll",
-                    "Michelle Borkin",
                     "Lane Harrison",
                     "Leilani Battle",
-                    "Evan Peck"
+                    "Michelle Borkin",
+                    "Evan Peck",
+                    "Michael Correll"
                 ],
                 "organizers": [
                     "Leilani Battle",
@@ -3982,7 +3996,7 @@
                     "Evan Peck"
                 ],
                 "time_start": "2021-10-25T13:00:00Z",
-                "time_end": "2021-10-25T16:25:00Z",
+                "time_end": "2021-10-25T16:26:00Z",
                 "discord_category": "visualization for social good",
                 "discord_channel": "general",
                 "discord_channel_id": "894792589545443359",
@@ -4038,13 +4052,27 @@
                     },
                     {
                         "type": "live",
+                        "title": "Welcome Back",
+                        "contributors": [
+                            "Leilani Battle",
+                            "Michelle Borkin",
+                            "Michael Correll",
+                            "Lane Harrison",
+                            "Evan Peck"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T15:00:00Z",
+                        "time_end": "2021-10-25T15:01:00Z"
+                    },
+                    {
+                        "type": "live",
                         "title": "Making the Invisible Visible: Risks and Benefits of Disclosing Metadata in Visualization",
                         "contributors": [
                             "Alyxander Burns"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:00:00Z",
-                        "time_end": "2021-10-25T15:12:00Z"
+                        "time_start": "2021-10-25T15:01:00Z",
+                        "time_end": "2021-10-25T15:13:00Z"
                     },
                     {
                         "type": "live",
@@ -4053,8 +4081,8 @@
                             "Cathryn Ploehn"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:12:00Z",
-                        "time_end": "2021-10-25T15:24:00Z"
+                        "time_start": "2021-10-25T15:13:00Z",
+                        "time_end": "2021-10-25T15:25:00Z"
                     },
                     {
                         "type": "live",
@@ -4063,8 +4091,8 @@
                             "Neil Richards"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:24:00Z",
-                        "time_end": "2021-10-25T15:36:00Z"
+                        "time_start": "2021-10-25T15:25:00Z",
+                        "time_end": "2021-10-25T15:37:00Z"
                     },
                     {
                         "type": "live",
@@ -4073,8 +4101,8 @@
                             "Uzma Haque Syeda"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:36:00Z",
-                        "time_end": "2021-10-25T15:41:00Z"
+                        "time_start": "2021-10-25T15:37:00Z",
+                        "time_end": "2021-10-25T15:42:00Z"
                     },
                     {
                         "type": "live",
@@ -4083,8 +4111,8 @@
                             "Manaswi Saha"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:41:00Z",
-                        "time_end": "2021-10-25T15:46:00Z"
+                        "time_start": "2021-10-25T15:42:00Z",
+                        "time_end": "2021-10-25T15:47:00Z"
                     },
                     {
                         "type": "live",
@@ -4093,8 +4121,8 @@
                             "Michael Hoefer"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:46:00Z",
-                        "time_end": "2021-10-25T15:51:00Z"
+                        "time_start": "2021-10-25T15:47:00Z",
+                        "time_end": "2021-10-25T15:52:00Z"
                     },
                     {
                         "type": "live",
@@ -4103,8 +4131,8 @@
                             "Tommaso Elli"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:51:00Z",
-                        "time_end": "2021-10-25T15:56:00Z"
+                        "time_start": "2021-10-25T15:52:00Z",
+                        "time_end": "2021-10-25T15:57:00Z"
                     },
                     {
                         "type": "live",
@@ -4113,8 +4141,8 @@
                             "Michelle Borkin"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T15:56:00Z",
-                        "time_end": "2021-10-25T16:05:00Z"
+                        "time_start": "2021-10-25T15:57:00Z",
+                        "time_end": "2021-10-25T16:06:00Z"
                     },
                     {
                         "type": "live",
@@ -4123,8 +4151,8 @@
                             "All"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T16:05:00Z",
-                        "time_end": "2021-10-25T16:25:00Z"
+                        "time_start": "2021-10-25T16:06:00Z",
+                        "time_end": "2021-10-25T16:26:00Z"
                     }
                 ]
             }
@@ -4143,9 +4171,9 @@
                 "track": "room7",
                 "schedule_image": "t-usereval.png",
                 "chair": [
+                    "Matt Cooper",
                     "Niklas R\u00f6nnberg",
-                    "Camilla Forsell",
-                    "Matt Cooper"
+                    "Camilla Forsell"
                 ],
                 "organizers": [
                     "Matt Cooper",
@@ -4362,16 +4390,16 @@
                 "schedule_image": "a-visxai.png",
                 "chair": [
                     "Fred Hohman",
-                    "Menna El-Assady",
-                    "VISxAI orga",
+                    "Hendrik Strobelt",
                     "Adam Perer",
-                    "Hendrik Strobelt"
+                    "VISxAI orga",
+                    "Menna El-Assady"
                 ],
                 "organizers": [
                     "VISxAI orga"
                 ],
                 "time_start": "2021-10-25T17:00:00Z",
-                "time_end": "2021-10-25T20:10:00Z",
+                "time_end": "2021-10-25T20:11:00Z",
                 "discord_category": "visxai",
                 "discord_channel": "general",
                 "discord_channel_id": "892967369775939654",
@@ -4426,13 +4454,26 @@
                     },
                     {
                         "type": "live",
+                        "title": "Welcome Back",
+                        "contributors": [
+                            "Adam Perer",
+                            "Fred Hohman",
+                            "Hendrik Strobelt",
+                            "Mennatallah El-Assady"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T19:00:00Z",
+                        "time_end": "2021-10-25T19:01:00Z"
+                    },
+                    {
+                        "type": "live",
                         "title": "An Interactive Introduction to Model-Agnostic Meta-Learning",
                         "contributors": [
                             "Thomas Goerttler"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:00:00Z",
-                        "time_end": "2021-10-25T19:10:00Z"
+                        "time_start": "2021-10-25T19:01:00Z",
+                        "time_end": "2021-10-25T19:11:00Z"
                     },
                     {
                         "type": "live",
@@ -4441,8 +4482,8 @@
                             "Rebecca Kehlbeck"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:10:00Z",
-                        "time_end": "2021-10-25T19:20:00Z"
+                        "time_start": "2021-10-25T19:11:00Z",
+                        "time_end": "2021-10-25T19:21:00Z"
                     },
                     {
                         "type": "live",
@@ -4451,8 +4492,8 @@
                             "Donald Bertucci"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:20:00Z",
-                        "time_end": "2021-10-25T19:30:00Z"
+                        "time_start": "2021-10-25T19:21:00Z",
+                        "time_end": "2021-10-25T19:31:00Z"
                     },
                     {
                         "type": "recorded",
@@ -4461,8 +4502,8 @@
                             "VISxAI orga"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:30:00Z",
-                        "time_end": "2021-10-25T19:35:00Z",
+                        "time_start": "2021-10-25T19:31:00Z",
+                        "time_end": "2021-10-25T19:36:00Z",
                         "youtube_video_id": "1WRnmHIy09M"
                     },
                     {
@@ -4472,8 +4513,8 @@
                             "Vu Luong"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:35:00Z",
-                        "time_end": "2021-10-25T19:45:00Z"
+                        "time_start": "2021-10-25T19:36:00Z",
+                        "time_end": "2021-10-25T19:46:00Z"
                     },
                     {
                         "type": "live",
@@ -4482,8 +4523,8 @@
                             "Jared Wilber"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:45:00Z",
-                        "time_end": "2021-10-25T19:55:00Z"
+                        "time_start": "2021-10-25T19:46:00Z",
+                        "time_end": "2021-10-25T19:56:00Z"
                     },
                     {
                         "type": "live",
@@ -4492,8 +4533,8 @@
                             "Rishiraj Adhikary"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:55:00Z",
-                        "time_end": "2021-10-25T20:05:00Z"
+                        "time_start": "2021-10-25T19:56:00Z",
+                        "time_end": "2021-10-25T20:06:00Z"
                     },
                     {
                         "type": "live",
@@ -4502,8 +4543,8 @@
                             "VISxAI orga"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T20:05:00Z",
-                        "time_end": "2021-10-25T20:10:00Z"
+                        "time_start": "2021-10-25T20:06:00Z",
+                        "time_end": "2021-10-25T20:11:00Z"
                     }
                 ]
             }
@@ -4522,14 +4563,14 @@
                 "track": "room5",
                 "schedule_image": "w-ava.png",
                 "chair": [
-                    "Kajetan Enge",
-                    "Bruce N. Walker",
-                    "Niklas R\u00f6nnberg",
-                    "Michael Iber",
                     "Wolfgang Aigner",
-                    "Robert H\u00f6ldrich",
+                    "Michael Iber",
+                    "Kajetan Enge",
+                    "Alexander Rind",
                     "Niklas Elmqvist",
-                    "Alexander Rind"
+                    "Niklas R\u00f6nnberg",
+                    "Robert H\u00f6ldrich",
+                    "Bruce N. Walker"
                 ],
                 "organizers": [
                     "Wolfgang Aigner",
@@ -4670,8 +4711,8 @@
                 "schedule_image": "t-reviews.png",
                 "chair": [
                     "Anastasia Bezerianos",
-                    "Petra Isenberg",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Petra Isenberg"
                 ],
                 "organizers": [
                     "Bongshin Lee",
@@ -4755,13 +4796,24 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
+                        "type": "opening",
+                        "title": "Opening",
+                        "contributors": [
+                            "Markus Hadwiger"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T17:00:00Z",
+                        "time_end": "2021-10-25T17:01:00Z",
+                        "youtube_video_id": "Uqo_pLShQPw"
+                    },
+                    {
                         "type": "recorded",
                         "title": "Intro and Manifolds, Coordinate Charts, Vector Fields",
                         "contributors": [
                             "Markus Hadwiger"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T17:00:00Z",
+                        "time_start": "2021-10-25T17:01:00Z",
                         "time_end": "2021-10-25T17:40:00Z",
                         "youtube_video_id": "Uqo_pLShQPw"
                     },
@@ -4800,13 +4852,24 @@
                         "time_end": "2021-10-25T18:30:00Z"
                     },
                     {
+                        "type": "live",
+                        "title": "Welcome back",
+                        "contributors": [
+                            "Markus Hadwiger"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-25T19:00:00Z",
+                        "time_end": "2021-10-25T19:01:00Z",
+                        "youtube_video_id": "tyhUkzn7jpY"
+                    },
+                    {
                         "type": "recorded",
                         "title": "Smooth maps between manifolds, isometries",
                         "contributors": [
                             "Markus Hadwiger"
                         ],
                         "abstract": null,
-                        "time_start": "2021-10-25T19:00:00Z",
+                        "time_start": "2021-10-25T19:01:00Z",
                         "time_end": "2021-10-25T19:32:00Z",
                         "youtube_video_id": "tyhUkzn7jpY"
                     },
@@ -4862,11 +4925,11 @@
                 "schedule_image": "v-opening-1.png",
                 "chair": [
                     "Daniel Weiskopf",
-                    "Brian Summa",
-                    "Luis Gustavo Nonato",
-                    "Catherine Plaisant",
                     "Terry Yoo",
-                    "Tamara Munzner"
+                    "Tamara Munzner",
+                    "Catherine Plaisant",
+                    "Luis Gustavo Nonato",
+                    "Brian Summa"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T12:45:00Z",
@@ -4934,9 +4997,9 @@
                 "track": "room1",
                 "schedule_image": "v-full-full1.png",
                 "chair": [
-                    "Silvia Miksch",
                     "Anders Ynnerman",
-                    "Bongshin Lee"
+                    "Bongshin Lee",
+                    "Silvia Miksch"
                 ],
                 "organizers": [],
                 "time_start": "2021-10-26T15:00:00Z",
@@ -7596,7 +7659,7 @@
                         "time_end": "2021-10-26T18:00:00Z"
                     },
                     {
-                        "type": "recorded",
+                        "type": "live",
                         "title": "VIS Full Papers Opening",
                         "contributors": [
                             "Full Paper chairs"
@@ -7607,7 +7670,7 @@
                         "youtube_video_id": "6ZMyLlU9TZ0"
                     },
                     {
-                        "type": "recorded",
+                        "type": "live",
                         "title": "VIS Short Papers Opening",
                         "contributors": [
                             "Short Paper Chairs"
@@ -7618,7 +7681,7 @@
                         "youtube_video_id": "aY8zdyeAvXY"
                     },
                     {
-                        "type": "recorded",
+                        "type": "live",
                         "title": "VIS Posters Opening",
                         "contributors": [
                             "Poster Chairs"
@@ -7786,7 +7849,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome and introduction",
                         "contributors": [
                             "Yoon Chung Han"
@@ -7844,7 +7907,7 @@
                         "type": "recorded",
                         "title": "Affective Palettes for Scientific Visualization: Grounding Environmental Data in the Natural World",
                         "contributors": [
-                            "Stephanie Zeller"
+                            "Francesca Samsel"
                         ],
                         "abstract": null,
                         "time_start": "2021-10-27T17:50:00Z",
@@ -7914,7 +7977,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Welcome and introduction",
                         "contributors": [
                             "Charles Perin"
@@ -8103,8 +8166,8 @@
                 "track": "room4",
                 "schedule_image": "m-visbuddies.png",
                 "chair": [
-                    "Karen Schloss",
                     "Hsiang-Yun Wu",
+                    "Karen Schloss",
                     "Lane Harrison"
                 ],
                 "organizers": [
@@ -8155,8 +8218,8 @@
                 "track": "room5",
                 "schedule_image": "m-vislies.png",
                 "chair": [
-                    "Bernice Rogowitz",
-                    "Kenneth Moreland"
+                    "Kenneth Moreland",
+                    "Bernice Rogowitz"
                 ],
                 "organizers": [
                     "Kenneth Moreland",
@@ -9430,12 +9493,12 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app2.png",
                 "chair": [
-                    "Steven Morley",
-                    "Divya Banesh",
-                    "Natalie Klein",
                     "Earl Lawrence",
+                    "Steven Morley",
+                    "Ayan Biswas",
                     "Subhashis Hazarika",
-                    "Ayan Biswas"
+                    "Natalie Klein",
+                    "Divya Banesh"
                 ],
                 "organizers": [
                     "Ayan Biswas",
@@ -9637,8 +9700,8 @@
                 "track": "room2",
                 "schedule_image": "m-gender.png",
                 "chair": [
-                    "Natkamon Tovanich",
-                    "Petra Isenberg"
+                    "Petra Isenberg",
+                    "Natkamon Tovanich"
                 ],
                 "organizers": [
                     "Petra Isenberg",
@@ -9773,7 +9836,9 @@
                 "session_id": "v-satellite-1",
                 "track": "room8",
                 "schedule_image": "v-satellite-1.png",
-                "chair": [],
+                "chair": [
+                    "Brian Summa"
+                ],
                 "organizers": [],
                 "time_start": "2021-10-28T12:30:00Z",
                 "time_end": "2021-10-28T12:50:00Z",
@@ -9797,6 +9862,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-28T12:30:00Z",
+                        "time_end": "2021-10-28T12:33:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Urbana-Champaign - Live!",
+                        "contributors": [
+                            "Urbana-Champaign"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T12:33:00Z",
                         "time_end": "2021-10-28T12:35:00Z"
                     },
                     {
@@ -9827,6 +9902,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-28T12:45:00Z",
+                        "time_end": "2021-10-28T12:48:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Norrk\u00f6ping - Live!",
+                        "contributors": [
+                            "Norrk\u00f6ping"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-28T12:48:00Z",
                         "time_end": "2021-10-28T12:50:00Z"
                     }
                 ]
@@ -9836,7 +9921,9 @@
                 "session_id": "v-satellite-2",
                 "track": "room7",
                 "schedule_image": "v-satellite-2.png",
-                "chair": [],
+                "chair": [
+                    "Brian Summa"
+                ],
                 "organizers": [],
                 "time_start": "2021-10-29T12:30:00Z",
                 "time_end": "2021-10-29T12:50:00Z",
@@ -9870,6 +9957,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:35:00Z",
+                        "time_end": "2021-10-29T12:48:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Pittsburgh - Live!",
+                        "contributors": [
+                            "Pittsburgh"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T12:38:00Z",
                         "time_end": "2021-10-29T12:40:00Z"
                     },
                     {
@@ -9880,6 +9977,16 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:40:00Z",
+                        "time_end": "2021-10-29T12:43:00Z"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Copenhagen - Live!",
+                        "contributors": [
+                            "Copenhagen"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T12:43:00Z",
                         "time_end": "2021-10-29T12:45:00Z"
                     },
                     {
@@ -9890,8 +9997,18 @@
                         ],
                         "abstract": null,
                         "time_start": "2021-10-29T12:45:00Z",
-                        "time_end": "2021-10-29T12:50:00Z",
+                        "time_end": "2021-10-29T12:48:00Z",
                         "youtube_video_id": "T4qmIQy_jPg"
+                    },
+                    {
+                        "type": "live",
+                        "title": "Melbourne - Live!",
+                        "contributors": [
+                            "Melbourne"
+                        ],
+                        "abstract": null,
+                        "time_start": "2021-10-29T12:48:00Z",
+                        "time_end": "2021-10-29T12:50:00Z"
                     }
                 ]
             }
@@ -9958,13 +10075,13 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app3.png",
                 "chair": [
-                    "Ludvig P. Muren",
-                    "Renata G. Raidou",
-                    "Uulke van der Heide",
-                    "Katja B\u00fchler",
                     "Noeska Smit",
+                    "Katja B\u00fchler",
+                    "Vitali Moiseenko",
+                    "Uulke van der Heide",
                     "Wouter van Elmpt",
-                    "Vitali Moiseenko"
+                    "Renata G. Raidou",
+                    "Ludvig P. Muren"
                 ],
                 "organizers": [
                     "Renata G. Raidou",
@@ -10119,9 +10236,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app4.png",
                 "chair": [
-                    "Mark SubbaRao",
+                    "Anders Ynnerman",
                     "Alexander Bock",
-                    "Anders Ynnerman"
+                    "Mark SubbaRao"
                 ],
                 "organizers": [
                     "Anders Ynnerman",
@@ -10193,7 +10310,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening Remarks",
                         "contributors": [
                             "Alex Razoumov"
@@ -10617,9 +10734,9 @@
                 "track": "room5",
                 "schedule_image": "v-spotlights-app1.png",
                 "chair": [
-                    "Karsten Rink",
+                    "Christina Gillmann",
                     "Petra Gospodnetic",
-                    "Christina Gillmann"
+                    "Karsten Rink"
                 ],
                 "organizers": [
                     "Christina Gillmann",
@@ -10641,7 +10758,7 @@
                 "gathertown_event": false,
                 "time_slots": [
                     {
-                        "type": "live",
+                        "type": "opening",
                         "title": "Opening Presentation",
                         "contributors": [
                             "Christina Gillmann",
