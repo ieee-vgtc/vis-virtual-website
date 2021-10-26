@@ -151,11 +151,17 @@
         const currentTime = this.player.getCurrentTime();
         const shouldCatchUp = Math.abs(startTime - currentTime) > 5;
         this.lastCatchupChecksLedToCatchup.push(shouldCatchUp);
-        this.lastCatchupChecksLedToCatchup = this.lastCatchupChecksLedToCatchup.slice(-4);
+        const consideredChecks = 4;
+        this.lastCatchupChecksLedToCatchup = this.lastCatchupChecksLedToCatchup.slice(-1 * consideredChecks);
+        const numChecks = this.lastCatchupChecksLedToCatchup.length;
+        const enoughChecks = numChecks >= consideredChecks;
         const notAllLastChecksForcedCatchup = this.lastCatchupChecksLedToCatchup.indexOf(false) !== -1;
-        if (shouldCatchUp && notAllLastChecksForcedCatchup) {
+        if (shouldCatchUp && (notAllLastChecksForcedCatchup || !enoughChecks)) {
           this.player.seekTo(startTime, true);
           console.log("lagging behind. seek.", this.getCurrentStartTimeS(), this.player.getCurrentTime(), this.player.getDuration(), this.player);
+        }
+        if (shouldCatchUp && !notAllLastChecksForcedCatchup) {
+          console.log("would normally catch up now, but skipping to prevent multi-seek.", this.lastCatchupChecksLedToCatchup, numChecks, enoughChecks);
         }
       }
     }
