@@ -264,7 +264,7 @@
       gatherWrap.innerHTML = this.getCurrentStage()?.state !== "SOCIALIZING" ? "" : `<iframe title="gather town"
                               allow="camera;microphone"
                               id="gathertown-iframe"
-                              src="https://gather.town/app/aDeS7vVGW5A2wuF5/vis21-tech2"></iframe>`;
+                              src="https://gather.town/app/uT2p5cFP0oXFZg4E/ieee-vis-2021?spawnToken=nLvBRdVP_nCJOs3p"></iframe>`;
     }
     loadPreviewImage() {
       console.log("loading preview", this.getCurrentStage()?.imageUrl);

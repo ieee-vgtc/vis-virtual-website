@@ -2409,7 +2409,7 @@
     },
     "v-short-1161": {
         "authors": [
-            "Yail Bian",
+            "Yali Bian",
             "Chris North",
             "Eric Krokos",
             "Sarah Joseph"
@@ -4559,71 +4559,6 @@
         "has_pdf": true,
         "ff_link": "https://youtu.be/4jwfa4R1Ndw"
     },
-    "v-full-1433": {
-        "authors": [
-            "Yue Zhao",
-            "Jian Zhang",
-            "Chi-Wing Fu",
-            "Mingliang Xu",
-            "Dominik Moritz",
-            "Yunhai Wang"
-        ],
-        "title": "KD-Box: Line-segment-based KD-tree for Interactive Exploration of Large-scale Time-Series Data",
-        "session_id": "v-full-full22",
-        "abstract": "Time-series data\u2014usually presented in the form of lines\u2014plays an important role in many domains such as finance, meteorology, health, and urban informatics. Yet, little has been done to support interactive exploration of large-scale time-series data, which requires a clutter-free visual representation with low-latency interactions. In this paper, we contribute a novel line-segment-based KD-tree method to enable interactive analysis of many time series. Our method enables not only fast queries over time series in selected regions of interest but also a line splatting method for efficient computation of the density field and selection of representative lines. Further, we develop KD-Box, an interactive system that provides rich interactions, e.g., timebox, attribute filtering, and coordinated multiple views. We demonstrate the effectiveness of KD-Box in supporting efficient line query and density field computation through a quantitative comparison and show its usefulness for interactive visual analysis on several real-world datasets.",
-        "keywords": [],
-        "uid": "v-full-1433",
-        "time_stamp": "2021-10-28T17:00:00Z",
-        "has_image": true,
-        "paper_award": "",
-        "image_caption": "In KD-Box, we contribute a novel line-segment-based KD-tree method to enable interactive analysis of many time series. Our method enables not only fast queries over time series in selected regions of interest but also a line splatting method for efficient computation of the density field and selection of representative lines. Further, we develop KD-Box, an interactive system that provides rich interactions, e.g.,timebox,attribute filtering, and coordinated multiple views. We demonstrate the effectiveness of KD-Box in supporting efficient line query and density field computation through a quantitative comparison and show its usefulness for interactive visual analysis on several real-world datasets.",
-        "external_paper_link": "",
-        "has_pdf": true,
-        "ff_link": "https://youtu.be/zHiYTZUw5Co"
-    },
-    "v-full-1116": {
-        "authors": [
-            "Jessica Magallanes",
-            "Tony Stone",
-            "Paul Morris",
-            "Suzanne Mason",
-            "Steven Wood",
-            "Maria-Cruz Villa-Uriol"
-        ],
-        "title": "Sequen-C: A Multilevel Overview of Temporal Event Sequences",
-        "session_id": "v-full-full22",
-        "abstract": "Building a visual overview of temporal event sequences with an optimal level-of-detail (i.e. simplified but informative) is an ongoing challenge - expecting the user to zoom into every important aspect of the overview can lead to missing insights. We propose a technique to build and explore a multilevel overview of event sequences, from coarse to fine vertical or horizontal level-of-detail, using hierarchical aggregation and a novel cluster data representation Align-Score-Simplify. By default, the overview shows an optimal number of sequence clusters obtained through the average silhouette width metric \u2013 then users are able to explore alternative optimal sequence clusterings. The vertical level-of-detail of the overview changes along with the number of clusters, whilst the horizontal level-of-detail refers to the level of summarization applied to each cluster representation. The proposed technique has been implemented into a visualization system called Sequence Cluster Explorer (Sequen-C) that allows multilevel and detail-on-demand exploration through three coordinated views, and the inspection of data attributes at cluster, unique sequence, and individual sequence level. We present two case studies using real-world datasets in the healthcare domain: CUREd and MIMIC-III, which demonstrate how the technique can aid users in exploring and defining a set of distinct pathways that best summarize the dataset, while also being able of identifying deviating pathways and exploring data attributes for selected patterns.",
-        "keywords": [],
-        "uid": "v-full-1116",
-        "time_stamp": "2021-10-28T17:15:00Z",
-        "has_image": true,
-        "paper_award": "",
-        "image_caption": "Screenshots of Sequen-C for a dataset with 258 event sequences illustrating the methodology. The hierarchical aggregation tree (top left) allows changing the number of clusters shown. The vertical level-of-detail of the multilevel overview can be transformed from coarse (bottom left) to fine (middle and bottom right). Sequence clusters are represented using an Align-Score-Simplify strategy (top right), which allows controlling the horizontal level-of-detail according to an information score.",
-        "external_paper_link": "",
-        "has_pdf": true,
-        "ff_link": "https://youtu.be/cbii6AHG9Oo"
-    },
-    "v-full-1287": {
-        "authors": [
-            "Tinghao Feng",
-            "Jing Yang",
-            "Martha-Cary Eppes",
-            "Zhaocong Yang",
-            "Faye Moser"
-        ],
-        "title": "EVis: Visually Analyzing Environmentally Driven Events",
-        "session_id": "v-full-full22",
-        "abstract": "Earth scientists are increasingly employing time series data with multiple dimensions and high temporal resolution to study the impacts of climate and environmental changes on Earth\u2019s atmosphere, biosphere, hydrosphere, and lithosphere. However, the large number of variables and varying time scales of antecedent conditions contributing to natural phenomena hinder scientists from completing more than the most basic analyses. In this paper, we present EVis (Environmental Visualization), a new visual analytics prototype to help scientists analyze and explore recurring environmental events (e.g. rock fracture, landslides, heat waves, floods) and their relationships with high dimensional time series of continuous numeric environmental variables, such as ambient temperature and precipitation. EVis provides coordinated scatterplots, heatmaps, histograms, and RadViz for foundational analyses. These features allow users to interactively examine relationships between events and one, two, three, or more environmental variables. EVis also provides a novel visual analytics approach to allowing users to discover temporally lagging relationships related to antecedent conditions between events and multiple variables, a critical task in Earth sciences. In particular, this latter approach projects multivariate time series onto trajectories in a 2D space using RadViz, and clusters the trajectories for temporal pattern discovery. Our case studies with rock cracking data and interviews with domain experts from a range of sub-disciplines within Earth sciences illustrate the extensive applicability and usefulness of EVis.",
-        "keywords": [],
-        "uid": "v-full-1287",
-        "time_stamp": "2021-10-28T17:30:00Z",
-        "has_image": true,
-        "paper_award": "",
-        "image_caption": "A screenshot of RadViz-Leash, a RadViz projection and clustering  based visual analytics approach to analyzing temporally lagging relationships between events and multiple environmental conditions. It is one of the visualizations provided by EVis, a prototype developed for Earth scientists to study environmentally driven events.",
-        "external_paper_link": "",
-        "has_pdf": true,
-        "ff_link": ""
-    },
     "v-tvcg-9382844": {
         "authors": [
             "Yifang Wang",
@@ -4647,13 +4582,78 @@
             "Visual Analytics"
         ],
         "uid": "v-tvcg-9382844",
-        "time_stamp": "2021-10-28T17:45:00Z",
+        "time_stamp": "2021-10-28T17:00:00Z",
         "has_image": true,
         "paper_award": "",
         "image_caption": "We worked with the constructors of a new dataset, CGED-Q (China Government Employee Database-Qing), that records the career trajectories of over 340,000 government officials in the Qing bureaucracy in China from 1760 to 1912. These data are used to study career mobility from a historical perspective and understand social mobility and inequality. We propose CareerLens, an interactive visual analytics system for exploring, understanding, and reasoning from these data. With CareerLens, experts examine mobility patterns in three levels-of-detail: the macro-level providing a summary of overall mobility, the meso-level extracting latent group mobility patterns, and the micro-level revealing social relationships of individuals. ",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3067200",
         "has_pdf": false,
         "ff_link": "https://youtu.be/siMGPd0jL8s"
+    },
+    "v-full-1433": {
+        "authors": [
+            "Yue Zhao",
+            "Jian Zhang",
+            "Chi-Wing Fu",
+            "Mingliang Xu",
+            "Dominik Moritz",
+            "Yunhai Wang"
+        ],
+        "title": "KD-Box: Line-segment-based KD-tree for Interactive Exploration of Large-scale Time-Series Data",
+        "session_id": "v-full-full22",
+        "abstract": "Time-series data\u2014usually presented in the form of lines\u2014plays an important role in many domains such as finance, meteorology, health, and urban informatics. Yet, little has been done to support interactive exploration of large-scale time-series data, which requires a clutter-free visual representation with low-latency interactions. In this paper, we contribute a novel line-segment-based KD-tree method to enable interactive analysis of many time series. Our method enables not only fast queries over time series in selected regions of interest but also a line splatting method for efficient computation of the density field and selection of representative lines. Further, we develop KD-Box, an interactive system that provides rich interactions, e.g., timebox, attribute filtering, and coordinated multiple views. We demonstrate the effectiveness of KD-Box in supporting efficient line query and density field computation through a quantitative comparison and show its usefulness for interactive visual analysis on several real-world datasets.",
+        "keywords": [],
+        "uid": "v-full-1433",
+        "time_stamp": "2021-10-28T17:15:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "In KD-Box, we contribute a novel line-segment-based KD-tree method to enable interactive analysis of many time series. Our method enables not only fast queries over time series in selected regions of interest but also a line splatting method for efficient computation of the density field and selection of representative lines. Further, we develop KD-Box, an interactive system that provides rich interactions, e.g.,timebox,attribute filtering, and coordinated multiple views. We demonstrate the effectiveness of KD-Box in supporting efficient line query and density field computation through a quantitative comparison and show its usefulness for interactive visual analysis on several real-world datasets.",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": "https://youtu.be/zHiYTZUw5Co"
+    },
+    "v-full-1116": {
+        "authors": [
+            "Jessica Magallanes",
+            "Tony Stone",
+            "Paul Morris",
+            "Suzanne Mason",
+            "Steven Wood",
+            "Maria-Cruz Villa-Uriol"
+        ],
+        "title": "Sequen-C: A Multilevel Overview of Temporal Event Sequences",
+        "session_id": "v-full-full22",
+        "abstract": "Building a visual overview of temporal event sequences with an optimal level-of-detail (i.e. simplified but informative) is an ongoing challenge - expecting the user to zoom into every important aspect of the overview can lead to missing insights. We propose a technique to build and explore a multilevel overview of event sequences, from coarse to fine vertical or horizontal level-of-detail, using hierarchical aggregation and a novel cluster data representation Align-Score-Simplify. By default, the overview shows an optimal number of sequence clusters obtained through the average silhouette width metric \u2013 then users are able to explore alternative optimal sequence clusterings. The vertical level-of-detail of the overview changes along with the number of clusters, whilst the horizontal level-of-detail refers to the level of summarization applied to each cluster representation. The proposed technique has been implemented into a visualization system called Sequence Cluster Explorer (Sequen-C) that allows multilevel and detail-on-demand exploration through three coordinated views, and the inspection of data attributes at cluster, unique sequence, and individual sequence level. We present two case studies using real-world datasets in the healthcare domain: CUREd and MIMIC-III, which demonstrate how the technique can aid users in exploring and defining a set of distinct pathways that best summarize the dataset, while also being able of identifying deviating pathways and exploring data attributes for selected patterns.",
+        "keywords": [],
+        "uid": "v-full-1116",
+        "time_stamp": "2021-10-28T17:30:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "Screenshots of Sequen-C for a dataset with 258 event sequences illustrating the methodology. The hierarchical aggregation tree (top left) allows changing the number of clusters shown. The vertical level-of-detail of the multilevel overview can be transformed from coarse (bottom left) to fine (middle and bottom right). Sequence clusters are represented using an Align-Score-Simplify strategy (top right), which allows controlling the horizontal level-of-detail according to an information score.",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": "https://youtu.be/cbii6AHG9Oo"
+    },
+    "v-full-1287": {
+        "authors": [
+            "Tinghao Feng",
+            "Jing Yang",
+            "Martha-Cary Eppes",
+            "Zhaocong Yang",
+            "Faye Moser"
+        ],
+        "title": "EVis: Visually Analyzing Environmentally Driven Events",
+        "session_id": "v-full-full22",
+        "abstract": "Earth scientists are increasingly employing time series data with multiple dimensions and high temporal resolution to study the impacts of climate and environmental changes on Earth\u2019s atmosphere, biosphere, hydrosphere, and lithosphere. However, the large number of variables and varying time scales of antecedent conditions contributing to natural phenomena hinder scientists from completing more than the most basic analyses. In this paper, we present EVis (Environmental Visualization), a new visual analytics prototype to help scientists analyze and explore recurring environmental events (e.g. rock fracture, landslides, heat waves, floods) and their relationships with high dimensional time series of continuous numeric environmental variables, such as ambient temperature and precipitation. EVis provides coordinated scatterplots, heatmaps, histograms, and RadViz for foundational analyses. These features allow users to interactively examine relationships between events and one, two, three, or more environmental variables. EVis also provides a novel visual analytics approach to allowing users to discover temporally lagging relationships related to antecedent conditions between events and multiple variables, a critical task in Earth sciences. In particular, this latter approach projects multivariate time series onto trajectories in a 2D space using RadViz, and clusters the trajectories for temporal pattern discovery. Our case studies with rock cracking data and interviews with domain experts from a range of sub-disciplines within Earth sciences illustrate the extensive applicability and usefulness of EVis.",
+        "keywords": [],
+        "uid": "v-full-1287",
+        "time_stamp": "2021-10-28T17:45:00Z",
+        "has_image": true,
+        "paper_award": "",
+        "image_caption": "A screenshot of RadViz-Leash, a RadViz projection and clustering  based visual analytics approach to analyzing temporally lagging relationships between events and multiple environmental conditions. It is one of the visualizations provided by EVis, a prototype developed for Earth scientists to study environmentally driven events.",
+        "external_paper_link": "",
+        "has_pdf": true,
+        "ff_link": ""
     },
     "v-tvcg-9447222": {
         "authors": [
@@ -4753,7 +4753,7 @@
     },
     "v-full-1730": {
         "authors": [
-            "Matt-Ian Hong",
+            "Matt-Heun Hong",
             "Jessica Witt",
             "Danielle Albers Szafir"
         ],
