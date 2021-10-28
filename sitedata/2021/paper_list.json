@@ -2690,7 +2690,7 @@
         "image_caption": "An alert-driven attack graph shows attacker strategies extracted from actions observed through intrusion alerts. \nEach graph shows the strategies of all attackers that obtain an objective on a particular victim. \nThe image shows an attack graph of data_manipulation over remoteware-cl, where 3 teams successfully exploit it: \nTeam 5 exploits it twice, while Teams 1 and 8 exploit it once. \nThe S-PDFA identifies three ways of exploiting the objective based on the actions that lead up to it. \nTeams 5 and 8 share a significant portion of a strategy, \nwhile Team 1 has found the shortest path to reach the objective.",
         "external_paper_link": "",
         "has_pdf": true,
-        "ff_link": "https://youtu.be/VY-iI9Zsf2c"
+        "ff_link": "https://youtu.be/TxUye31Eqjs"
     },
     "a-vizsec-7867": {
         "authors": [
