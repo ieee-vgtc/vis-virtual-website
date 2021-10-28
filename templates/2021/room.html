@@ -165,6 +165,12 @@ function filterByCurrentSession() {
     // We need to write the session timings into the page to calculate current/next session.
     // See blueprint_2021.py
     sessionTimings = {{sessionTimings|safe}}
+    if (sessionTimings.length > 0) {
+        sessionTimings.sort(function(a, b) {
+            return moment(a.startTime) - moment(b.startTime);
+        });
+    }
+
     sessionIsCurrent = function(session) {
         // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
         const sessionStart = moment(session['startTime']).tz(current_timezone).subtract(15, 'minutes');

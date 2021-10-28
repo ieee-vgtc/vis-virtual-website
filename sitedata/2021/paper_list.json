@@ -5154,7 +5154,7 @@
         ],
         "title": "Visually Connecting Historical Figures Through Event Knowledge Graphs",
         "session_id": "v-short-short4",
-        "abstract": "To research lives of historical figures and their interactions with other famous people of the same era, users have to usually go through long text documents. Knowledge graphs store information about entities such as historical figures and their relationships---indirectly through shared events---in a structured manner. We develop a visualization system, \\system{}, for analyzing the intertwined lives of historical figures based on the events they participated. The users' query is parsed for identifying named entities and related data is queried from an event knowledge graph. While a short textual answer to the users' query is generated using the GPT-3 language model, various linked visualizations provide context, display additional information related to the query, and allow in-depth exploration.",
+        "abstract": "To research lives of historical figures and their interactions with other famous people of the same era, users have to usually go through long text documents. Knowledge graphs store information about entities such as historical figures and their relationships---indirectly through shared events---in a structured manner. We develop a visualization system, VisKonnect, for analyzing the intertwined lives of historical figures based on the events they participated. The users' query is parsed for identifying named entities and related data is queried from an event knowledge graph. While a short textual answer to the users' query is generated using the GPT-3 language model, various linked visualizations provide context, display additional information related to the query, and allow in-depth exploration.",
         "keywords": [
             "Domain Agnostic",
             "General Public",
@@ -5869,9 +5869,9 @@
         ],
         "uid": "v-tvcg-9405484",
         "time_stamp": "2021-10-29T13:45:00Z",
-        "has_image": false,
+        "has_image": true,
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "We present two experiments to understand if visual representations could help reduce dichotomous interpretations of experimental results. We test 5 representation styles used in the experiments: Textual version with p-value, classic 95 percent confidence interval (CI), gradient CI plot, violin CI plot, and discrete violin CI plot. ",
         "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3073466",
         "has_pdf": false,
         "ff_link": "https://youtu.be/OS6D8IOLE1Q"
