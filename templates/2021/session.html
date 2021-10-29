@@ -122,19 +122,24 @@
         </div>
 
         <div class="past_session_alert alert alert-success" role="alert">
+            {% if session.type == "meetup" %}
+            This session has concluded.  Meetup recordings are not captured.
+            {% else %}
             This session has concluded.  You can review the session using the player embedded below.
+            {% endif %}
         </div>
 
     </div>
 </div>
 
-<!-- <div class="past_session_alert"> -->
+{% if session.type != "meetup" %}
 <div class="row mt-5">
     <div class="col-lg-10 streaming-container">
         <div class="streaming room_session_stream" id="playback-container">
         </div>
     </div>
 </div>
+{% endif %}
 
 <hr>
 
