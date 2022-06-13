@@ -164,3 +164,21 @@
     display: flex;
     gap: 0.25em;
 }
+
+/* Responsive breakpoints */
+
+@media (max-width: 62rem){
+    .schedule {
+        background-color: blueviolet;
+        /*max-width: 1140px;*/
+        /*max-height: 1200px;*/
+    }
+}
+
+@media (max-width: 43rem){
+    .schedule {
+        background-color: greenyellow;
+        /*max-width: 1140px;*/
+        /*max-height: 1200px;*/
+    }
+}
