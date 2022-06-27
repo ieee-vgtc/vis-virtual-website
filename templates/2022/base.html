@@ -1,4 +1,4 @@
-{% import '2021/components.html' as components %}
+{% import '2022/components.html' as components %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,12 +60,12 @@
 
 
         <!-- Library libs_ext -->
-        <script src="/static/2021/js/libs_ext/typeahead.bundle.js"></script>
+        <script src="/static/2022/js/libs_ext/typeahead.bundle.js"></script>
 
 
         <!--    Internal Libs -->
-        <script src="/static/2021/js/data/persistor.js"></script>
-        <script src="/static/2021/js/data/api.js"></script>
+        <script src="/static/2022/js/data/persistor.js"></script>
+        <script src="/static/2022/js/data/api.js"></script>
 
 
 
@@ -79,32 +79,32 @@
 
         <!-- External Fonts (no google for china) -->
         <link
-                href="/static/2021/css/Zilla.css"
+                href="/static/2022/css/Zilla.css"
                 rel="stylesheet"
         />
         <link
-                href="/static/2021/css/Fira.css"
+                href="/static/2022/css/Fira.css"
                 rel="stylesheet"
         />
 
-        <link rel="stylesheet" href="/static/2021/css/main.css"/>
-        <!--    <link rel="stylesheet" href="/static/2021/css/fa_regular.css"/>-->
-        <link rel="stylesheet" href="/static/2021/css/fa_solid.css"/>
-        <link rel="stylesheet" href="/static/2021/css/lazy_load.css"/>
-        <link rel="stylesheet" href="/static/2021/css/typeahead.css"/>
+        <link rel="stylesheet" href="/static/2022/css/main.css"/>
+        <!--    <link rel="stylesheet" href="/static/2022/css/fa_regular.css"/>-->
+        <link rel="stylesheet" href="/static/2022/css/fa_solid.css"/>
+        <link rel="stylesheet" href="/static/2022/css/lazy_load.css"/>
+        <link rel="stylesheet" href="/static/2022/css/typeahead.css"/>
 
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:site" content="@ieeevis"/>
         <meta name="twitter:title"
-              content="Virtual IEEE VIS 2021 - {% if social_title %}{{ social_title }}{% else %}Conference on Visualization.{% endif %}"/>
+              content="Virtual IEEE VIS 2022 - {% if social_title %}{{ social_title }}{% else %}Conference on Visualization.{% endif %}"/>
         <meta name="twitter:description"
-              content="{% if social_description %}{{ social_description }}{% else %}VIS 2021 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.{% endif %}"/>
+              content="{% if social_description %}{{ social_description }}{% else %}VIS 2022 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.{% endif %}"/>
         <meta name="twitter:image"
-              content="{% if social_image %}{{ social_image }}{% else %}https://ieeevis.b-cdn.net/vis_2021/vis_preview.png{% endif %}"/>
+              content="{% if social_image %}{{ social_image }}{% else %}https://ieeevis.b-cdn.net/vis_2022/vis_preview.png{% endif %}"/>
 
-        <meta name="image" property="og:image" content="{% if social_image %}{{ social_image }}{% else %}https://ieeevis.b-cdn.net/vis_2021/vis_preview.png{% endif %}">
-        <meta name="description" property="og:description" content="{% if social_description %}{{ social_description }}{% else %}VIS 2021 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.{% endif %}">
-        <meta name="title" property="og:title" content="Virtual IEEE VIS 2021 - {% if social_title %}{{ social_title }}{% else %}Conference on Visualization.{% endif %}">
+        <meta name="image" property="og:image" content="{% if social_image %}{{ social_image }}{% else %}https://ieeevis.b-cdn.net/vis_2022/vis_preview.png{% endif %}">
+        <meta name="description" property="og:description" content="{% if social_description %}{{ social_description }}{% else %}VIS 2022 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.{% endif %}">
+        <meta name="title" property="og:title" content="Virtual IEEE VIS 2022 - {% if social_title %}{{ social_title }}{% else %}Conference on Visualization.{% endif %}">
          <meta property="og:type" content="website">
 
         <title>{{ config.page_title.prefix }}{% if page_title %}{{ config.page_title.separator }}{{ page_title }}{% endif %}</title>
@@ -124,7 +124,7 @@
 ('awards.html', 'Awards', false),
 ('jobs.html', 'Job Board', false),
 ('help.html', 'Help', false),
-('http://ieeevis.org/year/2021/info/registration/conference-registration', 'Register', true),
+('http://ieeevis.org/year/2022/info/registration/conference-registration', 'Register', true),
 ] -%}
     {#('index.html', 'Home'),#}
     {#    ('session_vis-keynote.html', 'Keynote'),#}
@@ -224,7 +224,7 @@
     Reject
   </div>
 </div>
-<script src="/static/2021/js/modules/gdprCookies.js"></script>
+<script src="/static/2022/js/modules/gdprCookies.js"></script>
 
 
     <!-- Footer -->
@@ -232,7 +232,7 @@
         <div class="container">
             <p class="float-left">VIS Virtual year: <a href="/year/2020/index.html">2020</a> · <a href="/year/2021/index.html">2021</a></p>
             <p class="float-right"><a href="#">Back to Top</a></p>
-            <p class="text-center">© 2021, {{ config.organization }}</p>
+            <p class="text-center">© 2022, {{ config.organization }}</p>
             <p class="tz-info text-center">
                 All times in <strong>GMT<span id="tzCurrent">-0600</span></strong>. Change your timezone on <a href="calendar.html">the schedule page</a>.
             </p>
@@ -347,7 +347,7 @@
         {#gtag("config", "{{config.analytics}}");#}
       });
     </script>
-    <!-- <script src="/static/2021/js/lazy_load.js"></script> -->
+    <!-- <script src="/static/2022/js/lazy_load.js"></script> -->
 {% endblock %}
 </body>
 </html>
