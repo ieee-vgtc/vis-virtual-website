@@ -128,7 +128,7 @@
     width: 100%;
     /* justify-self: center; */
     text-align: center;
-    border-bottom: 1px dotted var(--vis2021-purple);
+    border-bottom: 1px dotted var(--vis2022-blue);
 }
 
 .day-slot a {
