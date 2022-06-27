@@ -2,21 +2,25 @@
   --vis2021-purple: rgb(111, 33, 132);
   --vis2021-green: rgb(106, 168, 104);
   --vis2021-yellow: rgb(251, 195, 27);
+  --vis2022-blue: rgb(28, 49, 96);
+  --vis2022-red: rgb(162, 10, 53);
+  --vis2022-yellow: rgb(253, 187, 48);
   --main-bg-color: #edf2f7;
   --main-border-color: #e2e8f0;
   /* --shadow-color: rgb(204, 204, 204); */
-  --accent-color: var(--vis2021-purple);
+  --accent-color: var(--vis2022-blue);
   --text-color: #000;
   --text-dark-color: #4a5568;
   --text-gray-color: #a0aec0;
-  --text-heading-color: var(--vis2021-purple);
-  --text-muted-color: var(--vis2021-purple); /* TODO lighten 2 steps */
+  --text-heading-color: var(--vis2022-blue);
+  --text-muted-color: var(--vis2022-blue); /* TODO lighten 2 steps */
   --text-inv-color: #eee;
-  --text-accent-color: var(--vis2021-green); /* TODO lighten from original VIS2020 style for readability */
+  --text-accent-color: var(--vis2022-red); /* TODO lighten from original VIS2020 style for readability */
   --icon-color: #6c757d;
   --btn-color: #fff;
   --btn-inv-color: #4a5568;
 }
+
 
 html {
   scroll-padding-top: 100px;
@@ -68,11 +72,11 @@ code {
 }
 
 .navbar .nav-item.active {
-  border-bottom: 2px solid var(--vis2021-green) !important;
+  border-bottom: 2px solid var(--vis2022-blue) !important;
 }
 
 .navbar .nav-item:hover {
-  border-bottom: 2px solid var(--vis2021-yellow) !important;
+  border-bottom: 2px solid var(--vis2022-yellow) !important;
 }
 
 .cal-nav {
