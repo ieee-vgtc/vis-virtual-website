@@ -236,6 +236,12 @@ def schedule():
     for day in by_day:
         data["days"][day] = {"timeslots": by_time[day]}
 
+    all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
+    data['events'] = all_events
+    # data['event_types'] = sorted(list(set([(e['type'], e["type"].split(" ")[0].lower()) for e in all_events])), key=lambda x: x[0])
+    data['render_event_types'] = False
+    data['colors'] = data['config']['calendar']['colors']
+
     return render_template("{}/schedule.html".format(year), **data)
 
 
