@@ -3,6 +3,7 @@
   --vis2021-green: rgb(106, 168, 104);
   --vis2021-yellow: rgb(251, 195, 27);
   --vis2022-blue: rgb(28, 49, 96);
+  --vis2022-lightblue: rgb(38, 114, 185);
   --vis2022-red: rgb(162, 10, 53);
   --vis2022-yellow: rgb(253, 187, 48);
   --main-bg-color: #edf2f7;
@@ -15,7 +16,7 @@
   --text-heading-color: var(--vis2022-blue);
   --text-muted-color: var(--vis2022-blue); /* TODO lighten 2 steps */
   --text-inv-color: #eee;
-  --text-accent-color: var(--vis2022-red); /* TODO lighten from original VIS2020 style for readability */
+  --text-accent-color: var(--vis2022-lightblue); /* TODO lighten from original VIS2020 style for readability */
   --icon-color: #6c757d;
   --btn-color: #fff;
   --btn-inv-color: #4a5568;

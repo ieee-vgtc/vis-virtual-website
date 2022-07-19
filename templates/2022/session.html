@@ -4,7 +4,7 @@
 {% set social_title = "Session: " ~ session.fullTitle %}
 {% set social_description = "See the session and its presentations inside." %}
 
-{% extends "2021/base.html" %}
+{% extends "2022/base.html" %}
 {% block content %}
 
 <div class="row mt-3">
@@ -209,7 +209,7 @@
 </div>
 
 
-<script src="/static/2021/js/views/timezone.js"></script>
+<script src="/static/2022/js/views/timezone.js"></script>
 
 {% endblock %}
 
@@ -225,7 +225,7 @@ $(document).ready(function() {
 
 function updateSessionStatus(onFirstLoad) {
     // We need to write the session timings into the page to calculate current/next session.
-    // See blueprint_2021.py
+    // See blueprint_2022.py
     startTime = '{{session.startTime}}'
     endTime = '{{session.endTime}}'
 

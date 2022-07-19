@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="/static/2021/streaming/styles.css" rel="stylesheet" />
+<link href="/static/2022/streaming/styles.css" rel="stylesheet" />
 <body class="playback">
 
 <div id="wrapper" style="display: none">
@@ -51,7 +51,7 @@
 <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 
-<script src="/static/2021/streaming/playback-bundle.js"></script>
+<script src="/static/2022/streaming/playback-bundle.js"></script>
 {% if config.use_auth0 and requires_auth %}
 <script src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'
 integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo='
@@ -61,7 +61,7 @@ crossorigin='anonymous'></script>
 const auth0_domain = '{{config.auth0_domain}}';
 const auth0_client_id = '{{config.auth0_client_id}}';
 </script>
-<script src='/static/2021/js/modules/auth0protect.js'></script>
+<script src='/static/2022/js/modules/auth0protect.js'></script>
 {% endif %}
 </body>
 </html>

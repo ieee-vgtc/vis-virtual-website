@@ -120,7 +120,7 @@
 
 .time-slot.converted-timezone,
 .tz:not(.tz-right) {
-    color: var(--vis2021-purple);
+    color: var(--vis2022-blue);
 }
 
 .day-slot {
