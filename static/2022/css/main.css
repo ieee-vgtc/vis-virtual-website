@@ -678,7 +678,7 @@ div.session-url {
 .second-sticky-top {
   top: 80px;
   width: 100%;
-  z-index: 1000;
+  z-index: 10;
   background-color: white;
   margin-bottom: -10px;
   padding-top: 10px;

@@ -295,13 +295,8 @@
 
           //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
           // seems like not considering the timezone
-          console.log("starttime is ", starttime)
-          console.log("endtime is ", endtime)
-          console.log("starttime.format('D')  is ", starttime.format('D'))
-          console.log("endtime.format('D')  is ", endtime.format('D'))
           if (starttime.format("D") == endtime.format("D")) {
             if (includeDate) {
-                console.log("this is ", starttime.format("dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format("HH:mm"))
               element.html(starttime.format(
                 "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
                 "HH:mm"));
