@@ -1,67 +1,43 @@
-<div class="row">
-</div>
-
-<script>
-  let currentItem = null;
-  d3.select("#start-item").each(function () {
-    currentItem = this;
-    const t = d3.select(this);
-    t.style("background-color", t.attr('data-bg-color'))
-      .style('color', '#fff');
-  });
-  d3.selectAll(".event-faceting")
-    .on("mouseover", function () {
-      const t = d3.select(this);
-      if (this === currentItem) return;
-      t.style("background-color", t.attr('data-bg-color'))
-      t.style("color", t.attr('#fff'))
-    })
-    .on("mouseout", function () {
-      const t = d3.select(this);
-      if (this === currentItem) return;
-      t.style("background-color", null)
-      t.style("color", t.attr('data-bg-color'))
-    })
-    .on("click", function () {
-      const that = this;
-      currentItem = that;
-      d3.selectAll(".event-faceting")
-        .style("background-color", function () {
-          return (this === that) ? d3.select(this)
-            .attr('data-bg-color') : null
-        })
-        .style("color", function () {
-          return (this === that) ? "#fff" : d3.select(this)
-            .attr('data-bg-color')
-        })
-
-      const key = d3.select(this).attr("data-key");
-      d3.selectAll(".event-card-wrapper")
-        .style('display', function () {
-          if (key === 'all') return null;
-          const myKey = d3.select(this).attr('data-session-type');
-          return (myKey === key) ? null : 'none';
-        })
-
-    })
-
-</script>
-
 <div class='container-fluid'>
-    <div class="row mt-5">
+
+    <div>
+        <span class="tz-title">Your timezone</span>
+        <select class="tzOptions selectpicker"></select>
+          <!-- <button type="button" id="saveTz" class="btn btn-light">
+            <span class="fas mr-1">&#xf0c7;</span>
+            Set
+          </button> -->
+        <button type="button" class="resetTz btn btn-light">
+            <span class="fas mr-1">&#xf0e2;</span>
+    <!-- Reset -->
+        </button>
+    </div>
+    <div>
+        <div class="tz-title">Conference timezone</div>
+        <div class="tz-description">Oklahoma (America/Chicago)</div>
+        <div class="tz-description">US Central Time (CT, UTC-5)</div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
         <ul class="list-group list-group-flush">
         {% for day in events_by_time %}
-            {% for slot in events_by_time[day] %}
-                <div class="sticky-top second-sticky-top">
-                    <h4 class="session-list-date mt-3">
-                      <span class="fas mr-1">&#xf017;</span>
-                      <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
-                    </h4>
+
+            <div id="tab-{{ day }}">
+                <div id="calendar-{{ day }}">
+                    {% for slot in events_by_time[day] %}
+                        <div class="container sticky-top second-sticky-top">
+                            <h4 class="session-list-date">
+                              <span class="fas mr-1">&#xf017;</span>
+                              <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
+                            </h4>
+                        </div>
+                        <li class="list-group-item">
+                            {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
+                        </li>
+                    {% endfor %}
                 </div>
-                <li class="list-group-item">
-                    {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
-                </li>
-            {% endfor %}
+            </div>
         {% endfor %}
         </ul>
     </div>
