@@ -1,3 +1,18 @@
+
+{% block tabs %}
+    {{
+      components.scrollspy([
+        ("Sunday", "Sunday", "cal-nav"),
+        ("Monday", "Monday", "cal-nav"),
+        ("Tuesday", "Tuesday", "cal-nav"),
+        ("Wednesday", "Wednesday", "cal-nav"),
+        ("Thursday", "Thursday", "cal-nav"),
+        ("Friday", "Friday", "cal-nav")
+      ])
+    }}
+{% endblock %}
+
+
 <div class='container-fluid'>
 
     <div>
@@ -18,25 +33,23 @@
         <div class="tz-description">US Central Time (CT, UTC-5)</div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container mobile-calendar-container">
     <div class="row">
         <ul class="list-group list-group-flush">
         {% for day in events_by_time %}
 
-            <div id="tab-{{ day }}">
-                <div id="calendar-{{ day }}">
-                    {% for slot in events_by_time[day] %}
-                        <div class="container sticky-top second-sticky-top">
-                            <h4 class="session-list-date">
-                              <span class="fas mr-1">&#xf017;</span>
-                              <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
-                            </h4>
-                        </div>
-                        <li class="list-group-item">
-                            {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
-                        </li>
-                    {% endfor %}
-                </div>
+            <div id="scrollspy{{ day }}">
+                {% for slot in events_by_time[day] %}
+                    <div class="container sticky-top second-sticky-top">
+                        <h4 class="session-list-date">
+                          <span class="fas mr-1">&#xf017;</span>
+                          <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
+                        </h4>
+                    </div>
+                    <li class="list-group-item">
+                        {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
+                    </li>
+                {% endfor %}
             </div>
         {% endfor %}
         </ul>

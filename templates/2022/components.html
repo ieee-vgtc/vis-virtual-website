@@ -1,5 +1,6 @@
 {# Components:
 tabs -- Navigation tabs
+scrollspy -- more mobile friendly navigation tabs
 section, subsection -- bootstrap sections
 speakergroup
 organizergroup
@@ -25,6 +26,25 @@ workshopgroup
   </li>
   {% endfor %}
 </ul>
+{%- endmacro %}
+
+{% macro scrollspy(scroll_group) -%}
+<nav id="nav-scrollspy">
+  <ul class="nav nav-pills justify-content-center">
+    {% for tab in scroll_group %}
+    <li class="nav-item">
+      <a
+        class="nav-link {{tab[2]}} text-muted "
+        href="#scrollspy{{tab[0]}}"
+        role="tab"
+        aria-controls="nav-home"
+        aria-selected="true"
+        >{{tab[1]}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
 {%- endmacro %}
 
 {% macro section(name) -%}

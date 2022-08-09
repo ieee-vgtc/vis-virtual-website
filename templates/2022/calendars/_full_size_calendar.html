@@ -1,3 +1,19 @@
+
+{% block tabs %}
+    {{
+      components.tabs([
+        ("calendar", "Overview", "cal-nav active"),
+        ("Sunday", "Sunday", "cal-nav"),
+        ("Monday", "Monday", "cal-nav"),
+        ("Tuesday", "Tuesday", "cal-nav"),
+        ("Wednesday", "Wednesday", "cal-nav"),
+        ("Thursday", "Thursday", "cal-nav"),
+        ("Friday", "Friday", "cal-nav")
+      ])
+    }}
+{% endblock %}
+
+
 <!-- Calender tab -->
 <div
         class="tab-pane active"

@@ -675,6 +675,12 @@ div.session-url {
 
 /* session lists */
 
+.mobile-calendar-container {
+  /*position: relative;*/
+  /*overflow-y: scroll;*/
+  /*height: 500px;*/
+}
+
 .second-sticky-top {
   top: 80px;
   width: 100%;

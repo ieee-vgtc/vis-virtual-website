@@ -6,20 +6,6 @@
 {% include '2022/schedule_head.html' %}
 {% endblock %}
 
-{% block tabs %}
-    {{
-      components.tabs([
-        ("calendar", "Overview", "cal-nav active"),
-        ("Sunday", "Sunday", "cal-nav"),
-        ("Monday", "Monday", "cal-nav"),
-        ("Tuesday", "Tuesday", "cal-nav"),
-        ("Wednesday", "Wednesday", "cal-nav"),
-        ("Thursday", "Thursday", "cal-nav"),
-        ("Friday", "Friday", "cal-nav")
-      ])
-    }}
-{% endblock %}
-
 {% block content %}
 
     <div class="tab-content py-3 px-3 px-sm-0 d-none d-md-block" id="nav-tabContent">
