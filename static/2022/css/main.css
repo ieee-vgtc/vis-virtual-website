@@ -565,16 +565,27 @@ hr::after {
   margin-bottom: 0.5rem;
   color: var(--text-dark-color);
 }
+
+.event-card .event-room{
+  font-family: "Zilla Slab SemiBold", serif;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: var(--text-dark-color);
+}
+
 .event-card .event-time {
   font-family: "Fira Sans", sans-serif;
-  font-size: 0.8 rem;
+  font-size: 0.8rem;
   letter-spacing: .01em;
   color: var(--text-dark-color);
 }
 
 .event-card .event-url{
   font-family: "Fira Sans", sans-serif;
-  font-size: 0.8 rem;
+  font-size: 0.8rem;
   letter-spacing: .01em;
   color: var(--text-gray-color);
   margin-bottom: 0.25rem;
@@ -663,6 +674,13 @@ div.session-url {
 }
 
 /* session lists */
+
+.second-sticky-top {
+  top: 80px;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
 
 .session-listing {
   border-left: 5px solid transparent;

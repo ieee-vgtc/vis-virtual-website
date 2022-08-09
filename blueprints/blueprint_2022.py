@@ -12,10 +12,6 @@ import yaml
 
 year=2022
 year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
-# year_blueprint = Blueprint("vis{}".format(year), __name__,
-#                         template_folder="templates/{}".format(year),
-#                         static_folder="static",
-#                         static_url_path="/year/{}/static".format(year))
 
 site_data = {}
 by_uid = {}
@@ -55,11 +51,10 @@ def main(site_data_path):
                         "parent_id": session_id,
                         "event_description": p["event_description"],
                         "event_url": p["event_url"],
+                        "room_name": get_room_name(fq_timeslot['track'], site_data['config']['room_names']),
                     })
 
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
-
-                    by_uid["sessions"][timeslot["session_id"]] = fq_timeslot
 
         elif typ == "paper_list" or typ == "poster_list":
             for paper_id, p in site_data[typ].items():
@@ -90,11 +85,14 @@ def main(site_data_path):
                     "date": this_date.strftime("%A, %d %b %Y"),
                     "startTime": session["startTime"],
                     "endTime": session["endTime"],
+                    "room_name": session["room_name"]
                 }
 
             time_sessions[timeslot]["sessions"].append(session)
+            time_sessions[timeslot].update({"room_name": session["room_name"]})
 
-        by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
+        # by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
+        by_time[day] = time_sessions
 
     ## TODO: add paper information to session information
 
@@ -234,12 +232,12 @@ def schedule():
 
     data["days"] = {}
     for day in by_day:
-        data["days"][day] = {"timeslots": by_time[day]}
+        data["days"][day] = {"timeslots": collections.OrderedDict(sorted(by_time[day].items()))}
 
-    all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
-    data['events'] = all_events
+    # all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
+    # data['events'] = all_events
+    data['events_by_time'] = by_time
     # data['event_types'] = sorted(list(set([(e['type'], e["type"].split(" ")[0].lower()) for e in all_events])), key=lambda x: x[0])
-    data['render_event_types'] = False
     data['colors'] = data['config']['calendar']['colors']
 
     return render_template("{}/schedule.html".format(year), **data)
@@ -396,7 +394,6 @@ def format_by_session_list(v):
     if v["event"].lower() != v["title"].lower():
         fullTitle += ": " + v["title"]
         redundantTitle = False
-
     return {
         "id": v["session_id"],
         "title": v["title"],
@@ -428,8 +425,11 @@ def format_by_session_list(v):
         "ff_playlist": v["ff_playlist"],
         "ff_playlist_id": v["ff_playlist"].split("=")[-1] if v["ff_playlist"] else None,
         "zoom_meeting": v["zoom_meeting"],
+        "room_name": v["room_name"],
     }
 
+def get_room_name(track, room_names):
+    return room_names[track]
 
 # ITEM PAGES
 

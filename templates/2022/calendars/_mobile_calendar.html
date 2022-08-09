@@ -1,0 +1,68 @@
+<div class="row">
+</div>
+
+<script>
+  let currentItem = null;
+  d3.select("#start-item").each(function () {
+    currentItem = this;
+    const t = d3.select(this);
+    t.style("background-color", t.attr('data-bg-color'))
+      .style('color', '#fff');
+  });
+  d3.selectAll(".event-faceting")
+    .on("mouseover", function () {
+      const t = d3.select(this);
+      if (this === currentItem) return;
+      t.style("background-color", t.attr('data-bg-color'))
+      t.style("color", t.attr('#fff'))
+    })
+    .on("mouseout", function () {
+      const t = d3.select(this);
+      if (this === currentItem) return;
+      t.style("background-color", null)
+      t.style("color", t.attr('data-bg-color'))
+    })
+    .on("click", function () {
+      const that = this;
+      currentItem = that;
+      d3.selectAll(".event-faceting")
+        .style("background-color", function () {
+          return (this === that) ? d3.select(this)
+            .attr('data-bg-color') : null
+        })
+        .style("color", function () {
+          return (this === that) ? "#fff" : d3.select(this)
+            .attr('data-bg-color')
+        })
+
+      const key = d3.select(this).attr("data-key");
+      d3.selectAll(".event-card-wrapper")
+        .style('display', function () {
+          if (key === 'all') return null;
+          const myKey = d3.select(this).attr('data-session-type');
+          return (myKey === key) ? null : 'none';
+        })
+
+    })
+
+</script>
+
+<div class='container-fluid'>
+    <div class="row mt-5">
+        <ul class="list-group list-group-flush">
+        {% for day in events_by_time %}
+            {% for slot in events_by_time[day] %}
+                <div class="sticky-top second-sticky-top">
+                    <h4 class="session-list-date mt-3">
+                      <span class="fas mr-1">&#xf017;</span>
+                      <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
+                    </h4>
+                </div>
+                <li class="list-group-item">
+                    {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
+                </li>
+            {% endfor %}
+        {% endfor %}
+        </ul>
+    </div>
+</div>

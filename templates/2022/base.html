@@ -283,21 +283,29 @@
 
         function formatTimeSpan(element, includeDate) {
           const current_tz = getTimezone();
+          // print("element is ", element)
+          // return '';
+          // let parts = element.text().split(/[(\s-\s)|]/);
           let parts = element.text().split(" – ");
-          let start = parts[0];
-          let end = parts[1];
+          let start = parts[0] && parts[0].trim();
+          let end = parts[1] && parts[1].trim();
 
           let starttime = moment(start).clone().tz(current_tz)
           let endtime = moment(end).clone().tz(current_tz)
 
           //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
           // seems like not considering the timezone
+          console.log("starttime is ", starttime)
+          console.log("endtime is ", endtime)
+          console.log("starttime.format('D')  is ", starttime.format('D'))
+          console.log("endtime.format('D')  is ", endtime.format('D'))
           if (starttime.format("D") == endtime.format("D")) {
-            if (includeDate)
+            if (includeDate) {
+                console.log("this is ", starttime.format("dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format("HH:mm"))
               element.html(starttime.format(
                 "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
                 "HH:mm"));
-            else
+            } else
               element.html(
                 starttime.format("HH:mm") + " &ndash; " + endtime.format(
                 "HH:mm"));
@@ -327,7 +335,7 @@
         });
 
         $(".format-date-span-short").each((_i, element) => {
-          formatTimeSpan($(element), true);
+          formatTimeSpan($(element), false);
         });
 
         $(".format-date-span-full").each((_i, element) => {
