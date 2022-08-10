@@ -1,0 +1,17 @@
+{% set active_page = "Schedule" %}
+{% set page_title = "Schedule" %}
+{% extends "2022/base.html" %}
+{% block head %}
+{{ super() }}
+{% include '2022/schedule_head.html' %}
+{% endblock %}
+
+{% block content %}
+
+    <div class="tab-content py-3 px-3 px-sm-0 d-none d-md-block" id="nav-tabContent">
+        {% include '2022/calendars/_full_size_calendar.html' %}
+    </div>
+    <div class="d-md-none">
+        {% include '2022/calendars/_mobile_calendar.html' %}
+    </div>
+{% endblock %}

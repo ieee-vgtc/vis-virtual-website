@@ -1,0 +1,267 @@
+{% set page_title = session.fullTitle %}
+{% set active_page = "All Events" %}
+
+{% set social_title = "Session: " ~ session.fullTitle %}
+{% set social_description = "See the session and its presentations inside." %}
+
+{% extends "2022/base.html" %}
+{% block content %}
+
+<div class="row mt-3">
+    <div class="col-md-8">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" aria-current="page"><a href="events.html">All events</a></li>
+                <li class="breadcrumb-item"><a href="event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
+                <li class="breadcrumb-item active text-truncate" aria-current="page">{{ session.title }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="session-title">{{ session.fullTitle }}</h1>
+        {% if session.event_url %}
+        <h3 class="session-url">
+            <a href="{{ session.event_url }}" target="_blank">
+                <span class="fas mr-1">&#xf57c;</span>
+                {{ session.event_url }}</a>
+        </h3>
+        {% endif %}
+        {% if session.chair %}
+        <h3 class="session-chair">
+            <span class="fas mr-1">&#xf007;</span>
+            Session chair: {{ session.chair | join(", ") }}
+        </h3>
+        {% elif session.organizers %}
+        <h3 class="session-chair">
+            <span class="fas mr-1">&#xf0c0;</span>
+            Organizers: {{ session.organizers | join(", ") }}
+        </h3>
+        {% endif %}
+        <h3 class="session-room mt-4">
+            <span class="fas mr-1">&#xf108;</span>
+            <a href="room_{{room.id}}.html">
+                Live-stream room: {{ room.name }}
+            </a>
+        </h3>
+        <h3 class="session-date">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
+            <br>
+            <span style="margin-left: 2rem; font-size: 1rem;" class="timezone tztooltip">
+                <span class="relative-time">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                <span class="current-time tztooltiptext"></span>
+            </span>
+        </h3>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3 session-links">
+        <h5 class="session-info my-4">
+            <a href="#list">
+                Jump to event listing
+                <span class="fas mr-2">&#xf358;</span></a>
+        </h5>
+        {% if session.ff_playlist %}
+        <h5 class="session-info my-4">
+            <a href="#ff">
+                Jump to Fast Forwards
+                <span class="fas mr-2">&#xf87c;</span></a>
+        </h5>
+        {% endif %}
+        <h5 class="session-info my-4">
+            <a href="https://ieeevis.b-cdn.net/vis_2021/ics/{{ session.id }}.ics">
+                <span class="fas mr-2">&#xf073;</span>
+                Add to Calendar</a></h5>
+    </div>
+</div>
+
+{% if session.abstract %}
+<div class="row">
+    <div class="col-md-8">
+        <p>{{ session.abstract }}</p>
+    </div>
+</div>
+{% endif %}
+
+{% if session.zoom_meeting %}
+<div id="zoom_alert" class="row mt-5 mb-3">
+    <div class="col-lg-10">
+        <div class="alert alert-primary">
+            {% if session.timeSlots[0].type == "Zoom Only" %}
+            <p class="mb-0">This session takes place on Zoom only; a link will become available within 15 minutes of the session start.</p>
+            <div id="zoom_link">
+                <p class="mt-2 mb-0">
+                    <span class="zoom-time d-none">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">Click here to join</a>.
+                </p>
+            </div>
+            {% else %}
+            <p class="mb-0">You can join via Zoom for hands-on activities; a link will become available within 15 minutes of session start.</p>
+            <div id="zoom_link">
+                <p class="mt-2 mb-0">
+                    <span class="zoom-time d-none">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <a class="alert-link" href="{{ session.zoom_meeting }}" target="_blank">Click here to join</a>
+                </p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endif %}
+<div class="row">
+    <div class="col-md-8 mt-5 mb-2">
+        <div class="future_session_alert alert alert-warning" role="alert">
+            The live-stream for this session has not begun yet. <br><br>
+            When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
+        </div>
+
+        <div class="current_session_alert alert alert-info" role="alert">
+            This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to the {{ room.name }} room to view the session.</a>
+        </div>
+
+        <div class="past_session_alert alert alert-success" role="alert">
+            {% if session.type == "meetup" %}
+            This session has concluded.  Meetup recordings are not captured.
+            {% else %}
+            This session has concluded.  You can review the session using the player embedded below.
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+
+{% if session.type != "meetup" %}
+<div class="row mt-5">
+    <div class="col-lg-10 streaming-container">
+        <div class="streaming room_session_stream" id="playback-container">
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<hr>
+
+{% if session.timeSlots %}
+<div class="row my-4">
+    <div class="col-md-8">
+        <h2 class="room_session_descriptor d-block py-2"><a name="list">Presentations in this session:</a></h2>
+    </div>
+</div>
+
+{% for timeslot in session.timeSlots %}
+<div class="row mb-4">
+    <div class="col-md-8 session-listing">
+        {% if timeslot.uid %}
+        <h3 class="session-list-title">
+            <a href="paper_{{ timeslot.uid }}.html">
+                {{ timeslot.title }}
+                <span class="fas mr-1">&#xf0c1;</span>
+            </a>
+        </h3>
+        {% else %}
+        <h3 class="session-list-title">{{ timeslot.title }}</h3>
+        {% endif %}
+        <h4 class="session-list-presenter mt-3">
+            <span class="fas mr-1">&#xf21d;</span>
+            {{ timeslot.contributors | join(", ") }}
+        </h4>
+        <h5 class="session-list-type">
+            <span class="fas mx-1">&#xf027;</span>
+            {{ timeslot.type }}
+        </h4>
+        <h5 class="session-list-time">
+            <span class="fas mr-1">&#xf017;</span>
+            <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+            <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                <span class="tztooltiptext">Change your timezone on the schedule page</span>
+            </span>
+        </h5>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% if session.ff_playlist %}
+<hr>
+<div class="row my-4">
+    <div class="col-lg-10">
+        <h2 class="my-3"><a name="ff">Fast forwards in this session</a></h2>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}" target="_blank">{{ session.ff_playlist }}</a></p>
+    </div>
+</div>
+{% endif %}
+
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>You may want to also jump to the parent event to see related presentations: <a href="event_{{ session.parent_id }}.html">{{ session.event }}</a></p>
+    </div>
+</div>
+
+
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>If there are any issues with the virtual streaming site, you can try to access the <span class="fas mx-1">&#xf086;</span><a href="{{session.discord_link}}" target="_blank">Discord</a> and <span class="fas mx-1">&#xf128;</span><a href="{{session.slido_link}}" target="_blank">Slido</a> pages for this session directly.</p>
+    </div>
+</div>
+
+
+<script src="/static/2022/js/views/timezone.js"></script>
+
+{% endblock %}
+
+{% block footer %}
+
+    {{ super() }}
+<script>
+
+$(document).ready(function() {
+    setInterval(updateSessionStatus, 30 * 1000);
+    updateSessionStatus(true)
+})
+
+function updateSessionStatus(onFirstLoad) {
+    // We need to write the session timings into the page to calculate current/next session.
+    // See blueprint_2022.py
+    startTime = '{{session.startTime}}'
+    endTime = '{{session.endTime}}'
+
+    // We take a 15 minute grace period to the start of a session
+    const sessionStart = moment(startTime).tz(current_timezone).subtract(15, 'minutes');
+    const sessionEnd = moment(endTime).tz(current_timezone);
+
+    const sessionIsCurrent = moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    const sessionIsFuture = moment().tz(current_timezone).isBefore(sessionStart);
+    const sessionIsPast = moment().tz(current_timezone).isAfter(sessionStart);
+
+    const classesToHide = ['.future_session_alert', '.current_session_alert', '.past_session_alert', '.room_session_stream']
+    classesToHide.forEach((c) => { $(c).hide();});
+    if (sessionIsCurrent) {
+        $('.current_session_alert').show();
+    } else if (sessionIsFuture) {
+        $('.future_session_alert').show();
+    } else {
+        $('#zoom_alert').hide();
+        $('.past_session_alert').show();
+        $('.room_session_stream').show();
+        // Can't load the iframe in the background since it could
+        // autoplay while not being shown.
+        if (onFirstLoad) {
+            const iframe = document.createElement("iframe");
+            // iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
+            iframe.src = "playback.html?room={{room.id}}&day={{session.day}}&session={{session.id}}";
+            iframe.frameBorder = 0;
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframe.allowfullscreen = true ;
+            const playbackContainer = document.getElementById("playback-container");
+            playbackContainer.append(iframe);
+        }
+    }
+}
+
+</script>
+
+{% endblock %}

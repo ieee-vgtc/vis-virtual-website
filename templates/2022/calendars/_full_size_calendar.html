@@ -1,0 +1,114 @@
+
+{% block tabs %}
+    {{
+      components.tabs([
+        ("calendar", "Overview", "cal-nav active"),
+        ("Sunday", "Sunday", "cal-nav"),
+        ("Monday", "Monday", "cal-nav"),
+        ("Tuesday", "Tuesday", "cal-nav"),
+        ("Wednesday", "Wednesday", "cal-nav"),
+        ("Thursday", "Thursday", "cal-nav"),
+        ("Friday", "Friday", "cal-nav")
+      ])
+    }}
+{% endblock %}
+
+
+<!-- Calender tab -->
+<div
+        class="tab-pane active"
+        id="tab-calendar"
+        role="tabpanel"
+        aria-labelledby="nav-profile-tab"
+>
+
+    <!-- full cal for browser-->
+    <!-- <div id="calendar" class="d-none d-sm-block"></div> -->
+
+    <div class="schedule" id="calendar">
+
+      <div class="tz" style="grid-column: times / day-2-end; grid-row: timezones;">
+        <span class="tz-title">Your timezone</span>
+        <div class="">
+          <select class="tzOptions selectpicker"></select>
+          <!-- <button type="button" id="saveTz" class="btn btn-light">
+            <span class="fas mr-1">&#xf0c7;</span>
+            Set
+          </button> -->
+          <button type="button" class="resetTz btn btn-light">
+            <span class="fas mr-1">&#xf0e2;</span>
+            <!-- Reset -->
+          </button>
+        </div>
+      </div>
+      <div class="tz tz-right">
+        <span class="tz-title">Conference timezone</span>
+        <span class="tz-description">Oklahoma (America/Chicago)</span>
+        <span class="tz-description">US Central Time (CT, UTC-5)</span>
+      </div>
+
+      <!-- session information to be filled in by javascript / schedule json  -->
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-12 d-flex flex-wrap justify-content-around" id="color-legend"></div>
+  </div>
+
+  <hr>
+  <div>
+    <p>
+      <a href="https://ieeevis.b-cdn.net/vis_2021/ics/VIS%202021.ics">
+        <span class="fas mr-2">&#xf073;</span>
+        Add all 2021 conference sessions to your calendar</a>.
+      You can add this address to your online calendaring system if you want to receive updates dynamically.
+    </p>
+  </div>
+</div>
+
+<!-- Day Tab -->
+
+{% for day in days %}
+    <div class="tab-pane fade" id="tab-{{ day }}" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="schedule schedule-day" id="calendar-{{ day }}">
+        <div class="tz" style="grid-column: times / room3-end; grid-row: timezones;">
+          <span class="tz-title">Your timezone</span>
+          <div class="">
+            <select class="tzOptions selectpicker"></select>
+            <button type="button" class="resetTz btn btn-light">
+              <span class="fas mr-1" aria-label="Reset">&#xf0e2;</span>
+            </button>
+          </div>
+        </div>
+        <div class="tz tz-right">
+          <span class="tz-title">Conference timezone</span>
+          <span class="tz-description">Oklahoma City (America/Chicago)</span>
+          <span class="tz-description">US Central Time (CT, UTC-5)</span>
+        </div>
+
+        <!-- rest of the calendar will be filled in -->
+
+      </div>
+      <hr>
+      <div id="day">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Full list of sessions on <span class="note tztooltip" alt="The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.">{{ day }}<span class="tztooltiptext">The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.</span></span></h1>
+            </div>
+          </div>
+          <div class="sessions">
+              {{ components.sessiongroup(days[day].timeslots, config["calendar"]["colors"] ) }}
+          </div>
+      </div>
+    </div>
+{% endfor %}
+
+<script type="text/javascript">
+
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  let renderPromises = [];
+  for (const day of days)
+    renderPromises.push(updateFullCalendar(day));
+
+  finishCalendar(renderPromises);
+
+</script>

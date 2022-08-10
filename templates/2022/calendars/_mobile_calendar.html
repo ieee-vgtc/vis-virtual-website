@@ -1,0 +1,83 @@
+
+{% block tabs %}
+    {{
+      components.scrollspy([
+        ("Sunday", "Sunday", "cal-nav"),
+        ("Monday", "Monday", "cal-nav"),
+        ("Tuesday", "Tuesday", "cal-nav"),
+        ("Wednesday", "Wednesday", "cal-nav"),
+        ("Thursday", "Thursday", "cal-nav"),
+        ("Friday", "Friday", "cal-nav")
+      ])
+    }}
+{% endblock %}
+
+
+<div class='container-fluid'>
+
+    <div>
+        <span class="tz-title">Your timezone</span>
+        <select class="tzOptions selectpicker"></select>
+          <!-- <button type="button" id="saveTz" class="btn btn-light">
+            <span class="fas mr-1">&#xf0c7;</span>
+            Set
+          </button> -->
+        <button type="button" class="resetTz btn btn-light">
+            <span class="fas mr-1">&#xf0e2;</span>
+    <!-- Reset -->
+        </button>
+    </div>
+    <div>
+        <div class="tz-title">Conference timezone</div>
+        <div class="tz-description">Oklahoma (America/Chicago)</div>
+        <div class="tz-description">US Central Time (CT, UTC-5)</div>
+    </div>
+</div>
+<div class="container mobile-calendar-container">
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true">                          <span class="fas mr-1">&#xf0aa;</span>
+    </a>
+    <div class="row">
+        <ul class="list-group list-group-flush">
+        {% for day in events_by_time %}
+
+            <div id="scrollspy{{ day }}">
+                {% for slot in events_by_time[day] %}
+                    <div class="container sticky-top second-sticky-top">
+                        <h4 class="session-list-date">
+                          <span class="fas mr-1">&#xf017;</span>
+                          <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
+                        </h4>
+                    </div>
+                    <li class="list-group-item">
+                        {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
+                    </li>
+                {% endfor %}
+            </div>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+  let mobile_days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  let mobile_renderPromises = [];
+  for (const day of mobile_days)
+    mobile_renderPromises.push(updateFullCalendar(day));
+
+  finishCalendar(mobile_renderPromises);
+
+  // $('[data-bs-spy="scroll"]').on('activate.bs.scrollspy', function () {
+  //   console.log("should be togglling show")
+  //   $('#toTopBtn').show();
+  // })
+  $('[data-bs-spy="scroll"]').scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 100) {
+      $('#toTopBtn').fadeIn();
+    } else {
+      $('#toTopBtn').fadeOut();
+    }
+  });
+
+</script>
