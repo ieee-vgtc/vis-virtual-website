@@ -34,6 +34,8 @@
     </div>
 </div>
 <div class="container mobile-calendar-container">
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true">                          <span class="fas mr-1">&#xf0aa;</span>
+    </a>
     <div class="row">
         <ul class="list-group list-group-flush">
         {% for day in events_by_time %}
@@ -64,5 +66,18 @@
     mobile_renderPromises.push(updateFullCalendar(day));
 
   finishCalendar(mobile_renderPromises);
+
+  // $('[data-bs-spy="scroll"]').on('activate.bs.scrollspy', function () {
+  //   console.log("should be togglling show")
+  //   $('#toTopBtn').show();
+  // })
+  $('[data-bs-spy="scroll"]').scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 100) {
+      $('#toTopBtn').fadeIn();
+    } else {
+      $('#toTopBtn').fadeOut();
+    }
+  });
 
 </script>
