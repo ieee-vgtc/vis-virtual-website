@@ -1,0 +1,51 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "poster_list.json",
+    "title": "Poster List",
+    "description": "List of posters for virtual-vis.ieeevis.org",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/poster"
+    },
+    "definitions": {
+        "event": {
+            "type": "object",
+            "properties": {
+                "authors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "title": {
+                    "type": "string"
+                },
+                "keywords": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "event": {
+                    "type": "string"
+                },
+                "uid": {
+                    "type": "string"
+                },
+                "discord_channel": {
+                    "type": "string"
+                },
+                "has_image": {
+                    "type": "boolean"
+                },
+                "poster_award": {
+                    "type": "string"
+                },
+                "has_summary_pdf": {
+                    "type": "boolean"
+                }
+            },
+            "required": ["authors", "title", "uid", "has_image", "poster_award", "event", "discord_channel", "has_summary_pdf"]
+        }
+    },
+}
