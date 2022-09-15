@@ -1,12 +1,12 @@
 // yeah, globals are bad but it makes it easy
 
 let dayData = [
-  { text: "Sun, Oct 24", day: "Sunday" },
-  { text: "Mon, Oct 25", day: "Monday" },
-  { text: "Tue, Oct 26", day: "Tuesday" },
-  { text: "Wed, Oct 27", day: "Wednesday" },
-  { text: "Thu, Oct 28", day: "Thursday" },
-  { text: "Fri, Oct 29", day: "Friday" },
+  { text: "Sun, Oct 16", day: "Sunday" },
+  { text: "Mon, Oct 17", day: "Monday" },
+  { text: "Tue, Oct 18", day: "Tuesday" },
+  { text: "Wed, Oct 19", day: "Wednesday" },
+  { text: "Thu, Oct 20", day: "Thursday" },
+  { text: "Fri, Oct 21", day: "Friday" },
 ];
 
 function finishCalendar(renderPromises) {
@@ -147,6 +147,9 @@ function updateFullCalendar(day) {
 }
 
 function createFullCalendar(calendar, config, allEvents) {
+  const getColor = generateColorFunction(config);
+  const getTextColor = d => generateTextColorFunction(config, getColor);
+
   // there's a strong assumption here that all parallel sessions are aligned on start/end time
   let sessions_by_day_and_time = d3.group(
     allEvents,
@@ -201,11 +204,10 @@ function createFullCalendar(calendar, config, allEvents) {
 
       if (sessions.length === 1) {
         const session = sessions[0];
-        const session_color = config.calendar.colors[session.eventType];
         timeslot.attr('class', 'session')
           .attr('id', session.id)
-          .style('background-color', session_color)
-          .style('color', getTextColorByBackgroundColor(session_color))
+          .style('background-color', getColor(session))
+          .style('color', getTextColor(session))
           .text(session.title);
       }
       else {
@@ -213,16 +215,16 @@ function createFullCalendar(calendar, config, allEvents) {
           .data(sessions, d => d.id)
           .join('div')
             .attr('class', 'session')
-            .style('background-color', d => config.calendar.colors[d.eventType])
-            .style('color', d => getTextColorByBackgroundColor(config.calendar.colors[d.eventType]))
+            .style('background-color', getColor)
+            .style('color', getTextColor)
       }
     };
   };
 }
 
 function createDayCalendar(calendar, config, dayEvents) {
-  const getColor = d => config.calendar.colors[d.eventType];
-  const getTextColor = d => getTextColorByBackgroundColor(getColor(d));
+  const getColor = generateColorFunction(config);
+  const getTextColor = d => generateTextColorFunction(config, getColor);
 
   const navigateToSession = (_ev, d) => {
     window.location = d.link;
@@ -366,4 +368,21 @@ function getTextColorByBackgroundColor(hexColor) {
   let b = parseInt(hexColor.substr(4, 2), 16);
   let yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
   return yiq >= 128 ? '#000000' : '#ffffff';
+}
+
+// Utility functions for accessing background and text colors, shared between the
+// day and full week calendars.
+// Background color function needs to be generated dynamically based on config.
+function generateColorFunction(config) {
+  const getColor = function(d) {
+    return config.calendar.colors[(d && d.eventType) || '---'];
+  } 
+  // const getColor = d => config.calendar.colors[d.eventType || '---'];
+  return getColor;
+}
+
+function generateTextColorFunction(config, getColor) {
+  const getTextColor = d => getTextColorByBackgroundColor(getColor(d));
+  // const getTextColor = d => getTextColorByBackgroundColor(getColor(d));
+  return getTextColor;
 }

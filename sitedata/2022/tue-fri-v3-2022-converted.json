@@ -3,10 +3,10 @@
     "event": "Conference Events",
     "sessions": [
       {
-        "title": "VIS Welcome (8:30am-8:45am)| VGTC Awards (8:45am-9:30am)| Test of Time Awards (9:30am-10:15am)",
+        "title": "VIS Opening / Awards",
         "session_id": "conf1",
         "chair": [],
-        "time_start": "2022-10-18T13:30:00Z",
+        "time_start": "2022-10-18T14:00:00Z",
         "time_end": "2022-10-18T15:15:00Z",
         "time_slots": [
           {
@@ -15,13 +15,13 @@
               "General Chairs"
             ],
             "paper_id": "",
-            "time_start": "2022-10-18T13:30:00Z",
-            "time_end": "2022-10-18T14:45:00Z"
+            "time_start": "2022-10-18T14:00:00Z",
+            "time_end": "2022-10-18T15:15:00Z"
           }
         ]
       },
       {
-        "title": "Industry Keynote (2:00pm-2:15pm)| VIS Keynote (2:15pm-3:15pm)",
+        "title": "VIS Keynote",
         "session_id": "conf2",
         "chair": [],
         "time_start": "2022-10-18T19:00:00Z",
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "title": "VIS Supporters Forum| Featured Sponsor Talks ()| Supporters Panel ()",
+        "title": "VIS Supporters Forum",
         "session_id": "conf3",
         "chair": [],
         "time_start": "2022-10-18T20:45:00Z",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "title": "VIS Capstone (10:15am-11:45am)| VIS Closing (11:45am-12:00pm)",
+        "title": "VIS Capstone",
         "session_id": "conf4",
         "chair": [],
         "time_start": "2022-10-21T15:45:00Z",
@@ -80,7 +80,7 @@
     "event": "VIS Full Papers",
     "sessions": [
       {
-        "title": "VIS Opening (10:45am-11:03am)| Best Papers (11:03am-12:00pm)",
+        "title": "Best Papers",
         "session_id": "full1",
         "chair": [
           "Tamara Munzner"
@@ -94,7 +94,7 @@
               "Helwig Hauser",
               "Bongshin Lee",
               "Anders Ynnerman",
-              "Michelle A. Borkin",
+              "Michelle Borkin",
               "Christoph Garth",
               "Jonathan Roberts",
               "Chaoli Wang"
@@ -152,11 +152,9 @@
       {
         "title": "Visualization Opportunities",
         "session_id": "full2",
-        "chair": [
-          "Melanie Tory"
-        ],
-        "time_start": "2022-10-19T15:45:00Z",
-        "time_end": "2022-10-19T17:00:00Z",
+        "chair": [],
+        "time_start": "2022-10-19T19:00:00Z",
+        "time_end": "2022-10-19T20:15:00Z",
         "time_slots": [
           {
             "title": "KiriPhys: Exploring New Data Physicalization Opportunities",
@@ -166,8 +164,8 @@
               "Sheelagh Carpendale"
             ],
             "paper_id": "v-full-1467",
-            "time_start": "2022-10-19T15:45:00Z",
-            "time_end": "2022-10-19T15:57:00Z"
+            "time_start": "2022-10-19T19:00:00Z",
+            "time_end": "2022-10-19T19:12:00Z"
           },
           {
             "title": "Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer",
@@ -179,8 +177,8 @@
               "Nan Cao"
             ],
             "paper_id": "v-full-1197",
-            "time_start": "2022-10-19T15:57:00Z",
-            "time_end": "2022-10-19T16:09:00Z"
+            "time_start": "2022-10-19T19:12:00Z",
+            "time_end": "2022-10-19T19:24:00Z"
           },
           {
             "title": "Self-Supervised Color-Concept Association via Image Colorization",
@@ -192,8 +190,8 @@
               "Hui Huang"
             ],
             "paper_id": "v-full-1221",
-            "time_start": "2022-10-19T16:09:00Z",
-            "time_end": "2022-10-19T16:21:00Z"
+            "time_start": "2022-10-19T19:24:00Z",
+            "time_end": "2022-10-19T19:36:00Z"
           },
           {
             "title": "Cultivating Visualization Literacy for Children through Curiosity and Play",
@@ -207,8 +205,8 @@
               "Danielle Albers Szafir"
             ],
             "paper_id": "v-full-1616",
-            "time_start": "2022-10-19T16:21:00Z",
-            "time_end": "2022-10-19T16:33:00Z"
+            "time_start": "2022-10-19T19:36:00Z",
+            "time_end": "2022-10-19T19:48:00Z"
           },
           {
             "title": "Roboviz: A Game-Centered Project for Information Visualization Education",
@@ -217,8 +215,8 @@
               "Elsie Lee-Robbins"
             ],
             "paper_id": "v-full-1237",
-            "time_start": "2022-10-19T16:33:00Z",
-            "time_end": "2022-10-19T16:45:00Z"
+            "time_start": "2022-10-19T19:48:00Z",
+            "time_end": "2022-10-19T20:00:00Z"
           },
           {
             "title": "Relaxed Dot Plots: Faithful Visualization of Samples and Their Distribution",
@@ -231,19 +229,17 @@
               "Daniel Weiskopf"
             ],
             "paper_id": "v-full-1621",
-            "time_start": "2022-10-19T16:45:00Z",
-            "time_end": "2022-10-19T16:57:00Z"
+            "time_start": "2022-10-19T20:00:00Z",
+            "time_end": "2022-10-19T20:12:00Z"
           }
         ]
       },
       {
         "title": "Dealing with Scale, Space, and Dimension",
         "session_id": "full3",
-        "chair": [
-          "Michael Aupetit"
-        ],
-        "time_start": "2022-10-19T20:45:00Z",
-        "time_end": "2022-10-19T22:00:00Z",
+        "chair": [],
+        "time_start": "2022-10-19T15:45:00Z",
+        "time_end": "2022-10-19T17:00:00Z",
         "time_slots": [
           {
             "title": "Multivariate Probabilistic Range Queries for Scalable Interactive 3D Visualization",
@@ -256,8 +252,8 @@
               "Markus Hadwiger"
             ],
             "paper_id": "v-full-1406",
-            "time_start": "2022-10-19T20:45:00Z",
-            "time_end": "2022-10-19T20:57:00Z"
+            "time_start": "2022-10-19T15:45:00Z",
+            "time_end": "2022-10-19T15:57:00Z"
           },
           {
             "title": "Dual Space Coupling Model Guided Overlap-free Scatterplot",
@@ -270,8 +266,8 @@
               "Jiawan Zhang"
             ],
             "paper_id": "v-full-1394",
-            "time_start": "2022-10-19T20:57:00Z",
-            "time_end": "2022-10-19T21:09:00Z"
+            "time_start": "2022-10-19T15:57:00Z",
+            "time_end": "2022-10-19T16:09:00Z"
           },
           {
             "title": "Measuring Effects of Spatial Visualization and Domain on Visualization Task Performance: A Comparative Study",
@@ -281,8 +277,8 @@
               "Rita Borgo"
             ],
             "paper_id": "v-full-1124",
-            "time_start": "2022-10-19T21:09:00Z",
-            "time_end": "2022-10-19T21:21:00Z"
+            "time_start": "2022-10-19T16:09:00Z",
+            "time_end": "2022-10-19T16:21:00Z"
           },
           {
             "title": "Local Latent Representation based on Geometric Convolution for Particle Data Feature Exploration",
@@ -291,8 +287,8 @@
               "Han-Wei Shen"
             ],
             "paper_id": "v-tvcg-9735308",
-            "time_start": "2022-10-19T21:21:00Z",
-            "time_end": "2022-10-19T21:33:00Z"
+            "time_start": "2022-10-19T16:21:00Z",
+            "time_end": "2022-10-19T16:33:00Z"
           },
           {
             "title": "Graphical Enhancements for Effective Exemplar Identification in Contextual Data Visualizations",
@@ -302,8 +298,8 @@
               "Klaus Mueller"
             ],
             "paper_id": "v-tvcg-9765327",
-            "time_start": "2022-10-19T21:33:00Z",
-            "time_end": "2022-10-19T21:45:00Z"
+            "time_start": "2022-10-19T16:33:00Z",
+            "time_end": "2022-10-19T16:45:00Z"
           },
           {
             "title": "Effectiveness Error: Measuring and Improving RadViz Visual Effectiveness",
@@ -315,17 +311,15 @@
               "Giuseppe Santucci"
             ],
             "paper_id": "v-tvcg-9514468",
-            "time_start": "2022-10-19T21:45:00Z",
-            "time_end": "2022-10-19T21:57:00Z"
+            "time_start": "2022-10-19T16:45:00Z",
+            "time_end": "2022-10-19T16:57:00Z"
           }
         ]
       },
       {
         "title": "Text, Language, and Image Data",
         "session_id": "full4",
-        "chair": [
-          "Steffen Koch"
-        ],
+        "chair": [],
         "time_start": "2022-10-20T20:45:00Z",
         "time_end": "2022-10-20T22:00:00Z",
         "time_slots": [
@@ -419,9 +413,7 @@
       {
         "title": "Transforming Tabular Data and Grammars",
         "session_id": "full5",
-        "chair": [
-          "Alexander Lex"
-        ],
+        "chair": [],
         "time_start": "2022-10-19T14:00:00Z",
         "time_end": "2022-10-19T15:15:00Z",
         "time_slots": [
@@ -510,9 +502,7 @@
       {
         "title": "Spatial Data",
         "session_id": "full6",
-        "chair": [
-          "Holger Theisel"
-        ],
+        "chair": [],
         "time_start": "2022-10-21T14:00:00Z",
         "time_end": "2022-10-21T15:15:00Z",
         "time_slots": [
@@ -606,8 +596,8 @@
         "title": "Uncertainty",
         "session_id": "full7",
         "chair": [],
-        "time_start": "2022-10-19T20:45:00Z",
-        "time_end": "2022-10-19T22:00:00Z",
+        "time_start": "2022-10-19T15:45:00Z",
+        "time_end": "2022-10-19T17:00:00Z",
         "time_slots": [
           {
             "title": "VERTIGo: A Visual Platform for Querying and Exploring Large Multilayer Networks",
@@ -618,8 +608,8 @@
               "Pascal Poncelet"
             ],
             "paper_id": "v-tvcg-9382912",
-            "time_start": "2022-10-19T20:45:00Z",
-            "time_end": "2022-10-19T20:57:00Z"
+            "time_start": "2022-10-19T15:45:00Z",
+            "time_end": "2022-10-19T15:57:00Z"
           },
           {
             "title": "Fiber Uncertainty Visualization for Bivariate Data With Parametric and Nonparametric Noise Models",
@@ -630,8 +620,8 @@
               "David Pugmire"
             ],
             "paper_id": "v-full-1307",
-            "time_start": "2022-10-19T20:57:00Z",
-            "time_end": "2022-10-19T21:09:00Z"
+            "time_start": "2022-10-19T15:57:00Z",
+            "time_end": "2022-10-19T16:09:00Z"
           },
           {
             "title": "Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots",
@@ -645,8 +635,8 @@
               "Matthew Kay"
             ],
             "paper_id": "v-full-1121",
-            "time_start": "2022-10-19T21:09:00Z",
-            "time_end": "2022-10-19T21:21:00Z"
+            "time_start": "2022-10-19T16:09:00Z",
+            "time_end": "2022-10-19T16:21:00Z"
           },
           {
             "title": "Dispersion vs Disparity: Hiding Variability Can Encourage Stereotyping When Visualizing Social Outcomes",
@@ -655,8 +645,8 @@
               "Cindy Xiong"
             ],
             "paper_id": "v-full-1062",
-            "time_start": "2022-10-19T21:21:00Z",
-            "time_end": "2022-10-19T21:33:00Z"
+            "time_start": "2022-10-19T16:21:00Z",
+            "time_end": "2022-10-19T16:33:00Z"
           },
           {
             "title": "Communicating Uncertainty in Digital Humanities Visualization Research",
@@ -669,8 +659,8 @@
               "Andrew Vande Moere"
             ],
             "paper_id": "v-full-1269",
-            "time_start": "2022-10-19T21:33:00Z",
-            "time_end": "2022-10-19T21:45:00Z"
+            "time_start": "2022-10-19T16:33:00Z",
+            "time_end": "2022-10-19T16:45:00Z"
           },
           {
             "title": "Fuzzy Spreadsheet: Understanding and Exploring Uncertainties in Tabular Calculations",
@@ -682,8 +672,8 @@
               "Marc Streit"
             ],
             "paper_id": "v-tvcg-9566799",
-            "time_start": "2022-10-19T21:45:00Z",
-            "time_end": "2022-10-19T21:57:00Z"
+            "time_start": "2022-10-19T16:45:00Z",
+            "time_end": "2022-10-19T16:57:00Z"
           }
         ]
       },
@@ -691,8 +681,8 @@
         "title": "Understanding and Modeling How People Respond to Visualizations",
         "session_id": "full8",
         "chair": [],
-        "time_start": "2022-10-19T15:45:00Z",
-        "time_end": "2022-10-19T17:00:00Z",
+        "time_start": "2022-10-19T19:00:00Z",
+        "time_end": "2022-10-19T20:15:00Z",
         "time_slots": [
           {
             "title": "A Survey of Perception-Based Visualization Studies by Task",
@@ -701,8 +691,8 @@
               "Paul Rosen"
             ],
             "paper_id": "v-tvcg-9492011",
-            "time_start": "2022-10-19T15:45:00Z",
-            "time_end": "2022-10-19T15:57:00Z"
+            "time_start": "2022-10-19T19:00:00Z",
+            "time_end": "2022-10-19T19:12:00Z"
           },
           {
             "title": "BeauVis: A Validated Scale for Measuring the Aesthetic Pleasure of Visual Representations",
@@ -713,8 +703,8 @@
               "Tobias Isenberg"
             ],
             "paper_id": "v-full-1219",
-            "time_start": "2022-10-19T15:57:00Z",
-            "time_end": "2022-10-19T16:09:00Z"
+            "time_start": "2022-10-19T19:12:00Z",
+            "time_end": "2022-10-19T19:24:00Z"
           },
           {
             "title": "Photosensitive Accessibility for Interactive Data Visualizations",
@@ -723,8 +713,8 @@
               "Michelle A. Borkin"
             ],
             "paper_id": "v-full-1217",
-            "time_start": "2022-10-19T16:09:00Z",
-            "time_end": "2022-10-19T16:21:00Z"
+            "time_start": "2022-10-19T19:24:00Z",
+            "time_end": "2022-10-19T19:36:00Z"
           },
           {
             "title": "Unifying Effects of Direct and Relational Associations for Visual Communication",
@@ -736,8 +726,8 @@
               "Karen Schloss"
             ],
             "paper_id": "v-full-1115",
-            "time_start": "2022-10-19T16:21:00Z",
-            "time_end": "2022-10-19T16:33:00Z"
+            "time_start": "2022-10-19T19:36:00Z",
+            "time_end": "2022-10-19T19:48:00Z"
           },
           {
             "title": "A Scanner Deeply: Predicting Gaze Heatmaps on Visualizations Using Crowdsourced Eye Movement Data",
@@ -748,8 +738,8 @@
               "Niklas Elmqvist"
             ],
             "paper_id": "v-full-1448",
-            "time_start": "2022-10-19T16:33:00Z",
-            "time_end": "2022-10-19T16:45:00Z"
+            "time_start": "2022-10-19T19:48:00Z",
+            "time_end": "2022-10-19T20:00:00Z"
           },
           {
             "title": "Studying Early Decision Making with Progressive Bar Charts",
@@ -761,8 +751,8 @@
               "Jean-Daniel Fekete"
             ],
             "paper_id": "v-full-1254",
-            "time_start": "2022-10-19T16:45:00Z",
-            "time_end": "2022-10-19T16:57:00Z"
+            "time_start": "2022-10-19T20:00:00Z",
+            "time_end": "2022-10-19T20:12:00Z"
           }
         ]
       },
@@ -770,8 +760,8 @@
         "title": "Interpreting Machine Learning",
         "session_id": "full9",
         "chair": [],
-        "time_start": "2022-10-20T15:45:00Z",
-        "time_end": "2022-10-20T17:00:00Z",
+        "time_start": "2022-10-19T20:45:00Z",
+        "time_end": "2022-10-19T22:00:00Z",
         "time_slots": [
           {
             "title": "StrategyAtlas: Strategy Analysis for Machine Learning Interpretability",
@@ -780,8 +770,8 @@
               "Jarke J. van Wijk"
             ],
             "paper_id": "v-tvcg-9695246",
-            "time_start": "2022-10-20T15:45:00Z",
-            "time_end": "2022-10-20T15:57:00Z"
+            "time_start": "2022-10-19T20:45:00Z",
+            "time_end": "2022-10-19T20:57:00Z"
           },
           {
             "title": "VDL-Surrogate: A View-Dependent Latent-based Model for Parameter Space Exploration of Ensemble Simulations",
@@ -794,8 +784,8 @@
               "Han-Wei Shen"
             ],
             "paper_id": "v-full-1696",
-            "time_start": "2022-10-20T15:57:00Z",
-            "time_end": "2022-10-20T16:09:00Z"
+            "time_start": "2022-10-19T20:57:00Z",
+            "time_end": "2022-10-19T21:09:00Z"
           },
           {
             "title": "ConceptExplainer: Understanding the Mental Model of Deep Learning Algorithms via Interactive Concept-based Explanations",
@@ -806,8 +796,8 @@
               "Chris Bryan"
             ],
             "paper_id": "v-full-1074",
-            "time_start": "2022-10-20T16:09:00Z",
-            "time_end": "2022-10-20T16:21:00Z"
+            "time_start": "2022-10-19T21:09:00Z",
+            "time_end": "2022-10-19T21:21:00Z"
           },
           {
             "title": "SliceTeller : A Data Slice-Driven Approach for Machine Learning Model Validation",
@@ -820,8 +810,8 @@
               "Liu Ren"
             ],
             "paper_id": "v-full-1320",
-            "time_start": "2022-10-20T16:21:00Z",
-            "time_end": "2022-10-20T16:33:00Z"
+            "time_start": "2022-10-19T21:21:00Z",
+            "time_end": "2022-10-19T21:33:00Z"
           },
           {
             "title": "Calibrate: Interactive Analysis of Probabilistic Model Output",
@@ -833,8 +823,8 @@
               "Claudio Silva"
             ],
             "paper_id": "v-full-1657",
-            "time_start": "2022-10-20T16:33:00Z",
-            "time_end": "2022-10-20T16:45:00Z"
+            "time_start": "2022-10-19T21:33:00Z",
+            "time_end": "2022-10-19T21:45:00Z"
           },
           {
             "title": "Visualizing Ensemble Predictions of Music Mood",
@@ -843,17 +833,15 @@
               "Min Chen"
             ],
             "paper_id": "v-full-1319",
-            "time_start": "2022-10-20T16:45:00Z",
-            "time_end": "2022-10-20T16:57:00Z"
+            "time_start": "2022-10-19T21:45:00Z",
+            "time_end": "2022-10-19T21:57:00Z"
           }
         ]
       },
       {
         "title": "Storytelling",
         "session_id": "full10",
-        "chair": [
-          "Robert Laramee"
-        ],
+        "chair": [],
         "time_start": "2022-10-20T19:00:00Z",
         "time_end": "2022-10-20T20:15:00Z",
         "time_slots": [
@@ -944,9 +932,7 @@
       {
         "title": "Interactive Dimensionality (High Dimensional Data)",
         "session_id": "full11",
-        "chair": [
-          "Lars Linsen"
-        ],
+        "chair": [],
         "time_start": "2022-10-20T14:00:00Z",
         "time_end": "2022-10-20T15:15:00Z",
         "time_slots": [
@@ -1034,9 +1020,7 @@
       {
         "title": "Natural Language Interaction",
         "session_id": "full12",
-        "chair": [
-          "John Stasko"
-        ],
+        "chair": [],
         "time_start": "2022-10-21T14:00:00Z",
         "time_end": "2022-10-21T15:15:00Z",
         "time_slots": [
@@ -1123,9 +1107,7 @@
       {
         "title": "Reflecting on Academia and our Field",
         "session_id": "full13",
-        "chair": [
-          "Petra Isenberg"
-        ],
+        "chair": [],
         "time_start": "2022-10-20T19:00:00Z",
         "time_end": "2022-10-20T20:15:00Z",
         "time_slots": [
@@ -1212,9 +1194,7 @@
       {
         "title": "Infrastructure Management",
         "session_id": "full14",
-        "chair": [
-          "Ross Maciejewski"
-        ],
+        "chair": [],
         "time_start": "2022-10-20T20:45:00Z",
         "time_end": "2022-10-20T22:00:00Z",
         "time_slots": [
@@ -1308,11 +1288,9 @@
       {
         "title": "Sports Vis",
         "session_id": "full15",
-        "chair": [
-          "Johanna Schmidt"
-        ],
-        "time_start": "2022-10-20T15:45:00Z",
-        "time_end": "2022-10-20T17:00:00Z",
+        "chair": [],
+        "time_start": "2022-10-19T20:45:00Z",
+        "time_end": "2022-10-19T22:00:00Z",
         "time_slots": [
           {
             "title": "Sporthesia: Augmenting Sports Videos Using Natural Language",
@@ -1326,8 +1304,8 @@
               "Hanspeter Pfister"
             ],
             "paper_id": "v-full-1238",
-            "time_start": "2022-10-20T15:45:00Z",
-            "time_end": "2022-10-20T16:00:00Z"
+            "time_start": "2022-10-19T20:45:00Z",
+            "time_end": "2022-10-19T21:00:00Z"
           },
           {
             "title": "OBTracker: Visual Analytics of Off-ball Movements in Basketball",
@@ -1342,8 +1320,8 @@
               "Yingcai Wu"
             ],
             "paper_id": "v-full-1083",
-            "time_start": "2022-10-20T16:00:00Z",
-            "time_end": "2022-10-20T16:15:00Z"
+            "time_start": "2022-10-19T21:00:00Z",
+            "time_end": "2022-10-19T21:15:00Z"
           },
           {
             "title": "Visualization in Motion: A Research Agenda and Two Evaluations",
@@ -1354,8 +1332,8 @@
               "Petra Isenberg"
             ],
             "paper_id": "v-tvcg-9802784",
-            "time_start": "2022-10-20T16:15:00Z",
-            "time_end": "2022-10-20T16:30:00Z"
+            "time_start": "2022-10-19T21:15:00Z",
+            "time_end": "2022-10-19T21:30:00Z"
           },
           {
             "title": "RASIPAM: Interactive Pattern Mining of Multivariate Event Sequences in Racket Sports",
@@ -1366,8 +1344,8 @@
               "Yingcai Wu"
             ],
             "paper_id": "v-full-1041",
-            "time_start": "2022-10-20T16:30:00Z",
-            "time_end": "2022-10-20T16:45:00Z"
+            "time_start": "2022-10-19T21:30:00Z",
+            "time_end": "2022-10-19T21:45:00Z"
           },
           {
             "title": "Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training",
@@ -1381,8 +1359,8 @@
               "Yingcai Wu"
             ],
             "paper_id": "v-full-1031",
-            "time_start": "2022-10-20T16:45:00Z",
-            "time_end": "2022-10-20T17:00:00Z"
+            "time_start": "2022-10-19T21:45:00Z",
+            "time_end": "2022-10-19T22:00:00Z"
           },
           {
             "title": "The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences",
@@ -1395,8 +1373,8 @@
               "Hanspeter Pfister"
             ],
             "paper_id": "v-full-1223",
-            "time_start": "2022-10-20T17:00:00Z",
-            "time_end": "2022-10-20T17:15:00Z"
+            "time_start": "2022-10-19T22:00:00Z",
+            "time_end": "2022-10-19T22:15:00Z"
           }
         ]
       },
@@ -1680,8 +1658,8 @@
         "title": "VA for ML",
         "session_id": "full19",
         "chair": [],
-        "time_start": "2022-10-19T15:45:00Z",
-        "time_end": "2022-10-19T17:00:00Z",
+        "time_start": "2022-10-19T19:00:00Z",
+        "time_end": "2022-10-19T20:15:00Z",
         "time_slots": [
           {
             "title": "GNNLens: A Visual Analytics Approach for Prediction Error Diagnosis of Graph Neural Networks",
@@ -1694,8 +1672,8 @@
               "Huamin Qu"
             ],
             "paper_id": "v-tvcg-9705076",
-            "time_start": "2022-10-19T15:45:00Z",
-            "time_end": "2022-10-19T16:00:00Z"
+            "time_start": "2022-10-19T19:00:00Z",
+            "time_end": "2022-10-19T19:15:00Z"
           },
           {
             "title": "Visual Analysis of Neural Architecture Spaces for Summarizing Design Principles",
@@ -1706,8 +1684,8 @@
               "Shixia Liu"
             ],
             "paper_id": "v-full-1119",
-            "time_start": "2022-10-19T16:00:00Z",
-            "time_end": "2022-10-19T16:15:00Z"
+            "time_start": "2022-10-19T19:15:00Z",
+            "time_end": "2022-10-19T19:30:00Z"
           },
           {
             "title": "NAS-Navigator: Visual Steering for Explainable One-Shot Deep Neural Network Synthesis",
@@ -1717,8 +1695,8 @@
               "Klaus Mueller"
             ],
             "paper_id": "v-full-1626",
-            "time_start": "2022-10-19T16:15:00Z",
-            "time_end": "2022-10-19T16:30:00Z"
+            "time_start": "2022-10-19T19:30:00Z",
+            "time_end": "2022-10-19T19:45:00Z"
           },
           {
             "title": "HetVis: A Visual Analysis Approach for Identifying Heterogeneity in Federated Learning",
@@ -1731,8 +1709,8 @@
               "Tobias Schreck"
             ],
             "paper_id": "v-full-1338",
-            "time_start": "2022-10-19T16:30:00Z",
-            "time_end": "2022-10-19T16:45:00Z"
+            "time_start": "2022-10-19T19:45:00Z",
+            "time_end": "2022-10-19T20:00:00Z"
           },
           {
             "title": "DendroMap: Visual Exploration of Large-Scale Image Datasets for Machine Learning with Treemaps",
@@ -1746,8 +1724,8 @@
               "Minsuk Kahng"
             ],
             "paper_id": "v-full-1205",
-            "time_start": "2022-10-19T16:45:00Z",
-            "time_end": "2022-10-19T17:00:00Z"
+            "time_start": "2022-10-19T20:00:00Z",
+            "time_end": "2022-10-19T20:15:00Z"
           },
           {
             "title": "Diagnosing Ensemble Few-Shot Classifiers",
@@ -1763,19 +1741,17 @@
               "Shixia Liu"
             ],
             "paper_id": "v-tvcg-9795241",
-            "time_start": "2022-10-19T17:00:00Z",
-            "time_end": "2022-10-19T17:15:00Z"
+            "time_start": "2022-10-19T20:15:00Z",
+            "time_end": "2022-10-19T20:30:00Z"
           }
         ]
       },
       {
         "title": "Neuro/Brain/Medical Data",
         "session_id": "full20",
-        "chair": [
-          "Johanna Beyer"
-        ],
-        "time_start": "2022-10-20T14:00:00Z",
-        "time_end": "2022-10-20T15:15:00Z",
+        "chair": [],
+        "time_start": "2022-10-20T15:45:00Z",
+        "time_end": "2022-10-20T17:00:00Z",
         "time_slots": [
           {
             "title": "MV2Net: Multi-Variate Multi-View Brain Network Comparison over Uncertain Data",
@@ -1790,8 +1766,8 @@
               "Paul M. Thompson"
             ],
             "paper_id": "v-tvcg-9492002",
-            "time_start": "2022-10-20T14:00:00Z",
-            "time_end": "2022-10-20T14:12:00Z"
+            "time_start": "2022-10-20T15:45:00Z",
+            "time_end": "2022-10-20T15:57:00Z"
           },
           {
             "title": "NeuroConstruct: 3D Reconstruction and Visualization of Neurites in Optical Microscopy Brain Images",
@@ -1806,8 +1782,8 @@
               "Arie E. Kaufman"
             ],
             "paper_id": "v-tvcg-9529035",
-            "time_start": "2022-10-20T14:12:00Z",
-            "time_end": "2022-10-20T14:24:00Z"
+            "time_start": "2022-10-20T15:57:00Z",
+            "time_end": "2022-10-20T16:09:00Z"
           },
           {
             "title": "DXplorer: A Unified Visualization Framework for Interactive Dendritic Spine Analysis using 3D morphological Features",
@@ -1820,8 +1796,8 @@
               "Won-Ki Jeong"
             ],
             "paper_id": "v-tvcg-9555234",
-            "time_start": "2022-10-20T14:24:00Z",
-            "time_end": "2022-10-20T14:36:00Z"
+            "time_start": "2022-10-20T16:09:00Z",
+            "time_end": "2022-10-20T16:21:00Z"
           },
           {
             "title": "A Predictive Visual Analytics System for Studying Neurodegenerative Disease Based on DTI Fiber Tracts",
@@ -1833,8 +1809,8 @@
               "Kwan-Liu Ma"
             ],
             "paper_id": "v-tvcg-9665344",
-            "time_start": "2022-10-20T14:36:00Z",
-            "time_end": "2022-10-20T14:48:00Z"
+            "time_start": "2022-10-20T16:21:00Z",
+            "time_end": "2022-10-20T16:33:00Z"
           },
           {
             "title": "NeuRegenerate: A Framework for Visualizing Neurodegeneration",
@@ -1847,8 +1823,8 @@
               "Arie E. Kaufman"
             ],
             "paper_id": "v-tvcg-9610985",
-            "time_start": "2022-10-20T14:48:00Z",
-            "time_end": "2022-10-20T15:00:00Z"
+            "time_start": "2022-10-20T16:33:00Z",
+            "time_end": "2022-10-20T16:45:00Z"
           },
           {
             "title": "GUCCI - Guided Cardiac Cohort Investigation of Blood Flow Data",
@@ -1861,8 +1837,8 @@
               "Kai Lawonn"
             ],
             "paper_id": "v-tvcg-9645173",
-            "time_start": "2022-10-20T15:00:00Z",
-            "time_end": "2022-10-20T15:12:00Z"
+            "time_start": "2022-10-20T16:45:00Z",
+            "time_end": "2022-10-20T16:57:00Z"
           }
         ]
       },
@@ -2046,9 +2022,7 @@
       {
         "title": "Topology",
         "session_id": "full23",
-        "chair": [
-          "Julien Tierny"
-        ],
+        "chair": [],
         "time_start": "2022-10-20T20:45:00Z",
         "time_end": "2022-10-20T22:00:00Z",
         "time_slots": [
@@ -2123,11 +2097,9 @@
       {
         "title": "Graphs and Networks",
         "session_id": "full24",
-        "chair": [
-          "Andreas Kerren"
-        ],
-        "time_start": "2022-10-20T15:45:00Z",
-        "time_end": "2022-10-20T17:00:00Z",
+        "chair": [],
+        "time_start": "2022-10-19T20:45:00Z",
+        "time_end": "2022-10-19T22:00:00Z",
         "time_slots": [
           {
             "title": "MosaicSets: Embedding Set Systems into Grid Graphs",
@@ -2140,8 +2112,8 @@
               "Jan-Henrik Haunert"
             ],
             "paper_id": "v-full-1551",
-            "time_start": "2022-10-20T15:45:00Z",
-            "time_end": "2022-10-20T15:57:00Z"
+            "time_start": "2022-10-19T20:45:00Z",
+            "time_end": "2022-10-19T20:57:00Z"
           },
           {
             "title": "Taurus: Towards A Unified Force Representation and Universal Solver for Graph Layout",
@@ -2155,8 +2127,8 @@
               "Yunhai Wang"
             ],
             "paper_id": "v-full-1165",
-            "time_start": "2022-10-20T15:57:00Z",
-            "time_end": "2022-10-20T16:09:00Z"
+            "time_start": "2022-10-19T20:57:00Z",
+            "time_end": "2022-10-19T21:09:00Z"
           },
           {
             "title": "Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding",
@@ -2167,8 +2139,8 @@
               "Tamara Munzner"
             ],
             "paper_id": "v-tvcg-9705082",
-            "time_start": "2022-10-20T16:09:00Z",
-            "time_end": "2022-10-20T16:21:00Z"
+            "time_start": "2022-10-19T21:09:00Z",
+            "time_end": "2022-10-19T21:21:00Z"
           },
           {
             "title": "Comparative Evaluation of Bipartite, Node-Link, and Matrix-Based Network Representations",
@@ -2181,8 +2153,8 @@
               "Daniel Weiskopf"
             ],
             "paper_id": "v-full-1541",
-            "time_start": "2022-10-20T16:21:00Z",
-            "time_end": "2022-10-20T16:33:00Z"
+            "time_start": "2022-10-19T21:21:00Z",
+            "time_end": "2022-10-19T21:33:00Z"
           },
           {
             "title": "Understanding Barriers to Network Exploration with Visualization: A Report from the Trenches",
@@ -2196,8 +2168,8 @@
               "Benjamin Bach"
             ],
             "paper_id": "v-full-1154",
-            "time_start": "2022-10-20T16:33:00Z",
-            "time_end": "2022-10-20T16:45:00Z"
+            "time_start": "2022-10-19T21:33:00Z",
+            "time_end": "2022-10-19T21:45:00Z"
           },
           {
             "title": "VividGraph: Learning to Extract and Redesign Network Graphs from Visualization Images",
@@ -2208,19 +2180,17 @@
               "Changbo Wang"
             ],
             "paper_id": "v-tvcg-9720180",
-            "time_start": "2022-10-20T16:45:00Z",
-            "time_end": "2022-10-20T16:57:00Z"
+            "time_start": "2022-10-19T21:45:00Z",
+            "time_end": "2022-10-19T21:57:00Z"
           }
         ]
       },
       {
         "title": "Visualization Design",
         "session_id": "full25",
-        "chair": [
-          "Miriah Meyer"
-        ],
-        "time_start": "2022-10-19T15:45:00Z",
-        "time_end": "2022-10-19T17:00:00Z",
+        "chair": [],
+        "time_start": "2022-10-19T19:00:00Z",
+        "time_end": "2022-10-19T20:15:00Z",
         "time_slots": [
           {
             "title": "Towards Systematic Design Considerations for Visualizing Cross-View Data Relationships",
@@ -2233,8 +2203,8 @@
               "Haeyong Chung"
             ],
             "paper_id": "v-tvcg-9508898",
-            "time_start": "2022-10-19T15:45:00Z",
-            "time_end": "2022-10-19T15:57:00Z"
+            "time_start": "2022-10-19T19:00:00Z",
+            "time_end": "2022-10-19T19:12:00Z"
           },
           {
             "title": "Designing with Pictographs: Envision Topics without Sacrificing Understanding",
@@ -2246,8 +2216,8 @@
               "Narges Mahyar"
             ],
             "paper_id": "v-tvcg-9465643",
-            "time_start": "2022-10-19T15:57:00Z",
-            "time_end": "2022-10-19T16:09:00Z"
+            "time_start": "2022-10-19T19:12:00Z",
+            "time_end": "2022-10-19T19:24:00Z"
           },
           {
             "title": "Visualizing Higher-Order 3D Tensors by Multipole Lines",
@@ -2257,8 +2227,8 @@
               "Gerik Scheuermann"
             ],
             "paper_id": "v-tvcg-9737134",
-            "time_start": "2022-10-19T16:09:00Z",
-            "time_end": "2022-10-19T16:21:00Z"
+            "time_start": "2022-10-19T19:24:00Z",
+            "time_end": "2022-10-19T19:36:00Z"
           },
           {
             "title": "MetaGlyph: Automatic Generation of Metaphoric Glyph-based Visualization",
@@ -2272,8 +2242,8 @@
               "Yingcai Wu"
             ],
             "paper_id": "v-full-1335",
-            "time_start": "2022-10-19T16:21:00Z",
-            "time_end": "2022-10-19T16:33:00Z"
+            "time_start": "2022-10-19T19:36:00Z",
+            "time_end": "2022-10-19T19:48:00Z"
           },
           {
             "title": "Dashboard Design Patterns",
@@ -2287,8 +2257,8 @@
               "Min Chen"
             ],
             "paper_id": "v-full-1554",
-            "time_start": "2022-10-19T16:33:00Z",
-            "time_end": "2022-10-19T16:45:00Z"
+            "time_start": "2022-10-19T19:48:00Z",
+            "time_end": "2022-10-19T20:00:00Z"
           },
           {
             "title": "A Framework for Multiclass Contour Visualization",
@@ -2301,8 +2271,8 @@
               "Xiaoru Yuan"
             ],
             "paper_id": "v-full-1206",
-            "time_start": "2022-10-19T16:45:00Z",
-            "time_end": "2022-10-19T16:57:00Z"
+            "time_start": "2022-10-19T20:00:00Z",
+            "time_end": "2022-10-19T20:12:00Z"
           }
         ]
       },
@@ -2310,8 +2280,8 @@
         "title": "Immersive Analytics and Situated Visualization",
         "session_id": "full26",
         "chair": [],
-        "time_start": "2022-10-19T19:00:00Z",
-        "time_end": "2022-10-19T20:15:00Z",
+        "time_start": "2022-10-20T15:45:00Z",
+        "time_end": "2022-10-20T17:00:00Z",
         "time_slots": [
           {
             "title": "Exploring Interactions with Printed Data Visualizations in Augmented Reality",
@@ -2325,8 +2295,8 @@
               "Huamin Qu"
             ],
             "paper_id": "v-full-1101",
-            "time_start": "2022-10-19T19:00:00Z",
-            "time_end": "2022-10-19T19:12:00Z"
+            "time_start": "2022-10-20T15:45:00Z",
+            "time_end": "2022-10-20T15:57:00Z"
           },
           {
             "title": "RagRug: A Toolkit for Situated Analytics",
@@ -2337,8 +2307,8 @@
               "Dieter Schmalstieg"
             ],
             "paper_id": "v-tvcg-9729627",
-            "time_start": "2022-10-19T19:12:00Z",
-            "time_end": "2022-10-19T19:24:00Z"
+            "time_start": "2022-10-20T15:57:00Z",
+            "time_end": "2022-10-20T16:09:00Z"
           },
           {
             "title": "PuzzleFixer: A Visual Reassembly System for Immersive Fragments Restoration",
@@ -2353,8 +2323,8 @@
               "Yingcai Wu"
             ],
             "paper_id": "v-full-1272",
-            "time_start": "2022-10-19T19:24:00Z",
-            "time_end": "2022-10-19T19:36:00Z"
+            "time_start": "2022-10-20T16:09:00Z",
+            "time_end": "2022-10-20T16:21:00Z"
           },
           {
             "title": "Effects of View Layout on Situated Analytics for Multiple Representations in Immersive Visualization",
@@ -2367,8 +2337,8 @@
               "Wei Chen"
             ],
             "paper_id": "v-full-1382",
-            "time_start": "2022-10-19T19:36:00Z",
-            "time_end": "2022-10-19T19:48:00Z"
+            "time_start": "2022-10-20T16:21:00Z",
+            "time_end": "2022-10-20T16:33:00Z"
           },
           {
             "title": "RoboHapalytics: A Robot Assisted Haptic Controller for Immersive Analytics",
@@ -2380,8 +2350,8 @@
               "Lonni Besançon"
             ],
             "paper_id": "v-full-1523",
-            "time_start": "2022-10-19T19:48:00Z",
-            "time_end": "2022-10-19T20:00:00Z"
+            "time_start": "2022-10-20T16:33:00Z",
+            "time_end": "2022-10-20T16:45:00Z"
           },
           {
             "title": "Labeling Out-of-View Objects in Immersive Analytics to Support Situated Visual Searching",
@@ -2392,19 +2362,17 @@
               "Hanspeter Pfister"
             ],
             "paper_id": "v-tvcg-9645242",
-            "time_start": "2022-10-19T20:00:00Z",
-            "time_end": "2022-10-19T20:12:00Z"
+            "time_start": "2022-10-20T16:45:00Z",
+            "time_end": "2022-10-20T16:57:00Z"
           }
         ]
       },
       {
         "title": "Questioning Data and Data Bias",
         "session_id": "full27",
-        "chair": [
-          "Emily Wall"
-        ],
-        "time_start": "2022-10-19T19:00:00Z",
-        "time_end": "2022-10-19T20:15:00Z",
+        "chair": [],
+        "time_start": "2022-10-20T15:45:00Z",
+        "time_end": "2022-10-20T17:00:00Z",
         "time_slots": [
           {
             "title": "VACSEN: A Visualization Approach for Noise Awareness in Quantum Computing",
@@ -2416,8 +2384,8 @@
               "Qiang Guan"
             ],
             "paper_id": "v-full-1351",
-            "time_start": "2022-10-19T19:00:00Z",
-            "time_end": "2022-10-19T19:12:00Z"
+            "time_start": "2022-10-20T15:45:00Z",
+            "time_end": "2022-10-20T15:57:00Z"
           },
           {
             "title": "Do you believe your (social media) data? A personal story on location data biases, errors, and plausibility as well as their visualization",
@@ -2428,8 +2396,8 @@
               "Catherine Plaisant"
             ],
             "paper_id": "v-tvcg-9676662",
-            "time_start": "2022-10-19T19:12:00Z",
-            "time_end": "2022-10-19T19:24:00Z"
+            "time_start": "2022-10-20T15:57:00Z",
+            "time_end": "2022-10-20T16:09:00Z"
           },
           {
             "title": "D-BIAS: A Causality-Based Human-in-the-Loop System for Tackling Algorithmic Bias",
@@ -2438,8 +2406,8 @@
               "Klaus Mueller"
             ],
             "paper_id": "v-full-1050",
-            "time_start": "2022-10-19T19:24:00Z",
-            "time_end": "2022-10-19T19:36:00Z"
+            "time_start": "2022-10-20T16:09:00Z",
+            "time_end": "2022-10-20T16:21:00Z"
           },
           {
             "title": "A Unified Comparison of User Modeling Techniques for Information Relevance and Exploration Bias",
@@ -2450,8 +2418,8 @@
               "Alvitta Ottley"
             ],
             "paper_id": "v-full-1618",
-            "time_start": "2022-10-19T19:36:00Z",
-            "time_end": "2022-10-19T19:48:00Z"
+            "time_start": "2022-10-20T16:21:00Z",
+            "time_end": "2022-10-20T16:33:00Z"
           },
           {
             "title": "Seeing What You Believe or Believing What You See? Belief Biases Correlation Estimation",
@@ -2462,8 +2430,8 @@
               "Steven Franconeri"
             ],
             "paper_id": "v-full-1151",
-            "time_start": "2022-10-19T19:48:00Z",
-            "time_end": "2022-10-19T20:00:00Z"
+            "time_start": "2022-10-20T16:33:00Z",
+            "time_end": "2022-10-20T16:45:00Z"
           },
           {
             "title": "Data Hunches: Incorporating Personal Knowledge into Visualizations",
@@ -2474,8 +2442,8 @@
               "Alexander Lex"
             ],
             "paper_id": "v-full-1155",
-            "time_start": "2022-10-19T20:00:00Z",
-            "time_end": "2022-10-19T20:12:00Z"
+            "time_start": "2022-10-20T16:45:00Z",
+            "time_end": "2022-10-20T16:57:00Z"
           }
         ]
       },
@@ -2483,8 +2451,8 @@
         "title": "DNA/Genome and Molecular Data/Vis",
         "session_id": "full28",
         "chair": [],
-        "time_start": "2022-10-19T20:45:00Z",
-        "time_end": "2022-10-19T22:00:00Z",
+        "time_start": "2022-10-19T15:45:00Z",
+        "time_end": "2022-10-19T17:00:00Z",
         "time_slots": [
           {
             "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
@@ -2493,8 +2461,8 @@
               "Nils Gehlenborg"
             ],
             "paper_id": "v-full-1193",
-            "time_start": "2022-10-19T20:45:00Z",
-            "time_end": "2022-10-19T20:57:00Z"
+            "time_start": "2022-10-19T15:45:00Z",
+            "time_end": "2022-10-19T15:57:00Z"
           },
           {
             "title": "Vivern – A Virtual Environment for Multiscale Visualization and Modeling of DNA Nanostructures",
@@ -2508,8 +2476,8 @@
               "Haichao Miao"
             ],
             "paper_id": "v-tvcg-9523759",
-            "time_start": "2022-10-19T20:57:00Z",
-            "time_end": "2022-10-19T21:09:00Z"
+            "time_start": "2022-10-19T15:57:00Z",
+            "time_end": "2022-10-19T16:09:00Z"
           },
           {
             "title": "GenoREC: A Recommendation System for Interactive Genomics Data Visualization",
@@ -2521,8 +2489,8 @@
               "Nils Gehlenborg"
             ],
             "paper_id": "v-full-1212",
-            "time_start": "2022-10-19T21:09:00Z",
-            "time_end": "2022-10-19T21:21:00Z"
+            "time_start": "2022-10-19T16:09:00Z",
+            "time_end": "2022-10-19T16:21:00Z"
           },
           {
             "title": "sMolBoxes: Dataflow Model for Molecular Dynamics Exploration",
@@ -2532,12 +2500,12 @@
               "Katarína Furmanová",
               "Sérgio M. Marques",
               "David Bednář",
-              "Barbora Kozlíková",
+              "Barbora Kozlikova",
               "Jan Byška"
             ],
             "paper_id": "v-full-1175",
-            "time_start": "2022-10-19T21:21:00Z",
-            "time_end": "2022-10-19T21:33:00Z"
+            "time_start": "2022-10-19T16:21:00Z",
+            "time_end": "2022-10-19T16:33:00Z"
           },
           {
             "title": "Molecumentary: Adaptable Narrated Documentaries Using Molecular Visualization",
@@ -2551,8 +2519,8 @@
               "Ivan Viola"
             ],
             "paper_id": "v-tvcg-9627526",
-            "time_start": "2022-10-19T21:33:00Z",
-            "time_end": "2022-10-19T21:45:00Z"
+            "time_start": "2022-10-19T16:33:00Z",
+            "time_end": "2022-10-19T16:45:00Z"
           },
           {
             "title": "Polyphony: an Interactive Transfer Learning Framework for Single-Cell Data Analysis",
@@ -2564,8 +2532,8 @@
               "Qianwen Wang"
             ],
             "paper_id": "v-full-1578",
-            "time_start": "2022-10-19T21:45:00Z",
-            "time_end": "2022-10-19T21:57:00Z"
+            "time_start": "2022-10-19T16:45:00Z",
+            "time_end": "2022-10-19T16:57:00Z"
           }
         ]
       },
@@ -2573,8 +2541,8 @@
         "title": "Digital Humanities, e-Commerce, and Engineering",
         "session_id": "full29",
         "chair": [],
-        "time_start": "2022-10-20T15:45:00Z",
-        "time_end": "2022-10-20T17:00:00Z",
+        "time_start": "2022-10-19T20:45:00Z",
+        "time_end": "2022-10-19T22:00:00Z",
         "time_slots": [
           {
             "title": "CohortVA: A Visual Analytic System for Interactive Exploration of Cohorts based on Historical Data",
@@ -2592,8 +2560,8 @@
               "Wei Chen"
             ],
             "paper_id": "v-full-1426",
-            "time_start": "2022-10-20T15:45:00Z",
-            "time_end": "2022-10-20T15:57:00Z"
+            "time_start": "2022-10-19T20:45:00Z",
+            "time_end": "2022-10-19T20:57:00Z"
           },
           {
             "title": "PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics",
@@ -2609,8 +2577,8 @@
               "Quan Li"
             ],
             "paper_id": "v-full-1421",
-            "time_start": "2022-10-20T15:57:00Z",
-            "time_end": "2022-10-20T16:09:00Z"
+            "time_start": "2022-10-19T20:57:00Z",
+            "time_end": "2022-10-19T21:09:00Z"
           },
           {
             "title": "Interactive Visual Analysis of Structure-borne Noise Data",
@@ -2624,8 +2592,8 @@
               "Kresimir Matkovic"
             ],
             "paper_id": "v-full-1547",
-            "time_start": "2022-10-20T16:09:00Z",
-            "time_end": "2022-10-20T16:21:00Z"
+            "time_start": "2022-10-19T21:09:00Z",
+            "time_end": "2022-10-19T21:21:00Z"
           },
           {
             "title": "Traveler: Navigating Task Parallel Traces for Performance Analysis",
@@ -2642,8 +2610,8 @@
               "Katherine E. Isaacs"
             ],
             "paper_id": "v-full-1312",
-            "time_start": "2022-10-20T16:21:00Z",
-            "time_end": "2022-10-20T16:33:00Z"
+            "time_start": "2022-10-19T21:21:00Z",
+            "time_end": "2022-10-19T21:33:00Z"
           },
           {
             "title": "Visual Analysis and Detection of Contrails in Aircraft Engine Simulations",
@@ -2655,8 +2623,8 @@
               "G. Elisabeta Marai"
             ],
             "paper_id": "v-full-1617",
-            "time_start": "2022-10-20T16:33:00Z",
-            "time_end": "2022-10-20T16:45:00Z"
+            "time_start": "2022-10-19T21:33:00Z",
+            "time_end": "2022-10-19T21:45:00Z"
           },
           {
             "title": "DPVisCreator: Incorporating Pattern Constraints to Privacy-preserving Visualizations via Differential Privacy",
@@ -2674,17 +2642,15 @@
               "Wei Chen"
             ],
             "paper_id": "v-full-1478",
-            "time_start": "2022-10-20T16:45:00Z",
-            "time_end": "2022-10-20T16:57:00Z"
+            "time_start": "2022-10-19T21:45:00Z",
+            "time_end": "2022-10-19T21:57:00Z"
           }
         ]
       },
       {
         "title": "Decision Making and Reasoning",
         "session_id": "full30",
-        "chair": [
-          "Lace Padilla"
-        ],
+        "chair": [],
         "time_start": "2022-10-19T14:00:00Z",
         "time_end": "2022-10-19T15:15:00Z",
         "time_slots": [
@@ -2856,11 +2822,9 @@
       {
         "title": "(Volume) Rendering",
         "session_id": "full32",
-        "chair": [
-          "Christoph Garth"
-        ],
-        "time_start": "2022-10-19T19:00:00Z",
-        "time_end": "2022-10-19T20:15:00Z",
+        "chair": [],
+        "time_start": "2022-10-20T14:00:00Z",
+        "time_end": "2022-10-20T15:15:00Z",
         "time_slots": [
           {
             "title": "FoVolNet: Fast Volume Rendering using Foveated Deep Neural Networks",
@@ -2870,8 +2834,8 @@
               "Kwan-Liu Ma"
             ],
             "paper_id": "v-full-1010",
-            "time_start": "2022-10-19T19:00:00Z",
-            "time_end": "2022-10-19T19:12:00Z"
+            "time_start": "2022-10-20T14:00:00Z",
+            "time_end": "2022-10-20T14:12:00Z"
           },
           {
             "title": "GRay: Ray Casting for Visualization and Interactive Data Exploration of Gaussian Mixture Models",
@@ -2884,8 +2848,8 @@
               "Tobias Günther"
             ],
             "paper_id": "v-full-1418",
-            "time_start": "2022-10-19T19:12:00Z",
-            "time_end": "2022-10-19T19:24:00Z"
+            "time_start": "2022-10-20T14:12:00Z",
+            "time_end": "2022-10-20T14:24:00Z"
           },
           {
             "title": "Quick Clusters: A GPU-Parallel Partitioning for Efficient Path Tracing of Unstructured Volumetric Grids",
@@ -2897,8 +2861,8 @@
               "Valerio Pascucci"
             ],
             "paper_id": "v-full-1339",
-            "time_start": "2022-10-19T19:24:00Z",
-            "time_end": "2022-10-19T19:36:00Z"
+            "time_start": "2022-10-20T14:24:00Z",
+            "time_end": "2022-10-20T14:36:00Z"
           },
           {
             "title": "Finding Nano-Ötzi: Cryo-Electron Tomography Visualization Guided by Learned Segmentation",
@@ -2914,8 +2878,8 @@
               "Ivan Viola"
             ],
             "paper_id": "v-tvcg-9806341",
-            "time_start": "2022-10-19T19:36:00Z",
-            "time_end": "2022-10-19T19:48:00Z"
+            "time_start": "2022-10-20T14:36:00Z",
+            "time_end": "2022-10-20T14:48:00Z"
           },
           {
             "title": "Level Set Restricted Voronoi Decomposition for Large Scale Spatial Statistical Analysis",
@@ -2928,8 +2892,8 @@
               "Kwan-Liu Ma"
             ],
             "paper_id": "v-full-1496",
-            "time_start": "2022-10-19T19:48:00Z",
-            "time_end": "2022-10-19T20:00:00Z"
+            "time_start": "2022-10-20T14:48:00Z",
+            "time_end": "2022-10-20T15:00:00Z"
           },
           {
             "title": "Watertight Incremental Heightfield Tessellation",
@@ -2940,8 +2904,8 @@
               "Jürgen Waser"
             ],
             "paper_id": "v-tvcg-9770381",
-            "time_start": "2022-10-19T20:00:00Z",
-            "time_end": "2022-10-19T20:12:00Z"
+            "time_start": "2022-10-20T15:00:00Z",
+            "time_end": "2022-10-20T15:12:00Z"
           }
         ]
       }
@@ -2956,8 +2920,8 @@
         "chair": [
           "Katherine E. Isaacs"
         ],
-        "time_start": "2022-10-19T19:00:00Z",
-        "time_end": "2022-10-19T20:15:00Z",
+        "time_start": "2022-10-20T15:45:00Z",
+        "time_end": "2022-10-20T17:00:00Z",
         "time_slots": [
           {
             "title": "Facilitating Conversational Interaction in Natural Language Interfaces for Visualization",
@@ -2968,8 +2932,8 @@
               "John Stasko"
             ],
             "paper_id": "v-short-1012",
-            "time_start": "2022-10-19T19:00:00Z",
-            "time_end": "2022-10-19T19:09:00Z"
+            "time_start": "2022-10-20T15:45:00Z",
+            "time_end": "2022-10-20T15:54:00Z"
           },
           {
             "title": "VegaFusion: Automatic Server-Side Scaling for Interactive Vega Visualizations",
@@ -2979,8 +2943,8 @@
               "Dominik Moritz"
             ],
             "paper_id": "v-short-1044",
-            "time_start": "2022-10-19T19:09:00Z",
-            "time_end": "2022-10-19T19:18:00Z"
+            "time_start": "2022-10-20T15:54:00Z",
+            "time_end": "2022-10-20T16:03:00Z"
           },
           {
             "title": "Streamlining Visualization Authoring in D3 Through User-Driven Templates",
@@ -2994,8 +2958,8 @@
               "Leilani Battle"
             ],
             "paper_id": "v-short-1098",
-            "time_start": "2022-10-19T19:18:00Z",
-            "time_end": "2022-10-19T19:27:00Z"
+            "time_start": "2022-10-20T16:03:00Z",
+            "time_end": "2022-10-20T16:12:00Z"
           },
           {
             "title": "Plotly-Resampler: Effective Visual Analytics for Large Time Series",
@@ -3006,8 +2970,8 @@
               "Sofie Van Hoecke"
             ],
             "paper_id": "v-short-1021",
-            "time_start": "2022-10-19T19:27:00Z",
-            "time_end": "2022-10-19T19:36:00Z"
+            "time_start": "2022-10-20T16:12:00Z",
+            "time_end": "2022-10-20T16:21:00Z"
           },
           {
             "title": "Explaining Website Reliability by Visualizing Hyperlink Connectivity",
@@ -3022,8 +2986,8 @@
               "Duen Horng Chau"
             ],
             "paper_id": "v-short-1011",
-            "time_start": "2022-10-19T19:36:00Z",
-            "time_end": "2022-10-19T19:45:00Z"
+            "time_start": "2022-10-20T16:21:00Z",
+            "time_end": "2022-10-20T16:30:00Z"
           },
           {
             "title": "Paths through Spatial Networks",
@@ -3031,8 +2995,8 @@
               "Alex Godwin"
             ],
             "paper_id": "v-short-1137",
-            "time_start": "2022-10-19T19:45:00Z",
-            "time_end": "2022-10-19T19:54:00Z"
+            "time_start": "2022-10-20T16:30:00Z",
+            "time_end": "2022-10-20T16:39:00Z"
           },
           {
             "title": "LineCap: Line Charts for Data Visualization Captioning Models",
@@ -3042,8 +3006,8 @@
               "Chris Tanner"
             ],
             "paper_id": "v-short-1070",
-            "time_start": "2022-10-19T19:54:00Z",
-            "time_end": "2022-10-19T20:03:00Z"
+            "time_start": "2022-10-20T16:39:00Z",
+            "time_end": "2022-10-20T16:48:00Z"
           },
           {
             "title": "Intentable: A Mixed-Initiative System for Intent-Based Chart Captioning",
@@ -3052,8 +3016,8 @@
               "Jaemin Jo"
             ],
             "paper_id": "v-short-1048",
-            "time_start": "2022-10-19T20:03:00Z",
-            "time_end": "2022-10-19T20:12:00Z"
+            "time_start": "2022-10-20T16:48:00Z",
+            "time_end": "2022-10-20T16:57:00Z"
           }
         ]
       },
@@ -3063,8 +3027,8 @@
         "chair": [
           "Matthew Berger"
         ],
-        "time_start": "2022-10-19T20:45:00Z",
-        "time_end": "2022-10-19T22:00:00Z",
+        "time_start": "2022-10-19T15:45:00Z",
+        "time_end": "2022-10-19T17:00:00Z",
         "time_slots": [
           {
             "title": "Visual Auditor: Interactive Visualization for Detection and Summarization of Model Biases",
@@ -3078,8 +3042,8 @@
               "Duen Horng Chau"
             ],
             "paper_id": "v-short-1004",
-            "time_start": "2022-10-19T20:45:00Z",
-            "time_end": "2022-10-19T20:54:00Z"
+            "time_start": "2022-10-19T15:45:00Z",
+            "time_end": "2022-10-19T15:54:00Z"
           },
           {
             "title": "RMExplorer: A Visual Analytics Approach to Explore the Performance and the Fairness of Disease Risk Models on Population Subgroups",
@@ -3096,8 +3060,8 @@
               "Kenney Ng"
             ],
             "paper_id": "v-short-1076",
-            "time_start": "2022-10-19T20:54:00Z",
-            "time_end": "2022-10-19T21:03:00Z"
+            "time_start": "2022-10-19T15:54:00Z",
+            "time_end": "2022-10-19T16:03:00Z"
           },
           {
             "title": "Visualizing Rule-based Classifiers for Clinical Risk Prognosis",
@@ -3106,8 +3070,8 @@
               "Georg Fuchs"
             ],
             "paper_id": "v-short-1105",
-            "time_start": "2022-10-19T21:03:00Z",
-            "time_end": "2022-10-19T21:12:00Z"
+            "time_start": "2022-10-19T16:03:00Z",
+            "time_end": "2022-10-19T16:12:00Z"
           },
           {
             "title": "TimberTrek: Exploring and Curating Sparse Decision Trees with Interactive Visualization",
@@ -3122,8 +3086,8 @@
               "Margo Seltzer"
             ],
             "paper_id": "v-short-1006",
-            "time_start": "2022-10-19T21:12:00Z",
-            "time_end": "2022-10-19T21:21:00Z"
+            "time_start": "2022-10-19T16:12:00Z",
+            "time_end": "2022-10-19T16:21:00Z"
           },
           {
             "title": "FairFuse: Interactive Visual Support for Fair Consensus Ranking",
@@ -3135,8 +3099,8 @@
               "Lane Harrison"
             ],
             "paper_id": "v-short-1083",
-            "time_start": "2022-10-19T21:21:00Z",
-            "time_end": "2022-10-19T21:30:00Z"
+            "time_start": "2022-10-19T16:21:00Z",
+            "time_end": "2022-10-19T16:30:00Z"
           },
           {
             "title": "Guided Data Discovery in Interactive Visualizations via Active Search",
@@ -3149,8 +3113,8 @@
               "Alvitta Ottley"
             ],
             "paper_id": "v-short-1041",
-            "time_start": "2022-10-19T21:30:00Z",
-            "time_end": "2022-10-19T21:39:00Z"
+            "time_start": "2022-10-19T16:30:00Z",
+            "time_end": "2022-10-19T16:39:00Z"
           },
           {
             "title": "Parametric Dimension Reduction by Preserving Local Structure",
@@ -3162,8 +3126,8 @@
               "Yu-Shuen Wang"
             ],
             "paper_id": "v-short-1028",
-            "time_start": "2022-10-19T21:39:00Z",
-            "time_end": "2022-10-19T21:48:00Z"
+            "time_start": "2022-10-19T16:39:00Z",
+            "time_end": "2022-10-19T16:48:00Z"
           },
           {
             "title": "Uniform Manifold Approximation with Two-phase Optimization",
@@ -3175,8 +3139,8 @@
               "Jinwook Seo"
             ],
             "paper_id": "v-short-1047",
-            "time_start": "2022-10-19T21:48:00Z",
-            "time_end": "2022-10-19T21:57:00Z"
+            "time_start": "2022-10-19T16:48:00Z",
+            "time_end": "2022-10-19T16:57:00Z"
           }
         ]
       },
@@ -3270,7 +3234,7 @@
             "title": "Accelerated Probabilistic Marching Cubes by Deep Learning for Time-Varying Scalar Ensembles",
             "contributors": [
               "Mengjiao Han",
-              "Tushar M. Athawale",
+              "Tushar Athawale",
               "David Pugmire",
               "Chris R. Johnson"
             ],
@@ -3588,8 +3552,8 @@
         "chair": [
           "Michael Wybrow"
         ],
-        "time_start": "2022-10-19T20:45:00Z",
-        "time_end": "2022-10-19T22:00:00Z",
+        "time_start": "2022-10-19T15:45:00Z",
+        "time_end": "2022-10-19T17:00:00Z",
         "time_slots": [
           {
             "title": "Surgical Navigation System for Low-Dose-Rate Brachytherapy Based on Mixed Reality",
@@ -3602,8 +3566,8 @@
               "Huzheng Yan"
             ],
             "paper_id": "v-cga-8948290",
-            "time_start": "2022-10-19T20:45:00Z",
-            "time_end": "2022-10-19T20:57:00Z"
+            "time_start": "2022-10-19T15:45:00Z",
+            "time_end": "2022-10-19T15:57:00Z"
           },
           {
             "title": "Visualization for Architecture, Engineering, and Construction: Shaping the Future of Our Built World",
@@ -3621,8 +3585,8 @@
               "Daniel Weiskopf"
             ],
             "paper_id": "v-cga-9709159",
-            "time_start": "2022-10-19T20:57:00Z",
-            "time_end": "2022-10-19T21:09:00Z"
+            "time_start": "2022-10-19T15:57:00Z",
+            "time_end": "2022-10-19T16:09:00Z"
           },
           {
             "title": "Visual Parameter Space Analysis for Optimizing the Quality of Industrial Nonwovens",
@@ -3633,8 +3597,8 @@
               "Simone Gramsch"
             ],
             "paper_id": "v-cga-9726809",
-            "time_start": "2022-10-19T21:09:00Z",
-            "time_end": "2022-10-19T21:21:00Z"
+            "time_start": "2022-10-19T16:09:00Z",
+            "time_end": "2022-10-19T16:21:00Z"
           },
           {
             "title": "Reflections on Visualization Research Projects in the Manufacturing Industry",
@@ -3644,8 +3608,8 @@
               "Wolfgang Aigner"
             ],
             "paper_id": "v-cga-9729397",
-            "time_start": "2022-10-19T21:21:00Z",
-            "time_end": "2022-10-19T21:33:00Z"
+            "time_start": "2022-10-19T16:21:00Z",
+            "time_end": "2022-10-19T16:33:00Z"
           },
           {
             "title": "Situated Visual Analysis and Live Monitoring for Manufacturing",
@@ -3660,8 +3624,8 @@
               "Daniel Weiskopf"
             ],
             "paper_id": "v-cga-9732172",
-            "time_start": "2022-10-19T21:33:00Z",
-            "time_end": "2022-10-19T21:45:00Z"
+            "time_start": "2022-10-19T16:33:00Z",
+            "time_end": "2022-10-19T16:45:00Z"
           },
           {
             "title": "Stress Visualization for Interface Optimization of a Hybrid Component Using Surface Tensor Spines",
@@ -3673,8 +3637,8 @@
               "Gerik Scheuermann"
             ],
             "paper_id": "v-cga-9709109",
-            "time_start": "2022-10-19T21:45:00Z",
-            "time_end": "2022-10-19T21:57:00Z"
+            "time_start": "2022-10-19T16:45:00Z",
+            "time_end": "2022-10-19T16:57:00Z"
           }
         ]
       }
@@ -3687,10 +3651,12 @@
         "title": "SIGGRAPH Invited Talks",
         "session_id": "sig1",
         "chair": [
-          "Markus Hadwiger"
+          "Jian Chen",
+          "Joaquim Jorge",
+          "Klaus Mueller"
         ],
-        "time_start": "2022-10-19T15:45:00Z",
-        "time_end": "2022-10-19T17:00:00Z",
+        "time_start": "2022-10-19T20:45:00Z",
+        "time_end": "2022-10-19T22:00:00Z",
         "time_slots": [
           {
             "title": "Image Features Influence Reaction Time: A Learned Probabilistic Perceptual Model for Saccade Latency",
@@ -3702,8 +3668,8 @@
               "Qi Sun"
             ],
             "paper_id": "v-siggraph-1",
-            "time_start": "2022-10-19T15:45:00Z",
-            "time_end": "2022-10-19T15:57:00Z"
+            "time_start": "2022-10-19T20:45:00Z",
+            "time_end": "2022-10-19T20:57:00Z"
           },
           {
             "title": "CLIPasso: Semantically Aware Object Sketching",
@@ -3718,8 +3684,8 @@
               "Ariel Shamir"
             ],
             "paper_id": "v-siggraph-2",
-            "time_start": "2022-10-19T15:57:00Z",
-            "time_end": "2022-10-19T16:09:00Z"
+            "time_start": "2022-10-19T20:57:00Z",
+            "time_end": "2022-10-19T21:09:00Z"
           },
           {
             "title": "Joint Neural Phase Retrieval and Compression for Energy- and Computation-efficient Holography on the Edge",
@@ -3730,8 +3696,8 @@
               "Baoquan Chen"
             ],
             "paper_id": "v-siggraph-3",
-            "time_start": "2022-10-19T16:09:00Z",
-            "time_end": "2022-10-19T16:21:00Z"
+            "time_start": "2022-10-19T21:09:00Z",
+            "time_end": "2022-10-19T21:21:00Z"
           },
           {
             "title": "Umbrella Meshes: Volumetric Elastic Mechanisms for Freeform Shape Deployment",
@@ -3745,8 +3711,8 @@
               "Mark Pauly"
             ],
             "paper_id": "v-siggraph-4",
-            "time_start": "2022-10-19T16:21:00Z",
-            "time_end": "2022-10-19T16:33:00Z"
+            "time_start": "2022-10-19T21:21:00Z",
+            "time_end": "2022-10-19T21:33:00Z"
           },
           {
             "title": "Sketch2Pose: estimating a 3D character pose from a bitmap sketch",
@@ -3755,8 +3721,8 @@
               "Mikhail Bessmeltsev"
             ],
             "paper_id": "v-siggraph-5",
-            "time_start": "2022-10-19T16:33:00Z",
-            "time_end": "2022-10-19T16:45:00Z"
+            "time_start": "2022-10-19T21:33:00Z",
+            "time_end": "2022-10-19T21:45:00Z"
           },
           {
             "title": "Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces",
@@ -3765,8 +3731,8 @@
               "Alec Jacobson"
             ],
             "paper_id": "v-siggraph-6",
-            "time_start": "2022-10-19T16:45:00Z",
-            "time_end": "2022-10-19T16:57:00Z"
+            "time_start": "2022-10-19T21:45:00Z",
+            "time_end": "2022-10-19T21:57:00Z"
           }
         ]
       }
@@ -3779,7 +3745,9 @@
         "title": "VR Invited Talks",
         "session_id": "vr1",
         "chair": [
-          "David Laidlaw"
+          "Jian Chen",
+          "Joaquim Jorge",
+          "Klaus Mueller"
         ],
         "time_start": "2022-10-20T19:00:00Z",
         "time_end": "2022-10-20T20:15:00Z",
@@ -3872,8 +3840,8 @@
         "title": "Grand Challenges in Visual Analytic Systems",
         "session_id": "panel1",
         "chair": [],
-        "time_start": "2022-10-19T20:45:00Z",
-        "time_end": "2022-10-19T22:00:00Z",
+        "time_start": "2022-10-20T15:45:00Z",
+        "time_end": "2022-10-20T17:00:00Z",
         "time_slots": [
           {
             "title": "Organizers",
@@ -3888,8 +3856,8 @@
               "Hendrik Strobelt"
             ],
             "paper_id": "",
-            "time_start": "2022-10-19T20:45:00Z",
-            "time_end": "2022-10-19T22:00:00Z"
+            "time_start": "2022-10-20T15:45:00Z",
+            "time_end": "2022-10-20T17:00:00Z"
           }
         ]
       },
@@ -3897,8 +3865,8 @@
         "title": "Merits and Limits of User Study Preregistration",
         "session_id": "panel2",
         "chair": [],
-        "time_start": "2022-10-20T15:45:00Z",
-        "time_end": "2022-10-20T17:00:00Z",
+        "time_start": "2022-10-19T20:45:00Z",
+        "time_end": "2022-10-19T22:00:00Z",
         "time_slots": [
           {
             "title": "Organizers",
@@ -3911,8 +3879,8 @@
               "Mohammad Ghoniem"
             ],
             "paper_id": "",
-            "time_start": "2022-10-20T15:45:00Z",
-            "time_end": "2022-10-20T17:00:00Z"
+            "time_start": "2022-10-19T20:45:00Z",
+            "time_end": "2022-10-19T22:00:00Z"
           }
         ]
       },
@@ -4036,8 +4004,8 @@
         "title": "Data Analysis Methods for Climate Modeling of Extreme Weather Events",
         "session_id": "app1",
         "chair": [],
-        "time_start": "2022-10-17T19:00:00Z",
-        "time_end": "2022-10-17T20:15:00Z",
+        "time_start": "2022-10-19T19:00:00Z",
+        "time_end": "2022-10-19T20:15:00Z",
         "time_slots": [
           {
             "title": "Organizers",
@@ -4109,8 +4077,8 @@
         "title": "SciVis Contest",
         "session_id": "contest",
         "chair": [],
-        "time_start": "2022-10-16T14:00:00Z",
-        "time_end": "2022-10-16T15:15:00Z",
+        "time_start": "2022-10-20T19:00:00Z",
+        "time_end": "2022-10-20T20:15:00Z",
         "time_slots": [
           {
             "title": "Organizers",
@@ -4119,8 +4087,8 @@
               "Divya Banesh"
             ],
             "paper_id": "",
-            "time_start": "2022-10-16T14:00:00Z",
-            "time_end": "2022-10-16T15:15:00Z"
+            "time_start": "2022-10-20T19:00:00Z",
+            "time_end": "2022-10-20T20:15:00Z"
           }
         ]
       }

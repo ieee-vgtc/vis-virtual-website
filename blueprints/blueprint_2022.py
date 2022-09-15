@@ -45,13 +45,14 @@ def main(site_data_path):
                 for timeslot in p["sessions"]:
                     # also put some parent info back into this item
                     fq_timeslot = timeslot.copy()
+
                     fq_timeslot.update({
-                        "event": p["event"],
-                        "event_type": p["event_type"],
+                        "event": p.get("event"),
+                        "event_type": p.get("event_type") or 'N/A',
                         "parent_id": session_id,
-                        "event_description": p["event_description"],
-                        "event_url": p["event_url"],
-                        "room_name": get_room_name(fq_timeslot['track'], site_data['config']['room_names']),
+                        "event_description": p.get("event_description") or 'N/A',
+                        "event_url": p.get("event_url") or 'N/A',
+                        "room_name": get_room_name(fq_timeslot['track'], site_data['config']['room_names']) if ("track" in fq_timeslot) else 'N/A',
                     })
 
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
@@ -400,32 +401,32 @@ def format_by_session_list(v):
         "type": v["event_type"]
             .split(" ")[0]
             .lower(),  # get first word, which should be good enough...
-        "chair": v["chair"],
-        "organizers": v["organizers"],
-        "track": v["track"],
-        "startTime": v["time_start"],
-        "endTime": v["time_end"],
+        "chair": v.get("chair"),
+        "organizers": v.get("organizers"),
+        "track": v.get("track"),
+        "startTime": v.get("time_start"),
+        "endTime": v.get("time_end"),
         "day": dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d"),
-        "timeSlots": v["time_slots"],
-        "event": v["event"],  # backloaded from parent event
-        "event_type": v["event_type"],  # backloaded from parent event
-        "parent_id": v["parent_id"],  # backloaded from parent event
-        "event_description": v["event_description"],  # backloaded from parent event
-        "event_url": v["event_url"],  # backloaded from parent event
+        "timeSlots": v.get("time_slots"),
+        "event": v.get("event"),  # backloaded from parent event
+        "event_type": v.get("event_type"),  # backloaded from parent event
+        "parent_id": v.get("parent_id"),  # backloaded from parent event
+        "event_description": v.get("event_description"),  # backloaded from parent event
+        "event_url": v.get("event_url"),  # backloaded from parent event
         "fullTitle": fullTitle,
         "redundantTitle": redundantTitle,
-        "discord_category": v["discord_category"],
-        "discord_channel": v["discord_channel"],
-        "discord_channel_id": v["discord_channel_id"],
-        "discord_link": v["discord_link"],
-        "slido_link": v["slido_link"],
-        "youtube_url": v["youtube_url"],
-        "youtube_id": v["youtube_url"].split("/")[-1] if v["youtube_url"] else None,
-        "streaming_session_id": v["streaming_session_id"] if "streaming_session_id" in v else None,
-        "ff_playlist": v["ff_playlist"],
-        "ff_playlist_id": v["ff_playlist"].split("=")[-1] if v["ff_playlist"] else None,
-        "zoom_meeting": v["zoom_meeting"],
-        "room_name": v["room_name"],
+        "discord_category": v.get("discord_category"),
+        "discord_channel": v.get("discord_channel"),
+        "discord_channel_id": v.get("discord_channel_id"),
+        "discord_link": v.get("discord_link"),
+        "slido_link": v.get("slido_link"),
+        "youtube_url": v.get("youtube_url"),
+        "youtube_id": v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None,
+        "streaming_session_id": v.get("streaming_session_id") if "streaming_session_id" in v else None,
+        "ff_playlist": v.get("ff_playlist"),
+        "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
+        "zoom_meeting": v.get("zoom_meeting"),
+        "room_name": v.get("room_name"),
     }
 
 def get_room_name(track, room_names):

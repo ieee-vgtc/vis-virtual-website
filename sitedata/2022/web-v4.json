@@ -4036,8 +4036,8 @@
         "title": "Data Analysis Methods for Climate Modeling of Extreme Weather Events",
         "session_id": "app1",
         "chair": [],
-        "time_start": "2022-10-17T19:00:00Z",
-        "time_end": "2022-10-17T20:15:00Z",
+        "time_start": "2022-10-19T19:00:00Z",
+        "time_end": "2022-10-19T20:15:00Z",
         "time_slots": [
           {
             "title": "Organizers",
@@ -4109,8 +4109,8 @@
         "title": "SciVis Contest",
         "session_id": "contest",
         "chair": [],
-        "time_start": "2022-10-16T14:00:00Z",
-        "time_end": "2022-10-16T15:15:00Z",
+        "time_start": "2022-10-20T14:00:00Z",
+        "time_end": "2022-10-20T15:15:00Z",
         "time_slots": [
           {
             "title": "Organizers",
@@ -4119,8 +4119,8 @@
               "Divya Banesh"
             ],
             "paper_id": "",
-            "time_start": "2022-10-16T14:00:00Z",
-            "time_end": "2022-10-16T15:15:00Z"
+            "time_start": "2022-10-20T14:00:00Z",
+            "time_end": "2022-10-20T15:15:00Z"
           }
         ]
       }
