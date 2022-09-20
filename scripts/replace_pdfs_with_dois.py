@@ -16,6 +16,8 @@ import argparse
 import os.path
 import json
 from habanero import Crossref
+import requests
+from difflib import SequenceMatcher
 
 def get_client():
     return Crossref()
@@ -46,19 +48,83 @@ def find_doi_from_title(title, crossref_client, counter):
     x = crossref_client.works(title=title)
     items = x['message']['items']
     first_item = items[0]
-    print(first_item['title'])
-    if first_item and first_item['title'] == title:
-        return first_item['doi'], (counter + 1)
+    print(first_item)
+    title_from_crossref = str(first_item['title'])
+    doi_from_crossref = first_item['doi']
+    title_match_ratio = SequenceMatcher(None, title, title_from_datacite).ratio()
+    if title_match_ratio > 0.8:
+        print("found DOI: " + str(doi_from_crossref) +" with a title match of " + str(title_match_ratio) + " with crossref")
+        return doi_from_crossref, (counter + 1)
+        #print("found DOI: " + str(first_item['doi']))
+    else:
+        return "", counter
+
+
+"""
+Uses request to send a query to datacite.org and retrieve data for the given title as json.
+If the first title received from DOI matches our title with a ratio of 0.8 or above,
+then we return that DOI. DataCite API: https://support.datacite.org/docs/api-queries
+If there is no data found from datacite.org we do not search any further but this could be expanded by:
+- Crossref limits the requests per IP and is slow
+- IEEE Xplore Needs an API Key but would probably be the best as the dois will link to ieee instead of arxiv
+- ACM digital Library is member of Crossref with ID 320. Scaping the seach with curl would be another solution.
+"""
+def find_doi_from_datacite(title, counter):
+    # We remove text within '()' and remove special characters, as they corrupt the request as '-' and ':'
+    title = title.replace('-', ' ').replace(':', '').split('(')[0]
+    url = 'https://api.datacite.org/dois?query='+str(title)
+
+    response = requests.get(url)
+    paper_json = response.json()
+    if len(paper_json['data']) == 0:
+        return "", counter
+    first_item = paper_json['data'][0]
+    title_from_datacite = first_item['attributes']['titles'][0]['title']
+    doi_from_datacite = first_item['attributes']['doi']
+    title_match_ratio = SequenceMatcher(None, title, title_from_datacite).ratio()
+    if title_match_ratio > 0.8:
+        print("found DOI: " + str(doi_from_datacite) +" with a title match of " + str(title_match_ratio) + " with datacite")
+        return "doi.org/"+doi_from_datacite, (counter + 1)
     else:
         return "", counter
 
 """
+A good overview about the crossref api query: https://github.com/CrossRef/rest-api-doc
+It should be faster + no timeout when mailto is provided
+"""
+def find_doi_from_crossref(title, counter):
+    # We remove text within '()'
+    title = title.replace('&','').split('(')[0]
+    url = 'https://api.crossref.org/works?query.bibliographic='+str(title)+'&rows=1&mailto=janoszwei@yahoo.de'
+
+    response = requests.get(url)
+    paper_json = response.json()
+    if len(paper_json['message']['items']) == 0:
+        return "", counter
+    first_item = paper_json['message']['items'][0]
+    title_from_crossref = first_item['title']
+    doi_from_crossref = first_item['DOI']
+    title_match_ratio = SequenceMatcher(None, title, title_from_crossref).ratio()
+    if title_match_ratio > 0.8:
+        print("found DOI: " + str(doi_from_crossref) +" with a title match of " + str(title_match_ratio) + " with crossref")
+        return "doi.org/"+doi_from_crossref, (counter + 1)
+    else:
+        return "", counter
+
+
+"""
 Takes a dictionary representing a paper, and returns a dictionary with external_paper_link filled in
-If a doi already exists on the title, we leave it.  Otherwise, we look it up.
+If a doi already exists on the title, we leave it.  Otherwise, we look it up with crossref and datacite
 """
 def insert_doi_from_title(paper, crossref_client, counter):
     if 'external_paper_link' not in paper or (len(str(paper['external_paper_link'])) == 0):
-        paper['external_paper_link'], counter = find_doi_from_title(paper['title'], crossref_client, counter)
+        counter_before_datacite = counter
+        print(paper['title'])
+        paper['external_paper_link'], counter = find_doi_from_datacite(paper['title'], counter)
+        # If we could not find the doi via datacite, we could try crossref but its slow and up to now, didn not get a single match
+        #if counter == counter_before_datacite:
+            #paper['external_paper_link'], counter = find_doi_from_crossref(paper['title'], counter)
+        #paper['external_paper_link'], counter = find_doi_from_title(paper['title'], crossref_client, counter)
     return paper, counter
 
 """
@@ -88,11 +154,12 @@ def parse_arguments():
 
 if __name__ == "__main__":
     args = parse_arguments()
-
     crossref_client = get_client()
-
     paper_filepath = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(__file__)), 'sitedata', args.year, args.paper_file))
     papers = read_paper_file(paper_filepath)
+
+
+
     filled_papers = fill_dois(papers, crossref_client)
     write_paper_file(filled_papers, paper_filepath)
 
