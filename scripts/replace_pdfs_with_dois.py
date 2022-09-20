@@ -95,7 +95,7 @@ It should be faster + no timeout when mailto is provided
 def find_doi_from_crossref(title, counter):
     # We remove text within '()'
     title = title.replace('&','').split('(')[0]
-    url = 'https://api.crossref.org/works?query.bibliographic='+str(title)+'&rows=1&mailto=janoszwei@yahoo.de'
+    url = 'https://api.crossref.org/works?query.bibliographic='+str(title)+'&rows=1'
 
     response = requests.get(url)
     paper_json = response.json()
