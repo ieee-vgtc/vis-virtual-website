@@ -18,6 +18,7 @@ import json
 from habanero import Crossref
 import requests
 from difflib import SequenceMatcher
+import codecs
 
 def get_client():
     return Crossref()
@@ -37,7 +38,7 @@ writes the paper_list.json file from a dict
 """
 def write_paper_file(papers, paper_file_path):
     with open(paper_file_path, 'w') as f:
-        json.dump(papers, f)
+        json.dump(papers, f, indent=1)
 
 """
 Uses habanero package to look up a doi given a title.
@@ -111,16 +112,45 @@ def find_doi_from_crossref(title, counter):
     else:
         return "", counter
 
+"""
+A good overview about the xplore api query: https://developer.ieee.org/Python_Software_Development_Kit
+Its limited to 10 calls a second and 200 per day
+The calls per day were changed to 500 after a friendly request from us as we got more than 200 papers
+"""
+def find_doi_from_xplore(title, counter):
+    # We replace spaces with '+'
+    title = title.replace(' ','+')
+
+    url = 'http://ieeexploreapi.ieee.org/api/v1/search/articles?querytext='+str(title)+'&format=json&apikey=mj5w89ftt9c283fpxeskhw3q'
+
+    response = requests.get(url)
+    paper_json = response.json()
+    if paper_json['total_records'] == 0:
+        return "", counter
+    first_item = paper_json['articles'][0]
+    title_from_xplore = first_item['title']
+    doi_from_xplore = first_item['doi']
+    title_match_ratio = SequenceMatcher(None, title, title_from_xplore).ratio()
+    if title_match_ratio > 0.8:
+        print("found DOI: " + str(doi_from_xplore) +" with a title match of " + str(title_match_ratio) + " with xplore")
+        return "doi.org/"+doi_from_xplore, (counter + 1)
+    else:
+        return "", counter
+
 
 """
 Takes a dictionary representing a paper, and returns a dictionary with external_paper_link filled in
-If a doi already exists on the title, we leave it.  Otherwise, we look it up with crossref and datacite
+If a doi already exists on the title, we leave it.  Otherwise, we look it up with xplore, datacite and crossref
 """
 def insert_doi_from_title(paper, crossref_client, counter):
     if 'external_paper_link' not in paper or (len(str(paper['external_paper_link'])) == 0):
-        counter_before_datacite = counter
+        counter_before_xplore = counter
         print(paper['title'])
-        paper['external_paper_link'], counter = find_doi_from_datacite(paper['title'], counter)
+        paper['external_paper_link'], counter = find_doi_from_xplore(paper['title'], counter)
+        # If we could not find the doi via xplore, we try datacite but it mostly links to arxiv
+        if counter == counter_before_xplore:
+            paper['external_paper_link'], counter = find_doi_from_datacite(paper['title'], counter)
+
         # If we could not find the doi via datacite, we could try crossref but its slow and up to now, didn not get a single match
         #if counter == counter_before_datacite:
             #paper['external_paper_link'], counter = find_doi_from_crossref(paper['title'], counter)
@@ -159,23 +189,9 @@ if __name__ == "__main__":
     papers = read_paper_file(paper_filepath)
 
 
-
     filled_papers = fill_dois(papers, crossref_client)
     write_paper_file(filled_papers, paper_filepath)
 
     # tokenizer = transformers.AutoTokenizer.from_pretrained("deepset/sentence_bert")
 
-    # model = transformers.AutoModel.from_pretrained("deepset/sentence_bert")
-    # model.eval()
 
-    # with open(args.papers, "r") as f:
-    #     abstracts = list(csv.DictReader(f))
-    #     all_abstracts = torch.zeros(len(abstracts), 768)
-    #     with torch.no_grad():
-    #         for i, row in enumerate(abstracts):
-
-    #             input_ids = torch.tensor([tokenizer.encode(row["abstract"])[:512]])
-    #             all_hidden_states, _ = model(input_ids)[-2:]
-    #             all_abstracts[i] = all_hidden_states.mean(0).mean(0)
-    #             print(i)
-    # torch.save(all_abstracts, "embeddings.torch")
