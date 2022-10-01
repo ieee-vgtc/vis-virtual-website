@@ -56,12 +56,11 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  ok5: 'Room 5'
-  ok4: 'Room 4'
-  ok678: 'Rooms 6, 7, and 8'
-  ok1: 'Room 1'
+  ok5: 'Oklahoma Station 5'
+  ok4: 'Oklahoma Station 4 (plenary 4+5 combined)'
+  ok1: 'Oklahoma Station 1'
   mistletoe: 'Mistletoe'
   pinon: 'Pinon'
-  ok6: 'Room 6'
-  ok7: 'Room 7'
-  ok8: 'Room 8'
+  ok6: 'Oklahoma Station (plenary 6+7+8 combined)'
+  ok7: 'Oklahoma Station 7'
+  ok8: 'Oklahoma Station 8'
