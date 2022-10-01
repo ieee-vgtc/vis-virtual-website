@@ -1,0 +1,46 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "speaker_list.json",
+    "title": "Speaker List",
+    "description": "List of speakers for virtual-vis.ieeevis.org",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/speaker"
+    },
+    "definitions": {
+        "event": {
+            "type": "object",
+            "properties": {
+                "UID": {
+                    "type": "string"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "abstract": {
+                    "type": "string"
+                },
+                "bio": {
+                    "type": "string"
+                },
+                "time_start": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "session": {
+                    "type": "string"
+                },
+                "session_id": {
+                    "type": "string"
+                }
+            },
+            "required": ["UID", "image", "title", "abstract", "bio", "time_start", "name", "session", "session_id"]
+        }
+    },
+}
