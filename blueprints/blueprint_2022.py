@@ -24,6 +24,7 @@ def main(site_data_path):
     for f in glob.glob(site_data_path + "/*"):
         extra_files.append(f)
         name, typ = f.split("/")[-1].split(".")
+        print("parsing file ", name)
         if typ == "json":
             site_data[name] = json.load(open(f))
         elif typ in {"csv", "tsv"}:
@@ -125,7 +126,6 @@ def generateDayCalendars():
                 "day": sessionTimeToCalendarDay(session["startTime"]),
                 "timeStart": sessionTimeToCalendarTime(session["startTime"]),
                 "timeEnd": sessionTimeToCalendarTime(session["endTime"]),
-                # "location": session['youtube'],
                 "location": "session_" + session["id"] + ".html",
                 "link": "session_" + session["id"] + ".html",
                 "category": "time",
@@ -163,6 +163,7 @@ def sessionTimeToCalendarTime(dateTime):
 
 # converts a full date string to an indexed day for the calendar
 # (e.g., if conference starts on Sunday, then session on first day is "day-1")
+# TODO - there is a problem here.
 def sessionTimeToCalendarDay(dateTime):
     start_day = 24
     day = int(dateTime.split("T")[0].split("-")[-1])
@@ -366,11 +367,11 @@ def format_session_as_event(v, uid):
 
     return {
         "id": uid,
-        "title": v["long_name"],
+        "title": v["event_name"],
         "type": v["event_type"],
         "abbr_type": v["event_type"].split(" ")[0].lower(),
         "abstract": v["event_description"],
-        "url": v["event_url"],
+        "url": v["event_link"],
         "startTime": v["sessions"][0]["time_start"],
         "endTime": v["sessions"][-1]["time_end"],
         "sessions": [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]],
@@ -390,11 +391,12 @@ def format_session_list(v):
 
 
 def format_by_session_list(v):
-    fullTitle = v["event"]
+    # fullTitle = v["event"]
+    fullTitle = v["title"]
     redundantTitle = True
-    if v["event"].lower() != v["title"].lower():
-        fullTitle += ": " + v["title"]
-        redundantTitle = False
+    # if v["event"].lower() != v["title"].lower():
+    #     fullTitle += ": " + v["title"]
+    #     redundantTitle = False
     return {
         "id": v["session_id"],
         "title": v["title"],

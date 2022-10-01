@@ -115,6 +115,7 @@ function updateKey() {
 }
 
 function updateFullCalendar(day) {
+  console.log("updateFullCalendar with day ", day)
   let calendar = d3.select(`#calendar${day != null ? "-" + day : ""}`);
   let allSessions = calendar.selectAll('g.all-sessions')
     .data([1])
@@ -147,6 +148,7 @@ function updateFullCalendar(day) {
 }
 
 function createFullCalendar(calendar, config, allEvents) {
+  console.log("CREATING FULL CALENDAR.  config is ", config, " allEvents is ", allEvents)
   const getColor = generateColorFunction(config);
   const getTextColor = d => generateTextColorFunction(config, getColor);
 
@@ -249,6 +251,7 @@ function createDayCalendar(calendar, config, dayEvents) {
 
 function populateDays(calendarSelection) {
   // NOTE: `dayData` is defined globally at top of file
+  console.log("explain this to me, what is dayData?  ", dayData)
   calendarSelection.selectAll('.day-slot')
     .data(dayData, d => d)
     .join("div")

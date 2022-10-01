@@ -56,13 +56,12 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  room1: 'Bourbon'
-  room2: 'Royal'
-  room3: 'Frenchmen'
-  room4: 'St. Charles'
-  room5: 'Esplanade'
-  room6: 'Magazine'
-  room7: 'Rampart'
-  room8: 'Poydras'
-  room9: 'Canal'
-  room10: 'Chartres'
+  ok5: 'Room 5'
+  ok4: 'Room 4'
+  ok678: 'Rooms 6, 7, and 8'
+  ok1: 'Room 1'
+  mistletoe: 'Mistletoe'
+  pinon: 'Pinon'
+  ok6: 'Room 6'
+  ok7: 'Room 7'
+  ok8: 'Room 8'
