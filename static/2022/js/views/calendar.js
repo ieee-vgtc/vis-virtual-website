@@ -308,16 +308,18 @@ function populateHeader(calendarSelection, data, isDay) {
 
 function populateTimes(calendarSelection) {
   let timeData = [
-    ["7:30 AM CT", "time-0730"],
-    ["8:00 AM CT", "time-0800"],
-    ["9:30 AM CT", "time-0930"],
-    ["10:00 AM CT", "time-1000"],
-    ["11:30 AM CT", "time-1130"],
-    ["12:00 PM CT", "time-1200"],
-    ["1:30 PM CT", "time-1330"],
-    ["2:00 PM CT", "time-1400"],
-    ["3:00 PM CT", "time-1500"],
-    ["3:30 PM CT", "time-1530"],
+    ["8:30 AM CDT", "time-0830"],
+    ["9:00 AM CDT", "time-0900"],
+    // ["9:30 AM CDT", "time-0930"],
+    ["10:15 AM CDT", "time-1015"],
+    ["10:45 AM CDT", "time-1045"],
+    // ["11:30 AM CDT", "time-1130"],
+    ["12:00 PM CDT", "time-1200"],
+    // ["1:30 PM CDT", "time-1330"],
+    ["2:00 PM CDT", "time-1400"],
+    ["3:15 PM CDT", "time-1515"],
+    ["3:45 PM CDT", "time-1545"],
+    ["5:00 PM CDT", "time-1700"],
   ];
 
   calendarSelection.selectAll(".time-slot:not(.converted-timezone)")
@@ -374,4 +376,4 @@ function getTextColorByBackgroundColor(hexColor) {
 
 function getColor(d, config) {
   return config.calendar.colors[(d && d.eventType) || '---'];
-} 
+}

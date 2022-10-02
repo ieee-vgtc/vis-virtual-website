@@ -7,22 +7,23 @@
     grid-template-rows:
         [timezones] auto
         [tracks] auto
-        [time-0730] 0.5fr
-        [time-0745 time-0740] 0.5fr
-        [time-0800 time-0750] 1.5fr
-        [time-0845] 1.5fr
-        [time-0930 time-0920 time-0910 time-0925] 0.5fr
-        [time-0945] 0.5fr
-        [time-1000 time-1005] 3fr
-        [time-1130 time-1120 time-1115 time-1125] 1fr
+        [time-0830] 0.5fr
+        /*[time-0745 time-0740] 0.5fr*/
+        [time-0900 time-0850] 3fr
+        /*[time-0845] 1.5fr*/
+        /*[time-0930 time-0920 time-0910 time-0925] 0.5fr*/
+        /*[time-0945] 0.5fr*/
+        [time-1000 time-1005 time-1015] .5fr
+        [time-1045] 3fr
+        /*[time-1130 time-1120 time-1115 time-1125] 1fr*/
         [time-1200] 2fr
-        [time-1300] 0.5fr
-        [time-1315 time-1314] 0.5fr
-        [time-1330 time-1320 time-1317] 1fr
-        [time-1400] 2fr
-        [time-1500] 1fr
-        [time-1530] 1fr
-        [time-1700 time-1800];
+        /*[time-1300] 0.5fr*/
+        /*[time-1315 time-1314] 0.5fr*/
+        /*[time-1330 time-1320 time-1317] 1fr*/
+        [time-1400] 3fr
+        [time-1515] .5fr
+        [time-1545] 3fr
+        [time-1700];
 
     grid-template-columns:
         [times] 5em
