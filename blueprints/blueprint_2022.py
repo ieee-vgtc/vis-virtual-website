@@ -156,6 +156,11 @@ def sessionTimeToCalendarTime(dateTime):
     # assumption is that day won't change when we do this
     split_time = thetime.split(":", 2)
     hour = int(split_time[0]) - 5
+    # TODO @Hen: BAD BAD HACK
+    hour = hour - 4
+    if hour < 0:
+        hour = hour+24
+    # TODO @Hen: BAD BAD HACK END
     minute = split_time[1]
 
     return "time-" + str(hour).zfill(2) + str(minute).zfill(2)
