@@ -24,7 +24,6 @@ def main(site_data_path):
     for f in glob.glob(site_data_path + "/*"):
         extra_files.append(f)
         name, typ = f.split("/")[-1].split(".")
-        print("parsing file ", name)
         if typ == "json":
             site_data[name] = json.load(open(f))
         elif typ in {"csv", "tsv"}:
@@ -98,7 +97,6 @@ def main(site_data_path):
 
     ## TODO: add paper information to session information
 
-    print("Data Successfully Loaded")
     year_blueprint.site_data = site_data
     year_blueprint.by_uid = by_uid
     year_blueprint.year = year
@@ -318,7 +316,7 @@ def format_poster(v):
         "id": v["uid"],
         "authors": list_fields["authors"],
         "title": v["title"],
-        "award": v["poster_award"],
+        "award": "",
         "discord_channel": v["discord_channel"],
         "session_title": v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2022/posters/" + v["uid"] + ".pdf",

@@ -115,7 +115,6 @@ function updateKey() {
 }
 
 function updateFullCalendar(day) {
-  console.log("updateFullCalendar with day ", day)
   let calendar = d3.select(`#calendar${day != null ? "-" + day : ""}`);
   let allSessions = calendar.selectAll('g.all-sessions')
     .data([1])
@@ -148,10 +147,6 @@ function updateFullCalendar(day) {
 }
 
 function createFullCalendar(calendar, config, allEvents) {
-  console.log("CREATING FULL CALENDAR.  config is ", config, " allEvents is ", allEvents)
-  const getColor = generateColorFunction(config);
-  const getTextColor = d => generateTextColorFunction(config, getColor);
-
   // there's a strong assumption here that all parallel sessions are aligned on start/end time
   let sessions_by_day_and_time = d3.group(
     allEvents,
@@ -169,24 +164,24 @@ function createFullCalendar(calendar, config, allEvents) {
       let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
 
       // manually skip adding these groups to clean up Sunday/Monday
-      if (dayKey === "2021-10-22" || dayKey === "2021-10-23" || dayKey === "2021-10-24" || dayKey === "2021-10-25") {
-        if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
-          continue;
-        }
+      // if (dayKey === "2021-10-22" || dayKey === "2021-10-23" || dayKey === "2021-10-24" || dayKey === "2021-10-25") {
+      //   if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
+      //     continue;
+      //   }
 
-        // force non-full day event on Monday
-        if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
-          timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
-        if (dayKey === "2021-10-25" && timeslotKey === "17:00:00Z")
-          timePosition = sessions[3].timeStart + " / " + sessions[3].timeEnd;
-      }
-      if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
-        if (timeslotKey === "20:00:00Z")
-          continue;
-      }
-      // ignore vizsec-2 (starts at 10:05)
-      if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
-        continue;
+      //   // force non-full day event on Monday
+      //   if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
+      //     timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
+      //   if (dayKey === "2021-10-25" && timeslotKey === "17:00:00Z")
+      //     timePosition = sessions[3].timeStart + " / " + sessions[3].timeEnd;
+      // }
+      // if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
+      //   if (timeslotKey === "20:00:00Z")
+      //     continue;
+      // }
+      // // ignore vizsec-2 (starts at 10:05)
+      // if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
+      //   continue;
 
       const navigateToDay = (_ev, d) => {
         const day_num = d.day.split('-')[1];
@@ -208,8 +203,8 @@ function createFullCalendar(calendar, config, allEvents) {
         const session = sessions[0];
         timeslot.attr('class', 'session')
           .attr('id', session.id)
-          .style('background-color', getColor(session))
-          .style('color', getTextColor(session))
+          .style('background-color', getColor(session, config))
+          .style('color', getTextColorByBackgroundColor(getColor(session, config)))
           .text(session.title);
       }
       else {
@@ -217,16 +212,14 @@ function createFullCalendar(calendar, config, allEvents) {
           .data(sessions, d => d.id)
           .join('div')
             .attr('class', 'session')
-            .style('background-color', getColor)
-            .style('color', getTextColor)
+            .style('background-color', d => getColor(d, config))
+            .style('color', d => getTextColorByBackgroundColor(getColor(d, config)))
       }
     };
   };
 }
 
 function createDayCalendar(calendar, config, dayEvents) {
-  const getColor = generateColorFunction(config);
-  const getTextColor = d => generateTextColorFunction(config, getColor);
 
   const navigateToSession = (_ev, d) => {
     window.location = d.link;
@@ -239,8 +232,8 @@ function createDayCalendar(calendar, config, dayEvents) {
       .attr('data-tippy-content', d => d.title)
       .style('grid-column', d => `${d.room}-start / auto`)
       .style('grid-row', d => `${d.timeStart} / ${d.timeEnd}`)
-      .style('background-color', getColor)
-      .style('color', getTextColor)
+      .style('background-color', d => getColor(d, config))
+      .style('color', d => getTextColorByBackgroundColor(getColor(d, config)))
       .on('click', navigateToSession)
       .on('keydown', (ev, d) => {
         if (ev.key === " " || ev.key === "Enter")
@@ -251,7 +244,6 @@ function createDayCalendar(calendar, config, dayEvents) {
 
 function populateDays(calendarSelection) {
   // NOTE: `dayData` is defined globally at top of file
-  console.log("explain this to me, what is dayData?  ", dayData)
   calendarSelection.selectAll('.day-slot')
     .data(dayData, d => d)
     .join("div")
@@ -269,31 +261,38 @@ function populateDays(calendarSelection) {
 function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names
   let roomData = [
-    {'text': roomNames.room1, 'link': 'room_room1.html'},
-    {'text': roomNames.room2, 'link': 'room_room2.html'},
-    {'text': roomNames.room3, 'link': 'room_room3.html'},
-    {'text': roomNames.room4, 'link': 'room_room4.html'},
-    {'text': roomNames.room5, 'link': 'room_room5.html'},
-    {'text': roomNames.room6, 'link': 'room_room6.html'},
-    {'text': roomNames.room7, 'link': 'room_room7.html'},
-    {'text': roomNames.room8, 'link': 'room_room8.html'}
+    {'roomId': 'ok1', 'text': roomNames.ok1, 'link': 'room_ok1.html'},
+    {'roomId': 'ok4', 'text': roomNames.ok4, 'link': 'room_ok4.html'},
+    {'roomId': 'ok5', 'text': roomNames.ok5, 'link': 'room_ok5.html'},
+    {'roomId': 'ok6', 'text': roomNames.ok6, 'link': 'room_ok6.html'},
+    {'roomId': 'ok7', 'text': roomNames.ok7, 'link': 'room_ok7.html'},
+    {'roomId': 'ok8', 'text': roomNames.ok8, 'link': 'room_ok8.html'},
+    {'roomId': 'mistletoe', 'text': roomNames.mistletoe, 'link': 'room_mistletoe.html'},
+    {'roomId': 'pinon', 'text': roomNames.pinon, 'link': 'room_pinon.html'}
   ];
 
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
-  switch (day) {
-    case "Tuesday":
-      roomData = roomData.slice(0, 5);
-      break;
-    case "Friday":
-      roomData = roomData.slice(0, 7);
-      break;
-  }
+  // switch (day) {
+  //   case "Tuesday":
+  //     roomData = roomData.slice(0, 5);
+  //     break;
+  //   case "Friday":
+  //     roomData = roomData.slice(0, 7);
+  //     break;
+  // }
 
   populateHeader(calendarSelection, roomData);
 }
 
 function populateHeader(calendarSelection, data, isDay) {
-  let columnPosition = (_d, i) => `${(isDay ? 'day-' : 'room')}${(i+1)} / auto`;
+  // Here's the problem - it's assuming the rooms are named "room1".  See the indexing here.
+  let columnPosition = function(d, i) {
+    if (isDay) {
+      return `day-${(i+1)} / auto`;
+    } else {
+      return `${d.roomId} / auto`;
+    }
+  }
 
   calendarSelection.selectAll(".day-slot")
     .data(data, d => d)
@@ -352,7 +351,7 @@ function updateTimezone() {
     const element = $(e);
     const hourminutes = element.attr('data-time').split('-')[1];
 
-    let time = moment(`2021-10-25 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} -05:00`, "YYYY-MM-DD HH:mm ZZ");
+    let time = moment(`2022-10-16 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} -05:00`, "YYYY-MM-DD HH:mm ZZ");
 
     const converted_date = time.clone().tz(timezone);
     let converted_time = converted_date.format("HH:mm");
@@ -373,19 +372,6 @@ function getTextColorByBackgroundColor(hexColor) {
   return yiq >= 128 ? '#000000' : '#ffffff';
 }
 
-// Utility functions for accessing background and text colors, shared between the
-// day and full week calendars.
-// Background color function needs to be generated dynamically based on config.
-function generateColorFunction(config) {
-  const getColor = function(d) {
-    return config.calendar.colors[(d && d.eventType) || '---'];
-  } 
-  // const getColor = d => config.calendar.colors[d.eventType || '---'];
-  return getColor;
-}
-
-function generateTextColorFunction(config, getColor) {
-  const getTextColor = d => getTextColorByBackgroundColor(getColor(d));
-  // const getTextColor = d => getTextColorByBackgroundColor(getColor(d));
-  return getTextColor;
-}
+function getColor(d, config) {
+  return config.calendar.colors[(d && d.eventType) || '---'];
+} 

@@ -40,20 +40,20 @@
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
-        [room1-start] 1fr
-        [room1-end room2-start] 1fr
-        [room2-end room3-start] 1fr
-        [room3-end room4-start] 1fr
-        [room4-end room5-start] 1fr
-        [room5-end room6-start] 1fr
-        [room6-end room7-start] 1fr
-        [room7-end room8-start] 1fr
-        [room8-end timezones] 5em
+        [ok1-start] 1fr
+        [ok1-end ok4-start] 1fr
+        [ok4-end ok5-start] 1fr
+        [ok5-end ok6-start] 1fr
+        [ok6-end ok7-start] 1fr
+        [ok7-end ok8-start] 1fr
+        [ok8-end mistletoe-start] 1fr
+        [mistletoe-end pinon-start] 1fr
+        [pinon-end timezones] 5em
         [timezones-end];
 }
 
 /* customize layout per-day */
-#calendar-Tuesday {
+/*#calendar-Tuesday {
     grid-template-columns:
         [times] 5em
         [room1-start] 1fr
@@ -78,7 +78,7 @@
         [room7-end timezones] 5em
         [timezones-end];
 }
-
+*/
 .tz {
     display: flex;
     flex-direction: column;
