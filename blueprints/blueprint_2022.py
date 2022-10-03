@@ -375,8 +375,8 @@ def format_session_as_event(v, uid):
         "abbr_type": v["event_type"].split(" ")[0].lower(),
         "abstract": v["event_description"],
         "url": v["event_url"],
-        "startTime": v["sessions"][0]["time_start"],
-        "endTime": v["sessions"][-1]["time_end"],
+        "startTime": v["sessions"] and v["sessions"][0]["time_start"],
+        "endTime": v["sessions"] and v["sessions"][-1]["time_end"],
         "sessions": [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]],
     }
 

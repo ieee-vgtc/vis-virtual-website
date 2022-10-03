@@ -162,7 +162,21 @@ $(document).ready(function() {
     document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
     document.addEventListener('mozfullscreenchange', exitFullScreenHandler);
     document.addEventListener('MSFullscreenChange', exitFullScreenHandler);
+
+    putStreamCount()
 })
+
+function putStreamCount() {
+    $.ajax({
+       url: 'https://ljiotj1l7f.execute-api.us-east-1.amazonaws.com/streamView',
+       type: 'PUT',
+       contentType: "application/json",
+       data: { 'urlPath': '{{ room.name }}'},
+       success: function(response) {
+         null
+       }
+    });
+}
 
 function filterByCurrentSession() {
     // We need to write the session timings into the page to calculate current/next session.
