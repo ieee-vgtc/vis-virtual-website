@@ -13,7 +13,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.48550/arxiv.2103.07805",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2103.07805",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -60,7 +60,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.48550/arxiv.2204.07876",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2204.07876",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -102,7 +102,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A biomedical researcher uses the graph prototype to investigate potential drug treatments for SARS-CoV-2 using the COVID-19 biological graph that was automatically derived from literature. (A) The Global View provides an overview of the biological graph with bundled edges and nodes organized hierarchically in a biomedical ontology. The results of searching for links from several articles using DOIs are highlighted. (B) The Local View shows the highlighted results extracted as a node-link flow graph for further analysis. (C) The Drill-down Panel displays the underlying evidence extracted from scientific articles for the inhibition relationship between tocilizumab and IL6. \n",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00010",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00010",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -121,7 +121,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00013",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00013",
   "has_pdf": false,
   "ff_link": "https://youtu.be/DI5zEkurlYk"
  },
@@ -141,7 +141,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00006",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00006",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Z2l2-n8sURo"
  },
@@ -158,7 +158,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00008",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00008",
   "has_pdf": false,
   "ff_link": "https://youtu.be/0Wpt5Rj1wl0"
  },
@@ -178,7 +178,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00012",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00012",
   "has_pdf": false,
   "ff_link": "https://youtu.be/sPesrLfBz0A"
  },
@@ -199,7 +199,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00011",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00011",
   "has_pdf": false,
   "ff_link": "https://youtu.be/OWfUNDsSSrk"
  },
@@ -217,7 +217,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00010",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00010",
   "has_pdf": false,
   "ff_link": "https://youtu.be/yK0zCVIVoWY"
  },
@@ -235,7 +235,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00007",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00007",
   "has_pdf": false,
   "ff_link": "https://youtu.be/UEcJPJrJ8mQ"
  },
@@ -253,7 +253,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TREX53765.2021.00009",
+  "external_paper_link": "https://doi.org/10.1109/TREX53765.2021.00009",
   "has_pdf": false,
   "ff_link": "https://youtu.be/BaKlTFM8ZSk"
  },
@@ -291,7 +291,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Visual cohort analysis of patients with inflammatory bowel disease. \nThe visualization shows patients as rows filled with data selected in the menu on the left.\nPatients can be synchronized to a specific element.\nAdditional information for each element is shown in a tooltip.\n",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00009",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00009",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -314,7 +314,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00012",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00012",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -335,7 +335,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00006",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00006",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -356,7 +356,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00007",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00007",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -381,7 +381,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "This paper examines some of the theoretical perspectives informing the adoption and\ncritique of data visualization in the digital humanities with applied examples in\ncontext. It showcases how data visualization is used within a King\u2019s Digital Lab\nproject to facilitate collaborative data exploration \u2013 to support data curation and\ncleaning and/or to guide the design process \u2013 as well as data analysis by users\nexternal to the team. Theoretical issues around bridging the gap between approaches\nadopted for small and/or large-scale datasets are addressed from functional\nperspectives with reference to evolving data modelling and software development\nlifecycle approaches and workflows.\n",
-  "external_paper_link": "doi.org/10.1109/VIS4DH53644.2021.00005",
+  "external_paper_link": "https://doi.org/10.1109/VIS4DH53644.2021.00005",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -604,7 +604,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00008",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00008",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -643,7 +643,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VAHC53616.2021.00005",
+  "external_paper_link": "https://doi.org/10.1109/VAHC53616.2021.00005",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -817,7 +817,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "\ufeffOur predictive scheduling framework generalizes existing ray scheduling methods to a unified method that adapts to the characteristics of underlying data by adjusting the scheduling depth of each ray. We have path traced the distributed partitions of the Lambda2 dataset of simulated vortices using the Frontera supercomputer at the Texas Advanced Computing Center. With our predictive scheduling method, we are able to achieve a throughput of 7-33 MRays/s while sending rays across 4-128 distributed compute nodes. Lambda2 contains an aggregate of 2.3 billion unique triangles in 1024 domains extracted from a 77.3GB HDF5 file.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114838",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114838",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -835,7 +835,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We introduce a method for the fast approximation of the saddle-extremum\npersistence diagram of a scalar field, with user-controlled guarantees on the\nbottleneck error of the approximate diagram.\nWe illustrate the utility of our approach for interactive data exploration and\ndocument visualization strategies to convey the uncertainty related to our\napproximations.\n",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00008",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00008",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -857,7 +857,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Comparison of synchronous exchange (left) and asynchronous iexchange (right) Gantt charts show that the asynchronous method is several times faster because communication and computation are interleaved",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00009",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00009",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -879,7 +879,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00010",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00010",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -899,7 +899,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We present particle compression approaches with asymptotically constant memory footprint and high-quality lossy reconstruction of large particle datasets. Our method supports progressive, random-access, and error-driven decoding, while being much faster than the MPEG standard.",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00011",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00011",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -919,7 +919,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Composited rendering of a nuclear power station using 16 processes. Each process has drawn its portion of the model using a unique color.",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00012",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00012",
   "has_pdf": false,
   "ff_link": "https://youtu.be/ZwWVL4Szuhk"
  },
@@ -939,7 +939,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We present an approach that reduces the resolution before the encoding and uses temporal upscaling to reconstruct the full resolution image. Our approach takes advantage of the fact that humans do not perceive the full details of moving objects by providing a perfect reconstruction for static parts of the image, while non-static parts are reconstructed with a lower quality. This strategy enables a substantial reduction of the encoding latency and the required bandwidth with barely noticeable changes in visual quality, which is crucial for collaborative analysis across display walls at different locations. ",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00013",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00013",
   "has_pdf": false,
   "ff_link": "https://youtu.be/ECFxGX4XlJM"
  },
@@ -959,7 +959,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Portable and Composable Flow Graphs for In Situ Analytics\n",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00014",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00014",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -980,7 +980,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/LDAV53230.2021.00015",
+  "external_paper_link": "https://doi.org/10.1109/LDAV53230.2021.00015",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -999,7 +999,7 @@
   "has_image": true,
   "paper_award": "best",
   "image_caption": "A collection of two matrices (top left). The state-of-the-art first computes a (weighted) union (top middle and right, blue squares have weight 2), then orders the union, and finally applies this ordering to all matrices in the collection. The union leads to a loss of information, specifically, on those parts of the matrices which are different (bottom right). We propose a collection-aware approach to compute orderings which avoids this loss of information (bottom left). Our approach can be applied to existing ordering methods; examples in this figure use the popular leaf order heuristic.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114773",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114773",
   "has_pdf": false,
   "ff_link": "https://youtu.be/0BIMBxNBSgk"
  },
@@ -1023,7 +1023,7 @@
   "has_image": true,
   "paper_award": "best",
   "image_caption": "The IRVINE system. Users have an overview over clusters in (A). They can select clusters in (A) and engines in (B). After selecting an engine in (B), the acoustic signature of the engine is displayed in (C) and respective raw acoustic measurements in (D). Detailed information about selections from (C) is shown as line chart and scatter-plot and bar chart in (F). After the analysis of an engine, the user can assign a label in (E) and provide an annotation for the label in (D).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114797",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114797",
   "has_pdf": false,
   "ff_link": "https://youtu.be/EKO-fgUCF5w"
  },
@@ -1046,7 +1046,7 @@
   "has_image": true,
   "paper_award": "best",
   "image_caption": "A conceptual illustration of a possible \"Building Vision\" visualization approach inspired by enhanced see-through vision abilities often seen in superhero comics.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114844",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114844",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Y-6GdB_nVeg"
  },
@@ -1066,7 +1066,7 @@
   "has_image": true,
   "paper_award": "best",
   "image_caption": "This paper introduces topological feature curves and surfaces for the analysis of 3D asymmetric tensor fields, such as the velocity gradient tensor of the Lorenz attractor (left).  Note all these surfaces intersect at the triple degenerate curves. Furthermore, this analysis leads to an eigenvalue space for 3D asymmetric tensor fields. To enable a holistic view of the eigenvectors and dual-eigenvectors, this paper proposes an augmented hyperstreamline following one eigenvector field as a tree stem with attached thorns and leaves to show the other eigenvectors or dual-eigenvectors (right).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114808",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114808",
   "has_pdf": false,
   "ff_link": "https://youtu.be/kIYX3lWuIew"
  },
@@ -1089,7 +1089,7 @@
   "has_image": true,
   "paper_award": "best",
   "image_caption": "We often feel like we extract patterns in data from visualizations in an instant. But, perceptual psychology literature shows that extracting such patterns can require a series of filtering operations over time, where we attend to some subsets information, and inhibit others. We demonstrate the presence of this powerful filter when viewing data visualizations; 93% of viewers can miss a conspicuous dinosaur in an inhibited set of dots within a scatterplot. Therefore, data visualizations are not instantly seen, but rather actively explored over time.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623273",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623273",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Lc17AABMkGM"
  },
@@ -1176,7 +1176,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Rotate or Wrap, centre-row: average traffic accidents per hour on Thursdays in Manhattan in 2016. bottom-row: average traffic accidents per hour across the week in Manhattan in 2016",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114693",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114693",
   "has_pdf": false,
   "ff_link": "https://youtu.be/-SMB0pJ17rI"
  },
@@ -1197,7 +1197,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "To help reduce the complexities of imperative data exchange and asynchronous event handling that arises when scaling up interactive data visualizations, DIEL abstracts away the frontend and backends and treats the application as one unified distributed system. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114796",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114796",
   "has_pdf": false,
   "ff_link": "https://youtu.be/PB3D4RRI7Es"
  },
@@ -1215,7 +1215,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "Visualization snippets of the same Observable notebook automatically generated with our proposed VizSnippets computational pipeline and design framework. The visual and textual content of bundles is compressed into representative snippets of different form factors which provide high information density with multiple images and carefully chosen keywords.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114841",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114841",
   "has_pdf": false,
   "ff_link": "https://youtu.be/3Wrf2_kXLEg"
  },
@@ -1235,7 +1235,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The analyst is analyzing the Wine dataset with our interactive dimensionality reduction (DR) framework in the Jupyter Notebook. The result produced with a new DR method, Unified Linear Comparative Analysis (ULCA), is visualized with the UI. (a) shows interactively adjustable parameters. (b) depicts a lower-dimensional representation produced by ULCA. The analyst can directly manipulate the centroid or scatteredness of each group by moving or scaling the corresponding confidence ellipse to trigger the backward parameter selection. (c) informs a numerical mapping from the original attributes to each component. With (d), the analyst can save the current state of visualizations and parameters.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114807",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114807",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1254,7 +1254,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Our affective computing visualization calculates persistent homology on 83 facial landmarks (top) to detect the topological features of emotions. By comparing the topology distance of various facial poses (bottom), our approach clusters emotions of anger (brown), disgust (purple), fear (red), happiness (green), sadness (orange), and surprise (blue).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114784",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114784",
   "has_pdf": false,
   "ff_link": "https://youtu.be/KgQhn8BgztQ"
  },
@@ -1274,7 +1274,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Deep learning model developers encounter different problems when they are trying to analyze their model and make further improvements. Our system ConceptExtract enables users to explore image patches, control the active learning process and use the resulting concepts for model comparison and diagnosis.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114837",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114837",
   "has_pdf": false,
   "ff_link": "https://youtu.be/OrnFfB7rCKY"
  },
@@ -1294,7 +1294,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The semantic navigator is a mixed-initiative visual analytics system for zero-shot classification. It supports human-AI teaming for zero-shot classification with four actions (ask, explain, recommend, respond) in each interaction loop.  The machine asks contrastive questions to guide humans in the thinking process of attributes. A novel visualization called semantic map explains the current status of the machine. Therefore analysts can better understand why the machine misclassifies objects. Moreover, the machine recommends the labels of classes for each attribute to ease the labeling burden. Finally, humans can steer the model by modifying the labels interactively, and the machine adjusts its recommendations. The semantic navigator improves the efficiency of building zero-shot classification models interactively compared with the method without guidance. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114793",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114793",
   "has_pdf": false,
   "ff_link": "https://youtu.be/uDq00Plsct4"
  },
@@ -1339,7 +1339,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114858",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114858",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1386,7 +1386,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "The image shows shows the authors along with color concept association profiles for six concepts - (from top left to bottom right) peach, driving, eggplant, celery, comfort, and grape. The first column has concepts with high distribution difference, the middle column with medium distribution difference, and the third with low distribution difference. The paper can be found at https://arxiv.org/pdf/2108.03685.pdf",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114780",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114780",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1436,7 +1436,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "An existing ranking of visual channels is based on how accurately participants could report the ratio between two depicted values. There is an assumption that this ranking should hold for different tasks and for different numbers of marks. However, there is surprisingly little existing work that tests this assumption, especially given that visually computing ratios is relatively unimportant in real-world visualizations, compared to seeing, remembering, and comparing trends and motifs. We asked participants to reproduce a set of values from memory after they were shown the visualization. These values could be encoded by six visual channels.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114684",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114684",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1479,7 +1479,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We modeled Just Noticeable Differences in Charts. Four charts of the same dataset are detected with different pairs below the Just Noticeable Difference (JND) threshold. From left to right: a bar chart with no pairs below JND, the difference between all pairs of bars in the graph is noticeable; with a different order, there is a pair of bars below JND (A-B); two pairs of indistinguishable fans are detected in the pie chart (A-B and C-F); three pairs of circles are detected as not distinguishable in the bubble chart (A-B, C-F and D-E).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114874",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114874",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1572,7 +1572,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We propose STNet, a spatiotemporal deep learning framework for generating spatiotemporal volumes. The network consists of several feature extraction and interpolation modules for representing spatiotemporal features and one feature upscaling module for generating super-resolution volumes. After that, a spatiotemporal discriminator is utilized to discern the spatial and temporal realness. Pretraining techniques are applied during optimization to boost the capability of network generalization. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114815",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114815",
   "has_pdf": false,
   "ff_link": "https://youtu.be/AezFUomjfzI"
  },
@@ -1592,7 +1592,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "We show six different observer-relative visualizations of the same unsteady 2D input flow field, with respect to six different observers (vertical axes correspond to time). Each visualization is relative to a specific physically-realizable observer, depicted via an observer world line in each inset. Different vortex structures become visible relative to different observers, with colors and opacities encoding the coherence of path lines. Our interactive framework enables smoothly choosing, interpolating, and averaging observers, leading to smoothly changing observer-relative visualizations.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3115565",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3115565",
   "has_pdf": false,
   "ff_link": "https://youtu.be/0kdWTHGd5yQ"
  },
@@ -1673,7 +1673,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Screenshot of GeoSneakPique showing a query for largest magnitude earthquakes (a) within a user-specified free draw polygon for a geographic area of interest (c). The GeoSneakPique widget (b) provides a hexbin-based preview of the data distribution as well as a detailed basemap for additional spatial context. The system interface provides feedback (d) on administrative geographic regions included (i.e., states) and allows for naming and saving the region for future queries ('middle us').\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623324",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623324",
   "has_pdf": false,
   "ff_link": "https://youtu.be/qKJtJHvtCQc"
  },
@@ -1697,7 +1697,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Atlas is a procedural visualization grammar. The grammar describes how an input graphical object is transformed into an output object through a set of high-level production rules. By concatenating these rules, we can create expressive data visualization designs in an explainable, stepwise process. ",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623315",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623315",
   "has_pdf": false,
   "ff_link": "https://youtu.be/rArAXIrquvk"
  },
@@ -1718,7 +1718,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "\ufeffWhere are the zines using visualization? Despite a seemingly natural overlap there has been little work combining zines and visualization. In this paper we explore this gap and highlight the potential of embracing zines as a medium for research and practice.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623294",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623294",
   "has_pdf": false,
   "ff_link": "https://youtu.be/2GdKXvh5iNE"
  },
@@ -1743,7 +1743,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "In this paper, we conduct a study to understand how analysts manually construct narrative maps. Our findings provide a characterization of the types of connections, the construction strategies, and the graph and layout properties of the resulting narrative maps.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623296",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623296",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1772,7 +1772,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A screenshot of the user interface of Storifier, overlaid by the title of the work (Text Visualization and Close Reading for Journalism with Storifier) and by the URL of the system (storifier.cs.toronto.edu).",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623264",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623264",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1797,7 +1797,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Modern social media platforms like Twitch, YouTube, etc., embody an open space for content creation and consumption. \nHowever, an unintended consequence of such content democratization is the proliferation of toxicity that \ncontent creators get subjected to. Commercial and volunteer content moderators play an \nindispensable role in identifying bad actors and minimizing the scale and degree of harmful content. \nModeration tasks are often laborious, complex, and even if semi-automated, they involve high-consequence human decision making. \nIn this paper, through an interdisciplinary collaboration among researchers from social science, human-computer interaction, \nand visualization, we contribute a characterization of the data-driven problems \nand a mapping between the needs and visual analytic tasks through a task abstraction framework. ",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623288",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623288",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -1822,7 +1822,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A collage of sketches of data stories made by workshop participants.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623299",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623299",
   "has_pdf": false,
   "ff_link": "https://youtu.be/PxmXsBku_w8"
  },
@@ -1864,7 +1864,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "On the left is the 80 characters from Les Mis\u00e9rables, with connections between characters that interacted with each other. On the right is a similar set of character interactions but for a selected subset of characters, which were determined using a summarization algorithm. This summary contains only 19 characters, compared to the 80 characters in the unsummarized character interactions.",
-  "external_paper_link": "doi.org/10.1109/VizSec53666.2021.00005",
+  "external_paper_link": "https://doi.org/10.1109/VizSec53666.2021.00005",
   "has_pdf": false,
   "ff_link": "https://youtu.be/A9OND3bvtsQ"
  },
@@ -1887,7 +1887,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "How to achieve career success is a long-standing research question that has been studied in various social science disciplines. With the increased availability of academic profiles such as researchers\u2019 careers and scientific outputs, academic careers have become one of the prominent topics in the study of careers. This line of research has regained its prominence with the emergence of Science of Science in the age of computational social science. We use a visual analytics approach to explore the potential factors of academic career success and how their effects change at different stages of a research field. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114790",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114790",
   "has_pdf": false,
   "ff_link": "https://youtu.be/vXNPPudEGtg"
  },
@@ -1907,7 +1907,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "VitaLITy is a visual analytic system to facilitate serendipitous discovery of academic literature. We contribute a system informed by results of a formative study with visualization researchers and a dataset of metadata from more than 59k visualization papers. We open-sourced our system and web-scrapers at vitality-vis.github.io.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114820",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114820",
   "has_pdf": false,
   "ff_link": "https://youtu.be/n_VReTG1GgE"
  },
@@ -1955,7 +1955,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We present an exploratory analysis of gender representation among the authors, committee members, and award winners at the IEEE Visualization (VIS) conference. The proportion of female authors has increased from 9% in the first five years to 22% in the last five years of the conference. We found the same representation of women in program committees and slightly more women in organizing committees. Women are less likely to appear in the last author position but more in the middle positions. In terms of collaboration patterns, female authors tend to collaborate more than expected with other women in the community.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114787",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114787",
   "has_pdf": false,
   "ff_link": "https://youtu.be/00FBt95k2-s"
  },
@@ -1980,7 +1980,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Our E-ffective system supports understanding and exploring the effectiveness of different factors in public speaking.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114789",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114789",
   "has_pdf": false,
   "ff_link": "https://youtu.be/TyKuaEtYQm0"
  },
@@ -2000,7 +2000,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "Screenshot from Artemus. An explanatory visualization tool,\nin the domain of administrative justice, to enable\npeople to understand potential paths of redress.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114818",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114818",
   "has_pdf": false,
   "ff_link": "https://youtu.be/uwJeTbqri0M"
  },
@@ -2048,7 +2048,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The Knowledge Rocks Framework supports adding knowledge assistance to existing visualization systems. We present the framework architecture, discuss possible integrations in visualization systems, and present a detailed case study.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114687",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114687",
   "has_pdf": false,
   "ff_link": "https://youtu.be/4laWRkt2rC0"
  },
@@ -2066,7 +2066,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Well-established taxonomies ranging from low to high-level visualization tasks. The red annotations illustrate our main research question: Has decision making been studied explicitly within visualization research, and, if not, should it?",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114813",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114813",
   "has_pdf": false,
   "ff_link": "https://youtu.be/UDfr73S95YU"
  },
@@ -2103,7 +2103,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "Modeling causal inferences with visualizations: (A) Users view and may interact with data visualizations; (B) Ideally, users reason through a series of comparisons that allow them to allocate subjective probabilities to possible data generating processes; and (C) We elicit users\u2019 subjective probabilities as a Dirichlet distribution across possible causal explanations and compare these causal inferences to a computed benchmark of causal support, which we derive from Bayesian inference across possible causal models. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114824",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114824",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Tl6gXHw-EvU"
  },
@@ -2123,7 +2123,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Here, we show the Sibyl logo and a snippet from the Sibyl case-specific details interface. This interface visualizes the relative contribution of each feature to the child welfare predictive risk model output. Red bars represent an increased risk associated with this feature, and blue bars represent a decreased risk. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114864",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114864",
   "has_pdf": false,
   "ff_link": "https://youtu.be/ClATgmKwVCs"
  },
@@ -2142,7 +2142,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Conceptual figure showing the semantic space with relations and\noperations for our semantic model. Operation 4 displays the homogenize\noperation which is available as a result of a multiples relation (the two\naxis scales are different, but should be the same if the underlying data\nrepresents the same quantity).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114860",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114860",
   "has_pdf": false,
   "ff_link": "https://youtu.be/YZ95jlPuym8"
  },
@@ -2162,7 +2162,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114801",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114801",
   "has_pdf": false,
   "ff_link": "https://youtu.be/yF3sUH1gQBQ"
  },
@@ -2185,7 +2185,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114812",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114812",
   "has_pdf": false,
   "ff_link": "https://youtu.be/HHZZYyepSsY"
  },
@@ -2238,7 +2238,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We derive a pore network model from topological decomposition and connectivity to estimate the flow properties through a packed powder bed imaged by micro-CT. From left to right: Regions are selected from the raw micro-CT images, and the pore network model is computed; The fluid flow is solved by converting it to a resistive network, which allows the analysis of flow paths, flow through pores, and flow-permeable surface area, all of which correlate to the performance characteristics of porous solids.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114819",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114819",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2295,7 +2295,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "When creating a cinematic scientific visualization for documentary films or museums, visualizations must be not only accurate, but also understandable to audiences of all ages and aesthetically pleasing. Data artifacts are therefore undesirable in these situations. CloudFindr is a method for masking out cloud artifacts in digital elevation model (DEM) data gathered by satellites, which would otherwise create unrealistic and distracting spikes on visualized landscapes. CloudFindr performs image segmentation using a U-Net based machine learning model on GLCM pre-processed data run with different parameters and ensemble voting for final mask results.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623327",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623327",
   "has_pdf": false,
   "ff_link": "https://youtu.be/-Xox4RsgoVw"
  },
@@ -2319,7 +2319,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We identified a set of visual factors that have a positive influence on rule understanding: (a) Feature Alignment, (b) Feature Ordering, (c) Rule Ordering, (d) Predicate Encoding.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623303",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623303",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2375,7 +2375,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Our visual analytics tool that integrates the After-Action Review for AI (AAR/AI) process allows domain experts to analyze complex AI agents by following a series of steps.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623268",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623268",
   "has_pdf": false,
   "ff_link": "https://youtu.be/KcD7MuFJT9g"
  },
@@ -2403,7 +2403,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "VAINE (Visualization and AI for Natural Experiments) is a visual analytics system that enables users to identify natural experiments in observational data and estimate the impact of treatment variables on outcomes. The visual representations in VAINE allow domain experts to explore potential causalities and contextualize results by adjusting clusters, identifying outliers, and inspecting covariates. VAINE is a domain-agnostic tool implemented as a python package and widget for the popular Jupyter notebook computational environment.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623285",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623285",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2430,7 +2430,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The interpretation of human-steered nonlinear models during human-in-the-loop analysis has not been explored.  To address this problem, we present a new visual explanation design called semantic explanation. Semantic explanation visualizes model behaviors in a manner that is similar to users\u2019 direct projection manipulations. This design conforms to the spatial analytic process and enables analysts better understand the updated model in response to their interactions. ",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623322",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623322",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2461,7 +2461,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Complete visual interface for AdViCE. (1) main visualization, (2) filtering section, (3) model prediction percentage, (4) confusion matrix, (5) feature range selector, (6) feature sub-column, (7) information toggles,  (8) median value, (9) histogram bin, (10) set of counterfactual explanations, (11) sorting function.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623271",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623271",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2488,7 +2488,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The figure shows a screenshot of our new side-by-side histogram view for comparing two sets of images in a selected local region around the selected image of interest and characterizing shifts. \nThe interface facilitates a user's ability to compare and contrast against a focal image in order to characterize covariate shift between train and test data.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623289",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623289",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2647,7 +2647,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "BUCEPHALUS: a BUsiness CEntric cybersecurity Platform for proActive anaLysis Using visual analyticS.\nAuthors are: Marco Angelini, Graziano Blasilli, Silvia Bonomi, Simone Lenti\nAlessia Palleschi, Giuseppe Santucci, Emiliano De Paoli.\nFrom Sapienza University of Rome and MBDA Italia.\n\n",
-  "external_paper_link": "doi.org/10.1109/VizSec53666.2021.00007",
+  "external_paper_link": "https://doi.org/10.1109/VizSec53666.2021.00007",
   "has_pdf": false,
   "ff_link": "https://youtu.be/jySezlPOWVo"
  },
@@ -2669,7 +2669,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A screenshot of the proposed differential privacy policy tool. For the given levels of trust, data sensitivity, and the maximum tolerated risk, the tool proposes the minimum recommended noise. The user can explore the graph and e.g. choose a slightly smaller noise that still provides a similar level of risk.\n",
-  "external_paper_link": "doi.org/10.1109/VizSec53666.2021.00008",
+  "external_paper_link": "https://doi.org/10.1109/VizSec53666.2021.00008",
   "has_pdf": false,
   "ff_link": "https://youtu.be/1IBJU1ZK3s8"
  },
@@ -2688,7 +2688,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "An alert-driven attack graph shows attacker strategies extracted from actions observed through intrusion alerts. \nEach graph shows the strategies of all attackers that obtain an objective on a particular victim. \nThe image shows an attack graph of data_manipulation over remoteware-cl, where 3 teams successfully exploit it: \nTeam 5 exploits it twice, while Teams 1 and 8 exploit it once. \nThe S-PDFA identifies three ways of exploiting the objective based on the actions that lead up to it. \nTeams 5 and 8 share a significant portion of a strategy, \nwhile Team 1 has found the shortest path to reach the objective.",
-  "external_paper_link": "doi.org/10.48550/arxiv.2107.02783",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2107.02783",
   "has_pdf": false,
   "ff_link": "https://youtu.be/TxUye31Eqjs"
  },
@@ -2757,7 +2757,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Existing infographic charts are often merely composed of primitive visual elements, such as text blocks and shapes. With the absence of chart models, updating or reusing them requires tedious and error-prone manual edits. We propose a mixed-initiative approach to mitigate this pain point. With one simple click, our model will analyze the design and extract the chart model, such as the visual structure and data-visual binding. Then users can simply provide new data values and our method will update the chart accordingly.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114856",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114856",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2778,7 +2778,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Kori uses an intelligent mixed-initiative interface to facilitate authoring of interactive data documents. The Kori system consists of a chart gallery (left), edit area (middle), and a link setting panel (right). Kori automatically suggests potential references (dotted gray underline) as a user types. Besides, it supports manual creation of links through simple interactions (4\u20136). The steps 1\u201310 describe a usage scenario to create an interactive story.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114802",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114802",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -2824,7 +2824,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "This figure illustrates the overall workflow of KG4Vis. We extract features from existing dataset-visualization pairs and construct a knowledge graph (KG). Then the embeddings of entities and relations in the KG are learned. Based on the embeddings, we conduct inference on a new dataset and finally recommend multiple visualizations. Also, various rules are extracted based on the embeddings and presented together with recommended visualizations to improve the interpretability of visualization recommendation.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114863",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114863",
   "has_pdf": false,
   "ff_link": "https://youtu.be/RVX1jFGNLdw"
  },
@@ -2846,7 +2846,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "VizLinter is a linter and fixer framework for data visualization. It can help detect problems in a given defective visualization and correct them. The framework consists of two components, a linter and a fixer. The linter inspects the legitimacy of a visualization against well-established design principles, and the fixer automatically resolves the violations detected by the linter.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114804",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114804",
   "has_pdf": false,
   "ff_link": "https://youtu.be/GGLacuuuUdo"
  },
@@ -2869,7 +2869,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Our novel propagation workflow makes it easy to propagate visual designs to numerous datasets. Reference visualizations are created for data streams. A search and activate process is used to propagate the reference visualization to other appropriate data streams. Ontology keywords are used to construct a query for suitable data stream combinations. Search results consist of ranked data stream combinations that match query parameters, although some results may not be suitable for propagation. A quality assurance carried out by an expert ensures the visual design is only propagated to suitable data, resulting in new visualizations that are deployed as web pages.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114828",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114828",
   "has_pdf": false,
   "ff_link": "https://youtu.be/WVsrMdvjQlk"
  },
@@ -2889,7 +2889,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Visualization research traditionally involves close collaborations with domain experts working in professional contexts. This work identifies a lack of focused research and design of systems that allow people to flexibly analyze their personal data in personal contexts: what we call the personal informatics analysis gap. We explore this gap through a review of personal informatics and visualization literature, and our own experiences conducting a three year longitudinal study with asthmatic families.  This work highlights how our study helped to reveal this gap, along with design suggestions for helping bridge it.",
-  "external_paper_link": "doi.org/10.48550/arxiv.2108.03761",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2108.03761",
   "has_pdf": false,
   "ff_link": "https://youtu.be/8U4hGTpmzXE"
  },
@@ -2910,7 +2910,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Top: Title of the paper (\"What\u2019s the Situation with Situated Visualization? A Survey and Perspectives on Situatedness\") and author information (Nathalie Bressa, Henrik Korsgaard, Aur\u00e9lien Tabard, Steven Houben, Jo Vermeulen).\nLeft: The five perspectives that we introduce (space, time, place, activity, and community) and photos of the six representative cases (Corsican Twin, Situated Glyphs, Cairn, Chemicals in the Creek, Activity Clock, and Public Polling Displays).\nRight: Photo gallery of the corpus for our literature survey consisting of 44 papers using the term \"situated visualization\".\nBottom: Affiliation logos (Aarhus University, Universit\u00e9 Claude Bernard Lyon 1, Eindhoven University of Technology, Autodesk Research).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114835",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114835",
   "has_pdf": false,
   "ff_link": "https://youtu.be/fzHGkDlVKdc"
  },
@@ -2935,7 +2935,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "TIVEE is used to analyze badminton tactics in an immersive environment. Users can first obtain an overview (a) of commonly used tactics of Chen Long. The overview shows aggregated trajectories and statistical information (i.e., Rusage and Rscoring) of each tactic group. Users can set a specific game scenario with the menu and the overview will be updated to show the corresponding tactics (b). Users can further inspect a tactic group (c), a tactic (d), and the origin trajectories of the selected tactic (e).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114861",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114861",
   "has_pdf": false,
   "ff_link": "https://youtu.be/9iJprmMHhfc"
  },
@@ -2989,7 +2989,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We characterize three types of changes to task-oriented insights under responsive transformations. First, identification loss is about whether data point are still identifiable, estimated by difference in entropy of visual attributes. Second, comparison loss means how similarly pairs of data points are comparable between two views, which we approximate by the earth mover's distance between distributions of pairwise distances. Lastly, we have trend loss which is about how similarly the relationships between two variables appear between two views. We estimate this using the difference between LOESS-based trend estimates. We use these loss measures in a raking model-based responsive design recommender.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114782",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114782",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3065,7 +3065,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Dimensionality Reduction (DR) techniques can generate 2D projections and enable visual exploration of cluster structures of high-dimensional datasets. However, different DR techniques would yield various patterns, which significantly affect the performance of visual cluster analysis tasks. We present the results of a user study that investigates the influence of different DR techniques on visual cluster analysis. Our study focuses on the most concerned property types, namely the linearity and locality, and evaluates twelve representative DR techniques that cover the concerned properties.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114694",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114694",
   "has_pdf": false,
   "ff_link": "https://youtu.be/aNjcy5KLfd8"
  },
@@ -3113,7 +3113,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114870",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114870",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3134,7 +3134,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We propose Steadiness and Cohesiveness, two novel metrics to measure the inter-cluster reliability of multidimensional projection (MDP), specifically how well the inter-cluster structures are preserved between the original high-dimensional space and the low-dimensional projection space. Our metrics can also quantify pointwise distortions, allowing for the visualization of inter-cluster reliability in a projection, which we call a reliability map. This figure depicts the UMAP, Isomap, and LLE projections of the MNIST test dataset and the reliability maps that visualize each projection\u2019s inter-cluster distortion, along with overall Steadiness (St) and Cohesiveness (Co) scores depicted under each technique.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114833",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114833",
   "has_pdf": false,
   "ff_link": "https://youtu.be/EFaKO5hvtcw"
  },
@@ -3274,7 +3274,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Illustration of an animated 3D humpback whale combined with a representation of several data streams used in our data-driven animation pipeline. The ribbons of data shown include: swimming and gliding data from an elephant seal, the waveform of a soundtrack generated from the beating heart of a narwhal, and notes of a custom musical score for one of our animations.",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00007",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00007",
   "has_pdf": false,
   "ff_link": "https://youtu.be/2ymFXwJDDH8"
  },
@@ -3291,7 +3291,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A Blinding Truth by Michael Zhang",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00008",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00008",
   "has_pdf": false,
   "ff_link": "https://youtu.be/yHtG6sb28c4"
  },
@@ -3308,7 +3308,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00009",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00009",
   "has_pdf": false,
   "ff_link": "https://youtu.be/QoyVTdczrmQ"
  },
@@ -3326,7 +3326,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00010",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00010",
   "has_pdf": false,
   "ff_link": "https://youtu.be/CiohDzBNNMM"
  },
@@ -3367,7 +3367,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Calendar view of daily alerts across a large organisation monitoring insider threat. Weekends are quiet, and a public holiday weekend especially so, but may be when a malicious user chooses to strike.",
-  "external_paper_link": "doi.org/10.1109/VizSec53666.2021.00011",
+  "external_paper_link": "https://doi.org/10.1109/VizSec53666.2021.00011",
   "has_pdf": false,
   "ff_link": "https://youtu.be/8OHVNhcBRtk"
  },
@@ -3389,7 +3389,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Fabian B\u00f6hm received his master's degree in Management Information Systems within the Honors Elite Program at the University of Regensburg, Germany and the Polytechnic University of Catalonia in Barcelona, Spain, in 2016. Since 2017, he is a Ph.D. candidate and research assistant at the Chair of Information Systems at the University of Regensburg. His research interests cycle around the application of Visual Analytics for cybersecurity. The core research results show the possibilities offered by Visual Analytics in crucial security domains as Cyber Threat lntelligence, ldentity and Access Management, Security Analytics, and Digital Forensics.",
-  "external_paper_link": "doi.org/10.5283/epub.50949",
+  "external_paper_link": "https://doi.org/10.5283/epub.50949",
   "has_pdf": false,
   "ff_link": "https://youtu.be/qiaFAMb-v38"
  },
@@ -3411,7 +3411,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The Report Overview and Report Comparison visualizations displaying the vulnerabilities of an application. On the left, a matrix visualization is showing a single report and the distribution of vulnerabilities across relevant attributes such as severity and origin. The red saturation marks the matrix cells with the largest amount of vulnerabilities. On the right, a unit bar chart shows the differences in vulnerabilities present in two versions of an application. The red and blue colors of units correspond to the individual application versions while the grey color marks vulnerabilities that match between both versions.",
-  "external_paper_link": "doi.org/10.1109/VizSec53666.2021.00013",
+  "external_paper_link": "https://doi.org/10.1109/VizSec53666.2021.00013",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Mu4wcRL0HP8"
  },
@@ -3433,7 +3433,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.48550/arxiv.2108.06259",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2108.06259",
   "has_pdf": false,
   "ff_link": "https://youtu.be/9_sWqLtZX6k"
  },
@@ -3456,7 +3456,7 @@
   "has_image": false,
   "paper_award": "honorable",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114806",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114806",
   "has_pdf": false,
   "ff_link": "https://youtu.be/XyvyPYvd54k"
  },
@@ -3477,7 +3477,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A screenshot of the user interface for visually analyzing the tactic progression in racket sports. There exist five main views: the Control Bar (A), the Flow View (B), the Tactic View (C), the Projection View (D), and the Rally View (E). An analysis process may be that users first filter the sequences to be analyzed in the Control Bar. Then, the Flow View visualized the tactic progression, and the Projection View projects the tactics into a 2-D plane. Users can further select a tactic to observe it in detail in the Tactic View and the Rally View.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114832",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114832",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3498,7 +3498,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "VideoModerator is developed to facilitate the easy moderation of multimodal video content, which is comprised of (a) a video view with a segmented timeline that demonstrates risk distributions; (b) an audio view with a combination of histograms and a storyline-based words visualization; (c) a frame view that summarizes the video frames; (d) a control panel that integrates a color legend encoding four risk categories; (e) and (f) are discovered insights for video moderation; (g) a moving window that visually associates audio and frame content; (h) circular glyphs that visualize risk-aware information.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114781",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114781",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3522,7 +3522,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Efficient order processing in the warehouse can ensure timely delivery for e-commerce. However, managing order processing faces unpredictable order streams, fuzzy delay detection, and changeable task assignment. In this work, we propose OrderMonitor, a visual analytics system to support warehouse managers in monitoring real-time status, analyzing historical records, and evaluating the task priorities of order processing.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114878",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114878",
   "has_pdf": false,
   "ff_link": "https://youtu.be/GZCKFCVMYFs"
  },
@@ -3542,7 +3542,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "MiningVis is a visual analytics tool to explore the long-term historical evolution and dynamics of the Bitcoin mining ecosystem. Mining is a critical activity in cryptocurrencies that involves multiple longitudinal factors, both internal and external to the Bitcoin ecosystem. MiningVis allows analysts to relate measures in a multi-coordinated view, including mining market statistics, multi-measure mining pool rankings, and pool hopping behavior. Each of these features can be compared to external data concerning pool characteristics and Bitcoin news. The tool helped our economist collaborator discover new findings and is currently used to develop an economic model.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114821",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114821",
   "has_pdf": false,
   "ff_link": "https://youtu.be/aPh_QMZ1xfk"
  },
@@ -3565,7 +3565,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "This work presents an interactive system that enables the visual analysis of streaming social media data on a large scale in real-time. We propose an efficient and explainable dynamic clustering algorithm that powers a continuously updated visualization of the current thematic landscape as well as detailed visual summaries of specific topics of interest. Our parallel clustering strategy provides an adaptive stream with a digestible but diverse selection of recent posts related to relevant topics. We also integrate familiar visual metaphors that are highly interlinked for enabling both explorative and more focused monitoring tasks.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114800",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114800",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3585,7 +3585,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "CoUX is a collaborative visual analytics tool to support multiple UX evaluators with analyzing think-aloud usability test recordings. From an input video, a video analysis engine extracts various types of features, which are stored on a back-end and presented on a front-end visual interface to facilitate the identification of usability problems among UX evaluators. Moreover, the front-end, consisting of three interactively coordinated panels, communicates with the back-end to support individual problem logging and annotation as well as collaboration amongst a team of UX evaluators.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114822",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114822",
   "has_pdf": false,
   "ff_link": "https://youtu.be/36l1zxUS_N4"
  },
@@ -3606,7 +3606,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114805",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114805",
   "has_pdf": false,
   "ff_link": "https://youtu.be/FIkUJnoV6Lg"
  },
@@ -3647,7 +3647,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Professional roles for data visualization designers are growing in popularity, and interest in relationships between the academic research and professional practice communities is gaining traction. However, despite the potential for knowledge sharing between these communities, we have little understanding of the ways in which practitioners design in real-world, professional settings. This work presents a practice-led approach to understanding visualization design practice on its own terms. Twenty data visualization practitioners were interviewed and asked about their design process, including the steps they take, how they make decisions, and the methods they use. Findings have implications for how visualization researchers understand and engage with practitioners, and how educators approach the training of future data visualization designers.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114959",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114959",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3666,7 +3666,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "There are many ways to specify a communicative visualization. We can do it based on learning objectives, insights we want the viewer to have, or assessments we want them to succeed at. In this work, we find that the format of specification impacts the choice of visualization design. In this figure we show examples of the three specifications with the most preferred design identified for each specification. The seven visualization designs are ordered from most effective to least effective.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114811",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114811",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3685,7 +3685,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114830",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114830",
   "has_pdf": false,
   "ff_link": "https://youtu.be/XZl6DopUlDo"
  },
@@ -3703,7 +3703,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Three columns containing various graphics. The first contains the canonical Flatten the Curve coronavirus chart and two textual descriptions of that chart, color-coded according to the four levels of the semantic content model presented in the paper. The second contains a corpus visualization of 2,147 sentences describing charts, also color-coded, and faceted by chart type and difficulty. The third contains two heat maps, corresponding to blind and sighted readers' ranked preferences for the four levels of semantic content, indicating that blind and sighted readers have sharply diverging preferences. An accessible version of the paper is available at vis.mit.edu/pubs/vis-text-model.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114770",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114770",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3725,7 +3725,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "This image shows a blind individual with a cane on a sidewalk. The individual is facing a car that is moving in the opposite direction. The image depicts sound waves traveling from the car and traveling from a far away construction site. The individual is using the sound waves and haptic cane feedback to construct a mental map of the layout.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114829",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114829",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3746,7 +3746,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "What information should an alternative text include to describe visualizations, and how does that impact people\u2019s understanding of visualizations? In this work, we consolidate existing guidelines and survey current practices. To gain more insight, we interviewed 22 people with visual impairments regarding their experience with visualizations. We found that participants actively try to construct an image of visualizations in their heads and wish to carry out visualization tasks. Informed by the study, we provide a set of recommendations to compose an informative alternative text.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114846",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114846",
   "has_pdf": false,
   "ff_link": "https://youtu.be/JsS1FfH7J8s"
  },
@@ -3768,7 +3768,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114848",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114848",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3790,7 +3790,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Top: the forecast-refine loop of GenNI to help negotiate constraints between model and human. Bottom: the enabling technology is a modified NLG model to produce control states and text",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114845",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114845",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -3909,7 +3909,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The merge trees of three members (a-c) of the Isabel ensemble (wind velocity) concisely and visually encode the number, the salience and the connectivity of the features of interest found in the data. The pointwise mean for the three members (d) exhibits 5 salient maxima and its merge tree is not representative of the input trees, in contrast of the Wasserstein barycenter tree (e). Our framework for distances, geodesics and barycenters enables a variety of applications, including (f) feature tracking, (g) temporal reduction and (h) ensemble clustering and summarization of the main trends of features found in the ensemble.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114839",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114839",
   "has_pdf": false,
   "ff_link": "https://youtu.be/ifVvH0uMW6k"
  },
@@ -3959,7 +3959,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We provided the first approach to generate a learned binary topological representation for clustering that is domain-oblivious in training. This new machine learning approach will reduce comparison times from potentially hours to milliseconds and potentially reducing storage.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114872",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114872",
   "has_pdf": false,
   "ff_link": "https://youtu.be/7uGtGV1G7qc"
  },
@@ -4026,7 +4026,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A wide range of genomics visualizations in the wild can be expressed by Gosling and rendered by Gosling.js, a declarative grammar and its JavaScript toolkit for scalable and interactive visualizations for genome-mapped data.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114876",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114876",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Wvyb9dus9eU"
  },
@@ -4051,7 +4051,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "THALIS is a mixed human-machine system for the analysis of longitudinal cancer symptom data. \nAssociation rule diagrams capture symptom clusters in the acute (A.1) and late (A.2) stages of treatment. \nFilament plots show symptom trajectories and emphasize the cohort progress based on 4 therapy plans for mucus (B.1), and for each patient for swallowing (B.2). \nA percentile heatmap provides an abstract summary for the cohort\u2019s symptom data over time (C), with black markers denoting the current patient.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114810",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114810",
   "has_pdf": false,
   "ff_link": "https://youtu.be/HXuYC6NimSg"
  },
@@ -4074,7 +4074,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The interface: (A) When uploading a tabular dataset, the Table Field shows data columns with the corresponding data type; (B) Clicking the Multiple-View Recommender will generate a dashboard containing a user-specified number of charts. The recommendation is conditioned on, if any, user-locked charts; (C) Users could specify the chart type, encoding channels, and data transformation in the Chart Editor; (D) Chart Ideas recommends charts based on the current dashboard; (E) The Dashboard View displays the charts in an interactive grid layout; and (F) Users could restore the history, change the theme, and save logs in Control Panel.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114826",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114826",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4121,7 +4121,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Vision-based deep learning methods have made great progress in learning autonomous driving models from large-scale crowd-sourced video datasets. They are trained to predict instantaneous driving behaviors from video data captured by on-vehicle cameras. We develop a geo-context aware visualization system for the study of Autonomous Driving Model predictions together with large-scale ADM video data. The visual study is seamlessly integrated with the geographical environment by combining deep learning model performance with geospatial visualization techniques. The system provides a new visual exploration platform for DL model designers in autonomous driving.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114853",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114853",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Y8bN-6G3Vko"
  },
@@ -4145,7 +4145,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "System User Interface: (a) Spatial-temporal view to display a simulation scenario of autonomous driving; (b) Radar view to present the evaluation scores of five modules of autonomous driving and an overall evaluation score at a given time; (c) Timeline view to show the scores over time; (d) Parallel coordinates view to display both the score (d-1) and factor value (d-3) of each factor from modules, with customizable ranking settings for different factor priorities (d-2); (e) Visualization of the autonomous driving states on speed, acceleration, wheel turning angle (e-1), as well as the type and priority distributions of obstacles (e-2).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114777",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114777",
   "has_pdf": false,
   "ff_link": "https://youtu.be/r2DuL5JMX_0"
  },
@@ -4190,7 +4190,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "This study presents Compass, a novel visual analytics approach that assists analysts in detecting and analyzing dynamic causalities in urban domains. We first extend the Granger causality test and propose a causal detection framework for dynamic urban causality. We then develop Compass by coordinating a set of well-designed visualizations. Compass facilitates analysts to interpret dynamic causal relations and improve causal detection results.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114875",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114875",
   "has_pdf": false,
   "ff_link": "https://youtu.be/XQpSA3iRs7k"
  },
@@ -4239,7 +4239,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Real-time query of spatiotemporal data distribution is still an open challenge. As spatiotemporal data become larger, methods of aggregation, storage and querying become critical. We propose a new visual query system that creates a low-memory storage component and provides real-time visual interactions of spatiotemporal data.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114762",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114762",
   "has_pdf": false,
   "ff_link": "https://youtu.be/mo92ArEk8Nk"
  },
@@ -4280,7 +4280,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We present a differentiable volume rendering solution that provides differentiability of all continuous parameters of the volume rendering process. \nA fully differentiable direct volume renderer is used for (left) viewpoint optimization, (middle) transfer function optimization, and (right) optimization of voxel properties using an emission-absorption model with rgb-alpha transfer functions",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114769",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114769",
   "has_pdf": false,
   "ff_link": "https://youtu.be/5E2I8iDKVIc"
  },
@@ -4327,7 +4327,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We present a novel probabilistic occlusion culling architecture for large particle data with intricate details, requiring extensive super-sampling for interactive visualization to be able to capture the amount of detail and contained features. We perform progressive culling, reducing the potentially visible set of particles iteratively while refining the rendering quality. To do this, we estimate expected occlusion by accumulating confidence in gathered occlusion information, together with a dynamically-updated coarse particle density volume. Overall, we are able to significantly speed up super-sampling for the visible subset of very large particle data sets. In the example shown here, 75.5% has been culled.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114788",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114788",
   "has_pdf": false,
   "ff_link": "https://youtu.be/zMbAIqrnRj0"
  },
@@ -4346,7 +4346,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114869",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114869",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4367,7 +4367,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Different sampling methods for presenting the \u201cNew York City TLC Trip Record\u201d data with 2M data points, which are partitioned into chunks, each of 100k data points. (a) The opaque scatterplot is overlaid on the New York map and rendered as (b) a transparent density map, where some major features are highlighted. (c,d,e) The top and bottom rows show the results of different sampling methods in the 9th and 10th frames, respectively, where each result has around 1K points sampled from the original data chunk. It shows our method can preserve relative density and outliers while maintaining temporal coherence. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114880",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114880",
   "has_pdf": false,
   "ff_link": "https://youtu.be/_dj2w4nAqfs"
  },
@@ -4392,7 +4392,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Screenshot of TimeElide: a domain-agnostic, open source visualization tool for the visual analysis of non-contiguous time series slices. In the left sidebar, users can choose between manual and automatic slicing, and select a visual encoding. The main view shows our proposed visualization technique, sparkboxes, which supports the analysis of within-slice and across-slice patterns. The presented visualization shows the number of per-player events during 22 soccer matches.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623320",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623320",
   "has_pdf": false,
   "ff_link": "https://youtu.be/l70SBo4uiks"
  },
@@ -4414,7 +4414,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "An example of a line chart automatically generalized to different display sizes. The algorithm preserves the various elements of the line chart based on their semantic importances at a given display size.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623306",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623306",
   "has_pdf": false,
   "ff_link": "https://youtu.be/yPKnVjYf8bM"
  },
@@ -4437,7 +4437,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We study the complexity of alluvial diagrams with the following workflow: (1) We generate a publicly-available testing dataset of alluvial diagrams that vary complexity based on a combination of features. (2) We conduct two crowdsourced user studies and (3) assess the task performance and perceived complexity of the charts. (4) We then model the complexity of alluvial diagrams with a combination of regression and factor analysis and by constructing Bayesian models.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623282",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623282",
   "has_pdf": false,
   "ff_link": "https://youtu.be/ugnuGYwf3gE"
  },
@@ -4460,7 +4460,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623314",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623314",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4484,7 +4484,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "In a study, we assessed the influence of visual grouping and image complexity on visual model accuracy estimation from similarity-preserving scatterplots. In both scatterplots shown here, the percentage of images with correctly predicted class labels (visualized as border color) is over 90%. We found that users can estimate these accuracies fairly well. Image complexity impacts overall performance, but the layout has very little effect on users\u2019 estimations. ",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623326",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623326",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4507,7 +4507,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Revisiting histograms with a focus on human perception. We evaluated how well human viewers can detect the underlying data distribution in a histogram when different sample sizes and bins are used. For this, we created datasets with a different number of samples (first row: few, last row: many) and a different number of bins (left column: 2, right column: 100). In this Figure a bimodal distribution was used to create the datasets in this illustration. We could show that most sample-based algorithms overestimate the number of bins which are necessary for human viewers.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623301",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623301",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4531,7 +4531,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Data visualization design often requires creativity, and research is needed to understand its nature and means for promoting it. The current visualization literature on creativity is not well developed, especially with respect to the experiences of professional data visualization designers. We conducted semi-structured interviews with visualization practitioners, focusing on a specific aspect of creativity known as design fixation. Fixation occurs when designers adhere blindly or prematurely to a set of ideas that limit creative outcomes. We present practitioners' experiences and perspectives from their own design practice, specifically their views of the nature of fixation, factors encouraging fixation, factors discouraging fixation.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623297",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623297",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4555,7 +4555,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Our survey provides a detailed overview and a comparison of the available static and dynamic hypergraph visualization techniques. The individual approaches are described and summarized before the comparison focuses on distinguishing criteria in areas such as application domains, performance aspects, scalability, interaction support, and evaluation criteria, grouped according to their primary visualization technique.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623305",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623305",
   "has_pdf": false,
   "ff_link": "https://youtu.be/4jwfa4R1Ndw"
  },
@@ -4608,7 +4608,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "In KD-Box, we contribute a novel line-segment-based KD-tree method to enable interactive analysis of many time series. Our method enables not only fast queries over time series in selected regions of interest but also a line splatting method for efficient computation of the density field and selection of representative lines. Further, we develop KD-Box, an interactive system that provides rich interactions, e.g.,timebox,attribute filtering, and coordinated multiple views. We demonstrate the effectiveness of KD-Box in supporting efficient line query and density field computation through a quantitative comparison and show its usefulness for interactive visual analysis on several real-world datasets.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114865",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114865",
   "has_pdf": false,
   "ff_link": "https://youtu.be/zHiYTZUw5Co"
  },
@@ -4630,7 +4630,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Screenshots of Sequen-C for a dataset with 258 event sequences illustrating the methodology. The hierarchical aggregation tree (top left) allows changing the number of clusters shown. The vertical level-of-detail of the multilevel overview can be transformed from coarse (bottom left) to fine (middle and bottom right). Sequence clusters are represented using an Align-Score-Simplify strategy (top right), which allows controlling the horizontal level-of-detail according to an information score.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114868",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114868",
   "has_pdf": false,
   "ff_link": "https://youtu.be/cbii6AHG9Oo"
  },
@@ -4651,7 +4651,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A screenshot of RadViz-Leash, a RadViz projection and clustering  based visual analytics approach to analyzing temporally lagging relationships between events and multiple environmental conditions. It is one of the visualizations provided by EVis, a prototype developed for Earth scientists to study environmentally driven events.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114867",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114867",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4725,7 +4725,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "In our paper, Left, Right, and Gender: Exploring Interaction Traces to Mitigate Human Biases, we conduct 3 in-lab and one crowd-sourced experiment in the domains of politics and movies. We find mixed results that interaction traces can increase awareness of bias and impact interactive behavior and decision making.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114862",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114862",
   "has_pdf": false,
   "ff_link": "https://youtu.be/KBAkr9ROv5k"
  },
@@ -4747,7 +4747,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114683",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114683",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4766,7 +4766,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We know from prior work that estimation biases can arise in common bar charts and line charts. But what about scatterplots, a seemingly precise technique for presenting multidimensional data? In this presentation we discuss an illusion which arises when presenting more than two data dimensions using scatterplots, which may lead to measurement biases.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114783",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114783",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4815,7 +4815,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Analysis page of the counterfactual visualization tool. On this page, the user has applied a filter constraint (a) to a multidimensional dataset and is shown the resulting included, counterfactual, and excluded subsets (b), their outcome distributions (c), and other feature information (d--i).",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114779",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114779",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -4835,7 +4835,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Lumos is a tool that presents ex-situ and in-situ interaction traces to increase awareness of users' biased analytic behaviors (e.g., overemphasis or underemphasis on aspects of data) during visual data analysis. Through a qualitative user study, we found that Lumos increases users' awareness of visual data analysis practices in real-time, promoting reflection upon and acknowledgement of their intentions and potentially influencing subsequent interactions. We open-sourced our system at lumos-vis.github.io.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114827",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114827",
   "has_pdf": false,
   "ff_link": "https://youtu.be/KKDiLrsTlLA"
  },
@@ -4935,7 +4935,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Edge-Path bundling is a new bundling method to simplify edge clutter while greatly reducing ambiguities compared to previous bundling techniques. It takes a layout as input and clusters each edge along a weighted, shortest path to limit its deviation from a straight line. Edge-Path bundling does not incur independent edge ambiguities typically seen in all edge bundling methods, and the level of bundling can be tuned through shortest path distances, Euclidean distances, and combinations of the two.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114795",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114795",
   "has_pdf": false,
   "ff_link": "https://youtu.be/3NHfrXpS2IU"
  },
@@ -4975,7 +4975,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114857",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114857",
   "has_pdf": false,
   "ff_link": "https://youtu.be/6dP9SR-ZSSc"
  },
@@ -5001,7 +5001,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The interface of the visual analytics system for WDS optimization. Here, the NET3 simulations are analyzed. The system is composed of (A) the feature distributions view, (B) simulation overview, (C) summary view, (D) decision tree view, and (E) time-series views.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623272",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623272",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5058,7 +5058,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We propose a visual analytics system termed RatingVis to assist experts in exploring and comparing different bank ranking and rating schemes.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623312",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623312",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5084,7 +5084,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Flow analysis UI. Statistical information such as visits, abandonment and trend over time is presented for each dialog node",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623295",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623295",
   "has_pdf": false,
   "ff_link": "https://youtu.be/G38QCVe5YfU"
  },
@@ -5109,7 +5109,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A few Augmented Reality based visualizations generated by AiR depicting pollution levels and AQI info in Indian cities",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623287",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623287",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5135,7 +5135,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The ConVIScope interface combines: the Topic View for displaying the discussion topics along with their frequency in a hierarchy (B), and the Analysis View of  conversations that encodes the distributions of sentiments and topics (C). Here, the user filters conversations by different dimensions in the Metadata View (A) followed by selecting a conversation which is shown in details in the Conversation View (D).",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623269",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623269",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5167,7 +5167,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "VisKonnect offers a natural language interface to search the intertwined lives of historical figures using a mix of text and visualizations. (1) It answers a query about the marriage of Marie Curie and Pierre Curie while the event timeline allows for verification of the answer as well as further exploration of their lives. (2) The answer of the query about Albert Einstein and Erwin Schroedinger lists down Solvay conference as a shared event where two scientists met. The relationship graph on the right also leads to the same information disclosing a photograph where the two scientists can be seen together.  ",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623313",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623313",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5194,7 +5194,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "In the error-bars condition, participants were more likely to stick with their original plan. Their decision-making process was consistent and regular because they were able to weigh the evidence for data items with missing values. In the baseline condition, participants faced challenges when attempting to weigh the evidence to select data items for future selection. One of the challenges was it was difficult for participants to compare such a data item with other data items. This tended to lead participants to be entangled in that phase and they had to regenerate a new strategy.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623328",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623328",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5214,7 +5214,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Deep Connection is an installation and virtual reality artwork made using full body 3D and 4D magnetic resonance scan datasets. When the user enters Deep Connection, they see a scanned body lying prone in mid-air. Deep Connection creates a scenario where an embodied human becomes the companion for a virtual body. This paper maps the conceptual and theoretical framework for Deep Connection such as virtual intimacy and digitally mediated companionship. It also reflects on working with scanned bodies more generally in virtual reality by discussing transparency, the cyberbody versus the data body, as well as data privacy and data ethics.",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00011",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00011",
   "has_pdf": false,
   "ff_link": "https://youtu.be/t0psCKfzEog"
  },
@@ -5234,7 +5234,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "This image visualizes the flows of individuals across the Greater Boston area as lines (visiting frequency as color, number of unique visitors as line width)  that form spatial clusters of attractive places, with the height of mountains representing location-specific attractiveness.",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00012",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00012",
   "has_pdf": false,
   "ff_link": "https://youtu.be/XiTtkAkdBJk"
  },
@@ -5255,7 +5255,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "A generated image, using DaRt. For this image, we used the 4 dimensional IRIS dataset, which was input to the iterative UMAP DR algorithm, which projects high-dimensional data to, here, two dimensions. The indices of the points were mapped to the \"Inferno\" colorscale provided by d3, to draw the voronoi cells with the respective color on top of the image with some opacity.",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00013",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00013",
   "has_pdf": false,
   "ff_link": "https://youtu.be/2jf2VFjLBVU"
  },
@@ -5336,7 +5336,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VISAP52981.2021.00016",
+  "external_paper_link": "https://doi.org/10.1109/VISAP52981.2021.00016",
   "has_pdf": false,
   "ff_link": "https://youtu.be/TtaFlWCAmBI"
  },
@@ -5371,7 +5371,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/MCG.2022.3173557",
+  "external_paper_link": "https://doi.org/10.1109/MCG.2022.3173557",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5393,7 +5393,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.48550/arxiv.2207.12011",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2207.12011",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5516,7 +5516,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "{\\rtf1\\ansi\\ansicpg936\\cocoartf2580\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fswiss\\fcharset0 Helvetica;\\f1\\froman\\fcharset0 Times-Roman;}\n{\\colortbl;\\red255\\green255\\blue255;\\red0\\green0\\blue0;}\n{\\*\\expandedcolortbl;;\\cssrgb\\c0\\c0\\c0;}\n\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww11520\\viewh8400\\viewkind0\n\\pard\\tx566\\tx1133\\tx1700\\tx2267\\tx2834\\tx3401\\tx3968\\tx4535\\tx5102\\tx5669\\tx6236\\tx6803\\pardirnatural\\partightenfactor0\n\n\\f0\\fs24 \\cf0 The image shows our design space for applying Freytag\\'92s Pyramid to data stories. \n\\f1\\fs32 \\cf2 \\expnd0\\expndtw0\\kerning0\nOur design space considers the setting, rising-climax, and resolution stages in Freytag\\'92s pyramid. Then for each stage of the Freytag\\'92s Pyramid, our design space provides design strategies regarding three dimensions: the narrative pattern, the data flow, and the visual communication. Importantly, the data flow and visual communication dimension center around the narrative pattern dimension and provide strategies for each narrative pattern.\n\\fs24 \\\n\\\n}",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114774",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114774",
   "has_pdf": false,
   "ff_link": "https://youtu.be/l7mmyofcD8A"
  },
@@ -5537,7 +5537,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We present Kinecticharts, an animation design scheme for creating affective charts in data stories. Kineticharts consist of two main dimensions: (i) five positive affects, including joy, amusement, surprise, tenderness, and excitement, and (ii) three charts, including bar charts, line charts, and pie charts. We also tagged Kineticharts with five types of editorial layer, including chart marks, chart axes, chart as a whole, embellishment, and camera to describe which objects in a chart have been animated to communicate affective messages. The full version of Kineticharts can be viewed at https://kineticharts.idvxlab.com/.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114775",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114775",
   "has_pdf": false,
   "ff_link": "https://youtu.be/e-CXSOpKuyY"
  },
@@ -5559,7 +5559,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Data comics are an effective genre for presenting data-driven stories, these are often presented as static. By using ComicScript, creators can add interactions to static data comics through a set of operations, using interactivities like clicking or hovering to change content, layout, structure, and appearance.\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114849",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114849",
   "has_pdf": false,
   "ff_link": "https://youtu.be/w8gLs-jYm04"
  },
@@ -5634,7 +5634,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Visualization designers can manipulate how data values are arranged in a chart to afford particular comparisons, which helps a viewer intuitively compare values and quickly generate key takeaways. In the vertical arrangement, viewers tend to zoom in onto one group and compare values within that group. In the overlaid arrangement, viewers tend to notice interactions between bar pairs. In the adjacent arrangement, viewers tend to group and compare spatially separated bar sets as two units. In the stacked arrangement, viewers tend to identify one stacked bar and compare the two members within it.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114823",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114823",
   "has_pdf": false,
   "ff_link": "https://youtu.be/uQWXEvr8Qlc"
  },
@@ -5653,7 +5653,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Sampling from palettes of mark shapes, encoding channels, and scaffold shapes (left), Diatoms generated 20 alternative glyph designs for an urban mobility dataset (center), displayed as Small Permutables (a single data point drawn according to each design specification). We highlight two designs as Small Multiples (right):  city\u2019s region, area, and population correspond with the drop\u2019s fill color, size, and rotation in A and with the hexagon\u2019s fill color, rotation, and alpha level in B; a city\u2019s bike, transit, and walk scores correspond with the purple, brown, and pink waves\u2019 amplitudes in A and with the stars\u2019 rotations in B.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114792",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114792",
   "has_pdf": false,
   "ff_link": "https://youtu.be/xm2Hn7ykKt4"
  },
@@ -5676,7 +5676,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Circular glyphs in (a1) EnsembleLens [68], (b1) SmartAdP [35], (c1) VisMatcher [28], (d1) VAICo [51], (e1) SeqDynamics [65], (f1) Visual IVO Editor [38], (g1) DropoutSeer [8], (h1) MutualRanker [34]. (a2)-(h2) shows the circular glyphs generated by GlyphCreator based on (a1)-(h1), respectively. Dashed arrows are used to associate glyph components with corresponding categories.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114877",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114877",
   "has_pdf": false,
   "ff_link": "https://youtu.be/fSRTmJnPaMo"
  },
@@ -5726,7 +5726,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Using F2-Bubbles, a set overlay visualization can be generated automatically that is comparable to manually made bubble sets. With the synergy of the aforementioned interactions, the user is able to conveniently achieve visualizations that are comparable to manually made set overlays within a short time.In comparison, the visualization of Bubble Sets does not retain a similar style.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114761",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114761",
   "has_pdf": false,
   "ff_link": "https://youtu.be/AeQuMMXHWl8"
  },
@@ -5746,7 +5746,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "Venn diagrams are often used to highlight complex interactions of sets. This example fromxkcd.com shows which adjectives can be used in combination. Using our method, we can recreate the original Venn diagram. However, the diagram contains empty intersections. In these cases, Euler diagrams provide a more faithful representation of the data.",
-  "external_paper_link": "doi.org/10.48550/arxiv.2108.03529",
+  "external_paper_link": "https://doi.org/10.48550/arxiv.2108.03529",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5797,7 +5797,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Network Hypothetical Outcome Plots (NetHOPs) is a frequency-based uncertainty visualization technique designed to communicate the uncertainty embedded in probabilistic graphs. NetHOPs' visualization function takes a probabilistic graph as input and samples a set of network realizations from a network distribution formed by probabilistically weighted edges. Layouts of all sampled realizations are aggregated to preserve the viewer's mental map. NetHOPs can support common network analysis tasks, such as community detection, for which we developed an instant optimal cluster matching algorithm so that NetHOPs can communicate the uncertainty of cluster distributions.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114679",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114679",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5845,7 +5845,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "An empirical study of working memory demand finds that quantile dot plots and density plots (i.e., distributional annotations) require less effort than interval plots, textual descriptions of uncertainty, and mean plots (i.e., summary annotations). ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114803",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114803",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5912,7 +5912,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "The main challenge to deploying accurate visualizations in strategic environments occurs when there are feedback-induced distributional shifts. To address this challenge we introduce a new solution concept the visualization equilibrium. At the equilibrium, visualizations account for behavioral reactions making them accurate for the distributions they induce.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114842",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114842",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5939,7 +5939,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We adapted Fuzzy Contour Trees to time-varying scalar fields and provide a holistic view on the data. \n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623286",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623286",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5970,7 +5970,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623298",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623298",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -5997,7 +5997,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Studying electronic transitions in a copper complex using domain segmentation driven CSP peeling.",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623300",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623300",
   "has_pdf": false,
   "ff_link": "https://youtu.be/PEzHUacLJdQ"
  },
@@ -6017,7 +6017,7 @@
   "has_image": false,
   "paper_award": "honorable",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623310",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623310",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -6041,7 +6041,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623267",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623267",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Z6jXaJ4uG44"
  },
@@ -6069,7 +6069,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623307",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623307",
   "has_pdf": false,
   "ff_link": "https://youtu.be/WbSQHyqAKpY"
  },
@@ -6094,7 +6094,7 @@
   "has_image": false,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623319",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623319",
   "has_pdf": false,
   "ff_link": "https://youtu.be/kUJxYIbcKIk"
  },
@@ -6124,7 +6124,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Modeling complex systems is a time-consuming, difficult and fragmented task, often requiring analysts to work with disparate data, a variety of models, and expert knowledge across a diverse set of domains. Applying a user-centered design process, we developed a mixed-initiative visual analytics approach, a subset of the Causemos platform, that allows analysts to rapidly assemble qualitative causal models of complex socio-natural systems. Our approach facilitates the construction, exploration, and curation of qualitative models bringing together data across disparate domains. Referencing a recent user evaluation, we demonstrate our approach\u00d5s ability to interactively enrich user mental models and accelerate qualitative model building.\n",
-  "external_paper_link": "doi.org/10.1109/VIS49827.2021.9623318",
+  "external_paper_link": "https://doi.org/10.1109/VIS49827.2021.9623318",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -6175,7 +6175,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "We propose an evaluation-focused framework for visualization recommendation algorithms. Our framework is defined by three major components: (1) a network representing the space of all possible visualization designs; (2) the method a recommendation algorithm uses to traverse the design space to enumerate candidate visualization designs; (3) an oracle used to approximate and rank the value of candidate visualizations. The image demonstrates the visualization design space and the enumeration step of a recommendation algorithm, using movies data as an example. The user's current visualization is at node n0.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114814",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114814",
   "has_pdf": false,
   "ff_link": ""
  },
@@ -6200,7 +6200,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114866",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114866",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Si3Hw35NWXg"
  },
@@ -6221,7 +6221,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "FairRankVis is a visual analytics framework designed to enable the exploration of multi-class bias in graph mining algorithms.  The proposed framework is model agnostic, supports both group and individual fairness levels of comparison, and consists of a suite of interactive visualizations for investigating node attributes and topological features of graph elements to explore algorithmic fairness. The image demonstrates the fairness diagnosis of InFoRM (a debiased ranking model) on Weibo social network data. ",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114850",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114850",
   "has_pdf": false,
   "ff_link": "https://youtu.be/LAxI6_i3CHo"
  },
@@ -6271,7 +6271,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "The interface of VBridge facilitates clinicians\u2019 understanding and interpretation of ML model predictions. The header menu allows clinicians to view prediction results, and to select a patient group for reference. The profile view and the timeline view show a summary of the target patient\u2019s health records. The feature view shows feature-level explanations in a hierarchical display, linked to the temporal view where healthcare time series are visualized to provide context for feature-level explanations.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114836",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114836",
   "has_pdf": false,
   "ff_link": "https://youtu.be/PnAxWRLKgFY"
  },
@@ -6289,7 +6289,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Rapid Labels: Point-Feature Labeling on GPU. Fast greedy method that supports priority-groups of labels and labeling consistent under zoom and pan. All examples were labeled with the proposed method. (left) 3340 airports in US labeled in 72ms. (top right) Line chart labeled without evaluating ambiguity - contains a number of ambiguous labels. (bottom right) Line chart labeled with evaluation of ambiguity - presents a significant improvement in positioning of the labels.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114854",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114854",
   "has_pdf": false,
   "ff_link": "https://youtu.be/tVEMCigvWkw"
  },
@@ -6393,7 +6393,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Comparison of the 5-Gaussian dataset projection of four different t-SNE methods. a) t-SNE produced misaligned layouts all across four time frames. b) Equal-initialization t-SNE provides better visual consistency than t-SNE but there are still unnecessary movements of clusters. c) Dynamic t-SNE showed smoothing effect by distorting projections at t = 2 and 3. d) Joint t-SNE generated coherent and reliable projections that re\ufb02ected the ground-truth transformations of clusters.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114765",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114765",
   "has_pdf": false,
   "ff_link": "https://youtu.be/6Gxdv-unloM"
  },
@@ -6412,7 +6412,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "We provide an automatic optimization framework for high-quality polygon layout of hypergraph data, such as the author-paper data shown in this Figure. The top is a paper-centric view and the bottom is an author-centric view. The primal-dual views were generated using our joint optimization framework.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114759",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114759",
   "has_pdf": false,
   "ff_link": "https://youtu.be/M9siftg-vIc"
  },
@@ -6432,7 +6432,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "COVID-view is an elaborate visualization application for diagnosis of COVID-19 patients using chest CT. (a) 3D visualization of lungs and a ground glass opacity (GGO) region. (b) Activation heatmap from our classification model trained to classify CT scans into COVID positive and negative. (c) masked MIP view showing GGO and highlighted abnormal regions.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114851",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114851",
   "has_pdf": false,
   "ff_link": "https://youtu.be/q9PAQZU8bb0"
  },
@@ -6453,7 +6453,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "ThreadStates supports an interactive disease progression analysis through two phases: state identification and transition summarization. \nFor state identification, users can interpret and refine states through a novel matrix+glyph visualization and a scatter plot. \nFor transition visualization, ThreadStates provides both an overview and a detail view. \nState transition patterns are summarized and visualized using Sankey-based visualizations to reveal disease progression patterns.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114840",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114840",
   "has_pdf": false,
   "ff_link": "https://youtu.be/BuripTHkSKk"
  },
@@ -6474,7 +6474,7 @@
   "has_image": true,
   "paper_award": "honorable",
   "image_caption": "The Loon visualization interface contains five views that show different visualizations that interact with each other.",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114766",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114766",
   "has_pdf": false,
   "ff_link": "https://youtu.be/iRsL3WiZbhI"
  },
@@ -6503,7 +6503,7 @@
   "has_image": true,
   "paper_award": "",
   "image_caption": "Scope2Screen is a scalable system for visualization, focus+context exploration and annotation of whole-slide, high-plex, tissue images, of 100GB in size, with 10^9 or more pixels per channel, and millions of individual cells. As a multidisciplinary team of visualization experts, microscopists, and pathologists we identified key image exploration and annotation tasks involving finding, magnifying, quantifying, and organizing regions of interest in an intuitive and cohesive manner. We validate our designs with domain experts and apply Scope2Screen in two case studies involving lung and colorectal cancer.\n\n",
-  "external_paper_link": "doi.org/10.1109/TVCG.2021.3114786",
+  "external_paper_link": "https://doi.org/10.1109/TVCG.2021.3114786",
   "has_pdf": false,
   "ff_link": "https://youtu.be/Y2tGl2r8v6U"
  },

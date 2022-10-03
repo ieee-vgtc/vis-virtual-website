@@ -85,7 +85,7 @@ def find_doi_from_datacite(title, counter):
     title_match_ratio = SequenceMatcher(None, title, title_from_datacite).ratio()
     if title_match_ratio > 0.8:
         print("found DOI: " + str(doi_from_datacite) +" with a title match of " + str(title_match_ratio) + " with datacite")
-        return "doi.org/"+doi_from_datacite, (counter + 1)
+        return "https://doi.org/"+doi_from_datacite, (counter + 1)
     else:
         return "", counter
 
@@ -108,7 +108,7 @@ def find_doi_from_crossref(title, counter):
     title_match_ratio = SequenceMatcher(None, title, title_from_crossref).ratio()
     if title_match_ratio > 0.8:
         print("found DOI: " + str(doi_from_crossref) +" with a title match of " + str(title_match_ratio) + " with crossref")
-        return "doi.org/"+doi_from_crossref, (counter + 1)
+        return "https://doi.org/"+doi_from_crossref, (counter + 1)
     else:
         return "", counter
 
@@ -133,7 +133,7 @@ def find_doi_from_xplore(title, counter):
     title_match_ratio = SequenceMatcher(None, title, title_from_xplore).ratio()
     if title_match_ratio > 0.8:
         print("found DOI: " + str(doi_from_xplore) +" with a title match of " + str(title_match_ratio) + " with xplore")
-        return "doi.org/"+doi_from_xplore, (counter + 1)
+        return "https://doi.org/"+doi_from_xplore, (counter + 1)
     else:
         return "", counter
 
