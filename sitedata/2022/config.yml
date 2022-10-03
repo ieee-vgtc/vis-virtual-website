@@ -28,7 +28,7 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 #pass: mIniconf1_
 
 use_auth0: false
-#auth0_client_id : 0eqqhd3NUylo228O8vZagvYkuOSdUWGp
+#auth0_client_id : MhsgAU1rWTFf2ZwPoS2946drcsHlMgBX
 #auth0_domain : ieeevis.us.auth0.com
 
 calendar:
