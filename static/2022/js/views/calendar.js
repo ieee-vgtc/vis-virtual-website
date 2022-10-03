@@ -375,5 +375,6 @@ function getTextColorByBackgroundColor(hexColor) {
 }
 
 function getColor(d, config) {
-  return config.calendar.colors[(d && d.eventType) || '---'];
+  let color = config.calendar.colors[(d && d.eventType) || '---'];
+  return color;
 }

@@ -24,11 +24,12 @@ $(document).ready(function () {
             }
 
             let parts = timestamp.split(" – ");
-            let start = moment(parts[0]).tz(current_timezone);
-            let end = moment(parts[1]).tz(current_timezone);
+            let start = moment.utc(parts[0]).tz(current_timezone);
+            let end = moment.utc(parts[1]).tz(current_timezone);
 
             const isLive = moment().tz(current_timezone).isBetween(start, end);
-            const timeString = moment(start).tz(current_timezone).fromNow();
+            const timeString = moment.utc(start).tz(current_timezone).fromNow();
+            console.log("start is ", start, " and timeString is ", timeString, " and current_timezone is ", current_timezone)
             if (isLive) {
                 element.text(`Live! Started ${timeString}`);
                 element.addClass("bg-success text-white p-1");
@@ -39,8 +40,8 @@ $(document).ready(function () {
                 if (isBefore)
                     element.text(`Starting ${timeString}`);
                 else {
-                    let finishedStrinng = moment(end).tz(current_timezone).fromNow();
-                    element.text(`Finished ${finishedStrinng}`)
+                    let finishedString = moment(end).tz(current_timezone).fromNow();
+                    element.text(`Finished ${finishedString}`)
                 }
             }
 

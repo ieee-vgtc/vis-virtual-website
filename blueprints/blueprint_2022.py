@@ -7,8 +7,10 @@ import csv
 import json
 import os
 import dateutil.parser
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import yaml
+
+CONFERENCE_TIMEZONE = timezone(offset=-timedelta(hours=5)) # US/Chicago timezone in OKC
 
 year=2022
 year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
@@ -150,17 +152,15 @@ def generateDayCalendars():
 
 # converts a full date string to a "time string", which is simply "07:45" -> "0745" (times in conference timezone)
 def sessionTimeToCalendarTime(dateTime):
+    # dateTime will come in UTC, need to convert it to conference timezone
+
+
     thetime = dateTime.split('T')[1]
 
     # update the hour (GMT -5)
     # assumption is that day won't change when we do this
     split_time = thetime.split(":", 2)
     hour = int(split_time[0]) - 5
-    # TODO @Hen: BAD BAD HACK
-    hour = hour - 4
-    if hour < 0:
-        hour = hour+24
-    # TODO @Hen: BAD BAD HACK END
     minute = split_time[1]
 
     return "time-" + str(hour).zfill(2) + str(minute).zfill(2)

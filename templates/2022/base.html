@@ -251,13 +251,15 @@
         // find all parseable dates and localize them
         function formatDate(element) {
           const current_tz = getTimezone();
-          let atime = moment(element.text()).clone().tz(current_tz)
+          let atime = moment.utc(element.text()).clone().tz(current_tz)
+          console.log("current_tz is ", current_tz, " element.text() is ", element.text(), " and atime is ", atime)
           element.html(atime.format("dddd, MMMM Do, YYYY"))
         }
 
         function formatDateTime(element) {
           const current_tz = getTimezone();
-          let atime = moment(element.text()).clone().tz(current_tz)
+          let atime = moment.utc(element.text()).clone().tz(current_tz)
+          console.log("current_tz is ", current_tz, " element.text() is ", element.text(), " and atime is ", atime)
           element.html(atime.format("dddd, MMMM Do, YYYY @ HH:mm"))
         }
 
@@ -270,8 +272,8 @@
           let start = parts[0] && parts[0].trim();
           let end = parts[1] && parts[1].trim();
 
-          let starttime = moment(start).clone().tz(current_tz)
-          let endtime = moment(end).clone().tz(current_tz)
+          let starttime = moment.utc(start).clone().tz(current_tz)
+          let endtime = moment.utc(end).clone().tz(current_tz)
 
           //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
           // seems like not considering the timezone
@@ -293,7 +295,7 @@
 
         function formatTime(element) {
           const current_tz = getTimezone();
-          let atime = moment(element.text()).clone().tz(current_tz);
+          let atime = moment.utc(element.text()).clone().tz(current_tz);
           element.html(atime.format("HH:mm"));
         }
 
