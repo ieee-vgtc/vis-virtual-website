@@ -35,8 +35,13 @@
             </a>
 
         </div> -->
-        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/qfxUt9UM0nc?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p>
+        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p> -->
+    </div>
+    <div class="col-lg-10 streaming-container">
+        <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe>
+        <p class="integration-description pt-2"><a href="{{ session.slido_link }}" target="_blank"> <span class="fas mx-1">&#xf128;</span>Click here to open slido in a separate window</a></p>
+        <p class="integration-description pt-2"><a href="{{ session.discord_link }}" target="_blank"><span class="fas mx-1">&#xf086;</span>Click here to discuss the current session in Discord</a></p>
 
     </div>
 </div>
@@ -131,16 +136,6 @@
         {% endfor %}
     </div>
 {% endfor %}
-
-
-{% if sessions[0] %}
-    <div class="row my-5">
-        <div class="col-md-8">
-            <p>If there are any issues with the virtual streaming site, you can try to access the <span class="fas mx-1">&#xf086;</span><a href="{{sessions[0].discord_link}}" target="_blank">Discord</a> and <span class="fas mx-1">&#xf128;</span><a href="{{sessions[0].slido_link}}" target="_blank">Slido</a> pages for this room directly.</p>
-        </div>
-    </div>
-{% endif %}
-
 
 <script src="/static/2022/js/views/timezone.js"></script>
 

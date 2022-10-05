@@ -4,7 +4,7 @@
 {% set social_title = "Paper: " ~ paper.title %}
 {% set social_description = paper.abstract %}
 {% if paper.has_image %}
-{% set social_image = "https://ieeevis.b-cdn.net/vis_2021/paper_images/" ~ paper.id ~ ".png" %}
+{% set social_image = "https://ieeevis.b-cdn.net/vis_2022/paper_images/" ~ paper.id ~ ".png" %}
 {% endif %}
 
 {% extends "2022/base.html" %}
@@ -82,12 +82,12 @@
             <figure class="figure">
                 {% if paper.has_image %}
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2021/paper_images/{{ paper.id }}.png"
+                         src="https://ieeevis.b-cdn.net/vis_2022/paper_images/{{ paper.id }}.png"
                          alt="Exemplar figure, described by caption below"
                          aria-describedby="figure-caption">
                 {% else %}
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2021/paper_images/blank.png"
+                         src="https://ieeevis.b-cdn.net/vis_2022/paper_images/blank.png"
                          alt="Exemplar figure, but none was provided by the authors">
                 {% endif %}
                 <figcaption class="figure-caption"
