@@ -100,8 +100,8 @@ def main(site_data_path):
             time_sessions[timeslot]["sessions"].append(session)
             time_sessions[timeslot].update({"room_name": session["room_name"]})
 
-        # by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
-        by_time[day] = time_sessions
+        by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
+        # by_time[day] = time_sessions
 
     ## TODO: add paper information to session information
 
@@ -250,7 +250,10 @@ def schedule():
 
     # all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
     # data['events'] = all_events
-    data['events_by_time'] = by_time
+    print(by_time.keys())
+    day_sort_order = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+    data['events_by_time'] = collections.OrderedDict(sorted(by_time.items(), key=lambda item: day_sort_order.index(item[0])))
+    # print("by_time is ", by_time)
     # data['event_types'] = sorted(list(set([(e['type'], e["type"].split(" ")[0].lower()) for e in all_events])), key=lambda x: x[0])
     data['colors'] = data['config']['calendar']['colors']
 
