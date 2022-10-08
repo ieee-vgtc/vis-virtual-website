@@ -15,6 +15,12 @@ CONFERENCE_TIMEZONE = timezone(offset=-timedelta(hours=5)) # US/Chicago timezone
 year=2022
 year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
 
+paper_type_names = {
+    'short': 'VIS Short Paper',
+    'full': 'VIS Full Paper',
+    'associated': 'Associated Event',
+    'workshop': 'Workshop'
+}
 site_data = {}
 by_uid = {}
 by_day = {}
@@ -216,7 +222,10 @@ def about():
 @year_blueprint.route("/year/{}/papers.html".format(year))
 def papers():
     data = _data()
-    # data["papers"] = site_data["papers"]
+    # print("list(site_data['paper_list'].items())[0] is ", list(site_data['paper_list'].items())[0])
+    all_paper_types = [p['paper_type'] for _, p in site_data["paper_list"].items()]
+    data['paper_types'] = sorted(list(set([(paper_type_names[pt], pt) for pt in all_paper_types])), key=lambda x: x[0])
+    data['colors'] = data['config']['calendar']['colors']
     return render_template("{}/papers.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/posters.html".format(year))
@@ -309,6 +318,9 @@ def format_paper(v):
         # for papers.html:
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
+        "paper_type": v["paper_type"],
+        "paper_type_name": paper_type_names[v["paper_type"]],
+        "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
     }
 
 def format_poster(v):

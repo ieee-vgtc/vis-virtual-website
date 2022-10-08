@@ -376,7 +376,7 @@ const card_time_detail = (paper, show) => {
 // language=HTML
 const card_html = (paper) =>
   `
-        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
+        <div class="pp-card paper-card-wrapper pp-mode-${render_mode} " data-paper-type="${paper.paper_type}" style="width: 100%">
             <div class="pp-card-header" style="">
               <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
@@ -386,6 +386,8 @@ const card_html = (paper) =>
                   ${paper.title}
                   </a>
               </h5>
+                            <span class="session-type" style="color: ${paper.paper_type_color }">${paper.paper_type_name }</span>
+
               <h6 class="card-subtitle text-muted" style="text-align: left;">
                       ${paper.authors.map(
     s => `<a href="papers.html?filter=authors&search=${s}">${s}</a>`)
@@ -398,6 +400,7 @@ const card_html = (paper) =>
     s => `<a class="has_tippy" href="papers.html?filter=sessions&search=${s}" data-tippy-content="filter all papers in session:">${s}</a>`)
     .join(",")}
               </div>
+
 
               <div>${card_image(paper, render_mode !== MODE.mini)}</div>
               <div class="card-footer">&nbsp</div>

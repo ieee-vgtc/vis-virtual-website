@@ -54,6 +54,9 @@ calendar:
     paper: '#1C3160'
     papers: '#1C3160'
     invited: '#1C3160'
+    full: '#1C3160'
+    short: '#FDBB30'
+
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
