@@ -8,9 +8,9 @@ import subprocess
 # DIRECTORY_PATH = 'a-biomedvischallenge-posters'
 # DIRECTORY_PATH = 'a-ldav-posters'
 # DIRECTORY_PATH = 'a-sciviscontest-posters'
-DIRECTORY_PATH = 'a-vast-posters'
+# DIRECTORY_PATH = 'a-vast-posters'
 # DIRECTORY_PATH = 'a-vizsec-posters'
-# DIRECTORY_PATH = 'v-vis-posters'
+DIRECTORY_PATH = 'v-vis-posters'
 cwd = os.getcwd()
 
 for filename in glob.glob(DIRECTORY_PATH + "/*"):
@@ -30,10 +30,15 @@ for filename in glob.glob(DIRECTORY_PATH + "/*"):
 		shutil.copyfile(filename, dst)
 
 	if typ == 'png':
+		# Copy full size image
+		dst = cwd + '/to_upload/paper_images/' + DIRECTORY_PATH + '-' + paper_id + '.png'
+		shutil.copyfile(filename, dst)
+
+		# Generate thumbnail image
 		dst = cwd + '/to_upload/paper_images_small/' + DIRECTORY_PATH + '-' + paper_id + '.png'
-		cmd = 'convert ' + filename + ' -resize 600x ' + str(dst)
-		print("for imagemagick, dst is ", dst)
-		print(cmd)
+		cmd = "convert '" + filename + "' -resize 600x '" + str(dst) + "'"
+		# print("for imagemagick, dst is ", dst)
+		# print(cmd)
 		subprocess.call(cmd, shell=True)
 
 	# For biomedvischallenge
