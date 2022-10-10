@@ -442,6 +442,7 @@ def format_by_session_list(v):
         "youtube_url": v.get("youtube_url"),
         "youtube_id": v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None,
         "streaming_session_id": v.get("streaming_session_id") if "streaming_session_id" in v else None,
+        "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),
         "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
         "zoom_meeting": v.get("zoom_meeting"),
@@ -581,6 +582,7 @@ def room(room):
         'name': room_name,
         'id': room
     }
+    
     # We need to write a minimal data object to the js so that current session can be calculated.
     # We copy a minimal amount of data there
     data["sessionTimings"] = json.dumps([
@@ -590,6 +592,8 @@ def room(room):
                 'id': s['id']
             }
         for s in data["sessions"]])
+            
+
     return render_template("{}/room.html".format(year), **data)
 
 @year_blueprint.route('/year/{}/event_<event>.html'.format(year))

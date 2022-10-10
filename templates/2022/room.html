@@ -17,7 +17,6 @@
     </div>
 </div>
 
-
 <div class="row mt-5">
     <div class="col-lg-10 streaming-container">
         <!-- ensure 16x9 aspect ratio;
@@ -159,6 +158,7 @@ $(document).ready(function() {
     document.addEventListener('MSFullscreenChange', exitFullScreenHandler);
 
     putStreamCount()
+    updateStreamSource()
 })
 
 function putStreamCount() {
@@ -171,6 +171,19 @@ function putStreamCount() {
          null
        }
     });
+}
+
+
+function updateStreamSource(){    
+    let streaming_id = "{{room.id}}-"+moment('2022-10-10').tz(current_timezone).format('ddd').toLowerCase()
+    console.log(streaming_id)
+    //console.log("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
+    fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
+        .then(response => response.json())
+        .then(data => {
+        console.log('youtube: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
+        
+    })
 }
 
 function filterByCurrentSession() {
@@ -246,7 +259,9 @@ function filterByCurrentSession() {
             $('#next-session-time').text(nextSessionStart.fromNow());
         }
     }
+
 }
+
 
 
 function requestFullScreen(element) {
