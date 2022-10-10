@@ -36,12 +36,14 @@
             Organizers: {{ session.organizers | join(", ") }}
         </h3>
         {% endif %}
+        {% if not "various" in session.livestream_id %}
         <h3 class="session-room mt-4">
             <span class="fas mr-1">&#xf108;</span>
             <a href="room_{{room.id}}.html">
                 Live-stream room: {{ room.name }}
             </a>
         </h3>
+        {% endif %}
         <h3 class="session-date">
             <span class="fas mr-1">&#xf017;</span>
             <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
@@ -112,6 +114,15 @@
 {% endif %}
 <div class="row">
     <div class="col-md-8 mt-5 mb-2">
+
+        {% if "various" in session.livestream_id %}
+        <div class="alert alert-warning" role="alert">
+            This event is an in-person only event.  There will be no video streamed for this event.
+        </div>
+        {% else %}
+
+
+
         <div class="future_session_alert alert alert-warning" role="alert">
             The live-stream for this session has not begun yet. <br><br>
             When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
@@ -128,6 +139,8 @@
             This session has concluded.  You can review the session using the player embedded below.
             {% endif %}
         </div>
+
+        {% endif %}
 
     </div>
 </div>

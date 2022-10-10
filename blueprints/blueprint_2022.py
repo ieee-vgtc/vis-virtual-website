@@ -446,6 +446,7 @@ def format_by_session_list(v):
         "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
+        "livestream_id": v.get("livestream_id"),
     }
 
 def get_room_name(track, room_names):
