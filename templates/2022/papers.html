@@ -210,25 +210,6 @@
         </div>
     </div>
 
-    <div class="row">
-        <button class="paper-faceting btn m-1 p-2 pp-card session-listing"
-                id="start-item"
-                style="border-color: #666;
-                        transition-duration: 300ms;"
-                data-bg-color="#666"
-                data-key="all"
-        >all
-        </button>
-        {% for pt in paper_types %}
-            <button class="paper-faceting btn m-1 p-2 pp-card session-listing"
-                    style="color: {{ colors[pt[1]] }}; border-color: {{ colors[pt[1]] }};
-                            transition-duration: 300ms;"
-                    data-bg-color="{{ colors[pt[1]] }}"
-                    data-key="{{ pt[1] }}"
-            >{{ pt[0] }}</button>
-        {% endfor %}
-    </div>
-
     <!-- Cards -->
     <div class="cards row"></div>
     <script src="/static/2022/js/modules/urlParams.js"></script>

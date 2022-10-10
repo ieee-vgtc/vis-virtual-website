@@ -265,7 +265,7 @@
 
         function formatTimeSpan(element, includeDate) {
           const current_tz = getTimezone();
-          // print("element is ", element)
+          console.log("current_tz is ", current_tz)
           // return '';
           // let parts = element.text().split(/[(\s-\s)|]/);
           let parts = element.text().split(" – ");
@@ -278,14 +278,9 @@
           //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
           // seems like not considering the timezone
           if (starttime.format("D") == endtime.format("D")) {
-            if (includeDate) {
-              element.html(starttime.format(
-                "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
-                "HH:mm"));
-            } else
-              element.html(
-                starttime.format("HH:mm") + " &ndash; " + endtime.format(
-                "HH:mm"));
+            element.html(starttime.format(
+              "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
+              "HH:mm"));
           } else {
             element.html(starttime.format(
               "dddd, MMM Do @ HH:mm") + " &ndash; " + endtime.format(
