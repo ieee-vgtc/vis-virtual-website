@@ -169,11 +169,12 @@ function updateStreamSource(){
     let streaming_id = "{{room.id}}-"+moment('2022-10-10').format('ddd').toLowerCase()
     console.log(streaming_id)
     //console.log("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
-    fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
+    return fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
         .then(response => response.json())
         .then(data => {
-        console.log('youtube: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
-        
+            // console.log(data)
+            console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
+            return data;    
     })
 }
 
@@ -229,45 +230,66 @@ function filterByCurrentSession() {
         $('.room_session_stream').show();
         let playbackContainer = null;
 
-        // Need to render the iframe if it isn't rendered yet
-        if (!iframePlayer) {
-            iframePlayer = document.createElement("iframe");
-            iframePlayer.id = 'iframe-player';
-            iframePlayer.src = `https://www.youtube-nocookie.com/embed/${currentSession.youtube_id}?rel=0&autoplay=1&enablejsapi=1`;
-            iframePlayer.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-            iframePlayer.allowfullscreen = true ;
-            iframePlayer.scrolling = "no";
-            iframePlayer.width = 920;
-            iframePlayer.height = 518;
-            playbackContainer = document.getElementById("session-stream-container");
-            playbackContainer.append(iframePlayer);
-        }
+        let youtube_id = currentSession.youtube_id;
+        let slido_link = currentSession.slido_link;
+        let discord_link = currentSession.discord_link;
 
-        // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
-        // Need to render the slido if it isn't rendered yet
-        if (!slidoPlayer) {
-            slidoPlayer = document.createElement("iframe");
-            slidoPlayer.id = 'slido-player';
-            slidoPlayer.src = currentSession.slido_link;
-            slidoPlayer.height = '100%';
-            slidoPlayer.width = '100%';
-            slidoPlayer.style = 'min-height: 560px';
-            playbackContainer = document.getElementById("session-stream-container");
-            playbackContainer.append(slidoPlayer);
-        }
+        // TODO - error handling
+        updateStreamSource().then(streamData => {
 
-        // Need to render the slido if it isn't rendered yet
-        if (!linksCollection) {
-            linksCollection = document.createElement("div");
-            linksCollection.id = 'links-collection';
-            linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ currentSession.slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ currentSession.discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord</a></p>`
-            linksCollection.frameBorder = 0;
-            linksCollection.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-            linksCollection.allowfullscreen = true ;
-            linksCollection.scrolling = "no";
-            playbackContainer = document.getElementById("session-stream-container");
-            playbackContainer.append(linksCollection);
-        }
+            if ('youtube_id' in streamData) {
+                youtube_id = streamData['youtube_id']
+            }
+
+            if ('slido_link' in streamData) {
+                slido_link = streamData['slido_link']
+            }
+
+            if ('discord_link' in streamData) {
+                discord_link = streamData['discord_link']
+            }
+
+            // Need to render the iframe if it isn't rendered yet
+            if (!iframePlayer) {
+                iframePlayer = document.createElement("iframe");
+                iframePlayer.id = 'iframe-player';
+                iframePlayer.src = `https://www.youtube-nocookie.com/embed/${youtube_id}?rel=0&autoplay=1&enablejsapi=1`;
+                iframePlayer.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                iframePlayer.allowfullscreen = true ;
+                iframePlayer.scrolling = "no";
+                iframePlayer.width = 920;
+                iframePlayer.height = 518;
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(iframePlayer);
+            }
+
+            // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
+            // Need to render the slido if it isn't rendered yet
+            if (!slidoPlayer) {
+                slidoPlayer = document.createElement("iframe");
+                slidoPlayer.id = 'slido-player';
+                slidoPlayer.src = slido_link;
+                slidoPlayer.height = '100%';
+                slidoPlayer.width = '100%';
+                slidoPlayer.style = 'min-height: 560px';
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(slidoPlayer);
+            }
+
+            // Need to render the slido if it isn't rendered yet
+            if (!linksCollection) {
+                linksCollection = document.createElement("div");
+                linksCollection.id = 'links-collection';
+                linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord</a></p>`
+                linksCollection.frameBorder = 0;
+                linksCollection.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                linksCollection.allowfullscreen = true ;
+                linksCollection.scrolling = "no";
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(linksCollection);
+            }
+
+        });
 
     } else if (!recentSession) {
         // Need to destroy the iframe if it is rendered
