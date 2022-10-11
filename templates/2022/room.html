@@ -168,8 +168,8 @@ function putStreamCount() {
 function updateStreamSource(){    
     let streaming_id = "{{room.id}}-"+moment('2022-10-10').format('ddd').toLowerCase()
     console.log(streaming_id)
-    //console.log("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
-    return fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
+    //console.log("https://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
+    return fetch("https://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
         .then(response => response.json())
         .then(data => {
             // console.log(data)
