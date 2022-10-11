@@ -19,7 +19,7 @@
 
 
 <div class="row mt-5">
-    <div class="col-lg-10 streaming-container">
+    <div class="col-lg-10 streaming-container" id="session-stream-container">
         <!-- ensure 16x9 aspect ratio;
             add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
 <!--         <div class="alert alert-warning room_session_future_stream" role="alert">
@@ -35,13 +35,12 @@
             </a>
 
         </div> -->
-        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--         <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <!-- <iframe width="920" height="518" src="{{session.youtube_url}}?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         <!-- <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p> -->
-    </div>
-    <div class="col-lg-10 streaming-container">
-        <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe>
-        <p class="integration-description pt-2"><a href="{{ session.slido_link }}" target="_blank"> <span class="fas mx-1">&#xf128;</span>Click here to open slido in a separate window</a></p>
-        <p class="integration-description pt-2"><a href="{{ session.discord_link }}" target="_blank"><span class="fas mx-1">&#xf086;</span>Click here to discuss the current session in Discord</a></p>
+        <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
+        <!-- <p class="integration-description pt-2"><a href="{{ session.slido_link }}" target="_blank"> <span class="fas mx-1">&#xf128;</span>Click here to open slido in a separate window</a></p> -->
+        <!-- <p class="integration-description pt-2"><a href="{{ session.discord_link }}" target="_blank"><span class="fas mx-1">&#xf086;</span>Click here to discuss the current session in Discord</a></p> -->
 
     </div>
 </div>
@@ -59,7 +58,7 @@
                         {{ session.fullTitle }}
                     </a>
                 </h2>
-                {% if session.event_url %}
+                {% if session.event_url != "N/A" %}
                 <h3 class="session-url">
                     <a href="{{ session.event_url }}" target="_blank">
                         <span class="fas mr-1">&#xf57c;</span>
@@ -150,14 +149,6 @@ $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
 
-    $('#test-modal-fullscreen').click((x) => { makeFullScreen()});
-    $('#test-modal-leave-fullscreen').click((x) => { exitFullScreen()});
-
-    document.addEventListener('fullscreenchange', exitFullScreenHandler);
-    document.addEventListener('webkitfullscreenchange', exitFullScreenHandler);
-    document.addEventListener('mozfullscreenchange', exitFullScreenHandler);
-    document.addEventListener('MSFullscreenChange', exitFullScreenHandler);
-
     putStreamCount()
 })
 
@@ -174,59 +165,97 @@ function putStreamCount() {
 }
 
 function filterByCurrentSession() {
+    // This function does two things.
+    // First, it loads the youtube stream, slido, and discord.  To do this, it looks for the 
+    // current or next session in this room, and loads the youtube stream.  It also checks
+    // the S3 room data to see if there is a more current URL for them.  
+
+    // Then, it also filters out the Session info at the bottom of the page to show the 
+    // Current session, and the upcoming session.
+
     // We need to write the session timings into the page to calculate current/next session.
     // See blueprint_2022.py
     sessionTimings = {{sessionTimings|safe}}
     if (sessionTimings.length > 0) {
         sessionTimings.sort(function(a, b) {
-            return moment(a.startTime) - moment(b.startTime);
+            return moment.utc(a.startTime) - moment.utc(b.startTime);
         });
     }
 
     sessionIsCurrent = function(session) {
         // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
-        const sessionStart = moment(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
-        const sessionEnd = moment(session['endTime']).tz(current_timezone).add(8, 'minutes');
-        return moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(8, 'minutes');
+        return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
     }
 
     sessionIsFuture = function(session) {
-        const sessionStart = moment(session['startTime']).tz(current_timezone);
-        const sessionEnd = moment(session['endTime']).tz(current_timezone);
-        return moment().tz(current_timezone).isBefore(sessionStart);
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone);
+        return moment.utc().tz(current_timezone).isBefore(sessionStart);
     }
 
     let sessionIsRecent = function(session) {
-        const sessionStart = moment(session['startTime']).tz(current_timezone);
-        const sessionEnd = moment(session['endTime']).tz(current_timezone).add(2, 'hours');
-        return moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(2, 'hours');
+        return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
     }
 
     let currentSession = sessionTimings.find(sessionIsCurrent);
     let recentSession = sessionTimings.find(sessionIsRecent);
 
-    const classesToHide = ['.room_session_header', '.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
+    const classesToHide = ['.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
     classesToHide.forEach((c) => { $(c).hide();});
     let iframePlayer = document.getElementById('iframe-player');
+    let slidoPlayer = document.getElementById('slido-player')
+    let linksCollection = document.getElementById('links-collection')
     if (currentSession) {
         currentSessionId = currentSession.id;
-        $('#room_session_header_' + currentSessionId).show();
         $('#room_session_descriptor_current_' + currentSessionId).show();
         $('#room_session_timeslot_' + currentSessionId).show();
         $('.room_session_stream').show();
+        let playbackContainer = null;
 
         // Need to render the iframe if it isn't rendered yet
         if (!iframePlayer) {
             iframePlayer = document.createElement("iframe");
             iframePlayer.id = 'iframe-player';
-            iframePlayer.src = "streaming.html?room={{room.id}}";
-            iframePlayer.frameBorder = 0;
+            iframePlayer.src = "https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1";
             iframePlayer.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
             iframePlayer.allowfullscreen = true ;
             iframePlayer.scrolling = "no";
-            const playbackContainer = document.getElementById("iframe-container");
+            iframePlayer.width = 920;
+            iframePlayer.height = 518;
+            playbackContainer = document.getElementById("session-stream-container");
             playbackContainer.append(iframePlayer);
         }
+
+        // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
+        // Need to render the slido if it isn't rendered yet
+        if (!slidoPlayer) {
+            slidoPlayer = document.createElement("iframe");
+            slidoPlayer.id = 'slido-player';
+            slidoPlayer.src = currentSession.slido_link;
+            slidoPlayer.height = '100%';
+            slidoPlayer.width = '100%';
+            slidoPlayer.style = 'min-height: 560px';
+            playbackContainer = document.getElementById("session-stream-container");
+            playbackContainer.append(slidoPlayer);
+        }
+
+        // Need to render the slido if it isn't rendered yet
+        if (!linksCollection) {
+            linksCollection = document.createElement("div");
+            linksCollection.id = 'links-collection';
+            linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ currentSession.slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ currentSession.discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord</a></p>`
+            linksCollection.frameBorder = 0;
+            linksCollection.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            linksCollection.allowfullscreen = true ;
+            linksCollection.scrolling = "no";
+            playbackContainer = document.getElementById("session-stream-container");
+            playbackContainer.append(linksCollection);
+        }
+
     } else if (!recentSession) {
         // Need to destroy the iframe if it is rendered
         $(".room_session_stream").hide();
@@ -234,64 +263,26 @@ function filterByCurrentSession() {
             iframePlayer.remove();
         }
 
-        const nextSession = sessionTimings.find(sessionIsFuture);
-        if (nextSession) {
-            nextSessionId = nextSession.id;
-            $('#room_session_header_' + nextSessionId).show();
-            $('#room_session_descriptor_next_' + nextSessionId).show();
-            $('#room_session_timeslot_' + nextSessionId).show();
-            $('.room_session_future_stream').show();
-
-            const nextSessionStart = moment(nextSession.startTime).tz(current_timezone);
-            $('#next-session-time').text(nextSessionStart.fromNow());
+        if (slidoPlayer) {
+            slidoPlayer.remove();
         }
-    }
-}
 
-
-function requestFullScreen(element) {
-    // Supports most browsers and their versions.
-    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullscreen;
-
-    if (requestMethod) { // Native full screen.
-        requestMethod.call(element);
-    } else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
-        var wscript = new ActiveXObject("WScript.Shell");
-        if (wscript !== null) {
-            wscript.SendKeys("{F11}");
+        if (linksCollection) {
+            linksCollection.remove();
         }
-    }
-}
 
-function exitFullScreen() {
-    // Supports most browsers and their versions.
-    if(document.exitFullscreen) {
-        document.exitFullscreen();
     }
-    else if(document.webkitCancelFullscreen) {
-        document.webkitCancelFullscreen();
+    const nextSession = sessionTimings.find(sessionIsFuture);
+    if (nextSession) {
+        nextSessionId = nextSession.id;
+        $('#room_session_descriptor_next_' + nextSessionId).show();
+        $('#room_session_timeslot_' + nextSessionId).show();
+        $('.room_session_future_stream').show();
+
+        const nextSessionStart = moment.utc(nextSession.startTime).tz(current_timezone);
+        $('#next-session-time').text(nextSessionStart.fromNow());
     }
 
-    else if(document.webkitExitFullscreen) {
-        document.webkitExitFullscreen();
-    }
-}
-
-function makeFullScreen() {
-    $('.streaming > iframe').addClass("streaming-fullscreen");
-    $('#test-modal-leave-fullscreen').addClass("visible-floating");
-    $('#test-modal-leave-fullscreen').removeClass("invisible-floating");
-    var elem = document.body;
-    requestFullScreen(elem);
-}
-
-function exitFullScreenHandler() {
-    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
-        $('iframe.streaming-fullscreen').removeClass("streaming-fullscreen");
-
-        $('#test-modal-leave-fullscreen').removeClass("visible-floating");
-        $('#test-modal-leave-fullscreen').addClass("invisible-floating");
-    }
 }
 
 </script>

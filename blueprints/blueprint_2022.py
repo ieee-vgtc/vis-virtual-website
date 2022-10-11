@@ -587,7 +587,10 @@ def room(room):
             {
                 'startTime': s['startTime'],
                 'endTime': s['endTime'],
-                'id': s['id']
+                'id': s['id'],
+                'youtube_url': s['youtube_url'],
+                'slido_link': s['slido_link'],
+                'discord_link': s['discord_link']
             }
         for s in data["sessions"]])
     return render_template("{}/room.html".format(year), **data)
