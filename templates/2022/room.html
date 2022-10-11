@@ -194,7 +194,7 @@ function filterByCurrentSession() {
             return moment.utc(a.startTime) - moment.utc(b.startTime);
         });
     }
-
+    console.log("sessionTimings is ", sessionTimings)
     sessionIsCurrent = function(session) {
         // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
         const sessionStart = moment.utc(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
@@ -233,7 +233,7 @@ function filterByCurrentSession() {
         if (!iframePlayer) {
             iframePlayer = document.createElement("iframe");
             iframePlayer.id = 'iframe-player';
-            iframePlayer.src = "https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1";
+            iframePlayer.src = `https://www.youtube-nocookie.com/embed/${currentSession.youtube_id}?rel=0&autoplay=1&enablejsapi=1`;
             iframePlayer.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
             iframePlayer.allowfullscreen = true ;
             iframePlayer.scrolling = "no";

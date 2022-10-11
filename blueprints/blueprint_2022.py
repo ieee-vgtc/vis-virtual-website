@@ -440,7 +440,7 @@ def format_by_session_list(v):
         "discord_link": v.get("discord_link"),
         "slido_link": v.get("slido_link"),
         "youtube_url": v.get("youtube_url"),
-        "youtube_id": v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None,
+        "youtube_id": v.get("youtube_id") if "youtube_id" in v else (v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None),
         "streaming_session_id": v.get("streaming_session_id") if "streaming_session_id" in v else None,
         "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),
@@ -591,6 +591,7 @@ def room(room):
                 'endTime': s['endTime'],
                 'id': s['id'],
                 'youtube_url': s['youtube_url'],
+                'youtube_id': s['youtube_id'],
                 'slido_link': s['slido_link'],
                 'discord_link': s['discord_link']
             }
