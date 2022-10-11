@@ -235,19 +235,19 @@ function filterByCurrentSession() {
         let discord_link = currentSession.discord_link;
 
         // TODO - error handling
-        updateStreamSource().then(streamData => {
+        // updateStreamSource().then(streamData => {
 
-            if ('youtube_id' in streamData) {
-                youtube_id = streamData['youtube_id']
-            }
+            // if ('youtube_id' in streamData) {
+            //     youtube_id = streamData['youtube_id']
+            // }
 
-            if ('slido_link' in streamData) {
-                slido_link = streamData['slido_link']
-            }
+            // if ('slido_link' in streamData) {
+            //     slido_link = streamData['slido_link']
+            // }
 
-            if ('discord_link' in streamData) {
-                discord_link = streamData['discord_link']
-            }
+            // if ('discord_link' in streamData) {
+            //     discord_link = streamData['discord_link']
+            // }
 
             // Need to render the iframe if it isn't rendered yet
             if (!iframePlayer) {
@@ -289,7 +289,7 @@ function filterByCurrentSession() {
                 playbackContainer.append(linksCollection);
             }
 
-        });
+        // });
 
     } else if (!recentSession) {
         // Need to destroy the iframe if it is rendered
