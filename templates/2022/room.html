@@ -166,7 +166,7 @@ function putStreamCount() {
 
 
 function updateStreamSource(){    
-    let streaming_id = "{{room.id}}-"+moment('2022-10-10').tz(current_timezone).format('ddd').toLowerCase()
+    let streaming_id = "{{room.id}}-"+moment('2022-10-10').format('ddd').toLowerCase()
     console.log(streaming_id)
     //console.log("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
     fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
