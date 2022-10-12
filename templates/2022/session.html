@@ -87,7 +87,7 @@
 </div>
 {% endif %}
 
-{% if session.zoom_meeting %}
+{% if session.zoom_meeting and session.timeSlots %}
 <div id="zoom_alert" class="row mt-5 mb-3">
     <div class="col-lg-10">
         <div class="alert alert-primary">
