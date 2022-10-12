@@ -210,6 +210,15 @@ def jobs():
     data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
     return render_template("{}/jobs.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/supporters.html".format(year))
+def supporters():
+    data = _data()
+    data["supporters"] = site_data["supporters"]
+    data['supporters_extra'] = site_data["supporters_extra"]
+    # data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
+    return render_template("{}/supporters.html".format(year), **data)
+
+
 @year_blueprint.route("/year/{}/help.html".format(year))
 def about():
     data = _data()
@@ -582,7 +591,7 @@ def room(room):
         'name': room_name,
         'id': room
     }
-    
+
     # We need to write a minimal data object to the js so that current session can be calculated.
     # We copy a minimal amount of data there
     data["sessionTimings"] = json.dumps([
@@ -596,7 +605,7 @@ def room(room):
                 'discord_link': s['discord_link']
             }
         for s in data["sessions"]])
-            
+
 
     return render_template("{}/room.html".format(year), **data)
 
