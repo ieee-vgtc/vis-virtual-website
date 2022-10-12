@@ -144,6 +144,10 @@
     {{ super() }}
 <script>
 
+let CURRENT_YOUTUBE_ID = '';
+let CURRENT_SLIDO_LINK = '';
+let CURRENT_DISCORD_LINK = '';
+
 $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
@@ -167,13 +171,13 @@ function putStreamCount() {
 
 function updateStreamSource(){    
     let streaming_id = "{{room.id}}-"+moment('2022-10-10').format('ddd').toLowerCase()
-    console.log(streaming_id)
+    // console.log(streaming_id)
     //console.log("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
     return fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
         .then(response => response.json())
         .then(data => {
             // console.log(data)
-            console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
+            // console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
             return data;    
     })
 }
@@ -195,7 +199,7 @@ function filterByCurrentSession() {
             return moment.utc(a.startTime) - moment.utc(b.startTime);
         });
     }
-    console.log("sessionTimings is ", sessionTimings)
+
     sessionIsCurrent = function(session) {
         // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
         const sessionStart = moment.utc(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
@@ -217,48 +221,95 @@ function filterByCurrentSession() {
 
     let currentSession = sessionTimings.find(sessionIsCurrent);
     let recentSession = sessionTimings.find(sessionIsRecent);
+    let nextSession = sessionTimings.find(sessionIsFuture);
 
     const classesToHide = ['.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
     classesToHide.forEach((c) => { $(c).hide();});
     let iframePlayer = document.getElementById('iframe-player');
     let slidoPlayer = document.getElementById('slido-player')
     let linksCollection = document.getElementById('links-collection')
-    if (currentSession) {
-        currentSessionId = currentSession.id;
-        $('#room_session_descriptor_current_' + currentSessionId).show();
-        $('#room_session_timeslot_' + currentSessionId).show();
+    if (currentSession || nextSession) {
+        let youtube_id = "";
+        let slido_link = "";
+        let discord_link = "";
+
+        if (currentSession) {
+            currentSessionId = currentSession.id;
+            $('#room_session_descriptor_current_' + currentSessionId).show();
+            $('#room_session_timeslot_' + currentSessionId).show();
+             youtube_id = currentSession.youtube_id;
+             slido_link = currentSession.slido_link;
+             discord_link = currentSession.discord_link;
+        } else {
+             youtube_id = nextSession.youtube_id;
+             slido_link = nextSession.slido_link;
+             discord_link = nextSession.discord_link;
+        }
         $('.room_session_stream').show();
         let playbackContainer = null;
 
-        let youtube_id = currentSession.youtube_id;
-        let slido_link = currentSession.slido_link;
-        let discord_link = currentSession.discord_link;
+        if (CURRENT_YOUTUBE_ID.length == 0) {
+            CURRENT_YOUTUBE_ID = youtube_id;
+        }
+
+        if (CURRENT_SLIDO_LINK.length == 0) {
+            CURRENT_SLIDO_LINK = slido_link;
+        }
+
+        if (CURRENT_DISCORD_LINK.length == 0) {
+            CURRENT_DISCORD_LINK = discord_link;
+        }
 
         // TODO - error handling
-        // updateStreamSource().then(streamData => {
+        updateStreamSource().then(streamData => {
 
-            // if ('youtube_id' in streamData) {
-            //     youtube_id = streamData['youtube_id']
-            // }
+            if ('youtube_id' in streamData) {
+                new_youtube_id = streamData['youtube_id'];
+            }
 
-            // if ('slido_link' in streamData) {
-            //     slido_link = streamData['slido_link']
-            // }
+            if ('slido_link' in streamData) {
+                new_slido_link = streamData['slido_link'];
+            }
 
-            // if ('discord_link' in streamData) {
-            //     discord_link = streamData['discord_link']
-            // }
+            if ('discord_link' in streamData) {
+                new_discord_link = streamData['discord_link'];
+            }
+
+            if ((new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link != CURRENT_DISCORD_LINK)) {
+                youtube_id = new_youtube_id;
+                CURRENT_YOUTUBE_ID = new_youtube_id;
+                slido_link = new_slido_link;
+                CURRENT_SLIDO_LINK = new_slido_link;
+                discord_link = new_discord_link;
+                CURRENT_DISCORD_LINK = new_discord_link;
+                // We remove the different players because something changed.
+                if (iframePlayer) {
+                    iframePlayer.remove();
+                    iframePlayer = null;
+                }
+
+                if (slidoPlayer) {
+                    slidoPlayer.remove();
+                    slidoPlayer = null;
+                }
+
+                if (linksCollection) {
+                    linksCollection.remove();
+                    linksCollection = null;
+                }
+
+            }
 
             // Need to render the iframe if it isn't rendered yet
             if (!iframePlayer) {
                 iframePlayer = document.createElement("iframe");
                 iframePlayer.id = 'iframe-player';
-                iframePlayer.src = `https://www.youtube-nocookie.com/embed/${youtube_id}?rel=0&autoplay=1&enablejsapi=1`;
-                iframePlayer.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                iframePlayer.src = `https://www.youtube-nocookie.com/embed/${youtube_id}?rel=0&enablejsapi=1`;
+                iframePlayer.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen";
                 iframePlayer.allowfullscreen = true ;
                 iframePlayer.scrolling = "no";
-                iframePlayer.width = 920;
-                iframePlayer.height = 518;
+                // iframePlayer.width = 920;
+                // iframePlayer.height = 518;
                 playbackContainer = document.getElementById("session-stream-container");
                 playbackContainer.append(iframePlayer);
             }
@@ -280,16 +331,16 @@ function filterByCurrentSession() {
             if (!linksCollection) {
                 linksCollection = document.createElement("div");
                 linksCollection.id = 'links-collection';
-                linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord</a></p>`
+                linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord.  Please note that session chairs will not pick up questions from Discord for Q&A</a></p>`
                 linksCollection.frameBorder = 0;
-                linksCollection.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                linksCollection.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
                 linksCollection.allowfullscreen = true ;
                 linksCollection.scrolling = "no";
                 playbackContainer = document.getElementById("session-stream-container");
                 playbackContainer.append(linksCollection);
             }
 
-        // });
+        });
 
     } else if (!recentSession) {
         // Need to destroy the iframe if it is rendered
@@ -307,7 +358,6 @@ function filterByCurrentSession() {
         }
     }
 
-    const nextSession = sessionTimings.find(sessionIsFuture);
     if (nextSession) {
         nextSessionId = nextSession.id;
         $('#room_session_descriptor_next_' + nextSessionId).show();
