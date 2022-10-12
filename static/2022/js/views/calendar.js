@@ -148,6 +148,7 @@ function updateFullCalendar(day) {
 
 function createFullCalendar(calendar, config, allEvents) {
   // there's a strong assumption here that all parallel sessions are aligned on start/end time
+  // It gets around this by forcing the overview calendar to be oversimplified
   let sessions_by_day_and_time = d3.group(
     allEvents,
     d => d.start.split("T")[0],
@@ -164,17 +165,21 @@ function createFullCalendar(calendar, config, allEvents) {
       let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
 
       // manually skip adding these groups to clean up Sunday/Monday
-      // if (dayKey === "2021-10-22" || dayKey === "2021-10-23" || dayKey === "2021-10-24" || dayKey === "2021-10-25") {
-      //   if (!(timeslotKey === "13:00:00Z" || timeslotKey === "17:00:00Z")) {
-      //     continue;
-      //   }
+      if (dayKey === "2022-10-16" || dayKey === "2022-10-17") {
+        if (!(timeslotKey === "14:00:00Z" || timeslotKey === "19:00:00Z")) {
+          continue;
+        }
 
-      //   // force non-full day event on Monday
-      //   if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
-      //     timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
-      //   if (dayKey === "2021-10-25" && timeslotKey === "17:00:00Z")
-      //     timePosition = sessions[3].timeStart + " / " + sessions[3].timeEnd;
-      // }
+        if (timeslotKey === "14:00:00Z") {
+          // Force session to end for lunch on overview calendar
+          timePosition = sessions[0].timeStart + " / " + "time-1200"
+        }
+        // force non-full day event on Monday
+        // if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
+        //   timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
+        // if (dayKey === "2021-10-25" && timeslotKey === "17:00:00Z")
+        //   timePosition = sessions[3].timeStart + " / " + sessions[3].timeEnd;
+      }
       // if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
       //   if (timeslotKey === "20:00:00Z")
       //     continue;
