@@ -440,12 +440,14 @@ def format_by_session_list(v):
         "discord_link": v.get("discord_link"),
         "slido_link": v.get("slido_link"),
         "youtube_url": v.get("youtube_url"),
-        "youtube_id": v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None,
+        "youtube_id": v.get("youtube_id") if "youtube_id" in v else (v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None),
         "streaming_session_id": v.get("streaming_session_id") if "streaming_session_id" in v else None,
+        "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),
         "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
+        "livestream_id": v.get("livestream_id"),
     }
 
 def get_room_name(track, room_names):
@@ -580,15 +582,22 @@ def room(room):
         'name': room_name,
         'id': room
     }
+    
     # We need to write a minimal data object to the js so that current session can be calculated.
     # We copy a minimal amount of data there
     data["sessionTimings"] = json.dumps([
             {
                 'startTime': s['startTime'],
                 'endTime': s['endTime'],
-                'id': s['id']
+                'id': s['id'],
+                'youtube_url': s['youtube_url'],
+                'youtube_id': s['youtube_id'],
+                'slido_link': s['slido_link'],
+                'discord_link': s['discord_link']
             }
         for s in data["sessions"]])
+            
+
     return render_template("{}/room.html".format(year), **data)
 
 @year_blueprint.route('/year/{}/event_<event>.html'.format(year))
