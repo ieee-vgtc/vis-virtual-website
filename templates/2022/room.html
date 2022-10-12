@@ -152,7 +152,9 @@ $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
 
-    putStreamCount()
+    // We write out a stream view every 2 minutes.  This needs to stay 2 minutes - it
+    // is coupled with the amazon lambda code that counts up different views.
+    setInterval(putStreamCount, 120 * 1000);
     updateStreamSource()
 })
 
