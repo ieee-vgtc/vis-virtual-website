@@ -224,7 +224,7 @@ def papers():
     data = _data()
     # print("list(site_data['paper_list'].items())[0] is ", list(site_data['paper_list'].items())[0])
     all_paper_types = [p['paper_type'] for _, p in site_data["paper_list"].items()]
-    data['paper_types'] = sorted(list(set([(paper_type_names[pt], pt) for pt in all_paper_types])), key=lambda x: x[0])
+    data['paper_types'] = sorted(list(set([(paper_type_names[pt] if pt in paper_type_names else 'None', pt) for pt in all_paper_types])), key=lambda x: x[0])
     data['colors'] = data['config']['calendar']['colors']
     return render_template("{}/papers.html".format(year), **data)
 
@@ -322,7 +322,7 @@ def format_paper(v):
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
         "paper_type": v["paper_type"],
-        "paper_type_name": paper_type_names[v["paper_type"]],
+        "paper_type_name": paper_type_names[v["paper_type"]] if v["paper_type"] in paper_type_names else 'None',
         "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
     }
 
