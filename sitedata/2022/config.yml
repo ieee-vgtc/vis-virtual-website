@@ -1,0 +1,70 @@
+name: VIS 2022
+tagline: "IEEE VIS: Visualization & Visual Analytics"
+date: 16-21 October 2022 Virtual Conference
+citation_date: October 2022
+proceedings_title: Proceedings of the IEEE VIS 2022 Conference
+analytics: UA-
+logo:
+  image: /static/2022/images/vis2022_logo_virtual.svg
+  width: 250px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+# site_title: MiniConf
+page_title:
+  prefix: 'IEEE VIS 2022 Virtual'
+  separator: ': '
+background_image: /static/2022/images/okcbackground.jpg
+organization: VIS 2022 Organization Committee
+
+# Remove or change to your chat server.
+chat_server: miniconf.sloppy.zone
+default_presentation_id: 38922815
+default_poster_pdf: /static/images/GLTR_poster.pdf
+
+
+# Configuration for auth
+#Test user
+#user: miniconf@miniconf.com
+#pass: mIniconf1_
+
+use_auth0: true
+auth0_client_id : MhsgAU1rWTFf2ZwPoS2946drcsHlMgBX
+auth0_domain : ieeevis.us.auth0.com
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ## from https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
+    ## 2022 colors: #A20A35, #1C3160, #2672B9, #FDBB30, #F15722
+    ---: '#1C3160'
+    workshop: '#f4a261'
+    tutorial: '#A20A35'
+    panel: '#A20A35'
+    meetup: '#A20A35'
+    live: '#A20A35'
+    associated: '#2672B9'
+    symposium: '#2672B9'
+    visap: '#2672B9'
+    application: '#F15722'
+    vis: '#FDBB30'
+    memorial: '#FDBB30'
+    supporter: '#FDBB30'
+    keynote: '#FDBB30'
+    capstone: '#FDBB30'
+    industry: '#FDBB30'
+    paper: '#1C3160'
+    papers: '#1C3160'
+    invited: '#1C3160'
+    full: '#1C3160'
+    short: '#FDBB30'
+
+  sunday_saturday: true  #  Include Sunday and Saturday
+
+room_names:
+  ok5: 'Oklahoma Station 5'
+  ok4: 'Oklahoma Station 4 (plenary 4+5 combined)'
+  ok1: 'Oklahoma Station 1'
+  mistletoe: 'Mistletoe'
+  pinon: 'Pinon'
+  ok6: 'Oklahoma Station (plenary 6+7+8 combined)'
+  ok7: 'Oklahoma Station 7'
+  ok8: 'Oklahoma Station 8'

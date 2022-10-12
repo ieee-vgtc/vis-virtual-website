@@ -1,0 +1,64 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "paper_list.json",
+    "title": "Paper List",
+    "description": "List of papers for virtual-vis.ieeevis.org",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/paper"
+    },
+    "definitions": {
+        "event": {
+            "type": "object",
+            "properties": {
+                "authors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "title": {
+                    "type": "string"
+                },
+                "session_id": {
+                    "type": "string"
+                },
+                "abstract": {
+                    "type": "string"
+                },
+                "keywords": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "uid": {
+                    "type": "string"
+                },
+                "time_stamp": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "has_image": {
+                    "type": "boolean"
+                },
+                "paper_award": {
+                    "type": "string"
+                },
+                "image_caption": {
+                    "type": "string"
+                },
+                "external_paper_link": {
+                    "type": "string"
+                },
+                "has_pdf": {
+                    "type": "boolean"
+                },
+                "ff_link": {
+                    "type": "string"
+                },
+            },
+            "required": ["authors", "title", "session_id", "abstract", "keywords", "uid", "time_stamp", "has_image", "paper_award", "image_caption", "external_paper_link", "has_pdf", "ff_link"]
+        }
+    },
+}

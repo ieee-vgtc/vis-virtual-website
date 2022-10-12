@@ -71,8 +71,8 @@ def main(site_data_path):
 
     # organize sessions by day (calendar)
     for session in by_uid["sessions"].values():
-        this_date = dateutil.parser.parse(session["time_start"])
-        day = this_date.strftime("%A")
+        day = extract_day_of_week_from_datetime(session["time_start"])
+
         if day not in by_day:
             by_day[day] = []
 
@@ -236,6 +236,15 @@ def schedule():
     for day in by_day:
         data["days"][day] = {"timeslots": by_time[day]}
 
+    all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
+    # all_events = [format_session_as_event(event_item, event_uid) for event_uid, event_item in by_uid['events'].items()]
+    # data['events'] = sorted(all_events, key=lambda e: e['abbr_type'])
+    data['events'] = all_events
+    # print("event example is ", all_events[0])
+    # print("timeslot example is ", by_time['Wednesday'][list(by_time['Wednesday'])[0]])
+    data['event_types'] = sorted(list(set([(e['type'], e["type"].split(" ")[0].lower()) for e in all_events])), key=lambda x: x[0])
+    data['colors'] = data['config']['calendar']['colors']
+
     return render_template("{}/schedule.html".format(year), **data)
 
 
@@ -268,6 +277,10 @@ def extract_list_field(v, key):
     else:
         return value.split(",")
 
+def extract_day_of_week_from_datetime(datetime_string):
+    this_date = dateutil.parser.parse(datetime_string)
+    day = this_date.strftime("%A")
+    return day
 
 def format_paper(v):
     list_keys = ["authors", "keywords"]
@@ -359,6 +372,7 @@ def format_session_as_event(v, uid):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
+    # print("v is ", v)
     return {
         "id": uid,
         "title": v["long_name"],
@@ -403,6 +417,7 @@ def format_by_session_list(v):
         "startTime": v["time_start"],
         "endTime": v["time_end"],
         "day": dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d"),
+        "day_of_week": extract_day_of_week_from_datetime(v["time_start"]),
         "timeSlots": v["time_slots"],
         "event": v["event"],  # backloaded from parent event
         "event_type": v["event_type"],  # backloaded from parent event

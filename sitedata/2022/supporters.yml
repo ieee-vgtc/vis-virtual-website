@@ -1,0 +1,163 @@
+# Example Supporters Config
+#
+# - category: #Title of the category displayed
+#   image_size: #Optional. Only use to specify width that logos in this category should be displayed at. Omit to display logos at 125px
+#   supporters:
+#     - name:  #Name used in the alt text
+#       image: #Path to the logo image
+#       url:   #link to the supporter's website
+#
+#     - name:  #Name used in the alt text
+#       image: #Path to the logo image
+#       url:   #link to the supporter's website
+
+
+ # - category: Diamond
+ #   image_size: 315
+ #   supporters:
+ #    - name: "Intel"
+ #      image: intel.png
+ #      url: "https://intel.com"
+
+ #    - name: "Tableau"
+ #      image: tableau.jpg
+ #      url: "https://www.tableau.com/"
+
+ - category: Platinum+Banquet
+   image_size: 315
+   supporters:
+     - name: "Northern Data"
+       image: northern_data.png
+       url: "https://northerndata.de/"
+
+
+ - category: Platinum
+   image_size: 315
+   supporters:
+     - name: "Tableau"
+       image: Tableau-Logo-CMYK.png
+       url: "https://www.tableau.com/"
+
+
+ - category: Silver
+   image_size: 240
+   supporters:
+     - name: "Autodesk"
+       image: autodesk.png
+       url: "https://www.autodesk.com/research"
+
+     - name: "KAUST"
+       image: vcc_kaust.png
+       url: "http://vcc.kaust.edu.sa/"
+
+     - name: "University of Oklahoma"
+       image: uofoklahoma.png
+       url: "ou.edu"
+
+     - name: "Echo Investment Capital LLC"
+       image: echo.png
+       url: "https://www.echo.global"
+
+ #    - name: "Microsoft"
+ #      image: microsoft.png
+ #      url: "https://www.microsoft.com/research"
+
+
+ - category: Bronze
+   image_size: 150
+   supporters:
+     - name: "Unviversity of Oklaoma"
+       image: okl.png
+       url: "https://www.ou.edu/disc"
+     - name: "Monash University"
+       image: monash.png
+       url: "https://www.monash.edu/it"
+
+ - category: Pearl
+   image_size: 150
+   supporters:
+     - name: "Kitware, Inc"
+       image: kitware.png
+       url: "https://www.kitware.com/"
+     - name: "Uncharted Software"
+       image: uncharted.png
+       url: "https://uncharted.software/"
+     - name: "Fraunhofer IGD"
+       image: igd.png
+       url: "https://www.igd.fraunhofer.de"
+     - name: "Springer"
+       image: springer-logo-transparent.png
+       url: "https://www.springer.com/us"
+     - name: "VRVis"
+       image: VRVis-Logo.png
+       url: "https://www.vrvis.at/"
+     - name: "Nomic"
+       image: nomic_high_resolution.png
+       url: "https://home.nomic.ai"
+     - name: "SCI"
+       image: sci.png
+       url: "https://www.sci.utah.edu/"
+     - name: "NREL"
+       image: NREL.jpg
+       url: "https://www.nrel.gov/"
+     - name: "Disney Studio Research"
+       image: disney.jpg
+       url: "https://studios.disneyresearch.com/"
+     - name: "VisPsych"
+       image: vispsych.jpg
+       url: "https://sites.google.com/view/vispsych/"
+
+
+ #    - name: "Harvard Medical School"
+ #      image: harvard.png
+ #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
+
+
+ - category: Diversity/Inclusivity Scholarships
+   image_size: 150
+   supporters:
+     - name: "giCentre"
+       image: giCentre.png
+       url: "https://gicentre.net"
+
+#    - name: "Data Machines Corp"
+#      image: datamachines.png
+#      url: "http://www.datamachines.io/"
+
+#    - name: "Sophos"
+#      image: sophos.png
+#      url: "https://www.sophos.com/"
+
+    # - name: "TwoSix Labs"
+    #   image: twosix.png
+    #   url: "https://www.twosixtech.com/"
+
+#    - name: "ViSUS Software"
+#      image: visus.png
+#      url: "https://visus.org/"
+
+# - category: Banquet
+#   image_size: 150
+#   supporters:
+#     - name: "Northern Data"
+#       image: northern_data.png
+#       url: "https://northerndata.de/"
+
+
+# - category: Technology
+#   supporters:
+#    - name: "Gravitas AI"
+#      image: Gravitas_AI.png
+#      url: "https://gravitas.ai/"
+
+#    - name: "IBM/MIT"
+#      image: ibm-mit.png
+#      url: "https://mitibmwatsonailab.mit.edu/"
+
+#    - name: "SuperMiniStream"
+#      image: superministream.png
+#      url: "https://www.superministream.com/"
+
+
+# - category: In affiliation/cooperation with
+#   supporters:

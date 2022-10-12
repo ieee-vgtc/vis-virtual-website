@@ -14,12 +14,13 @@ from flaskext.markdown import Markdown
 from flask_minify import minify
 from blueprints.blueprint_2020 import year_blueprint as blueprint_2020
 from blueprints.blueprint_2021 import year_blueprint as blueprint_2021
+from blueprints.blueprint_2022 import year_blueprint as blueprint_2022
 
 site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = '2021'
+CURRENT_YEAR = '2022'
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
@@ -187,8 +188,7 @@ freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-blueprints = [blueprint_2020, blueprint_2021]
-# blueprints = [blueprint_2021]
+blueprints = [blueprint_2020, blueprint_2021, blueprint_2022]
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 
@@ -219,9 +219,8 @@ def generator():
 
         # only some years use rooms
         if 'room_names' in site_data['config']:
-            room_numbers = range(1, len(site_data['config']['room_names']) + 2)
-            for room_number in room_numbers:
-                yield "/year/{}/room_room{}.html".format(year, str(room_number))
+            for room_name in site_data['config']['room_names']:
+                yield "/year/{}/room_{}.html".format(year, str(room_name))
 
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))

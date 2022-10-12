@@ -1,0 +1,175 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "session_list.json",
+    "title": "Session List",
+    "description": "List of sessions for virtual-vis.ieeevis.org",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/event"
+    },
+    "definitions": {
+        "event": {
+            "type": "object",
+            "properties": {
+                "event": {
+                    "type": "string"
+                },
+                "long_name": {
+                    "type": "string"
+                },
+                "event_type": {
+                    "type": "string"
+                },
+                "event_description": {
+                    "type": "string"
+                },
+                "event_url": {
+                    "type": "string"
+                },
+                "sessions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/session"
+                    }
+                }
+            },
+            "required": ["event", "long_name", "event_type", "event_description", "event_url", "sessions"]
+        },
+        "session": {
+            "type": "object",
+            "properties": {    
+                "title": {
+                    "type": "string"
+                },
+                "session_id": {
+                    "type": "string"
+                },
+                "track": {
+                    "type": "string",
+                    "enum": ["room1", "room2", "room3", "room4", "room5", "room6", "room7", "room8"]
+                },
+                "schedule_image": {
+                    "type": "string"
+                },
+                "chair": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "organizers": {
+                    "type": "array",
+                    "items": {}
+                },
+                "time_start": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "time_end": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "discord_category": {
+                    "type": "string"
+                },
+                "discord_channel": {
+                    "type": "string"
+                },
+                "discord_channel_id": {
+                    "type": "integer"
+                },
+                "discord_link": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "slido_link": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                },
+                "youtube_url": {
+                    "type": "string"
+                },
+                "zoom_meeting": {
+                    "type": "string"
+                },
+                "zoom_password": {
+                    "type": "string"
+                },
+                "ff_link": {
+                    "type": "string"
+                },
+                "ff_playlist": {
+                    "type": "string"
+                },
+                "gathertown_event": {
+                    "type": "boolean"
+                },
+                "time_slots": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/timeslot"
+                    }
+                }
+            },
+            "required": [
+                "title",
+                "session_id",
+                "track",
+                "chair",
+                "organizers",
+                "time_start",
+                "time_end",
+                "time_slots"
+            ]
+        },
+        "timeslot": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": ["recorded", "opening", "live", ] 
+                },
+                "title": {
+                    "type": "string"
+                },
+                "contributors": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "abstract": {
+                    "type": "string"
+                },
+                "time_start": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "time_end": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "uid": {
+                    "type": "string"
+                },
+                "youtube_video_id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "type",
+                "title",
+                "contributors",
+                "time_start",
+                "time_end",
+                "uid"
+            ]
+        }
+    },
+}

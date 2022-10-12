@@ -1,0 +1,384 @@
+{% set page_title = "Conference room - " ~ room.name %}
+{% set active_page = "All Events" %}
+{% extends "2022/base.html" %}
+{% block content %}
+
+<div class="row mt-3">
+    <div class="col-md-8">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="calendar.html">Conference rooms</a></li>
+                <li class="breadcrumb-item active">{{ room.name }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="session-title">{{ room.name }}</h1>
+
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-lg-10 streaming-container" id="session-stream-container">
+        <!-- ensure 16x9 aspect ratio;
+            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
+<!--         <div class="alert alert-warning room_session_future_stream" role="alert">
+            The livestream for the next session has not begun yet — the next session starts <span id="next-session-time" class="font-weight-bold">(soon)</span>. <br><br>
+            When it is, the video stream will replace this message (15 minutes before the scheduled start time).
+        </div>
+        <div class="streaming room_session_stream" id='iframe-container'>
+            <a id='test-modal-fullscreen'>Full Screen
+                    <span class="fas fa-expand">&#xf065;</span>
+            </a>
+            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen
+                    <span class="fas fa-compress">&#xf066;</span>
+            </a>
+
+        </div> -->
+<!--         <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <!-- <iframe width="920" height="518" src="{{session.youtube_url}}?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <!-- <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p> -->
+        <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
+        <!-- <p class="integration-description pt-2"><a href="{{ session.slido_link }}" target="_blank"> <span class="fas mx-1">&#xf128;</span>Click here to open slido in a separate window</a></p> -->
+        <!-- <p class="integration-description pt-2"><a href="{{ session.discord_link }}" target="_blank"><span class="fas mx-1">&#xf086;</span>Click here to discuss the current session in Discord</a></p> -->
+
+    </div>
+</div>
+
+<hr>
+
+{% for session in sessions %}
+    <div class='room_session_timeslot' id='room_session_timeslot_{{session.id}}'>
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <h3 class="room_session_descriptor my-3 py-2" id='room_session_descriptor_current_{{session.id}}'>Current Session</h3>
+                <h3 class="room_session_descriptor my-3 py-2" id='room_session_descriptor_next_{{session.id}}'>Next Session</h3>
+                <h2 class="session-title">
+                    <a href="session_{{ session.id }}.html" target="_blank">
+                        {{ session.fullTitle }}
+                    </a>
+                </h2>
+                {% if session.event_url != "N/A" %}
+                <h3 class="session-url">
+                    <a href="{{ session.event_url }}" target="_blank">
+                        <span class="fas mr-1">&#xf57c;</span>
+                        {{ session.event_url }}</a>
+                </h3>
+                {% endif %}
+                {% if session.chair %}
+                <h3 class="session-chair">
+                    <span class="fas mr-1">&#xf007;</span>
+                    Session chair: {{ session.chair | join(", ") }}
+                </h3>
+                {% elif session.organizers %}
+                <h3 class="session-chair">
+                    <span class="fas mr-1">&#xf0c0;</span>
+                    Organizers: {{ session.organizers | join(", ") }}
+                </h3>
+                {% endif %}
+                <h3 class="session-date">
+                    <span class="fas mr-1">&#xf017;</span>
+                    <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                        <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                        <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                    </span>
+                </h3>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        {% if session.abstract %}
+            <div class="row">
+                <div class="col-md-8">
+                    <p>{{ session.abstract }}</p>
+                </div>
+            </div>
+        {% endif %}
+
+        <div class="row">
+            <div class="col-md-8">
+                <h3 class="room_session_details my-3 py-2">&hellip; in this session&hellip;</h3>
+            </div>
+        </div>
+
+        {% for timeslot in session.timeSlots %}
+            <div class="row mb-4">
+                <div class="col-md-8 session-listing">
+                    {% if timeslot.uid %}
+                    <h3 class="session-list-title">
+                        <a href="paper_{{ timeslot.uid }}.html" target="_blank">
+                            {{ timeslot.title }}
+                            <span class="fas mr-1">&#xf0c1;</span>
+                        </a>
+                    </h3>
+                    {% else %}
+                    <h3 class="session-list-title">{{ timeslot.title }}</h3>
+                    {% endif %}
+                    <h4 class="session-list-presenter mt-3">
+                        <span class="fas mr-1">&#xf21d;</span>
+                        {{ timeslot.contributors | join(", ") }}
+                    </h4>
+                    <h5 class="session-list-type">
+                        <span class="fas mx-1">&#xf027;</span>
+                        {{ timeslot.type }}
+                    </h4>
+                    <h5 class="session-list-time">
+                        <span class="fas mr-1">&#xf017;</span>
+                        <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+                        <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                            <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                            <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                        </span>
+                    </h5>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+
+<script src="/static/2022/js/views/timezone.js"></script>
+
+{% endblock %}
+
+{% block footer %}
+
+    {{ super() }}
+<script>
+
+let CURRENT_YOUTUBE_ID = "";
+let CURRENT_SLIDO_LINK = "";
+let CURRENT_DISCORD_LINK = "";
+
+$(document).ready(function() {
+    setInterval(filterByCurrentSession, 30 * 1000);
+    filterByCurrentSession();
+
+    // We write out a stream view every 2 minutes.  This needs to stay 2 minutes - it
+    // is coupled with the amazon lambda code that counts up different views.
+    setInterval(putStreamCount, 120 * 1000);
+    updateStreamSource()
+})
+
+function putStreamCount() {
+    let streamData = { urlPath: '{{room.id}}'};
+    $.ajax({
+       url: 'https://ljiotj1l7f.execute-api.us-east-1.amazonaws.com/streamView',
+       type: 'PUT',
+       contentType: "application/json",
+       data: JSON.stringify(streamData),
+       success: function(response) {
+         console.log("response is ", response);
+       }
+    });
+}
+
+
+function updateStreamSource(){    
+    let streaming_id = "{{room.id}}-"+moment.utc().format('ddd').toLowerCase()
+    console.log(streaming_id)
+    //console.log("https://virtual-data.ieeevis.org/"+streaming_id+".json")
+    return fetch("https://virtual-data.ieeevis.org/"+streaming_id+".json", {cache: "no-store"})
+        .then(response => response.json())
+        .then(data => {
+            // console.log(data)
+            // console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
+            return data;
+
+        })
+        .catch(error => {
+            console.log("err: ", error);
+            return {};
+        })
+}
+
+function filterByCurrentSession() {
+    // This function does two things.
+    // First, it loads the youtube stream, slido, and discord.  To do this, it looks for the 
+    // current or next session in this room, and loads the youtube stream.  It also checks
+    // the S3 room data to see if there is a more current URL for them.  
+
+    // Then, it also filters out the Session info at the bottom of the page to show the 
+    // Current session, and the upcoming session.
+
+    // We need to write the session timings into the page to calculate current/next session.
+    // See blueprint_2022.py
+    sessionTimings = {{sessionTimings|safe}}
+    if (sessionTimings.length > 0) {
+        sessionTimings.sort(function(a, b) {
+            return moment.utc(a.startTime) - moment.utc(b.startTime);
+        });
+    }
+
+    sessionIsCurrent = function(session) {
+        // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(8, 'minutes');
+        return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    }
+
+    sessionIsFuture = function(session) {
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone);
+        return moment.utc().tz(current_timezone).isBefore(sessionStart);
+    }
+
+    let sessionIsRecent = function(session) {
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(2, 'hours');
+        return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    }
+
+    let currentSession = sessionTimings.find(sessionIsCurrent);
+    let recentSession = sessionTimings.find(sessionIsRecent);
+    let nextSession = sessionTimings.find(sessionIsFuture);
+
+    const classesToHide = ['.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
+    classesToHide.forEach((c) => { $(c).hide();});
+    let iframePlayer = document.getElementById('iframe-player');
+    let slidoPlayer = document.getElementById('slido-player')
+    let linksCollection = document.getElementById('links-collection')
+    if (currentSession || nextSession) {
+        let youtube_id = "";
+        let slido_link = "";
+        let discord_link = "";
+        let new_youtube_id = "";
+        let new_slido_link = "";
+        let new_discord_link = "";
+
+        if (currentSession) {
+            currentSessionId = currentSession.id;
+            $('#room_session_descriptor_current_' + currentSessionId).show();
+            $('#room_session_timeslot_' + currentSessionId).show();
+             youtube_id = currentSession.youtube_id;
+             slido_link = currentSession.slido_link;
+             discord_link = currentSession.discord_link;
+        } else {
+             youtube_id = nextSession.youtube_id;
+             slido_link = nextSession.slido_link;
+             discord_link = nextSession.discord_link;
+        }
+        $('.room_session_stream').show();
+        let playbackContainer = null;
+
+        if (CURRENT_YOUTUBE_ID.length == 0) {
+            CURRENT_YOUTUBE_ID = youtube_id;
+        }
+
+        if (CURRENT_SLIDO_LINK.length == 0) {
+            CURRENT_SLIDO_LINK = slido_link;
+        }
+
+        if (CURRENT_DISCORD_LINK.length == 0) {
+            CURRENT_DISCORD_LINK = discord_link;
+        }
+
+        // TODO - error handling
+        updateStreamSource().then(streamData => {
+            console.log("streamData is ", streamData);
+            if ('youtube_id' in streamData) {
+                new_youtube_id = streamData['youtube_id'];
+            }
+
+            if ('slido_link' in streamData) {
+                new_slido_link = streamData['slido_link'];
+            }
+
+            if ('discord_link' in streamData) {
+                new_discord_link = streamData['discord_link'];
+            }
+
+            if ((new_youtube_id.length > 0 && new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link.length > 0 && new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link.length > 0 && new_discord_link != CURRENT_DISCORD_LINK)) {
+                youtube_id = new_youtube_id;
+                CURRENT_YOUTUBE_ID = new_youtube_id;
+                slido_link = new_slido_link;
+                CURRENT_SLIDO_LINK = new_slido_link;
+                discord_link = new_discord_link;
+                CURRENT_DISCORD_LINK = new_discord_link;
+                // We remove the different players because something changed.
+                if (iframePlayer) {
+                    iframePlayer.remove();
+                    iframePlayer = null;
+                }
+
+                if (slidoPlayer) {
+                    slidoPlayer.remove();
+                    slidoPlayer = null;
+                }
+
+                if (linksCollection) {
+                    linksCollection.remove();
+                    linksCollection = null;
+                }
+
+            }
+
+            // Need to render the iframe if it isn't rendered yet
+            if (!iframePlayer) {
+                iframePlayer = document.createElement("iframe");
+                iframePlayer.id = 'iframe-player';
+                iframePlayer.src = `https://www.youtube-nocookie.com/embed/${youtube_id}?rel=0&enablejsapi=1`;
+                iframePlayer.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen";
+                iframePlayer.allowfullscreen = true ;
+                iframePlayer.scrolling = "no";
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(iframePlayer);
+            }
+
+            // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
+            // Need to render the slido if it isn't rendered yet
+            if (!slidoPlayer) {
+                slidoPlayer = document.createElement("iframe");
+                slidoPlayer.id = 'slido-player';
+                slidoPlayer.src = slido_link;
+                slidoPlayer.height = '100%';
+                slidoPlayer.width = '100%';
+                slidoPlayer.style = 'min-height: 560px';
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(slidoPlayer);
+            }
+
+            // Need to render the slido if it isn't rendered yet
+            if (!linksCollection) {
+                linksCollection = document.createElement("div");
+                linksCollection.id = 'links-collection';
+                linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord.  Please note that session chairs will not pick up questions from Discord for Q&A</a></p>`
+                linksCollection.frameBorder = 0;
+                linksCollection.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                linksCollection.allowfullscreen = true ;
+                linksCollection.scrolling = "no";
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(linksCollection);
+            }
+
+        });
+
+    } else if (!recentSession) {
+        // Need to destroy the iframe if it is rendered
+        $(".room_session_stream").hide();
+        if (iframePlayer) {
+            iframePlayer.remove();
+        }
+
+        if (slidoPlayer) {
+            slidoPlayer.remove();
+        }
+
+        if (linksCollection) {
+            linksCollection.remove();
+        }
+    }
+
+    if (nextSession) {
+        nextSessionId = nextSession.id;
+        $('#room_session_descriptor_next_' + nextSessionId).show();
+        $('#room_session_timeslot_' + nextSessionId).show();
+        $('.room_session_future_stream').show();
+
+        const nextSessionStart = moment.utc(nextSession.startTime).tz(current_timezone);
+        $('#next-session-time').text(nextSessionStart.fromNow());
+    }
+
+}
+
+</script>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+# 2022 todos
+
+## Assets for year update
+
+Look in https://github.com/ieee-vgtc/vis-virtual-website/blob/dc/2022_initialize/sitedata/2022/config.yml#L16
+
+[ ] images
+[ ] New 2022 logo **
+[ ] Favicon **
+[ ] New theme colors? **
+[ ] Paper list
+[ ] Mobile calendar view
+
+** Janos
