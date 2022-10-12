@@ -144,9 +144,9 @@
     {{ super() }}
 <script>
 
-let CURRENT_YOUTUBE_ID = '';
-let CURRENT_SLIDO_LINK = '';
-let CURRENT_DISCORD_LINK = '';
+let CURRENT_YOUTUBE_ID = "";
+let CURRENT_SLIDO_LINK = "";
+let CURRENT_DISCORD_LINK = "";
 
 $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
@@ -170,7 +170,7 @@ function putStreamCount() {
 
 
 function updateStreamSource(){    
-    let streaming_id = "{{room.id}}-"+moment('2022-10-10').format('ddd').toLowerCase()
+    let streaming_id = "{{room.id}}-"+moment.utc().format('ddd').toLowerCase()
     // console.log(streaming_id)
     //console.log("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json")
     return fetch("http://virtual-data.ieeevis.org.s3-website-us-east-1.amazonaws.com/"+streaming_id+".json", {cache: "no-store"})
@@ -178,8 +178,13 @@ function updateStreamSource(){
         .then(data => {
             // console.log(data)
             // console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
-            return data;    
-    })
+            return data;
+
+        })
+        .catch(error => {
+            console.log("err: ", error);
+            return {};
+        })
 }
 
 function filterByCurrentSession() {
@@ -232,6 +237,9 @@ function filterByCurrentSession() {
         let youtube_id = "";
         let slido_link = "";
         let discord_link = "";
+        let new_youtube_id = "";
+        let new_slido_link = "";
+        let new_discord_link = "";
 
         if (currentSession) {
             currentSessionId = currentSession.id;
@@ -262,7 +270,7 @@ function filterByCurrentSession() {
 
         // TODO - error handling
         updateStreamSource().then(streamData => {
-
+            console.log("streamData is ", streamData);
             if ('youtube_id' in streamData) {
                 new_youtube_id = streamData['youtube_id'];
             }
@@ -275,7 +283,7 @@ function filterByCurrentSession() {
                 new_discord_link = streamData['discord_link'];
             }
 
-            if ((new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link != CURRENT_DISCORD_LINK)) {
+            if ((new_youtube_id.length > 0 && new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link.length > 0 && new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link.length > 0 && new_discord_link != CURRENT_DISCORD_LINK)) {
                 youtube_id = new_youtube_id;
                 CURRENT_YOUTUBE_ID = new_youtube_id;
                 slido_link = new_slido_link;
@@ -308,8 +316,6 @@ function filterByCurrentSession() {
                 iframePlayer.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen";
                 iframePlayer.allowfullscreen = true ;
                 iframePlayer.scrolling = "no";
-                // iframePlayer.width = 920;
-                // iframePlayer.height = 518;
                 playbackContainer = document.getElementById("session-stream-container");
                 playbackContainer.append(iframePlayer);
             }
