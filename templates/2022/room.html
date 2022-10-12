@@ -157,13 +157,14 @@ $(document).ready(function() {
 })
 
 function putStreamCount() {
+    let streamData = { urlPath: '{{room.id}}'};
     $.ajax({
        url: 'https://ljiotj1l7f.execute-api.us-east-1.amazonaws.com/streamView',
        type: 'PUT',
        contentType: "application/json",
-       data: { 'urlPath': '{{ room.name }}'},
+       data: JSON.stringify(streamData),
        success: function(response) {
-         null
+         console.log("response is ", response);
        }
     });
 }
