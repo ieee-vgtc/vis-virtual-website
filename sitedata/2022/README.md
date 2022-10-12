@@ -17,7 +17,7 @@ Enjoy the 2022 edition of <strong>#ieeevis</strong>.
 
 The [schedule page](calendar.html) is the entry point to live events, and a good starting point to explore available sessions.
 
-Feel free to visit [our Help page above](/year/2022/help.html) for answers to common questions, where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail web@ieeevis.org.
+Feel free to visit [our Help page above](/year/2022/help.html) for answers to common questions, where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail help@ieeevis.org.
 
 ### Acknowledgements
 
