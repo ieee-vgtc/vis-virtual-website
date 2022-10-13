@@ -40,7 +40,7 @@
                                 </p>
                             {% endif %}
                             <h4> Supporter Info </h4>
-                            <p> {{ supp.description }}</p>
+                            <p> {{ supp.description | markdown }}</p>
                             {#                            <pre>{{ supp }}</pre>#}
                             {#                                        <span class="session-type"#}
                             {#                                              style="color: goldenrod;">Test of Time Award ({{ award.award_1 }})</span>#}
