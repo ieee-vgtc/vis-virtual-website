@@ -33,7 +33,7 @@ def fill_papers_ff_links(papers, ff_dict):
     counter = 0
     for paper_key, paper in papers.items():
         if paper_key in ff_dict:
-            papers[paper_key]['ff_link'] = "https://ieeevis.b-cdn.net/vis_2022/fast_forwards/" + str(ff_dict[paper_key])
+            papers[paper_key]['ff_link'] = str(ff_dict[paper_key])
             print(str(paper_key) + ' -> ' + str(papers[paper_key]['ff_link']))
             counter+=1
 
@@ -54,7 +54,7 @@ def fill_sessions_ff_links(tracks, ff_dict):
             #print("    " + session_id)
             sessioncounter+=1
             if session_id in ff_dict:
-                ff_string = "https://ieeevis.b-cdn.net/vis_2022/fast_forwards/" + str(ff_dict[session_id])
+                ff_string = str(ff_dict[session_id])
                 print("   " + str(session_id) + " -> " + str(ff_string))
                 session['ff_link'] = ff_string
                 session['ff_playlist'] = ff_string
@@ -92,13 +92,13 @@ if __name__ == "__main__":
     for full_name in ff_filenames:
         ff_dict[full_name.split('_')[0]] = full_name
 
-    #if args.paper_file == 'paper_list.json':
-        #filled_papers = fill_papers_ff_links(papers, ff_dict)
-        #write_paper_file(filled_papers, paper_filepath)
+    if args.paper_file == 'paper_list.json':
+        filled_papers = fill_papers_ff_links(papers, ff_dict)
+        write_paper_file(filled_papers, paper_filepath)
 
-    if args.paper_file == 'session_list.json':
-        filled_sessions = fill_sessions_ff_links(papers, ff_dict)
-        write_paper_file(filled_sessions, paper_filepath)
+    #if args.paper_file == 'session_list.json':
+        #filled_sessions = fill_sessions_ff_links(papers, ff_dict)
+        #write_paper_file(filled_sessions, paper_filepath)
 
 
 
