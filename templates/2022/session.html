@@ -87,7 +87,7 @@
 </div>
 {% endif %}
 
-{% if session.zoom_meeting and session.timeSlots %}
+{% if false and session.zoom_meeting and session.timeSlots %}
 <div id="zoom_alert" class="row mt-5 mb-3">
     <div class="col-lg-10">
         <div class="alert alert-primary">
@@ -202,8 +202,8 @@
 <div class="row my-4">
     <div class="col-lg-10">
         <h2 class="my-3"><a name="ff">Fast forwards in this session</a></h2>
-        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="integration-description pt-2">Direct link to YouTube playlist: <a href="{{ session.ff_playlist }}" target="_blank">{{ session.ff_playlist }}</a></p>
+        <!--<iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/videoseries?list={{ session.ff_playlist_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <p class="integration-description pt-2">Direct link to playlist: <a href="{{ session.ff_playlist }}" target="_blank">{{ session.ff_playlist }}</a></p>
     </div>
 </div>
 {% endif %}
