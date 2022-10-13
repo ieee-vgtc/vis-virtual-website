@@ -93,6 +93,14 @@
     </div>
 
 
+    {% if poster.ff_link %}
+    <div class="row" class="">
+        <div class="col-md-8 pt-3">
+            <p>Direct link to poster Video: <a href="https://ieeevis.b-cdn.net/vis_2022/fast_forwards/{{ poster.ff_link }}.mp4">{{ poster.ff_link }}.mp4</a></p>
+        </div>
+    </div>
+    {% endif %}
+
     <script lang="js">
       const paperID = "{{ poster.id }}"
       $(document).ready(() => {

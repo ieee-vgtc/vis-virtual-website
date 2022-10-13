@@ -355,6 +355,7 @@ def format_poster(v):
         # for posters.html
         "sessions": [v["event"]],
         "UID": v["uid"],
+        "ff_link": v["ff_link"]
     }
 
 
