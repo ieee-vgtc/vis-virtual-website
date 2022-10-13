@@ -935,10 +935,14 @@ div.session-url {
     float: none;
     width: 100%;
     margin-top: 0;
-    color: #A20A35;
+    color: rgb(162, 10, 53) !important;
     text-align: center;
 }
 
-.home-alert > a {
-  color: #A20A35;
+.home-alert > h1 {
+  color: rgb(162, 10, 53) !important;
+}
+
+.home-alert > h2 {
+  color: rgb(162, 10, 53) !important;
 }
