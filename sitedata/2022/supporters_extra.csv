@@ -2,24 +2,44 @@ status,name,url,email,email_name,social media,description,logo
 platinum,Tableau,https://www.tableau.com/,https://www.tableau.com/about/contact#contact_general-inquiry,General Inquiry,"[LinkedIn](https://www.linkedin.com/company/tableau-software)<br/>
 [Twitter](https://www.twitter.com/tableau)<br/>
 [YouTube](https://www.youtube.com/c/tableausoftware/videos)<br/>
-[Facebook](https://www.facebook.com/Tableau/)","Tableau helps people see and understand data. As the world's leading analytics platform, Tableau offers visual analytics with powerful AI, data management and collaboration. From individuals to organizations of all sizes, customers around the world love using Tableau's advanced analytics to fuel impactful, data-driven decisions.",
+[Facebook](https://www.facebook.com/Tableau/)
+","Tableau helps people see and understand data. As the world's leading analytics platform, Tableau offers visual analytics with powerful AI, data management and collaboration. From individuals to organizations of all sizes, customers around the world love using Tableau's advanced analytics to fuel impactful, data-driven decisions.",
 silver,Autodesk,https://www.autodesk.com,,,"[Facebook](https://www.facebook.com/autodesk/)<br/>
 [YouTube](https://www.youtube.com/channel/UCRnX4Yc585eRTj4UvNkBM8w)<br/>
 [Twitter](https://twitter.com/autodesk)<br/>
 [LinkedIn](https://www.linkedin.com/company/1879/)","Autodesk is a global leader in design and make technology. With expertise across architecture, engineering, construction, design, manufacturing, and entertainment, we help innovators everywhere solve today's pressing challenges. Our mission is to empower innovators with ingenuity and the right tools to work and think flexibly so they can achieve the new possible and to design and make a better world for all.
 
-Autodesk Research furthers this mission with explorations in several key areas such as Human-Computer Interaction and Visualization; Architecture, Engineering, and Construction; Artificial Intelligence; and Industry and Manufacturing Futures. Our HCI & Vis team focuses on how to develop a fundamental understanding of how humans perceive, learn, and interact with technology, through rigorous scientific study, collaborations with leading academic institutions and research partnerships with selected lighthouse customers. Based on these understandings we develop novel interfaces and visualizations to solve current problems and explore future opportunities.",
+Autodesk Research furthers this mission with explorations in several key areas such as Human-Computer Interaction and Visualization; Architecture, Engineering, and Construction; Artificial Intelligence; and Industry and Manufacturing Futures. Our HCI & Vis team focuses on how to develop a fundamental understanding of how humans perceive, learn, and interact with technology, through rigorous scientific study, collaborations with leading academic institutions and research partnerships with selected lighthouse customers. Based on these understandings we develop novel interfaces and visualizations to solve current problems and explore future opportunities.
+
+![An Autodesk application on a computer screen](https://ieeevis.b-cdn.net/vis_2022/booth_data/autodesk-booth-image.png)
+",
 silver,KAUST VCC,https://cemse.kaust.edu.sa/vcc,ivan.viola@kaust.edu.sa,Prof. Ivan Viola,,"Visual Computing is the science of sensing, modeling, simulating, processing, understanding, visualizing, and displaying all forms of visual information. Over the past decades, Visual Computing has become a key enabling technology for a diverse set of applications spanning scientific discovery, medicine, consumer electronics, and entertainment, to name just a few.
  
-To solve problems in this vast space, the Visual Computing Center at KAUST draws from expertise in multiple disciplines, including Computer Science, Electrical Engineering, Mechanical Engineering, and Applied Mathematics, as well as a range of application domains. This interdisciplinary view allows for a pipeline approach including device development (e.g. computational cameras and displays), image and video understanding and semantic analysis, geometric modeling and understanding, simulation, and visualization. By considering this whole pipeline, more effective solutions can be found for problems in the mentioned application domains.",
+To solve problems in this vast space, the Visual Computing Center at KAUST draws from expertise in multiple disciplines, including Computer Science, Electrical Engineering, Mechanical Engineering, and Applied Mathematics, as well as a range of application domains. This interdisciplinary view allows for a pipeline approach including device development (e.g. computational cameras and displays), image and video understanding and semantic analysis, geometric modeling and understanding, simulation, and visualization. By considering this whole pipeline, more effective solutions can be found for problems in the mentioned application domains.
+",
 silver,University of Oklahoma,https://ou.edu/research,mailto:esearchnews@ou.edu,OU email,"[DISC Facebook](https://www.facebook.com/ouvpr)<br/>
 [LinkedIn](https://www.linkedin.com/company/ou-research)<br/>
-[Twitter](https://twitter.com/OUResearch)","The University of Oklahoma is a comprehensive research university classified by the Carnegie Foundation in the highest tier of research universities in the nation. Our research enterprise features award-winning and nationally and internationally recognized faculty, multidisciplinary research centers, scholarly publications, and acclaimed performances at venues throughout the world.",
+[Twitter](https://twitter.com/OUResearch)","The University of Oklahoma is a comprehensive research university classified by the Carnegie Foundation in the highest tier of research universities in the nation. Our research enterprise features award-winning and nationally and internationally recognized faculty, multidisciplinary research centers, scholarly publications, and acclaimed performances at venues throughout the world.
+
+![University of Oklahoma logo](https://ieeevis.b-cdn.net/vis_2022/booth_data/ok-booth-image.png)
+",
 bronze,Monash University,https://www.monash.edu/it,,,"[LinkedIn](https://www.linkedin.com/company/monash-information-technology)<br/>
 [Twitter](https://twitter.com/MonashInfotech)<br/>
-[Facebook](https://www.facebook.com/MonashInfoTech)","We're the only dedicated IT faculty out of the prestigious [Group of Eight](https://go8.edu.au/). So you can be sure that technology is everything we do. Guided by our ethos '[IT for social good](https://www.monash.edu/it/research/social-good-projects)', we're also active champions of equity, diversity and inclusion, and constantly seeking new ways to support Indigenous Australians.",
+[Facebook](https://www.facebook.com/MonashInfoTech)","We're the only dedicated IT faculty out of the prestigious [Group of Eight](https://go8.edu.au/). So you can be sure that technology is everything we do. Guided by our ethos '[IT for social good](https://www.monash.edu/it/research/social-good-projects)', we're also active champions of equity, diversity and inclusion, and constantly seeking new ways to support Indigenous Australians.
+
+![Monash University logo](https://ieeevis.b-cdn.net/vis_2022/booth_data/monash-booth-image.png)
+",
 bronze,University of Oklahoma Data Institute for Societal Challenges,https://ou.edu/disc,mailto:disc@ou.edu,DISC,"[DISC Facebook](https://www.facebook.com/DISCatOU/)<br/>
 [VPRP LinkedIn](https://www.facebook.com/DISCatOU/)<br/>
 [VPRP Twitter](https://twitter.com/ouresearch?lang=en)<br/>
 [VRPR YouTube](https://www.youtube.com/channel/UC22UZGIwvqzjfWSjhKvLYhQ)
-","The Data Institute for Societal Challenges (DISC) is an interdisciplinary center that coordinates and fosters research in data science, machine learning, artificial intelligence, and data-enabled science across the University of Oklahoma. The center is a hub that brings together experts in various research disciplines to solve societal challenges. ",
+","The Data Institute for Societal Challenges (DISC) is an interdisciplinary center that coordinates and fosters research in data science, machine learning, artificial intelligence, and data-enabled science across the University of Oklahoma. The center is a hub that brings together experts in various research disciplines to solve societal challenges. 
+
+[DISC One Page Flyer](https://ieeevis.b-cdn.net/vis_2022/booth_data/DISC_One-Pager Flyer.pdf)
+
+[DISC Strategic Plan](https://ieeevis.b-cdn.net/vis_2022/booth_data/FINAL-DISC-Strategic-Plan.pdf)
+
+[DISC at VIS 2022](https://ieeevis.b-cdn.net/vis_2022/booth_data/disc-vis-2022-slide.pdf)
+
+![DISC logo](https://ieeevis.b-cdn.net/vis_2022/booth_data/disc-logo-squared-600w.png)
+",
