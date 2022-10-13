@@ -1,7 +1,7 @@
 [
     {
         "UID": "1",
-        "image": "http://ieeevis.org/year/2022/assets/carousel/marti_hearst.jpg",
+        "image": "https://ieeevis.b-cdn.net/vis_2022/capstone_images/marti_hearst.jpg",
         "title": "Keynote - Show It or Tell It? Text, Visualization, and their Combination ",
         "abstract": "In this talk I will share observations about the role of language in visualization and in other modes of visual expression. I will pose questions such as: how do we decide what to express via language vs via visuals? How do we choose what kind of text to use when creating visualizations, and does that choice matter? Does anyone prefer text over visuals, under what circumstances, and why? Why is visualization ineffective for expressing text content? And most speculatively, what does the increasing prevalence of visual communication mean for the future of text? ",
         "bio": "Dr. Marti Hearst is a Professor at UC Berkeley in the School of Information and the Computer Science Division. Her research encompasses user interfaces with a focus on search,  information visualization with a focus on text, computational linguistics, and education at scale. She is the author of Search User Interfaces, the first academic book on that topic.  She is past President of Association of Computational Linguistics, a member of the CHI Academy, an ACM Fellow, a SIGIR Fellow, and has received four Excellence in Teaching Awards. ",
@@ -12,7 +12,7 @@
     },
     {
         "UID": "2",
-        "image": "http://ieeevis.org/year/2022/assets/carousel/capstone-kerry.jpeg",
+        "image": "https://ieeevis.b-cdn.net/vis_2022/capstone_images/capstone-kerry.jpeg",
         "name": "Dr. Kerry Magruder",
         "title": "Capstone - Galileo’s Telescopic Discoveries: Thinking Visually in the History of Science",
         "abstract": "In the Starry Messenger (1610), Galileo reported his discovery of four satellites of Jupiter and mountains on the Moon. These sensational telescopic discoveries were made possible by Galileo’s training and experience in Renaissance art. Galileo’s scientific discoveries occurred in the context of a specific artistic culture which fostered visual thinking by means of sophisticated mathematical techniques for drawing with linear perspective and handling light and shadow. When Galileo peered through his telescope and discovered mountains on the Moon, he did so because he was seeing with the eyes of an artist. Contemporaries without artistic training in visual thinking were not able to see what Galileo saw; they were able to look but not to see. ",

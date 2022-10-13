@@ -210,6 +210,15 @@ def jobs():
     data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
     return render_template("{}/jobs.html".format(year), **data)
 
+@year_blueprint.route("/year/{}/supporters.html".format(year))
+def supporters():
+    data = _data()
+    data["supporters"] = site_data["supporters"]
+    data['supporters_extra'] = site_data["supporters_extra"]
+    # data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
+    return render_template("{}/supporters.html".format(year), **data)
+
+
 @year_blueprint.route("/year/{}/help.html".format(year))
 def about():
     data = _data()
@@ -445,6 +454,8 @@ def format_by_session_list(v):
         "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),
         "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
+        "youtube_ff_url": v["ff_link"],
+        "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
         "livestream_id": v.get("livestream_id"),
@@ -582,7 +593,7 @@ def room(room):
         'name': room_name,
         'id': room
     }
-    
+
     # We need to write a minimal data object to the js so that current session can be calculated.
     # We copy a minimal amount of data there
     data["sessionTimings"] = json.dumps([
@@ -596,7 +607,7 @@ def room(room):
                 'discord_link': s['discord_link']
             }
         for s in data["sessions"]])
-            
+
 
     return render_template("{}/room.html".format(year), **data)
 
