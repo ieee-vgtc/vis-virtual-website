@@ -19,7 +19,9 @@ Enjoy the 2022 edition of <strong>#ieeevis</strong>.
 
 ### Help
 
-The [schedule page](calendar.html) is the entry point to live events, and a good starting point to explore available sessions.
+The [schedule page](calendar.html) is the entry point to live events, and a good starting point to explore available sessions. 
+
+Another way to get an overview is the program week at a glance [here](http://ieeevis.org/year/2022/assets/vis2022-program.pdf).
 
 Feel free to visit [our Help page above](/year/2022/help.html) for answers to common questions, where we also have a short tutorial on using Discord.  If you are still having issues, feel free to ask in #support in Discord or e-mail help@ieeevis.org.
 
