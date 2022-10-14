@@ -929,3 +929,20 @@ div.session-url {
   color: var(--text-gray-color);
   border-bottom: 2px dashed;
 }
+
+
+.home-alert {
+    float: none;
+    width: 100%;
+    margin-top: 0;
+    color: rgb(162, 10, 53) !important;
+    text-align: center;
+}
+
+.home-alert > h1 {
+  color: rgb(162, 10, 53) !important;
+}
+
+.home-alert > h2 {
+  color: rgb(162, 10, 53) !important;
+}

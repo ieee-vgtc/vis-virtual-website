@@ -7,7 +7,7 @@ The above video is a short introduction to the conference that includes a welcom
  -->
 
 <div class="embed-responsive embed-responsive-16by9 mb-4">
-<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/c8Cnba82Iz8?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/CPNFTMi9DOM?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Welcome to the virtual site for the IEEE VIS 2022 conference!  This page will be updated more as we get closer to the start of the conference on October 15.
