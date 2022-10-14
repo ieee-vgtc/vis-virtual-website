@@ -355,6 +355,7 @@ def format_poster(v):
         # for posters.html
         "sessions": [v["event"]],
         "UID": v["uid"],
+        "ff_link": v["ff_link"]
     }
 
 
@@ -454,6 +455,8 @@ def format_by_session_list(v):
         "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),
         "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
+        "youtube_ff_url": v["ff_link"],
+        "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
         "livestream_id": v.get("livestream_id"),

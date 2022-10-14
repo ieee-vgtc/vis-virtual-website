@@ -2,6 +2,8 @@
 
 We will collect job postings and display them here through out the VIS 2022 meeting. 
 
+[VIS Community Job Posting Form](https://forms.gle/QDP6UU9Njb56a73KA)
+
 <!--
 To submit a posting, please click "Submit Posting" in the site menu. Postings will be updated daily on this page. 
 
@@ -54,6 +56,27 @@ Attend job fair meetup? No, please contact directly
 Contact: Jane Jukes, j-jukes@illinois.edu
 
 
+
+### Georgia Institute of Technology
+
+[**Professor (Tenure-Track, all ranks) -- Data Visualization and Visual Analytics**](https://www.ic.gatech.edu/about/faculty-hiring) The School of Interactive Computing at Georgia Tech is seeking, among other areas, new faculty specializing in Data Visualization or Visual Analytics this upcoming year. More details about our existing Vis group can be found at [https://vis.gatech.edu](https://vis.gatech.edu).
+
+Start date: 2023-08-16 
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes (but feel free to reach out as well)    
+Contact: John Stasko, john.stasko@cc.gatech.edu
+
+### Arizona State University
+
+[**Professor (all ranks) in Human Centered and Affective Computing**](https://jobs.chronicle.com/job/37306873/professor-all-ranks-in-human-centered-and-affective-computing) AT The Ira A. Fulton Schools of Engineering at Arizona State University (Tempe, AZ, USA)	
+
+Start time flexible? Yes
+
+Attend job fair meetup: No, please contact directly
+
+Contact: Chris Bryan, chris.bryan@asu.edu
+
 ## Industry
 ### Ozette
 
@@ -69,4 +92,21 @@ Attend job fair meetup? Yes
 Contact: Fritz Lekschas, fritz@ozette.com
 
 
+### GraphPolaris | Visual Graph Data Analytics for the Masses | Talent Hiring Round 2022
 
+We are searching for engaged personnel who strives with us to remove the frustration and uncertainty out of the analysis of complex datasets. We firmly believe that data analysis processes should be (more) centered around the person who does the analysis or makes the business decisions. A human-centered approach will inevitably lead to more, better, and more sustainable innovations in business and societal settings.
+
+In [GraphPolaris](https://www.graphpolaris.com), we combine the creativity and common knowledge of the human with the number-crunching capabilities of the machine and make insights visible, explainable, and auditable through visual interactive interfaces.
+
+Our main product, the Graph Database Explorer, is the logical first manifestation of this credo: We are building a visual graph analytics system that focuses on easy, explainable, and efficient access to (multivariate) graph databases with better visualization support and a ready-to-use graph ML toolbox. Our unique selling points are (1) a full-fledged, dedicated graph analysis workflow that starts with questions around data quality and schema consistency, evolves (2) around an intuitive query formulation in a visual query editor, and let's the user loop effortlessly through query-refinement and interactive exploration of (3) better visualization techniques than just node-link diagrams.
+
+[**Frontend and Visualization Software Engineer**](https://www.graphpolaris.com/hiring#Developer2022) at GraphPolaris/Utrecht University (Utrecht, NL or Remote), start date: Nov/Dec 2022
+
+[**Full-Stack/Backend Software Engineer**](https://www.graphpolaris.com/hiring#Developer2022) at GraphPolaris/Utrecht University (Utrecht, NL or Remote), start date: Nov/Dec 2022 
+
+
+[**2x Student Assistants**](https://www.graphpolaris.com/hiring#StudentAssistants2022) at GraphPolaris/Utrecht University (Utrecht, NL or Remote), start date: Nov 2022
+
+Start time flexible? Yes, but still in 2022  
+Attend job fair meetup? Yes  
+Contact: Michael Behrisch, m.behrisch@uu.nl (will be in Oklahoma); ping me

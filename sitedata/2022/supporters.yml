@@ -52,7 +52,7 @@
 
      - name: "University of Oklahoma"
        image: uofoklahoma.png
-       url: "ou.edu"
+       url: "https://ou.edu/research"
 
      - name: "Echo Investment Capital LLC"
        image: echo.png
