@@ -320,7 +320,7 @@ def format_paper(v):
         "event_id": paper_session["parent_id"],
         "event_title": paper_event["event"],
         "award": v["paper_award"],
-        "has_image": v["has_image"],
+        "has_image": str(v["has_image"]) == '1',
         "has_pdf": v["has_pdf"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
@@ -349,13 +349,13 @@ def format_poster(v):
         "discord_channel": v["discord_channel"],
         "session_title": v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2022/posters/" + v["uid"] + ".pdf",
-        "summary_pdf": "https://ieeevis.b-cdn.net/vis_2022/posters/" + v["uid"] + "-summary.pdf" if v["has_summary_pdf"] else None,
-        "has_image": v["has_image"],
+        "summary_pdf": "https://ieeevis.b-cdn.net/vis_2022/posters/" + v["uid"] + "-summary.pdf" if v["has_summary_pdf"] == "TRUE" else None,
+        "has_image": v["has_image"] == "TRUE",
 
         # for posters.html
         "sessions": [v["event"]],
         "UID": v["uid"],
-        "ff_link": v["ff_link"]
+        "ff_link": v["ff_link"] if 'ff_link' in v else None
     }
 
 
