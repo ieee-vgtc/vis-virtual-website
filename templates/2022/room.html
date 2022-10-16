@@ -17,6 +17,10 @@
     </div>
 </div>
 
+<div class="row mt-5" id="stream-counter" style="display: none"> 
+    In the last 10 minutes, there have been about &nbsp;<span id="stream-counter-number">0</span>&nbsp; users accessing this room on the virtual site.
+</div>
+
 <div class="row mt-5">
     <div class="col-lg-10 streaming-container" id="session-stream-container">
         <!-- ensure 16x9 aspect ratio;
@@ -158,7 +162,7 @@ $(document).ready(function() {
     // We read out a stream view every 30 seconds.  
     setInterval(getStreamCount, 30 * 1000);
     updateStreamSource();
-    putStreamCount();
+    setStreamCount(0);
     getStreamCount();
 })
 
@@ -183,8 +187,22 @@ function getStreamCount() {
        contentType: "application/json",
        success: function(response) {
          console.log("getStreamCount response is ", response);
+         console.log("now going to write out the stream count.  Remember that?  Really?")
+         setStreamCount(response);
        }
     });
+}
+
+function setStreamCount(count) {
+    // Check to see if params includes show_count=true
+    console.log("got here")
+    let params = (new URL(document.location)).searchParams;
+    let name = params.get("show_count");
+    console.log("in setStreamCount and name is ", name)
+    if (name === 'true') {
+        $('#stream-counter').show();
+        $('#stream-counter-number').text(count);
+    }
 }
 
 function updateStreamSource(){    
