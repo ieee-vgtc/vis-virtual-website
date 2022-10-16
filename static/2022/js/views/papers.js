@@ -214,7 +214,12 @@ const start = (loadPosters) => {
       setTypeAhead(urlFilter, isPosters ? posterKeys : allKeys, filters, render);
       updateCards(allPapers);
 
-      const urlSearch = getUrlParameter("search");
+      let urlSearch = getUrlParameter("search");
+
+      // Total hack to deal with bad plus sign in url
+      if (urlSearch.indexOf('MedVis') != -1) {
+        urlSearch = 'Bio+Medvis Challenges';
+      }
       if (urlSearch !== "" || updateSession()) {
         filters[urlFilter] = urlSearch;
         $(".typeahead_all").val(urlSearch);
@@ -374,7 +379,7 @@ const card_time_detail = (paper, show) => {
 }
 
 // language=HTML
-const card_html = (paper) =>
+const card_html = (paper) => 
   `
         <div class="pp-card paper-card-wrapper pp-mode-${render_mode} " data-paper-type="${paper.paper_type}" style="width: 100%">
             <div class="pp-card-header" style="">
@@ -410,6 +415,16 @@ const card_html = (paper) =>
                 ${card_detail(paper, render_mode === MODE.detail)}
         </div>`;
 
+const buildSessionFilter = (session_name) => {
+  const url = window.location.origin + window.location.pathname;
+  let sessionFilterUrl = new URL(url);
+
+  sessionFilterUrl.searchParams.append("filter", "sessions");
+  sessionFilterUrl.searchParams.append("search", session_name);
+
+  return sessionFilterUrl;
+}
+
 // language=HTML
 const card_poster_html = (poster) =>
   `
@@ -432,7 +447,7 @@ const card_poster_html = (poster) =>
               <div class="card-subtitle text-muted mt-2" style="text-align: left;">
                 Session:
                 ${poster.sessions.map(
-    s => `<a class="has_tippy" href="posters.html?filter=sessions&search=${s}" data-tippy-content="filter all posters in session:">${s}</a>`)
+    s => `<a class="has_tippy" href=${buildSessionFilter(s)} data-tippy-content="filter all posters in session:">${s}</a>`)
     .join(",")}
               </div>
 
@@ -443,7 +458,6 @@ const card_poster_html = (poster) =>
 
                 ${card_detail(poster, render_mode === MODE.detail)}
         </div>`;
-
 
 // <div class="card-subtitle text-muted mt-2" style="text-align: left;">
 //        Time: ${formatTime(paper.time_stamp)}
