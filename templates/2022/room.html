@@ -187,7 +187,6 @@ function getStreamCount() {
        contentType: "application/json",
        success: function(response) {
          console.log("getStreamCount response is ", response);
-         console.log("now going to write out the stream count.  Remember that?  Really?")
          setStreamCount(response);
        }
     });
@@ -195,10 +194,8 @@ function getStreamCount() {
 
 function setStreamCount(count) {
     // Check to see if params includes show_count=true
-    console.log("got here")
     let params = (new URL(document.location)).searchParams;
     let name = params.get("show_count");
-    console.log("in setStreamCount and name is ", name)
     if (name === 'true') {
         $('#stream-counter').show();
         $('#stream-counter-number').text(count);
@@ -306,7 +303,6 @@ function filterByCurrentSession() {
 
         // TODO - error handling
         updateStreamSource().then(streamData => {
-            console.log("streamData is ", streamData);
             if ('youtube_id' in streamData) {
                 new_youtube_id = streamData['youtube_id'];
             }
