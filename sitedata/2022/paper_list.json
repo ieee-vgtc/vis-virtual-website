@@ -1,4 +1,142 @@
 {
+    "a-visap-1047": {
+        "slot_id": "a-visap-1047-pres",
+        "session_id": "a-visap-1",
+        "type": "In Person Presentation",
+        "title": "Neuroknitting Beethoven",
+        "contributors": [
+            "Varvara Guljajeva"
+        ],
+        "authors": [
+            "varvara guljajeva",
+            "Mar Canet Sola"
+        ],
+        "abstract": "NeuroKnitting Beethoven was developed to celebrate Ludwig van Beethoven\u2019s 250th anniversary and to re-visit the composer\u2019s classical compositions from an interdisciplinary viewpoint. Suddenly, the public could hear not only an artistic interpretation of the composition but also the musician's emotional state, which has resulted in the movement of a circular knitting machine installation, visuals, and plotted pattern to the produced garment in real-time. It means the pianist\u2019s (in Seoul\u2019s performance, it was a monk) affective response to music was captured every second and memorized in the knitted textile pattern, which was sprayed on the yarn before being knitted. High attention level resulted in a dense pattern, and the knitting machine\u2019s speed followed the meditation level. All these processes were real-time and took place simultaneously. Furthermore, the sound-responsive AI-generated visuals were created and displayed alongside the data visualization to accompany brain data visualizations.",
+        "uid": "a-visap-1047",
+        "file_name": "a-visap-1047_Guljajeva_Presentation.mp4",
+        "time_stamp": "2022-10-18T23:40:00Z",
+        "time_start": "2022-10-18T23:40:00Z",
+        "time_end": "2022-10-18T23:50:00Z",
+        "paper_type": "associated",
+        "keywords": [],
+        "has_image": "1",
+        "has_video": "239",
+        "paper_award": "",
+        "image_caption": "Screenshot of NeuroKnitting Beethoven telematic performance's video stream: a concert venue from where EEG data traveled to the artists' studio affecting the knitting process and garment pattern in real-time. Thematic audio-reactive AI-generated videos were overlaid by EEG data visualization.",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
+    "a-visap-1031": {
+        "slot_id": "a-visap-1031-pres",
+        "session_id": "a-visap-1",
+        "type": "In Person Presentation",
+        "title": "At the Pump",
+        "contributors": [
+            "Joseph Insley"
+        ],
+        "authors": [
+            "Joseph Insley"
+        ],
+        "abstract": "\u201cat the pump\u201d is an observation of items left behind at various gas stations. The digital print, which measures 360\u201d x 10\u201d, consists of 110 photos collected over the course of about three and a half years. Along with the photos themselves are plots of associated data. This includes information related to when the photo was taken, as well as data related to the content of the image. The gas station is a common shared public space that many people move in and out of, often without giving a thought to those that are there before or after them. By focusing on these items that were left behind, we raise awareness that we are not here alone. And while we may not know or ever directly encounter these other people, our actions can leave an imprint on them, and the environment. The installation will also include the results of an #atthepump Twitter campaign.",
+        "uid": "a-visap-1031",
+        "file_name": "a-visap-1031_Insley_Presentation.mp4",
+        "time_stamp": "2022-10-18T23:50:00Z",
+        "time_start": "2022-10-18T23:50:00Z",
+        "time_end": "2022-10-18T23:55:00Z",
+        "paper_type": "associated",
+        "keywords": [],
+        "has_image": "1",
+        "has_video": "183",
+        "paper_award": "",
+        "image_caption": "The gas station is a common shared public space that many people move in and out of, often without giving a thought to those that are there before or after them. By focusing on items left behind, we raise awareness that we are not here alone.  And while we may not know or ever directly encounter these other people, our actions can leave an imprint on them, and the environment. \u201cat the pump\u201d is a project that takes a closer look through a series of photos, including information related to both when the photo was taken, and its content.",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
+    "a-visap-1078": {
+        "slot_id": "a-visap-1078-pres",
+        "session_id": "a-visap-1",
+        "type": "In Person Presentation",
+        "title": "Ray",
+        "contributors": [
+            "Weidi Zhang"
+        ],
+        "authors": [
+            "weidi zhang"
+        ],
+        "abstract": "RAY provides a responsive art experience that re-interprets Rayograph (photogram) \u2013 a 20th Century cameraless image-making technique \u2013 in the perspective of Artificial Intelligent (AI) surveillance and the changing ontology of images. The system implements Image-to-Image Translation with Conditional Adversarial Networks and a computer vision system to translate human portraits into new images of Rayograph with semantic meanings, which are further developed algorithmically through visualizing in the aesthetics of light painting. RAY bridges intelligent visualization with cameraless photography Rayograph to engage audiences with an interactive poetic experience that conveys meanings.",
+        "uid": "a-visap-1078",
+        "file_name": "a-visap-1078_Zhang_Presentation.mp4",
+        "time_stamp": "2022-10-18T23:55:00Z",
+        "time_start": "2022-10-18T23:55:00Z",
+        "time_end": "2022-10-19T00:00:00Z",
+        "paper_type": "associated",
+        "keywords": [],
+        "has_image": "1",
+        "has_video": "234",
+        "paper_award": "",
+        "image_caption": "RAY, Installation view, Weidi Zhang, 2021",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
+    "a-visap-1085": {
+        "slot_id": "a-visap-1085-pres",
+        "session_id": "a-visap-1",
+        "type": "In Person Presentation",
+        "title": "Sifting Strands",
+        "contributors": [
+            "Elek, Oskar"
+        ],
+        "authors": [
+            "Oskar Elek",
+            "Weston Mossman",
+            "Angus Forbes"
+        ],
+        "abstract": "Sifting Strands is an interdisciplinary art project which arose from a wider scientific collaboration between computational researchers and astrophysicists. Sifting Sands brings bio-inspired patterns rooted in optimal transport networks into the aesthetic visual realm. Through it we explore how compter-generated art and live audience can collaborate in the creative act. The core of this work is a generalized simulation of Physarum polycephalum which meaningfully reacts to music, video and scene depth information. The resulting computational graph is implemented in Touch Designer and has been adapted to live performances and interactive installations. Universally, our works bring their audience together by creating a mingling space around the computational artifact.",
+        "uid": "a-visap-1085",
+        "file_name": "a-visap-1085_Elek_Presentation.mp4",
+        "time_stamp": "2022-10-19T00:00:00Z",
+        "time_start": "2022-10-19T00:00:00Z",
+        "time_end": "2022-10-19T00:10:00Z",
+        "paper_type": "associated",
+        "keywords": [],
+        "has_image": "1",
+        "has_video": "257",
+        "paper_award": "",
+        "image_caption": "Sifting Sands brings bio-inspired patterns rooted optimal transport networks into the aesthetic visual realm.",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
+    "a-visap-1082": {
+        "slot_id": "a-visap-1082-pres",
+        "session_id": "a-visap-1",
+        "type": "Virtual Presentation (live)",
+        "title": "Presentation of Self in the Machine",
+        "contributors": [
+            "Ray LC"
+        ],
+        "authors": [
+            "RAY LC"
+        ],
+        "abstract": "The world has been driven apart by recent events, making long distance performative mingling difficult to achieve, especially those employing in-person collaboration between humans and machines. How shall we reclaim a tangible exchange between the US and other parts of the world that has presence and meaning, as opposed to impersonal virtual interactions? We created and choreographed and an art technology performance exchange that would allow viewers in Oklahoma City to immerse themselves in a collaborative narrative space between a dancer in the US and a robot arm in City University of Hong Kong's Studio for Narrative Spaces. The performance can be shown in either online or offline form to audiences, who witness the narrative of a dancer and a robot who communicate with each other through movement, sometimes leading one another, sometimes frustrating each other, but always communicating as if each other are present to each other across a 12 hour divide.  We propose an evening 9pm performance in Oklahoma City presented by dancer Mizuho Kappa, remotely choregraphed by RAY LC, which is simultaneously streamed live in the morning 10am at the School of Creative Media in Hong Kong, where a robot arm moves in response to movements undertaken by Mizuho. The live stream from Hong Kong is also shared with Oklahoma City, enabling Mizuho and RAY to interactively alter the dance movements and choreography live through visual comparison with the robot in a collaborative digital space. The robot imitates Mizuho\u2019s head using its hand and her body using its arm. The choreography follows Mizuho as she steps outside the digital realm of the virtual platform and into the physical stage, enticing the robot to dance with her. The robot starts with only block-like movements but eventually learns to mimic her with his body. Still he cannot run around or use hands like Mizuho, and eventually seeks help. Soon Mizuho begins performing actions that the arm is not capable of, such as jumping and lying flat on the ground, leading the robot to wonder on his own: is there also something I can do that the human cannot?",
+        "uid": "a-visap-1082",
+        "file_name": "a-visap-1082_Lc_Presentation.mp4",
+        "time_stamp": "2022-10-19T00:10:00Z",
+        "time_start": "2022-10-19T00:10:00Z",
+        "time_end": "2022-10-19T00:35:00Z",
+        "paper_type": "associated",
+        "keywords": [],
+        "has_image": "1",
+        "has_video": "245",
+        "paper_award": "",
+        "image_caption": "A dancer performs with the robot arm over a connection over a 12 hour time difference.",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
     "v-full-1240": {
         "slot_id": "v-full-1240-pres",
         "session_id": "full1",
@@ -31,7 +169,7 @@
         "slot_id": "v-full-1636-pres",
         "session_id": "full1",
         "type": "In Person Presentation",
-        "title": "The Goldilocks Zone: Balancing Trust and Task-Based Performance in Multiple COVID-19 Forecast Visualization Choices",
+        "title": "Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations",
         "contributors": [
             "Dr. Lace Padilla"
         ],
@@ -248,7 +386,8 @@
         "type": "In Person Presentation",
         "title": "Roboviz: A Game-Centered Project for Information Visualization Education",
         "contributors": [
-            "Eytan Adar"
+            "Eytan Adar",
+            "Elsie Lee-Robbins"
         ],
         "authors": [
             "Eytan Adar",
@@ -352,18 +491,18 @@
             "Shichao Jia",
             "Jiawan Zhang"
         ],
-        "abstract": "",
+        "abstract": "The overdraw problem of scatterplots seriously interferes with the visual tasks. Existing methods, such as data sampling, node dispersion, subspace mapping, and visual abstraction, cannot guarantee the correspondence and consistency between the data points that reflect the intrinsic original data distribution and the corresponding visual units that reveal the presented data distribution, thus failing to obtain an overlap-free scatterplot with unbiased and lossless data distribution. A dual space coupling model is proposed in this paper to represent the complex bilateral relationship between data space and visual space theoretically and analytically. Under the guidance of the model, an overlap-free scatterplot method is developed through integration of the following: a geometry-based data transformation algorithm, namely DistributionTranscriptor; an efficient spatial mutual exclusion guided view transformation algorithm, namely PolarPacking; an overlap-free oriented visual encoding configuration model and a radius adjustment tool, namely $f_{r_{draw}}$. Our method can ensure complete and accurate information transfer between the two spaces, maintaining consistency between the newly created scatterplot and the original data distribution on global and local features. Quantitative evaluation proves our remarkable progress on computational efficiency compared with the state-of-the-art methods. Three applications involving pattern enhancement, interaction improvement, and overdraw mitigation of trajectory visualization demonstrate the broad prospects of our method.",
         "uid": "v-full-1394",
         "file_name": "v-full-1394_Li_Presentation.mp4",
         "time_stamp": "2022-10-19T20:57:00Z",
         "time_start": "2022-10-19T20:57:00Z",
         "time_end": "2022-10-19T21:07:09Z",
-        "paper_type": "associated",
+        "paper_type": "full",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "609",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "In our paper, we contributed a dual space coupling model that introduces a new design space for promising overlap removal algorithm and interaction paradigm for large-scale scatterplots. We also developed an overlap-free\nscatterplot visualization method based on the model, which shows competitive advantages compared with the state-of-the-art overlap removal methods.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -701,7 +840,7 @@
         "slot_id": "v-full-1346-pres",
         "session_id": "full5",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "Revealing the Semantics of Data Wrangling Script With COMANTICS",
+        "title": "Revealing the Semantics of Data Wrangling Scripts With COMANTICS",
         "contributors": [
             "Kai Xiong"
         ],
@@ -836,7 +975,7 @@
         "slot_id": "v-full-1138-pres",
         "session_id": "full5",
         "type": "In Person Presentation",
-        "title": "Animated Vega-Lite: A Unified Grammar of Interactive and Animated Visualizations",
+        "title": "Animated Vega-Lite: Unifying Animation with a Grammar of Interactive Graphics",
         "contributors": [
             "Jonathan Zong"
         ],
@@ -866,7 +1005,7 @@
         "slot_id": "v-full-1045-pres",
         "session_id": "full5",
         "type": "In Person Presentation",
-        "title": "No Grammar to Rule Them All:  A Survey of JSON-style DSLs for Visualization",
+        "title": "No Grammar to Rule Them All: A Survey of JSON-style DSLs for Visualization",
         "contributors": [
             "Andrew M McNutt"
         ],
@@ -1125,7 +1264,7 @@
         "slot_id": "v-full-1121-pres",
         "session_id": "full7",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "Evaluating the Use of Uncertainty Visualisations for Imputations of Missing Values in Scatterplots",
+        "title": "Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots",
         "contributors": [
             "Abhraneel Sarma"
         ],
@@ -1158,7 +1297,7 @@
         "slot_id": "v-full-1062-pres",
         "session_id": "full7",
         "type": "In Person Presentation",
-        "title": "Dispersion vs Disparity: Hiding Uncertainty Can Encourage Stereotyping When Visualizing Social Outcomes",
+        "title": "Dispersion vs Disparity: Hiding Variability Can Encourage Stereotyping When Visualizing Social Outcomes",
         "contributors": [
             "Cindy Xiong",
             "Eli Holder"
@@ -1340,7 +1479,7 @@
         "slot_id": "v-full-1115-pres",
         "session_id": "full8",
         "type": "In Person Presentation",
-        "title": "Extending assignment inference to colormap data visualizations",
+        "title": "Unifying Effects of Direct and Relational Associations for Visual Communication",
         "contributors": [
             "Melissa A. Schoenlein"
         ],
@@ -1371,7 +1510,7 @@
         "slot_id": "v-full-1448-pres",
         "session_id": "full8",
         "type": "In Person Presentation",
-        "title": "A Scanner Deeply: Predicting Human Eye Movement on Visualizations Using Crowdsourced Data Collection",
+        "title": "A Scanner Deeply: Predicting Gaze Heatmaps on Visualizations Using Crowdsourced Eye Movement Data",
         "contributors": [
             "Sungbok Shin"
         ],
@@ -1494,7 +1633,7 @@
         "slot_id": "v-full-1074-pres",
         "session_id": "full9",
         "type": "In Person Presentation",
-        "title": "ConceptExplainer: Understanding the Mental Model of Deep Learning Algorithms via Interactive Concept-based Explanations",
+        "title": "ConceptExplainer: Interactive Explanation for Deep Neural Networks from a Concept Perspective",
         "contributors": [
             "Jinbin Huang"
         ],
@@ -2002,7 +2141,7 @@
         "slot_id": "v-full-1653-pres",
         "session_id": "full12",
         "type": "In Person Presentation",
-        "title": "Probablement, Wahrscheinlich, Likely? A Cross-Language Study of How People Verbalize Probabilities in Icon Array Visualizations",
+        "title": "Probablement, Wahrscheinlich, Likely ? A Cross-Language Study of How People Verbalize Probabilities in Icon Array Visualizations",
         "contributors": [
             "No\u00eblle Rakotondravony"
         ],
@@ -2155,7 +2294,7 @@
         "slot_id": "v-full-1024-pres",
         "session_id": "full12",
         "type": "In Person Presentation",
-        "title": "Under- and Over-Texting: Exploring the Effect of Quantity and Content on Reader Preferences and Takeaways",
+        "title": "Striking a Balance: Reader Takeaways and Preferences when Integrating Text and Charts",
         "contributors": [
             "Chase Stokes"
         ],
@@ -2376,7 +2515,7 @@
         "slot_id": "v-full-1006-pres",
         "session_id": "full14",
         "type": "In Person Presentation",
-        "title": "A Systematic Review of BGP Visualization Tools: Mapping Techniques to Cyberattack and Anomaly Attributes",
+        "title": "The State of the Art in BGP Visualization Tools: A Mapping of Visualization Techniques to Cyberattack Types",
         "contributors": [
             "Justin Raynor"
         ],
@@ -2439,7 +2578,7 @@
         "slot_id": "v-full-1161-pres",
         "session_id": "full14",
         "type": "In Person Presentation",
-        "title": "PMU Tracker: A Visualization Platform for Egocentric Event Propagation Analysis in the Power Grid",
+        "title": "PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid",
         "contributors": [
             "Anjana Arunkumar"
         ],
@@ -2504,7 +2643,7 @@
         "slot_id": "v-full-1491-pres",
         "session_id": "full14",
         "type": "In Person Presentation",
-        "title": "A Visual Analytics System for Improving Traffic Forecasting Models",
+        "title": "A Visual Analytics System for Improving Attention-based Traffic Forecasting Models",
         "contributors": [
             "Seungmin Jin"
         ],
@@ -2670,7 +2809,7 @@
         "slot_id": "v-full-1041-pres",
         "session_id": "full15",
         "type": "In Person Presentation",
-        "title": "RASIPAM: Interactive Pattern Mining of\\\\Multivariate Event Sequences in Racket Sports",
+        "title": "RASIPAM: Interactive Pattern Mining of Multivariate Event Sequences in Racket Sports",
         "contributors": [
             "Jiang Wu",
             "Ziyang Guo"
@@ -2734,7 +2873,7 @@
         "slot_id": "v-full-1223-pres",
         "session_id": "full15",
         "type": "In Person Presentation",
-        "title": "Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences",
+        "title": "The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences",
         "contributors": [
             "Tica Lin"
         ],
@@ -2838,7 +2977,7 @@
         "slot_id": "v-full-1228-pres",
         "session_id": "full16",
         "type": "In Person Presentation",
-        "title": "Chartwalk: Navigating large collections of text notes in electronic health records for clinical chart review",
+        "title": "ChartWalk: Navigating Large Collections of Text Notes in Electronic Health Records for Clinical Chart Review",
         "contributors": [
             "Nicole Sultanum"
         ],
@@ -2868,7 +3007,7 @@
         "slot_id": "v-full-1111-pres",
         "session_id": "full16",
         "type": "In Person Presentation",
-        "title": "Development and Evaluation of Two Approaches of Visual Sensitivity Analysis to Support Epidemiological Modelling",
+        "title": "Development and Evaluation of Two Approaches of Visual Sensitivity Analysis to Support Epidemiological Modeling",
         "contributors": [
             "Erik Rydow"
         ],
@@ -3454,7 +3593,7 @@
         "slot_id": "v-full-1338-pres",
         "session_id": "full19",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "HetVis: A Visual Analysis Approach for Identifying Heterogeneity in Federated Learning",
+        "title": "HetVis: A Visual Analysis Approach for Identifying Data Heterogeneity in Horizontal Federated Learning",
         "contributors": [
             "Xumeng Wang"
         ],
@@ -3827,7 +3966,7 @@
         "slot_id": "v-full-1163-pres",
         "session_id": "full21",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "SizePairs: Achieving Stable and Balanced Temporal Treemaps using Hierarchical Size-based Paring",
+        "title": "SizePairs: Achieving Stable and Balanced Temporal Treemaps using Hierarchical Size-based Pairing",
         "contributors": [
             "Yunhai Wang",
             "Chang Han"
@@ -4667,7 +4806,7 @@
         "slot_id": "v-full-1206-pres",
         "session_id": "full25",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "A Representative Design Space of Multiclass Contour Visualization",
+        "title": "A Framework for Multiclass Contour Visualization",
         "contributors": [
             "Sihang Li"
         ],
@@ -4798,7 +4937,7 @@
         "slot_id": "v-full-1382-pres",
         "session_id": "full26",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "Effects of View Layout on Situated Analytics for Multiple Representations in Immersive Visualizaiton",
+        "title": "Effects of View Layout On Situated Analytics for Multiple-View Representations in Immersive Visualization",
         "contributors": [
             "Zhen Wen"
         ],
@@ -4984,7 +5123,7 @@
         "slot_id": "v-full-1618-pres",
         "session_id": "full27",
         "type": "In Person Presentation",
-        "title": "A Unified Comparison of User Modeling Techniques for Information Relevance and Exploration Bias",
+        "title": "A Unified Comparison of User Modeling Techniques for Predicting Data Interaction and Detecting Exploration Bias",
         "contributors": [
             "Sunwoo Ha"
         ],
@@ -5268,7 +5407,7 @@
         "slot_id": "v-full-1426-pres",
         "session_id": "full29",
         "type": "In Person Presentation",
-        "title": "CohortVA: A Visual Analytic System for Progressive Exploration of Cohorts based on Historical Data",
+        "title": "CohortVA: A Visual Analytic System for Interactive Exploration of Cohorts based on Historical Data",
         "contributors": [
             "Wei Zhang",
             "Jason Wong"
@@ -5442,7 +5581,7 @@
         "slot_id": "v-full-1478-pres",
         "session_id": "full29",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "DPVisCreator: Incorporating pattern constraints to privacy-preserving visualization via differential privacy",
+        "title": "DPVisCreator: Incorporating Pattern Constraints to Privacy-preserving Visualizations via Differential Privacy",
         "contributors": [
             "Jiehui Zhou"
         ],
@@ -5511,7 +5650,7 @@
         "slot_id": "v-full-1614-pres",
         "session_id": "full30",
         "type": "In Person Presentation",
-        "title": "TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting Human Trafficking",
+        "title": "TRAFFICVIS: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting and Labeling Human Trafficking",
         "contributors": [
             "Catalina Vajiac"
         ],
@@ -5676,7 +5815,7 @@
         "slot_id": "v-full-1089-pres",
         "session_id": "full31",
         "type": "In Person Presentation",
-        "title": "Provenance Representations and Resulting Strategies in an Exploratory Data Analysis Scenario",
+        "title": "The Influence of Visual Provenance Representations on Strategies in a Collaborative Hand-off Data Analysis Scenario",
         "contributors": [
             "Jeremy E Block"
         ],
@@ -5737,7 +5876,7 @@
     "v-tvcg-9652041": {
         "slot_id": "v-tvcg-9652041-pres",
         "session_id": "full31",
-        "type": "In Person Presentation",
+        "type": "Virtual Presentation (pre-recorded)",
         "title": "Provectories: Embedding-based Analysis of Interaction Provenance Data",
         "contributors": [
             "Conny Walchshofer",
@@ -5755,7 +5894,7 @@
         "file_name": "v-tvcg-9652041_Walchshofer_Presentation.mp4",
         "time_stamp": "2022-10-20T21:09:00Z",
         "time_start": "2022-10-20T21:09:00Z",
-        "time_end": "2022-10-20T21:19:00Z",
+        "time_end": "2022-10-20T21:18:15Z",
         "paper_type": "full",
         "keywords": [
             "Visualization techniques, Information visualization, Visual analytics, Interaction Provenance, Sensemaking"
@@ -5993,7 +6132,7 @@
         "slot_id": "v-full-1496-pres",
         "session_id": "full32",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "Level Set Restricted Voronoi Decomposition for Large Scale Spatial Statistical Analysis",
+        "title": "Level Set Restricted Voronoi Tessellation for Large scale Spatial Statistical Analysis",
         "contributors": [
             "Tyson Neuroth"
         ],
@@ -7766,38 +7905,32 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "v-siggraph-4": {
-        "slot_id": "v-siggraph-4-pres",
+    "v-siggraph-6": {
+        "slot_id": "v-siggraph-6-pres",
         "session_id": "sig1",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "Umbrella Meshes: Volumetric Elastic Mechanisms for Freeform Shape Deployment",
+        "title": "Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces",
         "contributors": [
-            "Yingying Ren",
-            "Uday Kusupati, Yingying Ren"
+            "Nicholas Sharp"
         ],
         "authors": [
-            "Yingying Ren",
-            "Uday Kusupati",
-            "Julian Panetta",
-            "Florin Isvoranu",
-            "Davide Pellis",
-            "Tian Chen",
-            "Mark Pauly"
+            "Nicholas Sharp",
+            "Alec Jacobson"
         ],
-        "abstract": "We present a computational inverse design framework for a new class of volumetric deployable structures that have compact rest states and deploy into bending-active 3D target surfaces. Umbrella meshes consist of elastic beams, rigid plates, and hinge joints that can be directly printed or assembled in a zero-energy fabrication state. During deployment, as the elastic beams of varying heights rotate from vertical to horizontal configurations, the entire structure transforms from a compact block into a target curved surface. Umbrella Meshes encode both intrinsic and extrinsic curvature of the target surface and in principle are free from the area expansion ratio bounds of past auxetic material systems.  We build a reduced physics-based simulation framework to accurately and efficiently model the complex interaction between the elastically deforming components. To determine the mesh topology and optimal shape parameters for approximating a given target surface, we propose an inverse design optimization algorithm initialized with conformal flattening. Our algorithm minimizes the structure's strain energy in its deployed state and optimizes actuation forces so that the final deployed structure is in stable equilibrium close to the desired surface with few or no external constraints. We validate our approach by fabricating a series of physical models at various scales using different manufacturing techniques.",
-        "uid": "v-siggraph-4",
-        "file_name": "v-siggraph-4_Ren_Presentation.mp4",
+        "abstract": "Neural implicit representations, which encode a surface as the level set of a neural network applied to spatial coordinates, have proven to be remarkably effective for optimizing, compressing, and generating 3D geometry. Although these representations are easy to fit, it is not clear how to best evaluate geometric queries on the shape, such as intersecting against a ray or finding a closest point. The predominant approach is to encourage the network to have a signed distance property. However, this property typically holds only approximately, leading to robustness issues, and holds only at the conclusion of training, inhibiting the use of queries in loss functions. Instead, this work presents a new approach to perform queries directly on general neural implicit functions for a wide range of existing architectures. Our key tool is the application of range analysis to neural networks, using automatic arithmetic rules to bound the output of a network over a region; we conduct a study of range analysis on neural networks, and identify variants of affine arithmetic which are highly effective. We use the resulting bounds to develop geometric queries including ray casting, intersection testing, constructing spatial hierarchies, fast mesh extraction, closest-point evaluation, evaluating bulk properties, and more. Our queries can be efficiently evaluated on GPUs, and offer concrete accuracy guarantees even on randomly-initialized networks, enabling their use in training objectives and beyond. We also show a preliminary application to inverse rendering.",
+        "uid": "v-siggraph-6",
+        "file_name": "v-siggraph-6_Sharp_Presentation.mp4",
         "time_stamp": "2022-10-19T16:21:00Z",
         "time_start": "2022-10-19T16:21:00Z",
-        "time_end": "2022-10-19T16:29:44Z",
+        "time_end": "2022-10-19T16:32:58Z",
         "paper_type": "full",
         "keywords": [
-            "Deployable structure, physics-based simulation, numerical optimization, computational design, fabrication"
+            "implicit surfaces, neural networks, range analysis, geometry processing"
         ],
         "has_image": "1",
-        "has_video": "524",
+        "has_video": "718",
         "paper_award": "",
-        "image_caption": "An umbrella mesh is a volumetric deployable structure with a compact, zero-energy rest state that deploys into a given 3D target surface. We show here the physical model of an umbrella mesh unit cell and the deployment sequence of an umbrella mesh prototype optimized to match the input design surface.",
+        "image_caption": "This method enables geometric queries on neural implicit surfaces, without relying on fitting a signed distance function. Several queries are shown here on a neural implicit occupancy function encoding a mine cart. These operations open up new explorations of neural implicit surfaces.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -7832,32 +7965,38 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "v-siggraph-6": {
-        "slot_id": "v-siggraph-6-pres",
+    "v-siggraph-4": {
+        "slot_id": "v-siggraph-4-pres",
         "session_id": "sig1",
         "type": "Virtual Presentation (pre-recorded)",
-        "title": "Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces",
+        "title": "Umbrella Meshes: Volumetric Elastic Mechanisms for Freeform Shape Deployment",
         "contributors": [
-            "Nicholas Sharp"
+            "Yingying Ren",
+            "Uday Kusupati, Yingying Ren"
         ],
         "authors": [
-            "Nicholas Sharp",
-            "Alec Jacobson"
+            "Yingying Ren",
+            "Uday Kusupati",
+            "Julian Panetta",
+            "Florin Isvoranu",
+            "Davide Pellis",
+            "Tian Chen",
+            "Mark Pauly"
         ],
-        "abstract": "Neural implicit representations, which encode a surface as the level set of a neural network applied to spatial coordinates, have proven to be remarkably effective for optimizing, compressing, and generating 3D geometry. Although these representations are easy to fit, it is not clear how to best evaluate geometric queries on the shape, such as intersecting against a ray or finding a closest point. The predominant approach is to encourage the network to have a signed distance property. However, this property typically holds only approximately, leading to robustness issues, and holds only at the conclusion of training, inhibiting the use of queries in loss functions. Instead, this work presents a new approach to perform queries directly on general neural implicit functions for a wide range of existing architectures. Our key tool is the application of range analysis to neural networks, using automatic arithmetic rules to bound the output of a network over a region; we conduct a study of range analysis on neural networks, and identify variants of affine arithmetic which are highly effective. We use the resulting bounds to develop geometric queries including ray casting, intersection testing, constructing spatial hierarchies, fast mesh extraction, closest-point evaluation, evaluating bulk properties, and more. Our queries can be efficiently evaluated on GPUs, and offer concrete accuracy guarantees even on randomly-initialized networks, enabling their use in training objectives and beyond. We also show a preliminary application to inverse rendering.",
-        "uid": "v-siggraph-6",
-        "file_name": "v-siggraph-6_Sharp_Presentation.mp4",
+        "abstract": "We present a computational inverse design framework for a new class of volumetric deployable structures that have compact rest states and deploy into bending-active 3D target surfaces. Umbrella meshes consist of elastic beams, rigid plates, and hinge joints that can be directly printed or assembled in a zero-energy fabrication state. During deployment, as the elastic beams of varying heights rotate from vertical to horizontal configurations, the entire structure transforms from a compact block into a target curved surface. Umbrella Meshes encode both intrinsic and extrinsic curvature of the target surface and in principle are free from the area expansion ratio bounds of past auxetic material systems.  We build a reduced physics-based simulation framework to accurately and efficiently model the complex interaction between the elastically deforming components. To determine the mesh topology and optimal shape parameters for approximating a given target surface, we propose an inverse design optimization algorithm initialized with conformal flattening. Our algorithm minimizes the structure's strain energy in its deployed state and optimizes actuation forces so that the final deployed structure is in stable equilibrium close to the desired surface with few or no external constraints. We validate our approach by fabricating a series of physical models at various scales using different manufacturing techniques.",
+        "uid": "v-siggraph-4",
+        "file_name": "v-siggraph-4_Ren_Presentation.mp4",
         "time_stamp": "2022-10-19T16:45:00Z",
         "time_start": "2022-10-19T16:45:00Z",
-        "time_end": "2022-10-19T16:56:58Z",
+        "time_end": "2022-10-19T16:53:44Z",
         "paper_type": "full",
         "keywords": [
-            "implicit surfaces, neural networks, range analysis, geometry processing"
+            "Deployable structure, physics-based simulation, numerical optimization, computational design, fabrication"
         ],
         "has_image": "1",
-        "has_video": "718",
+        "has_video": "524",
         "paper_award": "",
-        "image_caption": "This method enables geometric queries on neural implicit surfaces, without relying on fitting a signed distance function. Several queries are shown here on a neural implicit occupancy function encoding a mine cart. These operations open up new explorations of neural implicit surfaces.",
+        "image_caption": "An umbrella mesh is a volumetric deployable structure with a compact, zero-energy rest state that deploys into a given 3D target surface. We show here the physical model of an umbrella mesh unit cell and the deployment sequence of an umbrella mesh prototype optimized to match the input design surface.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -8067,10 +8206,14 @@
         "contributors": [
             "Adrian Komadina"
         ],
-        "authors": [],
+        "authors": [
+            "Adrian Komadina",
+            "\u017deljka Mihajlovi\u0107",
+            "Stjepan Gro\u0161"
+        ],
         "abstract": "In this paper, we present our design study on developing an interactive visual firewall log analysis system in collaboration with an IT service provider.  We describe the human-centered design process, in which we additionally considered hedonic qualities by including the usage of personas, psychological need cards and interaction vocabulary. For the problem characterization we especially focus on the demands of the two main clusters of requirements: high-level overview and low-level analysis, represented by the two defined personas, namely information security officer and network analyst.  This resulted in the prototype of a visual analysis system consisting of two interlinked parts. One part addresses the needs for rather strategical tasks while also fulfilling the need for an appealing appearance and interaction. The other part rather addresses the requirements for operational tasks and aims to provide a high level of flexibility. We describe our design journey, the derived domain tasks and task abstractions as well as our visual design decisions, and present our final prototypes based on a usage scenario.  We also report on our capstone event, where we conducted an observed experiment and collected feedback from the information security officer. Finally, as a reflection, we propose the extension of a widely used design study process with a track for an additional focus on hedonic qualities.",
         "uid": "a-vizsec-3950",
-        "file_name": "",
+        "file_name": "a-vizsec-3950_Komadina_Presentation.mp4",
         "time_stamp": "2022-10-19T15:50:00Z",
         "time_start": "2022-10-19T15:50:00Z",
         "time_end": "2022-10-19T16:02:00Z",
@@ -8094,10 +8237,15 @@
         "contributors": [
             "Igor Cherepanov"
         ],
-        "authors": [],
+        "authors": [
+            "Igor Cherepanov",
+            "Alex Ulmer",
+            "Jonathan Geraldi Joewono",
+            "J\u00f6rn Kohlhammer"
+        ],
         "abstract": "The classification of internet traffic has become increasingly important due to the rapid growth of today\u2019s networks and application variety. The number of connections and the addition of new applications in our networks causes a vast amount of log data and complicates the search for common patterns by experts. Finding such patterns among specific classes of applications is necessary to fulfill various requirements in network analytics. Supervised deep learning methods learn features from raw data and achieve high accuracy in classification. However, these methods are very complex and are used as black-box models, which weakens the experts\u2019 trust in these classifications. Moreover, by using them as a black-box, new knowledge cannot be obtained from the model predictions despite their excellent performance. Therefore, the explainability of the classifications is crucial. Besides increasing trust, the explanation can be used for model evaluation to gain new insights from the data and to improve the model. In this paper, we present a visual and interactive tool that combines the classification of network data with an explanation technique to form an interface between experts, algorithms, and data.",
         "uid": "a-vizsec-7912",
-        "file_name": "",
+        "file_name": "a-vizsec-7912_Cherepanov_Presentation.mp4",
         "time_stamp": "2022-10-19T16:05:00Z",
         "time_start": "2022-10-19T16:05:00Z",
         "time_end": "2022-10-19T16:17:00Z",
@@ -8121,10 +8269,17 @@
         "contributors": [
             "Kuhu Gupta"
         ],
-        "authors": [],
+        "authors": [
+            "Kuhu Gupta",
+            "Aditeya Pandey",
+            "Larry Chan",
+            "Ambika Yadav",
+            "Brian Staats",
+            "Michelle Borkin"
+        ],
         "abstract": "In this paper, we present research on the analysis of the design space for cybersecurity visualizations in VizSec. At the beginning of this research, we analyzed 17 survey papers in the field of cybersecurity visualization. Based on the analysis of the focus areas in each of these survey papers, we identified five key components of visual- ization design, i.e. Input Data, Security Tasks, Visual Encoding, Interactivity, and Evaluation. To show how research papers align with these components, we analyzed 60 papers published at the IEEE Symposium on Visualization for Cyber Security (VizSec) be- tween 2016 and 2021 in the context of the five identified components. As a result, each research paper was classified into several categories derived from the selected components of the visualization design. Our contributions are: (i) an analysis of the focus areas in survey papers on cybersecurity visualization and (ii) the classification of 60 research papers in the context of the selected components of the visualization design. Finally, we highlighted the main findings of the analysis and drew conclusions.",
         "uid": "a-vizsec-7865",
-        "file_name": "",
+        "file_name": "a-vizsec-7865_Gupta_Presentation.mp4",
         "time_stamp": "2022-10-19T16:20:00Z",
         "time_start": "2022-10-19T16:20:00Z",
         "time_end": "2022-10-19T16:28:00Z",
@@ -8148,10 +8303,15 @@
         "contributors": [
             "Kaustav Bhattacharjee"
         ],
-        "authors": [],
+        "authors": [
+            "Kaustav Bhattacharjee",
+            "Akm Islam",
+            "Jaideep Vaidya",
+            "Aritra Dasgupta"
+        ],
         "abstract": "Open data sets that contain personal information are susceptible to adversarial attacks even when anonymized. By performing low-cost joins on multiple datasets with shared attributes, malicious users of open data portals might get access to information that violates individuals' privacy. However, open data sets are primarily published using a release-and-forget model, whereby data owners and custodians have little to no cognizance of these privacy risks. We address this critical gap by developing a visual analytic solution that enables data defenders to gain awareness about the disclosure risks in local, joinable data neighborhoods. The solution is derived through a design study with data privacy researchers, where we initially play the role of a red team and engage in an ethical data hacking exercise based on privacy attack scenarios. We use this problem and domain characterization to develop a set of visual analytic interventions as a defense mechanism and realize them in PRIVEE, a visual risk inspection workflow that acts as a proactive monitor for data defenders. PRIVEE uses a combination of risk scores and associated interactive visualizations to let data defenders explore vulnerable joins and interpret risks at multiple levels of data granularity. We demonstrate how PRIVEE can help emulate the attack strategies and diagnose disclosure risks through two case studies with data privacy experts.",
         "uid": "a-vizsec-3415",
-        "file_name": "",
+        "file_name": "a-vizsec-3415_Bhattacharjee_Presentation.mp4",
         "time_stamp": "2022-10-19T16:30:00Z",
         "time_start": "2022-10-19T16:30:00Z",
         "time_end": "2022-10-19T16:42:00Z",
@@ -8175,10 +8335,14 @@
         "contributors": [
             "Marija Schufrin"
         ],
-        "authors": [],
+        "authors": [
+            "Marija Schufrin",
+            "Hendrik L\u00fccke-Tieke",
+            "J\u00f6rn Kohlhammer"
+        ],
         "abstract": "Network security is critical for organizations to secure their network resources from intrusion and attacks. A security policy is a rule enforced in the network to allow or block network traffic. To write security policies, network analysts divide their networks into segments or parts with similar security needs. Segmentation makes writing security policies manageable and identifies more robust security policies for the network. Visualizations can help analysts to understand the segmented network and define security policies. We contribute Portola, a hybrid tree and network visualization technique to display a segmented computer network. Portola presents an overview of the segmentation as a hierarchy and displays connections within the network. Using Portola, analysts can explore a segmented network, identify nodes and connections of interest through exploratory network analysis, and drill down on elements of interest to reason about the patterns of relationships in the network. Through this work, we also discuss the goals of network analysts who work with segmented networks and discuss the lessons learned from the user-centered iterative design of Portola.",
         "uid": "a-vizsec-9019",
-        "file_name": "",
+        "file_name": "a-vizsec-9019_Schufrin_Presentation.mp4",
         "time_stamp": "2022-10-19T16:45:00Z",
         "time_start": "2022-10-19T16:45:00Z",
         "time_end": "2022-10-19T16:57:00Z",
@@ -8202,7 +8366,14 @@
         "contributors": [
             "Jiabao Li"
         ],
-        "authors": [],
+        "authors": [
+            "Jiabao Li",
+            "Houjiang Liu",
+            "Jilie Zeng",
+            "Di Wu",
+            "Ying Ding",
+            "Alec McGail"
+        ],
         "abstract": "Every researcher alive today had their mentors, those who helped assimilate them into a life of scholarly work. And in turn they each had their mentors, and so on to the dawn of knowledge. In the same way, each researcher\u2019s mentees take their perspectives and methods to future mentees, and to their mentees, etc. These comprise the roots and branches, respectively, of the academic tree of a single researcher. If we let these ancestors\u2019 and descendants\u2019 genders affect these trees like a \u201cwind,\u201d most curl nearly to the earth. We depict and describe the structure of these trees, and how this wind has changed over the decades. To set these trees growing upright again we visualize giving differential weight to male and female researchers.",
         "uid": "a-visap-1021",
         "file_name": "",
@@ -8227,10 +8398,12 @@
         "contributors": [
             "Predro Cruz"
         ],
-        "authors": [],
+        "authors": [
+            "Pedro Cruz"
+        ],
         "abstract": "When looking at diversity from a racial perspective, homogenous communities are still the norm, as they remain siloed not only locally, but in their very own households as well. This visualization project comes as a celebration of the fringe couples and families who have a multi-racial identity, effectively embodying the intermingle of races, and dissolving the systemic barriers put on their very own existence. According to the census, there are only vestiges of these multi-racial families until 1960. More recently, there as been a surge of these families in the data, but they are still a rarity, still mere traces of diversity in America. In this visualization you can see every registered multi-racial couple in America, for recent periods in 1-5% samples of the population, and for older periods in 100% samples of the population. Each couple is represented as a colorful animated chromosome, enabling to see the races within each family, their ages, sexes, and children.",
         "uid": "a-visap-1030",
-        "file_name": "",
+        "file_name": "a-visap-1030_Cruz_Presentation.mp4",
         "time_stamp": "2022-10-19T14:09:00Z",
         "time_start": "2022-10-19T14:09:00Z",
         "time_end": "2022-10-19T14:14:00Z",
@@ -8252,7 +8425,12 @@
         "contributors": [
             "Kim Albrecht"
         ],
-        "authors": [],
+        "authors": [
+            "Kim Albrecht",
+            "Catherine D'Ignazio",
+            "Matthew Battles",
+            "Nicole Martin"
+        ],
         "abstract": "Cosmologists say that most of the universe is structured by antimatter. We postulate that social media is similarly structured by effects of the unobserved discourse and experience. The backbone of a movement such as #MeToo is not based on the most-liked and most-retweeted, but by the masses of unobserved tweets. Vast numbers of #MeToo tweets that had no retweets and no likes nonetheless constituted acts of quiet testimony or unassuming solidarity. Conventional measures of network science thus fail to capture the true relevance of #MeToo. As Black feminist Patricia Hill Collins says, \"Most activism is brought about by ordinary people like ourselves.\"  From a distance, the graphics appear as abstract diagrams, similar to Bridget Riley\u2019s work. The beauty of each line contains a powerful request for a reordering of power within society. We present an opportunity to engage with each request\u2014from individual people at individual moments within a collective movement that is not over. #MeToo is urgent, #InvisibleNoMore is urgent, #BelieveBlackWomen is urgent, #MMIWG2S is urgent, #SayHerName is urgent. We are still living in a crisis of sexual violence. So we invite you to ditch the networked metrics and listen.",
         "uid": "a-visap-1024",
         "file_name": "",
@@ -8277,10 +8455,14 @@
         "contributors": [
             "Andrea Benedetti"
         ],
-        "authors": [],
+        "authors": [
+            "Andrea Benedetti",
+            "Beatrice Gobbo",
+            "Giacomo Flaim"
+        ],
         "abstract": "During the spring of 2020, COVID-19 limited contact between people and prevented from meeting and aggregating in real places. Many had to stay at home, and others spent time in quarantine facilities. In this context, virtual aggregation has increased at the expense of in-person aggregation. Expressive geo-tagging, namely the practice of creating locations with fictitious names to express an emotional condition, became worthy of attention. Grounded on anecdotal evidence, fictitious digital locations on social media such as \u201cQuarantine\u201d began to proliferate, which, despite not having a name that could be traced back to an existing place, still carried geo-referenced information with them. Starting from this concept, we present the book Quaran.tiles, an archive of 364 expressive digital places collected from Instagram in April 2020 and enriched with information from Google Street View, which aims to give space and dimension to the resulting collection of fictitious and mingling user-generated places.",
         "uid": "a-visap-1041",
-        "file_name": "",
+        "file_name": "a-visap-1041_Benedetti_Presentation.mp4",
         "time_stamp": "2022-10-19T14:30:00Z",
         "time_start": "2022-10-19T14:30:00Z",
         "time_end": "2022-10-19T14:39:00Z",
@@ -8302,10 +8484,13 @@
         "contributors": [
             "Wai Lam Noah Luk"
         ],
-        "authors": [],
+        "authors": [
+            "Wai Lam Noah Luk",
+            "Chunxi Liu"
+        ],
         "abstract": "In this annotated portfolio, we will introduce a posthumanist idea of using micro-organism to define the mingling spaces. As a result, to explore and extend the current boundary of the cultural concerns of human beings. Alongside the philosophical discussion, we will also present a multidisciplinarily-fabricated installation to visualize the idea through 3D printing technology and biomedical experiments. (The geographical location of this project is based in Hong Kong).",
         "uid": "a-visap-1043",
-        "file_name": "",
+        "file_name": "a-visap-1043_Luk_Presentation.mp4",
         "time_stamp": "2022-10-19T14:39:00Z",
         "time_start": "2022-10-19T14:39:00Z",
         "time_end": "2022-10-19T14:48:00Z",
@@ -8327,10 +8512,13 @@
         "contributors": [
             "Luiz Ludwig"
         ],
-        "authors": [],
+        "authors": [
+            "Luiz Ludwig",
+            "Doris Kosminsky"
+        ],
         "abstract": "The artwork Tangled Tracks is an installation that consists of a set of 16 red and white ceramic tiles with projections that register the real and virtual paths taken by the artist. As a way of exhibiting them, the tiles are available so the public can interact and rearrange them in their own way. In this manner, participants are invited to form their own paths, imagining and fabulating routes.",
         "uid": "a-visap-1019",
-        "file_name": "",
+        "file_name": "a-visap-1019_Ludwig_Presentation.mp4",
         "time_stamp": "2022-10-19T14:48:00Z",
         "time_start": "2022-10-19T14:48:00Z",
         "time_end": "2022-10-19T14:53:00Z",
@@ -8352,10 +8540,16 @@
         "contributors": [
             "Sergio M. Rebelo"
         ],
-        "authors": [],
+        "authors": [
+            "S\u00e9rgio M. Rebelo",
+            "Mariana Sei\u00e7a",
+            "Pedro Martins",
+            "Jo\u00e3o Bicker",
+            "Penousal Machado"
+        ],
         "abstract": "We present ESSYS* Sharing #UC, an audiovisual installation artwork that reflects upon the emotional context related to the university and the city of Coimbra, based on the data shared about them on Twitter. The installation was presented in an urban art gallery of C\u00edrculo de Artes Pl\u00e1sticas de Coimbra during the summer and autumn of 2021. In the installation space, one may see a collection of typographic posters displaying the tweets and listening to an ever-changing ambient sound. The present audiovisuals are created by an autonomous computational creative approach, which employs a neural classifier to recognise the emotional context of a tweet and uses this resulting data as feedstock for the audiovisual generation. The installation\u2019s space is designed to promote an approach and blend between the online and physical perceptions of the same location. We applied multiple experiments with the proposed approach to evaluate the capability and performance. Also, we conduct interview-based evaluation sessions to understand how the installation elements, especially poster designs, are experienced by people regarding diversity, expressiveness and possible employment in other commercial and social scenarios.",
         "uid": "a-visap-1027",
-        "file_name": "",
+        "file_name": "a-visap-1027_Rebelo_Presentation.mp4",
         "time_stamp": "2022-10-19T14:53:00Z",
         "time_start": "2022-10-19T14:53:00Z",
         "time_end": "2022-10-19T15:02:00Z",
@@ -8377,10 +8571,14 @@
         "contributors": [
             "Zhen Zeng"
         ],
-        "authors": [],
+        "authors": [
+            "Zhen Zeng",
+            "Jie Wang",
+            "Nan He"
+        ],
         "abstract": "In the era of information, the feeling that the pen tip rubs against the paper is getting farther away, and the way of writing Chinese characters with strokes is gradually alienating. In response to this problem, this work tries to help people relive the touch of handwriting through the mingling of real and virtual experiences. The designer collaborated with AI to design a Chinese font that integrates bamboo leaves' shape and Chinese characters' structure. Based on the font, an interactive installation was set up to start a virtual Chinese poetry bamboo forest scene through real handwriting behavior.",
         "uid": "a-visap-1032",
-        "file_name": "",
+        "file_name": "a-visap-1032_Zeng_Presentation.mp4",
         "time_stamp": "2022-10-20T14:00:00Z",
         "time_start": "2022-10-20T14:00:00Z",
         "time_end": "2022-10-20T14:10:00Z",
@@ -8402,10 +8600,16 @@
         "contributors": [
             "Wang Linqi"
         ],
-        "authors": [],
+        "authors": [
+            "Linqi Wang",
+            "Fengzhou Liang",
+            "Fang Liu",
+            "Boai Yang",
+            "Junyan Lv"
+        ],
         "abstract": "We express the conflict between industrialization and ecological civilization through Cyber Aesthetics and interactive web pages. We popularize the originally cryptic knowledge of Forest Ecology to the public through common visual metaphors and interactive effects. With this work spreading online, we hope to attract more people to join the construction of ecological civilization and pay tribute to Forest Ecological Scientists. There are already some scientific research results on forest carbon fixation, and a large amount of scientific data has been generated. However, these achievements and data are highly specialized, detached from daily life, and subsequently receive rare public attention. The physical space humans depend on is strongly interconnected, and forests and cities seem separate but mingling. The production and living of people produce lots of greenhouse gases, which need to be consumed by forest plants through photosynthesis, fixing CO2 in the form of organic carbon in the soil and biomass to ensure the carbon cycle. Industrialization has led to excessive CO2 emissions, causing severe disturbances to the carbon cycle process. At the same time, nature is constantly warning humanity, accompanied by frequent occurrences of extreme weather. Therefore, natural forest conservation and plantation forest management are crucial for future ecological civilization.",
         "uid": "a-visap-1079",
-        "file_name": "",
+        "file_name": "a-visap-1079_[wang]_Presentation.mp4",
         "time_stamp": "2022-10-20T14:10:00Z",
         "time_start": "2022-10-20T14:10:00Z",
         "time_end": "2022-10-20T14:15:00Z",
@@ -8427,7 +8631,9 @@
         "contributors": [
             "Amay Kataria"
         ],
-        "authors": [],
+        "authors": [
+            "Amay Kataria"
+        ],
         "abstract": "This pictorial presents the journey of a light and sound installation called Supersynthesis, which collects data from its users through an interactive digital interface and expresses it through the physical installation. It begins by going over historical works and methodologies that align with this project, goes over the design decisions behind the sculptural form and its software architecture, and finally analyzes its function through the lens of a \u201dperformative object\u201d to draw connections with the theme of Mingling Spaces.",
         "uid": "a-visap-1018",
         "file_name": "",
@@ -8452,7 +8658,12 @@
         "contributors": [
             "Bon Adriel Aseniero"
         ],
-        "authors": [],
+        "authors": [
+            "Bon Adriel Aseniero",
+            "Sheelagh Carpendale",
+            "George Fitzmaurice",
+            "Justin Matejka"
+        ],
         "abstract": "In creating SkyGlyphs, our goal was to develop a data visualization that could possibly capture people\u2019s attention and spark their curiosity to explore a dataset. This work was inspired by a mingling of research including serendipitous interactions, visualizations for public displays, and personal visualizations. SkyGlyphs is a nonconventional whimsical visualization, depicting datapoints as animated balloons in space. We designed it to encourage non-experts to casually browse the contents of a repository through visual interactions like linking and grouping of datapoints. Our contributions include SkyGlyphs\u2019 representation and our design reflection that reveals a perspective on how to design delightful visualizations.",
         "uid": "a-visap-1013",
         "file_name": "",
@@ -8477,10 +8688,15 @@
         "contributors": [
             "Christoph Muller"
         ],
-        "authors": [],
+        "authors": [
+            "Christoph M\u00fcller",
+            "Karsten Schatz",
+            "Florian Frie\u00df",
+            "Michael Krone"
+        ],
         "abstract": "The molecular world is always in motion \u2013 molecules are never stationary, their atoms are constantly vibrating due to thermal energies and other external forces. This ongoing motion is the reason that our exhibit is in the form of a mobile \u2013 a form of art already used by Alexander Calder, who believed that the mathematical laws of the universe could not be expressed by static art. The idea of mysterious forces holding the universe in balance inspired his mobiles. Likewise, the ever-moving elements of the molecular space are not only invisible, but their shapes are of purely theoretical nature. Visualisation makes the elegance and beauty of the molecular world visible in virtual space by representing molecular models as molecular surfaces portraying the interface between a protein and its environment. Our exhibit not only makes such visualisations transcend into our three-dimensional, tangible space, but also mingles all intermediate mathematical spaces that the idea of molecular surfaces traverse to reach their visual representation into one object. It therefore makes the visualisation process behind the idea of molecular surface maps more tangible by showing the metaphor of a planet being charted.",
         "uid": "a-visap-1089",
-        "file_name": "",
+        "file_name": "a-visap-1089_M\u00fcller_Presentation.mp4",
         "time_stamp": "2022-10-20T14:43:00Z",
         "time_start": "2022-10-20T14:43:00Z",
         "time_end": "2022-10-20T14:48:00Z",
@@ -8502,10 +8718,12 @@
         "contributors": [
             "Yin Yu"
         ],
-        "authors": [],
+        "authors": [
+            "Yin Yu"
+        ],
         "abstract": "Human skin exchanges real-time energy, such as temperature, humidity, and pressure, from its surrounding space. What if our skin can listen? SoftVoss is a morphing artificial skin that changes its appearance by real-time sound.   SoftVoss brings sound material into a body architectural space that perfectly represents the show\u2019s theme--Mingling Spaces. In general, skin as the outer layer of a body protects our inner body from the environment. SoftVoss responds to the space through a new dimension of senses: aural. As an artificial skin, SoftVoss becomes a medium for visual communication with the soundscape.   SoftVoss used the information of sound morphology\u2013the transformation of sound material\u2013to shape the feather-like wearables. The realization of SoftVoss has three main components: sound materials, control system, and soft structure. Sound material, captured by microphones, is the input data to control the piece. The four channels of sound materials activate the four layers of feathers using the real-time input. The sounds captured from different source directions activities the specific layer of the feather.   SoftVoss visualizes the sound information through a 3D morphogenesis of wearable art. This work received successful recognition at my solo exhibition at the GlassBox Gallery at the University of California, Santa Barbara, in 2021.",
         "uid": "a-visap-1052",
-        "file_name": "",
+        "file_name": "a-visap-1052_Yu_Presentation.mp4",
         "time_stamp": "2022-10-20T14:48:00Z",
         "time_start": "2022-10-20T14:48:00Z",
         "time_end": "2022-10-20T14:53:00Z",
@@ -8527,10 +8745,12 @@
         "contributors": [
             "Mar\u00c3\u00ada Castellanos Vicente"
         ],
-        "authors": [],
+        "authors": [
+            "Mar\u00eda Castellanos Vicente"
+        ],
         "abstract": "The artwork is a video installation that allows the audience to visualize and compare the reactions of humans and plants to a common stimulus; live music. Erasing boundaries into the communication and understanding between both living beings and by highlighting  the immediate reactions of plants to their surrounding changes.  The installation is the result of several sessions where the brain activity of humans was measured, through the EEG registered wave,  and measuring  the electrical oscillations that are happening into the plants, measured with a sensor developed by the artists, able to detect immediate changes in plants.  Through the use of mathematics,  by using the Fast Fourier Transform, humans data and plants data are able to compare each other. This data can also be displayed graphically thanks to an algorithm developed by the artists that allow the audience to see the data through the shape of little spheres that are moving within the geometric shape of torus. Each little sphere represent each data registered. The graphic representation of  human data and plant data can be seen simultaneously in a video allowing the audience to find patterns by comparing the both living beings reactions to the live music.  The video installation is composed by two synchronized videos. One video with the the concert for plants and humans, and the other one with the data visualization of two living beings responses during the performance.  Through this artistic research we wanted to know more about the secrets language of plants. To know more about the plants\u2019 language and behavior will allow us to know more about nature, thus we could beMer understand our environment.  To have an impact in other fields such as climate change, which is a reality happening now; the more we know about our environment and the living organisms that are living with us on Earth, the more we can do to try to improve the situation. Plants could give us a lot of information that we cannot understand yet, but this can help formulate new questions.",
         "uid": "a-visap-1038",
-        "file_name": "",
+        "file_name": "a-visap-1038_Castellanos_Presentation.mp4",
         "time_stamp": "2022-10-20T14:53:00Z",
         "time_start": "2022-10-20T14:53:00Z",
         "time_end": "2022-10-20T14:58:00Z",
@@ -8552,7 +8772,11 @@
         "contributors": [
             "Stephanie Zeller"
         ],
-        "authors": [],
+        "authors": [
+            "Stephanie Zeller",
+            "Francesca Samsel",
+            "Lyn Bartram"
+        ],
         "abstract": "As scientific data continues to grow in size, complexity, and density, the representation scope of three-dimensional spaces, data sampling methods, and transfer functions have improved in parallel, allowing visualization practitioners to produce richer multidimensional encodings. Glyphs, in particular, have become an essential encoding tool due to their versatile applications in co-located multivariate volumetric datasets. While prior work has been conducted investigating the perceptual attributes of computationally-generated three-dimensional glyph-forms for scientific visualization, their affective and expressive qualities have yet to be examined. Further, our prior work has demonstrated the benefits of artist hand-created glyph forms in contrast to commonly-used synthetic forms in increasing visual diversity, discrimination, and expressive association in complex environmental datasets. In order to begin to address this gap, we establish preliminary groundwork for an affective design space for hand-created glyph forms, produce a novel set of glyph-forms based on this design space, describe a non-verbal method for discovering affective classifications of glyph-forms adopted from current affect theory, and report the results of two studies that explore how these three-dimensional forms produce consistent affective responses across assorted study cohorts.",
         "uid": "a-visap-1072",
         "file_name": "",
@@ -8577,10 +8801,17 @@
         "contributors": [
             "Stefan Zellmann"
         ],
-        "authors": [],
+        "authors": [
+            "Stefan Zellmann",
+            "Ingo Wald",
+            "Joao Barbosa",
+            "Serkan Demirci",
+            "Alper Sahistan",
+            "Ugur Gudukbay"
+        ],
         "abstract": "In parallel ray tracing, techniques fall into one of two camps: image-parallel techniques aim at increasing frame rate by replicating scene data across nodes and splitting the rendering work across different ranks, and data-parallel techniques aim at increasing the size of the model that can be rendered by splitting the model across multiple ranks, but typically cannot scale much in frame rate. We propose and evaluate a hybrid approach that combines the advantages of both by splitting a set of N \u00d7 M ranks into M islands of N ranks each and using data-parallel rendering within each island and image parallelism across islands. We discuss the integration of this concept into four wildly different parallel renderers and evaluate the efficacy of this approach based on multiple different data sets.",
         "uid": "a-ldav-1016",
-        "file_name": "",
+        "file_name": "a-ldav-1016_Zellmann_Presentation.mp4",
         "time_stamp": "2022-10-16T15:45:00Z",
         "time_start": "2022-10-16T15:45:00Z",
         "time_end": "2022-10-16T16:05:00Z",
@@ -8602,7 +8833,13 @@
         "contributors": [
             "Marvin Petersen"
         ],
-        "authors": [],
+        "authors": [
+            "Marvin Petersen",
+            "Kilian Werner",
+            "Andrea Schnorr",
+            "Torsten Wolfgang Kuhlen",
+            "Christoph Garth"
+        ],
         "abstract": "For next generation platforms, the paradigm of task-based parallelism has the potential to overcome some of the accompanying challenges. This paradigm has already been applied by the visualization community to specific algorithms and problems. However, one advantage of the task-based paradigm\u2014the interleaving of work\u2014should lead to better utilization of resources and ultimately lower execution times if the paradigm is applied to whole pipelines. In order to investigate this potential, we build a prototype framework for composable task-based parallel visualization algorithms. With this we explore the combination of a strictly task-based approach with the addition of a pipeline layer for visualization algorithms. This additional layer eases the composition of larger task-based parallel visualization applications without the need to explicitly define the exact connection in a task graph between algorithms. In this manner, task-based visualization algorithms can be designed towards a common interface, be easily combined, and still benefit from the advantages of the task-based paradigm across algorithm boundaries, such as latency hiding. We explore the design implications of this combination and show initial results of the scalability and the impact of task interleaving on the runtime of exemplary pipelines.",
         "uid": "a-ldav-1012",
         "file_name": "",
@@ -8627,10 +8864,12 @@
         "contributors": [
             "Aniketh Venkat"
         ],
-        "authors": [],
+        "authors": [
+            "Aniketh Venkat"
+        ],
         "abstract": "Large-scale three-dimensional (3D) microscopy acquisitions frequently create terabytes of image data at high resolution and magnification. Imaging large specimens at high magnifications requires acquiring 3D overlapping image stacks as tiles arranged on a two-dimensional (2D) grid that must subsequently be aligned and fused into a single 3D volume. Due to their sheer size, aligning many overlapping gigabyte-sized 3D tiles in parallel and at full resolution is memory intensive and often I/O bound. Current techniques trade accuracy for scalability, perform alignment on subsampled images, and require additional postprocess algorithms to refine the alignment quality, usually with high computational requirements. One common solution to the memory problem is to subdivide the overlap region into smaller chunks (sub-blocks) and align the sub-block pairs in parallel, choosing the pair with the most reliable alignment to determine the global transformation. Yet aligning all sub-block pairs at full resolution remains computationally expensive. The key to quickly developing a fast, high-quality, low-memory solution is to identify a single or a small set of sub-blocks that give good alignment at full resolution without touching all the overlapping data. In this paper, we present a new iterative approach that leverages coarse resolution alignments to progressively refine and align only the promising candidates at finer resolutions, thereby aligning only a small user-defined number of sub-blocks at full resolution to determine the lowest error transformation between pairwise overlapping tiles. Our progressive approach is 2.6x faster than the state of the art, requires less than 450MB of peak RAM (per parallel thread), and offers a higher quality alignment without the need for additional postprocessing refinement steps to correct for alignment errors.",
         "uid": "a-ldav-1008",
-        "file_name": "",
+        "file_name": "a-ldav-1008_Venkat_Presentation.mp4",
         "time_stamp": "2022-10-16T16:35:00Z",
         "time_start": "2022-10-16T16:35:00Z",
         "time_end": "2022-10-16T16:55:00Z",
@@ -8652,7 +8891,11 @@
         "contributors": [
             "Hamish Carr"
         ],
-        "authors": [],
+        "authors": [
+            "Hamish Carr",
+            "Oliver R\u00fcbel",
+            "Gunther H Weber"
+        ],
         "abstract": "Contour trees are a significant tool for data analysis as they capture both local and global variation. However, their utility has been limited by scalability, in particular for distributed computation and storage. We report a distributed data structure for storing the contour tree of a data set distributed on a cluster, based on a fan-in hierarchy, and an algorithm for computing it based on the boundary tree that represents only the superarcs of a contour tree that involve contours that cross boundaries between blocks. This allows us to limit the communication cost for contour tree computation to the complexity of the block boundaries rather than of the entire data set.",
         "uid": "a-ldav-1013",
         "file_name": "",
@@ -8677,10 +8920,16 @@
         "contributors": [
             "Florent Nauleau"
         ],
-        "authors": [],
+        "authors": [
+            "Florent Nauleau",
+            "Fabien Vivodtzev",
+            "Thibault Bridel-Bertomeu",
+            "H\u00e9lo\u00efse Beaugendre",
+            "Julien Tierny"
+        ],
         "abstract": "This application paper presents a comprehensive experimental evaluation of the suitability of Topological Data Analysis (TDA) for the quantitative comparison of turbulent flows. Specifically, our study documents the usage of the persistence diagram of the maxima of flow enstrophy (an established vorticity indicator), for the topological representation of 180 ensemble members, generated by a coarse sampling of the parameter space of five numerical solvers. We document five main hypotheses reported by domain experts, describing their expectations regarding the variability of the flows generated by the distinct solver configurations. We contribute three evaluation protocols to assess the validation of the above hypotheses by two comparison measures: (i) a standard distance used in distance between persistence diagrams (the L2 -Wasserstein metric). Extensive experiments on the input ensemble demonstrate the superiority of the topological distance (ii) to report as close to each other flows which are expected to be similar by domain experts, due to the configuration of their vortices. Overall, the insights reported by our study bring an experimental evidence of the suitability of TDA for representing and comparing turbulent flows, thereby providing to the fluid dynamics community confidence for its usage in future work. Also, our flow data and evaluation protocols provide to the TDA community an application-approved benchmark for the evaluation and design of further topological distances.",
         "uid": "a-ldav-1001",
-        "file_name": "",
+        "file_name": "a-ldav-1001_Nauleau_Presentation.mp4",
         "time_stamp": "2022-10-16T19:25:00Z",
         "time_start": "2022-10-16T19:25:00Z",
         "time_end": "2022-10-16T19:45:00Z",
@@ -8702,10 +8951,15 @@
         "contributors": [
             "Keita Watanabe"
         ],
-        "authors": [],
+        "authors": [
+            "Keita Watanabe",
+            "Naohisa Sakamoto",
+            "Jorji Nonaka",
+            "Yasumitsu Maejima"
+        ],
         "abstract": "With the continuous increase in the computational power and resources of modern high-performance computing (HPC) systems, large-scale ensemble simulations have become widely used in various fields of science and engineering, and especially in meteorological and climate science. It is widely known that the simulation outputs are large time-varying, multivariate, and multivalued datasets which pose a particular challenge to the visualization and analysis tasks. In this work, we focused on the widely used Parallel Coordinates Plot (PCP) to analyze the interrelations between different parameters, such as variables, among the members. However, PCP may suffer from visual cluttering and drawing performance with the increase on the data size to be analyzed, that is, the number of polylines. To overcome this problem, we present an extension to the PCP by adding B\\'{e}zier curves connecting the angular distribution plots representing the mean and variance of the inclination of the line segments between parallel axes. The proposed Angular-based Parallel Coordinates Plot (APCP) is capable of presenting a simplified overview of the entire ensemble data set while maintaining the correlation information between the adjacent variables. To verify its effectiveness, we developed a visual analytics prototype system and evaluated by using a meteorological ensemble simulation output from the supercomputer Fugaku.",
         "uid": "a-ldav-1006",
-        "file_name": "",
+        "file_name": "a-ldav-1006_Keita_Presentation.mp4",
         "time_stamp": "2022-10-16T19:50:00Z",
         "time_start": "2022-10-16T19:50:00Z",
         "time_end": "2022-10-16T20:10:00Z",
@@ -8735,7 +8989,7 @@
         ],
         "abstract": "Task abstractions and taxonomic structures for tasks are useful for designers of interactive data analysis approaches, serving as design targets and evaluation criteria alike. For individual data types, dataset-specific taxonomic structures capture unique data characteristics, while being generalizable across application domains. The creation of dataset-centric but domain-agnostic taxonomic structures is difficult, especially if best practices for a focused data type are still missing, observing experts is not feasible, and means for reflection and generalization are scarce. We discovered this need for methodological support when working with time-stamped event sequences, a datatype that has not yet been fully systematically studied in visualization research. To address this shortcoming, we present a methodology that enables researchers to abstract tasks and build dataset-centric taxonomic structures in five phases (data collection, coding, task categorization, task synthesis, and action-target-(criterion) crosscut). We validate the methodology by applying it to time-stamped event sequences and present a task typology that uses triples as a novel language of description for tasks: (1) action, (2) data target, and (3) data criterion. We further evaluate the descriptive power of the typology with a real-world case on cybersecurity.",
         "uid": "w-beliv-2070",
-        "file_name": "",
+        "file_name": "w-beliv-2070_Peiris_Presentation.mp4",
         "time_stamp": "2022-10-17T15:45:00Z",
         "time_start": "2022-10-17T15:45:00Z",
         "time_end": "2022-10-17T15:55:00Z",
@@ -8766,7 +9020,7 @@
         ],
         "abstract": "Population Health Management (PHM) relies on the analysis of data from several sources to account for the complex interaction of factors that contribute to the health and well-being of a population, while considering biases and inequalities across sub-populations. Visualisation is emerging as an essential tool for insight generation from data shared and linked across services including healthcare, education, housing, policing, etc. However, visualisation design is challenged by poor data connectivity and quality, high dimensionality and complexity of real-world routinely collected data, in addition to the heterogeneity of users\u2019 backgrounds and tasks. The Creative Visualisation Opportunities (CVO) framework provides a structured approach for working with diverse communities of visualisation stakeholders and defines a set of participatory activities for the effective elicitation of requirements and visualisation design alternatives. We conducted three workshops, applying variations of the CVO framework, with over one hundred participants from the PHM domain, including clinicians, researchers, government and private sector representatives, and local communities. In this paper, we present the results of preliminary analysis of these activities and report on the perceived impact of visualisation in this domain from a stakeholders\u2019 perspective. We report real-world successes and limitations of applying the framework in different formats (through online and in-person workshops), and reflect on lessons learned for task analysis and visualisation design in the PHM domain.",
         "uid": "w-beliv-4877",
-        "file_name": "",
+        "file_name": "w-beliv-4877_Elshehaly_Presentation.mp4",
         "time_stamp": "2022-10-17T16:00:00Z",
         "time_start": "2022-10-17T16:00:00Z",
         "time_end": "2022-10-17T16:10:00Z",
@@ -8827,7 +9081,7 @@
         ],
         "abstract": "Gaining insight is considered one of the relevant purposes of visual data exploration, yet studies that categorize insights are rare. This paper reports on a study to understand if the categorization model used to describe insights and personality factors affect insight-based evaluations' findings. Participants completed a set of tasks with three hierarchical visualizations and then reported what insights they could gather from them. Results show that the insight categorization taxonomies produce different descriptions of insights based on the same corpus of responses. In addition, our findings suggest that the openness to experience trait positively influences the number of reported insights. Both these factors may create obstacles to the design of insight-based evaluations and, consequently, should be controlled in the experimental design. We discuss the study implications, lessons learned, and future work opportunities.",
         "uid": "w-beliv-7504",
-        "file_name": "",
+        "file_name": "w-beliv-7504_Alves_Presentation.mp4",
         "time_stamp": "2022-10-17T16:30:00Z",
         "time_start": "2022-10-17T16:30:00Z",
         "time_end": "2022-10-17T16:40:00Z",
@@ -8909,14 +9163,14 @@
         ],
         "authors": [
             "Dimitar Garkov",
-            "Christoph  M\u00fcller",
+            "Christoph M\u00fcller",
             "Matthias Braun",
             "Daniel Weiskopf",
-            "Falk  Schreiber"
+            "Falk Schreiber"
         ],
         "abstract": "Research data curation is the act of carefully preparing research data and artifacts for sharing and long-term preservation. Research data management is centrally implemented and formally defined in a data management plan to enable data curation. In tandem, data curation and management facilitate research repeatability. In contrast to other research fields, data curation and management in visualization are not yet part of the researcher's compendium. In this position paper, we discuss the unique challenges visualization faces and propose how data curation can be practically realized. We share eight lessons learned in managing data in two large research consortia, outline the larger curation workflow, and define the typical roles. We complement our lessons with minimum criteria for selecting a suitable data repository and five challenging scenarios that occur in practice. We conclude with a vision of how the visualization research community can pave the way for new curation standards.",
         "uid": "w-beliv-7497",
-        "file_name": "",
+        "file_name": "w-beliv-7497_Garkov_Presentation.mp4",
         "time_stamp": "2022-10-17T19:15:00Z",
         "time_start": "2022-10-17T19:15:00Z",
         "time_end": "2022-10-17T19:25:00Z",
@@ -8950,7 +9204,7 @@
         ],
         "abstract": "Appropriate evaluation and experimental design are fundamental for empirical sciences, particularly in data-driven fields. Due to the successes in computational modeling of languages, for instance, research outcomes are having an increasingly immediate impact on end users. As the gap in adoption by end users decreases, the need increases to ensure that tools and models developed by the research communities and practitioners are reliable, trustworthy, and supportive of the users in their goals. In this position paper, we focus on the issues of evaluating visual text analytic approaches. We take an interdisciplinary perspective from the visualization and natural language processing communities, as we argue that the design and validation of visual text analytics include concerns beyond computational or visual/interactive methods on their own. We identify four key groups of challenges for evaluating visual text analytic approaches (data ambiguity, experimental design, user trust, and big picture concerns) and provide suggestions for research opportunities from an interdisciplinary perspective.",
         "uid": "w-beliv-3665",
-        "file_name": "",
+        "file_name": "w-beliv-3665_Kucher_Presentation.mp4",
         "time_stamp": "2022-10-17T19:30:00Z",
         "time_start": "2022-10-17T19:30:00Z",
         "time_end": "2022-10-17T19:40:00Z",
@@ -9021,6 +9275,37 @@
         "has_pdf": false,
         "ff_link": ""
     },
+    "a-vds-1033": {
+        "slot_id": "a-vds-prog-5",
+        "session_id": "a-vds-1",
+        "type": "Virtual Presentation (live)",
+        "title": "Paper 1: [Best Paper Award] PSEUDo: Interactive Pattern Search in Multivariate Time Series with Locality-Sensitive Hashing and Relevance Feedback",
+        "contributors": [
+            "Yuncong Yu"
+        ],
+        "authors": [
+            "Yuncong Yu",
+            "Dylan Kruyff",
+            "Jiao Jiao",
+            "Tim Becker",
+            "Michael Behrisch"
+        ],
+        "abstract": "",
+        "uid": "a-vds-1033",
+        "file_name": "a-vds-1033_Yu_Presentation.mp4",
+        "time_stamp": "2022-10-16T14:41:00Z",
+        "time_start": "2022-10-16T14:41:00Z",
+        "time_end": "2022-10-16T14:50:00Z",
+        "paper_type": "associated",
+        "keywords": [],
+        "has_image": "1",
+        "has_video": "498",
+        "paper_award": "",
+        "image_caption": "PSEUDo is an efficient, adaptive and interpretable tool for visual pattern retrieval in multivariate time series.\nIt makes locality-sensitive hashing trainable while maintaining its efficiency and promoting interpretability.\nIt introduced a relevance feedback mechanism to capture subjective similarity through feature selection.  \nPSEUDo is particularly efficient for very high-dimensional time series and in cases where initial labels are meager, and the promptness of the outcome counts.",
+        "external_paper_link": "",
+        "has_pdf": false,
+        "ff_link": ""
+    },
     "a-vds-1019": {
         "slot_id": "a-vds-1019-pres",
         "session_id": "a-vds-1",
@@ -9029,10 +9314,17 @@
         "contributors": [
             "Eren Cakmak"
         ],
-        "authors": [],
+        "authors": [
+            "Eren Cakmak",
+            "Johannes Fuchs",
+            "Dominik J\u00e4ckle",
+            "Tobias Schreck",
+            "Ulrik Brandes",
+            "Daniel Keim"
+        ],
         "abstract": "",
         "uid": "a-vds-1019",
-        "file_name": "",
+        "file_name": "a-vds-1019_Cakmak_Presentation.mp4",
         "time_stamp": "2022-10-16T14:52:00Z",
         "time_start": "2022-10-16T14:52:00Z",
         "time_end": "2022-10-16T15:01:00Z",
@@ -9055,10 +9347,14 @@
             "Rock Yuren Pan",
             "Leilani Battle"
         ],
-        "authors": [],
+        "authors": [
+            "Yuren Pang",
+            "Ruotong Wang",
+            "Leilani Battle"
+        ],
         "abstract": "",
         "uid": "a-vds-1025",
-        "file_name": "",
+        "file_name": "a-vds-1025_Pang_Presentation.mp4",
         "time_stamp": "2022-10-16T15:03:00Z",
         "time_start": "2022-10-16T15:03:00Z",
         "time_end": "2022-10-16T15:12:00Z",
@@ -9080,10 +9376,18 @@
         "contributors": [
             "Agapi Rissaki"
         ],
-        "authors": [],
+        "authors": [
+            "Agapi Rissaki",
+            "Bruno Scarone",
+            "David Liu",
+            "Aditeya pandey",
+            "Brennan Klein",
+            "Tina Eliassi-Rad",
+            "Michelle Borkin"
+        ],
         "abstract": "",
         "uid": "a-vds-1030",
-        "file_name": "",
+        "file_name": "a-vds-1030_Rissaki_Presentation.mp4",
         "time_stamp": "2022-10-16T15:14:00Z",
         "time_start": "2022-10-16T15:14:00Z",
         "time_end": "2022-10-16T15:23:00Z",
@@ -9105,10 +9409,13 @@
         "contributors": [
             "Han Liu"
         ],
-        "authors": [],
+        "authors": [
+            "Han Liu",
+            "Chris North"
+        ],
         "abstract": "",
         "uid": "a-vds-1038",
-        "file_name": "",
+        "file_name": "a-vds-1038_Han_Presentation.mp4",
         "time_stamp": "2022-10-16T15:55:00Z",
         "time_start": "2022-10-16T15:55:00Z",
         "time_end": "2022-10-16T16:02:00Z",
@@ -9130,10 +9437,17 @@
         "contributors": [
             "Rebecca Faust"
         ],
-        "authors": [],
+        "authors": [
+            "Rebecca Faust",
+            "Carlos Scheidegger",
+            "Katherine Isaacs",
+            "William Bernstein",
+            "Michael Sharp",
+            "Chris North"
+        ],
         "abstract": "",
         "uid": "a-vds-1021",
-        "file_name": "",
+        "file_name": "a-vds-1021_Faust_Presentation.mp4",
         "time_stamp": "2022-10-16T16:03:00Z",
         "time_start": "2022-10-16T16:03:00Z",
         "time_end": "2022-10-16T16:12:00Z",
@@ -9155,10 +9469,16 @@
         "contributors": [
             "Maximilian T. Fischer"
         ],
-        "authors": [],
+        "authors": [
+            "Maximilian Fischer",
+            "Frederik Dennig",
+            "Daniel Seebacher",
+            "Daniel Keim",
+            "Mennatallah El-Assady"
+        ],
         "abstract": "",
         "uid": "a-vds-1017",
-        "file_name": "",
+        "file_name": "a-vds-1017_Fischer_Presentation.mp4",
         "time_stamp": "2022-10-16T16:14:00Z",
         "time_start": "2022-10-16T16:14:00Z",
         "time_end": "2022-10-16T16:23:00Z",
@@ -9172,7 +9492,7 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1004": {
+    "a-biovischallenge-1004": {
         "slot_id": "a-biomedvischallenge-1004-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "In Person Presentation",
@@ -9180,24 +9500,28 @@
         "contributors": [
             "Dani\u00ebl M. Bot"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1004",
-        "file_name": "",
+        "authors": [
+            "Dani\u00ebl M. Bot",
+            "Jannes Peeters",
+            "Jan Aerts"
+        ],
+        "abstract": "We present EProM\u2014a visual analysis interface for the exploration of protein modifications\u2014as a contribution to the IEEE VIS 2022 Bio+MedVis Challenge. The interface targets researchers in bio-chemistry, proteomics, and precision medicine as its primary users. Observed modifications can be inspected from the protein\u2019s primary, secondary, and tertiary structure, using a straightforward design and intuitive interactions. Modifications\u2019 measurement uncertainty and relation to residues with identified pathogenic mutations are considered.",
+        "uid": "a-biovischallenge-1004",
+        "file_name": "a-biovischallenge-1004_Bot_Presentation.mp4",
         "time_stamp": "2022-10-16T20:00:00Z",
         "time_start": "2022-10-16T20:00:00Z",
         "time_end": "2022-10-16T20:05:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "547",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "EProM - Exploration of Protein Modifications - is an interactive interface \ndeveloped by Dani\u00ebl M. Bot, Jannes Peeters and Jan Aerts as submission for the \n2022 Bio+MedVis Challenge.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1005": {
+    "a-biovischallenge-1005": {
         "slot_id": "a-biomedvischallenge-1005-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9205,24 +9529,28 @@
         "contributors": [
             "Hauke Bartsch"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1005",
-        "file_name": "",
+        "authors": [
+            "Hauke Bartsch",
+            "Laura Garrison",
+            "Stefan Bruckner"
+        ],
+        "abstract": "A key goal in the analysis of proteomics data is to compare chemical modifications occurring on different residues in a protein sequence between human and animal models to assess the suitability of animal models for drug development. Differences in modification patterns between mouse and human protein variants may also indicate evolutionary pressures to preserve functional regions distributed along the protein sequence. However, comparing and contrasting the many possible patterns of modifications is a significant challenge in visualizing proteomics data. For this year\u2019s Bio+MedVis Protein Beasts Challenge, we propose an exploratory interface for pattern discovery. Results from data-driven pattern detectors are displayed using an animation metaphor that is suitable for both comparing and contrasting tasks. In addition, we propose a novel, compact steel-drum like pattern selector component that abstracts from the details of the analysis method and focuses instead on the more playful aspects of an exploratory data analysis that favors instant gratification.",
+        "uid": "a-biovischallenge-1005",
+        "file_name": "a-biovischallenge-1005_Bartsch_Presentation.mp4",
         "time_stamp": "2022-10-16T19:30:00Z",
         "time_start": "2022-10-16T19:30:00Z",
         "time_end": "2022-10-16T19:35:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "283",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Mouse-Human-Hybrids: We propose a data exploration application that allows for a quick inspection of spatial pattern as well as contrasts between mouse and human version of modification data for protein sequences. Our interface integrates a larger number of data driven patterns as candidate pattern displayed in a consistent manner using animations. Our solution minimizes visual search strategies to more quickly explore the structure of protein modifications.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1001": {
+    "a-biovischallenge-1001": {
         "slot_id": "a-biomedvischallenge-1001-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "In Person Presentation",
@@ -9230,24 +9558,27 @@
         "contributors": [
             "Aaron Watters"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1001",
-        "file_name": "",
+        "authors": [
+            "Aaron Watters",
+            "Vikram Mulligan"
+        ],
+        "abstract": "ANNOTED is an interactive visualization designed to address the requirements of the Bio+MedViz Challenge 2022. Briefly, it is intended to permit visualization of proteins involved in disease, and to allow users to explore sites at which amino acid residues are modified in potentially disease-relevant ways. It is published as a public web application at https://aaronwatters.github.io/bioviz2022/challenge.html with open source code available at https://github.com/AaronWatters/bioviz2022 as a Github repository. ",
+        "uid": "a-biovischallenge-1001",
+        "file_name": "a-biovischallenge-1001_Watters_Presentation.mp4",
         "time_stamp": "2022-10-16T19:35:00Z",
         "time_start": "2022-10-16T19:35:00Z",
         "time_end": "2022-10-16T19:40:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "0",
+        "has_video": "231",
         "paper_award": "",
         "image_caption": "",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1002": {
+    "a-biovischallenge-1002": {
         "slot_id": "a-biomedvischallenge-1002-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9255,24 +9586,29 @@
         "contributors": [
             "Mo Rahman"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1002",
-        "file_name": "",
+        "authors": [
+            "Mo Rahman",
+            "Onno Faber",
+            "Pascale Marill",
+            "Otavio Good"
+        ],
+        "abstract": "Changes to molecular structure can have a large impact on biological function and are the basis for many diseases. Structural modifications to proteins, while not changes to the amino acid sequence, can alter their function and have been implicated in rare diseases. Visualizing these modifications on a 3D model helps understand how the characteristics of a molecule are affected. We present a simple pipeline to create high-quality rendered images of post-translational protein modifications. Data provided by CompOmics group at VIB and Ghent University in Ghent, Belgium is parsed using standard UNIX commands, then added to AlphaFold predicted structures using a newly developed viewer Dalton, and finally rendered to an image. Well-designed and simple to make visualizations demystify rare diseases and mechanisms of post-translational structural modifications, making it easier to conduct further research in these fields.",
+        "uid": "a-biovischallenge-1002",
+        "file_name": "a-biovischallenge-1002_Rahman_Presentation.mp4",
         "time_stamp": "2022-10-16T19:40:00Z",
         "time_start": "2022-10-16T19:40:00Z",
         "time_end": "2022-10-16T19:45:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "301",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Three-step pipeline begins with parsing tab-delimited file of modified residues and type for three proteins \nimportant in rare diseases. UNIX Bash is used for its adaptability, as files with modifications loci may be \ndifferent across projects. In step two modification data and AlphaFold predictions are loaded in Dalton a novel \nmolecular viewer. Here we are able to edit the structure and add atoms or residues, within a real-time rendered \nenvironment. The last step loads the 3D model into rendering software of user choice, iIn the final image we see \nTGFB1 implicated in Camurati-Engelmann disease, with its pathogenic modifications.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1003": {
+    "a-biovischallenge-1003": {
         "slot_id": "a-biomedvischallenge-1003-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9280,24 +9616,28 @@
         "contributors": [
             "Nicolas F. Chaves-de-Plaza"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1003",
-        "file_name": "",
+        "authors": [
+            "Nicolas F. Chaves-de-Plaza",
+            "Klaus Hildebrandt",
+            "Anna Vilanova"
+        ],
+        "abstract": "Post-translational modifications (PTMs) affecting a protein's residues (amino acids) can disturb its function, leading to illness. Whether or not a PTM is pathogenic depends on its type and the status of neighboring residues. In this paper, we present the ProtoFold Neighborhood Inspector (PFNI), a visualization system for analyzing residues neighborhoods. The main contribution is a visualization idiom, the Residue Constellation (RC), for identifying and comparing three-dimensional neighborhoods based on per-residue features and spatial characteristics. The RC leverages two-dimensional representations of the protein's three-dimensional structure to overcome problems like occlusion, easing the analysis of neighborhoods that often have complicated spatial arrangements. Using the PFNI, we explored proteins\u2019 structural PTM data, which allowed us to identify patterns in the distribution and quantity of per-neighborhood PTMs that might be related to their pathogenic status. In the following, we define the tasks that guided the development of the PFNI and describe the data sources we derived and used. Then, we introduce the PFNI and illustrate its usage through an example of an analysis workflow. We conclude by reflecting on preliminary findings obtained while using the tool on the provided data and future directions concerning the development of the PFNI.",
+        "uid": "a-biovischallenge-1003",
+        "file_name": "a-biovischallenge-1003_Plaza_Presentation.mp4",
         "time_stamp": "2022-10-16T19:45:00Z",
         "time_start": "2022-10-16T19:45:00Z",
         "time_end": "2022-10-16T19:50:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "303",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "User interface of the ProtoFold Neighborhood Inspector. With the Residue Constellation, users can select, inspect and analyze neighborhoods in protein structures. The figure shows an example of the analysis workflow for the transforming growth factor beta-1 proprotein (HUMAN). The user selected all residues containing a pathogenic modification using the bulk selection widget. The neighborhood summarization glyphs in the center of the residue constellation permit comparing the neighborhoods of these residues.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1006": {
+    "a-biovischallenge-1006": {
         "slot_id": "a-biomedvischallenge-1006-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "In Person Presentation",
@@ -9305,24 +9645,28 @@
         "contributors": [
             "Huyen N. Nguyen"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1006",
-        "file_name": "",
+        "authors": [
+            "Huyen N. Nguyen",
+            "Caleb Trujillo",
+            "Tommy Dang"
+        ],
+        "abstract": "Understanding chemical modifications on proteins opens up further possibilities for research on rare diseases. This work proposes visualization approaches using two-dimensional (2D) and three-dimensional (3D) visual representations to analyze and gain insights into protein modifications. In this work, we present the application of Modie Viewer as an attempt to address the Bio+MedVis Challenge at IEEE VIS 2022.",
+        "uid": "a-biovischallenge-1006",
+        "file_name": "a-biovischallenge-1006_Nguyen_Presentation.mp4",
         "time_stamp": "2022-10-16T19:55:00Z",
         "time_start": "2022-10-16T19:55:00Z",
         "time_end": "2022-10-16T20:00:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "295",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Protein modifications are represented in 2D and 3D visualizations. Left: Horizontal stacked chart showing modification types and mutations on ATP-dependent RNA helicase DDX3X. Using focus+context, sites with multiple mutations are shown in a close-up view, where all mutations can be seen to only occur on residue R (Arginine, Arg).\nRight: 3D structures of two protein sequences: ATP-dependent RNA helicase DDX3X in humans (Accession No. 000571) and Heterogeneous nuclear ribonucleoprotein A1 HNRNPA1 in humans (Accession No. P09651). Red spots are areas with 11 or more modifications possible.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1008": {
+    "a-biovischallenge-1008": {
         "slot_id": "a-biomedvischallenge-1008-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "In Person Presentation",
@@ -9330,24 +9674,28 @@
         "contributors": [
             "Laura Garrison"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1008",
-        "file_name": "",
+        "authors": [
+            "Laura Garrison",
+            "Hauke Bartsch",
+            "Stefan Bruckner"
+        ],
+        "abstract": "A key goal in the analysis of proteomic data is to identify and compare the frequency and types of chemical modifications occurring on different residues in a protein sequence. Depicting these data in an uncluttered but informative way is a significant challenge in visualizing these data. For this year\u2019s Bio+MedVis Protein Beasts Challenge, we propose a redesign of the existing visualization that reduces visual clutter and facilitates identification and comparison of modifications per site in a given protein. Our design consists of three linked views that facilitate the identification of sites with high modification diversity and which break down the frequency of each type of modification for each residue site in a protein sequence. Highlight and view subset interactions manage visual complexity and focus user attention.",
+        "uid": "a-biovischallenge-1008",
+        "file_name": "a-biovischallenge-1008_Garrison_Presentation.mp4",
         "time_stamp": "2022-10-16T20:05:00Z",
         "time_start": "2022-10-16T20:05:00Z",
         "time_end": "2022-10-16T20:10:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "259",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Our Bio+MedVis redesign challenge features a focus+context interface to facilitate the identification and comparison of modified protein residues for human and mouse models across three levels of detail. Highlighting interactions in the context views dynamically introduce a focus panel (bottom view) which facilitates comparison of different modifications for each site in a protein sequence within or between species. Subset interactions focus user exploration to a particular modification class (bottom right navigation menu).",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biomedvischallenge-1007": {
+    "a-biovischallenge-1007": {
         "slot_id": "a-biomedvischallenge-1007-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9355,19 +9703,25 @@
         "contributors": [
             "Simon Hackl"
         ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-biomedvischallenge-1007",
-        "file_name": "",
+        "authors": [
+            "Simon Hackl",
+            "Theresa Harbig",
+            "Caroline Jachmann",
+            "Mathias Witte Paz",
+            "Kay Nieselt"
+        ],
+        "abstract": "In our submission we address the redesign task of the Bio+MedVis Challenge 2022. The existing visualization shows all post-translational modifications (PTMs) identified on a protein as circles that are connected to their position on the protein\u2019s primary sequence by a line. Overall, the figure communicates well that there can be significantly more PTMs on proteins than anticipated. However, the visualization suffers from overplotting in multiple dimensions, rendering a detailed interpretation impossible. First, on the x-axis adjacent positions may carry PTMs, which causes the circles to overlap. Second, on the y-axis the PTMs for a position are stacked. From the visualizations, it is not clear if some PTMs are not displayed due to space limitations. Moreover, there are more different PTMs than there are colors that can be differentiated and a legend is missing. Most importantly, the visualization is based only on the primary sequence. No (visual) relation between PTMs and the protein structure can be established.",
+        "uid": "a-biovischallenge-1007",
+        "file_name": "a-biovischallenge-1007_Hackl_Presentation.mp4",
         "time_stamp": "2022-10-16T20:10:00Z",
         "time_start": "2022-10-16T20:10:00Z",
         "time_end": "2022-10-16T20:15:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "272",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "The proposed visualization of the PTMs applied to the human ALDOA protein. It consists of two main components: a contact map and a presence-absence heat map. The contact map shows the residues of close proximity (at most 6 Angstrom) where color encodes how many PTMS two residues in contact share. The presence-absence heat map shows the PTM composition of the protein along the primary sequence. Finally, we have included bar charts to summarise the number of PTMs by positions and single-axis traces that visually encode the secondary structure of each residue. All these components are part of an interactive dashboard.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -9383,7 +9737,7 @@
         "authors": [],
         "abstract": "",
         "uid": "w-biomedicalai-1053",
-        "file_name": "",
+        "file_name": "w-biomedicalai-1053_Erkul_Presentation.mp4",
         "time_stamp": "2022-10-17T14:55:00Z",
         "time_start": "2022-10-17T14:55:00Z",
         "time_end": "2022-10-17T15:02:00Z",
@@ -9408,7 +9762,7 @@
         "authors": [],
         "abstract": "",
         "uid": "w-biomedicalai-7627",
-        "file_name": "",
+        "file_name": "w-biomedicalai-7627_Floricel_Presentation.mp4",
         "time_stamp": "2022-10-17T15:05:00Z",
         "time_start": "2022-10-17T15:05:00Z",
         "time_end": "2022-10-17T15:12:00Z",
@@ -9433,7 +9787,7 @@
         "authors": [],
         "abstract": "",
         "uid": "w-biomedicalai-4793",
-        "file_name": "",
+        "file_name": "w-biomedicalai-4793_Lu_Presentation.mp4",
         "time_stamp": "2022-10-17T15:45:00Z",
         "time_start": "2022-10-17T15:45:00Z",
         "time_end": "2022-10-17T15:52:00Z",
@@ -9458,7 +9812,7 @@
         "authors": [],
         "abstract": "",
         "uid": "w-biomedicalai-9146",
-        "file_name": "",
+        "file_name": "w-biomedicalai-9146_Eckelt_Presentation.mp4",
         "time_stamp": "2022-10-17T15:55:00Z",
         "time_start": "2022-10-17T15:55:00Z",
         "time_end": "2022-10-17T16:02:00Z",
@@ -9512,7 +9866,7 @@
         ],
         "abstract": "",
         "uid": "w-visxai-7873",
-        "file_name": "",
+        "file_name": "w-visxai-7873_Bizopoulos_Presentation.mp4",
         "time_stamp": "2022-10-17T20:05:00Z",
         "time_start": "2022-10-17T20:05:00Z",
         "time_end": "2022-10-17T20:12:00Z",
@@ -9535,14 +9889,14 @@
             "Alexander Theus"
         ],
         "authors": [
-            "Javier Rando",
             "Alexander Theus",
+            "Javier Rando",
             "Rita Sevastjanova",
             "Mennatallah El-Assady"
         ],
         "abstract": "",
         "uid": "w-visxai-7361",
-        "file_name": "",
+        "file_name": "w-visxai-7361_Rando_Presentation.mp4",
         "time_stamp": "2022-10-17T20:45:00Z",
         "time_start": "2022-10-17T20:45:00Z",
         "time_end": "2022-10-17T20:52:00Z",
@@ -9602,7 +9956,7 @@
         ],
         "abstract": "",
         "uid": "w-visxai-7608",
-        "file_name": "",
+        "file_name": "w-visxai-7608_Alhazwani_Presentation.mp4",
         "time_stamp": "2022-10-17T21:05:00Z",
         "time_start": "2022-10-17T21:05:00Z",
         "time_end": "2022-10-17T21:12:00Z",
@@ -9626,8 +9980,8 @@
         ],
         "authors": [
             "Evan Rose",
-            "Fnu Suya",
-            "David Evans"
+            "David Evans",
+            "Fnu Suya"
         ],
         "abstract": "",
         "uid": "w-visxai-3404",
@@ -9659,7 +10013,7 @@
         ],
         "abstract": "",
         "uid": "w-visxai-8479",
-        "file_name": "",
+        "file_name": "w-visxai-8479_Duderstadt_Presentation.mp4",
         "time_stamp": "2022-10-17T21:25:00Z",
         "time_start": "2022-10-17T21:25:00Z",
         "time_end": "2022-10-17T21:32:00Z",
@@ -9682,7 +10036,7 @@
             "Lucius Bynum"
         ],
         "authors": [
-            "Lucius E.J. Bynum",
+            "Lucius Bynum",
             "Falaah Arif Khan",
             "Oleksandra Konopatska",
             "Julia Stoyanovich",
@@ -9690,7 +10044,7 @@
         ],
         "abstract": "",
         "uid": "w-visxai-1801",
-        "file_name": "",
+        "file_name": "w-visxai-1801_Bynum_Presentation.mp4",
         "time_stamp": "2022-10-17T21:35:00Z",
         "time_start": "2022-10-17T21:35:00Z",
         "time_end": "2022-10-17T21:42:00Z",
@@ -9704,7 +10058,7 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-visdh-1009": {
+    "w-vis4dh-1009": {
         "slot_id": "w-visdh-1009",
         "session_id": "w-vis4dh-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9714,25 +10068,25 @@
         ],
         "authors": [
             "Hongwei Zhou",
-            "Angus G. Forbes"
+            "Angus Forbes"
         ],
         "abstract": "",
-        "uid": "w-visdh-1009",
-        "file_name": "",
+        "uid": "w-vis4dh-1009",
+        "file_name": "w-vis4dh-1009_Zhou_Presentation.mp4",
         "time_stamp": "2022-10-16T14:15:00Z",
         "time_start": "2022-10-16T14:15:00Z",
         "time_end": "2022-10-16T14:27:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "635",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "In this paper, we explore the potential of visual effects and animations for supporting sensemaking tasks. We contrast the minimalist aesthetics in data visualization applications with those in video games. We survey video games across different genres and identify three non-exclusive uses of visual effects and animations to support sensemaking.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-visdh-1011": {
+    "w-vis4dh-1011": {
         "slot_id": "w-visdh-1011",
         "session_id": "w-vis4dh-1",
         "type": "In Person Presentation",
@@ -9744,22 +10098,22 @@
             "Richard Brath"
         ],
         "abstract": "",
-        "uid": "w-visdh-1011",
+        "uid": "w-vis4dh-1011",
         "file_name": "",
         "time_stamp": "2022-10-16T14:27:00Z",
         "time_start": "2022-10-16T14:27:00Z",
         "time_end": "2022-10-16T14:39:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
+        "has_image": "1",
         "has_video": "",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Gaps and requirements for multi-modal interfaces for humanities can be explored by observing the configuration of real-world environments and visitor tasks. Real world stores, musuems, galleries and stages provide for tasks such as overviewing, clustering, collaboration and comparion with much richer interactions. Some of these technical capabilities exist but are not routinely available in implementations.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-visdh-1016": {
+    "w-vis4dh-1016": {
         "slot_id": "w-visdh-1016",
         "session_id": "w-vis4dh-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9771,22 +10125,22 @@
             "Rongqian Ma"
         ],
         "abstract": "",
-        "uid": "w-visdh-1016",
-        "file_name": "",
+        "uid": "w-vis4dh-1016",
+        "file_name": "w-vis4dh-1016_Ma_Presentation.mp4",
         "time_stamp": "2022-10-16T14:45:00Z",
         "time_start": "2022-10-16T14:45:00Z",
         "time_end": "2022-10-16T14:57:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "623",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "This paper, titled \u201cBoundaries, Extensions, and Challenges of Visualization for Humanities Data,\u201d examines the application of visual technologies in three broadly-defined digital humanities projects and explores how the practices and challenges along the way would push forward our connotations of a visual representation in the context of humanities research.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-visdh-1015": {
+    "w-vis4dh-1015": {
         "slot_id": "w-visdh-1015",
         "session_id": "w-vis4dh-1",
         "type": "In Person Presentation",
@@ -9795,19 +10149,19 @@
             "Rebecca M. M. Hicke"
         ],
         "authors": [
-            "Rebecca M. M. Hicke",
+            "Rebecca Hicke",
             "Maanya Goenka",
             "Eric Alexander"
         ],
         "abstract": "",
-        "uid": "w-visdh-1015",
+        "uid": "w-vis4dh-1015",
         "file_name": "",
         "time_stamp": "2022-10-16T14:57:00Z",
         "time_start": "2022-10-16T14:57:00Z",
         "time_end": "2022-10-16T15:09:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
+        "has_image": "0",
         "has_video": "",
         "paper_award": "",
         "image_caption": "",
@@ -9823,10 +10177,18 @@
         "contributors": [
             "Yuxiao Li"
         ],
-        "authors": [],
+        "authors": [
+            "Yuxiao Li",
+            "Xuexi Wang",
+            "Yue Wang",
+            "Siming Chen",
+            "Ting Liu",
+            "Ziyue Lin",
+            "Huiting Wang"
+        ],
         "abstract": "",
         "uid": "a-vast-1032",
-        "file_name": "",
+        "file_name": "a-vast-1032_Li_Presentation.mp4",
         "time_stamp": "2022-10-16T14:15:00Z",
         "time_start": "2022-10-16T14:15:00Z",
         "time_end": "2022-10-16T14:30:00Z",
@@ -9848,10 +10210,16 @@
         "contributors": [
             "Jan Burmeister"
         ],
-        "authors": [],
+        "authors": [
+            "Jan Burmeister",
+            "Jilin Liao",
+            "Jieqing Yang",
+            "Qingtian Wei",
+            "Kexin Wang"
+        ],
         "abstract": "",
         "uid": "a-vast-1013",
-        "file_name": "",
+        "file_name": "a-vast-1013_Burmeister_Presentation.mp4",
         "time_stamp": "2022-10-16T14:35:00Z",
         "time_start": "2022-10-16T14:35:00Z",
         "time_end": "2022-10-16T14:47:00Z",
@@ -9873,10 +10241,12 @@
         "contributors": [
             "Jo Wood"
         ],
-        "authors": [],
+        "authors": [
+            "Jo Wood"
+        ],
         "abstract": "The VAST 2022 Challenge 1 put us in place of an urban planning analyst for the fictitious city Engagement, Ohio. Given a large, interlinked dataset of its citizens, businesses and activities, we were tasked to assemble a summary of the state of Engagement to serve as basis for future investments. We present a visual analytics application to interactively explore this complex dataset using a combination of dashboards and a 2D/3D map. Our application uses interactive visualizations to iteratively build and analyze subgroups, sync their abstract data with spatial positions, and detect clusters and patterns in the data.",
         "uid": "a-vast-1017",
-        "file_name": "",
+        "file_name": "a-vast-1017_Wood_Presentation.mp4",
         "time_stamp": "2022-10-16T14:55:00Z",
         "time_start": "2022-10-16T14:55:00Z",
         "time_end": "2022-10-16T15:10:00Z",
@@ -9898,10 +10268,16 @@
         "contributors": [
             "Falko Schulz"
         ],
-        "authors": [],
+        "authors": [
+            "Falko Schulz",
+            "Don Chapman",
+            "Steven Harenberg",
+            "Stu Sztukowski",
+            "Cheryl LeSaint"
+        ],
         "abstract": "",
         "uid": "a-vast-1004",
-        "file_name": "",
+        "file_name": "a-vast-1004_Schulz_Presentation.mp4",
         "time_stamp": "2022-10-16T15:45:00Z",
         "time_start": "2022-10-16T15:45:00Z",
         "time_end": "2022-10-16T15:57:00Z",
@@ -9915,7 +10291,7 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "vast-1012": {
+    "a-vast-1012": {
         "slot_id": "vast-1012-pres",
         "session_id": "a-vast-2",
         "type": "Virtual Presentation (pre-recorded)",
@@ -9925,19 +10301,27 @@
             "Hao Chang",
             "Yawen Lu"
         ],
-        "authors": [],
+        "authors": [
+            "\u0443awen lu",
+            "Hao Wang",
+            "Xingyu Jiang",
+            "Tianyi Zhang",
+            "William Fei",
+            "Zhenyu Qian",
+            "Yingjie Chen"
+        ],
         "abstract": "",
-        "uid": "vast-1012",
-        "file_name": "",
+        "uid": "a-vast-1012",
+        "file_name": "a-vast-1012_Lu_Presentation.mp4",
         "time_stamp": "2022-10-16T16:00:00Z",
         "time_start": "2022-10-16T16:00:00Z",
         "time_end": "2022-10-16T16:12:00Z",
         "paper_type": "associated",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "240",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "ClusBridges is a visual analytics system to abstract, summarize and present large-scale travel records, from general observations to local details.\nThe system is designed by Purdue Univ and marked as the Honorable Mention for Effective Visual Encoding in IEEE VAST Challenge 2022.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -9950,10 +10334,18 @@
         "contributors": [
             "Ting Liu"
         ],
-        "authors": [],
+        "authors": [
+            "Ting Liu",
+            "Huiting Wang",
+            "Ziyue Lin",
+            "Yuxiao Li",
+            "Xuexi Wang",
+            "Yue Wang",
+            "Siming Chen"
+        ],
         "abstract": "Monitoring and understanding people\u2019s patterns of daily life are crucial to urban planning and development. At the same time, cluster analysis and cluster-based visualization turned out to be highly effective in a system design. Based on the data collected from representative residents, including the location and time they travelled, duration of travel, and expenses at places, we designed ClusBridges, as depicted in Fig. 1, to draw inferences about city regions, traffic bottlenecks, life patterns, and individual life routines to help analyst understand different levels of patterns across the city. The system analyses and visualizes the life patterns of varies aggregation levels in a city in a concise, efficient, and user-friendly manner. The system primarily uses arcs (which can also be called bridges) to present information through arc length, curvature, width, dash, and color. ClusBridges can display information about traffic of various points at different times, view individual routines and cluster similar life routines, and view region trends and metrics.",
         "uid": "a-vast-1033",
-        "file_name": "",
+        "file_name": "a-vast-1033_Liu_Presentation.mp4",
         "time_stamp": "2022-10-16T16:20:00Z",
         "time_start": "2022-10-16T16:20:00Z",
         "time_end": "2022-10-16T16:35:00Z",
@@ -9975,10 +10367,17 @@
         "contributors": [
             "Kresimir Matkovic"
         ],
-        "authors": [],
+        "authors": [
+            "Rainer Splechtna",
+            "Thomas Hulka",
+            "Disha Sardana",
+            "Nikitha Donekal Chandrashekar",
+            "Denis Gracanin",
+            "Kresimir Matkovic"
+        ],
         "abstract": "In this paper, we design a visual analytics system to display the financial health of a city. The system contains four views, that is, map view, bipartite view, calendar heatmap, and parallel coordinates view. Combined with the console, the interactive system provides a spatial perception of economic volumes of 4 entities, i.e., participants, employers, pubs, and restaurants, display of freely combinable temporal and non-temporal attributes, and algorithm-driven mining of temporal trends and similar patterns.",
         "uid": "a-vast-1024",
-        "file_name": "",
+        "file_name": "a-vast-1024_Splechtna_Presentation.mp4",
         "time_stamp": "2022-10-16T16:40:00Z",
         "time_start": "2022-10-16T16:40:00Z",
         "time_end": "2022-10-16T16:52:00Z",
@@ -10000,10 +10399,13 @@
         "contributors": [
             "Arnur Nigmetov"
         ],
-        "authors": [],
+        "authors": [
+            "Arnur Nigmetov",
+            "Dmitriy Morozov"
+        ],
         "abstract": "A merge tree is a topological descriptor of a real-valued function. Merge trees are used in visualization and topological data analysis, either directly or as a means to another end: computing a 0-dimensional persistence diagram, identifying connected components, performing topological simplification, etc. Scientific computing relies more and more on GPUs to achieve fast, scalable computation. For efficiency, data analysis should take place at the same location as the main computation, which motivates interest in parallel algorithms and portable software for merge trees that can run not only on a CPU, but also on a GPU, or other types of accelerators. The SYCL standard defines a programming model that allows the same code, written in standard C++, to compile targets for multiple parallel backends (CPUs via OpenMP or TBB, NVIDIA GPUs via CUDA, AMD GPUs via ROCm, Intel GPUs via Level Zero, FPGAs). In this paper, we adapt the triplet merge tree algorithm to SYCL and compare our implementation with the \\vtkm implementation, which is the only other implementation of merge trees for GPUs that we know of.",
         "uid": "w-topoinvis-1026",
-        "file_name": "",
+        "file_name": "w-topoinvis-1026_Nigmetov_Presentation.mp4",
         "time_stamp": "2022-10-17T20:00:00Z",
         "time_start": "2022-10-17T20:00:00Z",
         "time_end": "2022-10-17T20:04:00Z",
@@ -10027,10 +10429,13 @@
         "contributors": [
             "Vitaliy Kurlin"
         ],
-        "authors": [],
+        "authors": [
+            "Yury Elkin",
+            "Vitaliy Kurlin"
+        ],
         "abstract": "This paper is motivated by the k-nearest neighbors search: given an arbitrary metric space, and its finite subsets (a reference set R and a query set Q), design a fast algorithm to find all k-nearest neighbors in R for every point q in Q. In 2006, Beygelzimer, Kakade, and Langford introduced cover trees to justify a near-linear time complexity for the neighbor search in the sizes of Q,R.   Section 5.3 of Curtin's PhD (2015) pointed out that the proof of this result was wrong.  The key step in the original proof attempted to show that the number of iterations can be estimated by multiplying the length of the longest root-to-leaf path in a cover tree by a constant factor. However, this estimate can miss many potential nodes in several branches of a cover tree, that should be considered during the neighbor search. The same argument was unfortunately repeated in several subsequent papers using cover trees from 2006.  This paper explicitly constructs challenging datasets that provide counterexamples to the past proofs of time complexity for the cover tree construction, the k-nearest neighbor search presented at ICML 2006, and the dual-tree search algorithm published in NIPS 2009.  The corrected near-linear time complexities with extra parameters are proved in another forthcoming paper by using a new compressed cover tree simplifying the original tree structure.",
         "uid": "w-topoinvis-1010",
-        "file_name": "",
+        "file_name": "w-topoinvis-1010_Elkin_Presentation.mp4",
         "time_stamp": "2022-10-17T20:07:00Z",
         "time_start": "2022-10-17T20:07:00Z",
         "time_end": "2022-10-17T20:11:00Z",
@@ -10054,10 +10459,14 @@
         "contributors": [
             "Jixian Li"
         ],
-        "authors": [],
+        "authors": [
+            "Jixian Li",
+            "Dan Van Boxel",
+            "Joshua Levine"
+        ],
         "abstract": "Though analyzing a single scalar field using Morse complexes is well studied, there are few techniques for visualizing a collection of Morse complexes. We focus on analyses that are enabled by looking at a Morse complex as an embedded domain decomposition. Specifically, we target 2D scalar fields, and we encode the Morse complex through binary images of the boundaries of decomposition. Then we use image-based autoencoders to create a feature space for the Morse complexes. We apply additional dimensionality reduction methods to construct a scatterplot as a visual interface of the feature space. This allows us to investigate individual Morse complexes, as they relate to the collection, through interaction with the scatterplot. We demonstrate our approach using a synthetic data set, microscopy images, and time-varying vorticity magnitude fields of flow.  Through these, we show that our method can produce insights about structures within the collection of Morse complexes.",
         "uid": "w-topoinvis-1004",
-        "file_name": "",
+        "file_name": "w-topoinvis-1004_Li_Presentation.mp4",
         "time_stamp": "2022-10-17T20:45:00Z",
         "time_start": "2022-10-17T20:45:00Z",
         "time_end": "2022-10-17T20:49:00Z",
@@ -10081,10 +10490,13 @@
         "contributors": [
             "Florian Wetzels"
         ],
-        "authors": [],
+        "authors": [
+            "Florian Wetzels",
+            "Christoph Garth"
+        ],
         "abstract": "In scientific visualization, scalar fields are often compared through edit distances between their merge trees. Typical tasks include ensemble analysis, feature tracking and symmetry or periodicity detection. Tree edit distances represent how one tree can be transformed into another through a sequence of simple edit operations: relabeling, insertion and deletion of nodes. In this paper, we present a new set of edit operations working directly on the merge tree as an geometrical or topological object: the represented operations are deformation retractions and inverse transformations on merge trees, which stands in contrast to other methods working on branch decomposition trees. We present a quartic time algorithm for the new edit distance, which is branch decomposition-independent and a metric on the set of all merge trees.",
         "uid": "w-topoinvis-1005",
-        "file_name": "",
+        "file_name": "w-topoinvis-1005_Wetzels_Presentation.mp4",
         "time_stamp": "2022-10-17T20:52:00Z",
         "time_start": "2022-10-17T20:52:00Z",
         "time_end": "2022-10-17T20:56:00Z",
@@ -10108,10 +10520,19 @@
         "contributors": [
             "Daniel Kl\u00f6tzl"
         ],
-        "authors": [],
+        "authors": [
+            "Daniel Kl\u00f6tzl",
+            "Tim Krake",
+            "Youjia Zhou",
+            "Jonathan Stober",
+            "Kathrin Schulte",
+            "Ingrid Hotz",
+            "Bei Wang",
+            "Daniel Weiskopf"
+        ],
         "abstract": "We present a new topological connection method for the local bilinear computation of Jacobi sets that improves the visual representation while preserving the topological structure and geometric configuration. To this end, the topological structure of the local bilinear method is utilized, which is given by the nerve complex of the traditional piecewise linear method. Since the nerve complex consists of higher-dimensional simplices, the local bilinear method (visually represented by the 1-skeleton of the nerve complex) leads to clutter via crossings of line segments. Therefore, we propose a homotopy-equivalent representation that uses different collapses and edge contractions to remove such artifacts. Our new connectivity method is easy to implement, comes with only little overhead, and results in a less cluttered representation.",
         "uid": "w-topoinvis-1002",
-        "file_name": "",
+        "file_name": "w-topoinvis-1002_Kloetzl_Presentation.mp4",
         "time_stamp": "2022-10-17T20:59:00Z",
         "time_start": "2022-10-17T20:59:00Z",
         "time_end": "2022-10-17T21:03:00Z",
@@ -10135,10 +10556,13 @@
         "contributors": [
             "Mohit Sharma"
         ],
-        "authors": [],
+        "authors": [
+            "Mohit Sharma",
+            "Vijay Natarajan"
+        ],
         "abstract": "Isosurfaces are an important tool for analysis and visualization of univariate scalar fields. Earlier works have demonstrated the presence of interesting isosurfaces at isovalues close to critical values. This motivated the development of efficient methods for computing individual components of isosurfaces restricted to a region of interest. Generalization of isosurfaces to fiber surfaces and critical points to Jacobi sets has resulted in new approaches for analyzing bivariate scalar fields. Unlike isosurfaces, there exists no output sensitive method for computing fiber surfaces. Existing methods traverse through all the tetrahedra in the domain. In this paper, we propose the use of the Jacobi set to identify fiber surface components of interest and present an output sensitive approach for its computation. The Jacobi edges are used to initiate the search towards seed tetrahedra that contain the fiber surface, thereby reducing the search space. This approach also leads to effective analysis of the bivariate field by supporting the identification of relevant fiber surfaces near Jacobi edges.",
         "uid": "w-topoinvis-1008",
-        "file_name": "",
+        "file_name": "w-topoinvis-1008_Sharma_Presentation.mp4",
         "time_stamp": "2022-10-17T21:06:00Z",
         "time_start": "2022-10-17T21:06:00Z",
         "time_end": "2022-10-17T21:10:00Z",
@@ -10162,10 +10586,12 @@
         "contributors": [
             "Roxana Bujack"
         ],
-        "authors": [],
+        "authors": [
+            "Roxana Bujack"
+        ],
         "abstract": "Classical vector field topology has proven to be a useful visualization technique for steady flow, but its straightforward application to time-dependent flows lacks physical meaning. Necessary requirements for physical meaningfulness include the results to be objective, i.e., independent of the frame of reference of the observer, and Lagrangian, i.e., that the generalized critical points are trajectories. We analyze whether the theoretical concept of distinguished hyperbolic trajectories provides a physically meaningful generalization to classical critical points and if the existing extraction algorithms correctly compute what has been defined mathematically. We show that both theory and algorithms constitute a significant improvement over previous methods. We further present a method to visualize a time-dependent flow field in the reference frames of distinguished trajectories. The result is easy to interpret because it makes these trajectories look like classical critical points for each instance in time, but it is meaningful because it is Lagrangian and objective.",
         "uid": "w-topoinvis-1006",
-        "file_name": "",
+        "file_name": "w-topoinvis-1006_Bujack_Presentation.mp4",
         "time_stamp": "2022-10-17T21:13:00Z",
         "time_start": "2022-10-17T21:13:00Z",
         "time_end": "2022-10-17T21:17:00Z",
@@ -10189,10 +10615,15 @@
         "contributors": [
             "Michael Aupetit"
         ],
-        "authors": [],
+        "authors": [
+            "Michael Aupetit",
+            "Ahmed Ali",
+            "Abdelkader Baggag",
+            "Halima Bensmail"
+        ],
         "abstract": "Data scientists often deal with multiclass multidimensional data. There is a need to support the exploration of such data with topological methods. We propose a new visualization metaphor for multiclass data and illustrate it with two complementary analytic approaches. We design ClassMat, a visualization matrix similar in spirit to the scatterplot matrix (SPLOM or pairs plot) but focused on pairs of classes rather than pairs of dimensions. We show how this visualization matrix can be used in two main multidimensional data visualization pipelines: visualization-then-topological-analysis and topological-analysis-then-visualization. In particular, we show it can support the analyst in detecting interferences between topological features of different classes.",
         "uid": "w-topoinvis-1007",
-        "file_name": "",
+        "file_name": "w-topoinvis-1007_Aupetit_Presentation.mp4",
         "time_stamp": "2022-10-17T21:20:00Z",
         "time_start": "2022-10-17T21:20:00Z",
         "time_end": "2022-10-17T21:24:00Z",
@@ -10216,10 +10647,14 @@
         "contributors": [
             "Bhavana Doppalapudi"
         ],
-        "authors": [],
+        "authors": [
+            "Bhavana Doppalapudi",
+            "Bei Wang",
+            "Paul Rosen"
+        ],
         "abstract": "Force-directed layouts belong to a popular class of methods used to position nodes in a node-link diagram. However, they typically lack direct consideration of global structures, which can result in visual clutter and the overlap of unrelated structures. In this paper, we use the principles of persistent homology to untangle force-directed layouts thus mitigating these issues. First, we devise a new method to use 0-dimensional persistent homology to efficiently generate an initial graph layout. The approach results in faster convergence and better quality graph layouts. Second, we provide a new definition and an efficient algorithm for 1-dimensional persistent homology features (i.e., tunnels/cycles) on graphs. We provide users the ability to interact with the 1-dimensional features by highlighting them and adding cycle-emphasizing forces to the layout. Finally, we evaluate our approach with 32 synthetic and real-world graphs by computing various metrics, e.g., co-ranking, edge crossing, etc., to demonstrate the efficacy of our proposed method.",
         "uid": "w-topoinvis-1000",
-        "file_name": "",
+        "file_name": "w-topoinvis-1000_Doppalapudi_Presentation.mp4",
         "time_stamp": "2022-10-17T21:27:00Z",
         "time_start": "2022-10-17T21:27:00Z",
         "time_end": "2022-10-17T21:31:00Z",
@@ -10243,10 +10678,19 @@
         "contributors": [
             "Emma Nilsson"
         ],
-        "authors": [],
+        "authors": [
+            "Emma Nilsson",
+            "Jonas Lukasczyk",
+            "Wito Engelke",
+            "Talha Bin Masood",
+            "Gunilla Svensson",
+            "Rodrigo Caballero",
+            "Christoph Garth",
+            "Ingrid Hotz"
+        ],
         "abstract": "The problem of tracking and visualizing cyclones is still an active area of climate research, since the nature of cyclones varies depending on geospatial location and temporal season, resulting in no clear mathematical definition. Thus, many cyclone tracking methods are tailored to specific datasets and therefore do not support general cyclone extraction across the globe. To address this challenge, we present a conceptual application for exploring cyclone evolution by organizing the extracted cyclone tracks into hierarchical groups. Our approach is based on extrema tracking, and the resulting tracks can be defined in a multi-scale structure by grouping the points based on a novel feature descriptor defined on the merge tree, so-called crown features. Consequently, multiple parameter settings can be visualized and explored in a level-of-detail approach, supporting experts to quickly gain insights on cyclonic formation and evolution. We describe a general cyclone exploration pipeline that consists of four modular building blocks: (1) an extrema tracking method, (2) multiple definitions of cyclones as groups of extrema, including crown features, (3) the correlation of cyclones based on the underlying tracking information, and (4) a hierarchical visualization of the resulting feature tracks and their spatial embedding, allowing exploration on a global and local scale. In order to be as flexible as possible, our pipeline allows for exchanging every module with different techniques, such as other tracking methods and cyclone definitions.",
         "uid": "w-topoinvis-1016",
-        "file_name": "",
+        "file_name": "w-topoinvis-1016_Nilsson_Presentation.mp4",
         "time_stamp": "2022-10-17T21:34:00Z",
         "time_start": "2022-10-17T21:34:00Z",
         "time_end": "2022-10-17T21:38:00Z",
@@ -10270,10 +10714,16 @@
         "contributors": [
             "Emma Nilsson"
         ],
-        "authors": [],
+        "authors": [
+            "Emma Nilsson",
+            "Jonas Lukasczyk",
+            "Talha Bin Masood",
+            "Christoph Garth",
+            "Ingrid Hotz"
+        ],
         "abstract": "We describe a benchmark data generator for tracking methods for two- and three-dimensional time-dependent scalar fields. More and more topology-based tracking methods are presented in the visualization community, but the validation and evaluation of the tracking results are currently limited to qualitative visual approaches. We present a pipeline for creating different ground truth features that support evaluating tracking methods based on quantitative measures. In short, our approach randomly simulates a temporal point cloud with birth, death, split, merge, and continuation events, where the points are then used to derive a scalar field whose topological features correspond to the points. These scalar fields can be used as the input for different tracking methods, where the computed tracks can be compared against the ground truth feature evolution. This approach facilitates directly comparing the results of different tracking methods, independent of the initial feature characterization.",
         "uid": "w-topoinvis-1017",
-        "file_name": "",
+        "file_name": "w-topoinvis-1017_Nilsson_Presentation.mp4",
         "time_stamp": "2022-10-17T21:41:00Z",
         "time_start": "2022-10-17T21:41:00Z",
         "time_end": "2022-10-17T21:45:00Z",
@@ -10297,10 +10747,16 @@
         "contributors": [
             "Farhan Rasheed"
         ],
-        "authors": [],
+        "authors": [
+            "Farhan Rasheed",
+            "Daniel J\u00f6nsson",
+            "Emma Nilsson",
+            "Talha Bin Masood",
+            "Ingrid Hotz"
+        ],
         "abstract": "We present a method for detecting patterns in time-varying functional magnetic resonance imaging (fMRI) data based on topological analysis. The oxygenated blood flow measured by fMRI is widely used as an indicator of brain activity. The signal is, however, prone to noise from various sources. Random brain activity, physiological noise, and noise from the scanner can reach a strength comparable to the signal itself. Thus, extracting the underlying signal is a challenging process typically approached by applying statistical methods. The goal of this work is to investigate the possibilities of recovering information from the signal using topological feature vectors directly based on the raw signal without medical domain priors. We utilize merge trees to define a robust feature vector capturing key features within a time step of fMRI data. We demonstrate how such a concise feature vector representation can be utilized for exploring the temporal development of brain activations, connectivity between these activations, and their relation to cognitive tasks.",
         "uid": "w-topoinvis-1011",
-        "file_name": "",
+        "file_name": "w-topoinvis-1011_Rasheed_Presentation.mp4",
         "time_stamp": "2022-10-17T21:48:00Z",
         "time_start": "2022-10-17T21:48:00Z",
         "time_end": "2022-10-17T21:52:00Z",
@@ -10325,10 +10781,16 @@
             "Jonas Madsen",
             "Lasse Sode"
         ],
-        "authors": [],
+        "authors": [
+            "Jonas Madsen",
+            "Lasse Sode",
+            "Julie Frost Dahl",
+            "Milena Corredig",
+            "Hans-J\u00f6rg Schulz"
+        ],
         "abstract": "",
         "uid": "w-testvis-1002",
-        "file_name": "",
+        "file_name": "w-testvis-1002_Madsen_Presentation.mp4",
         "time_stamp": "2022-10-17T14:35:00Z",
         "time_start": "2022-10-17T14:35:00Z",
         "time_end": "2022-10-17T14:50:00Z",
@@ -10348,12 +10810,21 @@
         "type": "In Person Presentation",
         "title": "Interactive Analysis of Post-Silicon Validation Data",
         "contributors": [
-            "Andr\u00e9s Lalama"
+            "Johannes Knittel"
         ],
-        "authors": [],
+        "authors": [
+            "Andr\u00e9s Lalama",
+            "Johannes Knittel",
+            "Steffen Koch",
+            "Daniel Weiskopf",
+            "Thomas Ertl",
+            "Sarah Rottacker",
+            "Rapha\u00ebl Latty",
+            "Jochen Rivoir"
+        ],
         "abstract": "",
         "uid": "w-testvis-1000",
-        "file_name": "",
+        "file_name": "w-testvis-1000_Lalama_Presentation.mp4",
         "time_stamp": "2022-10-17T14:55:00Z",
         "time_start": "2022-10-17T14:55:00Z",
         "time_end": "2022-10-17T15:10:00Z",
@@ -10375,10 +10846,12 @@
         "contributors": [
             "Jakob Rott"
         ],
-        "authors": [],
+        "authors": [
+            "Jakob Rott"
+        ],
         "abstract": "",
         "uid": "w-testvis-1001",
-        "file_name": "",
+        "file_name": "w-testvis-1001_Rott_Presentation.mp4",
         "time_stamp": "2022-10-17T16:15:00Z",
         "time_start": "2022-10-17T16:15:00Z",
         "time_end": "2022-10-17T16:30:00Z",
@@ -10400,10 +10873,17 @@
         "contributors": [
             "John Jacobson III"
         ],
-        "authors": [],
+        "authors": [
+            "John Jacobson III",
+            "Michael Bentley",
+            "Cayden Lund",
+            "Ganesh Gopalakrishnan",
+            "Ignacio Laguna",
+            "Gregory L. Lee"
+        ],
         "abstract": "",
         "uid": "w-testvis-1004",
-        "file_name": "",
+        "file_name": "w-testvis-1004_Jacobson_Presentation.mp4",
         "time_stamp": "2022-10-17T16:35:00Z",
         "time_start": "2022-10-17T16:35:00Z",
         "time_end": "2022-10-17T16:50:00Z",
@@ -10426,10 +10906,15 @@
             "Edward He",
             "Daniel Tolessa"
         ],
-        "authors": [],
+        "authors": [
+            "Lena Cibulski",
+            "Evanthia Dimara",
+            "Setia Hermawati",
+            "J\u00f6rn Kohlhammer"
+        ],
         "abstract": "",
         "uid": "w-visguides-1006",
-        "file_name": "",
+        "file_name": "w-visguides-1006_Cibulski_Presentation.mp4",
         "time_stamp": "2022-10-17T20:00:00Z",
         "time_start": "2022-10-17T20:00:00Z",
         "time_end": "2022-10-17T20:05:00Z",
@@ -10451,10 +10936,14 @@
         "contributors": [
             "Elena Molina"
         ],
-        "authors": [],
+        "authors": [
+            "Pere-Pau V\u00e1zquez",
+            "Laia Viale Herrando",
+            "Elena Molina Lopez"
+        ],
         "abstract": "",
         "uid": "w-visguides-1009",
-        "file_name": "",
+        "file_name": "w-visguides-1009_Molina_Presentation.mp4",
         "time_stamp": "2022-10-17T19:35:00Z",
         "time_start": "2022-10-17T19:35:00Z",
         "time_end": "2022-10-17T19:40:00Z",
@@ -10483,7 +10972,7 @@
         "time_stamp": "2022-10-17T19:40:00Z",
         "time_start": "2022-10-17T19:40:00Z",
         "time_end": "2022-10-17T19:45:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
         "has_image": false,
         "has_video": "",
@@ -10501,10 +10990,18 @@
         "contributors": [
             "Yannick Metz"
         ],
-        "authors": [],
+        "authors": [
+            "Mennatallah El-Assady",
+            "Rebecca Kehlbeck",
+            "Yannick Metz",
+            "Rita Sevastjanova",
+            "Fabian Sperrle",
+            "Thilo Spinner",
+            "Udo Schlegel"
+        ],
         "abstract": "",
         "uid": "w-visguides-1005",
-        "file_name": "",
+        "file_name": "w-visguides-1005_Assady_Presentation.mp4",
         "time_stamp": "2022-10-17T19:50:00Z",
         "time_start": "2022-10-17T19:50:00Z",
         "time_end": "2022-10-17T19:55:00Z",
@@ -10526,7 +11023,22 @@
         "contributors": [
             "Jonathan Roberts"
         ],
-        "authors": [],
+        "authors": [
+            "Jonathan C Roberts",
+            "Benjamin Bach",
+            "Magdalena Boucher",
+            "Fanny Chevalier",
+            "Alexandra Diehl",
+            "Uta Hinrichs",
+            "Samuel Huron",
+            "Andy D Kirk",
+            "S\u00f8ren Knudsen",
+            "Isabel Meirelles",
+            "Rebecca Noonan",
+            "Laura Pelchmann",
+            "Fateme Rajabiyazdi",
+            "Christina Stoiber"
+        ],
         "abstract": "",
         "uid": "w-visguides-1007",
         "file_name": "",
@@ -10551,7 +11063,10 @@
         "contributors": [
             "Paul Parsons"
         ],
-        "authors": [],
+        "authors": [
+            "Paul Parsons",
+            "Prakash Chandra Shukla"
+        ],
         "abstract": "",
         "uid": "w-visguides-1012",
         "file_name": "",
@@ -10576,10 +11091,17 @@
         "contributors": [
             "Alexander Rind"
         ],
-        "authors": [],
+        "authors": [
+            "Alexander Rind",
+            "Djordje Slijepcevic",
+            "Matthias Zeppelzauer",
+            "Fabian Unglaube",
+            "Andreas Kranzl",
+            "Brian Horsak"
+        ],
         "abstract": "",
         "uid": "w-trex-8894",
-        "file_name": "",
+        "file_name": "w-trex-8894_Rind_Presentation.mp4",
         "time_stamp": "2022-10-16T14:10:00Z",
         "time_start": "2022-10-16T14:10:00Z",
         "time_end": "2022-10-16T14:15:00Z",
@@ -10601,10 +11123,13 @@
         "contributors": [
             "Markelle Kelly"
         ],
-        "authors": [],
+        "authors": [
+            "Markelle Kelly",
+            "Padhraic Smyth"
+        ],
         "abstract": "",
         "uid": "w-trex-3846",
-        "file_name": "",
+        "file_name": "w-trex-3846_Kelly_Presentation.mp4",
         "time_stamp": "2022-10-16T14:17:00Z",
         "time_start": "2022-10-16T14:17:00Z",
         "time_end": "2022-10-16T14:22:00Z",
@@ -10626,10 +11151,17 @@
         "contributors": [
             "Rares Constantin"
         ],
-        "authors": [],
+        "authors": [
+            "Rares Constantin",
+            "Moritz D\u00fcck",
+            "Anton Alexandrov",
+            "Patrik Matosevic",
+            "Daphna Keidar",
+            "Mennatallah El-Assady"
+        ],
         "abstract": "",
         "uid": "w-trex-6700",
-        "file_name": "",
+        "file_name": "w-trex-6700_Constantin_Presentation.mp4",
         "time_stamp": "2022-10-16T14:24:00Z",
         "time_start": "2022-10-16T14:24:00Z",
         "time_end": "2022-10-16T14:29:00Z",
@@ -10651,10 +11183,12 @@
         "contributors": [
             "Yi Han"
         ],
-        "authors": [],
+        "authors": [
+            "Yi Han"
+        ],
         "abstract": "",
         "uid": "w-trex-9231",
-        "file_name": "",
+        "file_name": "w-trex-9231_Han_Presentation.mp4",
         "time_stamp": "2022-10-16T14:31:00Z",
         "time_start": "2022-10-16T14:31:00Z",
         "time_end": "2022-10-16T14:36:00Z",
@@ -10676,7 +11210,11 @@
         "contributors": [
             "Eric Prince"
         ],
-        "authors": [],
+        "authors": [
+            "Eric Prince",
+            "Todd Hankinson",
+            "Carsten G\u00f6rg"
+        ],
         "abstract": "",
         "uid": "w-trex-1111",
         "file_name": "",
@@ -10702,10 +11240,16 @@
             "Ruben S. Verhagen",
             "Siddharth Mehrotra"
         ],
-        "authors": [],
+        "authors": [
+            "Ruben Verhagen",
+            "Siddharth Mehrotra",
+            "Mark Neerincx",
+            "Catholijn Jonker",
+            "Myrthe Tielman"
+        ],
         "abstract": "",
         "uid": "w-trex-5208",
-        "file_name": "",
+        "file_name": "w-trex-5208_Verhagen_Presentation.mp4",
         "time_stamp": "2022-10-16T14:45:00Z",
         "time_start": "2022-10-16T14:45:00Z",
         "time_end": "2022-10-16T14:50:00Z",
@@ -10727,10 +11271,13 @@
         "contributors": [
             "Bonnie Chen"
         ],
-        "authors": [],
+        "authors": [
+            "Bonnie Chen",
+            "Emily Wall"
+        ],
         "abstract": "",
         "uid": "w-trex-6504",
-        "file_name": "",
+        "file_name": "w-trex-6504_Chen_Presentation.mp4",
         "time_stamp": "2022-10-16T16:24:00Z",
         "time_start": "2022-10-16T16:24:00Z",
         "time_end": "2022-10-16T16:29:00Z",
@@ -10752,7 +11299,11 @@
         "contributors": [
             "Hamza Elhamdadi"
         ],
-        "authors": [],
+        "authors": [
+            "Hamza Elhamdadi",
+            "Lace Padilla",
+            "Cindy Xiong"
+        ],
         "abstract": "",
         "uid": "w-trex-2365",
         "file_name": "",
@@ -10784,7 +11335,7 @@
         "time_stamp": "2022-10-16T16:38:00Z",
         "time_start": "2022-10-16T16:38:00Z",
         "time_end": "2022-10-16T16:43:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
         "has_image": false,
         "has_video": "",
@@ -10802,10 +11353,16 @@
         "contributors": [
             "Johne Marcus Jarske"
         ],
-        "authors": [],
+        "authors": [
+            "Johne Marcus Jarske",
+            "Lucia Filgueiras",
+            "Leandro Manuel Velloso",
+            "T\u00e2nia Let\u00edcia Let\u00edcia dos Santos",
+            "Jorge Rady de Almeida J\u00fanior"
+        ],
         "abstract": "",
         "uid": "w-trex-2027",
-        "file_name": "",
+        "file_name": "w-trex-2027_Jarske_Presentation.mp4",
         "time_stamp": "2022-10-16T16:45:00Z",
         "time_start": "2022-10-16T16:45:00Z",
         "time_end": "2022-10-16T16:50:00Z",
@@ -10827,10 +11384,14 @@
         "contributors": [
             "Priya Dhawka"
         ],
-        "authors": [],
+        "authors": [
+            "Priya Dhawka",
+            "Helen Ai He",
+            "Wesley Willett"
+        ],
         "abstract": "",
         "uid": "w-vis4good-3322",
-        "file_name": "",
+        "file_name": "w-vis4good-3322_Dhawka_Presentation.mp4",
         "time_stamp": "2022-10-16T20:45:00Z",
         "time_start": "2022-10-16T20:45:00Z",
         "time_end": "2022-10-16T20:52:00Z",
@@ -10852,7 +11413,10 @@
         "contributors": [
             "Jonathan Schwabish"
         ],
-        "authors": [],
+        "authors": [
+            "Jonathan Schwabish",
+            "Alice Feng"
+        ],
         "abstract": "",
         "uid": "w-vis4good-4497",
         "file_name": "",
@@ -10877,10 +11441,21 @@
         "contributors": [
             "Lonni Besan\u00e7on"
         ],
-        "authors": [],
+        "authors": [
+            "Lonni Besan\u00e7on",
+            "Konrad Sch\u00f6nborn",
+            "Erik Sund\u00e9n",
+            "Yin He",
+            "Samuel Rising",
+            "Peteer Westerdahl",
+            "Patric Ljung",
+            "Josef Widestr\u00f6m",
+            "Charles Hansen",
+            "Anders Ynnerman"
+        ],
         "abstract": "",
         "uid": "w-vis4good-4801",
-        "file_name": "",
+        "file_name": "w-vis4good-4801_Besancon_Presentation.mp4",
         "time_stamp": "2022-10-16T21:05:00Z",
         "time_start": "2022-10-16T21:05:00Z",
         "time_end": "2022-10-16T21:12:00Z",
@@ -10902,10 +11477,21 @@
         "contributors": [
             "Morgane Koval"
         ],
-        "authors": [],
+        "authors": [
+            "Yvonne Jansen",
+            "Federica Bucchieri",
+            "Pierre Dragicevic",
+            "Martin Hachet",
+            "Morgane Koval",
+            "L\u00e9ana Petiot",
+            "Arnaud Prouzeau",
+            "Dieter Schmalstieg",
+            "Lijie Yao",
+            "Petra Isenberg"
+        ],
         "abstract": "",
         "uid": "w-vis4good-9035",
-        "file_name": "",
+        "file_name": "w-vis4good-9035_Isenberg_Presentation.mp4",
         "time_stamp": "2022-10-16T21:15:00Z",
         "time_start": "2022-10-16T21:15:00Z",
         "time_end": "2022-10-16T21:22:00Z",
@@ -10927,10 +11513,12 @@
         "contributors": [
             "Georges Hattab"
         ],
-        "authors": [],
+        "authors": [
+            "Georges Hattab"
+        ],
         "abstract": "",
         "uid": "w-vis4good-2457",
-        "file_name": "",
+        "file_name": "w-vis4good-2457_Hattab_Presentation.mp4",
         "time_stamp": "2022-10-16T21:25:00Z",
         "time_start": "2022-10-16T21:25:00Z",
         "time_end": "2022-10-16T21:32:00Z",
@@ -10952,7 +11540,10 @@
         "contributors": [
             "Lorenzo Ambrosini"
         ],
-        "authors": [],
+        "authors": [
+            "Lorenzo Ambrosini",
+            "Miriah Meyer"
+        ],
         "abstract": "",
         "uid": "w-vis4good-6296",
         "file_name": "",
@@ -10977,7 +11568,13 @@
         "contributors": [
             "Douglas Markant"
         ],
-        "authors": [],
+        "authors": [
+            "Douglas Markant",
+            "Milad Rogha",
+            "Alireza Karduni",
+            "Ryan Wesslen",
+            "Wenwen Dou"
+        ],
         "abstract": "",
         "uid": "w-vis4good-1760",
         "file_name": "",
@@ -10994,7 +11591,7 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-viscomm-full-1006": {
+    "w-viscomm-1006": {
         "slot_id": "w-viscomm-full-1006-pres",
         "session_id": "w-viscomm-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -11003,24 +11600,28 @@
             "Shelly Cheng",
             "Hazel Zhu/Barbara"
         ],
-        "authors": [],
+        "authors": [
+            "Hazel Zhu",
+            "Shelly Cheng",
+            "eugene Wu"
+        ],
         "abstract": "",
-        "uid": "w-viscomm-full-1006",
-        "file_name": "",
+        "uid": "w-viscomm-1006",
+        "file_name": "w-viscomm-1006_Zhu_Presentation.mp4",
         "time_stamp": "2022-10-17T14:05:00Z",
         "time_start": "2022-10-17T14:05:00Z",
         "time_end": "2022-10-17T14:14:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "540",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "This figure shows the percentage of takeaways mentioning primary or secondary features in single and multi-line charts when captions vary in two perspectives: the captioned feature and the semantic level. In the upper-left quadrant, the green bars are higher than the yellow bars, indicating statistical level captions highlight primary features in single-line charts more effectively. In the other three quadrants, especially the lower two quadrants, the yellow bars are higher than the green bars. This result shows that perceptual level captions increase the memorability of medium or low salience features, such as primary and secondary features in multi-line charts.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-viscomm-full-1007": {
+    "w-viscomm-1007": {
         "slot_id": "w-viscomm-full-1007-pres",
         "session_id": "w-viscomm-1",
         "type": "Virtual Presentation (pre-recorded)",
@@ -11028,24 +11629,26 @@
         "contributors": [
             "Mara Solen"
         ],
-        "authors": [],
+        "authors": [
+            "Mara Solen"
+        ],
         "abstract": "",
-        "uid": "w-viscomm-full-1007",
-        "file_name": "",
+        "uid": "w-viscomm-1007",
+        "file_name": "w-viscomm-1007_Solen_Presentation.mp4",
         "time_stamp": "2022-10-17T14:17:00Z",
         "time_start": "2022-10-17T14:17:00Z",
         "time_end": "2022-10-17T14:26:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "524",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "A diagram showing the process of this work. It begins as a survey of 20 papers then branches off to thematic analysis which results in a definition for visualization literacy and an analysis of the participant pools of the studies included in this review that results in a set of demographic gaps. Below, there are two images, one is a screenshot of an educational visualization game and one is a picture of a museum exhibit displaying an interactive visualization tool.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-viscomm-full-1014": {
+    "w-viscomm-1014": {
         "slot_id": "w-viscomm-full-1014-pres",
         "session_id": "w-viscomm-1",
         "type": "In Person Presentation",
@@ -11053,16 +11656,19 @@
         "contributors": [
             "Prakash Shukla"
         ],
-        "authors": [],
+        "authors": [
+            "Prakash Chandra Shukla",
+            "Paul Parsons"
+        ],
         "abstract": "",
-        "uid": "w-viscomm-full-1014",
+        "uid": "w-viscomm-1014",
         "file_name": "",
         "time_stamp": "2022-10-17T14:29:00Z",
         "time_start": "2022-10-17T14:29:00Z",
         "time_end": "2022-10-17T14:38:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
+        "has_image": "0",
         "has_video": "",
         "paper_award": "",
         "image_caption": "",
@@ -11070,7 +11676,7 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-viscomm-full-1013": {
+    "w-viscomm-1013": {
         "slot_id": "w-viscomm-full-1013-pres",
         "session_id": "w-viscomm-1",
         "type": "In Person Presentation",
@@ -11078,24 +11684,30 @@
         "contributors": [
             "Saugat Pandey"
         ],
-        "authors": [],
+        "authors": [
+            "Robert Kasumba",
+            "Saugat Pandey",
+            "Vishesh Patel",
+            "Micah Wolfson",
+            "Alvitta Ottley"
+        ],
         "abstract": "",
-        "uid": "w-viscomm-full-1013",
-        "file_name": "",
+        "uid": "w-viscomm-1013",
+        "file_name": "w-viscomm-1013_Pandey_Presentation.mp4",
         "time_stamp": "2022-10-17T14:41:00Z",
         "time_start": "2022-10-17T14:41:00Z",
         "time_end": "2022-10-17T14:50:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "453",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Comparing user engagement between the tweets with and without visualization.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-viscomm-full-1005": {
+    "w-viscomm-1005": {
         "slot_id": "w-viscomm-full-1005-pres",
         "session_id": "w-viscomm-1",
         "type": "In Person Presentation",
@@ -11103,19 +11715,23 @@
         "contributors": [
             "Md Dilshadur Rahman"
         ],
-        "authors": [],
+        "authors": [
+            "Md Dilshadur Rahman",
+            "Ghulam Jilani Quadri",
+            "Paul Rosen"
+        ],
         "abstract": "",
-        "uid": "w-viscomm-full-1005",
-        "file_name": "",
+        "uid": "w-viscomm-1005",
+        "file_name": "w-viscomm-1005_Rahman_Presentation.mp4",
         "time_stamp": "2022-10-17T14:53:00Z",
         "time_start": "2022-10-17T14:53:00Z",
         "time_end": "2022-10-17T15:02:00Z",
-        "paper_type": "associated",
+        "paper_type": "workshop",
         "keywords": [],
-        "has_image": false,
-        "has_video": "",
+        "has_image": "1",
+        "has_video": "422",
         "paper_award": "",
-        "image_caption": "",
+        "image_caption": "Three examples of annotated bar chart submissions. (a) One student used rectangles for filtering, text on bars for\nretrieving values and pointing out the extrema, and a legend for filtering important dates. (b) A second student annotated the chart with ellipses, rectangles, and lines for filtering, and text for filtering and as an identifier. (c) A final student used rectangular shapes and highlights for filtering, texts as an identifier, a trend line for finding extrema, and a legend for filtering.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -11128,10 +11744,15 @@
         "contributors": [
             "Francesca Samsel"
         ],
-        "authors": [],
+        "authors": [
+            "Francesca Samsel",
+            "Jung Who Nam",
+            "Greg Abram",
+            "Mark Petersen"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1012",
-        "file_name": "",
+        "file_name": "w-vis4climate-1012_Samsel_Presentation.mp4",
         "time_stamp": "2022-10-17T19:35:00Z",
         "time_start": "2022-10-17T19:35:00Z",
         "time_end": "2022-10-17T19:38:00Z",
@@ -11153,10 +11774,16 @@
         "contributors": [
             "Helen-Nicole Kostis"
         ],
-        "authors": [],
+        "authors": [
+            "AJ Christensen",
+            "Helen-Nicole Kostis",
+            "Mark SubbaRao",
+            "Greg Shirah",
+            "Horace Mitchell"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1023",
-        "file_name": "",
+        "file_name": "w-vis4climate-1023_Kostis_Presentation.mp4",
         "time_stamp": "2022-10-17T19:38:00Z",
         "time_start": "2022-10-17T19:38:00Z",
         "time_end": "2022-10-17T19:41:00Z",
@@ -11178,10 +11805,14 @@
         "contributors": [
             "Foroozan Danshzand"
         ],
-        "authors": [],
+        "authors": [
+            "Foroozan Daneshzand",
+            "Charles Perin",
+            "Sheelagh Carpendale"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1018",
-        "file_name": "",
+        "file_name": "w-vis4climate-1018_1018_Presentation.mp4",
         "time_stamp": "2022-10-17T19:41:00Z",
         "time_start": "2022-10-17T19:41:00Z",
         "time_end": "2022-10-17T19:44:00Z",
@@ -11203,10 +11834,12 @@
         "contributors": [
             "Mark Subbarao"
         ],
-        "authors": [],
+        "authors": [
+            "Mark SubbaRao"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1021",
-        "file_name": "",
+        "file_name": "w-vis4climate-1021_Subbarao_Presentation.mp4",
         "time_stamp": "2022-10-17T19:44:00Z",
         "time_start": "2022-10-17T19:44:00Z",
         "time_end": "2022-10-17T19:49:00Z",
@@ -11228,10 +11861,19 @@
         "contributors": [
             "Jason Leigh"
         ],
-        "authors": [],
+        "authors": [
+            "Jason Leigh",
+            "Mahdi Belcaid",
+            "Ryan Theriot",
+            "Nurit Kirshenbaum",
+            "Roderick S Tabalba Jr.",
+            "Michael L. Rogers",
+            "Eva Moralez Peres",
+            "Kari Noe"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1025",
-        "file_name": "",
+        "file_name": "w-vis4climate-1025_Leigh_Presentation.mp4",
         "time_stamp": "2022-10-17T19:49:00Z",
         "time_start": "2022-10-17T19:49:00Z",
         "time_end": "2022-10-17T19:52:00Z",
@@ -11253,10 +11895,15 @@
         "contributors": [
             "Everardo Gonzalez"
         ],
-        "authors": [],
+        "authors": [
+            "Valentin Buck",
+            "Flemming St\u00e4bler",
+            "Everardo Gonz\u00e1lez",
+            "Christian Scharun"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1009",
-        "file_name": "",
+        "file_name": "w-vis4climate-1009_Gonzalez_Presentation.mp4",
         "time_stamp": "2022-10-17T19:52:00Z",
         "time_start": "2022-10-17T19:52:00Z",
         "time_end": "2022-10-17T19:55:00Z",
@@ -11278,10 +11925,17 @@
         "contributors": [
             "Kalina Borkiewicz"
         ],
-        "authors": [],
+        "authors": [
+            "Kalina Borkiewicz",
+            "Stuart Levy",
+            "Jeffrey D Carpenter",
+            "Donna Cox",
+            "Robert Patterson",
+            "AJ Christensen"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1019",
-        "file_name": "",
+        "file_name": "w-vis4climate-1019_Borkiewicz_Presentation.mp4",
         "time_stamp": "2022-10-17T19:55:00Z",
         "time_start": "2022-10-17T19:55:00Z",
         "time_end": "2022-10-17T19:58:00Z",
@@ -11303,10 +11957,15 @@
         "contributors": [
             "Daniel Sauter"
         ],
-        "authors": [],
+        "authors": [
+            "Daniel Sauter",
+            "Timon McPhearson",
+            "Xinyue Peng",
+            "Christopher Kennedy"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1006",
-        "file_name": "",
+        "file_name": "w-vis4climate-1006_Sauter_Presentation.mp4",
         "time_stamp": "2022-10-17T19:58:00Z",
         "time_start": "2022-10-17T19:58:00Z",
         "time_end": "2022-10-17T20:01:00Z",
@@ -11328,10 +11987,14 @@
         "contributors": [
             "Marta Fereira"
         ],
-        "authors": [],
+        "authors": [
+            "Marta Ferreira",
+            "Valentina Nisi",
+            "Nuno Jardim Nunes"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1027",
-        "file_name": "",
+        "file_name": "w-vis4climate-1027_Ferreira_Presentation.mp4",
         "time_stamp": "2022-10-17T20:01:00Z",
         "time_start": "2022-10-17T20:01:00Z",
         "time_end": "2022-10-17T20:04:00Z",
@@ -11353,10 +12016,12 @@
         "contributors": [
             "Antoine Bertin"
         ],
-        "authors": [],
+        "authors": [
+            "Antoine Bertin"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1031",
-        "file_name": "",
+        "file_name": "w-vis4climate-1031_333hz_Presentation.mp4",
         "time_stamp": "2022-10-17T20:04:00Z",
         "time_start": "2022-10-17T20:04:00Z",
         "time_end": "2022-10-17T20:07:00Z",
@@ -11378,10 +12043,12 @@
         "contributors": [
             "Kel Elkins"
         ],
-        "authors": [],
+        "authors": [
+            "Kel Elkins"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1004",
-        "file_name": "",
+        "file_name": "w-vis4climate-1004_Elkins_Presentation.mp4",
         "time_stamp": "2022-10-17T20:07:00Z",
         "time_start": "2022-10-17T20:07:00Z",
         "time_end": "2022-10-17T20:10:00Z",
@@ -11403,10 +12070,14 @@
         "contributors": [
             "Jason Haga"
         ],
-        "authors": [],
+        "authors": [
+            "Jason Haga",
+            "Jason Leigh",
+            "Mores Prachyabrued"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1026",
-        "file_name": "",
+        "file_name": "w-vis4climate-1026_Haga_Presentation.mp4",
         "time_stamp": "2022-10-17T20:10:00Z",
         "time_start": "2022-10-17T20:10:00Z",
         "time_end": "2022-10-17T20:13:00Z",
@@ -11428,10 +12099,12 @@
         "contributors": [
             "Cristina Tarquini"
         ],
-        "authors": [],
+        "authors": [
+            "Cristina Tarquini"
+        ],
         "abstract": "",
         "uid": "w-vis4climate-1033",
-        "file_name": "",
+        "file_name": "w-vis4climate-1033_Tarquini_Presentation.mp4",
         "time_stamp": "2022-10-17T20:13:00Z",
         "time_start": "2022-10-17T20:13:00Z",
         "time_end": "2022-10-17T20:15:00Z",
@@ -11453,10 +12126,13 @@
         "contributors": [
             "Chase Stokes"
         ],
-        "authors": [],
+        "authors": [
+            "Chase Stokes",
+            "Marti Hearst"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1003",
-        "file_name": "",
+        "file_name": "w-nlvis-1003_Stokes_Presentation.mp4",
         "time_stamp": "2022-10-16T19:55:00Z",
         "time_start": "2022-10-16T19:55:00Z",
         "time_end": "2022-10-16T20:03:00Z",
@@ -11478,7 +12154,10 @@
         "contributors": [
             "Klaus Mueller"
         ],
-        "authors": [],
+        "authors": [
+            "Ashley Liew",
+            "Klaus Mueller"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1014",
         "file_name": "",
@@ -11503,7 +12182,12 @@
         "contributors": [
             "Filip Dabek"
         ],
-        "authors": [],
+        "authors": [
+            "Filip Dabek",
+            "Tim Oates",
+            "Peter Hoover",
+            "Jesus Caban"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1009",
         "file_name": "",
@@ -11528,7 +12212,9 @@
         "contributors": [
             "Richard Brath"
         ],
-        "authors": [],
+        "authors": [
+            "Richard Brath"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1006",
         "file_name": "",
@@ -11553,7 +12239,11 @@
         "contributors": [
             "Huyen N. Nguyen"
         ],
-        "authors": [],
+        "authors": [
+            "Huyen N. Nguyen",
+            "Tommy Dang",
+            "Kathleen A. Bowe"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1005",
         "file_name": "",
@@ -11578,7 +12268,11 @@
         "contributors": [
             "Marcel Ruoff"
         ],
-        "authors": [],
+        "authors": [
+            "Marcel Ruoff",
+            "Brad Myers",
+            "Alexander Maedche"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1004",
         "file_name": "",
@@ -11603,7 +12297,14 @@
         "contributors": [
             "Yiru Chen"
         ],
-        "authors": [],
+        "authors": [
+            "Yiru Chen",
+            "Ryan Li",
+            "Austin Mac",
+            "Tianbao Xie",
+            "Tao Yu",
+            "eugene Wu"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1011",
         "file_name": "",
@@ -11628,7 +12329,13 @@
         "contributors": [
             "Alark Joshi"
         ],
-        "authors": [],
+        "authors": [
+            "Vedangi Bhavsar",
+            "Utkarsha Nehe",
+            "Aditya Mandke",
+            "Srushti Sardeshmukh",
+            "Alark Joshi"
+        ],
         "abstract": "",
         "uid": "w-nlvis-1015",
         "file_name": "",

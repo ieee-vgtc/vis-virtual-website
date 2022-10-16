@@ -174,6 +174,17 @@ function createFullCalendar(calendar, config, allEvents) {
           // Force session to end for lunch on overview calendar
           timePosition = sessions[0].timeStart + " / " + "time-1200"
         }
+
+        // Force VDS to end on time argh
+      // // ignore vizsec-2 (starts at 10:05)
+      // if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
+      //   continue;
+        // console.log("dayKey is ", dayKey, " and timeslotKey is ", timeslotKey)
+        // if (dayKey === "2022-10-16" && timeslotKey === "14:00:00Z") {
+        //   // Force session to end for lunch on overview calendar
+        //   timePosition = sessions[0].timeStart + " / " + "time-1015";
+        // }
+
         // force non-full day event on Monday
         // if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
         //   timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
@@ -224,6 +235,19 @@ function createFullCalendar(calendar, config, allEvents) {
   };
 }
 
+function getDayGridRow(timeStart, timeEnd) {
+  // Stop weird times from breaking the calendar
+  if (timeEnd === "time-1025") {
+    timeEnd = "time-1015";
+  }
+
+  if (timeStart === "time-1055") {
+    timeStart = "time-1045";
+  }
+  const dayGridRowString = `${timeStart} / ${timeEnd}`;
+  return dayGridRowString;
+}
+
 function createDayCalendar(calendar, config, dayEvents) {
 
   const navigateToSession = (_ev, d) => {
@@ -236,7 +260,7 @@ function createDayCalendar(calendar, config, dayEvents) {
       .attr("class", "session")
       .attr('data-tippy-content', d => d.title)
       .style('grid-column', d => `${d.room}-start / auto`)
-      .style('grid-row', d => `${d.timeStart} / ${d.timeEnd}`)
+      .style('grid-row', d => getDayGridRow(d.timeStart, d.timeEnd))
       .style('background-color', d => getColor(d, config))
       .style('color', d => getTextColorByBackgroundColor(getColor(d, config)))
       .on('click', navigateToSession)
