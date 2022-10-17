@@ -37,7 +37,383 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "conf-prog-1",
+                        "session_id": "conf1",
+                        "type": "In Person ",
+                        "title": "VGTC Awards Presentation",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T13:45:00Z",
+                        "time_start": "2022-10-18T13:45:00Z",
+                        "time_end": "2022-10-18T13:46:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-2",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Dissertation Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T13:46:00Z",
+                        "time_start": "2022-10-18T13:46:00Z",
+                        "time_end": "2022-10-18T13:48:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-3",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Significant New Researcher Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T13:48:00Z",
+                        "time_start": "2022-10-18T13:48:00Z",
+                        "time_end": "2022-10-18T13:49:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-4",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Significant New Researcher Award",
+                        "contributors": [
+                            "Danielle Sazfir"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T13:49:00Z",
+                        "time_start": "2022-10-18T13:49:00Z",
+                        "time_end": "2022-10-18T13:54:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-5",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Significant New Researcher Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T13:54:00Z",
+                        "time_start": "2022-10-18T13:54:00Z",
+                        "time_end": "2022-10-18T13:55:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-6",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Significant New Researcher Award",
+                        "contributors": [
+                            "Arvind Satyanarayan"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T13:55:00Z",
+                        "time_start": "2022-10-18T13:55:00Z",
+                        "time_end": "2022-10-18T14:00:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-7",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Technical Achievement Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:00:00Z",
+                        "time_start": "2022-10-18T14:00:00Z",
+                        "time_end": "2022-10-18T14:01:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-8",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Technical Achievement Award",
+                        "contributors": [
+                            "Valerio Pascucci"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:01:00Z",
+                        "time_start": "2022-10-18T14:01:00Z",
+                        "time_end": "2022-10-18T14:06:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-9",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Technical Achievement Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:06:00Z",
+                        "time_start": "2022-10-18T14:06:00Z",
+                        "time_end": "2022-10-18T14:07:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-10",
+                        "session_id": "conf1",
+                        "type": "Virtual Presentation (pre-recorded)",
+                        "title": "VGTC Technical Achievement Award",
+                        "contributors": [
+                            "Shixia Liu"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:07:00Z",
+                        "time_start": "2022-10-18T14:07:00Z",
+                        "time_end": "2022-10-18T14:12:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-11",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Lifetime Achievement Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:12:00Z",
+                        "time_start": "2022-10-18T14:12:00Z",
+                        "time_end": "2022-10-18T14:13:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-12",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Lifetime Achievement Award",
+                        "contributors": [
+                            "Colin Ware"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:13:00Z",
+                        "time_start": "2022-10-18T14:13:00Z",
+                        "time_end": "2022-10-18T14:18:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-13",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Service Award",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:18:00Z",
+                        "time_start": "2022-10-18T14:18:00Z",
+                        "time_end": "2022-10-18T14:19:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-14",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Service Award",
+                        "contributors": [
+                            "Gautam Chaudhary"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:19:00Z",
+                        "time_start": "2022-10-18T14:19:00Z",
+                        "time_end": "2022-10-18T14:24:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "conf-prog-15",
+                        "session_id": "conf1",
+                        "type": "In Person Presentation",
+                        "title": "VGTC Academy Inductees",
+                        "contributors": [
+                            "Chuck Hansen"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-18T14:24:00Z",
+                        "time_start": "2022-10-18T14:24:00Z",
+                        "time_end": "2022-10-18T14:24:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             },
             {
                 "title": "Industry Keynote (2:00pm-2:15pm)| VIS Keynote (2:15pm-3:15pm)",
@@ -130,7 +506,7 @@
                 "title": "VISAP Opening Reception (6:00pm-8:00pm)| -- Art Exhibit Location: Automobile Alley",
                 "session_id": "a-visap-1",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-wed",
                 "session_image": "a-visap-1.png",
                 "chair": [],
@@ -346,7 +722,7 @@
                 "title": "VIS combined Poster Session (5:30pm-6:45pm)| -- includes all Workshops/Associated Event Posters| -- Exhibit Hall Location: OK Station 2+3",
                 "session_id": "conf6",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-thu",
                 "session_image": "conf6.png",
                 "chair": [],
@@ -371,7 +747,7 @@
                 "title": "VIS Banquet (6:45pm-10:00pm)| -- Location: First Americans Museum| -- Shuttles depart starting at 6:30pm",
                 "session_id": "conf7",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-wed",
                 "session_image": "conf7.png",
                 "chair": [],
@@ -396,7 +772,7 @@
                 "title": "OU Open House (6:00pm-9:00pm)| -- Location: off site, shuttles depart 5:45pm",
                 "session_id": "conf8",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-fri",
                 "session_image": "conf8.png",
                 "chair": [],
@@ -421,7 +797,7 @@
                 "title": "Supporters Exhibits, Networking + Hiring, Posters",
                 "session_id": "ex1",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-tue",
                 "session_image": "ex1.png",
                 "chair": [],
@@ -446,7 +822,7 @@
                 "title": "Supporters Exhibits, Networking + Hiring, Posters",
                 "session_id": "ex2",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-wed",
                 "session_image": "ex2.png",
                 "chair": [],
@@ -471,7 +847,7 @@
                 "title": "Supporters Exhibits, Networking + Hiring, Posters",
                 "session_id": "ex3",
                 "event_prefix": "conf",
-                "track": "ok1",
+                "track": "various",
                 "livestream_id": "various-thu",
                 "session_image": "ex3.png",
                 "chair": [],
@@ -19621,7 +19997,7 @@
                         "slot_id": "a-ldav-prog-8",
                         "session_id": "a-ldav-4",
                         "type": "In Person Presentation",
-                        "title": "What Do Users Want From Big Data?",
+                        "title": "Senior Expert, Data Science and Advanced Visual Analytics",
                         "contributors": [
                             "Dylan Cashman"
                         ],
@@ -19985,7 +20361,7 @@
                     {
                         "slot_id": "w-beliv-7504-pres",
                         "session_id": "w-beliv-2",
-                        "type": "In Person Presentation",
+                        "type": "Virtual Presentation (live)",
                         "title": "How Personality and Visual Channels Affect Insight Generation",
                         "contributors": [
                             "Tom\u00e1s Alves"
@@ -20016,7 +20392,7 @@
                     {
                         "slot_id": "w-beliv-7504-qa",
                         "session_id": "w-beliv-2",
-                        "type": "In Person Q+A",
+                        "type": "Virtual Q+A",
                         "title": "How Personality and Visual Channels Affect Insight Generation (Q+A)",
                         "contributors": [
                             "Tom\u00e1s Alves"
@@ -24515,7 +24891,43 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "t-ttk-prog-1",
+                        "session_id": "t-ttk-1",
+                        "type": "In Person Presentation",
+                        "title": "Topological Analysis of Ensemble Scalar Data with TTK, A Sequel 1",
+                        "contributors": [
+                            "Christoph Garth",
+                            "Charles Gueunet",
+                            "Pierre Guillou",
+                            "Federico Iuricich",
+                            "Joshua Levine",
+                            "Jonas Lukasczyk",
+                            "Mathieu Pont",
+                            "Julien Tierny",
+                            "Jules Vidal",
+                            "Bei Wang",
+                            "Florian Wetzels"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T14:00:00Z",
+                        "time_start": "2022-10-17T14:00:00Z",
+                        "time_end": "2022-10-17T15:15:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             },
             {
                 "title": "Topological Analysis of Ensemble Scalar Data with TTK, A Sequel 2",
@@ -24552,7 +24964,43 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "t-ttk-prog-2",
+                        "session_id": "t-ttk-2",
+                        "type": "In Person Presentation",
+                        "title": "Topological Analysis of Ensemble Scalar Data with TTK, A Sequel 2",
+                        "contributors": [
+                            "Christoph Garth",
+                            "Charles Gueunet",
+                            "Pierre Guillou",
+                            "Federico Iuricich",
+                            "Joshua Levine",
+                            "Jonas Lukasczyk",
+                            "Mathieu Pont",
+                            "Julien Tierny",
+                            "Jules Vidal",
+                            "Bei Wang",
+                            "Florian Wetzels"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T15:45:00Z",
+                        "time_start": "2022-10-17T15:45:00Z",
+                        "time_end": "2022-10-17T17:00:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             }
         ]
     },
@@ -26616,10 +27064,10 @@
                     {
                         "slot_id": "w-testvis-1000-pres",
                         "session_id": "w-testvis-1",
-                        "type": "In Person Presentation",
+                        "type": "Virtual Presentation (pre-recorded)",
                         "title": "Interactive Analysis of Post-Silicon Validation Data",
                         "contributors": [
-                            "Johannes Knittel"
+                            "Andr\u00e9s Lalama"
                         ],
                         "authors": [
                             "Andr\u00e9s Lalama",
@@ -26650,7 +27098,7 @@
                     {
                         "slot_id": "w-testvis-1000-qa",
                         "session_id": "w-testvis-1",
-                        "type": "In Person Q+A",
+                        "type": "Virtual Q+A",
                         "title": "Interactive Analysis of Post-Silicon Validation Data (Q+A)",
                         "contributors": [
                             "Andr\u00e9s Lalama"
@@ -27079,7 +27527,7 @@
                         ],
                         "authors": [],
                         "abstract": "",
-                        "uid": "w-visguides-1011",
+                        "uid": "",
                         "file_name": "",
                         "time_stamp": "2022-10-17T19:40:00Z",
                         "time_start": "2022-10-17T19:40:00Z",
@@ -27198,29 +27646,24 @@
                         "slot_id": "w-visguides-1006-pres",
                         "session_id": "w-visguides-1",
                         "type": "In Person Presentation",
-                        "title": "Analysis Without Data: Teaching Students to Tackle the Vast Challenge",
+                        "title": "[Missing Title]",
                         "contributors": [
                             "Edward He",
                             "Daniel Tolessa"
                         ],
-                        "authors": [
-                            "Lena Cibulski",
-                            "Evanthia Dimara",
-                            "Setia Hermawati",
-                            "J\u00f6rn Kohlhammer"
-                        ],
+                        "authors": [],
                         "abstract": "",
-                        "uid": "w-visguides-1006",
-                        "file_name": "w-visguides-1006_Cibulski_Presentation.mp4",
+                        "uid": "",
+                        "file_name": "",
                         "time_stamp": "2022-10-17T20:00:00Z",
                         "time_start": "2022-10-17T20:00:00Z",
                         "time_end": "2022-10-17T20:05:00Z",
-                        "paper_type": "workshop",
+                        "paper_type": "",
                         "keywords": [],
-                        "has_image": "1",
-                        "has_video": "304",
+                        "has_image": false,
+                        "has_video": "",
                         "paper_award": "",
-                        "image_caption": "In the domain characterization phase of a visualization design study, the Critical Decision Method provides five actionable steps to carve out domain knowledge by visiting a real-world problem multiple times.",
+                        "image_caption": "",
                         "external_paper_link": "",
                         "has_pdf": false,
                         "ff_link": ""
@@ -28041,7 +28484,7 @@
                         ],
                         "authors": [],
                         "abstract": "",
-                        "uid": "w-trex-6077",
+                        "uid": "",
                         "file_name": "",
                         "time_stamp": "2022-10-16T16:38:00Z",
                         "time_start": "2022-10-16T16:38:00Z",
@@ -28066,7 +28509,7 @@
                         ],
                         "authors": [],
                         "abstract": "",
-                        "uid": "w-trex-6077",
+                        "uid": "",
                         "file_name": "",
                         "time_stamp": "2022-10-16T16:43:00Z",
                         "time_start": "2022-10-16T16:43:00Z",
@@ -28235,42 +28678,10 @@
                         "external_paper_link": "",
                         "has_pdf": false,
                         "ff_link": ""
-                    }
-                ]
-            },
-            {
-                "title": "Vis4Good: 7 Papers + 1 Poster + Closing",
-                "session_id": "w-vis4good-2",
-                "event_prefix": "w-vis4good",
-                "track": "ok8",
-                "livestream_id": "ok8-sun",
-                "session_image": "w-vis4good-2.png",
-                "chair": [
-                    "Leilani Battle",
-                    "Michelle Borkin",
-                    "Lane Harrison",
-                    "Narges Mahyar",
-                    "Emily Wall"
-                ],
-                "organizers": [],
-                "time_start": "2022-10-16T20:45:00Z",
-                "time_end": "2022-10-16T22:00:00Z",
-                "discord_category": "",
-                "discord_channel": "oklahoma-st-8",
-                "discord_channel_id": "1024600961295065128",
-                "discord_link": "https://discord.com/channels/978320435554947082/1024600961295065128",
-                "slido_link": "https://app.sli.do/event/i28UETZaiRWr1XwX6eKjcf?section=ae89e1c6-05b5-4dce-9468-cedd5098ebbe",
-                "youtube_url": "https://youtu.be/nAzQZ6u21kE",
-                "youtube_id": "nAzQZ6u21kE",
-                "zoom_meeting": "",
-                "zoom_password": "",
-                "zoom_link": "",
-                "ff_link": "",
-                "ff_playlist": "",
-                "time_slots": [
+                    },
                     {
                         "slot_id": "w-vis4good-4497-pres",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "In Person Presentation",
                         "title": "Paper | Additional Perspectives on Data Equity",
                         "contributors": [
@@ -28298,7 +28709,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-4497-qa",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "In Person Q+A",
                         "title": "QA | Additional Perspectives on Data Equity",
                         "contributors": [
@@ -28323,7 +28734,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-4801-pres",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "In Person Presentation",
                         "title": "Paper | Exploring and Explaining Climate Change: Exploranation as a Visualization Pedagogy for Societal Action",
                         "contributors": [
@@ -28359,7 +28770,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-4801-qa",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "In Person Q+A",
                         "title": "QA | Exploring and Explaining Climate Change: Exploranation as a Visualization Pedagogy for Societal Action",
                         "contributors": [
@@ -28384,7 +28795,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-9035-pres",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "In Person Presentation",
                         "title": "Paper | Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment",
                         "contributors": [
@@ -28420,7 +28831,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-9035-qa",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "In Person Q+A",
                         "title": "QA | Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment",
                         "contributors": [
@@ -28445,7 +28856,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-1760-pres",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "Virtual Presentation (live)",
                         "title": "Paper | Can data visualizations change minds? Identifying mechanisms of elaborative thinking and persuasion",
                         "contributors": [
@@ -28476,7 +28887,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-1760-qa",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "Virtual Q+A",
                         "title": "QA | Can data visualizations change minds? Identifying mechanisms of elaborative thinking and persuasion",
                         "contributors": [
@@ -28501,7 +28912,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-3322-pres",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "Virtual Presentation (live)",
                         "title": "Paper | Representing Marginalized Populations: Challenges in Anthropographics",
                         "contributors": [
@@ -28530,7 +28941,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-3322-qa",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "Virtual Q+A",
                         "title": "QA | Representing Marginalized Populations: Challenges in Anthropographics",
                         "contributors": [
@@ -28555,7 +28966,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-6296-pres",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "Virtual Presentation (live)",
                         "title": "Paper | Data Bricks Space Mission: Teaching Kids about Data with Physicalization",
                         "contributors": [
@@ -28583,7 +28994,7 @@
                     },
                     {
                         "slot_id": "w-vis4good-6296-qa",
-                        "session_id": "w-vis4good-2",
+                        "session_id": "w-vis4good-1",
                         "type": "Virtual Q+A",
                         "title": "QA | Data Bricks Space Mission: Teaching Kids about Data with Physicalization",
                         "contributors": [
@@ -28605,7 +29016,39 @@
                         "external_paper_link": "",
                         "has_pdf": false,
                         "ff_link": ""
-                    },
+                    }
+                ]
+            },
+            {
+                "title": "Vis4Good: 7 Papers + 1 Poster + Closing",
+                "session_id": "w-vis4good-2",
+                "event_prefix": "w-vis4good",
+                "track": "ok8",
+                "livestream_id": "ok8-sun",
+                "session_image": "w-vis4good-2.png",
+                "chair": [
+                    "Leilani Battle",
+                    "Michelle Borkin",
+                    "Lane Harrison",
+                    "Narges Mahyar",
+                    "Emily Wall"
+                ],
+                "organizers": [],
+                "time_start": "2022-10-16T20:45:00Z",
+                "time_end": "2022-10-16T22:00:00Z",
+                "discord_category": "",
+                "discord_channel": "oklahoma-st-8",
+                "discord_channel_id": "1024600961295065128",
+                "discord_link": "https://discord.com/channels/978320435554947082/1024600961295065128",
+                "slido_link": "https://app.sli.do/event/i28UETZaiRWr1XwX6eKjcf?section=ae89e1c6-05b5-4dce-9468-cedd5098ebbe",
+                "youtube_url": "https://youtu.be/nAzQZ6u21kE",
+                "youtube_id": "nAzQZ6u21kE",
+                "zoom_meeting": "",
+                "zoom_password": "",
+                "zoom_link": "",
+                "ff_link": "",
+                "ff_playlist": "",
+                "time_slots": [
                     {
                         "slot_id": "w-vis4good-2457-pres",
                         "session_id": "w-vis4good-2",
@@ -29346,7 +29789,7 @@
                     {
                         "slot_id": "w-vis4climate-prog-2",
                         "session_id": "w-vis4climate-1",
-                        "type": "Virtual Presentation (pre-recorded)",
+                        "type": "In Person Other",
                         "title": "Keynote Presentation",
                         "contributors": [
                             "Ed Hawkins"
@@ -31013,6 +31456,81 @@
                         "external_paper_link": "",
                         "has_pdf": false,
                         "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-vtk-prog-1",
+                        "session_id": "t-vtk-1",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Introduction/software install",
+                        "contributors": [
+                            "Tushar Athawale"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T19:00:00Z",
+                        "time_start": "2022-10-17T19:00:00Z",
+                        "time_end": "2022-10-17T19:25:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-vtk-prog-2",
+                        "session_id": "t-vtk-1",
+                        "type": "In Person Presentation",
+                        "title": "Concepts behind VTK-m usage",
+                        "contributors": [
+                            "David Pugmire"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T19:25:00Z",
+                        "time_start": "2022-10-17T19:25:00Z",
+                        "time_end": "2022-10-17T19:50:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-vtk-prog-3",
+                        "session_id": "t-vtk-1",
+                        "type": "In Person Presentation",
+                        "title": "Using VTK-m (concepts + hands on)",
+                        "contributors": [
+                            "Silvio Rizzi"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T19:50:00Z",
+                        "time_start": "2022-10-17T19:50:00Z",
+                        "time_end": "2022-10-17T20:15:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
                     }
                 ]
             },
@@ -31046,6 +31564,81 @@
                 "ff_link": "",
                 "ff_playlist": "",
                 "time_slots": [
+                    {
+                        "slot_id": "t-vtk-prog-4",
+                        "session_id": "t-vtk-2",
+                        "type": "In Person Presentation",
+                        "title": "VTK-m development (concepts + hands on)",
+                        "contributors": [
+                            "Ken Moreland"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T20:45:00Z",
+                        "time_start": "2022-10-17T20:45:00Z",
+                        "time_end": "2022-10-17T21:20:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-vtk-prog-5",
+                        "session_id": "t-vtk-2",
+                        "type": "In Person Presentation",
+                        "title": "VTK-m examples (hands on)",
+                        "contributors": [
+                            "Mark Bolstad"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T21:20:00Z",
+                        "time_start": "2022-10-17T21:20:00Z",
+                        "time_end": "2022-10-17T21:55:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-vtk-prog-6",
+                        "session_id": "t-vtk-2",
+                        "type": "In Person Presentation",
+                        "title": "Upcoming activities",
+                        "contributors": [
+                            "Ken Moreland"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T21:55:00Z",
+                        "time_start": "2022-10-17T21:55:00Z",
+                        "time_end": "2022-10-17T22:00:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
                     {
                         "slot_id": "t-vtk-prog-4",
                         "session_id": "t-vtk-2",
@@ -31280,7 +31873,133 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "t-sports-prog-1",
+                        "session_id": "t-sports-1",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Welcome/Introduction",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T19:00:00Z",
+                        "time_start": "2022-10-16T19:00:00Z",
+                        "time_end": "2022-10-16T19:05:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-2",
+                        "session_id": "t-sports-1",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Breaking down sports visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T19:05:00Z",
+                        "time_start": "2022-10-16T19:05:00Z",
+                        "time_end": "2022-10-16T19:25:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-3",
+                        "session_id": "t-sports-1",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Event-based sports visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T19:25:00Z",
+                        "time_start": "2022-10-16T19:25:00Z",
+                        "time_end": "2022-10-16T19:45:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-4",
+                        "session_id": "t-sports-1",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Tracking sports visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T19:45:00Z",
+                        "time_start": "2022-10-16T19:45:00Z",
+                        "time_end": "2022-10-16T20:05:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-5",
+                        "session_id": "t-sports-1",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Meta-data visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T20:05:00Z",
+                        "time_start": "2022-10-16T20:05:00Z",
+                        "time_end": "2022-10-16T20:15:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             },
             {
                 "title": "Sports Data Analysis and Visualization 2",
@@ -31307,7 +32026,108 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "t-sports-prog-6",
+                        "session_id": "t-sports-2",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Case study: performance sports visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T20:45:00Z",
+                        "time_start": "2022-10-16T20:45:00Z",
+                        "time_end": "2022-10-16T21:15:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-7",
+                        "session_id": "t-sports-2",
+                        "type": "Virtual Presentation (live)",
+                        "title": "Case study: tactical sports visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T21:15:00Z",
+                        "time_start": "2022-10-16T21:15:00Z",
+                        "time_end": "2022-10-16T21:30:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-8",
+                        "session_id": "t-sports-2",
+                        "type": "Virtual Q+A",
+                        "title": "Case study: opposition sports visualizations",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T21:30:00Z",
+                        "time_start": "2022-10-16T21:30:00Z",
+                        "time_end": "2022-10-16T21:59:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    },
+                    {
+                        "slot_id": "t-sports-prog-9",
+                        "session_id": "t-sports-2",
+                        "type": "Virtual Q+A",
+                        "title": "Wrap up and QA",
+                        "contributors": [
+                            "Romain Vuillemot"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-16T21:59:00Z",
+                        "time_start": "2022-10-16T21:59:00Z",
+                        "time_end": "2022-10-16T22:00:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             }
         ]
     },
@@ -31600,7 +32420,33 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "t-geo-prog-1",
+                        "session_id": "t-geo-1",
+                        "type": "In Person Presentation",
+                        "title": "Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile 1",
+                        "contributors": [
+                            "Shan He"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T19:00:00Z",
+                        "time_start": "2022-10-17T19:00:00Z",
+                        "time_end": "2022-10-17T20:15:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             },
             {
                 "title": "Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile 2",
@@ -31627,7 +32473,33 @@
                 "zoom_link": "",
                 "ff_link": "",
                 "ff_playlist": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "t-geo-prog-2",
+                        "session_id": "t-geo-2",
+                        "type": "In Person Presentation",
+                        "title": "Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile 2",
+                        "contributors": [
+                            "Shan He"
+                        ],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "file_name": "",
+                        "time_stamp": "2022-10-17T20:45:00Z",
+                        "time_start": "2022-10-17T20:45:00Z",
+                        "time_end": "2022-10-17T22:00:00Z",
+                        "paper_type": "",
+                        "keywords": [],
+                        "has_image": false,
+                        "has_video": "",
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "has_pdf": false,
+                        "ff_link": ""
+                    }
+                ]
             }
         ]
     }
