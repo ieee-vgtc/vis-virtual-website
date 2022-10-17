@@ -9117,7 +9117,7 @@
     "w-beliv-7504": {
         "slot_id": "w-beliv-7504-pres",
         "session_id": "w-beliv-2",
-        "type": "In Person Presentation",
+        "type": "Virtual Presentation (live)",
         "title": "How Personality and Visual Channels Affect Insight Generation",
         "contributors": [
             "Tom\u00e1s Alves"
@@ -10890,10 +10890,10 @@
     "w-testvis-1000": {
         "slot_id": "w-testvis-1000-pres",
         "session_id": "w-testvis-1",
-        "type": "In Person Presentation",
+        "type": "Virtual Presentation (pre-recorded)",
         "title": "Interactive Analysis of Post-Silicon Validation Data",
         "contributors": [
-            "Johannes Knittel"
+            "Andr\u00e9s Lalama"
         ],
         "authors": [
             "Andr\u00e9s Lalama",
@@ -10983,11 +10983,10 @@
     "w-visguides-1006": {
         "slot_id": "w-visguides-1006-pres",
         "session_id": "w-visguides-1",
-        "type": "In Person Presentation",
-        "title": "Analysis Without Data: Teaching Students to Tackle the Vast Challenge",
+        "type": "Virtual Presentation (pre-recorded)",
+        "title": "Supporting Domain Characterization in Visualization Design Studies With the Critical Decision Method",
         "contributors": [
-            "Edward He",
-            "Daniel Tolessa"
+            "Lena Cibulski"
         ],
         "authors": [
             "Lena Cibulski",
@@ -10998,9 +10997,9 @@
         "abstract": "",
         "uid": "w-visguides-1006",
         "file_name": "w-visguides-1006_Cibulski_Presentation.mp4",
-        "time_stamp": "2022-10-17T20:00:00Z",
-        "time_start": "2022-10-17T20:00:00Z",
-        "time_end": "2022-10-17T20:05:00Z",
+        "time_stamp": "2022-10-17T19:30:00Z",
+        "time_start": "2022-10-17T19:30:00Z",
+        "time_end": "2022-10-17T19:35:00Z",
         "paper_type": "workshop",
         "keywords": [],
         "has_image": "1",
@@ -11036,31 +11035,6 @@
         "has_video": "250",
         "paper_award": "",
         "image_caption": "Violin plots are an extension of the boxplot design with a \u201cdensity trace\u201d as a line. \nTheir goal is to analyze distributions when individual data is less important. \nSometimes they are combined with other representations such as boxplots or beeswarms. \nHowever, users have difficulty comparing distributions, and the usefulness of these combinations has not been tested. \nTherefore, we have carried out an experiment to clarify how the different configurations affect judgments over values encoded.\nOur aim is to extract advice for the best design of these graphics.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "w-visguides-1011": {
-        "slot_id": "w-visguides-1011-pres",
-        "session_id": "w-visguides-1",
-        "type": "Virtual Presentation (pre-recorded)",
-        "title": "Guiding visualization practice with questions: 10qviz.org",
-        "contributors": [
-            "Arzu \u00c7\u00f6ltekin"
-        ],
-        "authors": [],
-        "abstract": "",
-        "uid": "w-visguides-1011",
-        "file_name": "",
-        "time_stamp": "2022-10-17T19:40:00Z",
-        "time_start": "2022-10-17T19:40:00Z",
-        "time_end": "2022-10-17T19:45:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "has_image": false,
-        "has_video": "",
-        "paper_award": "",
-        "image_caption": "",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -11403,31 +11377,6 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "w-trex-6077": {
-        "slot_id": "w-trex-6077-pres",
-        "session_id": "w-trex-2",
-        "type": "Virtual Presentation (live)",
-        "title": "Trust Calibration as a Function of the Propogation of Uncertainty in Knowledge Generation: A Survey  ",
-        "contributors": [
-            "Joshua Bolay"
-        ],
-        "authors": [],
-        "abstract": "",
-        "uid": "w-trex-6077",
-        "file_name": "",
-        "time_stamp": "2022-10-16T16:38:00Z",
-        "time_start": "2022-10-16T16:38:00Z",
-        "time_end": "2022-10-16T16:43:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "has_image": false,
-        "has_video": "",
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
     "w-trex-2027": {
         "slot_id": "w-trex-2027-pres",
         "session_id": "w-trex-2",
@@ -11461,7 +11410,7 @@
     },
     "w-vis4good-4497": {
         "slot_id": "w-vis4good-4497-pres",
-        "session_id": "w-vis4good-2",
+        "session_id": "w-vis4good-1",
         "type": "In Person Presentation",
         "title": "Paper | Additional Perspectives on Data Equity",
         "contributors": [
@@ -11489,7 +11438,7 @@
     },
     "w-vis4good-4801": {
         "slot_id": "w-vis4good-4801-pres",
-        "session_id": "w-vis4good-2",
+        "session_id": "w-vis4good-1",
         "type": "In Person Presentation",
         "title": "Paper | Exploring and Explaining Climate Change: Exploranation as a Visualization Pedagogy for Societal Action",
         "contributors": [
@@ -11525,7 +11474,7 @@
     },
     "w-vis4good-9035": {
         "slot_id": "w-vis4good-9035-pres",
-        "session_id": "w-vis4good-2",
+        "session_id": "w-vis4good-1",
         "type": "In Person Presentation",
         "title": "Paper | Envisioning Situated Visualizations of Environmental Footprints in an Urban Environment",
         "contributors": [
@@ -11561,7 +11510,7 @@
     },
     "w-vis4good-1760": {
         "slot_id": "w-vis4good-1760-pres",
-        "session_id": "w-vis4good-2",
+        "session_id": "w-vis4good-1",
         "type": "Virtual Presentation (live)",
         "title": "Paper | Can data visualizations change minds? Identifying mechanisms of elaborative thinking and persuasion",
         "contributors": [
@@ -11592,7 +11541,7 @@
     },
     "w-vis4good-3322": {
         "slot_id": "w-vis4good-3322-pres",
-        "session_id": "w-vis4good-2",
+        "session_id": "w-vis4good-1",
         "type": "Virtual Presentation (live)",
         "title": "Paper | Representing Marginalized Populations: Challenges in Anthropographics",
         "contributors": [
@@ -11621,7 +11570,7 @@
     },
     "w-vis4good-6296": {
         "slot_id": "w-vis4good-6296-pres",
-        "session_id": "w-vis4good-2",
+        "session_id": "w-vis4good-1",
         "type": "Virtual Presentation (live)",
         "title": "Paper | Data Bricks Space Mission: Teaching Kids about Data with Physicalization",
         "contributors": [
