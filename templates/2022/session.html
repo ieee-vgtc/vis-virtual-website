@@ -136,7 +136,9 @@
             {% if session.type == "meetup" %}
             This session has concluded.  Meetup recordings are not captured.
             {% else %}
-            This session has concluded.  You can review the session using the player embedded below.
+            
+
+            We are currently processing the video for this session and will post it on this page in a few days.  In the meantime, you can view content from this session by accessing the full day’s video directly on YouTube: <p id="ytold"></p>
             {% endif %}
         </div>
 
@@ -282,6 +284,34 @@ function updateSessionStatus(onFirstLoad) {
             playbackContainer.append(iframe);
         }
     }
+
+    // Update youtube link for older sessions
+    if(sessionIsPast){
+        const roomidjson = "{{room.id}}-"+moment(startTime).format('ddd').toLowerCase()+".json"
+        console.log("this session was in:" , roomidjson)
+
+        return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
+        .then(response => response.json())
+        .then(data => {
+            //console.log(data)
+            console.log('youtube_url: ' + data.youtube_url)
+            //$("ytold").attr("href",data.youtube_url)
+
+            var a = document.createElement('a'); 
+            var link = document.createTextNode(data.youtube_url);  
+            a.appendChild(link); 
+            a.title = "YouTube Link"; 
+            a.href = data.youtube_url; 
+            
+            document.getElementById("ytold").appendChild(a);
+
+        })
+        .catch(error => {
+            console.log("err: ", error);
+        })
+    }
+    
+
 }
 
 </script>
