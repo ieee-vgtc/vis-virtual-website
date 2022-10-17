@@ -261,6 +261,10 @@ def about():
 @app.route("/jobs.html")
 def jobs():
     return meta_redirect_html(FROZEN_YEAR, "jobs.html")
+    
+@app.route("/impressions.html")
+def impressions():
+    return meta_redirect_html(FROZEN_YEAR, "impressions.html")
 
 @app.route("/papers.html")
 def papers():

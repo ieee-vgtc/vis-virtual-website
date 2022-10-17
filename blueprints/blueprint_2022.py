@@ -209,6 +209,12 @@ def jobs():
     data = _data()
     data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
     return render_template("{}/jobs.html".format(year), **data)
+    
+@year_blueprint.route("/year/{}/impressions.html".format(year))
+def impressions():
+    data = _data()
+    data["impressions"] = open("sitedata/{}/impressions.md".format(year)).read()
+    return render_template("{}/impressions.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/supporters.html".format(year))
 def supporters():
