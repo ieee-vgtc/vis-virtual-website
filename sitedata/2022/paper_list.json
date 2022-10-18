@@ -6918,7 +6918,7 @@
     "v-short-1110": {
         "slot_id": "v-short-1110-pres",
         "session_id": "short3",
-        "type": "In Person Presentation",
+        "type": "Virtual Presentation (pre-recorded)",
         "title": "Accelerated Probabilistic Marching Cubes by Deep Learning for Time-Varying Scalar Ensembles",
         "contributors": [
             "Mengjiao Han"
@@ -8433,7 +8433,7 @@
         ],
         "abstract": "Cosmologists say that most of the universe is structured by antimatter. We postulate that social media is similarly structured by effects of the unobserved discourse and experience. The backbone of a movement such as #MeToo is not based on the most-liked and most-retweeted, but by the masses of unobserved tweets. Vast numbers of #MeToo tweets that had no retweets and no likes nonetheless constituted acts of quiet testimony or unassuming solidarity. Conventional measures of network science thus fail to capture the true relevance of #MeToo. As Black feminist Patricia Hill Collins says, \"Most activism is brought about by ordinary people like ourselves.\"  From a distance, the graphics appear as abstract diagrams, similar to Bridget Riley\u2019s work. The beauty of each line contains a powerful request for a reordering of power within society. We present an opportunity to engage with each request\u2014from individual people at individual moments within a collective movement that is not over. #MeToo is urgent, #InvisibleNoMore is urgent, #BelieveBlackWomen is urgent, #MMIWG2S is urgent, #SayHerName is urgent. We are still living in a crisis of sexual violence. So we invite you to ditch the networked metrics and listen.",
         "uid": "a-visap-1024",
-        "file_name": "",
+        "file_name": "http://metoo.kimalbrecht.com/Situating%20%23MeToo%20short%20talk%20at%20IEEE%20Vis%202022.mp4",
         "time_stamp": "2022-10-19T14:14:00Z",
         "time_start": "2022-10-19T14:14:00Z",
         "time_end": "2022-10-19T14:19:00Z",
@@ -8626,7 +8626,7 @@
     "a-visap-1018": {
         "slot_id": "a-visap-1018-pres",
         "session_id": "a-visap-3",
-        "type": "In Person Presentation",
+        "type": "Virtual Presentation (pre-recorded)",
         "title": "Supersynthesis: A Communal Synthesis",
         "contributors": [
             "Amay Kataria"
@@ -8791,56 +8791,6 @@
         "image_caption": "",
         "external_paper_link": "",
         "has_pdf": true,
-        "ff_link": ""
-    },
-    "a-scivis-1009": {
-        "slot_id": "a-scivis-1009-pres",
-        "session_id": "a-sciviscontest-1",
-        "type": "In Person Presentation",
-        "title": "Contest Speaker: Marina Evers",
-        "contributors": [
-            "Marina Evers"
-        ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-scivis-1009",
-        "file_name": "",
-        "time_stamp": "2022-10-20T14:30:00Z",
-        "time_start": "2022-10-20T14:30:00Z",
-        "time_end": "2022-10-20T14:40:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "386",
-        "paper_award": "",
-        "image_caption": "Stream surface visualization of the wind vector field (u, v, w) at timestep 25 of the run Backcurve 40 with embedded streamlines. The streamlines are color-coded by the velocity of the wind field. We observe slow winds on the lee side of the mountain raising in altitude while accelerating before moving windward at higher velocities. Furthermore, we observe that the fire disturbs the wind directly in front of it, causing vortices and also achieving higher vertical velocities.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "a-scivis-1017": {
-        "slot_id": "a-scivis-1017-pres",
-        "session_id": "a-sciviscontest-1",
-        "type": "Virtual Presentation (pre-recorded)",
-        "title": "Contest Speaker: Milad Bagheri",
-        "contributors": [
-            "Milad Bagheri"
-        ],
-        "authors": [],
-        "abstract": "",
-        "uid": "a-scivis-1017",
-        "file_name": "",
-        "time_stamp": "2022-10-20T14:40:00Z",
-        "time_start": "2022-10-20T14:40:00Z",
-        "time_end": "2022-10-20T14:50:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "410",
-        "paper_award": "",
-        "image_caption": "Contribution to the IEEE 20222 SciVis Contest - Vorticity-driven Lateral Spread Ensemble Data Set\nSubmission ID: a-scivis-1017\nContestant: Milad Bagheri, Holger Marschall\nInstitute of Mathematical Modeling and Analysis\nDepartment of Mathematics\nTechnical University of Darmstadt\nGermany",
-        "external_paper_link": "",
-        "has_pdf": false,
         "ff_link": ""
     },
     "a-ldav-1016": {
@@ -9542,64 +9492,6 @@
         "has_pdf": true,
         "ff_link": ""
     },
-    "a-biovischallenge-1004": {
-        "slot_id": "a-biomedvischallenge-1004-pres",
-        "session_id": "a-biomedvischallenge-1",
-        "type": "In Person Presentation",
-        "title": "(Re-design) EProM - Exploration of Protein Modifications ",
-        "contributors": [
-            "Dani\u00ebl M. Bot"
-        ],
-        "authors": [
-            "Dani\u00ebl M. Bot",
-            "Jannes Peeters",
-            "Jan Aerts"
-        ],
-        "abstract": "We present EProM\u2014a visual analysis interface for the exploration of protein modifications\u2014as a contribution to the IEEE VIS 2022 Bio+MedVis Challenge. The interface targets researchers in bio-chemistry, proteomics, and precision medicine as its primary users. Observed modifications can be inspected from the protein\u2019s primary, secondary, and tertiary structure, using a straightforward design and intuitive interactions. Modifications\u2019 measurement uncertainty and relation to residues with identified pathogenic mutations are considered.",
-        "uid": "a-biovischallenge-1004",
-        "file_name": "a-biovischallenge-1004_Bot_Presentation.mp4",
-        "time_stamp": "2022-10-16T20:00:00Z",
-        "time_start": "2022-10-16T20:00:00Z",
-        "time_end": "2022-10-16T20:05:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "547",
-        "paper_award": "",
-        "image_caption": "EProM - Exploration of Protein Modifications - is an interactive interface \ndeveloped by Dani\u00ebl M. Bot, Jannes Peeters and Jan Aerts as submission for the \n2022 Bio+MedVis Challenge.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "a-biovischallenge-1005": {
-        "slot_id": "a-biomedvischallenge-1005-pres",
-        "session_id": "a-biomedvischallenge-1",
-        "type": "Virtual Presentation (pre-recorded)",
-        "title": "Mouse-Human Hybrids",
-        "contributors": [
-            "Hauke Bartsch"
-        ],
-        "authors": [
-            "Hauke Bartsch",
-            "Laura Garrison",
-            "Stefan Bruckner"
-        ],
-        "abstract": "A key goal in the analysis of proteomics data is to compare chemical modifications occurring on different residues in a protein sequence between human and animal models to assess the suitability of animal models for drug development. Differences in modification patterns between mouse and human protein variants may also indicate evolutionary pressures to preserve functional regions distributed along the protein sequence. However, comparing and contrasting the many possible patterns of modifications is a significant challenge in visualizing proteomics data. For this year\u2019s Bio+MedVis Protein Beasts Challenge, we propose an exploratory interface for pattern discovery. Results from data-driven pattern detectors are displayed using an animation metaphor that is suitable for both comparing and contrasting tasks. In addition, we propose a novel, compact steel-drum like pattern selector component that abstracts from the details of the analysis method and focuses instead on the more playful aspects of an exploratory data analysis that favors instant gratification.",
-        "uid": "a-biovischallenge-1005",
-        "file_name": "a-biovischallenge-1005_Bartsch_Presentation.mp4",
-        "time_stamp": "2022-10-16T19:30:00Z",
-        "time_start": "2022-10-16T19:30:00Z",
-        "time_end": "2022-10-16T19:35:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "283",
-        "paper_award": "",
-        "image_caption": "Mouse-Human-Hybrids: We propose a data exploration application that allows for a quick inspection of spatial pattern as well as contrasts between mouse and human version of modification data for protein sequences. Our interface integrates a larger number of data driven patterns as candidate pattern displayed in a consistent manner using animations. Our solution minimizes visual search strategies to more quickly explore the structure of protein modifications.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
     "a-biovischallenge-1001": {
         "slot_id": "a-biomedvischallenge-1001-pres",
         "session_id": "a-biomedvischallenge-1",
@@ -9687,60 +9579,31 @@
         "has_pdf": false,
         "ff_link": ""
     },
-    "a-biovischallenge-1006": {
-        "slot_id": "a-biomedvischallenge-1006-pres",
+    "a-biovischallenge-1004": {
+        "slot_id": "a-biomedvischallenge-1004-pres",
         "session_id": "a-biomedvischallenge-1",
         "type": "In Person Presentation",
-        "title": "Modie Viewer: Protein Beasts and How to View Them",
+        "title": "(Re-design) EProM - Exploration of Protein Modifications ",
         "contributors": [
-            "Huyen N. Nguyen"
+            "Dani\u00ebl M. Bot"
         ],
         "authors": [
-            "Huyen N. Nguyen",
-            "Caleb Trujillo",
-            "Tommy Dang"
+            "Dani\u00ebl M. Bot",
+            "Jannes Peeters",
+            "Jan Aerts"
         ],
-        "abstract": "Understanding chemical modifications on proteins opens up further possibilities for research on rare diseases. This work proposes visualization approaches using two-dimensional (2D) and three-dimensional (3D) visual representations to analyze and gain insights into protein modifications. In this work, we present the application of Modie Viewer as an attempt to address the Bio+MedVis Challenge at IEEE VIS 2022.",
-        "uid": "a-biovischallenge-1006",
-        "file_name": "a-biovischallenge-1006_Nguyen_Presentation.mp4",
-        "time_stamp": "2022-10-16T19:55:00Z",
-        "time_start": "2022-10-16T19:55:00Z",
-        "time_end": "2022-10-16T20:00:00Z",
+        "abstract": "We present EProM\u2014a visual analysis interface for the exploration of protein modifications\u2014as a contribution to the IEEE VIS 2022 Bio+MedVis Challenge. The interface targets researchers in bio-chemistry, proteomics, and precision medicine as its primary users. Observed modifications can be inspected from the protein\u2019s primary, secondary, and tertiary structure, using a straightforward design and intuitive interactions. Modifications\u2019 measurement uncertainty and relation to residues with identified pathogenic mutations are considered.",
+        "uid": "a-biovischallenge-1004",
+        "file_name": "a-biovischallenge-1004_Bot_Presentation.mp4",
+        "time_stamp": "2022-10-16T20:00:00Z",
+        "time_start": "2022-10-16T20:00:00Z",
+        "time_end": "2022-10-16T20:05:00Z",
         "paper_type": "associated",
         "keywords": [],
         "has_image": "1",
-        "has_video": "295",
+        "has_video": "547",
         "paper_award": "",
-        "image_caption": "Protein modifications are represented in 2D and 3D visualizations. Left: Horizontal stacked chart showing modification types and mutations on ATP-dependent RNA helicase DDX3X. Using focus+context, sites with multiple mutations are shown in a close-up view, where all mutations can be seen to only occur on residue R (Arginine, Arg).\nRight: 3D structures of two protein sequences: ATP-dependent RNA helicase DDX3X in humans (Accession No. 000571) and Heterogeneous nuclear ribonucleoprotein A1 HNRNPA1 in humans (Accession No. P09651). Red spots are areas with 11 or more modifications possible.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "a-biovischallenge-1008": {
-        "slot_id": "a-biomedvischallenge-1008-pres",
-        "session_id": "a-biomedvischallenge-1",
-        "type": "In Person Presentation",
-        "title": "Visualizing Protein Residue Chemical Modifications",
-        "contributors": [
-            "Laura Garrison"
-        ],
-        "authors": [
-            "Laura Garrison",
-            "Hauke Bartsch",
-            "Stefan Bruckner"
-        ],
-        "abstract": "A key goal in the analysis of proteomic data is to identify and compare the frequency and types of chemical modifications occurring on different residues in a protein sequence. Depicting these data in an uncluttered but informative way is a significant challenge in visualizing these data. For this year\u2019s Bio+MedVis Protein Beasts Challenge, we propose a redesign of the existing visualization that reduces visual clutter and facilitates identification and comparison of modifications per site in a given protein. Our design consists of three linked views that facilitate the identification of sites with high modification diversity and which break down the frequency of each type of modification for each residue site in a protein sequence. Highlight and view subset interactions manage visual complexity and focus user attention.",
-        "uid": "a-biovischallenge-1008",
-        "file_name": "a-biovischallenge-1008_Garrison_Presentation.mp4",
-        "time_stamp": "2022-10-16T20:05:00Z",
-        "time_start": "2022-10-16T20:05:00Z",
-        "time_end": "2022-10-16T20:10:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "259",
-        "paper_award": "",
-        "image_caption": "Our Bio+MedVis redesign challenge features a focus+context interface to facilitate the identification and comparison of modified protein residues for human and mouse models across three levels of detail. Highlighting interactions in the context views dynamically introduce a focus panel (bottom view) which facilitates comparison of different modifications for each site in a protein sequence within or between species. Subset interactions focus user exploration to a particular modification class (bottom right navigation menu).",
+        "image_caption": "EProM - Exploration of Protein Modifications - is an interactive interface \ndeveloped by Dani\u00ebl M. Bot, Jannes Peeters and Jan Aerts as submission for the \n2022 Bio+MedVis Challenge.",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
@@ -10252,39 +10115,6 @@
         "has_pdf": true,
         "ff_link": ""
     },
-    "a-vast-1032": {
-        "slot_id": "a-vast-1032-pres",
-        "session_id": "a-vast-1",
-        "type": "Virtual Presentation (pre-recorded)",
-        "title": "Fudan University #1032",
-        "contributors": [
-            "Yuxiao Li"
-        ],
-        "authors": [
-            "Yuxiao Li",
-            "Xuexi Wang",
-            "Yue Wang",
-            "Siming Chen",
-            "Ting Liu",
-            "Ziyue Lin",
-            "Huiting Wang"
-        ],
-        "abstract": "",
-        "uid": "a-vast-1032",
-        "file_name": "a-vast-1032_Li_Presentation.mp4",
-        "time_stamp": "2022-10-16T14:15:00Z",
-        "time_start": "2022-10-16T14:15:00Z",
-        "time_end": "2022-10-16T14:30:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "999",
-        "paper_award": "",
-        "image_caption": "{\\rtf1\\ansi\\ansicpg936\\cocoartf2636\n\\cocoatextscaling0\\cocoaplatform0{\\fonttbl\\f0\\fswiss\\fcharset0 Helvetica;}\n{\\colortbl;\\red255\\green255\\blue255;}\n{\\*\\expandedcolortbl;;}\n\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww11520\\viewh8400\\viewkind0\n\\pard\\tx566\\tx1133\\tx1700\\tx2267\\tx2834\\tx3401\\tx3968\\tx4535\\tx5102\\tx5669\\tx6236\\tx6803\\pardirnatural\\partightenfactor0\n\n\\f0\\fs24 \\cf0 This work implements a visual analysis system containing a map view, radar view, calendar selector, social network view, and base view. Among them, the map supports multi-class feature joint selection filtering and cross-sectional distribution display for demographics. The social network view supports searching for social relationships of specific people and displaying the k-means clustering visualization results of their related people. The calendar view, radar map and base view work together to display the time-series characteristics of the base derived from HDBSCAN. }",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
     "a-vast-1013": {
         "slot_id": "a-vast-1013-pres",
         "session_id": "a-vast-1",
@@ -10370,106 +10200,6 @@
         "has_video": "483",
         "paper_award": "",
         "image_caption": "Analyzing demographics and patterns-of-life using SAS Visual Analytics. A presentation from SAS about the submission for VAST 2022.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "a-vast-1012": {
-        "slot_id": "vast-1012-pres",
-        "session_id": "a-vast-2",
-        "type": "Virtual Presentation (pre-recorded)",
-        "title": "Purdue University #1012",
-        "contributors": [
-            "William Fei",
-            "Hao Chang",
-            "Yawen Lu"
-        ],
-        "authors": [
-            "\u0443awen lu",
-            "Hao Wang",
-            "Xingyu Jiang",
-            "Tianyi Zhang",
-            "William Fei",
-            "Zhenyu Qian",
-            "Yingjie Chen"
-        ],
-        "abstract": "",
-        "uid": "a-vast-1012",
-        "file_name": "a-vast-1012_Lu_Presentation.mp4",
-        "time_stamp": "2022-10-16T16:00:00Z",
-        "time_start": "2022-10-16T16:00:00Z",
-        "time_end": "2022-10-16T16:12:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "240",
-        "paper_award": "",
-        "image_caption": "ClusBridges is a visual analytics system to abstract, summarize and present large-scale travel records, from general observations to local details.\nThe system is designed by Purdue Univ and marked as the Honorable Mention for Effective Visual Encoding in IEEE VAST Challenge 2022.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "a-vast-1033": {
-        "slot_id": "a-vast-1033-pres",
-        "session_id": "a-vast-2",
-        "type": "Virtual Presentation (pre-recorded)",
-        "title": "Fudan University #1033",
-        "contributors": [
-            "Ting Liu"
-        ],
-        "authors": [
-            "Ting Liu",
-            "Huiting Wang",
-            "Ziyue Lin",
-            "Yuxiao Li",
-            "Xuexi Wang",
-            "Yue Wang",
-            "Siming Chen"
-        ],
-        "abstract": "Monitoring and understanding people\u2019s patterns of daily life are crucial to urban planning and development. At the same time, cluster analysis and cluster-based visualization turned out to be highly effective in a system design. Based on the data collected from representative residents, including the location and time they travelled, duration of travel, and expenses at places, we designed ClusBridges, as depicted in Fig. 1, to draw inferences about city regions, traffic bottlenecks, life patterns, and individual life routines to help analyst understand different levels of patterns across the city. The system analyses and visualizes the life patterns of varies aggregation levels in a city in a concise, efficient, and user-friendly manner. The system primarily uses arcs (which can also be called bridges) to present information through arc length, curvature, width, dash, and color. ClusBridges can display information about traffic of various points at different times, view individual routines and cluster similar life routines, and view region trends and metrics.",
-        "uid": "a-vast-1033",
-        "file_name": "a-vast-1033_Liu_Presentation.mp4",
-        "time_stamp": "2022-10-16T16:20:00Z",
-        "time_start": "2022-10-16T16:20:00Z",
-        "time_end": "2022-10-16T16:35:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "956",
-        "paper_award": "",
-        "image_caption": "The System interface. (A) Console. (B) Map View. (C) Bipartite View. (D) Calendar Heatmap (E) Parallel Coordinates View.",
-        "external_paper_link": "",
-        "has_pdf": false,
-        "ff_link": ""
-    },
-    "a-vast-1024": {
-        "slot_id": "a-vast-1024-pres",
-        "session_id": "a-vast-2",
-        "type": "In Person Presentation",
-        "title": "VRVis and Virginia Tech #1024",
-        "contributors": [
-            "Kresimir Matkovic"
-        ],
-        "authors": [
-            "Rainer Splechtna",
-            "Thomas Hulka",
-            "Disha Sardana",
-            "Nikitha Donekal Chandrashekar",
-            "Denis Gracanin",
-            "Kresimir Matkovic"
-        ],
-        "abstract": "In this paper, we design a visual analytics system to display the financial health of a city. The system contains four views, that is, map view, bipartite view, calendar heatmap, and parallel coordinates view. Combined with the console, the interactive system provides a spatial perception of economic volumes of 4 entities, i.e., participants, employers, pubs, and restaurants, display of freely combinable temporal and non-temporal attributes, and algorithm-driven mining of temporal trends and similar patterns.",
-        "uid": "a-vast-1024",
-        "file_name": "a-vast-1024_Splechtna_Presentation.mp4",
-        "time_stamp": "2022-10-16T16:40:00Z",
-        "time_start": "2022-10-16T16:40:00Z",
-        "time_end": "2022-10-16T16:52:00Z",
-        "paper_type": "associated",
-        "keywords": [],
-        "has_image": "1",
-        "has_video": "354",
-        "paper_award": "",
-        "image_caption": "The orange brush shows citizens that spend a lot on food. None of them has a lot of money, but all of them are happy.\nThe purple brush shows the citizens with a lot of money. They do not spend a lot on food, and they are not happy.\nMoney might make the world go around, but does not make the Ohio folks happy!",
         "external_paper_link": "",
         "has_pdf": false,
         "ff_link": ""
