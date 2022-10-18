@@ -136,7 +136,9 @@
             {% if session.type == "meetup" %}
             This session has concluded.  Meetup recordings are not captured.
             {% else %}
-            This session has concluded.  You can review the session using the player embedded below.
+            
+
+            We are currently processing the video for this session and will post it on this page in a few days.  In the meantime, you can view content from this session by accessing the full day’s video directly on YouTube: <p id="ytold"></p>
             {% endif %}
         </div>
 
@@ -144,15 +146,6 @@
 
     </div>
 </div>
-
-{% if session.type != "meetup" %}
-<div class="row mt-5">
-    <div class="col-lg-10 streaming-container">
-        <div class="streaming room_session_stream" id="playback-container">
-        </div>
-    </div>
-</div>
-{% endif %}
 
 <hr>
 
@@ -271,17 +264,58 @@ function updateSessionStatus(onFirstLoad) {
         $('.room_session_stream').show();
         // Can't load the iframe in the background since it could
         // autoplay while not being shown.
-        if (onFirstLoad) {
-            const iframe = document.createElement("iframe");
-            // iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
-            iframe.src = "playback.html?room={{room.id}}&day={{session.day}}&session={{session.id}}";
-            iframe.frameBorder = 0;
-            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-            iframe.allowfullscreen = true ;
-            const playbackContainer = document.getElementById("playback-container");
-            playbackContainer.append(iframe);
-        }
+        // if (onFirstLoad) {
+        //     const iframe = document.createElement("iframe");
+        //     // iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
+        //     iframe.src = "playback.html?room={{room.id}}&day={{session.day}}&session={{session.id}}";
+        //     iframe.frameBorder = 0;
+        //     iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        //     iframe.allowfullscreen = true ;
+        //     const playbackContainer = document.getElementById("playback-container");
+        //     playbackContainer.append(iframe);
+        // }
     }
+
+    // Update youtube link for older sessions
+    if(sessionIsPast){
+        const roomidjson = "{{room.id}}-"+moment(startTime).format('ddd').toLowerCase()+".json"
+        console.log("this session was in:" , roomidjson)
+
+        return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
+        .then(response => response.json())
+        .then(data => {
+            //console.log(data)
+            console.log('youtube_url: ' + data.youtube_url)
+            //$("ytold").attr("href",data.youtube_url)
+
+            // TOREMOVE Special case handling with two streams
+            if(roomidjson=="ok5-mon.json"){
+                var a = document.createElement('a'); 
+                var link = document.createTextNode("https://youtu.be/R4VnLGyeBfg");  
+                a.appendChild(link); 
+                a.title = "YouTube Link 1"; 
+                a.href = "https://youtu.be/R4VnLGyeBfg"; 
+                document.getElementById("ytold").appendChild(a);
+                document.getElementById("ytold").appendChild(document.createElement('br'));
+            }
+
+            var a = document.createElement('a'); 
+            var link = document.createTextNode(data.youtube_url);  
+            a.appendChild(link); 
+            a.title = "YouTube Link"; 
+            a.href = data.youtube_url; 
+            
+            document.getElementById("ytold").appendChild(a);
+
+            
+
+        })
+        .catch(error => {
+            console.log("err: ", error);
+        })
+    }
+    
+
 }
 
 </script>

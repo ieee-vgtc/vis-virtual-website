@@ -251,7 +251,7 @@ function getDayGridRow(timeStart, timeEnd) {
 function createDayCalendar(calendar, config, dayEvents) {
 
   const navigateToSession = (_ev, d) => {
-    window.location = d.link;
+    window.open(d.link,'_blank');
   }
 
   calendar.selectAll(".session")
