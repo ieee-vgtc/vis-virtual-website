@@ -53,7 +53,7 @@
             {% endif %}
             {% if true or paper.has_pdf %}
                 <h5 class="paper-link pb-2">
-                    <a href="https://ieeevis.b-cdn.net/vis_2022/pdfs/{{ paper.id }}.pdf">
+                    <a href="https://ieeevis.b-cdn.net/vis_2022/pdfs/{{ paper.id }}.pdf" style="display:none">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download paper PDF
                     </a>
@@ -133,6 +133,18 @@
         })
         API.markSet(API.storeIDs.visited, paperID, true);
 
+        // Let's only show the paper pdf link if there is an actual pdf available
+        $('.paper-link a').each(function() {
+            let url = $(this).attr('href');
+            let linkObject = $(this);
+            $.get(url)
+                .done(function() { 
+                    // it exists, we show it
+                    linkObject.show();
+                }).fail(function() { 
+                    // it doesn't exist, lets leave it display none
+            })
+        })
 
       })
 
