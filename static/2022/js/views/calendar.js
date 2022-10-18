@@ -152,7 +152,13 @@ function createFullCalendar(calendar, config, allEvents) {
   let sessions_by_day_and_time = d3.group(
     allEvents,
     d => d.start.split("T")[0],
-    d => d.start.split("T")[1],
+    d => {
+      if ((d.id === 'conf6') || (d.id == 'conf7')) {
+        return 'specialtimeslot';
+      } else {
+        return d.start.split("T")[1]      
+      }
+    },
   );
 
   for (const dayKey of sessions_by_day_and_time.keys()) {
@@ -168,6 +174,11 @@ function createFullCalendar(calendar, config, allEvents) {
       if (dayKey === "2022-10-16" || dayKey === "2022-10-17") {
         if (!(timeslotKey === "14:00:00Z" || timeslotKey === "19:00:00Z")) {
           continue;
+        }
+
+        if (timeslotKey === "14:00:00Z") {
+          // Force session to end for lunch on overview calendar
+          timePosition = sessions[0].timeStart + " / " + "time-1200"
         }
 
         if (timeslotKey === "14:00:00Z") {
