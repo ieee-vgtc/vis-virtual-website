@@ -160,12 +160,19 @@
 <div class="row mb-4">
     <div class="col-md-8 session-listing">
         {% if timeslot.uid %}
-        <h3 class="session-list-title">
-            <a href="paper_{{ timeslot.uid }}.html">
-                {{ timeslot.title }}
-                <span class="fas mr-1">&#xf0c1;</span>
-            </a>
-        </h3>
+            <h3 class="session-list-title">
+                {% if 'poster' in timeslot.uid %}
+                <a href="poster_{{ timeslot.uid }}.html">
+                    {{ timeslot.title }}
+                    <span class="fas mr-1">&#xf0c1;</span>
+                </a>
+                {% else %}
+                <a href="paper_{{ timeslot.uid }}.html">
+                    {{ timeslot.title }}
+                    <span class="fas mr-1">&#xf0c1;</span>
+                </a>
+                {% endif %}
+            </h3>
         {% else %}
         <h3 class="session-list-title">{{ timeslot.title }}</h3>
         {% endif %}
