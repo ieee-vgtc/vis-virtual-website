@@ -120,6 +120,13 @@
        image: giCentre.png
        url: "https://gicentre.net"
 
+ - category: VISAP Grant Supporter
+   image_size: 150
+   supporters:
+     - name: "Creative Informatics"
+       image: CI.png
+       url: "https://creativeinformatics.org/"
+
 #    - name: "Data Machines Corp"
 #      image: datamachines.png
 #      url: "http://www.datamachines.io/"
