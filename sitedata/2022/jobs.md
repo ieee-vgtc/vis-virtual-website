@@ -256,6 +256,28 @@ Attend job fair meetup? Yes
 
 Contact: Nils Gehlenborg, nils@hms.harvard.edu
 
+### University of Konstanz
+[**Postdoctoral Researcher**](https://www.vis.uni-konstanz.de/fileadmin/uploads/user/Open_Position_PostDoc.pdf)at University of Konstanz (Konstanz, Germany), start date: 2022-11-01
+
+[**Research Associate**](https://www.vis.uni-konstanz.de/fileadmin/uploads/user/Open_Position_PhD.pdf) at University of Konstanz (Konstanz, Germany), start date: 2022-11-01
+
+Start time flexible? Yes
+
+Attend job fair meetup? No, please contact directly 
+
+Contact: Prof. Dr. Daniel A. Keim, keim@uni-konstanz.de
+
+### Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (ZKI-PH)
+
+[**Postdoctoral researcher in Uncertainty Visualization**] at Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (Berlin, Germany), start date: 2022-11-01 
+
+[**Postdoctoral researcher in VISxAI**] at Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (Berlin, Germany), start date: 2022-11-01
+
+Start time flexible? Yes
+
+Attend job fair meetup? No, please contact directly
+
+Contact: hattabg@rki.de
 
 ## Government
 ### Lawrence Berkeley National Laboratory
@@ -377,7 +399,26 @@ Start time flexible? Yes
 Attend job fair meetup? No, please contact directly  
 Contact: seanm@lucidchart.com
 
+### Apple
 
+[**Research Intern**](https://twitter.com/domoritz/status/1580966174833094662) at Uncharted Software (Pittsburgh and Seattle, USA), start date: 2023-01-01
+
+Start time flexible? Yes
+
+Attend job fair meetup? No, please contact directly
+
+Contact: domoritz@apple.com
+
+
+### TD Bank
+
+[**Data Scientist II**](https://jobs.td.com/en/job/16879169/data-scientist-ii-remote-hybrid-mount-laurel-nj/) at TD Bank (Remote / Hybrid (Mount Laurel, NJ)), start date: 2022-11-14
+
+Start time flexible? Yes
+
+Attend job fair meetup? Yes
+
+Contact: Kyle Hall, hallkw@ucalgary.ca
 
 
 ## Student
