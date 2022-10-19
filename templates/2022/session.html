@@ -295,6 +295,9 @@ function updateSessionStatus(onFirstLoad) {
             console.log('youtube_url: ' + data.youtube_url)
             //$("ytold").attr("href",data.youtube_url)
 
+            // clear link element to avoid multiple appends
+            document.getElementById("ytold").innerHTML = '';
+
             // TOREMOVE Special case handling with two streams
             if(roomidjson=="ok5-mon.json"){
                 var a = document.createElement('a'); 
