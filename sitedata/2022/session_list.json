@@ -9723,7 +9723,7 @@
                 "zoom_meeting": "",
                 "zoom_password": "",
                 "zoom_link": "",
-                "ff_link": "https://youtu.be/Ghn9yFtIBbo",
+                "ff_link": "https://youtu.be/7oSZnEBT5I8",
                 "ff_playlist": "",
                 "time_slots": [
                     {
@@ -9874,7 +9874,6 @@
                         "type": "Virtual Presentation (pre-recorded)",
                         "title": "SizePairs: Achieving Stable and Balanced Temporal Treemaps using Hierarchical Size-based Pairing",
                         "contributors": [
-                            "Yunhai Wang",
                             "Chang Han"
                         ],
                         "authors": [
@@ -9908,7 +9907,6 @@
                         "type": "Virtual Q+A",
                         "title": "SizePairs: Achieving Stable and Balanced Temporal Treemaps using Hierarchical Size-based Pairing (Q+A)",
                         "contributors": [
-                            "Yunhai Wang",
                             "Chang Han"
                         ],
                         "authors": [],
