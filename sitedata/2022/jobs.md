@@ -269,9 +269,9 @@ Contact: Prof. Dr. Daniel A. Keim, keim@uni-konstanz.de
 
 ### Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (ZKI-PH)
 
-[**Postdoctoral researcher in Uncertainty Visualization**] at Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (Berlin, Germany), start date: 2022-11-01 
+**Postdoctoral researcher in Uncertainty Visualization** at Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (Berlin, Germany), start date: 2022-11-01 
 
-[**Postdoctoral researcher in VISxAI**] at Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (Berlin, Germany), start date: 2022-11-01
+**Postdoctoral researcher in VISxAI** at Robert Koch-Institut, Center for Artificial Intelligence In Public Health Research (Berlin, Germany), start date: 2022-11-01
 
 Start time flexible? Yes
 
