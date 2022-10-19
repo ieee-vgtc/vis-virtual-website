@@ -593,6 +593,9 @@ def room(room):
 
     all_sessions = [by_uid['sessions'][uid] for uid in by_uid['sessions']]
     room_sessions = [s for s in all_sessions if s['track'] == room]
+
+    room_sessions = sorted(room_sessions, key=lambda x: x and ('time_start' in x) and  x['time_start'])
+
     data["requires_auth"] = True
     data["sessions"] = [format_by_session_list(v) for v in room_sessions]
 
