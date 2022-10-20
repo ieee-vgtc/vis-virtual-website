@@ -316,6 +316,16 @@ Attend job fair meetup? Yes
 
 Contact: mark.subbarao@nasa.gov
 
+### Visualization Group, Center for Artificial Intelligence in Public Health Research (ZKI-PH), Robert Koch Institute
+
+[**Two Postdoctoral Positions in Visualization Research**](https://ghattab.github.io/positions/) at Visualization Group, Center for Artificial Intelligence in Public Health Research (ZKI-PH), Robert Koch Institute (Berlin, Germany), start date: 2023-01-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? No
+
+Contact: hattabg@rki.de
+
 ## Industry
 ### Ozette
 
@@ -401,7 +411,7 @@ Contact: seanm@lucidchart.com
 
 ### Apple
 
-[**Research Intern**](https://twitter.com/domoritz/status/1580966174833094662) at Uncharted Software (Pittsburgh and Seattle, USA), start date: 2023-01-01
+[**Research Intern**](https://twitter.com/domoritz/status/1580966174833094662) at Apple (Pittsburgh and Seattle, USA), start date: 2023-01-01
 
 Start time flexible? Yes
 
