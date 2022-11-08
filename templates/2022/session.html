@@ -123,27 +123,37 @@
 
 
 
-        <div class="future_session_alert alert alert-warning" role="alert">
-            The live-stream for this session has not begun yet. <br><br>
-            When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
-        </div>
+            <div class="future_session_alert alert alert-warning" role="alert">
+                The live-stream for this session has not begun yet. <br><br>
+                When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
+            </div>
 
-        <div class="current_session_alert alert alert-info" role="alert">
-            This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to the {{ room.name }} room to view the session.</a>
-        </div>
+            <div class="current_session_alert alert alert-info" role="alert">
+                This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to the {{ room.name }} room to view the session.</a>
+            </div>
 
-        <div class="past_session_alert alert alert-success" role="alert">
-            {% if session.type == "meetup" %}
-            This session has concluded.  Meetup recordings are not captured.
-            {% else %}
-            
+            {% if session.youtube_rec_id %}
+                <div class="row my-4">
+                    <div class="col-lg-10">
+                        <h2 class="my-3"><a name="ff">Session Recording</a></h2>
+                
+                        <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/{{ session.youtube_rec_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
-            We are currently processing the video for this session and will post it on this page in a few days.  In the meantime, you can view content from this session by accessing the full day’s video directly on YouTube: <p id="ytold"></p>
+                    </div>
+                </div>
+                
+            {% elif session.type == "meetup" %}
+            <div class="past_session_alert alert alert-success" role="alert">
+                This session has concluded.  Meetup recordings are not captured.
+            </div>    
+            {% elif session.youtube_id %}
+            <div class="past_session_alert alert alert-success" role="alert">
+                Recorded video from this session can be viewed in the daily recording of the room.
+                <br/>
+                <a href='{{session.youtube_url}}' target='_blank'>{{session.youtube_url}}</a>
+            </div>
             {% endif %}
-        </div>
-
         {% endif %}
-
     </div>
 </div>
 
@@ -266,64 +276,54 @@ function updateSessionStatus(onFirstLoad) {
     } else if (sessionIsFuture) {
         $('.future_session_alert').show();
     } else {
+        // Session is in the future
         $('#zoom_alert').hide();
         $('.past_session_alert').show();
         $('.room_session_stream').show();
-        // Can't load the iframe in the background since it could
-        // autoplay while not being shown.
-        // if (onFirstLoad) {
-        //     const iframe = document.createElement("iframe");
-        //     // iframe.src = "playback.html?room={{room.id}}&day={{session.day}}";
-        //     iframe.src = "playback.html?room={{room.id}}&day={{session.day}}&session={{session.id}}";
-        //     iframe.frameBorder = 0;
-        //     iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-        //     iframe.allowfullscreen = true ;
-        //     const playbackContainer = document.getElementById("playback-container");
-        //     playbackContainer.append(iframe);
-        // }
     }
 
     // Update youtube link for older sessions
-    if(sessionIsPast){
-        const roomidjson = "{{room.id}}-"+moment(startTime).format('ddd').toLowerCase()+".json"
-        console.log("this session was in:" , roomidjson)
+    // EDIT - We don't need this when the conference isn't live
+    // if(sessionIsPast){
+    //     const roomidjson = "{{room.id}}-"+moment(startTime).format('ddd').toLowerCase()+".json"
+    //     // console.log("this session was in:" , roomidjson)
 
-        return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
-        .then(response => response.json())
-        .then(data => {
-            //console.log(data)
-            console.log('youtube_url: ' + data.youtube_url)
-            //$("ytold").attr("href",data.youtube_url)
+    //     return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         //console.log(data)
+    //         // console.log('youtube_url: ' + data.youtube_url)
+    //         //$("ytold").attr("href",data.youtube_url)
 
-            // clear link element to avoid multiple appends
-            document.getElementById("ytold").innerHTML = '';
+    //         // clear link element to avoid multiple appends
+    //         document.getElementById("ytold").innerHTML = '';
 
-            // TOREMOVE Special case handling with two streams
-            if(roomidjson=="ok5-mon.json"){
-                var a = document.createElement('a'); 
-                var link = document.createTextNode("https://youtu.be/R4VnLGyeBfg");  
-                a.appendChild(link); 
-                a.title = "YouTube Link 1"; 
-                a.href = "https://youtu.be/R4VnLGyeBfg"; 
-                document.getElementById("ytold").appendChild(a);
-                document.getElementById("ytold").appendChild(document.createElement('br'));
-            }
+    //         // TOREMOVE Special case handling with two streams
+    //         if(roomidjson=="ok5-mon.json"){
+    //             var a = document.createElement('a'); 
+    //             var link = document.createTextNode("https://youtu.be/R4VnLGyeBfg");  
+    //             a.appendChild(link); 
+    //             a.title = "YouTube Link 1"; 
+    //             a.href = "https://youtu.be/R4VnLGyeBfg"; 
+    //             document.getElementById("ytold").appendChild(a);
+    //             document.getElementById("ytold").appendChild(document.createElement('br'));
+    //         }
 
-            var a = document.createElement('a'); 
-            var link = document.createTextNode(data.youtube_url);  
-            a.appendChild(link); 
-            a.title = "YouTube Link"; 
-            a.href = data.youtube_url; 
+    //         var a = document.createElement('a'); 
+    //         var link = document.createTextNode(data.youtube_url);  
+    //         a.appendChild(link); 
+    //         a.title = "YouTube Link"; 
+    //         a.href = data.youtube_url; 
             
-            document.getElementById("ytold").appendChild(a);
+    //         document.getElementById("ytold").appendChild(a);
 
             
 
-        })
-        .catch(error => {
-            console.log("err: ", error);
-        })
-    }
+    //     })
+    //     .catch(error => {
+    //         console.log("err: ", error);
+    //     })
+    // }
     
 
 }

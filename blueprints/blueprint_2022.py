@@ -332,7 +332,8 @@ def format_paper(v):
         "external_paper_link": v["external_paper_link"],
         "youtube_ff_url": v["ff_link"],
         "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
-
+        "prerecorded_video_id": v["prerecorded_video_id"],
+        "prerecorded_video_link": v["prerecorded_video_link"],
         # for papers.html:
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
@@ -457,6 +458,8 @@ def format_by_session_list(v):
         "slido_link": v.get("slido_link"),
         "youtube_url": v.get("youtube_url"),
         "youtube_id": v.get("youtube_id") if "youtube_id" in v else (v.get("youtube_url").split("/")[-1] if v.get("youtube_url") else None),
+        "youtube_rec_url": v.get("youtube_rec_url"),
+        "youtube_rec_id": v.get("youtube_rec_id") if "youtube_rec_id" in v else (v.get("youtube_rec_url").split("/")[-1] if v.get("youtube_rec_url") else None),
         "streaming_session_id": v.get("streaming_session_id") if "streaming_session_id" in v else None,
         "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),

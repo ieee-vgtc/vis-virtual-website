@@ -51,14 +51,14 @@
                     </a>
                 </h5>
             {% endif %}
-            {% if true or paper.has_pdf %}
+<!--             {% if paper.has_pdf %}
                 <h5 class="paper-link pb-2">
                     <a href="https://ieeevis.b-cdn.net/vis_2022/pdfs/{{ paper.id }}.pdf" style="display:none">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download paper PDF
                     </a>
                 </h5>
-            {% endif %}
+            {% endif %} -->
             <h5 class="paper-presentation pb-2">
 
                 <a href="session_{{ paper.session_id }}.html">
@@ -95,6 +95,23 @@
             </figure>
         </div>
     </div>
+    <div class="row my-3">
+        <div class="col-md-8">
+            {% if paper.prerecorded_video_id %}
+                <h2 class="my-3"><a name="paper_recording">Prerecorded Talk</a></h2>
+        
+                <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.prerecorded_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+            {% endif %}
+            <p>
+                The live footage of the talk, including the Q&A, can be viewed on the session page, <a
+                            href="session_{{ paper.session_id }}.html">{{ paper.session_title }}</a>.
+            </p>
+        </div>
+    </div>
+                
+
+
     {% if paper.youtube_ff_id %}
     <div class="row my-3">
         <div class="col-md-8">
