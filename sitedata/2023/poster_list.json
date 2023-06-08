@@ -12,7 +12,7 @@
         ],
         "author_affiliations": [],
         "presenting_author": "Dani\u00ebl M. Bot",
-        "abstract": "We present EProM\u2014a visual analysis interface for the exploration of protein modifications\u2014as a contribution to the IEEE VIS 2023 Bio+MedVis Challenge. The interface targets researchers in bio-chemistry, proteomics, and precision medicine as its primary users. Observed modifications can be inspected from the protein\u2019s primary, secondary, and tertiary structure, using a straightforward design and intuitive interactions. Modifications\u2019 measurement uncertainty and relation to residues with identified pathogenic mutations are considered.",
+        "abstract": "We present EProM\u2014a visual analysis interface for the exploration of protein modifications\u2014as a contribution to the IEEE VIS 2022 Bio+MedVis Challenge. The interface targets researchers in bio-chemistry, proteomics, and precision medicine as its primary users. Observed modifications can be inspected from the protein\u2019s primary, secondary, and tertiary structure, using a straightforward design and intuitive interactions. Modifications\u2019 measurement uncertainty and relation to residues with identified pathogenic mutations are considered.",
         "has_summary_pdf": "FALSE",
         "has_image": "TRUE",
         "pdf_link": ""
@@ -48,7 +48,7 @@
         ],
         "author_affiliations": [],
         "presenting_author": "Huyen N. Nguyen",
-        "abstract": "Understanding chemical modifications on proteins opens up further possibilities for research on rare diseases. This work proposes visualization approaches using two-dimensional (2D) and three-dimensional (3D) visual representations to analyze and gain insights into protein modifications. In this work, we present the application of Modie Viewer as an attempt to address the Bio+MedVis Challenge at IEEE VIS 2023.",
+        "abstract": "Understanding chemical modifications on proteins opens up further possibilities for research on rare diseases. This work proposes visualization approaches using two-dimensional (2D) and three-dimensional (3D) visual representations to analyze and gain insights into protein modifications. In this work, we present the application of Modie Viewer as an attempt to address the Bio+MedVis Challenge at IEEE VIS 2022.",
         "has_summary_pdf": "FALSE",
         "has_image": "TRUE",
         "pdf_link": ""
@@ -259,7 +259,7 @@
     "a-sciviscontest-posters-1017": {
         "event": "SciVis Contest",
         "event_prefix": "a-sciviscontest-posters",
-        "title": "Contribution to the SciVis Contest 2023",
+        "title": "Contribution to the SciVis Contest 2022",
         "uid": "a-sciviscontest-posters-1017",
         "discord_channel": "",
         "authors": [],
@@ -267,7 +267,7 @@
             "Milad Bagheri: Technical University of Darmstadt"
         ],
         "presenting_author": "Milad Bagheri",
-        "abstract": "The final submission for the SciVis Contest 2023.",
+        "abstract": "The final submission for the SciVis Contest 2022.",
         "has_summary_pdf": "TRUE",
         "has_image": "FALSE",
         "pdf_link": ""
@@ -325,7 +325,7 @@
             "Kresimir Matkovic: VRVis Research Center"
         ],
         "presenting_author": "Kresimir Matkovic",
-        "abstract": "Visualizing complex, heterogeneous data that includes spatial information, tracking data of citizens, as well as rich data about business and citizens over a long period of time is a difficult problem.  We describe how we deployed a coordinated multiple view system to explore and comprehend such data.  The system is developed as a response to the IEEE VAST 2023 Challenge 3.  We briefly demonstrate the power of the developed system using three examples that use a citizen-centric and a pub-centric data set.",
+        "abstract": "Visualizing complex, heterogeneous data that includes spatial information, tracking data of citizens, as well as rich data about business and citizens over a long period of time is a difficult problem.  We describe how we deployed a coordinated multiple view system to explore and comprehend such data.  The system is developed as a response to the IEEE VAST 2022 Challenge 3.  We briefly demonstrate the power of the developed system using three examples that use a citizen-centric and a pub-centric data set.",
         "has_summary_pdf": "TRUE",
         "has_image": "FALSE",
         "pdf_link": ""
@@ -355,7 +355,7 @@
             "Huiting Wang: Fudan University"
         ],
         "presenting_author": "Xuexi Wang",
-        "abstract": "We proposed an interactive visualization and analysis system for the VAST 2023 mini-challenge1 to analyze the basic demographic characteristics of the city as well as social characteristics by interactively selecting volunteer attributes, dates, etc. We can filter the volunteers\u2019 attributes (gender, education, etc.) according to our preferences and obtain visualization results by combining different attributes, or observe the social profiles among different groups of people by selecting dates, etc. and analyze them based on that. The exploration of social relationships is completed by ID search and k-means clustering. HDBSCAN clustering is used to complete the division of business bases and calculate the features that reflect both the work situation and business status of business bases based on the information of personnel\u2019s location distribution, account balance change, and salary level, respectively, based on which the business base model exploration is conducted. We will describe our design principles in detail in this paper.",
+        "abstract": "We proposed an interactive visualization and analysis system for the VAST 2022 mini-challenge1 to analyze the basic demographic characteristics of the city as well as social characteristics by interactively selecting volunteer attributes, dates, etc. We can filter the volunteers\u2019 attributes (gender, education, etc.) according to our preferences and obtain visualization results by combining different attributes, or observe the social profiles among different groups of people by selecting dates, etc. and analyze them based on that. The exploration of social relationships is completed by ID search and k-means clustering. HDBSCAN clustering is used to complete the division of business bases and calculate the features that reflect both the work situation and business status of business bases based on the information of personnel\u2019s location distribution, account balance change, and salary level, respectively, based on which the business base model exploration is conducted. We will describe our design principles in detail in this paper.",
         "has_summary_pdf": "TRUE",
         "has_image": "FALSE",
         "pdf_link": ""

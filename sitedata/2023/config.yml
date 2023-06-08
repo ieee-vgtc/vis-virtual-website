@@ -1,20 +1,20 @@
-name: VIS 2023
+name: VIS 2022
 tagline: "IEEE VIS: Visualization & Visual Analytics"
-date: 16-21 October 2023 Virtual Conference
-citation_date: October 2023
-proceedings_title: Proceedings of the IEEE VIS 2023 Conference
+date: 16-21 October 2022 Virtual Conference
+citation_date: October 2022
+proceedings_title: Proceedings of the IEEE VIS 2022 Conference
 analytics: UA-
 logo:
-  image: /static/2023/images/vis2023_logo_virtual.svg
+  image: /static/2022/images/vis2022_logo_virtual.svg
   width: 250px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'IEEE VIS 2023 Virtual'
+  prefix: 'IEEE VIS 2022 Virtual'
   separator: ': '
-background_image: /static/2023/images/okcbackground.jpg
-organization: VIS 2023 Organization Committee
+background_image: /static/2022/images/okcbackground.jpg
+organization: VIS 2022 Organization Committee
 
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone
@@ -34,7 +34,7 @@ auth0_domain : ieeevis.us.auth0.com
 calendar:
   colors: #  Colors for the different event hashtags:
     ## from https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
-    ## 2023 colors: #A20A35, #1C3160, #2672B9, #FDBB30, #F15722
+    ## 2022 colors: #A20A35, #1C3160, #2672B9, #FDBB30, #F15722
     ---: '#1C3160'
     workshop: '#f4a261'
     tutorial: '#A20A35'
