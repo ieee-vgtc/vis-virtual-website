@@ -1,0 +1,1549 @@
+{
+    "a-biomedvischallenge-posters-1004": {
+        "event": "Bio+MedVis Challenges",
+        "event_prefix": "a-biomedvischallenge-posters",
+        "title": "EProM - Exploration of Protein Modifications",
+        "uid": "a-biomedvischallenge-posters-1004",
+        "discord_channel": "",
+        "authors": [
+            "Dani\u00ebl M. Bot",
+            "Jannes Peeters",
+            "Jan Aerts"
+        ],
+        "author_affiliations": [],
+        "presenting_author": "Dani\u00ebl M. Bot",
+        "abstract": "We present EProM\u2014a visual analysis interface for the exploration of protein modifications\u2014as a contribution to the IEEE VIS 2023 Bio+MedVis Challenge. The interface targets researchers in bio-chemistry, proteomics, and precision medicine as its primary users. Observed modifications can be inspected from the protein\u2019s primary, secondary, and tertiary structure, using a straightforward design and intuitive interactions. Modifications\u2019 measurement uncertainty and relation to residues with identified pathogenic mutations are considered.",
+        "has_summary_pdf": "FALSE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-biomedvischallenge-posters-1005": {
+        "event": "Bio+MedVis Challenges",
+        "event_prefix": "a-biomedvischallenge-posters",
+        "title": "Mouse-Human Hybrids",
+        "uid": "a-biomedvischallenge-posters-1005",
+        "discord_channel": "",
+        "authors": [
+            "Hauke Bartsch",
+            "Laura Garrison",
+            "Stefan Bruckner"
+        ],
+        "author_affiliations": [],
+        "presenting_author": "Hauke Bartsch",
+        "abstract": "A key goal in the analysis of proteomics data is to compare chemical modifications occurring on different residues in a protein sequence between human and animal models to assess the suitability of animal models for drug development. Differences in modification patterns between mouse and human protein variants may also indicate evolutionary pressures to preserve functional regions distributed along the protein sequence. However, comparing and contrasting the many possible patterns of modifications is a significant challenge in visualizing proteomics data. For this year\u2019s Bio+MedVis Protein Beasts Challenge, we propose an exploratory interface for pattern discovery. Results from data-driven pattern detectors are displayed using an animation metaphor that is suitable for both comparing and contrasting tasks. In addition, we propose a novel, compact steel-drum like pattern selector component that abstracts from the details of the analysis method and focuses instead on the more playful aspects of an exploratory data analysis that favors instant gratification.",
+        "has_summary_pdf": "FALSE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-biomedvischallenge-posters-1006": {
+        "event": "Bio+MedVis Challenges",
+        "event_prefix": "a-biomedvischallenge-posters",
+        "title": "Modie Viewer: Protein Beasts and How to View Them",
+        "uid": "a-biomedvischallenge-posters-1006",
+        "discord_channel": "",
+        "authors": [
+            "Huyen N. Nguyen",
+            "Caleb Trujillo",
+            "Tommy Dang"
+        ],
+        "author_affiliations": [],
+        "presenting_author": "Huyen N. Nguyen",
+        "abstract": "Understanding chemical modifications on proteins opens up further possibilities for research on rare diseases. This work proposes visualization approaches using two-dimensional (2D) and three-dimensional (3D) visual representations to analyze and gain insights into protein modifications. In this work, we present the application of Modie Viewer as an attempt to address the Bio+MedVis Challenge at IEEE VIS 2023.",
+        "has_summary_pdf": "FALSE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-biomedvischallenge-posters-1008": {
+        "event": "Bio+MedVis Challenges",
+        "event_prefix": "a-biomedvischallenge-posters",
+        "title": "Visualizing Protein Residue Chemical Modifications",
+        "uid": "a-biomedvischallenge-posters-1008",
+        "discord_channel": "",
+        "authors": [
+            "Laura Garrison",
+            "Hauke Bartsch",
+            "Stefan Bruckner"
+        ],
+        "author_affiliations": [],
+        "presenting_author": "Laura Garrison",
+        "abstract": "A key goal in the analysis of proteomic data is to identify and compare the frequency and types of chemical modifications occurring on different residues in a protein sequence. Depicting these data in an uncluttered but informative way is a significant challenge in visualizing these data. For this year\u2019s Bio+MedVis Protein Beasts Challenge, we propose a redesign of the existing visualization that reduces visual clutter and facilitates identification and comparison of modifications per site in a given protein. Our design consists of three linked views that facilitate the identification of sites with high modification diversity and which break down the frequency of each type of modification for each residue site in a protein sequence. Highlight and view subset interactions manage visual complexity and focus user attention.",
+        "has_summary_pdf": "FALSE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-ldav-posters-1001": {
+        "event": "LDAV Posters",
+        "event_prefix": "a-ldav-posters",
+        "title": "Exploration Tool for Effectively Interpreting the Visual Metaphor Process of Sentiment Visualization",
+        "uid": "a-ldav-posters-1001",
+        "discord_channel": "",
+        "authors": [
+            "Hyoji Ha",
+            "Kwanghyuk Moon",
+            "Hyerim Joung",
+            "Hyegyeong Kim",
+            "Kyungwon Lee"
+        ],
+        "author_affiliations": [
+            "Hyoji Ha: Ajou University",
+            "Kwanghyuk Moon: Ajou University",
+            "Hyerim Joung: Ajou University",
+            "Hyegyeong Kim: Ajou University",
+            "Kyungwon Lee: AJou university"
+        ],
+        "presenting_author": "Hyegyeong Kim",
+        "abstract": "This study proposes an exploration tool for users' intuitive understanding of visual metaphor processes in sentiment visualization cases. To create the exploration tool, we conducted the following procedure 1) Extract sentences about visual metaphor and use `Target, Intermediation, Representation, Visual Variables, Visualization Technique' as a taxonomy to analyze metaphor processes in the collected cases. 2) Create Network to suggest the relationship between representation and intermediation. 3) Utilize Sankey Diagram to perceive the frequent metaphor process patterns in stages.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-ldav-posters-1003": {
+        "event": "LDAV Posters",
+        "event_prefix": "a-ldav-posters",
+        "title": "Massive Data Visualization Techniques for use in Virtual Reality Devices",
+        "uid": "a-ldav-posters-1003",
+        "discord_channel": "",
+        "authors": [
+            "Jason Ortiz",
+            "Joseph Insley",
+            "Janet Knowles",
+            "Victor Mateevitsi",
+            "Michael E. Papka",
+            "Silvio Rizzi"
+        ],
+        "author_affiliations": [
+            "Jason A Ortiz: Argonne National Laboratory",
+            "Joseph Insley: Argonne National Laboratory",
+            "Janet Knowles: Argonne National Laboratory",
+            "Victor A Mateevitsi: Argonne National Laboratory",
+            "Michael E. Papka: Argonne National Laboratory",
+            "Silvio Rizzi: Argonne National Laboratory"
+        ],
+        "presenting_author": "Jason A. Ortiz",
+        "abstract": "Scientific simulations executed on supercomputers produce massive amounts of data. Visualizing this data is essential to discovery and dissemination, but methods for transforming and displaying such large data visualizations for use in Extended Reality (XR) devices are not commonly supported. We investigated the viability of existing XR applications (i.e., ParaView VR, SummitVR, and Omniverse XR) to display large data visualizations. Our investigations led us to create a proof-of-concept Virtual Reality (VR) application with Unity using Universal Scene Description (USD) files exported from Houdini to display and interact with large time-varying scientific data visualizations. We present our investigations as a basis for future work to display and interact with scientific data visualizations in XR.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-ldav-posters-1009": {
+        "event": "LDAV Posters",
+        "event_prefix": "a-ldav-posters",
+        "title": "Distributed Volumetric Neural Representation for in situ Visualization and Analysis",
+        "uid": "a-ldav-posters-1009",
+        "discord_channel": "",
+        "authors": [
+            "Qi Wu",
+            "Joseph Insley",
+            "Victor Mateevitsi",
+            "Silvio Rizzi",
+            "Kwan-Liu Ma"
+        ],
+        "author_affiliations": [
+            "Qi Wu: University of California, Davis",
+            "Joseph Insley: Argonne National Laboratory",
+            "Victor A Mateevitsi: University of Illinois at Chicago",
+            "Silvio Rizzi: Argonne National Laboratory",
+            "Kwan-Liu Ma: University of California at Davis"
+        ],
+        "presenting_author": "Qi Wu",
+        "abstract": "Volumetric grids have recently been used by many recent works for representing complex scenes implicitly. A volumetric neural representation can be several orders of magnitude smaller in size while still preserving most of high-frequency details. However, most volumes used in large-scale in situ visualization and analysis are partitioned and generated directly in parallel. Therefore, a compatible technique to create volumetric neural representations for these situations is much needed. In this project, we explore the possibility of constructing and optimizing such a representation for large-scale distributed volumes. We present our preliminary results in this poster. We also outline our plans to integrate our techniques with existing in situ visualization and analysis pipelines.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-ldav-posters-1010": {
+        "event": "LDAV Posters",
+        "event_prefix": "a-ldav-posters",
+        "title": "Toward Bi-directional In Situ Visualization and Analysis of Blood Flow Simulations With Dynamic Deforming Boundaries",
+        "uid": "a-ldav-posters-1010",
+        "discord_channel": "",
+        "authors": [
+            "Nazariy Tishchenko",
+            "Nicola Ferrier",
+            "Joseph Insley",
+            "Victor Mateevitsi",
+            "Michael E. Papka",
+            "Silvio Rizzi",
+            "Jifu Tan"
+        ],
+        "author_affiliations": [
+            "Nazariy Tishchenko: Argonne National Lab",
+            "Nicola Ferrier: Argonne National Laboratory",
+            "Joseph Insley: Argonne National Laboratory",
+            "Victor A Mateevitsi: University of Illinois at Chicago",
+            "Michael E. Papka: Argonne National Laboratory",
+            "Silvio Rizzi: Argonne National Laboratory",
+            "Jifu Tan: Northern Illinois University"
+        ],
+        "presenting_author": "Nazariy Tishchenko",
+        "abstract": "We present some preliminary work toward bi-directional in situ visualization and analysis of blood flow considering blood cell suspensions and dynamic moving walls to mimic the clot growth process. The work is implemented through integrating multiple open source packages including fluid flow solver, blood cells, and in situ visualization and analysis. It shows that in situ visualization enables us to examine and process the simulation results without writing data to files. In addition, preliminary results on bidirectional steering (still in progress) can accelerate engineers to explore the complicated stress environment experienced by clots of different sizes.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-ldav-posters-1013": {
+        "event": "LDAV Posters",
+        "event_prefix": "a-ldav-posters",
+        "title": "New Triggers for Automatic Camera Placement Over Time",
+        "uid": "a-ldav-posters-1013",
+        "discord_channel": "",
+        "authors": [
+            "Meghanto Majumder",
+            "Nicole Marsaglia",
+            "Hank Childs"
+        ],
+        "author_affiliations": [
+            "Meghanto Majumder: University of Oregon",
+            "Nicole J Marsaglia: Lawrence Livermore National Laboratory",
+            "Hank Childs: University of Oregon"
+        ],
+        "presenting_author": "Meghanto Majumder",
+        "abstract": "We propose new trigger variants for in situ automatic camera placement over time (ACPOT). We evaluate the performance of these variants on three datasets from two simulation codes. We find that our approach has two major benefits:- (1) it mitigates a problem where the camera \"stagnates\" into a view occluded from interesting phenomena and (2) proposes alternate trigger criteria that provides comparable camera placement quality (evaluated using a entropy-based viewpoint quality metric) with reduced computational cost.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-ldav-posters-1015": {
+        "event": "LDAV Posters",
+        "event_prefix": "a-ldav-posters",
+        "title": "In-Transit Data Visualization with SENSEI, Catalyst, and Unreal Engine",
+        "uid": "a-ldav-posters-1015",
+        "discord_channel": "",
+        "authors": [
+            "Isaac Nealey",
+            "Nicola Ferrier",
+            "Joseph Insley",
+            "Victor Mateevitsi",
+            "Silvio Rizzi",
+            "Jurgen Schulze"
+        ],
+        "author_affiliations": [
+            "Isaac Nealey: University of California, San Diego",
+            "Nicola Ferrier: Argonne National Laboratory",
+            "Joseph Insley: Argonne National Laboratory",
+            "Victor A Mateevitsi: Argonne National Lab",
+            "Silvio Rizzi: Argonne National Laboratory",
+            "Jurgen Schulze: UCSD"
+        ],
+        "presenting_author": "Isaac Nealey",
+        "abstract": "We present a end-to-end in-transit workflow that uses SENSEI [1], Paraview Catalyst [2], and Unreal Engine [3] for interactive rendering of large scale distributed simulation data as it is generated. It is designed for high performance computing (HPC) environments where many machines collectively model a system\u2019s behavior and each rank updates a partition of the problem domain. We consider the case where full-resolution post-hoc analysis is prohibitive or impossible, and the 3D metadata extracted in-transit (such as isosurfaces or streamlines) is still prohibitively large and/or complex for rendering at interactive frame rates. Data is passed in-memory between each stage of the pipeline, with expensive disk I/O only occurring at the final stage, should a user wish to save their results.  As video games have increased in complexity, developers have turned to procedural generation of 3D models and textures in order to algorithmically generate game content, like foliage or landscapes, without the need for manual modeling. We leverage these new tools in order to import the time-varying data simulated by domain scientists, and to manipulate these assets at runtime in order to update geometry as the simulation runs and more metadata is extracted.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-sciviscontest-posters-1009": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-sciviscontest-posters",
+        "title": "How Wildfires Spread and Why: Visual Multi-field Analysis of Vorticity-driven Lateral Spread Ensembles",
+        "uid": "a-sciviscontest-posters-1009",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [
+            "Gabriel Borrelli: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Lars Hagemann: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Jannik Steink\u00fchler: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Adrian Derstroff: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Marina Evers: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Karim Huesmann: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Simon Leistikow: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Hennes Rave: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Reyhaneh Sabbagh Gol: Westf\u00e4lische Wilhelms-Universit\u00e4t M\u00fcnster",
+            "Lars Linsen: University of M\u00fcnster"
+        ],
+        "presenting_author": "Marina Evers",
+        "abstract": "We present an interactive visual analysis tool for the spread of wildfires and what influences their evolution. Multiple spatio-temporal scalar and vector fields are investigated and related to each other to identify causes of atypical fire spread. Our tool allows for the comparative analysis of multiple runs of a simulation ensemble.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-sciviscontest-posters-1017": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-sciviscontest-posters",
+        "title": "Contribution to the SciVis Contest 2023",
+        "uid": "a-sciviscontest-posters-1017",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [
+            "Milad Bagheri: Technical University of Darmstadt"
+        ],
+        "presenting_author": "Milad Bagheri",
+        "abstract": "The final submission for the SciVis Contest 2023.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-vast-posters-1012": {
+        "event": "VAST Challeng",
+        "event_prefix": "a-vast-posters",
+        "title": "ClusBridges: Multi-level Abstraction on Travel Records",
+        "uid": "a-vast-posters-1012",
+        "discord_channel": "",
+        "authors": [
+            "Yawen Lu",
+            "Hao Wang",
+            "Xingyu Jiang",
+            "Tianyi Zhang",
+            "William Fei",
+            "Zhenyu Qian",
+            "Yingjie Chen"
+        ],
+        "author_affiliations": [
+            "Yawen Lu: Purdue Univ",
+            "Hao Wang: Purdue University",
+            "Xingyu Jiang: Purdue University",
+            "Tianyi Zhang: UNISOC Spreadtrum Communications, Inc.",
+            "William C Fei: Purdue University",
+            "Zhenyu Cheryl Qian: Purdue University",
+            "Yingjie Victor Chen: Purdue University"
+        ],
+        "presenting_author": "Yawen Lu",
+        "abstract": "Monitoring and understanding people\u2019s patterns of daily life are crucial to urban planning and development. At the same time, cluster analysis and cluster-based visualization turned out to be highly effective in a system design. Based on the data collected from representative residents, including the location and time they travelled, duration of travel, and expenses at places, we designed ClusBridges, as depicted in Fig. 1, to draw inferences about city regions, traffic bottlenecks, life patterns, and individual life routines to help analyst understand different levels of patterns across the city. The system analyses and visualizes the life patterns of varies aggregation levels in a city in a concise, efficient, and user-friendly manner. The system primarily uses arcs (which can also be called bridges) to present information through arc length, curvature, width, dash, and color. ClusBridges can display information about traffic of various points at different times, view individual routines and cluster similar life routines, and view region trends and metrics.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-vast-posters-1024": {
+        "event": "VAST Challeng",
+        "event_prefix": "a-vast-posters",
+        "title": "Comprehending City Economics from Heterogeneous Data",
+        "uid": "a-vast-posters-1024",
+        "discord_channel": "",
+        "authors": [
+            "Rainer Splechtna",
+            "Thomas Hulka",
+            "Disha Sardana",
+            "Nikitha Donekal Chandrashekar",
+            "Denis Gracanin",
+            "Kresimir Matkovic"
+        ],
+        "author_affiliations": [
+            "Rainer Splechtna: VRVis Research Center",
+            "Thomas Hulka: VRVis Research Center",
+            "Disha Sardana: Virginia Tech",
+            "Nikitha Donekal Chandrashekar: Virginia Tech",
+            "Denis Gracanin: Virginia Tech",
+            "Kresimir Matkovic: VRVis Research Center"
+        ],
+        "presenting_author": "Kresimir Matkovic",
+        "abstract": "Visualizing complex, heterogeneous data that includes spatial information, tracking data of citizens, as well as rich data about business and citizens over a long period of time is a difficult problem.  We describe how we deployed a coordinated multiple view system to explore and comprehend such data.  The system is developed as a response to the IEEE VAST 2023 Challenge 3.  We briefly demonstrate the power of the developed system using three examples that use a citizen-centric and a pub-centric data set.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-vast-posters-1032": {
+        "event": "VAST Challeng",
+        "event_prefix": "a-vast-posters",
+        "title": "FDU-Li-C1",
+        "uid": "a-vast-posters-1032",
+        "discord_channel": "",
+        "authors": [
+            "Yuxiao Li",
+            "Xuexi Wang",
+            "Yue Wang",
+            "Siming Chen",
+            "Ting Liu",
+            "Ziyue Lin",
+            "Huiting Wang"
+        ],
+        "author_affiliations": [
+            "Yuxiao Li: Fudan University",
+            "Xuexi Wang: Fudan University",
+            "Yue Wang: Fudan University",
+            "Siming Chen: Fudan University",
+            "Ting Liu: Fudan University",
+            "Ziyue Lin: Fudan University",
+            "Huiting Wang: Fudan University"
+        ],
+        "presenting_author": "Xuexi Wang",
+        "abstract": "We proposed an interactive visualization and analysis system for the VAST 2023 mini-challenge1 to analyze the basic demographic characteristics of the city as well as social characteristics by interactively selecting volunteer attributes, dates, etc. We can filter the volunteers\u2019 attributes (gender, education, etc.) according to our preferences and obtain visualization results by combining different attributes, or observe the social profiles among different groups of people by selecting dates, etc. and analyze them based on that. The exploration of social relationships is completed by ID search and k-means clustering. HDBSCAN clustering is used to complete the division of business bases and calculate the features that reflect both the work situation and business status of business bases based on the information of personnel\u2019s location distribution, account balance change, and salary level, respectively, based on which the business base model exploration is conducted. We will describe our design principles in detail in this paper.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-vast-posters-1033": {
+        "event": "VAST Challeng",
+        "event_prefix": "a-vast-posters",
+        "title": "FDU-Liu-MC3",
+        "uid": "a-vast-posters-1033",
+        "discord_channel": "",
+        "authors": [
+            "Ting Liu",
+            "Huiting Wang",
+            "Ziyue Lin",
+            "Yuxiao Li",
+            "Xuexi Wang",
+            "Yue Wang",
+            "Siming Chen"
+        ],
+        "author_affiliations": [
+            "Ting Liu: School of Data Science,Fudan University",
+            "Huiting Wang: Fudan university",
+            "Ziyue Lin: Fudan University",
+            "Yuxiao Li: Fudan University",
+            "Xuexi Wang: Fudan University",
+            "Yue Wang: Fudan University",
+            "Siming Chen: Fudan University"
+        ],
+        "presenting_author": "Ting Liu",
+        "abstract": "In this paper, we design a visual analytics system to display the financial health of a city. The system contains four views, that is, map view, bipartite view, calendar heatmap, and parallel coordinates view. Combined with the console, the interactive system provides a spatial perception of economic volumes of 4 entities, i.e., participants, employers, pubs, and restaurants, display of freely combinable temporal and non-temporal attributes, and algorithm-driven mining of temporal trends and similar patterns.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "FALSE",
+        "pdf_link": ""
+    },
+    "a-vizsec-posters-2288": {
+        "event": "VizSec Posters",
+        "event_prefix": "a-vizsec-posters",
+        "title": "A Proposal for Continuous and Silent User Authentication Through Mouse Dynamics and Explainable Deep Learning",
+        "uid": "a-vizsec-posters-2288",
+        "discord_channel": "",
+        "authors": [
+            "Giovanni Ciaramella",
+            "Giacomo Iadarola",
+            "Fabio Martinelli",
+            "Francesco Mercaldo",
+            "Antonella Santone"
+        ],
+        "author_affiliations": [
+            "Giovanni Ciaramella: Institute for Informatics and Telematics, National Research Council of Italy (CNR)",
+            "Giacomo Iadarola: Institute for Informatics and Telematics, National Research Council of Italy (CNR)",
+            "Fabio Martinelli: Institute for Informatics and Telematics, National Research Council of Italy (CNR)",
+            "Francesco Mercaldo: Institute for Informatics and Telematics, National Research Council of Italy (CNR)",
+            "Antonella Santone: University of Molise"
+        ],
+        "presenting_author": "Giovanni Ciaramella",
+        "abstract": "Over the years, the number of compromised accounts dramatically increased. Many types of authentication methods have been introduced to avoid this type of attack. In particular, recently taken hold biometric-based such as physical-biometric and behavior-biometric. The idea at the bottom of the last technique is that each person has a unique behavior. Starting from the touch dynamics, and keyboard dynamics nowadays, one of the most promising investigation areas is currently represented by mouse dynamics. Opposite to the other techniques, mouse dynamics require simpler hardware to capture the biometric data without using sensitive data from the users. In this paper, we propose an approach for continuous and silent user authentication based on mouse dynamics and explainable deep learning. We generate a set of images starting from mouse dynamics, and we input a deep learning model to discriminate between legitimate and malicious users. We also propose to adopt the Gradient-weighted Class Activation Mapping, to allow highlighting the areas of the images which are responsible for a specific legitimate/attack prediction, thus providing explainability behind the model classification. The preliminary experimental analysis based on ten different users shows that the proposed method can be promising in silent and continuous user authentication.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-vizsec-posters-4913": {
+        "event": "VizSec Posters",
+        "event_prefix": "a-vizsec-posters",
+        "title": "Riverside: Dynamic Visualization of Network Traffic for Situation Awareness in Computer Security",
+        "uid": "a-vizsec-posters-4913",
+        "discord_channel": "",
+        "authors": [
+            "Kaitlyn DeValk",
+            "Niklas Elmqvist"
+        ],
+        "author_affiliations": [
+            "Kaitlyn DeValk: University of Maryland",
+            "Niklas Elmqvist: University of Maryland, College Park"
+        ],
+        "presenting_author": "Niklas Elmqvist",
+        "abstract": "Monitoring security in a computer network requires understanding both real-time network traffic as well as the evolving structure of the network itself. While visualization is increasingly being used for this purpose, current network security tools rely mostly on static network topology and fail to account for user needs. To better understand this problem domain, we interviewed 24 network and security analysts to gain insight on their practices, needs, and current tooling. Based on their qualitative feedback, we designed and built Riverside, a computer security tool visualizing dynamic network traffic across time. By enabling an analyst to navigate traffic in time, summarize intervals, and highlight specific events to prevent change blindness, Riverside gives network and security professionals increased situation awareness of their network.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-vizsec-posters-4914": {
+        "event": "VizSec Posters",
+        "event_prefix": "a-vizsec-posters",
+        "title": "Explainability for Safety in Reinforcement Learning",
+        "uid": "a-vizsec-posters-4914",
+        "discord_channel": "",
+        "authors": [
+            "Tongtong Liu",
+            "Md Asifur Rahman",
+            "Joe McCalmon",
+            "Sarra Alqahtani"
+        ],
+        "author_affiliations": [
+            "Tongtong Liu: Wake Forest University",
+            "Md Asifur Rahman: Wake Forest University",
+            "Joe McCalmon: Wake Forest University",
+            "Sarra Alqahtani: Wake Forest University"
+        ],
+        "presenting_author": "Sarra Alqahtani",
+        "abstract": "In recent years, interpretations of complex AI systems' behavior have become a crucial field of study. Although prior studies have made significant advancements in interpreting a wide range of machine learning algorithms, there is a great demand for relevant studies in the field of reinforcement learning (RL) and explaining agents' behavior. Also, the lack of explainability implies that the optimal strategies of agents cannot be used to improve our understanding of their safety. Explaining the safety measures of an RL agent is important in ensuring its effectiveness. In this work, we improved our explainable RL method, CAPS, and use it for the comparative analysis of the safety behavior pattern of our proposed safety algorithm against the existing RL baseline. We hypothesize that RL safety will result if CAPS transparently offers enough explanations of agents' decisions and actions in terms of safety.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "a-vizsec-posters-6165": {
+        "event": "VizSec Posters",
+        "event_prefix": "a-vizsec-posters",
+        "title": "Critical Path Exploration Dashboard for Alert-driven Attack Graphs",
+        "uid": "a-vizsec-posters-6165",
+        "discord_channel": "",
+        "authors": [
+            "Azqa Nadeem",
+            "S\u00f2nia Leal D\u00edaz",
+            "Sicco Verwer"
+        ],
+        "author_affiliations": [
+            "Azqa Nadeem: Delft University of Technology",
+            "S\u00f2nia Leal D\u00edaz: La Salle Ramon Llull University",
+            "Sicco Verwer: Delft University of Technology"
+        ],
+        "presenting_author": "S\u00f2nia Leal D\u00edaz",
+        "abstract": "Intrusion alert management often leads to alert fatigue. Recently, alert-driven attack graphs (AG) were proposed to reduce analyst workload by extracting attacker strategies directly from intrusion alerts. This paper proposes a web-based visual analytics dashboard with querying and prioritization capabilities for alert-driven AGs.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1006": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "How to Visualize Food Quantities to Prevent Food Waste? Examples and Challenges",
+        "uid": "v-vis-posters-1006",
+        "discord_channel": "",
+        "authors": [
+            "Morgane Koval",
+            "Yvonne Jansen"
+        ],
+        "author_affiliations": [
+            "Morgane Koval: Universit\u00e9 de Bordeaux, CNRS, Inria, LaBRI",
+            "Yvonne Jansen: Universit\u00e9 de Bordeaux, CNRS, Inria, LaBRI"
+        ],
+        "presenting_author": "Morgane Koval",
+        "abstract": "Food quantity management involves planning and predicting in one's daily life. One has to estimate how much needs to be bought, how much the people eating together will want to eat, and how much needs to be prepared to have enough but not too much either. Wasting food raises sustainability and financial challenges. We present some of the issues linked to poor food management and then suggest two ways in which visualization may address two of them: over-buying and over-preparing. Finally, we discuss current limitations in order to identify future directions and research questions.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1011": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Ambienizer: Turning Digital Photos into Ambient Visualizations",
+        "uid": "v-vis-posters-1011",
+        "discord_channel": "",
+        "authors": [
+            "Ji Hwan Park",
+            "Arie Kaufman",
+            "Klaus Mueller"
+        ],
+        "author_affiliations": [
+            "Ji Hwan Park: University of Oklahoma",
+            "Arie Kaufman: Stony Brook University",
+            "Klaus Mueller: Stony Brook University"
+        ],
+        "presenting_author": "Ji Hwan Park",
+        "abstract": "The Ambienizer is a visual encoding approach that seeks to convey a user\u2019s personal data in a casual non-technical way. In the Ambienizer, a user can choose any image and map any of the provided image processing techniques to the variables from personal data. In this work, we use the Ambienizer in the context of monitoring household energy use. We allow the user to compare the user\u2019s energy consumption with a social norm, a past consumption, or a targeted consumption.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1012": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "The Mental Number Line for Bar Graph Comprehension",
+        "uid": "v-vis-posters-1012",
+        "discord_channel": "",
+        "authors": [
+            "Jimin Park",
+            "Sashank Varma"
+        ],
+        "author_affiliations": [
+            "Jimin Park: University of Minnesota",
+            "Sashank Varma: Georgia Tech"
+        ],
+        "presenting_author": "Jimin Park",
+        "abstract": "Bar graphs are ubiquitous feature of modern life. Nevertheless, the field lacks a comprehensive understanding of the cognitive processes and representations that people recruit during bar graph comprehension. The proposed research applied theories and experimental paradigms from numerical cognition to investigate whether people recruit magnitude representations to understand the numerical values depicted in bar graphs. We evaluated theory-driven predictions concerning the relative efficacy of vertical vs. horizontal bars and provide evidence that people recruit their mental number lines during bar graph comprehension.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1014": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "NLP For Vis: Designing a Chart to Alt Text Model",
+        "uid": "v-vis-posters-1014",
+        "discord_channel": "",
+        "authors": [
+            "Ihita Mandal",
+            "Frank Elavsky",
+            "Dominik Moritz"
+        ],
+        "author_affiliations": [
+            "Ihita Mandal: Carnegie Mellon University",
+            "Frank Elavsky: Carnegie Mellon University",
+            "Dominik Moritz: Carnegie Mellon University"
+        ],
+        "presenting_author": "Ihita Mandal",
+        "abstract": "We present a design contribution for an NLP model capable of producing a textual description of a data visualization which captures higher level trends in the data. Our design process breaks model heuristics into three stages based on visual salient features and the relationships between geometric and textual elements. While our model pushes the state of the art (SotA) in automated chart descriptions, we have pessimistic considerations for the ethical and functional implications of its use. Our core hypothesis is: Can we assume this SotA model will still fail to adequately meet the needs of people with disabilities? And then, can this assumption help us de-risk this work? Are there advantages to a pessimistic approach in regards to model design and ethical considerations?",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1015": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Dynamic visualizations for violence prevention",
+        "uid": "v-vis-posters-1015",
+        "discord_channel": "",
+        "authors": [
+            "Luke Demarest"
+        ],
+        "author_affiliations": [
+            "Luke Demarest: University College London"
+        ],
+        "presenting_author": "Luke Demarest",
+        "abstract": "This poster documents the use of dynamic visualizations and data interfaces for an ongoing complex systems-based violence prevention intervention case study. The scope of project visualizations used span the development, implementation, and evaluation of a social simulation that models a \u2018safer migration\u2019 intervention in the context of low-wage labor migration between Myanmar and Thailand. This project employed dynamic visualizations at various stages, including, participatory social network data collection, mixed-methods social network analysis, conceptualization of violence and migration systems theory, generating and analyzing system and intervention simulations using agent-based modelling, and disseminating web-accessible outputs and findings for a wide audience. Preliminary findings from this ongoing work suggest that using dynamic visual representations of complex systems as a research tool can lead to more pluralistic and interdisciplinary methodological approaches to knowledge production in the field of violence intervention research. Dynamic visualizations can serve as a conduit for empirical richness, a touchpoint for interdisciplinary collaboration, a visual check for model verification, and a supporting tool to assist with stakeholder validation of causal inference, and an instrument to inform intervention development through scenario testing.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1016": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "NOVA: A Practical Method for Creating Notebook-Ready Visual Analytics",
+        "uid": "v-vis-posters-1016",
+        "discord_channel": "",
+        "authors": [
+            "Zijie Wang",
+            "David Munechika",
+            "Seongmin Lee",
+            "Duen Horng Chau"
+        ],
+        "author_affiliations": [
+            "Zijie J. Wang: Georgia Tech",
+            "David Munechika: Georgia Institute of Technology",
+            "Seongmin Lee: Georgia Institute of Technology",
+            "Duen Horng Chau: Georgia Tech"
+        ],
+        "presenting_author": "Zijie J. Wang",
+        "abstract": "How can we develop visual analytics (VA) tools that can be easily adopted? Visualization researchers have developed a large number of web-based VA tools to help data scientists in a wide range of tasks. However, adopting these standalone systems can be challenging, as they require data scientists to create new workflows to streamline the VA processes. Recent surveys suggest computational notebooks have been dominating data scientists' analytical workflows, as these notebooks seamlessly combine text, code, and visualization, allowing users to rapidly iterate code experiments. To help visualization researchers develop VA tools that can be easily integrated into existing data science workflows, we present NOVA, a simple and flexible method to adapt web-based VA systems for notebooks. We provide detailed examples of using this method with diverse web development technologies and different types of computational notebooks. Deployed application examples highlight that NOVA is easy to adopt, and data scientists appreciate in-notebook VA. NOVA is available at https://github.com/poloclub/nova.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1017": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visualizing the CAST of Characters Labeled in Animation",
+        "uid": "v-vis-posters-1017",
+        "discord_channel": "",
+        "authors": [
+            "Oron Nir",
+            "Avi Neeman",
+            "Ariel Shamir"
+        ],
+        "author_affiliations": [
+            "Oron Nir: Reichman University",
+            "Avi Neeman: Microsoft",
+            "Ariel Shamir: Reichman University"
+        ],
+        "presenting_author": "Prof. Ariel Shamir",
+        "abstract": "The success of a visualization lies not only on the design of the depiction, but often also on the underlying representation used for the data. Cartoons and animation domain videos have very different characteristics compared to real-life images and videos. In addition, this domain carries a large variability in styles. Using mappings defined by computer vision algorithms may fail on animated content because they were trained on natural images. In a recent paper [1] we presented a method to refine a semantic representation to be suitable for specific animated content. This representation allows building dictionaries of the cast of characters in an animation videos, and defining specialized classifiers for specific stylistic content, that are then used to automatically label all characters in an animation videos. Furthermore, as we demonstrate in this poster, it also allows to visualize both local and global aspects of the animation in a manner that was not possible without CAST.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1018": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Effect of Spatial Visualization on Recall of Bar Charts",
+        "uid": "v-vis-posters-1018",
+        "discord_channel": "",
+        "authors": [
+            "Sara Tandon",
+            "Alfie Abdul-Rahman",
+            "Rita Borgo"
+        ],
+        "author_affiliations": [
+            "Sara Tandon: King's College London",
+            "Alfie Abdul-Rahman: King's College London",
+            "Rita Borgo: Kings College London"
+        ],
+        "presenting_author": "Sara Tandon",
+        "abstract": "Research demonstrates that individual differences and cognitive abilities affect interaction with information visualization. In this study, we test whether spatial visualization ability impacts recall of bar charts. We propose and test a methodology using a crowd-sourced online study to assess spatial visualization (with an established psychometric assessment) and measure differences in error and response time across low and high spatial individuals; we found that once a task is understood, there is no difference in response times between them. However, low spatial individuals had higher error with increased complexity and task difficulty.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1019": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Towards an Exploratory Visual Analytics System for Multivariate Subnetworks in Social Media Analysis",
+        "uid": "v-vis-posters-1019",
+        "discord_channel": "",
+        "authors": [
+            "Zeyang Huang",
+            "Kostiantyn Kucher",
+            "Andreas Kerren"
+        ],
+        "author_affiliations": [
+            "Zeyang Huang: Link\u00f6ping University",
+            "Kostiantyn Kucher: Link\u00f6ping University",
+            "Andreas Kerren: Link\u00f6ping University"
+        ],
+        "presenting_author": "Zeyang Huang",
+        "abstract": "Identifying sociolinguistic attributes of inter-community interactions is essential for understanding the polarization of social network communities. A wide range of computational text and network analysis methods may be applicable for this task, however, interpretation of the respective results and investigation of particularly interesting cases and subnetworks are difficult due to the scale and complexity of the data, e.g., for the Reddit platform. In this poster paper, we present an interactive visual analysis interface that facilitates network exploration and comparison at different topological and multivariate attribute scales. Users are able to investigate text- and network-based properties of social network community interactions, identify anomalies of conflict starters, or gain insight into multivariate anomalies behind groups of negative social media posts.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1020": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Processing Fluency Improves Trust in Scatterplot Visualizations",
+        "uid": "v-vis-posters-1020",
+        "discord_channel": "",
+        "authors": [
+            "Hamza Elhamdadi",
+            "Lace Padilla",
+            "Cindy Xiong"
+        ],
+        "author_affiliations": [
+            "Hamza Elhamdadi: University of Massachusetts Amherst",
+            "Lace Padilla: UC Merced",
+            "Cindy Xiong: University of Massachusetts Amherst"
+        ],
+        "presenting_author": "Hamza Elhamdadi",
+        "abstract": "Trust plays a significant role in how people perceive, discount, or dismiss scientific information and make critical decisions. Therefore, establishing trust is a critical first step in visual data communication. But what makes a visualization trustworthy? Researchers in psychology and behavioral economics have identified processing fluency (i.e., speed and accuracy of perceiving and processing a stimulus) as a key factor impacting trust perception. We examine the association between processing fluency and trust in visualizations through two empirical studies. We manipulated fluency by creating camouflaged visualizations that are more difficult to process. In Experiment 1, we tested the effect of camouflaging a visualization on processing fluency. Participants completed a perceptual task with six camouflaged visualizations and one non-camouflaged control. The task involved estimating the proportion of data values within a range and reporting the difficulty of doing so. We found the camouflaged visualizations produced less accurate estimations compared to the control. In Experiment 2, we created a decision task based on trust games adapted from behavioral economics. We asked participants to invest money in two hypothetical companies and report how much they trust each company. One company communicates its strategy with a camouflaged visualization, the other with a controlled visualization. The results revealed that participants tend to invest less money in the company presenting a camouflaged visualization. We found that processing fluency is a key factor in the perception of trust in visual data communication.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1021": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "MitoVis: A Unified Visual Analytics System for End-to-End Neuronal Mitochondria Analysis",
+        "uid": "v-vis-posters-1021",
+        "discord_channel": "",
+        "authors": [
+            "JunYoung Choi",
+            "Hyunjic Oh",
+            "Hakjun Lee",
+            "Su Yeon Kim",
+            "Seok-Kyu Kwon",
+            "Won-Ki Jeong"
+        ],
+        "author_affiliations": [
+            "JunYoung Choi: Korea University",
+            "Hyunjic Oh: Korea University",
+            "Hakjun Lee: Korea University",
+            "Su Yeon Kim: Korea Institute of Science and Technology",
+            "Seok-Kyu Kwon: Korea Institute of Science and Technology",
+            "Won-Ki Jeong: Korea University"
+        ],
+        "presenting_author": "JunYoung Choi",
+        "abstract": "The conventional neuronal mitochondria analysis workflow mainly relies on manual annotations and generic image-processing software. Moreover, even though there have been recent developments in automatic mitochondria analysis using deep learning, the application of existing methods in a daily analysis remains challenging because the performance of a pretrained deep learning model can vary depending on the target data, and there are always errors in inference time, requiring human proofreading. To address these issues, we introduce MitoVis, a novel visualization system for end-to-end data processing and an interactive analysis of the morphology of neuronal mitochondria. MitoVis introduces a novel active learning framework based on recent contrastive learning, which allows accurate fine-tuning of the neural network model. MitoVis also provides novel visual guides for interactive proofreading so that users can quickly identify and correct errors in the result with minimal effort.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1022": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Healthy Me: a personal visual health journal for self-reflection and knowledge sharing",
+        "uid": "v-vis-posters-1022",
+        "discord_channel": "",
+        "authors": [
+            "Lakshmi Priya Kenday Sivaram",
+            "Lyn Bartram"
+        ],
+        "author_affiliations": [
+            "Lakshmi Priya Kenday Sivaram: Simon Fraser University",
+            "Lyn Bartram: Simon Fraser University"
+        ],
+        "presenting_author": "Lakshmi Priya Kenday Sivaram",
+        "abstract": "Digital technologies like mobile apps and smart wearable trackers are providing new options for managing healthcare outside of traditional care settings. Though these personal health-tracking devices are good in presenting physiological health data (quantified data) such as blood pressure, heart rate or blood glucose level, they fall short in integrating experiential subjective data like emotions, lifestyle and social interactions for richer contextual information. We introduce \"Healthy Me\", a personal visual health data journaling application to explore whether the combination of subjective measures and the quantified self-technologies can help a person develop their own digital wellbeing stories as well as enhancing the dialogue between health providers. We carried out a qualitative study with both patient participants and healthcare professionals. Our results, while preliminary, reveal that seeing the subjective metrics along with their physiological health data can help patients and practitioners reason about their behaviors. The feedback from the study suggests that such approaches provoke more self-awareness and curiosity among patients around healthier choices and can serve as a good educational tool for health practitioners to converse with their patients.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1023": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "A Digital Clipboard for Real-Time Observations and Multimodal Annotations of Team Performance",
+        "uid": "v-vis-posters-1023",
+        "discord_channel": "",
+        "authors": [
+            "Jason Phadnis",
+            "Daniel Keefe",
+            "Cullen Jackson"
+        ],
+        "author_affiliations": [
+            "Jason Phadnis: University of Minnesota Twin Cities",
+            "Daniel F. Keefe: University of Minnesota",
+            "Cullen D. Jackson: Beth Israel Deaconess Medical Center"
+        ],
+        "presenting_author": "Jason Phadnis",
+        "abstract": "Performance evaluations, both for an individual and for teams, can be conducted with survey-based observational tools. These observational tools could be on paper and clipboard or on a tablet or computer. In either case, they aren\u2019t necessarily able to provide the context and evidence needed to transform otherwise vague feedback into clear, helpful feedback. We contribute a new design for a tablet-based digital clipboard application to address this problem. Our implementation supports the same style of handheld, pen-based annotation as traditional clipboards, while adding new capabilities like capturing and embedding video annotations in digitized versions of standard observational tools. Observers enter observations and annotations in real-time using a creative combination of pen, touch, and spatial gestures of the clipboard itself that is designed to be efficient and, as much as possible, enable observers to maintain visual focus on the team they are evaluating. Early results include observations recorded during lab-based, iterative design testing for teams of students working together to build a structure out of blocks.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1024": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visual Utility Evaluation of Differentially Private Scatterplots",
+        "uid": "v-vis-posters-1024",
+        "discord_channel": "",
+        "authors": [
+            "Liudas Panavas",
+            "Tarik Crnovrsanin",
+            "Jane Adams",
+            "Ali Sarvghad",
+            "Melanie Tory",
+            "Cody Dunne"
+        ],
+        "author_affiliations": [
+            "Liudas Panavas: Northeastern University",
+            "Tarik Crnovrsanin: Northeastern University",
+            "Jane L. Adams: Northeastern University",
+            "Ali Sarvghad: University of Massachusetts Amherst",
+            "Melanie Tory: Northeastern University",
+            "Cody Dunne: Northeastern University"
+        ],
+        "presenting_author": "Liudas Panavas",
+        "abstract": "Differentially private scatterplots enable the plotting of two attributes while guaranteeing a specified level of privacy. What a user sees from the scatterplot can be affected by which privacy algorithm is used and how it adds noise to the data. However, there is no existing work that quantifies this effect. We present the results of a pilot data study that compares algorithms for creating differentially private scatterplots based on the visual utility of their results. We compare five popular algorithms across a range of parameters. The results indicate that DAWA and Geometric Truncated are the best algorithms for visual utility. Future research could focus on optimizing the different parameters to maximize utility of the visual representations. A free copy of this paper along with all supplemental materials is available at osf.io (anonymous link).",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1025": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "NeuroMapper: In-browser Visualizer for Neural Network Training",
+        "uid": "v-vis-posters-1025",
+        "discord_channel": "",
+        "authors": [
+            "Zhiyan Zhou",
+            "Kevin Li",
+            "Haekyu Park",
+            "Megan Dass",
+            "Austin Wright",
+            "Nilaksh Das",
+            "Duen Horng Chau"
+        ],
+        "author_affiliations": [
+            "Zhiyan Zhou: Georgia Institute of Technology",
+            "Kevin Li: Georgia Institute of Technology",
+            "Haekyu Park: Georgia Institute of Technology",
+            "Megan Dass: Georgia Institute of Technology",
+            "Austin P Wright: Georgia Institute of Technology",
+            "Nilaksh Das: Georgia Institute of Technology",
+            "Duen Horng Chau: Georgia Tech"
+        ],
+        "presenting_author": "Zhiyan Zhou",
+        "abstract": "We present our ongoing work NeuroMapper, an in-browser visualization tool that helps machine learning (ML) developers interpret the evolution of a model during training, providing a new way to monitor the training process and visually discover reasons for suboptimal training. While most existing deep neural networks (DNNs) interpretation tools are designed for already-trained model, NeuroMapper scalably visualizes the evolution of the embeddings of a model's blocks across training epochs, enabling real-time visualization of 40,000 embedded points. To promote the embedding visualizations\u2019 spatial coherence across epochs, NeuroMapper adapts AlignedUMAP, a recent nonlinear dimensionality reduction technique to align the embeddings. With NeuroMapper, users can explore the training dynamics of a Resnet-50 model, and adjust the embedding visualizations' parameters in real time. NeuroMapper is open-sourced at https://github.com/poloclub/NeuroMapper and runs in all modern web browsers. A demo of the tool in action is available at: https://poloclub.github.io/NeuroMapper/.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1027": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Scanpath Visualization According to Fixations with Gazed Objects",
+        "uid": "v-vis-posters-1027",
+        "discord_channel": "",
+        "authors": [
+            "Sangbong Yoo",
+            "Soobin Yim",
+            "ChanYoung Yoon",
+            "Hyein Hong",
+            "Yun Jang"
+        ],
+        "author_affiliations": [
+            "Sangbong Yoo: Sejong University",
+            "Soobin Yim: Sejong University",
+            "ChanYoung Yoon: Sejong University",
+            "Hyein Hong: Sejong university",
+            "Yun Jang: Sejong University"
+        ],
+        "presenting_author": "Sangbong Yoo",
+        "abstract": "Fixation and saccade are eye movement events used in gaze analysis. Eye movement events provide a focused position of the observer's attention in a visual stimulus. The area where the attention is concentrated is called AoIs (Area of Interests) and contains semantical information. However, the semantics of AoIs is focused on analyzing the attention shift between AoIs. In addition, since the conventional fixation and saccade identification algorithms rely on raw eye movement data, fixation is usually located at a position independent of the visual stimulus. In this paper, we propose the fixation identification algorithm based on the segmented object and velocity-threshold. We determine the gaze target object with the segmented object and the foveal area range. Our algorithm utilizes the target object and velocity-threshold for fixation identification and positioning.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1028": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "A Design Space for Linked 2D and 3D Visual Representations",
+        "uid": "v-vis-posters-1028",
+        "discord_channel": "",
+        "authors": [
+            "Ebrar A. D. Santos",
+            "Jiayi Hong",
+            "Tobias Isenberg"
+        ],
+        "author_affiliations": [
+            "Ebrar A. D. Santos: Universit\u00e9 Paris-Saclay, CNRS, Inria, LISN",
+            "Jiayi Hong: Universit\u00e9 Paris-Saclay, CNRS, Inria, LISN",
+            "Tobias Isenberg: Universit\u00e9 Paris-Saclay, CNRS, Inria, LISN"
+        ],
+        "presenting_author": "Ebrar A. D. SANTOS",
+        "abstract": "We discuss a design space for combining, linking, and jointly presenting 3D spatial data together with related abstract data, the latter typically mapped to 2D space. Even though guidelines exist for creating linked 2D views that help designers and inspire researchers, they typically do not encompass 3D spatial data representations. We thus first reviewed the existing visualization literature and explored linking patterns in existing systems. We then extracted the dimensions of how these tools combine 2D and 3D data by their semantic relationships, display environment, placement, and the linking methods between them.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1029": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Investigating the Use of Native and Secondary Language with Data Visualization in Madagascar",
+        "uid": "v-vis-posters-1029",
+        "discord_channel": "",
+        "authors": [
+            "Henintsoa S. Andrianarivony",
+            "Taratra Raharison",
+            "Mirindra Toavina Nancy Ramarokoto",
+            "I. Tamby Rakotoniaina",
+            "No\u00eblle Rakotondravony",
+            "Lane Harrison"
+        ],
+        "author_affiliations": [
+            "Henintsoa S. Andrianarivony: Universit\u00e9 d'Antananarivo",
+            "Taratra Dimbimandresy Raharison: Universit\u00e9 d'Antananarivo",
+            "Mirindra Toavina Nancy Ramarokoto: Universit\u00e9 d'Antananarivo",
+            "I. Tamby Rakotoniaina: Universit\u00e9 d'Antananarivo",
+            "No\u00eblle Rakotondravony: Worcester Polytechnic Institute",
+            "Lane Harrison: Worcester Polytechnic Institute"
+        ],
+        "presenting_author": "Henintsoa S. Andrianarivony",
+        "abstract": "secondary language in the design, exploration, and interpretation of data visualization. We focus on bilingual speakers in Madagascar, a predominantly Malagasy-speaking country with French as a common secondary language. In a between-subjects online study, n = 14 participants answered open-ended questions on how they interact with and communicate about a data visualization delivered in either their native (Malagasy) or secondary (French) language. Results suggest that a lack of expressive terms for visualization, data, and technical terminology in Malagasy impacted participant responses, with several using French terms even when prompted to answer in Malagasy, along with differences in answer length, fluency, and conciseness.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1030": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Olli: An Extensible Visualization Library for Screen Reader Accessibility",
+        "uid": "v-vis-posters-1030",
+        "discord_channel": "",
+        "authors": [
+            "Matthew Blanco",
+            "Jonathan Zong",
+            "Arvind Satyanarayan"
+        ],
+        "author_affiliations": [
+            "Matthew Blanco: Northeastern University",
+            "Jonathan Zong: Massachusetts Institute of Technology",
+            "Arvind Satyanarayan: MIT"
+        ],
+        "presenting_author": "Jonathan Zong",
+        "abstract": "Though recent research has explored the design of rich screen reader visualization experiences, accessible visualizations for blind and low vision users remain rare on the web. While some visualization toolkits offer accessible solutions, toolkit-specific implementations can present idiosyncratic user experiences that limit learnability. We present Olli, an open source library that converts visualizations into a keyboard-navigable structure accessible to screen readers. Using an extensible adapter design pattern, Olli is agnostic to the specific toolkit used to author the visualization. Olli renders a chart as an accessible tree view following the HTML Accessible Rich Internet Applications (ARIA) standard. Olli helps visualization developers easily create accessible visualizations across visualization toolkits.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1031": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visual Analysis for Urban Traffic Network with Multiple CCTV Videos",
+        "uid": "v-vis-posters-1031",
+        "discord_channel": "",
+        "authors": [
+            "ChanYoung Yoon",
+            "Soobin Yim",
+            "Sangbong Yoo",
+            "Hanbyul Yeon",
+            "Giwoong Park",
+            "Yun Jang"
+        ],
+        "author_affiliations": [
+            "ChanYoung Yoon: Sejong University",
+            "Soobin Yim: Sejong University",
+            "Sangbong Yoo: Sejong University",
+            "Hanbyul Yeon: Sejong University",
+            "Giwoong Park: Sejong University",
+            "Yun Jang: Sejong University"
+        ],
+        "presenting_author": "Chanyoung Yoon",
+        "abstract": "Many previous studies analyze traffic flows utilizing vehicle detector (VD) data and GPS trajectory data. The VD system consists of expensive equipment and high maintenance costs and GPS trajectory data measures travel records only for sampled vehicles. On the contrary, CCTV cameras are located at the major intersections in most urban areas. In this study, we propose a framework for analyzing real-time traffic conditions using multiple CCTV videos and predicting future traffic conditions. The proposed framework recognizes vehicles from CCTV images in real-time and extracts vehicle flow data. After that, the urban traffic network is built by combining the vehicle flow data and the CCTV camera network. Since most CCTV cameras only observe a part of the road at the intersection, some traffic flows may not be monitored. Therefore, we introduce a tree search algorithm and an extended DCRNN model to estimate the vehicle flow on unobserved roads.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1032": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Effectiveness Validation of Visualization Designs",
+        "uid": "v-vis-posters-1032",
+        "discord_channel": "",
+        "authors": [
+            "Soobin Yim",
+            "ChanYoung Yoon",
+            "Sangbong Yoo",
+            "Yun Jang"
+        ],
+        "author_affiliations": [
+            "Soobin Yim: Sejong University",
+            "ChanYoung Yoon: Sejong University",
+            "Sangbong Yoo: Sejong University",
+            "Yun Jang: Sejong University"
+        ],
+        "presenting_author": "Soobin Yim",
+        "abstract": "For better visualizations, various researchers have proposed and evaluated visualization design through quantitative methods of response accuracy and time for completing visualization tasks. However, quantitative approaches do not fully mirror mental workload. Therefore, questionnaires and biosignals have been employed to measure mental workload in visualization assessments. In this work, we study the EEG as a biosignal to measure mental workload for visualizations. We examine whether there is a difference in mental workload for the visualization designs and then propose a mental workload estimation model specialized for each individual to evaluate visualization designs using EEG.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1033": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Traffic Causal Relationship Analysis with Causal Density",
+        "uid": "v-vis-posters-1033",
+        "discord_channel": "",
+        "authors": [
+            "Soobin Yim",
+            "Chanyoung Jung",
+            "Giwoong Park",
+            "Yun Jang"
+        ],
+        "author_affiliations": [
+            "Soobin Yim: Sejong University",
+            "Chanyoung Jung: Sejong university",
+            "Giwoong Park: Sejong University",
+            "Yun Jang: Sejong University"
+        ],
+        "presenting_author": "Chanyoung Jung",
+        "abstract": "Previous traffic congestion analysis studies have mainly focused on predicting future traffic congestion using past data. However, predicting future traffic congestion does not provide new insight for traffic engineers who want to resolve more fundamental causes of traffic congestion. In particular, urban traffic has various routes, such as intersections and alleys, signal times and road capacity make it more challenging to determine congestion causalities. In this paper, we apply causal density to identify the causal relationship between two different data and propose a novel visual analytics framework to analyze congestion causalities. Our proposed framework provides statistical causality to help analysts create traffic jam causal maps and discover possible origins of traffic jams. We evaluate the effectiveness of our proposed framework through real data set that are presumed to be origins of traffic congestion from the causal relationship analysis.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1034": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Eliciting High-Level Visual Comprehension: A Qualitative Study",
+        "uid": "v-vis-posters-1034",
+        "discord_channel": "",
+        "authors": [
+            "Ghulam Jilani Quadri",
+            "Danielle Szafir"
+        ],
+        "author_affiliations": [
+            "Ghulam Jilani Quadri: University of North Carolina",
+            "Danielle Albers Szafir: University of North Carolina-Chapel Hill"
+        ],
+        "presenting_author": "Ghulam Jilani Quadri",
+        "abstract": "A visualization designer creates a given visualization with a specific analytical or communication goal. However, perceptual studies of visualization effectiveness focus on isolated, low-level tasks, such as estimating specific statistics. Instead, we explore data interpretation and communication more holistically to bridge the gap between visualization designers and consumers. In this work, we conducted a qualitative study on five selected graphs from New York Times to investigate the high-level patterns people naturally see when they encounter a visualization without a guiding task. Participants described each of the tested graphs using natural language. The descriptions were coded using axial coding to identify whether the patterns people observed in the visualizations aligned with the designer's intentions. We found that interpretation varies with the number of subgraphs, additional annotations, labels, and units. Our findings provide a new lens on how design influences the high-level patterns people naturally see in visualization. The subsequent findings and guidelines on visual design can significantly strengthen social trust information visualization when data are visualized in social policies and information contexts.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1035": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visual Analytics System for Data Quality Improvement",
+        "uid": "v-vis-posters-1035",
+        "discord_channel": "",
+        "authors": [
+            "Hyein Hong",
+            "Sangbong Yoo",
+            "yejin jin",
+            "Yun Jang"
+        ],
+        "author_affiliations": [
+            "Hyein Hong: Sejong university",
+            "Sangbong Yoo: Sejong University",
+            "yejin jin: Sejong university",
+            "Yun Jang: Sejong University"
+        ],
+        "presenting_author": "Hyein Hong",
+        "abstract": "The machine learning performance is affected by the model and data quality. However, most users focus on modifying the model rather than improving data quality. Different techniques are used to improve data quality depending on the data condition and the cause of poor data quality. Therefore, improving data quality is a timeconsuming and challenging task for users who do not have sufficient knowledge of data. Visual analytics techniques have been proposed to focus on decision support to improve data quality. However, existing studies do not evaluate the impact of data quality improvement on the performance of machine learning models. In addition, existing studies have limitations in which users have to consider all combinations of data quality improvement processes. In this paper, we propose a novel visual analytics system to manage data quality to improve the performance of machine learning models. The proposed system suggests an optimal quality improvement method and process for data to be appropriately used in machine learning models.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1037": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "HotShots: Visualizing Stroke-by-Stroke Tennis Data",
+        "uid": "v-vis-posters-1037",
+        "discord_channel": "",
+        "authors": [
+            "Arvind Srinivasan",
+            "Abhinav Kannan",
+            "Niklas Elmqvist"
+        ],
+        "author_affiliations": [
+            "Arvind Srinivasan: University of Maryland, College Park",
+            "Abhinav Kannan: University of Maryland, College Park",
+            "Niklas Elmqvist: University of Maryland, College Park"
+        ],
+        "presenting_author": "Abhinav Kannan & Arvind Srinivasan",
+        "abstract": "Post-match visualizations in tennis match data available to the common public are largely limited to video highlights and tabular reports (also called \"score cards''). Such systems tend to ignore an important aspect of the game: ball location. We therefore felt a need for an interactive and accessible interface that prioritizes and simulates strokeplay, and provides end-users with customizable options to filter portions of interest. We propose HotShots, an interactive website with a tennis court representation that provides more profound insights into tennis player behavior. We conclude by presenting how this might shape future systems that would better serve tennis analysts and enthusiasts. A prototype of this tool is available at https://hotshots-v2.vercel.app/.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1038": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Online Study on Reading Behavior of Data-Rich Texts with Integrated Word-Scale Visualizations",
+        "uid": "v-vis-posters-1038",
+        "discord_channel": "",
+        "authors": [
+            "Franziska Huth",
+            "Lukas Kaminski",
+            "Fairouz Grioui",
+            "Tanja Blascheck"
+        ],
+        "author_affiliations": [
+            "Franziska Huth: University of Stuttgart",
+            "Lukas Kaminski: University of Stuttgart",
+            "Fairouz Grioui: University of Stuttgart",
+            "Tanja Blascheck: University of Stuttgart"
+        ],
+        "presenting_author": "Franziska Huth",
+        "abstract": "We report on an online study on reading behavior of data-rich texts with integrated word-scale visualizations. We compare task completion time and accuracy of information gain to texts without wordscale visualizations. Although the results do not indicate significant differences for these measures between the two conditions, participants\u2019 feedback revealed interesting findings.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1039": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Evaluation of Argo Scholar with Observational Study",
+        "uid": "v-vis-posters-1039",
+        "discord_channel": "",
+        "authors": [
+            "Kevin Li",
+            "Haoyang Yang",
+            "Evan Montoya",
+            "Anish Upadhayay",
+            "Zhiyan Zhou",
+            "Jon Saad-Falcon",
+            "Duen Horng Chau"
+        ],
+        "author_affiliations": [
+            "Kevin Li: Georgia Institute of Technology",
+            "Haoyang Yang: Georgia Institute of Technology",
+            "Evan Montoya: Georgia Institute of Technology",
+            "Anish Upadhayay: Georgia Institute of Technology",
+            "Zhiyan Zhou: Georgia Institute of Technology",
+            "Jon Saad-Falcon: Georgia Institute of Technology",
+            "Duen Horng Chau: Georgia Tech"
+        ],
+        "presenting_author": "Kevin Li",
+        "abstract": "Discovering and making sense of relevant literature is fundamental in any scientific field. Node-link diagram-based visualization tools can aid this process; however, existing tools\u2019 have been evaluated only on small scales. This paper evaluates Argo Scholar, an open-source visualization tool designed for interactive exploration of literature and easy sharing of exploration results. A large-scale user study of 122 participants from diverse backgrounds and experiences showed that Argo Scholar is effective at helping users find related work and understand paper connections, and incremental graph-based exploration is effective across diverse disciplines. Based on the user study and user feedback, we provide design considerations and feature suggestions for future work.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1040": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "A hybrid 3D eddy detection based on surface height and velocity field",
+        "uid": "v-vis-posters-1040",
+        "discord_channel": "",
+        "authors": [
+            "Weiping Hua",
+            "Karen Bemis",
+            "Dujuan Kang",
+            "Sedat Ozer",
+            "Deborah Silver Silver"
+        ],
+        "author_affiliations": [
+            "Weiping Hua: Rutgers University",
+            "Karen Bemis: Rutgers, The State University of New Jersey",
+            "Dujuan Kang: Rutgers University",
+            "Sedat Ozer: MIT",
+            "Deborah Silver Silver: Rutgers University"
+        ],
+        "presenting_author": "Weiping Hua",
+        "abstract": "A critical task for ocean scientists is detecting eddies due to the important role they play in ocean circulation. In this paper, we propose a new hybrid approach to detect the eddy structures in the Red Sea dataset using sea surface height, the velocity field and several geometric criteria. Specifically, we first use minima in the sea surface height to locate the eddy region, which we search for the local minima of velocity magnitude as a precisely located candidate for an eddy center. A circular trace of the velocity field is tested against geometric criteria to confirm coherent and consistent rotation of each eddy. Repeating this test at increasing radii and on deeper planes provides an accurate assessment of eddy width, eddy depth, and a boundary for the eddy region. A comparison of other studies and methods applied to the Red Sea dataset suggests that center detection results are highly dependent on the particularities of method and Our approach provides an reliable detection result of eddy.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1042": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Plan Future Graph (PFG)",
+        "uid": "v-vis-posters-1042",
+        "discord_channel": "",
+        "authors": [
+            "Bryan Croft"
+        ],
+        "author_affiliations": [
+            "Bryan Croft: NIWC Pacific"
+        ],
+        "presenting_author": "Dr. Bryan L. Croft",
+        "abstract": "Planning is critical to the operational and tactical capability for the military. Artificial Intelligence (AI) is poised to play a significant part in supporting the warfighter in the development and selection of plans. The AI capability supports reduction in the planning process which is labor intensive, serial in nature and time consuming. The pace and scale forecast for future planning requires rapid understanding, shaping as well as maintenance of the plan space within a short critical time. Such an AI based planning system will always be intertwined in a workflow process with planning personnel, and thus a requirement for a human interface which allows planning personnel to quickly view, understand and dive into elements of the multitude of plausible plans that are generated by the AI. This is the basis of the Plan Future Graph (PFG) concept which seeks to advance the collaboration between the planner and AI supported planning processes. Furthermore, prototypes of such an interface can be prototyped well in advance of any AI based planning capability becoming mature. This visual and interactive mechanism (PFG) displays the results of AI planning processes and presents it to the planner in a modern and well-designed user interface. It provides the means to view all plausible outcomes of the planning process including the priority selections by the AI. The PFG provides a template to what will be required and fed back into the development process of the AI planner. A model of the PFG and user display and interactive elements are proposed as a means for explainable AI for the planning warfighter The collective PFG interface assists the human planner in decisions at an accelerated pace and scale to select an optimum plan or to assist the AI in re-planning with new or additional criteria.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1043": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "AnnoDiver: Applying Visual Analytics on Social Annotations to Facilitate Balanced Research Paper Discourse",
+        "uid": "v-vis-posters-1043",
+        "discord_channel": "",
+        "authors": [
+            "Jasmine Shih",
+            "Nick Feffer",
+            "Miroslav Suzara",
+            "Kevin Wang"
+        ],
+        "author_affiliations": [
+            "Jasmine Yen-Ching Shih: Stanford University",
+            "Nick Feffer: Stanford University",
+            "Miroslav Ivan Suzara: Stanford University",
+            "Kevin Wang: Stanford University"
+        ],
+        "presenting_author": "Jasmine Shih",
+        "abstract": "Prior work has shown that it can be difficult to navigate a large volume of social annotations and that establishing diverse discussions remains a challenge, particularly in university classroom settings. To address this, we developed a prototype social annotation tool that displays interactive visualizations of annotation threads. The visualizations included: 1) a bar chart that displays the counts of different categories of comments, 2) a sentiment axis that shows the sentiment distribution, and 3) a key term frequency list that displays the most frequent terms in the comments. In a user study, we found that users who interacted with the visualizations explored more annotation threads and created more comments, although the diversity of categories of comments created did not change. Our results provide design insights and inspire future research directions on the roles of interactive visualizations on social annotation data.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1044": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Evaluating Cardiovascular Surgical Planning in Mobile Augmented Reality",
+        "uid": "v-vis-posters-1044",
+        "discord_channel": "",
+        "authors": [
+            "Haoyang Yang",
+            "Pratham Darrpan Mehta",
+            "Jonathan Leo",
+            "Zhiyan Zhou",
+            "Megan Dass",
+            "Anish Upadhayay",
+            "Timothy Slesnick",
+            "Fawwaz Shaw",
+            "Amanda Randles",
+            "Duen Horng Chau"
+        ],
+        "author_affiliations": [
+            "Haoyang Yang: Georgia Institute of Technology",
+            "Pratham Darrpan Mehta: Georgia Institute of Technology",
+            "Jonathan Leo: Georgia Institute of Technology",
+            "Zhiyan Zhou: Georgia Institute of Technology",
+            "Megan Dass: Georgia Institute of Technology",
+            "Anish Upadhayay: Georgia Institute of Technology",
+            "Timothy C Slesnick: Children\u2019s Healthcare of Atlanta",
+            "Fawwaz Shaw: Emory University/Children's Healthcare of Atlanta",
+            "Amanda Randles: Duke University",
+            "Duen Horng Chau: Georgia Tech"
+        ],
+        "presenting_author": "Alex Yang",
+        "abstract": "Advanced surgical procedures for congenital heart diseases (CHDs) require precise planning before the surgeries. The conventional approach utilizes 3D-printing and cutting physical heart models, which is a time and resource intensive process. While rapid advances in augmented reality (AR) technologies have the potential to streamline surgical planning, there is limited research that evaluates such AR approaches with medical experts. This paper presents an evaluation with 6 experts, 4 cardiothoracic surgeons, and 2 cardiologists, from Children\u2019s Healthcare of Atlanta (CHOA) Heart Center to validate the usability and technical innovations of CardiacAR, a prototype mobile AR surgical planning application. Potential future improvements based on user feedback are also proposed to further improve the design of CardiacAR and broaden its access.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1045": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visualization for On and Off the Rails: Train Commuting Dashboards for DC",
+        "uid": "v-vis-posters-1045",
+        "discord_channel": "",
+        "authors": [
+            "Jacob Rosen",
+            "Jeffrey Zhang",
+            "Alex Godwin"
+        ],
+        "author_affiliations": [
+            "Jacob Rosen: American University",
+            "Jeffrey Zhang: Georgetown University",
+            "Alex Godwin: American University"
+        ],
+        "presenting_author": "Alex Godwin",
+        "abstract": "The Metro API Data Visualization project (MetroVis) balances passive display capabilities for commuters with interactive queries to visualize Washington Metropolitan Area Transit Authority\u2019s (WMATA) live and historic transportation data. MetroVis is designed for commuters of two types: those that have to rapidly make decisions and catch a train, and those that have a moment to wait. For commuters that have to rapidly determine which train is arriving and how much time they have to catch it, MetroVis displays relevant information about a location that can be discerned at a glance. For commuters that have a moment to interact with the display while waiting for a train, MetroVis presents several dynamic and interactive features that allow commuters to quickly find information.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1046": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Linked Spatial and Temporal Normalization for Analysis of Cyclical 4D Skeletal Motion Data",
+        "uid": "v-vis-posters-1046",
+        "discord_channel": "",
+        "authors": [
+            "Morgan Turner",
+            "Bridger Herman",
+            "Matthias Broske",
+            "Daniel Keefe"
+        ],
+        "author_affiliations": [
+            "Morgan L Turner: University of Minnesota",
+            "Bridger Herman: University of Minnesota",
+            "Matthias Broske: University of Minnesota",
+            "Daniel F. Keefe: University of Minnesota"
+        ],
+        "presenting_author": "Morgan L. Turner",
+        "abstract": "We introduce a new interactive visualization technique that links temporal and spatial perspectives of cyclical skeletal motion data to help evolutionary biologists relate bone form and function.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1047": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "A Qualitative Evaluation and Taxonomy of Bar Chart Annotations",
+        "uid": "v-vis-posters-1047",
+        "discord_channel": "",
+        "authors": [
+            "Md Dilshadur Rahman",
+            "Ghulam Jilani Quadri",
+            "Paul Rosen"
+        ],
+        "author_affiliations": [
+            "Md Dilshadur Rahman: University of South Florida",
+            "Ghulam Jilani Quadri: University of North Carolina",
+            "Paul Rosen: University of South Florida"
+        ],
+        "presenting_author": "Md Dilshadur Rahman",
+        "abstract": "When sharing visualizations, annotations provide valuable insights into the data by focusing attention on important visual elements. As a result, annotations have become an essential part of visualizations, primarily when externalizing data or engaging in collaborative analysis. Therefore, it is crucial to understand how people annotate visualizations. This study investigates how visualization students annotate bar charts when asked to answer high-level questions about the data in the charts. The resulting annotations were coded and summarized into a taxonomy with several interesting findings. For example, we notice that several annotation types were broadly applied, while others were just used in special cases. In addition, we found ensembles of annotations were required to sufficiently annotate some tasks. Our findings provide an early framework for contextualizing the usage of annotations, further providing guidance for best practice uses.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1050": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Geospatial flow data extraction and visualization using Earth mover's distance",
+        "uid": "v-vis-posters-1050",
+        "discord_channel": "",
+        "authors": [
+            "Adam Mertel",
+            "Justin M. Calabrese"
+        ],
+        "author_affiliations": [
+            "Adam Mertel: Center for Advanced Systems Understanding (CASUS)",
+            "Justin M. Calabrese: Center for Advanced Systems Understanding (CASUS)"
+        ],
+        "presenting_author": "Adam Mertel",
+        "abstract": "A flow map is a common visualization technique displaying the significant trends and changes in data over a given spatial and temporal domain. While most flow maps are constructed using trajectory datasets as input, only a few research initiatives focus on producing flow maps from other data forms. This paper uses the Earth Mover's Distance to extract flows from geospatial data in two consecutive temporal snapshots. We further perform a generalization of the flows to avoid visual cluttering. To demonstrate the proposed approach, we provide an interactive web application where the user can see the pre-calculated flows extracted from the 2021 COVID incidence data in the regions of Germany, Poland, and Czechia, accessible at https://adammertel.github.io/flow-extraction/.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1051": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Multisensory Modeling for Enhanced User Perception",
+        "uid": "v-vis-posters-1051",
+        "discord_channel": "",
+        "authors": [
+            "Shamima Yasmin"
+        ],
+        "author_affiliations": [
+            "Shamima Yasmin: Eastern Washington University"
+        ],
+        "presenting_author": "Shamima Yasmin",
+        "abstract": "In addition to visual representations, multisensory modeling lets users define and perceive objects via other senses, i.e., audio and touch. Flexible multisensory mapping allows users to mix and match senses (visual, audio-visual, visuo-haptic, audio-haptic, and audio-visual-haptic). Users can identify sense(s) that would ensure optimal perception, cognition, and engagement. This research analyzes and compares user perception in unimodal versus multimodal explorations. Virtual reality (VR) technology was added to measure user immersion levels in a multimodal environment. User experience in VR and non-VR modes was also evaluated. Findings show that multisensory mapping enhances user perception. Multimodal strategies can create a diverse, accessible, and inclusive environment.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1052": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Digestable: Condensed Views of Tabular Data",
+        "uid": "v-vis-posters-1052",
+        "discord_channel": "",
+        "authors": [
+            "David Borland",
+            "David Gotz"
+        ],
+        "author_affiliations": [
+            "David Borland: UNC-Chapel Hill",
+            "David Gotz: University of North Carolina"
+        ],
+        "presenting_author": "David Borland",
+        "abstract": "Tables are a common, flexible, and effective method for displaying data, and are easily understood by a wide audience. However, their effectiveness suffers with larger datasets. We introduce Digestable, a visualization tool that generates condensed views of tabular data to enable the identification of high-level features, while supporting detailed exploration. Digestable uses a familiar tabular organization of the data, and the interface for producing condensed views is based on a standard interaction technique for tables: sorting. The visualizations produced by Digestable enable users to obtain a holistic view of the dataset and support the identification of features such as outliers and relationships between variables. We present the Digestable interface, including the methods used to produce condensed views and the visualizations and interactions supporting data exploration.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1053": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Reordering for Matrix Visualization with Reorder.js",
+        "uid": "v-vis-posters-1053",
+        "discord_channel": "",
+        "authors": [
+            "Nathan van Beusekom",
+            "Jean-Daniel Fekete"
+        ],
+        "author_affiliations": [
+            "Nathan van Beusekom: Eindhoven University of Technology",
+            "Jean-Daniel Fekete: Universit\u00e9 Paris-Saclay, CNRS"
+        ],
+        "presenting_author": "Jean-Daniel Fekete",
+        "abstract": "Effective matrix visualizations rely heavily on the order of the vertices. The patterns that appear thanks to such an ordering provide information about the structure of the graph. However, implementing reordering algorithms is not trivial. Reorder.js is a JavaScript library that provides several algorithms for matrix reordering. This library has now been updated with the state-of-the-art measure Moran's I, algorithms based on Moran's I, and simultaneous reordering for multiple matrices. The poster shows the results of the new algorithms applied to several visualizations. Finally, our examples aim to remind practitioners of the importance of reordering in visualization, e.g., for Parallel Coordinate Plots and tables.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1055": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Ditto: Exploring data in large display environments through speech+mid-air gesture interactions",
+        "uid": "v-vis-posters-1055",
+        "discord_channel": "",
+        "authors": [
+            "Jillian Aurisano",
+            "Abeer Alsaiari",
+            "Abhinav Kumar",
+            "Moira Zellner",
+            "Jason Leigh",
+            "Barbara Di Eugenio",
+            "Andrew Johnson"
+        ],
+        "author_affiliations": [
+            "Jillian Aurisano: University of Cincinnati",
+            "Abeer Alsaiari: Taibah University",
+            "Abhinav Kumar: University of Illinois at Chicago",
+            "Moira Zellner: Northeastern University",
+            "Jason Leigh: University of Hawaii at Manoa",
+            "Barbara Di Eugenio: University of Illinois at Chicago",
+            "Andrew E Johnson: University of Illinois at Chicago"
+        ],
+        "presenting_author": "Jillian Aurisano",
+        "abstract": "During visual data exploration, analysts often approach a dataset incrementally, segmenting data into meaningful partitions and representing these parts in multiple, related views. Large displays can support data exploration by providing space to juxtapose or organize related views. We present an interaction technique for creating many, related views of data for data exploration through synchronous speech and mid-air pointing gestures. We present our design goals, which leverage the combined affordances of speech, pointing gestures and large displays, with the aim of supporting exploratory tasks and transitions. We implemented our design in a large display environment with gesture tracking and a speech input system, along with a touch system for freely positioning visualizations. We implemented this technique in an application called Ditto, and evaluated through a user study where participants explored a COVID-19 dataset. We found that they used both modalities to interact and were able to efficiently create coherent sets of views which could be arranged on the large display.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1056": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "An Investigation into the Representational Suitability of Tree Visualizations",
+        "uid": "v-vis-posters-1056",
+        "discord_channel": "",
+        "authors": [
+            "Omkar Chekuri Mr.",
+            "Chris Weaver"
+        ],
+        "author_affiliations": [
+            "Omkar Saiswaroop Varma Chekuri Mr.: University of Oklahoma",
+            "Chris Weaver: University of Oklahoma"
+        ],
+        "presenting_author": "Omkar Chekuri",
+        "abstract": "In this poster we present work in progress to develop a more comprehensive understanding of the capabilities of common hierarchical visualization types for representing various structural properties of tree data. Our primary goal is to better inform designers and domain experts about which hierarchical visualization techniques are well suited (or not) for representing particular aspects of tree structure. We describe a design space of the data characteristics of various hierarchical structures and the visual channels of the different visual representation techniques use to represent them, systematically assess first the possibility then the suitability of each technique to represent each kind of structure, then identify important patterns across techniques and structures that both confirm current design wisdom and offer more grounded guidance when selecting a technique for visualizing particular structures of interest.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1058": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "AI-based Visual Support for Clinical Diagnosis of Pediatric Suprasellar Tumors and Impacts on Decision-Making Confidence",
+        "uid": "v-vis-posters-1058",
+        "discord_channel": "",
+        "authors": [
+            "Eric Prince",
+            "David Mirsky",
+            "Todd Hankinson",
+            "Carsten G\u00f6rg"
+        ],
+        "author_affiliations": [
+            "Eric Prince: University of Colorado Anschutz Medical Campus",
+            "David Mirsky: Childrens Hospital Colorado",
+            "Todd Hankinson: Childrens Hospital Colorado",
+            "Carsten G\u00f6rg: Colorado School of Public Health"
+        ],
+        "presenting_author": "Eric Prince",
+        "abstract": "Explaining AI-based predictions is fundamental for the development of clinical decision support systems. A common visual approach for explaining imaging data predictions is to overlay saliency maps onto images to allow users to interpret what visual features are associated with a given prediction. This approach can be difficult to utilize when differentiating nuanced concepts. For example, clinicians in neuro-oncology will commonly have to differentiate between a group of similar brain tumors (i.e., a radiographic differential diagnosis). We hypothesized that visual representations of counterfactual conditions could improve the utility of AI-based predictions in the context of such a clinical task because it is analogous to a heuristic commonly used by clinicians when making decisions under uncertainty. We present an initial pilot study in which two board-certified clinicians participated in a three condition study to explore how counterfactual visualizations impact diagnostic performance, decision-making confidence, and decision-making difficulty.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1059": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Hairpin Vortex Identification using Template Fitting on Vortex Corelines",
+        "uid": "v-vis-posters-1059",
+        "discord_channel": "",
+        "authors": [
+            "Adeel Zafar",
+            "Guoning Chen"
+        ],
+        "author_affiliations": [
+            "Adeel Zafar: University of Houston",
+            "Guoning Chen: University of Houston"
+        ],
+        "presenting_author": "Adeel Zafar",
+        "abstract": "We apply an improved vortex coreline extraction method with an additional template fitting to identify hairpin vortices that are hard to extract robustly. We demonstrate the effectiveness of our method by showcasing the results on a stress-driven turbulent Couette flow.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1061": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Direct Neighbor Search for Curve-based Vector Field Processing",
+        "uid": "v-vis-posters-1061",
+        "discord_channel": "",
+        "authors": [
+            "Nguyen Phan",
+            "Guoning Chen"
+        ],
+        "author_affiliations": [
+            "Nguyen K Phan: University of Houston",
+            "Guoning Chen: University of Houston"
+        ],
+        "presenting_author": "Nguyen Phan",
+        "abstract": "In this work, we study the impact of different neighbor search strategies for the processing of curve-based vector field representation. To address the limitations of the conventional neighbor search methods, we introduce the direct neighbor search and propose a method to achieve it. We applied our new search strategy to support two tasks on a few 3D curve-based datasets to demonstrate its effectiveness.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1062": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visualization of Text Annotations for Corpus Development",
+        "uid": "v-vis-posters-1062",
+        "discord_channel": "",
+        "authors": [
+            "Huan He",
+            "Sunyang Fu",
+            "Liwei Wang",
+            "Andrew Wen",
+            "Sijia Liu",
+            "Sungrim Moon",
+            "Kurt Miller",
+            "Hongfang Liu"
+        ],
+        "author_affiliations": [
+            "Huan He: Mayo Clinic",
+            "Sunyang Fu: Mayo Clinic",
+            "Liwei Wang: Mayo Clinic",
+            "Andrew Wen: Mayo Clinic",
+            "Sijia Liu: Mayo Clinic",
+            "Sungrim Moon: Mayo Clinic",
+            "Kurt Miller: Mayo Clinic",
+            "Hongfang Liu: Mayo Clinic"
+        ],
+        "presenting_author": "Huan He",
+        "abstract": "A gold standard annotated corpus is usually indispensable for building high-quality language models for clinical natural language processing (NLP) tasks. Existing text annotation tools can provide powerful features to cover various needs of text annotation during corpus development, but few tools provide real-time visualization to support the needs of annotation analysis during the annotation process. To address this need, we developed a corpus visualization module in MedTator, a serverless annotation tool.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    },
+    "v-vis-posters-1063": {
+        "event": "VIS Posters",
+        "event_prefix": "v-vis-posters",
+        "title": "Visual Exploration of Pairwise Meta-Analysis Results in Real Time",
+        "uid": "v-vis-posters-1063",
+        "discord_channel": "",
+        "authors": [
+            "Huan He",
+            "Irbaz Bin Riaz",
+            "Syed Arsalan Ahmed Naqvi",
+            "Rabbia Siddiqi",
+            "Noureen Asghar",
+            "Mahnoor Islam",
+            "M. Hassan Murad",
+            "Hongfang Liu"
+        ],
+        "author_affiliations": [
+            "Huan He: Mayo Clinic",
+            "Irbaz Bin Riaz: Mayo Clinic",
+            "Syed Arsalan Ahmed Naqvi: Dow University of Health Sciences",
+            "Rabbia Siddiqi: Dow Medical University",
+            "Noureen Asghar: Dow University of Health Sciences",
+            "Mahnoor Islam: Dow University of Health Sciences",
+            "M. Hassan Murad: Mayo Clinic",
+            "Hongfang Liu: Mayo Clinic"
+        ],
+        "presenting_author": "Huan He",
+        "abstract": "An interactive and balanced presentation and interpretation of results from a pairwise meta-analysis (PWMA) can immensely facilitate evidence synthesizing in clinical research and practice. However, it\u2019s challenging to explore the PWMA results for clinicians and researchers as the complexity of clinical questions increases and the huge number of involved studies and outcomes. In response, we proposed a web-based visual analytics system to facilitate the real-time exploration of massive PWMA results.",
+        "has_summary_pdf": "TRUE",
+        "has_image": "TRUE",
+        "pdf_link": ""
+    }
+}

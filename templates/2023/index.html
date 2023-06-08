@@ -1,0 +1,105 @@
+{% set active_page = "Home" %}
+{% extends "2023/base.html" %}
+
+{% block top %}
+    <style>
+        .back {
+            background: url("{{config.background_image}}") no-repeat center;
+            background-size: cover;
+        }
+
+        .back h2 {
+            font-family: "Zilla Slab", sans-serif;
+            font-weight: 900;
+        }
+
+        /* body {
+          font-family: "Fira Sans", sans-serif;
+        } */
+    </style>
+
+    <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 20px;">
+        <div class="row header p-6 m-5">
+            <div class="p-1 mx-auto text-center text-white col-md-6 col-sm-9">
+                <h2 class="jumbotron-h">
+                    {{ config.tagline|safe }}
+                </h2>
+                <h3 class="p-5 jumbotron-date">
+                    {{ config.date|safe }}
+                </h3>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-7">
+            {{ readme | markdown }}
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          {% if config.use_auth0 %}
+          <div class="login-window mb-5 alert alert-info">
+            <h5>
+              <span class="login-message">You are logged in as</span>
+              <span class="secret">
+                <span class="user_name"></span>
+              </span>
+            </h5>
+
+            <button class="loginBtn btn btn-outline-secondary"> Login here</button>
+            <button class="logoutBtn btn btn-outline-secondary" style="display: none;">
+                Logout
+            </button>
+          </div>
+          {% endif %}
+
+          {{ components.supporter_sidebar(supporters) }}
+        </div>
+    </div>
+
+    {% if config.use_auth0 %}
+    <script>
+      const updateUI = async () => {
+        const auth0_domain = "{{config.auth0_domain}}";
+        const auth0_client_id = "{{config.auth0_client_id}}";
+        const auth0 = await createAuth0Client({
+          domain: auth0_domain,
+          client_id: auth0_client_id,
+          cacheLocation: "localstorage",
+        });
+        const is_auth = await auth0.isAuthenticated();
+        console.log(is_auth, "--- is_auth");
+        if (is_auth) {
+          document.body.style.display = null;
+
+          // unused atm, hook up later; this won't get executed since we change location above
+          const user = await auth0.getUser();
+          $(".loginBtn").hide();
+          $(".logoutBtn").show();
+          $(".secret").show();
+          $(".user_name").text(user.name);
+          $(".login-message").text("You are logged in as");
+        } else {
+          $(".loginBtn").show();
+          $(".logoutBtn").hide();
+          $(".secret").hide();
+          $(".user_name").text("");
+          $(".login-message").text("You are currently not authenticated.");
+        }
+
+        $(".loginBtn").click(async function () {
+          window.location.href = `redirect.html?return=index.html`;
+        });
+        $(".logoutBtn").click(async function () {
+          await auth0.logout({
+            returnTo: window.location.href,
+          });
+        });
+      };
+      updateUI();
+    </script>
+    {% endif %}
+
+{% endblock %}

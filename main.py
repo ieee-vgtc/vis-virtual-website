@@ -15,12 +15,13 @@ from flask_minify import minify
 from blueprints.blueprint_2020 import year_blueprint as blueprint_2020
 from blueprints.blueprint_2021 import year_blueprint as blueprint_2021
 from blueprints.blueprint_2022 import year_blueprint as blueprint_2022
+from blueprints.blueprint_2023 import year_blueprint as blueprint_2023
 
 site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = '2022'
+CURRENT_YEAR = '2023'
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
@@ -39,7 +40,7 @@ freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-blueprints = [blueprint_2020, blueprint_2021, blueprint_2022]
+blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023]
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 
@@ -277,9 +278,6 @@ if __name__ == "__main__":
     args = parse_arguments()
 
     site_data_path = args.path
-    extra_files = main()
-
-    # generateDayCalendars()
 
     if args.build:
         minify(app=app, html=True, js=False, cssless=True)
@@ -289,4 +287,4 @@ if __name__ == "__main__":
         if os.getenv("FLASK_DEBUG") == "True":
             debug_val = True
 
-        app.run(port=5000, debug=debug_val, extra_files=extra_files)
+        app.run(port=5000, debug=debug_val)
