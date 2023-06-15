@@ -1,8 +1,8 @@
-name: VIS 2022
+name: VIS 2023
 tagline: "IEEE VIS: Visualization & Visual Analytics"
-date: 16-21 October 2022 Virtual Conference
-citation_date: October 2022
-proceedings_title: Proceedings of the IEEE VIS 2022 Conference
+date: 22-27 October 2023 Conference
+citation_date: October 2023
+proceedings_title: Proceedings of the IEEE VIS 2023 Conference
 analytics: UA-
 logo:
   image: /static/2023/images/vis2023_logo_virtual.png
@@ -11,10 +11,10 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'IEEE VIS 2022 Virtual'
+  prefix: 'IEEE VIS 2023 Content'
   separator: ': '
 background_image: /static/2022/images/okcbackground.jpg
-organization: VIS 2022 Organization Committee
+organization: VIS 2023 Organization Committee
 
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone
