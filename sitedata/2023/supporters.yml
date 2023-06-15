@@ -42,21 +42,21 @@
  - category: Silver
    image_size: 240
    supporters:
-     - name: "Autodesk"
-       image: autodesk.png
-       url: "https://www.autodesk.com/research"
+     - name: "Echo Investment Capital LLC"
+       image: echo.png
+       url: "https://www.echo.global"
 
      - name: "KAUST"
        image: vcc_kaust.png
        url: "http://vcc.kaust.edu.sa/"
 
+     - name: "Autodesk"
+       image: autodesk.png
+       url: "https://www.autodesk.com/research"
+
      - name: "University of Oklahoma"
        image: uofoklahoma.png
        url: "https://ou.edu/research"
-
-     - name: "Echo Investment Capital LLC"
-       image: echo.png
-       url: "https://www.echo.global"
 
  #    - name: "Microsoft"
  #      image: microsoft.png
@@ -76,36 +76,39 @@
  - category: Pearl
    image_size: 150
    supporters:
-     - name: "Kitware, Inc"
-       image: kitware.png
-       url: "https://www.kitware.com/"
-     - name: "Uncharted Software"
-       image: uncharted.png
-       url: "https://uncharted.software/"
      - name: "Fraunhofer IGD"
        image: igd.png
        url: "https://www.igd.fraunhofer.de"
-     - name: "Springer"
-       image: springer-logo-transparent.png
-       url: "https://www.springer.com/us"
-     - name: "VRVis"
-       image: VRVis-Logo.png
-       url: "https://www.vrvis.at/"
-     - name: "Nomic"
-       image: nomic_high_resolution.png
-       url: "https://home.nomic.ai"
-     - name: "SCI"
-       image: sci.png
-       url: "https://www.sci.utah.edu/"
-     - name: "NREL"
-       image: NREL.jpg
-       url: "https://www.nrel.gov/"
+     - name: "giCentre"
+       image: giCentre.png
+       url: "https://gicentre.net"
      - name: "Disney Studio Research"
        image: disney.jpg
        url: "https://studios.disneyresearch.com/"
+     - name: "Uncharted Software"
+       image: uncharted.png
+       url: "https://uncharted.software/"
+     - name: "SCI"
+       image: sci.png
+       url: "https://www.sci.utah.edu/"
      - name: "VisPsych"
        image: vispsych.jpg
        url: "https://sites.google.com/view/vispsych/"
+     - name: "VRVis"
+       image: VRVis-Logo.png
+       url: "https://www.vrvis.at/"
+     - name: "NREL"
+       image: NREL.jpg
+       url: "https://www.nrel.gov/"
+     - name: "Kitware, Inc"
+       image: kitware.png
+       url: "https://www.kitware.com/"
+     - name: "Springer"
+       image: springer-logo-transparent.png
+       url: "https://www.springer.com/us"
+     - name: "Nomic"
+       image: nomic_high_resolution.png
+       url: "https://home.nomic.ai"
 
 
  #    - name: "Harvard Medical School"
@@ -113,19 +116,19 @@
  #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
 
 
- - category: Diversity/Inclusivity Scholarships
-   image_size: 150
-   supporters:
-     - name: "giCentre"
-       image: giCentre.png
-       url: "https://gicentre.net"
-
- - category: VISAP Grant Supporter
-   image_size: 150
-   supporters:
-     - name: "Creative Informatics"
-       image: CI.png
-       url: "https://creativeinformatics.org/"
+# - category: Diversity/Inclusivity Scholarships
+#   image_size: 150
+#   supporters:
+#     - name: "giCentre"
+#       image: giCentre.png
+#       url: "https://gicentre.net"
+#
+# - category: VISAP Grant Supporter
+#   image_size: 150
+#   supporters:
+#     - name: "Creative Informatics"
+#       image: CI.png
+#       url: "https://creativeinformatics.org/"
 
 #    - name: "Data Machines Corp"
 #      image: datamachines.png
