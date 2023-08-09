@@ -9,6 +9,7 @@ import os
 import dateutil.parser
 from datetime import datetime
 import yaml
+from pathlib import Path
 
 year=2021
 year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
@@ -25,11 +26,13 @@ def main(site_data_path):
     # global site_data, extra_files
     extra_files = ["README.md"]
     # Load all for your sitedata one time.
-    for f in glob.glob(site_data_path + "/*"):
+    file_to_open = Path(site_data_path)
+    for f in file_to_open.glob('*'):
         extra_files.append(f)
-        name, typ = f.split("/")[-1].split(".")
+        name = f.stem
+        typ = f.suffix[1:]
         if typ == "json":
-            site_data[name] = json.load(open(f))
+            site_data[name] = json.load(open(f, encoding='utf-8-sig'))
         elif typ in {"csv", "tsv"}:
             site_data[name] = list(csv.DictReader(open(f, encoding='utf-8-sig')))
         elif typ == "yml":
