@@ -11,8 +11,8 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'IEEE VIS 2023 Content'
-  separator: ': '
+  # prefix: 'IEEE VIS 2023 Content'
+  # separator: ': '
 background_image: /static/2022/images/okcbackground.jpg
 organization: VIS 2023 Organization Committee
 
