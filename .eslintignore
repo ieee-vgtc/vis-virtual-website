@@ -7,3 +7,6 @@ static/js/data/persistor.js
 static/js/legacy/schedule.js
 static/js/modules/lazy_load.js
 static/js/modules/little_helpers.js
+static/2023/js/views/papers.js
+static/2023/js/views/calendar.js
+static/2023/js/views/schedule.js

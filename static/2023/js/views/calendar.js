@@ -9,9 +9,13 @@ let dayData = [
   { text: "Fri, Oct 21", day: "Friday" },
 ];
 
+const current_filter = getUrlParameter('filter') || window.localStorage.getItem("filter");
+const filterNames = ["All sessions", "Bookmarked sessions"];
+
 function finishCalendar(renderPromises) {
   updateKey();
   updateTzDropdown();
+  updateFilterDropdown();
 
   renderPromises.push(updateFullCalendar());
 
@@ -73,6 +77,32 @@ function updateTzDropdown() {
   }
 
   setupTZSelector();
+}
+
+function updateFilterDropdown() {
+  // const current_filter = getUrlParameter('filter') || window.localStorage.getItem("filter");
+
+  const setupFilterSelector = () => {
+    const filterOptons = d3.selectAll('select.filterOptions')
+    filterOptons.selectAll('option').data(filterNames)
+      .join('option')
+      .attr('data-tokens', d => d.split("/").join(" "))
+      .attr('selected', d => d === current_filter ? true : null)
+      .text(d => d);
+
+    $('.selectpickerFilter')
+      .selectpicker({ liveSearch: true })
+      .on('changed.bs.select',
+        function (e, clickedIndex, isSelected, previousValue) {
+          let new_filter = filterNames[clickedIndex];
+          const localStorage = window.localStorage;
+          localStorage.setItem("filter", new_filter);
+
+          window.open(window.location.pathname + '?filter=' + new_filter, '_self');
+        });
+  }
+
+  setupFilterSelector();
 }
 
 function updateKey() {
@@ -137,16 +167,68 @@ function updateFullCalendar(day) {
   // return deferred promise
   return $.when($.get('serve_config.json'), $.get(calendar_json))
     .done((config, events) => {
-      if (day != null) {
-        populateRooms(calendar, config[0].room_names, day);
-        createDayCalendar(calendar, config[0], events[0]);
-      } else
-        createFullCalendar(calendar, config[0], events[0]);
+      Promise.all([getBookmarks(events[0])]).then(() => {
+        if (day != null) {
+          populateRooms(calendar, config[0].room_names, day);
+          createDayCalendar(calendar, config[0], events[0]);
+        } else
+          createFullCalendar(calendar, config[0], events[0]);
+      });
     }
   );
 }
 
+const getBookmarks = (allEvents) => {
+  return Promise.all([
+    API.getPapers(),
+    API.markGetAll(API.storeIDs.bookmarked)
+  ]).then(
+    ([papers, bookmarks]) => {
+
+
+      papers.forEach((paper) => {
+        paper.UID = paper.UID;
+        paper.bookmarked = bookmarks[paper.UID] || false;
+      });
+
+
+      //Get all current bookmarks for papers
+      //Get session id of paper via session_id
+      //Get all current bookmarks on sessions
+
+      // Set all session bookmrks to false in case we removed a bookmark
+      allEvents.forEach((session) => {
+        session.bookmarked = false
+        session.bookmarks = []
+      })
+
+      // Add bookmarks to sessions whose papers where bookmarked
+      const bookmarkedPapers = papers.filter(d => d.bookmarked);
+      bookmarkedPapers.forEach((paper) => {
+        let session = allEvents.filter(d => d.id === paper.session_id)
+        if(session.length > 0){
+          session[0].bookmarked = true
+          session[0].bookmarks.push(paper.UID)
+          API.markSet(API.storeIDs.bookmarked, session[0], true).then();
+        }
+      })
+
+      //Filter all events if we have filtering on
+      // if(current_filter === "bookmarked sessions"){
+      //   allEvents = allEvents.filter(d => d.bookmarked)
+      // }
+
+      //For each paper bookmark, check if the session it is in is already bookmarked
+      //If not, bookmark the session
+    }
+  )
+}
+
 function createFullCalendar(calendar, config, allEvents) {
+  if(current_filter === "Bookmarked sessions"){
+    allEvents = allEvents.filter(d => d.bookmarked)
+  }
+
   // there's a strong assumption here that all parallel sessions are aligned on start/end time
   // It gets around this by forcing the overview calendar to be oversimplified
   let sessions_by_day_and_time = d3.group(
@@ -228,11 +310,32 @@ function createFullCalendar(calendar, config, allEvents) {
 
       if (sessions.length === 1) {
         const session = sessions[0];
-        timeslot.attr('class', 'session')
+        const slot = timeslot.attr('class', 'session')
           .attr('id', session.id)
           .style('background-color', getColor(session, config))
           .style('color', getTextColorByBackgroundColor(getColor(session, config)))
+          .style('position', 'relative')
+          .style('padding', '0 10 10 10')
           .text(session.title);
+
+        slot.append('div')
+          .attr('class', 'checkbox-bookmark fas')
+          .classed('invisible', !session.bookmarked)
+          .style('display', 'block')
+          .style('position', 'absolute')
+          .style('top', '-10px')
+          .style('right', '10px')
+          .html('&#xf02e;');
+
+        slot.append('div')
+          .attr('class', 'bookmarks filter')
+          .classed('invisible', !session.bookmarked)
+          .style('display', 'block')
+          .style('position', 'absolute')
+          .style('top', '-2px')
+          .style('right', '15px')
+          .style('color', 'black')
+          .text(session.bookmarks.length);
       }
       else {
         timeslot.selectAll('.session')
@@ -260,12 +363,14 @@ function getDayGridRow(timeStart, timeEnd) {
 }
 
 function createDayCalendar(calendar, config, dayEvents) {
-
+  if(current_filter === "Bookmarked sessions"){
+    dayEvents = dayEvents.filter(d => d.bookmarked)
+  }
   const navigateToSession = (_ev, d) => {
     window.open(d.link,'_blank');
   }
 
-  calendar.selectAll(".session")
+  let sessions = calendar.selectAll(".session")
     .data(dayEvents)
     .join("div")
       .attr("class", "session")
@@ -274,12 +379,30 @@ function createDayCalendar(calendar, config, dayEvents) {
       .style('grid-row', d => getDayGridRow(d.timeStart, d.timeEnd))
       .style('background-color', d => getColor(d, config))
       .style('color', d => getTextColorByBackgroundColor(getColor(d, config)))
+      .style('position', 'relative')
       .on('click', navigateToSession)
       .on('keydown', (ev, d) => {
         if (ev.key === " " || ev.key === "Enter")
           navigateToSession(ev, d);
       })
       .text(d => d.title)
+  sessions.append('div')
+      .attr('class', 'checkbox-bookmark fas')
+      .classed('invisible', d => !d.bookmarked)
+      .style('display', 'block')
+      .style('position', 'absolute')
+      .style('top', '-10px')
+      .style('right', '10px')
+      .html('&#xf02e;')
+  sessions.append('div')
+      .attr('class', 'bookmarks filter')
+      .classed('invisible', d => !d.bookmarked)
+      .style('display', 'block')
+      .style('position', 'absolute')
+      .style('top', '-2px')
+      .style('right', '15px')
+      .style('color', 'black')
+      .text(d => d.bookmarks.length)
 }
 
 function populateDays(calendarSelection) {

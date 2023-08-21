@@ -77,11 +77,11 @@ workshopgroup
 
 {% macro session_listing(sessions, config_calendar_colors, full_date, skip_event_title, skip_time=False, skip_room=True) -%}
 {% for session in sessions %}
-<div class="row py-3">
-<div class="col-md-8 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
+<div class="row py-3 session-listing-row {{ session.id }}">
+<div class="col-md-8 session-listing {{ session.id }}" style="border-color: {{ config_calendar_colors[session.type] }};">
     <span class="session-type" style="color: {{ config_calendar_colors[session.type] }}">{{ session.type }}</span>
     {% if not skip_event_title %}
-    <h2 class="session-list-event"><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
+      <h2 class="session-list-event"><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
     {% endif %}
     {% if skip_event_title or not session.redundantTitle %}
     <h3 class="session-list-session"><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>

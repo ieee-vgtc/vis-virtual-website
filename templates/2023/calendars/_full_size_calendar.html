@@ -41,6 +41,14 @@
           </button>
         </div>
       </div>
+
+      <div class="filter" style="grid-column: day-2-end / day-3-end; grid-row: timezones;">
+        <span class="filter-title">Filtering</span>
+        <div class="">
+          <select class="filterOptions selectpickerFilter"></select>
+        </div>
+      </div>
+
       <div class="tz tz-right">
         <span class="tz-title">Conference timezone</span>
         <span class="tz-description">Oklahoma (America/Chicago)</span>
@@ -79,6 +87,14 @@
             </button>
           </div>
         </div>
+
+        <div class="filter" style="grid-column: ok3-end / ok5-end; grid-row: timezones;">
+          <span class="filter-title">Filtering</span>
+          <div class="">
+            <select class="filterOptions selectpickerFilter"></select>
+          </div>
+        </div>
+
         <div class="tz tz-right">
           <span class="tz-title">Conference timezone</span>
           <span class="tz-description">Oklahoma City (America/Chicago)</span>
@@ -106,9 +122,11 @@
 
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   let renderPromises = [];
-  for (const day of days)
+  for (const day of days) {
     renderPromises.push(updateFullCalendar(day));
-
+  }
   finishCalendar(renderPromises);
+  getBookmarks(renderPromises);
+  getCalender(renderPromises);
 
 </script>

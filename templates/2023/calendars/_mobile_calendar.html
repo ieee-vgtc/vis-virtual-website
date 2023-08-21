@@ -28,6 +28,10 @@
         </button>
     </div>
     <div>
+      <span class="filter-title">Filtering</span>
+        <select class="filterOptions selectpickerFilter"></select>
+    </div>
+    <div>
         <div class="tz-title">Conference timezone</div>
         <div class="tz-description">Oklahoma (America/Chicago)</div>
         <div class="tz-description">US Central Time (CT, UTC-5)</div>
@@ -42,15 +46,17 @@
 
             <div id="scrollspy{{ day }}">
                 {% for slot in events_by_time[day] %}
-                    <div class="container sticky-top second-sticky-top">
-                        <h4 class="session-list-date">
-                          <span class="fas mr-1">&#xf017;</span>
-                          <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
-                        </h4>
+                    <div class="container sticky-top second-sticky-top timeslot-container">
+                        <div class="container sticky-top second-sticky-top">
+                            <h4 class="session-list-date">
+                              <span class="fas mr-1">&#xf017;</span>
+                              <span class="format-date-span-full">{{ slot.split('|')[0] }} &ndash; {{ slot.split('|')[1] }}</span>
+                            </h4>
+                        </div>
+                        <li class="list-group-item">
+                            {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
+                        </li>
                     </div>
-                    <li class="list-group-item">
-                        {{ components.session_listing(events_by_time[day][slot]['sessions'], config["calendar"]["colors"], True, True, True, False) }}
-                    </li>
                 {% endfor %}
             </div>
         {% endfor %}
@@ -67,6 +73,7 @@
 
   // finishCalendar(mobile_renderPromises);
   updateTzDropdown()
+  updateFilterDropdown()
   // $('[data-bs-spy="scroll"]').on('activate.bs.scrollspy', function () {
   //   console.log("should be togglling show")
   //   $('#toTopBtn').show();
