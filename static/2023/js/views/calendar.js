@@ -1,13 +1,35 @@
 // yeah, globals are bad but it makes it easy
 
-let dayData = [
-  { text: "Sun, Oct 16", day: "Sunday" },
-  { text: "Mon, Oct 17", day: "Monday" },
-  { text: "Tue, Oct 18", day: "Tuesday" },
-  { text: "Wed, Oct 19", day: "Wednesday" },
-  { text: "Thu, Oct 20", day: "Thursday" },
-  { text: "Fri, Oct 21", day: "Friday" },
-];
+// let dayData = [
+//   { text: "Sun, Oct 16", day: "Sunday" },
+//   { text: "Mon, Oct 17", day: "Monday" },
+//   { text: "Tue, Oct 18", day: "Tuesday" },
+//   { text: "Wed, Oct 19", day: "Wednesday" },
+//   { text: "Thu, Oct 20", day: "Thursday" },
+//   { text: "Fri, Oct 21", day: "Friday" },
+// ];
+
+let allDays = ['NA', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+let allMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+function createDayData(config) {
+    let dayData = [];
+    let startDate = new Date(config.startDate);
+    let endDate = new Date(config.endDate);
+    let iter = new Date(startDate);
+
+
+    while (iter <= endDate) {
+        let textKey = allDays[parseInt(iter.getDay())].substring(0, 3) + ", " + allMonths[parseInt(iter.getMonth())].substring(0, 3) + " " + startDate.getDate();
+        let dayKey = allDays[iter.getDay()];
+        let obj = {text: textKey, day: dayKey};
+        dayData.push(obj);
+        let nextIter = iter.setDate(iter.getDate() + 1);
+        iter = new Date(nextIter);
+    }
+
+    return dayData;
+}
 
 function finishCalendar(renderPromises) {
   updateKey();
@@ -127,21 +149,20 @@ function updateFullCalendar(day) {
   // are we making the full calendar or an individual day's calendar?
   if (day != null) {
     calendar_json = `serve_calendar_${day}.json`;
-    populateTimes(calendar);
-  }
-  else {
-    populateDays(calendar);
-    populateTimes(calendar);
   }
 
   // return deferred promise
   return $.when($.get('serve_config.json'), $.get(calendar_json))
     .done((config, events) => {
       if (day != null) {
+        populateTimes(calendar, config[0]);
         populateRooms(calendar, config[0].room_names, day);
         createDayCalendar(calendar, config[0], events[0]);
-      } else
+      } else {
+        populateDays(calendar, config[0]);
+        populateTimes(calendar, config[0]);
         createFullCalendar(calendar, config[0], events[0]);
+      }
     }
   );
 }
@@ -156,11 +177,11 @@ function createFullCalendar(calendar, config, allEvents) {
       if ((d.id === 'conf6') || (d.id == 'conf7')) {
         return 'specialtimeslot';
       } else {
-        return d.start.split("T")[1]      
+        return d.start.split("T")[1]
       }
     },
   );
-
+  dayData = createDayData(config);
   for (const dayKey of sessions_by_day_and_time.keys()) {
     const dayEvents = sessions_by_day_and_time.get(dayKey);
 
@@ -170,45 +191,6 @@ function createFullCalendar(calendar, config, allEvents) {
       const dayPosition = sessions[0].day + " / auto";
       let timePosition = sessions[0].timeStart + " / " + sessions[0].timeEnd;
 
-      // manually skip adding these groups to clean up Sunday/Monday
-      if (dayKey === "2023-10-16" || dayKey === "2023-10-17") {
-        if (!(timeslotKey === "14:00:00Z" || timeslotKey === "19:00:00Z")) {
-          continue;
-        }
-
-        if (timeslotKey === "14:00:00Z") {
-          // Force session to end for lunch on overview calendar
-          timePosition = sessions[0].timeStart + " / " + "time-1200"
-        }
-
-        if (timeslotKey === "14:00:00Z") {
-          // Force session to end for lunch on overview calendar
-          timePosition = sessions[0].timeStart + " / " + "time-1200"
-        }
-
-        // Force VDS to end on time argh
-      // // ignore vizsec-2 (starts at 10:05)
-      // if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
-      //   continue;
-        // console.log("dayKey is ", dayKey, " and timeslotKey is ", timeslotKey)
-        // if (dayKey === "2023-10-16" && timeslotKey === "14:00:00Z") {
-        //   // Force session to end for lunch on overview calendar
-        //   timePosition = sessions[0].timeStart + " / " + "time-1015";
-        // }
-
-        // force non-full day event on Monday
-        // if (dayKey === "2021-10-25" && timeslotKey === "13:00:00Z")
-        //   timePosition = sessions[1].timeStart + " / " + sessions[1].timeEnd;
-        // if (dayKey === "2021-10-25" && timeslotKey === "17:00:00Z")
-        //   timePosition = sessions[3].timeStart + " / " + sessions[3].timeEnd;
-      }
-      // if (dayKey === "2021-10-26" || dayKey === "2021-10-27") {
-      //   if (timeslotKey === "20:00:00Z")
-      //     continue;
-      // }
-      // // ignore vizsec-2 (starts at 10:05)
-      // if (dayKey === "2021-10-27" && timeslotKey === "15:05:00Z")
-      //   continue;
 
       const navigateToDay = (_ev, d) => {
         const day_num = d.day.split('-')[1];
@@ -282,8 +264,9 @@ function createDayCalendar(calendar, config, dayEvents) {
       .text(d => d.title)
 }
 
-function populateDays(calendarSelection) {
+function populateDays(calendarSelection, config) {
   // NOTE: `dayData` is defined globally at top of file
+  dayData = createDayData(config);
   calendarSelection.selectAll('.day-slot')
     .data(dayData, d => d)
     .join("div")
@@ -346,7 +329,7 @@ function populateHeader(calendarSelection, data, isDay) {
         .text(d => d.text);
 }
 
-function populateTimes(calendarSelection) {
+function populateTimes(calendarSelection, config) {
   let timeData = [
     ["8:30 AM CDT", "time-0830"],
     ["9:00 AM CDT", "time-0900"],
