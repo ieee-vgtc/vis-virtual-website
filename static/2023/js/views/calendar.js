@@ -114,9 +114,9 @@ function updateFilterDropdown() {
         const new_filter = filterNames[clickedIndex];
         const { localStorage } = window;
         localStorage.setItem("filter", new_filter);
-
+        // Check if we are in the overview ore
         window.open(
-          `${window.location.pathname}?filter=${new_filter}`,
+          `${window.location.pathname}?filter=${new_filter}${window.location.hash}`,
           "_self"
         );
       });
