@@ -24,6 +24,7 @@ function finishCalendar(renderPromises) {
   Promise.all(renderPromises).then(() => {
     updateTimezone();
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
+    showFilteredSessionList(renderPromises);
   });
 }
 
@@ -204,10 +205,6 @@ const getBookmarks = (allEvents) => {
     API.getPapers(),
     API.markGetAll(API.storeIDs.bookmarked),
   ]).then(([papers, bookmarks]) => {
-    papers.forEach((paper) => {
-      paper.UID = paper.UID;
-      paper.bookmarked = bookmarks[paper.UID] || false;
-    });
 
     // Get all current bookmarks for papers
     // Get session id of paper via session_id
@@ -220,13 +217,19 @@ const getBookmarks = (allEvents) => {
     });
 
     // Add bookmarks to sessions whose papers where bookmarked
-    const bookmarkedPapers = papers.filter((d) => d.bookmarked);
+    let bookmarkedPapers = []
+    papers.forEach((paper) => {
+      if(Object.keys(bookmarks).includes(paper.UID)) {
+        paper.bookmarked = true;
+        bookmarkedPapers.push(paper)
+      }
+    });
     bookmarkedPapers.forEach((paper) => {
       const session = allEvents.filter((d) => d.id === paper.session_id);
       if (session.length > 0) {
         session[0].bookmarked = true;
         session[0].bookmarks.push(paper.UID);
-        API.markSet(API.storeIDs.bookmarked, session[0], true).then();
+        API.markSet(API.storeIDs.bookmarked, session[0].id, true).then();
       }
     });
 
