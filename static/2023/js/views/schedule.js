@@ -28,11 +28,11 @@ function addBookmarks() {
     .text((d) => d.bookmarks.length);
 }
 
-const getCalender = (renderPromises) => {
+const showFilteredSessionList = (renderPromises) => {
   return Promise.all([
     API.getPapers(),
     API.markGetAll(API.storeIDs.bookmarked),
-  ]).then(([papers, bookmarks]) => {
+  ]).then(([papers]) => {
     // Have to first get the current tab since all tabs have the same name
 
     Promise.all(renderPromises).then(() => {
