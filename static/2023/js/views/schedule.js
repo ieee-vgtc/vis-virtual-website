@@ -82,7 +82,7 @@ const showFilteredSessionList = (renderPromises) => {
       }
     });
     if (current_filter === "Bookmarked sessions") {
-      const timeslots = contentObj.selectAll(".timeslot-container.container");
+      const timeslots = contentObj.selectAll(".session-group-date-slot");
       timeslots.each(function(d, i, nodeList) {
         const currentElement = d3.select(nodeList[i]);
         let noChild = true;

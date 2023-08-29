@@ -66,12 +66,14 @@ workshopgroup
 
 {% macro sessiongroup(sessions_by_time, config_calendar_colors) -%}
 {% for timeslot in sessions_by_time %}
+<div class="session-group-date-slot">
 <div class="row pt-5">
   <div class="col-md-12">
     <h1 class="format-date-span-full">{{ sessions_by_time[timeslot].startTime }} &ndash; {{ sessions_by_time[timeslot].endTime }}</h1>
   </div>
 </div>
 {{ session_listing(sessions_by_time[timeslot].sessions, config_calendar_colors, False, False) }}
+</div>
 {% endfor %}
 {%- endmacro %}
 
