@@ -107,10 +107,12 @@ components.tabs([
   <div id="day">
     <div class="row">
       <div class="col-md-12">
-        <h1>Full list of sessions on <span class="note tztooltip"
-                                           alt="The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.">{{ day }}<span
-          class="tztooltiptext">The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.</span></span>
-        </h1>
+        <div id ="sessions-header-{{ day }}" class="sessions-header">
+<!--        <h1>Full list of sessions on <span class="note tztooltip"-->
+<!--                                           alt="The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.">{{ day }}<span-->
+<!--          class="tztooltiptext">The conference day, as defined by US Central Time (GMT-5).  In your timezone, these events may roll into the next calendar day.</span></span>-->
+<!--        </h1>-->
+        </div>
       </div>
     </div>
     <div class="sessions">

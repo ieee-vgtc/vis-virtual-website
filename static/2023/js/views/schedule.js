@@ -35,6 +35,9 @@ const showFilteredSessionList = (renderPromises) => {
     API.markGetAll(API.storeIDs.bookmarked),
   ]).then(([promise, papers, bookmarks]) => {
     // Have to first get the current tab since all tabs have the same name
+
+    addSessionHeader("")
+
     const bookmarkedPapers = papers.filter((d) => d.bookmarked);
     console.log(bookmarks)
     const contentObj = d3.select(`.content`);

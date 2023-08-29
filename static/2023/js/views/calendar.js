@@ -186,7 +186,6 @@ function updateFullCalendar(day) {
     populateDays(calendar);
     populateTimes(calendar);
   }
-
   // return deferred promise
   return $.when($.get("serve_config.json"), $.get(calendar_json)).done(
     (config, events) => {
@@ -198,6 +197,14 @@ function updateFullCalendar(day) {
       });
     }
   );
+}
+
+function addSessionHeader(dayString) {
+  if (current_filter === "Bookmarked sessions") {
+    d3.selectAll('.sessions-header').insert("h1").text("Bookmarked list of sessions"+dayString)
+  } else {
+    d3.selectAll('.sessions-header').insert("h1").text("Full list of sessions"+dayString)
+  }
 }
 
 const getBookmarks = (allEvents) => {
@@ -432,6 +439,7 @@ function createDayCalendar(calendar, config, dayEvents) {
     .style("right", "15px")
     .style("color", "black")
     .text((d) => d.bookmarks.length);
+
 }
 
 function populateDays(calendarSelection) {
