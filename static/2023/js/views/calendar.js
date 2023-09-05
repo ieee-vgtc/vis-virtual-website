@@ -234,8 +234,9 @@ function updateFullCalendar(day) {
         if (day != null) {
           populateRooms(calendar, config[0].room_names, day);
           createDayCalendar(calendar, config[0], events[0]);
-        } else {createFullCalendar(calendar, config[0], events[0]);
+        } else {
           showFilteredSessionList(events[0])
+          createFullCalendar(calendar, config[0], events[0]);
         }
       });
     }
@@ -273,66 +274,9 @@ const showFilteredSessionList = (allEvents) => {
       const newData = sessionsData
         .join((enter) => {
           const groupEL = enter;
-          const group = groupEL.select('.session-listing-row')
+          const group = groupEL.select('.session-listing-bookmark')
           return group;
         })
-      // .attr("class", "checkbox-bookmark fas")
-      // .append(".filteredSessionListData")
-      // .attr("class", "checkbox-bookmark fas")
-      // .merge(sessionsData)
-      // .append("div")
-      // .attr("class", "checkbox-bookmark fas")
-      // .style("display", "block")
-      // .style("position", "absolute")
-      // .style("top", "-10px")
-      // .style("right", "10px")
-      // .html("&#xf02e;")
-
-
-      newData.each(function(d, i, nodeList) {
-        const currNode = d3.select(nodeList[i])
-        currNode.classed("selected", d.bookmarked)
-        if (!d.bookmarked) {
-          document.getElementById(d.id).style.display = "none"
-          currNode.style("visibility", "hidden")
-        }
-        d3.select(nodeList[i]).classed("selected", d.bookmarked)
-        // d3.select(nodeList[i]).append("div")
-        //   .attr("class", "checkbox-bookmark fas")
-        //   .style("display", "block")
-        //   .style("position", "absolute")
-        //   .style("top", "-10px")
-        //   .style("right", "10px")
-        //   .html("&#xf02e;");
-        const currentSessionID = d.id;
-        // filter papers by session
-        const matching_sessions = Object.keys(bookmarks).filter(e => e === currentSessionID);
-        // bookmarkedPapers.forEach(function(e) {
-        //   const elClassList = nodeList[i].classList;
-        //   if (elClassList.contains(e.session_id)) {
-        //     matching_sessions.push(e);
-        //   }
-        // });
-        // contentObj
-        //   .selectAll(`.session-listing-row.${currentSessionID}`)
-        //   .style("display", "none");
-        // if (matching_sessions.length > 0) {
-        // } else if (current_filter === "Bookmarked sessions") {
-        //   contentObj
-        //     .selectAll(`.session-listing-row.${currentSessionID}`)
-        //     .style("display", "none");
-        // }
-      });
-
-      sessions2.on("click", function() {
-        let selection = d3.select(this)
-        // let selectionBoomark = selection.select('.checkbox-bookmark')
-        const new_value = !selection.classed("selected");
-        let session_id = this.classList[this.classList.length - 1]
-        API.markSet(API.storeIDs.bookmarked, session_id, new_value).then(selection.classed("selected", new_value));
-        let sessionData = allEvents.find(e => e.id === session_id)
-        sessionData.bookmarked = true;
-      })
 
       for (let ev of allEvents) {
         let el = document.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
@@ -392,6 +336,26 @@ const showFilteredSessionList = (allEvents) => {
         let dayMobile = document.getElementsByClassName("container mobile-calendar-container")[0];
         let elMobile = dayMobile.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
         let elChildMobile = elMobile.getElementsByClassName('session-listing-bookmark')[0]
+        //bookmarking
+        let bookmarkEl = document.getElementsByClassName("session-listing-bookmark "+ev.id+" checkbox-bookmark fas")
+        d3.selectAll(bookmarkEl).on("click", function() {
+          let selection = d3.select(this)
+          const new_value = !selection.classed("selected");
+          API.markSet(API.storeIDs.bookmarked, ev.id, new_value).then(selection.classed("selected", new_value));
+          let sessionData = allEvents.find(e => e.id === ev.id)
+          sessionData.bookmarked = new_value;
+          ev.bookmarked = new_value;
+          //update slots
+          let elSlotMark = document.getElementsByClassName("slotIcon checkbox-bookmark fas "+ev.id)[0];
+          let elSlotNumber = document.getElementsByClassName("slotIcon bookmarks filter "+ev.id)[0];
+          if(!new_value){
+            elSlotMark.style.display = "none"
+            elSlotMark.style.display = "none"
+          } else {
+            elSlotMark.style.display = "block"
+            elSlotMark.style.display = "block"
+          }
+        })
         if (!ev.bookmarked) {
           // el.style.display = "none"
         } else {
@@ -457,7 +421,7 @@ const getBookmarks = (allEvents) => {
   });
 };
 
-function createFullCalendar(calendar, config, allEvents) {
+function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
   if (current_filter === "Bookmarked sessions") {
     allEvents = allEvents.filter((d) => d.bookmarked);
   }
@@ -544,7 +508,7 @@ function createFullCalendar(calendar, config, allEvents) {
       if (sessions.length === 1) {
         const session = sessions[0];
         const slot = timeslot
-          .attr("class", "session")
+          .attr("class", "session slot")
           .attr("id", session.id)
           .style("background-color", getColor(session, config))
           .style(
@@ -557,7 +521,7 @@ function createFullCalendar(calendar, config, allEvents) {
 
         slot
           .append("div")
-          .attr("class", "checkbox-bookmark fas")
+          .attr("class", "slotIcon checkbox-bookmark fas "+session.id)
           .classed("invisible", !session.bookmarked)
           .style("display", "block")
           .style("position", "absolute")
@@ -567,7 +531,7 @@ function createFullCalendar(calendar, config, allEvents) {
 
         slot
           .append("div")
-          .attr("class", "bookmarks filter")
+          .attr("class", "slotIcon bookmarks filter "+session.id)
           .classed("invisible", !session.bookmarked)
           .style("display", "block")
           .style("position", "absolute")
@@ -629,7 +593,7 @@ function createDayCalendar(calendar, config, dayEvents) {
     .text((d) => d.title);
   sessions
     .append("div")
-    .attr("class", "checkbox-bookmark fas")
+    .attr("class", d => "slotIcon checkbox-bookmark fas "+ d.id)
     .classed("invisible", (d) => !d.bookmarked)
     .style("display", "block")
     .style("position", "absolute")
@@ -638,7 +602,7 @@ function createDayCalendar(calendar, config, dayEvents) {
     .html("&#xf02e;");
   sessions
     .append("div")
-    .attr("class", "bookmarks filter")
+    .attr("class",  d => "slotIcon bookmarks filter "+ d.id)
     .classed("invisible", (d) => !d.bookmarked)
     .style("display", "block")
     .style("position", "absolute")
