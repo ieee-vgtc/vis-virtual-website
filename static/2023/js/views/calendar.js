@@ -9,6 +9,12 @@ const dayData = [
   { text: "Fri, Oct 21", day: "Friday" },
 ];
 
+// names for render modes
+const filter_sessions = {
+  all: "All sessions",
+  bookmarked: "Bookmarked sessions",
+}
+
 const current_filter =
   getUrlParameter("filter") || window.localStorage.getItem("filter");
 const filterNames = ["All sessions", "Bookmarked sessions"];
@@ -24,7 +30,6 @@ function finishCalendar(renderPromises) {
   Promise.all(renderPromises).then(() => {
     updateTimezone();
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
-    showFilteredSessionList(renderPromises);
   });
 }
 
@@ -94,17 +99,53 @@ function updateFilterDropdown() {
   // const current_filter = getUrlParameter('filter') || window.localStorage.getItem("filter");
 
   const setupFilterSelector = () => {
-    const filterOptons = d3.selectAll("select.filterOptions");
-    filterOptons
-      .selectAll("option")
+    const filterOptons = d3.selectAll("div.filterOptions")
+    // const filterOptons = d3.selectAll("select.filterOptions");
+    const inputFiltersEnter = filterOptons
+      .selectAll("input,label")
       .data(filterNames)
-      .join("option")
-      .attr("data-tokens", (d) => d.split("/").join(" "))
-      .attr("selected", (d) => (d === current_filter ? true : null))
-      .text((d) => d);
+      .enter()
 
+    inputFiltersEnter
+      .append('label')
+      .attr("class", "btn btn-outline-secondary selectpickerFilter")
+      .classed("active", (d) => {
+        const isCurrentFilter = d === current_filter
+        return (isCurrentFilter ? true : null)
+      })
+      .text((d) => d)
+      .insert('input')
+      .attr("type","radio")
+      // .attr("class","btn-check")
+      .attr("name","options")
+      .attr("class", "selectpickerFilter")
+      .attr("autocomplete","off")
+      .attr("id",(d) => d)
+      .attr("value",(d) => d)
+      .attr("checked", (d) => {
+        return (d === current_filter ? true : null)
+      })
+    ;
+    $('input').click( function(e,
+                               clickedIndex,
+                               isSelected,
+                               previousValue){
+      const new_filter = e.target.getAttribute('value');
+      const { localStorage } = window;
+      localStorage.setItem("filter", new_filter);
+      // Check if we are in the overview ore
+      window.open(
+        `${window.location.pathname}?filter=${new_filter}${window.location.hash}`,
+        "_self"
+      );
+    }).button('toggle');
     $(".selectpickerFilter")
-      .selectpicker({ liveSearch: true })
+      // .selectpickerFilter({ liveSearch: true })
+      .on('toggle', function(){
+        const new_filter = filterNames[clickedIndex];
+      })
+    $(".selectpickerFilter")
+      // .selectpickerFilter({ liveSearch: true })
       .on("changed.bs.select", function (
         e,
         clickedIndex,
@@ -193,7 +234,9 @@ function updateFullCalendar(day) {
         if (day != null) {
           populateRooms(calendar, config[0].room_names, day);
           createDayCalendar(calendar, config[0], events[0]);
-        } else createFullCalendar(calendar, config[0], events[0]);
+        } else {createFullCalendar(calendar, config[0], events[0]);
+          showFilteredSessionList(events[0])
+        }
       });
     }
   );
@@ -207,6 +250,162 @@ function addSessionHeader(dayString) {
   }
 }
 
+const showFilteredSessionList = (allEvents) => {
+  return Promise.all([
+    allEvents,
+    API.getPapers(),
+    API.markGetAll(API.storeIDs.bookmarked),
+  ]).then(([allEvents, papers, bookmarks]) => {
+    // Have to first get the current tab since all tabs have the same name
+
+    if(current_filter === filter_sessions.bookmarked) {
+      addSessionHeader("")
+
+      const bookmarkedPapers = papers.filter((d) => d.bookmarked);
+      const bookmarkedSessions = allEvents.filter((d) => d.bookmarked);
+      console.log(bookmarks)
+      const contentObj = d3.select(`.content`);
+      const sessions2 = d3.select('.content').selectAll("session-group-date-slot.session-listing-row")
+      const sessionsData = sessions2.data(allEvents, node => {
+        node.id
+      });
+
+      const newData = sessionsData
+        .join((enter) => {
+          const groupEL = enter;
+          const group = groupEL.select('.session-listing-row')
+          return group;
+        })
+      // .attr("class", "checkbox-bookmark fas")
+      // .append(".filteredSessionListData")
+      // .attr("class", "checkbox-bookmark fas")
+      // .merge(sessionsData)
+      // .append("div")
+      // .attr("class", "checkbox-bookmark fas")
+      // .style("display", "block")
+      // .style("position", "absolute")
+      // .style("top", "-10px")
+      // .style("right", "10px")
+      // .html("&#xf02e;")
+
+
+      newData.each(function(d, i, nodeList) {
+        const currNode = d3.select(nodeList[i])
+        currNode.classed("selected", d.bookmarked)
+        if (!d.bookmarked) {
+          document.getElementById(d.id).style.display = "none"
+          currNode.style("visibility", "hidden")
+        }
+        d3.select(nodeList[i]).classed("selected", d.bookmarked)
+        // d3.select(nodeList[i]).append("div")
+        //   .attr("class", "checkbox-bookmark fas")
+        //   .style("display", "block")
+        //   .style("position", "absolute")
+        //   .style("top", "-10px")
+        //   .style("right", "10px")
+        //   .html("&#xf02e;");
+        const currentSessionID = d.id;
+        // filter papers by session
+        const matching_sessions = Object.keys(bookmarks).filter(e => e === currentSessionID);
+        // bookmarkedPapers.forEach(function(e) {
+        //   const elClassList = nodeList[i].classList;
+        //   if (elClassList.contains(e.session_id)) {
+        //     matching_sessions.push(e);
+        //   }
+        // });
+        // contentObj
+        //   .selectAll(`.session-listing-row.${currentSessionID}`)
+        //   .style("display", "none");
+        // if (matching_sessions.length > 0) {
+        // } else if (current_filter === "Bookmarked sessions") {
+        //   contentObj
+        //     .selectAll(`.session-listing-row.${currentSessionID}`)
+        //     .style("display", "none");
+        // }
+      });
+
+      sessions2.on("click", function() {
+        let selection = d3.select(this)
+        // let selectionBoomark = selection.select('.checkbox-bookmark')
+        const new_value = !selection.classed("selected");
+        let session_id = this.classList[this.classList.length - 1]
+        API.markSet(API.storeIDs.bookmarked, session_id, new_value).then(selection.classed("selected", new_value));
+        let sessionData = allEvents.find(e => e.id === session_id)
+        sessionData.bookmarked = true;
+      })
+
+      for (let ev of allEvents) {
+        let el = document.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
+        let dayMobile = document.getElementsByClassName("container mobile-calendar-container")[0];
+        let elMobile = dayMobile.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
+        let elChild = el.getElementsByClassName('session-listing-bookmark')[0]
+        let elChildMobile = elMobile.getElementsByClassName('session-listing-bookmark')[0]
+        if (!ev.bookmarked) {
+          el.style.display = "none"
+          elMobile.style.display = "none"
+        } else {
+          const currNode = d3.select(elChild)
+          currNode.classed("selected", ev.bookmarked)
+          const currNodeMobile = d3.select(elChildMobile)
+          currNodeMobile.classed("selected", ev.bookmarked)
+        }
+      }
+
+      const timeslots = contentObj.selectAll(".session-group-date-slot");
+      timeslots.each(function(d, i, nodeList) {
+        const currentElement = d3.select(nodeList[i]);
+        // let el = document.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
+        let noChild = true;
+        currentElement
+          .selectAll(".session-listing-row")
+          .filter(function() {
+            if (this.style.display !== "none") {
+              noChild = false;
+            }
+          });
+        if (noChild) {
+          currentElement.style("display", "none");
+        }
+      });
+
+      const timeslots_mobile = contentObj.selectAll(".timeslot-container");
+      timeslots_mobile.each(function(d, i, nodeList) {
+        const currentElement = d3.select(nodeList[i]);
+        // let el = document.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
+        let noChild = true;
+        currentElement
+          .selectAll(".session-listing-row")
+          .filter(function() {
+            if (this.style.display !== "none") {
+              noChild = false;
+            }
+          });
+        if (noChild) {
+          currentElement.style("display", "none");
+        }
+      });
+
+    } else {
+      for (let ev of allEvents) {
+        let el = document.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
+        let elChild = el.getElementsByClassName('session-listing-bookmark')[0]
+        let dayMobile = document.getElementsByClassName("container mobile-calendar-container")[0];
+        let elMobile = dayMobile.getElementsByClassName("row py-3 session-listing-row "+ev.id)[0];
+        let elChildMobile = elMobile.getElementsByClassName('session-listing-bookmark')[0]
+        if (!ev.bookmarked) {
+          // el.style.display = "none"
+        } else {
+          const currNode = d3.select(elChild)
+          currNode.classed("selected", ev.bookmarked)
+          const currNodeMobile = d3.select(elChildMobile)
+          currNodeMobile.classed("selected", ev.bookmarked)
+        }
+      }
+    }
+  });
+};
+
+
 const getBookmarks = (allEvents) => {
   return Promise.all([
     API.getPapers(),
@@ -217,7 +416,7 @@ const getBookmarks = (allEvents) => {
     // Get session id of paper via session_id
     // Get all current bookmarks on sessions
 
-    // Set all session bookmrks to false in case we removed a bookmark
+    // Set all session bookmarks to false in case we removed a bookmark
     allEvents.forEach((session) => {
       session.bookmarked = false;
       session.bookmarks = [];
@@ -231,6 +430,14 @@ const getBookmarks = (allEvents) => {
         bookmarkedPapers.push(paper)
       }
     });
+
+    // Add bookmarks to sessions
+    allEvents.forEach((session) => {
+      if(Object.keys(bookmarks).includes(session.id)) {
+        session.bookmarked = true;
+      }
+    });
+
     bookmarkedPapers.forEach((paper) => {
       const session = allEvents.filter((d) => d.id === paper.session_id);
       if (session.length > 0) {

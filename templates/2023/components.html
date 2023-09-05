@@ -79,8 +79,8 @@ workshopgroup
 
 {% macro session_listing(sessions, config_calendar_colors, full_date, skip_event_title, skip_time=False, skip_room=True) -%}
 {% for session in sessions %}
-<div class="row py-3 session-listing-row {{ session.id }}">
-<div class="col-md-8 session-listing {{ session.id }}" style="border-color: {{ config_calendar_colors[session.type] }};">
+<div class="row py-3 session-listing-row {{ session.id }}" id="{{ session.id }}">
+<div class="col-10 col-md-8 session-listing {{ session.id }}" style="border-color: {{ config_calendar_colors[session.type] }};">
     <span class="session-type" style="color: {{ config_calendar_colors[session.type] }}">{{ session.type }}</span>
     {% if not skip_event_title %}
       <h2 class="session-list-event"><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
@@ -118,6 +118,11 @@ workshopgroup
       {{ session.timeSlots | length }} presentations in this session.
       <a href="session_{{session.id}}.html">See more &raquo;</a>
     </p>
+  </div>
+  <div class="col-2 col-md-2 d-flex flex-wrap session-listing-bookmark {{ session.id }} checkbox-bookmark fas " style="font-size: 24pt;"
+       data-tippy-content="(un-)bookmark this session"
+  >
+    &#xf02e;
   </div>
 </div>
 {% endfor %}

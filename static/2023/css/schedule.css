@@ -5,6 +5,7 @@
     display: grid;
     gap: 0.5em;
     grid-template-rows:
+        0.2fr
         [timezones] auto
         [tracks] auto
         [time-0830] 0.5fr
