@@ -118,6 +118,8 @@ components.tabs([
     <div class="sessions">
       {{ components.sessiongroup(days[day].timeslots, config["calendar"]["colors"] ) }}
     </div>
+    <hr id="curr-time-indicator-line"></hr>
+    <span id="curr-time-indicator-label"></span>
   </div>
 </div>
 {% endfor %}

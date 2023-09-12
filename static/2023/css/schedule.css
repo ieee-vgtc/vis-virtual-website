@@ -37,6 +37,10 @@
         [timezones-end];
 }
 
+#curr-time-indicator-line, #curr-time-indicator-label {
+    display: none;
+}
+
 /* one additional column; max 8 concurrent rooms */
 .schedule.schedule-day {
     grid-template-columns:
