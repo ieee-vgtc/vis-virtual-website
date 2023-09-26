@@ -66,22 +66,24 @@ workshopgroup
 
 {% macro sessiongroup(sessions_by_time, config_calendar_colors) -%}
 {% for timeslot in sessions_by_time %}
+<div class="session-group-date-slot">
 <div class="row pt-5">
   <div class="col-md-12">
     <h1 class="format-date-span-full">{{ sessions_by_time[timeslot].startTime }} &ndash; {{ sessions_by_time[timeslot].endTime }}</h1>
   </div>
 </div>
 {{ session_listing(sessions_by_time[timeslot].sessions, config_calendar_colors, False, False) }}
+</div>
 {% endfor %}
 {%- endmacro %}
 
 {% macro session_listing(sessions, config_calendar_colors, full_date, skip_event_title, skip_time=False, skip_room=True) -%}
 {% for session in sessions %}
-<div class="row py-3">
-<div class="col-md-8 session-listing" style="border-color: {{ config_calendar_colors[session.type] }};">
+<div class="row py-3 session-listing-row {{ session.id }}" id="{{ session.id }}">
+<div class="col-10 col-md-8 session-listing {{ session.id }}" style="border-color: {{ config_calendar_colors[session.type] }};">
     <span class="session-type" style="color: {{ config_calendar_colors[session.type] }}">{{ session.type }}</span>
     {% if not skip_event_title %}
-    <h2 class="session-list-event"><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
+      <h2 class="session-list-event"><a href="session_{{session.id}}.html">{{ session.event }}</a></h2>
     {% endif %}
     {% if skip_event_title or not session.redundantTitle %}
     <h3 class="session-list-session"><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
@@ -116,6 +118,11 @@ workshopgroup
       {{ session.timeSlots | length }} presentations in this session.
       <a href="session_{{session.id}}.html">See more &raquo;</a>
     </p>
+  </div>
+  <div class="col-1 col-md-1">
+    <div class="session-listing-bookmark {{ session.id }} checkbox-bookmark fas" style="font-size: 24pt;" data-tippy-content="(un-)bookmark this session">
+    &#xf02e;
+    </div>
   </div>
 </div>
 {% endfor %}

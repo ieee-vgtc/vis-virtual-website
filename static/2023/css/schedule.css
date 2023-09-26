@@ -5,6 +5,7 @@
     display: grid;
     gap: 0.5em;
     grid-template-rows:
+        0.2fr
         [timezones] auto
         [tracks] auto
         [time-0830] 0.5fr
@@ -104,6 +105,17 @@
     width: 300px !important; /* sigh */
 }
 
+.filter {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85em;
+    padding-bottom: 2em;
+}
+
+.filter-title {
+    font-weight: 700;
+}
+
 .day-slot, .time-slot, .day-slot h2 {
     margin: 0;
     font-size: 1.1em;
@@ -142,7 +154,7 @@
 }
 
 .session {
-    padding: 0.5em;
+    padding: 1.5em 0.5em 0.5em 0.5em;
     font-size: 0.9em;
     overflow: hidden;
     text-overflow: ellipsis;

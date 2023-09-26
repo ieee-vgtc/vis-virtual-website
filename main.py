@@ -10,8 +10,9 @@ import dateutil.parser
 import yaml
 from flask import Flask, jsonify, redirect, render_template, send_from_directory
 from flask_frozen import Freezer
-from flaskext.markdown import Markdown
 from flask_minify import minify
+from flaskext.markdown import Markdown
+
 from blueprints.blueprint_2020 import year_blueprint as blueprint_2020
 from blueprints.blueprint_2021 import year_blueprint as blueprint_2021
 from blueprints.blueprint_2022 import year_blueprint as blueprint_2022
@@ -21,20 +22,20 @@ site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = '2023'
+CURRENT_YEAR = "2023"
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
 we redirect to /year/2020/papers/153.  Any other root URLs we redirect to the current
 year (so / redirects to /year/2021 if CURRENT_YEAR == 2021)
 """
-FROZEN_YEAR = '2020'
+FROZEN_YEAR = "2020"
 
 # ------------- SERVER CODE -------------------->
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
+app.config["FREEZER_IGNORE_404_NOT_FOUND"] = True
 # app.config['FREEZER_STATIC_IGNORE'] = ['static/*']
 freezer = Freezer(app)
 markdown = Markdown(app)
@@ -46,6 +47,7 @@ for blueprint in blueprints:
 
 # # --------------- DRIVER CODE -------------------------->
 # # Code to turn it all static
+
 
 @freezer.register_generator
 def generator():
@@ -70,24 +72,28 @@ def generator():
                 yield "/year/{}/poster_{}.html".format(year, str(poster["uid"]))
 
         # only some years use rooms
-        if 'room_names' in site_data['config']:
-            for room_name in site_data['config']['room_names']:
+        if "room_names" in site_data["config"]:
+            for room_name in site_data["config"]["room_names"]:
                 yield "/year/{}/room_{}.html".format(year, str(room_name))
 
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))
 
+
 # Utility method for handling redirects in the frozen site
 def meta_redirect_html(site_year, site_path):
-    return render_template('year_redirect.html', site_path=site_path, site_year=site_year)
+    return render_template(
+        "year_redirect.html", site_path=site_path, site_year=site_year
+    )
     # return render_template('year_redirect.html', { 'site_path': site_path, 'site_year': site_year})
+
 
 # MAIN PAGES
 
 
 @app.route("/")
 def index():
-    return meta_redirect_html(CURRENT_YEAR, 'index.html')
+    return meta_redirect_html(CURRENT_YEAR, "index.html")
 
 
 @app.route("/favicon.png")
@@ -100,23 +106,27 @@ def favicon():
 
 @app.route("/index.html")
 def home():
-    return meta_redirect_html(CURRENT_YEAR, 'index.html')
+    return meta_redirect_html(CURRENT_YEAR, "index.html")
     # data = {}
     # data['site_path'] = 'index.html'
     # data['site_year'] = CURRENT_YEAR
     # return render_template('year_redirect.html', **data)
 
+
 @app.route("/help.html")
 def about():
     return meta_redirect_html(FROZEN_YEAR, "help.html")
 
+
 @app.route("/jobs.html")
 def jobs():
     return meta_redirect_html(FROZEN_YEAR, "jobs.html")
-    
+
+
 @app.route("/impressions.html")
 def impressions():
     return meta_redirect_html(FROZEN_YEAR, "impressions.html")
+
 
 @app.route("/papers.html")
 def papers():
@@ -157,6 +167,7 @@ def paper(paper):
 def speaker(speaker):
     return meta_redirect_html(FROZEN_YEAR, "speaker_{}.html".format(speaker))
 
+
 @app.route("/awards.html")
 def awards():
     return meta_redirect_html(FROZEN_YEAR, "awards.html")
@@ -166,20 +177,22 @@ def awards():
 def speakers():
     return meta_redirect_html(FROZEN_YEAR, "speakers.html")
 
+
 # ALPER TODO: populate the workshop list from session_list
 @app.route("/workshop_<workshop>.html")
 def workshop(workshop):
     return meta_redirect_html(FROZEN_YEAR, "workshop_{}.html".format(workshop))
 
 
-@app.route('/session_vis-keynote.html')
+@app.route("/session_vis-keynote.html")
 def keynote():
     return meta_redirect_html(FROZEN_YEAR, "session_vis-keynote.html")
 
 
-@app.route('/session_vis-capstone.html')
+@app.route("/session_vis-capstone.html")
 def capstone():
     return meta_redirect_html(FROZEN_YEAR, "session_vis-capstone.html")
+
 
 @app.route("/session_x-posters.html")
 def poster_session():
@@ -190,11 +203,13 @@ def poster_session():
 def session(session):
     return meta_redirect_html(FROZEN_YEAR, "session_{}.html".format(session))
 
+
 @app.route("/room_<room>.html")
 def room(room):
     return meta_redirect_html(FROZEN_YEAR, "room_{}.html".format(room))
 
-@app.route('/event_<event>.html')
+
+@app.route("/event_<event>.html")
 def event(event):
     return meta_redirect_html(FROZEN_YEAR, "event_{}.html".format(event))
 
@@ -203,6 +218,7 @@ def event(event):
 @app.route("/posters.html")
 def posters():
     return meta_redirect_html(FROZEN_YEAR, "posters.html")
+
 
 ## Internal only; used to generate markdown-like list for main website paper list
 @app.route("/paperlist.html")
@@ -237,18 +253,22 @@ def send_static(path):
 def serve(path):
     return meta_redirect_html(FROZEN_YEAR, "serve_{}.html".format(path))
 
+
 # Streaming single page app
+
 
 @app.route("/streaming.html")
 def streaming():
-    return meta_redirect_html(CURRENT_YEAR, 'streaming')
+    return meta_redirect_html(CURRENT_YEAR, "streaming")
+
 
 @app.route("/playback.html")
 def playback():
-    return meta_redirect_html(CURRENT_YEAR, 'playback')
+    return meta_redirect_html(CURRENT_YEAR, "playback")
 
 
 print("Data Successfully Loaded")
+
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="MiniConf Portal Command Line")

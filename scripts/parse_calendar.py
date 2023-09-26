@@ -65,7 +65,7 @@ def convert(args):
         collector.append(json_event)
         print(json_event)
 
-    with (open(args.out, "w")) as f:
+    with open(args.out, "w") as f:
         json.dump(collector, f)
 
     # print(c.events)

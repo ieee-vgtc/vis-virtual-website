@@ -213,7 +213,7 @@ const start = (loadPosters) => {
       console.log(allKeys, "--- allKeys");
       setTypeAhead(urlFilter, isPosters ? posterKeys : allKeys, filters, render);
       updateCards(allPapers);
-
+      papers = allPapers
       let urlSearch = getUrlParameter("search");
 
       // Total hack to deal with bad plus sign in url
