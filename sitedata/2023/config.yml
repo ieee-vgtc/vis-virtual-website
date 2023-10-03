@@ -60,11 +60,13 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  ok5: 'Oklahoma Station 5'
-  ok4: 'Oklahoma Station 4 (plenary 4+5 combined)'
-  ok1: 'Oklahoma Station 1'
-  mistletoe: 'Mistletoe'
-  pinon: 'Pinon'
-  ok6: 'Oklahoma Station 6 (plenary 6+7+8 combined)'
-  ok7: 'Oklahoma Station 7'
-  ok8: 'Oklahoma Station 8'
+  Plenary-1: 'Plenary-1'
+  '101-102(140)': '101-102(140)'
+  '104(132)': '104(132)'
+  '105(234)': '105(234)'
+  '103(132)': '103(132)'
+  '106(234)': '106(234)'
+  '109(234)': '109(234)'
+  '110(234)': '110(234)'
+  '111-112(140)': '111-112(140)'
+  'None(virtual)': 'None(virtual)'

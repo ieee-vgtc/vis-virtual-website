@@ -56,7 +56,7 @@ def main(site_data_path):
                 for timeslot in p["sessions"]:
                     # also put some parent info back into this item
                     fq_timeslot = timeslot.copy()
-
+                    print("fq_timeslot is ", fq_timeslot)
                     fq_timeslot.update({
                         "event": p.get("event"),
                         "event_type": p.get("event_type") or 'N/A',
@@ -340,6 +340,7 @@ def format_paper(v):
         # for papers.html:
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
+        "session_uid": "-".join(v["uid"].split("-")[0:-1]) if v["uid"] else "none", # Get rid of the paper ID so we can reach the CDN folder
         "paper_type": v["paper_type"],
         "paper_type_name": paper_type_names[v["paper_type"]] if v["paper_type"] in paper_type_names else 'None',
         "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
@@ -475,6 +476,7 @@ def format_by_session_list(v):
     }
 
 def get_room_name(track, room_names):
+    print("ROOM NAMES ARE ", room_names)
     return room_names[track]
 
 # ITEM PAGES
