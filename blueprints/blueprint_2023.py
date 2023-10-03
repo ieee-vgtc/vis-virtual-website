@@ -77,12 +77,13 @@ def main(site_data_path):
 
     # organize sessions by day (calendar)
     for session in by_uid["sessions"].values():
-        this_date = dateutil.parser.parse(session["time_start"])
-        day = this_date.strftime("%A")
-        if day not in by_day:
-            by_day[day] = []
+        if session["track"] != "None(virtual)":
+            this_date = dateutil.parser.parse(session["time_start"])
+            day = this_date.strftime("%A")
+            if day not in by_day:
+                by_day[day] = []
 
-        by_day[day].append(format_by_session_list(session))
+            by_day[day].append(format_by_session_list(session))
 
     # organize sessions by timeslot (linking simultaneous sessions together)
     for day, day_sessions in by_day.items():
@@ -403,7 +404,7 @@ def format_session_as_event(v, uid):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
-    return {
+    formatted = {
         "id": uid,
         "title": v.get("long_name") if "long_name" in v else v.get("event"),
         "type": v.get("event_type") if "event_type" in v else 'VIS',
@@ -411,10 +412,14 @@ def format_session_as_event(v, uid):
         "abstract": v.get("event_description") if "event_description" in v else 'None',
         "url": v.get("event_url") if "event_url" in v else '',
         "startTime": v["sessions"] and v["sessions"][0]["time_start"],
-        "endTime": v["sessions"] and v["sessions"][-1]["time_end"],
-        "sessions": [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]],
+        "endTime": v["sessions"] and v["sessions"][-1]["time_end"]
     }
 
+    if v['event'] != 'VISxAI':
+        formatted["sessions"] = [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]]
+    else:
+        formatted["sessions"] = []
+    return formatted
 
 # new format for session_list.json
 def format_session_list(v):
