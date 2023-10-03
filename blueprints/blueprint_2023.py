@@ -56,7 +56,6 @@ def main(site_data_path):
                 for timeslot in p["sessions"]:
                     # also put some parent info back into this item
                     fq_timeslot = timeslot.copy()
-                    print("fq_timeslot is ", fq_timeslot)
                     fq_timeslot.update({
                         "event": p.get("event"),
                         "event_type": p.get("event_type") or 'N/A',
@@ -316,7 +315,7 @@ def format_paper(v):
 
     paper_session = by_uid["sessions"][v["session_id"]]
     paper_event = by_uid["events"][paper_session["parent_id"]]
-
+    # print("problem paper is ", v)
     return {
         "id": v["uid"],
         "title": v["title"],
@@ -476,7 +475,7 @@ def format_by_session_list(v):
     }
 
 def get_room_name(track, room_names):
-    print("ROOM NAMES ARE ", room_names)
+    # print("ROOM NAMES ARE ", room_names)
     return room_names[track]
 
 # ITEM PAGES
