@@ -10,6 +10,7 @@ import dateutil.parser
 from datetime import datetime, timezone, timedelta
 import yaml
 from pathlib import Path
+from dateutil.parser import ParserError
 
 CONFERENCE_TIMEZONE = timezone(offset=-timedelta(hours=5)) # US/Chicago timezone in OKC
 
@@ -77,7 +78,7 @@ def main(site_data_path):
 
     # organize sessions by day (calendar)
     for session in by_uid["sessions"].values():
-        if session["track"] != "None(virtual)":
+        if session["track"] not in ["None(virtual)", ""]:
             this_date = dateutil.parser.parse(session["time_start"])
             day = this_date.strftime("%A")
             if day not in by_day:
@@ -269,7 +270,7 @@ def schedule():
     # all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
     # data['events'] = all_events
     print(by_time.keys())
-    day_sort_order = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+    day_sort_order = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
     data['events_by_time'] = collections.OrderedDict(sorted(by_time.items(), key=lambda item: day_sort_order.index(item[0])))
     # print("by_time is ", by_time)
     # data['event_types'] = sorted(list(set([(e['type'], e["type"].split(" ")[0].lower()) for e in all_events])), key=lambda x: x[0])
@@ -333,10 +334,10 @@ def format_paper(v):
         "has_pdf": v["has_pdf"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
-        "youtube_ff_url": v["ff_link"],
-        "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
-        "prerecorded_video_id": v["prerecorded_video_id"],
-        "prerecorded_video_link": v["prerecorded_video_link"],
+        "youtube_ff_url": v["ff_link"] if "ff_link" in v else None,
+        "youtube_ff_id": v["ff_link"].split("/")[-1] if "ff_link" in v and v["ff_link"] else None,
+        "prerecorded_video_id": v["prerecorded_video_id"] if "prerecorded_video_id" in v else None,
+        "prerecorded_video_link": v["prerecorded_video_link"] if "prerecorded_video_link" in v else None,
         # for papers.html:
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
@@ -436,6 +437,12 @@ def format_session_list(v):
 def format_by_session_list(v):
     fullTitle = v["event"]
     redundantTitle = True
+    day = ''
+    try:
+        day = dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d")
+    except ParserError:
+        print("couldn't parse day, v['time_start'] is ", v['time_start'])
+
     if v["event"].lower() != v["title"].lower():
         fullTitle += ": " + v["title"]
         redundantTitle = False
@@ -450,7 +457,7 @@ def format_by_session_list(v):
         "track": v.get("track"),
         "startTime": v.get("time_start"),
         "endTime": v.get("time_end"),
-        "day": dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d"),
+        "day": day,
         "timeSlots": v.get("time_slots"),
         "event": v.get("event"),  # backloaded from parent event
         "event_type": v.get("event_type"),  # backloaded from parent event
@@ -481,7 +488,10 @@ def format_by_session_list(v):
 
 def get_room_name(track, room_names):
     # print("ROOM NAMES ARE ", room_names)
-    return room_names[track]
+    if track in room_names:
+        return room_names[track]
+    else:
+        return "None"
 
 # ITEM PAGES
 
