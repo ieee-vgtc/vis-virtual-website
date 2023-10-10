@@ -9,8 +9,11 @@ import os
 import dateutil.parser
 from datetime import datetime, timezone, timedelta
 import yaml
+from pathlib import Path
+from dateutil.parser import ParserError
 
-CONFERENCE_TIMEZONE = timezone(offset=-timedelta(hours=5)) # US/Chicago timezone in OKC
+CONFERENCE_TIMEZONE = timezone(offset=+timedelta(hours=11)) # Australian Eastern Daylight Time
+CONFERENCE_OFFSET = 11 # australian is UTC + 11
 
 year=2023
 year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
@@ -29,11 +32,13 @@ def main(site_data_path):
     # global site_data, extra_files
     extra_files = ["README.md"]
     # Load all for your sitedata one time.
-    for f in glob.glob(site_data_path + "/*"):
+    file_to_open = Path(site_data_path)
+    for f in file_to_open.glob('*'):
         extra_files.append(f)
-        name, typ = f.split("/")[-1].split(".")
+        name = f.stem
+        typ = f.suffix[1:]
         if typ == "json":
-            site_data[name] = json.load(open(f))
+            site_data[name] = json.load(open(f, encoding='utf-8-sig'))
         elif typ in {"csv", "tsv"}:
             site_data[name] = list(csv.DictReader(open(f, encoding='utf-8-sig')))
         elif typ == "yml":
@@ -53,7 +58,6 @@ def main(site_data_path):
                 for timeslot in p["sessions"]:
                     # also put some parent info back into this item
                     fq_timeslot = timeslot.copy()
-
                     fq_timeslot.update({
                         "event": p.get("event"),
                         "event_type": p.get("event_type") or 'N/A',
@@ -75,12 +79,13 @@ def main(site_data_path):
 
     # organize sessions by day (calendar)
     for session in by_uid["sessions"].values():
-        this_date = dateutil.parser.parse(session["time_start"])
-        day = this_date.strftime("%A")
-        if day not in by_day:
-            by_day[day] = []
+        if session["track"] not in ["None(virtual)", ""]:
+            this_date = dateutil.parser.parse(session["time_start"]).astimezone(CONFERENCE_TIMEZONE)
+            day = this_date.strftime("%A")
+            if day not in by_day:
+                by_day[day] = []
 
-        by_day[day].append(format_by_session_list(session))
+            by_day[day].append(format_by_session_list(session))
 
     # organize sessions by timeslot (linking simultaneous sessions together)
     for day, day_sessions in by_day.items():
@@ -88,7 +93,7 @@ def main(site_data_path):
         for session in day_sessions:
             timeslot = session["startTime"] + "|" + session["endTime"]
             if timeslot not in time_sessions:
-                this_date = dateutil.parser.parse(session["startTime"])
+                this_date = dateutil.parser.parse(session["startTime"]).astimezone(CONFERENCE_TIMEZONE)
                 time_sessions[timeslot] = {
                     "sessions": [],
                     "date": this_date.strftime("%A, %d %b %Y"),
@@ -126,6 +131,7 @@ def generateDayCalendars():
             session_event = {
                 "id": session["id"],
                 "title": session["fullTitle"],
+                "shortTitle": session["title"],
                 "start": session["startTime"],
                 "end": session["endTime"],
                 "room": session["track"],
@@ -146,12 +152,12 @@ def generateDayCalendars():
             day_events.append(session_event)
 
         calendar_fname = "calendar_" + day
-
         # try ordering by title; maybe this'll make things line up in the calendar?
         day_events = sorted(day_events, key=lambda event: event['title'])
 
         site_data[calendar_fname] = day_events
         all_events.extend(day_events)
+        print("ALL EVENTS[0] IS ", all_events[0])
 
     # overwrite static main_calendar json with all assembled events
     site_data["main_calendar"] = all_events
@@ -163,10 +169,11 @@ def sessionTimeToCalendarTime(dateTime):
 
     thetime = dateTime.split('T')[1]
 
-    # update the hour (GMT -5)
+    # update the hour see CONFERENCE_TIMEZONE
     # assumption is that day won't change when we do this
     split_time = thetime.split(":", 2)
-    hour = int(split_time[0]) - 5
+    hour = (int(split_time[0]) + CONFERENCE_OFFSET) % 24
+    # round to the nearest 15 minutes
     minute = split_time[1]
 
     return "time-" + str(hour).zfill(2) + str(minute).zfill(2)
@@ -174,7 +181,7 @@ def sessionTimeToCalendarTime(dateTime):
 # converts a full date string to an indexed day for the calendar
 # (e.g., if conference starts on Sunday, then session on first day is "day-1")
 def sessionTimeToCalendarDay(dateTime):
-    start_day = 16
+    start_day = 22
     day = int(dateTime.split("T")[0].split("-")[-1])
 
     return "day-" + str(day - start_day + 1)
@@ -209,7 +216,7 @@ def jobs():
     data = _data()
     data["jobs"] = open("sitedata/{}/jobs.md".format(year)).read()
     return render_template("{}/jobs.html".format(year), **data)
-    
+
 @year_blueprint.route("/year/{}/impressions.html".format(year))
 def impressions():
     data = _data()
@@ -265,8 +272,8 @@ def schedule():
 
     # all_events = [session for day, ds in by_time.items() for time, ts in ds.items() for session in ts['sessions']]
     # data['events'] = all_events
-    print(by_time.keys())
-    day_sort_order = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+    print("printing by_time.keys(): ", by_time.keys())
+    day_sort_order = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
     data['events_by_time'] = collections.OrderedDict(sorted(by_time.items(), key=lambda item: day_sort_order.index(item[0])))
     # print("by_time is ", by_time)
     # data['event_types'] = sorted(list(set([(e['type'], e["type"].split(" ")[0].lower()) for e in all_events])), key=lambda x: x[0])
@@ -313,7 +320,7 @@ def format_paper(v):
 
     paper_session = by_uid["sessions"][v["session_id"]]
     paper_event = by_uid["events"][paper_session["parent_id"]]
-
+    # print("problem paper is ", v)
     return {
         "id": v["uid"],
         "title": v["title"],
@@ -330,13 +337,14 @@ def format_paper(v):
         "has_pdf": v["has_pdf"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
-        "youtube_ff_url": v["ff_link"],
-        "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
-        "prerecorded_video_id": v["prerecorded_video_id"],
-        "prerecorded_video_link": v["prerecorded_video_link"],
+        "youtube_ff_url": v["ff_link"] if "ff_link" in v else None,
+        "youtube_ff_id": v["ff_link"].split("/")[-1] if "ff_link" in v and v["ff_link"] else None,
+        "prerecorded_video_id": v["prerecorded_video_id"] if "prerecorded_video_id" in v else None,
+        "prerecorded_video_link": v["prerecorded_video_link"] if "prerecorded_video_link" in v else None,
         # for papers.html:
         "sessions": [paper_session["title"]],
         "UID": v["uid"],
+        "session_uid": "-".join(v["uid"].split("-")[0:-1]) if v["uid"] else "none", # Get rid of the paper ID so we can reach the CDN folder
         "paper_type": v["paper_type"],
         "paper_type_name": paper_type_names[v["paper_type"]] if v["paper_type"] in paper_type_names else 'None',
         "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
@@ -400,18 +408,22 @@ def format_session_as_event(v, uid):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
-    return {
+    formatted = {
         "id": uid,
-        "title": v["long_name"],
-        "type": v["event_type"],
-        "abbr_type": v["event_type"].split(" ")[0].lower(),
-        "abstract": v["event_description"],
-        "url": v["event_url"],
+        "title": v.get("long_name") if "long_name" in v else v.get("event"),
+        "type": v.get("event_type") if "event_type" in v else 'VIS',
+        "abbr_type": v["event_type"].split(" ")[0].lower() if "event_type" in v else 'vis',
+        "abstract": v.get("event_description") if "event_description" in v else 'None',
+        "url": v.get("event_url") if "event_url" in v else '',
         "startTime": v["sessions"] and v["sessions"][0]["time_start"],
-        "endTime": v["sessions"] and v["sessions"][-1]["time_end"],
-        "sessions": [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]],
+        "endTime": v["sessions"] and v["sessions"][-1]["time_end"]
     }
 
+    if v['event'] != 'VISxAI':
+        formatted["sessions"] = [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]]
+    else:
+        formatted["sessions"] = []
+    return formatted
 
 # new format for session_list.json
 def format_session_list(v):
@@ -428,6 +440,12 @@ def format_session_list(v):
 def format_by_session_list(v):
     fullTitle = v["event"]
     redundantTitle = True
+    day = ''
+    try:
+        day = dateutil.parser.parse(v["time_start"]).astimezone(CONFERENCE_TIMEZONE).strftime("%Y-%m-%d")
+    except ParserError:
+        print("couldn't parse day, v['time_start'] is ", v['time_start'])
+
     if v["event"].lower() != v["title"].lower():
         fullTitle += ": " + v["title"]
         redundantTitle = False
@@ -442,7 +460,7 @@ def format_by_session_list(v):
         "track": v.get("track"),
         "startTime": v.get("time_start"),
         "endTime": v.get("time_end"),
-        "day": dateutil.parser.parse(v["time_start"]).strftime("%Y-%m-%d"),
+        "day": day,
         "timeSlots": v.get("time_slots"),
         "event": v.get("event"),  # backloaded from parent event
         "event_type": v.get("event_type"),  # backloaded from parent event
@@ -464,15 +482,19 @@ def format_by_session_list(v):
         "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
         "ff_playlist": v.get("ff_playlist"),
         "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
-        "youtube_ff_url": v["ff_link"],
-        "youtube_ff_id": v["ff_link"].split("/")[-1] if v["ff_link"] else None,
+        "youtube_ff_url": v.get("ff_link") if "ff_link" in v else None,
+        "youtube_ff_id": v["ff_link"].split("/")[-1] if "ff_link" in v else None,
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
         "livestream_id": v.get("livestream_id"),
     }
 
 def get_room_name(track, room_names):
-    return room_names[track]
+    # print("ROOM NAMES ARE ", room_names)
+    if track in room_names:
+        return room_names[track]
+    else:
+        return "None"
 
 # ITEM PAGES
 
@@ -689,6 +711,7 @@ def send_static(path):
 
 @year_blueprint.route("/year/{}/serve_<path>.json".format(year))
 def serve(path):
+    print("WE ARE RECEIVING A REQUEST FOR ", "serve_" + path)
     return jsonify(site_data[path])
 
 # Streaming single page app

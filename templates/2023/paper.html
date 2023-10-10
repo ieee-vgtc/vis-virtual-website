@@ -61,9 +61,6 @@
             {% endif %} -->
             <h5 class="paper-presentation pb-2">
 
-                <a href="session_{{ paper.session_id }}.html">
-                    <span class="fas mr-1">&#xf108;</span>
-                    View presentation:</a>
                 <span class="format-date">{{ paper.time_stamp }}</span>
                 <span alt="Change timezone on schedule page" class="timezone tztooltip">
                     <strong>GMT<span class="selectedTimezone">-0600</span></strong>
@@ -82,7 +79,7 @@
             <figure class="figure">
                 {% if paper.has_image %}
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2023/paper_images/{{ paper.id }}.png"
+                         src="https://ieeevis.b-cdn.net/vis_2023/paper_images/{{paper.id}}.png"
                          alt="Exemplar figure, described by caption below"
                          aria-describedby="figure-caption">
                 {% else %}
@@ -103,10 +100,6 @@
                 <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.prerecorded_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
             {% endif %}
-            <p>
-                The live footage of the talk, including the Q&A, can be viewed on the session page, <a
-                            href="session_{{ paper.session_id }}.html">{{ paper.session_title }}</a>.
-            </p>
         </div>
     </div>
                 
@@ -118,6 +111,15 @@
             <h5 class="paper-details-heading">Fast forward</h5>
             <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.youtube_ff_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
             <!-- <p class="integration-description pt-2">Direct link to Video: <a href="https://ieeevis.b-cdn.net/vis_2023/fast_forwards/{{ paper.youtube_ff_url }}.mp4">{{ paper.youtube_ff_url }}.mp4</a></p> -->
+        </div>
+    </div>
+    {% elif paper.has_video%}
+    <div class="row my-3">
+        <div class="col-md-8">
+            <h5 class="paper-details-heading">Fast forward</h5>
+                <video controls width="720">
+                    <source src="https://ieeevis-uploads.b-cdn.net/vis23/{{paper.session_uid}}/{{paper.id}}/{{ paper.id }}_Preview.mp4" type="video/mp4" />
+                </video>
         </div>
     </div>
     {% endif %}

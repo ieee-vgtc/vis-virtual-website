@@ -15,7 +15,7 @@ logo:
 page_title:
   prefix: 'IEEE VIS 2023 Content'
   separator: ': '
-background_image: /static/2022/images/okcbackground.jpg
+background_image: /static/2023/images/melbourne_splash.jpg
 organization: VIS 2023 Organization Committee
 
 # Remove or change to your chat server.
@@ -30,7 +30,7 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 #pass: mIniconf1_
 
 use_auth0: true
-auth0_client_id : MhsgAU1rWTFf2ZwPoS2946drcsHlMgBX
+auth0_client_id : 6nTTLSGaYjal7joQla5Io0JDYMKLFBSE 
 auth0_domain : ieeevis.us.auth0.com
 
 calendar:
@@ -62,11 +62,13 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  ok5: 'Oklahoma Station 5'
-  ok4: 'Oklahoma Station 4 (plenary 4+5 combined)'
-  ok1: 'Oklahoma Station 1'
-  mistletoe: 'Mistletoe'
-  pinon: 'Pinon'
-  ok6: 'Oklahoma Station 6 (plenary 6+7+8 combined)'
-  ok7: 'Oklahoma Station 7'
-  ok8: 'Oklahoma Station 8'
+  plenary: 'Plenary-1'
+  oneohone: '101-102(140)'
+  oneohthree: '103(132)'
+  oneohfour: '104(132)'
+  oneohfive: '105(234)'
+  oneohsix: '106(234)'
+  oneohnine: '109(234)'
+  oneten: '110(234)'
+  oneeleven: '111-112(140)'
+  none: 'None(virtual)'

@@ -23,92 +23,102 @@
  #      image: tableau.jpg
  #      url: "https://www.tableau.com/"
 
- - category: Platinum+Banquet
-   image_size: 315
-   supporters:
-     - name: "Northern Data"
-       image: northern_data.png
-       url: "https://northerndata.de/"
+# - category: Platinum+Banquet
+#   image_size: 315
+#   supporters:
+#     - name: "Northern Data"
+#       image: northern_data.png
+#       url: "https://northerndata.de/"
 
 
  - category: Platinum
-   image_size: 315
+   image_size: 400
    supporters:
      - name: "Tableau"
-       image: Tableau-Logo-CMYK.png
+       image: Tableau-From-Salesforce-Logo-COLOR.png
        url: "https://www.tableau.com/"
 
 
  - category: Silver
-   image_size: 240
+   image_size: 320
    supporters:
-     - name: "Echo Investment Capital LLC"
-       image: echo.png
-       url: "https://www.echo.global"
+#     - name: "Echo Investment Capital LLC"
+#       image: echo.png
+#       url: "https://www.echo.global"
 
      - name: "KAUST"
        image: vcc_kaust.png
        url: "http://vcc.kaust.edu.sa/"
 
      - name: "Autodesk"
-       image: autodesk.png
+       image: Autodesk-logo.png
        url: "https://www.autodesk.com/research"
 
-     - name: "University of Oklahoma"
-       image: uofoklahoma.png
-       url: "https://ou.edu/research"
+#     - name: "University of Oklahoma"
+#       image: uofoklahoma.png
+#       url: "https://ou.edu/research"
 
  #    - name: "Microsoft"
  #      image: microsoft.png
  #      url: "https://www.microsoft.com/research"
 
+ - category: Banquet
+   image_size: 200
+   supporters:
+     - name: "Norrköping Visualization Center"
+       image: norrkoping.png
+       url: "https://visualiseringscenter.se/"
 
  - category: Bronze
-   image_size: 150
+   image_size: 200
    supporters:
-     - name: "Unviversity of Oklaoma"
-       image: okl.png
-       url: "https://www.ou.edu/disc"
+     - name: "Apple"
+       image: apple.png
+       url: "https://www.apple.com"
      - name: "Monash University"
        image: monash.png
        url: "https://www.monash.edu/it"
+     - name: "JPMorgan Chase"
+       image: jpmchase.png
+       url: "https://www.jpmorganchase.com/"
 
  - category: Pearl
    image_size: 150
    supporters:
-     - name: "Fraunhofer IGD"
-       image: igd.png
-       url: "https://www.igd.fraunhofer.de"
-     - name: "giCentre"
-       image: giCentre.png
-       url: "https://gicentre.net"
-     - name: "Disney Studio Research"
-       image: disney.jpg
-       url: "https://studios.disneyresearch.com/"
-     - name: "Uncharted Software"
-       image: uncharted.png
-       url: "https://uncharted.software/"
-     - name: "SCI"
-       image: sci.png
-       url: "https://www.sci.utah.edu/"
-     - name: "VisPsych"
-       image: vispsych.jpg
-       url: "https://sites.google.com/view/vispsych/"
-     - name: "VRVis"
-       image: VRVis-Logo.png
-       url: "https://www.vrvis.at/"
-     - name: "NREL"
-       image: NREL.jpg
-       url: "https://www.nrel.gov/"
      - name: "Kitware, Inc"
        image: kitware.png
        url: "https://www.kitware.com/"
-     - name: "Springer"
-       image: springer-logo-transparent.png
-       url: "https://www.springer.com/us"
-     - name: "Nomic"
-       image: nomic_high_resolution.png
-       url: "https://home.nomic.ai"
+     #     - name: "Uncharted Software"
+     #       image: /assets/supporters/uncharted.png
+     #       url: "https://uncharted.software/"
+     #     - name: "Fraunhofer IGD"
+     #       image: /assets/supporters/igd.png
+     #       url: "https://www.igd.fraunhofer.de"
+     #     - name: "Springer"
+     #       image: /assets/supporters/springer-logo-transparent.png
+     #       url: "https://www.springer.com/us"
+     - name: "VRVis"
+       image: VRVis-Logo.png
+       url: "https://www.vrvis.at/"
+     #     - name: "Nomic"
+     #       image: /assets/supporters/nomic.png
+     #       url: "https://home.nomic.ai"
+     - name: "SCI"
+       image: sci.png
+       url: "https://www.sci.utah.edu/"
+     - name: "Adobe"
+       image: Adobe-logo.jpg
+       url: "https://www.adobe.com/"
+     # - name: "Nreal"
+     #   image: /assets/supporters/nreal-logo.png
+     #   url: "https://www.xreal.com/"
+     - name: "University of Queensland"
+       image: uq-logo.png
+       url: "https://www.uq.edu.au/"
+     - name: "NREL"
+       image: NREL.jpg
+       url: "https://www.nrel.gov/"
+
 
 
  #    - name: "Harvard Medical School"

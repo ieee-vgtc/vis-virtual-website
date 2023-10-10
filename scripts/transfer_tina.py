@@ -1,31 +1,28 @@
 import argparse
-import time
-import os
-import csv
-import shutil
-import sys
-from datetime import datetime
-import urllib3
-from urllib3.contrib import pyopenssl
-
-import mysql.connector  # mysql-connector-python
-import json
-import os.path as path
-import bcrypt  # bcrypt
-import string
-import secrets
-import time
-
-import http.client
-import requests
-
 import base64
-import boto3
+import csv
+import http.client
+import json
+import os
+import os.path as path
+import secrets
+import shutil
+import string
+import sys
+import time
+from datetime import datetime
 from email import encoders
-from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+import bcrypt  # bcrypt
+import boto3
+import mysql.connector  # mysql-connector-python
+import requests
+import urllib3
+from urllib3.contrib import pyopenssl
 
 alphabet = string.ascii_letters + string.digits
 auth0_endpoint = ""
