@@ -558,6 +558,16 @@ function getDayGridRow(timeStart, timeEnd) {
   return dayGridRowString;
 }
 
+function getDayGridColumn(room, title) {
+  // Stop weird times from breaking the calendar
+  let dayGridColumnString = `${room}-start / auto`;
+  if (title.indexOf("VIS Banquet") > 0) {
+    dayGridColumnString = "oneohone-start / oneohnine-start";
+  }
+  return dayGridColumnString;
+}
+
+
 function createDayCalendar(calendar, config, dayEvents) {
   if (current_filter === "Bookmarked sessions") {
     dayEvents = dayEvents.filter((d) => d.bookmarked);
@@ -572,7 +582,7 @@ function createDayCalendar(calendar, config, dayEvents) {
     .join("div")
     .attr("class", "session")
     .attr("data-tippy-content", (d) => d.title)
-    .style("grid-column", (d) => `${d.room}-start / auto`)
+    .style("grid-column", (d) => getDayGridColumn(d.room, d.title))
     .style("grid-row", (d) => getDayGridRow(d.timeStart, d.timeEnd))
     .style("background-color", (d) => getColor(d, config))
     .style("color", (d) => getTextColorByBackgroundColor(getColor(d, config)))
@@ -607,7 +617,6 @@ function createDayCalendar(calendar, config, dayEvents) {
 function populateDays(calendarSelection, config) {
   // NOTE: `dayData` is defined globally at top of file
   // dayData = createDayData(config);
-  console.log("datData is ", dayData)
   calendarSelection.selectAll('.day-slot')
     .data(dayData, d => d)
     .join("div")
@@ -625,7 +634,7 @@ function populateDays(calendarSelection, config) {
 function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names
 
-  const roomData = [
+  let roomData = [
     { roomId: 'plenary', text: 'Plenary-1', link: 'plenary' },
     { roomId: 'oneohone', text: '101-102(140)', link: 'oneohone' },
     { roomId: 'oneohthree', text: '103(132)', link: 'oneohthree' },
@@ -639,14 +648,25 @@ function populateRooms(calendarSelection, roomNames, day) {
   ];
 
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
-  // switch (day) {
-  //   case "Tuesday":
-  //     roomData = roomData.slice(0, 2);
-  //     break;
-  //   case "Friday":
-  //     roomData = roomData.slice(0, 7);
-  //     break;
-  // }
+  switch (day) {
+    case "Sunday":
+    case "Monday":
+      roomData = roomData.slice(1, 9);
+      break;
+    case "Tuesday":
+      roomData = roomData.slice(0, 1);
+      break;
+    case "Wednesday":
+    case "Thursday":
+      roomData = roomData.slice(1, 7);
+      break;
+    case "Friday":
+      console.log("IN HERE IN FRIDAY")
+      roomData = roomData.slice(2, 7);
+      break;
+  }
+
+  console.log("day is ", day, " and roomData is ", roomData)
 
   populateHeader(calendarSelection, roomData);
 }

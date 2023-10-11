@@ -157,7 +157,6 @@ def generateDayCalendars():
 
         site_data[calendar_fname] = day_events
         all_events.extend(day_events)
-        print("ALL EVENTS[0] IS ", all_events[0])
 
     # overwrite static main_calendar json with all assembled events
     site_data["main_calendar"] = all_events
@@ -182,7 +181,8 @@ def sessionTimeToCalendarTime(dateTime):
 # (e.g., if conference starts on Sunday, then session on first day is "day-1")
 def sessionTimeToCalendarDay(dateTime):
     start_day = 22
-    day = int(dateTime.split("T")[0].split("-")[-1])
+    this_date = dateutil.parser.parse(dateTime).astimezone(CONFERENCE_TIMEZONE)
+    day = int(this_date.strftime("%d"))
 
     return "day-" + str(day - start_day + 1)
 
