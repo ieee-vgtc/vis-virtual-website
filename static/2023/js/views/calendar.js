@@ -469,13 +469,12 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
       }
     }
   );
-  // dayData = createDayData(config);
   for (const dayKey of sessions_by_day_and_time.keys()) {
     const dayEvents = sessions_by_day_and_time.get(dayKey);
-
+    let lateSlotSessionData = [];
     for (const timeslotKey of dayEvents.keys()) {
       // fill in positioning based on first session (should be grouped already)
-      const sessions = dayEvents.get(timeslotKey);
+      let sessions = dayEvents.get(timeslotKey);
       const dayPosition = `${sessions[0].day} / auto`;
       let timePosition = `${sessions[0].timeStart} / ${sessions[0].timeEnd}`;
 
@@ -484,6 +483,11 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
         const day_name = dayData[day_num - 1].day;
         $(`.nav-pills a[href="#tab-${day_name}"]`).tab("show");
       };
+
+      if (parseInt(sessions[0].timeStart.match(/time-(\d+)/)[1]) >=1630) {  // if it is after 5 pm, they all get collapsed down
+        lateSlotSessionData = lateSlotSessionData.concat(sessions);
+        sessions = lateSlotSessionData;
+      }
 
       const timeslot = calendar
         .append("div")
@@ -496,8 +500,8 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
             navigateToDay(ev, sessions[0]);
         });
 
-      if (sessions.length === 1) {
-        const session = sessions[0];
+      const session = sessions[0];
+      if ((sessions.length === 1)) {
         const slot = timeslot
           .attr("class", "session slot")
           .attr("id", session.id)
@@ -531,6 +535,12 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
           .style("color", "black")
           .text(session && session.bookmarks && session.bookmarks.length);
       } else {
+        // We might have to remove a single slot that is already there, in case we are
+        // collapsing multiple sessions into that slot.
+        if (lateSlotSessionData.length > 0) {
+          calendar.select(".session#" + session.id).remove();          
+        }
+
         timeslot
           .selectAll(".session")
           .data(sessions, (d) => d.id)
@@ -644,7 +654,6 @@ function populateRooms(calendarSelection, roomNames, day) {
     { roomId: 'oneohnine', text: '109(234)', link: 'oneohnine' },
     { roomId: 'oneten', text: '110(234)', link: 'oneten' },
     { roomId: 'oneeleven', text: '111-112(140)', link: 'oneeleven' },
-//    { roomId: 'None(virtual)', text: 'None(virtual)', link: "room_None(virtual)" },
   ];
 
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
@@ -661,12 +670,9 @@ function populateRooms(calendarSelection, roomNames, day) {
       roomData = roomData.slice(1, 7);
       break;
     case "Friday":
-      console.log("IN HERE IN FRIDAY")
       roomData = roomData.slice(2, 7);
       break;
   }
-
-  console.log("day is ", day, " and roomData is ", roomData)
 
   populateHeader(calendarSelection, roomData);
 }

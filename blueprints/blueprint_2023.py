@@ -711,7 +711,6 @@ def send_static(path):
 
 @year_blueprint.route("/year/{}/serve_<path>.json".format(year))
 def serve(path):
-    print("WE ARE RECEIVING A REQUEST FOR ", "serve_" + path)
     return jsonify(site_data[path])
 
 # Streaming single page app
