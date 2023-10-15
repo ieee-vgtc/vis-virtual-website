@@ -98,7 +98,8 @@
     grid-template-columns:
         [times] 5em
         [plenary-start] 1fr
-        [plenary-end timezones] 5em
+        [plenary-end other-start] 1fr
+        [other-end timezones] 5em
         [timezones-end];
 }
 

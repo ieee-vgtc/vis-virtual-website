@@ -574,6 +574,9 @@ function getDayGridColumn(room, title) {
   if (title.indexOf("VIS Banquet") > 0) {
     dayGridColumnString = "oneohone-start / oneohnine-start";
   }
+  if (title.indexOf("VISAP Opening Reception") > 0) {
+    dayGridColumnString = "other-start / auto";
+  }
   return dayGridColumnString;
 }
 
@@ -663,7 +666,10 @@ function populateRooms(calendarSelection, roomNames, day) {
       roomData = roomData.slice(1, 9);
       break;
     case "Tuesday":
-      roomData = roomData.slice(0, 1);
+      roomData = [
+        { roomId: 'plenary', text: 'Plenary-1', link: 'plenary' },
+        { roomId: 'other', text: '-', link: '-' },
+      ];
       break;
     case "Wednesday":
     case "Thursday":
