@@ -10,190 +10,44 @@ import dateutil.parser
 import yaml
 from flask import Flask, jsonify, redirect, render_template, send_from_directory
 from flask_frozen import Freezer
-from flaskext.markdown import Markdown
 from flask_minify import minify
+from flaskext.markdown import Markdown
+
 from blueprints.blueprint_2020 import year_blueprint as blueprint_2020
 from blueprints.blueprint_2021 import year_blueprint as blueprint_2021
 from blueprints.blueprint_2022 import year_blueprint as blueprint_2022
+from blueprints.blueprint_2023 import year_blueprint as blueprint_2023
 
 site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = '2022'
+CURRENT_YEAR = "2023"
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
 we redirect to /year/2020/papers/153.  Any other root URLs we redirect to the current
 year (so / redirects to /year/2021 if CURRENT_YEAR == 2021)
 """
-FROZEN_YEAR = '2020'
-
-
-def main():
-    pass
-#     global site_data, extra_files
-#     extra_files = ["README.md"]
-#     # Load just the config in here.
-#     for f in glob.glob("sitedata/{}".format(CURRENT_YEAR) + "/*"):
-#         extra_files.append(f)
-
-#         filename = f.split("/")[-1]
-#         if '.' in filename:
-#             name, typ = filename.split(".")
-#             if typ == "json":
-#                 site_data[name] = json.load(open(f))
-#             elif typ in {"csv", "tsv"}:
-#                 site_data[name] = list(csv.DictReader(open(f, encoding='utf-8-sig')))
-#             elif typ == "yml":
-#                 site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
-
-#     for typ in ["paper_list", "speakers", "workshops", "session_list"]:
-#         by_uid[typ] = {}
-
-#         if typ == "session_list":
-#             by_uid["events"] = {}
-#             by_uid["sessions"] = {}
-
-#             for session_id, p in site_data[typ].items():
-#                 by_uid["events"][session_id] = p
-
-#                 # also iterate through each session within each event
-#                 for timeslot in p["sessions"]:
-#                     # also put some parent info back into this item
-#                     fq_timeslot = timeslot.copy()
-#                     fq_timeslot.update({
-#                         "event": p["event"],
-#                         "event_type": p["event_type"],
-#                         "parent_id": session_id,
-#                         "event_description": p["event_description"],
-#                         "event_url": p["event_url"],
-#                     })
-
-#                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
-
-#                     by_uid["sessions"][timeslot["session_id"]] = fq_timeslot
-
-#         elif typ == "paper_list":
-#             for paper_id, p in site_data[typ].items():
-#                 by_uid[typ][paper_id] = p
-
-#         else:
-#             for p in site_data[typ]:
-#                 by_uid[typ][p["UID"]] = p
-
-#     # organize sessions by day (calendar)
-#     for session in by_uid["sessions"].values():
-#         this_date = dateutil.parser.parse(session["time_start"])
-#         day = this_date.strftime("%A")
-#         if day not in by_day:
-#             by_day[day] = []
-
-#         by_day[day].append(format_by_session_list(session))
-
-#     # # organize sessions by timeslot (linking simultaneous sessions together)
-#     for day, day_sessions in by_day.items():
-#         time_sessions = {}
-#         for session in day_sessions:
-#             timeslot = session["startTime"] + "|" + session["endTime"]
-#             if timeslot not in time_sessions:
-#                 this_date = dateutil.parser.parse(session["startTime"])
-#                 time_sessions[timeslot] = {
-#                     "sessions": [],
-#                     "date": this_date.strftime("%A, %d %b %Y"),
-#                     "startTime": session["startTime"],
-#                     "endTime": session["endTime"],
-#                 }
-
-#             time_sessions[timeslot]["sessions"].append(session)
-
-#         by_time[day] = collections.OrderedDict(sorted(time_sessions.items()))
-
-#     ## TODO: add paper information to session information
-
-#     print("Data Successfully Loaded")
-#     return extra_files
-
-
-# # main() should be called before this function
-# def generateDayCalendars():
-#     if len(by_day) == 0:
-#         raise Exception("call main() before this function")
-
-#     all_events = []
-#     for day in by_day:
-#         day_events = []
-#         for session in by_day[day]:
-#             session_event = {
-#                 "id": session["id"],
-#                 "title": session["fullTitle"],
-#                 "start": session["calendarDisplayStartTime"],
-#                 "realStart": session["startTime"],
-#                 "end": session["endTime"],
-#                 # "location": session['youtube'],
-#                 "location": "/session_" + session["id"] + ".html",
-#                 "link": "http://virtual.ieeevis.org/session_" + session["id"] + ".html",
-#                 "category": "time",
-#                 "calendarId": session["type"],
-#             }
-#             day_events.append(session_event)
-
-#         calendar_fname = "calendar_" + day + ".json"
-#         # full_calendar_fname = os.path.join(site_data_path, calendar_fname)
-#         # with open(full_calendar_fname, 'w', encoding='utf-8') as f:
-#         #     json.dump(day_events, f, ensure_ascii=False, indent=2)
-
-#         # try ordering by title; maybe this'll make things line up in the calendar?
-#         day_events = sorted(day_events, key=lambda event: event['title'])
-
-#         site_data[calendar_fname] = day_events
-#         all_events.extend(day_events)
-
-#         # for the purposes of simplifying the main schedule, group by start/end times; merge times together; make location the appropriate tab
-#         # aggregated_events = []
-#         # timeslots = set(map(lambda event: event['start'] + "|" + event['end'], day_events))
-#         # for timeslot in timeslots:
-#         #     timeslot_events = []
-#         #     for event in day_events:
-#         #         timeslot_string = event['start']+ "|" + event['end']
-#         #         if timeslot_string == timeslot:
-#         #             timeslot_events.append(event)
-
-#         #     agg_event = {
-#         #         "id": timeslot,
-#         #         "title": ", ".join(map(lambda event: event['title'], timeslot_events)),
-#         #         "start": session['startTime'],
-#         #         "end": session['endTime'],
-#         #         # "location": session['youtube'],
-#         #         "location": "#tab-" + day,
-#         #         "link": "http://virtual.ieeevis.org/schedule.html#tab-" + day + ".html",
-#         #         "category": "time",
-#         #         "calendarId": "",
-#         #     }
-#         #     aggregated_events.append(agg_event)
-
-#         # all_events.extend(aggregated_events)
-
-#     # overwrite static main_calendar json with all assembled events
-#     site_data["main_calendar"] = all_events
-
+FROZEN_YEAR = "2020"
 
 # ------------- SERVER CODE -------------------->
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['FREEZER_IGNORE_404_NOT_FOUND'] = True
+app.config["FREEZER_IGNORE_404_NOT_FOUND"] = True
 # app.config['FREEZER_STATIC_IGNORE'] = ['static/*']
 freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-blueprints = [blueprint_2020, blueprint_2021, blueprint_2022]
+blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023]
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 
 # # --------------- DRIVER CODE -------------------------->
 # # Code to turn it all static
+
 
 @freezer.register_generator
 def generator():
@@ -218,24 +72,28 @@ def generator():
                 yield "/year/{}/poster_{}.html".format(year, str(poster["uid"]))
 
         # only some years use rooms
-        if 'room_names' in site_data['config']:
-            for room_name in site_data['config']['room_names']:
+        if "room_names" in site_data["config"]:
+            for room_name in site_data["config"]["room_names"]:
                 yield "/year/{}/room_{}.html".format(year, str(room_name))
 
         for key in site_data:
             yield "/year/{}/serve_{}.json".format(year, str(key))
 
+
 # Utility method for handling redirects in the frozen site
 def meta_redirect_html(site_year, site_path):
-    return render_template('year_redirect.html', site_path=site_path, site_year=site_year)
+    return render_template(
+        "year_redirect.html", site_path=site_path, site_year=site_year
+    )
     # return render_template('year_redirect.html', { 'site_path': site_path, 'site_year': site_year})
+
 
 # MAIN PAGES
 
 
 @app.route("/")
 def index():
-    return meta_redirect_html(CURRENT_YEAR, 'index.html')
+    return meta_redirect_html(CURRENT_YEAR, "index.html")
 
 
 @app.route("/favicon.png")
@@ -248,23 +106,27 @@ def favicon():
 
 @app.route("/index.html")
 def home():
-    return meta_redirect_html(CURRENT_YEAR, 'index.html')
+    return meta_redirect_html(CURRENT_YEAR, "index.html")
     # data = {}
     # data['site_path'] = 'index.html'
     # data['site_year'] = CURRENT_YEAR
     # return render_template('year_redirect.html', **data)
 
+
 @app.route("/help.html")
 def about():
     return meta_redirect_html(FROZEN_YEAR, "help.html")
 
+
 @app.route("/jobs.html")
 def jobs():
     return meta_redirect_html(FROZEN_YEAR, "jobs.html")
-    
+
+
 @app.route("/impressions.html")
 def impressions():
     return meta_redirect_html(FROZEN_YEAR, "impressions.html")
+
 
 @app.route("/papers.html")
 def papers():
@@ -305,6 +167,7 @@ def paper(paper):
 def speaker(speaker):
     return meta_redirect_html(FROZEN_YEAR, "speaker_{}.html".format(speaker))
 
+
 @app.route("/awards.html")
 def awards():
     return meta_redirect_html(FROZEN_YEAR, "awards.html")
@@ -314,20 +177,22 @@ def awards():
 def speakers():
     return meta_redirect_html(FROZEN_YEAR, "speakers.html")
 
+
 # ALPER TODO: populate the workshop list from session_list
 @app.route("/workshop_<workshop>.html")
 def workshop(workshop):
     return meta_redirect_html(FROZEN_YEAR, "workshop_{}.html".format(workshop))
 
 
-@app.route('/session_vis-keynote.html')
+@app.route("/session_vis-keynote.html")
 def keynote():
     return meta_redirect_html(FROZEN_YEAR, "session_vis-keynote.html")
 
 
-@app.route('/session_vis-capstone.html')
+@app.route("/session_vis-capstone.html")
 def capstone():
     return meta_redirect_html(FROZEN_YEAR, "session_vis-capstone.html")
+
 
 @app.route("/session_x-posters.html")
 def poster_session():
@@ -338,11 +203,13 @@ def poster_session():
 def session(session):
     return meta_redirect_html(FROZEN_YEAR, "session_{}.html".format(session))
 
+
 @app.route("/room_<room>.html")
 def room(room):
     return meta_redirect_html(FROZEN_YEAR, "room_{}.html".format(room))
 
-@app.route('/event_<event>.html')
+
+@app.route("/event_<event>.html")
 def event(event):
     return meta_redirect_html(FROZEN_YEAR, "event_{}.html".format(event))
 
@@ -351,6 +218,7 @@ def event(event):
 @app.route("/posters.html")
 def posters():
     return meta_redirect_html(FROZEN_YEAR, "posters.html")
+
 
 ## Internal only; used to generate markdown-like list for main website paper list
 @app.route("/paperlist.html")
@@ -385,18 +253,22 @@ def send_static(path):
 def serve(path):
     return meta_redirect_html(FROZEN_YEAR, "serve_{}.html".format(path))
 
+
 # Streaming single page app
+
 
 @app.route("/streaming.html")
 def streaming():
-    return meta_redirect_html(CURRENT_YEAR, 'streaming')
+    return meta_redirect_html(CURRENT_YEAR, "streaming")
+
 
 @app.route("/playback.html")
 def playback():
-    return meta_redirect_html(CURRENT_YEAR, 'playback')
+    return meta_redirect_html(CURRENT_YEAR, "playback")
 
 
 print("Data Successfully Loaded")
+
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="MiniConf Portal Command Line")
@@ -426,9 +298,6 @@ if __name__ == "__main__":
     args = parse_arguments()
 
     site_data_path = args.path
-    extra_files = main()
-
-    # generateDayCalendars()
 
     if args.build:
         minify(app=app, html=True, js=False, cssless=True)
@@ -438,4 +307,4 @@ if __name__ == "__main__":
         if os.getenv("FLASK_DEBUG") == "True":
             debug_val = True
 
-        app.run(port=5000, debug=debug_val, extra_files=extra_files)
+        app.run(port=5000, debug=debug_val)

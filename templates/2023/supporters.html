@@ -1,0 +1,70 @@
+{% set active_page = "Supporters" %}
+{% set page_title = "Supporters" %}
+{% extends "2023/base.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="row">
+                <h3 class=""> Supporter Contacts </h3>
+            </div>
+            <div class="row">
+                {% for supp in supporters_extra %}
+                    <div class="col-md-12 p-3">
+                        <div class="pp-card-no-bottom p-2 sponsor-{{ supp.status }}"
+                             style="
+
+                                     border-top-width: 12pt;
+                                     border-bottom-width: 5pt  ;
+                                     border-top-style: solid;
+                                     border-bottom-style: solid;
+                                     background-color: #fff;"
+                        >
+
+
+                            <h3> {{ supp.name }}</h3>
+                            <p><b>Webpage: </b> <a
+                                    href="{{ supp.url }}">{{ supp.url }}</a></p>
+                            {% if supp.email %}
+                                <p><b>Contact:</b> <a
+                                        href="{{ supp.email }}">{{ supp.email_name }}</a>
+                                </p>
+                            {% endif %}
+
+
+                            {% if supp["social media"] %}
+                                <h4>Social Media</h4>
+                                <p>
+                                    {{ supp["social media"] | markdown }}
+                                </p>
+                            {% endif %}
+                            <h4> Supporter Info </h4>
+                            <p> {{ supp.description | markdown }}</p>
+                            {#                            <pre>{{ supp }}</pre>#}
+                            {#                                        <span class="session-type"#}
+                            {#                                              style="color: goldenrod;">Test of Time Award ({{ award.award_1 }})</span>#}
+                            {#                            <div class="award-title text-center">#}
+                            {#                                 {{ award.award_2 }} - {{ award.extra_2 }}#}
+                            {#                            </div>#}
+                            {#                            <div class="award-paper text-center py-3">#}
+                            {#                                <a class="award-paper" href="{{ award.DOI }}" target="_blank">{{ award.paper }}</a>#}
+                            {#                            </div>#}
+                            {#                            <div class="award-authors text-center text-muted py-1" >#}
+                            {#                                {{ award.authors }}#}
+                            {#                            </div>#}
+                        </div>
+                    </div>
+
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="md-12">
+                {{ components.supporter_sidebar(supporters) }}
+                    </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -24,7 +24,6 @@ if __name__ == "__main__":
         all_abstracts = torch.zeros(len(abstracts), 768)
         with torch.no_grad():
             for i, row in enumerate(abstracts):
-
                 input_ids = torch.tensor([tokenizer.encode(row["abstract"])[:512]])
                 all_hidden_states, _ = model(input_ids)[-2:]
                 all_abstracts[i] = all_hidden_states.mean(0).mean(0)
