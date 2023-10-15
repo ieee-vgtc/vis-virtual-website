@@ -350,6 +350,14 @@ def format_paper(v):
         "paper_type": v["paper_type"],
         "paper_type_name": paper_type_names[v["paper_type"]] if v["paper_type"] in paper_type_names else 'None',
         "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
+        "session_youtube_ff_link": v["youtube_ff_link"],
+        "session_youtube_ff_id": v["youtube_ff_id"],
+        "session_bunny_ff_link": v["bunny_ff_link"],
+        "session_bunny_ff_subtitles": v["bunny_ff_subtitles"],
+        "session_youtube_prerecorded_link": v["youtube_prerecorded_link"],
+        "session_youtube_prerecorded_id": v["youtube_prerecorded_id"],
+        "session_bunny_prerecorded_link": v["bunny_prerecorded_link"],
+        "session_bunny_prerecorded_subtitles": v["bunny_prerecorded_subtitles"],
     }
 
 def format_poster(v):
