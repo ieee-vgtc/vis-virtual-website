@@ -59,6 +59,13 @@
                     </a>
                 </h5>
             {% endif %} -->
+        {% if paper.session_room %}
+            <h3 class="session-room mt-4">
+                <span class="fas mr-1">&#xf108;</span>
+                Room: {{ paper.session_room }}
+            </h3>
+        {% endif %}
+
             <h5 class="paper-presentation pb-2">
 
                 <span class="format-date">{{ paper.time_stamp }}</span>

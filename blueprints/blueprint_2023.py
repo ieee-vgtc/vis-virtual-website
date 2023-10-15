@@ -321,6 +321,7 @@ def format_paper(v):
     paper_session = by_uid["sessions"][v["session_id"]]
     paper_event = by_uid["events"][paper_session["parent_id"]]
     # print("problem paper is ", v)
+    room_name = get_room_name(paper_session['track'], site_data['config']['room_names'])
     return {
         "id": v["uid"],
         "title": v["title"],
@@ -330,10 +331,11 @@ def format_paper(v):
         "time_stamp": v["time_stamp"],
         "session_id": v["session_id"],
         "session_title": paper_session["title"],
+        "session_room": room_name,
         "event_id": paper_session["parent_id"],
         "event_title": paper_event["event"],
         "award": v["paper_award"],
-        "has_image": str(v["has_image"]) == '1',
+        "has_image": v["has_image"],
         "has_pdf": v["has_pdf"],
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],

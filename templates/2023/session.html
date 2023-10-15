@@ -36,6 +36,11 @@
             Organizers: {{ session.organizers | join(", ") }}
         </h3>
         {% endif %}
+
+        <h3 class="session-room mt-4">
+            <span class="fas mr-1">&#xf108;</span>
+            Room: {{ room.name }}
+        </h3>
         <h3 class="session-date">
             <span class="fas mr-1">&#xf017;</span>
             <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
