@@ -113,11 +113,24 @@
      #   image: /assets/supporters/nreal-logo.png
      #   url: "https://www.xreal.com/"
      - name: "University of Queensland"
-       image: uq-logo.png
+       image: uq-purple.png
        url: "https://www.uq.edu.au/"
      - name: "NREL"
        image: NREL.jpg
        url: "https://www.nrel.gov/"
+     - name: "University of Melbourne"
+       image: University_of_Melbourne.png
+       url: "https://www.unimelb.edu.au/"
+
+ - category: Exhibitors
+   image_size: 140
+   supporters:
+     - name: "Tom Sawyer Software"
+       image: TomSawyer.jpg
+       url: "https://www.tomsawyer.com/"
+     - name: "Springer Nature"
+       image: springernature.png
+       url: "https://www.springernature.com/"
 
 
 
