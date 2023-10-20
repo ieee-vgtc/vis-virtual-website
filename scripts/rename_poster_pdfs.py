@@ -10,14 +10,14 @@ import re
 import shutil
 import subprocess
 
-DIRECTORY_PATH = 'a-biomedchallenge'
+# DIRECTORY_PATH = 'a-biomedchallenge'
 # DIRECTORY_PATH = 'a-ldav-posters'
 # DIRECTORY_PATH = 'a-scivis-contest'
 # DIRECTORY_PATH = 'a-vast-challenge'
 # DIRECTORY_PATH = 'v-vis-posters'
 # DIRECTORY_PATH = 'w-cityvis'
 # DIRECTORY_PATH = 'w-energyvis'
-# DIRECTORY_PATH = 'w-vahc'
+DIRECTORY_PATH = 'w-vahc'
 cwd = os.getcwd()
 
 for filename in glob.glob(DIRECTORY_PATH + "/*"):
@@ -58,8 +58,22 @@ for filename in glob.glob(DIRECTORY_PATH + "/*"):
         # print(cmd)
         subprocess.call(cmd, shell=True)
 
-    # For biomedvischallenge
-    if typ == "pdf":
-        dst = cwd + "/to_upload/" + DIRECTORY_PATH + "-" + paper_id + ".pdf"
-        # print("pdf found dst is ", dst)
-        shutil.copyfile(filename, dst)
+    # For all of these, need to create the pngs, and also make thumbnails
+    if typ == "pdf" and "summary" not in filename:
+        # dst = cwd + "/to_upload/" + DIRECTORY_PATH + "-" + paper_id + ".pdf"
+        # # print("pdf found dst is ", dst)
+        # shutil.copyfile(filename, dst)
+        # Generate thumbnail image
+        dst = (
+            cwd
+            + "/to_upload/paper_images_small/"
+            + DIRECTORY_PATH
+            + "-"
+            + paper_id
+            + ".png"
+        )
+        cmd = "convert -density 300 '" + filename + "' -resize 600x '" + str(dst) + "'"
+
+        subprocess.call(cmd, shell=True)
+
+

@@ -77,10 +77,10 @@ class API {
    * @param paperOrPoster
    * @return {string}
    */
-  static thumbnailPath(paperOrPoster) {
-    if (!paperOrPoster.has_image)
+  static thumbnailPath(paperOrPoster, forceImage=true) {
+    console.log("thumbnailPath is ", `https://ieeevis.b-cdn.net/vis_2023/paper_images_small/${paperOrPoster.id}.png`)
+    if (!forceImage && !paperOrPoster.has_image)
       return "https://ieeevis.b-cdn.net/vis_2023/paper_images_small/blank.png";
-
     return `https://ieeevis.b-cdn.net/vis_2023/paper_images_small/${paperOrPoster.id}.png`;
   }
 

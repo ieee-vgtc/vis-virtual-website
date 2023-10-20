@@ -51,7 +51,9 @@ function finishCalendar(renderPromises) {
 
   // only when everything has rendered do we update times in the calendar
   Promise.all(renderPromises).then(() => {
-    updateTimezone();
+    setTimeout(() => {
+      updateTimezone();
+    }, 200)
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
   });
 }
@@ -731,14 +733,14 @@ function populateRooms(calendarSelection, roomNames, day) {
 
   let roomData = [
     { roomId: 'plenary', text: 'Plenary-1', link: 'plenary' },
-    { roomId: 'oneohone', text: '101-102(140)', link: 'oneohone' },
-    { roomId: 'oneohthree', text: '103(132)', link: 'oneohthree' },
-    { roomId: 'oneohfour', text: '104(132)', link: 'oneohfour' },
-    { roomId: 'oneohfive', text: '105(234)', link: 'oneohfive' },
-    { roomId: 'oneohsix', text: '106(234)', link: 'oneohsix' },
-    { roomId: 'oneohnine', text: '109(234)', link: 'oneohnine' },
-    { roomId: 'oneten', text: '110(234)', link: 'oneten' },
-    { roomId: 'oneeleven', text: '111-112(140)', link: 'oneeleven' },
+    { roomId: 'oneohone', text: '101-102', link: 'oneohone' },
+    { roomId: 'oneohthree', text: '103', link: 'oneohthree' },
+    { roomId: 'oneohfour', text: '104', link: 'oneohfour' },
+    { roomId: 'oneohfive', text: '105', link: 'oneohfive' },
+    { roomId: 'oneohsix', text: '106', link: 'oneohsix' },
+    { roomId: 'oneohnine', text: '109', link: 'oneohnine' },
+    { roomId: 'oneten', text: '110', link: 'oneten' },
+    { roomId: 'oneeleven', text: '111-112', link: 'oneeleven' },
   ];
 
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
@@ -828,23 +830,23 @@ function resetCalendar() {
 function updateTimezone() {
   // get timezone
   const timezone = getTimezone();
-
+  console.log("timezone is ", timezone, " and our times are ", $(".converted-timezone"))
   // apply timezone
   $(".converted-timezone").each((_, e) => {
     const element = $(e);
     const hourminutes = element.attr("data-time").split("-")[1];
 
     const time = moment(
-      `2023-10-16 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} +11:00`,
+      `2023-10-22 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} +11:00`,
       "YYYY-MM-DD HH:mm ZZ"
     );
-
     const converted_date = time.clone().tz(timezone);
     let converted_time = converted_date.format("HH:mm");
 
-    if (converted_date.format("DD") != time.format("DD"))
-      converted_time += "<br>+1 day";
+    // if (converted_date.format("DD") != time.format("DD"))
+    //   converted_time += "<br>+1 day";
 
+    console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
     element.html(converted_time);
   });
 }
