@@ -110,5 +110,9 @@ components.tabs([
   for (const day of days) {
     renderPromises.push(updateFullCalendar(day));
   }
-  finishCalendar(renderPromises);
+  // () => {
+  setTimeout(() => {
+    finishCalendar(renderPromises);    
+  }, 100)
+  // }
 </script>

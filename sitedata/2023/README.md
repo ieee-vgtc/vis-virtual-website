@@ -6,10 +6,10 @@
 The above video is a short introduction to the conference that includes a welcome message, how to navigate live and static content, and tips for navigating Gather, Discord, as well as this virtual conference website.
  -->
 
-<!-- <div class="embed-responsive embed-responsive-16by9 mb-4">
-<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/CPNFTMi9DOM?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9 mb-4">
+<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/V18W8vDPsaI?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
- -->
+
 Welcome to the content site for the IEEE VIS 2023 conference!  On this site, you can browse the schedule for the in-person conference happening in Melbourne, Australia, from Sunday, October 22, to Friday, October 27.  This page will be updated more as we get closer to the start of the conference on October 22.
 
 ### Social Media
