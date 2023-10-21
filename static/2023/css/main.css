@@ -741,6 +741,11 @@ div.session-url {
   padding-top: 3rem;
 }
 
+#small-program-link {
+  font-size: 0.8em;
+  text-align: center;
+}
+
 .alert-link {
   text-decoration: underline;
 }
