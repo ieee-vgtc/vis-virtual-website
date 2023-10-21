@@ -40,6 +40,19 @@
         [timezones-end];
 }
 
+#curr-time-indicator-line, #curr-time-indicator-label {
+    display: none;
+    color: rgb(106, 168, 104);
+}
+
+#curr-time-indicator-line {
+    border-color: rgb(106, 168, 104);
+}
+
+#curr-time-indicator-line::after {
+    border-color: rgb(106, 168, 104) !important;
+}
+
 .schedule-header {
     max-width: 1140px;
     display: grid;

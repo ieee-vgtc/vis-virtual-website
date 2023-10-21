@@ -56,6 +56,60 @@ function finishCalendar(renderPromises) {
     }, 200)
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
   });
+
+  // Lastly, we switch to today's calendar if it is during the conference
+  setTimeout(() => {
+    // const navigateToDay = (_ev, d) => {
+    //   const day_num = d.day.split("-")[1];
+    //   const day_name = dayData[day_num - 1].day;
+    //   $(`.nav-pills a[href="#tab-${day_name}"]`).tab("show");
+    // };
+    const tzDayOfWeek = moment.tz(moment(), "Australia/Melbourne").format('dddd')
+    const tzTime = moment.tz(moment(), "Australia/Melbourne").format('HHMM')
+    const tzTimeStr = moment.tz(moment(), "Australia/Melbourne").format('HH:MM')
+    const tzDate = moment.tz(moment(), "Australia/Melbourne").format('ddd, MMM DD')
+    // const tzDate = 'Tue, Oct 24';
+    // const tzDayOfWeek = 'Tuesday'
+    // const tzTime = "1113"
+    // const tzTimeStr = "11:13"
+
+    const conferenceDays = [
+      'Sun, Oct 22',
+      'Mon, Oct 23',
+      'Tue, Oct 24',
+      'Wed, Oct 25',
+      'Thu, Oct 26',
+      'Fri, Oct 27',
+      // 'Wed, Sep 06'
+      ]
+    // console.log("tzDate is ", tzDate)
+    if (conferenceDays.indexOf(tzDate) > -1) {    
+      $(`.nav-pills a[href="#tab-${tzDayOfWeek}"]`).tab("show");
+      // Also want to draw the horizontal line across the calendar
+      const timeslotStrings = $(`#tab-${tzDayOfWeek} .time-slot`).map((i, k) => k.dataset.time)
+      // console.log("we are in here, `#tab-${tzDayOfWeek} .time-slot` is ", `#tab-${tzDayOfWeek} .time-slot`, " and timeslotStrings is ", timeslotStrings)
+      let currTimeSlot = null;
+      // Scan through timeslots we find on the page in order
+      // Until we get to a timeslot that is later than current time
+      // When that happens, we draw an <hr> in the middle of the time slot
+      for (const ts of timeslotStrings) {
+        console.log("tzTime is ", tzTime, " and ts.slice(5) is ", ts.slice(5), " and parseInt(tzTime) < parseInt(ts.slice(5)) is ", (parseInt(tzTime) < parseInt(ts.slice(5))))
+        if (parseInt(tzTime) < parseInt(ts.slice(5))) {
+          break;
+        } else {
+          currTimeSlot = ts;
+        }
+      }
+
+      if (currTimeSlot) {
+        // Draw the thing
+        const position = $($(`#tab-${tzDayOfWeek} .time-slot[data-time="${currTimeSlot}"`)[0]).position()
+
+        $('#curr-time-indicator-line').css({top: position.top + 10, position: 'absolute', width: '77vw'}).show();
+        $('#curr-time-indicator-label').css({top: position.top + 45, left: 75, position: 'absolute', width: '77vw'}).html(`Now: ${tzTimeStr}`).show();
+      }
+    }
+  }, 200);
 }
 
 function getTimezone() {
@@ -830,7 +884,7 @@ function resetCalendar() {
 function updateTimezone() {
   // get timezone
   const timezone = getTimezone();
-  console.log("timezone is ", timezone, " and our times are ", $(".converted-timezone"))
+  // console.log("timezone is ", timezone, " and our times are ", $(".converted-timezone"))
   // apply timezone
   $(".converted-timezone").each((_, e) => {
     const element = $(e);
@@ -846,7 +900,7 @@ function updateTimezone() {
     // if (converted_date.format("DD") != time.format("DD"))
     //   converted_time += "<br>+1 day";
 
-    console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
+    // console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
     element.html(converted_time);
   });
 }
