@@ -79,7 +79,7 @@
        image: monash.png
        url: "https://www.monash.edu/it"
      - name: "JPMorgan Chase"
-       image: jpmchase.png
+       image: jpmchase_transparent2.png
        url: "https://www.jpmorganchase.com/"
 
  - category: Pearl
