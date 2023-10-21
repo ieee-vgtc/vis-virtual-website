@@ -14,6 +14,39 @@ components.tabs([
 
 
 <!-- Calendar tab -->
+
+<div class="schedule-header">
+
+  <div class="tz" style="grid-column: times / day-2-end; grid-row: timezones;">
+    <span class="tz-title">Your timezone</span>
+    <div class="">
+      <select class="tzOptions selectpicker"></select>
+      <!-- <button type="button" id="saveTz" class="btn btn-light">
+        <span class="fas mr-1">&#xf0c7;</span>
+        Set
+      </button> -->
+      <button type="button" class="resetTz btn btn-light">
+        <span class="fas mr-1">&#xf0e2;</span>
+        <!-- Reset -->
+      </button>
+    </div>
+  </div>
+
+  <div class="filter" style="grid-column: day-2-end / day-4-end; grid-row: timezones;">
+    <span class="tz-title">Your filters</span>
+    <div
+      class="btn-group btn-group-toggle filterOptions"
+      data-toggle="buttons"
+    >
+    </div>
+  </div>
+
+  <div class="tz tz-right">
+    <span class="tz-title">Conference timezone</span>
+    <span class="tz-description">Melbourne</span>
+    <span class="tz-description">Australian Eastern Daylight Time (AEDT, UTC+11)</span>
+  </div>
+</div>
 <div
   class="tab-pane active"
   id="tab-calendar"
@@ -25,35 +58,6 @@ components.tabs([
   <!-- <div id="calendar" class="d-none d-sm-block"></div> -->
 
   <div class="schedule" id="calendar">
-
-    <div class="tz" style="grid-column: times / day-2-end; grid-row: timezones;">
-      <span class="tz-title">Your timezone</span>
-      <div class="">
-        <select class="tzOptions selectpicker"></select>
-        <!-- <button type="button" id="saveTz" class="btn btn-light">
-          <span class="fas mr-1">&#xf0c7;</span>
-          Set
-        </button> -->
-        <button type="button" class="resetTz btn btn-light">
-          <span class="fas mr-1">&#xf0e2;</span>
-          <!-- Reset -->
-        </button>
-      </div>
-    </div>
-
-    <div class="filter" style="grid-column: day-2-end / day-3-end; grid-row: timezones;">
-      <span class="filter-title">Filtering</span>
-      <div class="">
-        <select class="filterOptions selectpickerFilter"></select>
-      </div>
-    </div>
-
-    <div class="tz tz-right">
-      <span class="tz-title">Conference timezone</span>
-      <span class="tz-description">Oklahoma (America/Chicago)</span>
-      <span class="tz-description">US Central Time (CT, UTC-5)</span>
-    </div>
-
     <!-- session information to be filled in by javascript / schedule json  -->
   </div>
 
@@ -77,28 +81,6 @@ components.tabs([
 {% for day in days %}
 <div class="tab-pane fade" id="tab-{{ day }}" role="tabpanel" aria-labelledby="nav-profile-tab">
   <div class="schedule schedule-day" id="calendar-{{ day }}">
-    <div class="tz" style="grid-column: times / room3-end; grid-row: timezones;">
-      <span class="tz-title">Your timezone</span>
-      <div class="">
-        <select class="tzOptions selectpicker"></select>
-        <button type="button" class="resetTz btn btn-light">
-          <span class="fas mr-1" aria-label="Reset">&#xf0e2;</span>
-        </button>
-      </div>
-    </div>
-
-    <div class="filter" style="grid-column: ok3-end / ok5-end; grid-row: timezones;">
-      <span class="filter-title">Filtering</span>
-      <div class="">
-        <select class="filterOptions selectpickerFilter"></select>
-      </div>
-    </div>
-
-    <div class="tz tz-right">
-      <span class="tz-title">Conference timezone</span>
-      <span class="tz-description">Oklahoma City (America/Chicago)</span>
-      <span class="tz-description">US Central Time (CT, UTC-5)</span>
-    </div>
 
     <!-- rest of the calendar will be filled in -->
 
@@ -130,5 +112,9 @@ components.tabs([
   for (const day of days) {
     renderPromises.push(updateFullCalendar(day));
   }
-  finishCalendar(renderPromises);
+  // () => {
+  setTimeout(() => {
+    finishCalendar(renderPromises);    
+  }, 100)
+  // }
 </script>

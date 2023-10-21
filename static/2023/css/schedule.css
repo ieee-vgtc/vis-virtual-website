@@ -5,24 +5,27 @@
     display: grid;
     gap: 0.5em;
     grid-template-rows:
-        [timezones] auto
+        0.2fr
         [tracks] auto
-        [time-0830] 0.5fr
+        [time-0845] 0.5fr
         /*[time-0745 time-0740] 0.5fr*/
-        [time-0900 time-0850] 3fr
+        [time-0900] 3fr
         /*[time-0845] 1.5fr*/
         /*[time-0930 time-0920 time-0910 time-0925] 0.5fr*/
         /*[time-0945] 0.5fr*/
-        [time-1000 time-1005 time-1015] .5fr
-        [time-1045] 3fr
+        [time-1000 time-1005] .5fr
+        [time-1015] .5fr
+        [time-1030] .5fr
+        [time-1045] .5fr
+        [time-1100] 2fr
         /*[time-1130 time-1120 time-1115 time-1125] 1fr*/
         [time-1200] 2fr
         /*[time-1300] 0.5fr*/
         /*[time-1315 time-1314] 0.5fr*/
         /*[time-1330 time-1320 time-1317] 1fr*/
         [time-1400] 3fr
-        [time-1515] .5fr
-        [time-1545] 3fr
+        [time-1510 time-1515] .5fr
+        [time-1540 time-1545] 3fr
         [time-1700];
 
     grid-template-columns:
@@ -41,49 +44,94 @@
     display: none;
 }
 
+.schedule-header {
+    max-width: 1140px;
+    display: grid;
+    gap: 0.5em;
+
+    grid-template-rows:
+        0.2fr
+        [timezones] auto;
+
+    grid-template-columns:
+        [times] 5em
+        [day-1-start] 1fr
+        [day-1-end day-2-start] 1fr
+        [day-2-end day-3-start] 1fr
+        [day-3-end day-4-start] 1fr
+        [day-4-end day-5-start] 1fr
+        [day-5-end day-6-start] 1fr
+        [day-6-end timezones] 5em
+        [timezones-end];
+}
+
 /* one additional column; max 8 concurrent rooms */
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
-        [ok1-start] 1fr
-        [ok1-end ok4-start] 1fr
-        [ok4-end ok5-start] 1fr
-        [ok5-end ok6-start] 1fr
-        [ok6-end ok7-start] 1fr
-        [ok7-end ok8-start] 1fr
-        [ok8-end mistletoe-start] 1fr
-        [mistletoe-end pinon-start] 1fr
-        [pinon-end timezones] 5em
+        [plenary-start] 1fr
+        [plenary-end oneohone-start] 1fr
+        [oneohone-end oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end oneten-start] 1fr
+        [oneten-end oneeleven-start] 1fr
+        [oneeleven-end timezones] 5em
         [timezones-end];
 }
 
 /* customize layout per-day */
-/*#calendar-Tuesday {
+#calendar-Sunday, #calendar-Monday {
     grid-template-columns:
         [times] 5em
-        [room1-start] 1fr
-        [room1-end room2-start] 1fr
-        [room2-end room3-start] 1fr
-        [room3-end room4-start] 1fr
-        [room4-end room5-start] 1fr
-        [room5-end timezones] 5em
+        [oneohone-start] 1fr
+        [oneohone-end oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end oneten-start] 1fr
+        [oneten-end oneeleven-start] 1fr
+        [oneeleven-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Tuesday {
+    grid-template-columns:
+        [times] 5em
+        [plenary-start] 1fr
+        [plenary-end other-start] 1fr
+        [other-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Wednesday, #calendar-Thursday {
+    grid-template-columns:
+        [times] 5em
+        [oneohone-start] 1fr
+        [oneohone-end oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end timezones] 5em
         [timezones-end];
 }
 
 #calendar-Friday {
     grid-template-columns:
         [times] 5em
-        [room1-start] 1fr
-        [room1-end room2-start] 1fr
-        [room2-end room3-start] 1fr
-        [room3-end room4-start] 1fr
-        [room4-end room5-start] 1fr
-        [room5-end room6-start] 1fr
-        [room6-end room7-start] 1fr
-        [room7-end timezones] 5em
+        [oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end timezones] 5em
         [timezones-end];
 }
-*/
+
 .tz {
     display: flex;
     flex-direction: column;
@@ -157,7 +205,7 @@
 }
 
 .session {
-    padding: 1.5em 0.5em 0.5em 0.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     font-size: 0.9em;
     overflow: hidden;
     text-overflow: ellipsis;

@@ -59,11 +59,15 @@
                     </a>
                 </h5>
             {% endif %} -->
+        {% if paper.session_room %}
+            <h3 class="session-room mt-4">
+                <span class="fas mr-1">&#xf108;</span>
+                Room: {{ paper.session_room }}
+            </h3>
+        {% endif %}
+
             <h5 class="paper-presentation pb-2">
 
-                <a href="session_{{ paper.session_id }}.html">
-                    <span class="fas mr-1">&#xf108;</span>
-                    View presentation:</a>
                 <span class="format-date">{{ paper.time_stamp }}</span>
                 <span alt="Change timezone on schedule page" class="timezone tztooltip">
                     <strong>GMT<span class="selectedTimezone">-0600</span></strong>
@@ -82,7 +86,7 @@
             <figure class="figure">
                 {% if paper.has_image %}
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2023/paper_images/{{ paper.id }}.png"
+                         src="https://ieeevis.b-cdn.net/vis_2023/paper_images/{{paper.id}}.png"
                          alt="Exemplar figure, described by caption below"
                          aria-describedby="figure-caption">
                 {% else %}
@@ -103,21 +107,56 @@
                 <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.prerecorded_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
             {% endif %}
-            <p>
-                The live footage of the talk, including the Q&A, can be viewed on the session page, <a
-                            href="session_{{ paper.session_id }}.html">{{ paper.session_title }}</a>.
-            </p>
         </div>
     </div>
                 
 
-
-    {% if paper.youtube_ff_id %}
+    {% if paper.session_youtube_ff_id %}
     <div class="row my-3">
         <div class="col-md-8">
             <h5 class="paper-details-heading">Fast forward</h5>
-            <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.youtube_ff_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-            <!-- <p class="integration-description pt-2">Direct link to Video: <a href="https://ieeevis.b-cdn.net/vis_2023/fast_forwards/{{ paper.youtube_ff_url }}.mp4">{{ paper.youtube_ff_url }}.mp4</a></p> -->
+            <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.session_youtube_ff_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <!-- <p class="integration-description pt-2">Direct link to Video: <a href="https://ieeevis.b-cdn.net/vis_2023/fast_forwards/{{ paper.youtube_ff_link }}.mp4">{{ paper.session_youtube_ff_link }}.mp4</a></p> -->
+        </div>
+    </div>
+    {% elif paper.session_bunny_ff_link %}
+    <div class="row my-3">
+        <div class="col-md-8">
+            <h5 class="paper-details-heading">Fast forward</h5>
+                <video controls width="720" crossorigin="anonymous" >
+                    <source src="{{paper.session_bunny_ff_link}}" type="video/mp4" />
+                    <track
+                        label="English"
+                        kind="subtitles"
+                        srclang="en"
+                        src="{{paper.session_bunny_ff_subtitles}}"
+                        default />
+                </video>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if paper.session_youtube_prerecorded_id %}
+    <div class="row my-3">
+        <div class="col-md-8">
+            <h5 class="paper-details-heading">Full Video</h5>
+            <iframe width="730" height="410" src="https://www.youtube-nocookie.com/embed/{{ paper.session_youtube_prerecorded_id }}?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <!-- <p class="integration-description pt-2">Direct link to Video: <a href="https://ieeevis.b-cdn.net/vis_2023/fast_forwards/{{ paper.youtube_ff_link }}.mp4">{{ paper.session_youtube_ff_link }}.mp4</a></p> -->
+        </div>
+    </div>
+    {% elif paper.session_bunny_prerecorded_link %}
+    <div class="row my-3">
+        <div class="col-md-8">
+            <h5 class="paper-details-heading">Full Video</h5>
+                <video controls width="720" crossorigin="anonymous" >
+                    <source src="{{paper.session_bunny_prerecorded_link}}" type="video/mp4" />
+                    <track
+                        label="English"
+                        kind="subtitles"
+                        srclang="en"
+                        src="{{paper.session_bunny_prerecorded_subtitles}}"
+                        default />
+                </video>
         </div>
     </div>
     {% endif %}

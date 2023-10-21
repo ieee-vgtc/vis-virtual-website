@@ -312,9 +312,9 @@ sortBySelector.on("change", (e) => {
 const keyword = (kw) => `<a href="papers.html?filter=keywords&search=${kw}"
                        class="text-secondary text-decoration-none">${kw.toLowerCase()}</a>`;
 
-const card_image = (paper, show) => {
-  if (show && paper.has_image)
-    return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(paper)}" width="80%"/></center>`;
+const card_image = (paper, show, forceImage=false) => {
+  if (show && (paper.has_image || forceImage))
+    return ` <center><img class="lazy-load-img cards_img" data-src="${API.thumbnailPath(paper, forceImage)}" width="80%"/></center>`;
   return "";
 };
 
@@ -451,7 +451,7 @@ const card_poster_html = (poster) =>
     .join(",")}
               </div>
 
-              <div>${card_image(poster, render_mode !== MODE.mini)}</div>
+              <div>${card_image(poster, render_mode !== MODE.mini, true)}</div>
               <div class="card-footer">&nbsp</div>
             </div>
 
