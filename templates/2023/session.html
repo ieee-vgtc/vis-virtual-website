@@ -14,6 +14,7 @@
                 <li class="breadcrumb-item" aria-current="page"><a href="events.html">All events</a></li>
                 <li class="breadcrumb-item"><a href="event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
                 <li class="breadcrumb-item active text-truncate" aria-current="page">{{ session.title }}</li>
+
             </ol>
         </nav>
 
@@ -59,20 +60,57 @@
     <div class="col-md-3 session-links">
         <h5 class="session-info my-4">
             <a href="#list">
+                <span class="fas mr-2">&#xf358;</span>
                 Jump to event listing
-                <span class="fas mr-2">&#xf358;</span></a>
+                </a>
         </h5>
         {% if session.ff_playlist %}
         <h5 class="session-info my-4">
             <a href="#ff">
+                <span class="fas mr-2">&#xf87c;</span>
                 Jump to Fast Forwards
-                <span class="fas mr-2">&#xf87c;</span></a>
+                </a>
         </h5>
         {% endif %}
         <h5 class="session-info my-4">
             <a href="https://ieeevis.b-cdn.net/vis_2023/ics/{{ session.id }}.ics">
                 <span class="fas mr-2">&#xf073;</span>
                 Add to Calendar</a></h5>
+        {% if session.id == "full0" %}
+            <div class="alert alert-primary session-sponsor-alert">
+                <h5 class="session-sponsor">
+                    <div>
+                        <span class="fas mr-1">&#xf164;</span>
+                        Session Sponsor
+                    </div>
+                    <div>
+                        <!-- KAUST Best Papers 1 Sponsor -->
+                        <a href="http://vcc.kaust.edu.sa/">
+                          <img class="my-3 mr-3" src="https://ieeevis.b-cdn.net/vis_2023/sponsors/vcc_kaust.png" width="220" alt="KAUST"></a>
+                    </div>
+                    <div class="session-sponsor-name">KAUST</div>
+                </h5>
+            </div>
+        {% elif session.id == "full12" %}
+            <div class="alert alert-primary session-sponsor-alert">
+                <h5 class="session-sponsor">
+                    <div>
+                        <span class="fas mr-1">&#xf164;</span>
+                        Session Sponsor
+                    </div>
+                    <!-- JPMorgan Chase Immersive Analytics Sponsor -->
+                    <div>
+                        <a href="https://www.jpmorganchase.com/">
+                          <img class="my-3 mr-3" src="https://ieeevis.b-cdn.net/vis_2023/sponsors/jpmchase_transparent2.png" width="220" alt="JPMorgan Chase"></a>
+                    </div>
+                    <div>
+                        JPMorgan Chase
+                    </div>
+                </h5>
+            </div>
+        {% endif %}
+
+
     </div>
 </div>
 

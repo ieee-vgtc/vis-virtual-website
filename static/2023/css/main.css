@@ -622,7 +622,8 @@ hr::after {
 }
 
 .session-chair,
-.session-url
+.session-url,
+.session-sponsor
 {
   font-family: "Fira Sans", sans-serif;
   color: var(--text-dark-color);
@@ -725,10 +726,15 @@ div.session-url {
 /* session page styling */
 
 .session-chair .fas,
-.session-date .fas
+.session-date .fas,
+.session-sponsor .fas
 {
   font-size: 0.75em;
   vertical-align: baseline;
+}
+
+.session-sponsor-alert {
+  text-align: center;
 }
 
 .session-links {
