@@ -64,14 +64,14 @@ function finishCalendar(renderPromises) {
     //   const day_name = dayData[day_num - 1].day;
     //   $(`.nav-pills a[href="#tab-${day_name}"]`).tab("show");
     // };
-    // const tzDayOfWeek = moment.tz(moment(), "Australia/Melbourne").format('dddd')
-    // const tzTime = moment.tz(moment(), "Australia/Melbourne").format('HHMM')
-    // const tzTimeStr = moment.tz(moment(), "Australia/Melbourne").format('HH:MM')
-    // const tzDate = moment.tz(moment(), "Australia/Melbourne").format('ddd, MMM DD')
-    const tzDate = 'Tue, Oct 24';
-    const tzDayOfWeek = 'Tuesday'
-    const tzTime = "1113"
-    const tzTimeStr = "11:13"
+    const tzDayOfWeek = moment.tz(moment(), "Australia/Melbourne").format('dddd')
+    const tzTime = moment.tz(moment(), "Australia/Melbourne").format('HHMM')
+    const tzTimeStr = moment.tz(moment(), "Australia/Melbourne").format('HH:MM')
+    const tzDate = moment.tz(moment(), "Australia/Melbourne").format('ddd, MMM DD')
+    // const tzDate = 'Tue, Oct 24';
+    // const tzDayOfWeek = 'Tuesday'
+    // const tzTime = "1113"
+    // const tzTimeStr = "11:13"
 
     const conferenceDays = [
       'Sun, Oct 22',
