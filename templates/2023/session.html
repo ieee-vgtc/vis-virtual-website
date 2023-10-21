@@ -199,13 +199,12 @@
         {% else %}
         <h3 class="session-list-title">{{ timeslot.title }}</h3>
         {% endif %}
+        <h5 class="session-list-presenter">
+            Authors: {{ timeslot.authors | join(", ") }}
+        </h5>
         <h4 class="session-list-presenter mt-3">
             <span class="fas mr-1">&#xf21d;</span>
             {{ timeslot.contributors | join(", ") }}
-        </h4>
-        <h5 class="session-list-type">
-            <span class="fas mx-1">&#xf027;</span>
-            {{ timeslot.type }}
         </h4>
         <h5 class="session-list-time">
             <span class="fas mr-1">&#xf017;</span>
