@@ -58,6 +58,13 @@
                         Download paper PDF
                     </a>
                 </h5>
+            {% elif paper.has_fno %} 
+                <h5 class="paper-link pb-2">
+                    <a href="https://ieeexplore.ieee.org/document/{{ paper.fno }}">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        Access paper PDF
+                    </a>
+                </h5>            
             {% endif %}
         {% if paper.session_room %}
             <h3 class="session-room mt-4">
