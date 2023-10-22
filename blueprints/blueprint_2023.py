@@ -337,6 +337,8 @@ def format_paper(v):
         "award": v["paper_award"],
         "has_image": v["has_image"],
         "has_pdf": v["has_pdf"],
+        "has_fno": (len(v["fno"]) > 0) if "fno" in v else False,
+        "fno": v["fno"] if "fno" in v else None,
         "image_caption": v["image_caption"],
         "external_paper_link": v["external_paper_link"],
         "youtube_ff_url": v["ff_link"] if "ff_link" in v else None,

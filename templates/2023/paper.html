@@ -53,11 +53,18 @@
             {% endif %}
             {% if paper.has_pdf %}
                 <h5 class="paper-link pb-2">
-                    <a href="https://ieeevis.b-cdn.net/vis_2023/pdfs/{{ paper.id }}.pdf" style="display:none">
+                    <a href="https://ieeevis.b-cdn.net/vis_2023/pdfs/{{ paper.id }}.pdf">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download paper PDF
                     </a>
                 </h5>
+            {% elif paper.has_fno %} 
+                <h5 class="paper-link pb-2">
+                    <a href="https://ieeexplore.ieee.org/document/{{ paper.fno }}">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        Access paper PDF
+                    </a>
+                </h5>            
             {% endif %}
         {% if paper.session_room %}
             <h3 class="session-room mt-4">
@@ -188,19 +195,6 @@
           allBookmarks.classed('selected', is_bookmarked);
         })
         API.markSet(API.storeIDs.visited, paperID, true);
-
-        // Let's only show the paper pdf link if there is an actual pdf available
-        $('.paper-link a').each(function() {
-            let url = $(this).attr('href');
-            let linkObject = $(this);
-            $.get(url)
-                .done(function() { 
-                    // it exists, we show it
-                    linkObject.show();
-                }).fail(function() { 
-                    // it doesn't exist, lets leave it display none
-            })
-        })
 
       })
 

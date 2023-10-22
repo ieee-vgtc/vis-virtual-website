@@ -1286,5 +1286,471 @@
         "has_summary_pdf": true,
         "has_poster_pdf": true,
         "has_image": false
+    },
+    "a-scivis-contest-1001": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-scivis-contest",
+        "title": "Immersive Exploration of Brain Simulation Data",
+        "uid": "a-scivis-contest-1001",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [],
+        "presenting_author_name": "Hans-J\u00f6rg Schulz",
+        "presenting_author_email": "hjschulz@cs.au.dk|mhograefer@cs.au.dk",
+        "abstract": "",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-scivis-contest-1005": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-scivis-contest",
+        "title": "PlastiVis: An Interactive Visualization Tool for Synaptic Networks",
+        "uid": "a-scivis-contest-1005",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [],
+        "presenting_author_name": "Sonnet Xu",
+        "presenting_author_email": "sonnet.xu@gmail.com|Tommy.Dang@ttu.edu",
+        "abstract": "",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-scivis-contest-1007": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-scivis-contest",
+        "title": "NeuroViz: Visual Analytics of Neural Behavior in Temporal Plasticity Changes",
+        "uid": "a-scivis-contest-1007",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [],
+        "presenting_author_name": "Yue Li",
+        "presenting_author_email": "li1023@cnic.cn|hanxiaoyang@cnic.cn",
+        "abstract": "",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-scivis-contest-1010": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-scivis-contest",
+        "title": "An Interactive Visualization for Neuronal Network Simulations of Plasticity Changes in the Human Brain",
+        "uid": "a-scivis-contest-1010",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [],
+        "presenting_author_name": "Felix Fleisch",
+        "presenting_author_email": "felix.fleisch@uni-jena.de|kai.lawonn@uni-jena.de",
+        "abstract": "",
+        "has_summary_pdf": true,
+        "has_poster_pdf": false,
+        "has_image": false
+    },
+    "a-scivis-contest-1011": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-scivis-contest",
+        "title": "Exploring Synaptic Plasticity with NeuroCavePlus",
+        "uid": "a-scivis-contest-1011",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [],
+        "presenting_author_name": "Morris Chukhman",
+        "presenting_author_email": "morrisc@gmail.com",
+        "abstract": "",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-scivis-contest-1012": {
+        "event": "SciVis Contest",
+        "event_prefix": "a-scivis-contest",
+        "title": "VisAnywhere: Developing Multi-platform Scientific Visualization Applications",
+        "uid": "a-scivis-contest-1012",
+        "discord_channel": "",
+        "authors": [],
+        "author_affiliations": [],
+        "presenting_author_name": "Thomas Marrinan",
+        "presenting_author_email": "thomas.j.marrinan@gmail.com",
+        "abstract": "",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "w-cityvis-1017": {
+        "event": "CityVis",
+        "event_prefix": "w-cityvis",
+        "title": "The Use of Causal Loop Diagrams to Explore People-Centred Data Governance in Australian Cities",
+        "uid": "w-cityvis-1017",
+        "discord_channel": "",
+        "authors": [
+            "Jessica Bou Nassar",
+            "Sarah Goodwin",
+            "Lyn Bartram",
+            "Darren Sharp",
+            "misita anwar"
+        ],
+        "author_affiliations": [
+            "Jessica Bou Nassar: Monash University",
+            "Sarah Goodwin: Monash University",
+            "Lyn Bartram: Simon Fraser University",
+            "Darren Sharp: Monash University",
+            "misita anwar: Monash University"
+        ],
+        "presenting_author_name": "Jessica Bou Nassar",
+        "presenting_author_email": "jessica.bounassar@monash.edu",
+        "abstract": "In this study, we explore, through co-creation, how Australian cities might incorporate a people-centred data governance ecosystem. We use CLDs (1) during interviews to elicit perspectives from various stakeholders in cities regarding the current state of data governance and (2) during workshops for solution ideation. In this work we focus on the multiplicity of perspectives regarding DG in Australian cities. We aim to co-create a conceptual model of the status quo of data governance and explore solutions to achieve people-centred DG. An interactive visualisation of the model will showcase the diversity of perspectives, delineate the power dynamics underpinning data governance in Australian cities in an accessible manner, and portray people-centred solutions.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": false,
+        "has_image": false
+    },
+    "w-cityvis-1013": {
+        "event": "CityVis",
+        "event_prefix": "w-cityvis",
+        "title": "Visualizing Scalar Effects of Urban Data Aggregation",
+        "uid": "w-cityvis-1013",
+        "discord_channel": "",
+        "authors": [
+            "Jonathan K Nelson"
+        ],
+        "author_affiliations": [
+            "Jonathan K Nelson: University of Wisconsin-Madison"
+        ],
+        "presenting_author_name": "Jonathan Nelson",
+        "presenting_author_email": "jknelson3@wisc.edu",
+        "abstract": "The process of geospatial data aggregation provides a means for abstracting the complexity of urban systems to not just better understand them, but also protect the privacy of the individuals within them. However, level of aggregation and the arbitrary sizes, shapes, and arrangements of areal units may lead to statistical and visual bias that affects the reliability and validity of findings derived from the analysis of areally aggregated urban data. This bias and resulting analytical uncertainty \u2013 known as the Modifiable Areal Unit Problem (MAUP) \u2013 has implications for public policy implementation and allocation of critical resources in both urban and rural areas. Despite a wealth of geographic research on MAUP and development of advanced statistical approaches to quantifying its effects, many of these insights and techniques remain largely inaccessible and subsequently unadopted by GIS professionals working on city planning applications. This paper introduces a simple vector-to-raster choropleth mapping workflow that enables a broad range of urban analysts to visually assess the scalar effects of the modifiable areal unit problem.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": false,
+        "has_image": false
+    },
+    "w-cityvis-1014": {
+        "event": "CityVis",
+        "event_prefix": "w-cityvis",
+        "title": "How Far Can Public Transport Take You?",
+        "uid": "w-cityvis-1014",
+        "discord_channel": "",
+        "authors": [
+            "Markus Trainer",
+            "Christina Humer",
+            "Patrick Adelberger",
+            "Marc Streit"
+        ],
+        "author_affiliations": [
+            "Markus Trainer: Johannes Kepler University Linz",
+            "Christina Humer: Johannes Kepler University Linz",
+            "Patrick Adelberger: Johannes Kepler University Linz",
+            "Marc Streit: Johannes Kepler University Linz"
+        ],
+        "presenting_author_name": "Markus Trainer",
+        "presenting_author_email": "markustrainer000@gmail.com",
+        "abstract": "Sustainable mobility is crucial in our current era. Our proposed interactive web application provides a user-friendly way to evaluate public transport networks and analyze how well connected a user defined location is. The current implementation comprises data from all Austrian public transport systems but can be extended with data from any provider. We made the code available on github: github.com/jku-vds-lab/publictransport. The tool can be tested in the deployed version: publictransport.jku-vds-lab.at.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "w-energyvis-1001": {
+        "event": "EnergyVis papers",
+        "event_prefix": "w-energyvis",
+        "title": "Alternatives to Contour Visualizations for Power Systems Data",
+        "uid": "w-energyvis-1001",
+        "discord_channel": "",
+        "authors": [
+            "Isaiah Lyons-Galante",
+            "Morteza Karimzadeh",
+            "Sam Molnar",
+            "Graham Johnson",
+            "Kenny Gruchalla"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "Isaiah Lyons-Galante",
+        "presenting_author_email": "isaiah.lyons-galante@colorado.edu",
+        "abstract": "Electrical grids are geographical and topological structures whose voltage states are challenging to represent accurately and efficiently for visual analysis. The current common practice is to use colored contour maps, yet these can misrepresent the data. We examine the suitability of four alternative visualization methods for depicting voltage data in a geographically dense distribution system\u2014Voronoi polygons, H3 tessellations, S2 tessellations, and a network-weighted contour map. We find that Voronoi tessellations and network-weighted contour maps more accurately represent the statistical distribution of the data than regular contour maps.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "w-energyvis-1005": {
+        "event": "EnergyVis papers",
+        "event_prefix": "w-energyvis",
+        "title": "Virtual Reality for Enhancing Engagement with Net Zero Transitions",
+        "uid": "w-energyvis-1005",
+        "discord_channel": "",
+        "authors": [
+            "Amal Alshardy",
+            "Sarah Goodwin",
+            "Andres Santos-Torres",
+            "Ariel Liebman"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "Mrs Amal Hussain Alshardy",
+        "presenting_author_email": "ahshardy@uqu.edu.sa",
+        "abstract": "Immersive experiences can increase engagement and improve data understanding. We explore the use of virtual reality to visualise the complexities of electric networks and facilitate a greater understand- ing of net zero initiatives. We propose that an abstract metaphorical immersive experience can provide an intuitive overview of the complex components of energy networks and how they behave over time in response to fluctuating supply and demand in order to achieve stability and sustainability. This work aims to enable a variety of stakeholders to better understand and associate the complexities in the systems and be aware of the connections over time and space. Using the Monash University electric network system as a case study, we explore the network dynamics and fluctuations over time. The virtual reality experience allows users to view campus electricity assets and local and remote energy sources, as well as witness the dynamics of the network. Thus, the complexities of the energy system and its impact on sustainability can be more readily understood.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "w-energyvis-1008": {
+        "event": "EnergyVis papers",
+        "event_prefix": "w-energyvis",
+        "title": "Exploring the Benefits of Geography on Power Network Diagrams",
+        "uid": "w-energyvis-1008",
+        "discord_channel": "",
+        "authors": [
+            "Merry Hoang",
+            "Sarah Goodwin",
+            "Michael Wybrow",
+            "Ying Yang"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "Sarah Goodwin",
+        "presenting_author_email": "sarah.goodwin@monash.edu",
+        "abstract": "This paper introduces an interactive visualisation that combines a spatial element to the single line diagram (SLD). SLDs are conceptual maps of the power network used by power engineers to understand the connectivity between assets of the network, study power flow, and maintain grid stability and security. Enabling users with varying degrees of electrical knowledge to understand the geographical aspect of the SLD was the key design goal. Developed through an iterative process, the visualisation intuitively transitions from an SLD view to a map view. Evaluation of the visualisation during, and following development revealed that the prototype was well-liked and that having a spatial element to the SLD was useful in understanding the geographical relationships in the power network. The evaluation also helped identify stakeholders with an interest in the hybrid view and showed the prototype\u2019s potential utility in communicating technical data to electrical non-technical users.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-vast-challenge-1015": {
+        "event": "VAST Challenge",
+        "event_prefix": "a-vast-challenge",
+        "title": "Purdue-Chen-MC3",
+        "uid": "a-vast-challenge-1015",
+        "discord_channel": "",
+        "authors": [
+            "Ava Zhao",
+            "Zhanqi Su",
+            "William C Fei",
+            "Na Zhuo",
+            "Hao Wang",
+            "Tianzhou Yu",
+            "Zuotian Li",
+            "Zhenyu Cheryl Qian",
+            "Yingjie Victor Chen"
+        ],
+        "author_affiliations": [
+            "Ava Zhao: Phillips Exeter Academy",
+            "Zhanqi Su: Carmel High School",
+            "William C Fei: Purdue University",
+            "Na Zhuo: Purdue University",
+            "Hao Wang: Purdue University",
+            "Tianzhou Yu: The Chinese University of Hong Kong",
+            "Zuotian Li: Purdue University",
+            "Zhenyu Cheryl Qian: Purdue University",
+            "Yingjie Victor Chen: Purdue University"
+        ],
+        "presenting_author_name": "Zuotian Li",
+        "presenting_author_email": "li4007@purdue.edu",
+        "abstract": "To solve the VAST Challenge 2023 MC3, our team employed a large language model, ChatGPT, to explore the potential of AI-guided visual analytics for the detection of anomalies within a knowledge graph in the context of illegal fishing and marine trade. We employed a systematic and iterative approach, guided by GPT augmentation, that enabled problem understanding, data processing, solution explo- ration, code writing, and results analysis. By generating and analyz- ing various graphs, we identified anomalies related to revenue and product services. Further analyses unveiled potential illegal fishing activities and identified instances warranting additional investigation. Overall, our work highlights both the strengths and limitations of ChatGPT in aiding the visual analytics process and emphasizes the importance of human judgment in refining AI-generated outputs.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-vast-challenge-1017": {
+        "event": "VAST Challenge",
+        "event_prefix": "a-vast-challenge",
+        "title": "FishHook: A Visual Analytics System for Tracing Suspicious Entities in the Fisheries Domain using Knowledge Graphs",
+        "uid": "a-vast-challenge-1017",
+        "discord_channel": "",
+        "authors": [
+            "Jingfu Wu",
+            "Diyun Lu",
+            "Lei Chen",
+            "Ningyi Peng",
+            "Fan Yang",
+            "Xinyu Tang",
+            "Yuxin Ma"
+        ],
+        "author_affiliations": [
+            "Jingfu Wu: Southern University of Science and Technology",
+            "Diyun Lu: Southern University of Science and Technology",
+            "Lei Chen: Southern University of Science and Technology",
+            "Ningyi Peng: Southern University of Science and Technology",
+            "Fan Yang: SUSTech",
+            "Xinyu Tang: Southern University of Science and Technology",
+            "Yuxin Ma: Southern University of Science and Technology"
+        ],
+        "presenting_author_name": "Jingfu Wu",
+        "presenting_author_email": "wujingf25@163.com",
+        "abstract": "Undertaking the visual exploration of a large knowledge graph in the domain of illegal fishery activities, FishHook offers an interactive visual analytics solution for scrutinizing individual entities via four distinct views: the Ego Net view, the Hierarchical Tree view, the Unity Net view, and the Parallel Coordinates view. The system incorporates an anomalous pattern detection mechanism, which is designed to address the challenges detailed in the 2023 IEEE VAST Challenge MC1. This integrated solution not only demonstrates robustness and scalability but also provides a powerful tool for comprehending large-scale knowledge graph datasets.",
+        "has_summary_pdf": false,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-biomedchallenge-5794": {
+        "event": "Bio+MedVis Challenge Papers",
+        "event_prefix": "a-biomedchallenge",
+        "title": "PepProEx - Peptide and Protein Exploration Framework",
+        "uid": "a-biomedchallenge-5794",
+        "discord_channel": "",
+        "authors": [
+            "Vikash Prasad",
+            "Ji Hwan Park"
+        ],
+        "author_affiliations": [
+            "Vikash Prasad: University of Oklahoma",
+            "Ji Hwan Park: University of Oklahoma"
+        ],
+        "presenting_author_name": "Vikash Prasad",
+        "presenting_author_email": "vikash.k.prasad-1@ou.edu",
+        "abstract": "We present a visual analytics framework, PepProEx, for unraveling peptide and protein interactions. In the framework, users can understand holistic trends, discover patterns, and get insights from the peptide/protein intensity data. Our framework provides multiple linked views to navigate intricate tissue/cancer-related dynamics. We enable researchers to shift effortlessly from an overview of the input data to granular statistical insights.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-biomedchallenge-3267": {
+        "event": "Bio+MedVis Challenge Papers",
+        "event_prefix": "a-biomedchallenge",
+        "title": "ProtEGOnist \u2013 Exploration of protein-protein interactions using ego-graph networks",
+        "uid": "a-biomedchallenge-3267",
+        "discord_channel": "",
+        "authors": [
+            "Nicolas Brich",
+            "Theresa Harbig",
+            "Mathias Witte Paz",
+            "Simon Tim Hackl",
+            "Caroline Jachmann",
+            "Marco Sch\u00e4fer",
+            "Michael Krone",
+            "Kay Nieselt"
+        ],
+        "author_affiliations": [
+            "Nicolas Brich: University of T\u00fcbingen",
+            "Theresa Harbig: University of T\u00fcbingen",
+            "Mathias Witte Paz: University of T\u00fcbingen",
+            "Simon Tim Hackl: University of T\u00fcbingen",
+            "Caroline Jachmann: University of T\u00fcbingen",
+            "Marco Sch\u00e4fer: University of T\u00fcbingen",
+            "Michael Krone: University of T\u00fcbingen",
+            "Kay Nieselt: University of T\u00fcbingen"
+        ],
+        "presenting_author_name": "Mathias Witte Paz",
+        "presenting_author_email": "mathias-alexander.witte-paz@uni-tuebingen.de",
+        "abstract": "The complexity of protein-protein interaction (PPI) networks often leads to visual clutter and limited interpretability. To overcome these problems, we present ProtEGOnist, a novel, interactive visualization approach designed to explore PPI networks with a focus on drug-protein associations. ProtEGOnist addresses the challenges by introducing the concept of ego-graphs to represent local PPI neighborhoods around proteins of interest. These ego-graphs are aggregated into an ego-graph network, where edges between ego-graphs encoded their similarity using the Jaccard index. Our proposed visualization design offers an overview of drug-associated proteins, radar charts to compare protein functions, and detailed ego-graph subnetworks for interactive exploration. Our aim was to reduce visual complexity while enabling detailed exploration, facilitating the discovery of meaningful patterns in PPI networks. A web-based prototype of ProtEGOnist is available for interactive use.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "a-biomedchallenge-7741": {
+        "event": "Bio+MedVis Challenge Papers",
+        "event_prefix": "a-biomedchallenge",
+        "title": "CytoCave: An Interactive Visualization Tool for Exploring Protein and Drug Interaction Networks",
+        "uid": "a-biomedchallenge-7741",
+        "discord_channel": "",
+        "authors": [
+            "Morris Chukhman",
+            "Amira Kefi",
+            "Olusola A. Ajilore",
+            "Alex Leow",
+            "Angus G. Forbes"
+        ],
+        "author_affiliations": [
+            "Morris Chukhman: University of Illinois at Chicago",
+            "Amira Kefi: University of Illinois",
+            "Olusola A. Ajilore: University of Illinois, Chicago (UIC)",
+            "Alex Leow: University of Illinois, Chicago (UIC)",
+            "Angus G. Forbes: Purdue University"
+        ],
+        "presenting_author_name": "Morris Chukhman",
+        "presenting_author_email": "morrisc@gmail.com",
+        "abstract": "CytoCave is an immersive interactive online visualization platform based on the NeuroCave connectome visualization application, but modified and optimized for general -omics network visual- ization. CytoCave leverages existing features of NeuroCave, in- cluding the side-by-side viewports designed for freeform explo- ration of node-link diagrams under various transformations or co- ordinate system embeddings, as well its immersive capabili- ties. However, CytoCave introduces a range of new features that facilitate the exploration of multi-omics networks using di- mensionality reduction projections of high-dimensional biological data with cluster membership highlighting, and includes scalabil- ity upgrades to support visualizing and interacting with large scale proteomics and multi-omics datasets. The CytoCave project source code, which includes the web application JavaScript and the data processing pipeline Jupyter notebook, is available on GitHub at https://github.com/iMammal/CytoCave. In this paper, we describe how to use CytoCave to facilitate the following proteomics and drug discovery tasks. CytoCave enables users: (Task 1) to select a protein and analyze drugs that target them, or, similarly, (Task 2) to select a drug and visualize the proteins that are strongly associated with the drug response. Additionally, CytoCave re-designs the traditional 2D force-directed layout visu- alization of protein interaction networks, providing an interactive interface that allows users to pan, rotate, and zoom in and out of the network, and to switch layouts and color coding templates from a variety of pre-calculated options, with optional pop-up annotations on mouse hovers and edge display / edge hiding on mouse clicks.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "w-vahc-2982": {
+        "event": "VAHC",
+        "event_prefix": "w-vahc",
+        "title": "Towards medhub: A Self-Service Platform for Analysts and Physicians",
+        "uid": "w-vahc-2982",
+        "discord_channel": "",
+        "authors": [
+            "Markus H\u00f6hn",
+            "Hendrik L\u00fccke-Tieke",
+            "Jan Burmeister",
+            "J\u00f6rn Kohlhammer"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "Markus H\u00f6hn",
+        "presenting_author_email": "markus.hoehn@igd.fraunhofer.de",
+        "abstract": "Combining clinical and omics data can improve both daily clinical routines and research to gain more insights into complex medical procedures. We present the results of our first phase in a multi-year collaboration with analysts and physicians aiming at improved inter-disciplinary biomarker identification. We also outline our user-centered approach along its challenges, describe the intermediate technical artifacts that serve as a basis for summative and formative evaluation for the second project phase. Finally, we sketch the road ahead and how we intend to combine visualization research with user-centered design through problem-based prioritization.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": false,
+        "has_image": false
+    },
+    "w-vahc-3479": {
+        "event": "VAHC",
+        "event_prefix": "w-vahc",
+        "title": "Clinical Issues and Suggestions: Dashboard Visualization of the Trajectory of Patients with Malignant Hormone-Producing Tumors for Precision Medicine",
+        "uid": "w-vahc-3479",
+        "discord_channel": "",
+        "authors": [
+            "Masaki Uchihara",
+            "Akiyo Tanabe",
+            "Hiroshi Kajio"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "Masaki Uchihara",
+        "presenting_author_email": "muchihara@hosp.ncgm.go.jp",
+        "abstract": "Metastatic hormone-producing tumors have characteristics of both tumors and endocrine disorders with many time-series parameters. Therefore, making treatment decisions is often challenging. Data visualization methods have recently been developed to visualize time series, single or multiple pieces of information, and complex patient information. We focused on metastatic pheochromocytoma and paraganglioma and summarized the clinical needs and dashboard data visualization ideas for precision medicine.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": true,
+        "has_image": false
+    },
+    "w-vahc-4703": {
+        "event": "VAHC",
+        "event_prefix": "w-vahc",
+        "title": "A Visual Analytics Approach to Exploring the Feature and Label Space Based on Semi-structured Electronic Medical Records",
+        "uid": "w-vahc-4703",
+        "discord_channel": "",
+        "authors": [
+            "He Wang",
+            "Yang Ouyang",
+            "Quan Li"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "He Wang",
+        "presenting_author_email": "wanghe1@shanghaitech.edu.cn",
+        "abstract": "Electronic health records (EHRs), serving as patient-centered repositories for medical data, offer the opportunity for researchers to uncover concealed patterns using machine learning (ML). However, in real-world medical settings, clinicians often face the task of selecting pertinent feature dimensions from a range of potential medical metrics and then deducing potential labels from vague diagnostic descriptions, prior to the modeling phase. This complexity presents challenges in obtaining reliable training/testing data and conducting thorough analysis. Consequently, these hurdles hinder the practical application of ML for automated modeling and comprehensible interpretation of influencing factors. To tackle these challenges, we introduce a visual analytics approach designed to navigate the feature and label space within EHRs, while also streamlining the modeling process through automated ML algorithms and techniques for improved interpretability.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": false,
+        "has_image": false
+    },
+    "w-vahc-6912": {
+        "event": "VAHC",
+        "event_prefix": "w-vahc",
+        "title": "Data Visualization for Mental Health Monitoring in Smart Home Environment: A Case Study",
+        "uid": "w-vahc-6912",
+        "discord_channel": "",
+        "authors": [
+            "Youngji Koh",
+            "Chanhee Lee",
+            "Yunhee Ku",
+            "Uichin Lee"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "Youngji Koh",
+        "presenting_author_email": "youngji@kaist.ac.kr",
+        "abstract": "Mental health care and monitoring are important. Advancements in smart home sensing technology also make tracking people\u2019s activities easy in the home, enabling the monitoring of mental health more effectively. Some related works have demonstrated the possibilities of mental health monitoring using sensor data collected in smart homes.  However, there is a lack of prior research on how to effectively utilize smart home data visualization to help people understand how their everyday behaviors are related to their mental health status. This poster presents a case study on data visualization for mental health monitoring in a smart home environment. Our web-based application allows users to browse their self-reported mental health states and home activities and visualize the correlation between mental health states and home activities.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": false,
+        "has_image": false
+    },
+    "w-vahc-9996": {
+        "event": "VAHC",
+        "event_prefix": "w-vahc",
+        "title": "Demo: Cohort Visualization and Analysis of Patients with Inflammatory Bowel Disease",
+        "uid": "w-vahc-9996",
+        "discord_channel": "",
+        "authors": [
+            "David Sessler",
+            "Salmah Ahmad",
+            "J\u00f6rn Kohlhammer"
+        ],
+        "author_affiliations": [],
+        "presenting_author_name": "J\u00f6rn Kohlhammer",
+        "presenting_author_email": "joern.kohlhammer@igd.fraunhofer.de",
+        "abstract": "This demo paper introduces the final version of a cohort analysis module for the support of treating patients with inflammatory bowel disease (IBD). It is not trivial to correctly diagnose the specific IBD in patients, and wrongly treated patients have to endure the disease effects for a long time, with large costs for the individuals and the healthcare systems. The goal of this work is complementing the examination of individual patients with interactive analyses of cohorts and populations with similar disease patterns to support learning from such similarities for future treatments. We report on additional data and functionality compared to 2021 and discuss an evaluation with eight IBD experts.",
+        "has_summary_pdf": true,
+        "has_poster_pdf": false,
+        "has_image": false
     }
 }
