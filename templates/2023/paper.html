@@ -41,7 +41,7 @@
             </div>
             <h3 class="paper-authors pb-2 mt-3">{{ paper.authors | join(", ") }}</h3>
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
-            {% if paper.external_paper_link %}
+            <!-- {% if paper.external_paper_link %}
                 <h5 class="paper-link pb-2">
                     <a href="{{ paper.external_paper_link }}">
                         <span class="fas mr-1">&#xf15c;</span>
@@ -63,6 +63,14 @@
                     <a href="https://ieeexplore.ieee.org/document/{{ paper.fno }}">
                         <span class="fas mr-1">&#xf15c;</span>
                         Access paper PDF
+                    </a>
+                </h5>            
+            {% endif %} -->
+            {% if paper.doi %}
+                <h5 class="paper-link pb-2">
+                    <a href="https://doi.org/{{ paper.doi }}">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        DOI: {{paper.doi}}
                     </a>
                 </h5>            
             {% endif %}
