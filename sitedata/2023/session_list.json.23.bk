@@ -89,7 +89,7 @@
                 "time_slots": []
             },
             {
-                "title": "VISAP Opening Reception (6:00pm-8:00pm)| -- Art Exhibit Location: Library at the Docks",
+                "title": "VISAP Opening Reception (6:00pm-8:00pm)| -- Art Exhibit Location: Library at the Dock Gallery, 107 Victoria Harbour Promenade, Docklands",
                 "session_id": "conf5",
                 "event_prefix": "conf",
                 "track": "plenary",
@@ -1590,7 +1590,7 @@
                         "session_id": "full6",
                         "title": "Evaluating the Impact of Uncertainty Visualization on Model Reliance",
                         "contributors": [
-                            "Jieqiong Zhao"
+                            "Yixuan Wang"
                         ],
                         "authors": [
                             "Jieqiong Zhao",
@@ -1627,7 +1627,7 @@
                         "session_id": "full6",
                         "title": "Fitting Bell Curves to Data Distributions using Visualization",
                         "contributors": [
-                            "Niklas Elmqvist"
+                            "Eric Newburger"
                         ],
                         "authors": [
                             "Eric Newburger",
@@ -1662,7 +1662,7 @@
                         "session_id": "full6",
                         "title": "A Heuristic Approach for Dual Expert/End-User Evaluation of Guidance in Visual Analytics",
                         "contributors": [
-                            "Davide Ceneda"
+                            "Alessio Arleo"
                         ],
                         "authors": [
                             "Davide Ceneda",
@@ -2128,7 +2128,7 @@
                         "session_id": "full8",
                         "title": "Metrics-Based Evaluation and Comparison of Visualization Notations",
                         "contributors": [
-                            "Nicolas Kruchten"
+                            "Michael J. McGuffin"
                         ],
                         "authors": [
                             "Nicolas Kruchten",
@@ -2460,7 +2460,7 @@
                         "session_id": "full9",
                         "title": "Scalable Hypergraph Visualization",
                         "contributors": [
-                            "Professor Eugene Zhang"
+                            "Peter Oliver"
                         ],
                         "authors": [
                             "Peter D Oliver",
@@ -2602,7 +2602,7 @@
                         "session_id": "full10",
                         "title": "EVNet: An Explainable Deep Network for Dimension Reduction",
                         "contributors": [
-                            "Zang Zelin"
+                            "Zelin Zang"
                         ],
                         "authors": [
                             "Zelin Zang",
@@ -2857,7 +2857,7 @@
                         "session_id": "full11",
                         "title": "Image Collage on Arbitrary Shape via Shape-Aware Slicing and Optimization",
                         "contributors": [
-                            "Prof. Tong-Yee Lee"
+                            "Dong-Yi Wu"
                         ],
                         "authors": [
                             "Dong-Yi Wu",
@@ -2933,7 +2933,7 @@
                         "session_id": "full11",
                         "title": "A Unified Interactive Model Evaluation for Classification, Object Detection, and Instance Segmentation in Computer Vision",
                         "contributors": [
-                            "Changjian Chen"
+                            "Yukai Guo"
                         ],
                         "authors": [
                             "Changjian Chen",
@@ -3162,7 +3162,7 @@
                         "session_id": "full12",
                         "title": "MeTACAST: Target- and Context-aware Spatial Selection in VR",
                         "contributors": [
-                            "Lingyun Yu"
+                            "Lixiang Zhao"
                         ],
                         "authors": [
                             "Lixiang Zhao",
@@ -3341,7 +3341,7 @@
                         "session_id": "full13",
                         "title": "Towards Visualization Thumbnail Designs that Entice Reading Data-driven Articles",
                         "contributors": [
-                            "Sungahn Ko"
+                            "Hwiyeon Kim"
                         ],
                         "authors": [
                             "Hwiyeon Kim",
@@ -3557,7 +3557,7 @@
                         "session_id": "full14",
                         "title": "Force-directed graph layouts revisited: a new force based on the t-Distribution",
                         "contributors": [
-                            "Yunhai Wang"
+                            "Mingliang Xue"
                         ],
                         "authors": [
                             "Fahai Zhong",
@@ -4321,7 +4321,7 @@
                         "session_id": "full17",
                         "title": "Marjorie: Visualizing Type 1 Diabetes Data to Support Pattern Exploration",
                         "contributors": [
-                            "Klaus Eckelt"
+                            "Andreas Hinterreiter"
                         ],
                         "authors": [
                             "Anna Scimone",
@@ -4541,7 +4541,7 @@
                         "session_id": "full18",
                         "title": "Data Type Agnostic Visual Sensitivity Analysis",
                         "contributors": [
-                            "Nikolaus Piccolotto"
+                            "Markus B\u00f6gl"
                         ],
                         "authors": [
                             "Nikolaus Piccolotto",
@@ -4698,7 +4698,7 @@
                         "session_id": "full18",
                         "title": "Data Formulator: AI-powered Concept-driven Visualization Authoring",
                         "contributors": [
-                            "Chenglong Wang"
+                            "Bongshin Lee"
                         ],
                         "authors": [
                             "Chenglong Wang",
@@ -5249,7 +5249,7 @@
                         "session_id": "full20",
                         "title": "Too Many Cooks: Exploring How Graphical Perception Studies Influence Visualization Recommendations in Draco",
                         "contributors": [
-                            "Zehua Zeng"
+                            "Leilani Battle"
                         ],
                         "authors": [
                             "Zehua Zeng",
@@ -5381,7 +5381,7 @@
                         "session_id": "full21",
                         "title": "RadVolViz: An Information Display-Inspired Transfer Function Editor for Multivariate Volume Visualization",
                         "contributors": [
-                            "Ayush Kumar"
+                            "Klaus Mueller"
                         ],
                         "authors": [
                             "Ayush Kumar",
@@ -6625,7 +6625,7 @@
                         "session_id": "full26",
                         "title": "Parallel Computation of Piecewise Linear Morse-Smale Segmentations",
                         "contributors": [
-                            "Robin G. C. Maack"
+                            "Robin Maack"
                         ],
                         "authors": [
                             "Robin G. C. Maack",
@@ -6837,7 +6837,7 @@
                         "session_id": "full27",
                         "title": "TROPHY: A Topologically Robust Physics-Informed Tracking Framework for Tropical Cyclone",
                         "contributors": [
-                            "Lin Yan"
+                            "Tom Peterka"
                         ],
                         "authors": [
                             "Lin Yan",
@@ -7023,7 +7023,7 @@
                         "session_id": "full27",
                         "title": "TopoSZ: Preserving Topology in Error-Bounded Lossy Compression",
                         "contributors": [
-                            "Lin Yan"
+                            "Bei Wang"
                         ],
                         "authors": [
                             "Lin Yan",
@@ -7198,7 +7198,7 @@
                         "session_id": "full28",
                         "title": "My Model is Unfair, Do People Even Care? Visual Design Affects Trust and Perceived Bias in Machine Learning",
                         "contributors": [
-                            "Aimen Gaba"
+                            "Aimen Gaba, Zhanna Kaufman"
                         ],
                         "authors": [
                             "Aimen Gaba",
@@ -7278,7 +7278,7 @@
                         "session_id": "full28",
                         "title": "Vistrust: a Multidimensional Framework and Empirical Study of Trust in Data Visualizations",
                         "contributors": [
-                            "Carolina Nobre"
+                            "Hamza Elhamdadi"
                         ],
                         "authors": [
                             "Hamza Elhamdadi",
@@ -7589,7 +7589,7 @@
                         "session_id": "full30",
                         "title": "A Comparative Visual Analytics Framework for Evaluating Evolutionary Processes in Multi-objective Optimization",
                         "contributors": [
-                            "Yuxin Ma"
+                            "Zherui Zhang"
                         ],
                         "authors": [
                             "Yansong Huang",
@@ -8728,7 +8728,7 @@
                         "session_id": "short1",
                         "title": "Line Harp: Importance-Driven Sonification for Dense Line Charts",
                         "contributors": [
-                            "Egil Bru"
+                            "Stefan Bruckner"
                         ],
                         "authors": [
                             "Egil Bru",
@@ -8843,7 +8843,7 @@
                         "session_id": "short1",
                         "title": "TimePool: Visually Answer \"Which and When\" Questions On Univariate Time Series",
                         "contributors": [
-                            "Dr. Tinghao Feng"
+                            "Yueqi Hu"
                         ],
                         "authors": [
                             "Tinghao Feng",
@@ -9017,7 +9017,7 @@
                         "session_id": "short2",
                         "title": "Indy Survey Tool: A Framework to Unearth Correlations in Survey Data",
                         "contributors": [
-                            "Tarik Crnovrsanin"
+                            "Sara Di Bartolomeo"
                         ],
                         "authors": [
                             "Tarik Crnovrsanin",
@@ -9128,7 +9128,7 @@
                         "session_id": "short2",
                         "title": "What Is the Difference Between a Mountain and a Molehill? Quantifying Semantic Labeling of Visual Features in Line Charts",
                         "contributors": [
-                            "Vidya Setlur"
+                            "Dennis Bromley"
                         ],
                         "authors": [
                             "Dennis Bromley",
@@ -9164,7 +9164,7 @@
                         "session_id": "short2",
                         "title": "Draco 2: An Extensible Platform to Model Visualization Design",
                         "contributors": [
-                            "Junran Yang"
+                            "P\u00e9ter Ferenc Gyarmati"
                         ],
                         "authors": [
                             "Junran Yang",
@@ -9738,7 +9738,7 @@
                         "session_id": "short4",
                         "title": "Evaluation of cinematic volume rendering open-source and commercial solutions for the exploration of congenital heart data",
                         "contributors": [
-                            "Irum Baseer"
+                            "Oscar Camara"
                         ],
                         "authors": [
                             "Irum Baseer",
@@ -9818,7 +9818,7 @@
                         "session_id": "short4",
                         "title": "A Visualization System for Hexahedral Mesh Quality Study",
                         "contributors": [
-                            "Lei Si"
+                            "Adeel Zafar"
                         ],
                         "authors": [
                             "Lei Si",
@@ -10496,7 +10496,7 @@
                 "track": "oneohfour",
                 "session_image": "cga1.png",
                 "chair": [
-                    "Alexander Lex"
+                    "Joseph Cottam"
                 ],
                 "time_start": "2023-10-24T23:45:00Z",
                 "time_end": "2023-10-25T01:00:00Z",
@@ -10552,7 +10552,7 @@
                         "session_id": "cga1",
                         "title": "Narrative In Situ Visual Analysis for Large-Scale Ocean Eddy Evolution",
                         "contributors": [
-                            "Guihua Shan"
+                            "Xiaoyang Han"
                         ],
                         "authors": [
                             "Xiaoyang Han",
@@ -10793,7 +10793,7 @@
                         "session_id": "cga2",
                         "title": "Lessons Learned From Quantitatively Exploring Visualization Rubric Utilization for Peer Feedback",
                         "contributors": [
-                            "Sophie J. Engle"
+                            "Sophie Engle"
                         ],
                         "authors": [
                             "Daniel J. Barajas",
@@ -11107,77 +11107,6 @@
                         "bunny_prerecorded_subtitles": ""
                     },
                     {
-                        "slot_id": "a-visap-1070",
-                        "session_id": "visap1",
-                        "title": "Parasitic Signals: Coexistence with the SARS-CoV-2 virus",
-                        "contributors": [
-                            "Myungin Lee"
-                        ],
-                        "authors": [
-                            "Myungin Lee",
-                            "Sabina Hyoju Ahn",
-                            "Yoojin Oh",
-                            "JoAnn Kuchera-Morin"
-                        ],
-                        "abstract": "This project aims to transform the nano-scale of a striking biological phenomenon, the relationship between the SARS-CoV-2 virus and human molecules, into an interactive audiovisual simulation. In this work, Atomic Force Microscopy (AFM) touching and imaging a single molecule measures the interaction between the spike protein of SARS-CoV-2 and human cellular proteins and measures the dynamic of the spike protein. We create a comprehensive scientific model based on diverse datasets and theories presenting a real-time interactive complex system with efficient rendering and sonification using a single C++ platform. This project invites the audience into an immersive space where they can control the behavior of biomolecules, allowing them to intuitively perceive biological properties. This project is not only a demonstration of scientific data but also attempts to look at the interspecies relationship in parasitism which particularly deals with our current and post-pandemic life with coronavirus and how we might control our coexistence in a virtual space. By envisioning coexistence strategies in a virtual space, the project challenges dominant narratives, explores alternative ways to navigate the pandemic's complex dimensions, and serves as a catalyst for dialogue among a diverse audience.",
-                        "uid": "a-visap-1070",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "Installation of Parasitic Signals: Multimodal Sonata for Real-time Interactive Simulation of the SARS-CoV-2 Virus",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1070/a-visap-1070_Preview.mp4?token=IegXsLFtOs0tOiMrxY4cxJGLjtdDoNWin6bpP7SUUc4&expires=1706590800",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1070/a-visap-1070_Preview.vtt?token=52MkrVl7czLkctynniEuG1gmIYX7f4w8_A_u_yMbNb8&expires=1706590800",
-                        "youtube_prerecorded_link": "https://youtu.be/fuNbFjwBkg4",
-                        "youtube_prerecorded_id": "fuNbFjwBkg4",
-                        "bunny_prerecorded_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1070/a-visap-1070_Presentation.mp4?token=A-UHr5GIEoFKkcjzgQBuN8y_jxI-aNz3Ng9XBWqF8Oc&expires=1706590800",
-                        "bunny_prerecorded_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1070/a-visap-1070_Presentation.vtt?token=1F1M2fD6D43Y5vqwQaYmpEg8mGfxxdkOwGCmDFIPymw&expires=1706590800"
-                    },
-                    {
-                        "slot_id": "a-visap-1053",
-                        "session_id": "visap1",
-                        "title": "Body Cosmos",
-                        "contributors": [
-                            "Rem RunGu Lin"
-                        ],
-                        "authors": [
-                            "Rem RunGu Lin",
-                            "Yongen Ke",
-                            "Leixin LUO"
-                        ],
-                        "abstract": "Body Cosmos is an immersive and interactive artwork that connects the human body with the cosmic environment through real-time bio-data. Using volumetric rendering and particle system, we create a surreal virtual reality that reflects the intricate structures of human anatomy and celestial nebulae. We integrate heart rate monitors and EEG devices to capture and process bio-data into emotion indicators, which influence the visualization of particle movements in the artwork. This creates an intimate, personal connection with the cosmos, transcending immediate presence and nurturing a perpetual presence within the cosmic expanse. We also provide two engagement modes: Roller Coaster Mode and Free Explore Mode, allowing different levels of exploration. Body Cosmos is more than a visual spectacle; it sparks curiosity, expands the imagination, and enhances awareness of our embodied and cosmic identity.",
-                        "uid": "a-visap-1053",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "Screenshot of Unreal Engine\u2019s real-time demo (\u00a9 Rungu Lin 2023)",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1053/a-visap-1053_Preview.mp4?token=N1O9STgZCykWxw0znUhsxuC4ptzWQ09FW3AtbcERZc0&expires=1706590800",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1053/a-visap-1053_Preview.vtt?token=dOtC3WT8sYYeMHrNydaqJ5UoFadpQMu2sge7kOxMgUM&expires=1706590800",
-                        "youtube_prerecorded_link": "https://youtu.be/BeDaxdzEN9Y",
-                        "youtube_prerecorded_id": "BeDaxdzEN9Y",
-                        "bunny_prerecorded_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1053/a-visap-1053_Presentation.mp4?token=GoZ4ylNJmyBCy3dBqusyEh0y8n44BGoNtHBu7z1XORg&expires=1706590800",
-                        "bunny_prerecorded_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1053/a-visap-1053_Presentation.vtt?token=151v7kAXtIxohqdfPI0CtVdioERZl418LqHJM4I5LAM&expires=1706590800"
-                    },
-                    {
                         "slot_id": "a-visap-1010",
                         "session_id": "visap1",
                         "title": "Waiting for the Wave in Metaverse",
@@ -11278,74 +11207,6 @@
                         "bunny_prerecorded_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1081/a-visap-1081_Presentation.vtt?token=jnKeh-rncqCo7bfdZmoi9AIPZH2Asl8IMkUZDC76TNo&expires=1706590800"
                     },
                     {
-                        "slot_id": "a-visap-1086",
-                        "session_id": "visap1",
-                        "title": "Mixtures of Human Experience, Intellectual Analysis, Data Representation and Our Natural Environment",
-                        "contributors": [
-                            "Francesca Samsel"
-                        ],
-                        "authors": [
-                            "Francesca Samsel"
-                        ],
-                        "abstract": "The work presented here are artistic endeavors tightly integrating topics of current climate research, contextual imagery referring to that research, data visualizations of a coupled climate model, and drawings weaving the art and the science into one, all in the service of the accelerating levels of carbon and methane altering and amplifying weather patterns, slowing oceanic currents, and fundamentally altering the habitability of our planet.",
-                        "uid": "a-visap-1086",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": false,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": "",
-                        "youtube_prerecorded_link": "",
-                        "youtube_prerecorded_id": "",
-                        "bunny_prerecorded_link": "",
-                        "bunny_prerecorded_subtitles": ""
-                    },
-                    {
-                        "slot_id": "a-visap-1060",
-                        "session_id": "visap1",
-                        "title": "Monster in a Snow Globe. Biographies as Data Physicalizations",
-                        "contributors": [
-                            "Florian Windhager"
-                        ],
-                        "authors": [
-                            "Florian Windhager",
-                            "Viola R\u00fchse",
-                            "Smuc Michael"
-                        ],
-                        "abstract": "The data sculpture \"Monster in a Snowglobe\" offers a distant reading perspective on the life and work of the Austrian painter Herwig Zens (1943-2019). The 3D-printed artifact assembles major steps and movements of the artist's biography as an annotated trajectory in space and time. Its data selection draws both from biographical knowledge and from autobiographical entries in a unique diary, which the artist etched into a sequence of copper plates during his lifetime. A complete print of the diary\u2014also referred to as \u201cmonster\u201d due to its procedural and perceptual complexity\u2014is considered the longest etching in the world at 40 meters and was partially presented at the Museum of Art History in Vienna in Spring 2023. In this context, the data sculpture reframed the ephemeral complexity of a modern path of life as a material mimicry and instance of perpetual presence in an object-oriented exhibition environment.",
-                        "uid": "a-visap-1060",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": false,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": "",
-                        "youtube_prerecorded_link": "",
-                        "youtube_prerecorded_id": "",
-                        "bunny_prerecorded_link": "",
-                        "bunny_prerecorded_subtitles": ""
-                    },
-                    {
                         "slot_id": "a-visap-1056",
                         "session_id": "visap1",
                         "title": "Plastic Landscape - The Reversible World",
@@ -11415,42 +11276,6 @@
                         "bunny_prerecorded_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1069/a-visap-1069_Presentation.vtt?token=b4WHJYT4F7jtu8rBHkB1rZVGpeQINmr9T-O3JQnV5dE&expires=1706590800"
                     },
                     {
-                        "slot_id": "a-visap-1066",
-                        "session_id": "visap1",
-                        "title": "Bitter Data: An Exploration into Data Edibilization of Negative Emotion",
-                        "contributors": [
-                            "Yufan Li"
-                        ],
-                        "authors": [
-                            "Yufan Li",
-                            "Yue Huang",
-                            "Kang Zhang",
-                            "varvara guljajeva"
-                        ],
-                        "abstract": "\u201cBitter Data\u201d transforms 100,000 distress postings from Chinese social media into a multi-sensory experience using data edibilization. We\u2019ve mapped distress data quantity to the bitterness and color of tea through data analysis and experimentation. Participants taste, smell, and observe 11 cups of tea, each embodying a year\u2019s distress data, in our workshop. Their facial expressions, recorded upon tasting, visually indicate emotional states. This project explores benefits and pragmatic solutions to challenges of data edibilization.",
-                        "uid": "a-visap-1066",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": false,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": "",
-                        "youtube_prerecorded_link": "",
-                        "youtube_prerecorded_id": "",
-                        "bunny_prerecorded_link": "",
-                        "bunny_prerecorded_subtitles": ""
-                    },
-                    {
                         "slot_id": "a-visap-1029",
                         "session_id": "visap1",
                         "title": "Body Cosmos: An Immersive Experience Driven by Real-Time Bio-Data",
@@ -11484,80 +11309,6 @@
                         "youtube_prerecorded_id": "zxoVAVrkR8s",
                         "bunny_prerecorded_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1029/a-visap-1029_Presentation.mp4?token=BZzDOW8KxT2r1NzVtFMRqqnx0ZZDCIJ15MGuFhrTROk&expires=1706590800",
                         "bunny_prerecorded_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1029/a-visap-1029_Presentation.vtt?token=gX2HUY44ic1VDvTY_4aNRQJ6lpfzqT9Tij2rOZZImiU&expires=1706590800"
-                    },
-                    {
-                        "slot_id": "a-visap-1032",
-                        "session_id": "visap1",
-                        "title": "Posts with No Response: The Island of Loneliness",
-                        "contributors": [
-                            "Junxiu Tang"
-                        ],
-                        "authors": [
-                            "Junxiu Tang",
-                            "Rui Sheng",
-                            "Yifang Wang",
-                            "Xinhuan Shu",
-                            "Xiaojiao Chen",
-                            "Tan Tang",
-                            "Yingcai Wu"
-                        ],
-                        "abstract": "Loneliness and isolation are eternal emotions in human beings. Technological advancements create ample avenues, like social medias, for individuals to articulate themselves and record emotions. However, the sense of loneliness has never vanished, as their expressions are easily buried in the digital stream. We analyze tweets that express loneliness during holiday seasons but receive few responses. By superimposing digital charts on physical models, we visualize these lonely posts and generate the island of loneliness. We aim to reveal the complexities of human emotions in the digital age and reflect on the interconnections between technology, solitude, and social communication.",
-                        "uid": "a-visap-1032",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "In today's interconnected world, everything is connected by the internet, but people still feel lonely. Through a data-driven approach, we physicalize people's perpetual loneliness into an island metaphor and try to reveal the overlooked voices within the internet data flow.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1032/a-visap-1032_Preview.mp4?token=R_vejSXXSCo4fxzOmhSVMuDBWtwmJoj7YqxEIurCsoM&expires=1706590800",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1032/a-visap-1032_Preview.vtt?token=f_THTnyfBphrL8k_Ha4Wc84fBxjmAscofyOvGvyegeg&expires=1706590800",
-                        "youtube_prerecorded_link": "https://youtu.be/e4-Jvfli-O0",
-                        "youtube_prerecorded_id": "e4-Jvfli-O0",
-                        "bunny_prerecorded_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1032/a-visap-1032_Presentation.mp4?token=b2tU1mNnZC8xbPF9S17bNwsO355npdEcopWgnRnZuq4&expires=1706590800",
-                        "bunny_prerecorded_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1032/a-visap-1032_Presentation.vtt?token=s05zzyfjMVNE9nhOK4rpZzNrF7FhnP0fTv4JPHS7WQU&expires=1706590800"
-                    },
-                    {
-                        "slot_id": "a-visap-1051",
-                        "session_id": "visap1",
-                        "title": "Reinterpreted Spaces, an AI Printmaking Collaboration",
-                        "contributors": [
-                            "Dr. Hannen E. Wolfe"
-                        ],
-                        "authors": [
-                            "Hannen E. Wolfe",
-                            "Charlotte Rogerson",
-                            "Amanda Lilleston"
-                        ],
-                        "abstract": "We present an examination of organic spaces through print, book making, data, and machine learning. Artists created a book that explored the idea of organic and machine-made interpretations of a place that were generate using 3 different processes: a generative adversarial network, traditional printmaking and a camera. The artists found the results unexpected, discussing how the AI-generated image changed and complicated their understanding and constructed narrative about the original image and space. This caused them to think outside the box with over half of the students changing their print matrix and/or ink choices after seeing their AI-generated image. This supported the learning objective for students to collaborate with technology that is uninhibited by perspective or expectation, adapting and responding productively and creatively within a new framework. With the newfound accessibility to AI-generated images we encourage art teachers to explore how it fits into their curriculum.",
-                        "uid": "a-visap-1051",
-                        "time_stamp": "2023-10-24T23:45:00Z",
-                        "time_start": "2023-10-24T23:45:00Z",
-                        "time_end": "2023-10-25T01:00:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "The flag book is a sculptural object that can be read page by page or viewed in a full spread. It explores the idea of organic and machine-made interpretations of a place that were generated using 3 different processes: a generative adversarial network, traditional printmaking and a camera. This image shows a flag book from 4 different perspectives, opened like a book with 2 pages, spread open to reveal all nine pages, the back of a flag book showing the accordion folded spine, and the flag book from above.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1051/a-visap-1051_Preview.mp4?token=qFEky2VplP0e9obbU4itM83UJJ50etMsdqvJOgyGYC4&expires=1706590800",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1051/a-visap-1051_Preview.vtt?token=9nDzuK2XQU6v4-rJNcciKxUOoekpmOOABXY3aDy4paE&expires=1706590800",
-                        "youtube_prerecorded_link": "",
-                        "youtube_prerecorded_id": "",
-                        "bunny_prerecorded_link": "",
-                        "bunny_prerecorded_subtitles": ""
                     },
                     {
                         "slot_id": "a-visap-1084",
@@ -11655,7 +11406,7 @@
                         "session_id": "visap2",
                         "title": "Infinite Colours",
                         "contributors": [
-                            "Dr Xavier Ho"
+                            "Xavier Ho"
                         ],
                         "authors": [
                             "Xavier Ho",
@@ -11687,7 +11438,7 @@
                     {
                         "slot_id": "a-visap-1074",
                         "session_id": "visap2",
-                        "title": "Posts with No Response: The Island of Loneliness",
+                        "title": "The Island of Loneliness",
                         "contributors": [
                             "Junxiu Tang"
                         ],
@@ -11785,6 +11536,112 @@
                         "youtube_ff_id": "",
                         "bunny_ff_link": "",
                         "bunny_ff_subtitles": "",
+                        "youtube_prerecorded_link": "",
+                        "youtube_prerecorded_id": "",
+                        "bunny_prerecorded_link": "",
+                        "bunny_prerecorded_subtitles": ""
+                    },
+                    {
+                        "slot_id": "a-visap-1060",
+                        "session_id": "visap2",
+                        "title": "Monster in a Snow Globe. Biographies as Data Physicalizations",
+                        "contributors": [
+                            "Florian Windhager"
+                        ],
+                        "authors": [
+                            "Florian Windhager",
+                            "Viola R\u00fchse",
+                            "Smuc Michael"
+                        ],
+                        "abstract": "The data sculpture \"Monster in a Snowglobe\" offers a distant reading perspective on the life and work of the Austrian painter Herwig Zens (1943-2019). The 3D-printed artifact assembles major steps and movements of the artist's biography as an annotated trajectory in space and time. Its data selection draws both from biographical knowledge and from autobiographical entries in a unique diary, which the artist etched into a sequence of copper plates during his lifetime. A complete print of the diary\u2014also referred to as \u201cmonster\u201d due to its procedural and perceptual complexity\u2014is considered the longest etching in the world at 40 meters and was partially presented at the Museum of Art History in Vienna in Spring 2023. In this context, the data sculpture reframed the ephemeral complexity of a modern path of life as a material mimicry and instance of perpetual presence in an object-oriented exhibition environment.",
+                        "uid": "a-visap-1060",
+                        "time_stamp": "2023-10-24T23:45:00Z",
+                        "time_start": "2023-10-24T23:45:00Z",
+                        "time_end": "2023-10-25T01:00:00Z",
+                        "paper_type": "associated",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "has_image": false,
+                        "has_pdf": true,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": "",
+                        "youtube_prerecorded_link": "",
+                        "youtube_prerecorded_id": "",
+                        "bunny_prerecorded_link": "",
+                        "bunny_prerecorded_subtitles": ""
+                    },
+                    {
+                        "slot_id": "a-visap-1066",
+                        "session_id": "visap2",
+                        "title": "Bitter Data: An Exploration into Data Edibilization of Negative Emotion",
+                        "contributors": [
+                            "Yufan Li"
+                        ],
+                        "authors": [
+                            "Yufan Li",
+                            "Yue Huang",
+                            "Kang Zhang",
+                            "varvara guljajeva"
+                        ],
+                        "abstract": "\u201cBitter Data\u201d transforms 100,000 distress postings from Chinese social media into a multi-sensory experience using data edibilization. We\u2019ve mapped distress data quantity to the bitterness and color of tea through data analysis and experimentation. Participants taste, smell, and observe 11 cups of tea, each embodying a year\u2019s distress data, in our workshop. Their facial expressions, recorded upon tasting, visually indicate emotional states. This project explores benefits and pragmatic solutions to challenges of data edibilization.",
+                        "uid": "a-visap-1066",
+                        "time_stamp": "2023-10-24T23:45:00Z",
+                        "time_start": "2023-10-24T23:45:00Z",
+                        "time_end": "2023-10-25T01:00:00Z",
+                        "paper_type": "associated",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "has_image": false,
+                        "has_pdf": true,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": "",
+                        "youtube_prerecorded_link": "",
+                        "youtube_prerecorded_id": "",
+                        "bunny_prerecorded_link": "",
+                        "bunny_prerecorded_subtitles": ""
+                    },
+                    {
+                        "slot_id": "a-visap-1051",
+                        "session_id": "visap2",
+                        "title": "Reinterpreted Spaces, an AI Printmaking Collaboration",
+                        "contributors": [
+                            "Dr. Hannen E. Wolfe"
+                        ],
+                        "authors": [
+                            "Hannen E. Wolfe",
+                            "Charlotte Rogerson",
+                            "Amanda Lilleston"
+                        ],
+                        "abstract": "We present an examination of organic spaces through print, book making, data, and machine learning. Artists created a book that explored the idea of organic and machine-made interpretations of a place that were generate using 3 different processes: a generative adversarial network, traditional printmaking and a camera. The artists found the results unexpected, discussing how the AI-generated image changed and complicated their understanding and constructed narrative about the original image and space. This caused them to think outside the box with over half of the students changing their print matrix and/or ink choices after seeing their AI-generated image. This supported the learning objective for students to collaborate with technology that is uninhibited by perspective or expectation, adapting and responding productively and creatively within a new framework. With the newfound accessibility to AI-generated images we encourage art teachers to explore how it fits into their curriculum.",
+                        "uid": "a-visap-1051",
+                        "time_stamp": "2023-10-24T23:45:00Z",
+                        "time_start": "2023-10-24T23:45:00Z",
+                        "time_end": "2023-10-25T01:00:00Z",
+                        "paper_type": "associated",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "has_image": true,
+                        "has_pdf": true,
+                        "paper_award": "",
+                        "image_caption": "The flag book is a sculptural object that can be read page by page or viewed in a full spread. It explores the idea of organic and machine-made interpretations of a place that were generated using 3 different processes: a generative adversarial network, traditional printmaking and a camera. This image shows a flag book from 4 different perspectives, opened like a book with 2 pages, spread open to reveal all nine pages, the back of a flag book showing the accordion folded spine, and the flag book from above.",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1051/a-visap-1051_Preview.mp4?token=qFEky2VplP0e9obbU4itM83UJJ50etMsdqvJOgyGYC4&expires=1706590800",
+                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis23/a-visap/a-visap-1051/a-visap-1051_Preview.vtt?token=9nDzuK2XQU6v4-rJNcciKxUOoekpmOOABXY3aDy4paE&expires=1706590800",
                         "youtube_prerecorded_link": "",
                         "youtube_prerecorded_id": "",
                         "bunny_prerecorded_link": "",
@@ -12022,7 +11879,7 @@
                         "session_id": "ae3",
                         "title": "Visual Comparison of Text Sequences Generated by Large Language Models",
                         "contributors": [
-                            "Rita Sevastjanova"
+                            "Mennatallah El-Assady"
                         ],
                         "authors": [
                             "Rita Sevastjanova",
@@ -12172,7 +12029,7 @@
                         "session_id": "w1",
                         "title": "A Workflow Approach to Visualization-Based Storytelling with Cultural Heritage Data",
                         "contributors": [
-                            "Jakob Kusnick"
+                            "Florian Windhager"
                         ],
                         "authors": [
                             "Johannes Liem",
@@ -12315,7 +12172,7 @@
                         "session_id": "w3",
                         "title": "Visualizing Topological Importance: A Class-Driven Approach",
                         "contributors": [
-                            "Yu Qin"
+                            "Brian Summa"
                         ],
                         "authors": [
                             "Yu Qin",
@@ -12351,7 +12208,7 @@
                         "session_id": "w3",
                         "title": "Taming Horizontal Instability in Merge Trees: On the Computation of a Comprehensive Deformation-based Edit Distance",
                         "contributors": [
-                            "Florian Wetzels"
+                            "Markus Anders"
                         ],
                         "authors": [
                             "Florian Wetzels",
@@ -12719,7 +12576,7 @@
                         "session_id": "w6",
                         "title": "Bridging the Divide: Promoting Serendipitous Discovery of Opposing Viewpoints with Visual Analytics in Social Media",
                         "contributors": [
-                            "Mahmood Jasim"
+                            "Narges Mahyar"
                         ],
                         "authors": [
                             "Mahmood Jasim, Mumtaz Fatima, Sagarika Ramesh Sonni, Narges Mahyar"
@@ -12752,7 +12609,7 @@
                         "session_id": "w6",
                         "title": "The Good Life: visualizing the complexity of supported living for people with disability",
                         "contributors": [
-                            "Georgina Hibberd"
+                            "Kate Sweetapple, Jacquie Lorber Kasunic"
                         ],
                         "authors": [
                             "Georgina Hibberd, Jacqueline Lorber Kasunic, Kate Sweetapple"
@@ -13216,7 +13073,7 @@
                         "session_id": "w8",
                         "title": "Humanity Influenced Visualization Design for Aerial Sensor-based Visualization of Environmental Factors",
                         "contributors": [
-                            "Dr. and Prof. Brian J. d'Auriol"
+                            "Elina Esenbaeva, Dana Nursultanova, Sabina Ualibekova"
                         ],
                         "authors": [],
                         "abstract": "The motivating perspective of this work is that visualization is a human endeavor as natural as human life is itself. This has profound influence on the way visualization is approached as the focus shifts away from any data-centric, visualization technique- or system-based foundations to one of human-centric visual perception, information perception, information acquisition and learning.  This paper reports on part of a design of a visualization approach and system for deployments in wide-scope application areas of interest and which is guided by the Engineering Insightful Serviceable Visualization (EISV) model and is thus in the context of this human-centric perspective. The application areas are primarily loosely constrained environments, that are, environments for which available techniques such as computational modeling or fixed, location-based sensors are ill-suited. These environments have terrain, build or other similar features. An aerial drone-based sensor platform is proposed to sample environmental data in these environments. One of the included sensors on this platform is a LiDAR, a distance ranging sensor. The visual output of the LiDAR is primarily studied in this paper using the notions of iconicity and indexicality in the Peircean sense and guided by the EISV model. Several work-in-progress experiments that illustrate how the proposed system may respond are described.",
@@ -13435,7 +13292,7 @@
                         "session_id": "c2",
                         "title": "Purdue-Chen-MC3",
                         "contributors": [
-                            "Zuotian Li"
+                            "Hao Wang"
                         ],
                         "authors": [
                             "Ava Zhao",
@@ -13655,7 +13512,7 @@
                         "session_id": "w4",
                         "title": "Towards medhub: A Self-Service Platform for Analysts and Physicians",
                         "contributors": [
-                            "Markus H\u00f6hn"
+                            "J\u00f6rn Kohlhammer"
                         ],
                         "authors": [
                             "Markus H\u00f6hn, Hendrik L\u00fccke-Tieke, Jan Burmeister, J\u00f6rn Kohlhammer"
@@ -13690,7 +13547,7 @@
                         "session_id": "w4",
                         "title": "A Visual Analytics Approach to Exploring the Feature and Label Space Based on Semi-structured Electronic Medical Records",
                         "contributors": [
-                            "He Wang"
+                            "Yang Ouyang"
                         ],
                         "authors": [
                             "He Wang, Yang Ouyang, Quan Li"
@@ -13795,7 +13652,7 @@
                         "session_id": "w4",
                         "title": "ExpLIMEable: A Visual Analytics Approach for Exploring LIME",
                         "contributors": [
-                            "Sonia Laguna"
+                            "Furui Cheng"
                         ],
                         "authors": [
                             "Sonia Laguna, Julian Heidenreich, Jiugeng Sun, Nil\u00fcfer \u00c7etin, Ibrahim Al-Hazwani, Udo Schlegel, Furui Cheng, Mennatallah El-Assady"
@@ -13865,7 +13722,7 @@
                         "session_id": "w4",
                         "title": "Scalable, interactive and hierarchical visualization of virus taxonomic data",
                         "contributors": [
-                            "Kashyap Balakavi"
+                            "Sidharth Kumar"
                         ],
                         "authors": [
                             "Kashyap Balakavi, Rushitha Janga, Ahmedur Rahman Shovon, Don Dempsey, Elliot Lefkowitz, sidharth kumar"
@@ -14016,7 +13873,7 @@
                         "session_id": "w7",
                         "title": "A Lens to Pandemic Stay at Home Attitudes",
                         "contributors": [
-                            "Andrew Wentzel"
+                            "G. Elisabeta Marai"
                         ],
                         "authors": [
                             "Andrew Wentzel",
@@ -14057,7 +13914,7 @@
                         "session_id": "w7",
                         "title": "ESID: Exploring the Design and Development of a Visual Analytics Tool for Epidemiological Emergencies",
                         "contributors": [
-                            "Dr Pawandeep Kaur Betz"
+                            "Andreas Gerndt"
                         ],
                         "authors": [
                             "Pawandeep Kaur Betz",
@@ -14104,7 +13961,7 @@
                         "session_id": "w7",
                         "title": "Visual Analytics based Search-Analyze-Forecast Framework for Epidemiological Time-series Data",
                         "contributors": [
-                            "Cagatay Turkay"
+                            "Alfie Abdul-Rahman"
                         ],
                         "authors": [
                             "tuna gonen",
@@ -14257,7 +14114,7 @@
                         "session_id": "w9",
                         "title": "Explicating Implicit Frames: A Key to Communicating Visualization Successfully",
                         "contributors": [
-                            "Prakash Chandra Shukla"
+                            "Paul Parsons"
                         ],
                         "authors": [
                             "Prakash Chandra Shukla, Paul Parsons"
@@ -14732,7 +14589,7 @@
                         "session_id": "w11",
                         "title": "Reflections on Teaching \u2018Data Exploration and Visualisation\u2019 in Multiple Modes",
                         "contributors": [
-                            "Sarah Goodwin"
+                            "Michael Niemann"
                         ],
                         "authors": [
                             "Michael Niemann",
@@ -14811,7 +14668,7 @@
                         "session_id": "ae2",
                         "title": "Speculative Progressive Raycasting for Memory Constrained Isosurface Visualization of Massive Volumes",
                         "contributors": [
-                            "Will Usher"
+                            "Landon Dyken"
                         ],
                         "authors": [
                             "Will Usher",
@@ -15033,7 +14890,7 @@
                             "Morris Chukhman"
                         ],
                         "authors": [],
-                        "abstract": "CytoCave is an immersive interactive online visualization platform based on the NeuroCave connectome visualization application, but modified and optimized for general -omics network visual-\nization. CytoCave leverages existing features of NeuroCave, in-\ncluding the side-by-side viewports designed for freeform explo-\nration of node-link diagrams under various transformations or co-\nordinate system embeddings, as well its immersive capabili-\nties. However, CytoCave introduces a range of new features\nthat facilitate the exploration of multi-omics networks using di-\nmensionality reduction projections of high-dimensional biological\ndata with cluster membership highlighting, and includes scalabil-\nity upgrades to support visualizing and interacting with large scale\nproteomics and multi-omics datasets. The CytoCave project source\ncode, which includes the web application JavaScript and the data\nprocessing pipeline Jupyter notebook, is available on GitHub at\nhttps://github.com/iMammal/CytoCave.\nIn this paper, we describe how to use CytoCave to facilitate the\nfollowing proteomics and drug discovery tasks. CytoCave enables\nusers: (Task 1) to select a protein and analyze drugs that target them,\nor, similarly, (Task 2) to select a drug and visualize the proteins\nthat are strongly associated with the drug response. Additionally,\nCytoCave re-designs the traditional 2D force-directed layout visu-\nalization of protein interaction networks, providing an interactive\ninterface that allows users to pan, rotate, and zoom in and out of the\nnetwork, and to switch layouts and color coding templates from a\nvariety of pre-calculated options, with optional pop-up annotations\non mouse hovers and edge display / edge hiding on mouse clicks.",
+                        "abstract": "CytoCave is an immersive interactive online visualization platform based on the NeuroCave connectome visualization application, but modified and optimized for general -omics network visual- ization. CytoCave leverages existing features of NeuroCave, in- cluding the side-by-side viewports designed for freeform explo- ration of node-link diagrams under various transformations or co- ordinate system embeddings, as well its immersive capabili- ties. However, CytoCave introduces a range of new features that facilitate the exploration of multi-omics networks using di- mensionality reduction projections of high-dimensional biological data with cluster membership highlighting, and includes scalabil- ity upgrades to support visualizing and interacting with large scale proteomics and multi-omics datasets. The CytoCave project source code, which includes the web application JavaScript and the data processing pipeline Jupyter notebook, is available on GitHub at https://github.com/iMammal/CytoCave. In this paper, we describe how to use CytoCave to facilitate the following proteomics and drug discovery tasks. CytoCave enables users: (Task 1) to select a protein and analyze drugs that target them, or, similarly, (Task 2) to select a drug and visualize the proteins that are strongly associated with the drug response. Additionally, CytoCave re-designs the traditional 2D force-directed layout visu- alization of protein interaction networks, providing an interactive interface that allows users to pan, rotate, and zoom in and out of the network, and to switch layouts and color coding templates from a variety of pre-calculated options, with optional pop-up annotations on mouse hovers and edge display / edge hiding on mouse clicks.",
                         "uid": "a-biomedchallenge-7741",
                         "time_stamp": "2023-10-22T22:00:00Z",
                         "time_start": "2023-10-22T22:00:00Z",
@@ -15095,7 +14952,7 @@
                         "session_id": "c1",
                         "title": "ProtEGOnist \u2013 Exploration of protein-protein interactions using ego-graph networks",
                         "contributors": [
-                            "Mathias Witte Paz"
+                            "Michael Krone"
                         ],
                         "authors": [
                             "Nicolas Brich",
@@ -15467,7 +15324,7 @@
                         "session_id": "w5",
                         "title": "WEC-Explainer: A Descriptive Framework for Exploring Word Embedding Contextualization",
                         "contributors": [
-                            "Rita Sevastjanova"
+                            "Mennatallah El-Assady"
                         ],
                         "authors": [
                             "Rita Sevastjanova",
@@ -15536,7 +15393,7 @@
                         "session_id": "w5",
                         "title": "Unveiling Insights: Surfacing Fine-Grained Discourse Acts in Short Free-Form Public Input Text through Visual Analytics",
                         "contributors": [
-                            "Mahmood Jasim"
+                            "Narges Mahyar"
                         ],
                         "authors": [
                             "Mahmood Jasim",
@@ -15609,7 +15466,7 @@
                         "session_id": "w5",
                         "title": "Discourse Lines: Visualising Current Policy and Media Storylines of Opportunity and Disadvantage with Narrative Exploration Maps",
                         "contributors": [
-                            "Sarah Goodwin"
+                            "Simon Angus, Ying Yang"
                         ],
                         "authors": [
                             "Simon D Angus",
@@ -15803,7 +15660,7 @@
                         "session_id": "w10",
                         "title": "Alternatives to Contour Visualizations for Power Systems Data",
                         "contributors": [
-                            "Isaiah Lyons-Galante"
+                            "Kenny Gruchalla"
                         ],
                         "authors": [
                             "Isaiah Lyons-Galante",
@@ -15840,7 +15697,7 @@
                         "session_id": "w10",
                         "title": "Topological Guided Detection of Extreme Wind Phenomena: Implications for Wind Energy",
                         "contributors": [
-                            "Yu Qin"
+                            "Brian Summa"
                         ],
                         "authors": [
                             "Yu Qin",
@@ -15909,7 +15766,7 @@
                         "session_id": "w10",
                         "title": "Virtual Reality for Enhancing Engagement with Net Zero Transitions",
                         "contributors": [
-                            "Mrs Amal Hussain Alshardy"
+                            "Amal Alshardy"
                         ],
                         "authors": [
                             "Amal Alshardy",
@@ -15945,7 +15802,7 @@
                         "session_id": "w10",
                         "title": "Visualization of the Oscillatory Dynamics of an Island Power System",
                         "contributors": [
-                            "Sam Molnar"
+                            "Kenny Gruchalla"
                         ],
                         "authors": [
                             "Sam Molnar",
@@ -16337,7 +16194,7 @@
                         "session_id": "w13",
                         "title": "CommunityClick-Virtual: Multi-Modal Interactions for Enhancing Participation in Virtual Meetings",
                         "contributors": [
-                            "Mahmood Jasim"
+                            "Narges Mahyar"
                         ],
                         "authors": [
                             "Mahmood Jasim, Ali Sarvghad, Narges Mahyar"
@@ -16370,7 +16227,7 @@
                         "session_id": "w13",
                         "title": "Asymmetric Immersive Presentation System for Financial Data Visualization",
                         "contributors": [
-                            "Mengyu Chen"
+                            "David Saffo"
                         ],
                         "authors": [
                             "Matt Gottsacker, Mengyu Chen, David Saffo, Feiyu Lu, Blair MacIntyre"
