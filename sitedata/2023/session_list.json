@@ -25,6 +25,7 @@
                 "zoom_private_password": "",
                 "zoom_private_link": "",
                 "zoom_broadcast_link": "",
+                "youtube_rec_id": "ONSD9BybU5M",
                 "ff_link": "",
                 "time_slots": []
             },
@@ -46,6 +47,7 @@
                 "zoom_private_link": "",
                 "zoom_broadcast_link": "",
                 "ff_link": "",
+                "youtube_rec_id": "WlmfkEgUFuM",
                 "time_slots": []
             },
             {
@@ -66,6 +68,7 @@
                 "zoom_private_link": "",
                 "zoom_broadcast_link": "",
                 "ff_link": "",
+                "youtube_rec_id": "jI2GrL3csDc",
                 "time_slots": []
             },
             {
@@ -159,6 +162,7 @@
                 "zoom_private_password": "",
                 "zoom_private_link": "",
                 "zoom_broadcast_link": "",
+                "youtube_rec_id": "UZM5rTu2I1c",
                 "ff_link": "https://youtu.be/w3wENT9y2dA",
                 "time_slots": [
                     {
@@ -180,9 +184,9 @@
                         "time_end": "2023-10-24T03:12:00Z",
                         "paper_type": "full",
                         "keywords": [
-                            "Information Visualization, Affective Design, Visual Communication, User Experience, Storytelling"
+                            "Information Visualization;Affective Design;Visual Communication;User Experience;Storytelling"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327385",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -218,7 +222,7 @@
                         "keywords": [
                             "Segmentation volumes, lossless compression, volume rendering"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326573",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -262,7 +266,7 @@
                         "keywords": [
                             "Uncertainty visualization, Probabilistic forecasts, Elections, Emotions, Trust, Political participation, Longitudinal study"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327356",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -299,6 +303,7 @@
                 "zoom_private_password": "",
                 "zoom_private_link": "",
                 "zoom_broadcast_link": "",
+                "youtube_rec_id": "4ecP3zSnB_Q",
                 "ff_link": "https://youtu.be/VNGalekn9YM",
                 "time_slots": [
                     {
@@ -323,7 +328,7 @@
                         "keywords": [
                             "Temporal Data, interaction design, communication / presentation, storytelling, sketch-based interface, lazy data binding"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326520",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -360,7 +365,7 @@
                         "keywords": [
                             "Discontinuous vector field topology, equivalence in non-unique flow, non-smooth dynamical systems"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326519",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -399,7 +404,7 @@
                         "keywords": [
                             "Flow visualization, vortex detection, objectivity, observers, reference frames, Lie algebras, visual lens metaphors"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326915",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -494,8 +499,10 @@
                         "time_start": "2023-10-25T22:00:00Z",
                         "time_end": "2023-10-25T22:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Scatterplot;overdraw;clustering;design optimization;perception;topological data analysis"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3189883",
                         "fno": "9826389",
                         "has_image": true,
                         "has_pdf": false,
@@ -528,8 +535,10 @@
                         "time_start": "2023-10-25T22:12:00Z",
                         "time_end": "2023-10-25T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "High-dimensional data;multivariate data;subspace clustering;subspace analysis;cluster analysis"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3256376",
                         "fno": "10068257",
                         "has_image": true,
                         "has_pdf": false,
@@ -567,8 +576,10 @@
                         "time_start": "2023-10-25T22:24:00Z",
                         "time_end": "2023-10-25T22:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Scatterplots;differential privacy;data study;visual utility"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3292391",
                         "fno": "10173631",
                         "has_image": true,
                         "has_pdf": false,
@@ -608,7 +619,7 @@
                         "keywords": [
                             "Cluster, scatterplot, perception, cluster analysis, cluster ambiguity, visual quality measure"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327201",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -647,7 +658,7 @@
                         "keywords": [
                             "Dimensionality Reduction, Reliability, Clustering, Clustering Validation Measures, Dimensionality Reduction Evaluation"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327187",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -685,7 +696,7 @@
                         "keywords": [
                             "Guaranteed visibility, Layout adjustment, Overlap removal, Scatterplots"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326596",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -710,7 +721,7 @@
                 "track": "oneohfive",
                 "session_image": "full3.png",
                 "chair": [
-                    "Karen Schloss"
+                    "Kim Marriott"
                 ],
                 "time_start": "2023-10-25T22:00:00Z",
                 "time_end": "2023-10-25T23:15:00Z",
@@ -740,8 +751,10 @@
                         "time_start": "2023-10-25T22:00:00Z",
                         "time_end": "2023-10-25T22:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Quantitative color encoding;rainbow colormaps;scalar fields;perception"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3214771",
                         "fno": "9919390",
                         "has_image": true,
                         "has_pdf": false,
@@ -775,8 +788,10 @@
                         "time_start": "2023-10-25T22:12:00Z",
                         "time_end": "2023-10-25T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Physical computing;color-changing inks;design space;data physicalization;data visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3209631",
                         "fno": "9904859",
                         "has_image": true,
                         "has_pdf": false,
@@ -813,7 +828,7 @@
                         "keywords": [
                             "accessibility, visualization, tools, technical materials, platforms, data interaction"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327393",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -854,7 +869,7 @@
                         "keywords": [
                             "chart, color palette, natural language, large language model"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326522",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -895,7 +910,7 @@
                         "keywords": [
                             "Trajectory data, times series, density-based visualization, clustering, coloring"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327149",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -934,7 +949,7 @@
                         "keywords": [
                             "Accessibility, sonification, multimodal interaction, crossmodal interaction, visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326937",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -993,8 +1008,10 @@
                         "time_start": "2023-10-25T03:00:00Z",
                         "time_end": "2023-10-25T03:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Design Mining;Visualization Recommendation;Multiple-view Visualization;Dashboards"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3251344",
                         "fno": "10057994",
                         "has_image": true,
                         "has_pdf": false,
@@ -1032,8 +1049,10 @@
                         "time_start": "2023-10-25T03:12:00Z",
                         "time_end": "2023-10-25T03:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Datasets;visual analytics;visualization specification;visualization design"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3213565",
                         "fno": "9916137",
                         "has_image": true,
                         "has_pdf": false,
@@ -1070,8 +1089,10 @@
                         "time_start": "2023-10-25T03:24:00Z",
                         "time_end": "2023-10-25T03:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Layout adaptation;mobile devices;multiple-view visualization;responsive design"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3240356",
                         "fno": "10029921",
                         "has_image": true,
                         "has_pdf": false,
@@ -1108,9 +1129,9 @@
                         "time_end": "2023-10-25T03:48:00Z",
                         "paper_type": "full",
                         "keywords": [
-                            "Decision making, visualization, state of the art, review, survey, design, interaction, multi-criteria decision making, MCDM."
+                            "Decision making;visualization;state of the art;review;survey;design;interaction;multi-criteria decision making;MCDM"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326593",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1148,7 +1169,7 @@
                         "keywords": [
                             "Gricean maxims, interactive visualization, conversation initiation, grounding, turn-taking, repair and refinement."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327158",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1186,7 +1207,7 @@
                         "keywords": [
                             "Interview study, socio-technical challenges, visual analytics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326525",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1252,7 +1273,7 @@
                         "keywords": [
                             "Visual Analytics, Multimodal Analysis, Public Speaking, Online Presentation"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326932",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1298,7 +1319,7 @@
                         "keywords": [
                             "Automatic grading, D3 visualization, large class, Selenium, Gradescope grading platform"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327181",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1335,8 +1356,10 @@
                         "time_start": "2023-10-25T05:09:00Z",
                         "time_end": "2023-10-25T05:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Customer satisfaction;video data;video visualization;visual analytics"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3245609",
                         "fno": "10045801",
                         "has_image": true,
                         "has_pdf": false,
@@ -1376,7 +1399,7 @@
                         "keywords": [
                             "Visualization literacy, computerized adaptive testing, item response theory"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327165",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1419,7 +1442,7 @@
                         "keywords": [
                             "Causal analysis, Questionnaire, Design study"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327376",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1474,7 +1497,7 @@
                         "keywords": [
                             "Data Visualization, Education, Challenges"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327378",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1531,8 +1554,10 @@
                         "time_start": "2023-10-25T23:45:00Z",
                         "time_end": "2023-10-25T23:57:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visualisation;Distributed Tracing;Systems"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3241596",
                         "fno": "10034850",
                         "has_image": true,
                         "has_pdf": false,
@@ -1568,8 +1593,10 @@
                         "time_start": "2023-10-25T23:57:00Z",
                         "time_end": "2023-10-26T00:09:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Separable and integral dimension pairs;bivariate glyph;3D glyph;quantitative visualization;large-magnitude-range"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3232591",
                         "fno": "10002316",
                         "has_image": true,
                         "has_pdf": false,
@@ -1605,8 +1632,10 @@
                         "time_start": "2023-10-26T00:09:00Z",
                         "time_end": "2023-10-26T00:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Uncertainty;model reliance;trust;human-machine collaborations"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3251950",
                         "fno": "10058545",
                         "has_image": true,
                         "has_pdf": false,
@@ -1640,8 +1669,10 @@
                         "time_start": "2023-10-26T00:21:00Z",
                         "time_end": "2023-10-26T00:33:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Graphical inference;visual statistics;statistics by eye;fitting distributions;crowdsourcing"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3210763",
                         "fno": "9905944",
                         "has_image": true,
                         "has_pdf": false,
@@ -1681,7 +1712,7 @@
                         "keywords": [
                             "Guidance, heuristics, evaluation, visual analytics."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327152",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1718,7 +1749,7 @@
                         "keywords": [
                             "Perception & cognition, Methodologies, Human-subjects qualitative studies, Human-subjects quantitative studies, Charts, diagrams and plots, General public"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326590",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1777,8 +1808,10 @@
                         "time_start": "2023-10-26T22:00:00Z",
                         "time_end": "2023-10-26T22:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Explainable artificial intelligence;fairness;intelligibility;resource allocation;urban planning"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3239909",
                         "fno": "10026242",
                         "has_image": true,
                         "has_pdf": false,
@@ -1812,8 +1845,10 @@
                         "time_start": "2023-10-26T22:12:00Z",
                         "time_end": "2023-10-26T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Spatiotemporal visualization;spatial interactions;spatial abstraction"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3250166",
                         "fno": "10057127",
                         "has_image": true,
                         "has_pdf": false,
@@ -1851,8 +1886,10 @@
                         "time_start": "2023-10-26T22:24:00Z",
                         "time_end": "2023-10-26T22:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Geospatial network;multilevel analysis;information visualization;graph drawing"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3229953",
                         "fno": "9991899",
                         "has_image": true,
                         "has_pdf": false,
@@ -1893,8 +1930,10 @@
                         "time_start": "2023-10-26T22:36:00Z",
                         "time_end": "2023-10-26T22:48:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Autonomous driving;spatial-temporal visual analytics;interpretability"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3201101",
                         "fno": "9870679",
                         "has_image": true,
                         "has_pdf": false,
@@ -1936,7 +1975,7 @@
                         "keywords": [
                             "Spatial data analysis, local models, multiscale geographically weighted regression, model explanation, visual analytics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327359",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -1976,7 +2015,7 @@
                         "keywords": [
                             "Urban visual analytics, Urban analytics, Urban data, Visualization toolkit"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326598",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2036,7 +2075,7 @@
                         "keywords": [
                             "Visual Analytics, Hypergraph visualization, Rule-based recommendation systems"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326912",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2072,7 +2111,7 @@
                         "keywords": [
                             "Interaction, Visualization Tools, Charts, SVG, Exploratory Data Analysis"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327172",
                         "fno": "",
                         "has_image": false,
                         "has_pdf": true,
@@ -2107,7 +2146,7 @@
                         "keywords": [
                             "Uncertainty visualization, probability distributions, confidence distributions, grammar of graphics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327195",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2144,7 +2183,7 @@
                         "keywords": [
                             "Notation, Usability, Evaluation, Language design, API design, Domain-specific languages."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326907",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2180,7 +2219,7 @@
                         "keywords": [
                             "Visualization, Interaction, Scalability, Grammar of Graphics, Software Architecture, Databases"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327189",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2219,7 +2258,7 @@
                         "keywords": [
                             "Chart layout, Reuse, Reverse-engineering, Deconstruction."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327354",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2283,7 +2322,7 @@
                         "keywords": [
                             "Graph Data, Application Motivated Visualization, Automatic Visualization, Narrative Visualization, Authoring Tools"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326925",
                         "fno": "",
                         "has_image": false,
                         "has_pdf": true,
@@ -2326,7 +2365,7 @@
                         "keywords": [
                             "Quantum circuit, semantic analysis, visual abstraction, context visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327148",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2362,8 +2401,10 @@
                         "time_start": "2023-10-25T05:09:00Z",
                         "time_end": "2023-10-25T05:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Information visualization;Chart mining;Semantic segmentation;Network graph;Attention mechanism"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3225554",
                         "fno": "9966829",
                         "has_image": true,
                         "has_pdf": false,
@@ -2399,8 +2440,10 @@
                         "time_start": "2023-10-25T05:21:00Z",
                         "time_end": "2023-10-25T05:33:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Information visualization;visualization systems and software;influence maximization;visual analytics;information diffusion"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3190623",
                         "fno": "9829321",
                         "has_image": true,
                         "has_pdf": false,
@@ -2476,7 +2519,7 @@
                         "keywords": [
                             "Hypergraph visualization, scalable visualization, polygon layout, hypergraph embedding, primal-dual visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326599",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2539,7 +2582,7 @@
                         "keywords": [
                             "High-dimensional data visualization, dimensionality reduction, streaming data visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326515",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2581,7 +2624,7 @@
                         "keywords": [
                             "visual analytics system, distributed query execution, performance analysis"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326930",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2622,8 +2665,10 @@
                         "time_start": "2023-10-24T22:24:00Z",
                         "time_end": "2023-10-24T22:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Dimension Reduction;Explainability of DR Models;Deep Learning;Parametric Model"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3223399",
                         "fno": "9956753",
                         "has_image": false,
                         "has_pdf": false,
@@ -2658,8 +2703,10 @@
                         "time_start": "2023-10-24T22:36:00Z",
                         "time_end": "2023-10-24T22:48:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visual analytics;dual analysis;feature space;data space;feature exploration;mixed data;high-dimensional data"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3288356",
                         "fno": "10158903",
                         "has_image": true,
                         "has_pdf": false,
@@ -2697,7 +2744,7 @@
                         "keywords": [
                             "Dimensionality reduction, t-distributed stochastic neighbor embedding, constraint integration"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326600",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2741,7 +2788,7 @@
                         "keywords": [
                             "High-dimensional data, Visual analytics, Visualization framework, Progressive analytics, Prototyping system"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326582",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2801,7 +2848,7 @@
                         "keywords": [
                             "Application Motivated Visualization, Geospatial Data, Mixed Initiative Human-Machine Analysis, Process/Workflow Design, Task Abstractions & Application Domains, Temporal Data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326572",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2835,8 +2882,10 @@
                         "time_start": "2023-10-24T22:12:00Z",
                         "time_end": "2023-10-24T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visualization collection;image embedding;visual query;image visualization;design pattern"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3229023",
                         "fno": "9984953",
                         "has_image": true,
                         "has_pdf": false,
@@ -2872,8 +2921,10 @@
                         "time_start": "2023-10-24T22:24:00Z",
                         "time_end": "2023-10-24T22:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Image collection visualization;image collage;irregular shape layout"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3262039",
                         "fno": "10081386",
                         "has_image": true,
                         "has_pdf": false,
@@ -2911,8 +2962,10 @@
                         "time_start": "2023-10-24T22:36:00Z",
                         "time_end": "2023-10-24T22:48:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visualization dataset;crowdsourcing;literature analysis;visualization classification;visualization detection"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3155440",
                         "fno": "9729541",
                         "has_image": true,
                         "has_pdf": false,
@@ -2956,7 +3009,7 @@
                         "keywords": [
                             "Model evaluation, computer vision, classification, object detection, instance segmentation"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326588",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -2999,7 +3052,7 @@
                         "keywords": [
                             "Interactive machine learning, data programming, video exploration and analysis"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326586",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3062,7 +3115,7 @@
                         "keywords": [
                             "Sports Analytics, Immersive Analytics, Data Visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327161",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3097,8 +3150,10 @@
                         "time_start": "2023-10-25T03:12:00Z",
                         "time_end": "2023-10-25T03:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Virtual reality;cluster perception;information visualization;immersive analytics;dimension reduction;classification"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3192364",
                         "fno": "9834145",
                         "has_image": true,
                         "has_pdf": false,
@@ -3141,7 +3196,7 @@
                         "keywords": [
                             "Network, Guidelines, VisDesign, HumanQuant, CompSystems."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327402",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3180,7 +3235,7 @@
                         "keywords": [
                             "Spatial selection, immersive analytics, virtual reality (VR), target-aware and context-aware interaction for visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326517",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3221,7 +3276,7 @@
                         "keywords": [
                             "Immersive Analytics, Systematic Review, Survey, Augmented Reality, Virtual Reality, Design Space"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327368",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3259,7 +3314,7 @@
                         "keywords": [
                             "immersive analytics, situated analytics, ubiquitous analytics, gestural interaction, voice interaction"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326580",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3320,7 +3375,7 @@
                         "keywords": [
                             "Constructive Climate Journalism, Frameworks, Storytelling, Journalism"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327185",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3360,8 +3415,10 @@
                         "time_start": "2023-10-26T22:12:00Z",
                         "time_end": "2023-10-26T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Data journalism;data stories;data-driven storytelling;online news;thumbnail images;visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3278304",
                         "fno": "10130316",
                         "has_image": true,
                         "has_pdf": false,
@@ -3399,7 +3456,7 @@
                         "keywords": [
                             "Visualizations, Embellishments, Non-experts in visualisation and design"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326914",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3438,7 +3495,7 @@
                         "keywords": [
                             "Diverse audiences, Information receptivity, Information visualization, Open data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326917",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3474,7 +3531,7 @@
                         "keywords": [
                             "Political Polarization, Public Opinion, Social Categorization, Survey Data, Social Influence, Attitude Change"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326512",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3535,8 +3592,10 @@
                         "time_start": "2023-10-24T23:45:00Z",
                         "time_end": "2023-10-24T23:57:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Tree layouts;force-directed;readability"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3274572",
                         "fno": "10122175",
                         "has_image": true,
                         "has_pdf": false,
@@ -3573,8 +3632,10 @@
                         "time_start": "2023-10-24T23:57:00Z",
                         "time_end": "2023-10-25T00:09:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "FFT;force directed placement;graph layout;student\u201a\u00c4\u00f4s t-distribution"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3238821",
                         "fno": "10024360",
                         "has_image": true,
                         "has_pdf": false,
@@ -3614,8 +3675,10 @@
                         "time_start": "2023-10-25T00:09:00Z",
                         "time_end": "2023-10-25T00:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Radial visualization;stress model;hierarchy constraint;graph"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3187425",
                         "fno": "9814874",
                         "has_image": true,
                         "has_pdf": false,
@@ -3657,7 +3720,7 @@
                         "keywords": [
                             "Grid layout, similarity, convexity, compactness, optimization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326934",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3695,7 +3758,7 @@
                         "keywords": [
                             "Tree visualization, icicle tree, sunburst tree, size encoding, area constancy, node separation, radial icicle tree, RIT"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327178",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3795,7 +3858,7 @@
                         "keywords": [
                             "Transformer, Attention, NLP, Computer Vision, Visual Analytics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327163",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3831,8 +3894,10 @@
                         "time_start": "2023-10-24T23:57:00Z",
                         "time_end": "2023-10-25T00:09:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Machine learning;natural language processing;textual data;user-in-the-loop;visual analytics"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3225114",
                         "fno": "9964397",
                         "has_image": true,
                         "has_pdf": false,
@@ -3871,8 +3936,10 @@
                         "time_start": "2023-10-25T00:09:00Z",
                         "time_end": "2023-10-25T00:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Open-domain Question Answering;Explainable Machine Learning;Visual Analytics"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3243676",
                         "fno": "10056593",
                         "has_image": true,
                         "has_pdf": false,
@@ -3911,7 +3978,7 @@
                         "keywords": [
                             "Commonsense reasoning, visual analytics, XAI, natural language processing"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327153",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3950,7 +4017,7 @@
                         "keywords": [
                             "pictorial visualization, generative model, authoring tool"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326913",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -3992,7 +4059,7 @@
                         "keywords": [
                             "Prompt engineering, text-to-image generation, image visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327168",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4048,8 +4115,10 @@
                         "time_start": "2023-10-25T23:45:00Z",
                         "time_end": "2023-10-25T23:57:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Volume visualization;implicit neural representation;data generation;visualization generation"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3197203",
                         "fno": "9852325",
                         "has_image": true,
                         "has_pdf": false,
@@ -4085,8 +4154,10 @@
                         "time_start": "2023-10-25T23:57:00Z",
                         "time_end": "2023-10-26T00:09:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Deep learning;super-resolution;hierarchical data"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3214420",
                         "fno": "9920542",
                         "has_image": true,
                         "has_pdf": false,
@@ -4121,8 +4192,10 @@
                         "time_start": "2023-10-26T00:09:00Z",
                         "time_end": "2023-10-26T00:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Implicit neural representation;path tracing;ray marching;volume visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3293121",
                         "fno": "10175377",
                         "has_image": true,
                         "has_pdf": false,
@@ -4161,7 +4234,7 @@
                         "keywords": [
                             "Scene representation network, deep learning, scientific visualization, volume rendering"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327194",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4198,7 +4271,7 @@
                         "keywords": [
                             "Volume data, volume rendering, volume visualization, deep learning, global illumination, neural rendering, path tracing"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327107",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4234,7 +4307,7 @@
                         "keywords": [
                             "Super resolution, latent space, normalizing flow, uncertainty visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327171",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4300,7 +4373,7 @@
                         "keywords": [
                             "Visual Analytics, Health Profiling, Multimodal Learning, Context Data, Motion Data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326943",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4338,7 +4411,7 @@
                         "keywords": [
                             "Design study, task analysis, diabetes, time series data, visual analytics, clustering"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326936",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4378,7 +4451,7 @@
                         "keywords": [
                             "Temporal Data; Life Sciences; Mixed Initiative Human-Machine Analysis; Data Clustering and Aggregation"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326939",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4415,8 +4488,10 @@
                         "time_start": "2023-10-26T05:21:00Z",
                         "time_end": "2023-10-26T05:33:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Biomedical and medical visualization;intelligence analysis;machine learning;task and requirements analysis;user interfaces"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3233548",
                         "fno": "10005035",
                         "has_image": true,
                         "has_pdf": false,
@@ -4453,8 +4528,10 @@
                         "time_start": "2023-10-26T05:33:00Z",
                         "time_end": "2023-10-26T05:45:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visual analytics;design study;pangenomics;comparative genomics;variant analysis"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3282364",
                         "fno": "10143227",
                         "has_image": true,
                         "has_pdf": false,
@@ -4497,7 +4574,7 @@
                         "keywords": [
                             "Multimodal Medical Dataset, Visual Analytics, Explainable Machine Learning"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326929",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4561,7 +4638,7 @@
                         "keywords": [
                             "Visual analytics, parameter space analysis, sensitivity analysis, spatial blind source separation."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327203",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4603,7 +4680,7 @@
                         "keywords": [
                             "Livestream E-commerce, Visual Analytics, Multimodal Video Analysis, Marketing Strategy, Time-series Modeling."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326911",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4639,8 +4716,10 @@
                         "time_start": "2023-10-26T03:24:00Z",
                         "time_end": "2023-10-26T03:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Contrastive learning;data imputation;explainable AI;missing data"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3285210",
                         "fno": "10149378",
                         "has_image": true,
                         "has_pdf": false,
@@ -4676,8 +4755,10 @@
                         "time_start": "2023-10-26T03:36:00Z",
                         "time_end": "2023-10-26T03:48:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visualization;visual analytics;evaluation;video analytics;machine learning;deep learning;computer vision"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3241581",
                         "fno": "10034833",
                         "has_image": true,
                         "has_pdf": false,
@@ -4714,7 +4795,7 @@
                         "keywords": [
                             "AI, visualization authoring, data transformation, programming by example, natural language, large language model"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326585",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4752,7 +4833,7 @@
                         "keywords": [
                             "Information visualization, information steganography, invertible visualization, invertible neural network."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326597",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4815,7 +4896,7 @@
                         "keywords": [
                             "Deep learning, Transformer, Visual tutorial, Explorable explanations"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327353",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -4852,8 +4933,10 @@
                         "time_start": "2023-10-25T22:12:00Z",
                         "time_end": "2023-10-25T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Wordle;Animation;Affective Visualization;Authoring;Casual Visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3286392",
                         "fno": "10153659",
                         "has_image": true,
                         "has_pdf": false,
@@ -4889,8 +4972,10 @@
                         "time_start": "2023-10-25T22:24:00Z",
                         "time_end": "2023-10-25T22:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Biomedical systematic review;evidence-based-practice;human-in-the-loop information retrieval;question-based document retrieval;question-based document categorization"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3219762",
                         "fno": "9939115",
                         "has_image": true,
                         "has_pdf": false,
@@ -4927,8 +5012,10 @@
                         "time_start": "2023-10-25T22:36:00Z",
                         "time_end": "2023-10-25T22:48:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visual Analytics;Natural Language Understanding;Shortcut"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3236380",
                         "fno": "10015807",
                         "has_image": true,
                         "has_pdf": false,
@@ -4969,8 +5056,10 @@
                         "time_start": "2023-10-25T22:48:00Z",
                         "time_end": "2023-10-25T23:00:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Natural language interface;visual data analysis;explainability"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3240003",
                         "fno": "10026499",
                         "has_image": true,
                         "has_pdf": false,
@@ -5011,7 +5100,7 @@
                         "keywords": [
                             "Text visualization, spatialization, dimensionality reduction algorithms, topic modeling"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326569",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5073,8 +5162,10 @@
                         "time_start": "2023-10-26T03:00:00Z",
                         "time_end": "2023-10-26T03:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "visualization;graphical perception;individual differences"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3226463",
                         "fno": "9978718",
                         "has_image": true,
                         "has_pdf": false,
@@ -5112,7 +5203,7 @@
                         "keywords": [
                             "Aesthetics, textures, icons, black and white, visualization, visual representations, categorical data, design, perception"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326941",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5150,7 +5241,7 @@
                         "keywords": [
                             "Information Visualization; Human-Centered Computing; Perception & Cognition; Takeaways."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326919",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5190,7 +5281,7 @@
                         "keywords": [
                             "Line Drawings, Line Stylization, Perceptual Evaluation, Uncertainty Visualization."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326523",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5228,7 +5319,7 @@
                         "keywords": [
                             "Illustrative Visualization, Perceptual Evaluation, Hatching, Stippling."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326574",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5265,9 +5356,9 @@
                         "time_end": "2023-10-26T04:12:00Z",
                         "paper_type": "full",
                         "keywords": [
-                            "Graphical Perception Studies, Visualization Recommendation Algorithms"
+                            "Graphical Perception Studies;Visualization Recommendation Algorithms"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326527",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5326,8 +5417,10 @@
                         "time_start": "2023-10-26T22:00:00Z",
                         "time_end": "2023-10-26T22:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Tensor visualization;third-order tensor;deviatoric decomposition;electro-active polymer"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3209328",
                         "fno": "9905473",
                         "has_image": true,
                         "has_pdf": false,
@@ -5359,8 +5452,10 @@
                         "time_start": "2023-10-26T22:12:00Z",
                         "time_end": "2023-10-26T22:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "tomographic reconstruction;electron tomography;tilt-series;visualization;cryo-ET;GPU acceleration"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3230445",
                         "fno": "9992117",
                         "has_image": true,
                         "has_pdf": false,
@@ -5398,8 +5493,10 @@
                         "time_start": "2023-10-26T22:24:00Z",
                         "time_end": "2023-10-26T22:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Battery;color mapping;multi channel data;multivariate data;transfer function;volume rendering;volume visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3263856",
                         "fno": "10091196",
                         "has_image": true,
                         "has_pdf": false,
@@ -5435,7 +5532,7 @@
                         "keywords": [
                             "Lossy to lossless compression, progressive precision, multi-component expansion, floating-point data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327186",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5477,7 +5574,7 @@
                         "keywords": [
                             "Transfer function, direct volume rendering, deep learning, generative models, differentiable rendering"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327371",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5518,7 +5615,7 @@
                         "keywords": [
                             "Volume rendering, ray-guided rendering, large-scale data, out-of-core rendering, multi-resolution, multi-channel, web-based visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327193",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5593,7 +5690,7 @@
                         "keywords": [
                             "Data Models; Image and Video Data; Temporal Data; Application Motivated Visualization; AR/VR/Immersive."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327396",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5629,8 +5726,10 @@
                         "time_start": "2023-10-26T04:57:00Z",
                         "time_end": "2023-10-26T05:09:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "situated analytics;situated visualization;augmented reality;immersive analytics;data visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3285546",
                         "fno": "10149486",
                         "has_image": true,
                         "has_pdf": false,
@@ -5667,7 +5766,7 @@
                         "keywords": [
                             "Augmented reality, immersive analytics, situated visualization, design patterns, design space"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327398",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5705,7 +5804,7 @@
                         "keywords": [
                             "Taxonomy, Models, Frameworks, Theory ; Mobile, AR/VR/Immersive, Specialized Input/Display Hardware"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327361",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5745,7 +5844,7 @@
                         "keywords": [
                             "Augmented Reality, Reinforcement Learning, Label Placement, Dynamic Scenarios"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326568",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5848,7 +5947,7 @@
                         "keywords": [
                             "Spatiotemporal Analysis, Multi-criteria Decision Making, Visualization."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327077",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5884,7 +5983,7 @@
                         "keywords": [
                             "sports data visualization, sports analytics, visual comparison, basketball"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326910",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5922,7 +6021,7 @@
                         "keywords": [
                             "Geographic Visualization, Routing"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326940",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -5960,8 +6059,10 @@
                         "time_start": "2023-10-25T22:36:00Z",
                         "time_end": "2023-10-25T22:48:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Immersive wildfire training;immersive wildfire visualization;modelling;simulation;wildfire;wildfire visualization"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3258440",
                         "fno": "10076255",
                         "has_image": true,
                         "has_pdf": false,
@@ -5999,8 +6100,10 @@
                         "time_start": "2023-10-25T22:48:00Z",
                         "time_end": "2023-10-25T23:00:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Sports visualization;lineup selection;design study"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3207147",
                         "fno": "9894103",
                         "has_image": true,
                         "has_pdf": false,
@@ -6038,9 +6141,9 @@
                         "time_end": "2023-10-25T23:12:00Z",
                         "paper_type": "full",
                         "keywords": [
-                            "Soccer Visualization, Player Evaluation, Design Study"
+                            "Soccer Visualization;Player Evaluation;Design Study"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326524",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6100,8 +6203,10 @@
                         "time_start": "2023-10-24T22:00:00Z",
                         "time_end": "2023-10-24T22:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visualization;metadata;understanding;transparency;trust"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3231716",
                         "fno": "9998319",
                         "has_image": true,
                         "has_pdf": false,
@@ -6136,7 +6241,7 @@
                         "time_end": "2023-10-24T22:24:00Z",
                         "paper_type": "full",
                         "keywords": [],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2022.3205769",
                         "fno": "9887905",
                         "has_image": true,
                         "has_pdf": false,
@@ -6173,7 +6278,7 @@
                         "keywords": [
                             "Storytelling, Explanatory, Narrative visualization, Visual metaphor"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326578",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6211,7 +6316,7 @@
                         "keywords": [
                             "Visualization, Narration-animation interplay, Data video, Human-AI collaboration"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327197",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6250,7 +6355,7 @@
                         "keywords": [
                             "Chart and text takeaways, visual prominence, authoring, captions"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327150",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6290,7 +6395,7 @@
                         "keywords": [
                             "Narrative visualization, visual storytelling, conversational agent"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327363",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6346,8 +6451,10 @@
                         "time_start": "2023-10-26T04:45:00Z",
                         "time_end": "2023-10-26T04:57:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Causality analysis;hypothesis generation;hypothesis testing;time series;visual analytics"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3207929",
                         "fno": "9895311",
                         "has_image": true,
                         "has_pdf": false,
@@ -6386,7 +6493,7 @@
                         "keywords": [
                             "Ray Tracing, Volume Rendering, Particle Volumes, Radial Basis Functions, Scientific Visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327366",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6424,7 +6531,7 @@
                         "keywords": [
                             "Visualization techniques, time-series, design study, orders of magnitude, logarithmic scale"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326576",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6466,7 +6573,7 @@
                         "keywords": [
                             "Time Series Data, Exploratory Visual Analysis, Reinforcement Learning"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327200",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6504,7 +6611,7 @@
                         "keywords": [
                             "Time-series forecasting, counterfactual explanation, visual analytics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327389",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6546,7 +6653,7 @@
                         "keywords": [
                             "Spatiotemporal visualization, spatial time series, Storyline"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327162",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6603,8 +6710,10 @@
                         "time_start": "2023-10-26T03:00:00Z",
                         "time_end": "2023-10-26T03:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Topological data analysis;scalar data;persistence diagrams;discrete Morse theory"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3238008",
                         "fno": "10021892",
                         "has_image": true,
                         "has_pdf": false,
@@ -6641,8 +6750,10 @@
                         "time_start": "2023-10-26T03:12:00Z",
                         "time_end": "2023-10-26T03:24:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Morse-Smale complex;segmentation;topology;visualization;watershed transformation"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3261981",
                         "fno": "10081444",
                         "has_image": true,
                         "has_pdf": false,
@@ -6676,8 +6787,10 @@
                         "time_start": "2023-10-26T03:24:00Z",
                         "time_end": "2023-10-26T03:36:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Topological data analysis;ensemble data;merge trees;persistence diagrams"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3215001",
                         "fno": "9920234",
                         "has_image": true,
                         "has_pdf": false,
@@ -6716,7 +6829,7 @@
                         "keywords": [
                             "Perception & cognition, computational topology-based techniques, comparison and similarity."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326592",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6755,7 +6868,7 @@
                         "keywords": [
                             "Scalar field topology, merge trees, persistence pairs, high performance computing."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326526",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6793,7 +6906,7 @@
                         "keywords": [
                             "Topological data analysis, merge trees, scalar data, ensemble data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326601",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6855,7 +6968,7 @@
                         "keywords": [
                             "Feature tracking, robustness, topology-based methods in visualization, applications, climate science, tropical cyclones"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326905",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6892,7 +7005,7 @@
                         "keywords": [
                             "Ridge surface, crease surface, 2D manifold extraction, fast marching, virtual unfolding, historical documents"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327403",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6928,7 +7041,7 @@
                         "keywords": [
                             "Data structures, parallel computation, topological data analysis, simplicial complex"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327182",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -6965,7 +7078,7 @@
                         "keywords": [
                             "Tensor field visualization, 3D symmetric tensor fields, global tensor field topology, topological graphs, degenerate curves, neutral surfaces, wedges and trisectors"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326933",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7002,7 +7115,7 @@
                         "keywords": [
                             "Kaleidoscopic Orbifolds, Orbifold Visualization, Math Visualization, Orbifold Construction, Spherical Geometry, Hyperbolic Geometry"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326927",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7040,7 +7153,7 @@
                         "keywords": [
                             "Lossy compression, contour tree, topology preservation, topological data analysis, topology in visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326920",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7099,8 +7212,10 @@
                         "time_start": "2023-10-24T23:45:00Z",
                         "time_end": "2023-10-24T23:57:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Data visualization;Tabular displays;Empirical evaluation;Reasoning"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3232959",
                         "fno": "10002893",
                         "has_image": true,
                         "has_pdf": false,
@@ -7138,7 +7253,7 @@
                         "keywords": [
                             "bias, lines graph, ensemble perception, average"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326589",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7177,7 +7292,7 @@
                         "keywords": [
                             "Visualization, gender, visual gender representation, ethics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327369",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7218,7 +7333,7 @@
                         "keywords": [
                             "machine learning, fairness, bias, trust, visual design, gender, human-subjects studies"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327192",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7257,7 +7372,7 @@
                         "keywords": [
                             "Evaluation, decision-making, rational agent, scoring rule"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326513",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7298,7 +7413,7 @@
                         "keywords": [
                             "Trust, visualization, science, framework"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326579",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7358,8 +7473,10 @@
                         "time_start": "2023-10-24T22:00:00Z",
                         "time_end": "2023-10-24T22:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visualization techniques and methodologies;Human factors;Modeling and prediction;Data communications aspects"
+                        ],
+                        "doi": "10.1109/TVCG.2023.3259341",
                         "fno": "10077087",
                         "has_image": true,
                         "has_pdf": false,
@@ -7395,7 +7512,7 @@
                         "keywords": [
                             "Multidimensional data visualization, multivariate graphs, visual queries, visual exploration."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326594",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7433,7 +7550,7 @@
                         "keywords": [
                             "Data Profiling, Data Quality, Exploratory Data Analysis, Interactive Data Science"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327367",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7472,7 +7589,7 @@
                         "keywords": [
                             "Visualization, model checks, exploratory analysis"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326516",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7509,7 +7626,7 @@
                         "keywords": [
                             "Causal Analysis, Simpson\u2019s Paradox, Spurious Associations, Machine Learning, Decision Making"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326587",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7545,7 +7662,7 @@
                         "keywords": [
                             "Inferential statistics, qualitative interview study, thematic coding, statistical visualization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326521",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7607,7 +7724,7 @@
                         "keywords": [
                             "Visual analytics, evolutionary multi-objective optimization"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326921",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7643,8 +7760,10 @@
                         "time_start": "2023-10-25T04:57:00Z",
                         "time_end": "2023-10-25T05:09:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Visual Analytics;Explainable AI;XAI;Framework;Deep Learning;High-dimensional-to-high-dimensional translation"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3219248",
                         "fno": "9937145",
                         "has_image": true,
                         "has_pdf": false,
@@ -7679,8 +7798,10 @@
                         "time_start": "2023-10-25T05:09:00Z",
                         "time_end": "2023-10-25T05:21:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "visualization;rule set;surrogate model;model understanding"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3219232",
                         "fno": "9937064",
                         "has_image": true,
                         "has_pdf": false,
@@ -7716,7 +7837,7 @@
                         "keywords": [
                             "VIS4ML, Visualization, Machine learning, Human-in-the-loop, Human Knowledge, Generalizability, Survey."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326591",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7753,7 +7874,7 @@
                         "keywords": [
                             "Visualization model, toolkit, neural networks, visual diagnosis"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326575",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7792,7 +7913,7 @@
                         "keywords": [
                             "Open world learning, object detection, continuous learning, human-assisted AI."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326577",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7850,8 +7971,10 @@
                         "time_start": "2023-10-25T23:45:00Z",
                         "time_end": "2023-10-25T23:57:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "Information visualisation;machine learning;memorability;recallability"
+                        ],
+                        "doi": "10.1109/TVCG.2022.3198163",
                         "fno": "9855227",
                         "has_image": true,
                         "has_pdf": false,
@@ -7891,7 +8014,7 @@
                         "keywords": [
                             "Physicalization, tangible interfaces, 3D printing, computational fabrication, design automation, network data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327198",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7927,7 +8050,7 @@
                         "keywords": [
                             "Complex Systems, Risk Assessment, Sensemaking, Visualization Design"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326571",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -7965,7 +8088,7 @@
                         "keywords": [
                             "Visualization, responsive visualization, mixed-initiative authoring"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326583",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8004,7 +8127,7 @@
                         "keywords": [
                             "Computational Notebook, Sketch-based Interaction, Documentation, Visualization, Exploratory Data Analysis"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327170",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8042,7 +8165,7 @@
                         "keywords": [
                             "Information Visualization, Deceptive Visualization, Explorable Explanations"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327155",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8104,7 +8227,7 @@
                         "keywords": [
                             "Science of Science, Innovation, Academic Profiles, Patent Data, Publication Data, Visual Analytics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327387",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8144,7 +8267,7 @@
                         "keywords": [
                             "Visual analytics, digital humanities, spatial uncertainty, trajectory visualization, book movement, historical data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326944",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8182,7 +8305,7 @@
                         "keywords": [
                             "Design study, application motivated visualization, geospatial data"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326923",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8224,7 +8347,7 @@
                         "keywords": [
                             "Historical visualization, dataset, digital humanities, data labeling"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326908",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8358,7 +8481,7 @@
                         "keywords": [
                             "Physicalization, Physical visualization, 3D printing, Isometric decomposition, Direct remeshing, Biological structures, Intracellular compartments."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326595",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8395,7 +8518,7 @@
                         "keywords": [
                             "Turbulent flow, vortices, hairpin vortex extraction"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326603",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8434,7 +8557,7 @@
                         "keywords": [
                             "Molecular dynamics, time-series analysis, visual analytics"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326584",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8474,7 +8597,7 @@
                         "keywords": [
                             "Weather visualization, Ensemble visualization, Provenance management, WRF visual setup"
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326514",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8519,7 +8642,7 @@
                         "keywords": [
                             "Visual motif analysis, Focus&Context, Scientific visualization, Neuroscience, Connectomics."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3327388",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -8559,7 +8682,7 @@
                         "keywords": [
                             "Comparative visualization, ensemble, graph, porous media."
                         ],
-                        "doi": "",
+                        "doi": "10.1109/TVCG.2023.3326931",
                         "fno": "",
                         "has_image": true,
                         "has_pdf": true,
@@ -10119,7 +10242,7 @@
                         "time_end": "2023-10-26T23:03:00Z",
                         "paper_type": "short",
                         "keywords": [
-                            "Uncertainty  quantification  -  Machine  learning  -Dimensionality reduction - Visualization - Explainable AI"
+                            "Uncertainty quantification - Machine learning -Dimensionality reduction - Visualization - Explainable AI"
                         ],
                         "doi": "",
                         "fno": "",
@@ -10885,7 +11008,7 @@
                         "time_end": "2023-10-26T04:00:00Z",
                         "paper_type": "full",
                         "keywords": [],
-                        "doi": "",
+                        "doi": "10.1109/ISMAR55827.2022.00019",
                         "fno": "9995479",
                         "has_image": true,
                         "has_pdf": false,
@@ -10923,8 +11046,10 @@
                         "time_start": "2023-10-26T04:00:00Z",
                         "time_end": "2023-10-26T04:12:00Z",
                         "paper_type": "full",
-                        "keywords": [],
-                        "doi": "",
+                        "keywords": [
+                            "asymmetric collaborative visualization;virtual reality;data visualization;problem solving"
+                        ],
+                        "doi": "10.1109/VR55154.2023.00054",
                         "fno": "10108427",
                         "has_image": true,
                         "has_pdf": false,
@@ -16232,7 +16357,7 @@
                         "authors": [
                             "Matt Gottsacker, Mengyu Chen, David Saffo, Feiyu Lu, Blair MacIntyre"
                         ],
-                        "abstract": "This paper presents the current design of a work-in-progress system for giving engaging, immersive presentations based on financial data in an immersive environment.\nThe system consists of a presenter controlling the presentation flow through a tablet interface and an audience experiencing the presentation content through an augmented reality (AR) head-worn display (HWD).\nWe discuss the user scenario motivating our system design, its associated design considerations, the high level features of the system being built, and how a system such as this can be extended to other presentation contexts.",
+                        "abstract": "This paper presents the current design of a work-in-progress system for giving engaging, immersive presentations based on financial data in an immersive environment. The system consists of a presenter controlling the presentation flow through a tablet interface and an audience experiencing the presentation content through an augmented reality (AR) head-worn display (HWD). We discuss the user scenario motivating our system design, its associated design considerations, the high level features of the system being built, and how a system such as this can be extended to other presentation contexts.",
                         "uid": "w-mercado-8593",
                         "time_stamp": "2023-10-21T22:00:00Z",
                         "time_start": "2023-10-21T22:00:00Z",
