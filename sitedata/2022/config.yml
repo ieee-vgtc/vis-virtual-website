@@ -27,7 +27,7 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 #user: miniconf@miniconf.com
 #pass: mIniconf1_
 
-use_auth0: true
+use_auth0: false
 auth0_client_id : MhsgAU1rWTFf2ZwPoS2946drcsHlMgBX
 auth0_domain : ieeevis.us.auth0.com
 
