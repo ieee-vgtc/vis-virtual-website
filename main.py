@@ -17,12 +17,13 @@ from blueprints.blueprint_2020 import year_blueprint as blueprint_2020
 from blueprints.blueprint_2021 import year_blueprint as blueprint_2021
 from blueprints.blueprint_2022 import year_blueprint as blueprint_2022
 from blueprints.blueprint_2023 import year_blueprint as blueprint_2023
+from blueprints.blueprint_2024 import year_blueprint as blueprint_2024
 
 site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = "2023"
+CURRENT_YEAR = "2024"
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
@@ -41,7 +42,7 @@ freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023]
+blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023, blueprint_2024]
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 

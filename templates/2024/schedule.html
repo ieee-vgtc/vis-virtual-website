@@ -1,0 +1,20 @@
+{% set active_page = "Schedule" %}
+{% set page_title = "Schedule" %}
+{% extends "2024/base.html" %}
+{% block head %}
+{{ super() }}
+{% include '2024/schedule_head.html' %}
+{% endblock %}
+
+{% block content %}
+    <div id="small-program-link">
+        <a href="http://ieeevis.org/year/2024/assets/vis2024-program.pdf" target="_blank">Click here to open week at a glance PDF.</a>
+
+    </div>
+    <div class="tab-content py-3 px-3 px-sm-0 d-none d-md-block" id="nav-tabContent">
+        {% include '2024/calendars/_full_size_calendar.html' %}
+    </div>
+    <div class="d-md-none">
+        {% include '2024/calendars/_mobile_calendar.html' %}
+    </div>
+{% endblock %}

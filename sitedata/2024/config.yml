@@ -1,0 +1,74 @@
+name: VIS 2023
+tagline: "IEEE VIS: Visualization & Visual Analytics"
+date: 22-27 October 2023 Conference
+startDate: "2023-09-22"
+endDate: "2023-09-27"
+citation_date: October 2023
+proceedings_title: Proceedings of the IEEE VIS 2023 Conference
+analytics: UA-
+logo:
+  image: /static/2023/images/vis2023_logo_virtual.png
+  width: 250px
+  height: auto
+# uncomment the following line to show the site title next to the logo image
+# site_title: MiniConf
+page_title:
+  prefix: 'IEEE VIS 2023 Content'
+  separator: ': '
+background_image: /static/2023/images/melbourne_splash.jpg
+organization: VIS 2023 Organization Committee
+
+# Remove or change to your chat server.
+chat_server: miniconf.sloppy.zone
+default_presentation_id: 38922815
+default_poster_pdf: /static/images/GLTR_poster.pdf
+
+
+# Configuration for auth
+#Test user
+#user: miniconf@miniconf.com
+#pass: mIniconf1_
+
+use_auth0: false
+auth0_client_id : 6nTTLSGaYjal7joQla5Io0JDYMKLFBSE 
+auth0_domain : ieeevis.us.auth0.com
+
+calendar:
+  colors: #  Colors for the different event hashtags:
+    ## from https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
+    ## 2022 colors: #A20A35, #1C3160, #2672B9, #FDBB30, #F15722
+    ---: '#1C3160'
+    workshop: '#f4a261'
+    tutorial: '#A20A35'
+    panel: '#A20A35'
+    meetup: '#A20A35'
+    live: '#A20A35'
+    associated: '#2672B9'
+    symposium: '#2672B9'
+    visap: '#2672B9'
+    application: '#F15722'
+    vis: '#FDBB30'
+    memorial: '#FDBB30'
+    supporter: '#FDBB30'
+    keynote: '#FDBB30'
+    capstone: '#FDBB30'
+    industry: '#FDBB30'
+    paper: '#1C3160'
+    papers: '#1C3160'
+    invited: '#1C3160'
+    full: '#1C3160'
+    short: '#FDBB30'
+
+  sunday_saturday: true  #  Include Sunday and Saturday
+
+room_names:
+  plenary: 'Plenary-1'
+  oneohone: '101-102'
+  oneohthree: '103'
+  oneohfour: '104'
+  oneohfive: '105'
+  oneohsix: '106'
+  oneohnine: '109'
+  oneten: '110'
+  oneeleven: '111-112'
+  none: 'None(virtual)'

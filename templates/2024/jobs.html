@@ -1,0 +1,13 @@
+{% set active_page = "Job Board" %}
+{% set page_title = "Job Board" %}
+{% extends "2024/base.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-12">
+            <div class="job-board-card pp card">
+                {{ jobs | markdown }}
+            </div>
+        </div>
+    </div>
+{% endblock %}

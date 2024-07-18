@@ -1,0 +1,139 @@
+{% set page_title = "Poster - " ~ poster.title %}
+{% set active_page = "Posters" %}
+
+
+{% set social_title = "Poster: " ~ poster.title %}
+{% set social_description = "See the poster inside." %}
+{% if poster.has_image %}
+{% set social_image = "https://ieeevis.b-cdn.net/vis_2024/paper_images/" ~ poster.id ~ ".png" %}
+{% endif %}
+
+{% extends "2024/base.html" %}
+
+{% block head %}
+
+{{ super() }}
+<meta name="citation_title" content="{{poster.title}}"/>
+{% for author in poster.authors %}
+<meta name="citation_author" content="{{author}}"/>
+{% endfor %}
+<meta name="citation_publication_date" content="{{config.citation_date}}"/>
+<meta name="citation_conference_title"
+      content="{{config.tagline|striptags|title}}"/>
+<meta name="citation_inbook_title" content="{{config.proceedings_title}}"/>
+<meta name="citation_abstract" content="{{poster.abstract}}"/>
+{% for keyword in poster.keywords %}
+<meta name="citation_keywords" content="{{keyword}}"/>
+{% endfor %}
+<meta name="citation_pdf_url" content="{{poster.poster_pdf|default('') }}"/>
+
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12 my-3">
+            <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a
+                            href="posters.html">Posters</a>
+                    </li>
+                    <li class="breadcrumb-item"><a
+                            href="posters.html?filter=sessions&search={{ poster.session_title }}">{{ poster.session_title }}</a>
+                    </li>
+                    <li class="breadcrumb-item active text-truncate"
+                        aria-current="page">{{ poster.title }}</li>
+                </ol>
+            </nav>
+
+            {% if poster.award == "best" %}
+                <h4 class="paper-award"><span class="fas">&#xf559;</span> Best Poster Award</h4>
+            {% elif poster.award == "honorable" %}
+            <h4 class="paper-award"><span class="fas">&#xf5a2;</span> Honorable Mention</h4>
+            {% endif %}
+            <h1 class="paper-title">{{ poster.title }}</h1>
+            <div class="checkbox-bookmark fas"
+                 style="font-size: 24pt;position: absolute; top:10px; right:20px;"
+                 data-tippy-content="(un-)bookmark this poster"
+            >
+                &#xf02e;
+            </div>
+            <h3 class="paper-authors pb-2 mt-3">{{ poster.authors | join(", ") }}</h3>
+            {% if poster.summary_pdf %}
+                <h5 class="paper-link pb-2">
+                    <a href="{{ poster.summary_pdf }}">
+                        <span class="fas mr-1">&#xf15c;</span>
+                        Download summary PDF
+                    </a>
+                </h5>
+            {% endif %}
+            <!-- <h3 class="py-2">DOI: TBD</h3> -->
+        </div>
+    </div>
+
+    <!-- no abstract / keywords for posters? -->
+    {# <div class="row my-3"> #}
+    {#     <div class="col-md-8"> #}
+    {#         <h5 class="paper-details-heading">Keywords</h5> #}
+    {#         <p>{{ poster.keywords | join(", ") }}</p> #}
+    {#         <h5 class="paper-details-heading">Abstract</h5> #}
+    {#         <p>{{ poster.abstract }}</p> #}
+    {#     </div> #}
+    {# </div> #}
+
+    <div class="row>
+        <div class="col-md-12">
+            <div role="main" id="pdf_view"></div>
+        </div>
+    </div>
+    <div class="row" class="">
+        <div class="col-md-8 pt-3">
+            <p>Direct link to poster PDF: <a href="{{ poster.poster_pdf }}">{{ poster.id }}.pdf</a></p>
+            <p>It may take several seconds for the embedded poster to load above!</p>
+        </div>
+    </div>
+
+
+    {% if poster.ff_link %}
+    <div class="row" class="">
+        <div class="col-md-8 pt-3">
+            <p>Direct link to poster Video: <a href="https://ieeevis.b-cdn.net/vis_2024/fast_forwards/{{ poster.ff_link }}.mp4">{{ poster.ff_link }}.mp4</a></p>
+        </div>
+    </div>
+    {% endif %}
+
+    <script lang="js">
+      const paperID = "{{ poster.id }}"
+      $(document).ready(() => {
+        tippy('[data-tippy-content]');
+
+        const allBookmarks =
+          d3.selectAll('.checkbox-bookmark')
+            .on("click", function () {
+              const newValue = !d3.select(this).classed('selected');
+              API.markSet(API.storeIDs.bookmarked, paperID, newValue);
+              d3.select(this).classed('selected', newValue);
+            })
+        API.markGet(API.storeIDs.bookmarked, paperID).then(is_bookmarked => {
+          is_bookmarked = !!is_bookmarked;
+          allBookmarks.classed('selected', is_bookmarked);
+        })
+        API.markSet(API.storeIDs.visited, paperID, true);
+      })
+
+    </script>
+
+    <script src="/static/2024/js/views/timezone.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.3.200/build/pdf.min.js"></script>
+    <script src="/static/2024/js/modules/pdfRender.js"></script>
+    <script>
+    $(document).ready(() => {
+        // render first page of PDF to div
+        // PDF name can be bound to variable -- e.g. paper.content.poster_link
+        const pdfFile = "{{ poster.poster_pdf | default(config.default_poster_pdf) }}";
+        initPDFViewer(pdfFile, "#pdf_view");
+    });
+    </script>
+
+
+{% endblock %}
