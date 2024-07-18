@@ -149,8 +149,12 @@ const render = () => {
           pass_test &=
             d.title.toLowerCase().indexOf(testValueSmall) >
             -1;
-        } else if (testName === "sessions" || testName === "keywords" || testName === "authors") {
+        } else if (testName === "sessions" || testName === "keywords") {
           pass_test &= d[testName]
+            .map(s => s.toLowerCase().indexOf(testValueSmall) > -1)
+            .reduce((o, n) => o || n, false);
+        } else if (testName === "authors") {
+          pass_test &= d[testName].map(a => a["name"])
             .map(s => s.toLowerCase().indexOf(testValueSmall) > -1)
             .reduce((o, n) => o || n, false);
         } else {
@@ -333,6 +337,17 @@ const card_detail = (paper, show) => {
   return "";
 };
 
+const author_detail = (paper, showDetail) => {
+  // Not going to use showDetail for now, we don't have enough space on the card.
+  return paper.authors.map(s => 
+    `<a href="papers.html?filter=authors&search=${s.name}">${s.name}</a>`)
+  .join(", ");
+}
+
+const affiliation_detail = (affiliation) => {
+  return `<a href="papers.html?filter=affiliations&search=${affiliation}">${affiliation}</a>`
+}
+
 const card_time_small = (paper, show) => {
   const cnt = paper;
   return show
@@ -394,17 +409,10 @@ const card_html = (paper) =>
                             <span class="session-type" style="color: ${paper.paper_type_color }">${paper.paper_type_name }</span>
 
               <h6 class="card-subtitle text-muted" style="text-align: left;">
-                      ${paper.authors.map(
-    s => `<a href="papers.html?filter=authors&search=${s}">${s}</a>`)
-    .join(", ")}
+               ${author_detail(paper, render_mode !== MODE.mini)}
               </h6>
 
-              <div class="card-subtitle text-muted mt-2" style="text-align: left;">
-                     <a class="has_tippy" href ="session_${paper.session_id}.html" target="_blank" data-tippy-content="go to session ${paper.session_title}">${formatTime(
-    paper.time_stamp)}</a> -- ${paper.sessions.map(
-    s => `<a class="has_tippy" href="papers.html?filter=sessions&search=${s}" data-tippy-content="filter all papers in session:">${s}</a>`)
-    .join(",")}
-              </div>
+              ${paperSessionDetail(paper)}
 
 
               <div>${card_image(paper, render_mode !== MODE.mini)}</div>
@@ -414,6 +422,26 @@ const card_html = (paper) =>
 
                 ${card_detail(paper, render_mode === MODE.detail)}
         </div>`;
+
+const paperSessionDetail = (paper) => {
+  if (paper.sessions.length > 0)
+    return `
+<div class="card-subtitle text-muted mt-2" style="text-align: left;">
+  <a class="has_tippy" href ="session_${paper.session_id}.html" target="_blank" data-tippy-content="go to session ${paper.session_title}">
+    ${formatTime(paper.time_stamp)}
+  </a> -- ${paperSessionsFilterBlurb(paper)}
+</div>`;
+  else {
+    return ""
+  }
+}
+
+const paperSessionsFilterBlurb = (paper) => {
+  return paper.sessions.map(s => 
+    `<a class="has_tippy" href="papers.html?filter=sessions&search=${s}" data-tippy-content="filter all papers in session:">${s}</a>`)
+    .join(",");
+}
+
 
 const buildSessionFilter = (session_name) => {
   const url = window.location.origin + window.location.pathname;

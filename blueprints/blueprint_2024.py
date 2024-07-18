@@ -318,39 +318,39 @@ def format_paper(v):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
-    paper_session = by_uid["sessions"][v["session_id"]]
-    paper_event = by_uid["events"][paper_session["parent_id"]]
+    paper_session = by_uid["sessions"][v["session_id"]] if v["session_id"] in by_uid["sessions"] else {}
+    paper_event = by_uid["events"][paper_session["parent_id"]] if "parent_id" in paper_session else {}
     # print("problem paper is ", v)
-    room_name = get_room_name(paper_session['track'], site_data['config']['room_names'])
+    room_name = get_room_name(paper_session['track'], site_data['config']['room_names']) if "track" in paper_session else ""
     return {
         "id": v["uid"],
         "title": v["title"],
         "authors": list_fields["authors"],
         "keywords": list_fields["keywords"],
-        "abstract": v["abstract"],
-        "time_stamp": v["time_stamp"],
-        "session_id": v["session_id"],
-        "session_title": paper_session["title"],
+        "abstract": v["abstract"] if "abstract" in v else "",
+        "time_stamp": v["time_stamp"] if "time_stamp" in v else "",
+        "session_id": v["session_id"] if "session_id" in v else "",
+        "session_title": paper_session["title"] if "title" in paper_session else "",
         "session_room": room_name,
-        "event_id": paper_session["parent_id"],
-        "event_title": paper_event["event"],
-        "award": v["paper_award"],
-        "has_image": v["has_image"],
-        "has_pdf": v["has_pdf"],
+        "event_id": paper_session["parent_id"] if "parent_id" in paper_session else "",
+        "event_title": paper_event["event"] if "event" in paper_event else "",
+        "award": v["paper_award"] if "paper_award" in v else "",
+        "has_image": v["has_image"] if "has_image" in v else "",
+        "has_pdf": v["has_pdf"] if "has_pdf" in v else "",
         "has_fno": (len(v["fno"]) > 0) if "fno" in v else False,
         "fno": v["fno"] if "fno" in v else None,
         "doi": v["doi"] if "doi" in v else None,
-        "image_caption": v["image_caption"],
-        "external_paper_link": v["external_paper_link"],
+        "image_caption": v["image_caption"] if "image_caption" in v else "",
+        "external_paper_link": v["external_paper_link"] if "external_paper_link" in v else "",
         "youtube_ff_url": v["ff_link"] if "ff_link" in v else None,
         "youtube_ff_id": v["ff_link"].split("/")[-1] if "ff_link" in v and v["ff_link"] else None,
         "prerecorded_video_id": v["prerecorded_video_id"] if "prerecorded_video_id" in v else None,
         "prerecorded_video_link": v["prerecorded_video_link"] if "prerecorded_video_link" in v else None,
         # for papers.html:
-        "sessions": [paper_session["title"]],
+        "sessions": [paper_session["title"]] if "title" in paper_session else [],
         "UID": v["uid"],
         "session_uid": "-".join(v["uid"].split("-")[0:-1]) if v["uid"] else "none", # Get rid of the paper ID so we can reach the CDN folder
-        "paper_type": v["paper_type"],
+        "paper_type": v["paper_type"] if v["paper_type"] in paper_type_names else 'None',
         "paper_type_name": paper_type_names[v["paper_type"]] if v["paper_type"] in paper_type_names else 'None',
         "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
         "session_youtube_ff_link": v["youtube_ff_link"],
