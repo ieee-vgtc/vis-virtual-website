@@ -41,7 +41,11 @@ const currentTZ = getTimezone();
 
 function formatTime(text) {
   let atime = moment(text).clone().tz(currentTZ);
-  return atime.format("dd, MMM D, HH:mm");
+  if (atime.isValid()) {
+    return atime.format("dd, MMM D, HH:mm");
+  } else {
+    return "Date/Time TBA"
+  }
 }
 
 

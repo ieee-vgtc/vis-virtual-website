@@ -39,7 +39,17 @@
             >
                 &#xf02e;
             </div>
-            <h3 class="paper-authors pb-2 mt-3">{{ paper.authors | join(", ") }}</h3>
+            {% for author in paper.authors %}
+                <h4 class="paper-authors pb-2 mt-2">
+                    <span class="fas mr-1">&#xf183;</span>
+                    {% if author.is_corresponding %}
+                        <a href="mailto:{{author.email}}">{{ author.name }}</a>
+                    {% else %}
+                        {{ author.name }}
+                    {% endif %} - {{ author.affiliations | join(". ")}}
+                </h4>
+            {% endfor %}
+
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
             <!-- {% if paper.external_paper_link %}
                 <h5 class="paper-link pb-2">
@@ -74,13 +84,14 @@
                     </a>
                 </h5>            
             {% endif %}
-        {% if paper.session_room %}
+        {% if paper.session_room%}
             <h3 class="session-room mt-4">
                 <span class="fas mr-1">&#xf108;</span>
-                Room: {{ paper.session_room }}
+                Room: {{ "To Be Announced" if paper.session_room == "None" else  paper.session_room }}
             </h3>
         {% endif %}
 
+            {% if paper.time_stamp|length > 0 %}
             <h5 class="paper-presentation pb-2">
 
                 <span class="format-date">{{ paper.time_stamp }}</span>
@@ -94,6 +105,7 @@
                     <span class="current-time tztooltiptext"></span>
                 </span>
             </h5>
+            {% endif %}
         </div>
     </div>
     <div class="row my-3">
@@ -104,10 +116,6 @@
                          src="https://ieeevis.b-cdn.net/vis_2024/paper_images/{{paper.id}}.png"
                          alt="Exemplar figure, described by caption below"
                          aria-describedby="figure-caption">
-                {% else %}
-                    <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2024/paper_images/blank.png"
-                         alt="Exemplar figure, but none was provided by the authors">
                 {% endif %}
                 <figcaption class="figure-caption"
                             id="figure-caption">{{ paper.image_caption }}</figcaption>

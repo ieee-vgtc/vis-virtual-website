@@ -41,22 +41,25 @@
         {% if session.id not in ["conf6", "conf4", "conf5"] %}
             <h3 class="session-room mt-4">
                 <span class="fas mr-1">&#xf108;</span>
-                Room: {{ room.name }}
+                Room: {{ "To Be Announced" if room.name|length == 0 else room.name }}
             </h3>
         {% endif %}
-        <h3 class="session-date">
-            <span class="fas mr-1">&#xf017;</span>
-            <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
-            <span alt="Change timezone on schedule page" class="timezone tztooltip">
-                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
-                <span class="tztooltiptext">Change your timezone on the schedule page</span>
-            </span>
-            <br>
-            <span style="margin-left: 2rem; font-size: 1rem;" class="timezone tztooltip">
-                <span class="relative-time">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
-                <span class="current-time tztooltiptext"></span>
-            </span>
-        </h3>
+        {% if (session.startTime|length > 0) %}
+            <h3 class="session-date">
+                <span class="fas mr-1">&#xf017;</span>
+                <span class="format-date-span-full">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                    <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                    <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                </span>
+                <br>
+                <span style="margin-left: 2rem; font-size: 1rem;" class="timezone tztooltip">
+                    <span class="relative-time">{{ session.startTime }} &ndash; {{ session.endTime }}</span>
+                    <span class="current-time tztooltiptext"></span>
+                </span>
+            </h3>
+        {% endif %}
+
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-3 session-links">
@@ -73,12 +76,13 @@
                 Jump to Fast Forwards
                 </a>
         </h5>
-        {% endif %}
         <h5 class="session-info my-4">
             <a href="https://ieeevis.b-cdn.net/vis_2024/ics/{{ session.id }}.ics">
                 <span class="fas mr-2">&#xf073;</span>
                 Add to Calendar</a></h5>
-        {% if session.id == "full0" %}
+        {% endif %}
+<!--         {% if session.id == "full0" %}
+    // keeping this as an example if we want to allow session sponsors again.
             <div class="alert alert-primary session-sponsor-alert">
                 <h5 class="session-sponsor">
                     <div>
@@ -86,48 +90,14 @@
                         Session Sponsor
                     </div>
                     <div>
-                        <!-- KAUST Best Papers 1 Sponsor -->
                         <a href="http://vcc.kaust.edu.sa/">
                           <img class="my-3 mr-3" src="https://ieeevis.b-cdn.net/vis_2024/sponsors/vcc_kaust.png" width="220" alt="KAUST"></a>
                     </div>
                     <div class="session-sponsor-name">KAUST</div>
                 </h5>
             </div>
-        {% elif session.id == "full12" %}
-            <div class="alert alert-primary session-sponsor-alert">
-                <h5 class="session-sponsor">
-                    <div>
-                        <span class="fas mr-1">&#xf164;</span>
-                        Session Sponsor
-                    </div>
-                    <!-- JPMorgan Chase Immersive Analytics Sponsor -->
-                    <div>
-                        <a href="https://www.jpmorganchase.com/">
-                          <img class="my-3 mr-3" src="https://ieeevis.b-cdn.net/vis_2024/sponsors/jpmchase_transparent2.png" width="220" alt="JPMorgan Chase"></a>
-                    </div>
-                    <div>
-                        JPMorgan Chase
-                    </div>
-                </h5>
-            </div>
-        {% elif session.id == "full1" %}
-            <div class="alert alert-primary session-sponsor-alert">
-                <h5 class="session-sponsor">
-                    <div>
-                        <span class="fas mr-1">&#xf164;</span>
-                        Session Sponsor
-                    </div>
-                    <!-- Autodesk Best Papers 2 Sponsor -->
-                    <div>
-                        <a href="https://www.autodesk.com/research">
-                          <img class="my-3 mr-3" src="https://ieeevis.b-cdn.net/vis_2024/sponsors/autodesk.png" width="220" alt="Autodesk"></a>
-                    </div>
-                    <div>
-                        Autodesk
-                    </div>
-                </h5>
-            </div>
-        {% endif %}
+ -->        
+        <!-- {% endif %} -->
 
 
     </div>
@@ -219,20 +189,24 @@
         <h3 class="session-list-title">{{ timeslot.title }}</h3>
         {% endif %}
         <h5 class="session-list-presenter">
-            Authors: {{ timeslot.authors | join(", ") }}
+            Authors: 
+            {{ timeslot.authors|map(attribute="name")|join(", ") }}
         </h5>
         <h4 class="session-list-presenter mt-3">
             <span class="fas mr-1">&#xf21d;</span>
             {{ timeslot.contributors | join(", ") }}
         </h4>
-        <h5 class="session-list-time">
-            <span class="fas mr-1">&#xf017;</span>
-            <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
-            <span alt="Change timezone on schedule page" class="timezone tztooltip">
-                <strong>GMT<span class="selectedTimezone">-0600</span></strong>
-                <span class="tztooltiptext">Change your timezone on the schedule page</span>
-            </span>
-        </h5>
+        {% if (timeslot.time_start|length > 0) %}
+
+            <h5 class="session-list-time">
+                <span class="fas mr-1">&#xf017;</span>
+                <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+                <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                    <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                    <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                </span>
+            </h5>
+        {% endif %}
     </div>
 </div>
 {% endfor %}

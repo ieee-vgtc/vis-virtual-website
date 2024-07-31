@@ -3,7 +3,8 @@
 {% extends "2024/base.html" %}
 {% block content %}
     <div class="row">
-      Note that the timings for events are still subject to change until the conference begins.
+      <!-- Note that the timings for events are still subject to change until the conference begins. -->
+      The full list of events is not yet available for the 2024 conference.
     </div>
     <div class="row">
         <button class="event-faceting btn m-1 p-2 pp-card session-listing"
@@ -70,13 +71,13 @@
 
     </script>
 
-    <div class="row mt-5">
+<!--     <div class="row mt-5">
         {% for event in events %}
         {% if event.id != "v-demo" %}
         {% include "2024/_event_item.html" %}
         {% endif %}
         {% endfor %}
     </div>
-
+ -->
 
 {% endblock %}

@@ -116,7 +116,8 @@ def main(site_data_path):
 
     print("Data Successfully Loaded")
 
-    generateDayCalendars()
+    if len(by_day) > 0:
+        generateDayCalendars()
     return extra_files
 
 # main() should be called before this function
@@ -519,6 +520,7 @@ def paper(paper):
     data = _data()
     data["requires_auth"] = True
     data["paper"] = format_paper(v)
+    print("IN PAPER AND data['paper'] is ", data['paper'])
     return render_template("{}/paper.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/poster_<poster>.html".format(year))
