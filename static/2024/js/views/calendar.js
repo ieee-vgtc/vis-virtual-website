@@ -64,10 +64,10 @@ function finishCalendar(renderPromises) {
     //   const day_name = dayData[day_num - 1].day;
     //   $(`.nav-pills a[href="#tab-${day_name}"]`).tab("show");
     // };
-    const tzDayOfWeek = moment.tz(moment(), "Australia/Melbourne").format('dddd')
-    const tzTime = moment.tz(moment(), "Australia/Melbourne").format('HHMM')
-    const tzTimeStr = moment.tz(moment(), "Australia/Melbourne").format('HH:MM')
-    const tzDate = moment.tz(moment(), "Australia/Melbourne").format('ddd, MMM DD')
+    const tzDayOfWeek = moment.tz(moment(), "US/Eastern").format('dddd')
+    const tzTime = moment.tz(moment(), "US/Eastern").format('HHMM')
+    const tzTimeStr = moment.tz(moment(), "US/Eastern").format('HH:MM')
+    const tzDate = moment.tz(moment(), "US/Eastern").format('ddd, MMM DD')
     // const tzDate = 'Tue, Oct 24';
     // const tzDayOfWeek = 'Tuesday'
     // const tzTime = "1113"
@@ -309,7 +309,7 @@ function updateFullCalendar(day) {
       if (day != null) {
         populateTimes(calendar, config[0]);
         populateRooms(calendar, config[0].room_names, day);
-        createDayCalendar(calendar, config[0], events[0]);
+        // createDayCalendar(calendar, config[0], events[0]);
       } else {
         populateDays(calendar, config[0]);
         populateTimes(calendar, config[0]);
@@ -783,8 +783,7 @@ function populateDays(calendarSelection, config) {
 }
 
 function populateRooms(calendarSelection, roomNames, day) {
-  // TODO: use room names
-
+  // TODO: use room names - NEED TO CHANGE
   let roomData = [
     { roomId: 'plenary', text: 'Plenary-1', link: 'plenary' },
     { roomId: 'oneohone', text: '101-102', link: 'oneohone' },
