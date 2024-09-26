@@ -643,6 +643,7 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
       }
     }
   );
+  console.log("sessions_by_day_and_time: ", sessions_by_day_and_time);
   for (const dayKey of sessions_by_day_and_time.keys()) {
     const dayEvents = sessions_by_day_and_time.get(dayKey);
     let lateSlotSessionData = [];
@@ -844,16 +845,23 @@ function populateHeader(calendarSelection, data, isDay) {
 
 function populateTimes(calendarSelection, config) {
   let timeData = [
-    ["8:45 AM EDT", "time-0845"],
-    ["9:00 AM EDT", "time-0900"],
-    // ["9:30 AM EDT", "time-0930"],
+    ["8:30 AM EDT", "time-0830"],
+    ["9:45 AM EDT", "time-0945"],
+    ["10:00 AM EDT", "time-1000"],
     ["10:15 AM EDT", "time-1015"],
-    ["10:30 AM EDT", "time-1030"],
+    ["11:45 AM EDT", "time-1145"],
     ["12:00 PM EDT", "time-1200"],
-    ["2:00 PM EDT", "time-1400"],
+    ["12:30 PM EDT", "time-1230"],
+    ["12:45 PM EDT", "time-1245"],
+    ["1:30 PM EDT", "time-1330"],
+    ["1:45 PM EDT", "time-1345"],
+    ["2:45 PM EDT", "time-1445"],
+    ["3:00 PM EDT", "time-1500"],
     ["3:15 PM EDT", "time-1515"],
-    ["3:45 PM EDT", "time-1545"],
-    ["5:00 PM EDT", "time-1700"],
+    ["3:30 PM EDT", "time-1530"],
+    ["4:30 PM EDT", "time-1630"],
+    ["4:45 PM EDT", "time-1645"],
+    ["6:45 PM EDT", "time-1845"]
   ];
 
   calendarSelection
@@ -890,7 +898,7 @@ function updateTimezone() {
     const hourminutes = element.attr("data-time").split("-")[1];
 
     const time = moment(
-      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} +11:00`,
+      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} -4:00`,
       "YYYY-MM-DD HH:mm ZZ"
     );
     const converted_date = time.clone().tz(timezone);

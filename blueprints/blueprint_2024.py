@@ -13,7 +13,8 @@ from pathlib import Path
 from dateutil.parser import ParserError
 
 CONFERENCE_TIMEZONE = timezone(offset=-timedelta(hours=5)) # Eastern Time
-CONFERENCE_OFFSET = -5 # EST is UTC - 5
+CONFERENCE_OFFSET = -4 # EST is UTC - 4
+CONFERENCE_START_DAY = 13
 
 year=2024
 year_blueprint = Blueprint("vis{}".format(year), __name__, template_folder="templates/{}".format(year))
@@ -181,7 +182,7 @@ def sessionTimeToCalendarTime(dateTime):
 # converts a full date string to an indexed day for the calendar
 # (e.g., if conference starts on Sunday, then session on first day is "day-1")
 def sessionTimeToCalendarDay(dateTime):
-    start_day = 22
+    start_day = CONFERENCE_START_DAY
     this_date = dateutil.parser.parse(dateTime).astimezone(CONFERENCE_TIMEZONE)
     day = int(this_date.strftime("%d"))
 
