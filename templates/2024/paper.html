@@ -87,7 +87,9 @@
         {% if paper.session_room%}
             <h3 class="session-room mt-4">
                 <span class="fas mr-1">&#xf108;</span>
-                Room: {{ "To Be Announced" if paper.session_room == "None" else  paper.session_room }}
+                <a href="room_{{paper.session_room_id}}.html">
+                    Room: {{ "To Be Announced" if paper.session_room == "None" else  paper.session_room }}
+                </a>
             </h3>
         {% endif %}
 
