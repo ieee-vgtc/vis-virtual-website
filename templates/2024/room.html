@@ -17,37 +17,6 @@
     </div>
 </div>
 
-<div class="row mt-5" id="stream-counter" style="display: none"> 
-    In the last 10 minutes, there have been about &nbsp;<span id="stream-counter-number">0</span>&nbsp; users accessing this room on the virtual site.
-</div>
-
-<div class="row mt-5">
-    <div class="col-lg-10 streaming-container" id="session-stream-container">
-        <!-- ensure 16x9 aspect ratio;
-            add rel=0 query parameter to force related videos to stay within VIS2020: https://developers.google.com/youtube/player_parameters -->
-<!--         <div class="alert alert-warning room_session_future_stream" role="alert">
-            The livestream for the next session has not begun yet — the next session starts <span id="next-session-time" class="font-weight-bold">(soon)</span>. <br><br>
-            When it is, the video stream will replace this message (15 minutes before the scheduled start time).
-        </div>
-        <div class="streaming room_session_stream" id='iframe-container'>
-            <a id='test-modal-fullscreen'>Full Screen
-                    <span class="fas fa-expand">&#xf065;</span>
-            </a>
-            <a id='test-modal-leave-fullscreen' class='invisible-floating'>Exit Full Screen
-                    <span class="fas fa-compress">&#xf066;</span>
-            </a>
-
-        </div> -->
-<!--         <iframe width="920" height="518" src="https://www.youtube-nocookie.com/embed/wkYvm7wVEIY?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        <!-- <iframe width="920" height="518" src="{{session.youtube_url}}?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        <!-- <p class="integration-description pt-2">YouTube embedding for livestreams is disabled until the final recording is available. Direct link to YouTube stream: <a href="{{ session.youtube_url }}" target="_blank">{{ session.youtube_url }}</a></p> -->
-        <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
-        <!-- <p class="integration-description pt-2"><a href="{{ session.slido_link }}" target="_blank"> <span class="fas mx-1">&#xf128;</span>Click here to open slido in a separate window</a></p> -->
-        <!-- <p class="integration-description pt-2"><a href="{{ session.discord_link }}" target="_blank"><span class="fas mx-1">&#xf086;</span>Click here to discuss the current session in Discord</a></p> -->
-
-    </div>
-</div>
-
 <hr>
 
 {% for session in sessions %}
