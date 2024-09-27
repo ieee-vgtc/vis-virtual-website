@@ -62,13 +62,15 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  plenary: 'Plenary-1'
-  oneohone: '101-102'
-  oneohthree: '103'
-  oneohfour: '104'
-  oneohfive: '105'
-  oneohsix: '106'
-  oneohnine: '109'
-  oneten: '110'
-  oneeleven: '111-112'
+  sabalsawgrass: "Sabal/Sawgrass"
+  breezeway: "Breezeway"
+  gladesjasminepalm: "Glades/Jasmine/Palm"
+  tarpon: "Tarpon Key"
+  tarponsawyerlong: "Tarpon Sawyer Long"
+  long: "Long Key"
+  indianbird: "Indian/Bird Key"
+  blueheron: "Blue Heron"
+  sawyer: "Sawyer Key"
+  pavilion: "Pavilion"
+  breezewaycitrusbanyan: "Breezeway and Citrus/Banyan"
   none: 'None(virtual)'
