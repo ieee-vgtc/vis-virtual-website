@@ -1979,7 +1979,7 @@
     "v-full-1836": {
         "slot_id": "v-full-1836",
         "session_id": "full10",
-        "title": "Shape It Up: An Empirically Grounded Approach for Designing Shape Palettes",
+        "title": "An Empirically Grounded Approach for Designing Shape Palettes",
         "contributors": [
             "Chin Tseng"
         ],
@@ -3906,7 +3906,7 @@
     "v-full-1503": {
         "slot_id": "v-full-1503",
         "session_id": "full14",
-        "title": "KnowNet: Guided Health-related Information Seeking from LLMs via Knowledge Graph Integration",
+        "title": "Guided Health-related Information Seeking from LLMs via Knowledge Graph Integration",
         "contributors": [
             "Qianwen Wang"
         ],
@@ -5291,7 +5291,7 @@
     "v-tvcg-20233345373": {
         "slot_id": "v-tvcg-20233345373",
         "session_id": "full17",
-        "title": "KD-INR:  Time-Varying Volumetric Data Compression via Knowledge Distillation-based Implicit Neural Representation",
+        "title": "KD-INR: Time-Varying Volumetric Data Compression via Knowledge Distillation-based Implicit Neural Representation",
         "contributors": [
             "Han Jun"
         ],
@@ -6424,7 +6424,7 @@
         "presentation_mode": "",
         "open_access_supplemental_question": "No",
         "open_access_supplemental_link": "",
-        "preprint_link": "https://arxiv.org/submit/5780614",
+        "preprint_link": "https://arxiv.org/abs/2408.12607",
         "accessible_pdf": false,
         "has_image": false,
         "has_pdf": false,
@@ -9965,7 +9965,7 @@
     "v-tvcg-20233337396": {
         "slot_id": "v-tvcg-20233337396",
         "session_id": "full27",
-        "title": "A Visual Analytics System for Analyzing Dynamic Networks with Temporal Network Motifs",
+        "title": "MoNetExplorer: A Visual Analytics System for Analyzing Dynamic Networks with Temporal Network Motifs",
         "contributors": [
             "Seokweon Jung"
         ],
@@ -10160,7 +10160,7 @@
     "v-full-1318": {
         "slot_id": "v-full-1318",
         "session_id": "full28",
-        "title": "How Good (Or Bad) Are LLMs at Detecting Misleading Visualizations?",
+        "title": "How Good (Or Bad) Are LLMs in Detecting Misleading Visualizations",
         "contributors": [
             "Leo Yu-Ho Lo"
         ],
@@ -10845,59 +10845,6 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
-    "v-short-1163": {
-        "slot_id": "v-short-1163",
-        "session_id": "full3",
-        "title": "Curve Segment Neighborhood-based Vector Field Exploration",
-        "contributors": [
-            "Nguyen K Phan"
-        ],
-        "authors": [
-            {
-                "name": "Nguyen K Phan",
-                "email": "nguyenpkk95@gmail.com",
-                "affiliations": [
-                    "University of Houston, Houston, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Guoning Chen",
-                "email": "chengu@cs.uh.edu",
-                "affiliations": [
-                    "University of Houston, Houston, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Integral curves have been widely used to represent and analyze various vector fields. In this paper, we propose a Curve Segment Neighborhood Graph (CSNG) to capture the relationships between neighboring curve segments. This graph representation enables us to adapt the fast community detection algorithm, i.e., the Louvain algorithm, to identify individual graph communities from CSNG. Our results show that these communities often correspond to the features of the flow. To achieve a multi-level interactive exploration of the detected communities, we adapt a force-directed layout that allows users to refine and re-group communities based on their domain knowledge. We incorporate the proposed techniques into an interactive system to enable effective analysis and interpretation of complex patterns in large-scale integral curve datasets.",
-        "uid": "v-short-1163",
-        "time_stamp": "2024-10-18T13:15:00Z",
-        "time_start": "2024-10-18T13:15:00Z",
-        "time_end": "2024-10-18T13:24:00Z",
-        "paper_type": "short",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "Yes, both PCS and external",
-        "open_access_supplemental_link": "https://github.com/MangoLion/CSN_VIS",
-        "preprint_link": "",
-        "accessible_pdf": false,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
     "v-full-1277": {
         "slot_id": "v-full-1277",
         "session_id": "full3",
@@ -11185,6 +11132,59 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
+    "v-short-1163": {
+        "slot_id": "v-short-1163",
+        "session_id": "full3",
+        "title": "Curve Segment Neighborhood-based Vector Field Exploration",
+        "contributors": [
+            "Nguyen K Phan"
+        ],
+        "authors": [
+            {
+                "name": "Nguyen K Phan",
+                "email": "nguyenpkk95@gmail.com",
+                "affiliations": [
+                    "University of Houston, Houston, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Guoning Chen",
+                "email": "chengu@cs.uh.edu",
+                "affiliations": [
+                    "University of Houston, Houston, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Integral curves have been widely used to represent and analyze various vector fields. In this paper, we propose a Curve Segment Neighborhood Graph (CSNG) to capture the relationships between neighboring curve segments. This graph representation enables us to adapt the fast community detection algorithm, i.e., the Louvain algorithm, to identify individual graph communities from CSNG. Our results show that these communities often correspond to the features of the flow. To achieve a multi-level interactive exploration of the detected communities, we adapt a force-directed layout that allows users to refine and re-group communities based on their domain knowledge. We incorporate the proposed techniques into an interactive system to enable effective analysis and interpretation of complex patterns in large-scale integral curve datasets.",
+        "uid": "v-short-1163",
+        "time_stamp": "2024-10-18T13:15:00Z",
+        "time_start": "2024-10-18T13:15:00Z",
+        "time_end": "2024-10-18T13:24:00Z",
+        "paper_type": "short",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "Yes, both PCS and external",
+        "open_access_supplemental_link": "https://github.com/MangoLion/CSN_VIS",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
     "v-tvcg-20243350076": {
         "slot_id": "v-tvcg-20243350076",
         "session_id": "full3",
@@ -11263,7 +11263,7 @@
     "v-full-1155": {
         "slot_id": "v-full-1155",
         "session_id": "full30",
-        "title": "Charting EDA: Characterizing Interactive Visualization Use in Computational Notebooks with a Mixed-Methods Formalism",
+        "title": "Charting EDA: How Visualizations and Interactions Shape Analysis in Computational Notebooks.",
         "contributors": [
             "Dylan Wootton"
         ],
@@ -12183,55 +12183,10 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
-    "v-short-1189": {
-        "slot_id": "v-short-1189",
-        "session_id": "full4",
-        "title": "Towards Reusable and Reactive Widgets for Information Visualization Research and Dissemination",
-        "contributors": [
-            "John Alexis Guerra-Gomez"
-        ],
-        "authors": [
-            {
-                "name": "John Alexis Guerra-Gomez",
-                "email": "john.guerra@gmail.com",
-                "affiliations": [
-                    "Northeastern University, San Francisco, United States"
-                ],
-                "is_corresponding": true
-            }
-        ],
-        "abstract": "The information visualization research community commonly produces supporting software to demonstrate technical contributions to the field. However, developing this software tends to be an overwhelming task. The final product tends to be a research prototype without much thought for modularization and re-usability, which makes it harder to replicate and adopt. This paper presents a design pattern for facilitating the creation, dissemination, and re-utilization of visualization techniques using reactive widgets. The design pattern features basic concepts that leverage modern front-end development best practices and standards, which facilitate development and replication. The paper presents several usage examples of the pattern, templates for implementation, and even a wrapper for facilitating the conversion of any Vega [27,28] specification into a reactive widget.",
-        "uid": "v-short-1189",
-        "time_stamp": "2024-10-17T18:15:00Z",
-        "time_start": "2024-10-17T18:15:00Z",
-        "time_end": "2024-10-17T18:24:00Z",
-        "paper_type": "short",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "Yes, both PCS and external",
-        "open_access_supplemental_link": "https://observablehq.com/@john-guerra/reactive-widgets",
-        "preprint_link": "",
-        "accessible_pdf": true,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
     "v-full-1833": {
         "slot_id": "v-full-1833",
         "session_id": "full4",
-        "title": "HuBar: A Visual Analytics Tool to Explore Human Behavior based on fNIRS in AR Guidance Systems",
+        "title": "HuBar: A Visual Analytics Tool to Explore Human Behaviour based on fNIRS in AR guidance systems",
         "contributors": [
             "Sonia Castelo Quispe"
         ],
@@ -12363,6 +12318,51 @@
         "open_access_supplemental_link": "https://github.com/VIDA-NYU/HuBar",
         "preprint_link": "https://arxiv.org/pdf/2407.12260v1",
         "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
+    "v-short-1189": {
+        "slot_id": "v-short-1189",
+        "session_id": "full4",
+        "title": "Towards Reusable and Reactive Widgets for Information Visualization Research and Dissemination",
+        "contributors": [
+            "John Alexis Guerra-Gomez"
+        ],
+        "authors": [
+            {
+                "name": "John Alexis Guerra-Gomez",
+                "email": "john.guerra@gmail.com",
+                "affiliations": [
+                    "Northeastern University, San Francisco, United States"
+                ],
+                "is_corresponding": true
+            }
+        ],
+        "abstract": "The information visualization research community commonly produces supporting software to demonstrate technical contributions to the field. However, developing this software tends to be an overwhelming task. The final product tends to be a research prototype without much thought for modularization and re-usability, which makes it harder to replicate and adopt. This paper presents a design pattern for facilitating the creation, dissemination, and re-utilization of visualization techniques using reactive widgets. The design pattern features basic concepts that leverage modern front-end development best practices and standards, which facilitate development and replication. The paper presents several usage examples of the pattern, templates for implementation, and even a wrapper for facilitating the conversion of any Vega [27,28] specification into a reactive widget.",
+        "uid": "v-short-1189",
+        "time_stamp": "2024-10-17T18:15:00Z",
+        "time_start": "2024-10-17T18:15:00Z",
+        "time_end": "2024-10-17T18:24:00Z",
+        "paper_type": "short",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "Yes, both PCS and external",
+        "open_access_supplemental_link": "https://observablehq.com/@john-guerra/reactive-widgets",
+        "preprint_link": "",
+        "accessible_pdf": true,
         "has_image": false,
         "has_pdf": false,
         "paper_award": "",
@@ -12671,75 +12671,6 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
-    "v-short-1188": {
-        "slot_id": "v-short-1188",
-        "session_id": "full5",
-        "title": "Topological Separation of Vortices",
-        "contributors": [
-            "Adeel Zafar"
-        ],
-        "authors": [
-            {
-                "name": "Adeel Zafar",
-                "email": "adeelz92@gmail.com",
-                "affiliations": [
-                    "University of Houston, Houston, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Zahra Poorshayegh",
-                "email": "zpoorsha@cougarnet.uh.edu",
-                "affiliations": [
-                    "University of Houston, Houston, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Di Yang",
-                "email": "diyang@uh.edu",
-                "affiliations": [
-                    "University of Houston, Houston, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Guoning Chen",
-                "email": "chengu@cs.uh.edu",
-                "affiliations": [
-                    "University of Houston, Houston, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Vortices and their analysis play a critical role in the understanding of complex phenomena in turbulent flows. Traditional vortex extraction methods, notably region-based techniques, often overlook the entanglement phenomenon, resulting in the inclusion of multiple vortices within a single extracted region. Their separation is necessary for quantifying different types of vortices and their statistics. In this study, we propose a novel vortex separation method that extends the conventional contour tree-based segmentation approach with an additional step termed \u201clayering\u201d. Upon extracting a vortical region using specified vortex criteria (e.g., \u03bb2), we initially establish topological segmentation based on the contour tree, followed by the layering process to allocate appropriate segmentation IDs to unsegmented cells, thus separating individual vortices within the region. However, these regions may still suffer from inaccurate splits, which we address statistically by leveraging the continuity of vorticity lines across the split boundaries. Our findings demonstrate a significant improvement in both the separation of vortices and the mitigation of inaccurate splits compared to prior methods.",
-        "uid": "v-short-1188",
-        "time_stamp": "2024-10-17T15:00:00Z",
-        "time_start": "2024-10-17T15:00:00Z",
-        "time_end": "2024-10-17T15:09:00Z",
-        "paper_type": "short",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "Yes, both PCS and external",
-        "open_access_supplemental_link": "https://arxiv.org/src/2407.03384v1/anc/supp_doc.pdf",
-        "preprint_link": "https://arxiv.org/abs/2407.03384",
-        "accessible_pdf": false,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
     "v-full-1705": {
         "slot_id": "v-full-1705",
         "session_id": "full5",
@@ -12971,6 +12902,75 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
+    "v-short-1188": {
+        "slot_id": "v-short-1188",
+        "session_id": "full5",
+        "title": "Topological Separation of Vortices",
+        "contributors": [
+            "Adeel Zafar"
+        ],
+        "authors": [
+            {
+                "name": "Adeel Zafar",
+                "email": "adeelz92@gmail.com",
+                "affiliations": [
+                    "University of Houston, Houston, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Zahra Poorshayegh",
+                "email": "zpoorsha@cougarnet.uh.edu",
+                "affiliations": [
+                    "University of Houston, Houston, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Di Yang",
+                "email": "diyang@uh.edu",
+                "affiliations": [
+                    "University of Houston, Houston, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Guoning Chen",
+                "email": "chengu@cs.uh.edu",
+                "affiliations": [
+                    "University of Houston, Houston, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Vortices and their analysis play a critical role in the understanding of complex phenomena in turbulent flows. Traditional vortex extraction methods, notably region-based techniques, often overlook the entanglement phenomenon, resulting in the inclusion of multiple vortices within a single extracted region. Their separation is necessary for quantifying different types of vortices and their statistics. In this study, we propose a novel vortex separation method that extends the conventional contour tree-based segmentation approach with an additional step termed \u201clayering\u201d. Upon extracting a vortical region using specified vortex criteria (e.g., \u03bb2), we initially establish topological segmentation based on the contour tree, followed by the layering process to allocate appropriate segmentation IDs to unsegmented cells, thus separating individual vortices within the region. However, these regions may still suffer from inaccurate splits, which we address statistically by leveraging the continuity of vorticity lines across the split boundaries. Our findings demonstrate a significant improvement in both the separation of vortices and the mitigation of inaccurate splits compared to prior methods.",
+        "uid": "v-short-1188",
+        "time_stamp": "2024-10-17T15:00:00Z",
+        "time_start": "2024-10-17T15:00:00Z",
+        "time_end": "2024-10-17T15:09:00Z",
+        "paper_type": "short",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "Yes, both PCS and external",
+        "open_access_supplemental_link": "https://arxiv.org/src/2407.03384v1/anc/supp_doc.pdf",
+        "preprint_link": "https://arxiv.org/abs/2407.03384",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
     "v-tvcg-20233330262": {
         "slot_id": "v-tvcg-20233330262",
         "session_id": "full5",
@@ -13079,63 +13079,10 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
-    "v-short-1192": {
-        "slot_id": "v-short-1192",
-        "session_id": "full6",
-        "title": "Animating the Narrative: A Review of Animation Styles in Narrative Visualization",
-        "contributors": [
-            "Vyri Junhan Yang"
-        ],
-        "authors": [
-            {
-                "name": "Vyri Junhan Yang",
-                "email": "jyang44@lsu.edu",
-                "affiliations": [
-                    "Louisiana State University, Baton Rouge, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Mahmood Jasim",
-                "email": "mjasim@lsu.edu",
-                "affiliations": [
-                    "Louisiana State University, Baton Rouge, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Narrative visualization has become a crucial tool in data presentation, merging storytelling with data visualization to convey complex information in an engaging and accessible manner. In this study, we review the design space for narrative visualizations, focusing on animation style, through a comprehensive analysis of 80 papers from key visualization venues. We categorize these papers into six broad themes: Animation Style, Interactivity, Technology Usage, Methodology Development, Evaluation Type, and Application Domain. Our findings reveal a significant evolution in the field, marked by a growing preference for animated and non-interactive techniques. This trend reflects a shift towards minimizing user interaction while enhancing the clarity and impact of data presentation. We also identified key trends and technologies shaping the field, highlighting the role of technologies, such as machine learning in driving these changes. We offer insights into the dynamic interrelations within the narrative visualization domains, and suggest future research directions, including exploring non-interactive techniques, examining the interplay between different visualization elements, and developing domain-specific visualizations.",
-        "uid": "v-short-1192",
-        "time_stamp": "2024-10-17T20:00:00Z",
-        "time_start": "2024-10-17T20:00:00Z",
-        "time_end": "2024-10-17T20:09:00Z",
-        "paper_type": "short",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "Yes, PCS",
-        "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
     "v-full-1039": {
         "slot_id": "v-full-1039",
         "session_id": "full6",
-        "title": "Blowing Seeds across Gardens: Visualizing Implicit Propagation of Cross-Platform Social Media Posts",
+        "title": "Blowing Seeds Across Gardens: Visualizing Implicit Propagation of Cross-Platform Social Media Posts",
         "contributors": [
             "Jianing Yin"
         ],
@@ -13369,6 +13316,59 @@
         "open_access_supplemental_link": "https://osf.io/3v8wm/",
         "preprint_link": "http://arxiv.org/abs/2408.01991",
         "accessible_pdf": true,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
+    "v-short-1192": {
+        "slot_id": "v-short-1192",
+        "session_id": "full6",
+        "title": "Animating the Narrative: A Review of Animation Styles in Narrative Visualization",
+        "contributors": [
+            "Vyri Junhan Yang"
+        ],
+        "authors": [
+            {
+                "name": "Vyri Junhan Yang",
+                "email": "jyang44@lsu.edu",
+                "affiliations": [
+                    "Louisiana State University, Baton Rouge, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Mahmood Jasim",
+                "email": "mjasim@lsu.edu",
+                "affiliations": [
+                    "Louisiana State University, Baton Rouge, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Narrative visualization has become a crucial tool in data presentation, merging storytelling with data visualization to convey complex information in an engaging and accessible manner. In this study, we review the design space for narrative visualizations, focusing on animation style, through a comprehensive analysis of 80 papers from key visualization venues. We categorize these papers into six broad themes: Animation Style, Interactivity, Technology Usage, Methodology Development, Evaluation Type, and Application Domain. Our findings reveal a significant evolution in the field, marked by a growing preference for animated and non-interactive techniques. This trend reflects a shift towards minimizing user interaction while enhancing the clarity and impact of data presentation. We also identified key trends and technologies shaping the field, highlighting the role of technologies, such as machine learning in driving these changes. We offer insights into the dynamic interrelations within the narrative visualization domains, and suggest future research directions, including exploring non-interactive techniques, examining the interplay between different visualization elements, and developing domain-specific visualizations.",
+        "uid": "v-short-1192",
+        "time_stamp": "2024-10-17T20:00:00Z",
+        "time_start": "2024-10-17T20:00:00Z",
+        "time_end": "2024-10-17T20:09:00Z",
+        "paper_type": "short",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "Yes, PCS",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
         "has_image": false,
         "has_pdf": false,
         "paper_award": "",
@@ -15449,7 +15449,7 @@
     "v-short-1114": {
         "slot_id": "v-short-1114",
         "session_id": "short2",
-        "title": "The Comic Construction Kit: An Activity for Students to Learn and Explain Data Visualizations",
+        "title": "Honorable Mention",
         "contributors": [
             "Magdalena Boucher"
         ],
@@ -16633,9 +16633,9 @@
         ],
         "abstract": "Although many dimensionality reduction (DR) techniques employ stochastic methods for computational efficiency, such as negative sampling or stochastic gradient descent, their impact on the projection has been underexplored. In this work, we investigate how such stochasticity affects the stability of projections and present a novel DR technique, GhostUMAP, to measure the pointwise instability of projections. Our idea is to introduce clones of data points, \u201cghosts\u201d, into UMAP\u2019s layout optimization process. Ghosts are designed to be completely passive: they do not affect any others but are influenced by attractive and repulsive forces from the original data points. After a single optimization run, GhostUMAP can capture the projection instability of data points by measuring the variance with the projected positions of their ghosts. We also present a successive halving technique to reduce the computation of GhostUMAP. Our results suggest that GhostUMAP can reveal unstable data points with a reasonable computational overhead.",
         "uid": "v-short-1065",
-        "time_stamp": "2024-10-16T13:24:00Z",
-        "time_start": "2024-10-16T13:24:00Z",
-        "time_end": "2024-10-16T13:33:00Z",
+        "time_stamp": "2024-10-16T13:15:00Z",
+        "time_start": "2024-10-16T13:15:00Z",
+        "time_end": "2024-10-16T13:24:00Z",
         "paper_type": "short",
         "keywords": [],
         "doi": "",
@@ -16694,9 +16694,9 @@
         ],
         "abstract": "Coordinated multiple views (CMV) in a visual analytics system can help users explore multiple data representations simultaneously with linked interactions. However, the implementation of coordinated multiple views can be challenging. Without standard software libraries, visualization designers need to re-implement CMV during the development of each system. We introduce use-coordination, a grammar and software library that supports the efficient implementation of CMV. The grammar defines a JSON-based representation for an abstract coordination model from the information visualization literature. We contribute an optional extension to the model and grammar that allows for hierarchical coordination. Through three use cases, we show that use-coordination enables implementation of CMV in systems containing not only basic statistical charts but also more complex visualizations such as medical imaging volumes. We describe six software extensions, including a graphical editor for manipulation of coordination, which showcase the potential to build upon our coordination-focused declarative approach. The software is open-source and available at https://use-coordination.dev.",
         "uid": "v-short-1096",
-        "time_stamp": "2024-10-16T13:33:00Z",
-        "time_start": "2024-10-16T13:33:00Z",
-        "time_end": "2024-10-16T13:42:00Z",
+        "time_stamp": "2024-10-16T13:24:00Z",
+        "time_start": "2024-10-16T13:24:00Z",
+        "time_end": "2024-10-16T13:33:00Z",
         "paper_type": "short",
         "keywords": [],
         "doi": "",
@@ -16768,67 +16768,6 @@
         "open_access_supplemental_link": "",
         "preprint_link": "",
         "accessible_pdf": false,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
-    "v-short-1135": {
-        "slot_id": "v-short-1135",
-        "session_id": "short4",
-        "title": "Feature Clock: High-Dimensional Effects in Two-Dimensional Plots",
-        "contributors": [
-            "Olga Ovcharenko"
-        ],
-        "authors": [
-            {
-                "name": "Olga Ovcharenko",
-                "email": "ovcharenko.folga@gmail.com",
-                "affiliations": [
-                    "ETH Z\u00fcrich, Z\u00fcrich, Switzerland"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Rita Sevastjanova",
-                "email": "rita.sevastjanova@inf.ethz.ch",
-                "affiliations": [
-                    "ETH Z\u00fcrich, Z\u00fcrich, Switzerland"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Valentina Boeva",
-                "email": "valentina.boeva@inf.ethz.ch",
-                "affiliations": [
-                    "ETH Zurich, Z\u00fcrich, Switzerland"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Humans struggle to perceive and interpret high-dimensional data. Therefore, high-dimensional data are often projected into two dimensions for visualization. Many applications benefit from complex nonlinear dimensionality reduction techniques, but the effects of individual high-dimensional features are hard to explain in the two-dimensional space. Most visualization solutions use multiple two-dimensional plots, each showing the effect of one high-dimensional feature in two dimensions; this approach creates a need for a visual inspection of k plots for a k-dimensional input space. Our solution, Feature Clock, provides a novel approach that eliminates the need to inspect these k plots to grasp the influence of original features on the data structure depicted in two dimensions. Feature Clock enhances the explainability and compactness of visualizations of embedded data and is available in an open-source Python library.",
-        "uid": "v-short-1135",
-        "time_stamp": "2024-10-16T13:06:00Z",
-        "time_start": "2024-10-16T13:06:00Z",
-        "time_end": "2024-10-16T13:15:00Z",
-        "paper_type": "short",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "Yes, external",
-        "open_access_supplemental_link": "https://github.com/OlgaOvcharenko/feature_clock_visualization",
-        "preprint_link": "",
-        "accessible_pdf": true,
         "has_image": false,
         "has_pdf": false,
         "paper_award": "",
@@ -17016,9 +16955,9 @@
         ],
         "abstract": "A high number of samples often leads to occlusion in scatterplots, which hinders data perception and analysis. De-cluttering approaches based on spatial transformation reduce visual clutter by remapping samples using the entire available scatterplot domain. Such regularized scatterplots may still be used for data analysis tasks, if the spatial transformation is smooth and preserves the original neighborhood relations of samples. Recently, Rave et al. proposed an efficient regularization method based on integral images. We propose a generalization of their regularization scheme using sector-based transformations with the aim of increasing sample uniformity of the resulting scatterplot. We document the improvement of our approach using various uniformity measures.",
         "uid": "v-short-1235",
-        "time_stamp": "2024-10-16T13:15:00Z",
-        "time_start": "2024-10-16T13:15:00Z",
-        "time_end": "2024-10-16T13:24:00Z",
+        "time_stamp": "2024-10-16T13:06:00Z",
+        "time_start": "2024-10-16T13:06:00Z",
+        "time_end": "2024-10-16T13:15:00Z",
         "paper_type": "short",
         "keywords": [],
         "doi": "",
@@ -18693,6 +18632,181 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
+    "v-full-1363": {
+        "slot_id": "v-full-1363",
+        "session_id": "virtual1",
+        "title": "FPCS: Feature Preserving Compensated Sampling of Streaming Time Series Data",
+        "contributors": [
+            "Hongyan Li"
+        ],
+        "authors": [
+            {
+                "name": "Hongyan Li",
+                "email": "3271961659@qq.com",
+                "affiliations": [
+                    "China Nanhu Academy of Electronics and Information Technology(CNAEIT), JiaXing, China"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Bo Yang",
+                "email": "ustcboy@outlook.com",
+                "affiliations": [
+                    "China Nanhu Academy of Electronics and Information Technology(CNAEIT), JiaXing, China"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Yansong Chua",
+                "email": "caiyansong@cnaeit.com",
+                "affiliations": [
+                    "China Nanhu Academy of Electronics and Information Technology, Jiaxing, China"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Data visualization aids in making data analysis more intuitive and in-depth, with widespread applications in fields such as biology, finance, and medicine. For massive and continuously growing streaming time series data, these data are typically visualized in the form of line charts, but the data transmission puts significant pressure on the network, leading to visualization lag or even failure to render completely. This paper proposes a universal sampling algorithm FPCS, which retains feature points from continuously received streaming time series data, compensates for the frequent fluctuating feature points, and aims to achieve efficient visualization. This algorithm bridges the gap in sampling for streaming time series data. The algorithm has several advantages: (1) It optimizes the sampling results by compensating for fewer feature points, retaining the visualization features of the original data very well, ensuring high-quality sampled data; (2) The execution time is the shortest compared to similar existing algorithms; (3) It has an almost negligible space overhead; (4) The data sampling process does not depend on the overall data; (5) This algorithm can be applied to infinite streaming data and finite static data.",
+        "uid": "v-full-1363",
+        "time_stamp": "2024-10-16T12:30:00Z",
+        "time_start": "2024-10-16T12:30:00Z",
+        "time_end": "2024-10-16T12:42:00Z",
+        "paper_type": "full",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "Yes, PCS",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
+    "v-full-1500": {
+        "slot_id": "v-full-1500",
+        "session_id": "virtual1",
+        "title": "Evaluating Force-based Haptics for Immersive Tangible Interactions with Surface Visualizations",
+        "contributors": [
+            "Hamza Afzaal"
+        ],
+        "authors": [
+            {
+                "name": "Hamza Afzaal",
+                "email": "hamza.afzaal@ucalgary.ca",
+                "affiliations": [
+                    "University of Calgary, Calgary, Canada"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Usman Alim",
+                "email": "ualim@ucalgary.ca",
+                "affiliations": [
+                    "University of Calgary, Calgary, Canada"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Haptic feedback provides an essential sensory stimulus crucial for interaction and analyzing three-dimensional spatio-temporal phenomena on surface visualizations. Given its ability to provide enhanced spatial perception and scene maneuverability, virtual reality (VR) catalyzes haptic interactions on surface visualizations. Various interaction modes, encompassing both mid-air and on-surface interactions---with or without the application of assisting force stimuli---have been explored using haptic force feedback devices. In this paper, we evaluate the use of on-surface and assisted on-surface haptic modes of interaction compared to a no-haptic interaction mode. A force-based haptic stylus is used for all three modalities; the on-surface mode uses collision based forces, whereas the assisted on-surface mode is accompanied by an additional snapping force. We conducted a within-subjects user study involving fundamental interaction tasks performed on surface visualizations. Keeping a consistent visual design across all three modes, our study incorporates tasks that require the localization of the highest, lowest, and random points on surfaces; and tasks that focus on brushing curves on surfaces with varying complexity and occlusion levels. Our findings show that participants took almost the same time to brush curves using all the interaction modes. They could draw smoother curves using the on-surface interaction modes compared to the no-haptic mode. However, the assisted on-surface mode provided better accuracy than the on-surface mode. The on-surface mode was slower in point localization, but the accuracy depended on the visual cues and occlusions associated with the tasks. Finally, we discuss participant feedback on using haptic force feedback as a tangible input modality and share takeaways to aid the design of haptics-based tangible interactions for surface visualizations. ",
+        "uid": "v-full-1500",
+        "time_stamp": "2024-10-16T12:54:00Z",
+        "time_start": "2024-10-16T12:54:00Z",
+        "time_end": "2024-10-16T13:06:00Z",
+        "paper_type": "full",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "No",
+        "open_access_supplemental_link": "",
+        "preprint_link": "https://doi.org/10.48550/arXiv.2408.04031",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
+    "v-full-1708": {
+        "slot_id": "v-full-1708",
+        "session_id": "virtual1",
+        "title": "Uncertainty-Aware Deep Neural Representations for Visual Analysis of Vector Field Data",
+        "contributors": [
+            "Soumya Dutta"
+        ],
+        "authors": [
+            {
+                "name": "Atul Kumar",
+                "email": "atulkrfcb@gmail.com",
+                "affiliations": [
+                    "Indian Institute of Technology Kanpur , Kanpur, India"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Siddharth Garg",
+                "email": "gsiddharth2209@gmail.com",
+                "affiliations": [
+                    "Indian Institute of Technology Kanpur , Kanpur , India"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Soumya Dutta",
+                "email": "soumya.cvpr@gmail.com",
+                "affiliations": [
+                    "Indian Institute of Technology Kanpur (IIT Kanpur), Kanpur, India"
+                ],
+                "is_corresponding": true
+            }
+        ],
+        "abstract": "The widespread use of Deep Neural Networks (DNNs) has recently resulted in their application to challenging scientific visualization tasks. While advanced DNNs demonstrate impressive generalization abilities, understanding factors like prediction quality, confidence, robustness, and uncertainty is crucial. These insights aid application scientists in making informed decisions. However, DNNs lack inherent mechanisms to measure prediction uncertainty, prompting the creation of distinct frameworks for constructing robust uncertainty-aware models tailored to various visualization tasks. In this work, we develop uncertainty-aware implicit neural representations to model steady-state vector fields effectively. We comprehensively evaluate the efficacy of two principled deep uncertainty estimation techniques: (1) Deep Ensemble and (2) Monte Carlo Dropout, aimed at enabling uncertainty-informed visual analysis of features within steady vector field data. Our detailed exploration using several vector data sets indicate that uncertainty-aware models generate informative visualization results of vector field features. Furthermore, incorporating prediction uncertainty improves the resilience and interpretability of our DNN model, rendering it applicable for the analysis of non-trivial vector field data sets.",
+        "uid": "v-full-1708",
+        "time_stamp": "2024-10-16T12:42:00Z",
+        "time_start": "2024-10-16T12:42:00Z",
+        "time_end": "2024-10-16T12:54:00Z",
+        "paper_type": "full",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "No",
+        "open_access_supplemental_link": "",
+        "preprint_link": "https://doi.org/10.48550/arXiv.2407.16119",
+        "accessible_pdf": true,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "youtube_prerecorded_link": "",
+        "youtube_prerecorded_id": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
     "v-short-1101": {
         "slot_id": "v-short-1101",
         "session_id": "virtual1",
@@ -18974,166 +19088,52 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
-    "v-full-1363": {
-        "slot_id": "v-full-1363",
-        "session_id": "virtual1",
-        "title": "FPCS: Feature Preserving Compensated Sampling of Streaming Time Series Data",
+    "v-short-1135": {
+        "slot_id": "v-short-1135",
+        "session_id": "virtual2",
+        "title": "Feature Clock: High-Dimensional Effects in Two-Dimensional Plots",
         "contributors": [
-            "Hongyan Li"
+            "Olga Ovcharenko"
         ],
         "authors": [
             {
-                "name": "Hongyan Li",
-                "email": "3271961659@qq.com",
+                "name": "Olga Ovcharenko",
+                "email": "ovcharenko.folga@gmail.com",
                 "affiliations": [
-                    "China Nanhu Academy of Electronics and Information Technology(CNAEIT), JiaXing, China"
+                    "ETH Z\u00fcrich, Z\u00fcrich, Switzerland"
                 ],
                 "is_corresponding": true
             },
             {
-                "name": "Bo Yang",
-                "email": "ustcboy@outlook.com",
+                "name": "Rita Sevastjanova",
+                "email": "rita.sevastjanova@inf.ethz.ch",
                 "affiliations": [
-                    "China Nanhu Academy of Electronics and Information Technology(CNAEIT), JiaXing, China"
+                    "ETH Z\u00fcrich, Z\u00fcrich, Switzerland"
                 ],
                 "is_corresponding": false
             },
             {
-                "name": "Yansong Chua",
-                "email": "caiyansong@cnaeit.com",
+                "name": "Valentina Boeva",
+                "email": "valentina.boeva@inf.ethz.ch",
                 "affiliations": [
-                    "China Nanhu Academy of Electronics and Information Technology, Jiaxing, China"
+                    "ETH Zurich, Z\u00fcrich, Switzerland"
                 ],
                 "is_corresponding": false
             }
         ],
-        "abstract": "Data visualization aids in making data analysis more intuitive and in-depth, with widespread applications in fields such as biology, finance, and medicine. For massive and continuously growing streaming time series data, these data are typically visualized in the form of line charts, but the data transmission puts significant pressure on the network, leading to visualization lag or even failure to render completely. This paper proposes a universal sampling algorithm FPCS, which retains feature points from continuously received streaming time series data, compensates for the frequent fluctuating feature points, and aims to achieve efficient visualization. This algorithm bridges the gap in sampling for streaming time series data. The algorithm has several advantages: (1) It optimizes the sampling results by compensating for fewer feature points, retaining the visualization features of the original data very well, ensuring high-quality sampled data; (2) The execution time is the shortest compared to similar existing algorithms; (3) It has an almost negligible space overhead; (4) The data sampling process does not depend on the overall data; (5) This algorithm can be applied to infinite streaming data and finite static data.",
-        "uid": "v-full-1363",
+        "abstract": "Humans struggle to perceive and interpret high-dimensional data. Therefore, high-dimensional data are often projected into two dimensions for visualization. Many applications benefit from complex nonlinear dimensionality reduction techniques, but the effects of individual high-dimensional features are hard to explain in the two-dimensional space. Most visualization solutions use multiple two-dimensional plots, each showing the effect of one high-dimensional feature in two dimensions; this approach creates a need for a visual inspection of k plots for a k-dimensional input space. Our solution, Feature Clock, provides a novel approach that eliminates the need to inspect these k plots to grasp the influence of original features on the data structure depicted in two dimensions. Feature Clock enhances the explainability and compactness of visualizations of embedded data and is available in an open-source Python library.",
+        "uid": "v-short-1135",
         "time_stamp": "2024-10-16T12:30:00Z",
         "time_start": "2024-10-16T12:30:00Z",
-        "time_end": "2024-10-16T12:42:00Z",
-        "paper_type": "full",
+        "time_end": "2024-10-16T12:39:00Z",
+        "paper_type": "short",
         "keywords": [],
         "doi": "",
         "fno": "",
         "presentation_mode": "",
-        "open_access_supplemental_question": "Yes, PCS",
-        "open_access_supplemental_link": "",
+        "open_access_supplemental_question": "Yes, external",
+        "open_access_supplemental_link": "https://github.com/OlgaOvcharenko/feature_clock_visualization",
         "preprint_link": "",
-        "accessible_pdf": false,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
-    "v-full-1500": {
-        "slot_id": "v-full-1500",
-        "session_id": "virtual1",
-        "title": "Evaluating Force-based Haptics for Immersive Tangible Interactions with Surface Visualizations",
-        "contributors": [
-            "Hamza Afzaal"
-        ],
-        "authors": [
-            {
-                "name": "Hamza Afzaal",
-                "email": "hamza.afzaal@ucalgary.ca",
-                "affiliations": [
-                    "University of Calgary, Calgary, Canada"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Usman Alim",
-                "email": "ualim@ucalgary.ca",
-                "affiliations": [
-                    "University of Calgary, Calgary, Canada"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Haptic feedback provides an essential sensory stimulus crucial for interaction and analyzing three-dimensional spatio-temporal phenomena on surface visualizations. Given its ability to provide enhanced spatial perception and scene maneuverability, virtual reality (VR) catalyzes haptic interactions on surface visualizations. Various interaction modes, encompassing both mid-air and on-surface interactions---with or without the application of assisting force stimuli---have been explored using haptic force feedback devices. In this paper, we evaluate the use of on-surface and assisted on-surface haptic modes of interaction compared to a no-haptic interaction mode. A force-based haptic stylus is used for all three modalities; the on-surface mode uses collision based forces, whereas the assisted on-surface mode is accompanied by an additional snapping force. We conducted a within-subjects user study involving fundamental interaction tasks performed on surface visualizations. Keeping a consistent visual design across all three modes, our study incorporates tasks that require the localization of the highest, lowest, and random points on surfaces; and tasks that focus on brushing curves on surfaces with varying complexity and occlusion levels. Our findings show that participants took almost the same time to brush curves using all the interaction modes. They could draw smoother curves using the on-surface interaction modes compared to the no-haptic mode. However, the assisted on-surface mode provided better accuracy than the on-surface mode. The on-surface mode was slower in point localization, but the accuracy depended on the visual cues and occlusions associated with the tasks. Finally, we discuss participant feedback on using haptic force feedback as a tangible input modality and share takeaways to aid the design of haptics-based tangible interactions for surface visualizations. ",
-        "uid": "v-full-1500",
-        "time_stamp": "2024-10-16T12:54:00Z",
-        "time_start": "2024-10-16T12:54:00Z",
-        "time_end": "2024-10-16T13:06:00Z",
-        "paper_type": "full",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "No",
-        "open_access_supplemental_link": "",
-        "preprint_link": "https://doi.org/10.48550/arXiv.2408.04031",
-        "accessible_pdf": false,
-        "has_image": false,
-        "has_pdf": false,
-        "paper_award": "",
-        "image_caption": "",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": "",
-        "youtube_prerecorded_link": "",
-        "youtube_prerecorded_id": "",
-        "bunny_prerecorded_link": "",
-        "bunny_prerecorded_subtitles": ""
-    },
-    "v-full-1708": {
-        "slot_id": "v-full-1708",
-        "session_id": "virtual1",
-        "title": "Uncertainty-Aware Deep Neural Representations for Visual Analysis of Vector Field Data",
-        "contributors": [
-            "Soumya Dutta"
-        ],
-        "authors": [
-            {
-                "name": "Atul Kumar",
-                "email": "atulkrfcb@gmail.com",
-                "affiliations": [
-                    "Indian Institute of Technology Kanpur , Kanpur, India"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Siddharth Garg",
-                "email": "gsiddharth2209@gmail.com",
-                "affiliations": [
-                    "Indian Institute of Technology Kanpur , Kanpur , India"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Soumya Dutta",
-                "email": "soumya.cvpr@gmail.com",
-                "affiliations": [
-                    "Indian Institute of Technology Kanpur (IIT Kanpur), Kanpur, India"
-                ],
-                "is_corresponding": true
-            }
-        ],
-        "abstract": "The widespread use of Deep Neural Networks (DNNs) has recently resulted in their application to challenging scientific visualization tasks. While advanced DNNs demonstrate impressive generalization abilities, understanding factors like prediction quality, confidence, robustness, and uncertainty is crucial. These insights aid application scientists in making informed decisions. However, DNNs lack inherent mechanisms to measure prediction uncertainty, prompting the creation of distinct frameworks for constructing robust uncertainty-aware models tailored to various visualization tasks. In this work, we develop uncertainty-aware implicit neural representations to model steady-state vector fields effectively. We comprehensively evaluate the efficacy of two principled deep uncertainty estimation techniques: (1) Deep Ensemble and (2) Monte Carlo Dropout, aimed at enabling uncertainty-informed visual analysis of features within steady vector field data. Our detailed exploration using several vector data sets indicate that uncertainty-aware models generate informative visualization results of vector field features. Furthermore, incorporating prediction uncertainty improves the resilience and interpretability of our DNN model, rendering it applicable for the analysis of non-trivial vector field data sets.",
-        "uid": "v-full-1708",
-        "time_stamp": "2024-10-16T12:42:00Z",
-        "time_start": "2024-10-16T12:42:00Z",
-        "time_end": "2024-10-16T12:54:00Z",
-        "paper_type": "full",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "",
-        "open_access_supplemental_question": "No",
-        "open_access_supplemental_link": "",
-        "preprint_link": "https://doi.org/10.48550/arXiv.2407.16119",
         "accessible_pdf": true,
         "has_image": false,
         "has_pdf": false,

@@ -254,6 +254,7 @@ function updateKey() {
     workshop: "Workshop",
     application: "Application Spotlights",
     panel: "Tutorial / Panel / Meetup",
+    virtual: "Virtual"
   };
 
   $.get("serve_config.json").then((config) => {

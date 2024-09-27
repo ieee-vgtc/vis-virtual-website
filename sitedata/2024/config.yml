@@ -58,6 +58,7 @@ calendar:
     invited: '#1C3160'
     full: '#1C3160'
     short: '#FDBB30'
+    virtual: '#99629c'
 
   sunday_saturday: true  #  Include Sunday and Saturday
 
