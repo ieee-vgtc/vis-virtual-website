@@ -38,12 +38,12 @@
         </h3>
         {% endif %}
 
-        {% if session.id not in ["conf6", "conf4", "conf5"] %}
-            <h3 class="session-room mt-4">
-                <span class="fas mr-1">&#xf108;</span>
+        <h3 class="session-room mt-4">
+            <span class="fas mr-1">&#xf108;</span>
+            <a href="room_{{room.id}}.html">
                 Room: {{ "To Be Announced" if room.name|length == 0 else room.name }}
-            </h3>
-        {% endif %}
+            </a>
+        </h3>
         {% if (session.startTime|length > 0) %}
             <h3 class="session-date">
                 <span class="fas mr-1">&#xf017;</span>
