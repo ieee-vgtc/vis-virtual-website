@@ -125,51 +125,10 @@ $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
 
-    // We write out a stream view every 2 minutes.  This needs to stay 2 minutes - it
-    // is coupled with the amazon lambda code that counts up different views.
-    setInterval(putStreamCount, 120 * 1000);
-    // We read out a stream view every 30 seconds.  
-    setInterval(getStreamCount, 30 * 1000);
     updateStreamSource();
     setStreamCount(0);
     getStreamCount();
 })
-
-function putStreamCount() {
-    let streamData = { urlPath: '{{room.id}}'};
-    $.ajax({
-       url: 'https://ljiotj1l7f.execute-api.us-east-1.amazonaws.com/streamView',
-       type: 'PUT',
-       contentType: "application/json",
-       data: JSON.stringify(streamData),
-       success: function(response) {
-         console.log("response is ", response);
-       }
-    });
-}
-
-function getStreamCount() {
-    let streamData = { urlPath: '{{room.id}}'};
-    $.ajax({
-       url: "https://ljiotj1l7f.execute-api.us-east-1.amazonaws.com/streamViews/{{room.id}}",
-       type: 'GET',
-       contentType: "application/json",
-       success: function(response) {
-         console.log("getStreamCount response is ", response);
-         setStreamCount(response);
-       }
-    });
-}
-
-function setStreamCount(count) {
-    // Check to see if params includes show_count=true
-    let params = (new URL(document.location)).searchParams;
-    let name = params.get("show_count");
-    if (name === 'true') {
-        $('#stream-counter').show();
-        $('#stream-counter-number').text(count);
-    }
-}
 
 function updateStreamSource(){    
     let streaming_id = "{{room.id}}-"+moment.utc().format('ddd').toLowerCase()
