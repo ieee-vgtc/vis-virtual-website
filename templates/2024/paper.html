@@ -4,7 +4,7 @@
 {% set social_title = "Paper: " ~ paper.title %}
 {% set social_description = paper.abstract %}
 {% if paper.has_image %}
-{% set social_image = "https://ieeevis.b-cdn.net/vis_2024/paper_images/" ~ paper.id ~ ".png" %}
+{% set social_image = "https://ieeevis.b-cdn.net/vis_2024/paper_images/" ~ paper.id ~ "_Image.png" %}
 {% endif %}
 
 {% extends "2024/base.html" %}
@@ -113,12 +113,10 @@
     <div class="row my-3">
         <div class="col-md-8">
             <figure class="figure">
-                {% if paper.has_image %}
-                    <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2024/paper_images/{{paper.id}}.png"
-                         alt="Exemplar figure, described by caption below"
-                         aria-describedby="figure-caption">
-                {% endif %}
+                <img class="figure-img img-fluid"
+                     src="https://ieeevis.b-cdn.net/vis_2024/paper_images/{{paper.id}}_Image.png"
+                     alt="Exemplar figure, described by caption below"
+                     aria-describedby="figure-caption">
                 <figcaption class="figure-caption"
                             id="figure-caption">{{ paper.image_caption }}</figcaption>
             </figure>

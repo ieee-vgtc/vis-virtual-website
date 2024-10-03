@@ -177,6 +177,9 @@ def sessionTimeToCalendarTime(dateTime):
     # round to the nearest 15 minutes
     minute = split_time[1]
 
+    if (minute == "32") or (minute == "35"):
+        minute = "30"
+
     return "time-" + str(hour).zfill(2) + str(minute).zfill(2)
 
 # converts a full date string to an indexed day for the calendar
@@ -334,6 +337,7 @@ def format_paper(v):
         "session_id": v["session_id"] if "session_id" in v else "",
         "session_title": paper_session["title"] if "title" in paper_session else "",
         "session_room": room_name,
+        "session_room_id": paper_session.get("track"),
         "event_id": paper_session["parent_id"] if "parent_id" in paper_session else "",
         "event_title": paper_event["event"] if "event" in paper_event else "",
         "award": v["paper_award"] if "paper_award" in v else "",
@@ -359,8 +363,8 @@ def format_paper(v):
         "session_youtube_ff_id": v["youtube_ff_id"],
         "session_bunny_ff_link": v["bunny_ff_link"],
         "session_bunny_ff_subtitles": v["bunny_ff_subtitles"],
-        "session_youtube_prerecorded_link": v["youtube_prerecorded_link"],
-        "session_youtube_prerecorded_id": v["youtube_prerecorded_id"],
+        "session_youtube_prerecorded_link": v.get("youtube_prerecorded_link"),
+        "session_youtube_prerecorded_id": v.get("youtube_prerecorded_id"),
         "session_bunny_prerecorded_link": v["bunny_prerecorded_link"],
         "session_bunny_prerecorded_subtitles": v["bunny_prerecorded_subtitles"],
     }
@@ -502,6 +506,11 @@ def format_by_session_list(v):
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
         "livestream_id": v.get("livestream_id"),
+        "zoom_private_meeting": v.get("zoom_private_meeting"),
+        "zoom_private_password": v.get("zoom_private_password"),
+        "zoom_private_link": v.get("zoom_private_link"),
+        "zoom_broadcast_link": v.get("zoom_broadcast_link"),
+        "zoom_webinar_link": v.get("zoom_webinar_link"),
     }
 
 def get_room_name(track, room_names):
