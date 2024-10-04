@@ -57,7 +57,16 @@
             >
                 &#xf02e;
             </div>
-            <h3 class="paper-authors pb-2 mt-3">{{ poster.authors | join(", ") }}</h3>
+            {% for author in poster.authors %}
+                <h4 class="paper-authors pb-2 mt-2">
+                    <span class="fas mr-1">&#xf183;</span>
+                    {% if author.is_corresponding %}
+                        <a href="mailto:{{author.email}}">{{ author.name }}</a>
+                    {% else %}
+                        {{ author.name }}
+                    {% endif %} - {{ author.affiliations | join(". ")}}
+                </h4>
+            {% endfor %}
             {% if poster.summary_pdf %}
                 <h5 class="paper-link pb-2">
                     <a href="{{ poster.summary_pdf }}">
@@ -129,7 +138,7 @@
     <script>
     $(document).ready(() => {
         // render first page of PDF to div
-        // PDF name can be bound to variable -- e.g. paper.content.poster_link
+        // PDF name can be bound to variable -- e.g. poster.content.poster_link
         const pdfFile = "{{ poster.poster_pdf | default(config.default_poster_pdf) }}";
         initPDFViewer(pdfFile, "#pdf_view");
     });

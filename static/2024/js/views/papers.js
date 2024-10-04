@@ -471,9 +471,7 @@ const card_poster_html = (poster) =>
                 </a>
               </h5>
               <h6 class="card-subtitle text-muted" style="text-align: left;">
-                      ${poster.authors.map(
-    s => `<a href="posters.html?filter=authors&search=${s}">${s}</a>`)
-    .join(", ")}
+                ${author_detail(poster, render_mode !== MODE.mini)}
               </h6>
 
               <div class="card-subtitle text-muted mt-2" style="text-align: left;">

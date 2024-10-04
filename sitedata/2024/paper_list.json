@@ -23302,6 +23302,183 @@
         "bunny_prerecorded_link": "",
         "bunny_prerecorded_subtitles": ""
     },
+    "w-pdav-1006": {
+        "slot_id": "w-pdav-1006",
+        "session_id": "workshop4",
+        "title": "Practical Challenges of Progressive Data Science in Healthcare",
+        "contributors": [
+            "Fateme Rajabiyazdi"
+        ],
+        "authors": [
+            {
+                "name": "Faisal Zaki Roshan",
+                "email": "faisalzaki@cmail.carleton.ca",
+                "affiliations": [
+                    "Carleton University, Ottawa, Canada"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Abhishek Ahuja",
+                "email": "abhishekahuja@cmail.carleton.ca",
+                "affiliations": [
+                    "Carleton University, Ottawa, Canada"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Fateme Rajabiyazdi",
+                "email": "fateme.rajabiyazdi@carleton.ca",
+                "affiliations": [
+                    "Carleton University, Ottawa, Canada"
+                ],
+                "is_corresponding": true
+            }
+        ],
+        "abstract": "The healthcare system collects extensive data, encompassing patient administrative information, clinical measurements, and home-monitored health metrics. To support informed decision-making in patient care and treatment management, it is essential to review and analyze these diverse data sources. Data visualization is a promising solution to navigate healthcare datasets, uncover hidden patterns, and derive actionable insights. However, the process of creating interactive data visualization can be rather challenging due to the size and complexity of these datasets. Progressive data science offers a potential solution, enabling interaction with intermediate results during data exploration. In this paper, we reflect on our experiences with three health data visualization projects employing a progressive data science approach. We explore the practical implications and challenges faced at various stages, including data selection, pre-processing, data mining, transformation, and interpretation and evaluation.  We highlighted unique challenges and opportunities for three projects, including visualizing surgical outcomes, tracking patient bed transfers, and integrating patient-generated data visualizations into the healthcare setting.  We identified the following challenges: inconsistent data collection practices, the complexity of adapting to varying data completeness levels, and the need to modify designs for real-world deployment. Our findings underscore the need for careful consideration of using a progressive data science approach when designing visualizations for healthcare settings.",
+        "uid": "w-pdav-1006",
+        "time_stamp": "",
+        "time_start": "",
+        "time_end": "",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
+    "w-pdav-1009": {
+        "slot_id": "w-pdav-1009",
+        "session_id": "workshop4",
+        "title": "Towards a Progressive Open Source Framework for SciVis and InfoVis",
+        "contributors": [
+            "Charles Gueunet"
+        ],
+        "authors": [
+            {
+                "name": "Charles Gueunet",
+                "email": "charles.gueunet@kitware.com",
+                "affiliations": [
+                    "Kitware SAS, Lyon, France"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Fran\u00e7ois Mazen",
+                "email": "francois.mazen@kitware.com",
+                "affiliations": [
+                    "Kitware Europe, Villeurbanne, France"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "In a world where data has become too large for direct human perception, scientists have developed methods for specific data exploration. Until recently, two main methodologies were used for their exploration:   scientific visualization (SciVis) for data with inherent geometry (simulation/acquisition) and   information visualization (InfoVis) for abstract data. Though these fields evolved in parallel, sharing journals and conferences, they had distinct challenges, methodologies, and experts. Recently, a visible transition has begun, with the two communities converging, exemplified by IEEE VIS conference removing distinct categories. In this context, we propose a high-level discussion on an open-source framework widely used in SciVis and how progressive processing and visualization could help bringing its abilities to InfoVis.",
+        "uid": "w-pdav-1009",
+        "time_stamp": "",
+        "time_start": "",
+        "time_end": "",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
+    "w-pdav-1010": {
+        "slot_id": "w-pdav-1010",
+        "session_id": "workshop4",
+        "title": "Progressive Glimmer: Expanding Dimensionality in Multidimensional Scaling",
+        "contributors": [
+            "Marina Evers"
+        ],
+        "authors": [
+            {
+                "name": "Marina Evers",
+                "email": "m_ever14@uni-muenster.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "David H\u00e4gele",
+                "email": "david.haegele@visus.uni-stuttgart.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "S\u00f6ren D\u00f6ring",
+                "email": "st142532@stud.uni-stuttgart.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Daniel Weiskopf",
+                "email": "weiskopf@visus.uni-stuttgart.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Progressive dimensionality reduction algorithms allow for visually investigating intermediate results, especially for large data sets. While different algorithms exist that progressively increase the number of data points, we propose an algorithm that allows for increasing the number of dimensions. Especially in spatio-temporal data, where each spatial location can be seen as one data point and each time step as one dimension, the data is often stored in a format that supports quick access to the individual dimensions of all points. Therefore, we propose Progressive Glimmer, a progressive multidimensional scaling (MDS) algorithm. We adapt the Glimmer algorithm to support progressive updates for changes in the data's dimensionality. We evaluate Progressive Glimmer's embedding quality and runtime. We observe that the algorithm provides more stable results, leading to visually consistent results for progressive rendering and making the approach applicable to streaming data. We show the applicability of our approach to spatio-temporal simulation ensemble data where we add the individual ensemble members progressively.",
+        "uid": "w-pdav-1010",
+        "time_stamp": "",
+        "time_start": "",
+        "time_end": "",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": false,
+        "has_pdf": false,
+        "paper_award": "",
+        "image_caption": "",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": "",
+        "bunny_prerecorded_link": "",
+        "bunny_prerecorded_subtitles": ""
+    },
     "w-uncertainty-1007": {
         "slot_id": "w-uncertainty-1007",
         "session_id": "workshop5",
