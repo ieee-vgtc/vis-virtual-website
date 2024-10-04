@@ -367,6 +367,10 @@ def format_paper(v):
         "session_youtube_prerecorded_id": v.get("youtube_prerecorded_id"),
         "session_bunny_prerecorded_link": v["bunny_prerecorded_link"],
         "session_bunny_prerecorded_subtitles": v["bunny_prerecorded_subtitles"],
+        "open_access_supplemental_question": v.get("open_access_supplemental_question"),
+        "open_access_supplemental_link": v.get("open_access_supplemental_link"),
+        "preprint_link": v.get("preprint_link"),
+        "accessible_pdf": v.get("accessible_pdf")
     }
 
 def format_poster(v):
