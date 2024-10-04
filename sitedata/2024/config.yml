@@ -63,15 +63,16 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  sabalsawgrass: "Sabal/Sawgrass"
-  breezeway: "Breezeway"
-  gladesjasminepalm: "Glades/Jasmine/Palm"
-  tarpon: "Tarpon Key"
-  tarponsawyerlong: "Tarpon Sawyer Long"
-  long: "Long Key"
-  indianbird: "Indian/Bird Key"
-  blueheron: "Blue Heron"
-  sawyer: "Sawyer Key"
-  pavilion: "Pavilion"
-  breezewaycitrusbanyan: "Breezeway and Citrus/Banyan"
+  bayshorefoyer: "Bayshore Foyer"
+  bayshoreplenary: "Bayshore I + II + III"
+  bayshore1: "Bayshore I"
+  bayshore2: "Bayshore II"
+  bayshore3: "Bayshore III"
+  bayshore5: "Bayshore V"
+  bayshore6: "Bayshore VI"
+  bayshore7: "Bayshore VII"
+  palmaceia234: "Palma Ceia II+III+IV"
+  palmaceia1: "Palma Ceia I "
+  esplanadesuites: "Esplanade Suites I + II + III"
   none: 'None(virtual)'
+
