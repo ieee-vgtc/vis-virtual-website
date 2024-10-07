@@ -484,7 +484,7 @@ def format_by_session_list(v):
         "startTime": v.get("time_start"),
         "endTime": v.get("time_end"),
         "day": day,
-        "timeSlots": v.get("time_slots"),
+        "timeSlots": sort_timeslots(v.get("time_slots")),
         "event": v.get("event"),  # backloaded from parent event
         "event_type": v.get("event_type"),  # backloaded from parent event
         "parent_id": v.get("parent_id"),  # backloaded from parent event
@@ -516,6 +516,12 @@ def format_by_session_list(v):
         "zoom_broadcast_link": v.get("zoom_broadcast_link"),
         "zoom_webinar_link": v.get("zoom_webinar_link"),
     }
+
+def sort_timeslots(timeslots):
+    if timeslots:
+        return sorted(timeslots, key=lambda x: x["time_start"])
+    else:
+        return []
 
 def get_room_name(track, room_names):
     # print("ROOM NAMES ARE ", room_names)
