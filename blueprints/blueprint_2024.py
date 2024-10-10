@@ -388,8 +388,7 @@ def format_poster(v):
         "session_title": v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2024/posters/" + v["uid"] + ".pdf",
         "summary_pdf": "https://ieeevis.b-cdn.net/vis_2024/posters/" + v["uid"] + "-summary.pdf" if v["has_summary_pdf"] == "TRUE" else None,
-        "has_image": v["has_image"] == "TRUE",
-
+        "has_image": v["has_image"],
         # for posters.html
         "sessions": [v["event"]],
         "UID": v["uid"],

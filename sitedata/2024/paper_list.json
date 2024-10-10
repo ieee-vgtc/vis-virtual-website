@@ -60,8 +60,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2408.13193",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -77,7 +77,7 @@
         "session_id": "associated3",
         "title": "Asymptotic Topology of 3D Linear Symmetric Tensor Fields",
         "contributors": [
-            "Eugene Zhang"
+            "Yue Zhang"
         ],
         "authors": [
             {
@@ -94,7 +94,7 @@
                 "affiliations": [
                     "Oregon State University, Corvallis, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Eugene Zhang",
@@ -102,7 +102,7 @@
                 "affiliations": [
                     "Oregon State University, Corvallis, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             }
         ],
         "abstract": "3D symmetric tensor fields have a wide range of applications in science and engineering. The topology of such fields can provide critical insight into not only the structures in tensor fields but also their respective applications. Existing research focuses on the extraction of topological features such as degenerate curves and neutral surfaces. In this paper, we investigate the asymptotic behaviors of these topological features in the sphere of infinity. Our research leads to both theoretical analysis and observations that can aid further classifications of tensor field topology.",
@@ -174,7 +174,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.08097",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -231,7 +231,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2409.05532",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -304,8 +304,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2409.06476",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -370,7 +370,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -386,7 +386,7 @@
         "session_id": "associated4",
         "title": "Efficient Analysis and Visualization of High-Resolution Computed Tomography Data for the Exploration of Enclosed Cuneiform Tablets",
         "contributors": [
-            "Stephan Olbrich"
+            "Andreas Beckert"
         ],
         "authors": [
             {
@@ -395,7 +395,7 @@
                 "affiliations": [
                     "Universit\u00e4t Hamburg, Hamburg, Germany"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Andreas Beckert",
@@ -403,7 +403,7 @@
                 "affiliations": [
                     "Universit\u00e4t Hamburg, Hamburg, Germany"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "C\u00e9cile Michel",
@@ -460,8 +460,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "http://arxiv.org/abs/2409.04236",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -477,7 +477,7 @@
         "session_id": "associated4",
         "title": "Out-of-Core Dimensionality Reduction for Large Data via Out-of-Sample Extensions",
         "contributors": [
-            "David H\u00e4gele"
+            "Luca Reichmann"
         ],
         "authors": [
             {
@@ -494,7 +494,7 @@
                 "affiliations": [
                     "University of Stuttgart, Stuttgart, Germany"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Daniel Weiskopf",
@@ -517,7 +517,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.04129v1",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -630,8 +630,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2408.11831v1",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -850,8 +850,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/pdf/2409.00184",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -915,8 +915,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2407.10791",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -1109,7 +1109,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2404.16044",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -1346,7 +1346,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.03889",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -1363,7 +1363,7 @@
         "session_id": "associated6a",
         "title": "How Many Evaluations are Enough? A Position Paper on Evaluation Trend in Information Visualization",
         "contributors": [
-            "Ghulam Jilani Quadri"
+            "Arran Zeyu Wang"
         ],
         "authors": [
             {
@@ -1380,7 +1380,7 @@
                 "affiliations": [
                     "University of North Carolina-Chapel Hill, Chapel Hill, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Md Dilshadur Rahman",
@@ -1404,7 +1404,7 @@
                 "affiliations": [
                     "University of Oklahoma, Norman, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             }
         ],
         "abstract": "In the rapidly evolving field of information visualization, rigorous evaluation is essential for validating new techniques, understanding user interactions, and demonstrating the effectiveness of visualizations. The evaluation of visualization systems is fundamental to ensuring their effectiveness, usability, and impact. Faithful evaluations provide valuable insights into how users interact with and perceive the system, enabling designers to make informed decisions about design choices and improvements. However, an emerging trend of multiple evaluations within a single study raises critical questions about the sustainability, feasibility, and methodological rigor of such an approach. So, how many evaluations are enough? is a situational question and cannot be formulaically determined. Our objective is to summarize current trends and patterns to understand general practices across different contribution and evaluation types. New researchers and students, influenced by this trend, may believe-- multiple evaluations are necessary for a study. However, the number of evaluations in a study should depend on its contributions and merits, not on the trend of including multiple evaluations to strengthen a paper. In this position paper, we identify this trend through a non-exhaustive literature survey of TVCG papers from issue 1 in 2023 and 2024. We then discuss various evaluation strategy patterns in the information visualization field and how this paper will open avenues for further discussion.",
@@ -1419,8 +1419,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://www.arxiv.org/abs/2408.16080",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -1500,7 +1500,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2409.08101",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -1606,8 +1606,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2408.07724",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -1671,7 +1671,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://vcg.iwr.uni-heidelberg.de/publications/pubdetails/Schlieder2024metacognition/",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -1736,7 +1736,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://osf.io/preprints/osf/d849a",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -1785,7 +1785,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://osf.io/preprints/osf/ghru8",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -1866,8 +1866,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://invisai.com/mai/papers/Visualising_Lived_Experience-beliv2024.pdf",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -2004,7 +2004,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://osf.io/preprints/osf/n7ej3",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -2021,7 +2021,7 @@
         "session_id": "associated6a",
         "title": "Visualization Artifacts are Boundary Objects",
         "contributors": [
-            "Jasmine Tan Otto"
+            "Jasmine Otto"
         ],
         "authors": [
             {
@@ -2030,7 +2030,7 @@
                 "affiliations": [
                     "UC Santa Cruz, Santa Cruz, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Scott Davidoff",
@@ -2053,7 +2053,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://osf.io/preprints/osf/9f5ub",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -2184,7 +2184,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2409.07250",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -2201,7 +2201,7 @@
         "session_id": "associated6a",
         "title": "Complexity as Design Material",
         "contributors": [
-            "Florian Windhager"
+            "Michael Correll"
         ],
         "authors": [
             {
@@ -2210,7 +2210,7 @@
                 "affiliations": [
                     "University for Continuing Education Krems, Krems, Austria"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Alfie Abdul-Rahman",
@@ -2266,7 +2266,7 @@
                 "affiliations": [
                     "Northeastern University, Portland, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             }
         ],
         "abstract": "Complexity is often seen as a inherent negative in information design, with the job of the designer being to reduce or eliminate complexity, and with principles like Tufte\u2019s \u201cdata-ink ratio\u201d or \u201cchartjunk\u201d to operationalize minimalism and simplicity in visualizations. However, in this position paper, we call for a more expansive view of complexity as a design material, like color or texture or shape: an element of information design that can be used in many ways, many of which are beneficial to the goals of using data to understand the world around us. We describe complexity as a phenomenon that occurs not just in visual design but in every aspect of the sensemaking process, from data collection to interpretation. For each of these stages, we present examples of ways that these various forms of complexity can be used (or abused) in visualization design. We ultimately call on the visualization community to build a more nuanced view of complexity, to look for places to usefully integrate complexity in multiple stages of the design process, and, even when the goal is to reduce complexity, to look for the non-visual forms of complexity that may have otherwise been overlooked.",
@@ -2281,8 +2281,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2409.07465",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -20874,7 +20874,7 @@
         "session_id": "workshop1",
         "title": "vitaLITy 2: Reviewing Academic Literature Using Large Language Models",
         "contributors": [
-            "Arpit Narechania"
+            "Hongye An"
         ],
         "authors": [
             {
@@ -20883,7 +20883,7 @@
                 "affiliations": [
                     "University of Nottingham, Nottingham, United Kingdom"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Arpit Narechania",
@@ -20891,7 +20891,7 @@
                 "affiliations": [
                     "Georgia Institute of Technology, Atlanta, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Kai Xu",
@@ -20914,7 +20914,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.13450",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -21012,7 +21012,7 @@
         "session_id": "workshop1",
         "title": "Visualizing Spatial Semantics of Dimensionally Reduced Text Embeddings",
         "contributors": [
-            "Rebecca Faust"
+            "Wei Liu"
         ],
         "authors": [
             {
@@ -21021,7 +21021,7 @@
                 "affiliations": [
                     "Computer Science, Virginia Tech, Blacksburg, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Chris North",
@@ -21037,7 +21037,7 @@
                 "affiliations": [
                     "Tulane University, New Orleans, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             }
         ],
         "abstract": "Dimension reduction (DR) can transform high-dimensional text embeddings into a 2D visual projection facilitating the exploration of document similarities. However, the projection often lacks connection to the text semantics, due to the opaque nature of text embeddings and non-linear dimension reductions. To address these problems, we propose a gradient-based method for visualizing the spatial semantics of dimensionally reduced text embeddings. This method employs gradients to assess the sensitivity of the projected documents with respect to the underlying words. The method can be applied to existing DR algorithms and text embedding models. Using these gradients, we designed a visualization system that incorporates spatial word clouds into the document projection space to illustrate the impactful text features. We further present three usage scenarios that demonstrate the practical applications of our system to facilitate the discovery and interpretation of underlying semantics in text projections.",
@@ -21052,7 +21052,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2409.03949",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -21069,7 +21069,7 @@
         "session_id": "workshop1",
         "title": "Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models",
         "contributors": [
-            "Subham Sah"
+            "Rishab Mitra"
         ],
         "authors": [
             {
@@ -21078,7 +21078,7 @@
                 "affiliations": [
                     "UNC Charlotte, Charlotte, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Rishab Mitra",
@@ -21086,7 +21086,7 @@
                 "affiliations": [
                     "Georgia Institute of Technology, Atlanta, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Arpit Narechania",
@@ -21133,8 +21133,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2408.13391",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -21183,7 +21183,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -21199,7 +21199,7 @@
         "session_id": "workshop1",
         "title": "iToT: An Interactive System for Customized Tree-of-Thought Generation",
         "contributors": [
-            "Isha Gupta"
+            "Alan Boyle"
         ],
         "authors": [
             {
@@ -21216,7 +21216,7 @@
                 "affiliations": [
                     "ETH Z\u00fcrich, Z\u00fcrich, Switzerland"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Sebastian H\u00f6nig",
@@ -21271,8 +21271,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2409.00413",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -21435,7 +21435,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -21532,7 +21532,7 @@
         "session_id": "workshop2",
         "title": "Architecture for Web-Based Visualization of Large-Scale Energy Domains",
         "contributors": [
-            "Kenny Gruchalla"
+            "Graham Johnson"
         ],
         "authors": [
             {
@@ -21541,7 +21541,7 @@
                 "affiliations": [
                     "National Renewable Energy Lab, Golden, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Sam Molnar",
@@ -21565,7 +21565,7 @@
                 "affiliations": [
                     "National Renewable Energy Lab, Golden, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             }
         ],
         "abstract": "With the growing penetration of inverter-based distributed energy resources and increased loads through electrification, power systems analyses are becoming more important and more complex. Moreover, these analyses increasingly involve the combination of interconnected energy domains with data that are spatially and temporally increasing in scale by orders of magnitude, surpassing the capabilities of many existing analysis and decision-support systems. We present the architectural design, development, and application of a high-resolution web-based visualization environment capable of cross-domain analysis of tens of millions of energy assets, focusing on scalability and performance. Our system supports the exploration, navigation, and analysis of large data from diverse domains such as electrical transmission and distribution systems, mobility and electric vehicle charging networks, communications networks, cyber assets, and other supporting infrastructure. We evaluate this system across multiple use cases, describing the capabilities and limitations of a web-based approach for high-resolution energy system visualizations.",
@@ -21861,7 +21861,7 @@
         "session_id": "workshop2",
         "title": "Situated Visualization of Photovoltaic Module Performance for Workforce Development",
         "contributors": [
-            "Nicholas Brunhart-Lupo"
+            "Kenny Gruchalla"
         ],
         "authors": [
             {
@@ -21870,7 +21870,7 @@
                 "affiliations": [
                     "National Renewable Energy Laboratory, Golden, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Kenny Gruchalla",
@@ -21878,7 +21878,7 @@
                 "affiliations": [
                     "National Renewable Energy Lab, Golden, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Laurie Williams",
@@ -21910,7 +21910,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -21975,7 +21975,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -22253,8 +22253,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2409.05969",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -22270,7 +22270,7 @@
         "session_id": "workshop3a",
         "title": "Implementing the Solution Framework in a Social Impact Project",
         "contributors": [
-            "Victor Mu\u00f1oz"
+            "Kevin Ford"
         ],
         "authors": [
             {
@@ -22280,7 +22280,7 @@
                     "Independent Information Designer, Medellin, Colombia",
                     "Independent Information Designer, Medellin, Colombia"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Kevin Ford",
@@ -22289,7 +22289,7 @@
                     "Corporate Information Designer, Arlington Hts, United States",
                     "Corporate Information Designer, Arlington Hts, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             }
         ],
         "abstract": "This report examines the implementation of the Solution Framework in a social impact project facilitated by VizForSocialGood. It outlines the data visualization process, detailing each stage and offering practical insights. The framework's application demonstrates its effectiveness in enhancing project quality, efficiency, and collaboration, making it a valuable tool for educational and professional environments.",
@@ -22526,7 +22526,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -22591,7 +22591,7 @@
         "session_id": "workshop3a",
         "title": "An Inductive Approach for Identification of Barriers to PCP Literacy",
         "contributors": [
-            "Alark Joshi"
+            "Chandana Srinivas"
         ],
         "authors": [
             {
@@ -22600,7 +22600,7 @@
                 "affiliations": [
                     "University of San Francisco, San Francisco, United States"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Elif E. Firat",
@@ -22624,7 +22624,7 @@
                 "affiliations": [
                     "University of San Francisco, San Francisco, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             }
         ],
         "abstract": "Parallel coordinate plots (PCPs) are gaining popularity in data exploration, statistical analysis, predictive analysis along with for data-driven storytelling. In this paper, we present the results of a post-hoc analysis of a dataset from a PCP literacy intervention to identify barriers to PCP literacy. We analyzed question responses and inductively identified barriers to PCP literacy. We performed group coding on each individual response and identified new barriers to PCP literacy. Based on our analysis, we present a extended and enhanced list of barriers to PCP literacy. Our findings have implications towards educational interventions targeting PCP literacy and can provide an approach for students to learn about PCPs through active learning.",
@@ -22639,7 +22639,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://www.cs.usfca.edu/~apjoshi/papers/2024_EduVis_PCP_Barriers.pdf",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -22801,8 +22801,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2408.04750",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -22907,7 +22907,7 @@
         "session_id": "workshop3a",
         "title": "What Can Educational Science Offer Visualization? A Reflective Essay",
         "contributors": [
-            "Lonni Besan\u00e7on"
+            "Konrad Sch\u00f6nborn"
         ],
         "authors": [
             {
@@ -22924,7 +22924,7 @@
                 "affiliations": [
                     "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             }
         ],
         "abstract": "In this reflective essay, we explore how educational science can be relevant for visualization research, addressing beneficial intersections between the two communities. While visualization has become integral to various areas, including education, our own ongoing collaboration has induced reflections and discussions we believe could benefit visualization research. In particular, we identify five key perspectives: surpassing traditional evaluation metrics by incorporating established educational measures; defining constructs based on existing learning and educational research frameworks; applying established cognitive theories to understand interpretation and interaction with visualizations; establishing uniform terminology across disciplines; and, fostering interdisciplinary convergence. We argue that by integrating educational research constructs, methodologies, and theories, visualization research can further pursue ecological validity and thereby improve the design and evaluation of visual tools. Our essay emphasizes the potential of intensified and systematic collaborations between educational scientists and visualization researchers to advance both fields, and in doing so craft visualization systems that support comprehension, retention, transfer, and critical thinking. We argue that this reflective essay serves as a first point of departure for initiating dialogue that, we hope, could help further connect educational science and visualization, by proposing future empirical studies that take advantage of interdisciplinary approaches of mutual gain to both communities.",
@@ -22939,7 +22939,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://osf.io/preprints/osf/8jbmz",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -23159,8 +23159,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2408.08099",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -23224,7 +23224,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.08438",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -23241,7 +23241,7 @@
         "session_id": "workshop5",
         "title": "Uncertainty-Informed Volume Visualization using Implicit Neural Representation",
         "contributors": [
-            "Soumya Dutta"
+            "Tushar Athawale"
         ],
         "authors": [
             {
@@ -23282,7 +23282,7 @@
                 "affiliations": [
                     "Indian Institute of Technology Kanpur (IIT Kanpur), Kanpur, India"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Tushar M. Athawale",
@@ -23321,7 +23321,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.06018",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -23580,8 +23580,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "http://arxiv.org/abs/2409.00042",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -23645,8 +23645,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2409.00043",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -23711,7 +23711,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -23842,7 +23842,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -23922,8 +23922,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://osf.io/preprints/osf/vhs7w/",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -23988,7 +23988,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -24054,7 +24054,7 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
+        "preprint_link": "https://www.arxiv.org/abs/2408.13418",
         "accessible_pdf": false,
         "has_image": true,
         "has_pdf": true,
@@ -24071,7 +24071,7 @@
         "session_id": "workshop6",
         "title": "Constraint representation towards precise data-driven storytelling",
         "contributors": [
-            "Yu-Zhe Shi"
+            "Haotian Li"
         ],
         "authors": [
             {
@@ -24080,7 +24080,7 @@
                 "affiliations": [
                     "The Hong Kong University of Science and Technology, Hong Kong, China"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Haotian Li",
@@ -24088,7 +24088,7 @@
                 "affiliations": [
                     "The Hong Kong University of Science and Technology, Hong Kong, China"
                 ],
-                "is_corresponding": false
+                "is_corresponding": true
             },
             {
                 "name": "Lecheng Ruan",
@@ -24120,7 +24120,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -24347,8 +24347,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://osf.io/preprints/osf/v7mxz",
+        "accessible_pdf": true,
         "has_image": false,
         "has_pdf": true,
         "paper_award": "",
@@ -24397,7 +24397,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": false,
         "has_pdf": true,
         "paper_award": "",
@@ -24470,8 +24470,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://arxiv.org/abs/2410.03929",
+        "accessible_pdf": true,
         "has_image": false,
         "has_pdf": true,
         "paper_award": "",
@@ -24520,7 +24520,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": false,
         "has_pdf": true,
         "paper_award": "",
@@ -24569,7 +24569,7 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -24787,8 +24787,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://osf.io/preprints/osf/3nyrq",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
@@ -25275,8 +25275,8 @@
         "presentation_mode": "Virtual",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
+        "preprint_link": "https://nerosa.nl/wp-content/uploads/2024/08/Viz4CandS_AwARe___author_version_for_open_access.pdf",
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
