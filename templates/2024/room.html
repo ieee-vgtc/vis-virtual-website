@@ -17,6 +17,13 @@
     </div>
 </div>
 
+<div class="row mt-5">
+    <div class="col-lg-10 streaming-container" id="session-stream-container">
+
+    </div>
+</div>
+
+
 <hr>
 
 {% for session in sessions %}
@@ -165,7 +172,7 @@ function filterByCurrentSession() {
             return moment.utc(a.startTime) - moment.utc(b.startTime);
         });
     }
-
+    console.log("sesssionTimings is ", sessionTimings)
     sessionIsCurrent = function(session) {
         // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
         const sessionStart = moment.utc(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
