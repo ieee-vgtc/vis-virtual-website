@@ -644,7 +644,6 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
       }
     }
   );
-  console.log("sessions_by_day_and_time: ", sessions_by_day_and_time);
   for (const dayKey of sessions_by_day_and_time.keys()) {
     const dayEvents = sessions_by_day_and_time.get(dayKey);
     let lateSlotSessionData = [];
@@ -919,15 +918,15 @@ function resetCalendar() {
 function updateTimezone() {
   // get timezone
   const timezone = getTimezone();
-  // console.log("timezone is ", timezone, " and our times are ", $(".converted-timezone"))
+  console.log("IN CALENDAR, timezone is ", timezone, " and our times are ", $(".converted-timezone"))
   // apply timezone
   $(".converted-timezone").each((_, e) => {
     const element = $(e);
     const hourminutes = element.attr("data-time").split("-")[1];
 
-    const time = moment(
-      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} -4:00`,
-      "YYYY-MM-DD HH:mm ZZ"
+    const time = moment.tz(
+      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)}`,
+      "America/New_York"
     );
     const converted_date = time.clone().tz(timezone);
     let converted_time = converted_date.format("HH:mm");
@@ -935,7 +934,7 @@ function updateTimezone() {
     // if (converted_date.format("DD") != time.format("DD"))
     //   converted_time += "<br>+1 day";
 
-    // console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
+    console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
     element.html(converted_time);
   });
 }
