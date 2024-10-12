@@ -139,6 +139,15 @@
 <div class="row">
     <div class="col-md-8 mt-5 mb-2">
 
+            <div class="future_session_alert alert alert-warning" role="alert">
+                The live-stream for this session has not begun yet. <br><br>
+                When it has begun, the video stream can be seen in the room for this session, <a href="room_{{room.id}}.html">{{ room.name }}.</a>
+            </div>
+
+            <div class="current_session_alert alert alert-info" role="alert">
+                This session is live now.  <a href="room_{{room.id}}.html"> Click here to go to the {{ room.name }} room to view the session.</a>
+            </div>
+
             {% if session.youtube_rec_id %}
                 <div class="row my-4">
                     <div class="col-lg-10">
@@ -151,7 +160,7 @@
                 
             {% elif session.youtube_id %}
             <div class="past_session_alert alert alert-success" role="alert">
-                Recorded video from this session can be viewed in the daily recording of the room.
+                Recorded video from this session can be viewed at the following link.
                 <br/>
                 <a href='{{session.youtube_url}}' target='_blank'>{{session.youtube_url}}</a>
             </div>
