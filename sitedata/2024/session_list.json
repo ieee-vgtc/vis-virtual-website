@@ -140,8 +140,8 @@
                 "title": "VIS Governance",
                 "session_id": "gov1",
                 "event_prefix": "conf",
-                "track": "bayshoreplenary",
-                "room_name": "Bayshore I + II + III",
+                "track": "bayshore 1",
+                "room_name": "",
                 "session_image": "gov1.png",
                 "chair": [
                     "Petra Isenberg",
@@ -150,9 +150,9 @@
                 "time_start": "2024-10-15T15:35:00Z",
                 "time_end": "2024-10-15T16:00:00Z",
                 "discord_category": "",
-                "discord_channel": "bayshore-plenary",
-                "discord_channel_id": "1288497488373878814",
-                "discord_link": "https://discord.com/channels/1286338967674818684/1288497488373878814",
+                "discord_channel": "",
+                "discord_channel_id": "",
+                "discord_link": "",
                 "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=43e92f7c-6286-4fc8-bf30-a7684df15f6b",
                 "zoom_private_meeting": "",
                 "zoom_private_password": "",
@@ -231,8 +231,8 @@
                 "title": "IEEE VIS 2025 Kickoff",
                 "session_id": "kickoff",
                 "event_prefix": "conf",
-                "track": "bayshore1",
-                "room_name": "Bayshore I",
+                "track": "bayshoreplenary",
+                "room_name": "Bayshore I + II + III",
                 "session_image": "kickoff.png",
                 "chair": [
                     "Johanna Schmidt",
@@ -243,9 +243,9 @@
                 "time_start": "2024-10-17T15:30:00Z",
                 "time_end": "2024-10-17T16:00:00Z",
                 "discord_category": "",
-                "discord_channel": "bayshore-i",
-                "discord_channel_id": "1286347326092349521",
-                "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521",
+                "discord_channel": "bayshore-plenary",
+                "discord_channel_id": "1288497488373878814",
+                "discord_link": "https://discord.com/channels/1286338967674818684/1288497488373878814",
                 "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12",
                 "zoom_private_meeting": "",
                 "zoom_private_password": "",
@@ -412,8 +412,8 @@
                 "title": "Test of Time Awards",
                 "session_id": "tot1",
                 "event_prefix": "conf",
-                "track": "bayshoreplenary",
-                "room_name": "Bayshore I + II + III",
+                "track": "bayshore1",
+                "room_name": "Bayshore I",
                 "session_image": "tot1.png",
                 "chair": [
                     "Ross Maciejewski"
@@ -421,9 +421,9 @@
                 "time_start": "2024-10-18T14:15:00Z",
                 "time_end": "2024-10-18T15:00:00Z",
                 "discord_category": "",
-                "discord_channel": "bayshore-plenary",
-                "discord_channel_id": "1288497488373878814",
-                "discord_link": "https://discord.com/channels/1286338967674818684/1288497488373878814",
+                "discord_channel": "bayshore-i",
+                "discord_channel_id": "1286347326092349521",
+                "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521",
                 "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=43e92f7c-6286-4fc8-bf30-a7684df15f6b",
                 "zoom_private_meeting": "",
                 "zoom_private_password": "",
@@ -470,8 +470,8 @@
                 "title": "IEEE VIS Town Hall",
                 "session_id": "townhall",
                 "event_prefix": "conf",
-                "track": "bayshore7",
-                "room_name": "Bayshore VII",
+                "track": "bayshoreplenary",
+                "room_name": "Bayshore I + II + III",
                 "session_image": "townhall.png",
                 "chair": [
                     "Ross Maciejewski"
@@ -479,9 +479,9 @@
                 "time_start": "2024-10-16T19:00:00Z",
                 "time_end": "2024-10-16T19:30:00Z",
                 "discord_category": "",
-                "discord_channel": "bayshore-vii",
-                "discord_channel_id": "1288497342009577574",
-                "discord_link": "https://discord.com/channels/1286338967674818684/1288497342009577574",
+                "discord_channel": "bayshore-plenary",
+                "discord_channel_id": "1288497488373878814",
+                "discord_link": "https://discord.com/channels/1286338967674818684/1288497488373878814",
                 "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=187cbf77-6e0f-49c8-aa8b-6ff94b59e00c",
                 "zoom_private_meeting": "",
                 "zoom_private_password": "",
@@ -12300,7 +12300,7 @@
                         "has_image": true,
                         "has_pdf": true,
                         "paper_award": "",
-                        "image_caption": "IEEE VIS 2023 Paper embedding explorer main interface, showing a main scatterplot of each one of the papers of the conference distributed using UMAP dimensionality reduction. The scatterplot has been brushed for selecting papers that are highlighted on the bottom of the page showing the thumbnail image, title and abstract. On the top some controls allow for the selection of the dimensionality reduction method and some hyperparameters",
+                        "image_caption": "IEEE VIS 2024 Paper embedding explorer main interface, showing a main scatterplot of each one of the papers of the conference distributed using UMAP dimensionality reduction. The scatterplot has been brushed for selecting papers that are highlighted on the bottom of the page showing the thumbnail image, title and abstract. On the top some controls allow for the selection of the dimensionality reduction method and some hyperparameters",
                         "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
@@ -22666,8 +22666,8 @@
                         "paper_award": "",
                         "image_caption": "",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Q4PRivOX2CQ",
+                        "youtube_ff_id": "Q4PRivOX2CQ",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/s-vds/s-vds-1021/s-vds-1021_Preview.mp4?token=Gd9gotKCklMf66hdSrwI7pFZqqLfFnl_iLa5KU-lz50&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/s-vds/s-vds-1021/s-vds-1021_Preview.srt?token=XCnK0MnML8SnYP-fJnKGuB59POVVoqT0E1qUtcyFcQA&expires=1730433600"
                     },
@@ -22780,9 +22780,11 @@
         "event_description": "",
         "event_url": "https://ieeevis.org/year/2024/program/event_a-ldav.html",
         "organizers": [
+            "Steffen Frey",
+            "Johanna Beyer",
+            "Guido Reina",
             "Silvio Rizzi",
-            "Gunther Weber",
-            "Guido Reina"
+            "Gunther Weber"
         ],
         "sessions": [
             {
@@ -22795,7 +22797,8 @@
                 "chair": [
                     "Silvio Rizzi",
                     "Gunther Weber",
-                    "Guido Reina"
+                    "Guido Reina",
+                    "Ken Moreland"
                 ],
                 "time_start": "2024-10-13T16:00:00Z",
                 "time_end": "2024-10-13T19:00:00Z",
@@ -22954,8 +22957,8 @@
                         "paper_award": "",
                         "image_caption": "The projections show the results of dimensionality reduction using the out-of-sample approach with data sets containing up to 50 million data points. In each column, the sizes of the reference set are increased. The size used for creating the initial reference projection are shown by the number above each plot. We show the results for popular dimensionality reduction techniques: MDS, PCA, t-SNE, UMAP, and autoencoder. The projections are evaluated using various quality metrics.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Xm6e1eW5DxA",
+                        "youtube_ff_id": "Xm6e1eW5DxA",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/a-ldav/a-ldav-1003/a-ldav-1003_Preview.mp4?token=PYJw_loXL4L1qAH_hlEUHMBLIR9img4Wuf2hw1VfGqw&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/a-ldav/a-ldav-1003/a-ldav-1003_Preview.srt?token=wztCbEzC5jXSgn8_YRdZ6ycRd17DxhBRfIfdjynStm0&expires=1730433600"
                     },
@@ -23133,8 +23136,8 @@
                         "paper_award": "",
                         "image_caption": "Left: an illustration of using path compression to quickly compute the ascending / descending segmentations. Right: Illustrating the use of Connected Component extraction for data segmentation. Running these computations on multiple nodes allows us to use much larger datasets by using the distributed memory of all the nodes.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/_9KgKT3__LM",
+                        "youtube_ff_id": "_9KgKT3__LM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/a-ldav/a-ldav-1011/a-ldav-1011_Preview.mp4?token=YIVcce37MaN-COCzsAbFkZ34Fu6IKgmMjjUjQIjzuRA&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/a-ldav/a-ldav-1011/a-ldav-1011_Preview.srt?token=v3vbBEIZLjIo9y9Trcw7LtJm2WnYO6W32DFzV3Q5W1Q&expires=1730433600"
                     },
@@ -23143,7 +23146,7 @@
                         "session_id": "associated4",
                         "title": "Standardized Data-Parallel Rendering Using ANARI",
                         "contributors": [
-                            "Stefan Zellmann"
+                            "Ingo Wald"
                         ],
                         "authors": [
                             {
@@ -23152,7 +23155,7 @@
                                 "affiliations": [
                                     "NVIDIA, Salt Lake City, United States"
                                 ],
-                                "is_corresponding": false
+                                "is_corresponding": true
                             },
                             {
                                 "name": "Stefan Zellmann",
@@ -23160,7 +23163,7 @@
                                 "affiliations": [
                                     "University of Cologne, Cologne, Germany"
                                 ],
-                                "is_corresponding": true
+                                "is_corresponding": false
                             },
                             {
                                 "name": "Jefferson Amstutz",
@@ -23287,8 +23290,8 @@
                         "paper_award": "",
                         "image_caption": "Adaptive-FAM is a novel functional approximation multi-resolution representation that is lightweight and fast to query. A GPU-accelerated out-of-core multi-resolution volume visualization framework is designed to directly utilize the Adaptive-FAM representation to generate high-quality rendering with interactive responsiveness. Our method can not only dramatically decrease the caching time, one of the main contributors to input latency, but also effectively improve the cache hit rate through prefetching. Our approach significantly outperforms the traditional function approximation method in terms of input latency while maintaining comparable rendering quality. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/XCfEmhA78EI",
+                        "youtube_ff_id": "XCfEmhA78EI",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/a-ldav/a-ldav-1018/a-ldav-1018_Preview.mp4?token=GL1VSSAmjgz3CWILLa9K7nXfw-Zi9CzBXtYPWYBHkJU&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     }
@@ -24780,6 +24783,8 @@
         "event_description": "",
         "event_url": "https://ieeevis.org/year/2024/program/event_w-topoinvis.html",
         "organizers": [
+            "Divya Banesh",
+            "Guoning Chen",
             "Federico Iuricich",
             "Yue Zhang"
         ],
@@ -24877,8 +24882,8 @@
                         "paper_award": "",
                         "image_caption": "Critical points identified by CPE-MFA and TTK-MFA. CPE-MFA: our method in a continuous domain. TTK-MFA: a discrete approach implemented in the topology tool kit. Yellow means the perfect alignment between CPE-MFA and TTK-MFA. Purple represents the critical points from TTK-MFA. Pink represents the critical points from CPE-MFA.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/-J4QrJ3FOSA",
+                        "youtube_ff_id": "-J4QrJ3FOSA",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-topoinvis/w-topoinvis-1027/w-topoinvis-1027_Preview.mp4?token=qfN8QlF5-hfBnFx-u_zUaqlRj9AvuCMVLamZhK9eq_0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-topoinvis/w-topoinvis-1027/w-topoinvis-1027_Preview.srt?token=lA4MEqtRmHXqAZxPCngtyJcdlU8tEXCX1OxWyYFcCHM&expires=1730433600"
                     },
@@ -24991,8 +24996,8 @@
                         "paper_award": "",
                         "image_caption": "Comparison of the calculated Jacobi sets in the Cylinder Flow dataset on the left side of the figure for the original dataset in the upper figure before simplification and the dataset in the lower figure after simplification with the collapse algorithm with threshold t = 0.0001. Furthermore, the corresponding neighborhood graphs are displayed on the right side. In this figure, the color corresponds to the orientation, red, positive orientation (det \u2207f(x) > 0), and blue, negative orientation (det \u2207f(x) < 0). The saturation indicates the range area. High saturation means a large range area, and vice versa for low saturation. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/4KyGneBGdlY",
+                        "youtube_ff_id": "4KyGneBGdlY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-topoinvis/w-topoinvis-1033/w-topoinvis-1033_Preview.mp4?token=pfMUjDzu2of7xxTP2BY9WDnTHYf8QGffCYIbJZ3DkIY&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-topoinvis/w-topoinvis-1033/w-topoinvis-1033_Preview.srt?token=RVqJGkHIIu7_Z84jZuTwdgvtrIlkMrEVatymxFiTaU0&expires=1730433600"
                     },
@@ -25121,8 +25126,8 @@
                         "paper_award": "",
                         "image_caption": "A tracking graph illustrating the development of cycles in a dynamic planar graph. Each column corresponds to a specific time point, with the nodes in the each column corresponding to a region encloues by a cycle in the partitioning of the underlying domain (shown at bottom). The color highlights the local development of the spatial system.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/DhRmBk_dTns",
+                        "youtube_ff_id": "DhRmBk_dTns",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-topoinvis/w-topoinvis-1038/w-topoinvis-1038_Preview.mp4?token=ojyOF4m7qIFNwHfc3R2ZTN-NE8U_X12IDfVrSV0g9QE&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-topoinvis/w-topoinvis-1038/w-topoinvis-1038_Preview.srt?token=IBiN8r08yS_XEtLFwQrAHLdQeEhgWj19vwFJvCtPvZo&expires=1730433600"
                     },
@@ -25294,8 +25299,8 @@
                         "paper_award": "",
                         "image_caption": "MDS, t-SNE, and RND (random) embeddings of the well-known Iris dataset from left to right (bottom). The plot (top) shows the values of the normalized stress metric for these three embeddings and clearly illustrates the sensitivity to scale. As one uniformly scales the embeddings to be larger or smaller, the value of normalized stress changes. Notably, at different scales, different embeddings have lower stress, including the absurd situation where the random embedding has the lowest stress (beyond scale 9). Moreover, the expected order of MDS, t-SNE, RND is only found briefly at a scalar value slightly greater than 0.25 (hardly visible in the plot), and all six different algorithm orders can be found by selecting different scales. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/p1bNgrfXToY",
+                        "youtube_ff_id": "p1bNgrfXToY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-beliv/w-beliv-1008/w-beliv-1008_Preview.mp4?token=Um2oJjnT2y3HO9IljRJKeSSUa93W3n11qrkN3dI3dAs&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-beliv/w-beliv-1008/w-beliv-1008_Preview.srt?token=okgeJ3fLQmb9x7DcRRyrZCL_4cYRm7_qRC2KHtcoOXY&expires=1730433600"
                     },
@@ -25661,8 +25666,8 @@
                         "paper_award": "",
                         "image_caption": "In my paper I analyze the evolution of reproducible contributions to the graphics and visualization fields as certified by the Graphics Replicability Stamp Initiative. I focus specifically on the visualization field and discuss reasons for the still relatively low counts of reproducible papers.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/CJ9FIt62O5o",
+                        "youtube_ff_id": "CJ9FIt62O5o",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-beliv/w-beliv-1001/w-beliv-1001_Preview.mp4?token=v4kN7_ZczcC7CarhJ9s2gX88LaEgPkpOIuGiLWAvREA&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -27066,16 +27071,6 @@
             }
         ]
     },
-    "w-biomedvis": {
-        "event": "Bio+Med+Vis Workshop",
-        "long_name": "Bio+Med+Vis Workshop",
-        "event_type": "workshop",
-        "event_prefix": "w-biomedvis",
-        "event_description": "",
-        "event_url": "https://ieeevis.org/year/2024/program/event_w-biomedvis.html",
-        "organizers": [],
-        "sessions": []
-    },
     "w-nlviz": {
         "event": "NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization",
         "long_name": "NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization",
@@ -27295,8 +27290,8 @@
                         "paper_award": "",
                         "image_caption": "The figure shows a diagram of the system architecture of VITALITY 2. VITALITY 2 is an innovative platform aimed at streamlining academic literature search and review. It uses Large Language Models to identify relevant papers, providing a chat interface for natural language queries.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/hXf2ythEUrk",
+                        "youtube_ff_id": "hXf2ythEUrk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1008/w-nlviz-1008_Preview.mp4?token=y2MR5-H0oG3Jtsan-bnhnSpndim7GH_XnD9XZ1hb_40&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1008/w-nlviz-1008_Preview.srt?token=AjUOxTsJYV8q8pajUb3Qnf3cG940axo4M5xIqK0jMLA&expires=1730433600"
                     },
@@ -27376,8 +27371,8 @@
                         "paper_award": "",
                         "image_caption": "The interface guides the analysis of financial multi-dimensional datasets through multiple levels of detail exploration. It is composed of (A) a region where the alert is segmented in the subgroups that compose it (A.1, A.2, A.3, A.4, A.5, and A.6) and where groups that require more attention (in this case, A.5) are highlighted in red; (B) an automatically generated text summary of a selected area (A.3) that provides a broad understanding of the group; and (C) an interactive graphical representation of all the data points of the selected area to explore information in detail.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/ywuG-oB69rs",
+                        "youtube_ff_id": "ywuG-oB69rs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1009/w-nlviz-1009_Preview.mp4?token=g34tqFW7hEOO-D0vRVGUskUrSvO9BTa5jnRCboZ1bF4&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1009/w-nlviz-1009_Preview.srt?token=vytwDrOsrTkd45XIC6aDkP-CnIfx3qT1SYSK5I1lwx0&expires=1730433600"
                     },
@@ -27433,8 +27428,8 @@
                         "paper_award": "",
                         "image_caption": "Document projection of COVID-19 open research articles with gradient-based word explanations. (Top) A projection from a BERT model fine-tuned based on the data domain, featuring a spatial word cloud that captures the spatial semantics by showing key words that impact the projection. (Bottom) A heatmap of word impacts in a selected document, highlighting the word \"smoking\", which reflects the domain context. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/P-20dcQY1wI",
+                        "youtube_ff_id": "P-20dcQY1wI",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1010/w-nlviz-1010_Preview.mp4?token=bSHHu08UdZr9ZXWQZxXbwqotHqmKVJqnMcQx3z8Nou8&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -27514,8 +27509,8 @@
                         "paper_award": "",
                         "image_caption": "Figure showing NL4DV-LLM pipeline for Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/jF33mGxryrM",
+                        "youtube_ff_id": "jF33mGxryrM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1011/w-nlviz-1011_Preview.mp4?token=NhjPytOjKrz329cylPDzMT_PCDr8y8g0oEUWNDbzGmk&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1011/w-nlviz-1011_Preview.srt?token=9fl8NRyQX_o9vqmKY6hjIx3GswiLz8EEAJbJskYGJpA&expires=1730433600"
                     },
@@ -27563,8 +27558,8 @@
                         "paper_award": "",
                         "image_caption": "This image is a screenshot of an editor application where authors can create and embed word-scale visualizations for text using LLM capabilities. The screenshot of the application includes a text area where authors can add their content. Below the text area there is a search bar for authors to submit plain language instructions for creating a visualization. In the text area, the numbers 1 2 3 4 are highlighted and used to generate a bar chart of the four values displayed inline with the text. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/xNb6NcY2Rpo",
+                        "youtube_ff_id": "xNb6NcY2Rpo",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1016/w-nlviz-1016_Preview.mp4?token=uc0UehyL9uXCt3ew8c1Uusat150b8TfAqMhbW79z_hs&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1016/w-nlviz-1016_Preview.srt?token=oUhIwPjdOVxBNz_MOd7pjd2MO9LYuu5jykJxvxYK_Vo&expires=1730433600"
                     },
@@ -27652,8 +27647,8 @@
                         "paper_award": "",
                         "image_caption": "We introduce iToT (interactive Tree-of-Thoughts), a generalized and interactive Tree of Thought prompting system. The iToT workflow: During initialization, the user provides an input prompt describing the task, examples of successful sequences of thoughts, and an evaluation prompt with self-evaluation criteria. They also specify the model parameters and visualization settings (1). During the generation process, the parametrized model produces a set of ranked candidate thoughts. The user can expand on these model-generated thoughts or add a new custom thought (2). Finally, iToT offers evaluation: thoughts are ranked by the model's self-evaluation and assessed based on their semantic similarity and self-consistency (3).",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/hj2FVIZWiSk",
+                        "youtube_ff_id": "hj2FVIZWiSk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1019/w-nlviz-1019_Preview.mp4?token=nS_Jlckf5IkzLwNdlu5KO-1wQYvURkYMYbBURIvPK_Q&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1019/w-nlviz-1019_Preview.srt?token=x4UYP36Yra1jccXARMK6kkUITOgXtpQqWN-jCYx74fQ&expires=1730433600"
                     },
@@ -27709,8 +27704,8 @@
                         "paper_award": "",
                         "image_caption": "From insight generation to diagram by LLM: 1. The LLM generates insights from data. 2. The LLM organizes insights by a strategy management analysis framework, e.g. Porter\u2019s Five Forces of Value Discipline. 3. The LLM generates the corresponding strategy management diagram.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/aefl1VsQPDc",
+                        "youtube_ff_id": "aefl1VsQPDc",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1020/w-nlviz-1020_Preview.mp4?token=C8aMLxtsocipeEwrixc0-JxHGGPSavrm0QgbrcxLsgA&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-nlviz/w-nlviz-1020/w-nlviz-1020_Preview.srt?token=2ZhBfAnDs3zJFFuL8WFB8HZ6wsLp0zz9las4-yAVirQ&expires=1730433600"
                     },
@@ -28127,8 +28122,8 @@
                         "paper_award": "",
                         "image_caption": "Uncertainty visualizations for eight simulation results describing stresses in an O-ring with varying anisotropy parameter. The degenrate tensor lines of all ensembles members are shown in green, while the color-coded meanLine shows the locations of degenrate tensors within the mean tensor field and standard deviation of mode values. The yellow probabilityBand indicates locations where mode values have a probability of 25% of a mode value larger or equal to 0.99.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Fw4FjoRpBtE",
+                        "youtube_ff_id": "Fw4FjoRpBtE",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1007/w-uncertainty-1007_Preview.mp4?token=8rfUf11SCsATf7UzC6-xDYLlbQCurLQyjEYw9YyHGNI&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -28192,8 +28187,8 @@
                         "paper_award": "",
                         "image_caption": "Example stimuli viewed by participants. (a) Visualization-only representation: a density plot showing the distribution of possible nighttime temperatures. (c) Speech-forward representation: contains the same density mark to provide some visual information, accompanied by an mp3 player which describes the distribution, temperature values, and likelihoods. We tested six different variants of these representations, with three masculine voices and three feminine voices. (c) Text-forward representation: contains the density mark and a text paragraph describing the distribution and likelihoods for different values. This is the same content as present in the speech forecast.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/pWsB9XzF8uA",
+                        "youtube_ff_id": "pWsB9XzF8uA",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1009/w-uncertainty-1009_Preview.mp4?token=8Ya_rIZn7flqOlmKHILwBCvrxKdN1CX91FEvXi5cslk&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1009/w-uncertainty-1009_Preview.srt?token=kKlx2RhluAJIjppd-_OxtbQUL-d_Ns5VrClhkPVXEA4&expires=1730433600"
                     },
@@ -28475,8 +28470,8 @@
                         "paper_award": "",
                         "image_caption": "A simulation of the Deep Water Impact. From Left to Right, the images are a) Original Dataset, b) Compressed data without uncertainty, and c) Compressed data with uncertainty. The colors of the Uncertainty image range from transparent deep purple regions that indicate positions of lower probability, whereas the less transparent bright yellow regions indicate positions of higher probability. Uncertainty visualization recovers key topological structures, such as the rib-like formations (e.g., rib-like structure in the inset views), which appear broken in traditional mean-field visualization. This probabilistic approach of uncertainty visualization allows for the recovery of potentially important features in uncertain data.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/QH7dbVdSO3I",
+                        "youtube_ff_id": "QH7dbVdSO3I",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1012/w-uncertainty-1012_Preview.mp4?token=fRsU_limNTdX9nAIOhU27Jqv9DG9Bf1P4Bu9Hk_CLCg&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1012/w-uncertainty-1012_Preview.srt?token=CRT8diSvS6Vaelc4Nun96O8lftyDKhnf9SjCVXAyuog&expires=1730433600"
                     },
@@ -29909,8 +29904,8 @@
                         "paper_award": "",
                         "image_caption": "Weather can have a significant impact on the power grid. In this paper, we propose an interactive tool to explore the relationship between weather and power outages. We demonstrate its use with the example of the impact of winter storm Uri on Texas in February 2021. While the number of affected customers by county, median temperatures, and unavailable power are shown in juxtaposed timelines for easy temporal comparison, the map view shows the spatial distribution of temperature and outages. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/i6cHT3DHCm4",
+                        "youtube_ff_id": "i6cHT3DHCm4",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-1762/w-energyvis-1762_Preview.mp4?token=QQ_HHel2WPYLN9wZuayBdQrrivNDAdvyec2pZEtlD3M&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-1762/w-energyvis-1762_Preview.srt?token=QbRAW3fYWlzBPpqEXdBPXQeXb2bg44S4nB1578sd1Og&expires=1730433600"
                     },
@@ -30425,8 +30420,8 @@
                         "paper_award": "",
                         "image_caption": "The user interface of CPIE shows the coal pollution impacts when Pennsylvania is selected. It consists of (A) a choropleth map view highlighting facilities in Pennsylvania and showing statewide deaths associated with all facilities in Pennsylvania, (B) a choropleth map displaying the number of deaths in Pennsylvania attributable to facilities in other states, and (C) a stacked line chart showing the changes in deaths associated with all Pennsylvania facilities from 1999 to 2020. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/bhNcOjTG8IQ",
+                        "youtube_ff_id": "bhNcOjTG8IQ",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-6102/w-energyvis-6102_Preview.mp4?token=EINVooRDQh8xi0eCB3e_DTaID96kxyaD7YNFSvTZO1E&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-6102/w-energyvis-6102_Preview.srt?token=6t7FqJGJP_zsFQvtp7VhnXedhhpPkGgOMvEluTNJ9fI&expires=1730433600"
                     },
@@ -30474,8 +30469,8 @@
                         "paper_award": "",
                         "image_caption": "ChatGrid interface displaying the visualization and query interface. Queries asked by users are responded through both text and visualization. The vertical bars represent the generation sources that have a remaining capacity greater than 100 MW.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/v_T0stnFeb8",
+                        "youtube_ff_id": "v_T0stnFeb8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-9750/w-energyvis-9750_Preview.mp4?token=G43Qaxtn7P8w0WvFMF6Rbu2gvhAUgB_s5zRe3DjAHp0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-9750/w-energyvis-9750_Preview.srt?token=O-gp28W-cRZ9vCDRgQWuEnavIHuHWp2rtLuQc8tryn8&expires=1730433600"
                     },
@@ -30555,8 +30550,8 @@
                         "paper_award": "",
                         "image_caption": "We present a visual analysis of the impact of the 2021 Texas Power Crisis on building occupancy in Austin, Texas. In February 2021, Winter Storm Uri caused temperatures to rapidly drop up to 50\u2109/25\u2103 below typical Texas winter temperatures (see comparison on the top left), and due to the isolated nature of the Texas powergrid, there was little room for compensation for the additional load and . The top right shows a heatmap comparison of power outages over time (x-axis) for different Texas counties (y-axis). The red line indicates the threshold for the 10% most affected counties (in the tool itself, hovering reveals more information about the counties and the extent of the outages). The tool provides navigation elements for users to select two timeframes they want to compare. In this case, we chose the 3 days with most intense outages, and an equivalent 3-day window two weeks prior, before the winter storm hit. The bottom shows buildings colored by POI type (for buildings with multiple POI, we chose the type with the highest importance \u2013 shown in the legend on the left). The map in the middle shows increases (green) and decreases (purple) in visits during the storm, compared with pre-storm conditions. The changes in visits/occupancy by POI subtype (colored by POI type) are shown on the bottom right. Large Event Spaces (which served as cold shelters) saw an increase in occupancy that\u2019s just a little over the decrease in occupancy of residential homes, and the visits to correctional facilities dropped dramatically.\u00a0 With the exception of the weather layer, all graphics come from MoVis, an interactive prototype we developed. To learn more about the weather impact on the power grid, see our other paper \u201cExtreme Weather and the Power Grid: A Case Study of Winter Storm Uri.\u201d ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/al9x4utB7ss",
+                        "youtube_ff_id": "al9x4utB7ss",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-9875/w-energyvis-9875_Preview.mp4?token=tsVlw0ZOeOysdNfQ1Q9FMVlt54O3hFivdbokYCDQRSo&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-energyvis/w-energyvis-9875/w-energyvis-9875_Preview.srt?token=1isu0PYjNMZEIjmSXAlWSh3Xpp2WWat8MM6KQ2Bx4y8&expires=1730433600"
                     }
@@ -30758,8 +30753,8 @@
                         "paper_award": "",
                         "image_caption": "Graphic showing the three use cases for EcoViz, a collaborative initiative to co-design multimodal environmental data visualizations. Above, we show an immersive Unreal Engine visualization of a controlled burn simulation to manage wildfire. Below, we show a photo-realistic rendering of hydrodynamic model outputs regarding the flood protection benefits of coral reefs. The circular graphic in the center shows thousands of autonomous profiling Argo floats that survey changes in temperature and salinity to track heat accumulation in the ocean. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/uX7XpQo2VGs",
+                        "youtube_ff_id": "uX7XpQo2VGs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-vis4climate/w-vis4climate-1011/w-vis4climate-1011_Preview.mp4?token=XM88vdwuEwLEUhn8-gWWbE6qIZuzh0fLBtKc3HP1dLg&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-vis4climate/w-vis4climate-1011/w-vis4climate-1011_Preview.srt?token=6p9mlLEDy2QDkEGnKm78tvINdyMMpm4ZxOhMHEE59h4&expires=1730433600"
                     },
@@ -30922,9 +30917,525 @@
                         "paper_award": "",
                         "image_caption": "Four examples of interactive data visualizations created by students at Harvard, Brown and RISD using open data from the city of Boston and presented at the Museum of Science",
                         "external_paper_link": "",
+                        "youtube_ff_link": "https://youtu.be/qZBMOrWz8hI",
+                        "youtube_ff_id": "qZBMOrWz8hI",
+                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-vis4climate/w-vis4climate-1024/w-vis4climate-1024_Preview.mp4?token=aQj_tjR4bHboHrvd75dSimXws-mWAlFpe0BQ2-hucto&expires=1730433600",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1010",
+                        "session_id": "workshop9",
+                        "title": "Harnessing Visualization for Climate Action and Sustainable Future",
+                        "contributors": [
+                            "Narges Mahyar"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Narges Mahyar",
+                                "email": "narges.mahyar@gmail.com",
+                                "affiliations": [
+                                    "University of Massachusetts Amherst, Amherst, United States"
+                                ],
+                                "is_corresponding": true
+                            }
+                        ],
+                        "abstract": "The urgency of climate change is now recognized globally. As humanity confronts the critical need to mitigate climate change and foster sustainability, data visualization emerges as a powerful tool with a unique capacity to communicate insights crucial for understanding environmental complexities. This paper explores the critical need for designing and investigating responsible data visualization that can act as a catalyst for engaging communities within global climate action and sustainability efforts. Grounded in prior work and reflecting on a decade of community engagement research, I propose five critical considerations:  (1) inclusive and accessible visualizations for enhancing climate education and communication, (2) interactive visualizations for fostering agency and deepening engagement,  (3) in-situ visualizations for reducing spatial indirection,   (4) shared  immersive experiences for catalyzing collective action, and  (5) accurate, transparent, and credible visualizations for ensuring trust and integrity.  These considerations offer strategies and new directions for visualization research, aiming to enhance community engagement, deepen involvement, and foster collective action on critical socio-technical including and beyond climate change.",
+                        "uid": "w-vis4climate-1010",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-vis4climate/w-vis4climate-1024/w-vis4climate-1024_Preview.mp4?token=aQj_tjR4bHboHrvd75dSimXws-mWAlFpe0BQ2-hucto&expires=1730433600",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1020",
+                        "session_id": "workshop9",
+                        "title": "Earth Mission Control: Advanced Data Visualizations for Climate Intelligence",
+                        "contributors": [
+                            "Rachel Connolly"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Minoo Rathnasabapathy",
+                                "email": "minoo@media.mit.edu",
+                                "affiliations": [
+                                    "MIT Media Lab, Cambridge, MA, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Dava Newman",
+                                "email": "dnewman@mit.edu",
+                                "affiliations": [
+                                    "MIT Media Lab, Cambridge, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Rachel Connolly",
+                                "email": "rachelbc@media.mit.edu",
+                                "affiliations": [
+                                    "MIT Media Lab, Cambridge, United States"
+                                ],
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Phillip Cherner",
+                                "email": "pcherner@mit.edu",
+                                "affiliations": [
+                                    "MIT Media Lab, Cambridge, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Jaden Palmer",
+                                "email": "palmjad2@mit.edu",
+                                "affiliations": [
+                                    "MIT Media Lab, Cambridge, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Mark SubbaRao",
+                                "email": "mark.u.subbarao@nasa.gov",
+                                "affiliations": [
+                                    "NASA Goddard Space Flight Center, Greenbelt, United States"
+                                ],
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "Satellite Earth Observation (EO) data is essential for tracking climate change trends and their impacts on ecosystems, however conventional methods of presenting EO data often fail to effectively communicate the intricate relationships between climate causes and effects in hyperlocal contexts. To address this challenge, this paper investigates the use of advanced data visualization techniques, focusing on the potential of Augmented Reality (AR) and Virtual Reality (VR) to enhance EO data understanding and climate storytelling. Leveraging the MIT Media Lab's Earth Mission Control (EMC) AR/VR platform, the paper details how immersive VR environments can simplify complex climate data narratives, and enhance the ability of decision-makers to analyze, interact with, and understand EO data. The paper presents the architecture of EMC\u2019s platform, including key design features such as: information dashboard carousel; map table; globe; and dynamic scenic VR environments. User feedback from diverse stakeholders reveals significant improvements in climate communication and decision-making, emphasizing the capability of leveraging immersive technologies to address global climate challenges.",
+                        "uid": "w-vis4climate-1020",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1029",
+                        "session_id": "workshop9",
+                        "title": "Artists, Data and Climate Change: Distilled messages, multiple entry points, layered metaphor",
+                        "contributors": [
+                            "Francesca Samsel"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Francesca Samsel",
+                                "email": "fsamsel@tacc.utexas.edu",
+                                "affiliations": [
+                                    "University of Texas at Austin, Austin, United States"
+                                ],
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Bruce Donald Campbell",
+                                "email": "bcampbel01@risd.edu",
+                                "affiliations": [
+                                    "Rhode Island School of Design, Providence, United States"
+                                ],
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "Artists have been speaking to, and creating paths for reflection on, fundamental threats to society and our lives as far back as we can document. Our changing climate is one such threat demanding meaningful narratives. In this short paper, we present the work of six internationally recognized artists addressing climate change, along with an analysis of their common work threads, toward the goal of promoting adoption of some of the \"tools\" in their toolkit. By doing so, we hope we can assist the visualization community in creating content that moves beyond intellectual understand toward an emotional adoption and thus action.",
+                        "uid": "w-vis4climate-1029",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1033",
+                        "session_id": "workshop9",
+                        "title": "Interactive Visualization of Ensemble Data Assimilation Forecasts for Freshwater Floods",
+                        "contributors": [
+                            "Ameya B Patil"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Ameya B Patil",
+                                "email": "ameyap2@cs.washington.edu",
+                                "affiliations": [
+                                    "University of Washington, Seattle, United States"
+                                ],
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Marlee Smith",
+                                "email": "masmith@ucar.edu",
+                                "affiliations": [
+                                    "National Center for Atmospheric Research, Boulder, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Helen Kershaw",
+                                "email": "hkershaw@ucar.edu",
+                                "affiliations": [
+                                    "National Center for Atmospheric Research, Boulder, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Moha El Gharamti",
+                                "email": "gharamti@ucar.edu",
+                                "affiliations": [
+                                    "National Center for Atmospheric Research, Boulder, United States"
+                                ],
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "Freshwater floods during hurricanes are known to cause significant damage to life and property. We could be better prepared to prevent these losses if flood forecasts can be made accurately and understood effectively. In addition to the technical complexities when modeling freshwater systems, forecasting freshwater floods also involves numerous uncertainties which also need to be considered to make reliable data driven decisions. In this demo, we describe the design and implementation of HydroVis\u2013a decision support system designed to help both weather scientists to triage the flood forecasting models, and the policymakers to help them understand the forecasts effectively and make informed decisions accordingly.",
+                        "uid": "w-vis4climate-1033",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1034",
+                        "session_id": "workshop9",
+                        "title": "Data Comics for Climate Change",
+                        "contributors": [
+                            "Zezhong Wang"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Zezhong Wang",
+                                "email": "wangzezhong2016@gmail.com",
+                                "affiliations": [
+                                    "Simon Fraser University, Vancouver, Canada"
+                                ],
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Stephan Gruber",
+                                "email": "stephan.gruber@carleton.ca",
+                                "affiliations": [
+                                    "Carleton University, Ottawa, Canada"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Claire Herbert",
+                                "email": "claire.herbert@umanitoba.ca",
+                                "affiliations": [
+                                    "University of Manitoba, Winnipeg, Canada"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Zandria Sarrazin",
+                                "email": "zandria_sarrazin@sfu.ca",
+                                "affiliations": [
+                                    "Simon Fraser University, Vancouver, Canada"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Michelle Levy",
+                                "email": "mnl@sfu.ca",
+                                "affiliations": [
+                                    "SFU, Burnaby, Canada"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Sheelagh Carpendale",
+                                "email": "sheelagh@sfu.ca",
+                                "affiliations": [
+                                    "Simon Fraser University, Burnaby, Canada"
+                                ],
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "While there is a well-known gap between what the general public and policymakers understand about science and what is known by experts, this gap is particularly perilous in regard to climate change. Currently, scientists inform each other via expert publications and conferences. We, as part of the public and policymakers, receive our information via the media and the web \u2013 and in our current catastrophic blending of information with misinformation, we are at risk of well-intentionally taking ineffective or even harmful actions and decisions. To close this gap, a team of experts in data visualization, narrative construction, data comics, and climate change work collaboratively to develop climate change data comics that combine compelling narratives with comprehensible data visuals that are informed and verified by the appropriate scientists. This pictorial outlines our approach and provides two examples, emphasizing the integration of storytelling, scientific explanation, and data visualization through expressive visual presentations.",
+                        "uid": "w-vis4climate-1034",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1038",
+                        "session_id": "workshop9",
+                        "title": "Urban Computing for Climate And Environmental Justice: Early Perspectives From Two Research Initiatives",
+                        "contributors": [
+                            "Fabio Miranda"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Carolina Veiga",
+                                "email": "carolvfs@illinois.edu",
+                                "affiliations": [
+                                    "University of Illinois, Chicago, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Ashish Sharma",
+                                "email": "sharmaa@illinois.edu",
+                                "affiliations": [
+                                    "University of Illinois, Chicago, United States"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Daniel de Oliveira",
+                                "email": "danielcmo@ic.uff.br",
+                                "affiliations": [
+                                    "Universidade Federal Fluminense, Niter\u00f3i, Brazil"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Marcos Lage",
+                                "email": "mlage@ic.uff.br",
+                                "affiliations": [
+                                    "Universidade Federal Fluminense , Niteroi, Brazil"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Fabio Miranda",
+                                "email": "fabiom@uic.edu",
+                                "affiliations": [
+                                    "University of Illinois Chicago, Chicago, United States"
+                                ],
+                                "is_corresponding": true
+                            }
+                        ],
+                        "abstract": "The impacts of climate change are intensifying existing vulnerabilities and disparities within urban communities around the globe, as extreme weather events, including floods and heatwaves, are becoming more frequent and severe, disproportionately affecting low-income and underrepresented groups. Tackling these increasing challenges requires novel approaches that integrate expertise across multiple domains, including computer science, engineering, climate science, and public health. Urban computing can play a pivotal role in these efforts by integrating data from multiple sources to support decision-making and provide actionable insights into weather patterns, infrastructure weaknesses, and population vulnerabilities. However, the capacity to leverage technological advancements varies significantly between the Global South and Global North. In this paper, we present two multiyear, multidisciplinary projects situated in Chicago, USA and Niter\u00f3i, Brazil, highlighting the opportunities and limitations of urban computing in these diverse contexts. Reflecting on our experiences, we then discuss the essential requirements, as well as existing gaps, for visual analytics tools that facilitate the understanding and mitigation of climate-related risks in urban environments.",
+                        "uid": "w-vis4climate-1038",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1039",
+                        "session_id": "workshop9",
+                        "title": "Designing Visualizations for Enhancing Carbon Numeracy",
+                        "contributors": [
+                            "Katerina Batziakoudi"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Katerina Batziakoudi",
+                                "email": "kbatziakoudi@gmail.com",
+                                "affiliations": [
+                                    "Berger-Levrault, Boulogne-Billancourt, France",
+                                    "Inria, Saclay, France"
+                                ],
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Florent Cabric",
+                                "email": "florent.cabric.pro@gmail.com",
+                                "affiliations": [
+                                    "Aviz, Inria, Saclay, France",
+                                    "LISN, Universit\u00e9 Paris-Saclay, CNRS, Orsay, France"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "St\u00e9phanie Rey",
+                                "email": "stephanie.rey@berger-levrault.com",
+                                "affiliations": [
+                                    "Berger-Levrault, Toulouse, France"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Jean-Daniel Fekete",
+                                "email": "jean-daniel.fekete@inria.fr",
+                                "affiliations": [
+                                    "Inria, Saclay, France",
+                                    "Universit\u00e9 Paris-Saclay, CNRS, Orsay, France"
+                                ],
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "This position statement discusses the challenges of designing visualizations to enhance the carbon numeracy of the general public. Carbon numeracy refers to an individual's quantitative awareness of their CO2 emissions, which can vary widely from grams to tons across different activities. Effective visualizations must accurately represent these ranges and facilitate quantitative comparisons. By leveraging insights from both visualization research and cognitive psychology on numerical perception and the representation of large numbers, we propose two novel design solutions to address these challenges. We aim to foster discussions on improving public carbon numeracy, ultimately aiding in mitigating climate change.",
+                        "uid": "w-vis4climate-1039",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "w-vis4climate-1040",
+                        "session_id": "workshop9",
+                        "title": "Exploring the Reproducibility for Visualization Figures in Climate Change Report",
+                        "contributors": [
+                            "Lu Ying"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Lu Ying",
+                                "email": "yingluu@zju.edu.cn",
+                                "affiliations": [
+                                    "Zhejiang University, Hangzhou, China",
+                                    "INRIA, Saclay, France"
+                                ],
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Yingcai Wu",
+                                "email": "ycwu@zju.edu.cn",
+                                "affiliations": [
+                                    "Zhejiang University, Hangzhou, China"
+                                ],
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Jean-Daniel Fekete",
+                                "email": "jean-daniel.fekete@inria.fr",
+                                "affiliations": [
+                                    "Inria, Saclay, France"
+                                ],
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "The Intergovernmental Panel on Climate Change (IPCC) plays a pivotal role in assessing and communicating climate science through its comprehensive reports. Despite the IPCC's efforts to provide source code and data for report figures, reproducing these figures is still challenging. This paper details our approach and the obstacles encountered in creating reproducible visualizations from the IPCC Working Group 1 data. Our work involved developing a set of front-end GitHub repositories that build upon the IPCC's original resources, incorporating reproducibility instructions and scripts to closely replicate the report\u2019s figures. By providing reproducible figures, we aim to enhance public engagement and contribution to climate change communication, ensuring accuracy and facilitating iterative improvements in figure presentation.",
+                        "uid": "w-vis4climate-1040",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "workshop",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
                         "bunny_ff_subtitles": ""
                     }
                 ]
@@ -31365,102 +31876,17 @@
                 "ff_link": "",
                 "time_slots": [
                     {
-                        "slot_id": "w-eduvis-1008",
+                        "slot_id": "w-eduvis-pres1",
                         "session_id": "workshop3a",
-                        "title": "Challenges and Opportunities of Teaching Data Visualization Together with Data Science",
-                        "contributors": [
-                            "Shri Harini Ramesh"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Shri Harini Ramesh",
-                                "email": "shrihariniramesh@cmail.carleton.ca",
-                                "affiliations": [
-                                    "Carleton University, Ottawa, Canada"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Fateme Rajabiyazdi",
-                                "email": "fateme.rajabiyazdi@carleton.ca",
-                                "affiliations": [
-                                    "Carleton University, Ottawa, Canada",
-                                    "Bruyere Research Institute, Ottawa, Canada"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "With the increasing amount of data globally, analyzing and visualizing data are becoming essential skills across various professions. It is important to equip university students with these essential data skills. To learn, design, and develop data visualization, students need knowledge of programming and data science topics. Many university programs lack dedicated data science courses for undergraduate students, making it important to introduce these concepts through integrated courses. However, combining data science and data visualization into one course can be challenging due to the time constraints and the heavy load of learning. In this paper, we discuss the development of teaching data science and data visualization together in one course and share the results of the post-course evaluation survey. From the survey's results, we identified four challenges, including difficulty in learning multiple tools and diverse data science topics, varying proficiency levels with tools and libraries, and selecting and cleaning datasets. We also distilled five opportunities for developing a successful data science and visualization course. These opportunities include clarifying the course structure, emphasizing visualization literacy early in the course, updating the course content according to student needs, using large real-world datasets, learning from industry professionals, and promoting collaboration among students.",
-                        "uid": "w-eduvis-1008",
+                        "title": "Workshop Opening & Outline",
+                        "contributors": [],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
                         "time_stamp": "2024-10-13T12:30:00Z",
                         "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "https://arxiv.org/abs/2409.05969",
-                        "accessible_pdf": true,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "Challenges and Opportunities of Teaching Data Visualization Together with Data Science",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "w-eduvis-1013",
-                        "session_id": "workshop3a",
-                        "title": "AdVizor: Using Visual Explanations to Guide Data-Driven Student Advising",
-                        "contributors": [
-                            "Zixin Zhao"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Riley Weagant",
-                                "email": "riley.weagant@ontariotechu.net",
-                                "affiliations": [
-                                    "Ontario Tech University, Oshawa, Canada"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Zixin Zhao",
-                                "email": "zixin.zhao@ontariotechu.net",
-                                "affiliations": [
-                                    "Ontario Tech University, Oshawa, Canada"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Adam Badley",
-                                "email": "abradley@uncharted.software",
-                                "affiliations": [
-                                    "Ontario Tech University, Oshawa, Canada"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Christopher Collins",
-                                "email": "christopher.collins@ontariotechu.ca",
-                                "affiliations": [
-                                    "Ontario Tech University, Oshawa, Canada"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "Academic advising can positively impact struggling students' success. We developed AdVizor, a data-driven learning analytics tool for academic risk prediction for advisors. Our system is equipped with a random forest model for grade prediction probabilities uses a visualization dashboard to allows advisors to interpret model predictions. We evaluated our system in mock advising sessions with academic advisors and undergraduate students at our university. Results show that the system can easily integrate into the existing advising workflow, and visualizations of model outputs can be learned through short training sessions. AdVizor supports and complements the existing expertise of the advisor while helping to facilitate advisor-student discussion and analysis. Advisors found the system assisted them in guiding student course selection for the upcoming semester. It allowed them to guide students to prioritize the most critical and impactful courses. Both advisors and students perceived the system positively and were interested in using the system in the future. Our results encourage the development of intelligent advising systems in higher education, catered for advisors.",
-                        "uid": "w-eduvis-1013",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
+                        "time_end": "2024-10-13T12:40:00Z",
+                        "paper_type": "",
                         "keywords": [],
                         "doi": "",
                         "fno": "",
@@ -31469,56 +31895,28 @@
                         "open_access_supplemental_link": "",
                         "preprint_link": "",
                         "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
+                        "has_image": false,
+                        "has_pdf": false,
                         "paper_award": "",
-                        "image_caption": "Figure of a student and academic advisor sitting across from each other with a computer screen between them, on top is a zoomed out image of the AdVizor interface.",
+                        "image_caption": "",
                         "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-eduvis/w-eduvis-1013/w-eduvis-1013_Preview.mp4?token=MEibWd4aMD5VjMhdpUG36Mlq-IT4gyQHec2_Pzkw40I&expires=1730433600",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-eduvis/w-eduvis-1013/w-eduvis-1013_Preview.srt?token=QZwYkdAHRWd5UxGYaX72aY20X_jhmYmrtp3uAB2V54w&expires=1730433600"
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
                     },
                     {
-                        "slot_id": "w-eduvis-1018",
+                        "slot_id": "w-eduvis-pres2",
                         "session_id": "workshop3a",
-                        "title": "Teaching Information Visualization through Situated Design: Case Studies from the Classroom",
-                        "contributors": [
-                            "Doris Kosminsky"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Doris Kosminsky",
-                                "email": "doriskos@eba.ufrj.br",
-                                "affiliations": [
-                                    "Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brazil"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Renata Perim Lopes",
-                                "email": "renata.perim@ufrj.br",
-                                "affiliations": [
-                                    "Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Regina Reznik",
-                                "email": "regina.reznik@ufrj.br",
-                                "affiliations": [
-                                    "UFRJ, RJ, Brazil",
-                                    "IBGE, RJ, Brazil"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "In this article, we discuss an experience with design and situated learning in the Creative Data Visualization course, part of the Visual Communication Design undergraduate program at the Federal University of Rio de Janeiro, a free, public Brazilian university that, thanks to affirmative action policies, has become more inclusive over the years. We begin with a brief introduction to the terms Situated Knowledge, coined by Donna Haraway, Situated Design, based on the former concept, and Situated Learning. We then examine the similarities and differences between these notions and the term Situated Visualization to present a model for the concept of Situated Learning in Information Visualization. Following this foundation, we describe the applied methodology, emphasizing the importance of integrating real-world contexts into students\u2019 projects. As a case study, we present three student projects produced as final assignments for the course. Through this article, we aim to underscore the articulation of situated design concepts in information visualization activities and contribute to teaching and learning practices in this field, particularly within the Global South.",
-                        "uid": "w-eduvis-1018",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
+                        "title": "Keynote",
+                        "contributors": [],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "time_stamp": "2024-10-13T12:40:00Z",
+                        "time_start": "2024-10-13T12:40:00Z",
+                        "time_end": "2024-10-13T13:10:00Z",
+                        "paper_type": "",
                         "keywords": [],
                         "doi": "",
                         "fno": "",
@@ -31527,67 +31925,10 @@
                         "open_access_supplemental_link": "",
                         "preprint_link": "",
                         "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
+                        "has_image": false,
+                        "has_pdf": false,
                         "paper_award": "",
-                        "image_caption": "The image displays a diagram on the left side of the page, featuring four nested circles, each symbolizing a stage in the Situated Learning model for information visualization. The outermost circle is labeled \"situated contexts,\" linked to \"location,\" covering space, time, place, activity, and social aspects. The second circle, \"collecting data,\" is connected to \"embodied skills.\" The third circle, \"mapping & design\", also links to \"embodied skills.\" The innermost circle is \"presentation,\" linked to \"partial view.\" The right side shows the VIS2024 conference logo.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-eduvis/w-eduvis-1018/w-eduvis-1018_Preview.mp4?token=0BoqkCys97DIKZNWWtFaOEk1WrA-Y6I3NAXl2h8L-Vs&expires=1730433600",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-eduvis/w-eduvis-1018/w-eduvis-1018_Preview.srt?token=OeV-pHQ_GBKtBOLIFN4Aaneggy3pcOXM9z1rOXRlxQ8&expires=1730433600"
-                    },
-                    {
-                        "slot_id": "w-eduvis-1020",
-                        "session_id": "workshop3a",
-                        "title": "Developing a Robust Cartography Curriculum to Train the Professional Cartographer",
-                        "contributors": [
-                            "Jonathan Nelson"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Jonathan Nelson",
-                                "email": "jknelson3@wisc.edu",
-                                "affiliations": [
-                                    "University of Wisconsin-Madison, Madison, United States"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "P. William Limpisathian",
-                                "email": "limpisathian@wisc.edu",
-                                "affiliations": [
-                                    "University of Wisconsin-Madison, Madison, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Robert Roth",
-                                "email": "reroth@wisc.edu",
-                                "affiliations": [
-                                    "University of Wisconsin-Madison, Madison, United States"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "In this paper, we discuss our experiences advancing a professional-oriented graduate program in Cartography & GIScience at the University of Wisconsin-Madison to account for fundamental shifts in conceptual framings, rapidly evolving mapping technologies, and diverse student needs. We focus our attention on considerations for the cartography curriculum given its relevance to (geo)visualization education and map literacy. We reflect on challenges associated with, and lessons learned from, developing a comprehensive and cohesive cartography curriculum across in-person and online learning modalities for a wide range of professional student audiences.",
-                        "uid": "w-eduvis-1020",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "",
-                        "accessible_pdf": true,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "Developing and maintaining a robust cartography curriculum is challenging yet essential for meeting the needs of the professional cartographer. The cartography curriculum at the University of Wisconsin-Madison (2024-25) is organized within a conceptual framework, consisting of an orthogonal pair of axes to capture both the traditional distinction between mapmaking and map use and the more contemporary distinction between cartographic representation and interaction. The curriculum is collaboratively developed, conceptually-grounded, technologically diverse, and integrated with open educational resources to ensure it remains current, relevant, and synchronized across in-person/online learning modalities.",
+                        "image_caption": "",
                         "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
@@ -31595,173 +31936,17 @@
                         "bunny_ff_subtitles": ""
                     },
                     {
-                        "slot_id": "w-eduvis-1027",
+                        "slot_id": "w-eduvis-pap1",
                         "session_id": "workshop3a",
-                        "title": "An Inductive Approach for Identification of Barriers to PCP Literacy",
-                        "contributors": [
-                            "Chandana Srinivas"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Chandana Srinivas",
-                                "email": "csrinivas2@dons.usfca.edu",
-                                "affiliations": [
-                                    "University of San Francisco, San Francisco, United States"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Elif E. Firat",
-                                "email": "elifemelfirat@gmail.com",
-                                "affiliations": [
-                                    "Cukurova University, Adana, Turkey"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Robert S. Laramee",
-                                "email": "robert.laramee@nottingham.ac.uk",
-                                "affiliations": [
-                                    "University of Nottingham, Nottingham, United Kingdom"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Alark Joshi",
-                                "email": "apjoshi@usfca.edu",
-                                "affiliations": [
-                                    "University of San Francisco, San Francisco, United States"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "Parallel coordinate plots (PCPs) are gaining popularity in data exploration, statistical analysis, predictive analysis along with for data-driven storytelling. In this paper, we present the results of a post-hoc analysis of a dataset from a PCP literacy intervention to identify barriers to PCP literacy. We analyzed question responses and inductively identified barriers to PCP literacy. We performed group coding on each individual response and identified new barriers to PCP literacy. Based on our analysis, we present a extended and enhanced list of barriers to PCP literacy. Our findings have implications towards educational interventions targeting PCP literacy and can provide an approach for students to learn about PCPs through active learning.",
-                        "uid": "w-eduvis-1027",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "https://www.cs.usfca.edu/~apjoshi/papers/2024_EduVis_PCP_Barriers.pdf",
-                        "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "This figure shows the methodology used to inductively identify an enhanced list of PCP literacy barriers.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "w-eduvis-1028",
-                        "session_id": "workshop3a",
-                        "title": "Space to Teach: Content-Rich Canvases for Visually-Intensive Education",
-                        "contributors": [
-                            "Jesse Harden"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Jesse Harden",
-                                "email": "jessemh@vt.edu",
-                                "affiliations": [
-                                    "Virginia Tech, Blacksburg, United States"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Nurit Kirshenbaum",
-                                "email": "nuritk@hawaii.edu",
-                                "affiliations": [
-                                    "University of Hawaii at Manoa, Honolulu, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Roderick S Tabalba Jr.",
-                                "email": "tabalbar@hawaii.edu",
-                                "affiliations": [
-                                    "University of Hawaii at Manoa, Honolulu, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Ryan Theriot",
-                                "email": "rtheriot@hawaii.edu",
-                                "affiliations": [
-                                    "University of Hawaii at Manoa, Honolulu, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Michael L. Rogers",
-                                "email": "mlr2010@hawaii.edu",
-                                "affiliations": [
-                                    "The University of Hawai'i at M\u0101noa, Honolulu, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Mahdi Belcaid",
-                                "email": "mahdi@hawaii.edu",
-                                "affiliations": [
-                                    "University of Hawaii at Manoa, Honolulu, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Chris North",
-                                "email": "north@vt.edu",
-                                "affiliations": [
-                                    "Virginia Tech, Blacksburg, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Luc Renambot",
-                                "email": "renambot@uic.edu",
-                                "affiliations": [
-                                    "University of Illinois at Chicago, Chicago, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Lance Long",
-                                "email": "llong4@uic.edu",
-                                "affiliations": [
-                                    "University of Illinois at Chicago, Chicago, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Andrew E Johnson",
-                                "email": "ajohnson@uic.edu",
-                                "affiliations": [
-                                    "University of Illinois Chicago, Chicago, United States"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Jason Leigh",
-                                "email": "leighj@hawaii.edu",
-                                "affiliations": [
-                                    "University of Hawaii at Manoa, Honolulu, United States"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "With the decreasing cost of consumer display technologies making it easier for universities to have larger displays in classrooms, and the ubiquitous use of online tools such as collaborative whiteboards for remote learning during the COVID-19 pandemic, combining the two can be useful in higher education. This is especially true in visually intensive classes, such as data visualization courses, that can benefit from additional \"space to teach,\" coined after the \"space to think\" sense-making idiom. In this paper, we reflect on our approach to using SAGE3, a collaborative whiteboard with advanced features, in higher education to teach visually intensive classes, provide examples of activities from our own visually-intensive courses, and present student feedback. We gather our observations into usage patterns for using content-rich canvases in education.",
-                        "uid": "w-eduvis-1028",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
+                        "title": "Papers Presentations and Discussion",
+                        "contributors": [],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "time_stamp": "2024-10-13T13:10:00Z",
+                        "time_start": "2024-10-13T13:10:00Z",
+                        "time_end": "2024-10-13T13:45:00Z",
+                        "paper_type": "",
                         "keywords": [],
                         "doi": "",
                         "fno": "",
@@ -31770,56 +31955,15 @@
                         "open_access_supplemental_link": "",
                         "preprint_link": "",
                         "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
+                        "has_image": false,
+                        "has_pdf": false,
                         "paper_award": "",
-                        "image_caption": "A professor using an online whiteboard, SAGE3, for an in-person class with a very large display. On the online whiteboard are multiple slides of PowerPoint slide decks, saved as PDFs, and various sticky notes from student contributions.",
+                        "image_caption": "",
                         "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
                         "bunny_ff_link": "",
                         "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "w-eduvis-1029",
-                        "session_id": "workshop3a",
-                        "title": "Engaging Data-Art: Conducting a Public Hands-On Workshop",
-                        "contributors": [
-                            "Jonathan C Roberts"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Jonathan C Roberts",
-                                "email": "j.c.roberts@bangor.ac.uk",
-                                "affiliations": [
-                                    "Bangor University, Bangor, United Kingdom"
-                                ],
-                                "is_corresponding": true
-                            }
-                        ],
-                        "abstract": "Data-art blends visualisation, data science, and artistic expression. It allows people to transform information and data into exciting and interesting visual narratives.Hosting a public data-art hands-on workshop enables participants to engage with data and learn fundamental visualisation techniques. However, being a public event, it presents a range of challenges. We outline our approach to organising and conducting a public workshop, that caters to a wide age range, from children to adults. We divide the tutorial into three sections, focusing on data, sketching skills and visualisation. We place emphasis on public engagement, and ensure that participants have fun while learning new skills.",
-                        "uid": "w-eduvis-1029",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "https://arxiv.org/abs/2408.04750",
-                        "accessible_pdf": true,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "Data-art blends visualisation, data science, and artistic expression. We outline our approach to organising and conducting a public workshop, that caters to a wide age range. We divide the tutorial into three sections, focusing on data, sketching skills and visualisation.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-eduvis/w-eduvis-1029/w-eduvis-1029_Preview.mp4?token=IFMi0sw4B2ZjhXBaG5uL5V7PS9ZDz27LtpdpwNjm7SQ&expires=1730433600",
-                        "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-eduvis/w-eduvis-1029/w-eduvis-1029_Preview.srt?token=IORjrd025DzhF-yHbmSCWdQlImmmgO71TFEjP3jCyNI&expires=1730433600"
                     }
                 ]
             },
@@ -31831,11 +31975,16 @@
                 "room_name": "Esplanade Suites I + II + III",
                 "session_image": "workshop3b.png",
                 "chair": [
+                    "Jillian Aurisano",
                     "Fateme Rajabiyazdi",
                     "Mandy Keck",
                     "Lonni Besancon",
                     "Alon Friedman",
-                    "Benjamin Bach"
+                    "Benjamin Bach",
+                    "Jonathan Roberts",
+                    "Christina Stoiber",
+                    "Magdalena Boucher",
+                    "Lily Ge"
                 ],
                 "time_start": "2024-10-13T16:00:00Z",
                 "time_end": "2024-10-13T19:00:00Z",
@@ -31852,121 +32001,17 @@
                 "ff_link": "",
                 "time_slots": [
                     {
-                        "slot_id": "w-eduvis-1007",
+                        "slot_id": "w-eduvis-pap2",
                         "session_id": "workshop3b",
-                        "title": "Beyond storytelling with data: Guidelines for designing exploratory visualizations",
-                        "contributors": [
-                            "Jennifer Frazier"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Jennifer Frazier",
-                                "email": "jafrazier@gmail.com",
-                                "affiliations": [
-                                    "Science Communication Lab, Berkeley, United States",
-                                    "University of California, San Francisco, San Francisco, United States"
-                                ],
-                                "is_corresponding": true
-                            }
-                        ],
-                        "abstract": "Visualizations are a critical medium not only for telling stories, but for fostering exploration.But while there are countless examples how to use visualizations for\u201cstorytelling with data,\u201d there are few guidelines on how to design visualizations for public exploration.This educator report draws on decades of work in science museums, a public context focused on designing interactive experiences for exploration, to provide evidence-based guidelines for designing exploratory visualizations.Recent studies on interactive visualizations in museums are contextualized within a larger body of museum research on designs that support exploratory learning in interactive exhibits.Synthesizing these studies highlights that to create successful exploratory visualizations, designers can apply long-standing guidelines from exhibit design but need to provide more aids for interpretation.",
-                        "uid": "w-eduvis-1007",
-                        "time_stamp": "2024-10-13T16:00:00Z",
-                        "time_start": "2024-10-13T16:00:00Z",
-                        "time_end": "2024-10-13T19:00:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "",
-                        "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "Museums visitors using an interactive visualization at the Exploratorium (image credit: Amy Snyder).",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "w-eduvis-1010",
-                        "session_id": "workshop3b",
-                        "title": "Implementing the Solution Framework in a Social Impact Project",
-                        "contributors": [
-                            "Kevin Ford"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Victor Mu\u00f1oz",
-                                "email": "munozdataviz@gmail.com",
-                                "affiliations": [
-                                    "Independent Information Designer, Medellin, Colombia",
-                                    "Independent Information Designer, Medellin, Colombia"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Kevin Ford",
-                                "email": "hellokevinford@gmail.com",
-                                "affiliations": [
-                                    "Corporate Information Designer, Arlington Hts, United States",
-                                    "Corporate Information Designer, Arlington Hts, United States"
-                                ],
-                                "is_corresponding": true
-                            }
-                        ],
-                        "abstract": "This report examines the implementation of the Solution Framework in a social impact project facilitated by VizForSocialGood. It outlines the data visualization process, detailing each stage and offering practical insights. The framework's application demonstrates its effectiveness in enhancing project quality, efficiency, and collaboration, making it a valuable tool for educational and professional environments.",
-                        "uid": "w-eduvis-1010",
-                        "time_stamp": "2024-10-13T16:00:00Z",
-                        "time_start": "2024-10-13T16:00:00Z",
-                        "time_end": "2024-10-13T19:00:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "",
-                        "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "This image contains chat logs of the interaction between a mentor and a mentee, implementing the Solution Framework in a social impact project. The conversations reflect collaboration and guidance in refining a data visualization, providing a practical model for practitioners to document their workflows and mentoring strategies.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "w-eduvis-1017",
-                        "session_id": "workshop3b",
-                        "title": "Visualization Software: How to Select the Right Software for Teaching Visualization.",
-                        "contributors": [
-                            "Sanjog Ray"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Sanjog Ray",
-                                "email": "sanjogr@iimidr.ac.in",
-                                "affiliations": [
-                                    "Indian institute of management indore, Indore, India"
-                                ],
-                                "is_corresponding": true
-                            }
-                        ],
-                        "abstract": "The digitalisation of organisations has transformed the way organisations view data. All employees are expected to be data literate and managers are expected to make data-driven decisions [1]. The ability to analyse and visualize the data is a crucial skill set expected from every decision-maker. To help managers develop the skill of data visualization, business schools across the world offer courses in data visualization. From an educator\u2019s perspective, one key decision that he/she must take while designing a visualization course for management students is the software tool to use in the course. Existing literature on data visualization in the scientific community is primarily focused on tools used by researchers or computer scientists ([3], [4]). In [5] the authors evaluate the landscape of commercially available visual analytics systems. In business-related publications like Harvard Business Review, the focus is more on selecting the right chart or on designing effective visualization ([6], [7]). There is a lack of literature to guide educators in teaching visualization to management students. This article attempts to guide educators teaching visualization to management students on how to select the appropriate software tool for their course.",
-                        "uid": "w-eduvis-1017",
-                        "time_stamp": "2024-10-13T16:00:00Z",
-                        "time_start": "2024-10-13T16:00:00Z",
-                        "time_end": "2024-10-13T19:00:00Z",
-                        "paper_type": "workshop",
+                        "title": "Papers Presentations and Discussion",
+                        "contributors": [],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "time_stamp": "2024-10-13T14:15:00Z",
+                        "time_start": "2024-10-13T14:15:00Z",
+                        "time_end": "2024-10-13T15:30:00Z",
+                        "paper_type": "",
                         "keywords": [],
                         "doi": "",
                         "fno": "",
@@ -31976,7 +32021,7 @@
                         "preprint_link": "",
                         "accessible_pdf": false,
                         "has_image": false,
-                        "has_pdf": true,
+                        "has_pdf": false,
                         "paper_award": "",
                         "image_caption": "",
                         "external_paper_link": "",
@@ -31986,36 +32031,17 @@
                         "bunny_ff_subtitles": ""
                     },
                     {
-                        "slot_id": "w-eduvis-1026",
+                        "slot_id": "w-eduvis-pap3",
                         "session_id": "workshop3b",
-                        "title": "What makes school visits to digital science centers successful?",
-                        "contributors": [
-                            "Andreas G\u00f6ransson"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Andreas G\u00f6ransson",
-                                "email": "andreas.c.goransson@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping university, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Konrad J Sch\u00f6nborn",
-                                "email": "konrad.schonborn@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "For over half a century, science centers have been key in communicating science, aiming to increase interest and curiosity in STEM, and promote lifelong learning. Science centers integrate interactive technologies like dome displays, touch tables, VR and AR for immersive learning. Visitors can explore complex phenomena, such as conducting a virtual autopsy. Also, the shift towards digitally interactive exhibits has expanded science centers beyond physical locations to virtual spaces, extending their reach into classrooms. Our investigation revealed several key factors for impactful school visits involving interactive data visualization such as full-dome movies, provide unique perspectives about vast and microscopic phenomena. Hands-on discovery allows pupils to manipulate and investigate data, leading to deeper engagement. Collaborative interaction fosters active learning through group participation. Additionally, clear curriculum connections ensure that visits are pedagogically meaningful. We propose a three-stage model for school visits. The \"Experience\" stage involves immersive visual experiences to spark interest. The \"Engagement\" stage builds on this by providing hands-on interaction with data visualization exhibits. The \"Applicate\" stage offers opportunities to apply and create using data visualization. A future goal of the model is to broaden STEM reach, enabling pupils to benefit from data visualization experiences even if they cannot visit centers.",
-                        "uid": "w-eduvis-1026",
+                        "title": "Papers Presentations and Discussion",
+                        "contributors": [],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
                         "time_stamp": "2024-10-13T16:00:00Z",
                         "time_start": "2024-10-13T16:00:00Z",
-                        "time_end": "2024-10-13T19:00:00Z",
-                        "paper_type": "workshop",
+                        "time_end": "2024-10-13T17:15:00Z",
+                        "paper_type": "",
                         "keywords": [],
                         "doi": "",
                         "fno": "",
@@ -32024,10 +32050,10 @@
                         "open_access_supplemental_link": "",
                         "preprint_link": "",
                         "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
+                        "has_image": false,
+                        "has_pdf": false,
                         "paper_award": "",
-                        "image_caption": "Example of digital science center environment at Norrk\u00f6ping Visualization Center C, Sweden. ",
+                        "image_caption": "",
                         "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
@@ -32035,76 +32061,17 @@
                         "bunny_ff_subtitles": ""
                     },
                     {
-                        "slot_id": "w-eduvis-1030",
+                        "slot_id": "w-eduvis-pres3",
                         "session_id": "workshop3b",
-                        "title": "TellUs \u2013 Leveraging the power of LLMs with visualization to benefit science centers.",
-                        "contributors": [
-                            "Lonni Besan\u00e7on"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Lonni Besan\u00e7on",
-                                "email": "lonni.besancon@gmail.com",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Mathis Brossier",
-                                "email": "mathis.brossier@liu.se",
-                                "affiliations": [
-                                    "LiU Link\u00f6ping Universitet, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Omar Mena",
-                                "email": "omar.mena@kaust.edu.sa",
-                                "affiliations": [
-                                    "King Abdullah University of Science and Technology, Thuwal, Saudi Arabia"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Erik Sund\u00e9n",
-                                "email": "erik.sunden@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Andreas G\u00f6ransson",
-                                "email": "andreas.c.goransson@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping university, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Anders Ynnerman",
-                                "email": "anders.ynnerman@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Konrad J Sch\u00f6nborn",
-                                "email": "konrad.schonborn@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "We propose to leverage the recent development in Large Language Models, in combination to data visualization software and devices in science centers and schools in order to foster more personalized learning experiences. The main goal with our endeavour is to provide to pupils and visitors the same experience they would get with a professional facilitator when interacting with data visualizations of complex scientific phenomena. We describe the results from our early prototypes and the intended implementation and testing of our idea.",
-                        "uid": "w-eduvis-1030",
-                        "time_stamp": "2024-10-13T16:00:00Z",
-                        "time_start": "2024-10-13T16:00:00Z",
+                        "title": "Discussion: Integrating AI in Data Visualization Education",
+                        "contributors": [],
+                        "authors": [],
+                        "abstract": "",
+                        "uid": "",
+                        "time_stamp": "2024-10-13T17:45:00Z",
+                        "time_start": "2024-10-13T17:45:00Z",
                         "time_end": "2024-10-13T19:00:00Z",
-                        "paper_type": "workshop",
+                        "paper_type": "",
                         "keywords": [],
                         "doi": "",
                         "fno": "",
@@ -32113,59 +32080,10 @@
                         "open_access_supplemental_link": "",
                         "preprint_link": "",
                         "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
+                        "has_image": false,
+                        "has_pdf": false,
                         "paper_award": "",
-                        "image_caption": "The portable globe that we aim to bring to schools so that students can directly ask questions to it.",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "w-eduvis-1031",
-                        "session_id": "workshop3b",
-                        "title": "What Can Educational Science Offer Visualization? A Reflective Essay",
-                        "contributors": [
-                            "Konrad Sch\u00f6nborn"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Konrad J Sch\u00f6nborn",
-                                "email": "konrad.schonborn@liu.se",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Lonni Besan\u00e7on",
-                                "email": "lonni.besancon@gmail.com",
-                                "affiliations": [
-                                    "Link\u00f6ping University, Norrk\u00f6ping, Sweden"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "In this reflective essay, we explore how educational science can be relevant for visualization research, addressing beneficial intersections between the two communities. While visualization has become integral to various areas, including education, our own ongoing collaboration has induced reflections and discussions we believe could benefit visualization research. In particular, we identify five key perspectives: surpassing traditional evaluation metrics by incorporating established educational measures; defining constructs based on existing learning and educational research frameworks; applying established cognitive theories to understand interpretation and interaction with visualizations; establishing uniform terminology across disciplines; and, fostering interdisciplinary convergence. We argue that by integrating educational research constructs, methodologies, and theories, visualization research can further pursue ecological validity and thereby improve the design and evaluation of visual tools. Our essay emphasizes the potential of intensified and systematic collaborations between educational scientists and visualization researchers to advance both fields, and in doing so craft visualization systems that support comprehension, retention, transfer, and critical thinking. We argue that this reflective essay serves as a first point of departure for initiating dialogue that, we hope, could help further connect educational science and visualization, by proposing future empirical studies that take advantage of interdisciplinary approaches of mutual gain to both communities.",
-                        "uid": "w-eduvis-1031",
-                        "time_stamp": "2024-10-13T16:00:00Z",
-                        "time_start": "2024-10-13T16:00:00Z",
-                        "time_end": "2024-10-13T19:00:00Z",
-                        "paper_type": "workshop",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "https://osf.io/preprints/osf/8jbmz",
-                        "accessible_pdf": false,
-                        "has_image": true,
-                        "has_pdf": true,
-                        "paper_award": "",
-                        "image_caption": "In this reflective essay, we explore how educational science can be relevant for visualization research, addressing beneficial intersections between the two communities.",
+                        "image_caption": "",
                         "external_paper_link": "",
                         "youtube_ff_link": "",
                         "youtube_ff_id": "",
@@ -32442,67 +32360,14 @@
             }
         ]
     },
-    "v-test": {
-        "event": "Test Event",
-        "long_name": "Test Event",
-        "event_type": "conf",
-        "event_prefix": "v-test",
+    "v-tvcg": {
+        "event": "TVCG Invited Partnership Presentations",
+        "long_name": "TVCG Invited Partnership Presentations",
+        "event_type": "invited",
+        "event_prefix": "v-tvcg",
         "event_description": "",
-        "event_url": "https://ieeevis.org/year/2024/program/event_v-test.html",
-        "organizers": [
-            "Ahhhh"
-        ],
-        "sessions": [
-            {
-                "title": "IEEE VIS Test Session 1",
-                "session_id": "test1",
-                "event_prefix": "v-test",
-                "track": "bayshoreplenary",
-                "room_name": "Bayshore I + II + III",
-                "session_image": "test1.png",
-                "chair": [
-                    "Chair 1"
-                ],
-                "time_start": "2024-10-12T03:05:00Z",
-                "time_end": "2024-10-12T03:20:00Z",
-                "discord_category": "",
-                "discord_channel": "bayshore-plenary",
-                "discord_channel_id": "1288497488373878814",
-                "discord_link": "https://discord.com/channels/1286338967674818684/1288497488373878814",
-                "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=43e92f7c-6286-4fc8-bf30-a7684df15f6b",
-                "zoom_private_meeting": "",
-                "zoom_private_password": "",
-                "zoom_private_link": "",
-                "youtube_url": "https://youtu.be/TVvx0dcfGl0",
-                "youtube_id": "TVvx0dcfGl0",
-                "ff_link": "",
-                "time_slots": []
-            },
-            {
-                "title": "IEEE VIS Test Session 2",
-                "session_id": "test2",
-                "event_prefix": "v-test",
-                "track": "bayshoreplenary",
-                "room_name": "Bayshore I + II + III",
-                "session_image": "test2.png",
-                "chair": [
-                    "Chair 1"
-                ],
-                "time_start": "2024-10-12T03:25:00Z",
-                "time_end": "2024-10-12T03:40:00Z",
-                "discord_category": "",
-                "discord_channel": "bayshore-plenary",
-                "discord_channel_id": "1288497488373878814",
-                "discord_link": "https://discord.com/channels/1286338967674818684/1288497488373878814",
-                "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=43e92f7c-6286-4fc8-bf30-a7684df15f6b",
-                "zoom_private_meeting": "",
-                "zoom_private_password": "",
-                "zoom_private_link": "",
-                "youtube_url": "https://youtu.be/4olQFZjPaKw",
-                "youtube_id": "4olQFZjPaKw",
-                "ff_link": "",
-                "time_slots": []
-            }
-        ]
+        "event_url": "",
+        "organizers": [],
+        "sessions": []
     }
 }
