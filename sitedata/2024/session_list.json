@@ -584,8 +584,8 @@
                         "paper_award": "best",
                         "image_caption": "A series of overlapping circles that are made up of four concentric circles. The inner circle is labeled the knowledge artifact, then entanglements with phenomenon, then entanglements with apparatus, then entanglements. These concentric circles overlap in a wave of entanglements and cover topics listed as: data, vis, insight, power, conventions, technology, history, processes, materiality, people, society, design, labor, politics, ethics, places.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/x-XyV4J73t4",
+                        "youtube_ff_id": "x-XyV4J73t4",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1077/v-full-1077_Preview.mp4?token=6NSXfqcdZIqgeto12eTKiolmd1ailFSS5Ylrv9WGhQA&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -651,8 +651,8 @@
                         "paper_award": "best",
                         "image_caption": "Live-cell microscopy imaging results in multimodal data composed of trees, time-series, and images. The visualization system Aardvark combines these data modalities into composite visualizations. The tree-first visualization (left) shows the cell relationships as a node-link tree visualization, horizon charts show the time series data and image snippets display alongside the horizon charts. The time-series-first visualization (top right) shows the time-series data as line charts with images and cell relationships superimposed. Finally, the image-first visualization (bottom right) shows the full microscopy image, with cell movement and relationships superimposed.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/5kVue1ySnOk",
+                        "youtube_ff_id": "5kVue1ySnOk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1232/v-full-1232_Preview.mp4?token=LCnEMjUCrDIXrJNKZSfQPb2d5F8T_eckC8Qqrdxmxa0&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -726,8 +726,8 @@
                         "paper_award": "best",
                         "image_caption": "Examples of visualization issues detected by VisEval: Llama (CodeLlama-7B) produces code that cannot be executed, while Gemini (Gemini-Pro) incorrectly maps the \"sum of Tonnage\" to the y-axis instead of \"count\" and lacks a legend for the \"Cargo ship\" color. GPT-3.5 fails to sort as specified and places the legend outside the canvas. Although GPT-4 almost meets the requirements, it still encounters overflow issues that impact readability.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/lKkg-pUufh8",
+                        "youtube_ff_id": "lKkg-pUufh8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1332/v-full-1332_Preview.mp4?token=tbykaWmlhAAS8qHK-3sM9HAod8Q6W5G5TKF9TC0sT64&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -1011,8 +1011,8 @@
                         "paper_award": "",
                         "image_caption": "System user interface. The interface contains two views: a navigation view (A) and an investigation view (B). The navigation view consists of a squad board (A1) to navigate players will be replaced and a player ranking list (A2) to compare players by personal information and performances. The investigation view includes an on-ball tactic list (B1) for exploring essential on-ball tactics, a player record list (B2) to compare players' simulated actions under a certain on-ball tactic, and a simulated action map (B3) to display players' detailed simulated actions.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/p07D01bK_fs",
+                        "youtube_ff_id": "p07D01bK_fs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1031/v-full-1031_Preview.mp4?token=lZJeB6Xf0ge_YdGbBTun3RHwlGjYyPFmJbqOYHb7olQ&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1031/v-full-1031_Preview.srt?token=ioob5IkjvKKKvgqxCtdJinqPHLJNypauW9vO7Yg4uxw&expires=1730433600"
                     },
@@ -1110,8 +1110,8 @@
                         "paper_award": "",
                         "image_caption": "The system interface of Smartboard. (A) The chat view provides system feedback and enhances communication between users and the system through tag selections and open-question answering. (B) The setup view provides interactions during tactical setup with tactics sketching, matchup analysis, and situation retrieval. (C) The simulation view presents the coach agent's recommended tactics, along with explanations and evaluations in both overview and detail. (D) The history view records users' tactics and provides the classic tactics for starting exploration.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/LQ89KZHc_uY",
+                        "youtube_ff_id": "LQ89KZHc_uY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1099/v-full-1099_Preview.mp4?token=EIieXd4BF-80sryrgj0510wUCzzsyFdEgrbI1J5DqPY&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -1177,8 +1177,8 @@
                         "paper_award": "",
                         "image_caption": "Sportify explains tactic questions in each clip for everyone, aiming to engage users and foster a love for sports. We integrate embedded visualization and personified narratives generated by large language model (LLM) to elucidate a complex series of actions through action detection, tactic classifier, and LLM pipelines.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/IZil979U9UQ",
+                        "youtube_ff_id": "IZil979U9UQ",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1351/v-full-1351_Preview.mp4?token=bIGHDjLkrgJQpolXS_FEYprMGOPhEwvYQLjlBgRYK6Y&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1351/v-full-1351_Preview.srt?token=L7wsQyu7e4q3byPVBl_dcO_CathD-9_Gwi7yGt8AKvk&expires=1730433600"
                     },
@@ -1510,8 +1510,8 @@
                         "paper_award": "",
                         "image_caption": "How do you know when what you\u2019ve done is right? Visualization linters provide concrete feedback about chart designs, but so far they have had interface issues that have limited their usefulness. This work introduces a linter (PaletteLint) for color palettes (and a GUI called Color Buddy, pictured here) that explores ways to deal with these issues.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/CY7ycxWmLkw",
+                        "youtube_ff_id": "CY7ycxWmLkw",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1290/v-full-1290_Preview.mp4?token=NkJBbD0Gt1xNNy93YGu-u2bvj6CkT8d0wcJdXjEMsHY&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1290/v-full-1290_Preview.srt?token=mgzxzUfCmwcweO_V8-7UDRSbREJDumR1vwvE7SA5do0&expires=1730433600"
                     },
@@ -1900,8 +1900,8 @@
                         "paper_award": "honorable",
                         "image_caption": "Our work seeks to elevate text as a first-class citizen in dashboards. From a survey and analysis of 190 dashboards and interview feedback from 13 experts, we (a) highlight current dashboard text practices, (b) propose and validate recommended practices as a set of 12 heuristics for dashboard text, and (c) outline opportunities for future research to take dashboard text to the next level.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/OZmdwGmz1BI",
+                        "youtube_ff_id": "OZmdwGmz1BI",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1060/v-full-1060_Preview.mp4?token=piuK0GmI2L8BDBH612TjHAs-Q5a4a9J1XrqK1pw0boM&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1060/v-full-1060_Preview.srt?token=pP4Qpqztv-Lw1dRZpbJq792fxgCsh957Fu9fquq0v9A&expires=1730433600"
                     },
@@ -1980,8 +1980,8 @@
                         "paper_award": "",
                         "image_caption": "A line chart from The Washington Post illustrates COVID-19 peak comparisons, plotting time on the horizontal axis and percentage growth relative to the January 2021 peak vertically: top-left shows the baseline chart with basic visualization elements (i.e., axes, labels, lines, legends, and gridlines) but with annotations removed; top-right uses color+enclosure+text ensembles of annotations to help identify the peaks of different COVID-19 waves; bottom-left uses text+connector ensembles to present additional context from the associated article; and bottom-right displays the completely annotated chart.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/UiheOlbONP0",
+                        "youtube_ff_id": "UiheOlbONP0",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1295/v-full-1295_Preview.mp4?token=_i10nu4OVfcDWUUNBh5WygxjQbR6zDtTaRFQ2SYbFSA&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1295/v-full-1295_Preview.srt?token=vDAxRPdIju68mPl5pEWvJRetZ5qX4nU96y3icPRXq8g&expires=1730433600"
                     },
@@ -2057,8 +2057,8 @@
                         "paper_award": "",
                         "image_caption": "image_VisualMetaphors This image illustrates our process (from left to right) for identifying and classifying visual conceptual metaphors in scientific infographics: 1) deconstruct a given infographic to its component graphics, 2) identify component graphics as visual conceptual metaphors versus visual abstractions, 3) classify the conceptual metaphor type (structural, ontological, orientational, or imagistic), and 4) provide infographic metadata and classify the spatiotemporal scale of the phenomenon visualized to enable detailed investigation in our Visual Exploratory Tool. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/vydQsSgBECk",
+                        "youtube_ff_id": "vydQsSgBECk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1316/v-full-1316_Preview.mp4?token=aom1JV67M5JX6eNDgcArCWIG3btpoAxnO5PPvGZrCZI&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -2316,8 +2316,8 @@
                         "paper_award": "",
                         "image_caption": "An illustration of the application scenario for this work, participatory budgeting in Chicago. We investigate the roles that visualization can play in voting on how municipal funding should be spent on neighborhood projects and reporting results of the participatory budgeting vote to stakeholders.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Uwwba1Z9EbE",
+                        "youtube_ff_id": "Uwwba1Z9EbE",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1281/v-full-1281_Preview.mp4?token=y9YINAlWfIcoFGqsDl8_Cv6p7SfGysnOf5tLybgHOTU&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1281/v-full-1281_Preview.srt?token=dmpHsfpn5XSrgmXauP9Z0qWOGW45CNrthyZEpM3D2o0&expires=1730433600"
                     },
@@ -2375,8 +2375,8 @@
                         "paper_award": "",
                         "image_caption": "Defogger augments the ability of humans to explore and gain increased value from data while adhering to constraints of Differential privacy.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/BDNvBU24Hls",
+                        "youtube_ff_id": "BDNvBU24Hls",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1438/v-full-1438_Preview.mp4?token=uETUHjyLsHeNXUZg0czlJ92MqaE_uZaICE3o3vENo_A&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1438/v-full-1438_Preview.srt?token=YKeChoR-RmVNNjhdT2CpXwuYLiFnaKF2TXQe5ZTWlYE&expires=1730433600"
                     },
@@ -2443,8 +2443,8 @@
                         "paper_award": "",
                         "image_caption": "An overview of the paper 'Visualization Atlases: Explaining and Exploring Complex Topics through Data, Visualization, and Narration' by Jinrui Wang, Xinhuan Shu, Benjamin Bach, and Ute Hinrichs, featuring a backdrop of selected covers from the visualization atlas cases analyzed in the survey.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/S5Pi7FB5Eek",
+                        "youtube_ff_id": "S5Pi7FB5Eek",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1446/v-full-1446_Preview.mp4?token=gK7iNaMwM5fAFvMQve39FBaxshqihdeh3jM1dP0VQ34&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1446/v-full-1446_Preview.srt?token=amVtBvItJPrjZfE4PpsooM1gYrfxFwUYBhJAnKT5w2c&expires=1730433600"
                     },
@@ -2772,8 +2772,8 @@
                         "paper_award": "",
                         "image_caption": "PhenoFlow empowers neurologists to explore large and complex stroke datasets with reduced cognitive load. (A) The cohort construction component allows neurologists to define target cohorts using natural language. (B) The Visual Inspection View provides plain-language explanations and small multiples of relevant fields to debug LLM data wrangler behavior. (C) The Cohort View summarizes (C1) cohort relationships in a node-link diagram and (C2) each patient's blood pressure (BP) trajectories as matrix visualization. (C3) Natural language filtering supports iterative cohort exploration. (D1) Linear bar charts and (D2) slice-and-wrap visualization present BP trajectories as time-series, revealing triangular patterns in irregularly measured BP data.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/K9vSYLsemPM",
+                        "youtube_ff_id": "K9vSYLsemPM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1121/v-full-1121_Preview.mp4?token=lSkRirWnWHhBzgGO2eXgj7s4VeGJqJXdwF--jEY_GC8&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1121/v-full-1121_Preview.srt?token=hwvYBVFbHn0wLpZURC3KYGxqDt__oD8g1j19mCZQKZk&expires=1730433600"
                     },
@@ -2839,8 +2839,8 @@
                         "paper_award": "",
                         "image_caption": "Bubble Plot, the key visualization in Awesum, designed to show prompt performance. Yellow curves suggest improvements, and purple curves suggest deterioration. The image suggests a mixed performance. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/H4QzA6XFPFs",
+                        "youtube_ff_id": "H4QzA6XFPFs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1474/v-full-1474_Preview.mp4?token=8Hfco-UGUujuyZG-6mVef9LTBGpU15pw5Etlf-Jd148&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1474/v-full-1474_Preview.srt?token=BJaRDhTR-831s4wGTxWJtiiJw0QfZMYQkc2ymh0z7nY&expires=1730433600"
                     },
@@ -3248,8 +3248,8 @@
                         "paper_award": "honorable",
                         "image_caption": "The interface of AdversaFlow includes a Control Panel (A) to configure model parameters and adjust data sampling, an Embedding View (B) to show the projection of prompts, a Metric Monitor (C) displaying the key performance indicators of the model, an Adversarial Flow to facilitate multi-level exploration of models, an Instance List (E) showing prompt details, and a Flucutaion View (F) for the investigation of token-level uncertainty.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/NWnvzefxILM",
+                        "youtube_ff_id": "NWnvzefxILM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1067/v-full-1067_Preview.mp4?token=WdJwebGqoxqRl2J3o3aTwy7jdlbRADEynOHmmZ55jE4&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -3363,8 +3363,8 @@
                         "paper_award": "",
                         "image_caption": "In applying workflow to Self-Regulated Learning (SRL) in education, we outline the process in three phases. Phase 1 involves establishing a fundamental understanding of the SRL task (A1) and collecting data on artificial intelligence (A2). The design requirements (B) align with the design requirements. Phase 2 details the SRL pipeline sub-tasks and visualizations (C1), leading to the creation of fine-tuning data (C2). In phase 3, we enhance the fine-tuning effects and visualization interactions by integrating user feedback within the visualization system. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/KR_r6ARzzx0",
+                        "youtube_ff_id": "KR_r6ARzzx0",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1096/v-full-1096_Preview.mp4?token=SgWKRslsK3PCv0V7DHhhG02KJ8saIlA87RUWJ-i9jKg&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -3431,8 +3431,8 @@
                         "paper_award": "",
                         "image_caption": "Comparison of our model with state-of-the-art MLLMs on chart question answering. Existing MLLMs often fail to understand visual mappings, such as inverted Y-axis, truncated axis, bubble sizing, and area stacking. In contrast, our model, trained with the visualization-referenced dataset we constructed, showcases a better understanding of visualization domain knowledge.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/fiE38Zyk9VY",
+                        "youtube_ff_id": "fiE38Zyk9VY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1193/v-full-1193_Preview.mp4?token=g7956VuPuX9qXmOO9QhCifFhYpHqQxRR8sdHM3xSlXQ&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1193/v-full-1193_Preview.srt?token=3nmqQ4mX2ixqqnQRhaSQNz-6xKRYFtzLC9_Vv-EOzcg&expires=1730433600"
                     },
@@ -3546,8 +3546,8 @@
                         "paper_award": "",
                         "image_caption": "LLM Comparator is a visual analytics tool consisting of multiple views: an interactive table which displays individual prompts and model responses, and a visualization summary which comprises multiple panels, including score distribution, metrics by prompt category, rationale clusters, n-grams, and custom functions.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/DVHN9srNTkk",
+                        "youtube_ff_id": "DVHN9srNTkk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1326/v-full-1326_Preview.mp4?token=GYD8fWb2Fu3OrvKSiArk2XzM-LoMhtGk3WbHqeN0LKM&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1326/v-full-1326_Preview.srt?token=TQ8-neIoCwJpayqgGoorO3YdwC5UL97fg-L_QNP5Qr0&expires=1730433600"
                     },
@@ -4324,8 +4324,8 @@
                         "paper_award": "",
                         "image_caption": "This image shows the five cases that represent the idea of our paper: Using embodied interaction to create composite visualization in immersive environments.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/vngAibFJrlE",
+                        "youtube_ff_id": "vngAibFJrlE",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1150/v-full-1150_Preview.mp4?token=3zcKF5eUe8oDzLwVnn2EnfyD7Lz5z_AI81xkAMxN1Ew&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1150/v-full-1150_Preview.srt?token=BgC1E4VgKY7PVi-dOg8GTMXH_hLldpvlolB0BK8D9-E&expires=1730433600"
                     },
@@ -4730,8 +4730,8 @@
                         "paper_award": "",
                         "image_caption": "StyleRF-VolVis is an innovative style transfer framework based on the neural radiance field for expressive volume visualization. This framework contains three components: a base NeRF model for ensuring accurate geometry reconstruction, a palette color network to support photorealistic style editing, and an unrestricted color network to achieve non-photorealistic style editing. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/TTUmK5WKV_w",
+                        "youtube_ff_id": "TTUmK5WKV_w",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1391/v-full-1391_Preview.mp4?token=ITGmgaQ31HqudY__3ys3icjyOy8ieyvto0Z2lDmm_8A&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -4821,8 +4821,8 @@
                         "paper_award": "",
                         "image_caption": "ParamsDrag is a surrogate model developed to enhance the exploration of parameter spaces through direct interaction with visualizations. It allows scientists to intuitively manipulate a feature of interest by dragging it to a desired location within a visualization, subsequently generating the corresponding image. Additionally, ParamsDrag can retrieve the simulation parameters that led to the generation of the selected image, thereby streamlining the process of parameter identification and adjustment.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/qD2sZpl6UHU",
+                        "youtube_ff_id": "qD2sZpl6UHU",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1427/v-full-1427_Preview.mp4?token=QuVb7a5FWGuhagCSddIouToS9sigElvTzOsQLahtvBE&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1427/v-full-1427_Preview.srt?token=T679EKpxR4eqH0-ZThnkpZDa5UXR34a61w341c6xiPk&expires=1730433600"
                     },
@@ -5162,8 +5162,8 @@
                         "paper_award": "",
                         "image_caption": "We propose Pattern Explainer to help analysts who are unfamiliar with network visualizations learn about visual patterns in the representation of their data. Looking at the visualization, a user spots a visual pattern of interest, e.g. a \u201cbug\u201d-looking pattern in the matrix. To inquire about whether this pattern is meaningful, the user selects the area. Pattern Explainer then automatically mines the selection, against a dictionary of network motifs, and provides the user with explanations of what underlying network patterns the visual pattern reveals.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/XYAcTewN_E8",
+                        "youtube_ff_id": "XYAcTewN_E8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1185/v-full-1185_Preview.mp4?token=Cgmabne65gfCNXK-NMIeiuk8fYX4EieVqafAEjZboQ8&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1185/v-full-1185_Preview.srt?token=QBN_50P54Pb6D33gG6W1ws6A2HHVjLAE4HfhX4NEALs&expires=1730433600"
                     },
@@ -5640,8 +5640,8 @@
                         "paper_award": "",
                         "image_caption": "D-Tour Prototype Authoring Mode. Authors pick (a) automatically extracted visualization categories, General, Insight, or Interaction from the Content Extraction View and drag them to the Content Arrangement View, where they (b) arrange them, (b.1) thus crafting a tour and (b.2) adding explanations to the tour content. In the Dissemination View they (c) test changes before disseminating them. A selection of the Column Chart General in the Content Extraction View is shown which is highlighted in the Content Arrangement View and in the Dissemination View. Its associated content can be seen in (b.2)",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/S6366DrJQTs",
+                        "youtube_ff_id": "S6366DrJQTs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1395/v-full-1395_Preview.mp4?token=V1XLccn7O78RyqyQxzrfDBtx39_DAamtvybdh6UTnM0&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -5699,8 +5699,8 @@
                         "paper_award": "honorable",
                         "image_caption": "We present Manipulable Semantic Components (MSC), a computational representation of data visualization scenes. MSC consists of two parts: a unified object model describing the structure of a visualization scene, and a set of operations to generate and modify the scene components. We demonstrate the benefits of MSC in three case studies.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/4IYhlRFnM64",
+                        "youtube_ff_id": "4IYhlRFnM64",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1416/v-full-1416_Preview.mp4?token=KRrGLYZSqDhpGaEVGwui2BSZujcpuzBKO2MyQZHZ4OU&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1416/v-full-1416_Preview.srt?token=A1hctGLK3p57jh9I2IfrtOvzUOMN5Es0ScMbfjuDbR4&expires=1730433600"
                     },
@@ -5766,8 +5766,8 @@
                         "paper_award": "",
                         "image_caption": "DracoGPT is a method for extracting, modeling, and assessing visualization design preferences from LLMs. We develop two pipelines--DracoGPT-Rank and DracoGPT-Recommend--to model LLMs prompted to either rank or recommend visual encoding specifications. We use Draco as a shared knowledge base in which to represent LLM design preferences and compare them to best practices from empirical research. The image shown summarizes the pipeline for DracoGPT-Rank.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Y-lg3iu3-o4",
+                        "youtube_ff_id": "Y-lg3iu3-o4",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1472/v-full-1472_Preview.mp4?token=kwZ9vXZXTmgiZroZv-H25sDIQX0qQpBLBTsHkJ0-Xw8&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -6062,8 +6062,8 @@
                         "paper_award": "",
                         "image_caption": "Overview of DITTO. (A) Input panel to alter model parameters and input patient features. (B) Temporal outcome risk plots for the patient based on different models and treatment groups. (C) Treatment recommendation based on the twin model and similar patients. (D) Auxiliary data panel, currently showing a waterfall plot of how each feature cumulatively contributes to the model decision.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/4AmQkVSrVdE",
+                        "youtube_ff_id": "4AmQkVSrVdE",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1059/v-full-1059_Preview.mp4?token=36Loh-7OLpLaxVBBBoJ5FVLn6dJxoh991w5oHDdNbKQ&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -6521,8 +6521,8 @@
                         "paper_award": "",
                         "image_caption": "Results of participant-rated causal relationships for 56 concept pairs from open-source datasets. Participants rated the causal impact of X on Y for each pair on a scale of 1 to 5. The Y-axis in (a) shows these scores, ordered by mean causal relation on the X-axis with 95% confidence intervals. The light blue band represents the mean score +/- one standard deviation (SD). Vertical dashed lines indicate low (<mean-SD) and high (>mean+SD) causal priors. (b) presents heat maps for four example pairs, showing participant scores. The study highlights the variability in causal priors and their impact on visualization interpretation.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/-9MypSwTv8w",
+                        "youtube_ff_id": "-9MypSwTv8w",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1100/v-full-1100_Preview.mp4?token=-tczNKjms6dku05m_c2tjjPtjHG0S_SDlRk3Z_2yHXI&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1100/v-full-1100_Preview.srt?token=ovnAtbhGlSfYKYC6CnnCq5286IIhpEuvR4Hq-UFGsoI&expires=1730433600"
                     },
@@ -6580,8 +6580,8 @@
                         "paper_award": "",
                         "image_caption": "We replicated the Dunning-Kruger Effect (DKE) across tasks involving visual reasoning and judgment. We observed a typical DKE pattern, where highly skilled people tend to underestimate their performance, while those with lower skills often overestimate it. Additionally, we explored potential indicators of DKE, including participants\u2019 interactions, personality traits, and domain familiarity, and identified several factors related to DKE.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/-paNXRpqH1E",
+                        "youtube_ff_id": "-paNXRpqH1E",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1202/v-full-1202_Preview.mp4?token=1Usg6-YU7WtR6uxtp0I104Kebbawx3X1E4TIwbqbnMI&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1202/v-full-1202_Preview.srt?token=nKO3RkoaNQ_z7MQ987vVLVedXUQgyfEKL8JUDHrbopY&expires=1730433600"
                     },
@@ -6640,8 +6640,8 @@
                         "paper_award": "",
                         "image_caption": "In this paper, we compare the ability of humans and statistical models to characterize the mean and uncertainty of the data-generating model based on visualized samples. Our results indicate that humans can outperform statistical models when faced with extreme samples. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/bj8YXso5ly0",
+                        "youtube_ff_id": "bj8YXso5ly0",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1256/v-full-1256_Preview.mp4?token=ilWiqf4xF0Ne1wq9zXyw97jLPCm2BTpcsVHohWb1yEI&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -6900,8 +6900,8 @@
                         "paper_award": "",
                         "image_caption": "Compress and Compare helps ML practitioners analyze and compare compression experiments. The Model Map helps practitioners understand what experiments were run and find high-performing sequences of operations, while the Model Scatterplot and Selection Details views help compare accuracy and efficiency metrics quantitatively. Our paper describes the challenges that Compress and Compare addresses, how we designed the system, and a study with eight experts demonstrating its potential to support compression workflows.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/5tS7HFn5W6Y",
+                        "youtube_ff_id": "5tS7HFn5W6Y",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1142/v-full-1142_Preview.mp4?token=7bLX7TtYd-7Di9wJoeHtOTxkKehZFEDVJj3D4r93Uoo&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1142/v-full-1142_Preview.srt?token=sApfAyEMxtKgQ5SzPXgHjhpIke2I3KKtKRVsbusIKtk&expires=1730433600"
                     },
@@ -6967,8 +6967,8 @@
                         "paper_award": "",
                         "image_caption": "We introduce ParetoTracker, a visual analytics framework designed to illustrate the dynamics of population generations within evolutionary processes of MOEAs, which consists of three main components: Performance Overview and Generation Statistics (A) Visual Exploration of Individuals among Generations (B) In-depth Visual Inspection of Operators (C).",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/iExTSj-IaHc",
+                        "youtube_ff_id": "iExTSj-IaHc",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1179/v-full-1179_Preview.mp4?token=HiWFcD9cnvwRDeNVeu8K30udpLarCgMmf95DedtPB38&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -7026,8 +7026,8 @@
                         "paper_award": "honorable",
                         "image_caption": "The proposed counterfactual guidance technique is compared with traditional correlation-based guidance through five scenarios. Using the example question \"Will coffee drinking cause differences in students' grades?\", an analyst might compare data based on coffee consumption and grade distributions. The leftmost column lists the subsets created, and charts illustrate five potential distribution combinations (a-e), suggesting different answers. Symbols at the bottom indicate which methods accurately interpret the data. Counterfactual-based approaches have advantages in two scenarios and perform equally in the other three.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/xFxX4tX8KKM",
+                        "youtube_ff_id": "xFxX4tX8KKM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1258/v-full-1258_Preview.mp4?token=VYZkWSazuZO9S5NwEeptlwzOFMY2nnIEGDfaeGEKwyY&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1258/v-full-1258_Preview.srt?token=pMJxvpJBUzRXIXcEYTAns27ai8gHIQp3yOwkNGtXc58&expires=1730433600"
                     },
@@ -7093,8 +7093,8 @@
                         "paper_award": "",
                         "image_caption": "Example model check visualizations authored with VMC, using data from [ 46 ]. From left to right: checks on the density curves of the distributions of model predictions and observed data from (A) response variable to (B) distributional parameter; follow-up checks conditional on the quantitative predictor, where VMC is used to specify (C) Hypothetical Outcome Plots and (D) a line + ribbon plot; (E) a facet check stratifying the random effects and (F) a multilevel check; more checks for the random effects specified by VMC, including (G) raincloud plots and (H) multiple-interval plots; and residual checks specified by VMC, including (I) residual plots revealing the heteroskedasticity of the model and (J) Q-Q plots, validating the normality of residuals.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/OqNLDTwT7DY",
+                        "youtube_ff_id": "OqNLDTwT7DY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1309/v-full-1309_Preview.mp4?token=_d8vt5BoHauPleUOak6d14mJ7U4ji1klBajeDY0bUv0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1309/v-full-1309_Preview.srt?token=rWwzC9Gl8Y-pZxPODj45nY8nXCPwX6GWxHTDBCMvW5k&expires=1730433600"
                     },
@@ -7329,8 +7329,8 @@
                         "paper_award": "",
                         "image_caption": "The main components of VISID comprise an Individual View (upper) and a Comparison View (lower). The Individual View can be alternated to visualize: (a) a participant's attribute change and interaction event sequences, or (b) their interface event sequences representing the concurrently opened infopanels and their lifetime duration. The Comparison View consists of three parts. From left to right, it visualizes interaction sequences ranked by the similarity score to a baseline participant in descending order. The similarity score bars and delta values (middle) depict the similarity/dissimilarity with respect to the baseline participant. The Cluster View (right) shows potential clusters of similar participants.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/H9JJoBZBGNk",
+                        "youtube_ff_id": "H9JJoBZBGNk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1026/v-full-1026_Preview.mp4?token=MfxoMMoKp4WxUS5LilcXPAr5s9n5tgd6GhmKH7e3Zp4&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1026/v-full-1026_Preview.srt?token=NwPulJzqSk6dZeJQIrKFDRhPWCOLO7ikFkIqpCl5Pxg&expires=1730433600"
                     },
@@ -7759,8 +7759,8 @@
                         "paper_award": "honorable",
                         "image_caption": "Data physicalizations provide many potential benefits over digital data displays, including haptic perception and body-centric judgments. This paper compares the effectiveness of physicalizations (left) with virtual reality (right top) and 2D visualizations (right bottom) for spatial data analysis tasks on digital elevation data common in climate science and natural resource management.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/84IvcxzBg7U",
+                        "youtube_ff_id": "84IvcxzBg7U",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1137/v-full-1137_Preview.mp4?token=MHGa74Psew6hZ1UpP2QgZ6SX6fMiKuMe3Ls2xjCriw0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1137/v-full-1137_Preview.srt?token=2ogKNpPzr0iJqMqzl-UOMt0D9wnbWfzqVxHbCvsqisU&expires=1730433600"
                     },
@@ -8219,8 +8219,8 @@
                         "paper_award": "honorable",
                         "image_caption": "Two people standing in front of the wall display; one person is moving a group of selected documents by dragging a stack of them with the index finger while the other one observes.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/-xq224J5umc",
+                        "youtube_ff_id": "-xq224J5umc",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1302/v-full-1302_Preview.mp4?token=X7Rtn5_FSND2OZ7n5tcNS3dGX4peJ_l1b467_T1gcoo&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1302/v-full-1302_Preview.srt?token=g_tsHKQ3ALZ2lV4XhlpYWC82NHAFsoAG6MIV-xB4iu0&expires=1730433600"
                     },
@@ -8311,8 +8311,8 @@
                         "paper_award": "",
                         "image_caption": "We developed StuGPTViz, a visual analytics system designed to analyze and compare student interactions with ChatGPT in a master's-level data visualization course. By categorizing prompts and responses using a coding scheme grounded in literature on cognitive levels and thematic analysis, the system reveals key patterns and insights. Validated through expert interviews and case studies, StuGPTViz enhances educators' understanding of ChatGPT's pedagogical value, demonstrating the potential of visual analytics to drive AI-driven personalized learning and improve educational outcomes.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/r4bxhQuXqIM",
+                        "youtube_ff_id": "r4bxhQuXqIM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1329/v-full-1329_Preview.mp4?token=3rbgGFvDtMShBC9lwJqoPby4KLpDPaQSfRuudFGzbmo&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1329/v-full-1329_Preview.srt?token=Vu9ILrtMjr886gOJFjLuEkfBzp_gBW8c7A3hd4MdWxQ&expires=1730433600"
                     },
@@ -8386,8 +8386,8 @@
                         "paper_award": "",
                         "image_caption": "SLInterpreter, based on an iterative Human-AI collaboration framework, aims at 1) Human-Engaged Knowledge Graph Refinement based on Metapath Strategies and 2) Cross-Granularity SL Interpretation Enhancement and Mechanism Analysis for domain experts. Domain experts explore new SL pairs using interpretive paths generated by a model trained on the entire data. Irrelevant or incorrect paths that may introduce noise are eliminated from the KG using appropriate metapath strategies. Subsequently, the model retrains, allowing domain experts to iteratively scrutinize predictions and interpretive paths, refining the KG. This iterative process optimizes predictions and mechanism exploration, enhancing expert participation and intervention, leading to increased trust. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/eaCCRPrMxk8",
+                        "youtube_ff_id": "eaCCRPrMxk8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1368/v-full-1368_Preview.mp4?token=2pjLZ8kfmwZTY5NRT1gcmw7TYjbBieYXXm59fK4BgU0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1368/v-full-1368_Preview.srt?token=m4Eev96u53ePZ8jNtMBDWEOvYZGzxUCUmnR8PHCT350&expires=1730433600"
                     },
@@ -8636,8 +8636,8 @@
                         "paper_award": "",
                         "image_caption": "The DeLVE visualization software, displaying the dataset of past events in biological and geological history, as deployed at a biology museum. The data is visualized across multiple scales using our novel Connected Multi-Tier Ranges idiom.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/LoSRYmcllmY",
+                        "youtube_ff_id": "LoSRYmcllmY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1063/v-full-1063_Preview.mp4?token=imowDK921MoWpId_cyY984Z_zSeJnC13Qem8GS3ciF0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1063/v-full-1063_Preview.srt?token=qJtfNNpAEr4S1t3_WdJqLeMQXxxliYqfkZaDzb_89Gc&expires=1730433600"
                     },
@@ -8695,8 +8695,8 @@
                         "paper_award": "",
                         "image_caption": "Applying the Hero's Journey as a framework for creating data videos, we organize a design space into three segments (i.e., Departure, Initiation, Return), grounded in the narrative structure of the Hero's Journey. The Departure has six narrative stages, the Initiation has seven narrative stages, and the Return has four narrative stages. Each narrative stage is equipped with corresponding sound design and visual design.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/IXwVnOl8OAo",
+                        "youtube_ff_id": "IXwVnOl8OAo",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1333/v-full-1333_Preview.mp4?token=fETBO1EkdBunsDoPRjp9sEM_y_dQMiu_zH8vQNcA_3E&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -8786,8 +8786,8 @@
                         "paper_award": "",
                         "image_caption": "DG Comics offers a Summary View that facilitates the automatic generation of comic templates, sliders for filtering and highlighting nodes, a Graph Comic View for editing the graph comic, and Main Character and Supporting Character tables for managing nodes. It also includes a Timeline View for exploring graph snapshots. Users can switch to the Node Attribute Table to select specific main characters or to the Community View to inspect the evolution of node relationships. The tool supports (M) mental map preservation by fixing nodes across displays and visualizes (O) community changes using bubble sets.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/qzU1QLDM4zs",
+                        "youtube_ff_id": "qzU1QLDM4zs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1425/v-full-1425_Preview.mp4?token=k2gdCk90u5wFDpzx5zb2D4M_tSdgJgLIUBwsRlEFYB0&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -9044,7 +9044,7 @@
                 "room_name": "Bayshore II",
                 "session_image": "full26.png",
                 "chair": [
-                    "Bernhard Preim"
+                    "Tamara Munzner"
                 ],
                 "time_start": "2024-10-16T16:00:00Z",
                 "time_end": "2024-10-16T17:15:00Z",
@@ -9114,8 +9114,8 @@
                         "paper_award": "",
                         "image_caption": "We study the effects of one visual feature (zebra stripping, top right) and two visual encodings (color shading, bottom left, and data bars, bottom right) on the readability of numeric data tables, compared to a plain table (top left).",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/U-KVskuEvz8",
+                        "youtube_ff_id": "U-KVskuEvz8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1288/v-full-1288_Preview.mp4?token=WrBIX_ELfQf5Wq5HyVgAdJ-Km4gCT2hW7QnwqnMe4og&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -9175,8 +9175,8 @@
                         "paper_award": "",
                         "image_caption": "We quantify through five studies the effects of color (Study 1 and Study 2), chart type (Study 3, Study 4, and Study 5), data trend (Study 2 and Study 3), data variance (Study 4), and data density (Study 5) on emotion (measured through arousal and valence ratings using the Self-Assessment Manikin scale).",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Hht8iAtJ40w",
+                        "youtube_ff_id": "Hht8iAtJ40w",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1291/v-full-1291_Preview.mp4?token=libWQ7VS7pdmjYQyKZ3-lnWX54SUtumA-g-Tno70Egk&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -9251,8 +9251,8 @@
                         "paper_award": "",
                         "image_caption": "This image illustrates various Attention-aware re-visualization techniques that adapt based on user attention in both 3D and 2D spaces. The left side of the image focuses on our \u201cData Aware 3D\u201d implementation applying GPU Color Picking, featuring heatmaps and desaturation techniques that respond to user orientation, rotation, and location within a 3D environment. The right side displays our \u201cData Agnostic 2D\u201d implementation applying a Picture Framing Metaphor, highlighting how user attention, tracked through gaze, pointer, and keyboard input, shapes different frames like bar, area, and heat maps. These revisualizations that adjust dynamically to emphasize areas of interest based on cumulative attention were then qualitatively evaluated across different triggering mechanisms.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/cDGkQpk85yw",
+                        "youtube_ff_id": "cDGkQpk85yw",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1480/v-full-1480_Preview.mp4?token=6hU4GabNxurQqMyFUGJ3MOpoqLwws2FyOL0qkKNd3Uk&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1480/v-full-1480_Preview.srt?token=YWRI43FlHCRbJh6Gvl67T1d1OK9jEOT80_8LNGHH1GY&expires=1730433600"
                     },
@@ -9543,8 +9543,8 @@
                         "paper_award": "",
                         "image_caption": "A symmetric arc diagram representing a 51-node graph extracted from the co-occurrence network of characters of \"Les Mis\u00e9rables\", the novel of Victor Hugo. The nodes are ordered according to the crossing reduction algorithm. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/8QT8_S2C0fs",
+                        "youtube_ff_id": "8QT8_S2C0fs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1214/v-full-1214_Preview.mp4?token=Eq1d9_8bf1Cs8leruLVlhzqxc5uiAWsof3tZ5n9GSsE&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1214/v-full-1214_Preview.srt?token=vw2UqBRc1sxfQeUX2e6GTIEpHwT9U6tNFr7atJhP8hY&expires=1730433600"
                     },
@@ -9953,8 +9953,8 @@
                         "paper_award": "",
                         "image_caption": "Large vision-language models like GPT-4V are extremely powerful, but we have little understanding of their visualization literacy capabilities. We conduct an empirical evaluation of the GPT-4V model on four tasks from the visualization literature related to visualization literacy: (1) the Visualization Literacy Assessment Test (VLAT); (2) a chart question answering dataset; (3) a set of questions about deceptive visualization design choices; and (4) a set of questions about visualizations with misaligned titles. We also release all materials and code to support future research.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Nr30W716yjI",
+                        "youtube_ff_id": "Nr30W716yjI",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1147/v-full-1147_Preview.mp4?token=RSeiBOIa3FraoklgtgzwYzc1xP-0gRTZoGxLbeHvDUg&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1147/v-full-1147_Preview.srt?token=lZ1QakQa_RMk3QXJ6EXcMjlynz8iPpX8pLJ9QRINsfw&expires=1730433600"
                     },
@@ -10024,8 +10024,8 @@
                         "paper_award": "honorable",
                         "image_caption": "PREVis is a reliable instrument that allows respondents to rate how readable they find a static data visualization across 4 dimensions: layout clarity, ease of understanding, ease of reading data features, and ease of reading data values. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/SmrTAspA0PM",
+                        "youtube_ff_id": "SmrTAspA0PM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1275/v-full-1275_Preview.mp4?token=s-3k7ce13wMP2CJ8tVZi79RhIyDe-RpGRBaPn6usyD4&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1275/v-full-1275_Preview.srt?token=jehYCBF9wLwHrXRT8HS61Er9DvdhUWKlYcYKNXGKLzE&expires=1730433600"
                     },
@@ -10075,8 +10075,8 @@
                         "paper_award": "",
                         "image_caption": "The paper title is \"How Good (Or Bad) Are LLMs at Detecting Misleading Visualizations?\" On the left hand side, the LLM reponse correctly identified the chart as misleading and gave a relevant reason. On the right hand side, the LLM reponse incorrectly and gave a wrong interpretation. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/LYcwSpyRxR8",
+                        "youtube_ff_id": "LYcwSpyRxR8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1318/v-full-1318_Preview.mp4?token=envXKktkNZwTv1_vrEuKFaxtBG3OCJrz4N0Q-JdsXgo&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1318/v-full-1318_Preview.srt?token=XlCfncPmSXCwi9SwrFtEr1wrliOw30bEUuUCihgYlSg&expires=1730433600"
                     },
@@ -10158,8 +10158,8 @@
                         "paper_award": "",
                         "image_caption": "Overview of this paper: developing the VILA pipeline, evaluating the candidate bank, and demonstrating a potential application\u2014 the new VILA-VLAT visualization literacy test.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/dA4Z80m5Rzs",
+                        "youtube_ff_id": "dA4Z80m5Rzs",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1422/v-full-1422_Preview.mp4?token=yDyFYRJ4pisyltZsmx0eDNmY6u8zITqwq3wrjK1BCnU&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1422/v-full-1422_Preview.srt?token=4IZvyXEtEwm3VyE5Dn48x1WT8TKkCOZep1VTeEXEFMo&expires=1730433600"
                     },
@@ -10371,8 +10371,8 @@
                         "paper_award": "",
                         "image_caption": "Main findings from two interview studies. Right: number of participants who currently use writing in visualization design, and with what frequency, in each design step. Both Study 1 and Study 2 found that visualization designers rarely use writing as a concrete design step. Left: Four types of writing rudders tested in Study 2, participants ratings of each type, and examples of participant-written rudders. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/ciCUI2ju3tM",
+                        "youtube_ff_id": "ciCUI2ju3tM",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1140/v-full-1140_Preview.mp4?token=Oa5acEgF9yK70H6UaYyGjVl90iRXE9dQ_dGCjqjQ3x0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1140/v-full-1140_Preview.srt?token=m7laA4Mo72JmMkAMFTbu76ZbzbeERu_2BtU6v4TUddU&expires=1730433600"
                     },
@@ -10446,8 +10446,8 @@
                         "paper_award": "",
                         "image_caption": "Composite illustration summarizing key results from the two user studies. In Study 1 (n=20), we identified five personas based on interviews, characterized by three dimensions: focus, automation, and audience. In Study 2 (n=13), we collected user preferences across eight tasks (T1--T8) for six common authoring techniques: code-based, example-based, natural language input (NLI), shelf configuration, template-based, and visualization-by-demonstration (VbD).",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Tw14XEoGMAk",
+                        "youtube_ff_id": "Tw14XEoGMAk",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1342/v-full-1342_Preview.mp4?token=rhgoNF1TgG9XLA_Pd4l2NUgw86TcNAfNZPBjnPYalgE&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -10506,8 +10506,8 @@
                         "paper_award": "",
                         "image_caption": "Challenges and design solutions for responsive thematic mapping. On the left, seven common challenges in responsive thematic maps, such as areas and symbols being too small or overlapping, are displayed. On the right, 17 possible design solutions are displayed, for example replacing the legend with annotations, separating the map into segments, or scrolling the map.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/mGAIwYY0AN4",
+                        "youtube_ff_id": "mGAIwYY0AN4",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1393/v-full-1393_Preview.mp4?token=lGAUq2xdhP4kfeEG8qYsYRxSmjHdL97R3mzVkkDkGVI&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -10589,8 +10589,8 @@
                         "paper_award": "",
                         "image_caption": "The image outlines an exploratory study investigating how the timing and properties of examples influence visualization design outcomes, highlighting key stages from task introduction to final design selection.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/6Nh--7IK6fw",
+                        "youtube_ff_id": "6Nh--7IK6fw",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1414/v-full-1414_Preview.mp4?token=F_WE7OeLcasWgVwnGc5hrSvn98z1rvAmcvHZCJkobfA&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1414/v-full-1414_Preview.srt?token=i8BLTU3xi6RHAD-FotoO67SChOFvRbcLw_ls9ARIPRM&expires=1730433600"
                     },
@@ -10841,8 +10841,8 @@
                         "paper_award": "",
                         "image_caption": "Critical point visualization for the climate dataset. (a) Critical points of the original data are visualized with blue spheres. (b) Noise in the data creates new critical points for which no uncertainty is visualized. (c) Critical point uncertainty is computed and visualized through elevation proportional to critical point probability. Our closed-form solutions implemented with the VTK-m library provide a 1646x speed-up compared to the conventional approach.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/kaB1IpYiCCU",
+                        "youtube_ff_id": "kaB1IpYiCCU",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1277/v-full-1277_Preview.mp4?token=FXTjHbPuB0h34s6PnN3eMIszxbIPGY02V9mpQFmdpQM&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1277/v-full-1277_Preview.srt?token=XVFHuLXTdhSfIDqag5JM-FL8pQ-q7ZcB-hfwVDjcHpw&expires=1730433600"
                     },
@@ -10911,8 +10911,8 @@
                         "paper_award": "",
                         "image_caption": "Topological simplification of a dark matter density field in a cosmology dataset. The cosmic web geometry is depicted by an isosurface at isovalue 0.4, with core filament structures extracted via upward discrete integral lines from 2-saddles above 0.4. Our approach reduced the number of undesired topological features by 92%, leading to a less cluttered visualization. This simplifies the topology, removing noisy components and small-scale handles, as shown in the inset zooms. This also results in fewer skips in persistent saddle connector reversals, revealing the primary filament structure more clearly.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/PJ_tDek0d88",
+                        "youtube_ff_id": "PJ_tDek0d88",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1461/v-full-1461_Preview.mp4?token=8hD_BYjbZdeNNM6x4XqOfZp21w509Z-xWOKfOVEKzT0&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -11236,8 +11236,8 @@
                         "paper_award": "",
                         "image_caption": "A diagram illustrating a mixed-methods study of Exploratory Data Analysis (EDA) practices. The left section shows 13 data scientists conducting two EDAs, first with static charts, then with static and interactive charts. Think-aloud utterances and interaction traces are collected from these sessions. The middle section depicts how this data is processed: utterances are coded via content analysis to create observations, which are combined with interaction data to form a comprehensive dataset of EDA sessions. EDA metrics such as revisit rate and hover time are computed from this dataset. The right section demonstrates a formal description of EDA sessions, showing examples of how participants' actions and observations are encoded, including creating visualizations, commenting on distributions, and identifying relationships using various chart types. This systematic approach combines qualitative data collection with quantitative analysis to provide insights into EDA behaviors and strategies.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/CNQni-VZ4FI",
+                        "youtube_ff_id": "CNQni-VZ4FI",
                         "bunny_ff_link": "",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1155/v-full-1155_Preview.srt?token=BZU6Pn7B-4AbZfqQ-GNhRkm97YTfS1r2nPHEQrnbDhg&expires=1730433600"
                     },
@@ -11303,8 +11303,8 @@
                         "paper_award": "",
                         "image_caption": "ProvenanceWidgets is a new open-source JavaScript library of UI controls such as range sliders and dropdowns to track and dynamically overlay analytic provenance. Install it as \"npm install provenance-widgets\".",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/Ed1cZDTTFd0",
+                        "youtube_ff_id": "Ed1cZDTTFd0",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1204/v-full-1204_Preview.mp4?token=NcgZCl_jM23zSL86QflPmp1ABUfon9PW1Ai_9rwx-P0&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1204/v-full-1204_Preview.srt?token=u4yM076oyfVu5TTGXjNWLCvxEI_pJKmW42rfn9048AU&expires=1730433600"
                     },
@@ -11370,8 +11370,8 @@
                         "paper_award": "",
                         "image_caption": "Loops tracks and visualizes the provenance of computational notebooks. Compact and detailed visualizations of the notebook's history trace the evolution of the notebook over time and highlight differences between versions. Loops visualizes the provenance of code, markdown, tables, visualizations, and images and can explicitly encode their differences.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/2l7HgOd2NIY",
+                        "youtube_ff_id": "2l7HgOd2NIY",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1251/v-full-1251_Preview.mp4?token=hfiHy_SBFkr3Cp8zrhAzomuDkTB9gV-gF67EgA19M08&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -11759,8 +11759,8 @@
                         "paper_award": "",
                         "image_caption": "GNN-driven label placement. For a set of labels to be placed in a graphic, Label Placement Graph Transformer (LPGT) predicts the label layout given the graphic and raw label information. First, a complete graph is constructed to capture the relationship between labels. Its node and edge features are generated from the label information and image features. Next, given the graph as input, LPGT iteratively learns the displacements of the nodes by a sequence of GNN modules. The graph is updated by each module and taken as input for the next module.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/CrX4jHVmDfU",
+                        "youtube_ff_id": "CrX4jHVmDfU",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1218/v-full-1218_Preview.mp4?token=V_BqaYvYHAVkbDe2N4Q-tw9rdfS_5RQGXLTQGgkspUk&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -11828,8 +11828,8 @@
                         "paper_award": "",
                         "image_caption": "Discursive Patinas present a new technique that visualizes discussions about visualizations, inspired by traces left in the physical world",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/zBwtliqYULc",
+                        "youtube_ff_id": "zBwtliqYULc",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1394/v-full-1394_Preview.mp4?token=CBABLCrD8Q-YwP3M7gFn4tKU58vJoBc0VguQ7DYvcRM&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1394/v-full-1394_Preview.srt?token=Aie2P6umyj0_cHVPgHwnqva_Uf-UOJIhrGytP-lXn_o&expires=1730433600"
                     },
@@ -13123,8 +13123,8 @@
                         "paper_award": "",
                         "image_caption": "Interface Overview of BloomWind (Cluster-level): (a) Cluster-level Propagation View, demonstrating the diffusion process of topics among platforms; (b) Timeline View, for selecting a time frame and controlling the animation process of propagation; (c) Cluster-level Detail View, listing the post and user information by topic and platform.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/orsYGZt1cWI",
+                        "youtube_ff_id": "orsYGZt1cWI",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1039/v-full-1039_Preview.mp4?token=RMStTCRgaLgf8wuswgS8B2S_P9JX_UtU18dAZAvK_6I&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1039/v-full-1039_Preview.srt?token=gd0jO6EgrCVsS41Ukgf-sCEr_i-Rbk7cSV5HtnvGPuw&expires=1730433600"
                     },
@@ -13191,8 +13191,8 @@
                         "paper_award": "",
                         "image_caption": "Examples of different animation design options. The animations are arranged in a time sequence from top to bottom and categorized into six conditions from left to right.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/pY3yFbMe5RE",
+                        "youtube_ff_id": "pY3yFbMe5RE",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1325/v-full-1325_Preview.mp4?token=znV_u6YW7G-s5ppYwiYo4wWNrKPrsIIJxfTiurV5PC8&expires=1730433600",
                         "bunny_ff_subtitles": ""
                     },
@@ -13269,8 +13269,8 @@
                         "paper_award": "",
                         "image_caption": "Three situated visualizations tested in our game RobotLife: Left - a horizontal bar chart positioned outside of the game enemy character, Center - a vertical bar chart integrated in the texture of the game enemy character, and Right - a circular bar chart (donut chart) partially match to the design of game enemy character.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/X9GOtQyXfx8",
+                        "youtube_ff_id": "X9GOtQyXfx8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1451/v-full-1451_Preview.mp4?token=vn2MF9S6BIWPnnQW9jdGn6mw5twlPZQJCJeUv_PSqLI&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1451/v-full-1451_Preview.srt?token=3ZLLU9lFYcU3KI9gdD-fMPf0fksfp4GKOwUShVB7RhM&expires=1730433600"
                     },
@@ -13537,8 +13537,8 @@
                         "paper_award": "",
                         "image_caption": "The main component of our visualization approach is UnDRground Tubes, which presents glyphs in a grid and connects them by lines according to their set memberships. ",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/JAizrYjsDB8",
+                        "youtube_ff_id": "JAizrYjsDB8",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1272/v-full-1272_Preview.mp4?token=v8VZzcOwmzW0CadxHJpyhrgdUUg2hMCG4nfe7dEqYWw&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1272/v-full-1272_Preview.srt?token=dukv0aGEH_NoG8urQc9zM3j2VN3RPsA_FK9_KDg_39w&expires=1730433600"
                     },
@@ -13965,8 +13965,8 @@
                         "paper_award": "",
                         "image_caption": "A SimpleSets visualization of mills around Leeuwarden, The Netherlands. The mill types are: angular mill (blue); vertical wind engine (green); spider head mill (orange); and tjasker (purple). Data by https://molendatabase.nl with permission, map from https://www.openstreetmap.org/copyright.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/vZk9Sm6PIIo",
+                        "youtube_ff_id": "vZk9Sm6PIIo",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1153/v-full-1153_Preview.mp4?token=Z6BFddSYmiI-39mV2cow1IHd-5BfUyXrkwS1rpLjwqs&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1153/v-full-1153_Preview.srt?token=29nzWoOd9pyyM4jTtZLCrsKC0TNf4f_WXUBk5eZN3cM&expires=1730433600"
                     },
@@ -14049,8 +14049,8 @@
                         "paper_award": "",
                         "image_caption": "BEMTrace enhances the data curation process from a Building Information Model (BIM) to a Building Energy Model (BEM) by providing visual support for the BIM-to-BEM conversion. Users can access various views to better understand the complex data transformation, including the BIM World, BEM World, and the Relationship View, which illustrates the transition between them. Context-adaptive selections assist users in navigating these views, allowing for detailed exploration of different data aspects. This approach ensures a clearer understanding of the conversion process and helps in resolving any arising conflicts.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/AwIuPtpFz-k",
+                        "youtube_ff_id": "AwIuPtpFz-k",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1307/v-full-1307_Preview.mp4?token=lopxc4Sly_btDsX1Mo-dcgzS-HTbPGfRVSfPfSX0QbI&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1307/v-full-1307_Preview.srt?token=jJddu6bRbUOyN7zSlfWx89aCEUqHMLLlhABaav6_M6w&expires=1730433600"
                     },
@@ -14444,8 +14444,8 @@
                         "paper_award": "",
                         "image_caption": "We present the dynamic topic modeling method called Temporal Topic Embeddings with a Compass. The top-right image illustrates how this method effectively generates a plot of term movements within the context of documents and their associated topics. The outer image showcases TimeLink, a tool that compares word vectors in both global and local topic contexts. The red boxes correspond to the respective time periods: the time represented in the scatterplot and where that time is represented in the Sankey diagram.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/49ktTLyplJc",
+                        "youtube_ff_id": "49ktTLyplJc",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1032/v-full-1032_Preview.mp4?token=1legcsYWlMjPEyQIyMzGdETw2sOSGdikDiSu2YZj514&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1032/v-full-1032_Preview.srt?token=qsKLVKCIpveAxu1_viLv_l88bBusuLDQvhSGZpd_8uc&expires=1730433600"
                     },
@@ -14487,8 +14487,8 @@
                         "paper_award": "",
                         "image_caption": "The figure showcases the PUREsuggest interface, a tool designed for citation-based literature search and visual exploration. The interface includes three main components: a list of currently selected publications, a list of suggested publications based on citation links, and a visualization of the citation network. Users can refine searches by adding publications and entering custom keywords to amplify specific research topics, facilitating an interactive and dynamic approach to discovering relevant literature.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/obWhz2SJuzg",
+                        "youtube_ff_id": "obWhz2SJuzg",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1128/v-full-1128_Preview.mp4?token=xhnURLvMH8Q9yodeDEVJde2vWGBMegY00mSFQlcFmj4&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1128/v-full-1128_Preview.srt?token=v7vyN82iJ7g1kfkcvAnJRGj2dKDfBMOaUHZsR00BN3s&expires=1730433600"
                     },
@@ -14849,8 +14849,8 @@
                         "paper_award": "",
                         "image_caption": "The FPCS algorithm is used to sample streaming time series data. Each row corresponds to one of the five typical datasets. Columns 1-4 represent the visualization fitting effect of the first 100,000 data points in these datasets using the newly proposed FPCS and the other three algorithms, based on a 100:1 sampling ratio. The red line represents original data points; the green line represents sampled data points. Column 5 uses SSIM to compare the sampling effects of the four algorithms based on sampling ratios of 100:1, 200:1, 500:1, and 1000:1. The FPCS algorithm shows the best sampling results and performance.",
                         "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
+                        "youtube_ff_link": "https://youtu.be/TAD1E6fAMHU",
+                        "youtube_ff_id": "TAD1E6fAMHU",
                         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1363/v-full-1363_Preview.mp4?token=0gXWRmcCMfl6L3ip3HixMsJXLSVigQa_bEzROzFp0No&expires=1730433600",
                         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1363/v-full-1363_Preview.srt?token=EazpHxQWh4ZjsjNz-jgkfAVPiCtu1Z_KAYxozQRJBp8&expires=1730433600"
                     },
@@ -22258,7 +22258,10 @@
                 "session_image": "associated5.png",
                 "chair": [
                     "Ana Crisan",
-                    "Dylan Cashman"
+                    "Dylan Cashman",
+                    "Saugat Pandey",
+                    "Alvitta Ottley",
+                    "John E Wenskovitch"
                 ],
                 "time_start": "2024-10-13T16:00:00Z",
                 "time_end": "2024-10-13T19:00:00Z",
@@ -23719,7 +23722,221 @@
                 "youtube_url": "https://youtu.be/paQRbfA0tdg",
                 "youtube_id": "paQRbfA0tdg",
                 "ff_link": "",
-                "time_slots": []
+                "time_slots": [
+                    {
+                        "slot_id": "a-scivis-contest-1",
+                        "session_id": "contest3",
+                        "title": "PlumeViz: Interactive Exploration for Multi-Facet Features of Hydrothermal Plumes in Sonar Images",
+                        "contributors": [
+                            "Yiming Shao"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Yiming Shao",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": true
+                            },
+                            {
+                                "name": "Chengming Liu",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Zhiyuan Meng",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Shufan Qian",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Peng Jiang",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Yunhai Wang",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Dr. Qiong Zeng",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "",
+                        "uid": "a-scivis-contest-1",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "associated",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "a-scivis-contest-2",
+                        "session_id": "contest3",
+                        "title": "Visualization of Sonar Imaging for Hydrothermal Systems",
+                        "contributors": [
+                            "Tran Nguyen Anh Minh"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Ngan V. T. Nguyen",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Minh N. A. Tran",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Si Chi Hoang",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Vuong Tran Thien",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Nguyen Tran Nguyen Thanh",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Ngo Ly",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Phuc Thien Nguyen",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Sinh Huy Gip",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Sang Thanh Ngo",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Nguy\u1ec5n Th\u00e1i H\u00f2a",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            }
+                        ],
+                        "abstract": "",
+                        "uid": "a-scivis-contest-2",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "associated",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    },
+                    {
+                        "slot_id": "a-scivis-contest-3",
+                        "session_id": "contest3",
+                        "title": "Topology Based Visualization of Hydrothermal Plumes",
+                        "contributors": [
+                            "Harikrishnan Pattathil"
+                        ],
+                        "authors": [
+                            {
+                                "name": "Adhitya Kamakshidasan",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": false
+                            },
+                            {
+                                "name": "Harikrishnan Pattathil",
+                                "email": "",
+                                "affiliations": "",
+                                "is_corresponding": true
+                            }
+                        ],
+                        "abstract": "",
+                        "uid": "a-scivis-contest-3",
+                        "time_stamp": "2024-10-14T12:30:00Z",
+                        "time_start": "2024-10-14T12:30:00Z",
+                        "time_end": "2024-10-14T15:30:00Z",
+                        "paper_type": "associated",
+                        "keywords": [],
+                        "doi": "",
+                        "fno": "",
+                        "presentation_mode": "Virtual",
+                        "open_access_supplemental_question": "",
+                        "open_access_supplemental_link": "",
+                        "preprint_link": "",
+                        "accessible_pdf": false,
+                        "has_image": false,
+                        "has_pdf": false,
+                        "paper_award": "",
+                        "image_caption": "",
+                        "external_paper_link": "",
+                        "youtube_ff_link": "",
+                        "youtube_ff_id": "",
+                        "bunny_ff_link": "",
+                        "bunny_ff_subtitles": ""
+                    }
+                ]
             }
         ]
     },
@@ -23923,63 +24140,6 @@
                         "bunny_ff_subtitles": ""
                     },
                     {
-                        "slot_id": "a-vast-challenge-1011",
-                        "session_id": "contest2",
-                        "title": "LIST-Durant-MC1",
-                        "contributors": [
-                            "Eloi Durant"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Eloi Durant",
-                                "email": "eloi.durant@list.lu",
-                                "affiliations": [
-                                    "LIST, Esch-sur-Alzette, Luxembourg"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Nicolas Medoc",
-                                "email": "nicolas.medoc@list.lu",
-                                "affiliations": [
-                                    "Luxembourg Institute of Science and Technology, Belvaux, Luxembourg"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Mohammad Ghoniem",
-                                "email": "mohammad.ghoniem@list.lu",
-                                "affiliations": [
-                                    "Luxembourg Institute of Science and Technology, Belvaux, Luxembourg"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "VAST Challenge 2024\u2019s Mini-Challenge 1 (MC1) aimed at discovering bias within a knowledge graph made of nodes and multi-edges extracted by two LLMs from articles related to fishing practices. Traditional force-based layouts lead to much visual clutter due to the overabundance and diversity of edges. Instead, we modeled the graph as a multilayer network and arrange multi-edges in clustered adjacency grids where glyphs summarize edge aspects. Our interactive web application supports network exploration, pattern comparison, and outlier identification. Additionally, we used Papyrus, a corpus visualization tool to link topics to their sources, and discovered that analyst \u2018Harvey Janus\u2019 falsified edges related to SouthSeafood Express Corp, a company caught fishing illegally.",
-                        "uid": "a-vast-challenge-1011",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "",
-                        "accessible_pdf": false,
-                        "has_image": false,
-                        "has_pdf": false,
-                        "paper_award": "",
-                        "image_caption": "",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
                         "slot_id": "a-vast-challenge-1013",
                         "session_id": "contest2",
                         "title": "Visual Anomaly Detection in Temporal Knowledge Graphs",
@@ -24022,95 +24182,6 @@
                         ],
                         "abstract": "This paper addresses the visualization challenges posed by Mini Challenge 3 of the VAST Challenge 2024, which involves detecting illegal fishing activities within a dynamic network of companies and individuals. The task requires effective anomaly detection in a time-dependent knowledge graph, a scenario where conventional graph visualization tools often fall short due to their limited ability to integrate temporal data and the undefined nature of the anomalies. We demonstrate how to overcome these challenges through well-crafted views implemented in standard software libraries. Our approach involves decomposing the time-dependent knowledge graph into separate time and structure components, as well as providing data-driven guidance for identifying anomalies. These components are then interconnected through extensive interactivity, enabling exploration of anomalies in a complex, temporally evolving network. The source code and a demonstration video are publicly available at github.com/MaAllma/Temporal/Knowledge/Graph/Analysis.",
                         "uid": "a-vast-challenge-1013",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "",
-                        "accessible_pdf": false,
-                        "has_image": false,
-                        "has_pdf": false,
-                        "paper_award": "",
-                        "image_caption": "",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "a-vast-challenge-1014",
-                        "session_id": "contest2",
-                        "title": "UKON-MC2-1",
-                        "contributors": [
-                            "Lisa-Maria Reutlinger"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Lisa-Maria Reutlinger",
-                                "email": "lisa-maria.reutlinger@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Julian Jandeleit",
-                                "email": "julian.jandeleit@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Fred Kunze",
-                                "email": "fred.kunze@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Antonella Bidlingmaier",
-                                "email": "antonella.bidlingmaier@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Tolga Tuncer",
-                                "email": "tolga.tuncer@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Udo Schlegel",
-                                "email": "u.schlegel@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Daniel Keim",
-                                "email": "keim@uni-konstanz.de",
-                                "affiliations": [
-                                    "University of Konstanz, Konstanz, Germany"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "We present Fishing Vizzard, an interactive visual analytics tool to address the challenge of identifying illegal fishing behavior as posed by the VAST 2024 Mini-Challenge 2. Our solution integrates different visualizations applied to the dataset. Among others, the visualizations include a recursive pixel visualization to track and compare vessel locations across time as well as a grid of pie charts to investigate plausible fishing cargo for different vessels. Combining these visualizations in our interactive tool provides an understanding of the fishing community in Oceanus as well as finding suspicious activities and entities. A live demo of Fishing Vizzard is available at https://group2.vast24.dbvis.de.",
-                        "uid": "a-vast-challenge-1014",
                         "time_stamp": "2024-10-13T12:30:00Z",
                         "time_start": "2024-10-13T12:30:00Z",
                         "time_end": "2024-10-13T15:30:00Z",
@@ -24570,96 +24641,6 @@
                         ],
                         "abstract": "Identifying unreliable sources is crucial for preventing misinformation and making informed decisions. CatchNet, the Oceanus Knowledge Graph, contains biased perspectives that threaten its credibility. We use Large Language Models (LLMs) and interactive visualization systems to identify these biases. By analyzing police reports and using GPT-3.5 to extract information from articles, we establish the ground truth for our analysis. Our visual analytics system detects anomalies, revealing unreliable news sources such as The News Buoy and biased analysts such as Harvey Janus and Junior Shurdlu.",
                         "uid": "a-vast-challenge-1028",
-                        "time_stamp": "2024-10-13T12:30:00Z",
-                        "time_start": "2024-10-13T12:30:00Z",
-                        "time_end": "2024-10-13T15:30:00Z",
-                        "paper_type": "associated",
-                        "keywords": [],
-                        "doi": "",
-                        "fno": "",
-                        "presentation_mode": "Virtual",
-                        "open_access_supplemental_question": "",
-                        "open_access_supplemental_link": "",
-                        "preprint_link": "",
-                        "accessible_pdf": false,
-                        "has_image": false,
-                        "has_pdf": false,
-                        "paper_award": "",
-                        "image_caption": "",
-                        "external_paper_link": "",
-                        "youtube_ff_link": "",
-                        "youtube_ff_id": "",
-                        "bunny_ff_link": "",
-                        "bunny_ff_subtitles": ""
-                    },
-                    {
-                        "slot_id": "a-vast-challenge-1029",
-                        "session_id": "contest2",
-                        "title": "Visualization for Oceanus' Fishing Market",
-                        "contributors": [
-                            "Xueli Shu"
-                        ],
-                        "authors": [
-                            {
-                                "name": "Xueli Shu",
-                                "email": "3504936154@qq.com",
-                                "affiliations": [
-                                    "Fudan University, Shanghai, China"
-                                ],
-                                "is_corresponding": true
-                            },
-                            {
-                                "name": "Qianhui Li",
-                                "email": "18812571619@163.com",
-                                "affiliations": [
-                                    "Fudan university, Shanghai, China"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Yi Shan",
-                                "email": "20302010026@fudan.edu.cn",
-                                "affiliations": [
-                                    "Fudan University, Shanghai, China"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Aolin Guo",
-                                "email": "philipethanzg@gmail.com",
-                                "affiliations": [
-                                    "Fudan University, Shanghai, China"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Tian Qiu",
-                                "email": "qiuttt@foxmail.com",
-                                "affiliations": [
-                                    "Fudan University, Shanghai, China"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Siming Chen",
-                                "email": "simingchen3@gmail.com",
-                                "affiliations": [
-                                    "Fudan University, Shanghai, China"
-                                ],
-                                "is_corresponding": false
-                            },
-                            {
-                                "name": "Meng Guo",
-                                "email": "guomeng200210@163.com",
-                                "affiliations": [
-                                    "school of data science, Shanghai , China",
-                                    "school of data science, Shanghai , China"
-                                ],
-                                "is_corresponding": false
-                            }
-                        ],
-                        "abstract": "This paper presents a visualization system designed to address the IEEE VAST Challenge 2024 Mini-Challenge 3. Our system allows for exploration both between and within communities. Users can freely explore the detailed information of a specific point and its neighbors within custom layers. Additionally, they can drag the timeline to observe changes, enabling the identification of collaboration shifts and anomalies among companies in the fishing market.",
-                        "uid": "a-vast-challenge-1029",
                         "time_stamp": "2024-10-13T12:30:00Z",
                         "time_start": "2024-10-13T12:30:00Z",
                         "time_end": "2024-10-13T15:30:00Z",
@@ -31859,7 +31840,11 @@
                     "Mandy Keck",
                     "Lonni Besancon",
                     "Alon Friedman",
-                    "Benjamin Bach"
+                    "Benjamin Bach",
+                    "Jonathan Roberts",
+                    "Christina Stoiber",
+                    "Magdalena Boucher",
+                    "Lily Ge"
                 ],
                 "time_start": "2024-10-13T12:30:00Z",
                 "time_end": "2024-10-13T15:30:00Z",
