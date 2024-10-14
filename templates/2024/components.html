@@ -88,6 +88,13 @@ workshopgroup
     {% if skip_event_title or not session.redundantTitle %}
     <h3 class="session-list-session"><a href="session_{{session.id}}.html">{{ session.title }}</a></h3>
     {% endif %}
+    {% if session.event_url %}
+        <div class="session-url">
+          <span class="fas mr-1">&#xf05a;</span>
+          <a href="{{ session.event_url }}">{{ session.event_url }}</a>
+        </div>
+    {% endif %}
+
     {% if not skip_room %}
         <h3 class="session-room mt-4">
             <span class="fas mr-1">&#xf108;</span>

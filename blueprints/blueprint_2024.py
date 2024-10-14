@@ -441,6 +441,12 @@ def format_session_as_event(v, uid):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
+    if (v.get("event_prefix")[0] == 'w'):
+        print("EVENT IS ", v)
+        print("does it have external url?  ", get_external_url(v))
+        print("but event_url is ", get_event_url(v))
+
+
     formatted = {
         "id": uid,
         "title": v.get("long_name") if "long_name" in v else v.get("event"),
@@ -467,6 +473,16 @@ def has_external_url(v):
     return len(get_external_url(v)) > 0
 
 def get_event_url(v):
+    if "sessions" in v:
+        sessions = v.get("sessions")
+        if len(sessions) > 0:
+            s = sessions[0]
+            if has_external_url(s):
+                return get_external_url(s)
+            else:
+                return v.get("event_url") if "event_url" in v else ''
+
+
     if has_external_url(v):
         return get_external_url(v)
     else:
