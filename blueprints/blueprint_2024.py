@@ -25,6 +25,17 @@ paper_type_names = {
     'associated': 'Associated Event',
     'workshop': 'Workshop'
 }
+event_websites = {
+    'w-beliv': 'https://beliv-workshop.github.io/',
+    'w-uncertainty': 'https://tusharathawale.github.io/UncertaintyVis-Workshop/index.html',
+    'w-pdav': 'https://ieee-vis-pdav.github.io/',
+    'w-vis4climate': 'https://svs.gsfc.nasa.gov/events/2024/Viz4ClimateAndSustainability/',
+    'w-nlviz': 'https://www.nl-vizworkshop.com/',
+    'w-topoinvis': 'https://topoinvis-workshop.github.io/2024/',
+    'w-energyvis': 'https://energyvis.org/',
+    'w-future': 'https://visionsofthefuture.github.io/' 
+}
+
 site_data = {}
 by_uid = {}
 by_day = {}
@@ -64,7 +75,7 @@ def main(site_data_path):
                         "event_type": p.get("event_type") or 'N/A',
                         "parent_id": session_id,
                         "event_description": p.get("event_description") or 'N/A',
-                        "event_url": p.get("event_url") or 'N/A',
+                        "event_url": get_event_url(p),
                         "room_name": get_room_name(fq_timeslot['track'], site_data['config']['room_names']) if ("track" in fq_timeslot) else 'N/A',
                     })
 
@@ -436,9 +447,11 @@ def format_session_as_event(v, uid):
         "type": v.get("event_type") if "event_type" in v else 'VIS',
         "abbr_type": v["event_type"].split(" ")[0].lower() if "event_type" in v else 'vis',
         "abstract": v.get("event_description") if "event_description" in v else 'None',
-        "url": v.get("event_url") if "event_url" in v else '',
+        "url": get_event_url(v),
         "startTime": v["sessions"] and v["sessions"][0]["time_start"],
-        "endTime": v["sessions"] and v["sessions"][-1]["time_end"]
+        "endTime": v["sessions"] and v["sessions"][-1]["time_end"],
+        "externalUrl": get_external_url(v),
+        "hasExternalUrl": has_external_url(v),
     }
 
     if v['event'] != 'VISxAI':
@@ -446,6 +459,18 @@ def format_session_as_event(v, uid):
     else:
         formatted["sessions"] = []
     return formatted
+
+def get_external_url(v):
+    return v.get("external_site") if "external_site" in v else ''
+
+def has_external_url(v):
+    return len(get_external_url(v)) > 0
+
+def get_event_url(v):
+    if has_external_url(v):
+        return get_external_url(v)
+    else:
+        return v.get("event_url") if "event_url" in v else ''
 
 # new format for session_list.json
 def format_session_list(v):
@@ -488,7 +513,9 @@ def format_by_session_list(v):
         "event_type": v.get("event_type"),  # backloaded from parent event
         "parent_id": v.get("parent_id"),  # backloaded from parent event
         "event_description": v.get("event_description"),  # backloaded from parent event
-        "event_url": v.get("event_url"),  # backloaded from parent event
+        "event_url": get_event_url(v),
+        "externalUrl": get_external_url(v),
+        "hasExternalUrl": has_external_url(v),
         "fullTitle": fullTitle,
         "redundantTitle": redundantTitle,
         "discord_category": v.get("discord_category"),

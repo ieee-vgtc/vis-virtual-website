@@ -549,7 +549,8 @@
         "session_id": "associated2",
         "title": "The Illustrated AlphaFold",
         "contributors": [
-            "Elana P Simon"
+            "Anne Marx ",
+            " Diego Arapovic"
         ],
         "authors": [
             {
@@ -558,7 +559,7 @@
                 "affiliations": [
                     "Stanford University, Palo Alto, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Jake Silberg",
@@ -639,7 +640,8 @@
         "session_id": "associated2",
         "title": "Explainability Perspectives on a Vision Transformer: From Global Architecture to Single Neuron",
         "contributors": [
-            "Anne Marx"
+            "Anne Marx ",
+            " Diego Arapovic"
         ],
         "authors": [
             {
@@ -648,7 +650,7 @@
                 "affiliations": [
                     "ETH Zurich, Z\u00fcrich, Switzerland"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Yumi Kim",
@@ -1632,9 +1634,9 @@
         ],
         "abstract": "Efficient public transport systems are crucial for sustainable urban development as cities face increasing mobility demands. Yet, many public transport networks struggle to meet diverse user needs due to historical development, urban constraints, and financial limitations. Traditionally, planning of transport network structure is often based on limited surveys, expert opinions, or partial usage statistics. This provides an incomplete basis for decision-making. We introduce an data-driven approach to public transport planning and optimization, calculating detailed accessibility measures at the individual housing level. Our visual analytics workflow combines population-group-based simulations with dynamic infrastructure analysis, utilizing a scenario-based model to simulate daily travel patterns of varied demographic groups, including schoolchildren, students, workers, and pensioners. These population groups, each with unique mobility requirements and routines, interact with the transport system under different scenarios traveling to and from Points of Interest (POI), assessed through travel time calculations. Results are visualized through heatmaps, density maps, and network overlays, as well as detailed statistics. Our system allows us to analyze both the underlying data and simulation results on multiple levels of granularity, delivering both broad insights and granular details. Case studies with the city of Konstanz, Germany reveal key areas where public transport does not meet specific needs, confirmed through a formative user study. Due to the high cost of changing legacy networks, our analysis facilitates the identification of strategic enhancements, such as optimized schedules or rerouting, and few targeted stop relocations, highlighting consequential variations in accessibility to pinpointing critical service gaps. Our research advances urban transport analytics by providing policymakers and citizens with a system that delivers both broad insights with granular detail into public transport services for a data-driven quality assessment at housing-level detail.",
         "uid": "s-vds-1000",
-        "time_stamp": "2024-10-13T16:00:00Z",
-        "time_start": "2024-10-13T16:00:00Z",
-        "time_end": "2024-10-13T19:00:00Z",
+        "time_stamp": "2024-10-13T16:55:00Z",
+        "time_start": "2024-10-13T16:55:00Z",
+        "time_end": "2024-10-13T17:05:00Z",
         "paper_type": "associated",
         "keywords": [],
         "doi": "",
@@ -1737,9 +1739,9 @@
         ],
         "abstract": "This position paper explores the interplay between automation and human involvement in data science. It synthesizes perspectives from Automated Data Science (AutoDS) and Interactive Data Visualization (VIS), which traditionally represent opposing ends of the human-machine spectrum. While AutoDS aims to enhance efficiency by reducing human tasks, VIS emphasizes the importance of nuanced understanding, innovation, and context provided by human involvement. This paper examines these dichotomies through an online survey and advocates for a balanced approach that harmonizes the efficiency of automation with the irreplaceable insights of human expertise. Ultimately, we address the essential question of not just what we can automate, but what we should automate, seeking strategies that prioritize technological advancement alongside the fundamental need for human oversight.",
         "uid": "s-vds-1002",
-        "time_stamp": "2024-10-13T16:00:00Z",
-        "time_start": "2024-10-13T16:00:00Z",
-        "time_end": "2024-10-13T19:00:00Z",
+        "time_stamp": "2024-10-13T16:45:00Z",
+        "time_start": "2024-10-13T16:45:00Z",
+        "time_end": "2024-10-13T16:55:00Z",
         "paper_type": "associated",
         "keywords": [],
         "doi": "",
@@ -1826,9 +1828,9 @@
         ],
         "abstract": "Categorical data does not have an intrinsic definition of distance or order, and therefore, established visualization techniques for categorical data only allow for a set-based or frequency-based analysis, e.g., through Euler diagrams or Parallel Sets, and do not support a similarity-based analysis. We present a novel dimensionality reduction-based visualization for categorical data, which is based on defining the distance of two data items as the number of varying attributes. Our technique enables users to pre-attentively detect groups of similar data items and observe the properties of the projection, such as attributes strongly influencing the embedding. Our prototype visually encodes data properties in an enhanced scatterplot-like visualization, visualizing attributes in the background to show the distribution of categories. In addition, we propose two graph-based measures to quantify the plot's visual quality, which rank attributes according to their contribution to cluster cohesion. To demonstrate the capabilities of our similarity-based projection method, we compare it to Euler diagrams and Parallel Sets regarding visual scalability and evaluate it quantitatively on seven real-world datasets using a range of common quality measures. Further, we validate the benefits of our approach through an expert study with five data scientists analyzing the Titanic and Mushroom dataset with up to 23 attributes and 8124 category combinations. Our results indicate that our Categorical Data Map offers an effective analysis method for large datasets with a high number of category combinations.",
         "uid": "s-vds-1007",
-        "time_stamp": "2024-10-13T16:00:00Z",
-        "time_start": "2024-10-13T16:00:00Z",
-        "time_end": "2024-10-13T19:00:00Z",
+        "time_stamp": "2024-10-13T17:45:00Z",
+        "time_start": "2024-10-13T17:45:00Z",
+        "time_end": "2024-10-13T17:55:00Z",
         "paper_type": "associated",
         "keywords": [],
         "doi": "",
@@ -1891,9 +1893,9 @@
         ],
         "abstract": "Clustering is an essential technique across various domains, such as data science, machine learning, and eXplainable Artificial Intelligence.Information visualization and visual analytics techniques have been proven to effectively support human involvement in the visual exploration of clustered data to enhance the understanding and refinement of cluster assignments. This paper presents an attempt of a deep and exhaustive evaluation of the perceptive aspects of clustering quality metrics, focusing on the Davies-Bouldin Index, Dunn Index, Calinski-Harabasz Index, and Silhouette Score. Our research is centered around two main objectives: a) assessing the human perception of common CVIs in 2D scatterplots and b) exploring the potential of Large Language Models (LLMs), in particular GPT-4o, to emulate the assessed human perception. By discussing the obtained results, highlighting limitations, and areas for further exploration, this paper aims to propose a foundation for future research activities.",
         "uid": "s-vds-1013",
-        "time_stamp": "2024-10-13T16:00:00Z",
-        "time_start": "2024-10-13T16:00:00Z",
-        "time_end": "2024-10-13T19:00:00Z",
+        "time_stamp": "2024-10-13T17:05:00Z",
+        "time_start": "2024-10-13T17:05:00Z",
+        "time_end": "2024-10-13T17:15:00Z",
         "paper_type": "associated",
         "keywords": [],
         "doi": "",
@@ -1964,9 +1966,9 @@
         ],
         "abstract": "Recommender systems have become integral to digital experiences, shaping user interactions and preferences across various platforms. Despite their widespread use, these systems often suffer from algorithmic biases that can lead to unfair and unsatisfactory user experiences. This study introduces an interactive tool designed to help users comprehend and explore the impacts of algorithmic harms in recommender systems. By leveraging visualizations, counterfactual explanations, and interactive modules, the tool allows users to investigate how biases such as miscalibration, stereotypes, and filter bubbles affect their recommendations. Informed by in-depth user interviews, both general users and researchers can benefit from increased transparency and personalized impact assessments, ultimately fostering a better understanding of algorithmic biases and contributing to more equitable recommendation outcomes. This work provides valuable insights for future research and practical applications in mitigating bias and enhancing fairness in machine learning algorithms.",
         "uid": "s-vds-1021",
-        "time_stamp": "2024-10-13T16:00:00Z",
-        "time_start": "2024-10-13T16:00:00Z",
-        "time_end": "2024-10-13T19:00:00Z",
+        "time_stamp": "2024-10-13T17:55:00Z",
+        "time_start": "2024-10-13T17:55:00Z",
+        "time_end": "2024-10-13T18:05:00Z",
         "paper_type": "associated",
         "keywords": [],
         "doi": "",
@@ -2021,9 +2023,9 @@
         ],
         "abstract": "This position paper discusses the profound impact of Large Language Models (LLMs) on semantic change, emphasizing the need for comprehensive monitoring and visualization techniques. Building on established concepts from linguistics, we examine the interdependency between mental and language models, discussing how LLMs influence and are influenced by human cognition and societal context. We introduce three primary theories to conceptualize such influences: Recontextualization, Standardization, and Semantic Dementia, illustrating how LLMs drive, standardize, and potentially degrade language semantics.Our subsequent review categorizes methods for visualizing semantic change into frequency-based, embedding-based, and context-based techniques, being first in assessing their effectiveness in capturing linguistic evolution: Embedding-based methods are highlighted as crucial for a detailed semantic analysis, reflecting both broad trends and specific linguistic changes. We underscore the need for novel visual, interactive tools to monitor and explain semantic changes induced by LLMs, ensuring the preservation of linguistic diversity and mitigating linguistic biases. This work provides essential insights for future research on semantic change visualization and the dynamic nature of language evolution in the times of LLMs.",
         "uid": "s-vds-1029",
-        "time_stamp": "2024-10-13T16:00:00Z",
-        "time_start": "2024-10-13T16:00:00Z",
-        "time_end": "2024-10-13T19:00:00Z",
+        "time_stamp": "2024-10-13T18:05:00Z",
+        "time_start": "2024-10-13T18:05:00Z",
+        "time_end": "2024-10-13T18:15:00Z",
         "paper_type": "associated",
         "keywords": [],
         "doi": "",
@@ -3117,8 +3119,8 @@
         "paper_award": "best",
         "image_caption": "Hypertrix is an indicatrix for visualizing distortions in high-dimensional data projections. It is an overlay of colored elliptical glyphs on data projections, revealing both the magnitude and direction of local distortions. The hypertrix for a t-SNE projection of the MNIST dataset reveals the compactness of the digit '1' cluster with respect to other clusters.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/4S9S0DlrE14",
+        "youtube_ff_id": "4S9S0DlrE14",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1090/v-short-1090_Preview.mp4?token=8OKGBT9QpGEiRm869wnviDwZ80_4q4AydJZJrbQVf2k&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1090/v-short-1090_Preview.srt?token=Uaksc-EWIVtQugoqjEhepEOzSd5w8KCNpxZ2dMHiapk&expires=1730433600"
     },
@@ -3461,8 +3463,8 @@
         "paper_award": "best",
         "image_caption": "Traditional document maps cluster documents based on static embeddings, leading to confusing grouping with inconsistent semantic concepts. We propose Prompt-based Attention Model (PAM) that generates prompt-specific document representations to better align with human interest. Recognizing that not all documents are equally relevant to a user\u2019s specific interest, we present Relevance-preserving mapping to project documents based on both their relevance to the user\u2019s interest, and their inter-similarity under user\u2019s interest. The mapping features a circular layout that centralizes the most pertinent documents, which aligns with both human\u2019s natural viewing pattern and the distribution of documents\u2019 relevance.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/iafjQjWEHIY",
+        "youtube_ff_id": "iafjQjWEHIY",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1802/v-full-1802_Preview.mp4?token=LA7YlgNQGkiZLyHEnN17Ob983PPFPSfpWFr16hnzl8M&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1802/v-full-1802_Preview.srt?token=_kmNMLgzJ1-tuMdPqbZvT77tnne1hHmQvmqvnSs1RrA&expires=1730433600"
     },
@@ -3528,8 +3530,8 @@
         "paper_award": "best",
         "image_caption": "Merge tree comparisons are essential in scientific visualization but are often limited by the slow, computationally heavy process of matching tree nodes. Our Merge Tree Neural Network (MTNN) transforming merge tree comparison into a learning task. This innovation significantly reduces computation time by over 100 times, while maintaining near-perfect accuracy. MTNN stands out as a powerful tool for efficient and precise scientific visualization.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/5x_3_xJ0xKc",
+        "youtube_ff_id": "5x_3_xJ0xKc",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1880/v-full-1880_Preview.mp4?token=g3OGwgih9TpwR_wddxmFWU_U55zB38PzucsWWRcn5iY&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1880/v-full-1880_Preview.srt?token=MbBPP-6mqwzqJUOgoWyt9bGZXNkqqkjKnD4AxqMvjJg&expires=1730433600"
     },
@@ -3635,8 +3637,8 @@
         "paper_award": "",
         "image_caption": "(A) We propose an interactive knowledge and learning environment (IKLE) that integrates three programming and modeling languages to support multiple downstream tasks in the analysis pipeline. To make IKLE easier to use, we have developed algorithms to automate the generation of each language. In addition, we collaborated with domain experts to design and develop a dataflow visualization system, which embeds the automatic language generations into components and allows users to build their analysis pipeline by dragging and connecting components of interest. (B) the overview of our IKLE and its architecture.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/g_5lfaP_5eQ",
+        "youtube_ff_id": "g_5lfaP_5eQ",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10091124/v-cga-10091124_Preview.mp4?token=AohQXqEwVCpW2S-BqidwwXDKQKJWz4bjQz4U8-PS4dA&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10091124/v-cga-10091124_Preview.srt?token=QpVRyv6MAkpWAPCkp9OJ9zeW0CdQNCxWZuUc7UdI1f8&expires=1730433600"
     },
@@ -3712,8 +3714,8 @@
         "paper_award": "",
         "image_caption": "Visualizing uncertainty in set-type data is crucial for accurate analysis and decision-making. This work introduces a framework that categorizes data characteristics and types of uncertainty, providing strategies for integrating uncertainty into visualizations. By addressing set membership, set attributes, and element attributes, the framework helps design effective visual representations that communicate both data and its inherent uncertainties. This approach not only aids in understanding complex datasets but also enhances decision-making in various applications, from academic course planning to complex scenarios like ensemble forecasting and gene mapping.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/nFYQtRmiwzM",
+        "youtube_ff_id": "nFYQtRmiwzM",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10198358/v-cga-10198358_Preview.mp4?token=Mgq_Nnpy6uatRSqLhcqCj4lNl75aRjlj9BMREc1eD9Q&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10198358/v-cga-10198358_Preview.srt?token=W8A4RCOde5v9L6Pp5c4soF_xKoPB1ZvUhyZZpbB29kw&expires=1730433600"
     },
@@ -3781,8 +3783,8 @@
         "paper_award": "",
         "image_caption": "Design probes exploring information visualization and broader interactive systems solutions to help architects design with building codes.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/uquxa5bjs8I",
+        "youtube_ff_id": "uquxa5bjs8I",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10227838/v-cga-10227838_Preview.mp4?token=kj-oA3y_pasQYoWCZtyXzfvynLKMBJFDKneU9PbgfLk&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10227838/v-cga-10227838_Preview.srt?token=LMmZ-ChkH0tezmvWvNWVuorm1os61SHGICy2iBqjtp8&expires=1730433600"
     },
@@ -3840,8 +3842,8 @@
         "paper_award": "",
         "image_caption": "Most news websites provide access to only the most recent articles and offer no support to explore the temporal evolution of news. Further, many articles contain the names of places, which would allow to geolocalize and cluster news. With news globe, we provide a visualization system that gives readers the means to explore both the spatial and temporal dimension in a georeferenced context. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/lL3SWpaLWQs",
+        "youtube_ff_id": "lL3SWpaLWQs",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-9612019/v-cga-9612019_Preview.mp4?token=GkTT3Eg_EbilgJj-ejZQBPP0XWewvUFObcmJeT41RPs&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-9612019/v-cga-9612019_Preview.srt?token=SbBNukZ73Zn3zPtlouAYThhFOuvs58j8-yjM0sxCOzY&expires=1730433600"
     },
@@ -3905,8 +3907,8 @@
         "paper_award": "",
         "image_caption": "Example of a schedule view showing three versions of a schedule",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/wj0IQ4MZIGs",
+        "youtube_ff_id": "wj0IQ4MZIGs",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-9745375/v-cga-9745375_Preview.mp4?token=Fdm_ecxXarixBi1Z9WgSBNT5yfnA0tluZk-dbQApEz4&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-9745375/v-cga-9745375_Preview.srt?token=2W4yg6vklLtn31kpj4gAMAAeNRrh_cCPFAD5iM9OjKo&expires=1730433600"
     },
@@ -3970,8 +3972,8 @@
         "paper_award": "",
         "image_caption": "Overview of DETOXER, a visual (de)bugging (to)ol with Multi-Scope E(x)planations for (er)ror detection in Temporal Multi-Label Classification. In the center, a video is selected for exploration. Directly under the progress bar, heatmaps demonstrate the model\u2019s confidence for any given label per second (frame-level explanations)-(C). On the left, available videos are shown; for each video, the tool shows top-5 detected labels (A) and the rate of FP and FN errors (B) in the video (video-level explanations). The selected video is emphasized with a blue background. On the right, a global information panel displays model performance metrics (D) and object-specific FN and FP error rates in two vertically adjacent bar charts (E) (Global-level explanations).",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/6eBUBzR5Zlc",
+        "youtube_ff_id": "6eBUBzR5Zlc",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-9866547/v-cga-9866547_Preview.mp4?token=B9Wp229HHlCcfq9D9Qr7a55Xu9ESLWtT3VHomkFEYTg&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-9866547/v-cga-9866547_Preview.srt?token=tPdcwmd1QEjEtJ9-F3m_oFN3MZGg13Pzbvi5ghWN3Ns&expires=1730433600"
     },
@@ -4053,8 +4055,8 @@
         "paper_award": "",
         "image_caption": "Overview of DiffSeer: We focus on explicitly visualizing the differences between adjacent timeslices to support the analysis of the dynamic weighted graph evolution over a long time. Specifically, we proposed a nested matrix design, including (A) an overview matrix to provide a visual summary of differences and two types (B, C) of detail matrices to enable interactive inspection of graph details on demand. An optimization- based node reordering strategy is incorporated in the nested matrix design to group together nodes with similar evolution patterns and highlight interesting graph structure details in each timeslice.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/YpfkEg3bHfE",
+        "youtube_ff_id": "YpfkEg3bHfE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10078374/v-cga-10078374_Preview.mp4?token=GPwpi68jEh0kOeIhl55NTOpGkzJSkquipYwccv1aRxY&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -4106,8 +4108,8 @@
         "paper_award": "",
         "image_caption": "Rainbow colormaps have long been criticized, especially when shape-from-shading is required (upper left). But domain experts continue to use them, especially for highlighting specific values and global patterns (lower left). Classic rainbows have uneven hue distribution and erratic luminance profiles. But it is possible to craft rainbow colormaps that avoid these problems. (upper right).Placing hues on key values can create a useful \u201ccolor ruler.\u201d (lower right) We understand well enough why rainbows can be bad; let us instead work to find out when and why they are good. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/LJhB4o315nU",
+        "youtube_ff_id": "LJhB4o315nU",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10128890/v-cga-10128890_Preview.mp4?token=MdjcNS3-czC61d_9XyQpByoEmEXu9H8Re4F1GSKFbiw&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -4165,8 +4167,8 @@
         "paper_award": "",
         "image_caption": "This figure shows stimuli from an experiment comparing two representations of probability: natural frequencies and icon arrays. Although these representations convey the same information, the visual cues provided by the icon arrays can change people's perception of the risk.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/WMGfURPRFEg",
+        "youtube_ff_id": "WMGfURPRFEg",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10201383/v-cga-10201383_Preview.mp4?token=vTrP56YmWW_mcWhejPKjE3Jm7h8whXcyMJQ7mGIfOYg&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -4212,8 +4214,8 @@
         "paper_award": "",
         "image_caption": "The illustration of an interactive membership function. Users can change the shape of the membership function by dragging the black points in (a) to adjust the range of the categories (Children, Youth, Adult, and Old). This interactive membership function helps users map the quantities (column Age) into categories (column Categories). The table in (b) shows the membership degrees derived from the membership function.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/zfGGIlFz_-s",
+        "youtube_ff_id": "zfGGIlFz_-s",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10207831/v-cga-10207831_Preview.mp4?token=bxQnsCspXz7hbX4rJka9sDjNpl6wHU5a4_ah1whqqos&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10207831/v-cga-10207831_Preview.srt?token=q77LkQdAuZz_5yVfqb8pfC-ovH7zm2jYr4K4qLxQw-o&expires=1730433600"
     },
@@ -4265,8 +4267,8 @@
         "paper_award": "",
         "image_caption": "A counterfactual subset includes data points from the excluded set that closely resemble those in the included set. Previous research indicates that visualizations comparing the counterfactual subset with the included subset (c) lead to more accurate causal inferences than traditional methods (b). This work will share our vision for how counterfactual concepts developed by the causal inference community can be leveraged to enable the development of more effective visualization technologies.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/N6USrLE8yfo",
+        "youtube_ff_id": "N6USrLE8yfo",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10414267/v-cga-10414267_Preview.mp4?token=FVxCuB6xLp1DUV6Sm1Gh4cxqFbnyw2q5gHteaBAiyUw&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10414267/v-cga-10414267_Preview.srt?token=CY0_DiPO-Mt3EyALCu_X6qEaEG2xb9-IPY8DehrAEN0&expires=1730433600"
     },
@@ -4312,8 +4314,8 @@
         "paper_award": "",
         "image_caption": "The iterative phases of the end-to-end visualization workflow (A-G) and types of generative AI opportunities (Creativity, Co-Pilot, and Automation) within them.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/UDI3JoGu2Qs",
+        "youtube_ff_id": "UDI3JoGu2Qs",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10478355/v-cga-10478355_Preview.mp4?token=bntoA5E5ZfCGu-KJFGG0JyRkowZQF3EIwF7Kt-WhyqU&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-cga/v-cga-10478355/v-cga-10478355_Preview.srt?token=Z5yTk4Adf9lkH6U9OqZvHtSDFifTio2hnkzEt1-bZuE&expires=1730433600"
     },
@@ -4740,11 +4742,11 @@
         "bunny_ff_subtitles": ""
     },
     "a-vast-challenge-1006": {
-        "slot_id": "a-vast-challenge-1006",
+        "slot_id": "a-vast-challenge-1004",
         "session_id": "contest2",
-        "title": "Tracking Overfishing: Visual Analytics of Suspicious Behaviors in Commercial Fishing Vessels",
+        "title": "Prerecorded video (VAST Challenge submission ID 1004)",
         "contributors": [
-            "Juanpablo Andrew Heredia"
+            "Falko Schulz"
         ],
         "authors": [
             {
@@ -4753,7 +4755,7 @@
                 "affiliations": [
                     "Getulio Vargas Foundation, Rio de Janeiro, Brazil"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Fabr\u00edcio Venturim",
@@ -4935,7 +4937,7 @@
         "keywords": [],
         "doi": "",
         "fno": "",
-        "presentation_mode": "Virtual",
+        "presentation_mode": "Prerecorded",
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
@@ -5210,11 +5212,11 @@
         "bunny_ff_subtitles": ""
     },
     "a-vast-challenge-1023": {
-        "slot_id": "a-vast-challenge-1023",
+        "slot_id": "a-vast-challenge-1024",
         "session_id": "contest2",
-        "title": "Utilizing TimeArcs and PageRank to Solve the 2024 VAST Challenge Mini Challenge 3",
+        "title": "Prerecorded video (VAST Challenge submission ID 1024)",
         "contributors": [
-            "Ethan Wei"
+            "Raphael Buchm\u00fcller"
         ],
         "authors": [
             {
@@ -5223,7 +5225,7 @@
                 "affiliations": [
                     "Texas Tech University, Lubbock, United States"
                 ],
-                "is_corresponding": true
+                "is_corresponding": false
             },
             {
                 "name": "Tommy Dang",
@@ -5965,8 +5967,8 @@
         "paper_award": "",
         "image_caption": "The screen of the visualization tool, featuring a Markov chain representing a patroller's strategy. On the left, there is a transition matrix providing an alternative view of the Markov chain. On the right, there is a bar chart showing the probability distribution in time of the patroller's presence.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/BgFsC5T5ILM",
+        "youtube_ff_id": "BgFsC5T5ILM",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1571/v-full-1571_Preview.mp4?token=f8B5YPqvr32ERZQcdM_iNJ8vQlq0Lo2mxVfog7Id2s8&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1571/v-full-1571_Preview.srt?token=3NQFm8yUvCvIu1-6NfSH5ehXGG9kmvr4XDrckdLdxoM&expires=1730433600"
     },
@@ -6272,8 +6274,8 @@
         "paper_award": "honorable",
         "image_caption": "Based on user exploration, our method dynamically selects the color range and assigns colors to classes within the range, which ensures high discriminability and harmony at each level and maintains consistency across different levels.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/RjtAd4XmMsU",
+        "youtube_ff_id": "RjtAd4XmMsU",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1595/v-full-1595_Preview.mp4?token=toj6GxPoOhr1jLn6j9nD71SzjSzQTxHw6k3YcrcXjAo&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1595/v-full-1595_Preview.srt?token=jIle7eUQz-qE5I07DktS3QVaM3zuo11YTABZfXIlcjc&expires=1730433600"
     },
@@ -6339,8 +6341,8 @@
         "paper_award": "",
         "image_caption": "We present a web-based shape recommendation tool based on our empirical studies. Users can input their target category number and preferred shape, and the tool will provide a shape palette based on a pairwise distance model between shapes generated using our experimental results. The output shape palette can also be modified by swapping out certain shapes, which the system will replace using data-driven recommendations. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/SSB0MEkju-s",
+        "youtube_ff_id": "SSB0MEkju-s",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1836/v-full-1836_Preview.mp4?token=xxn-m06rWMTDUsTGJC38ewDLCvtsHQOwHMkSA2HSmDA&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1836/v-full-1836_Preview.srt?token=rAB3h0TDWwRdw_o0wSQ1-fHqwgOwkRj6JvdCsF3r78Q&expires=1730433600"
     },
@@ -6771,8 +6773,8 @@
         "paper_award": "honorable",
         "image_caption": "The image consists of three panels: (i) a taxonomy of 76 design flaws, categorized into 3 high-level categories and 10 subcategories; (ii) an example of our website displaying detailed information on design flaws and the corpus; and (iii) an agenda on HOW to combat visualization design flaws.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/4OD9F2xvtPk",
+        "youtube_ff_id": "4OD9F2xvtPk",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1594/v-full-1594_Preview.mp4?token=B9Jdz8SGk1SHbPzpmdPFshIFsnyhUeDMu4Jk_yQSLvQ&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1594/v-full-1594_Preview.srt?token=LnGDD4FF6qg_f5naq4IZIiYCBHpBuyjrXVzyyUDpyXA&expires=1730433600"
     },
@@ -6822,8 +6824,8 @@
         "paper_award": "honorable",
         "image_caption": "Classical bibliography examines the books throughout history and reveal cultural development by researching preserved catalogs. Through interdisciplinary collaboration, we propose CataAnno, an intelligent annotation system that helps with annotation cleaning of these ancient catalogs. Learning base recommendations and convenient interactions supported by CataAnno enhances the consistency and efficiency of the annotation process.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/JP2jrdeR04g",
+        "youtube_ff_id": "JP2jrdeR04g",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1810/v-full-1810_Preview.mp4?token=svlpWrXTXba_ADnrB67YdHrra2wvXxdOQlnNYeB_NlU&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1810/v-full-1810_Preview.srt?token=-cCkRQ40jUMa22Rdt6KH-foUcUxQp4MuQSNoO1WfsZs&expires=1730433600"
     },
@@ -7178,8 +7180,8 @@
         "paper_award": "",
         "image_caption": "We iterated over numerous designs for the election forecast visualizations for the 2022 governor elections. This paper documents our journey, experiences, and lessons learned.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/haLpw_OzpFw",
+        "youtube_ff_id": "haLpw_OzpFw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1488/v-full-1488_Preview.mp4?token=YEVn09ch56y13mFON0apbM7OHxXyXR0MIoh07wLauQs&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1488/v-full-1488_Preview.srt?token=EIKBFxA2WYMJZ5-WNVd7RX0F558nVKQtCGmnsQFM1Ic&expires=1730433600"
     },
@@ -7523,8 +7525,8 @@
         "paper_award": "honorable",
         "image_caption": "The trade-off between learnability and expressivity has been discussed as an important design consideration for visualization authoring systems. We present Blended Interfaces, a framework for combining multiple authoring interfaces in a complementary way to balance learnability and expressivity.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/IL0N2WMISlg",
+        "youtube_ff_id": "IL0N2WMISlg",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1504/v-full-1504_Preview.mp4?token=jFGXnF-YKBBGg2rqeIRI8fjQS13h17VKJfyxu12UsP8&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1504/v-full-1504_Preview.srt?token=Rt-H1phZ7gxeNNZf9tIRQ-LGT0o9WudtW8kWLqMlzpU&expires=1730433600"
     },
@@ -8204,8 +8206,8 @@
         "paper_award": "honorable",
         "image_caption": "In contrast to traditional LLM question-answering, which often generate lengthy and unverified text, KNOWNET leverages external knowledge graph (KG) to enhance health information seeking with LLM. KNOWNET provides validation through literature for accuracy, next-step recommendations for comprehensive exploration, and step-by-step graph visualization for a progressive understanding of the topic.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/_eV967qYScs",
+        "youtube_ff_id": "_eV967qYScs",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1503/v-full-1503_Preview.mp4?token=DCKH1_qnxfb-cM6f17TTxp3U6FmGK7tYd4K1adE1Oy8&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1503/v-full-1503_Preview.srt?token=qNHGukqjokAVMKtDPxeimr-sum2x_sotCz1_PJ6Vf2s&expires=1730433600"
     },
@@ -8279,8 +8281,8 @@
         "paper_award": "",
         "image_caption": "There is a discrepancy between human chart takeaways and predictions of human chart takeaways generated by large language models. For a chart that shows the prices of three drinks in two bars, a human would tend to compare the prices of Drink 2 between the two bars, but the model predicts a human to compare the prices of the three drinks in Bar B.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/L_tj96AoLnI",
+        "youtube_ff_id": "L_tj96AoLnI",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1544/v-full-1544_Preview.mp4?token=xASKJTPbGCrNglAxnnLQVlf3Wmp5QMpznTvs0msc0MA&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -8363,8 +8365,8 @@
         "paper_award": "",
         "image_caption": "DiffFit workflow. The target cryo-EM volume and the structures to be fit on the top left serve as inputs, which are passed into the novel volume processing, followed by the differentiable fitting algorithm. The fitting results are then clustered and inspected by the expert. The expert may zero out voxels corresponding to the placed structures and feed the map back iteratively as input for a new fitting round until the compositing is done.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/ptmTip8km8k",
+        "youtube_ff_id": "ptmTip8km8k",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1533/v-full-1533_Preview.mp4?token=V8OcgojfOjgG9iatxgIF8UGOAImc5hoAlvO4BVA5RCg&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1533/v-full-1533_Preview.srt?token=YiBU9ZXJyfd4EKHrfRQNns5cPKwO7m2mkW2OnbcRTGg&expires=1730433600"
     },
@@ -8466,8 +8468,8 @@
         "paper_award": "honorable",
         "image_caption": "Protein engineers are focusing on protein loops to design novel proteins through a process called loop grafting. This involves transferring loops to transfer some desired functions from one protein to another. This paper introduces a set of interactive visualizations that support experts throughout the loop grafting pipeline. The workflow is divided into phases, each with specific 2D and 3D visual representations of proteins and their loops. With the aid of these visualizations, users iteratively identify potential loop candidates before performing an in-silico loop grafting and visualizing the results. The approach was validated with an expert case study, demonstrating its effectiveness.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/TjB6UTqQMHc",
+        "youtube_ff_id": "TjB6UTqQMHc",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1597/v-full-1597_Preview.mp4?token=dqG5O6MdgNjF_Kd8T_AnVvxZsuj2zZfem9zMErGW_OM&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1597/v-full-1597_Preview.srt?token=pfEKxAwTz0x9qiWxPObe6aSIrQZvBrkeGs6OdI0iXL0&expires=1730433600"
     },
@@ -8574,8 +8576,8 @@
         "paper_award": "",
         "image_caption": "Cell2Cell is a web-based visual analytics system to analyze interactions of cells in 3D biological tissue imaging data. a) Multi-volume viewer using pseudo-colors. The embedded interaction graph displays cells (nodes) and their interactions (edges). b) Cell interaction profiles show the spatial intensity distribution of protein markers between cells. c) Multiple interactions can be compared channel by channel. d) Heatmaps (overview) and line charts (details) can be toggled on demand. e) Radial polarization charts enable cell-centric analysis. f) The side panel allows users to customize color settings and (de)activate channels.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/wVBlWgy1Gd8",
+        "youtube_ff_id": "wVBlWgy1Gd8",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1615/v-full-1615_Preview.mp4?token=3texbGZWm2_V72b-KPt0rGFoMxv76gsFkNDOwCnQ1FE&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1615/v-full-1615_Preview.srt?token=aX17wdDATdRzBDANHUFadpD1V288PgtmL8VMdidF2O8&expires=1730433600"
     },
@@ -8930,8 +8932,8 @@
         "paper_award": "",
         "image_caption": "Magic Portal for data selection. User extends virtual arm to place portal near distant data. Portal opens within reach, allowing easy selection of distant points. Robot arm provides haptic feedback for interactions through the portal.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/hJ1I_66AuK0",
+        "youtube_ff_id": "hJ1I_66AuK0",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1699/v-full-1699_Preview.mp4?token=wT8OvZyLiVvdKlORk7nzC3ZNKxJnACWjffJwJAYdzQU&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1699/v-full-1699_Preview.srt?token=qiiiLObmOmzdMBa6T5PyiZm9r3DRn9EQAmrxulLxlZs&expires=1730433600"
     },
@@ -9388,8 +9390,8 @@
         "paper_award": "",
         "image_caption": "In our work, we introduce SurroFlow, a novel normalizing flow-based surrogate model, to learn the invertible transformation between simulation parameters and simulation outputs. The model not only allows accurate predictions of simulation outcomes for a given simulation parameter but also supports uncertainty quantification in the data generation process. Additionally, it enables reverse prediction of simulation parameters of a given simulation data. We integrate SurroFlow and a genetic algorithm as the backend of a visual interface to support effective user-guided ensemble simulation exploration and visualization. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/htK9ytzwcDM",
+        "youtube_ff_id": "htK9ytzwcDM",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1599/v-full-1599_Preview.mp4?token=9J85l_VJt9xibns9hdNhObpUAnkxe-sjC9TK-EcqYqE&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1599/v-full-1599_Preview.srt?token=2DOw2qRFLbhWNv0ay10L3whVIBwUNO5pk8QCy7n7q1g&expires=1730433600"
     },
@@ -9464,8 +9466,8 @@
         "paper_award": "",
         "image_caption": "By training multiple lightweight decoders and combining a variance regularization in the loss function, regularized multi-decoder SRN (RMDSRN) enables any feature grid SRN to produce uncertain predictions, such that a variance can be computed and visualized for post-training prediction quality assessment. Thanks to the variance regularization, the variances are more likely to resemble the spatial patterns of the actual prediction errors, which are inaccessible during inference time.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/Kx3B9acBnOw",
+        "youtube_ff_id": "Kx3B9acBnOw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1866/v-full-1866_Preview.mp4?token=JvYFoDniHtLPq0JNoRUiG6oNdGm3_ZCRaIqpCOhs9yY&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1866/v-full-1866_Preview.srt?token=7-modfywyiOsocXo-RX1xgkeCSva1HmuLauuXK2XFW0&expires=1730433600"
     },
@@ -9732,8 +9734,8 @@
         "paper_award": "",
         "image_caption": "Case analysis of the Cpan dataset: (a) the original graph; (b) our AdaMotif. The highlighted areas of each subfigure show the enlarged communities. We highlight identical communities for comparison. The identical communities are marked using \"The same community\". In (a), to make communities easier to identify, their nodes and edges are highlighted in blue and red, respectively. In (b), motifs with the same color and similar shape represent similar communities. The size of the motif indicates the number of nodes in this community. Our result provides a clearer expression of community information.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/gWWaEplNEMQ",
+        "youtube_ff_id": "gWWaEplNEMQ",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1606/v-full-1606_Preview.mp4?token=XNAI--kxzKJbfnEWfEQn-z-dQs-XeCUps7OttO-Ri_8&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1606/v-full-1606_Preview.srt?token=yyU1vwaX2Yxq1I7tJ61fvdARcrkp7cxtk-SnmGbGUKw&expires=1730433600"
     },
@@ -9817,8 +9819,8 @@
         "paper_award": "",
         "image_caption": "The case study of the UK Biobank data with a medical expert using our method. In the first stage of \"single causal graph analysis\" (1\u20134), the expert explores and edits single causal graphs using the progressive comparative visualization of three state-of-the-art causal discovery techniques (2-4) in combination with her domain knowledge. In the second stage of \"multi-outcome causal graphs comparison\" (5, 6), she selects graphs of interested outcome for comparison using various layouts, including the supergraph (5), and our new comparable layout for subgraphs (6). ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/bu5PgW9Q6Kg",
+        "youtube_ff_id": "bu5PgW9Q6Kg",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1693/v-full-1693_Preview.mp4?token=ovYGwzD9MYXQVpPzgVA8YPTLXY9HO1ombY8hfQ3Uh48&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -9876,8 +9878,8 @@
         "paper_award": "",
         "image_caption": "We present a structure-guided simplification scheme for hypergraphs. Given an input hypergraph (left), we identify a cycle basis for its bipartite graph representation (middle). Using the basis cycles, we decompose the hypergraph into a union of topological blocks (purple bubbles), bridges, and branches (green bubbles). We apply minimal cycle collapse and cycle cut simplifications to eliminate unavoidable overlaps in the topological blocks, and apply leaf pruning simplifications to reduce the space required by bridges and branches. Our simplification prioritizes preserving long cycles, bridges, and branches so that the most significant structures are kept in the simplified results (right).",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/kP6irewadAE",
+        "youtube_ff_id": "kP6irewadAE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1746/v-full-1746_Preview.mp4?token=ZRuLy-4QoGhRaO17UYqa07iEi1dYdlexH3G8P14LWxU&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -9951,8 +9953,8 @@
         "paper_award": "",
         "image_caption": "The exploratory framework for querying multivariate hierarchical data comprises three modes: top-down, bottom-up, and context-creation. The top-down mode starts from a clear query task. Users construct the corresponding query expression through direct manipulations interactively. The bottom-up mode recommends related query expressions based on the initial expression and the multivariate hierarchical data collection. The context-creation mode offers users an overview of the entire hierarchical data collection. Modules associated with the top-down, bottom-up, and context creation modes in the framework are denoted by red, orange, and blue triangles. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/7q67dSgbZCI",
+        "youtube_ff_id": "7q67dSgbZCI",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1831/v-full-1831_Preview.mp4?token=n9QVeFNmeHdmGxNyALHyOSelyM2wK96nkpNFEk5JK20&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1831/v-full-1831_Preview.srt?token=ZgipMgJhWQR58B78D58zTFJOIAOOffNjTYK6RJMyoOA&expires=1730433600"
     },
@@ -10572,8 +10574,8 @@
         "paper_award": "",
         "image_caption": "The interactive p-h diagram, central to interactive design of experiments for cooling systems, presents multiple layers of information: user-defined desired points (in shades of red), simulated points generated by parameters predicted through deep learning (shades of blue), and scatterplots offering a dual data perspective (with lines connecting Deep Learning prediction and simulation for the same parameters). ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/zGpaBxAqkHw",
+        "youtube_ff_id": "zGpaBxAqkHw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1805/v-full-1805_Preview.mp4?token=vbIksADqVloSgv_7CEcnLkzX0sf30vsoN5mp0KBDjH0&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1805/v-full-1805_Preview.srt?token=4CbReupRi8r5i9I_rOR3J4R7GGd_rHw_7goN2_bpA14&expires=1730433600"
     },
@@ -10642,8 +10644,8 @@
         "paper_award": "",
         "image_caption": "The DaedalusData framework supports two control modes for experts to steer the particle display with, shown here as a 2 \u00d7 2 matrix. Vertical: Experts choose between the Attribute View (for one attribute) and the Projection View (for multiple user-specified attributes) to identify areas of interest, and discover similar particles to label. Horizontal: Experts choose to explore either the Pre-Existing Data Attributes (the Image & Production Context), or to extend the exploration to Augmented Data Attributes created through particle labeling (Expert Knowledge). This design study implements a systematic cross-cut of all four types of control, addressing expert-contributed design requirements. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/TUuS_IaBoRg",
+        "youtube_ff_id": "TUuS_IaBoRg",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1865/v-full-1865_Preview.mp4?token=0EQEAR0eBMnTqI4vpUWiBIPLB73GJ3Ed4bw9fMtXw0A&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1865/v-full-1865_Preview.srt?token=CqKfM7RMtFtdxiCe3pzjkNZ41jjLObsXxcnKWjbAfLI&expires=1730433600"
     },
@@ -11535,8 +11537,8 @@
         "paper_award": "",
         "image_caption": "\u201cVisual summary\u201d of visual validation and estimation accuracy for linear trends in scatterplots. The figure shows the true regression line (green) for OLS together with participants\u2019 average response for estimation (blue) and the range of lines with an acceptance rate of 50% or higher for validation (orange).",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/-Ohr2rTpvXI",
+        "youtube_ff_id": "-Ohr2rTpvXI",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1547/v-full-1547_Preview.mp4?token=SSXo5mnJOmbYrf5k4_9Y7_5zEcT5DmSz-KJd7OTPcyo&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1547/v-full-1547_Preview.srt?token=LLrihZt2TX9EdY69thgGKMo33P18_McHP5ewTqId8Cc&expires=1730433600"
     },
@@ -11745,8 +11747,8 @@
         "paper_award": "",
         "image_caption": "From bigger picture to finer details Our four-tier framework consists of four levels: Objectives, Intents, Strategies, and Techniques, providing a common language to enhance cross-domain collaboration and tool evaluation.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/4WP9eGQ_hwI",
+        "youtube_ff_id": "4WP9eGQ_hwI",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1642/v-full-1642_Preview.mp4?token=6EC8R0dh9lTx_Yo63GE8xfzo74rMtLPiKE-sX05YXik&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1642/v-full-1642_Preview.srt?token=DCfmsMRFf68vDodSJcDYHRDq3OopfC9esYpGXacq6as&expires=1730433600"
     },
@@ -12133,8 +12135,8 @@
         "paper_award": "",
         "image_caption": "The figure shows how a force-based haptic stylus (middle-top) is used to interact with 3D surface visualizations. A virtual stylus (left) is used to interact with the surface, with an assistive force (middle-bottom) that activates when the stylus enters \"snap zone\" (S) above the surface (M). The forces in snap zone are calculated using a combination of spring and snapping forces. The paths traced by participants (right) illustrate how the stylus aligns with the surface geometry, guided by these snapping forces, while the surface texture and the Laplacian of the distance transform emphasize the smoothness and accuracy of the paths.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/jJowp-dAYp8",
+        "youtube_ff_id": "jJowp-dAYp8",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1500/v-full-1500_Preview.mp4?token=jgv8mXTzZajUyl2IUm_dK6-zrdp-umkLuenVdRWoJN0&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1500/v-full-1500_Preview.srt?token=7SpPLecKhHGy023qP07DEm035Bsvx364jPfUa-tXgeI&expires=1730433600"
     },
@@ -12217,8 +12219,8 @@
         "paper_award": "honorable",
         "image_caption": "We explored how refreshable tactile displays (RTDs) can be combined with conversational agents to assist people who are blind or have low vision (BLV) in undertaking data analysis activities. We used a Wizard-of-Oz method, allowing participants to manipulate charts rendered on the RTD, perform touch gestures, and ask the conversational agent questions to aid their understanding. Pictured is an RTD with a stacked bar chart rendered on the screen. A user is reaching out with both hands, touching raised pins on the RTD that make up the different components of the bar chart. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/Xw469H8JWP4",
+        "youtube_ff_id": "Xw469H8JWP4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1522/v-full-1522_Preview.mp4?token=SEEy97d0dqlKpk3cT4vIQZNToqbJOTSBwqAygXATai4&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -12293,8 +12295,8 @@
         "paper_award": "",
         "image_caption": "SpatialTouch is a novel cross-reality environment that seamlessly integrates a monoscopic 2D surface (an interactive screen with touch and pen input) with a stereoscopic 3D space (an augmented reality HMD) to jointly host spatial data visualizations. This innovative approach combines the best of two conventional methods of displaying and manipulating spatial 3D data, enabling users to fluidly explore diverse visual forms using tailored interaction techniques. Providing such effective 3D data exploration techniques is pivotal for conveying its intricate spatial structures---often at multiple spatial or semantic scales---across various application domains and requiring diverse visual representations for effective visualization.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/C-F1zT-UgsE",
+        "youtube_ff_id": "C-F1zT-UgsE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1626/v-full-1626_Preview.mp4?token=sK3xgzYvz9vy3e12YjM6EeAlIsksBkwUQRHAkZSg-e0&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1626/v-full-1626_Preview.srt?token=nNi8GNmk5EYUK_KG5cb0-5UOBQf0CamZesLxXXKI1Zo&expires=1730433600"
     },
@@ -12376,8 +12378,8 @@
         "paper_award": "",
         "image_caption": "This figure illustrates the user journey for GraphLite, highlighting how low-vision users enhance data visualization on smartphones. The journey begins with users swiping up to access a theme picker, adjusting visual elements like contrast, colors, and font size (a). Next, they use a customization menu to filter and view specific data points, navigating options with the \"Next\" button and finalizing with \"Done,\" while also using a slide gesture to navigate selections (b). Finally, users personalize the visualization by adjusting bar colors, improving data interpretation and accessibility (c).",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/2R4conY9Pfw",
+        "youtube_ff_id": "2R4conY9Pfw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1917/v-full-1917_Preview.mp4?token=MBZ8ifJtfXtnMfRB7H2bLh5bT5dInwre0HDdcTyarSE&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1917/v-full-1917_Preview.srt?token=KFhnAMhnRNglx-KY1SH0jQikfdNIWo4oj6SEmyyqAZg&expires=1730433600"
     },
@@ -12734,8 +12736,8 @@
         "paper_award": "",
         "image_caption": "An overview of the interactive notes, with: (A) Interactive text, comprising transcripts from audio and the LLM-generated meeting minutes, includes interactive text components based on the results of utterance matching and reference extraction. (B) Visual media from the meetings are presented with annotations based on parameters transmitted by the interactive text on the left. This operation can change the underlying visualization, add annotations, and alter interactive states. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/c8cC1W9ucj8",
+        "youtube_ff_id": "c8cC1W9ucj8",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1487/v-full-1487_Preview.mp4?token=FQT1xLvgPUr_7zSaXHM2CKNTj1_d2c5nF6amiRsmBtY&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1487/v-full-1487_Preview.srt?token=GmbrGAoHSO2hRXYZfucWq6Ym-yzgi6syszwqk7mHthw&expires=1730433600"
     },
@@ -13547,8 +13549,8 @@
         "paper_award": "",
         "image_caption": "When showing multiple probability density function (PDF) plots, it can be compelling to shrink plots with small standard deviations that have tall peaks. This compression may save space and make figures look nicer, but could this compression impact reader comprehension? In this paper, we compare the impact of \"squishing\" PDF plots and find reader comparison of plots with different vertical scales is lower than that of plots with the same vertical scale. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/nHx017A7OcI",
+        "youtube_ff_id": "nHx017A7OcI",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1638/v-full-1638_Preview.mp4?token=vDxDHiVPykap408m44TBUUDPrz6zAmggZ2fhZxGb1sI&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1638/v-full-1638_Preview.srt?token=SrQKxfxzDSTFwU5Cx8rPsqLwzeyUJn5189JlI0wpB7I&expires=1730433600"
     },
@@ -13821,8 +13823,8 @@
         "paper_award": "",
         "image_caption": "SpreadLine is a visualization framework for exploring dynamic egocentric networks. It builds upon storyline visualizations to represent four network aspects: structure, strength, function, and content. Guided by a literature review, SpreadLine addresses essential analysis tasks and offers customizable encodings to meet diverse user needs. This figure presents an example of SpreadLine showing public reaction to a significant event.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/N4HpqmtLsDc",
+        "youtube_ff_id": "N4HpqmtLsDc",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1483/v-full-1483_Preview.mp4?token=ytXWxPflKOx5y9augCJSEbmxJEVDgPNM0UIRemLg5Lo&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -13897,8 +13899,8 @@
         "paper_award": "",
         "image_caption": "The same synthetic data is visualized with BioFabric. The edge order has a huge influence on the appearance of patterns. A random edge order shows no topological structure, whereas our degreecending technique reveals three staircases and one path.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/z5Loo1vtnXg",
+        "youtube_ff_id": "z5Loo1vtnXg",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1809/v-full-1809_Preview.mp4?token=sYnN8_S710yTFOr4sy8fpyeSUYtQ5sxjnLXbRBwWYls&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1809/v-full-1809_Preview.srt?token=bMkBvuiBg59LNAB_X3tZa5xdzkXahJe4Z42ye7nZqwA&expires=1730433600"
     },
@@ -13973,8 +13975,8 @@
         "paper_award": "",
         "image_caption": "In this work, we characterize nine techniques to improve the performance of an integer linear programming (ILP) formulation and empirically test their improvement. We call these switches since they can be toggled and combined. Here, the behavior of the one of the switches, symmetry breaking, is illustrated. This technique removes redundancy in the model by fixing one of the decision variables. We find that use of the switch almost invariably improves the speed of the optimization solver.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/wIQnahaRsKk",
+        "youtube_ff_id": "wIQnahaRsKk",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1874/v-full-1874_Preview.mp4?token=G85Efq1rI0eSTL1MK_drwz50PwtWDcSI-zBmJYnTLUE&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -14402,8 +14404,8 @@
         "paper_award": "",
         "image_caption": "Participants were randomly assigned to one of two groups. During each study session, they completed the VLAT and a walkthrough of two unfamiliar visualizations. The visualizations they saw in each session were determined by the group they were assigned to. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/j5kScTwQeNk",
+        "youtube_ff_id": "j5kScTwQeNk",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1738/v-full-1738_Preview.mp4?token=HOTx4l7qDky3PAIN5UrGhIlD6SAGmJngXtES3wC48p8&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1738/v-full-1738_Preview.srt?token=EDSSAynuvqm7nWks6RBza0id9hZnB1TcnMXF4CUr2f8&expires=1730433600"
     },
@@ -14824,8 +14826,8 @@
         "paper_award": "",
         "image_caption": "We present a path-based design model and system for designing and creating visualisations. The image shows the Genii visualisation designer tool which demonstrates our flowpath model. Individuals define their own path or choose predefined flowpaths (left panel), drag and drop the visualisation properties into the gene panel (middle), which are rendered onto the gallery (right). Users can either create a new gene which adds a new image to the gallery or edit parameters (through drag and drop) to adapt current visualisations. Crafted visualisations can be exported and used in other applications. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/4GP7AtRD2y4",
+        "youtube_ff_id": "4GP7AtRD2y4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1613/v-full-1613_Preview.mp4?token=Uhv0T5i2byoQIGD44Vxa9Jcd8h91FAHp0C8U8pLpvB4&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1613/v-full-1613_Preview.srt?token=uwWiwrUqb19_M2oz4wx8ypLVaNjCs-_QJ7yLjzZdpkI&expires=1730433600"
     },
@@ -14883,8 +14885,8 @@
         "paper_award": "",
         "image_caption": "While consuming data visualizations, the mind may wander, exploring diverse ideas, questions, and connections. Viewers may venture opinions on appearance and convention, report visual patterns and trends, integrate external knowledge, or engage in unrelated thoughts. Where does your mind wander and why does it matter?",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/WuNz1VKzPLY",
+        "youtube_ff_id": "WuNz1VKzPLY",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1726/v-full-1726_Preview.mp4?token=qLuJG8ZPdGGFSTym-fu41zzoGoT8LM1yYZ6-jU99qiA&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1726/v-full-1726_Preview.srt?token=yZe83VVDNgBVAT_iHg_uFKWEfNw8cviPFjJviitcPms&expires=1730433600"
     },
@@ -15111,8 +15113,8 @@
         "paper_award": "",
         "image_caption": "We extract and simplify a vector field of ocean currents using our technique. The input mesh has over 48 million simplices, and the original flow results in over 65000 critical points. We simplify to approximately 2000 critical points using a discrete representation of the field. Computing the original field for a domain this big takes only 4 minutes and computing complete simplification takes approximately 10 minutes.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/OzB9wNzCmRc",
+        "youtube_ff_id": "OzB9wNzCmRc",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1494/v-full-1494_Preview.mp4?token=usx194xYVR8-djPko3ohF_0PYny_K5RbH2x0Fqx0ZFw&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -15162,8 +15164,8 @@
         "paper_award": "",
         "image_caption": "In this paper, we present the first finite-time approach that extracts objective vortex corelines, which are guaranteed to be pathlines of the underlying flow. Our key idea is to restrict the motion of the observer to always follow along particle trajectories, which incidentally also reduces the degrees of freedom in the reference frame optimization. We derive the method for 2D and 3D time-dependent flow.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/uzDwMGgfoLE",
+        "youtube_ff_id": "uzDwMGgfoLE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1574/v-full-1574_Preview.mp4?token=1dzHZmqY0ScY43iHcq0r_TadN7TuEBg0fKQ4q1NmftE&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1574/v-full-1574_Preview.srt?token=fVx8Bc3PS0li54gRmGAIQ0fnF-lBMxgiFhzZIe4XS2M&expires=1730433600"
     },
@@ -15576,8 +15578,8 @@
         "paper_award": "",
         "image_caption": "The user interface of Ferry. Ferry is an interactive system that uses a constraint-based approach to help data workers understand the input/output space of data wrangling scripts. It aids in comprehending this space through constraint icon and constraint tag, combined with sample data. Additionally, Ferry detects conflicts between requirements and scripts, facilitating efficient scripts reuse and debugging.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/C0yhkKGlj7k",
+        "youtube_ff_id": "C0yhkKGlj7k",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1730/v-full-1730_Preview.mp4?token=Op3_qrWX97c6NMeKmmpmOyBBKivPzJrkuUPEMAy2z2M&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1730/v-full-1730_Preview.srt?token=WwUEr4W9Iji8zAoBGgwCuRJr23SJXZt2SGzLiIiVuPY&expires=1730433600"
     },
@@ -15684,8 +15686,8 @@
         "paper_award": "",
         "image_caption": "The rise of urban data rise has led experts to address societal challenges using data-driven methods. Yet, effective analysis requires diverse resources and complex workflows. Current tools like urban visual analytics applications and computational notebooks often fall short. To address these challenges, we propose Curio, a provenance-aware collaborative framework for urban visual analytics. Curio allows users to build and iterate on dataflows with reusable modules, supporting collaborative design and tracking of changes. We evaluated Curio with domain experts through a set of case studies focusing on urban accessibility, climate, and sunlight access.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/phFXjrH7_ns",
+        "youtube_ff_id": "phFXjrH7_ns",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1830/v-full-1830_Preview.mp4?token=PMw01OvmxRM3Dmn59e5pWrPncdeYM4gUN3dS9qUjibM&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1830/v-full-1830_Preview.srt?token=xH83hAsr19T2OlPPJKG6USmJSlzqV9swdUgxjw-rkPY&expires=1730433600"
     },
@@ -15976,8 +15978,8 @@
         "paper_award": "",
         "image_caption": "DataGarden supports sketching personal, expressive designs and formalizing these as structured visualization templates. To express (A) a visualization design idea, a user sketches a few representative glyphs in (B) the canvas, making their vision explicit. DataGarden provides the means to structure the freeform sketch into a visualization template by (C) capturing implicit style and explicit data mappings via user interaction and machine support.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/IFG97n_gi0g",
+        "youtube_ff_id": "IFG97n_gi0g",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1502/v-full-1502_Preview.mp4?token=w4CD-laAbkqYIpzNABukxJTmJ15CNB136u4pl5pvCeg&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1502/v-full-1502_Preview.srt?token=JB23hpFMZEeWtz5LvaymlOgJV0mIBGDhUhcpOdvAw60&expires=1730433600"
     },
@@ -16322,8 +16324,8 @@
         "paper_award": "",
         "image_caption": "HuBar is a visual analytics system designed to analyze performer behavior in AR-assisted tasks, enabling multi-perspective analysis of multimodal time-series data. It provides a hierarchical set of visualizations: the Scatter Plot View (A) identifies clusters and patterns, the Workload Aggregation View (B) summarizes cognitive workloads and errors, the Event Timeline View (C) aligns time series collected during sessions, enabling comparison across sessions and exploration to update linked views, the Summary Matrix View (D) analyzes procedure frequency and errors, and the Detail View (E) enables in-depth session exploration with synchronized video and time series visualizations.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/AaX3LMAAkL4",
+        "youtube_ff_id": "AaX3LMAAkL4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1833/v-full-1833_Preview.mp4?token=kXpVEp2G8JSoWr3JmAkTz5HHLuEVtLEGtn6CkLaAN8k&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1833/v-full-1833_Preview.srt?token=TJChJ8-kK0-qBRk7QY9CzGYXXCNAFxVIEHdA94znYnw&expires=1730433600"
     },
@@ -16718,8 +16720,8 @@
         "paper_award": "",
         "image_caption": "Our method applied to a 3D WarpX laser-driven, plasma-based particle accelerator simulation dataset with a resolution of 6791x371x371. We use the x-component of the electric field. Left: three 2D slices of the volume along different axes with the extracted contours on the slice. Right: Using distributed topological data analysis to extract and visualize 3D isosurfaces corresponding to the top-11 branches of the contour tree.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/_RvXzzJfjFA",
+        "youtube_ff_id": "_RvXzzJfjFA",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1705/v-full-1705_Preview.mp4?token=KRb7CIhbrASvEyQDGsuCalh0XjYtWrTtPA72tjD062g&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -16801,8 +16803,8 @@
         "paper_award": "",
         "image_caption": "This figure compares SZ3 and ours (SZ3) in terms of feature preservation capability for MSS in combustion data. False cases are highlighted with boxes.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/TRMO8YUuSSs",
+        "youtube_ff_id": "TRMO8YUuSSs",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1793/v-full-1793_Preview.mp4?token=mq_GwqVoaX8VM0EBDuKWSvU8zRZEYMCZpPRYlndDs5E&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1793/v-full-1793_Preview.srt?token=qZnV8L0OVhtE5M8C6zYi7I6Me-QIz-UonlBkWLAHe44&expires=1730433600"
     },
@@ -16868,8 +16870,8 @@
         "paper_award": "",
         "image_caption": "An overview of our pipeline is shown in the representative image. Given a set of scalar fields as input, we first simplify each scalar field using a small persistence threshold to remove noise from the data. We then compute the corresponding merge tree with labeling. These merge trees are subsequently used to generate signatures using either the RMH or subpath signature algorithms. Locality-sensitive hashing (LSH) is employed to divide the signatures into bands and rows. Finally, for empirical comparison, we generate distance matrices by collecting similar pairs from the LSH.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/77lGpXvrG0k",
+        "youtube_ff_id": "77lGpXvrG0k",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1803/v-full-1803_Preview.mp4?token=bTKTc2VQvpQs8YUA6AesgADr3vNA7g6xS8QX_9lFKj4&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1803/v-full-1803_Preview.srt?token=YJGJgzwZGd5-Z0ayemd9xf2RokZnwKSp5oU17mupfg0&expires=1730433600"
     },
@@ -17605,8 +17607,8 @@
         "paper_award": "",
         "image_caption": "DimBridge helps users understand visual patterns in dimensionality reduction-based 2D projections by identifying relevant subsets of the high-dimensional space.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/tH3ik7KCn0A",
+        "youtube_ff_id": "tH3ik7KCn0A",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1568/v-full-1568_Preview.mp4?token=4rHbL9zypOPcv4QmTnYnprbl4RS8YStj6BPAK4rizBA&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1568/v-full-1568_Preview.srt?token=SOI8J1E388R3ADgh6IACzWOJhwfdCSQSGl8g139fTR0&expires=1730433600"
     },
@@ -17656,8 +17658,8 @@
         "paper_award": "",
         "image_caption": "We present an approach for visualizing a multi-dimensional partitioning in a 2D embedding. Each segment in the embedding corresponds to a multi-dimensional segment of the given partitioning. A multi-dimensional partitioning is modeled as a graph that is embedded into a 2D plane. The graph embedding is used as a starting point for a cellular automaton approach to compute a 2D embedding of the multi-dimensional embedding preserving topology, area, and boundary length. To its outcome, we apply a rendering that highlights relevant features.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/91i3yDeIi38",
+        "youtube_ff_id": "91i3yDeIi38",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1612/v-full-1612_Preview.mp4?token=EUgVBfrye42pazKDBfY0V5t7uuwIUzDQgiF4rdtXwRw&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -17731,8 +17733,8 @@
         "paper_award": "",
         "image_caption": "Representations of the MNIST database of handwritten digits. (a) This data is projected using TopoMap. (b) The hierarchy defined by the process of topological simplification is visualized as a TreeMap. Each leaf of this tree corresponds to the smallest simplified component with a user-defined minimum number of points. (c) The TopoMap++ representation of the same data where the eleven components selected by the TreeMap are highlighted. As can be seen, TopoMap++ makes much more efficient use of the space compared to TopoMap, thus allowing users to easily analyze the relationships between the different clusters. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/RHAnJMEbOOQ",
+        "youtube_ff_id": "RHAnJMEbOOQ",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1632/v-full-1632_Preview.mp4?token=NL73IBsAgaCsJAwcWrdzocAOZp8ABJQsqvlxLuVM_aE&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1632/v-full-1632_Preview.srt?token=nnuxA1POcFJtGJo3RfG9Z26Htjb_KbUYaTm9HT9mwH0&expires=1730433600"
     },
@@ -18091,8 +18093,8 @@
         "paper_award": "",
         "image_caption": "CSLens facilitates the implementation of new charging stations within the coupled transportation and power networks. The Temporal Overview (A) analyzes the fluctuations in traffic hotspots and charging demand. In the Control Panel (B), users can adjust parameters to generate solutions for charging station deployment. The Charging Station Info (C) provides key attributes of charging stations. The Map View (D) furnishes detailed information on traffic volume, charging demand and charging stations. The Result View (E) and the Impact View (F) enable users to compare various solutions and evaluate their respective impacts on the road network and the power grid.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/qZcYIS995YE",
+        "youtube_ff_id": "qZcYIS995YE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1681/v-full-1681_Preview.mp4?token=3S6TVYPNim5-H1pVaXrfj9MMJ5GUV-fnBLAlWj5Cu9Y&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -18495,8 +18497,8 @@
         "paper_award": "",
         "image_caption": "Our framework addresses limitations in traditional embedding visualization comparisons by focusing on shared class labels rather than individual point correspondences. We characterize intra- and inter-class relationships through three key concepts: confusion, neighborhood, and relative size. Here, we contrast standard and transformed UMAP projections of biological data, showcasing healthy tissue vs cancer tissue embedding visualizations. Central panes with quantitative color encoding illustrate how our metrics quantify these concepts and guide comparisons exploration. This approach enables structured comparisons of diverse datasets, as demonstrated with machine learning and single-cell biology examples. Our interactive prototype facilitates insightful analysis of high-dimensional data projections, enhancing researchers' interpretation and confidence in their findings. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/NOQMkUdisUc",
+        "youtube_ff_id": "NOQMkUdisUc",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1489/v-full-1489_Preview.mp4?token=r1czoxoMzgDBguv0DW_GGZSz9mE6Bydk9Vp-An3d2Is&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1489/v-full-1489_Preview.srt?token=bKAB3CZKUX_E4F02E59-aU0wJpguBNSh2AaQK1cctqA&expires=1730433600"
     },
@@ -18563,8 +18565,8 @@
         "paper_award": "",
         "image_caption": "ModalChorus supports multi-modal embeddings visualization with Modal Fusion Map and interactive alignment.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/oJrEG0FkEYw",
+        "youtube_ff_id": "oJrEG0FkEYw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1603/v-full-1603_Preview.mp4?token=U2SeRph0CmCty6EkL1awqGasK-mUH3IZYpTsKqatksE&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -18646,8 +18648,8 @@
         "paper_award": "",
         "image_caption": "Exemplary comparison of pairs of scatterplots. To analyze the stability concerning input data, we compare pairs of scatterplots that only differ in the amount of jitter applied to the DTM. To analyze the stability concerning hyperparameters, we compare pairs of scatterplots that differ in one hyperparameter setting with consecutive values. To analyze stability concerning randomness, we compare two layouts that only differ in their seeds.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/T3hvGmZlBgw",
+        "youtube_ff_id": "T3hvGmZlBgw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1770/v-full-1770_Preview.mp4?token=tW2cl0IdREAQh7MB2CO5gIe0FL6l_fBX0wOR_x1bJHI&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1770/v-full-1770_Preview.srt?token=X3q6M7zoNPgkA5ue2Lj4m8txAjiTyWvmkq0EiKTfQhY&expires=1730433600"
     },
@@ -18756,8 +18758,8 @@
         "paper_award": "",
         "image_caption": "FCNR is a fast method for compressing a great number of visualization images. It stands out in both encoding and decoding speed, and leads to compressive results while maintains high reconstruction quality using neural representations.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/dJGQMkPi44U",
+        "youtube_ff_id": "dJGQMkPi44U",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1056/v-short-1056_Preview.mp4?token=_udEvR_-XWuGx7m7Uplz74h9eP8X9f7fwPDsTcHXXL8&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -18824,8 +18826,8 @@
         "paper_award": "",
         "image_caption": "GROOT allows users to edit and reconfigure automated data insights by (1) selecting marks in charts to get recommendations of new insights based on the selection, (2) reconfiguring default insights by adjusting the template or insight generation thresholds, (3) adding new custom insights by specifying text templates for insights.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/pqb9IsoJKWA",
+        "youtube_ff_id": "pqb9IsoJKWA",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1097/v-short-1097_Preview.mp4?token=H27dKmOsBJYdAxm_VtiymNi6EZJv0ednyRKeUBzdvrQ&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1097/v-short-1097_Preview.srt?token=csXPj69gXJiEfmouLtJnaftwINmIPmGJRGcO3eJ6j34&expires=1730433600"
     },
@@ -19321,15 +19323,15 @@
         "paper_award": "",
         "image_caption": "Data-driven decision making is ostensibly more common now than ever, but without specific points of trust in the data handling process, people often fall back on ad hoc decision justification mechanisms. Driven by user interviews of both data producers and data consumers, Data Guards is a set of seven proposed strategies for improving users' trust in data to help them make more confident data-driven decisions.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/lGC-JrOjFTo",
+        "youtube_ff_id": "lGC-JrOjFTo",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1040/v-short-1040_Preview.mp4?token=I0DHvU5-20n2Fp6mZnDJ99636Y0rfqpqfaHfF2OYrcE&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
     "v-short-1114": {
         "slot_id": "v-short-1114",
         "session_id": "short2",
-        "title": "Honorable Mention",
+        "title": "The Comic Construction Kit: An Activity for Students to Learn and Explain Data Visualizations",
         "contributors": [
             "Magdalena Boucher"
         ],
@@ -19396,8 +19398,8 @@
         "paper_award": "honorable",
         "image_caption": "A preview of some customizeable character stickers and pre-printed visualizations from our comic construction kit, with a comic example by a student.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/CopQJYd6mh0",
+        "youtube_ff_id": "CopQJYd6mh0",
         "bunny_ff_link": "",
         "bunny_ff_subtitles": ""
     },
@@ -19479,8 +19481,8 @@
         "paper_award": "",
         "image_caption": "AltGeoViz enables screen-reader users to interact with dynamic geovisualizations. The left image shows the initial view, with the title, a summary of the general spatial pattern, and data extrema and averages presented to the user.The center image shows how as the user moves and zooms, the information is updated, and they can hear the boundary of their current viewport. The right image demonstrates how the data can be shown at different geographic units, such as state or county level, depending on the zoom level. See the provided video for a full demonstration of the AltGeoViz functionality. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/S6K-w6Kn090",
+        "youtube_ff_id": "S6K-w6Kn090",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1117/v-short-1117_Preview.mp4?token=eBWMER4GnSZFHZaWimXzfNCKGTrVOVyHY6Wo_kRg5yI&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1117/v-short-1117_Preview.srt?token=SrKdWP8Up_PgHYSD-3fOBsOlspY3U6SURAVdsDl8oZA&expires=1730433600"
     },
@@ -19838,8 +19840,8 @@
         "paper_award": "",
         "image_caption": "An example of proofreading of structural issues in a deep learning model (U-Net) using a proposed visual feedback-based no-code approach, and an example of the conventional method (code-based) corresponding to the errors present in the model.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/79um-yl_rvU",
+        "youtube_ff_id": "79um-yl_rvU",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1047/v-short-1047_Preview.mp4?token=CMcl7ui0rQ393UyFOML-kB2MqUGiK4UTVazthQ6Lrtw&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1047/v-short-1047_Preview.srt?token=i2_eLL9wzYoVKRhFXnyAoQv3qoo_n0tZ5v9c3rqE-zk&expires=1730433600"
     },
@@ -19897,8 +19899,8 @@
         "paper_award": "",
         "image_caption": "An example using a collection of images of sharks and snakes. We want the dimension reduction (DR) to organize images based on the feature \"open mouth\" vs \"closed mouth\". (A) shows the initial projection, with added contours to highlight the locations of images with open mouths (yellow) and closed mouths (blue). The DR is not able to identify the open vs closed mouth feature. (B) illustrates the user\u2019s interaction to convey this feature. (C) shows the DR after using ImageSI to update the embeddings. The DR now captures this feature much better than in it did with the original embeddings. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/hPRtueM5Aw4",
+        "youtube_ff_id": "hPRtueM5Aw4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1058/v-short-1058_Preview.mp4?token=DiJFwOd1DL-Y3YZiGI_igjZZaP9lc9UQl3GxZuDqyok&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1058/v-short-1058_Preview.srt?token=U3bxJhzPWCwU3zWDa-ETnp5-cAETvSqcvLtlycpJ9YA&expires=1730433600"
     },
@@ -19956,8 +19958,8 @@
         "paper_award": "",
         "image_caption": "Bavisitter\u2019s visualization authoring workflow. A) The user requests a visualization to an LLM by prompting \u201cShow me the average yield by site.\u201d B) The LLM generates an ineffective visualization design that uses a connection mark to encode the categorical attribute on the x-axis. C) Bavisitter detects the design issue in the generated visualization and gives feedback to the LLM by modifying the original prompt, e.g., appending \u201cChange mark to bar\u201d. As a result, the user can author visualization designs that conform to known design guidelines and knowledge while exploiting the flexibility that the LLM provides. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/yRnmq_TZ2FU",
+        "youtube_ff_id": "yRnmq_TZ2FU",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1064/v-short-1064_Preview.mp4?token=5RpdXHt32iGGi7RTjNMIT0xavvRbhHTuPaoWv7omPIo&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1064/v-short-1064_Preview.srt?token=276KbpWPG1SauiOrcfVnuu8YnxSc5r4PQ1Z5BVO4iL4&expires=1730433600"
     },
@@ -20081,8 +20083,8 @@
         "paper_award": "",
         "image_caption": "System overview: Phase I includes (A) Cohort View for understanding drug event and disease progression relationships, (B) Patient Projection View to explore specific patient cohort characteristics, and (C) Medical Event View for detailed visualization of patient medical events. Phase II comprises (D) Modeling View for iterative AI model development and performance evaluation, and (E) Logs View for maintaining iteration records of models and associated data.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/_T6AUyLBmY4",
+        "youtube_ff_id": "_T6AUyLBmY4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1089/v-short-1089_Preview.mp4?token=SF79zbkXm7K6OO_TFS20wJPZP4RNJ9eNFhQfShoogXk&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1089/v-short-1089_Preview.srt?token=9Nik6uy2GwUw6bX8pcyInh0NEgvJlDcJfnZ78Jha6Mw&expires=1730433600"
     },
@@ -20441,8 +20443,8 @@
         "paper_award": "",
         "image_caption": "Our results show that layouts focused on multidimensional similarities supported a multidimensional cluster analysis task, layouts focused on set similarities supported set relation tasks, and neither layout supported the joint task well. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/ah4dt96Yo1M",
+        "youtube_ff_id": "ah4dt96Yo1M",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1057/v-short-1057_Preview.mp4?token=qKv-_jwVq8nvYMJYoaCoOCynyV0WJEeZi79eGjVM1Fw&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1057/v-short-1057_Preview.srt?token=f0HmYwM8JFtI6Mcg0_EBs7-Ig5iE6VS68TdE2a7LZvc&expires=1730433600"
     },
@@ -20500,8 +20502,8 @@
         "paper_award": "",
         "image_caption": "Each projection is part of a GhostUMAP projection generated for the CIFAR-10 dataset. Case (A) depicts the trajectories of a stable point where the original projection (blue cross) and its ghosts (blue triangles) are projected to a consistent location. In contrast, Case (B) shows the trajectories of an unstable point. The trajectories diverge, implying instability in the final projection of the point (orange cross).",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/99IVMIqYnfA",
+        "youtube_ff_id": "99IVMIqYnfA",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1065/v-short-1065_Preview.mp4?token=S4Ft136d_boh8u-gXn-wAdiz9Aw_YFeVRCGqkHB9JGk&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -20559,8 +20561,8 @@
         "paper_award": "",
         "image_caption": "Our use-coordination approach streamlines the implementation of coordinated multiple views (CMV) by leveraging a declarative grammar and embracing modern reactive user interface development frameworks. Use-coordination is flexible because it is decoupled from any particular data type or visualization approach.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/yUeqo0sWUgU",
+        "youtube_ff_id": "yUeqo0sWUgU",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1096/v-short-1096_Preview.mp4?token=BkrEnuXnDc6Qq3r-mvF-Xx8BXFUnzobudxpjY1msKvc&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1096/v-short-1096_Preview.srt?token=-1IIZRjdDEGawXQSUfwnaBL9Zb7s1YT8EiH2LF6Ov7Q&expires=1730433600"
     },
@@ -20930,8 +20932,8 @@
         "paper_award": "",
         "image_caption": "We selected 10 representative surface reconstruction methods and created 9 datasets for evaluation. Each dataset comprises 42 images for training and 181 images for testing. After training the models, we used them to generate neural surface rendering images and reconstruct surface polygon meshes. The synthesized results were evaluated using peak signal-to-noise ratio (PSNR), learned perceptual image patch similarity (LPIPS) against ground truth images, and chamfer distance against the ground truth surface mesh. We also comprehensively analyzed the results, including model design and performance.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/gC0jSUB5PvU",
+        "youtube_ff_id": "gC0jSUB5PvU",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1049/v-short-1049_Preview.mp4?token=uoTYztiyhPmlmrydoqmYzohPfMPzTYBsVUdGvLxD_WQ&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1049/v-short-1049_Preview.srt?token=LrchUQH0UK--wYWJWgdYgRt-EeJDWRM6Hl2rKh5bRrs&expires=1730433600"
     },
@@ -20989,8 +20991,8 @@
         "paper_award": "",
         "image_caption": "Direct volume renderings of the manix dataset applying distinct transfer functions. Distance map based empty space skipping can be used to accelerate rendering. Different transfer functions result in different distance maps as indicated in the image. Therefore, it is required to recompute the distance map on a transfer function update. In the paper, we demonstrate how to compute the distance map faster than before by computing what we call partitioned distance maps as a preprocessing step, and combining them into the final distance map at runtime.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/De6SwX2KSV4",
+        "youtube_ff_id": "De6SwX2KSV4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1054/v-short-1054_Preview.mp4?token=cb8cLTNiWrnvMHsDzo4kJfGqvCTgwuvoHALUniFGIR8&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -21056,8 +21058,8 @@
         "paper_award": "",
         "image_caption": "Precipitation change (%) in 2080-2099 relative to 1986-2005 based on 100 simulation runs of the RCP8.5 scenario within MPI-GE. (a) shows a direct volume rendering of the cumulative height field using a 2D transfer function, mapping cumulative probabilities to opacity and precipitation change to color (blue: increase, red: decrease), and an isosurface of the median. (d) shows an orthographic view from the top. The intersection of the black lines show the point of interest (0\u00b0, 170\u00b0W). (b) and (c) show the cumulative function graphs along each component of the point of interest. The purple lines depict the zero percent difference. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/muHSHH_zJK8",
+        "youtube_ff_id": "muHSHH_zJK8",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1119/v-short-1119_Preview.mp4?token=it5hcr8mic5-t_R9wL8DHtwmG8pL9-YBm8UwxJG2i7A&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1119/v-short-1119_Preview.srt?token=pa9nm3tAGNmlCt9qIZjWGXj1IRf6yQ7cyItR1aCBEBg&expires=1730433600"
     },
@@ -21522,8 +21524,8 @@
         "paper_award": "",
         "image_caption": "Gantt charts are popular in project planning, process scheduling, and progress tracking for visualizing interdependent temporal event sequences. Typically, data is organized by temporal order on one axis and the other by grouping events with relevant factors. Our literature-based visualization task taxonomy helps in designing Gantt charts with large number of events by aligning prevalent visual tasks with relevant data queries. These provide a foundation for identifying and developing data management strategies to scale up visual interactivity in Gantt Charts.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/a85BN_1AgEE",
+        "youtube_ff_id": "a85BN_1AgEE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1059/v-short-1059_Preview.mp4?token=AA-7sRm2dRmgNqzQ9NbGsKAYKGiJVgGMXQzn8vK3ySo&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1059/v-short-1059_Preview.srt?token=iIARTsHoNlynFZ_r5Ktv12EVvzBs79LzQgF7UYJ4jCg&expires=1730433600"
     },
@@ -21589,8 +21591,8 @@
         "paper_award": "",
         "image_caption": "An image showing how differently the image embedding model perceives changes in different visual channels. Peaks represent thresholds where the model perceives significant differences between images, indicating the discriminability of each channel.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/1o5g7_3J40g",
+        "youtube_ff_id": "1o5g7_3J40g",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1072/v-short-1072_Preview.mp4?token=oWDGK7OGFYWlhpETPpd7Cs6OTMqdpsTMLkMzxcdeBcE&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -21656,8 +21658,8 @@
         "paper_award": "",
         "image_caption": "Looking at this visualization of two lines depicting the revenue of two products over time. Product A is consistently doing better than Product B, and thus have higher revenue throughout time. Both products' revenue are growing, with their line slopes increasing over time. Your task it to compare whether the difference between their revenue, or the deltas between the two lines, are bigger at an earlier time (Time 1), or a later time (Time 2). While it may be tempting to say the difference is bigger at Time 1, the correct answer is Time 2. This is a visual illusion commonly referred to as the sine illusion. It is an underestimation of the difference between two lines when both lines have increasing slopes.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/siQIBjM26Wg",
+        "youtube_ff_id": "siQIBjM26Wg",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1081/v-short-1081_Preview.mp4?token=YKdYyRVKX0qJ9XXs4G9WUwY_svqHkLGqf694bT-Kj5M&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1081/v-short-1081_Preview.srt?token=jRuND1m9uPluMnSvV5z9FR-91RLjE2qTAMQ5uA0zIN0&expires=1730433600"
     },
@@ -21715,8 +21717,8 @@
         "paper_award": "",
         "image_caption": "One of the three conditions used in our experiment consisting of a bar chart of the counts of victims in mass shootings in the United States from 2013 to 2023, highlighting the counts of Hispanic victims. The other two conditions consist of the same bar chart but highlight the counts of White and Black victims, respectively. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/5MyW9ssiG3s",
+        "youtube_ff_id": "5MyW9ssiG3s",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1109/v-short-1109_Preview.mp4?token=rHi1UHfRawEcazbN1rhXYIgginvswT3o2SwjyJkh0tg&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -21775,8 +21777,8 @@
         "paper_award": "",
         "image_caption": "We studied whether people can rapidly perceive two ensemble statistics from scalar fields: the mean and variation. The figure illustrates the experimental procedures we used to evaluate this capacity.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/lIUx96SZ0N4",
+        "youtube_ff_id": "lIUx96SZ0N4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1116/v-short-1116_Preview.mp4?token=-2B8GvKPTbcGmjcSkOpRvnNnMWzdgzCHMnvQ4MO_vKg&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1116/v-short-1116_Preview.srt?token=k8x_VR5-N0DudnoKoiYijSup6XtSz5uG2wKefJzoKC4&expires=1730433600"
     },
@@ -21988,8 +21990,8 @@
         "paper_award": "",
         "image_caption": "Examples of geometric annotations used in a visualization, sonification, and physicalization. Geometric annotations draw attention to a specific section of the data representation, providing additional context, detail, and clarity to a section if it contains crucial information or is of significant interest to the viewer. Visualizations can integrate geometric annotations with call-out boxes. Sonifications can highlight specific excerpts using sub-clips of audio. Physicalizations can present multiple frames of reference to emphasize different perspectives that zoom in and out of the physicalization (photo credit to Klauss et al.)",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/ANwzcGZYe8E",
+        "youtube_ff_id": "ANwzcGZYe8E",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1062/v-short-1062_Preview.mp4?token=fZ4-LL2x7Xo3IEq6PbGThmlQ6hE3if6_RtUivcv_1qc&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -22039,8 +22041,8 @@
         "paper_award": "",
         "image_caption": "DASH is an interactive bimodal data analysis system that facilitates drag-and-drop analysis between text and visual representations of data. Users can expand on chart marks or text phrases by dragging them to DASH\u2019s text region, or drill down into them by dragging them to DASH\u2019s chart region. Using a modified Lundgard et al semantic hierarchy, DASH helps users create data analyses that combine high-level insights with low-level supporting visualizations.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/3Jlkw_OKzlE",
+        "youtube_ff_id": "3Jlkw_OKzlE",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1068/v-short-1068_Preview.mp4?token=ofxmxp8U-50dbgsNLkj35JCykoRs7C8S6IINtrBo8p4&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1068/v-short-1068_Preview.srt?token=HsSn0QkGmegjSHB8PhO6Wjuk5OUpxFRfasDCsQLE7Ww&expires=1730433600"
     },
@@ -22099,8 +22101,8 @@
         "paper_award": "",
         "image_caption": "Data visualizations from two articles available in Arabic and other left-to-right languages. The bar chart shows categorical data points that are non-ordinal (source: Inkyfada). The line chart shows ordered data points, its x-axis represents time sequence. Both charts are mirrored and their orientation follows the direction of the article language, i.e. from right to left for Arabic and left to right for English. The position of the logo of the journal, and the mention of the data source are also mirrored when switching between visualization in RTL and LTR languages.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/87XnPiyYb1U",
+        "youtube_ff_id": "87XnPiyYb1U",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1078/v-short-1078_Preview.mp4?token=CnVCQt3ox-J30yoeusQPdACfd-PZQs0bBldoBUnHbqM&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1078/v-short-1078_Preview.srt?token=U7RTz016QX5hdE33XJ4y3nco8gC6-cpdsMTjLcL7ziY&expires=1730433600"
     },
@@ -22166,8 +22168,8 @@
         "paper_award": "",
         "image_caption": "Overview of the AEye interface. Images are positioned according to their location in the CLIP embedding space and arranged in layers that the user can navigate by zooming. Top left: Dataset selector, Top middle: Search bar for semantic text and image search. Top right: Show information about the application. Bottom right: Minimap of the embedding space. ",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/JdTXigyYkkw",
+        "youtube_ff_id": "JdTXigyYkkw",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1079/v-short-1079_Preview.mp4?token=n3u7b786e-vMYMvE_IQ5U9cjS2frtaZk02wVGgfo0KE&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1079/v-short-1079_Preview.srt?token=hFQcl6SIBRsQTGVASl2lxRII2B4p0D9G-Bu6d5HgxoI&expires=1730433600"
     },
@@ -22233,8 +22235,8 @@
         "paper_award": "",
         "image_caption": "Overview of Confides: (a) The collapsible side menu contains controls for selecting, uploading, and transcribing audio files. (b) At the top of the dashboard are the audio player and search bar. (c) The confidence overview displays the length and average confidence value of each line segment in the transcription (encoded by the width and opacity of each rectangle, respectively). (d) The word tree provides context to a specific search term and shows which words most often follow or precede it. (e) The user can view and edit the transcription; each word is underlined, and its opacity indicates the confidence score.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/tBOVI_-pLQ4",
+        "youtube_ff_id": "tBOVI_-pLQ4",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1100/v-short-1100_Preview.mp4?token=MEgqXbErF2uaQUneqbipGJAuaMBY8pOPLCDzbdEDAtU&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -22592,8 +22594,8 @@
         "paper_award": "",
         "image_caption": "Uncertainty-aware implicit neural representation learning of vector field data. This proposed method enables neural network-guided uncertainty-informed visual analytics of vector fields by estimating the prediction uncertainty associated with the predicted values, aiming to build trustworthy and robust neural representations of complex vector data.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/vEf-mNcR5M0",
+        "youtube_ff_id": "vEf-mNcR5M0",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1708/v-full-1708_Preview.mp4?token=RuwNr0_Oj-7iuGFhpcoszwyfx6b8OX43V7VsYW4Jp-I&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/v-full/v-full-1708/v-full-1708_Preview.srt?token=4tcbOL6zqtOUnLdOq4amQGeiATXilSco48Y5QL9epKM&expires=1730433600"
     },
@@ -22651,8 +22653,8 @@
         "paper_award": "",
         "image_caption": "The left figure shows the 10 color schemes used in our user study, generated by combining cool (Red, Yellow) and warm (Green, Blue) colors as base colors. These schemes are categorized into groups for analysis. The right figure shows the study result that yellow-inclusive schemes are more effective for information seeking tasks, yielding higher accuracy and lower response times compared to other color schemes.",
         "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
+        "youtube_ff_link": "https://youtu.be/NbqkrDofSUs",
+        "youtube_ff_id": "NbqkrDofSUs",
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/v-short/v-short-1101/v-short-1101_Preview.mp4?token=klJe8UgVF0yzVDoDzhM_SYu91sIQDbFcUnsgTB_t7rU&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
@@ -25898,6 +25900,80 @@
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1007/w-uncertainty-1007_Preview.mp4?token=8rfUf11SCsATf7UzC6-xDYLlbQCurLQyjEYw9YyHGNI&expires=1730433600",
         "bunny_ff_subtitles": ""
     },
+    "w-uncertainty-1017": {
+        "slot_id": "w-uncertainty-1017",
+        "session_id": "workshop5",
+        "title": "Uncertainty Visualization Challenges in Decision Systems with Ensemble Data & Surrogate Models",
+        "contributors": [
+            "Sam Molnar"
+        ],
+        "authors": [
+            {
+                "name": "Sam Molnar",
+                "email": "sam.molnar@nrel.gov",
+                "affiliations": [
+                    "National Renewable Energy Lab, Golden, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "J.D. Laurence-Chasen",
+                "email": "jd.laurencechasen@nrel.gov",
+                "affiliations": [
+                    "National Renewable Energy Laboratory, Golden, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Yuhan Duan",
+                "email": "duan.418@osu.edu",
+                "affiliations": [
+                    "The Ohio State University, Columbus, United States",
+                    "National Renewable Energy Lab, Golden, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Julie Bessac",
+                "email": "julie.bessac@nrel.gov",
+                "affiliations": [
+                    "National Renewable Energy Laboratory, Golden, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Kristi Potter",
+                "email": "kristi.potter@nrel.gov",
+                "affiliations": [
+                    "National Renewable Energy Laboratory, Golden, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Uncertainty visualization is a key component in translating important insights from ensemble data into actionable decision-making by visually conveying various aspects of uncertainty withina system. With the recent advent of fast surrogate models for computationally expensive simulations, users can interact with more aspects of data spaces than ever before. However, the integration of ensemble data with surrogate models in a decision-making tool brings up new challenges for uncertainty visualization, namely how to reconcile and communicate the new and different types of uncertainties brought in by surrogates and how to utilize these new data estimates in actionable ways. In this work, we examine these issues as they relate to high-dimensional data visualization, the integration of discrete datasets and the continuous representations of those datasets, and the unique difficulties associated with systems that allow users to iterate between input and output spaces. We assess the role of uncertainty visualization in facilitating intuitive and actionable interaction with ensemble data and surrogate models, and highlight key challenges in this new frontier of computational simulation.",
+        "uid": "w-uncertainty-1017",
+        "time_stamp": "2024-10-14T12:30:00Z",
+        "time_start": "2024-10-14T12:30:00Z",
+        "time_end": "2024-10-14T15:30:00Z",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "Virtual",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": true,
+        "has_image": true,
+        "has_pdf": true,
+        "paper_award": "",
+        "image_caption": "The relationship between ensemble datasets and surrogates. Parameters (left) and outputs (right) in solid rectangles represent realizations from an ensemble dataset. A forward surrogate (top) enables a user to propose novel parameter settings and predict output variables, along with quantified uncertainty relating to how close those predictions get to the original ensemble outputs. A reverse surrogate (bottom) allows the user to choose output values and determine possible input parameters that will get within a range of that proposed output. We assess the role of uncertainty visualization in facilitating intuitive and actionable interaction with ensemble data and surrogate models, and highlight key challenges in this new frontier of computational simulation.",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": ""
+    },
     "w-uncertainty-1009": {
         "slot_id": "w-uncertainty-1009",
         "session_id": "workshop5",
@@ -25963,53 +26039,102 @@
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1009/w-uncertainty-1009_Preview.mp4?token=8Ya_rIZn7flqOlmKHILwBCvrxKdN1CX91FEvXi5cslk&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1009/w-uncertainty-1009_Preview.srt?token=kKlx2RhluAJIjppd-_OxtbQUL-d_Ns5VrClhkPVXEA4&expires=1730433600"
     },
-    "w-uncertainty-1010": {
-        "slot_id": "w-uncertainty-1010",
+    "w-uncertainty-1018": {
+        "slot_id": "w-uncertainty-1018",
         "session_id": "workshop5",
-        "title": "Uncertainty-Informed Volume Visualization using Implicit Neural Representation",
+        "title": "Effects of Forecast Number, Order, and Cost in Multiple Forecast Visualizations",
         "contributors": [
-            "Tushar Athawale"
+            "Laura Matzen"
         ],
         "authors": [
             {
-                "name": "Shanu Saklani",
-                "email": "saklanishanu@gmail.com",
+                "name": "Laura Matzen",
+                "email": "lematze@sandia.gov",
                 "affiliations": [
-                    "IIT kanpur , Kanpur , India"
+                    "Sandia National Laboratories, Albuquerque, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Mallory C Stites",
+                "email": "mcstite@sandia.gov",
+                "affiliations": [
+                    "Sandia National Laboratories, Albuquerque, United States"
                 ],
                 "is_corresponding": false
             },
             {
-                "name": "Chitwan Goel",
-                "email": "chitwangoel1010@gmail.com",
+                "name": "Kristin M Divis",
+                "email": "kmdivis@sandia.gov",
                 "affiliations": [
-                    "Indian Institute of Technology Kanpur, Kanpur, India"
+                    "Sandia National Laboratories, Albuquerque, United States"
                 ],
                 "is_corresponding": false
             },
             {
-                "name": "Shrey Bansal",
-                "email": "shrey.bansal75@gmail.com",
+                "name": "Alexander Bendeck",
+                "email": "abendeck3@gatech.edu",
                 "affiliations": [
-                    "Indian Institute of Technology Kanpur, Kanpur, India"
+                    "Georgia Institute of Technology, Atlanta, United States"
                 ],
                 "is_corresponding": false
             },
             {
-                "name": "Zhe Wang",
-                "email": "jay.wang@rutgers.edu",
+                "name": "John Stasko",
+                "email": "john.stasko@cc.gatech.edu",
                 "affiliations": [
-                    "Oak Ridge National Laboratory, Oak Ridge, United States"
+                    "Georgia Institute of Technology, Atlanta, United States"
                 ],
                 "is_corresponding": false
             },
             {
-                "name": "Soumya Dutta",
-                "email": "soumya.cvpr@gmail.com",
+                "name": "Lace M. Padilla",
+                "email": "l.padilla@northeastern.edu",
                 "affiliations": [
-                    "Indian Institute of Technology Kanpur (IIT Kanpur), Kanpur, India"
+                    "Northeastern University, Boston, United States"
                 ],
                 "is_corresponding": false
+            }
+        ],
+        "abstract": "Although people frequently make decisions based on uncertain forecasts about future events, there is little guidance about how best to represent the uncertainty in forecasts. One common approach is to use multiple forecast visualizations, in which multiple forecasts are plotted on the same graph. This provides an implicit representation of the uncertainty in the data, but it is not clear how many forecasts to show, or how viewers might be influenced by seeing the more extreme forecasts rather than those closer to the mean. In this study, we showed participants forecasts of wind speed data and they made decisions based on their predictions about the future wind speed. We allowed participants to choose how many forecasts to view prior to making a decision, and we manipulated the ordering of the forecasts and the cost of each additional forecast. We found that participants viewed more forecasts when the outcome was more ambiguous. The order of the forecasts had little impact on their decisions when there was no cost for the additional information. However, when there was a cost for each forecast, the participants were much more likely to make a guess based on only the first forecast shown. In this case, showing one of the extreme forecasts first led to less optimal decisions.",
+        "uid": "w-uncertainty-1018",
+        "time_stamp": "2024-10-14T12:30:00Z",
+        "time_start": "2024-10-14T12:30:00Z",
+        "time_end": "2024-10-14T15:30:00Z",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "Virtual",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "https://osf.io/preprints/osf/vhs7w/",
+        "accessible_pdf": true,
+        "has_image": true,
+        "has_pdf": true,
+        "paper_award": "",
+        "image_caption": "In this experiment, participants made decisions based on wind speed forecasts shown in multiple forecast visualizations. They saw one forecast to start, but could add up to 19 more forecasts to the plot, one at a time, prior to making their decisions. We manipulated the risk of the situation (the percentage of forecasts crossing the critical threshold of 50 miles per hour), the order in which the first three forecasts in the set appeared, and the cost of obtaining additional forecasts. This figure shows examples of the stimuli, each displaying three forecasts, at different levels of the Percent Crossing manipulation.",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": ""
+    },
+    "w-uncertainty-1015": {
+        "slot_id": "w-uncertainty-1015",
+        "session_id": "workshop5",
+        "title": "Accelerated Depth Computation for Surface Boxplots with Deep Learning",
+        "contributors": [
+            "Mengjiao Han"
+        ],
+        "authors": [
+            {
+                "name": "Mengjiao Han",
+                "email": "mengjiao@sci.utah.edu",
+                "affiliations": [
+                    "University of Utah, Salt Lake City, United States"
+                ],
+                "is_corresponding": true
             },
             {
                 "name": "Tushar M. Athawale",
@@ -26020,10 +26145,10 @@
                 "is_corresponding": false
             },
             {
-                "name": "David Pugmire",
-                "email": "pugmire@ornl.gov",
+                "name": "Jixian Li",
+                "email": "jixianli@sci.utah.edu",
                 "affiliations": [
-                    "Oak Ridge National Laboratory, Oak Ridge, United States"
+                    "University of Utah, Salt Lake City, United States"
                 ],
                 "is_corresponding": false
             },
@@ -26036,81 +26161,8 @@
                 "is_corresponding": false
             }
         ],
-        "abstract": "The increasing adoption of Deep Neural Networks (DNNs) has led to their application in many challenging scientific visualization tasks. While advanced DNNs offer impressive generalization capabilities, understanding factors such as model prediction quality, robustness, and uncertainty is crucial. These insights can enable domain scientists to make informed decisions about their data. However, DNNs inherently lack ability to estimate prediction uncertainty, necessitating new research to construct robust uncertainty-aware visualization techniques tailored for various visualization tasks. In this work, we propose uncertainty-aware implicit neural representations to model scalar field data sets effectively and comprehensively study the efficacy and benefits of estimated uncertainty information for volume visualization tasks. We evaluate the effectiveness of two principled deep uncertainty estimation techniques: (1) Deep Ensemble and (2) Monte Carlo Dropout (MCDropout). These techniques enable uncertainty-informed volume visualization in scalar field data sets. Our extensive exploration across multiple data sets demonstrates that uncertainty-aware models produce informative volume visualization results. Moreover, integrating prediction uncertainty enhances the trustworthiness of our DNN model, making it suitable for robustly analyzing and visualizing real-world scientific volumetric data sets.",
-        "uid": "w-uncertainty-1010",
-        "time_stamp": "2024-10-14T12:30:00Z",
-        "time_start": "2024-10-14T12:30:00Z",
-        "time_end": "2024-10-14T15:30:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "Virtual",
-        "open_access_supplemental_question": "",
-        "open_access_supplemental_link": "",
-        "preprint_link": "https://arxiv.org/abs/2408.06018",
-        "accessible_pdf": false,
-        "has_image": true,
-        "has_pdf": true,
-        "paper_award": "",
-        "image_caption": "Showcasing how uncertainty-aware deep learning models produce informative and reliable volume rendering results. Furthermore, the results demonstrate how prediction uncertainty in volume rendering can be quantified and communicated to domain scientists, aiding in the interpretation of deep learning model-generated outcomes.",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": ""
-    },
-    "w-uncertainty-1011": {
-        "slot_id": "w-uncertainty-1011",
-        "session_id": "workshop5",
-        "title": "UADAPy: An Uncertainty-Aware Visualization and Analysis Toolbox",
-        "contributors": [
-            "Patrick Paetzold"
-        ],
-        "authors": [
-            {
-                "name": "Patrick Paetzold",
-                "email": "patrick.paetzold@uni-konstanz.de",
-                "affiliations": [
-                    "University of Konstanz, Konstanz, Germany"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "David H\u00e4gele",
-                "email": "david.haegele@visus.uni-stuttgart.de",
-                "affiliations": [
-                    "University of Stuttgart, Stuttgart, Germany"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Marina Evers",
-                "email": "m_ever14@uni-muenster.de",
-                "affiliations": [
-                    "University of Stuttgart, Stuttgart, Germany"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Daniel Weiskopf",
-                "email": "weiskopf@visus.uni-stuttgart.de",
-                "affiliations": [
-                    "University of Stuttgart, Stuttgart, Germany"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Oliver Deussen",
-                "email": "oliver.deussen@uni-konstanz.de",
-                "affiliations": [
-                    "University of Konstanz, Konstanz, Germany"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Current research provides methods to communicate uncertainty and adapts classical algorithms of the visualization pipeline to take the uncertainty into account. Various existing visualization frameworks include methods to present uncertain data but do not offer transformation techniques tailored to uncertain data. Therefore, we propose a software package for uncertainty-aware data analysis in Python (UADAPy) offering methods for uncertain data along the visualization pipeline.We aim to provide a platform that is the foundation for further integration of uncertainty algorithms and visualizations. It provides common utility functionality to support research in uncertainty-aware visualization algorithms and makes state-of-the-art research results accessible to the end user. The project is available at https://github.com/UniStuttgart-VISUS/uadapy.",
-        "uid": "w-uncertainty-1011",
+        "abstract": "Functional depth is a well-known technique used to derive descriptive statistics (e.g., median, quartiles, and outliers) for 1D data. Surface boxplots extend this concept to ensembles of images, helping scientists and users identify representative and outlier images. However, the computational time for surface boxplots increases cubically with the number of ensemble members, making it impractical for integration into visualization tools.In this paper, we propose a deep-learning solution for efficient depth prediction and computation of surface boxplots for time-varying ensemble data. Our deep learning framework accurately predicts member depths in a surface boxplot, achieving average speedups of 6X on a CPU and 15X on a GPU for the 2D Red Sea dataset with 50 ensemble members compared to the traditional depth computation algorithm. Our approach achieves at least a 99\\% level of rank preservation, with order flipping occurring only at pairs with extremely similar depth values that pose no statistical differences. This local flipping does not significantly impact the overall depth order of the ensemble members.",
+        "uid": "w-uncertainty-1015",
         "time_stamp": "2024-10-14T12:30:00Z",
         "time_start": "2024-10-14T12:30:00Z",
         "time_end": "2024-10-14T15:30:00Z",
@@ -26122,11 +26174,11 @@
         "open_access_supplemental_question": "",
         "open_access_supplemental_link": "",
         "preprint_link": "",
-        "accessible_pdf": false,
+        "accessible_pdf": true,
         "has_image": true,
         "has_pdf": true,
         "paper_award": "",
-        "image_caption": "The UADAPy software package is a toolbox providing high-dimensional uncertain sample data sets, uncertainty-aware data transformations and analysis methods, and visualization methods tailored to show uni- and multivariate sets of probability distributions.",
+        "image_caption": "Functional depth is a valuable technique for analyzing uncertainty of 1D data, and surface boxplots extend this concept to image ensembles, aiding in identifying representative and outlier images. However, the high computational cost limits their usability. This paper introduces a deep-learning framework for efficient surface boxplot computation in time-varying ensemble data. Our method accelerates depth prediction, achieving up to 15X speedups on a GPU while maintaining 99% rank preservation accuracy, making it a practical solution for integrating surface boxplots into visualization tools.",
         "external_paper_link": "",
         "youtube_ff_link": "",
         "youtube_ff_id": "",
@@ -26246,6 +26298,241 @@
         "bunny_ff_link": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1012/w-uncertainty-1012_Preview.mp4?token=fRsU_limNTdX9nAIOhU27Jqv9DG9Bf1P4Bu9Hk_CLCg&expires=1730433600",
         "bunny_ff_subtitles": "https://ieeevis-uploads.b-cdn.net/vis24/w-uncertainty/w-uncertainty-1012/w-uncertainty-1012_Preview.srt?token=CRT8diSvS6Vaelc4Nun96O8lftyDKhnf9SjCVXAyuog&expires=1730433600"
     },
+    "w-uncertainty-1011": {
+        "slot_id": "w-uncertainty-1011",
+        "session_id": "workshop5",
+        "title": "UADAPy: An Uncertainty-Aware Visualization and Analysis Toolbox",
+        "contributors": [
+            "Patrick Paetzold"
+        ],
+        "authors": [
+            {
+                "name": "Patrick Paetzold",
+                "email": "patrick.paetzold@uni-konstanz.de",
+                "affiliations": [
+                    "University of Konstanz, Konstanz, Germany"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "David H\u00e4gele",
+                "email": "david.haegele@visus.uni-stuttgart.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Marina Evers",
+                "email": "m_ever14@uni-muenster.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Daniel Weiskopf",
+                "email": "weiskopf@visus.uni-stuttgart.de",
+                "affiliations": [
+                    "University of Stuttgart, Stuttgart, Germany"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Oliver Deussen",
+                "email": "oliver.deussen@uni-konstanz.de",
+                "affiliations": [
+                    "University of Konstanz, Konstanz, Germany"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Current research provides methods to communicate uncertainty and adapts classical algorithms of the visualization pipeline to take the uncertainty into account. Various existing visualization frameworks include methods to present uncertain data but do not offer transformation techniques tailored to uncertain data. Therefore, we propose a software package for uncertainty-aware data analysis in Python (UADAPy) offering methods for uncertain data along the visualization pipeline.We aim to provide a platform that is the foundation for further integration of uncertainty algorithms and visualizations. It provides common utility functionality to support research in uncertainty-aware visualization algorithms and makes state-of-the-art research results accessible to the end user. The project is available at https://github.com/UniStuttgart-VISUS/uadapy.",
+        "uid": "w-uncertainty-1011",
+        "time_stamp": "2024-10-14T12:30:00Z",
+        "time_start": "2024-10-14T12:30:00Z",
+        "time_end": "2024-10-14T15:30:00Z",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "Virtual",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": true,
+        "has_pdf": true,
+        "paper_award": "",
+        "image_caption": "The UADAPy software package is a toolbox providing high-dimensional uncertain sample data sets, uncertainty-aware data transformations and analysis methods, and visualization methods tailored to show uni- and multivariate sets of probability distributions.",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": ""
+    },
+    "w-uncertainty-1014": {
+        "slot_id": "w-uncertainty-1014",
+        "session_id": "workshop5",
+        "title": "Estimation and Visualization of Isosurface Uncertainty from Linear and High-Order Interpolation Methods",
+        "contributors": [
+            "Timbwaoga A. J. Ouermi"
+        ],
+        "authors": [
+            {
+                "name": "Timbwaoga A. J. Ouermi",
+                "email": "touermi@sci.utah.edu",
+                "affiliations": [
+                    "Scientific Computing and Imaging Institute, Salk Lake City, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Jixian Li",
+                "email": "jixianli@sci.utah.edu",
+                "affiliations": [
+                    "University of Utah, Salt Lake City, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Tushar M. Athawale",
+                "email": "tushar.athawale@gmail.com",
+                "affiliations": [
+                    "Oak Ridge National Laboratory, Oak Ridge, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Chris R. Johnson",
+                "email": "crj@sci.utah.edu",
+                "affiliations": [
+                    "University of Utah, Salt Lake City, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Isosurface visualization is fundamental for exploring and analyzing 3D volumetric data. Marching cubes (MC) algorithms with linear interpolation are commonly used for isosurface extraction and visualization.Although linear interpolation is easy to implement, it has limitations when the underlying data is complex and high-order, which is the case for most real-world data. Linear interpolation can output vertices at the wrong location. Its inability to deal with sharp features and features smaller than grid cells can create holes and broken pieces in the extracted isosurface. Despite these limitations, isosurface visualizations typically do not include insight into the spatial location and the magnitude of these errors. We utilize high-order interpolation methods with MC algorithms and interactive visualization to highlight these uncertainties. Our visualization tool helps identify the regions of high interpolation errors. It also allows users to query local areas for details and compare the differences between isosurfaces from different interpolation methods. In addition, we employ high-order methods to identify and reconstruct possible features that linear methods cannot detect.We showcase how our visualization tool helps explore and understand the extracted isosurface errors through synthetic and real-world data.",
+        "uid": "w-uncertainty-1014",
+        "time_stamp": "2024-10-14T12:30:00Z",
+        "time_start": "2024-10-14T12:30:00Z",
+        "time_end": "2024-10-14T15:30:00Z",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "Virtual",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "https://arxiv.org/abs/2409.00043",
+        "accessible_pdf": true,
+        "has_image": true,
+        "has_pdf": true,
+        "paper_award": "",
+        "image_caption": "Our proposed visualization system highlights errors introduced by linear interpolation methods and allows users to query local vertex differences between interpolation methods. The first column shows the approximated isosurface uncertainty and local selection using the colormap and transparent box, respectively. The second column shows the differences between linear and cubic, linear and WENO, and the approximated error for each vertex inside the transparent boxes. The third column shows a global comparison between linear and WENO. The fourth and fifth columns show a comparison between isosurfaces with (transparent orange) and without (opaque blue) possible hidden features that indicate isosurface feature uncertainty.",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": ""
+    },
+    "w-uncertainty-1010": {
+        "slot_id": "w-uncertainty-1010",
+        "session_id": "workshop5",
+        "title": "Uncertainty-Informed Volume Visualization using Implicit Neural Representation",
+        "contributors": [
+            "Tushar Athawale"
+        ],
+        "authors": [
+            {
+                "name": "Shanu Saklani",
+                "email": "saklanishanu@gmail.com",
+                "affiliations": [
+                    "IIT kanpur , Kanpur , India"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Chitwan Goel",
+                "email": "chitwangoel1010@gmail.com",
+                "affiliations": [
+                    "Indian Institute of Technology Kanpur, Kanpur, India"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Shrey Bansal",
+                "email": "shrey.bansal75@gmail.com",
+                "affiliations": [
+                    "Indian Institute of Technology Kanpur, Kanpur, India"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Zhe Wang",
+                "email": "jay.wang@rutgers.edu",
+                "affiliations": [
+                    "Oak Ridge National Laboratory, Oak Ridge, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Soumya Dutta",
+                "email": "soumya.cvpr@gmail.com",
+                "affiliations": [
+                    "Indian Institute of Technology Kanpur (IIT Kanpur), Kanpur, India"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Tushar M. Athawale",
+                "email": "tushar.athawale@gmail.com",
+                "affiliations": [
+                    "Oak Ridge National Laboratory, Oak Ridge, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "David Pugmire",
+                "email": "pugmire@ornl.gov",
+                "affiliations": [
+                    "Oak Ridge National Laboratory, Oak Ridge, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Chris R. Johnson",
+                "email": "crj@sci.utah.edu",
+                "affiliations": [
+                    "University of Utah, Salt Lake City, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "The increasing adoption of Deep Neural Networks (DNNs) has led to their application in many challenging scientific visualization tasks. While advanced DNNs offer impressive generalization capabilities, understanding factors such as model prediction quality, robustness, and uncertainty is crucial. These insights can enable domain scientists to make informed decisions about their data. However, DNNs inherently lack ability to estimate prediction uncertainty, necessitating new research to construct robust uncertainty-aware visualization techniques tailored for various visualization tasks. In this work, we propose uncertainty-aware implicit neural representations to model scalar field data sets effectively and comprehensively study the efficacy and benefits of estimated uncertainty information for volume visualization tasks. We evaluate the effectiveness of two principled deep uncertainty estimation techniques: (1) Deep Ensemble and (2) Monte Carlo Dropout (MCDropout). These techniques enable uncertainty-informed volume visualization in scalar field data sets. Our extensive exploration across multiple data sets demonstrates that uncertainty-aware models produce informative volume visualization results. Moreover, integrating prediction uncertainty enhances the trustworthiness of our DNN model, making it suitable for robustly analyzing and visualizing real-world scientific volumetric data sets.",
+        "uid": "w-uncertainty-1010",
+        "time_stamp": "2024-10-14T12:30:00Z",
+        "time_start": "2024-10-14T12:30:00Z",
+        "time_end": "2024-10-14T15:30:00Z",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "Virtual",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "https://arxiv.org/abs/2408.06018",
+        "accessible_pdf": false,
+        "has_image": true,
+        "has_pdf": true,
+        "paper_award": "",
+        "image_caption": "Showcasing how uncertainty-aware deep learning models produce informative and reliable volume rendering results. Furthermore, the results demonstrate how prediction uncertainty in volume rendering can be quantified and communicated to domain scientists, aiding in the interpretation of deep learning model-generated outcomes.",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": ""
+    },
     "w-uncertainty-1013": {
         "slot_id": "w-uncertainty-1013",
         "session_id": "workshop5",
@@ -26319,348 +26606,6 @@
         "bunny_ff_link": "",
         "bunny_ff_subtitles": ""
     },
-    "w-uncertainty-1014": {
-        "slot_id": "w-uncertainty-1014",
-        "session_id": "workshop5",
-        "title": "Estimation and Visualization of Isosurface Uncertainty from Linear and High-Order Interpolation Methods",
-        "contributors": [
-            "Timbwaoga A. J. Ouermi"
-        ],
-        "authors": [
-            {
-                "name": "Timbwaoga A. J. Ouermi",
-                "email": "touermi@sci.utah.edu",
-                "affiliations": [
-                    "Scientific Computing and Imaging Institute, Salk Lake City, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Jixian Li",
-                "email": "jixianli@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Tushar M. Athawale",
-                "email": "tushar.athawale@gmail.com",
-                "affiliations": [
-                    "Oak Ridge National Laboratory, Oak Ridge, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Chris R. Johnson",
-                "email": "crj@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Isosurface visualization is fundamental for exploring and analyzing 3D volumetric data. Marching cubes (MC) algorithms with linear interpolation are commonly used for isosurface extraction and visualization.Although linear interpolation is easy to implement, it has limitations when the underlying data is complex and high-order, which is the case for most real-world data. Linear interpolation can output vertices at the wrong location. Its inability to deal with sharp features and features smaller than grid cells can create holes and broken pieces in the extracted isosurface. Despite these limitations, isosurface visualizations typically do not include insight into the spatial location and the magnitude of these errors. We utilize high-order interpolation methods with MC algorithms and interactive visualization to highlight these uncertainties. Our visualization tool helps identify the regions of high interpolation errors. It also allows users to query local areas for details and compare the differences between isosurfaces from different interpolation methods. In addition, we employ high-order methods to identify and reconstruct possible features that linear methods cannot detect.We showcase how our visualization tool helps explore and understand the extracted isosurface errors through synthetic and real-world data.",
-        "uid": "w-uncertainty-1014",
-        "time_stamp": "2024-10-14T12:30:00Z",
-        "time_start": "2024-10-14T12:30:00Z",
-        "time_end": "2024-10-14T15:30:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "Virtual",
-        "open_access_supplemental_question": "",
-        "open_access_supplemental_link": "",
-        "preprint_link": "https://arxiv.org/abs/2409.00043",
-        "accessible_pdf": true,
-        "has_image": true,
-        "has_pdf": true,
-        "paper_award": "",
-        "image_caption": "Our proposed visualization system highlights errors introduced by linear interpolation methods and allows users to query local vertex differences between interpolation methods. The first column shows the approximated isosurface uncertainty and local selection using the colormap and transparent box, respectively. The second column shows the differences between linear and cubic, linear and WENO, and the approximated error for each vertex inside the transparent boxes. The third column shows a global comparison between linear and WENO. The fourth and fifth columns show a comparison between isosurfaces with (transparent orange) and without (opaque blue) possible hidden features that indicate isosurface feature uncertainty.",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": ""
-    },
-    "w-uncertainty-1015": {
-        "slot_id": "w-uncertainty-1015",
-        "session_id": "workshop5",
-        "title": "Accelerated Depth Computation for Surface Boxplots with Deep Learning",
-        "contributors": [
-            "Mengjiao Han"
-        ],
-        "authors": [
-            {
-                "name": "Mengjiao Han",
-                "email": "mengjiao@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Tushar M. Athawale",
-                "email": "tushar.athawale@gmail.com",
-                "affiliations": [
-                    "Oak Ridge National Laboratory, Oak Ridge, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Jixian Li",
-                "email": "jixianli@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Chris R. Johnson",
-                "email": "crj@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Functional depth is a well-known technique used to derive descriptive statistics (e.g., median, quartiles, and outliers) for 1D data. Surface boxplots extend this concept to ensembles of images, helping scientists and users identify representative and outlier images. However, the computational time for surface boxplots increases cubically with the number of ensemble members, making it impractical for integration into visualization tools.In this paper, we propose a deep-learning solution for efficient depth prediction and computation of surface boxplots for time-varying ensemble data. Our deep learning framework accurately predicts member depths in a surface boxplot, achieving average speedups of 6X on a CPU and 15X on a GPU for the 2D Red Sea dataset with 50 ensemble members compared to the traditional depth computation algorithm. Our approach achieves at least a 99\\% level of rank preservation, with order flipping occurring only at pairs with extremely similar depth values that pose no statistical differences. This local flipping does not significantly impact the overall depth order of the ensemble members.",
-        "uid": "w-uncertainty-1015",
-        "time_stamp": "2024-10-14T12:30:00Z",
-        "time_start": "2024-10-14T12:30:00Z",
-        "time_end": "2024-10-14T15:30:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "Virtual",
-        "open_access_supplemental_question": "",
-        "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": true,
-        "has_image": true,
-        "has_pdf": true,
-        "paper_award": "",
-        "image_caption": "Functional depth is a valuable technique for analyzing uncertainty of 1D data, and surface boxplots extend this concept to image ensembles, aiding in identifying representative and outlier images. However, the high computational cost limits their usability. This paper introduces a deep-learning framework for efficient surface boxplot computation in time-varying ensemble data. Our method accelerates depth prediction, achieving up to 15X speedups on a GPU while maintaining 99% rank preservation accuracy, making it a practical solution for integrating surface boxplots into visualization tools.",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": ""
-    },
-    "w-uncertainty-1016": {
-        "slot_id": "w-uncertainty-1016",
-        "session_id": "workshop5",
-        "title": "Visualizing Uncertainties in Ensemble Wildfire Forecast Simulations",
-        "contributors": [
-            "Jixian Li"
-        ],
-        "authors": [
-            {
-                "name": "Jixian Li",
-                "email": "jixianli@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Timbwaoga A. J. Ouermi",
-                "email": "touermi@sci.utah.edu",
-                "affiliations": [
-                    "Scientific Computing and Imaging Institute, Salk Lake City, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Chris R. Johnson",
-                "email": "crj@sci.utah.edu",
-                "affiliations": [
-                    "University of Utah, Salt Lake City, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Wildfire poses substantial risks to our health, environment, and economy. Studying wildfire is challenging due to its complex inter- action with the atmosphere dynamics and the terrain. Researchers have employed ensemble simulations to study the relationship be- tween variables and mitigate uncertainties in unpredictable initial conditions. However, many domain scientists are unaware of the advanced visualization tools available for conveying uncertainty. To bring some uncertainty visualization techniques, we build an interactive visualization system that utilizes a band-depth-based method that provides a statistical summary and visualization for fire front contours from the ensemble. We augment the visualiza- tion system with capabilities to study wildfires as a dynamic system. In this paper, We demonstrate how our system can support domain scientists in studying fire spread patterns, identifying outlier simu- lations, and navigating to interesting instances based on a summary of events.",
-        "uid": "w-uncertainty-1016",
-        "time_stamp": "2024-10-14T12:30:00Z",
-        "time_start": "2024-10-14T12:30:00Z",
-        "time_end": "2024-10-14T15:30:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "Virtual",
-        "open_access_supplemental_question": "",
-        "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": false,
-        "has_image": true,
-        "has_pdf": true,
-        "paper_award": "",
-        "image_caption": "We introduce our interactive interface for visualizing uncertainties of ensemble wildfire simulations. Our interface uses the contour boxplot to summarize the trend and variations of fire spreading patterns. Our interface also supports transfer-function-based color and opacity mapping for visualizing scalar functions from wildfire simulations, glyph- and streamline-based wind visualization, temporal events summary, contour band depths, spatial query for the fire arrival time (red sphere in the terrain shows the query point)",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": ""
-    },
-    "w-uncertainty-1017": {
-        "slot_id": "w-uncertainty-1017",
-        "session_id": "workshop5",
-        "title": "Uncertainty Visualization Challenges in Decision Systems with Ensemble Data & Surrogate Models",
-        "contributors": [
-            "Sam Molnar"
-        ],
-        "authors": [
-            {
-                "name": "Sam Molnar",
-                "email": "sam.molnar@nrel.gov",
-                "affiliations": [
-                    "National Renewable Energy Lab, Golden, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "J.D. Laurence-Chasen",
-                "email": "jd.laurencechasen@nrel.gov",
-                "affiliations": [
-                    "National Renewable Energy Laboratory, Golden, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Yuhan Duan",
-                "email": "duan.418@osu.edu",
-                "affiliations": [
-                    "The Ohio State University, Columbus, United States",
-                    "National Renewable Energy Lab, Golden, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Julie Bessac",
-                "email": "julie.bessac@nrel.gov",
-                "affiliations": [
-                    "National Renewable Energy Laboratory, Golden, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Kristi Potter",
-                "email": "kristi.potter@nrel.gov",
-                "affiliations": [
-                    "National Renewable Energy Laboratory, Golden, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Uncertainty visualization is a key component in translating important insights from ensemble data into actionable decision-making by visually conveying various aspects of uncertainty withina system. With the recent advent of fast surrogate models for computationally expensive simulations, users can interact with more aspects of data spaces than ever before. However, the integration of ensemble data with surrogate models in a decision-making tool brings up new challenges for uncertainty visualization, namely how to reconcile and communicate the new and different types of uncertainties brought in by surrogates and how to utilize these new data estimates in actionable ways. In this work, we examine these issues as they relate to high-dimensional data visualization, the integration of discrete datasets and the continuous representations of those datasets, and the unique difficulties associated with systems that allow users to iterate between input and output spaces. We assess the role of uncertainty visualization in facilitating intuitive and actionable interaction with ensemble data and surrogate models, and highlight key challenges in this new frontier of computational simulation.",
-        "uid": "w-uncertainty-1017",
-        "time_stamp": "2024-10-14T12:30:00Z",
-        "time_start": "2024-10-14T12:30:00Z",
-        "time_end": "2024-10-14T15:30:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "Virtual",
-        "open_access_supplemental_question": "",
-        "open_access_supplemental_link": "",
-        "preprint_link": "",
-        "accessible_pdf": true,
-        "has_image": true,
-        "has_pdf": true,
-        "paper_award": "",
-        "image_caption": "The relationship between ensemble datasets and surrogates. Parameters (left) and outputs (right) in solid rectangles represent realizations from an ensemble dataset. A forward surrogate (top) enables a user to propose novel parameter settings and predict output variables, along with quantified uncertainty relating to how close those predictions get to the original ensemble outputs. A reverse surrogate (bottom) allows the user to choose output values and determine possible input parameters that will get within a range of that proposed output. We assess the role of uncertainty visualization in facilitating intuitive and actionable interaction with ensemble data and surrogate models, and highlight key challenges in this new frontier of computational simulation.",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": ""
-    },
-    "w-uncertainty-1018": {
-        "slot_id": "w-uncertainty-1018",
-        "session_id": "workshop5",
-        "title": "Effects of Forecast Number, Order, and Cost in Multiple Forecast Visualizations",
-        "contributors": [
-            "Laura Matzen"
-        ],
-        "authors": [
-            {
-                "name": "Laura Matzen",
-                "email": "lematze@sandia.gov",
-                "affiliations": [
-                    "Sandia National Laboratories, Albuquerque, United States"
-                ],
-                "is_corresponding": true
-            },
-            {
-                "name": "Mallory C Stites",
-                "email": "mcstite@sandia.gov",
-                "affiliations": [
-                    "Sandia National Laboratories, Albuquerque, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Kristin M Divis",
-                "email": "kmdivis@sandia.gov",
-                "affiliations": [
-                    "Sandia National Laboratories, Albuquerque, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Alexander Bendeck",
-                "email": "abendeck3@gatech.edu",
-                "affiliations": [
-                    "Georgia Institute of Technology, Atlanta, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "John Stasko",
-                "email": "john.stasko@cc.gatech.edu",
-                "affiliations": [
-                    "Georgia Institute of Technology, Atlanta, United States"
-                ],
-                "is_corresponding": false
-            },
-            {
-                "name": "Lace M. Padilla",
-                "email": "l.padilla@northeastern.edu",
-                "affiliations": [
-                    "Northeastern University, Boston, United States"
-                ],
-                "is_corresponding": false
-            }
-        ],
-        "abstract": "Although people frequently make decisions based on uncertain forecasts about future events, there is little guidance about how best to represent the uncertainty in forecasts. One common approach is to use multiple forecast visualizations, in which multiple forecasts are plotted on the same graph. This provides an implicit representation of the uncertainty in the data, but it is not clear how many forecasts to show, or how viewers might be influenced by seeing the more extreme forecasts rather than those closer to the mean. In this study, we showed participants forecasts of wind speed data and they made decisions based on their predictions about the future wind speed. We allowed participants to choose how many forecasts to view prior to making a decision, and we manipulated the ordering of the forecasts and the cost of each additional forecast. We found that participants viewed more forecasts when the outcome was more ambiguous. The order of the forecasts had little impact on their decisions when there was no cost for the additional information. However, when there was a cost for each forecast, the participants were much more likely to make a guess based on only the first forecast shown. In this case, showing one of the extreme forecasts first led to less optimal decisions.",
-        "uid": "w-uncertainty-1018",
-        "time_stamp": "2024-10-14T12:30:00Z",
-        "time_start": "2024-10-14T12:30:00Z",
-        "time_end": "2024-10-14T15:30:00Z",
-        "paper_type": "workshop",
-        "keywords": [],
-        "doi": "",
-        "fno": "",
-        "presentation_mode": "Virtual",
-        "open_access_supplemental_question": "",
-        "open_access_supplemental_link": "",
-        "preprint_link": "https://osf.io/preprints/osf/vhs7w/",
-        "accessible_pdf": true,
-        "has_image": true,
-        "has_pdf": true,
-        "paper_award": "",
-        "image_caption": "In this experiment, participants made decisions based on wind speed forecasts shown in multiple forecast visualizations. They saw one forecast to start, but could add up to 19 more forecasts to the plot, one at a time, prior to making their decisions. We manipulated the risk of the situation (the percentage of forecasts crossing the critical threshold of 50 miles per hour), the order in which the first three forecasts in the set appeared, and the cost of obtaining additional forecasts. This figure shows examples of the stimuli, each displaying three forecasts, at different levels of the Percent Crossing manipulation.",
-        "external_paper_link": "",
-        "youtube_ff_link": "",
-        "youtube_ff_id": "",
-        "bunny_ff_link": "",
-        "bunny_ff_subtitles": ""
-    },
     "w-uncertainty-1019": {
         "slot_id": "w-uncertainty-1019",
         "session_id": "workshop5",
@@ -26720,6 +26665,63 @@
         "has_pdf": true,
         "paper_award": "",
         "image_caption": "Representative test/result from our framework (wind dataset ensemble created via random uniform noise). The entropy for the full distribution model matches closely to the uniform distribution assumption (red boxes) and the minimum entropy with the Gaussian assumption may not always be the best representative.",
+        "external_paper_link": "",
+        "youtube_ff_link": "",
+        "youtube_ff_id": "",
+        "bunny_ff_link": "",
+        "bunny_ff_subtitles": ""
+    },
+    "w-uncertainty-1016": {
+        "slot_id": "w-uncertainty-1016",
+        "session_id": "workshop5",
+        "title": "Visualizing Uncertainties in Ensemble Wildfire Forecast Simulations",
+        "contributors": [
+            "Jixian Li"
+        ],
+        "authors": [
+            {
+                "name": "Jixian Li",
+                "email": "jixianli@sci.utah.edu",
+                "affiliations": [
+                    "University of Utah, Salt Lake City, United States"
+                ],
+                "is_corresponding": true
+            },
+            {
+                "name": "Timbwaoga A. J. Ouermi",
+                "email": "touermi@sci.utah.edu",
+                "affiliations": [
+                    "Scientific Computing and Imaging Institute, Salk Lake City, United States"
+                ],
+                "is_corresponding": false
+            },
+            {
+                "name": "Chris R. Johnson",
+                "email": "crj@sci.utah.edu",
+                "affiliations": [
+                    "University of Utah, Salt Lake City, United States"
+                ],
+                "is_corresponding": false
+            }
+        ],
+        "abstract": "Wildfire poses substantial risks to our health, environment, and economy. Studying wildfire is challenging due to its complex inter- action with the atmosphere dynamics and the terrain. Researchers have employed ensemble simulations to study the relationship be- tween variables and mitigate uncertainties in unpredictable initial conditions. However, many domain scientists are unaware of the advanced visualization tools available for conveying uncertainty. To bring some uncertainty visualization techniques, we build an interactive visualization system that utilizes a band-depth-based method that provides a statistical summary and visualization for fire front contours from the ensemble. We augment the visualiza- tion system with capabilities to study wildfires as a dynamic system. In this paper, We demonstrate how our system can support domain scientists in studying fire spread patterns, identifying outlier simu- lations, and navigating to interesting instances based on a summary of events.",
+        "uid": "w-uncertainty-1016",
+        "time_stamp": "2024-10-14T12:30:00Z",
+        "time_start": "2024-10-14T12:30:00Z",
+        "time_end": "2024-10-14T15:30:00Z",
+        "paper_type": "workshop",
+        "keywords": [],
+        "doi": "",
+        "fno": "",
+        "presentation_mode": "Virtual",
+        "open_access_supplemental_question": "",
+        "open_access_supplemental_link": "",
+        "preprint_link": "",
+        "accessible_pdf": false,
+        "has_image": true,
+        "has_pdf": true,
+        "paper_award": "",
+        "image_caption": "We introduce our interactive interface for visualizing uncertainties of ensemble wildfire simulations. Our interface uses the contour boxplot to summarize the trend and variations of fire spreading patterns. Our interface also supports transfer-function-based color and opacity mapping for visualizing scalar functions from wildfire simulations, glyph- and streamline-based wind visualization, temporal events summary, contour band depths, spatial query for the fire arrival time (red sphere in the terrain shows the query point)",
         "external_paper_link": "",
         "youtube_ff_link": "",
         "youtube_ff_id": "",
