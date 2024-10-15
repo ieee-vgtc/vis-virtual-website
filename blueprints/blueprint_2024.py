@@ -556,6 +556,7 @@ def format_by_session_list(v):
         "zoom_private_meeting": v.get("zoom_private_meeting"),
         "zoom_private_password": v.get("zoom_private_password"),
         "zoom_private_link": v.get("zoom_private_link"),
+        "has_zoom_private_link": len(v.get("zoom_private_link")) > 0,
         "zoom_broadcast_link": v.get("zoom_broadcast_link"),
         "zoom_webinar_link": v.get("zoom_webinar_link"),
     }
@@ -717,7 +718,8 @@ def room(room):
                 'youtube_url': s['youtube_url'],
                 'youtube_id': s['youtube_id'],
                 'slido_link': s['slido_link'],
-                'discord_link': s['discord_link']
+                'discord_link': s['discord_link'],
+                'zoom_private_link': s['zoom_private_link']
             }
         for s in data["sessions"]])
 

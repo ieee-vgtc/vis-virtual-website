@@ -195,7 +195,7 @@
         "abstract": "Analyzing hourly precipitation is crucial for identifying patterns, trends, and anomalies in rainfall, which is essential for designing urban drainage systems, flood forecasting, hydrological modeling, and climate studies. Although conducting an analysis by identifying statistical characteristics of storm events with hourly precipitation data is critical, no effective system is available to provide a precise understanding of storm events by evaluating historical data. This study presents an interactive, web-based statistical rainfall analysis system that compiles all available hourly precipitation data across all U.S. states. It is designed as a web-based visual analytics system, utilizing multiple visualizations with supporting multiple user interaction techniques to facilitate comprehensive and interactive data analysis.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1039": {
         "event": "VIS Posters",
@@ -351,7 +351,7 @@
         "abstract": "We present our initial work on integrating a conversational agent using a large-language model (LLM) in OpenSpace, to provide conversational-based navigation for astrophysics visualization software. We focus on applications of visualization for education and outreach, where the versatility and intuitiveness of conversational agents can be leveraged to provide engaging and meaningful learning experiences. Visualization benefits from the development of LLMs by leveraging its capability to understand requests in natural language, allowing users to express complex tasks efficiently. Natural Language Interfaces can be combined with more traditional visualization interaction techniques, streamlining real-time interaction and facilitating free data exploration. We thus instructed a voice-controlled GPT-4o LLM to send commands to an OpenSpace instance, effectively providing the LLM with the the ability to steer the visualization software as a museum facilitator would for educational shows. We present our implementation and discuss future possibilities.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1045": {
         "event": "VIS Posters",
@@ -412,7 +412,7 @@
         "abstract": "Visualizing both temporal and spatial aspects of trajectories on a 2D plane presents challenges due to the need to sacrifice one dimension in a single view. In this work, we try to address these challenges by proposing a 2D multi-view approach that enhances user interaction and comprehension compared to traditional 3D methods like the space-time cube. Our approach emphasizes spatial visualization while enabling interactive selection of regions of interest (ROI) for detailed temporal analysis. Preliminary tests demonstrate the feasibility of our method for large-scale spatio-temporal data, with future work focusing on refining temporal interaction flexibility and direction selection within the spatial view.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1048": {
         "event": "VIS Posters",
@@ -449,7 +449,7 @@
         "abstract": "Currently, designing and building accessible data navigation using a tool such as Data Navigator is difficult due to the complexity of knowledge required to specify interaction possibilities using code. Exploring and expressing ideal experiences for end-users becomes time consuming. Our solution, Skeleton, provides a visual user interface canvas (with affordances similar to popular tools such as Figma or tldraw) and automatically generates code based on specified visual design constraints. Our approach enables creators to visually design data navigation structures without having to worry about code while easily adjusting their designs as they see fit. We hypothesize this interface will provide a flexible design experience that facilitates more active collaboration, faster iterations, and clearer communication of prototype ideas through demonstration.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1050": {
         "event": "VIS Posters",
@@ -595,7 +595,7 @@
         "abstract": "The rise of single-cell RNA sequencing (scRNA-seq) technologies has increased the need for visual analytical tools. Current visualization tools often cater to specific analysis stages rather than the entire pipeline, and many analyses rely on computational notebooks requiring significant programming skills. To address these challenges, we developed scFlowVis, a web-based visualization application designed in collaboration with bioinformatics and biological experts. scFlowVis supports the entire analysis pipeline for scRNA-seq data, providing visualization and interactive assistance throughout the process without programming. It dynamically links panel functionalities, allowing users to explore data attributes, compare parameters, and document workflows visually. The tool can also recommend appropriate visualizations based on data characteristics. Our experiences highlight the challenges and lessons in developing visualization tools for similar research contexts. scFlowVis has been released on https://github.com/EavanXing0416/scFlowVis.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1055": {
         "event": "VIS Posters",
@@ -829,7 +829,7 @@
         "abstract": "Voronoi treemaps are a well-established tool for simultaneously depicting data points and their hierarchical relationships. In addition to the hierarchical structure, information that indicates neighborhood and similarities between data points frequently exists. Examples include shared attributes like borders between countries or contextualized semantic information such as embedding vectors derived from large language models. In this work, we introduce a novel adaptation of the traditional Voronoi treemap algorithm that leverages similarity information to optimize the proximities or neighborhoods of Voronoi cells during initialization and optimization to more accurately reflect their similarities. We demonstrate the practicality of our approach through multiple real-world examples drawn from the domains of infographics and linguistics.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1063": {
         "event": "VIS Posters",
@@ -896,7 +896,7 @@
         "abstract": "We explore the potential for glanceable real-time conversation timelines in the Augmented Reality (AR) space, with a focus on lightweight and non-intrusive design. In recent years, AR has become an increasingly popular option for conversational support, leading to many contributions in the field. However, there has been less focus on developing lightweight, non-intrusive, on-demand conversation visualizations in AR. It is important that visualizations don't distract from the conversation partner or the conversation itself. Furthermore, the information displayed may not always be relevant to the user at every moment. Therefore, we explore methodologies to dissect and visualize conversation timelines in real time, providing glanceable summarizations and breakdowns of conversations which are easily summoned and dismissed. In our prototyping, we use a combination of Large Language Models (LLMs) and Natural Language Processing (NLP) techniques to recognize and classify changes in topic. To display the visualization, we use the XReal sunglasses as a lightweight unobtrusive headset which could reasonably be worn in everyday life. We identify a unique set of visualization challenges and opportunities related to minimalist conversation visualizations. Following these explorations, we discuss our findings, and provide our initial reflections on various visualization techniques.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1067": {
         "event": "VIS Posters",
@@ -1013,7 +1013,7 @@
         "abstract": "Transformers have revolutionized machine learning, yet their inner workings remain opaque to many. We present Transformer Explainer, an interactive visualization tool designed for non-experts to learn about Transformers through the GPT-2 model. Our tool helps users understand complex Transformer concepts by integrating a model overview and smooth transitions across abstraction levels of math operations and model structures. It runs a live GPT-2 model locally in the user\u201a\u00c4\u00f4s browser, empowering users to experiment with their own input and observe in real-time how the internal components and parameters of the Transformer work together to predict the next tokens. Our tool requires no installation or special hardware, broadening the public\u201a\u00c4\u00f4s access to AI education. Within the first ten days of release, it drew over 60,000 users. Our open-sourced tool is available at https://poloclub.github.io/transformer-explainer/. A video demo is available at https://youtu.be/ECR4oAwocjs.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1069": {
         "event": "VIS Posters",
@@ -1050,7 +1050,7 @@
         "abstract": "Data visualizations are commonly employed to convey relationships between variables from complex datasets in exploratory data analysis. Recent advancements in Large Language Models (LLMs) have shown surprising performance in assisting data analysis and visualization. In this poster, we investigate the capabilities of LLMs for reasoning about causality between concept pairs in visualized data using line charts, bar charts, and scatterplots. By using LLMs to replicate two human-subject empirical studies about causality judgments, we how their inferences about causality between concept pairs compare to those of humans, both with and without accompanying visualizations showing varying association levels. Our findings indicate that LLMs' causality inferences are more likely to align with human results without visualizations at very high or very low causal ratings, but LLMs are more influenced by low visualized associations and relatively unaffected by high visualized associations.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1070": {
         "event": "VIS Posters",
@@ -1203,7 +1203,7 @@
         "abstract": "Planetarium dome show films combine cinematic scientific visualizations with animations and recorded videos to provide immersive educational experiences worldwide. However, quantifying their global reach presents significant challenges due to the lack of standardized viewership tracking mechanisms across diverse planetarium venues. We present an analysis of the global impact of these shows in planetariums, presenting data regarding four documentary films from a single visualization lab. Specifically, we designed and administered a viewership survey of four long-running planetarium shows that contained cinematic scientific visualizations. Reported survey data shows that between 1.2 - 2.6 million people have viewed these four films across the 68 responding planetariums. When we include estimates and extrapolate for the 315 planetariums that licensed these shows, we arrive at an estimate of 16.5 - 24.1 million people having seen these films.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1073": {
         "event": "VIS Posters",
@@ -1280,7 +1280,7 @@
         "abstract": "While large language models (LLMs) have shown remarkable capability to generate convincing text across diverse domains, concerns around its potential risks have highlighted the importance of understanding the rationale behind text generation. We present LLM Attributor, a Python library that provides interactive visualizations for training data attribution of an LLM\u201a\u00c4\u00f4s text generation. Our library offers a new way to quickly attribute an LLM\u201a\u00c4\u00f4s text generation to training data points to inspect model behaviors, enhance its trustworthiness, and compare model-generated text with user-provided text. Thanks to LLM Attributor's broad support for computational notebooks, users can easily integrate it into their workflow to interactively visualize attributions of their models. For easier access and extensibility, we open-source LLM Attributor at https://github.com/poloclub/LLM-Attribution.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1074": {
         "event": "VIS Posters",
@@ -1317,7 +1317,7 @@
         "abstract": "Dimensionality reduction is a widely adopted tool in Natural Language Processing (NLP). Techniques such as Uniform Manifold Approximation and Projection (UMAP) transform high-dimensional embeddings of text data into a lower-dimensional space for visualization. Two-dimensional plots of these embeddings aid in developing insights into model performance. To make sense of these plots, users need to inspect the underlying text represented by the points which can be time-consuming and cognitively intensive. To address this challenge, we developed a novel approach for summarizing and analyzing data behind user selections in text embedding plots. Our interactive approach involves allowing the user to make selections on the text embedding and then utilizing a large-language model (LLM) for: getting a quick overview of the selection, identifying instances of miss-classification, understanding text data within a mixed-class selection, and suggesting additional labels that better fit the underlying text. We implemented our approach in a prototype application, Text-Embedding Selection Sidekick (TESS), and present our initial results.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1075": {
         "event": "VIS Posters",
@@ -1362,7 +1362,7 @@
         "abstract": "The think-aloud protocol has long been recognized as a useful tool for conducting user studies. Crowd-sourced studies likely would also benefit from think-aloud, but the increased technical overhead, as well as the uncertainty of how participants may react to being asked to speak without a researcher present, have restricted think-aloud to in-person studies. To address this problem, we introduce CrowdAloud, a user study platform for creating and analyzing crowd-sourced think-aloud studies. Utilizing audio and task-level provenance data, CrowdAloud provides the necessary conditions for think-aloud studies to be run as well as a qualitative analysis conducted on the results, without the technical overhead involved with an ad-hoc solution. To evaluate the comparability of in-person and crowd-sourced studies, we conduct two identical think aloud studies, one in-person and one online with crowd-sourced participants. Based on our results, we discuss implications of crowd-sourced think-aloud studies.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1076": {
         "event": "VIS Posters",
@@ -1423,7 +1423,7 @@
         "abstract": "Data visualizations are typically not accessible to blind and low-vision users. The most widely used remedy for making data visualizations accessible is text descriptions. Yet, manually creating useful text descriptions is often omitted by visualization authors, either because of a lack of awareness or a perceived burden. Automatically generated text descriptions are a potential partial remedy. However, with current methods it is unfeasible to create text descriptions for complex scientific charts. In this poster, we describe our methods for generating text descriptions for one complex scientific visualization: the UpSet plot. UpSet is a widely used technique for the visualization and analysis of sets and their intersections. At the same time, UpSet is arguably unfamiliar to novices and used mostly in scientific contexts. Generating text descriptions for UpSet plots is challenging because the patterns observed in UpSet plots have not been studied. We first analyze patterns present in dozens of published UpSet plots. We then introduce software that generates text descriptions for UpSet plots based on the patterns present in the chart. Finally, we introduce a web service that generates text descriptions based on a specification of an UpSet plot, and demonstrate its use in both an interactive web-based implementation and a static Python implementation of UpSet.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1077": {
         "event": "VIS Posters",
@@ -1516,7 +1516,7 @@
         "abstract": "Ecosystems are important for maintaining the planet's ecological balance, supporting biodiversity, and providing resources. The Global Ecosystem Dynamics Investigation (GEDI) mission uses space lidar to measure the 3D structure of global vegetation. The observations from GEDI, in the form of waveforms, hold the potential to reveal the spatial patterns and variation of ecosystem structures. However, it is difficult to understand this data due to its multivariate nature and random spatial sampling. Here, we use machine learning to develop a binning-based technique to visualize the spatial variation of large quantities of GEDI waveforms. This method can highlight the transition of different ecosystems through sharp changes in waveform distribution. In addition, it can reveal the internal heterogeneity of defined ecoregions. We expect this method to be helpful in studies of global ecosystems and generalize to other remote sensing data.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1079": {
         "event": "VIS Posters",
@@ -1545,7 +1545,7 @@
         "abstract": "This poster showcases AdaptLIL, a real-time adaptive link-indented list ontology mapping visualization that uses eye gaze as the primary input source. Through a multimodal combination of real-time systems, deep learning, and web development applications, this system uniquely curtails graphical overlays (adaptations) to pairwise mappings of link-indented list ontology visualizations for individual users based solely on their eye gaze.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1082": {
         "event": "VIS Posters",
@@ -1636,7 +1636,7 @@
         "abstract": "Creativity in visualisation design is essential for designers and data scientists who need to present data in innovative ways. It is often achieved through sketching or drafting low-fidelity prototypes. However, judging this innovation is often difficult. A creative visualisation test would offer a structured approach to enhancing visual thinking and design skills, which are vital across many fields. Such a test can facilitate objective evaluation, skill identification, benchmarking, fostering innovation, and improving learning outcomes. In developing such a test, we propose focusing on four criteria: Quantity, Correctness, Novelty, and Feasibility. These criteria integrate into a test that is easy to administer. We name it the Rowen Test of Creativity in Visualisation Design; We introduce the test, scoring system and results from using eight visualisation experts.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1084": {
         "event": "VIS Posters",
@@ -1702,7 +1702,7 @@
         "abstract": "AI prevails in financial fraud detection and decision making. Yet, due to concerns about biased automated decision making or profiling, regulations mandate that final decisions are made by humans. Financial fraud investigators face the challenge of manually synthesizing vast amounts of unstructured information, including AI alerts, transaction histories, social media insights, and governmental laws. Current Visual Analytics (VA) systems primarily support isolated aspects of this process, such as explaining binary AI alerts and visualizing transaction patterns, thus adding yet another layer of information to the overall complexity. In this work, we propose a framework where the VA system supports decision makers throughout all stages of financial fraud investigation, including data collection, information synthesis, and human criteria iteration. We illustrate how VA can claim a central role in AI-aided decision making, ensuring that human judgment remains in control while minimizing potential biases and labor-intensive tasks.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1088": {
         "event": "VIS Posters",
@@ -1739,7 +1739,7 @@
         "abstract": "Efficiently communicating information from categorical datasets to users is a crucial goal for data visualization. Recently, Large Language Models (LLMs) have been increasingly used to assist users in performing data analysis. In this poster, we investigated the capabilities of LLMs in interpreting categorical information in visualizations. We conducted two studies to analyze how effectively LLMs can estimate class means in multiclass scatterplots using both color and shape encodings. We found that LLMs struggled to comprehend categorical information with higher numbers of categories, especially compared to robust human performance found in past work. We argue that reasoning about data visualizations with categorical visual encodings remains a challenging task for current language models, highlighting the need for further research in this area.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1090": {
         "event": "VIS Posters",
@@ -1826,7 +1826,7 @@
         "abstract": "The need for innovative ideas in data visualisation drives us to explore new creative approaches. Combining two or more creative words, particularly those that contradict each other, can positively impact the creative process, sparking novel ideas and designs. As we move towards AI-driven design, an open question arises: do these design contradictions work positively with AI tools? Currently, the answer is no. AI systems, like large language models (LLMs), rely on algorithms that engender similarity, whereas creativity often requires divergence and novelty. This poster initiates a conversation on how to drive AI systems to be more creative and generate new ideas. This research invites us to reconsider traditional design methods and explore new approaches in an AI-driven world. Can we apply the same techniques used in traditional design, like the double diamond model, or do we need new methods for design engineering? How can we quickly design visualisations and craft new ideas with generative AI? This paper seeks to start this critical conversation and offers practical insights into the potential of AI in driving creativity in data visualisation.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1093": {
         "event": "VIS Posters",
@@ -1969,7 +1969,7 @@
         "abstract": "As datasets increase in size and complexity, query latency and visualization rendering times can increase prohibitively. Analysts often pragmatically resort to performing exploratory analysis over a sampled subset of the data. However, a sampled subset may not accurately reflect key patterns, may miss important values, and may distort trends which are important for accurately completing common visual analytics tasks. Our work provides insights on the tradeoffs of various sampling methods. We conduct two experiments on five large-scale datasets using five sampling methods (two diverse, two probablistic, one visualization-based). The first experiment investigates the subjective ability of these five sampling methods to capture key features of the data. In our second experiment, we empirically measure user performance accuracy in common, low-level analytic tasks using visualizations sampled via the five methods. We evaluate the performance of these methods via three metrics: the accuracy of (1) human response at reading the sampled data values, (2) human perception in using samples to make inferences about the original data, and (3) human perception in using samples to correctly estimate the ground truth.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1096": {
         "event": "VIS Posters",
@@ -2297,7 +2297,7 @@
         "abstract": "Understanding and inferring causal relationships between variables is a fundamental task in visualization and visual analysis. However, it can be challenging to verify inferences of causal relationships from traditional observational data because they often lack a ground truth causal model, complicating the evaluation of visual causal inference tools. To address this challenge, we introduce CausalSynth, an interactive web application designed to generate synthetic datasets from user-defined causal relationships. CausalSynth enables users to define acyclic causal graphs via a user-friendly graphical interface, establish interrelationships between variables, and produce datasets that reflect these desired causal interactions. The application also includes built-in tools for visualizing the generated datasets, facilitating deeper insights into the user-defined causal structure and aiding the validation of the generated data. By providing a user-friendly interface for synthetic data generation and visualization based on ground truth causal models, CausalSynth helps support more meaningful evaluations of visual causal inference technologies.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1105": {
         "event": "VIS Posters",
@@ -2485,7 +2485,7 @@
         "abstract": "New consumer devices with refreshable tactile displays promise to allow visually impaired people to analyze data through tactile representations of graphical visualizations. To understand whether results based on visual perception translate to tactile perception, we present a study replicating the formative study by Cleveland and McGill (1984) on graphical perception to tactile representations suitable for visually impaired users. To assess how tactile graphics can convey complex graphical information, we investigate the effectiveness of tactile data visualizations compared to reported results on visual graphical primitives, examining the accuracy and inference times of visually impaired versus sighted users. We find that visually impaired users interpret simpler tactile formats such as bar charts with significantly greater accuracy and speed than more complex formats like bubble charts.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1111": {
         "event": "VIS Posters",
@@ -2583,7 +2583,7 @@
         "abstract": "Designing visualizations is very often an iterative process that involves exploration of different visual encodings. While there have been many studies of the design process in different contexts, the lower-level details of code-heavy visualization workflows have been harder to capture. Using exploratory notebooks and higher-level frameworks that facilitate rapid iteration, users can quickly test ideas and examine results. We use publicly-available notebook version histories to study how users work in these environments, observing both how they build new visualizations from existing templates or previous work, and how they refine and enhance visualizations over time. In addition, we study differences between the Observable Plot and Vega Lite visualization frameworks, and compare those code-oriented frameworks with the Observable Chart Cell wizard. Our analysis provides insights into how users build off of existing work including templates, and provides some clues about the use of different visualization properties and encodings, including those that may require more exploration.",
         "has_summary_pdf": true,
         "has_poster_pdf": true,
-        "has_image": false
+        "has_image": true
     },
     "v-vis-posters-1113": {
         "event": "VIS Posters",
