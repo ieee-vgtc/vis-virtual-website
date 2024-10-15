@@ -396,6 +396,7 @@ def format_poster(v):
         "title": v["title"],
         "award": "",
         "discord_channel": v["discord_channel"],
+        "has_discord_channel": len(v["discord_channel"]) > 0,
         "session_title": v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2024/posters/" + v["uid"] + ".pdf",
         "summary_pdf": "https://ieeevis.b-cdn.net/vis_2024/posters/" + v["uid"] + "-summary.pdf" if v["has_summary_pdf"] == "TRUE" else None,

@@ -89,7 +89,18 @@
     {#     </div> #}
     {# </div> #}
 
-    <div class="row>
+    {% if poster.has_discord_channel %}
+        <div class="row">
+        <div class="col-md-8 mt-5 mb-2">
+
+                <div class="alert alert-warning" role="alert">
+                    Come on Discord to chat with the poster presenters asynchronously or through Zoom links shared there: <a target="_blank" href="{{poster.discord_channel}}">{{poster.discord_channel}}</a>
+                </div>
+        </div>
+        </div>
+    {% endif %}
+
+    <div class="row">
         <div class="col-md-12">
             <div role="main" id="pdf_view"></div>
         </div>

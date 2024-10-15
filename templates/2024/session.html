@@ -179,59 +179,63 @@
             </div>
     </div>
     </div>
+{% endif %}
 
+{% if session.timeSlots %}
+<div class="row my-4">
+    <div class="col-md-8">
 
-{% else %}
-    {% if session.timeSlots %}
-    <div class="row my-4">
-        <div class="col-md-8">
+        {% if session.hasExternalUrl %}
+            <h2 class="room_session_descriptor d-block py-2"><a name="list">Papers in this session:</a></h2>
+            Note that for associated events, we may not have the entire schedule available on this website.  Please refer to the <a href="{{session.externalUrl}}" href="_blank">associated event website</a> for the complete schedule.
+        {% else %}
             <h2 class="room_session_descriptor d-block py-2"><a name="list">Presentations in this session:</a></h2>
-        </div>
+        {% endif %}
     </div>
+</div>
 
-    {% for timeslot in session.timeSlots %}
-    <div class="row mb-4">
-        <div class="col-md-8 session-listing">
-            {% if timeslot.uid %}
-                <h3 class="session-list-title">
-                    {% if 'poster' in timeslot.uid %}
-                    <a href="poster_{{ timeslot.uid }}.html">
-                        {{ timeslot.title }}
-                        <span class="fas mr-1">&#xf0c1;</span>
-                    </a>
-                    {% else %}
-                    <a href="paper_{{ timeslot.uid }}.html">
-                        {{ timeslot.title }}
-                        <span class="fas mr-1">&#xf0c1;</span>
-                    </a>
-                    {% endif %}
-                </h3>
-            {% else %}
-            <h3 class="session-list-title">{{ timeslot.title }}</h3>
-            {% endif %}
-            <h5 class="session-list-presenter">
-                Authors: 
-                {{ timeslot.authors|map(attribute="name")|join(", ") }}
+{% for timeslot in session.timeSlots %}
+<div class="row mb-4">
+    <div class="col-md-8 session-listing">
+        {% if timeslot.uid %}
+            <h3 class="session-list-title">
+                {% if 'poster' in timeslot.uid %}
+                <a href="poster_{{ timeslot.uid }}.html">
+                    {{ timeslot.title }}
+                    <span class="fas mr-1">&#xf0c1;</span>
+                </a>
+                {% else %}
+                <a href="paper_{{ timeslot.uid }}.html">
+                    {{ timeslot.title }}
+                    <span class="fas mr-1">&#xf0c1;</span>
+                </a>
+                {% endif %}
+            </h3>
+        {% else %}
+        <h3 class="session-list-title">{{ timeslot.title }}</h3>
+        {% endif %}
+        <h5 class="session-list-presenter">
+            Authors: 
+            {{ timeslot.authors|map(attribute="name")|join(", ") }}
+        </h5>
+        <h4 class="session-list-presenter mt-3">
+            <span class="fas mr-1">&#xf21d;</span>
+            {{ timeslot.contributors | join(", ") }}
+        </h4>
+        {% if (timeslot.time_start|length > 0) %}
+
+            <h5 class="session-list-time">
+                <span class="fas mr-1">&#xf017;</span>
+                <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
+                <span alt="Change timezone on schedule page" class="timezone tztooltip">
+                    <strong>GMT<span class="selectedTimezone">-0600</span></strong>
+                    <span class="tztooltiptext">Change your timezone on the schedule page</span>
+                </span>
             </h5>
-            <h4 class="session-list-presenter mt-3">
-                <span class="fas mr-1">&#xf21d;</span>
-                {{ timeslot.contributors | join(", ") }}
-            </h4>
-            {% if (timeslot.time_start|length > 0) %}
-
-                <h5 class="session-list-time">
-                    <span class="fas mr-1">&#xf017;</span>
-                    <span class="format-date-span">{{ timeslot.time_start }} &ndash; {{ timeslot.time_end }}</span>
-                    <span alt="Change timezone on schedule page" class="timezone tztooltip">
-                        <strong>GMT<span class="selectedTimezone">-0600</span></strong>
-                        <span class="tztooltiptext">Change your timezone on the schedule page</span>
-                    </span>
-                </h5>
-            {% endif %}
-        </div>
+        {% endif %}
     </div>
-    {% endfor %}
-    {% endif %}
+</div>
+{% endfor %}
 {% endif %}
 
 {% if session.youtube_ff_id %}
