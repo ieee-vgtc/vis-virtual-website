@@ -191,6 +191,9 @@ def sessionTimeToCalendarTime(dateTime):
     if (minute == "32") or (minute == "35"):
         minute = "30"
 
+    if (minute == "05"):
+        minute = "0"
+
     return "time-" + str(hour).zfill(2) + str(minute).zfill(2)
 
 # converts a full date string to an indexed day for the calendar
