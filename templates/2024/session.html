@@ -38,12 +38,24 @@
         </h3>
         {% endif %}
 
-        <h3 class="session-room mt-4">
-            <span class="fas mr-1">&#xf108;</span>
-            <a href="room_{{room.id}}.html">
-                Room: {{ "To Be Announced" if room.name|length == 0 else room.name }}
-            </a>
-        </h3>
+        {% if session.id == "posters" %}
+        <div class="row">
+        <div class="col-md-12 mt-5 mb-2">
+
+                <div class="alert alert-warning" role="alert">
+                    There is no poster exhibition event this year due to the virtual format.  Instead, you can view all posters and chat with poster authors asynchronously at the Poster Browser at <a target="_blank" href="https://ieeevis.org/year/2024/program/posters.html?filter=titles">https://ieeevis.org/year/2024/program/posters.html</a>
+                </div>
+        </div>
+        </div>
+
+        {% else %}
+            <h3 class="session-room mt-4">
+                <span class="fas mr-1">&#xf108;</span>
+                <a href="room_{{room.id}}.html">
+                    Room: {{ "To Be Announced" if room.name|length == 0 else room.name }}
+                </a>
+            </h3>
+        {% endif %}
         {% if (session.startTime|length > 0) %}
             <h3 class="session-date">
                 <span class="fas mr-1">&#xf017;</span>
