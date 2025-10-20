@@ -1,0 +1,31 @@
+<div class="col-md-6 p-2 event-card-wrapper"
+    data-session-type="{{ event.type }}"
+    >
+    <div class="event-card pp-card p-2 session-listing"
+         style="border-color: {{ colors[event.abbr_type] }};
+                 background-color: #fff; margin-bottom: 0;"
+         data-session-type="{{ event.type }}"
+
+    >
+        <span class="session-type"
+              style="color: {{ colors[event.abbr_type] }}">{{ event.type }}</span>
+        {% if event.room_name %} 
+            <span class="event-room">
+            {{ event.room_name }}</span>
+        {% endif %}
+
+        <div class="event-title">
+            <a class="event-title" href="event_{{ event.id }}.html">{{ event.title }}</a>
+        </div>
+        {% if event.url %}
+            <div class="session-url">
+              <span class="fas mr-1">&#xf05a;</span>
+              <a href="{{ event.url }}">{{ event.url }}</a>
+            </div>
+        {% endif %}
+        <div class="event-time format-date-span-short">
+            {{ event.startTime }} – {{ event.endTime }}</div>
+        
+        {#                </div>#}
+    </div>
+</div>

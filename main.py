@@ -18,12 +18,13 @@ from blueprints.blueprint_2021 import year_blueprint as blueprint_2021
 from blueprints.blueprint_2022 import year_blueprint as blueprint_2022
 from blueprints.blueprint_2023 import year_blueprint as blueprint_2023
 from blueprints.blueprint_2024 import year_blueprint as blueprint_2024
+from blueprints.blueprint_2025 import year_blueprint as blueprint_2025
 
 site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
-CURRENT_YEAR = "2024"
+CURRENT_YEAR = "2025"
 
 """2020 was the first virtual vis year, and the only year where urls didn't include
 the year (i.e. /year/2021/papers/153), so if any requests come in under /papers/153,
@@ -42,7 +43,7 @@ freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023, blueprint_2024]
+blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023, blueprint_2024, blueprint_2025]
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 
@@ -60,8 +61,8 @@ def generator():
             yield "/year/{}/paper_{}.html".format(year, str(paper["uid"]))
         for speaker in site_data["speakers"]:
             yield "/year/{}/speaker_{}.html".format(year, str(speaker["UID"]))
-        for workshop in site_data["workshops"]:
-            yield "/year/{}/workshop_{}.html".format(year, str(workshop["UID"]))
+        # for workshop in site_data["workshops"]:
+        #     yield "/year/{}/workshop_{}.html".format(year, str(workshop["UID"]))
         for session in by_uid["sessions"].keys():
             yield "/year/{}/session_{}.html".format(year, str(session))
         for event in by_uid["events"].keys():
@@ -149,10 +150,10 @@ def events():
     return meta_redirect_html(FROZEN_YEAR, "events.html")
 
 
-# ALPER TODO: we should just special-case particular sessions and render them under this route
-@app.route("/workshops.html")
-def workshops():
-    return meta_redirect_html(FROZEN_YEAR, "workshops.html")
+# # ALPER TODO: we should just special-case particular sessions and render them under this route
+# @app.route("/workshops.html")
+# def workshops():
+#     return meta_redirect_html(FROZEN_YEAR, "workshops.html")
 
 
 # ITEM PAGES
@@ -179,10 +180,10 @@ def speakers():
     return meta_redirect_html(FROZEN_YEAR, "speakers.html")
 
 
-# ALPER TODO: populate the workshop list from session_list
-@app.route("/workshop_<workshop>.html")
-def workshop(workshop):
-    return meta_redirect_html(FROZEN_YEAR, "workshop_{}.html".format(workshop))
+# # ALPER TODO: populate the workshop list from session_list
+# @app.route("/workshop_<workshop>.html")
+# def workshop(workshop):
+#     return meta_redirect_html(FROZEN_YEAR, "workshop_{}.html".format(workshop))
 
 
 @app.route("/session_vis-keynote.html")

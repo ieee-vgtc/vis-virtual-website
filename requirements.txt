@@ -1,6 +1,7 @@
-flask
+flask==2.3.3
 frozen-flask
 Flask-Markdown
 Flask-Minify
 tqdm
 PyYAML
+python-dateutil
