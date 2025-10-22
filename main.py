@@ -43,7 +43,7 @@ freezer = Freezer(app)
 markdown = Markdown(app)
 
 # Mounts previous + current years at /year/{year}/*.  See blueprints folder
-blueprints = [blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023, blueprint_2024, blueprint_2025]
+blueprints = [blueprint_2025] #blueprint_2020, blueprint_2021, blueprint_2022, blueprint_2023, blueprint_2024, 
 for blueprint in blueprints:
     app.register_blueprint(blueprint)
 
@@ -57,10 +57,10 @@ def generator():
         site_data = blueprint.site_data
         by_uid = blueprint.by_uid
         year = blueprint.year
-        for paper in site_data["paper_list"].values():
-            yield "/year/{}/paper_{}.html".format(year, str(paper["uid"]))
-        for speaker in site_data["speakers"]:
-            yield "/year/{}/speaker_{}.html".format(year, str(speaker["UID"]))
+        for paper in site_data["paper_list"]:
+            yield "/year/{}/paper_{}.html".format(year, str(paper["id"]))
+        # for speaker in site_data["speakers"]:
+        #     yield "/year/{}/speaker_{}.html".format(year, str(speaker["UID"]))
         # for workshop in site_data["workshops"]:
         #     yield "/year/{}/workshop_{}.html".format(year, str(workshop["UID"]))
         for session in by_uid["sessions"].keys():
@@ -70,8 +70,8 @@ def generator():
 
         # only some years have posters
         if "poster_list" in site_data:
-            for poster in site_data["poster_list"].values():
-                yield "/year/{}/poster_{}.html".format(year, str(poster["uid"]))
+            for poster in site_data["poster_list"]:
+                yield "/year/{}/poster_{}.html".format(year, str(poster["id"]))
 
         # only some years use rooms
         if "room_names" in site_data["config"]:

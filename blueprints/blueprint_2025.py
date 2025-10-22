@@ -56,7 +56,7 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-    for typ in ["paper_list", "speakers", "session_list", "poster_list"]: #"workshops", 
+    for typ in ["paper_list", "session_list", "poster_list"]: #"speakers", "workshops", 
         by_uid[typ] = {}
 
         if typ == "session_list":
@@ -82,8 +82,8 @@ def main(site_data_path):
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
 
         elif typ == "paper_list" or typ == "poster_list":
-            for paper_id, p in site_data[typ].items():
-                by_uid[typ][paper_id] = p
+            for p in site_data[typ]:
+                by_uid[typ][p["id"]] = p
 
         else:
             for p in site_data[typ]:
@@ -265,8 +265,7 @@ def favicon():
 @year_blueprint.route("/year/{}/papers.html".format(year))
 def papers():
     data = _data()
-    # print("list(site_data['paper_list'].items())[0] is ", list(site_data['paper_list'].items())[0])
-    all_paper_types = [p['paper_type'] for _, p in site_data["paper_list"].items()]
+    all_paper_types = ["full","short","workshop"] # [p['paper_type'] for p in site_data["paper_list"]]
     data['paper_types'] = sorted(list(set([(paper_type_names[pt] if pt in paper_type_names else 'None', pt) for pt in all_paper_types])), key=lambda x: x[0])
     data['colors'] = data['config']['calendar']['colors']
     return render_template("{}/papers.html".format(year), **data)
@@ -339,12 +338,12 @@ def format_paper(v):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
-    paper_session = by_uid["sessions"][v["session_id"]] if v["session_id"] in by_uid["sessions"] else {}
+    paper_session = {} # 2025 TODO by_uid["sessions"][v["session_id"]] if v["session_id"] in by_uid["sessions"] else {}
     paper_event = by_uid["events"][paper_session["parent_id"]] if "parent_id" in paper_session else {}
     # print("problem paper is ", v)
     room_name = get_room_name(paper_session['track'], site_data['config']['room_names']) if "track" in paper_session else ""
     return {
-        "id": v["uid"],
+        "id": get_slot_id(v),
         "title": v["title"],
         "authors": list_fields["authors"],
         "keywords": list_fields["keywords"],
@@ -359,7 +358,7 @@ def format_paper(v):
         "award": v["paper_award"] if "paper_award" in v else "",
         "has_image": v["has_image"] if "has_image" in v else "",
         "has_pdf": v["has_pdf"] if "has_pdf" in v else "",
-        "has_fno": (len(v["fno"]) > 0) if "fno" in v else False,
+        "has_fno": (v["fno"] is not None) if "fno" in v else False,
         "fno": v["fno"] if "fno" in v else None,
         "doi": v["doi"] if "doi" in v else None,
         "image_caption": v["image_caption"] if "image_caption" in v else "",
@@ -370,11 +369,11 @@ def format_paper(v):
         "prerecorded_video_link": v["prerecorded_video_link"] if "prerecorded_video_link" in v else None,
         # for papers.html:
         "sessions": [paper_session["title"]] if "title" in paper_session else [],
-        "UID": v["uid"],
-        "session_uid": "-".join(v["uid"].split("-")[0:-1]) if v["uid"] else "none", # Get rid of the paper ID so we can reach the CDN folder
-        "paper_type": v["paper_type"] if v["paper_type"] in paper_type_names else 'None',
-        "paper_type_name": paper_type_names[v["paper_type"]] if v["paper_type"] in paper_type_names else 'None',
-        "paper_type_color": site_data["config"]['calendar']['colors'][v["paper_type"]],
+        "UID": get_slot_id(v),
+        "session_uid": "-".join(get_slot_id(v).split("-")[0:-1]) if get_slot_id(v) else "none", # Get rid of the paper ID so we can reach the CDN folder
+        "paper_type": get_paper_type(v),
+        "paper_type_name": paper_type_names[get_paper_type(v)] if get_paper_type(v) in paper_type_names else 'None',
+        "paper_type_color": site_data["config"]['calendar']['colors'][get_paper_type(v)],
         "session_youtube_ff_link": v.get("youtube_ff_link"),
         "session_youtube_ff_id": v.get("youtube_ff_id"),
         "session_bunny_ff_link": v.get("bunny_ff_link"),
@@ -396,20 +395,20 @@ def format_poster(v):
         list_fields[key] = extract_list_field(v, key)
 
     return {
-        "id": v["uid"],
+        "id": get_slot_id(v),
         "authors": list_fields["authors"],
         "title": v["title"],
         "award": "",
-        "discord_channel": v["discord_channel"],
-        "has_discord_channel": len(v["discord_channel"]) > 0,
-        "session_title": v["event"],
-        "poster_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + v["uid"] + ".pdf",
-        "summary_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + v["uid"] + "-summary.pdf" if v["has_summary_pdf"] == "TRUE" else None,
-        "has_image": v["has_image"],
+        # "discord_channel": v["discord_channel"],
+        # "has_discord_channel": len(v["discord_channel"]) > 0,
+        "session_title": "", #2025 TODO v["event"],
+        "poster_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + get_slot_id(v) + ".pdf", #2025 TODO 
+        "summary_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + get_slot_id(v) + "-summary.pdf", #2025 TODO  if v["has_summary_pdf"] == "TRUE" else None, #2025 TODO 
+        # "has_image": v["has_image"],
         # for posters.html
-        "sessions": [v["event"]],
-        "UID": v["uid"],
-        "ff_link": v["ff_link"] if 'ff_link' in v else None
+        "sessions": [], #2025 TODO [v["event"]],
+        "UID": get_slot_id(v),
+        # "ff_link": v["ff_link"] if 'ff_link' in v else None
     }
 
 
@@ -420,10 +419,10 @@ def format_paper_list(v):
         list_fields[key] = extract_list_field(v, key)
 
     return {
-        "id": v["uid"],
+        "id": get_slot_id(v),
         "title": v["title"],
         "authors": list_fields["authors"],
-        "award": v["paper_award"],
+        "award": "", # 2025 TODO v["paper_award"],
         ## eventually, FF/DOI?
     }
 
@@ -434,7 +433,7 @@ def format_workshop(v):
         list_fields[key] = extract_list_field(v, key)
 
     return {
-        "id": v["UID"],
+        "id": get_slot_id(v),
         "title": v["title"],
         "organizers": list_fields["authors"],
         "abstract": v["abstract"],
@@ -471,6 +470,21 @@ def format_session_as_event(v, uid):
     else:
         formatted["sessions"] = []
     return formatted
+
+def get_slot_id(v):
+    if "program_paper_id" not in v:
+        return v["id"]
+    return "{}-{}".format(v["event_prefix"],v["program_paper_id"])
+
+def get_paper_type(v):
+    if v["event_prefix"] == "v-full":
+        return "full"
+    elif v["event_prefix"] == "v-short":
+        return "short"
+    elif v["event_prefix"] == "a-visap":
+        return "associated"
+    else:
+        raise ValueError("Unexpected event prefix {}".format(v["event_prefix"]))
 
 def get_external_url(v):
     return v.get("external_site") if "external_site" in v else ''
@@ -551,17 +565,17 @@ def format_by_session_list(v):
         "youtube_rec_id": v.get("youtube_rec_id") if "youtube_rec_id" in v else (v.get("youtube_rec_url").split("/")[-1] if v.get("youtube_rec_url") else None),
         "streaming_session_id": v.get("streaming_session_id") if "streaming_session_id" in v else None,
         "livestream_id": v.get("livestream_id") if "livestream_id" in v else None,
-        "ff_playlist": v.get("ff_playlist"),
-        "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
-        "youtube_ff_url": v.get("ff_link") if "ff_link" in v else None,
-        "youtube_ff_id": v["ff_link"].split("/")[-1] if "ff_link" in v else None,
+        # "ff_playlist": v.get("ff_playlist"),
+        # "ff_playlist_id": v.get("ff_playlist").split("=")[-1] if v.get("ff_playlist") else None,
+        # "youtube_ff_url": v.get("ff_link") if "ff_link" in v else None,
+        # "youtube_ff_id": v["ff_link"].split("/")[-1] if "ff_link" in v else None,
         "zoom_meeting": v.get("zoom_meeting"),
         "room_name": v.get("room_name"),
-        "livestream_id": v.get("livestream_id"),
+        # "livestream_id": v.get("livestream_id"),
         "zoom_private_meeting": v.get("zoom_private_meeting"),
         "zoom_private_password": v.get("zoom_private_password"),
         "zoom_private_link": v.get("zoom_private_link"),
-        "has_zoom_private_link": len(v.get("zoom_private_link")) > 0,
+        "has_zoom_private_link": "zoom_broadcast_link" in v,
         "zoom_broadcast_link": v.get("zoom_broadcast_link"),
         "zoom_webinar_link": v.get("zoom_webinar_link"),
     }
@@ -602,13 +616,13 @@ def poster(poster):
     return render_template("{}/poster.html".format(year), **data)
 
 # ALPER TODO: get keynote info
-@year_blueprint.route("/year/{}/speaker_<speaker>.html".format(year))
-def speaker(speaker):
-    uid = speaker
-    v = by_uid["speakers"][uid]
-    data = _data()
-    data["speaker"] = v
-    return render_template("{}/speaker.html".format(year), **data)
+# @year_blueprint.route("/year/{}/speaker_<speaker>.html".format(year))
+# def speaker(speaker):
+#     uid = speaker
+#     v = by_uid["speakers"][uid]
+#     data = _data()
+#     data["speaker"] = v
+#     return render_template("{}/speaker.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/awards.html".format(year))
 def awards():
@@ -620,11 +634,11 @@ def awards():
     return render_template("{}/awards.html".format(year), **data)
 
 
-@year_blueprint.route("/year/{}/speakers.html".format(year))
-def speakers():
-    data = _data()
-    data["speakers"] = site_data["speakers"]
-    return render_template("{}/speakers.html".format(year), **data)
+# @year_blueprint.route("/year/{}/speakers.html".format(year))
+# def speakers():
+#     data = _data()
+#     data["speakers"] = site_data["speakers"]
+#     return render_template("{}/speakers.html".format(year), **data)
 
 # # ALPER TODO: populate the workshop list from session_list
 # @year_blueprint.route("/year/{}/workshop_<workshop>.html".format(year))
@@ -637,25 +651,25 @@ def speakers():
 
 # TODO: re-enable once keynote event available
 # @year_blueprint.route('/year/{}/session_vis-keynote.html'.format(year))
-def keynote():
-    uid = "vis-keynote"
-    v = by_uid["sessions"][uid]
-    data = _data()
-    data["requires_auth"] = True
-    data["session"] = format_by_session_list(v)
-    data["session"]["speaker"] = site_data["speakers"][0]
-    return render_template("{}/keynote_or_capstone.html".format(year), **data)
+# def keynote():
+#     uid = "vis-keynote"
+#     v = by_uid["sessions"][uid]
+#     data = _data()
+#     data["requires_auth"] = True
+#     data["session"] = format_by_session_list(v)
+#     data["session"]["speaker"] = site_data["speakers"][0]
+#     return render_template("{}/keynote_or_capstone.html".format(year), **data)
 
 # TODO: re-enable once capstone event available
 # @year_blueprint.route('/year/{}/session_vis-capstone.html'.format(year))
-def capstone():
-    uid = "vis-capstone"
-    v = by_uid["sessions"][uid]
-    data = _data()
-    data["requires_auth"] = True
-    data["session"] = format_by_session_list(v)
-    data["session"]["speaker"] = site_data["speakers"][1]
-    return render_template("{}/keynote_or_capstone.html".format(year), **data)
+# def capstone():
+#     uid = "vis-capstone"
+#     v = by_uid["sessions"][uid]
+#     data = _data()
+#     data["requires_auth"] = True
+#     data["session"] = format_by_session_list(v)
+#     data["session"]["speaker"] = site_data["speakers"][1]
+#     return render_template("{}/keynote_or_capstone.html".format(year), **data)
 
 # TODO: re-enable once posters event available
 # @year_blueprint.route("/year/{}/session_x-posters.html".format(year))
@@ -737,9 +751,9 @@ def event(event):
     v = by_uid['events'][uid]
     data = _data()
     data["event"] = format_session_as_event(v, uid)
-    if uid in site_data["event_ff_playlists"]:
-        data["event"]["ff_playlist"] = site_data["event_ff_playlists"][uid]
-        data["event"]["ff_playlist_id"] = site_data["event_ff_playlists"][uid].split("=")[-1]
+    # if uid in site_data["event_ff_playlists"]:
+    #     data["event"]["ff_playlist"] = site_data["event_ff_playlists"][uid]
+    #     data["event"]["ff_playlist_id"] = site_data["event_ff_playlists"][uid].split("=")[-1]
     return render_template("{}/event.html".format(year), **data)
 
 
@@ -751,11 +765,11 @@ def allpapers():
         'full': [],
         'short': [],
     }
-    for uid, v in site_data["paper_list"].items():
-        if uid[0] == "f":
-            data['papers']['full'].append(format_paper_list(v))
-        if uid[0] == "s":
-            data['papers']['short'].append(format_paper_list(v))
+    for p in site_data["paper_list"]:
+        if p["event_prefix"] == "v-full":
+            data['papers']['full'].append(format_paper_list(p))
+        if p["event_prefix"] == "v-short":
+            data['papers']['short'].append(format_paper_list(p))
 
     return render_template("{}/paperlist.html".format(year), **data)
 
@@ -777,15 +791,15 @@ def redirect():
 @year_blueprint.route("/year/{}/papers.json".format(year))
 def paper_json():
     json = []
-    for v in site_data["paper_list"].items():
-        json.append(format_paper(v[1]))
+    for v in site_data["paper_list"]:
+        json.append(format_paper(v))
     return jsonify(json)
 
 @year_blueprint.route("/year/{}/posters.json".format(year))
 def poster_json():
     json = []
-    for v in site_data["poster_list"].items():
-        json.append(format_poster(v[1]))
+    for v in site_data["poster_list"]:
+        json.append(format_poster(v))
     return jsonify(json)
 
 

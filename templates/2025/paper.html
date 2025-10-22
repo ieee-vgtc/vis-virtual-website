@@ -67,7 +67,7 @@
                     Screen-reader Accessible PDF
                 </h5>
             {% endif %}
-            {% if paper.preprint_link|length > 0 %}
+            {% if paper.preprint_link %}
                 <h5 class="paper-link pb-2">
                     <a href="{{paper.preprint_link}}">
                         <span class="fas mr-1" title="This paper has an author's preprint available online.">&#xf09c;</span>
@@ -98,7 +98,7 @@
                     </a>
                 </h5>            
             {% endif %}
-            {% if paper.open_access_supplemental_link|length > 0 %}
+            {% if paper.open_access_supplemental_link %}
                 <h5 class="paper-link pb-2">
                     <a href="{{paper.open_access_supplemental_link}}">
                         <span class="fas mr-1" title="This paper has additional material, like demos or experimental data, available online.">&#xf0c6;</span>
