@@ -12,7 +12,7 @@ import yaml
 from pathlib import Path
 from dateutil.parser import ParserError
 
-CONFERENCE_OFFSET = 2 # CET is UTC + 2
+CONFERENCE_OFFSET = 1 # CET is UTC + 1 on November 2 2025
 CONFERENCE_TIMEZONE = timezone(offset=timedelta(hours=CONFERENCE_OFFSET))
 CONFERENCE_START_DAY = 2 # TODO month?
 
@@ -24,16 +24,6 @@ paper_type_names = {
     'full': 'VIS Full Paper',
     'associated': 'Associated Event',
     'workshop': 'Workshop'
-}
-event_websites = { # TODO
-    'w-beliv': 'https://beliv-workshop.github.io/',
-    'w-uncertainty': 'https://tusharathawale.github.io/UncertaintyVis-Workshop/index.html',
-    'w-pdav': 'https://ieee-vis-pdav.github.io/',
-    'w-vis4climate': 'https://svs.gsfc.nasa.gov/events/2024/Viz4ClimateAndSustainability/',
-    'w-nlviz': 'https://www.nl-vizworkshop.com/',
-    'w-topoinvis': 'https://topoinvis-workshop.github.io/2024/',
-    'w-energyvis': 'https://energyvis.org/',
-    'w-future': 'https://visionsofthefuture.github.io/' 
 }
 
 site_data = {}
@@ -89,7 +79,7 @@ def main(site_data_path):
             for p in site_data[typ]:
                 by_uid[typ][p["UID"]] = p
 
-    print("site_data",site_data)
+    # print("site_data",site_data)
 
     # organize sessions by day (calendar)
     for session in by_uid["sessions"].values():
@@ -447,7 +437,6 @@ def format_session_as_event(v, uid):
         list_fields[key] = extract_list_field(v, key)
 
     if (v.get("event_prefix")[0] == 'w'):
-        print("EVENT IS ", v)
         print("does it have external url?  ", get_external_url(v))
         print("but event_url is ", get_event_url(v))
 
@@ -587,7 +576,7 @@ def sort_timeslots(timeslots):
         return []
 
 def get_room_name(track, room_names):
-    # print("ROOM NAMES ARE ", room_names)
+    print("ROOM NAMES ARE ", room_names)
     if track in room_names:
         return room_names[track]
     else:
@@ -603,7 +592,6 @@ def paper(paper):
     data = _data()
     data["requires_auth"] = True
     data["paper"] = format_paper(v)
-    print("IN PAPER AND data['paper'] is ", data['paper'])
     return render_template("{}/paper.html".format(year), **data)
 
 @year_blueprint.route("/year/{}/poster_<poster>.html".format(year))

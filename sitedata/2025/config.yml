@@ -1,10 +1,10 @@
-name: VIS 2024
+name: VIS 2025
 tagline: "IEEE VIS: Visualization & Visual Analytics"
-date: 13-18 October 2024 Conference
-startDate: "2024-10-13"
-endDate: "2024-10-18"
-citation_date: October 2024
-proceedings_title: Proceedings of the IEEE VIS 2024 Conference
+date: 2-7 November 2025 Conference
+startDate: "2025-11-2"
+endDate: "2025-11-7"
+citation_date: November 2025
+proceedings_title: Proceedings of the IEEE VIS 2025 Conference
 analytics: UA-
 logo:
   image: /static/2023/images/vis2023_logo_virtual.png
@@ -13,10 +13,10 @@ logo:
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
 page_title:
-  prefix: 'IEEE VIS 2024 Content'
+  prefix: 'IEEE VIS 2025 Content'
   separator: ': '
 background_image: /static/2023/images/melbourne_splash.jpg
-organization: VIS 2024 Organization Committee
+organization: VIS 2025 Organization Committee
 
 # Remove or change to your chat server.
 chat_server: miniconf.sloppy.zone
@@ -29,8 +29,8 @@ default_poster_pdf: /static/images/GLTR_poster.pdf
 #user: miniconf@miniconf.com
 #pass: mIniconf1_
 
-use_auth0: false
-auth0_client_id : G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv 
+use_auth0: true
+auth0_client_id : oF5BXUklWOjSjUeg5Tzai2DysHITXYhT 
 auth0_domain : ieeevis.us.auth0.com
 
 calendar:
@@ -63,16 +63,17 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  bayshorefoyer: "Bayshore Foyer"
-  bayshoreplenary: "Bayshore I + II + III"
-  bayshore1: "Bayshore I"
-  bayshore2: "Bayshore II"
-  bayshore3: "Bayshore III"
-  bayshore5: "Bayshore V"
-  bayshore6: "Bayshore VI"
-  bayshore7: "Bayshore VII"
-  palmaceia234: "Palma Ceia II+III+IV"
-  palmaceia1: "Palma Ceia I "
-  esplanadesuites: "Esplanade Suites I + II + III"
-  none: 'None(virtual)'
+  "0_11_0_12": Room 0.11 + 0.12
+  "0_94_0_95": Room 0.94 + 0.95
+  "0_96_0_97": Room 0.96 + 0.97
+  "1_14": Room 1.14
+  "1_15_1_16": Room 1.15 + 1.16
+  "1_32_1_33": Room 1.32 + 1.33
+  "1_61_1_62": Room 1.61 + 1.62
+  "1_85_1_86": Room 1.85 + 1.86
+  "e1": Hall E1
+  "e2": Hall E2
+  "e1_e2": Hall E
+  "m1": Hall M1
+  "m2": Hall M2
 
