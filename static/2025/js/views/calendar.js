@@ -933,8 +933,8 @@ function updateTimezone() {
     const hourminutes = element.attr("data-time").split("-")[1];
 
     const time = moment.tz(
-      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)}`,
-      "America/New_York"
+      `2025-11-02 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)}`,
+      "Europe/Vienna"
     );
     const converted_date = time.clone().tz(timezone);
     let converted_time = converted_date.format("HH:mm");

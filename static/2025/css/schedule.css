@@ -215,7 +215,7 @@
 
 .time-slot.converted-timezone,
 .tz:not(.tz-right) {
-    color: var(--vis2024-blue);
+    color: var(--vis2025-blue);
 }
 
 .day-slot {
@@ -223,7 +223,7 @@
     width: 100%;
     /* justify-self: center; */
     text-align: center;
-    border-bottom: 1px dotted var(--vis2024-blue);
+    border-bottom: 1px dotted var(--vis2025-blue);
 }
 
 .day-slot a {
