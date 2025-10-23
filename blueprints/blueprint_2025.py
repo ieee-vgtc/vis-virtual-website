@@ -461,9 +461,10 @@ def format_session_as_event(v, uid):
     return formatted
 
 def get_slot_id(v):
-    if "program_paper_id" not in v:
-        return v["id"]
-    return "{}-{}".format(v["event_prefix"],v["program_paper_id"])
+    return v["id"]
+    # if "program_paper_id" not in v:
+    #     return v["id"]
+    # return "{}-{}".format(v["event_prefix"],v["program_paper_id"])
 
 def get_paper_type(v):
     if v["event_prefix"] == "v-full":
