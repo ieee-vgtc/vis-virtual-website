@@ -75,9 +75,9 @@
                     </a>
                 </h5>
             {% endif %}
-            {% if paper.has_pdf %}
+            {% if paper.pdf_url %}
                 <h5 class="paper-link pb-2">
-                    <a href="https://ieeevis.b-cdn.net/vis_2025/pdfs/{{ paper.id }}.pdf">
+                    <a href="{{paper.pdf_url}}">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download camera-ready PDF
                     </a>
@@ -133,7 +133,7 @@
             {% endif %}
         </div>
     </div>
-    {% if paper.has_image %}
+    <!-- {% if paper.has_image %}
         <div class="row my-3">
             <div class="col-md-8">
                 <figure class="figure">
@@ -146,7 +146,7 @@
                 </figure>
             </div>
         </div>
-    {% endif %}
+    {% endif %} -->
     <div class="row my-3">
         <div class="col-md-8">
             {% if paper.prerecorded_video_id %}

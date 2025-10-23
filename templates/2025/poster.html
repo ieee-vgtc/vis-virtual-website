@@ -67,14 +67,15 @@
                     {% endif %} - {{ author.affiliations | join(". ")}}
                 </h4>
             {% endfor %}
-            {% if poster.summary_pdf %}
+            <p>URLs coming soon!</p>
+            <!-- {% if poster.summary_pdf %}
                 <h5 class="paper-link pb-2">
                     <a href="{{ poster.summary_pdf }}">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download summary PDF
                     </a>
                 </h5>
-            {% endif %}
+            {% endif %} -->
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
         </div>
     </div>
@@ -107,12 +108,12 @@
             <div role="main" id="pdf_view"></div>
         </div>
     </div>
-    <div class="row" class="">
+    <!-- <div class="row" class="">
         <div class="col-md-8 pt-3">
             <p>Direct link to poster PDF: <a href="{{ poster.poster_pdf }}">{{ poster.id }}.pdf</a></p>
             <p>It may take several seconds for the embedded poster to load above!</p>
         </div>
-    </div>
+    </div> -->
 
 
     {% if poster.ff_link %}

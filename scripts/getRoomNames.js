@@ -17,6 +17,13 @@ Object.entries(data).forEach(([key,value]) => {
     }
   })
 })
-for (const [key, value] of map) {
+const arr = Array.from(map).sort((a,b) => a[0]>b[0]?1:-1)
+for (const [key, value] of arr) {
   console.log(`"${key}": ${value}`);
 }
+
+console.log("\n[")
+for (const [key, value] of arr) {
+  console.log(`\t{ link: 'room_${key}.html', roomId: '${key}', text: "${value}" },`);
+}
+console.log("]\n")

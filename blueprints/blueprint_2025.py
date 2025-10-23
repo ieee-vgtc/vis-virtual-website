@@ -12,7 +12,7 @@ import yaml
 from pathlib import Path
 from dateutil.parser import ParserError
 
-CONFERENCE_OFFSET = 1 # CET is UTC + 1 on November 2 2025
+CONFERENCE_OFFSET = 2 # CET is UTC + 1 on November 2 2025
 CONFERENCE_TIMEZONE = timezone(offset=timedelta(hours=CONFERENCE_OFFSET))
 CONFERENCE_START_DAY = 2 # TODO month?
 
@@ -375,7 +375,8 @@ def format_paper(v):
         "open_access_supplemental_question": v.get("open_access_supplemental_question"),
         "open_access_supplemental_link": v.get("open_access_supplemental_link"),
         "preprint_link": v.get("preprint_link"),
-        "accessible_pdf": v.get("accessible_pdf")
+        "accessible_pdf": v.get("accessible_pdf"),
+        "pdf_url": v.get("pdf_url")
     }
 
 def format_poster(v):
