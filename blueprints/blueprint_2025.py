@@ -340,6 +340,7 @@ def format_paper(v):
     room_name = get_room_name(paper_session['track'], site_data['config']['room_names']) if "track" in paper_session else ""
     return {
         "id": get_slot_id(v),
+        "program_paper_id": v["program_paper_id"],
         "title": v["title"],
         "authors": list_fields["authors"],
         "keywords": list_fields["keywords"],

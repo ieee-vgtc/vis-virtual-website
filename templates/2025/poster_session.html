@@ -6,7 +6,7 @@
     <div class="col-md-8">
         <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a></li>
+                <li class="breadcrumb-item"><a href="/event_{{ session.parent_id }}.html">{{ session.event }}</a><pre>{{session}}</pre></li>
                 <li class="breadcrumb-item active text-truncate" aria-current="page">{{ session.title }}</li>
             </ol>
         </nav>
