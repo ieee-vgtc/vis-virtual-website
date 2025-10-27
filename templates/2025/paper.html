@@ -133,20 +133,20 @@
             {% endif %}
         </div>
     </div>
-    <!-- {% if paper.has_image %}
+    {% if paper.has_image %}
         <div class="row my-3">
             <div class="col-md-8">
                 <figure class="figure">
                     <img class="figure-img img-fluid"
-                         src="https://ieeevis.b-cdn.net/vis_2025/paper_images/{{paper.id}}_Image.png"
-                         alt="Exemplar figure, described by caption below"
+                         src=" https://cdn.tech.ieeevis.org/vis2025/v-{{paper.paper_type}}/{{paper.program_paper_id}}.png"
+                         alt="Image not found"
                          aria-describedby="figure-caption">
                     <figcaption class="figure-caption"
                                 id="figure-caption">{{ paper.image_caption }}</figcaption>
                 </figure>
             </div>
         </div>
-    {% endif %} -->
+    {% endif %}
     <div class="row my-3">
         <div class="col-md-8">
             {% if paper.prerecorded_video_id %}
