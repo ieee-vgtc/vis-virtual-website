@@ -62,7 +62,7 @@ def main(site_data_path):
                     fq_timeslot = timeslot.copy()
                     fq_timeslot.update({
                         "event": p.get("event"),
-                        "event_type": p.get("event_type") or 'N/A',
+                        "event_type": handle_event_type(p.get("event_type") or 'N/A'),
                         "parent_id": session_id,
                         "event_description": p.get("event_description") or 'N/A',
                         "event_url": get_event_url(p),
@@ -165,6 +165,12 @@ def generateDayCalendars():
 
     # overwrite static main_calendar json with all assembled events
     site_data["main_calendar"] = all_events
+
+# we don't have associated events this year, only challenges
+def handle_event_type(type: str):
+    if type=="associated":
+        return "challenges"
+    return type
 
 # converts a full date string to a "time string", which is simply "07:45" -> "0745" (times in conference timezone)
 def sessionTimeToCalendarTime(dateTime):
@@ -437,15 +443,14 @@ def format_session_as_event(v, uid):
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
 
-    if (v.get("event_prefix")[0] == 'w'):
-        print("does it have external url?  ", get_external_url(v))
-        print("but event_url is ", get_event_url(v))
-
+    # if (v.get("event_prefix")[0] == 'w'):
+    #     print("does it have external url?  ", get_external_url(v))
+    #     print("but event_url is ", get_event_url(v))
 
     formatted = {
         "id": uid,
         "title": v.get("long_name") if "long_name" in v else v.get("event"),
-        "type": v.get("event_type") if "event_type" in v else 'VIS',
+        "type": handle_event_type(v.get("event_type") if "event_type" in v else 'VIS'),
         "abbr_type": v["event_type"].split(" ")[0].lower() if "event_type" in v else 'vis',
         "abstract": v.get("event_description") if "event_description" in v else 'None',
         "url": get_event_url(v),
@@ -578,7 +583,6 @@ def sort_timeslots(timeslots):
         return []
 
 def get_room_name(track, room_names):
-    print("ROOM NAMES ARE ", room_names)
     if track in room_names:
         return f'room-{room_names[track]}'
     else:

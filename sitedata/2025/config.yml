@@ -44,6 +44,7 @@ calendar:
     meetup: '#A20A35'
     live: '#A20A35'
     associated: '#2672B9'
+    challenges: '#2672B9'
     symposium: '#2672B9'
     visap: '#2672B9'
     application: '#F15722'
