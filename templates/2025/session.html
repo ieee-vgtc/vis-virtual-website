@@ -148,7 +148,22 @@
     </div>
 </div>
 {% endif %}
-<div class="row">
+
+{% if session.type == "panel" %}
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>Panels will not be recorded.</p>
+    </div>
+</div>
+{% else %}
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>Recordings will be made available after the session.</p>
+    </div>
+</div>
+{% endif %}
+
+<!-- <div class="row">
     <div class="col-md-8 mt-5 mb-2">
 
             <div class="future_session_alert alert alert-warning" role="alert">
@@ -178,7 +193,7 @@
             </div>
             {% endif %}
     </div>
-</div>
+</div> -->
 
 <hr>
 
