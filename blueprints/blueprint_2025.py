@@ -139,7 +139,7 @@ def generateDayCalendars():
                 "shortTitle": session["title"],
                 "start": session["startTime"],
                 "end": session["endTime"],
-                "room": session["track"],
+                "room": f'room-{session["track"]}',
                 "day": sessionTimeToCalendarDay(session["startTime"]),
                 "timeStart": sessionTimeToCalendarTime(session["startTime"]),
                 "timeEnd": sessionTimeToCalendarTime(session["endTime"]),
@@ -585,7 +585,7 @@ def sort_timeslots(timeslots):
 
 def get_room_name(track, room_names):
     if track in room_names:
-        return room_names[track]
+        return f'room-{room_names[track]}'
     else:
         return "None"
 

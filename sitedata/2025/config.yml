@@ -64,17 +64,17 @@ calendar:
   sunday_saturday: true  #  Include Sunday and Saturday
 
 room_names:
-  "0_11_0_12": Room 0.11 + 0.12
-  "0_94_0_95": Room 0.94 + 0.95
-  "0_96_0_97": Room 0.96 + 0.97
-  "1_14": Room 1.14
-  "1_15_1_16": Room 1.15 + 1.16
-  "1_32_1_33": Room 1.32 + 1.33
-  "1_61_1_62": Room 1.61 + 1.62
-  "1_85_1_86": Room 1.85 + 1.86
-  "e1": Hall E1
-  "e2": Hall E2
-  "e1_e2": Hall E
-  "m1": Hall M1
-  "m2": Hall M2
+  "room-0_11_0_12": Room 0.11 + 0.12
+  "room-0_94_0_95": Room 0.94 + 0.95
+  "room-0_96_0_97": Room 0.96 + 0.97
+  "room-1_14": Room 1.14
+  "room-1_15_1_16": Room 1.15 + 1.16
+  "room-1_32_1_33": Room 1.32 + 1.33
+  "room-1_61_1_62": Room 1.61 + 1.62
+  "room-1_85_1_86": Room 1.85 + 1.86
+  "room-e1": Hall E1
+  "room-e2": Hall E2
+  "room-e1_e2": Hall E
+  "room-m1": Hall M1
+  "room-m2": Hall M2
 
