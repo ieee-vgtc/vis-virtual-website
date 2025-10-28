@@ -406,11 +406,13 @@ def format_poster(v):
         "session_title": "", #2025 TODO v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + get_slot_id(v) + ".pdf", #2025 TODO 
         "summary_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + get_slot_id(v) + "-summary.pdf", #2025 TODO  if v["has_summary_pdf"] == "TRUE" else None, #2025 TODO 
-        # "has_image": v["has_image"],
+        "has_image": True, #v["has_image"],
         # for posters.html
         "sessions": [], #2025 TODO [v["event"]],
         "UID": get_slot_id(v),
-        # "ff_link": v["ff_link"] if 'ff_link' in v else None
+        "pdf_url": v["pdf_url"],
+        "program_paper_id": v["program_paper_id"],
+        "paper_type": "poster",
     }
 
 

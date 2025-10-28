@@ -67,15 +67,14 @@
                     {% endif %} - {{ author.affiliations | join(". ")}}
                 </h4>
             {% endfor %}
-            <p>URLs coming soon!</p>
-            <!-- {% if poster.summary_pdf %}
+            {% if poster.pdf_url %}
                 <h5 class="paper-link pb-2">
-                    <a href="{{ poster.summary_pdf }}">
+                    <a href="{{ poster.pdf_url }}">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download summary PDF
                     </a>
                 </h5>
-            {% endif %} -->
+            {% endif %}
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
         </div>
     </div>
@@ -89,6 +88,19 @@
     {#         <p>{{ poster.abstract }}</p> #}
     {#     </div> #}
     {# </div> #}
+
+    <div class="row my-3">
+        <div class="col-md-8">
+            <figure class="figure">
+                <img class="figure-img img-fluid"
+                        src=" https://cdn.tech.ieeevis.org/vis2025/v-{{poster.paper_type}}/{{poster.program_paper_id}}.png"
+                        alt="Image not found"
+                        aria-describedby="figure-caption">
+                <!-- <figcaption class="figure-caption"
+                            id="figure-caption">{{ poster.image_caption }}</figcaption> -->
+            </figure>
+        </div>
+    </div>
 
     {% if poster.has_discord_channel %}
         <div class="row">

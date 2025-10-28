@@ -60,6 +60,7 @@ calendar:
     full: '#1C3160'
     short: '#FDBB30'
     virtual: '#99629c'
+    poster: '#1C3160'
 
   sunday_saturday: true  #  Include Sunday and Saturday
 
