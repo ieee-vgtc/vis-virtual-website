@@ -54,6 +54,10 @@ def main(site_data_path):
             by_uid["sessions"] = {}
 
             for session_id, p in site_data[typ].items():
+                # we are intentionally omitting an explicit tvcg session this year since the papers will be presented in other sessions
+                if session_id == "v-tvcg":
+                    continue
+
                 by_uid["events"][session_id] = p
 
                 # also iterate through each session within each event
