@@ -13400,9 +13400,9 @@
     ],
     "sessions": [
       {
-        "title": "VIS Posters",
-        "session_id": "v-posters",
-        "event_prefix": "v-posters",
+        "title": "Poster Session",
+        "session_id": "poster-session",
+        "event_prefix": "v-poster",
         "track": "foyer_e",
         "room_name": "Foyer E",
         "chair": [
@@ -13411,8 +13411,8 @@
           "Lingyun Yu",
           "Renata Raidou"
         ],
-        "time_start": "2025-11-05T15:00:00.000Z",
-        "time_end": "2025-11-05T16:00:00.000Z",
+        "time_start": "2025-11-05T16:00:00+00:00",
+        "time_end": "2025-11-05T17:00:00+00:00",
         "discord_link": null,
         "youtube_url": null,
         "time_slots": []
@@ -18362,23 +18362,6 @@
     "sessions": [
       {
         "title": "Visualization for Explainable AI (XAI)",
-        "session_id": "t-xai-1",
-        "event_prefix": "t-xai",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Roy A. Ruddle",
-          "Liqun Liu",
-          "Mohsen Azarmi"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Visualization for Explainable AI (XAI)",
         "session_id": "t-xai-2",
         "event_prefix": "t-xai",
         "track": "1_61_1_62",
@@ -18390,6 +18373,23 @@
         ],
         "time_start": "2025-11-03T15:00:00+00:00",
         "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Visualization for Explainable AI (XAI)",
+        "session_id": "t-xai-1",
+        "event_prefix": "t-xai",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Roy A. Ruddle",
+          "Liqun Liu",
+          "Mohsen Azarmi"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
         "youtube_url": null,
         "time_slots": []
@@ -18452,21 +18452,6 @@
     "sessions": [
       {
         "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
-        "session_id": "t-progressivis-1",
-        "event_prefix": "t-progressivis",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "Jean-Daniel Fekete"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
         "session_id": "t-progressivis-2",
         "event_prefix": "t-progressivis",
         "track": "1_85_1_86",
@@ -18476,6 +18461,21 @@
         ],
         "time_start": "2025-11-03T15:00:00+00:00",
         "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
+        "session_id": "t-progressivis-1",
+        "event_prefix": "t-progressivis",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "Jean-Daniel Fekete"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
         "youtube_url": null,
         "time_slots": []
