@@ -20240,52 +20240,6 @@
       }
     ]
   },
-  "a-vast-challenge": {
-    "event": "VAST Challenge",
-    "long_name": "VAST Challenge",
-    "event_type": "associated",
-    "event_prefix": "a-vast-challenge",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Tim Gerrits",
-      "Karen Bemis"
-    ],
-    "sessions": [
-      {
-        "title": "VAST Challenge",
-        "session_id": "a-vast-challenge-1",
-        "event_prefix": "a-vast-challenge",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "Tim Gerrits",
-          "Karen Bemis"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945089529843803",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "VAST Challenge",
-        "session_id": "a-vast-challenge-2",
-        "event_prefix": "a-vast-challenge",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "Tim Gerrits",
-          "Karen Bemis"
-        ],
-        "time_start": "2025-11-03T15:00:00+00:00",
-        "time_end": "2025-11-03T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945089529843803",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
   "t-xai": {
     "event": "XAI Tutorial",
     "long_name": "Visualization for Explainable AI (XAI)",
@@ -20301,23 +20255,6 @@
     "sessions": [
       {
         "title": "Visualization for Explainable AI (XAI)",
-        "session_id": "t-xai-2",
-        "event_prefix": "t-xai",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Roy A. Ruddle",
-          "Liqun Liu",
-          "Mohsen Azarmi"
-        ],
-        "time_start": "2025-11-03T15:00:00+00:00",
-        "time_end": "2025-11-03T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Visualization for Explainable AI (XAI)",
         "session_id": "t-xai-1",
         "event_prefix": "t-xai",
         "track": "1_61_1_62",
@@ -20329,6 +20266,23 @@
         ],
         "time_start": "2025-11-03T13:00:00+00:00",
         "time_end": "2025-11-03T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Visualization for Explainable AI (XAI)",
+        "session_id": "t-xai-2",
+        "event_prefix": "t-xai",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Roy A. Ruddle",
+          "Liqun Liu",
+          "Mohsen Azarmi"
+        ],
+        "time_start": "2025-11-03T15:00:00+00:00",
+        "time_end": "2025-11-03T16:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
         "youtube_url": null,
         "time_slots": []
@@ -20373,6 +20327,52 @@
         "time_start": "2025-11-03T10:00:00+00:00",
         "time_end": "2025-11-03T11:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945030838681710",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "a-scivis-contest": {
+    "event": "SciVis Contest",
+    "long_name": "SciVis Contest",
+    "event_type": "associated",
+    "event_prefix": "a-scivis-contest",
+    "event_description": "",
+    "event_url": null,
+    "organizers": [
+      "Christoph Heinzl",
+      "Tim Gerrits"
+    ],
+    "sessions": [
+      {
+        "title": "SciVis Contest",
+        "session_id": "a-scivis-contest-1",
+        "event_prefix": "a-scivis-contest",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Christoph Heinzl",
+          "Tim Gerrits"
+        ],
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "SciVis Contest",
+        "session_id": "a-scivis-contest-2",
+        "event_prefix": "a-scivis-contest",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Christoph Heinzl",
+          "Tim Gerrits"
+        ],
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
         "youtube_url": null,
         "time_slots": []
       }
@@ -20535,49 +20535,6 @@
         "time_start": "2025-11-03T10:00:00+00:00",
         "time_end": "2025-11-03T11:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945046437429339",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "a-scivis-contest": {
-    "event": "SciVis Contest",
-    "long_name": "SciVis Contest",
-    "event_type": "associated",
-    "event_prefix": "a-scivis-contest",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Theresa-Marie Rhyne"
-    ],
-    "sessions": [
-      {
-        "title": "SciVis Contest",
-        "session_id": "a-scivis-contest-1",
-        "event_prefix": "a-scivis-contest",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Theresa-Marie Rhyne"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "SciVis Contest",
-        "session_id": "a-scivis-contest-2",
-        "event_prefix": "a-scivis-contest",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Theresa-Marie Rhyne"
-        ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
         "youtube_url": null,
         "time_slots": []
       }
@@ -20795,6 +20752,55 @@
         "time_start": "2025-11-02T08:00:00+00:00",
         "time_end": "2025-11-02T09:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "a-vast-challenge": {
+    "event": "VAST Challenge",
+    "long_name": "VAST Challenge",
+    "event_type": "associated",
+    "event_prefix": "a-vast-challenge",
+    "event_description": "",
+    "event_url": null,
+    "organizers": [
+      "R. Jordan Crouser",
+      "Steve Gomez",
+      "Curtis Larimer"
+    ],
+    "sessions": [
+      {
+        "title": "VAST Challenge",
+        "session_id": "a-vast-challenge-1",
+        "event_prefix": "a-vast-challenge",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "R. Jordan Crouser",
+          "Steve Gomez",
+          "Curtis Larimer"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945089529843803",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "VAST Challenge",
+        "session_id": "a-vast-challenge-2",
+        "event_prefix": "a-vast-challenge",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "R. Jordan Crouser",
+          "Steve Gomez",
+          "Curtis Larimer"
+        ],
+        "time_start": "2025-11-03T15:00:00+00:00",
+        "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945089529843803",
         "youtube_url": null,
         "time_slots": []
       }
@@ -21229,55 +21235,6 @@
         "time_start": "2025-11-02T15:00:00+00:00",
         "time_end": "2025-11-02T16:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945231263633418",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "a-bio-med-vis": {
-    "event": "Bio+Med+Vis",
-    "long_name": "Bio+Med+Vis Workshop",
-    "event_type": "associated",
-    "event_prefix": "a-bio-med-vis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "R. Jordan Crouser",
-      "Jereme Haack",
-      "Steve Gomez"
-    ],
-    "sessions": [
-      {
-        "title": "Bio+Med+Vis Workshop",
-        "session_id": "a-bio-med-vis-1",
-        "event_prefix": "a-bio-med-vis",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "R. Jordan Crouser",
-          "Jereme Haack",
-          "Steve Gomez"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945159876448379",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Bio+Med+Vis Workshop",
-        "session_id": "a-bio-med-vis-2",
-        "event_prefix": "a-bio-med-vis",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "R. Jordan Crouser",
-          "Jereme Haack",
-          "Steve Gomez"
-        ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945159876448379",
         "youtube_url": null,
         "time_slots": []
       }
@@ -21734,6 +21691,55 @@
         "time_start": "2025-11-03T10:00:00+00:00",
         "time_end": "2025-11-03T11:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "a-bio-med-vis": {
+    "event": "Bio+Med+Vis",
+    "long_name": "Bio+Med+Vis Workshop",
+    "event_type": "associated",
+    "event_prefix": "a-bio-med-vis",
+    "event_description": "",
+    "event_url": null,
+    "organizers": [
+      "Laura Garrison",
+      "Katarina Furmanova",
+      "Simon Warchol"
+    ],
+    "sessions": [
+      {
+        "title": "Bio+Med+Vis Workshop",
+        "session_id": "a-bio-med-vis-1",
+        "event_prefix": "a-bio-med-vis",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "Laura Garrison",
+          "Katarina Furmanova",
+          "Simon Warchol"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945159876448379",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Bio+Med+Vis Workshop",
+        "session_id": "a-bio-med-vis-2",
+        "event_prefix": "a-bio-med-vis",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "Laura Garrison",
+          "Katarina Furmanova",
+          "Simon Warchol"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945159876448379",
         "youtube_url": null,
         "time_slots": []
       }
