@@ -3,9 +3,7 @@
 
 {% set social_title = "Paper: " ~ paper.title %}
 {% set social_description = paper.abstract %}
-{% if paper.has_image %}
-{% set social_image = "https://ieeevis.b-cdn.net/vis_2025/paper_images/" ~ paper.id ~ "_Image.png" %}
-{% endif %}
+{% set social_image = "https://cdn.tech.ieeevis.org/vis2025/v-" ~ paper.paper_type ~ "/" ~ paper.program_paper_id ~ ".png" %}
 
 {% extends "2025/base.html" %}
 
@@ -61,6 +59,20 @@
                     </a>
                 </h5>
             {% endif %} -->
+
+            <div class="row my-3">
+                <div class="col-md-8">
+                    <figure class="figure">
+                        <img class="figure-img img-fluid"
+                                src="https://cdn.tech.ieeevis.org/vis2025/v-{{paper.paper_type}}/{{paper.program_paper_id}}.png"
+                                alt="Image not found"
+                                aria-describedby="figure-caption">
+                        <!-- <figcaption class="figure-caption" -->
+                                    <!-- id="figure-caption">{{ paper.image_caption }}</figcaption> -->
+                    </figure>
+                </div>
+            </div>
+            
             {% if paper.accessible_pdf %}
                 <h5>
                     <span class="fas" title="The authors made this paper screen-reader accessible in the IEEE Digital Library.">&#xf29a;</span>
@@ -69,7 +81,7 @@
             {% endif %}
             {% if paper.preprint_link %}
                 <h5 class="paper-link pb-2">
-                    <a href="{{paper.preprint_link}}">
+                    <a href="{{paper.preprint_link}}" target="_blank">
                         <span class="fas mr-1" title="This paper has an author's preprint available online.">&#xf09c;</span>
                         Download preprint PDF
                     </a>
@@ -77,14 +89,14 @@
             {% endif %}
             {% if paper.pdf_url %}
                 <h5 class="paper-link pb-2">
-                    <a href="{{paper.pdf_url}}">
+                    <a href="{{paper.pdf_url}}" target="_blank">
                         <span class="fas mr-1">&#xf15c;</span>
                         Download camera-ready PDF
                     </a>
                 </h5>
             {% elif paper.has_fno %} 
                 <h5 class="paper-link pb-2">
-                    <a href="https://ieeexplore.ieee.org/document/{{ paper.fno }}">
+                    <a href="https://ieeexplore.ieee.org/document/{{ paper.fno }}" target="_blank">
                         <span class="fas mr-1">&#xf15c;</span>
                         Access paper PDF
                     </a>
@@ -92,7 +104,7 @@
             {% endif %}
             {% if paper.doi %}
                 <h5 class="paper-link pb-2">
-                    <a href="https://doi.org/{{ paper.doi }}">
+                    <a href="https://doi.org/{{ paper.doi }}" target="_blank">
                         <span class="fas mr-1">&#xf15c;</span>
                         DOI: {{paper.doi}}
                     </a>
@@ -100,7 +112,7 @@
             {% endif %}
             {% if paper.open_access_supplemental_link %}
                 <h5 class="paper-link pb-2">
-                    <a href="{{paper.open_access_supplemental_link}}">
+                    <a href="{{paper.open_access_supplemental_link}}" target="_blank">
                         <span class="fas mr-1" title="This paper has additional material, like demos or experimental data, available online.">&#xf0c6;</span>
                         Download Supplemental Material
                     </a>
@@ -109,10 +121,10 @@
 
         {% if paper.session_room%}
             <h3 class="session-room mt-4">
-                <span class="fas mr-1">&#xf108;</span>
-                <a href="room_{{paper.session_room_id}}.html">
+                <!-- <span class="fas mr-1">&#xf108;</span> -->
+                <!-- <a href="room_{{paper.session_room_id}}.html"> -->
                     Room: {{ "To Be Announced" if paper.session_room == "None" else  paper.session_room }}
-                </a>
+                <!-- </a> -->
             </h3>
         {% endif %}
 
@@ -133,20 +145,7 @@
             {% endif %}
         </div>
     </div>
-    {% if paper.has_image %}
-        <div class="row my-3">
-            <div class="col-md-8">
-                <figure class="figure">
-                    <img class="figure-img img-fluid"
-                         src=" https://cdn.tech.ieeevis.org/vis2025/v-{{paper.paper_type}}/{{paper.program_paper_id}}.png"
-                         alt="Image not found"
-                         aria-describedby="figure-caption">
-                    <figcaption class="figure-caption"
-                                id="figure-caption">{{ paper.image_caption }}</figcaption>
-                </figure>
-            </div>
-        </div>
-    {% endif %}
+
     <div class="row my-3">
         <div class="col-md-8">
             {% if paper.prerecorded_video_id %}

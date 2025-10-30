@@ -30,6 +30,9 @@ site_data = {}
 by_uid = {}
 by_day = {}
 by_time = {}
+
+paper_to_session_map = {}
+
 def main(site_data_path):
     # global site_data, extra_files
     extra_files = [] #["README.md"]
@@ -70,10 +73,14 @@ def main(site_data_path):
                         "parent_id": session_id,
                         "event_description": p.get("event_description") or 'N/A',
                         "event_url": get_event_url(p),
-                        "room_name": get_room_name(fq_timeslot['track'], site_data['config']['room_names']) if ("track" in fq_timeslot) else 'N/A',
+                        "room_name": fq_timeslot['room_name'],
                     })
 
                     by_uid['sessions'][timeslot['session_id']] = fq_timeslot
+
+                    for actual_time_slot in timeslot["time_slots"]:
+                        if "uid" in actual_time_slot:
+                            paper_to_session_map[actual_time_slot["uid"]] = fq_timeslot
 
         elif typ == "paper_list" or typ == "poster_list":
             for p in site_data[typ]:
@@ -331,17 +338,19 @@ def extract_list_field(v, key):
     else:
         return value.split(",")
 
+def get_session_for_paper(paper):
+    pass
+
 
 def format_paper(v):
     list_keys = ["authors", "keywords"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
-
-    paper_session = {} # 2025 TODO by_uid["sessions"][v["session_id"]] if v["session_id"] in by_uid["sessions"] else {}
+    paper_session = paper_to_session_map[v["id"]] if v["id"] in paper_to_session_map else {}
     paper_event = by_uid["events"][paper_session["parent_id"]] if "parent_id" in paper_session else {}
-    # print("problem paper is ", v)
-    room_name = get_room_name(paper_session['track'], site_data['config']['room_names']) if "track" in paper_session else ""
+    # print("TEST",json.dumps(paper_session, indent=4))
+    # raise ValueError("test")
     return {
         "id": get_slot_id(v),
         "program_paper_id": v["program_paper_id"],
@@ -352,7 +361,7 @@ def format_paper(v):
         "time_stamp": v["time_stamp"] if "time_stamp" in v else "",
         "session_id": v["session_id"] if "session_id" in v else "",
         "session_title": paper_session["title"] if "title" in paper_session else "",
-        "session_room": room_name,
+        "session_room": paper_session.get("room_name"),
         "session_room_id": paper_session.get("track"),
         "event_id": paper_session["parent_id"] if "parent_id" in paper_session else "",
         "event_title": paper_event["event"] if "event" in paper_event else "",
@@ -486,6 +495,8 @@ def get_paper_type(v):
         return "short"
     elif v["event_prefix"] == "a-visap":
         return "associated"
+    elif v["event_prefix"] == "v-cga" or v["event_prefix"] == "v-tvcg":
+        return "invited"
     else:
         raise ValueError("Unexpected event prefix {}".format(v["event_prefix"]))
 
@@ -544,6 +555,7 @@ def format_by_session_list(v):
         "chair": v.get("chair"),
         "organizers": v.get("organizers"),
         "track": v.get("track"),
+        "room_name": v.get("room_name"),
         "startTime": v.get("time_start"),
         "endTime": v.get("time_end"),
         "day": day,
@@ -593,6 +605,7 @@ def get_room_name(track, room_names):
     if track in room_names:
         return f'room-{room_names[track]}'
     else:
+        print("TESTING",track, room_names)
         return "None"
 
 # ITEM PAGES

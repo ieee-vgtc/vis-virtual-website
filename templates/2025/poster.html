@@ -67,14 +67,6 @@
                     {% endif %} - {{ author.affiliations | join(". ")}}
                 </h4>
             {% endfor %}
-            {% if poster.pdf_url %}
-                <h5 class="paper-link pb-2">
-                    <a href="{{ poster.pdf_url }}">
-                        <span class="fas mr-1">&#xf15c;</span>
-                        Download summary PDF
-                    </a>
-                </h5>
-            {% endif %}
             <!-- <h3 class="py-2">DOI: TBD</h3> -->
         </div>
     </div>
@@ -101,6 +93,15 @@
             </figure>
         </div>
     </div>
+
+    {% if poster.pdf_url %}
+        <h5 class="paper-link pb-2">
+            <a href="{{ poster.pdf_url }}" target="_blank">
+                <span class="fas mr-1">&#xf15c;</span>
+                Download Poster PDF
+            </a>
+        </h5>
+    {% endif %}
 
     {% if poster.has_discord_channel %}
         <div class="row">

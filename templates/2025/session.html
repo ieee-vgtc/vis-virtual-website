@@ -50,10 +50,10 @@
 
         {% else %}
             <h3 class="session-room mt-4">
-                <span class="fas mr-1">&#xf108;</span>
-                <a href="room_{{room.id}}.html">
-                    Room: {{ "To Be Announced" if room.name|length == 0 else room.name }}
-                </a>
+                <!-- <span class="fas mr-1">&#xf108;</span> -->
+                <!-- <a href="room_room-{{session.track}}.html"> -->
+                    Room: {{ "To Be Announced" if session.room_name|length == 0 else session.room_name }}
+                <!-- </a> -->
             </h3>
         {% endif %}
         {% if (session.startTime|length > 0) %}
@@ -147,6 +147,14 @@
         </div>
     </div>
 </div>
+{% endif %}
+
+{% if session.discord_link %}
+    <div class="row my-5 discord-public-link hide-auth-controls">
+        <div class="col-md-8">
+            <p><span class="fas mx-1">&#xf086;</span><a href="{{session.discord_link}}" target="_blank">Discord link</a></p>
+        </div>
+    </div>
 {% endif %}
 
 {% if session.type == "panel" %}
@@ -245,10 +253,14 @@
             Authors: 
             {{ timeslot.authors|map(attribute="name")|join(", ") }}
         </h5>
-        <h4 class="session-list-presenter mt-3">
-            <span class="fas mr-1">&#xf21d;</span>
-            {{ timeslot.contributors | join(", ") }}
-        </h4>
+
+        {% if timeslot.contributors is not none %}
+            <h4 class="session-list-presenter mt-3">
+                <span class="fas mr-1">&#xf21d;</span>
+                {{ timeslot.contributors | join(", ") }}
+            </h4>
+        {% endif %}
+        
         {% if (timeslot.time_start|length > 0) %}
 
             <h5 class="session-list-time">
@@ -292,11 +304,11 @@
 </div>
 
 
-<div class="row my-5 discord-public-link hide-auth-controls">
+<!-- <div class="row my-5 discord-public-link hide-auth-controls">
     <div class="col-md-8">
         <p>If there are any issues with the virtual streaming site, you can try to access the <span class="fas mx-1">&#xf086;</span><a href="{{session.discord_link}}" target="_blank">Discord</a> and <span class="fas mx-1">&#xf128;</span><a href="{{session.slido_link}}" target="_blank">Slido</a> pages for this session directly.</p>
     </div>
-</div>
+</div> -->
 
 
 <script src="/static/2025/js/views/timezone.js"></script>
