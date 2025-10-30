@@ -410,7 +410,7 @@ def format_poster(v):
         "authors": list_fields["authors"],
         "title": v["title"],
         "award": "",
-        # "discord_channel": v["discord_channel"],
+        "discord_url": v["discord_url"],
         # "has_discord_channel": len(v["discord_channel"]) > 0,
         "session_title": "", #2025 TODO v["event"],
         "poster_pdf": "https://ieeevis.b-cdn.net/vis_2025/posters/" + get_slot_id(v) + ".pdf", #2025 TODO 

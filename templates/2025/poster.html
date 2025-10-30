@@ -81,6 +81,8 @@
     {#     </div> #}
     {# </div> #}
 
+    {{poster}}
+
     <div class="row my-3">
         <div class="col-md-8">
             <figure class="figure">
@@ -103,16 +105,13 @@
         </h5>
     {% endif %}
 
-    {% if poster.has_discord_channel %}
+    {% if poster.discord_url %}
         <div class="row">
-        <div class="col-md-8 mt-5 mb-2">
-
+            <div class="col-md-8 mt-5 mb-2">
                 <div class="alert alert-warning" role="alert">
-                    <!-- Go on Discord to chat with the poster presenters asynchronously or through Zoom links shared there.  Each poster has its own channel in the VIS 2025 Discord.  You should have received an invite to join the VIS 2025 Discord in your welcome email. -->
-                    Go on Discord to chat with the poster presenters asynchronously or through Zoom links shared there: <a target="_blank" href="{{poster.discord_channel}}">{{poster.discord_channel}}</a>
-
+                    Go on Discord to chat with the poster presenters asynchronously: <a target="_blank" href="{{poster.discord_url}}">{{poster.discord_url}}</a>
                 </div>
-        </div>
+            </div>
         </div>
     {% endif %}
 
