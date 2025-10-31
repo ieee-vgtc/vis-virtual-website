@@ -1016,7 +1016,7 @@
               "measurement",
               "validity"
             ],
-            "preprint_link": "https://osf.io/dfr4p_v2 (pending moderator approval)",
+            "preprint_link": "https://osf.io/dfr4p_v2",
             "has_pdf": true,
             "paper_award": null,
             "doi": null,
@@ -2039,6 +2039,37 @@
         "youtube_url": null,
         "time_slots": [
           {
+            "slot_id": "opening-tot-awards",
+            "session_id": "full6",
+            "title": "IEEE VIS Test-of-Time Awards",
+            "contributors": [
+              "Anna Vilanova",
+              "Gerik Scheuermann",
+              "David Kao",
+              "Ross Whitaker",
+              "Peter Lindstrom",
+              "Min Chen",
+              "Kanit Wongsuphasawat",
+              "Dominik Moritz",
+              "Shixia Liu",
+              "Stef van den Elzen"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T15:20:00.000Z",
+            "time_start": "2025-11-04T15:20:00.000Z",
+            "time_end": "2025-11-04T16:01:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
             "slot_id": "v-full-1075",
             "session_id": "full6",
             "title": "Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics",
@@ -2047,9 +2078,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T14:45:00.000Z",
-            "time_start": "2025-11-04T14:45:00.000Z",
-            "time_end": "2025-11-04T14:57:00.000Z",
+            "time_stamp": "2025-11-04T14:46:00.000Z",
+            "time_start": "2025-11-04T14:46:00.000Z",
+            "time_end": "2025-11-04T15:04:00.000Z",
             "authors": [
               {
                 "name": "Renzhong Li",
@@ -2121,9 +2152,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T14:57:00.000Z",
-            "time_start": "2025-11-04T14:57:00.000Z",
-            "time_end": "2025-11-04T15:09:00.000Z",
+            "time_stamp": "2025-11-04T15:04:00.000Z",
+            "time_start": "2025-11-04T15:04:00.000Z",
+            "time_end": "2025-11-04T15:19:00.000Z",
             "authors": [
               {
                 "name": "Kuangshi Ai",
@@ -4120,7 +4151,7 @@
               "Analytical models",
               "Human in the loop"
             ],
-            "preprint_link": "Paper was posted to ArXiv, but the public link is not available yet.",
+            "preprint_link": "",
             "has_pdf": false,
             "paper_award": null,
             "doi": "10.1109/TVCG.2025.3535896",
@@ -8152,7 +8183,7 @@
               "User Intent",
               "Speech Acts"
             ],
-            "preprint_link": "Link (arXiv) will be updated upon release before the conference.",
+            "preprint_link": "",
             "has_pdf": true,
             "paper_award": null,
             "doi": null,
@@ -8977,9 +9008,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T13:00:00.000Z",
-            "time_start": "2025-11-04T13:00:00.000Z",
-            "time_end": "2025-11-04T13:12:00.000Z",
+            "time_stamp": "2025-11-04T13:22:00.000Z",
+            "time_start": "2025-11-04T13:22:00.000Z",
+            "time_end": "2025-11-04T13:40:00.000Z",
             "authors": [
               {
                 "name": "Areen Khalaila",
@@ -9018,6 +9049,51 @@
             "open_access_supplemental_link": "https://osf.io/3nsfp/"
           },
           {
+            "slot_id": "opening-poster-selection",
+            "session_id": "full7",
+            "title": "General information on Poster Selection & Best Poster Award",
+            "contributors": [
+              "Poster Chairs",
+              "Awardee"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T13:00:00.000Z",
+            "time_start": "2025-11-04T13:00:00.000Z",
+            "time_end": "2025-11-04T13:11:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
+            "slot_id": "opening-full-paper-selection",
+            "session_id": "full7",
+            "title": "General information on Full Paper Selection",
+            "contributors": [
+              "Overall Paper Chairs"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T13:11:00.000Z",
+            "time_start": "2025-11-04T13:11:00.000Z",
+            "time_end": "2025-11-04T13:22:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
             "slot_id": "v-full-1777",
             "session_id": "full7",
             "title": "ReVISit 2: A Full Experiment Life Cycle User Study Framework",
@@ -9026,9 +9102,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T13:12:00.000Z",
-            "time_start": "2025-11-04T13:12:00.000Z",
-            "time_end": "2025-11-04T13:24:00.000Z",
+            "time_stamp": "2025-11-04T13:40:00.000Z",
+            "time_start": "2025-11-04T13:40:00.000Z",
+            "time_end": "2025-11-04T13:58:00.000Z",
             "authors": [
               {
                 "name": "Zach Cutler",
@@ -9105,9 +9181,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T13:24:00.000Z",
-            "time_start": "2025-11-04T13:24:00.000Z",
-            "time_end": "2025-11-04T13:36:00.000Z",
+            "time_stamp": "2025-11-04T13:58:00.000Z",
+            "time_start": "2025-11-04T13:58:00.000Z",
+            "time_end": "2025-11-04T14:16:00.000Z",
             "authors": [
               {
                 "name": "Paul Parsons",
@@ -10227,7 +10303,7 @@
             "doi": null,
             "fno": null,
             "open_access_supplemental_question": "This work addresses the challenge of recovering a continuous colormap from a 2D scalar field visualization without a corresponding color legend. We propose a novel approach that simultaneously predicts the colormap and underlying data using a decoupling-and-reconstruction strategy, offering a new method for colormap recovery in visualization.",
-            "open_access_supplemental_link": "osf.io/gb2tx/?view_only=4d2a269b59bc4144b2806ec2d1a34e11"
+            "open_access_supplemental_link": "https://osf.io/gb2tx/?view_only=4d2a269b59bc4144b2806ec2d1a34e11"
           }
         ]
       },
@@ -13065,333 +13141,13 @@
     ],
     "sessions": []
   },
-  "v-panels": {
-    "event": "VIS Panels",
-    "long_name": "VIS Panels",
-    "event_type": "panel",
-    "event_prefix": "v-panels",
-    "event_description": "",
-    "event_url": "https://ieeevis.org/year/2025/program/event_v-panels.html",
-    "organizers": [
-      "Leilani Battle",
-      "Kai Lawonn",
-      "Qianwen Wang"
-    ],
-    "sessions": [
-      {
-        "title": "IEEE VIS Reviewing — On a Path to Self-Destruction?",
-        "session_id": "panel7",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-06T08:30:00+00:00",
-        "time_end": "2025-11-06T09:45:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel7",
-            "session_id": "panel7",
-            "title": "IEEE VIS Reviewing — On a Path to Self-Destruction?",
-            "contributors": [
-              "Petra Isenberg",
-              "Gunther Weber",
-              "Narge Mahyar",
-              "Niklas Elmqvist"
-            ],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T08:30:00.000Z",
-            "time_start": "2025-11-06T08:30:00.000Z",
-            "time_end": "2025-11-06T09:45:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "“Words Divide, Pictures Unite” – Revisiting Otto Neurath’s ISOTYPE at 100",
-        "session_id": "panel3",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-06T13:00:00+00:00",
-        "time_end": "2025-11-06T14:15:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel3",
-            "session_id": "panel3",
-            "title": "“Words Divide, Pictures Unite” – Revisiting Otto Neurath’s ISOTYPE at 100",
-            "contributors": [
-              "Wolfgang Aigner",
-              "Eva Mayr",
-              "Torsten Möller",
-              "Verena Ingrid Prantl",
-              "Florian Windhager"
-            ],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:00:00.000Z",
-            "time_start": "2025-11-06T13:00:00.000Z",
-            "time_end": "2025-11-06T14:15:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing",
-        "session_id": "panel1",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-06T10:15:00+00:00",
-        "time_end": "2025-11-06T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel1",
-            "session_id": "panel1",
-            "title": "Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing",
-            "contributors": [],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T10:15:00.000Z",
-            "time_start": "2025-11-06T10:15:00.000Z",
-            "time_end": "2025-11-06T11:30:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization",
-        "session_id": "panel5",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-05T13:00:00+00:00",
-        "time_end": "2025-11-05T14:15:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel5",
-            "session_id": "panel5",
-            "title": "From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization",
-            "contributors": [],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T13:00:00.000Z",
-            "time_start": "2025-11-05T13:00:00.000Z",
-            "time_end": "2025-11-05T14:15:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "VisAble: Who do we exclude by current visualization practices and how do we change that?",
-        "session_id": "panel6",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-05T08:30:00+00:00",
-        "time_end": "2025-11-05T09:45:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel6",
-            "session_id": "panel6",
-            "title": "VisAble: Who do we exclude by current visualization practices and how do we change that?",
-            "contributors": [
-              "Sita Vriend",
-              "Michael Sedlmair"
-            ],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T08:30:00.000Z",
-            "time_start": "2025-11-05T08:30:00.000Z",
-            "time_end": "2025-11-05T09:45:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality",
-        "session_id": "panel2",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-05T10:15:00+00:00",
-        "time_end": "2025-11-05T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel2",
-            "session_id": "panel2",
-            "title": "TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality",
-            "contributors": [],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T10:15:00.000Z",
-            "time_start": "2025-11-05T10:15:00.000Z",
-            "time_end": "2025-11-05T11:30:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "Industry Meetup: How to make money with visualization?",
-        "session_id": "panel8",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          "Johanna Schmidt"
-        ],
-        "time_start": "2025-11-06T14:45:00+00:00",
-        "time_end": "2025-11-06T16:00:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel8",
-            "session_id": "panel8",
-            "title": "VisInPractice Industry Panel",
-            "contributors": [],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T14:45:00.000Z",
-            "time_start": "2025-11-06T14:45:00.000Z",
-            "time_end": "2025-11-06T16:00:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
-        "title": "What Does Psychology Really Mean to Visualization Research? Towards PsychXVis and VisXPsych",
-        "session_id": "panel4",
-        "event_prefix": "v-panels",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-05T14:45:00+00:00",
-        "time_end": "2025-11-05T16:00:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-panels-panel4",
-            "session_id": "panel4",
-            "title": "What Does Psychology Really Mean to Visualization Research? Towards PsychXVis and VisXPsych",
-            "contributors": [
-              "Arran Zeyu Wang",
-              "Danielle Albers Szafir"
-            ],
-            "paper_type": "Panel",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T14:45:00.000Z",
-            "time_start": "2025-11-05T14:45:00.000Z",
-            "time_end": "2025-11-05T16:00:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      }
-    ]
-  },
   "v-poster": {
     "event": "VIS Posters",
     "long_name": "VIS Posters",
     "event_type": "poster",
     "event_prefix": "v-poster",
     "event_description": "",
-    "event_url": "",
+    "event_url": "https://ieeevis.org/year/2025/program/posters.html",
     "organizers": [
       "Benjamin Bach",
       "Renata Raidou",
@@ -15383,10 +15139,56 @@
           "Short Paper Chairs"
         ],
         "time_start": "2025-11-04T10:15:00+00:00",
-        "time_end": "2025-11-04T11:30:00+00:00",
+        "time_end": "2025-11-04T11:40:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945382615224482",
         "youtube_url": null,
         "time_slots": [
+          {
+            "slot_id": "opening-vgtc-awards",
+            "session_id": "short10",
+            "title": "VGTC Awards",
+            "contributors": [
+              "David Ebert",
+              "Awardees"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T10:15:00.000Z",
+            "time_start": "2025-11-04T10:15:00.000Z",
+            "time_end": "2025-11-04T11:05:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
+            "slot_id": "opening-short-paper-selection",
+            "session_id": "short10",
+            "title": "General information on Short Paper Selection",
+            "contributors": [
+              "Cagatay Turkay",
+              "Short Paper Chairs"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T11:05:00.000Z",
+            "time_start": "2025-11-04T11:05:00.000Z",
+            "time_end": "2025-11-04T11:10:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
           {
             "slot_id": "v-short-1198",
             "session_id": "short10",
@@ -15396,9 +15198,9 @@
             ],
             "paper_type": "Short",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T10:15:00.000Z",
-            "time_start": "2025-11-04T10:15:00.000Z",
-            "time_end": "2025-11-04T10:24:00.000Z",
+            "time_stamp": "2025-11-04T11:10:00.000Z",
+            "time_start": "2025-11-04T11:10:00.000Z",
+            "time_end": "2025-11-04T11:24:00.000Z",
             "authors": [
               {
                 "name": "Alex Kale",
@@ -15430,9 +15232,9 @@
             ],
             "paper_type": "Short",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T10:24:00.000Z",
-            "time_start": "2025-11-04T10:24:00.000Z",
-            "time_end": "2025-11-04T10:33:00.000Z",
+            "time_stamp": "2025-11-04T11:24:00.000Z",
+            "time_start": "2025-11-04T11:24:00.000Z",
+            "time_end": "2025-11-04T11:38:00.000Z",
             "authors": [
               {
                 "name": "Ridwan Mahbub",
@@ -15644,7 +15446,7 @@
             "doi": null,
             "fno": null,
             "open_access_supplemental_question": "Original dataset of our systematic review",
-            "open_access_supplemental_link": "https://physicalviswidget.github.io/, https://osf.io/vjw5e/"
+            "open_access_supplemental_link": "https://osf.io/vjw5e/"
           },
           {
             "slot_id": "v-short-1271",
@@ -16181,7 +15983,7 @@
             "doi": null,
             "fno": null,
             "open_access_supplemental_question": null,
-            "open_access_supplemental_link": "(Source Code) https://github.com/linhphaaam/posterity"
+            "open_access_supplemental_link": "https://github.com/linhphaaam/posterity"
           },
           {
             "slot_id": "v-short-1113",
@@ -17899,7 +17701,7 @@
               "Replication Study",
               "AR-Enhanced Publications"
             ],
-            "preprint_link": "Currently in moderation, was being edited up until July 1, 2025: https://osf.io/preprints/osf/v6sfg_v1",
+            "preprint_link": "https://osf.io/preprints/osf/v6sfg_v1",
             "has_pdf": true,
             "paper_award": null,
             "doi": null,
@@ -18848,7 +18650,7 @@
             "doi": null,
             "fno": null,
             "open_access_supplemental_question": "Thoroughly documented source code",
-            "open_access_supplemental_link": "1. https://chartmark.github.io/        2. https://github.com/HKUSTDial/ChartMark"
+            "open_access_supplemental_link": "https://github.com/HKUSTDial/ChartMark"
           }
         ]
       },
@@ -19328,70 +19130,6 @@
       }
     ]
   },
-  "t-revisit": {
-    "event": "reVISit Tutorial",
-    "long_name": "Running Online User Studies with the reVISit Framework",
-    "event_type": "tutorial",
-    "event_prefix": "t-revisit",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Jack Wilburn",
-      "Hilson Shrestha",
-      "Zach Cutler",
-      "Yiren Ding",
-      "Tingying He",
-      "Andrew McNutt",
-      "Lane Harrison",
-      "Alexander Lex"
-    ],
-    "sessions": [
-      {
-        "title": "Running Online User Studies with the reVISit Framework",
-        "session_id": "t-revisit-1",
-        "event_prefix": "t-revisit",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
-        "chair": [
-          "Jack Wilburn",
-          "Hilson Shrestha",
-          "Zach Cutler",
-          "Yiren Ding",
-          "Tingying He",
-          "Andrew McNutt",
-          "Lane Harrison",
-          "Alexander Lex"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945238129709068",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Running Online User Studies with the reVISit Framework",
-        "session_id": "t-revisit-2",
-        "event_prefix": "t-revisit",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
-        "chair": [
-          "Jack Wilburn",
-          "Hilson Shrestha",
-          "Zach Cutler",
-          "Yiren Ding",
-          "Tingying He",
-          "Andrew McNutt",
-          "Lane Harrison",
-          "Alexander Lex"
-        ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945238129709068",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
   "conf": {
     "event": "Conference Events",
     "long_name": "Conference Events",
@@ -19409,10 +19147,144 @@
         "event_prefix": "conf",
         "track": "e1_e2",
         "room_name": "Hall E",
-        "chair": null,
+        "chair": [
+          "Meister Eduard Gröller"
+        ],
         "time_start": "2025-11-04T08:30:00+00:00",
         "time_end": "2025-11-04T09:45:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945376143147180",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "opening-opening",
+            "session_id": "opening1",
+            "title": "Opening",
+            "contributors": [
+              "Johanna Schmidt",
+              "Eduard Gröller",
+              "Barbora Kozlíková",
+              "Krešimir Matković"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T08:30:00.000Z",
+            "time_start": "2025-11-04T08:30:00.000Z",
+            "time_end": "2025-11-04T08:45:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
+            "slot_id": "opening-keynote",
+            "session_id": "opening1",
+            "title": "The Science of Visual Insight: Transforming Data Visualization into a Rigorous Discipline",
+            "contributors": [
+              "Hans-Christian Hege"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T08:45:00.000Z",
+            "time_start": "2025-11-04T08:45:00.000Z",
+            "time_end": "2025-11-04T09:45:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "Capstone & Closing",
+        "session_id": "closing",
+        "event_prefix": "conf",
+        "track": "e1_e2",
+        "room_name": "Hall E",
+        "chair": [
+          "Johanna Schmidt",
+          "Eduard Gröller",
+          "Barbora Kozlíková",
+          "Krešimir Matković"
+        ],
+        "time_start": "2025-11-07T10:15:00+00:00",
+        "time_end": "2025-11-07T11:30:00+00:00",
+        "discord_link": null,
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "closing-capstone",
+            "session_id": "closing",
+            "title": "A Diagrammatic Approach to the World",
+            "contributors": [
+              "Theo Deutinger"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-07T10:15:00.000Z",
+            "time_start": "2025-11-07T10:15:00.000Z",
+            "time_end": "2025-11-07T11:00:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
+            "slot_id": "closing-closing",
+            "session_id": "closing",
+            "title": "Closing",
+            "contributors": [
+              "Johanna Schmidt",
+              "Eduard Gröller",
+              "Barbora Kozlíková",
+              "Krešimir Matković"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-07T11:00:00.000Z",
+            "time_start": "2025-11-07T11:00:00.000Z",
+            "time_end": "2025-11-07T11:30:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "IEEE Vis Townhall",
+        "session_id": "townhall",
+        "event_prefix": "conf",
+        "track": "e1",
+        "room_name": "Hall E1",
+        "chair": [
+          "VSC chairs",
+          "VEC chairs",
+          "election candidates",
+          "ReVISe chairs"
+        ],
+        "time_start": "2025-11-05T12:00:00+00:00",
+        "time_end": "2025-11-05T13:00:00+00:00",
+        "discord_link": null,
         "youtube_url": null,
         "time_slots": []
       }
@@ -20115,59 +19987,230 @@
       }
     ]
   },
-  "t-dashspace": {
-    "event": "DashSpace Tutorial",
-    "long_name": "Live Collaborative Immersive Analytics Development with DashSpace",
-    "event_type": "tutorial",
-    "event_prefix": "t-dashspace",
+  "a-scivis-contest": {
+    "event": "SciVis Contest",
+    "long_name": "SciVis Contest",
+    "event_type": "associated",
+    "event_prefix": "a-scivis-contest",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://sciviscontest2025.github.io/",
     "organizers": [
-      "Marcel Borowski",
-      "Peter W. S. Butcher",
-      "Shannon J. Jones",
-      "Panagiotis D. Ritsos",
-      "Clemens N. Klokmose",
-      "Niklas Elmqvist"
+      "Christoph Heinzl",
+      "Tim Gerrits"
     ],
     "sessions": [
       {
-        "title": "Live Collaborative Immersive Analytics Development with DashSpace",
-        "session_id": "t-dashspace-1",
-        "event_prefix": "t-dashspace",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
+        "title": "SciVis Contest",
+        "session_id": "a-scivis-contest-1",
+        "event_prefix": "a-scivis-contest",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
         "chair": [
-          "Marcel Borowski",
-          "Peter W. S. Butcher",
-          "Shannon J. Jones",
-          "Panagiotis D. Ritsos",
-          "Clemens N. Klokmose",
-          "Niklas Elmqvist"
+          "Christoph Heinzl",
+          "Tim Gerrits"
         ],
         "time_start": "2025-11-02T13:00:00+00:00",
         "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945249378697368",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
         "youtube_url": null,
         "time_slots": []
       },
       {
-        "title": "Live Collaborative Immersive Analytics Development with DashSpace",
-        "session_id": "t-dashspace-2",
-        "event_prefix": "t-dashspace",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
+        "title": "SciVis Contest",
+        "session_id": "a-scivis-contest-2",
+        "event_prefix": "a-scivis-contest",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
         "chair": [
-          "Marcel Borowski",
-          "Peter W. S. Butcher",
-          "Shannon J. Jones",
-          "Panagiotis D. Ritsos",
-          "Clemens N. Klokmose",
-          "Niklas Elmqvist"
+          "Christoph Heinzl",
+          "Tim Gerrits"
         ],
         "time_start": "2025-11-02T15:00:00+00:00",
         "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945249378697368",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-revisit": {
+    "event": "reVISit Tutorial",
+    "long_name": "Running Online User Studies with the reVISit Framework",
+    "event_type": "tutorial",
+    "event_prefix": "t-revisit",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Jack Wilburn",
+      "Hilson Shrestha",
+      "Zach Cutler",
+      "Yiren Ding",
+      "Tingying He",
+      "Andrew McNutt",
+      "Lane Harrison",
+      "Alexander Lex"
+    ],
+    "sessions": [
+      {
+        "title": "Running Online User Studies with the reVISit Framework",
+        "session_id": "t-revisit-1",
+        "event_prefix": "t-revisit",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Jack Wilburn",
+          "Hilson Shrestha",
+          "Zach Cutler",
+          "Yiren Ding",
+          "Tingying He",
+          "Andrew McNutt",
+          "Lane Harrison",
+          "Alexander Lex"
+        ],
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945238129709068",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Running Online User Studies with the reVISit Framework",
+        "session_id": "t-revisit-2",
+        "event_prefix": "t-revisit",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Jack Wilburn",
+          "Hilson Shrestha",
+          "Zach Cutler",
+          "Yiren Ding",
+          "Tingying He",
+          "Andrew McNutt",
+          "Lane Harrison",
+          "Alexander Lex"
+        ],
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945238129709068",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-altvis": {
+    "event": "alt.VIS",
+    "long_name": "alt.VIS 2025",
+    "event_type": "workshop",
+    "event_prefix": "w-altvis",
+    "event_description": "",
+    "event_url": "https://altvis.github.io/",
+    "organizers": [
+      "Andrew M McNutt",
+      "Søren Lyngsø Knudsen",
+      "Alyxander Burns",
+      "Connor Scully-Allison",
+      "Sara Di Bartolomeo",
+      "Victor Schetinger"
+    ],
+    "sessions": [
+      {
+        "title": "alt.VIS 2025",
+        "session_id": "w-altvis-1",
+        "event_prefix": "w-altvis",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Andrew M McNutt",
+          "Søren Lyngsø Knudsen",
+          "Alyxander Burns",
+          "Connor Scully-Allison",
+          "Sara Di Bartolomeo",
+          "Victor Schetinger"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "alt.VIS 2025",
+        "session_id": "w-altvis-2",
+        "event_prefix": "w-altvis",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Andrew M McNutt",
+          "Søren Lyngsø Knudsen",
+          "Alyxander Burns",
+          "Connor Scully-Allison",
+          "Sara Di Bartolomeo",
+          "Victor Schetinger"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-hfia": {
+    "event": "Human Factors in Immersive Analytics",
+    "long_name": "Human Factors in Immersive Analytics",
+    "event_type": "workshop",
+    "event_prefix": "w-hfia",
+    "event_description": "",
+    "event_url": "https://sites.google.com/monash.edu/hfia-workshop",
+    "organizers": [
+      "Yi Li",
+      "Kadek Ananta Satriadi",
+      "Jiazhou Liu",
+      "Anjali Khurana",
+      "Zhiqing Wu",
+      "Benjamin Tag",
+      "Tim Dwyer"
+    ],
+    "sessions": [
+      {
+        "title": "Human Factors in Immersive Analytics",
+        "session_id": "w-hfia-1",
+        "event_prefix": "w-hfia",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "Yi Li",
+          "Kadek Ananta Satriadi",
+          "Jiazhou Liu",
+          "Anjali Khurana",
+          "Zhiqing Wu",
+          "Benjamin Tag",
+          "Tim Dwyer"
+        ],
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Human Factors in Immersive Analytics",
+        "session_id": "w-hfia-2",
+        "event_prefix": "w-hfia",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "Yi Li",
+          "Kadek Ananta Satriadi",
+          "Jiazhou Liu",
+          "Anjali Khurana",
+          "Zhiqing Wu",
+          "Benjamin Tag",
+          "Tim Dwyer"
+        ],
+        "time_start": "2025-11-03T10:00:00+00:00",
+        "time_end": "2025-11-03T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
         "youtube_url": null,
         "time_slots": []
       }
@@ -20179,7 +20222,7 @@
     "event_type": "workshop",
     "event_prefix": "w-accessviz",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://accessviz.github.io/",
     "organizers": [
       "Brianna L Wimer",
       "Md Naimul Hoque",
@@ -20240,194 +20283,13 @@
       }
     ]
   },
-  "t-xai": {
-    "event": "XAI Tutorial",
-    "long_name": "Visualization for Explainable AI (XAI)",
-    "event_type": "tutorial",
-    "event_prefix": "t-xai",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Roy A. Ruddle",
-      "Liqun Liu",
-      "Mohsen Azarmi"
-    ],
-    "sessions": [
-      {
-        "title": "Visualization for Explainable AI (XAI)",
-        "session_id": "t-xai-1",
-        "event_prefix": "t-xai",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Roy A. Ruddle",
-          "Liqun Liu",
-          "Mohsen Azarmi"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Visualization for Explainable AI (XAI)",
-        "session_id": "t-xai-2",
-        "event_prefix": "t-xai",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Roy A. Ruddle",
-          "Liqun Liu",
-          "Mohsen Azarmi"
-        ],
-        "time_start": "2025-11-03T15:00:00+00:00",
-        "time_end": "2025-11-03T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "t-mllm4vis": {
-    "event": "MLLM4Vis Tutorial",
-    "long_name": "MLLM4Vis: Multimodal Large Language Models for Information Visualization",
-    "event_type": "tutorial",
-    "event_prefix": "t-mllm4vis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Enamul Hoque"
-    ],
-    "sessions": [
-      {
-        "title": "MLLM4Vis: Multimodal Large Language Models for Information Visualization",
-        "session_id": "t-mllm4vis-1",
-        "event_prefix": "t-mllm4vis",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Enamul Hoque"
-        ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945030838681710",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "MLLM4Vis: Multimodal Large Language Models for Information Visualization",
-        "session_id": "t-mllm4vis-2",
-        "event_prefix": "t-mllm4vis",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Enamul Hoque"
-        ],
-        "time_start": "2025-11-03T10:00:00+00:00",
-        "time_end": "2025-11-03T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945030838681710",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "a-scivis-contest": {
-    "event": "SciVis Contest",
-    "long_name": "SciVis Contest",
-    "event_type": "associated",
-    "event_prefix": "a-scivis-contest",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Christoph Heinzl",
-      "Tim Gerrits"
-    ],
-    "sessions": [
-      {
-        "title": "SciVis Contest",
-        "session_id": "a-scivis-contest-1",
-        "event_prefix": "a-scivis-contest",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Christoph Heinzl",
-          "Tim Gerrits"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "SciVis Contest",
-        "session_id": "a-scivis-contest-2",
-        "event_prefix": "a-scivis-contest",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Christoph Heinzl",
-          "Tim Gerrits"
-        ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945219767046207",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "t-progressivis": {
-    "event": "ProgressiVis Tutorial",
-    "long_name": "Building Progressive Visual Analytics Systems with ProgressiVis",
-    "event_type": "tutorial",
-    "event_prefix": "t-progressivis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Jean-Daniel Fekete"
-    ],
-    "sessions": [
-      {
-        "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
-        "session_id": "t-progressivis-2",
-        "event_prefix": "t-progressivis",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "Jean-Daniel Fekete"
-        ],
-        "time_start": "2025-11-03T15:00:00+00:00",
-        "time_end": "2025-11-03T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
-        "session_id": "t-progressivis-1",
-        "event_prefix": "t-progressivis",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "Jean-Daniel Fekete"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
   "w-eduvis": {
     "event": "EduVis",
     "long_name": "EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities",
     "event_type": "workshop",
     "event_prefix": "w-eduvis",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://ieee-eduvis.github.io/",
     "organizers": [
       "Christina Stoiber",
       "Fateme Rajabiyazdi",
@@ -20485,273 +20347,496 @@
       }
     ]
   },
-  "t-ttk": {
-    "event": "TTK Tutorial",
-    "long_name": "Hands-On TTK Tutorial: Solving Practical Problems in Small Groups",
+  "t-dashspace": {
+    "event": "DashSpace Tutorial",
+    "long_name": "Live Collaborative Immersive Analytics Development with DashSpace",
     "event_type": "tutorial",
-    "event_prefix": "t-ttk",
+    "event_prefix": "t-dashspace",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
     "organizers": [
-      "Jonas Lukasczyk",
-      "Christoph Garth",
-      "Michael Will",
-      "Mathieu Pont",
-      "Julien Tierny"
+      "Marcel Borowski",
+      "Peter W. S. Butcher",
+      "Shannon J. Jones",
+      "Panagiotis D. Ritsos",
+      "Clemens N. Klokmose",
+      "Niklas Elmqvist"
     ],
     "sessions": [
       {
-        "title": "Hands-On TTK Tutorial: Solving Practical Problems in Small Groups",
-        "session_id": "t-ttk-1",
-        "event_prefix": "t-ttk",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
+        "title": "Live Collaborative Immersive Analytics Development with DashSpace",
+        "session_id": "t-dashspace-1",
+        "event_prefix": "t-dashspace",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
         "chair": [
-          "Jonas Lukasczyk",
-          "Christoph Garth",
-          "Michael Will",
-          "Mathieu Pont",
-          "Julien Tierny"
+          "Marcel Borowski",
+          "Peter W. S. Butcher",
+          "Shannon J. Jones",
+          "Panagiotis D. Ritsos",
+          "Clemens N. Klokmose",
+          "Niklas Elmqvist"
         ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945046437429339",
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945249378697368",
         "youtube_url": null,
         "time_slots": []
       },
       {
-        "title": "Hands-On TTK Tutorial: Solving Practical Problems in Small Groups",
-        "session_id": "t-ttk-2",
-        "event_prefix": "t-ttk",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
+        "title": "Live Collaborative Immersive Analytics Development with DashSpace",
+        "session_id": "t-dashspace-2",
+        "event_prefix": "t-dashspace",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
         "chair": [
-          "Jonas Lukasczyk",
-          "Christoph Garth",
-          "Michael Will",
-          "Mathieu Pont",
-          "Julien Tierny"
+          "Marcel Borowski",
+          "Peter W. S. Butcher",
+          "Shannon J. Jones",
+          "Panagiotis D. Ritsos",
+          "Clemens N. Klokmose",
+          "Niklas Elmqvist"
         ],
-        "time_start": "2025-11-03T10:00:00+00:00",
-        "time_end": "2025-11-03T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945046437429339",
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945249378697368",
         "youtube_url": null,
         "time_slots": []
       }
     ]
   },
-  "t-color": {
-    "event": "Color Harmony & Gen AI Tutorial",
-    "long_name": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
-    "event_type": "tutorial",
-    "event_prefix": "t-color",
+  "v-panels": {
+    "event": "VIS Panels",
+    "long_name": "VIS Panels",
+    "event_type": "panel",
+    "event_prefix": "v-panels",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://ieeevis.org/year/2025/info/program/panels",
     "organizers": [
-      "Theresa-Marie Rhyne"
+      "Leilani Battle",
+      "Kai Lawonn",
+      "Qianwen Wang"
     ],
     "sessions": [
       {
-        "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
-        "session_id": "t-color-1",
-        "event_prefix": "t-color",
-        "track": "1_14",
-        "room_name": "Room 1.14",
-        "chair": [
-          "Theresa-Marie Rhyne"
-        ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
-        "session_id": "t-color-2",
-        "event_prefix": "t-color",
-        "track": "1_14",
-        "room_name": "Room 1.14",
-        "chair": [
-          "Theresa-Marie Rhyne"
-        ],
-        "time_start": "2025-11-03T10:00:00+00:00",
-        "time_end": "2025-11-03T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "t-anujs": {
-    "event": "anu.js Tutorial",
-    "long_name": "Developing Immersive Visualizations and Interactions for the Web with Anu.js",
-    "event_type": "tutorial",
-    "event_prefix": "t-anujs",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "David Saffo",
-      "Benjamin Lee",
-      "Cheng Yao Wang",
-      "Feiyu Lu",
-      "Blair MacIntyre"
-    ],
-    "sessions": [
-      {
-        "title": "Developing Immersive Visualizations and Interactions for the Web with Anu.js",
-        "session_id": "t-anujs-2",
-        "event_prefix": "t-anujs",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "David Saffo",
-          "Benjamin Lee",
-          "Cheng Yao Wang",
-          "Feiyu Lu",
-          "Blair MacIntyre"
-        ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945178444763148",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Developing Immersive Visualizations and Interactions for the Web with Anu.js",
-        "session_id": "t-anujs-1",
-        "event_prefix": "t-anujs",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "David Saffo",
-          "Benjamin Lee",
-          "Cheng Yao Wang",
-          "Feiyu Lu",
-          "Blair MacIntyre"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945178444763148",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-hfia": {
-    "event": "Human Factors in Immersive Analytics",
-    "long_name": "Human Factors in Immersive Analytics",
-    "event_type": "workshop",
-    "event_prefix": "w-hfia",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Yi Li",
-      "Kadek Ananta Satriadi",
-      "Jiazhou Liu",
-      "Anjali Khurana",
-      "Zhiqing Wu",
-      "Benjamin Tag",
-      "Tim Dwyer"
-    ],
-    "sessions": [
-      {
-        "title": "Human Factors in Immersive Analytics",
-        "session_id": "w-hfia-1",
-        "event_prefix": "w-hfia",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "Yi Li",
-          "Kadek Ananta Satriadi",
-          "Jiazhou Liu",
-          "Anjali Khurana",
-          "Zhiqing Wu",
-          "Benjamin Tag",
-          "Tim Dwyer"
-        ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Human Factors in Immersive Analytics",
-        "session_id": "w-hfia-2",
-        "event_prefix": "w-hfia",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
-        "chair": [
-          "Yi Li",
-          "Kadek Ananta Satriadi",
-          "Jiazhou Liu",
-          "Anjali Khurana",
-          "Zhiqing Wu",
-          "Benjamin Tag",
-          "Tim Dwyer"
-        ],
-        "time_start": "2025-11-03T10:00:00+00:00",
-        "time_end": "2025-11-03T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-altvis": {
-    "event": "alt.VIS",
-    "long_name": "alt.VIS 2025",
-    "event_type": "workshop",
-    "event_prefix": "w-altvis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Andrew M McNutt",
-      "Søren Lyngsø Knudsen",
-      "Alyxander Burns",
-      "Connor Scully-Allison",
-      "Sara Di Bartolomeo",
-      "Victor Schetinger"
-    ],
-    "sessions": [
-      {
-        "title": "alt.VIS 2025",
-        "session_id": "w-altvis-2",
-        "event_prefix": "w-altvis",
+        "title": "“Words Divide, Pictures Unite” – Revisiting Otto Neurath’s ISOTYPE at 100",
+        "session_id": "panel3",
+        "event_prefix": "v-panels",
         "track": "0_11_0_12",
         "room_name": "Room 0.11 + 0.12",
         "chair": [
-          "Andrew M McNutt",
-          "Søren Lyngsø Knudsen",
-          "Alyxander Burns",
-          "Connor Scully-Allison",
-          "Sara Di Bartolomeo",
-          "Victor Schetinger"
+          "Wolfgang Aigner",
+          "Eva Mayr",
+          "Torsten Moller",
+          "Verena Ingrid Prantl",
+          "Florian Windhager"
         ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
+        "time_start": "2025-11-06T13:00:00+00:00",
+        "time_end": "2025-11-06T14:15:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel3",
+            "session_id": "panel3",
+            "title": "“Words Divide, Pictures Unite” – Revisiting Otto Neurath’s ISOTYPE at 100",
+            "contributors": [
+              "Wolfgang Aigner",
+              "Eva Mayr",
+              "Torsten Möller",
+              "Verena Ingrid Prantl",
+              "Florian Windhager",
+              "Danielle Albers Szafir",
+              "Theo Deutinger",
+              "Hans-Christian Hege",
+              "Samuel Huron",
+              "Günther Sandner",
+              "Christiane Thenius"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T13:00:00.000Z",
+            "time_start": "2025-11-06T13:00:00.000Z",
+            "time_end": "2025-11-06T14:15:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "IEEE VIS Reviewing — On a Path to Self-Destruction?",
+        "session_id": "panel7",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Petra Isenberg",
+          "Gunther H Weber",
+          "Niklas Elmqvist",
+          "Narges Mahyar"
+        ],
+        "time_start": "2025-11-06T08:30:00+00:00",
+        "time_end": "2025-11-06T09:45:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel7",
+            "session_id": "panel7",
+            "title": "IEEE VIS Reviewing — On a Path to Self-Destruction?",
+            "contributors": [
+              "Petra Isenberg",
+              "Gunther Weber",
+              "Narge Mahyar",
+              "Niklas Elmqvist",
+              "Han-Wei Shen",
+              "Michael Sedlmair",
+              "Melanie Tory",
+              "Helwig Hauser",
+              "Bei Wang",
+              "Tamara Munzner"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T08:30:00.000Z",
+            "time_start": "2025-11-06T08:30:00.000Z",
+            "time_end": "2025-11-06T09:45:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing",
+        "session_id": "panel1",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Markus Wagner",
+          "Christina Stoiber",
+          "Alexander Rind",
+          "Tobias Schreck",
+          "Marc Streit",
+          "Kresimir Matkovic"
+        ],
+        "time_start": "2025-11-06T10:15:00+00:00",
+        "time_end": "2025-11-06T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel1",
+            "session_id": "panel1",
+            "title": "Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing",
+            "contributors": [
+              "Marc Streit",
+              "Christian Mittermayr",
+              "Harald Piringer",
+              "Lena Cibulski",
+              " Jörn Kohlhammer"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T10:15:00.000Z",
+            "time_start": "2025-11-06T10:15:00.000Z",
+            "time_end": "2025-11-06T11:30:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization",
+        "session_id": "panel5",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Lane Harrison",
+          "Alex Kale",
+          "Miriah Meyer",
+          "Carolina Nobre",
+          "Arvind Satyanarayan"
+        ],
+        "time_start": "2025-11-05T13:00:00+00:00",
+        "time_end": "2025-11-05T14:15:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel5",
+            "session_id": "panel5",
+            "title": "From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization",
+            "contributors": [
+              "Karen Schloss",
+              "Catherine D’Ignazio",
+              "John Burn-Murdoch"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-05T13:00:00.000Z",
+            "time_start": "2025-11-05T13:00:00.000Z",
+            "time_end": "2025-11-05T14:15:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "Industry Meetup: How to make money with visualization?",
+        "session_id": "panel8",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Johanna Schmidt"
+        ],
+        "time_start": "2025-11-06T14:45:00+00:00",
+        "time_end": "2025-11-06T16:00:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945296019357707",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel8",
+            "session_id": "panel8",
+            "title": "VisInPractice Industry Panel",
+            "contributors": [],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T14:45:00.000Z",
+            "time_start": "2025-11-06T14:45:00.000Z",
+            "time_end": "2025-11-06T16:00:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "VisAble: Who do we exclude by current visualization practices and how do we change that?",
+        "session_id": "panel6",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Nina Doerr",
+          "Sita Vriend",
+          "Katrin Angerbauer",
+          "Miriah Meyer",
+          "Michael Sedlmair"
+        ],
+        "time_start": "2025-11-05T08:30:00+00:00",
+        "time_end": "2025-11-05T09:45:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel6",
+            "session_id": "panel6",
+            "title": "VisAble: Who do we exclude by current visualization practices and how do we change that?",
+            "contributors": [
+              "Sita Vriend",
+              "Michael Sedlmair",
+              "Dominik Moritz",
+              "Cindy Xiong Bearfield",
+              "Alice Thudt",
+              "Bruce Walker",
+              "Kim Marriott",
+              "Danielle Albers Szafir"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-05T08:30:00.000Z",
+            "time_start": "2025-11-05T08:30:00.000Z",
+            "time_end": "2025-11-05T09:45:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality",
+        "session_id": "panel2",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Andreas Bueckle",
+          "Christiane Hütter",
+          "Sebastian Pirch",
+          "Felix Müller",
+          "Philipp Friedrich",
+          "Martin Chiettini",
+          "Jörg Menche",
+          "Katy Börner"
+        ],
+        "time_start": "2025-11-05T10:15:00+00:00",
+        "time_end": "2025-11-05T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel2",
+            "session_id": "panel2",
+            "title": "TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality",
+            "contributors": [
+              "Niklas Elmqvist",
+              "Renata G. Raidou",
+              "Chris Bryan",
+              "Hannes Kaufmann",
+              "Peter Mindek"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-05T10:15:00.000Z",
+            "time_start": "2025-11-05T10:15:00.000Z",
+            "time_end": "2025-11-05T11:30:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      },
+      {
+        "title": "What Does Psychology Really Mean to Visualization Research? Towards PsychXVis and VisXPsych",
+        "session_id": "panel4",
+        "event_prefix": "v-panels",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Arran Zeyu Wang",
+          "Danielle Albers Szafir"
+        ],
+        "time_start": "2025-11-05T14:45:00+00:00",
+        "time_end": "2025-11-05T16:00:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945405125791956",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "v-panels-panel4",
+            "session_id": "panel4",
+            "title": "What Does Psychology Really Mean to Visualization Research? Towards PsychXVis and VisXPsych",
+            "contributors": [
+              "Arran Zeyu Wang",
+              "Danielle Albers Szafir",
+              "Min Chen",
+              "Karen Schloss",
+              "Alvitta Ottley",
+              "Lace Padilla",
+              "Cindy Xiong Bearfield",
+              "Alex Kale"
+            ],
+            "paper_type": "Panel",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-05T14:45:00.000Z",
+            "time_start": "2025-11-05T14:45:00.000Z",
+            "time_end": "2025-11-05T16:00:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
+      }
+    ]
+  },
+  "t-xai": {
+    "event": "XAI Tutorial",
+    "long_name": "Visualization for Explainable AI (XAI)",
+    "event_type": "tutorial",
+    "event_prefix": "t-xai",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Roy A. Ruddle",
+      "Liqun Liu",
+      "Mohsen Azarmi"
+    ],
+    "sessions": [
+      {
+        "title": "Visualization for Explainable AI (XAI)",
+        "session_id": "t-xai-1",
+        "event_prefix": "t-xai",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Roy A. Ruddle",
+          "Liqun Liu",
+          "Mohsen Azarmi"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
         "youtube_url": null,
         "time_slots": []
       },
       {
-        "title": "alt.VIS 2025",
-        "session_id": "w-altvis-1",
-        "event_prefix": "w-altvis",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
+        "title": "Visualization for Explainable AI (XAI)",
+        "session_id": "t-xai-2",
+        "event_prefix": "t-xai",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
         "chair": [
-          "Andrew M McNutt",
-          "Søren Lyngsø Knudsen",
-          "Alyxander Burns",
-          "Connor Scully-Allison",
-          "Sara Di Bartolomeo",
-          "Victor Schetinger"
+          "Roy A. Ruddle",
+          "Liqun Liu",
+          "Mohsen Azarmi"
         ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
+        "time_start": "2025-11-03T15:00:00+00:00",
+        "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945078989422735",
         "youtube_url": null,
         "time_slots": []
       }
@@ -20763,7 +20848,7 @@
     "event_type": "associated",
     "event_prefix": "a-vast-challenge",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://vast-challenge.github.io/2025/index.html",
     "organizers": [
       "R. Jordan Crouser",
       "Steve Gomez",
@@ -20806,13 +20891,371 @@
       }
     ]
   },
+  "w-ecwidna": {
+    "event": "ECWIDNA",
+    "long_name": "ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment",
+    "event_type": "workshop",
+    "event_prefix": "w-ecwidna",
+    "event_description": "",
+    "event_url": "https://sites.google.com/view/ecwidna",
+    "organizers": [
+      "Alessandro Iop",
+      "Renan Guarese",
+      "Senior Associate Professor Mario Romero",
+      "Andrii Matviienko",
+      "Fabio Zambetta",
+      "Anderson Maciel",
+      "Lonni Besançon"
+    ],
+    "sessions": [
+      {
+        "title": "ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment",
+        "session_id": "w-ecwidna-1",
+        "event_prefix": "w-ecwidna",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Alessandro Iop",
+          "Renan Guarese",
+          "Senior Associate Professor Mario Romero",
+          "Andrii Matviienko",
+          "Fabio Zambetta",
+          "Anderson Maciel",
+          "Lonni Besançon"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945096584527992",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment",
+        "session_id": "w-ecwidna-2",
+        "event_prefix": "w-ecwidna",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Alessandro Iop",
+          "Renan Guarese",
+          "Senior Associate Professor Mario Romero",
+          "Andrii Matviienko",
+          "Fabio Zambetta",
+          "Anderson Maciel",
+          "Lonni Besançon"
+        ],
+        "time_start": "2025-11-03T15:00:00+00:00",
+        "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945096584527992",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-uncertaintyvis": {
+    "event": "UncertaintyVis",
+    "long_name": "Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making",
+    "event_type": "workshop",
+    "event_prefix": "w-uncertaintyvis",
+    "event_description": "",
+    "event_url": "https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html",
+    "organizers": [
+      "Tushar M. Athawale",
+      "Chris R. Johnson",
+      "Kristin Potter",
+      "Paul Rosen",
+      "David Pugmire",
+      "Antigoni Georgiadou",
+      "Tim Gerrits",
+      "Nadia Boukhelifa"
+    ],
+    "sessions": [
+      {
+        "title": "Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making",
+        "session_id": "w-uncertaintyvis-1",
+        "event_prefix": "w-uncertaintyvis",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "Tushar M. Athawale",
+          "Chris R. Johnson",
+          "Kristin Potter",
+          "Paul Rosen",
+          "David Pugmire",
+          "Antigoni Georgiadou",
+          "Tim Gerrits",
+          "Nadia Boukhelifa"
+        ],
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945225941188680",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making",
+        "session_id": "w-uncertaintyvis-2",
+        "event_prefix": "w-uncertaintyvis",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "Tushar M. Athawale",
+          "Chris R. Johnson",
+          "Kristin Potter",
+          "Paul Rosen",
+          "David Pugmire",
+          "Antigoni Georgiadou",
+          "Tim Gerrits",
+          "Nadia Boukhelifa"
+        ],
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945225941188680",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-user-centered-evaluation": {
+    "event": "User-centered Evaluation",
+    "long_name": "User-centered Evaluation in Visualization",
+    "event_type": "tutorial",
+    "event_prefix": "t-user-centered-evaluation",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Camilla Forsell",
+      "Niklas Ronnberg"
+    ],
+    "sessions": [
+      {
+        "title": "User-centered Evaluation in Visualization",
+        "session_id": "t-user-centered-evaluation-2",
+        "event_prefix": "t-user-centered-evaluation",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Camilla Forsell",
+          "Niklas Ronnberg"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945184077582439",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "User-centered Evaluation in Visualization",
+        "session_id": "t-user-centered-evaluation-1",
+        "event_prefix": "t-user-centered-evaluation",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Camilla Forsell",
+          "Niklas Ronnberg"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945184077582439",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-topoinvis": {
+    "event": "TopoInVis",
+    "long_name": "Workshop on Topological Data Analysis and Visualization (TopoInVis)",
+    "event_type": "workshop",
+    "event_prefix": "w-topoinvis",
+    "event_description": "",
+    "event_url": "https://topoinvis-workshop.github.io/2025/",
+    "organizers": [
+      "Divya Banesh",
+      "Federico Iuricich"
+    ],
+    "sessions": [
+      {
+        "title": "Workshop on Topological Data Analysis and Visualization (TopoInVis)",
+        "session_id": "w-topoinvis-1",
+        "event_prefix": "w-topoinvis",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Divya Banesh",
+          "Federico Iuricich"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945154218463446",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Workshop on Topological Data Analysis and Visualization (TopoInVis)",
+        "session_id": "w-topoinvis-2",
+        "event_prefix": "w-topoinvis",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
+        "chair": [
+          "Divya Banesh",
+          "Federico Iuricich"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945154218463446",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-vis-analysis-and-design": {
+    "event": "Visualization Analysis and Design",
+    "long_name": "Visualization Analysis and Design",
+    "event_type": "tutorial",
+    "event_prefix": "t-vis-analysis-and-design",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Tamara Munzner"
+    ],
+    "sessions": [
+      {
+        "title": "Visualization Analysis and Design",
+        "session_id": "t-vis-analysis-and-design-2",
+        "event_prefix": "t-vis-analysis-and-design",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Tamara Munzner"
+        ],
+        "time_start": "2025-11-03T15:00:00+00:00",
+        "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945102552895519",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Visualization Analysis and Design",
+        "session_id": "t-vis-analysis-and-design-1",
+        "event_prefix": "t-vis-analysis-and-design",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Tamara Munzner"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945102552895519",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-visxai": {
+    "event": "VISxAI",
+    "long_name": "8th Workshop on Visualization for AI Explainability (VISxAI)",
+    "event_type": "workshop",
+    "event_prefix": "w-visxai",
+    "event_description": "",
+    "event_url": "https://visxai.io/",
+    "organizers": [
+      "Alex Bäuerle",
+      "Angie Boggust",
+      "Mennatallah El-Assady",
+      "Fred Hohman",
+      "Catherine Yeh",
+      "Hendrik Strobelt"
+    ],
+    "sessions": [
+      {
+        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
+        "session_id": "w-visxai-3",
+        "event_prefix": "w-visxai",
+        "track": "m1",
+        "room_name": "Hall M1",
+        "chair": [
+          "Alex Bäuerle",
+          "Angie Boggust",
+          "Mennatallah El-Assady",
+          "Fred Hohman",
+          "Catherine Yeh",
+          "Hendrik Strobelt"
+        ],
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
+        "session_id": "w-visxai-4",
+        "event_prefix": "w-visxai",
+        "track": "m1",
+        "room_name": "Hall M1",
+        "chair": [
+          "Alex Bäuerle",
+          "Angie Boggust",
+          "Mennatallah El-Assady",
+          "Fred Hohman",
+          "Catherine Yeh",
+          "Hendrik Strobelt"
+        ],
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
+        "session_id": "w-visxai-1",
+        "event_prefix": "w-visxai",
+        "track": "m1",
+        "room_name": "Hall M1",
+        "chair": [
+          "Alex Bäuerle",
+          "Angie Boggust",
+          "Mennatallah El-Assady",
+          "Fred Hohman",
+          "Catherine Yeh",
+          "Hendrik Strobelt"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
+        "session_id": "w-visxai-2",
+        "event_prefix": "w-visxai",
+        "track": "m1",
+        "room_name": "Hall M1",
+        "chair": [
+          "Alex Bäuerle",
+          "Angie Boggust",
+          "Mennatallah El-Assady",
+          "Fred Hohman",
+          "Catherine Yeh",
+          "Hendrik Strobelt"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
   "w-visxgenai": {
     "event": "VISxGenAI",
     "long_name": "VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS",
     "event_type": "workshop",
     "event_prefix": "w-visxgenai",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://visxgenai.github.io/",
     "organizers": [
       "Zhu-Tian Chen",
       "Shivam Raval",
@@ -20934,99 +21377,148 @@
       }
     ]
   },
-  "w-vahc": {
-    "event": "VAHC",
-    "long_name": "16th Annual Workshop on Visual Analytics in Healthcare",
+  "w-ldav": {
+    "event": "LDAV",
+    "long_name": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
     "event_type": "workshop",
-    "event_prefix": "w-vahc",
+    "event_prefix": "w-ldav",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://ldav.io/2025/",
     "organizers": [
-      "Alessio Arleo",
-      "Jürgen Bernard",
-      "Annie T. Chen",
-      "Swaminathan Kandaswamy",
-      "David Gotz",
-      "Danny T.Y. Wu"
+      "Gunther H Weber"
     ],
     "sessions": [
       {
-        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
-        "session_id": "w-vahc-4",
-        "event_prefix": "w-vahc",
-        "track": "1_14",
-        "room_name": "Room 1.14",
+        "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
+        "session_id": "w-ldav-1",
+        "event_prefix": "w-ldav",
+        "track": "m2",
+        "room_name": "Hall M2",
         "chair": [
-          "Alessio Arleo",
-          "Jürgen Bernard",
-          "Annie T. Chen",
-          "Swaminathan Kandaswamy",
-          "David Gotz",
-          "Danny T.Y. Wu"
+          "Gunther H Weber"
         ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
         "youtube_url": null,
         "time_slots": []
       },
       {
-        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
-        "session_id": "w-vahc-2",
-        "event_prefix": "w-vahc",
-        "track": "1_14",
-        "room_name": "Room 1.14",
+        "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
+        "session_id": "w-ldav-2",
+        "event_prefix": "w-ldav",
+        "track": "m2",
+        "room_name": "Hall M2",
         "chair": [
-          "Alessio Arleo",
-          "Jürgen Bernard",
-          "Annie T. Chen",
-          "Swaminathan Kandaswamy",
-          "David Gotz",
-          "Danny T.Y. Wu"
+          "Gunther H Weber"
         ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "time_start": "2025-11-03T10:00:00+00:00",
+        "time_end": "2025-11-03T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
         "youtube_url": null,
         "time_slots": []
-      },
+      }
+    ]
+  },
+  "w-vis4dh-dh4vis": {
+    "event": "VIS4DH ↔ DH4VIS",
+    "long_name": "9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS",
+    "event_type": "workshop",
+    "event_prefix": "w-vis4dh-dh4vis",
+    "event_description": "",
+    "event_url": "https://vis4dh.dbvis.de/",
+    "organizers": [
+      "Alfie Abdul-Rahman",
+      "Mark-Jan Bludau",
+      "Eva Mayr",
+      "Tomas Vancisin",
+      "Florian Windhager"
+    ],
+    "sessions": [
       {
-        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
-        "session_id": "w-vahc-1",
-        "event_prefix": "w-vahc",
-        "track": "1_14",
-        "room_name": "Room 1.14",
+        "title": "9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS",
+        "session_id": "w-vis4dh-dh4vis-1",
+        "event_prefix": "w-vis4dh-dh4vis",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
         "chair": [
-          "Alessio Arleo",
-          "Jürgen Bernard",
-          "Annie T. Chen",
-          "Swaminathan Kandaswamy",
-          "David Gotz",
-          "Danny T.Y. Wu"
+          "Alfie Abdul-Rahman",
+          "Mark-Jan Bludau",
+          "Eva Mayr",
+          "Tomas Vancisin",
+          "Florian Windhager"
         ],
         "time_start": "2025-11-02T08:00:00+00:00",
         "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945173302546493",
         "youtube_url": null,
         "time_slots": []
       },
       {
-        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
-        "session_id": "w-vahc-3",
-        "event_prefix": "w-vahc",
-        "track": "1_14",
-        "room_name": "Room 1.14",
+        "title": "9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS",
+        "session_id": "w-vis4dh-dh4vis-2",
+        "event_prefix": "w-vis4dh-dh4vis",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
         "chair": [
-          "Alessio Arleo",
-          "Jürgen Bernard",
-          "Annie T. Chen",
-          "Swaminathan Kandaswamy",
-          "David Gotz",
-          "Danny T.Y. Wu"
+          "Alfie Abdul-Rahman",
+          "Mark-Jan Bludau",
+          "Eva Mayr",
+          "Tomas Vancisin",
+          "Florian Windhager"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945173302546493",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-viscomm": {
+    "event": "VisComm",
+    "long_name": "Seventh Workshop on Visualization for Communication (VisComm)",
+    "event_type": "workshop",
+    "event_prefix": "w-viscomm",
+    "event_description": "",
+    "event_url": "https://www.viscomm.io/",
+    "organizers": [
+      "Alvitta Ottley",
+      "Paul C Parsons",
+      "Jon Schwabish"
+    ],
+    "sessions": [
+      {
+        "title": "Seventh Workshop on Visualization for Communication (VisComm)",
+        "session_id": "w-viscomm-1",
+        "event_prefix": "w-viscomm",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
+        "chair": [
+          "Alvitta Ottley",
+          "Paul C Parsons",
+          "Jon Schwabish"
         ],
         "time_start": "2025-11-02T13:00:00+00:00",
         "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945231263633418",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Seventh Workshop on Visualization for Communication (VisComm)",
+        "session_id": "w-viscomm-2",
+        "event_prefix": "w-viscomm",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
+        "chair": [
+          "Alvitta Ottley",
+          "Paul C Parsons",
+          "Jon Schwabish"
+        ],
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945231263633418",
         "youtube_url": null,
         "time_slots": []
       }
@@ -21038,7 +21530,7 @@
     "event_type": "workshop",
     "event_prefix": "w-mercado",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://sites.google.com/view/mercadoworkshop/vis2025",
     "organizers": [
       "Wolfgang Büschel",
       "Gabriela Molina León",
@@ -21099,7 +21591,7 @@
     "event_type": "workshop",
     "event_prefix": "w-inputvis",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://inputvisualization.github.io/vis2025/",
     "organizers": [
       "Nathalie Bressa",
       "Samuel Huron",
@@ -21191,506 +21683,283 @@
       }
     ]
   },
-  "w-viscomm": {
-    "event": "VisComm",
-    "long_name": "Seventh Workshop on Visualization for Communication (VisComm)",
-    "event_type": "workshop",
-    "event_prefix": "w-viscomm",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Alvitta Ottley",
-      "Paul C Parsons",
-      "Jon Schwabish"
-    ],
-    "sessions": [
-      {
-        "title": "Seventh Workshop on Visualization for Communication (VisComm)",
-        "session_id": "w-viscomm-1",
-        "event_prefix": "w-viscomm",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
-        "chair": [
-          "Alvitta Ottley",
-          "Paul C Parsons",
-          "Jon Schwabish"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945231263633418",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Seventh Workshop on Visualization for Communication (VisComm)",
-        "session_id": "w-viscomm-2",
-        "event_prefix": "w-viscomm",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
-        "chair": [
-          "Alvitta Ottley",
-          "Paul C Parsons",
-          "Jon Schwabish"
-        ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945231263633418",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "t-user-centered-evaluation": {
-    "event": "User-centered Evaluation",
-    "long_name": "User-centered Evaluation in Visualization",
+  "t-mllm4vis": {
+    "event": "MLLM4Vis Tutorial",
+    "long_name": "MLLM4Vis: Multimodal Large Language Models for Information Visualization",
     "event_type": "tutorial",
-    "event_prefix": "t-user-centered-evaluation",
+    "event_prefix": "t-mllm4vis",
     "event_description": "",
-    "event_url": null,
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
     "organizers": [
-      "Camilla Forsell",
-      "Niklas Ronnberg"
+      "Enamul Hoque"
     ],
     "sessions": [
       {
-        "title": "User-centered Evaluation in Visualization",
-        "session_id": "t-user-centered-evaluation-2",
-        "event_prefix": "t-user-centered-evaluation",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
-        "chair": [
-          "Camilla Forsell",
-          "Niklas Ronnberg"
-        ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945184077582439",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "User-centered Evaluation in Visualization",
-        "session_id": "t-user-centered-evaluation-1",
-        "event_prefix": "t-user-centered-evaluation",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
-        "chair": [
-          "Camilla Forsell",
-          "Niklas Ronnberg"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945184077582439",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "t-vis-analysis-and-design": {
-    "event": "Visualization Analysis and Design",
-    "long_name": "Visualization Analysis and Design",
-    "event_type": "tutorial",
-    "event_prefix": "t-vis-analysis-and-design",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Tamara Munzner"
-    ],
-    "sessions": [
-      {
-        "title": "Visualization Analysis and Design",
-        "session_id": "t-vis-analysis-and-design-2",
-        "event_prefix": "t-vis-analysis-and-design",
-        "track": "1_14",
-        "room_name": "Room 1.14",
-        "chair": [
-          "Tamara Munzner"
-        ],
-        "time_start": "2025-11-03T15:00:00+00:00",
-        "time_end": "2025-11-03T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945102552895519",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Visualization Analysis and Design",
-        "session_id": "t-vis-analysis-and-design-1",
-        "event_prefix": "t-vis-analysis-and-design",
-        "track": "1_14",
-        "room_name": "Room 1.14",
-        "chair": [
-          "Tamara Munzner"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945102552895519",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-vis4dh-dh4vis": {
-    "event": "VIS4DH ↔ DH4VIS",
-    "long_name": "9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS",
-    "event_type": "workshop",
-    "event_prefix": "w-vis4dh-dh4vis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Alfie Abdul-Rahman",
-      "Mark-Jan Bludau",
-      "Eva Mayr",
-      "Tomas Vancisin",
-      "Florian Windhager"
-    ],
-    "sessions": [
-      {
-        "title": "9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS",
-        "session_id": "w-vis4dh-dh4vis-1",
-        "event_prefix": "w-vis4dh-dh4vis",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
-        "chair": [
-          "Alfie Abdul-Rahman",
-          "Mark-Jan Bludau",
-          "Eva Mayr",
-          "Tomas Vancisin",
-          "Florian Windhager"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945173302546493",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS",
-        "session_id": "w-vis4dh-dh4vis-2",
-        "event_prefix": "w-vis4dh-dh4vis",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
-        "chair": [
-          "Alfie Abdul-Rahman",
-          "Mark-Jan Bludau",
-          "Eva Mayr",
-          "Tomas Vancisin",
-          "Florian Windhager"
-        ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945173302546493",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-ecwidna": {
-    "event": "ECWIDNA",
-    "long_name": "ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment",
-    "event_type": "workshop",
-    "event_prefix": "w-ecwidna",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Alessandro Iop",
-      "Renan Guarese",
-      "Senior Associate Professor Mario Romero",
-      "Andrii Matviienko",
-      "Fabio Zambetta",
-      "Anderson Maciel",
-      "Lonni Besançon"
-    ],
-    "sessions": [
-      {
-        "title": "ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment",
-        "session_id": "w-ecwidna-1",
-        "event_prefix": "w-ecwidna",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
-        "chair": [
-          "Alessandro Iop",
-          "Renan Guarese",
-          "Senior Associate Professor Mario Romero",
-          "Andrii Matviienko",
-          "Fabio Zambetta",
-          "Anderson Maciel",
-          "Lonni Besançon"
-        ],
-        "time_start": "2025-11-03T13:00:00+00:00",
-        "time_end": "2025-11-03T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945096584527992",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment",
-        "session_id": "w-ecwidna-2",
-        "event_prefix": "w-ecwidna",
-        "track": "1_32_1_33",
-        "room_name": "Room 1.32 + 1.33",
-        "chair": [
-          "Alessandro Iop",
-          "Renan Guarese",
-          "Senior Associate Professor Mario Romero",
-          "Andrii Matviienko",
-          "Fabio Zambetta",
-          "Anderson Maciel",
-          "Lonni Besançon"
-        ],
-        "time_start": "2025-11-03T15:00:00+00:00",
-        "time_end": "2025-11-03T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945096584527992",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-uncertaintyvis": {
-    "event": "UncertaintyVis",
-    "long_name": "Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making",
-    "event_type": "workshop",
-    "event_prefix": "w-uncertaintyvis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Tushar M. Athawale",
-      "Chris R. Johnson",
-      "Kristin Potter",
-      "Paul Rosen",
-      "David Pugmire",
-      "Antigoni Georgiadou",
-      "Tim Gerrits",
-      "Nadia Boukhelifa"
-    ],
-    "sessions": [
-      {
-        "title": "Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making",
-        "session_id": "w-uncertaintyvis-1",
-        "event_prefix": "w-uncertaintyvis",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "Tushar M. Athawale",
-          "Chris R. Johnson",
-          "Kristin Potter",
-          "Paul Rosen",
-          "David Pugmire",
-          "Antigoni Georgiadou",
-          "Tim Gerrits",
-          "Nadia Boukhelifa"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945225941188680",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making",
-        "session_id": "w-uncertaintyvis-2",
-        "event_prefix": "w-uncertaintyvis",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "Tushar M. Athawale",
-          "Chris R. Johnson",
-          "Kristin Potter",
-          "Paul Rosen",
-          "David Pugmire",
-          "Antigoni Georgiadou",
-          "Tim Gerrits",
-          "Nadia Boukhelifa"
-        ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945225941188680",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-visxai": {
-    "event": "VISxAI",
-    "long_name": "8th Workshop on Visualization for AI Explainability (VISxAI)",
-    "event_type": "workshop",
-    "event_prefix": "w-visxai",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Alex Bäuerle",
-      "Angie Boggust",
-      "Mennatallah El-Assady",
-      "Fred Hohman",
-      "Catherine Yeh",
-      "Hendrik Strobelt"
-    ],
-    "sessions": [
-      {
-        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
-        "session_id": "w-visxai-3",
-        "event_prefix": "w-visxai",
-        "track": "m1",
-        "room_name": "Hall M1",
-        "chair": [
-          "Alex Bäuerle",
-          "Angie Boggust",
-          "Mennatallah El-Assady",
-          "Fred Hohman",
-          "Catherine Yeh",
-          "Hendrik Strobelt"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
-        "session_id": "w-visxai-4",
-        "event_prefix": "w-visxai",
-        "track": "m1",
-        "room_name": "Hall M1",
-        "chair": [
-          "Alex Bäuerle",
-          "Angie Boggust",
-          "Mennatallah El-Assady",
-          "Fred Hohman",
-          "Catherine Yeh",
-          "Hendrik Strobelt"
-        ],
-        "time_start": "2025-11-02T15:00:00+00:00",
-        "time_end": "2025-11-02T16:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
-        "session_id": "w-visxai-1",
-        "event_prefix": "w-visxai",
-        "track": "m1",
-        "room_name": "Hall M1",
-        "chair": [
-          "Alex Bäuerle",
-          "Angie Boggust",
-          "Mennatallah El-Assady",
-          "Fred Hohman",
-          "Catherine Yeh",
-          "Hendrik Strobelt"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "8th Workshop on Visualization for AI Explainability (VISxAI)",
-        "session_id": "w-visxai-2",
-        "event_prefix": "w-visxai",
-        "track": "m1",
-        "room_name": "Hall M1",
-        "chair": [
-          "Alex Bäuerle",
-          "Angie Boggust",
-          "Mennatallah El-Assady",
-          "Fred Hohman",
-          "Catherine Yeh",
-          "Hendrik Strobelt"
-        ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945143799812226",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-topoinvis": {
-    "event": "TopoInVis",
-    "long_name": "Workshop on Topological Data Analysis and Visualization (TopoInVis)",
-    "event_type": "workshop",
-    "event_prefix": "w-topoinvis",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Divya Banesh",
-      "Federico Iuricich"
-    ],
-    "sessions": [
-      {
-        "title": "Workshop on Topological Data Analysis and Visualization (TopoInVis)",
-        "session_id": "w-topoinvis-1",
-        "event_prefix": "w-topoinvis",
+        "title": "MLLM4Vis: Multimodal Large Language Models for Information Visualization",
+        "session_id": "t-mllm4vis-1",
+        "event_prefix": "t-mllm4vis",
         "track": "1_61_1_62",
         "room_name": "Room 1.61 + 1.62",
         "chair": [
-          "Divya Banesh",
-          "Federico Iuricich"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945154218463446",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Workshop on Topological Data Analysis and Visualization (TopoInVis)",
-        "session_id": "w-topoinvis-2",
-        "event_prefix": "w-topoinvis",
-        "track": "1_61_1_62",
-        "room_name": "Room 1.61 + 1.62",
-        "chair": [
-          "Divya Banesh",
-          "Federico Iuricich"
-        ],
-        "time_start": "2025-11-02T10:00:00+00:00",
-        "time_end": "2025-11-02T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945154218463446",
-        "youtube_url": null,
-        "time_slots": []
-      }
-    ]
-  },
-  "w-ldav": {
-    "event": "LDAV",
-    "long_name": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
-    "event_type": "workshop",
-    "event_prefix": "w-ldav",
-    "event_description": "",
-    "event_url": null,
-    "organizers": [
-      "Gunther H Weber"
-    ],
-    "sessions": [
-      {
-        "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
-        "session_id": "w-ldav-1",
-        "event_prefix": "w-ldav",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "Gunther H Weber"
+          "Enamul Hoque"
         ],
         "time_start": "2025-11-03T08:00:00+00:00",
         "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945030838681710",
         "youtube_url": null,
         "time_slots": []
       },
       {
-        "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
-        "session_id": "w-ldav-2",
-        "event_prefix": "w-ldav",
-        "track": "m2",
-        "room_name": "Hall M2",
+        "title": "MLLM4Vis: Multimodal Large Language Models for Information Visualization",
+        "session_id": "t-mllm4vis-2",
+        "event_prefix": "t-mllm4vis",
+        "track": "1_61_1_62",
+        "room_name": "Room 1.61 + 1.62",
         "chair": [
-          "Gunther H Weber"
+          "Enamul Hoque"
         ],
         "time_start": "2025-11-03T10:00:00+00:00",
         "time_end": "2025-11-03T11:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945030838681710",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-progressivis": {
+    "event": "ProgressiVis Tutorial",
+    "long_name": "Building Progressive Visual Analytics Systems with ProgressiVis",
+    "event_type": "tutorial",
+    "event_prefix": "t-progressivis",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Jean-Daniel Fekete"
+    ],
+    "sessions": [
+      {
+        "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
+        "session_id": "t-progressivis-2",
+        "event_prefix": "t-progressivis",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "Jean-Daniel Fekete"
+        ],
+        "time_start": "2025-11-03T15:00:00+00:00",
+        "time_end": "2025-11-03T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Building Progressive Visual Analytics Systems with ProgressiVis",
+        "session_id": "t-progressivis-1",
+        "event_prefix": "t-progressivis",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "Jean-Daniel Fekete"
+        ],
+        "time_start": "2025-11-03T13:00:00+00:00",
+        "time_end": "2025-11-03T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945111570649138",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-ttk": {
+    "event": "TTK Tutorial",
+    "long_name": "Hands-On TTK Tutorial: Solving Practical Problems in Small Groups",
+    "event_type": "tutorial",
+    "event_prefix": "t-ttk",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Jonas Lukasczyk",
+      "Christoph Garth",
+      "Michael Will",
+      "Mathieu Pont",
+      "Julien Tierny"
+    ],
+    "sessions": [
+      {
+        "title": "Hands-On TTK Tutorial: Solving Practical Problems in Small Groups",
+        "session_id": "t-ttk-1",
+        "event_prefix": "t-ttk",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Jonas Lukasczyk",
+          "Christoph Garth",
+          "Michael Will",
+          "Mathieu Pont",
+          "Julien Tierny"
+        ],
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945046437429339",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Hands-On TTK Tutorial: Solving Practical Problems in Small Groups",
+        "session_id": "t-ttk-2",
+        "event_prefix": "t-ttk",
+        "track": "1_32_1_33",
+        "room_name": "Room 1.32 + 1.33",
+        "chair": [
+          "Jonas Lukasczyk",
+          "Christoph Garth",
+          "Michael Will",
+          "Mathieu Pont",
+          "Julien Tierny"
+        ],
+        "time_start": "2025-11-03T10:00:00+00:00",
+        "time_end": "2025-11-03T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945046437429339",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-color": {
+    "event": "Color Harmony & Gen AI Tutorial",
+    "long_name": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
+    "event_type": "tutorial",
+    "event_prefix": "t-color",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "Theresa-Marie Rhyne"
+    ],
+    "sessions": [
+      {
+        "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
+        "session_id": "t-color-1",
+        "event_prefix": "t-color",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Theresa-Marie Rhyne"
+        ],
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
+        "session_id": "t-color-2",
+        "event_prefix": "t-color",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Theresa-Marie Rhyne"
+        ],
+        "time_start": "2025-11-03T10:00:00+00:00",
+        "time_end": "2025-11-03T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "w-vahc": {
+    "event": "VAHC",
+    "long_name": "16th Annual Workshop on Visual Analytics in Healthcare",
+    "event_type": "workshop",
+    "event_prefix": "w-vahc",
+    "event_description": "",
+    "event_url": "https://visualanalyticshealthcare.github.io/homepage/2025/",
+    "organizers": [
+      "Alessio Arleo",
+      "Jürgen Bernard",
+      "Annie T. Chen",
+      "Swaminathan Kandaswamy",
+      "David Gotz",
+      "Danny T.Y. Wu"
+    ],
+    "sessions": [
+      {
+        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
+        "session_id": "w-vahc-4",
+        "event_prefix": "w-vahc",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Alessio Arleo",
+          "Jürgen Bernard",
+          "Annie T. Chen",
+          "Swaminathan Kandaswamy",
+          "David Gotz",
+          "Danny T.Y. Wu"
+        ],
+        "time_start": "2025-11-02T15:00:00+00:00",
+        "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
+        "session_id": "w-vahc-2",
+        "event_prefix": "w-vahc",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Alessio Arleo",
+          "Jürgen Bernard",
+          "Annie T. Chen",
+          "Swaminathan Kandaswamy",
+          "David Gotz",
+          "Danny T.Y. Wu"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
+        "session_id": "w-vahc-1",
+        "event_prefix": "w-vahc",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Alessio Arleo",
+          "Jürgen Bernard",
+          "Annie T. Chen",
+          "Swaminathan Kandaswamy",
+          "David Gotz",
+          "Danny T.Y. Wu"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "16th Annual Workshop on Visual Analytics in Healthcare",
+        "session_id": "w-vahc-3",
+        "event_prefix": "w-vahc",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Alessio Arleo",
+          "Jürgen Bernard",
+          "Annie T. Chen",
+          "Swaminathan Kandaswamy",
+          "David Gotz",
+          "Danny T.Y. Wu"
+        ],
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945166155583498",
         "youtube_url": null,
         "time_slots": []
       }
@@ -21702,7 +21971,7 @@
     "event_type": "associated",
     "event_prefix": "a-bio-med-vis",
     "event_description": "",
-    "event_url": null,
+    "event_url": "http://biovis.net/2025/biovisChallenges_vis/",
     "organizers": [
       "Laura Garrison",
       "Katarina Furmanova",
@@ -21740,6 +22009,61 @@
         "time_start": "2025-11-02T10:00:00+00:00",
         "time_end": "2025-11-02T11:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945159876448379",
+        "youtube_url": null,
+        "time_slots": []
+      }
+    ]
+  },
+  "t-anujs": {
+    "event": "anu.js Tutorial",
+    "long_name": "Developing Immersive Visualizations and Interactions for the Web with Anu.js",
+    "event_type": "tutorial",
+    "event_prefix": "t-anujs",
+    "event_description": "",
+    "event_url": "https://ieeevis.org/year/2025/info/program/tutorials",
+    "organizers": [
+      "David Saffo",
+      "Benjamin Lee",
+      "Cheng Yao Wang",
+      "Feiyu Lu",
+      "Blair MacIntyre"
+    ],
+    "sessions": [
+      {
+        "title": "Developing Immersive Visualizations and Interactions for the Web with Anu.js",
+        "session_id": "t-anujs-1",
+        "event_prefix": "t-anujs",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "David Saffo",
+          "Benjamin Lee",
+          "Cheng Yao Wang",
+          "Feiyu Lu",
+          "Blair MacIntyre"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945178444763148",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Developing Immersive Visualizations and Interactions for the Web with Anu.js",
+        "session_id": "t-anujs-2",
+        "event_prefix": "t-anujs",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
+        "chair": [
+          "David Saffo",
+          "Benjamin Lee",
+          "Cheng Yao Wang",
+          "Feiyu Lu",
+          "Blair MacIntyre"
+        ],
+        "time_start": "2025-11-02T10:00:00+00:00",
+        "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945178444763148",
         "youtube_url": null,
         "time_slots": []
       }
