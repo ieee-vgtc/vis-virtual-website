@@ -163,6 +163,18 @@
         <p>Panels will not be recorded.</p>
     </div>
 </div>
+{% elif session.type == "workshop" %}
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>Workshops will not be recorded.</p>
+    </div>
+</div>
+{% elif session.type == "tutorial" %}
+<div class="row my-5">
+    <div class="col-md-8">
+        <p>Tutorials will not be recorded.</p>
+    </div>
+</div>
 {% else %}
 <div class="row my-5">
     <div class="col-md-8">
@@ -230,7 +242,7 @@
 </div>
 
 {% for timeslot in session.timeSlots %}
-<div class="row mb-4">
+<div class="row mb-20">
     <div class="col-md-8 session-listing">
         {% if timeslot.uid %}
             <h3 class="session-list-title">
@@ -249,10 +261,13 @@
         {% else %}
         <h3 class="session-list-title">{{ timeslot.title }}</h3>
         {% endif %}
+
+        {% if timeslot.authors | length > 0 %}
         <h5 class="session-list-presenter">
             Authors: 
             {{ timeslot.authors|map(attribute="name")|join(", ") }}
         </h5>
+        {% endif %}
 
         {% if timeslot.contributors is not none %}
             <h4 class="session-list-presenter mt-3">

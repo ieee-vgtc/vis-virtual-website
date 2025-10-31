@@ -338,9 +338,12 @@ def extract_list_field(v, key):
     else:
         return value.split(",")
 
-def get_session_for_paper(paper):
-    pass
-
+def get_time_slot_from_session(paper, session):
+    time_slots = session["time_slots"]
+    for ts in time_slots:
+        if ts["uid"] == paper["id"]:
+            return ts
+    return {}
 
 def format_paper(v):
     list_keys = ["authors", "keywords"]
@@ -349,7 +352,8 @@ def format_paper(v):
         list_fields[key] = extract_list_field(v, key)
     paper_session = paper_to_session_map[v["id"]] if v["id"] in paper_to_session_map else {}
     paper_event = by_uid["events"][paper_session["parent_id"]] if "parent_id" in paper_session else {}
-    # print("TEST",json.dumps(paper_session, indent=4))
+    time_slot = get_time_slot_from_session(v, paper_session)
+    # print("TEST",json.dumps(time_slot, indent=4))
     # raise ValueError("test")
     return {
         "id": get_slot_id(v),
@@ -358,7 +362,7 @@ def format_paper(v):
         "authors": list_fields["authors"],
         "keywords": list_fields["keywords"],
         "abstract": v["abstract"] if "abstract" in v else "",
-        "time_stamp": v["time_stamp"] if "time_stamp" in v else "",
+        "time_stamp": time_slot["time_stamp"] if "time_stamp" in time_slot else "",
         "session_id": v["session_id"] if "session_id" in v else "",
         "session_title": paper_session["title"] if "title" in paper_session else "",
         "session_room": paper_session.get("room_name"),
@@ -463,6 +467,10 @@ def format_session_as_event(v, uid):
     #     print("does it have external url?  ", get_external_url(v))
     #     print("but event_url is ", get_event_url(v))
 
+    # make sure the sessions are sorted by time start, so we get the start and end time properly for the event
+    if v["sessions"]:
+        v["sessions"] = sorted(v["sessions"], key=lambda x: x["time_start"])
+
     formatted = {
         "id": uid,
         "title": v.get("long_name") if "long_name" in v else v.get("event"),
@@ -476,10 +484,12 @@ def format_session_as_event(v, uid):
         "hasExternalUrl": has_external_url(v),
     }
 
-    if v['event'] != 'VISxAI':
-        formatted["sessions"] = [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]]
-    else:
-        formatted["sessions"] = []
+    formatted["sessions"] = [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]]
+
+    # if v['event'] != 'VISxAI':
+    #     formatted["sessions"] = [format_by_session_list(by_uid["sessions"][timeslot["session_id"]]) for timeslot in v["sessions"]]
+    # else:
+    #     formatted["sessions"] = []
     return formatted
 
 def get_slot_id(v):
