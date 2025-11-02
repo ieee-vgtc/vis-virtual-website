@@ -95,14 +95,12 @@ workshopgroup
         </div>
     {% endif %}
 
-    {% if not skip_room %}
-        <h3 class="session-room mt-4">
-            <span class="fas mr-1">&#xf108;</span>
-            <a href="room_{{session.track}}.html">
-                {{ session.room_name }}
-            </a>
-        </h3>
-    {% endif %}
+    <h3 class="session-room mt-4">
+        <!-- <span class="fas mr-1">&#xf108;</span> -->
+        <!-- <a href="room_{{session.track}}.html"> -->
+            {{ session.room_name }}
+        <!-- </a> -->
+    </h3>
     {% if not skip_time %}
     <h4 class="session-list-date mt-3">
       <span class="fas mr-1">&#xf017;</span>

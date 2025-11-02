@@ -15293,7 +15293,7 @@
         "track": "m1",
         "room_name": "Hall M1",
         "chair": [
-          ""
+          "Sarah Goodwin"
         ],
         "time_start": "2025-11-06T08:30:00+00:00",
         "time_end": "2025-11-06T09:45:00+00:00",
@@ -17583,7 +17583,7 @@
         "track": "m2",
         "room_name": "Hall M2",
         "chair": [
-          "Sarah Goodwin"
+          "Lonni Besancon"
         ],
         "time_start": "2025-11-06T14:45:00+00:00",
         "time_end": "2025-11-06T16:00:00+00:00",
@@ -18655,44 +18655,6 @@
         ]
       },
       {
-        "title": "Rescheduled Papers 2",
-        "session_id": "short15",
-        "event_prefix": "v-short",
-        "track": "m1",
-        "room_name": "Hall M1",
-        "chair": [
-          ""
-        ],
-        "time_start": "2025-11-05T08:30:00+00:00",
-        "time_end": "2025-11-05T09:45:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945433034952759",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-full-placeholder1",
-            "session_id": "short15",
-            "title": "Placeholder",
-            "contributors": [
-              "Placeholder"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T08:30:00.000Z",
-            "time_start": "2025-11-05T08:30:00.000Z",
-            "time_end": "2025-11-05T08:42:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
         "title": "Charts, Diagrams & Plots",
         "session_id": "short5",
         "event_prefix": "v-short",
@@ -19326,9 +19288,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T08:54:00.000Z",
-            "time_start": "2025-11-06T08:54:00.000Z",
-            "time_end": "2025-11-06T09:06:00.000Z",
+            "time_stamp": "2025-11-06T09:18:00.000Z",
+            "time_start": "2025-11-06T09:18:00.000Z",
+            "time_end": "2025-11-06T09:30:00.000Z",
             "authors": [
               {
                 "name": "Johan Malmstedt",
@@ -19425,9 +19387,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T09:18:00.000Z",
-            "time_start": "2025-11-06T09:18:00.000Z",
-            "time_end": "2025-11-06T09:30:00.000Z",
+            "time_stamp": "2025-11-06T09:06:00.000Z",
+            "time_start": "2025-11-06T09:06:00.000Z",
+            "time_end": "2025-11-06T09:18:00.000Z",
             "authors": [
               {
                 "name": "Nefeli Manoudaki",
@@ -19476,9 +19438,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T08:42:00.000Z",
-            "time_start": "2025-11-06T08:42:00.000Z",
-            "time_end": "2025-11-06T08:54:00.000Z",
+            "time_stamp": "2025-11-06T08:54:00.000Z",
+            "time_start": "2025-11-06T08:54:00.000Z",
+            "time_end": "2025-11-06T09:06:00.000Z",
             "authors": [
               {
                 "name": "Lingyu Peng",
@@ -19547,9 +19509,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T09:06:00.000Z",
-            "time_start": "2025-11-06T09:06:00.000Z",
-            "time_end": "2025-11-06T09:18:00.000Z",
+            "time_stamp": "2025-11-06T08:42:00.000Z",
+            "time_start": "2025-11-06T08:42:00.000Z",
+            "time_end": "2025-11-06T08:54:00.000Z",
             "authors": [
               {
                 "name": "weidi zhang",
@@ -19668,9 +19630,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T11:15:00.000Z",
-            "time_start": "2025-11-06T11:15:00.000Z",
-            "time_end": "2025-11-06T11:27:00.000Z",
+            "time_stamp": "2025-11-06T10:27:00.000Z",
+            "time_start": "2025-11-06T10:27:00.000Z",
+            "time_end": "2025-11-06T10:39:00.000Z",
             "authors": [
               {
                 "name": "chen wang",
@@ -19697,6 +19659,60 @@
             "open_access_supplemental_link": null
           },
           {
+            "slot_id": "a-visap-1000",
+            "session_id": "visap1",
+            "title": "Balaton Borders: Data Ceramics for Ecological Reflection",
+            "contributors": [
+              "Hajnal Gyeviki",
+              "Mihály Minkó"
+            ],
+            "paper_type": "VISAP",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T10:39:00.000Z",
+            "time_start": "2025-11-06T10:39:00.000Z",
+            "time_end": "2025-11-06T10:51:00.000Z",
+            "authors": [
+              {
+                "name": "Hajnal Gyeviki",
+                "email": "gyeviki.hajnal@gmail.com",
+                "affiliation": "Independent Artist"
+              },
+              {
+                "name": "Mihály Minkó",
+                "email": "minko.mihaly@mome.hu",
+                "affiliation": "Moholy-Nagy University of Art and Design"
+              },
+              {
+                "name": "Mary Karyda",
+                "email": "karyda@mome.hu",
+                "affiliation": "Moholy-Nagy University of Art and Design"
+              },
+              {
+                "name": "Damla Çay",
+                "email": "damla.cay@mome.hu",
+                "affiliation": "Moholy-Nagy University of Art and Design"
+              }
+            ],
+            "abstract": "Balaton Borders translates ecological data from Lake Balaton into ceramic tableware that represents human impact on the landscape, from reedbed reduction to shoreline modification and land erosion. Designed for performative dining, the pieces turn shared meals into multisensory encounters where food and data ceramics spark collective reflection on ecological disruption.",
+            "uid": "67904347-7281-4081-b903-1114c27844ee",
+            "keywords": [
+              "data physicalization",
+              "data edibilization",
+              "commensality",
+              "ecological design",
+              "environmental data",
+              "ceramic design",
+              "performative dining"
+            ],
+            "preprint_link": null,
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": null,
+            "open_access_supplemental_link": null
+          },
+          {
             "slot_id": "a-visap-1046",
             "session_id": "visap1",
             "title": "Rejecting Colonial Practices in Data Storytelling",
@@ -19706,9 +19722,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T10:27:00.000Z",
-            "time_start": "2025-11-06T10:27:00.000Z",
-            "time_end": "2025-11-06T10:39:00.000Z",
+            "time_stamp": "2025-11-06T11:15:00.000Z",
+            "time_start": "2025-11-06T11:15:00.000Z",
+            "time_end": "2025-11-06T11:27:00.000Z",
             "authors": [
               {
                 "name": "Pei Ying Loh",
@@ -19759,60 +19775,6 @@
             "open_access_supplemental_link": null
           },
           {
-            "slot_id": "a-visap-1000",
-            "session_id": "visap1",
-            "title": "Balaton Borders: Data Ceramics for Ecological Reflection",
-            "contributors": [
-              "Hajnal Gyeviki",
-              "Mihály Minkó"
-            ],
-            "paper_type": "VISAP",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T10:15:00.000Z",
-            "time_start": "2025-11-06T10:15:00.000Z",
-            "time_end": "2025-11-06T10:27:00.000Z",
-            "authors": [
-              {
-                "name": "Hajnal Gyeviki",
-                "email": "gyeviki.hajnal@gmail.com",
-                "affiliation": "Independent Artist"
-              },
-              {
-                "name": "Mihály Minkó",
-                "email": "minko.mihaly@mome.hu",
-                "affiliation": "Moholy-Nagy University of Art and Design"
-              },
-              {
-                "name": "Mary Karyda",
-                "email": "karyda@mome.hu",
-                "affiliation": "Moholy-Nagy University of Art and Design"
-              },
-              {
-                "name": "Damla Çay",
-                "email": "damla.cay@mome.hu",
-                "affiliation": "Moholy-Nagy University of Art and Design"
-              }
-            ],
-            "abstract": "Balaton Borders translates ecological data from Lake Balaton into ceramic tableware that represents human impact on the landscape, from reedbed reduction to shoreline modification and land erosion. Designed for performative dining, the pieces turn shared meals into multisensory encounters where food and data ceramics spark collective reflection on ecological disruption.",
-            "uid": "67904347-7281-4081-b903-1114c27844ee",
-            "keywords": [
-              "data physicalization",
-              "data edibilization",
-              "commensality",
-              "ecological design",
-              "environmental data",
-              "ceramic design",
-              "performative dining"
-            ],
-            "preprint_link": null,
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": null
-          },
-          {
             "slot_id": "a-visap-1053",
             "session_id": "visap1",
             "title": "Kaleidoscope of Thoughts: Experimental Visualization of Cognitive Turbulence",
@@ -19821,9 +19783,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T10:39:00.000Z",
-            "time_start": "2025-11-06T10:39:00.000Z",
-            "time_end": "2025-11-06T10:51:00.000Z",
+            "time_stamp": "2025-11-06T10:51:00.000Z",
+            "time_start": "2025-11-06T10:51:00.000Z",
+            "time_end": "2025-11-06T11:03:00.000Z",
             "authors": [
               {
                 "name": "Megha Sachdeva",
@@ -19858,9 +19820,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T11:03:00.000Z",
-            "time_start": "2025-11-06T11:03:00.000Z",
-            "time_end": "2025-11-06T11:15:00.000Z",
+            "time_stamp": "2025-11-06T10:15:00.000Z",
+            "time_start": "2025-11-06T10:15:00.000Z",
+            "time_end": "2025-11-06T10:27:00.000Z",
             "authors": [
               {
                 "name": "David Hunter",
@@ -19945,9 +19907,9 @@
             ],
             "paper_type": "VISAP",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T10:51:00.000Z",
-            "time_start": "2025-11-06T10:51:00.000Z",
-            "time_end": "2025-11-06T11:03:00.000Z",
+            "time_stamp": "2025-11-06T11:03:00.000Z",
+            "time_start": "2025-11-06T11:03:00.000Z",
+            "time_end": "2025-11-06T11:15:00.000Z",
             "authors": [
               {
                 "name": "Julia C. Ahrend",
