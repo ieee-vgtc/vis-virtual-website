@@ -19104,69 +19104,6 @@
     ],
     "sessions": [
       {
-        "title": "Opening & Keynote",
-        "session_id": "opening1",
-        "event_prefix": "conf",
-        "track": "e1_e2",
-        "room_name": "Hall E",
-        "chair": [
-          "Meister Eduard Gröller"
-        ],
-        "time_start": "2025-11-04T08:30:00+00:00",
-        "time_end": "2025-11-04T09:45:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945376143147180",
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "opening-opening",
-            "session_id": "opening1",
-            "title": "Opening",
-            "contributors": [
-              "Johanna Schmidt",
-              "Eduard Gröller",
-              "Barbora Kozlíková",
-              "Krešimir Matković"
-            ],
-            "paper_type": null,
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T08:30:00.000Z",
-            "time_start": "2025-11-04T08:30:00.000Z",
-            "time_end": "2025-11-04T08:45:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          },
-          {
-            "slot_id": "opening-keynote",
-            "session_id": "opening1",
-            "title": "The Science of Visual Insight: Transforming Data Visualization into a Rigorous Discipline",
-            "contributors": [
-              "Hans-Christian Hege"
-            ],
-            "paper_type": null,
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-04T08:45:00.000Z",
-            "time_start": "2025-11-04T08:45:00.000Z",
-            "time_end": "2025-11-04T09:45:00.000Z",
-            "authors": [],
-            "abstract": null,
-            "uid": null,
-            "keywords": [],
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null
-          }
-        ]
-      },
-      {
         "title": "Capstone & Closing",
         "session_id": "closing",
         "event_prefix": "conf",
@@ -19249,6 +19186,69 @@
         "discord_link": null,
         "youtube_url": null,
         "time_slots": []
+      },
+      {
+        "title": "Opening & Keynote",
+        "session_id": "opening1",
+        "event_prefix": "conf",
+        "track": "e1_e2",
+        "room_name": "Hall E",
+        "chair": [
+          "Meister Eduard Gröller"
+        ],
+        "time_start": "2025-11-04T08:30:00+00:00",
+        "time_end": "2025-11-04T09:45:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945376143147180",
+        "youtube_url": null,
+        "time_slots": [
+          {
+            "slot_id": "opening-opening",
+            "session_id": "opening1",
+            "title": "Opening",
+            "contributors": [
+              "Johanna Schmidt",
+              "Eduard Gröller",
+              "Barbora Kozlíková",
+              "Krešimir Matković"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T08:30:00.000Z",
+            "time_start": "2025-11-04T08:30:00.000Z",
+            "time_end": "2025-11-04T08:45:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          },
+          {
+            "slot_id": "opening-keynote",
+            "session_id": "opening1",
+            "title": "The Science of Visual Insight: Transforming Data Visualization into a Rigorous Discipline",
+            "contributors": [
+              "Hans-Christian Hege"
+            ],
+            "paper_type": null,
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-04T08:45:00.000Z",
+            "time_start": "2025-11-04T08:45:00.000Z",
+            "time_end": "2025-11-04T09:45:00.000Z",
+            "authors": [],
+            "abstract": null,
+            "uid": null,
+            "keywords": [],
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null
+          }
+        ]
       }
     ]
   },
@@ -20138,8 +20138,8 @@
         "title": "Human Factors in Immersive Analytics",
         "session_id": "w-hfia-1",
         "event_prefix": "w-hfia",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
         "chair": [
           "Yi Li",
           "Kadek Ananta Satriadi",
@@ -20159,8 +20159,8 @@
         "title": "Human Factors in Immersive Analytics",
         "session_id": "w-hfia-2",
         "event_prefix": "w-hfia",
-        "track": "1_85_1_86",
-        "room_name": "Room 1.85 + 1.86",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
         "chair": [
           "Yi Li",
           "Kadek Ananta Satriadi",
@@ -20267,8 +20267,8 @@
         "title": "EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities",
         "session_id": "w-eduvis-1",
         "event_prefix": "w-eduvis",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
         "chair": [
           "Christina Stoiber",
           "Fateme Rajabiyazdi",
@@ -20289,8 +20289,8 @@
         "title": "EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities",
         "session_id": "w-eduvis-2",
         "event_prefix": "w-eduvis",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
+        "track": "1_85_1_86",
+        "room_name": "Room 1.85 + 1.86",
         "chair": [
           "Christina Stoiber",
           "Fateme Rajabiyazdi",
