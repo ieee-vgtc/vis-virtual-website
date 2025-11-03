@@ -22,7 +22,7 @@ For **streaming**, we have a simple shell script that copies assets from the sep
 ### Transfer Data
 
 ```
-make freeze && rm -r ../ieeevis.org/program && cp -R build/year/2025 ../ieeevis.org/program
+sh update-sitedata.sh && make freeze && rm -r ../ieeevis.org/program && cp -R build/year/2025 ../ieeevis.org/program
 ```
 
 ### Acknowledgements
