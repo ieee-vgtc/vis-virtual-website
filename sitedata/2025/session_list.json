@@ -6424,6 +6424,56 @@
         "youtube_url": null,
         "time_slots": [
           {
+            "slot_id": "v-full-1729",
+            "session_id": "full2",
+            "title": "FlowForge: Guiding the Creation of Multi-agent Workflows with Interactive Visualizations as a Thinking Scaffold",
+            "contributors": [
+              "Pan Hao"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T13:36:00.000Z",
+            "time_start": "2025-11-06T13:36:00.000Z",
+            "time_end": "2025-11-06T13:48:00.000Z",
+            "authors": [
+              {
+                "name": "Pan Hao",
+                "email": "panzhan1hao@gmail.com",
+                "affiliation": "University of Minnesota"
+              },
+              {
+                "name": "Dongyeop Kang",
+                "email": "dongyeop@umn.edu",
+                "affiliation": "University of Minnesota"
+              },
+              {
+                "name": "Nicholas Hinds",
+                "email": "hinds084@umn.edu",
+                "affiliation": "University of Minnesota Twin Cities"
+              },
+              {
+                "name": "Qianwen Wang",
+                "email": "qianwen@umn.edu",
+                "affiliation": "University of Minnesota"
+              }
+            ],
+            "abstract": "Multi-agent workflows have become a powerful approach to solve complicated tasks by decomposing them into multiple sub-tasks and assigning the sub-tasks to specialized agents. However, designing optimal workflows remains challenging due to the expansive design space. Current practices rely heavily on practitioner intuition and expertise, often resulting in design fixation or an unstructured trial-and-error exploration. To address these challenges, this work introduces FlowForge, an interactive visualization tool to facilitate multi-agent workflow creation through i) a structured visual explore of the design space and ii) in-situ guidance based on design patterns. Based on formative studies and literature review, FlowForge organizes the workflow design process into three levels (i.e., task planning, agent assignment, and agent optimization), ranging from abstract to concrete. A structured visual exploration of the design space enable users to transition from high-level concepts to detailed implementations, and to compare alternative solutions across multiple performance metrics. Additionally, drawing from established workflow design patterns, FlowForge provides contextually relevant in-situ suggestions at each level as users navigate the design space. Use cases and expert interviews demonstrate the usability and effectiveness of FlowForge, while also yielding valuable observations into how practitioners explore the design space and leverage guidance in workflow creation.",
+            "uid": "ed3195e2-8726-4d85-acb7-c5ed2dc361bb",
+            "keywords": [
+              "LLM workflows",
+              "Multi-agent Workflows",
+              "design space",
+              "hierarchical visualization"
+            ],
+            "preprint_link": "https://arxiv.org/abs/2507.15559",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": null,
+            "open_access_supplemental_link": "https://github.com/Visual-Intelligence-UMN/FlowForge"
+          },
+          {
             "slot_id": "v-full-TVCG2025.3561300",
             "session_id": "full2",
             "title": "Flexible and Probabilistic Topology Tracking with Partial Optimal Transport",
@@ -6432,9 +6482,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T14:00:00.000Z",
-            "time_start": "2025-11-06T14:00:00.000Z",
-            "time_end": "2025-11-06T14:12:00.000Z",
+            "time_stamp": "2025-11-06T13:48:00.000Z",
+            "time_start": "2025-11-06T13:48:00.000Z",
+            "time_end": "2025-11-06T14:00:00.000Z",
             "authors": [
               {
                 "name": "Mingzhe Li",
@@ -6577,56 +6627,6 @@
             "open_access_supplemental_link": "https://osf.io/zxm4w"
           },
           {
-            "slot_id": "v-full-1729",
-            "session_id": "full2",
-            "title": "FlowForge: Guiding the Creation of Multi-agent Workflows with Interactive Visualizations as a Thinking Scaffold",
-            "contributors": [
-              "Pan Hao"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:48:00.000Z",
-            "time_start": "2025-11-06T13:48:00.000Z",
-            "time_end": "2025-11-06T14:00:00.000Z",
-            "authors": [
-              {
-                "name": "Pan Hao",
-                "email": "panzhan1hao@gmail.com",
-                "affiliation": "University of Minnesota"
-              },
-              {
-                "name": "Dongyeop Kang",
-                "email": "dongyeop@umn.edu",
-                "affiliation": "University of Minnesota"
-              },
-              {
-                "name": "Nicholas Hinds",
-                "email": "hinds084@umn.edu",
-                "affiliation": "University of Minnesota Twin Cities"
-              },
-              {
-                "name": "Qianwen Wang",
-                "email": "qianwen@umn.edu",
-                "affiliation": "University of Minnesota"
-              }
-            ],
-            "abstract": "Multi-agent workflows have become a powerful approach to solve complicated tasks by decomposing them into multiple sub-tasks and assigning the sub-tasks to specialized agents. However, designing optimal workflows remains challenging due to the expansive design space. Current practices rely heavily on practitioner intuition and expertise, often resulting in design fixation or an unstructured trial-and-error exploration. To address these challenges, this work introduces FlowForge, an interactive visualization tool to facilitate multi-agent workflow creation through i) a structured visual explore of the design space and ii) in-situ guidance based on design patterns. Based on formative studies and literature review, FlowForge organizes the workflow design process into three levels (i.e., task planning, agent assignment, and agent optimization), ranging from abstract to concrete. A structured visual exploration of the design space enable users to transition from high-level concepts to detailed implementations, and to compare alternative solutions across multiple performance metrics. Additionally, drawing from established workflow design patterns, FlowForge provides contextually relevant in-situ suggestions at each level as users navigate the design space. Use cases and expert interviews demonstrate the usability and effectiveness of FlowForge, while also yielding valuable observations into how practitioners explore the design space and leverage guidance in workflow creation.",
-            "uid": "ed3195e2-8726-4d85-acb7-c5ed2dc361bb",
-            "keywords": [
-              "LLM workflows",
-              "Multi-agent Workflows",
-              "design space",
-              "hierarchical visualization"
-            ],
-            "preprint_link": "https://arxiv.org/abs/2507.15559",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": "https://github.com/Visual-Intelligence-UMN/FlowForge"
-          },
-          {
             "slot_id": "v-full-1440",
             "session_id": "full2",
             "title": "BondMatcher: H-Bond Stability Analysis in Molecular Systems",
@@ -6680,9 +6680,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:36:00.000Z",
-            "time_start": "2025-11-06T13:36:00.000Z",
-            "time_end": "2025-11-06T13:48:00.000Z",
+            "time_stamp": "2025-11-06T14:00:00.000Z",
+            "time_start": "2025-11-06T14:00:00.000Z",
+            "time_end": "2025-11-06T14:12:00.000Z",
             "authors": [
               {
                 "name": "Ayan Biswas",
