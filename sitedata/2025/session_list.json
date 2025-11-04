@@ -19188,6 +19188,21 @@
         "time_slots": []
       },
       {
+        "title": "IEEE VIS 2026 OC Kickoff Meeting (OC Only)",
+        "session_id": "vis2026-kickoff",
+        "event_prefix": "conf",
+        "track": "e1",
+        "room_name": "Hall E1",
+        "chair": [
+          "VIS 2026 General Chairs"
+        ],
+        "time_start": "2025-11-06T12:00:00+00:00",
+        "time_end": "2025-11-06T13:00:00+00:00",
+        "discord_link": null,
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
         "title": "Opening & Keynote",
         "session_id": "opening1",
         "event_prefix": "conf",
