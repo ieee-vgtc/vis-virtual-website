@@ -246,7 +246,7 @@
     <div class="col-md-8 session-listing">
         {% if timeslot.uid %}
             <h3 class="session-list-title">
-                {% if 'poster' in timeslot.uid %}
+                {% if 'poster' in timeslot.slot_id %}
                 <a href="poster_{{ timeslot.uid }}.html">
                     {{ timeslot.title }}
                     <span class="fas mr-1">&#xf0c1;</span>

@@ -2030,13 +2030,11 @@
         "event_prefix": "v-full",
         "track": "e1_e2",
         "room_name": "Hall E",
-        "chair": [
-          ""
-        ],
+        "chair": [],
         "time_start": "2025-11-04T14:45:00+00:00",
         "time_end": "2025-11-04T16:00:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945399060955219",
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/eNFqK9YEju4",
         "time_slots": [
           {
             "slot_id": "opening-tot-awards",
@@ -6432,9 +6430,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:36:00.000Z",
-            "time_start": "2025-11-06T13:36:00.000Z",
-            "time_end": "2025-11-06T13:48:00.000Z",
+            "time_stamp": "2025-11-06T13:24:00.000Z",
+            "time_start": "2025-11-06T13:24:00.000Z",
+            "time_end": "2025-11-06T13:36:00.000Z",
             "authors": [
               {
                 "name": "Pan Hao",
@@ -6482,9 +6480,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:48:00.000Z",
-            "time_start": "2025-11-06T13:48:00.000Z",
-            "time_end": "2025-11-06T14:00:00.000Z",
+            "time_stamp": "2025-11-06T13:36:00.000Z",
+            "time_start": "2025-11-06T13:36:00.000Z",
+            "time_end": "2025-11-06T13:48:00.000Z",
             "authors": [
               {
                 "name": "Mingzhe Li",
@@ -6584,9 +6582,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:24:00.000Z",
-            "time_start": "2025-11-06T13:24:00.000Z",
-            "time_end": "2025-11-06T13:36:00.000Z",
+            "time_stamp": "2025-11-06T14:00:00.000Z",
+            "time_start": "2025-11-06T14:00:00.000Z",
+            "time_end": "2025-11-06T14:12:00.000Z",
             "authors": [
               {
                 "name": "Guoxi Liu",
@@ -6680,9 +6678,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T14:00:00.000Z",
-            "time_start": "2025-11-06T14:00:00.000Z",
-            "time_end": "2025-11-06T14:12:00.000Z",
+            "time_stamp": "2025-11-06T13:48:00.000Z",
+            "time_start": "2025-11-06T13:48:00.000Z",
+            "time_end": "2025-11-06T14:00:00.000Z",
             "authors": [
               {
                 "name": "Ayan Biswas",
@@ -8996,7 +8994,7 @@
         "time_start": "2025-11-04T13:00:00+00:00",
         "time_end": "2025-11-04T14:15:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945387773956126",
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/3EozS40EBjc",
         "time_slots": [
           {
             "slot_id": "v-full-1508",
@@ -10128,58 +10126,6 @@
             "has_pdf": false,
             "paper_award": null,
             "doi": "10.1109/TVCG.2025.3554692",
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": null
-          },
-          {
-            "slot_id": "v-full-TVCG2024-10-0979",
-            "session_id": "full13",
-            "title": "Stylizing Sparse-View 3D Scenes with Hierarchical Neural Representation",
-            "contributors": [
-              "Yifan Wang"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T11:03:00.000Z",
-            "time_start": "2025-11-05T11:03:00.000Z",
-            "time_end": "2025-11-05T11:15:00.000Z",
-            "authors": [
-              {
-                "name": "Yifan Wang",
-                "email": null
-              },
-              {
-                "name": "Ang Gao",
-                "email": null
-              },
-              {
-                "name": "Yi Gong",
-                "email": null
-              },
-              {
-                "name": "Yuan Zeng",
-                "email": null
-              }
-            ],
-            "abstract": "3D scene stylization refers to generating stylized images of the scene at arbitrary novel view angles following a given set of style images while ensuring consistency when rendered from different views. Recently, several 3D style transfer methods leveraging the scene reconstruction capabilities of pre-trained neural radiance fields (NeRF) have been proposed. To successfully stylize a scene this way, one must first reconstruct a photo-realistic radiance field from collected images of the scene. However, when only sparse input views are available, pre-trained few-shot NeRFs often suffer from high-frequency artifacts, which are generated as a by-product of high-frequency details for improving reconstruction quality. Is it possible to generate more faithful stylized scenes from sparse inputs by directly optimizing encoding-based scene representation with target style? In this paper, we consider the stylization of sparse-view scenes in terms of disentangling content semantics and style textures. We propose a coarse-to-fine sparse-view scene stylization framework, where a novel hierarchical encoding-based neural representation is designed to generate high-quality stylized scenes directly from implicit scene representations. We also propose a new optimization strategy with content strength annealing to achieve realistic stylization and better content preservation. Extensive experiments demonstrate that our method can achieve high-quality stylization of sparse-view scenes and outperforms fine-tuning-based baselines in terms of stylization quality and efficiency.",
-            "uid": "d2fa4c75-569f-476f-bac2-2595391bea61",
-            "keywords": [
-              "Three-dimensional displays",
-              "Neural radiance field",
-              "Geometry",
-              "Image reconstruction",
-              "Rendering (computer graphics)",
-              "Optimization",
-              "Semantics",
-              "Visualization",
-              "Training",
-              "Encoding"
-            ],
-            "preprint_link": "https://arxiv.org/abs/2404.05236",
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": "10.1109/TVCG.2025.3558468",
             "fno": null,
             "open_access_supplemental_question": null,
             "open_access_supplemental_link": null
@@ -12301,9 +12247,9 @@
             ],
             "paper_type": "CG&A",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:00:00.000Z",
-            "time_start": "2025-11-06T13:00:00.000Z",
-            "time_end": "2025-11-06T13:12:00.000Z",
+            "time_stamp": "2025-11-06T13:36:00.000Z",
+            "time_start": "2025-11-06T13:36:00.000Z",
+            "time_end": "2025-11-06T13:48:00.000Z",
             "authors": [
               {
                 "name": "Thomas Marrinan",
@@ -12354,9 +12300,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:24:00.000Z",
-            "time_start": "2025-11-06T13:24:00.000Z",
-            "time_end": "2025-11-06T13:36:00.000Z",
+            "time_stamp": "2025-11-06T13:12:00.000Z",
+            "time_start": "2025-11-06T13:12:00.000Z",
+            "time_end": "2025-11-06T13:24:00.000Z",
             "authors": [
               {
                 "name": "Hamid Gadirov",
@@ -12396,9 +12342,9 @@
             ],
             "paper_type": "Full",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:12:00.000Z",
-            "time_start": "2025-11-06T13:12:00.000Z",
-            "time_end": "2025-11-06T13:24:00.000Z",
+            "time_stamp": "2025-11-06T13:00:00.000Z",
+            "time_start": "2025-11-06T13:00:00.000Z",
+            "time_end": "2025-11-06T13:12:00.000Z",
             "authors": [
               {
                 "name": "Huayuan Ye",
@@ -12456,9 +12402,9 @@
             ],
             "paper_type": "Short",
             "presentation_mode": "Premise",
-            "time_stamp": "2025-11-06T13:36:00.000Z",
-            "time_start": "2025-11-06T13:36:00.000Z",
-            "time_end": "2025-11-06T13:45:00.000Z",
+            "time_stamp": "2025-11-06T13:24:00.000Z",
+            "time_start": "2025-11-06T13:24:00.000Z",
+            "time_end": "2025-11-06T13:36:00.000Z",
             "authors": [
               {
                 "name": "Walter Sands",
@@ -13211,11 +13157,11 @@
             "time_end": "2025-11-05T16:00:00.000Z",
             "authors": [
               {
-                "name": "Samah Daniyal Areeba Arif",
+                "name": "Areeba Arif",
                 "email": "aa08424@st.habib.edu.pk"
               },
               {
-                "name": "Areeba Arif"
+                "name": "Samah Daniyal"
               }
             ],
             "abstract": null,
@@ -13327,9 +13273,6 @@
               {
                 "name": "Ebube Glory Ogbonda",
                 "email": "glory.ogbonda@bangor.ac.uk"
-              },
-              {
-                "name": "Glory Ogbonda"
               }
             ],
             "abstract": null,
@@ -14238,7 +14181,13 @@
                 "email": "peter.ferenc.gyarmati@univie.ac.at"
               },
               {
-                "name": "Péter Gyarmati"
+                "name": "Manfred Klaffenböck"
+              },
+              {
+                "name": "Laura Koesten"
+              },
+              {
+                "name": "Torsten Möller"
               }
             ],
             "abstract": null,
@@ -14291,11 +14240,11 @@
             "time_end": "2025-11-05T16:00:00.000Z",
             "authors": [
               {
-                "name": "Jing Yang",
+                "name": "Julia Husar",
                 "email": "juliahusar03@gmail.com"
               },
               {
-                "name": "Julia Husar"
+                "name": "Jing Yang"
               }
             ],
             "abstract": null,
@@ -14350,6 +14299,9 @@
               {
                 "name": "Magdalena Boucher",
                 "email": "magdalena.boucher@fhstp.ac.at"
+              },
+              {
+                "name": "Julia Böck"
               }
             ],
             "abstract": null,
@@ -14664,36 +14616,6 @@
             "open_access_supplemental_link": null
           },
           {
-            "slot_id": "v-poster-1116",
-            "session_id": "poster-session",
-            "title": "TS-Insight: Visual Fingerprinting of Multi-Armed Bandits",
-            "contributors": null,
-            "paper_type": "Poster",
-            "presentation_mode": "Premise",
-            "time_stamp": "2025-11-05T16:00:00.000Z",
-            "time_start": "2025-11-05T16:00:00.000Z",
-            "time_end": "2025-11-05T16:00:00.000Z",
-            "authors": [
-              {
-                "name": "Parsa Vares - Eloi Durant - Mohammad Ghoniem",
-                "email": "parsavares@yahoo.com"
-              },
-              {
-                "name": "Parsa Vares"
-              }
-            ],
-            "abstract": null,
-            "uid": "6ca8b6a3-3747-4cfb-b264-c5cf68186202",
-            "keywords": null,
-            "preprint_link": null,
-            "has_pdf": false,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": null
-          },
-          {
             "slot_id": "v-poster-1102",
             "session_id": "poster-session",
             "title": "Dissecting Atomic Facts: Visual Analytics for Improving Fact Annotations in Language Model Evaluation",
@@ -14734,9 +14656,6 @@
               {
                 "name": "Leona Žůrková",
                 "email": "leona.zurkova@vsb.cz"
-              },
-              {
-                "name": "Leona Zurkova"
               }
             ],
             "abstract": null,
@@ -15109,6 +15028,39 @@
             "fno": null,
             "open_access_supplemental_question": null,
             "open_access_supplemental_link": null
+          },
+          {
+            "slot_id": "v-poster-1116",
+            "session_id": "poster-session",
+            "title": "TS-Insight: Visual Fingerprinting of Multi-Armed Bandits",
+            "contributors": null,
+            "paper_type": "Poster",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-05T16:00:00.000Z",
+            "time_start": "2025-11-05T16:00:00.000Z",
+            "time_end": "2025-11-05T16:00:00.000Z",
+            "authors": [
+              {
+                "name": "Parsa Vares",
+                "email": "parsavares@yahoo.com"
+              },
+              {
+                "name": "Eloi Durant"
+              },
+              {
+                "name": "Mohammad Ghoniem"
+              }
+            ],
+            "abstract": null,
+            "uid": "6ca8b6a3-3747-4cfb-b264-c5cf68186202",
+            "keywords": null,
+            "preprint_link": null,
+            "has_pdf": false,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": null,
+            "open_access_supplemental_link": null
           }
         ]
       }
@@ -15141,7 +15093,7 @@
         "time_start": "2025-11-04T10:15:00+00:00",
         "time_end": "2025-11-04T11:40:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945382615224482",
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/VdSWiJuX_x8",
         "time_slots": [
           {
             "slot_id": "opening-vgtc-awards",
@@ -19214,7 +19166,7 @@
         "time_start": "2025-11-04T08:30:00+00:00",
         "time_end": "2025-11-04T09:45:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945376143147180",
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/ftLpZEH3Oso",
         "time_slots": [
           {
             "slot_id": "opening-opening",
