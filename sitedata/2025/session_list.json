@@ -1241,71 +1241,6 @@
             "open_access_supplemental_link": "https://github.com/GromitC/TiVy"
           },
           {
-            "slot_id": "v-full-1627",
-            "session_id": "full33",
-            "title": "Perceiving Slope and Acceleration: Evidence for Variable Tempo Sampling in Pitch-Based Sonification of Functions",
-            "contributors": [
-              "Danyang Fan"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Virtual",
-            "time_stamp": "2025-11-05T09:06:00.000Z",
-            "time_start": "2025-11-05T09:06:00.000Z",
-            "time_end": "2025-11-05T09:18:00.000Z",
-            "authors": [
-              {
-                "name": "Danyang Fan",
-                "email": "danfan17@stanford.edu",
-                "affiliation": "Stanford University"
-              },
-              {
-                "name": "Walker Smith",
-                "email": "walksmit@stanford.edu",
-                "affiliation": "Stanford University"
-              },
-              {
-                "name": "Takako Fujioka",
-                "email": "takako@ccrma.stanford.edu",
-                "affiliation": "Stanford University"
-              },
-              {
-                "name": "Chris Chafe",
-                "email": "cc@ccrma.stanford.edu",
-                "affiliation": "Stanford University"
-              },
-              {
-                "name": "Sile O'Modhrain",
-                "email": "sileo@umich.edu",
-                "affiliation": "University of Michigan"
-              },
-              {
-                "name": "Diana Deutsch",
-                "email": "othello5@stanford.edu",
-                "affiliation": "Stanford University"
-              },
-              {
-                "name": "Sean Follmer",
-                "email": "sfollmer@stanford.edu",
-                "affiliation": "Stanford University"
-              }
-            ],
-            "abstract": "Sonification offers a non-visual way to understand data, with pitch-based encodings being the most common. Yet, how well people perceive slope and acceleration—key features of data trends—remains poorly understood. Drawing on people's natural abilities to perceive tempo, we introduce a novel sampling method for pitch-based sonification to enhance the perception of slope and acceleration in univariate functions. While traditional sonification methods often sample data at uniform x-spacing, yielding notes played at a fixed tempo with variable pitch intervals (Variable Pitch Interval), our approach samples at uniform y-spacing, producing notes with consistent pitch intervals but variable tempo (Variable Tempo). We conducted psychoacoustic experiments to understand slope and acceleration perception across three sampling methods: Variable Pitch Interval, Variable Tempo, and a Continuous (no sampling) baseline. In slope comparison tasks, Variable Tempo was more accurate than the other methods when modulated by the magnitude ratio between slopes. For acceleration perception, just-noticeable differences under Variable Tempo were over 13 times finer than with other methods. Participants also commonly reported higher confidence, lower mental effort, and a stronger preference for Variable Tempo compared to other methods. This work contributes models of slope and acceleration perception across pitch-based sonification techniques, introduces Variable Tempo as a novel and preferred sampling method, and provides promising initial evidence that leveraging timing can lead to more sensitive, accurate, and precise interpretation of derivative-based data features.",
-            "uid": "9e3dfe2c-bbe4-4431-ae8b-1ee64a399c8b",
-            "keywords": [
-              "Visualization",
-              "Sonification",
-              "Empirical Studies",
-              "Auditory Perception"
-            ],
-            "preprint_link": "https://shape.stanford.edu/research/TempoSonification/Fan25PerceivingSlopeAndAccelerationVariableTempoSamplingSonification.pdf",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": "https://osf.io/a4cth/?view_only=784965f9e9f64a3ea720cf53ff241481"
-          },
-          {
             "slot_id": "v-full-1514",
             "session_id": "full33",
             "title": "Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low-Vision Individuals",
@@ -11770,6 +11705,71 @@
             "fno": null,
             "open_access_supplemental_question": null,
             "open_access_supplemental_link": null
+          },
+          {
+            "slot_id": "v-full-1627",
+            "session_id": "full37",
+            "title": "Perceiving Slope and Acceleration: Evidence for Variable Tempo Sampling in Pitch-Based Sonification of Functions",
+            "contributors": [
+              "Danyang Fan"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Premise",
+            "time_stamp": "2025-11-06T13:48:00.000Z",
+            "time_start": "2025-11-06T13:48:00.000Z",
+            "time_end": "2025-11-06T14:00:00.000Z",
+            "authors": [
+              {
+                "name": "Danyang Fan",
+                "email": "danfan17@stanford.edu",
+                "affiliation": "Stanford University"
+              },
+              {
+                "name": "Walker Smith",
+                "email": "walksmit@stanford.edu",
+                "affiliation": "Stanford University"
+              },
+              {
+                "name": "Takako Fujioka",
+                "email": "takako@ccrma.stanford.edu",
+                "affiliation": "Stanford University"
+              },
+              {
+                "name": "Chris Chafe",
+                "email": "cc@ccrma.stanford.edu",
+                "affiliation": "Stanford University"
+              },
+              {
+                "name": "Sile O'Modhrain",
+                "email": "sileo@umich.edu",
+                "affiliation": "University of Michigan"
+              },
+              {
+                "name": "Diana Deutsch",
+                "email": "othello5@stanford.edu",
+                "affiliation": "Stanford University"
+              },
+              {
+                "name": "Sean Follmer",
+                "email": "sfollmer@stanford.edu",
+                "affiliation": "Stanford University"
+              }
+            ],
+            "abstract": "Sonification offers a non-visual way to understand data, with pitch-based encodings being the most common. Yet, how well people perceive slope and acceleration—key features of data trends—remains poorly understood. Drawing on people's natural abilities to perceive tempo, we introduce a novel sampling method for pitch-based sonification to enhance the perception of slope and acceleration in univariate functions. While traditional sonification methods often sample data at uniform x-spacing, yielding notes played at a fixed tempo with variable pitch intervals (Variable Pitch Interval), our approach samples at uniform y-spacing, producing notes with consistent pitch intervals but variable tempo (Variable Tempo). We conducted psychoacoustic experiments to understand slope and acceleration perception across three sampling methods: Variable Pitch Interval, Variable Tempo, and a Continuous (no sampling) baseline. In slope comparison tasks, Variable Tempo was more accurate than the other methods when modulated by the magnitude ratio between slopes. For acceleration perception, just-noticeable differences under Variable Tempo were over 13 times finer than with other methods. Participants also commonly reported higher confidence, lower mental effort, and a stronger preference for Variable Tempo compared to other methods. This work contributes models of slope and acceleration perception across pitch-based sonification techniques, introduces Variable Tempo as a novel and preferred sampling method, and provides promising initial evidence that leveraging timing can lead to more sensitive, accurate, and precise interpretation of derivative-based data features.",
+            "uid": "9e3dfe2c-bbe4-4431-ae8b-1ee64a399c8b",
+            "keywords": [
+              "Visualization",
+              "Sonification",
+              "Empirical Studies",
+              "Auditory Perception"
+            ],
+            "preprint_link": "https://shape.stanford.edu/research/TempoSonification/Fan25PerceivingSlopeAndAccelerationVariableTempoSamplingSonification.pdf",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": null,
+            "open_access_supplemental_link": "https://osf.io/a4cth/?view_only=784965f9e9f64a3ea720cf53ff241481"
           },
           {
             "slot_id": "v-short-1202",
