@@ -21804,21 +21804,6 @@
     "sessions": [
       {
         "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
-        "session_id": "t-color-1",
-        "event_prefix": "t-color",
-        "track": "1_14",
-        "room_name": "Room 1.14",
-        "chair": [
-          "Theresa-Marie Rhyne"
-        ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
         "session_id": "t-color-2",
         "event_prefix": "t-color",
         "track": "1_14",
@@ -21830,6 +21815,21 @@
         "time_end": "2025-11-03T11:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
         "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations",
+        "session_id": "t-color-1",
+        "event_prefix": "t-color",
+        "track": "1_14",
+        "room_name": "Room 1.14",
+        "chair": [
+          "Theresa-Marie Rhyne"
+        ],
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945035909857394",
+        "youtube_url": "https://www.youtube.com/watch?v=nf-8Totq1pg",
         "time_slots": []
       }
     ]
