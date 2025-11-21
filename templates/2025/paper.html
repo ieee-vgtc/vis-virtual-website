@@ -183,7 +183,13 @@
     </div>
     {% endif %}
 
-    {% if paper.session_youtube_prerecorded_id %}
+    {% if paper.session_youtube_url %}
+    <div class="alert alert-success" role="alert">
+        Recorded video from this session can be viewed at the following link.
+        <br/>
+        <a href='{{paper.session_youtube_url}}' target='_blank'>{{paper.session_youtube_url}}</a>
+    </div>
+    {% elif paper.session_youtube_prerecorded_id %}
     <div class="row my-3">
         <div class="col-md-8">
             <h5 class="paper-details-heading">Full Video</h5>
@@ -207,6 +213,7 @@
         </div>
     </div>
     {% endif %}
+
     <div class="row my-3">
         <div class="col-md-8">
             {% if paper.keywords %}

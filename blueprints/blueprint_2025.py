@@ -401,7 +401,8 @@ def format_paper(v):
         "open_access_supplemental_link": v.get("open_access_supplemental_link"),
         "preprint_link": v.get("preprint_link"),
         "accessible_pdf": v.get("accessible_pdf"),
-        "pdf_url": None # v.get("pdf_url"), we are turning off the pdf URL
+        "pdf_url": None, # v.get("pdf_url"), we are turning off the pdf URL
+        "session_youtube_url": paper_session["youtube_url"] if paper_session["youtube_url"] else None
     }
 
 def format_poster(v):

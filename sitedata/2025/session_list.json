@@ -624,6 +624,275 @@
         ]
       },
       {
+        "title": "Virtual Session: Encoding & Comprehension",
+        "session_id": "full33",
+        "event_prefix": "v-full",
+        "track": "0_94_0_95",
+        "room_name": "Room 0.94 + 0.95",
+        "chair": [
+          "Alex Kale"
+        ],
+        "time_start": "2025-11-05T08:30:00+00:00",
+        "time_end": "2025-11-05T09:45:00+00:00",
+        "discord_link": null,
+        "youtube_url": "https://youtu.be/3SfIEPcGmf0",
+        "time_slots": [
+          {
+            "slot_id": "v-full-2070",
+            "session_id": "full33",
+            "title": "A Rigorous Behavior Assessment of CNNs Using a Data-Domain Sampling Regime",
+            "contributors": [
+              "Shuning Jiang"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Virtual",
+            "time_stamp": "2025-11-05T09:30:00.000Z",
+            "time_start": "2025-11-05T09:30:00.000Z",
+            "time_end": "2025-11-05T09:42:00.000Z",
+            "authors": [
+              {
+                "name": "Shuning Jiang",
+                "email": "jiang.2126@osu.edu",
+                "affiliation": "The Ohio State University"
+              },
+              {
+                "name": "Wei-Lun Chao",
+                "email": "weilunchao760414@gmail.com",
+                "affiliation": "The Ohio State University"
+              },
+              {
+                "name": "Daniel Haehn",
+                "email": "daniel.haehn@umb.edu",
+                "affiliation": "University of Massachusetts Boston"
+              },
+              {
+                "name": "Hanspeter Pfister",
+                "email": "pfister@seas.harvard.edu",
+                "affiliation": "Harvard University"
+              },
+              {
+                "name": "Jian Chen",
+                "email": "chen.8028@osu.edu",
+                "affiliation": "The Ohio State University"
+              }
+            ],
+            "abstract": "We present a data-domain sampling regime for quantifying CNNs’ graphic perception behaviors. This regime lets us evaluate CNNs’ ratio estimation ability in bar charts from three perspectives: sensitivity to training-test distribution discrepancies, stability to limited samples, and relative expertise to human observers. After analyzing 16 million trials from 800 CNN models and 6,825 trials from 113 human participants, we arrived at a simple and actionable conclusion: CNNs can outperform humans and their biases simply depend on the training-test distance. We show evidence of this simple, elegant behavior of the machines when they interpret visualization images. osf.io/gfqc3 provides registration, the code for our sampling regime, and experimental results.",
+            "uid": "72c11016-caee-44a4-82cf-1939cf5d21d3",
+            "keywords": [
+              "Quantification",
+              "convolutional neural network",
+              "sampling",
+              "graphical perception",
+              "evaluation"
+            ],
+            "preprint_link": "https://www.arxiv.org/abs/2507.03866",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": "Our work features thoroughly documented source code and interactive Google Colab notebooks, enabling immediate, zero-setup replication of our analyses online.",
+            "open_access_supplemental_link": "https://osf.io/gfqc3/"
+          },
+          {
+            "slot_id": "v-full-1495",
+            "session_id": "full33",
+            "title": "Evaluating judgements of spatial correlation in visual displays of scalar field distributions",
+            "contributors": [
+              "Yayan Zhao"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Virtual",
+            "time_stamp": "2025-11-05T08:30:00.000Z",
+            "time_start": "2025-11-05T08:30:00.000Z",
+            "time_end": "2025-11-05T08:42:00.000Z",
+            "authors": [
+              {
+                "name": "Yayan Zhao",
+                "email": "yayan.zhao@vanderbilt.edu",
+                "affiliation": "Vanderbilt University"
+              },
+              {
+                "name": "Matthew Berger",
+                "email": "matthew.berger@vanderbilt.edu",
+                "affiliation": "Vanderbilt University"
+              }
+            ],
+            "abstract": "In this work we study the identification of spatial correlation in distributions of 2D scalar fields, presented across different forms of visual displays. We study simple visual displays that directly show color-mapped scalar fields, namely those drawn from a distribution, and whether humans can identify strongly correlated spatial regions in these displays. In this setting, the recognition of correlation requires making judgments on a set of fields, rather than just one field. Thus, in our experimental design we compare two basic visualization designs: animation-based displays against juxtaposed views of scalar fields, along different choices of color scales. Moreover, we investigate the impacts of the distribution itself, controlling for the level of spatial correlation and discriminability in spatial\nscales. Our study’s results illustrate the impacts of these distribution characteristics, while also highlighting how different visual displays impact the types of judgments made in assessing spatial correlation. Supplemental material is available at https://osf.io/zn4qy/",
+            "uid": "14e8969b-dbaf-41b3-8330-a0decc6b53b0",
+            "keywords": [
+              "Evaluation",
+              "spatial correlation",
+              "color maps"
+            ],
+            "preprint_link": "https://arxiv.org/abs/2507.17997",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": null,
+            "open_access_supplemental_link": "https://osf.io/zn4qy"
+          },
+          {
+            "slot_id": "v-full-1614",
+            "session_id": "full33",
+            "title": "Reframing Pattern: A Comprehensive Approach to a Composite Visual Variable",
+            "contributors": [
+              "Tingying He"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Virtual",
+            "time_stamp": "2025-11-05T08:54:00.000Z",
+            "time_start": "2025-11-05T08:54:00.000Z",
+            "time_end": "2025-11-05T09:06:00.000Z",
+            "authors": [
+              {
+                "name": "Tingying He",
+                "email": "hetingying.hty@gmail.com",
+                "affiliation": "University of Utah"
+              },
+              {
+                "name": "Jason Dykes",
+                "email": "j.dykes@city.ac.uk",
+                "affiliation": "City, University of London"
+              },
+              {
+                "name": "Petra Isenberg",
+                "email": "petra.isenberg@inria.fr",
+                "affiliation": "Université Paris-Saclay, CNRS, Inria, LISN"
+              },
+              {
+                "name": "Tobias Isenberg",
+                "email": "tobias.isenberg@gmail.com",
+                "affiliation": "Université Paris-Saclay, CNRS, Inria, LISN"
+              }
+            ],
+            "abstract": "We present a new comprehensive theory for explaining, exploring, and using pattern as a visual variable in visualization. Although patterns have long been used for data encoding and continue to be valuable today, their conceptual foundations are precarious: the concepts and terminology used across the research literature and in practice are inconsistent, making it challenging to use patterns effectively and to conduct research to inform their use. To address this problem, we conduct a comprehensive cross-disciplinary literature review that clarifies ambiguities around the use of pattern and texture. As a result, we offer a new consistent treatment of pattern as a composite visual variable composed of structured groups of graphic primitives that can serve as marks for encoding data individually and collectively. This new and widely applicable formulation opens a sizable design space for the visual variable pattern, which we formalize as a new system comprising three sets of variables: the spatial arrangement of primitives, the appearance relationships among primitives, and the retinal visual variables that characterize individual primitives. We show how our pattern system relates to existing visualization theory and highlight opportunities for visualization design. We further explore patterns based on complex spatial arrangements, demonstrating explanatory power and connecting our conceptualization to broader theory on maps and cartography. An author version and additional materials are available on OSF: osf.io/z7ae2.",
+            "uid": "625a86de-1529-4724-8869-f081c7776f88",
+            "keywords": [
+              "Pattern",
+              "texture",
+              "visual variables",
+              "retinal variables",
+              "data visualization",
+              "Jacques Bertin"
+            ],
+            "preprint_link": "https://arxiv.org/abs/2508.02639",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": "We provide a well-documented appendix that includes detailed discussions and examples to support our theory. All images we created are correctly licensed under CC BY 4.0, and the paper has been uploaded to OSF and arXiv as well as will be shared on HAL; there is no code that relates to the paper, so a replicability stamp application was not an option.",
+            "open_access_supplemental_link": "https://osf.io/z7ae2/"
+          },
+          {
+            "slot_id": "v-full-1930",
+            "session_id": "full33",
+            "title": "TiVy: Time Series Visual Summary for Scalable Visualization",
+            "contributors": [
+              "Gromit Yeuk-Yin Chan"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Virtual",
+            "time_stamp": "2025-11-05T09:18:00.000Z",
+            "time_start": "2025-11-05T09:18:00.000Z",
+            "time_end": "2025-11-05T09:30:00.000Z",
+            "authors": [
+              {
+                "name": "Gromit Yeuk-Yin Chan",
+                "email": "ychan@adobe.com",
+                "affiliation": "Adobe Research"
+              },
+              {
+                "name": "Luis Gustavo Nonato",
+                "email": "gnonato@icmc.usp.br",
+                "affiliation": "University of Sao Paulo"
+              },
+              {
+                "name": "Themis Palpanas",
+                "email": "themis@mi.parisdescartes.fr",
+                "affiliation": "Paris Descartes University"
+              },
+              {
+                "name": "Claudio Silva",
+                "email": "csilva@nyu.edu",
+                "affiliation": "New York University"
+              },
+              {
+                "name": "Juliana Freire",
+                "email": "juliana.freire@nyu.edu",
+                "affiliation": "New York University"
+              }
+            ],
+            "abstract": "Visualizing multiple time series presents fundamental tradeoffs between scalability and visual clarity. Time series capture the behavior of many large-scale real-world processes, from stock market trends to urban activities. Users often gain insights by visualizing them as line charts, juxtaposing or superposing multiple time series to compare them and identify trends and patterns. However, existing representations struggle with scalability: when covering long time spans, leading to visual clutter from too many small multiples or overlapping lines. We propose TiVy, a new algorithm that summarizes time series using sequential patterns. It transforms the series into a set of symbolic sequences based on subsequence visual similarity using Dynamic Time Warping (DTW), then constructs a disjoint grouping of similar subsequences based on the frequent sequential patterns. The grouping result, a visual summary of time series, provides uncluttered superposition with fewer small multiples. Unlike common clustering techniques, TiVy extracts similar subsequences (of varying lengths) aligned in time. We also present an interactive time series visualization that renders large-scale time series in real-time. Our experimental evaluation shows that our algorithm (1) extracts clear and accurate patterns when visualizing  time series data, (2) achieves a significant speed-up (1000X) compared to a straightforward DTW clustering. We also demonstrate the efficiency of our approach to explore hidden structures in massive time series data in two usage scenarios.",
+            "uid": "8347663a-7e88-43e2-a557-e7b2179fd4e5",
+            "keywords": [
+              "Time Series Visualization",
+              "Sub-sequence Clustering"
+            ],
+            "preprint_link": "https://arxiv.org/pdf/2507.18972",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": null,
+            "open_access_supplemental_link": "https://github.com/GromitC/TiVy"
+          },
+          {
+            "slot_id": "v-full-1514",
+            "session_id": "full33",
+            "title": "Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low-Vision Individuals",
+            "contributors": [
+              "Tingying He"
+            ],
+            "paper_type": "Full",
+            "presentation_mode": "Virtual",
+            "time_stamp": "2025-11-05T08:42:00.000Z",
+            "time_start": "2025-11-05T08:42:00.000Z",
+            "time_end": "2025-11-05T08:54:00.000Z",
+            "authors": [
+              {
+                "name": "Tingying He",
+                "email": "hetingying.hty@gmail.com",
+                "affiliation": "University of Utah"
+              },
+              {
+                "name": "Maggie McCracken",
+                "email": "maggie.mccracken@psych.utah.edu",
+                "affiliation": "University of Utah"
+              },
+              {
+                "name": "Daniel Hajas",
+                "email": "d.hajas@ucl.ac.uk",
+                "affiliation": "University College London"
+              },
+              {
+                "name": "Sarah Creem-Regehr",
+                "email": "sarah.creem@psych.utah.edu",
+                "affiliation": "University of Utah"
+              },
+              {
+                "name": "Alexander Lex",
+                "email": "alexander.lex@gmail.com",
+                "affiliation": "University of Utah"
+              }
+            ],
+            "abstract": "We investigate whether tactile charts support comprehension and learning of complex visualizations for blind and low-vision (BLV) individuals and contribute four tactile chart designs and an interview study. Visualizations are powerful tools for conveying data, yet BLV individuals typically can rely only on assistive technologies—primarily alternative texts—to access this information. Prior research shows the importance of mental models of chart types for interpreting these descriptions, yet BLV individuals have no means to build such a mental model based on images of visualizations. Tactile charts show promise to fill this gap in supporting the process of building mental models. Yet studies on tactile data representations mostly focus on simple chart types, and it is unclear whether they are also appropriate for more complex charts as would be found in scientific publications. Working with two BLV researchers, we designed 3D-printed tactile template charts with exploration instructions for four advanced chart types: UpSet plots, violin plots, clustered heatmaps, and faceted line charts. We then conducted an interview study with 12 BLV participants comparing whether using our tactile templates improves mental models and understanding of charts and whether this understanding translates to novel datasets experienced through alt texts. Thematic analysis shows that tactile models support chart type understanding and are the preferred learning method by BLV individuals. We also report participants' opinions on tactile chart design and their role in BLV education.",
+            "uid": "055a075f-b15e-43ec-becb-cc09ad944d2c",
+            "keywords": [
+              "Accessibility",
+              "tactile representations"
+            ],
+            "preprint_link": "https://arxiv.org/abs/2507.21462",
+            "has_pdf": true,
+            "paper_award": null,
+            "doi": null,
+            "fno": null,
+            "open_access_supplemental_question": "We provide an extensive, well-documented 40-page appendix that includes materials and detailed descriptions of the full design and user study processes.",
+            "open_access_supplemental_link": "https://osf.io/9dwgq/"
+          }
+        ]
+      },
+      {
         "title": "Visualization Literacy",
         "session_id": "full35",
         "event_prefix": "v-full",
@@ -1023,275 +1292,6 @@
             "fno": null,
             "open_access_supplemental_question": "We provided detailed supplemental materials for our autoethnography, including the interview protocol with the semi-structured questions and the full Miro board that we used during analysis.",
             "open_access_supplemental_link": "https://osf.io/xwr4c/"
-          }
-        ]
-      },
-      {
-        "title": "Virtual Session: Encoding & Comprehension",
-        "session_id": "full33",
-        "event_prefix": "v-full",
-        "track": "0_94_0_95",
-        "room_name": "Room 0.94 + 0.95",
-        "chair": [
-          "Alex Kale"
-        ],
-        "time_start": "2025-11-05T08:30:00+00:00",
-        "time_end": "2025-11-05T09:45:00+00:00",
-        "discord_link": null,
-        "youtube_url": null,
-        "time_slots": [
-          {
-            "slot_id": "v-full-2070",
-            "session_id": "full33",
-            "title": "A Rigorous Behavior Assessment of CNNs Using a Data-Domain Sampling Regime",
-            "contributors": [
-              "Shuning Jiang"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Virtual",
-            "time_stamp": "2025-11-05T09:30:00.000Z",
-            "time_start": "2025-11-05T09:30:00.000Z",
-            "time_end": "2025-11-05T09:42:00.000Z",
-            "authors": [
-              {
-                "name": "Shuning Jiang",
-                "email": "jiang.2126@osu.edu",
-                "affiliation": "The Ohio State University"
-              },
-              {
-                "name": "Wei-Lun Chao",
-                "email": "weilunchao760414@gmail.com",
-                "affiliation": "The Ohio State University"
-              },
-              {
-                "name": "Daniel Haehn",
-                "email": "daniel.haehn@umb.edu",
-                "affiliation": "University of Massachusetts Boston"
-              },
-              {
-                "name": "Hanspeter Pfister",
-                "email": "pfister@seas.harvard.edu",
-                "affiliation": "Harvard University"
-              },
-              {
-                "name": "Jian Chen",
-                "email": "chen.8028@osu.edu",
-                "affiliation": "The Ohio State University"
-              }
-            ],
-            "abstract": "We present a data-domain sampling regime for quantifying CNNs’ graphic perception behaviors. This regime lets us evaluate CNNs’ ratio estimation ability in bar charts from three perspectives: sensitivity to training-test distribution discrepancies, stability to limited samples, and relative expertise to human observers. After analyzing 16 million trials from 800 CNN models and 6,825 trials from 113 human participants, we arrived at a simple and actionable conclusion: CNNs can outperform humans and their biases simply depend on the training-test distance. We show evidence of this simple, elegant behavior of the machines when they interpret visualization images. osf.io/gfqc3 provides registration, the code for our sampling regime, and experimental results.",
-            "uid": "72c11016-caee-44a4-82cf-1939cf5d21d3",
-            "keywords": [
-              "Quantification",
-              "convolutional neural network",
-              "sampling",
-              "graphical perception",
-              "evaluation"
-            ],
-            "preprint_link": "https://www.arxiv.org/abs/2507.03866",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": "Our work features thoroughly documented source code and interactive Google Colab notebooks, enabling immediate, zero-setup replication of our analyses online.",
-            "open_access_supplemental_link": "https://osf.io/gfqc3/"
-          },
-          {
-            "slot_id": "v-full-1495",
-            "session_id": "full33",
-            "title": "Evaluating judgements of spatial correlation in visual displays of scalar field distributions",
-            "contributors": [
-              "Yayan Zhao"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Virtual",
-            "time_stamp": "2025-11-05T08:30:00.000Z",
-            "time_start": "2025-11-05T08:30:00.000Z",
-            "time_end": "2025-11-05T08:42:00.000Z",
-            "authors": [
-              {
-                "name": "Yayan Zhao",
-                "email": "yayan.zhao@vanderbilt.edu",
-                "affiliation": "Vanderbilt University"
-              },
-              {
-                "name": "Matthew Berger",
-                "email": "matthew.berger@vanderbilt.edu",
-                "affiliation": "Vanderbilt University"
-              }
-            ],
-            "abstract": "In this work we study the identification of spatial correlation in distributions of 2D scalar fields, presented across different forms of visual displays. We study simple visual displays that directly show color-mapped scalar fields, namely those drawn from a distribution, and whether humans can identify strongly correlated spatial regions in these displays. In this setting, the recognition of correlation requires making judgments on a set of fields, rather than just one field. Thus, in our experimental design we compare two basic visualization designs: animation-based displays against juxtaposed views of scalar fields, along different choices of color scales. Moreover, we investigate the impacts of the distribution itself, controlling for the level of spatial correlation and discriminability in spatial\nscales. Our study’s results illustrate the impacts of these distribution characteristics, while also highlighting how different visual displays impact the types of judgments made in assessing spatial correlation. Supplemental material is available at https://osf.io/zn4qy/",
-            "uid": "14e8969b-dbaf-41b3-8330-a0decc6b53b0",
-            "keywords": [
-              "Evaluation",
-              "spatial correlation",
-              "color maps"
-            ],
-            "preprint_link": "https://arxiv.org/abs/2507.17997",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": "https://osf.io/zn4qy"
-          },
-          {
-            "slot_id": "v-full-1614",
-            "session_id": "full33",
-            "title": "Reframing Pattern: A Comprehensive Approach to a Composite Visual Variable",
-            "contributors": [
-              "Tingying He"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Virtual",
-            "time_stamp": "2025-11-05T08:54:00.000Z",
-            "time_start": "2025-11-05T08:54:00.000Z",
-            "time_end": "2025-11-05T09:06:00.000Z",
-            "authors": [
-              {
-                "name": "Tingying He",
-                "email": "hetingying.hty@gmail.com",
-                "affiliation": "University of Utah"
-              },
-              {
-                "name": "Jason Dykes",
-                "email": "j.dykes@city.ac.uk",
-                "affiliation": "City, University of London"
-              },
-              {
-                "name": "Petra Isenberg",
-                "email": "petra.isenberg@inria.fr",
-                "affiliation": "Université Paris-Saclay, CNRS, Inria, LISN"
-              },
-              {
-                "name": "Tobias Isenberg",
-                "email": "tobias.isenberg@gmail.com",
-                "affiliation": "Université Paris-Saclay, CNRS, Inria, LISN"
-              }
-            ],
-            "abstract": "We present a new comprehensive theory for explaining, exploring, and using pattern as a visual variable in visualization. Although patterns have long been used for data encoding and continue to be valuable today, their conceptual foundations are precarious: the concepts and terminology used across the research literature and in practice are inconsistent, making it challenging to use patterns effectively and to conduct research to inform their use. To address this problem, we conduct a comprehensive cross-disciplinary literature review that clarifies ambiguities around the use of pattern and texture. As a result, we offer a new consistent treatment of pattern as a composite visual variable composed of structured groups of graphic primitives that can serve as marks for encoding data individually and collectively. This new and widely applicable formulation opens a sizable design space for the visual variable pattern, which we formalize as a new system comprising three sets of variables: the spatial arrangement of primitives, the appearance relationships among primitives, and the retinal visual variables that characterize individual primitives. We show how our pattern system relates to existing visualization theory and highlight opportunities for visualization design. We further explore patterns based on complex spatial arrangements, demonstrating explanatory power and connecting our conceptualization to broader theory on maps and cartography. An author version and additional materials are available on OSF: osf.io/z7ae2.",
-            "uid": "625a86de-1529-4724-8869-f081c7776f88",
-            "keywords": [
-              "Pattern",
-              "texture",
-              "visual variables",
-              "retinal variables",
-              "data visualization",
-              "Jacques Bertin"
-            ],
-            "preprint_link": "https://arxiv.org/abs/2508.02639",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": "We provide a well-documented appendix that includes detailed discussions and examples to support our theory. All images we created are correctly licensed under CC BY 4.0, and the paper has been uploaded to OSF and arXiv as well as will be shared on HAL; there is no code that relates to the paper, so a replicability stamp application was not an option.",
-            "open_access_supplemental_link": "https://osf.io/z7ae2/"
-          },
-          {
-            "slot_id": "v-full-1930",
-            "session_id": "full33",
-            "title": "TiVy: Time Series Visual Summary for Scalable Visualization",
-            "contributors": [
-              "Gromit Yeuk-Yin Chan"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Virtual",
-            "time_stamp": "2025-11-05T09:18:00.000Z",
-            "time_start": "2025-11-05T09:18:00.000Z",
-            "time_end": "2025-11-05T09:30:00.000Z",
-            "authors": [
-              {
-                "name": "Gromit Yeuk-Yin Chan",
-                "email": "ychan@adobe.com",
-                "affiliation": "Adobe Research"
-              },
-              {
-                "name": "Luis Gustavo Nonato",
-                "email": "gnonato@icmc.usp.br",
-                "affiliation": "University of Sao Paulo"
-              },
-              {
-                "name": "Themis Palpanas",
-                "email": "themis@mi.parisdescartes.fr",
-                "affiliation": "Paris Descartes University"
-              },
-              {
-                "name": "Claudio Silva",
-                "email": "csilva@nyu.edu",
-                "affiliation": "New York University"
-              },
-              {
-                "name": "Juliana Freire",
-                "email": "juliana.freire@nyu.edu",
-                "affiliation": "New York University"
-              }
-            ],
-            "abstract": "Visualizing multiple time series presents fundamental tradeoffs between scalability and visual clarity. Time series capture the behavior of many large-scale real-world processes, from stock market trends to urban activities. Users often gain insights by visualizing them as line charts, juxtaposing or superposing multiple time series to compare them and identify trends and patterns. However, existing representations struggle with scalability: when covering long time spans, leading to visual clutter from too many small multiples or overlapping lines. We propose TiVy, a new algorithm that summarizes time series using sequential patterns. It transforms the series into a set of symbolic sequences based on subsequence visual similarity using Dynamic Time Warping (DTW), then constructs a disjoint grouping of similar subsequences based on the frequent sequential patterns. The grouping result, a visual summary of time series, provides uncluttered superposition with fewer small multiples. Unlike common clustering techniques, TiVy extracts similar subsequences (of varying lengths) aligned in time. We also present an interactive time series visualization that renders large-scale time series in real-time. Our experimental evaluation shows that our algorithm (1) extracts clear and accurate patterns when visualizing  time series data, (2) achieves a significant speed-up (1000X) compared to a straightforward DTW clustering. We also demonstrate the efficiency of our approach to explore hidden structures in massive time series data in two usage scenarios.",
-            "uid": "8347663a-7e88-43e2-a557-e7b2179fd4e5",
-            "keywords": [
-              "Time Series Visualization",
-              "Sub-sequence Clustering"
-            ],
-            "preprint_link": "https://arxiv.org/pdf/2507.18972",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": null,
-            "open_access_supplemental_link": "https://github.com/GromitC/TiVy"
-          },
-          {
-            "slot_id": "v-full-1514",
-            "session_id": "full33",
-            "title": "Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low-Vision Individuals",
-            "contributors": [
-              "Tingying He"
-            ],
-            "paper_type": "Full",
-            "presentation_mode": "Virtual",
-            "time_stamp": "2025-11-05T08:42:00.000Z",
-            "time_start": "2025-11-05T08:42:00.000Z",
-            "time_end": "2025-11-05T08:54:00.000Z",
-            "authors": [
-              {
-                "name": "Tingying He",
-                "email": "hetingying.hty@gmail.com",
-                "affiliation": "University of Utah"
-              },
-              {
-                "name": "Maggie McCracken",
-                "email": "maggie.mccracken@psych.utah.edu",
-                "affiliation": "University of Utah"
-              },
-              {
-                "name": "Daniel Hajas",
-                "email": "d.hajas@ucl.ac.uk",
-                "affiliation": "University College London"
-              },
-              {
-                "name": "Sarah Creem-Regehr",
-                "email": "sarah.creem@psych.utah.edu",
-                "affiliation": "University of Utah"
-              },
-              {
-                "name": "Alexander Lex",
-                "email": "alexander.lex@gmail.com",
-                "affiliation": "University of Utah"
-              }
-            ],
-            "abstract": "We investigate whether tactile charts support comprehension and learning of complex visualizations for blind and low-vision (BLV) individuals and contribute four tactile chart designs and an interview study. Visualizations are powerful tools for conveying data, yet BLV individuals typically can rely only on assistive technologies—primarily alternative texts—to access this information. Prior research shows the importance of mental models of chart types for interpreting these descriptions, yet BLV individuals have no means to build such a mental model based on images of visualizations. Tactile charts show promise to fill this gap in supporting the process of building mental models. Yet studies on tactile data representations mostly focus on simple chart types, and it is unclear whether they are also appropriate for more complex charts as would be found in scientific publications. Working with two BLV researchers, we designed 3D-printed tactile template charts with exploration instructions for four advanced chart types: UpSet plots, violin plots, clustered heatmaps, and faceted line charts. We then conducted an interview study with 12 BLV participants comparing whether using our tactile templates improves mental models and understanding of charts and whether this understanding translates to novel datasets experienced through alt texts. Thematic analysis shows that tactile models support chart type understanding and are the preferred learning method by BLV individuals. We also report participants' opinions on tactile chart design and their role in BLV education.",
-            "uid": "055a075f-b15e-43ec-becb-cc09ad944d2c",
-            "keywords": [
-              "Accessibility",
-              "tactile representations"
-            ],
-            "preprint_link": "https://arxiv.org/abs/2507.21462",
-            "has_pdf": true,
-            "paper_award": null,
-            "doi": null,
-            "fno": null,
-            "open_access_supplemental_question": "We provide an extensive, well-documented 40-page appendix that includes materials and detailed descriptions of the full design and user study processes.",
-            "open_access_supplemental_link": "https://osf.io/9dwgq/"
           }
         ]
       },
@@ -10576,7 +10576,7 @@
         "time_start": "2025-11-06T10:15:00+00:00",
         "time_end": "2025-11-06T11:30:00+00:00",
         "discord_link": null,
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/7jlWgTDmDL8",
         "time_slots": [
           {
             "slot_id": "v-full-1274",
@@ -10832,7 +10832,7 @@
         "time_start": "2025-11-06T13:00:00+00:00",
         "time_end": "2025-11-06T14:15:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945351015071859",
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/M8ysk79s5d8",
         "time_slots": [
           {
             "slot_id": "v-cga-10.1109/MCG.2024.3444460",
@@ -16855,7 +16855,7 @@
         "time_start": "2025-11-05T10:15:00+00:00",
         "time_end": "2025-11-05T11:30:00+00:00",
         "discord_link": null,
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/AJ95H_3rPaw",
         "time_slots": [
           {
             "slot_id": "v-short-1128",
@@ -18367,7 +18367,7 @@
         "time_start": "2025-11-06T08:30:00+00:00",
         "time_end": "2025-11-06T09:45:00+00:00",
         "discord_link": null,
-        "youtube_url": null,
+        "youtube_url": "https://youtu.be/uf1QaQ79PT8",
         "time_slots": [
           {
             "slot_id": "v-short-1322",
@@ -20082,26 +20082,6 @@
     "sessions": [
       {
         "title": "alt.VIS 2025",
-        "session_id": "w-altvis-1",
-        "event_prefix": "w-altvis",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          "Andrew M McNutt",
-          "Søren Lyngsø Knudsen",
-          "Alyxander Burns",
-          "Connor Scully-Allison",
-          "Sara Di Bartolomeo",
-          "Victor Schetinger"
-        ],
-        "time_start": "2025-11-02T08:00:00+00:00",
-        "time_end": "2025-11-02T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "alt.VIS 2025",
         "session_id": "w-altvis-2",
         "event_prefix": "w-altvis",
         "track": "0_11_0_12",
@@ -20116,6 +20096,26 @@
         ],
         "time_start": "2025-11-02T10:00:00+00:00",
         "time_end": "2025-11-02T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "alt.VIS 2025",
+        "session_id": "w-altvis-1",
+        "event_prefix": "w-altvis",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Andrew M McNutt",
+          "Søren Lyngsø Knudsen",
+          "Alyxander Burns",
+          "Connor Scully-Allison",
+          "Sara Di Bartolomeo",
+          "Victor Schetinger"
+        ],
+        "time_start": "2025-11-02T08:00:00+00:00",
+        "time_end": "2025-11-02T09:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945149088960622",
         "youtube_url": null,
         "time_slots": []
@@ -20141,27 +20141,6 @@
     "sessions": [
       {
         "title": "Human Factors in Immersive Analytics",
-        "session_id": "w-hfia-1",
-        "event_prefix": "w-hfia",
-        "track": "1_15_1_16",
-        "room_name": "Room 1.15 + 1.16",
-        "chair": [
-          "Yi Li",
-          "Kadek Ananta Satriadi",
-          "Jiazhou Liu",
-          "Anjali Khurana",
-          "Zhiqing Wu",
-          "Benjamin Tag",
-          "Tim Dwyer"
-        ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "Human Factors in Immersive Analytics",
         "session_id": "w-hfia-2",
         "event_prefix": "w-hfia",
         "track": "1_15_1_16",
@@ -20177,6 +20156,27 @@
         ],
         "time_start": "2025-11-03T10:00:00+00:00",
         "time_end": "2025-11-03T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "Human Factors in Immersive Analytics",
+        "session_id": "w-hfia-1",
+        "event_prefix": "w-hfia",
+        "track": "1_15_1_16",
+        "room_name": "Room 1.15 + 1.16",
+        "chair": [
+          "Yi Li",
+          "Kadek Ananta Satriadi",
+          "Jiazhou Liu",
+          "Anjali Khurana",
+          "Zhiqing Wu",
+          "Benjamin Tag",
+          "Tim Dwyer"
+        ],
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945019757465711",
         "youtube_url": null,
         "time_slots": []
@@ -21357,21 +21357,6 @@
     "sessions": [
       {
         "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
-        "session_id": "w-ldav-1",
-        "event_prefix": "w-ldav",
-        "track": "m2",
-        "room_name": "Hall M2",
-        "chair": [
-          "Gunther H Weber"
-        ],
-        "time_start": "2025-11-03T08:00:00+00:00",
-        "time_end": "2025-11-03T09:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
         "session_id": "w-ldav-2",
         "event_prefix": "w-ldav",
         "track": "m2",
@@ -21381,6 +21366,21 @@
         ],
         "time_start": "2025-11-03T10:00:00+00:00",
         "time_end": "2025-11-03T11:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization",
+        "session_id": "w-ldav-1",
+        "event_prefix": "w-ldav",
+        "track": "m2",
+        "room_name": "Hall M2",
+        "chair": [
+          "Gunther H Weber"
+        ],
+        "time_start": "2025-11-03T08:00:00+00:00",
+        "time_end": "2025-11-03T09:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945008889888889",
         "youtube_url": null,
         "time_slots": []
@@ -21510,27 +21510,6 @@
     "sessions": [
       {
         "title": "The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online",
-        "session_id": "w-mercado-1",
-        "event_prefix": "w-mercado",
-        "track": "0_11_0_12",
-        "room_name": "Room 0.11 + 0.12",
-        "chair": [
-          "Wolfgang Büschel",
-          "Gabriela Molina León",
-          "Arnaud Prouzeau",
-          "Mahmood Jasim",
-          "Christophe Hurter",
-          "Maxime Cordeil",
-          "Matthew Brehmer"
-        ],
-        "time_start": "2025-11-02T13:00:00+00:00",
-        "time_end": "2025-11-02T14:30:00+00:00",
-        "discord_link": "https://discord.com/channels/1422883912660549696/1430945243561463961",
-        "youtube_url": null,
-        "time_slots": []
-      },
-      {
-        "title": "The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online",
         "session_id": "w-mercado-2",
         "event_prefix": "w-mercado",
         "track": "0_11_0_12",
@@ -21546,6 +21525,27 @@
         ],
         "time_start": "2025-11-02T15:00:00+00:00",
         "time_end": "2025-11-02T16:30:00+00:00",
+        "discord_link": "https://discord.com/channels/1422883912660549696/1430945243561463961",
+        "youtube_url": null,
+        "time_slots": []
+      },
+      {
+        "title": "The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online",
+        "session_id": "w-mercado-1",
+        "event_prefix": "w-mercado",
+        "track": "0_11_0_12",
+        "room_name": "Room 0.11 + 0.12",
+        "chair": [
+          "Wolfgang Büschel",
+          "Gabriela Molina León",
+          "Arnaud Prouzeau",
+          "Mahmood Jasim",
+          "Christophe Hurter",
+          "Maxime Cordeil",
+          "Matthew Brehmer"
+        ],
+        "time_start": "2025-11-02T13:00:00+00:00",
+        "time_end": "2025-11-02T14:30:00+00:00",
         "discord_link": "https://discord.com/channels/1422883912660549696/1430945243561463961",
         "youtube_url": null,
         "time_slots": []
